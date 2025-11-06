@@ -1,6 +1,6 @@
-# 🔥 AIForge - The Ultimate Forge for AI Resources
+# 🔥 AIForge - The Ultimate Curated Collection of AI, Machine Learning, and Deep Learning Resources
 
-Welcome to **AIForge**, the definitive, curated collection of the best resources for Artificial Intelligence, Machine Learning, and Deep Learning.
+Welcome to **AIForge**, the definitive, curated collection of the best resources for **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and **Deep Learning (DL)**. Find **frameworks**, **models**, **datasets**, **MLOps tools**, **LLM frameworks**, and **industry applications** in one place. This repository is essential for **data scientists**, **ML engineers**, and **AI researchers** looking for **SOTA (State-of-the-Art)** solutions.
 
 ## 🗺️ Navigation Guide
 

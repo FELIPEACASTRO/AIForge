@@ -1,0 +1,22 @@
+# 20 Tags Mais Relevantes para AIForge (SEO GitHub)
+
+1. artificial-intelligence
+2. machine-learning
+3. deep-learning
+4. ai
+5. ml
+6. data-science
+7. awesome-list
+8. awesome
+9. llm
+10. nlp
+11. computer-vision
+12. pytorch
+13. tensorflow
+14. mlops
+15. generative-ai
+16. models
+17. datasets
+18. frameworks
+19. python
+20. research
