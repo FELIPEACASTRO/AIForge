@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Recursos-14,944%2B-blue?style=for-the-badge" alt="Total de Recursos">
-  <img src="https://img.shields.io/badge/Temas-34-green?style=for-the-badge" alt="Total de Temas">
-  <img src="https://img.shields.io/badge/Documentos-95%2B-orange?style=for-the-badge" alt="Total de Documentos">
+  <img src="https://img.shields.io/badge/Total%20Recursos-14,988%2B-blue?style=for-the-badge" alt="Total de Recursos">
+  <img src="https://img.shields.io/badge/Temas-38-green?style=for-the-badge" alt="Total de Temas">
+  <img src="https://img.shields.io/badge/Documentos-99%2B-orange?style=for-the-badge" alt="Total de Documentos">
   <img src="https://img.shields.io/badge/Atualizado-Outubro%202025-red?style=for-the-badge" alt="Atualizado">
 </p>
 
@@ -22,9 +22,9 @@
 
 | Métrica | Valor | Comparação |
 |---|---|---|
-| 🎯 **Total de Recursos** | 14.944+ | **35X maior** que outros repos |
-| 📁 **Temas Organizados** | 34 | Estrutura hierárquica |
-| 📄 **Documentos** | 95+ | Profissionalmente formatados |
+| 🎯 **Total de Recursos** | 14.988+ | **35X maior** que outros repos |
+| 📁 **Temas Organizados** | 38 | Estrutura hierárquica |
+| 📄 **Documentos** | 99+ | Profissionalmente formatados |
 | 🌐 **Plataformas** | 87+ | AWS, Google, Azure, Snowflake |
 | 🎓 **Universidades** | 200+ | Cobertura global |
 | ⭐ **Estrelas Combinadas** | 4.3M+ | Repositórios validados |
@@ -55,7 +55,7 @@
 
 ## 📂 Estrutura do Repositório
 
-O repositório está organizado em **4 categorias principais** com **34 temas**:
+O repositório está organizado em **4 categorias principais** com **38 temas**:
 
 ### 🏛️ 01 - FUNDAMENTOS (Foundations)
 
