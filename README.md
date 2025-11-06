@@ -1,14 +1,22 @@
-# 🔥 AIForge - The Ultimate Curated Collection of AI, Machine Learning, and Deep Learning Resources
-# 🔥 AIForge - A Coleção Definitiva e Curada de Recursos de IA, Machine Learning e Deep Learning
+<p align="center">
+  <img src="./logo-horizontal.png" alt="AIForge Logo" width="600"/>
+</p>
 
-[![GitHub Stars](https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social)](https://github.com/FELIPEACASTRO/AIForge/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/FELIPEACASTRO/AIForge?style=social)](https://github.com/FELIPEACASTRO/AIForge/network/members)
-[![GitHub Contributors](https://img.shields.io/github/contributors/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/graphs/contributors)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/commits/master)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Issues](https://img.shields.io/github/issues/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/pulls)
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<h1 align="center">🔥 AIForge</h1>
+<h3 align="center">The Ultimate Curated Collection of AI, Machine Learning, and Deep Learning Resources</h3>
+<h3 align="center">A Coleção Definitiva e Curada de Recursos de IA, Machine Learning e Deep Learning</h3>
+
+<p align="center">
+  <a href="https://github.com/FELIPEACASTRO/AIForge/stargazers"><img src="https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/FELIPEACASTRO/AIForge/network/members"><img src="https://img.shields.io/github/forks/FELIPEACASTRO/AIForge?style=social" alt="GitHub Forks"/></a>
+  <a href="https://github.com/FELIPEACASTRO/AIForge/graphs/contributors"><img src="https://img.shields.io/github/contributors/FELIPEACASTRO/AIForge" alt="Contributors"/></a>
+  <a href="https://github.com/FELIPEACASTRO/AIForge/commits/master"><img src="https://img.shields.io/github/last-commit/FELIPEACASTRO/AIForge" alt="Last Commit"/></a>
+  <br/>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="https://github.com/FELIPEACASTRO/AIForge/issues"><img src="https://img.shields.io/github/issues/FELIPEACASTRO/AIForge" alt="Issues"/></a>
+  <a href="https://github.com/FELIPEACASTRO/AIForge/pulls"><img src="https://img.shields.io/github/issues-pr/FELIPEACASTRO/AIForge" alt="Pull Requests"/></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"/></a>
+</p>
 
 ---
 
