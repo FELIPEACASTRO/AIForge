@@ -1,3 +1,0 @@
-# Anomaly Detection
-
-- PyOD

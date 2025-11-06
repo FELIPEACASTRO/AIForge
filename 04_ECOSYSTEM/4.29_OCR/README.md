@@ -1,4 +1,0 @@
-# OCR
-
-- Tesseract
-- EasyOCR

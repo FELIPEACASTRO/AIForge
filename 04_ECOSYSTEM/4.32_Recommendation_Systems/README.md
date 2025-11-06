@@ -1,4 +1,0 @@
-# Recommendation Systems
-
-- Surprise
-- LightFM
