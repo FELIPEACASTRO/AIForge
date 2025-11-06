@@ -9,3 +9,9 @@
 - [Codalab](https://codalab.lisn.upsaclay.fr)
 - [DataHack](https://datahack.analyticsvidhya.com)
 - [MachineHack](https://machinehack.com)
+
+## DrivenData Open-Source
+
+- Zamba (wildlife detection)
+- Cookiecutter Data Science
+- deon (ethics checklist)
