@@ -1,15 +1,18 @@
-# 🤝 Guia de Contribuição
+# 🤝 Guia de Contribuição para AIForge
 
-Obrigado por seu interesse em contribuir para o **AIForge**! Sua ajuda é fundamental para manter este repositório atualizado e relevante.
+Obrigado por seu interesse em contribuir para o **AIForge - The Ultimate Curated Collection of AI, Machine Learning, and Deep Learning Resources**! Sua ajuda é fundamental para manter esta coleção a mais completa e atualizada possível.
 
 ## 🚀 Como Contribuir
 
 ### 1. Encontre um Recurso para Adicionar
 
+O AIForge é uma coleção exaustiva de recursos. Buscamos:
+
 - **Modelos de IA:** Repositórios GitHub, papers com código, modelos no Hugging Face.
 - **Datasets:** Públicos, bem documentados e úteis para a comunidade.
 - **Ferramentas:** Bibliotecas, frameworks, plataformas de MLOps.
 - **Recursos de Aprendizagem:** Tutoriais, cursos, livros, artigos.
+- **Aplicações de Nicho:** Foco especial em **Finanças, E-commerce e Marketing**.
 
 ### 2. Verifique se o Recurso já Existe
 
@@ -27,7 +30,11 @@ repo:FELIPEACASTRO/AIForge "NOME_DO_RECURSO"
    ```bash
    git checkout -b feature/AdicionarRecursoX
    ```
-4. **Encontre o diretório correto** para o seu recurso.
+4. **Encontre o diretório correto** para o seu recurso, seguindo a nova estrutura por Caso de Uso:
+   - **01\_LEARN/**: Cursos, livros, comunidades.
+   - **02\_BUILD/**: Frameworks, modelos, datasets.
+   - **03\_DEPLOY/**: MLOps, serving, infraestrutura.
+   - **04\_APPLY/**: Aplicações em domínios específicos (Finanças, Saúde, etc.).
 5. **Adicione o link** no formato Markdown, seguindo o padrão existente.
 
 ### 4. Siga o Formato Padrão
@@ -48,7 +55,7 @@ repo:FELIPEACASTRO/AIForge "NOME_DO_RECURSO"
 
 ```bash
 git add .
-git commit -m "Add: Adiciona [Nome do Recurso] em [Categoria]"
+git commit -m "feat: Adiciona [Nome do Recurso] em [Categoria]"
 git push origin feature/AdicionarRecursoX
 ```
 
@@ -63,7 +70,7 @@ git push origin feature/AdicionarRecursoX
 
 - **Relevância:** O recurso deve ser relevante para a comunidade de IA.
 - **Qualidade:** Deve ser um recurso de alta qualidade, bem documentado e funcional.
-- **Open-Source:** Preferencialmente open-source, mas recursos proprietários de alto valor podem ser considerados.
+- **Foco:** Prioridade para recursos que se encaixam na nova estrutura por Caso de Uso.
 - **Formato:** Deve seguir o formato de contribuição.
 
 ## 📜 Código de Conduta

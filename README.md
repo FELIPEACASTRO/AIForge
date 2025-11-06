@@ -1,8 +1,17 @@
 # 🔥 AIForge - The Ultimate Curated Collection of AI, Machine Learning, and Deep Learning Resources
 
+[![GitHub Stars](https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social)](https://github.com/FELIPEACASTRO/AIForge/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/FELIPEACASTRO/AIForge?style=social)](https://github.com/FELIPEACASTRO/AIForge/network/members)
+[![GitHub Contributors](https://img.shields.io/github/contributors/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/graphs/contributors)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/commits/master)
+
+## 🌟 Destaques: O Ecossistema Completo de AI/ML/DL
+
+O **AIForge** é a sua fonte definitiva para **recursos de inteligência artificial para iniciantes** e profissionais. Com mais de 15.000 recursos validados, cobrimos o **ecossistema completo de machine learning** e deep learning, com foco especial em **aplicações de AI em finanças e e-commerce**.
+
 Welcome to **AIForge**, the definitive, curated collection of the best resources for **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and **Deep Learning (DL)**. Find **frameworks**, **models**, **datasets**, **MLOps tools**, **LLM frameworks**, and **industry applications** in one place. This repository is essential for **data scientists**, **ML engineers**, and **AI researchers** looking for **SOTA (State-of-the-Art)** solutions.
 
-## 🗺️ Navigation Guide
+## 🗺️ Guia de Navegação: Recursos de Deep Learning Organizados por Caso de Uso
 
 The repository is now organized by **Use Case** for intuitive navigation:
 
