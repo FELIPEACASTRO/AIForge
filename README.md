@@ -5,6 +5,10 @@
 [![GitHub Forks](https://img.shields.io/github/forks/FELIPEACASTRO/AIForge?style=social)](https://github.com/FELIPEACASTRO/AIForge/network/members)
 [![GitHub Contributors](https://img.shields.io/github/contributors/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/graphs/contributors)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/commits/master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Issues](https://img.shields.io/github/issues/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/FELIPEACASTRO/AIForge)](https://github.com/FELIPEACASTRO/AIForge/pulls)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ---
 
@@ -14,6 +18,23 @@
 **[EN]** Welcome to **AIForge**, the definitive, curated collection of the best resources for **Artificial Intelligence (AI)**, **Machine Learning (ML)**, and **Deep Learning (DL)**. With over 15,000 validated resources, we cover the **complete machine learning ecosystem** and deep learning, with special focus on **AI applications in finance and e-commerce**. Find **frameworks**, **models**, **datasets**, **MLOps tools**, **LLM frameworks**, and **industry applications** in one place. This repository is essential for **data scientists**, **ML engineers**, and **AI researchers** looking for **SOTA (State-of-the-Art)** solutions.
 
 **[PT]** Bem-vindo ao **AIForge**, a coleção definitiva e curada dos melhores recursos para **Inteligência Artificial (IA)**, **Machine Learning (ML)** e **Deep Learning (DL)**. Com mais de 15.000 recursos validados, cobrimos o **ecossistema completo de machine learning** e deep learning, com foco especial em **aplicações de IA em finanças e e-commerce**. Encontre **frameworks**, **modelos**, **datasets**, **ferramentas de MLOps**, **frameworks de LLM** e **aplicações industriais** em um só lugar. Este repositório é essencial para **cientistas de dados**, **engenheiros de ML** e **pesquisadores de IA** que buscam soluções **SOTA (State-of-the-Art)**.
+
+---
+
+## 🔥 Featured Resources / Recursos em Destaque
+
+**[EN]** Quick access to the most popular and valuable resources:
+
+**[PT]** Acesso rápido aos recursos mais populares e valiosos:
+
+| Category / Categoria | Top Resources / Principais Recursos |
+|---|---|
+| 🤖 **LLM Frameworks** | [Hugging Face Transformers](https://github.com/huggingface/transformers), [LangChain](https://github.com/langchain-ai/langchain), [LlamaIndex](https://github.com/run-llama/llama_index) |
+| 🧠 **Deep Learning** | [PyTorch](https://github.com/pytorch/pytorch), [TensorFlow](https://github.com/tensorflow/tensorflow), [JAX](https://github.com/google/jax) |
+| 👁️ **Computer Vision** | [OpenCV](https://github.com/opencv/opencv), [YOLOv8](https://github.com/ultralytics/ultralytics), [Detectron2](https://github.com/facebookresearch/detectron2) |
+| 💬 **NLP** | [spaCy](https://github.com/explosion/spaCy), [NLTK](https://github.com/nltk/nltk), [Gensim](https://github.com/RaRe-Technologies/gensim) |
+| 🚀 **MLOps** | [MLflow](https://github.com/mlflow/mlflow), [Kubeflow](https://github.com/kubeflow/kubeflow), [DVC](https://github.com/iterative/dvc) |
+| 💰 **Finance AI** | [FinRL](https://github.com/AI4Finance-Foundation/FinRL), [Qlib](https://github.com/microsoft/qlib), [QuantConnect](https://github.com/QuantConnect/Lean) |
 
 ---
 
