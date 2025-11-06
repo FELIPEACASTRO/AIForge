@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>AIForge - The Ultimate AI, Machine Learning & Deep Learning Resources Collection</title>
+    <meta name="title" content="AIForge - The Ultimate AI, Machine Learning & Deep Learning Resources Collection">
+    <meta name="description" content="Discover 15,137+ curated AI, Machine Learning, and Deep Learning resources. Frameworks, models, datasets, MLOps tools, LLM frameworks, and industry applications. Essential for data scientists, ML engineers, and AI researchers.">
+    <meta name="keywords" content="artificial intelligence, machine learning, deep learning, AI resources, ML frameworks, datasets, MLOps, LLM, NLP, computer vision, PyTorch, TensorFlow, data science, AI tools, machine learning resources, deep learning frameworks, AI models, ML datasets, AI applications, finance AI, e-commerce AI">
+    <meta name="author" content="Felipe Castro">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English, Portuguese">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://felipeacastro.github.io/AIForge/">
+    <meta property="og:title" content="AIForge - The Ultimate AI, Machine Learning & Deep Learning Resources Collection">
+    <meta property="og:description" content="Discover 15,137+ curated AI, Machine Learning, and Deep Learning resources. Frameworks, models, datasets, MLOps tools, LLM frameworks, and industry applications.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/FELIPEACASTRO/AIForge/master/social-preview.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://felipeacastro.github.io/AIForge/">
+    <meta property="twitter:title" content="AIForge - The Ultimate AI, Machine Learning & Deep Learning Resources Collection">
+    <meta property="twitter:description" content="Discover 15,137+ curated AI, Machine Learning, and Deep Learning resources. Frameworks, models, datasets, MLOps tools, LLM frameworks, and industry applications.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/FELIPEACASTRO/AIForge/master/social-preview.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://felipeacastro.github.io/AIForge/">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AIForge",
+      "alternateName": "The Ultimate AI, ML, DL Resources Collection",
+      "url": "https://felipeacastro.github.io/AIForge/",
+      "description": "Discover 15,137+ curated AI, Machine Learning, and Deep Learning resources. Frameworks, models, datasets, MLOps tools, LLM frameworks, and industry applications.",
+      "author": {
+        "@type": "Person",
+        "name": "Felipe Castro"
+      },
+      "inLanguage": ["en", "pt"],
+      "keywords": "artificial intelligence, machine learning, deep learning, AI resources, ML frameworks, datasets, MLOps, LLM, NLP, computer vision"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-align: center;
+        }
+        
+        .subtitle {
+            font-size: 1.5em;
+            color: #586069;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            font-size: 1.2em;
+            color: #586069;
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 50px 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1.3em;
+            color: white;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            margin: 10px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .feature {
+            padding: 30px;
+            border: 2px solid #e1e4e8;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        
+        .feature:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid #e1e4e8;
+            color: #586069;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 AIForge</h1>
+        <p class="subtitle">The Ultimate Curated Collection of AI, Machine Learning, and Deep Learning Resources</p>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">15,137+</div>
+                <div class="stat-label">Resources</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">68</div>
+                <div class="stat-label">Themes</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">4.8M+</div>
+                <div class="stat-label">Combined Stars</div>
+            </div>
+        </div>
+        
+        <div class="cta">
+            <a href="https://github.com/FELIPEACASTRO/AIForge" class="btn">🚀 Explore on GitHub</a>
+            <a href="https://github.com/FELIPEACASTRO/AIForge#-navigation-guide-deep-learning-resources-organized-by-use-case" class="btn">📚 Browse Resources</a>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>📚 LEARN</h3>
+                <p>Courses, books, research papers, and communities to master AI. From beginner tutorials to advanced academic resources.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🔨 BUILD</h3>
+                <p>Frameworks, models, datasets, and specialized libraries to develop AI. PyTorch, TensorFlow, Hugging Face, and more.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🚀 DEPLOY</h3>
+                <p>MLOps, serving, monitoring, and infrastructure for production AI. Kubernetes, Docker, MLflow, and cloud platforms.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🎯 APPLY</h3>
+                <p>Applications of AI in specific domains like Finance, Healthcare, Retail, and Marketing. Real-world use cases and solutions.</p>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin: 50px 0 30px 0;">🔥 Featured Resources</h2>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🤖 LLM Frameworks</h3>
+                <p>Hugging Face Transformers, LangChain, LlamaIndex, and more cutting-edge large language model frameworks.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🧠 Deep Learning</h3>
+                <p>PyTorch, TensorFlow, JAX, and other essential deep learning frameworks for building neural networks.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>👁️ Computer Vision</h3>
+                <p>OpenCV, YOLOv8, Detectron2, and state-of-the-art computer vision libraries and models.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>💬 NLP</h3>
+                <p>spaCy, NLTK, Gensim, and comprehensive natural language processing tools and resources.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🚀 MLOps</h3>
+                <p>MLflow, Kubeflow, DVC, and complete MLOps toolchain for production machine learning.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>💰 Finance AI</h3>
+                <p>FinRL, Qlib, QuantConnect, and specialized AI tools for financial applications and trading.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>AIForge</strong> - Made with ❤️ by the AI/ML community</p>
+            <p>Licensed under MIT | <a href="https://github.com/FELIPEACASTRO/AIForge" style="color: #667eea;">View on GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
