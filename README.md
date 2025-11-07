@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo-psychedelic-horizontal.png" alt="AIForge - Psychedelic Logo" width="700"/>
+  <img src="./logo-horizontal.png" alt="AIForge - The Ultimate AI/ML/DL Resources Collection" width="700"/>
 </p>
 
 # 🔥 AIForge
