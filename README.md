@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./logo-horizontal.png" alt="AIForge - The Ultimate AI/ML/DL Resources Collection" width="700"/>
-</p>
-
 # 🔥 AIForge
 
 > **O MAIOR repositório curatorial de recursos de IA no GitHub**
