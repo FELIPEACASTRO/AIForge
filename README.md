@@ -1,6 +1,6 @@
-# 🔥 AIForge
+># 🔥 AIForge V3: The Definitive AI Universe
 
-> **O MAIOR repositório curatorial de recursos de IA no GitHub**
+> **The largest, most structured, and most up-to-date curated AI repository on GitHub. A definitive guide to the AI universe, from foundational algorithms to the latest revolutionary models.**
 
 <p align="center">
   <a href="https://github.com/FELIPEACASTRO/AIForge/stargazers"><img src="https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social" alt="Stars"></a>
@@ -10,366 +10,112 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Recursos-15,686%2B-blue?style=for-the-badge" alt="Total de Recursos">
-  <img src="https://img.shields.io/badge/Temas-44-green?style=for-the-badge" alt="Total de Temas">
-  <img src="https://img.shields.io/badge/Documentos-99%2B-orange?style=for-the-badge" alt="Total de Documentos">
-  <img src="https://img.shields.io/badge/Atualizado-Novembro%202025-red?style=for-the-badge" alt="Atualizado">
+  <img src="https://img.shields.io/badge/Total%20Resources-15,700%2B-blue?style=for-the-badge" alt="Total de Recursos">
+  <img src="https://img.shields.io/badge/Total%20Topics-60%2B-green?style=for-the-badge" alt="Total de Temas">
+  <img src="https://img.shields.io/badge/Updated-November%202025-red?style=for-the-badge" alt="Atualizado">
 </p>
 
 ---
 
-## 📊 Estatísticas Rápidas
+## 🚀 Welcome to AIForge
 
-| Métrica | Valor | Comparação |
-|---|---|---|
-| 🎯 **Total de Recursos** | 15.686+ | **37X maior** que outros repos |
-| 📁 **Temas Organizados** | 44 | Estrutura hierárquica |
-| 📄 **Documentos** | 100+ | Profissionalmente formatados |
-| 🌐 **Plataformas** | 87+ | AWS, Google, Azure, Snowflake |
-| 🎓 **Universidades** | 200+ | Cobertura global |
-| ⭐ **Estrelas Combinadas** | 4.3M+ | Repositórios validados |
+**AIForge** is not just a list of links; it is a **structured and didactic learning ecosystem**. Our mission is to provide the most comprehensive and well-organized collection of AI resources, enabling anyone, from a curious beginner to a seasoned researcher, to navigate the vast universe of Artificial Intelligence with clarity and purpose.
 
----
+This repository has been meticulously curated, validated, and organized to be **37x larger** than other popular AI repositories, and is continuously updated with the latest breakthroughs.
 
-## 🚀 Guia de Início Rápido
+## 🗺️ The Map of the AI Universe: Repository Structure
 
-### Para Iniciantes
+AIForge is organized into a clear, hierarchical structure designed for intuitive navigation. Here is the map to guide your journey:
 
-1. **Comece aqui:** [Ultimate Collection](./08_ULTIMATE/ULTIMATE_AI_COLLECTION.md) - Recursos essenciais
-2. **Aprenda:** [Recursos de Aprendizagem](./03_RESOURCES/3.1_Learning_Resources/) - Tutoriais e cursos
-3. **Explore:** Navegue pelas categorias abaixo
-
-### Para Desenvolvedores
-
-1. **Modelos:** [Modelos Core](./01_FOUNDATIONS/1.2_Core_Models/) - GPT-5, Claude, Gemini, Llama
-2. **Código:** [AI Coding Assistants](./04_ECOSYSTEM/4.7_User_Submitted_Repos/) - 13 ferramentas
-3. **APIs:** [Plataformas e Ferramentas](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) - MLOps, APIs
-
-### Para Pesquisadores
-
-1. **SOTA:** [Repositórios SOTA 2025](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) - 35 repos
-2. **Papers:** [Laboratórios Universitários](./03_RESOURCES/3.2_University_Labs/) - 36 orgs
-3. **Benchmarks:** [Humans vs AI Benchmarks](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) - 5 repos
+| Category | Directory | Description |
+| :--- | :--- | :--- |
+| 🧠 **01_LEARN** | `01_LEARN/` | Foundational knowledge, from core algorithms to advanced learning techniques. |
+| 🛠️ **02_BUILD** | `02_BUILD/` | The tools of the trade: foundation models, niche models, and development platforms. |
+| 🚀 **03_DEPLOY** | `03_DEPLOY/` | Resources for deploying, monitoring, and scaling AI models in production. |
+| 🔬 **04_APPLY** | `04_APPLY/` | Real-world applications of AI across various industries and domains. |
 
 ---
 
-## 📂 Estrutura do Repositório
+## 🧭 Your Guide to AI: Navigation by Topic
 
-O repositório está organizado em **4 categorias principais** com **38 temas**:
+Dive directly into the topics that interest you most. Each link below leads to a curated collection of the best resources available.
 
-### 🏛️ 01 - FUNDAMENTOS (Foundations)
+### 🧠 01_LEARN: The Foundations of AI
 
-Base essencial para entender e trabalhar com IA.
+| # | Topic | Directory | Description |
+| :--- | :--- | :--- | :--- |
+| 1.1 | **Core Algorithms** | `01_LEARN/Core_Algorithms/` | The mathematical and computational building blocks of ML/DL. |
+| 1.2 | **Natural Language Processing** | `01_LEARN/Natural_Language_Processing/` | Models and techniques for understanding and generating human language. |
+| 1.3 | **Reinforcement Learning** | `01_LEARN/Reinforcement_Learning/` | Training agents to make optimal decisions through trial and error. |
+| 1.4 | **Meta-Learning** | `01_LEARN/Meta_Learning/` | Learning to learn: models that can adapt to new tasks with few examples. |
+| 1.5 | **Federated Learning** | `01_LEARN/Federated_Learning/` | Training models on decentralized data while preserving privacy. |
+| 1.6 | **Explainable AI (XAI)** | `01_LEARN/Explainable_AI/` | Techniques for making AI models more transparent and interpretable. |
+| 1.7 | **Model Optimization** | `01_LEARN/Model_Optimization/` | Methods for making models smaller, faster, and more efficient. |
 
-| # | Tema | Recursos | Descrição |
-|---|---|---|---|
-| 1.1 | [**Algoritmos**](./01_FOUNDATIONS/1.1_Algorithms/) | 4.650+ | Algoritmos fundamentais de ML/DL |
-|| 1.2 | [**Modelos Core**](./01_FOUNDATIONS/1.2_Core_Models/) | 3.900+ | GPT-5, Claude, Gemini, Llama 3, Mistral Large |l |
-| 1.3 | [**Datasets**](./01_FOUNDATIONS/1.3_Datasets/) | 730+ | HuggingFace, Kaggle, UCI, Banking |
+### 🛠️ 02_BUILD: The AI Toolchain
 
-**Destaques dos Modelos Core:**
-- **OpenAI:** GPT-5 (Antecipado), GPT-4o, GPT-4, DALL-E 3, Sora
-- **Anthropic:** Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku
-- **Google/DeepMind:** Gemini 2.5 Pro, Gemini 2.5 Flash, Gemma 2
-- **Meta:** Llama 3 (8B, 70B), Llama 2
-- **Cloud Models:** AWS SageMaker (500+), Google Vertex AI (200+), Azure AI (1.900+)
+| # | Topic | Directory | Description |
+| :--- | :--- | :--- | :--- |
+| 2.1 | **Foundation Models** | `02_BUILD/2.1_Foundation_Models/` | The giants of AI: GPT-5, Claude 3.5, Gemini 2.5, Llama 3, and more. |
+| 2.2 | **Niche & Specialized Models** | `02_BUILD/2.2_Niche_Models/` | Models designed for specific tasks: GNNs, Time Series, Video, etc. |
+| 2.3 | **Development Platforms** | `02_BUILD/2.3_Development_Platforms/` | MLOps platforms, cloud services (AWS, Azure, GCP), and more. |
 
----
+### 🚀 03_DEPLOY: From Model to Production
 
-### 🎯 02 - APLICAÇÕES (Applications)
+| # | Topic | Directory | Description |
+| :--- | :--- | :--- | :--- |
+| 3.1 | **Deployment & Serving** | `03_DEPLOY/Deployment_and_Serving/` | Tools and frameworks for serving models at scale. |
+| 3.2 | **Monitoring & Observability** | `03_DEPLOY/Monitoring_and_Observability/` | Solutions for monitoring model performance and data drift. |
 
-Modelos e ferramentas para domínios específicos.
+### 🔬 04_APPLY: AI in the Real World
 
-| # | Tema | Recursos | Descrição |
-|---|---|---|---|
-| 2.1 | [**Aplicações Especializadas**](./02_APPLICATIONS/2.1_Specialized_Applications/) | 553 | Banking (186), Fraud Detection (140), **Biomass AI (92)**, Business |
-| 2.2 | [**Modelos de Nicho**](./02_APPLICATIONS/2.2_Niche_Models/) | 416+ | **Healthcare AI**, **Weather AI**, **Time Series**, **Protein Structure**, GNN, RL |
-| 2.3 | [**Aplicações na Indústria**](./02_APPLICATIONS/2.3_Industry_Applications/) | 8 | IA aplicada em diversos setores econômicos |
-| 2.4 | [**Aplicações Financeiras**](./02_APPLICATIONS/2.4_Financial_Applications/) | 14 | IA em finanças (trading, risco, fraude, AML, chatbots) |
-
-**Categorias de Nicho (86 repos validados):**
-- 🎵 Audio & Music AI
-- 🎬 Video Generation & Analysis
-- 💻 Code Generation & Analysis
-- 🏥 **Healthcare AI** (MedSAM, AlphaFold 3)
-- 📈 **Time Series Forecasting** (TiRex, Chronos-2)
-- 🕸️ Graph Neural Networks
-- 🎮 Reinforcement Learning
+| # | Topic | Directory | Description |
+| :--- | :--- | :--- | :--- |
+| 4.1 | **Healthcare AI** | `04_APPLY/Healthcare/` | AI in drug discovery, medical imaging, and synthetic data generation. |
+| 4.2 | **Agriculture AI** | `04_APPLY/Agriculture/` | Precision agriculture, crop monitoring, and biomass estimation. |
+| 4.3 | **Financial AI** | `04_APPLY/Finance/` | AI in fraud detection, trading, and risk management. |
+| 4.4 | **Computer Vision** | `04_APPLY/Computer_Vision/` | AI for autonomous driving, image recognition, and more. |
 
 ---
 
-### 📖 03 - RECURSOS (Resources)
+## ✨ Featured Game-Changers (2024-2025)
 
-Materiais de aprendizagem e referência.
+A curated selection of the most revolutionary resources added to AIForge.
 
-| # | Tema | Recursos | Descrição |
-|---|---|---|---|
-| 3.1 | [**Recursos de Aprendizagem**](./03_RESOURCES/3.1_Learning_Resources/) | 2.000+ | Tutoriais, cursos, guias, MLOps, frameworks |
-| 3.2 | [**Laboratórios Universitários**](./03_RESOURCES/3.2_University_Labs/) | 36 orgs | Imperial, UCL, Tsinghua, Stanford, LAION |
-| 3.3 | [**Diretórios de IA**](./03_RESOURCES/3.3_AI_Directories/) | 12 | 60.000+ ferramentas de IA acessíveis |
-| 3.4 | [**Plataformas de IA e Datasets**](./03_RESOURCES/3.4_AI_Platforms_and_Datasets/) | 50+ | Bilhões de datasets e modelos |
-| 3.5 | [**Humans vs AI Benchmarks**](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) | 5 | Benchmarks e repositórios de comparação |
-
-**Destaques das Plataformas:**
-- **LAION-5B** - 5.85 bilhões de pares imagem-texto
-- **Papers With Code** - 11.000+ leaderboards
-- **Google Dataset Search** - 25+ milhões de datasets
+| Resource | Domain | Impact |
+| :--- | :--- | :--- |
+| [**KA-GNN**](./02_BUILD/2.2_Niche_Models/Graph_Neural_Networks/GNN_Game_Changers_2025.md) | GNNs | Interpretable GNNs with superior performance. |
+| [**Evoformer\AcODE**](./04_APPLY/Healthcare/Protein_Structure_Prediction/Evoformer_AcODE_2025.md) | Healthcare | A lighter, more interpretable alternative to AlphaFold. |
+| [**Unsloth AI**](./01_LEARN/Model_Optimization/Unsloth_AI_2025.md) | LLM Optimization | Up to 30x faster LLM fine-tuning with 90% less memory. |
+| [**OpenRLHF**](./01_LEARN/Reinforcement_Learning/OpenRLHF_2025.md) | RL | One of the fastest and most scalable RLHF frameworks available. |
+| [**SCALEMED**](./04_APPLY/Healthcare/Synthetic_Data_Generation/SCALEMED_DermaSynth_2025.md) | Healthcare | Low-cost, high-performance medical AI with synthetic data. |
 
 ---
 
-### 🌐 04 - ECOSSISTEMA (Ecosystem)
+## 🤝 How to Contribute
 
-Plataformas, repositórios e recursos da comunidade.
+Contributions are the lifeblood of AIForge. We welcome your expertise and encourage you to add new resources. Please follow our [**Contributing Guidelines**](./CONTRIBUTING.md) to get started.
 
-| # | Tema | Recursos | Descrição |
-|---|---|---|---|
-| 4.1 | [**Plataformas e Ferramentas**](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | 37 | MLOps, deployment, monitoramento |
-| 4.2 | [**Meta Repositórios**](./04_ECOSYSTEM/4.2_Meta_Repositories/) | 1.000+ | Awesome lists, coleções curadas |
-| 4.3 | [**Repositórios SOTA 2025**](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) | 35 | Estado-da-arte (Out 2025) |
-| 4.4 | [**Ensemble Learning**](./04_ECOSYSTEM/4.4_Ensemble_Learning/) | 33 | Técnicas de ensemble, boosting |
-| 4.5 | [**Modelos Gerais de IA**](./04_ECOSYSTEM/4.5_General_AI_Models/) | 113 | Coleção geral de alta qualidade |
-| 4.6 | [**Top Repositórios Ausentes**](./04_ECOSYSTEM/4.6_Top_Missing_Repos/) | 42 | Repos de alta qualidade (1.2M+ ⭐) |
-| 4.7 | [**Repositórios Enviados por Usuários**](./04_ECOSYSTEM/4.7_User_Submitted_Repos/) | 26 | Contribuições da comunidade (618k+ ⭐) |
-| 4.8 | [**AutoML & Auto Learning**](./04_ECOSYSTEM/4.8_AutoML_and_Auto_Learning/) | 12 | AutoML, NAS e ferramentas de auto learning |
+## 📄 License
 
-**Destaques SOTA 2025:**
-- **mozilla/DeepSpeech** (26.6k⭐) - Speech-to-text
-- **Stability-AI/generative-models** (26.5k⭐)
-- **microsoft/BitNet** (24.3k⭐) - 1-bit LLMs
-- **state-spaces/mamba** (16.3k⭐) - Mamba SSM
+This repository is licensed under the [**MIT License**](./LICENSE).
 
-**Destaques Top Repos Ausentes:**
-- **hacksider/Deep-Live-Cam** (74k⭐) - Real-time face swap
-- **mlabonne/llm-course** (66k⭐) - LLM learning course
-- **infiniflow/ragflow** (66k⭐) - RAG engine
-- **All-Hands-AI/OpenHands** (64k⭐) - AI software engineer
+## 🙏 Acknowledgments
 
----
-
-### 🌟 17 - COLEÇÕES AVANÇADAS (Advanced Collections)
-
-Coleções curadas dos melhores repositórios de IA.
-
-| # | Tema | Recursos | Descrição |
-|---|---|---|---|
-| 17.1 | [**Top 100 Repositórios de IA**](./17_ADVANCED_COLLECTIONS/ADVANCED_AI_REPOSITORIES_2025.md) | 100 | Top repos (2.08M+ ⭐) |
-| 17.2 | [**Recursos de Aprendizagem**](./17_ADVANCED_COLLECTIONS/LEARNING_RESOURCES_2025.md) | 50 | Top learning resources (1M+ ⭐) |
-
-**Destaques:**
-- **microsoft/ML-For-Beginners** (78.4k⭐) - 12 semanas de ML
-- **netdata/netdata** (76.5k⭐) - Observabilidade com IA
-- **d2l-ai/d2l-zh** (73.6k⭐) - Dive into Deep Learning
-- **deepfakes/faceswap** (54.6k⭐) - Software de deepfakes
-
----
-
-
-### 🌟 17 - COLEÇÕES AVANÇADAS (Advanced Collections)
-
-Coleções curadas dos melhores repositórios de IA.
-
-| # | Tema | Recursos | Descrição |
-|---|---|---|---|
-| 17.1 | [**Top 100 Repositórios de IA**](./17_ADVANCED_COLLECTIONS/ADVANCED_AI_REPOSITORIES_2025.md) | 100 | Top repos (2.08M+ ⭐) |
-| 17.2 | [**Recursos de Aprendizagem**](./17_ADVANCED_COLLECTIONS/LEARNING_RESOURCES_2025.md) | 50 | Top learning resources (1M+ ⭐) |
-
-**Destaques:**
-- **microsoft/ML-For-Beginners** (78.4k⭐) - 12 semanas de ML
-- **netdata/netdata** (76.5k⭐) - Observabilidade com IA
-- **d2l-ai/d2l-zh** (73.6k⭐) - Dive into Deep Learning
-- **deepfakes/faceswap** (54.6k⭐) - Software de deepfakes
-
----
-
-
-## 🎨 Navegação por Caso de Uso
-
-### 💼 Para Empresas
-
-- [Banking AI](./02_APPLICATIONS/2.1_Specialized_Applications/BANKING_AI_REPOS.md) - 186 recursos
-- [Fraud Detection](./02_APPLICATIONS/2.1_Specialized_Applications/FRAUD_DETECTION_REPOS.md) - 140 recursos
-- [Business AI](./02_APPLICATIONS/2.1_Specialized_Applications/BUSINESS_AI_REPOS_2025.md)
-
-### 🧑‍💻 Para Desenvolvedores
-
-- [AI Coding Assistants](./04_ECOSYSTEM/4.7_User_Submitted_Repos/) - OpenHands, smolagents, bolt.new
-- [Code Generation](./02_APPLICATIONS/2.2_Niche_Models/Code_Generation_and_Analysis.md)
-- [Plataformas](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) - MLOps, deployment
-
-### 🎓 Para Pesquisadores
-
-- [Laboratórios Universitários](./03_RESOURCES/3.2_University_Labs/) - 36 organizações
-- [SOTA 2025](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) - 35 repositórios
-- [Humans vs AI Benchmarks](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) - 5 repositórios
-
-### 🎨 Para Criadores
-
-- [Audio & Music AI](./02_APPLICATIONS/2.2_Niche_Models/Audio_and_Music_AI.md)
-- [Video Generation](./02_APPLICATIONS/2.2_Niche_Models/Video_Generation_and_Analysis.md)
-- [Modelos Generativos](./01_FOUNDATIONS/1.2_Core_Models/) - DALL-E, Sora, Stable Diffusion
-
----
-
-## 📊 Comparação com Outros Repositórios
-
-| Repositório | Recursos | Stars | vs Nosso |
-|---|---|---|---|
-| **AIForge** | **15.686+** | - | **1.0x** |
-| Awesome Machine Learning | 1.268 | 65k | **12.4x menor** |
-| Awesome Deep Learning | 610 | 23k | **25.7x menor** |
-| Transferlearning | 1.000 | 14k | **15.6x menor** |
-| Awesome-AI-Tools | 423 | 3.5k | **37.1x menor** |
-
-**Nosso repositório é 37X maior** que a média dos repositórios curatoriais populares!
-
----
-
-## 🚀 Como Usar Este Repositório
-
-### Instalação
-
-```bash
-# Clonar o repositório
-git clone https://github.com/FELIPEACASTRO/AIForge.git
-
-# Navegar para o diretório
-cd AIForge
-```
-
-### Navegação
-
-```bash
-# Ver modelos de IA
-cd 01_FOUNDATIONS/1.2_Core_Models/
-cat EPIC_AI_COLLECTION.md
-
-# Ver datasets
-cd 01_FOUNDATIONS/1.3_Datasets/
-cat MASSIVE_COLLECTION.md
-
-# Ver recursos SOTA
-cd 04_ECOSYSTEM/4.3_SOTA_Repositories_2025/
-cat SOTA_MODELS_OCT_2025.md
-```
-
-### Busca
-
-Use a busca do GitHub para encontrar recursos específicos:
-
-```
-repo:FELIPEACASTRO/AIForge "GPT-5"
-repo:FELIPEACASTRO/AIForge "fraud detection"
-repo:FELIPEACASTRO/AIForge "dataset"
-```
-
----
-
-## 📈 Estatísticas Detalhadas
-
-### Distribuição por Categoria
-
-| Categoria | Quantidade | % do Total |
-|---|---|---|
-| 🧮 Algoritmos | 4.650+ | 31.6% |
-| 🤖 Modelos de IA | 3.900+ | 26.5% |
-| 📚 Recursos Diversos | 2.000+ | 13.6% |
-| 🔗 Repositórios GitHub | 1.000+ | 6.8% |
-| 📊 Datasets | 730+ | 5.0% |
-| 🏦 Especializados | 461+ | 3.1% |
-| 🌐 Outros | 1.971+ | 13.4% |
-| **Total** | **15.686+** | **100%** |
-
-### Validações Realizadas
-
-| Validação | Total | Válidos | Taxa de Sucesso |
-|---|---|---|---|
-| Repositórios SOTA | 7.000+ | 35 | 90% |
-| Organizações Universitárias | 94 | 71 | 75% |
-| Ensemble Learning | 81 | 73 | 90% |
-| Niche Models | 159 | 143 | 90% |
-| General AI Models | 137 | 105 | 100% |
-| Top Repos Ausentes | 95 | 90 | 100% |
-| User Submitted | 53 | 48 | 90% |
-
----
-
-## 🤝 Como Contribuir
-
-Contribuições são muito bem-vindas! Siga os passos abaixo:
-
-### 1. Fork o Repositório
-
-```bash
-# Fazer fork via GitHub
-# Clonar seu fork
-git clone https://github.com/SEU-USUARIO/AIForge.git
-```
-
-### 2. Criar uma Branch
-
-```bash
-git checkout -b feature/NovoRecurso
-```
-
-### 3. Adicionar Recurso
-
-- Adicione o recurso no diretório apropriado
-- Siga o formato existente
-- Valide URLs e informações
-
-### 4. Commit e Push
-
-```bash
-git add .
-git commit -m "Add: Novo recurso de [categoria]"
-git push origin feature/NovoRecurso
-```
-
-### 5. Abrir Pull Request
-
-- Descreva o recurso adicionado
-- Inclua links e validações
-- Aguarde revisão
-
----
-
-## ⭐ Apoie o Projeto
-
-Se este repositório foi útil para você, considere:
-
-- ⭐ **Dar uma estrela** no GitHub
-- 🔄 **Compartilhar** com outros desenvolvedores
-- 🤝 **Contribuir** com novos recursos
-- 📢 **Divulgar** nas redes sociais
-- 💬 **Deixar feedback** via issues
-
----
-
-## 📄 Licença
-
-Este repositório é licenciado sob a [Licença MIT](./LICENSE).
-
----
-
-## 🙏 Agradecimentos
-
-- Comunidade open-source de IA
-- Contribuidores do GitHub
-- Universidades e institutos de pesquisa
-- Empresas que compartilham modelos e datasets
+AIForge would not be possible without the incredible work of the open-source AI community, researchers, and developers who share their knowledge with the world.
 
 ---
 
 <div align="center">
 
-**🌟 O Maior Repositório Curatorial de IA do GitHub 🌟**
+**🌟 The Definitive Guide to the AI Universe 🌟**
 
-**15.686+ recursos | 44 temas | 100+ documentos | 37X maior**
+**15,700+ Resources | 60+ Topics | Continuously Updated**
 
 Made with ❤️ by [Felipe Castro](https://github.com/FELIPEACASTRO)
 
-**Última Atualização:** Novembro de 2025
+**Last Update:** November 2025
 
-[⬆️ Voltar ao Topo](#-awesome-ai-models-collection)
+[⬆️ Back to Top](#-aiforge-v3-the-definitive-ai-universe)
 
 </div>
