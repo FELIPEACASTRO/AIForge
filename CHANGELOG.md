@@ -6,6 +6,36 @@
 
 ---
 
+## [3.1.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **CNN Survey (2015-2025):** Comprehensive 100-page survey on CNN architectural advances.
+- **XAI for Credit Risk:** Paper on Explainable AI for credit risk assessment.
+- **Google AI Resources:** Guide to Gemini API, MediaPipe, and LiteRT.
+- **Agriculture AI Platforms:** Guide to Farmonaut and EOS.
+- **MLOps Tools:** Guide to Neptune.ai and MLflow.
+- **NASA Earth Data Resources:** Guide to NASA's Earth Data.
+
+**[PT]**
+- **Survey de CNNs (2015-2025):** Survey abrangente de 100 páginas sobre avanços arquitetônicos em CNNs.
+- **XAI para Risco de Crédito:** Artigo sobre IA Explicável para avaliação de risco de crédito.
+- **Recursos de IA do Google:** Guia para a API Gemini, MediaPipe e LiteRT.
+- **Plataformas de IA para Agricultura:** Guia para Farmonaut e EOS.
+- **Ferramentas de MLOps:** Guia para Neptune.ai e MLflow.
+- **Recursos de Dados da NASA:** Guia para os Dados da Terra da NASA.
+
+### Changed / Alterado
+
+**[EN]**
+- Updated `INDEX.md` with all new resources.
+
+**[PT]**
+- `INDEX.md` atualizado com todos os novos recursos.
+
+---
+
 ## [3.0.0] - 2025-11-08
 
 ### Added / Adicionado
