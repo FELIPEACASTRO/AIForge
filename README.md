@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Recursos-15,178%2B-blue?style=for-the-badge" alt="Total de Recursos">
+  <img src="https://img.shields.io/badge/Total%20Recursos-15,270%2B-blue?style=for-the-badge" alt="Total de Recursos">
   <img src="https://img.shields.io/badge/Temas-39-green?style=for-the-badge" alt="Total de Temas">
   <img src="https://img.shields.io/badge/Documentos-99%2B-orange?style=for-the-badge" alt="Total de Documentos">
   <img src="https://img.shields.io/badge/Atualizado-Outubro%202025-red?style=for-the-badge" alt="Atualizado">
@@ -22,7 +22,7 @@
 
 | Métrica | Valor | Comparação |
 |---|---|---|
-| 🎯 **Total de Recursos** | 15.178+ | **35X maior** que outros repos |
+| 🎯 **Total de Recursos** | 15.270+ | **35X maior** que outros repos |
 | 📁 **Temas Organizados** | 38 | Estrutura hierárquica |
 | 📄 **Documentos** | 99+ | Profissionalmente formatados |
 | 🌐 **Plataformas** | 87+ | AWS, Google, Azure, Snowflake |
@@ -82,7 +82,7 @@ Modelos e ferramentas para domínios específicos.
 
 | # | Tema | Recursos | Descrição |
 |---|---|---|---|
-| 2.1 | [**Aplicações Especializadas**](./02_APPLICATIONS/2.1_Specialized_Applications/) | 461 | Banking (186), Fraud Detection (140), Biomass, Business |
+| 2.1 | [**Aplicações Especializadas**](./02_APPLICATIONS/2.1_Specialized_Applications/) | 553 | Banking (186), Fraud Detection (140), **Biomass AI (92)**, Business |
 | 2.2 | [**Modelos de Nicho**](./02_APPLICATIONS/2.2_Niche_Models/) | 86 | Audio, Video, Code Gen, Medical, Time Series, GNN, RL |
 | 2.3 | [**Aplicações na Indústria**](./02_APPLICATIONS/2.3_Industry_Applications/) | 8 | IA aplicada em diversos setores econômicos |
 | 2.4 | [**Aplicações Financeiras**](./02_APPLICATIONS/2.4_Financial_Applications/) | 14 | IA em finanças (trading, risco, fraude, AML, chatbots) |
