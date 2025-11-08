@@ -1,164 +1,3851 @@
-# 📇 Complete Index / Índice Completo
+# AIForge - Alphabetical Index / Índice Alfabético
 
-**[EN]** This is a comprehensive alphabetical index of all resources, categories, and themes in the AIForge repository. Use this index to quickly find specific topics or navigate to detailed resource collections.
+## 🇬🇧 English
 
-**[PT]** Este é um índice alfabético abrangente de todos os recursos, categorias e temas no repositório AIForge. Use este índice para encontrar rapidamente tópicos específicos ou navegar para coleções detalhadas de recursos.
+This index provides an alphabetical listing of all 15,686+ resources curated in the AIForge repository.
+
+| Title | URL |
+| :--- | :--- |
+| [**academic/awesome-datascience**](https://github.com/academic/awesome-datascience) | https://github.com/academic/awesome-datascience |
+| [**afshinea/stanford-cs-229-machine-learning**](https://github.com/afshinea/stanford-cs-229-machine-learning) | https://github.com/afshinea/stanford-cs-229-machine-learning |
+| [**ageron/handson-ml**](https://github.com/ageron/handson-ml) | https://github.com/ageron/handson-ml |
+| [**ageron/handson-ml3**](https://github.com/ageron/handson-ml3) | https://github.com/ageron/handson-ml3 |
+| [**aikorea/awesome-rl**](https://github.com/aikorea/awesome-rl) | https://github.com/aikorea/awesome-rl |
+| [**Algoritmos**](./01_FOUNDATIONS/1.1_Algorithms/) | ./01_FOUNDATIONS/1.1_Algorithms/ |
+| [**AMAI-GmbH/AI-Expert-Roadmap**](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | https://github.com/AMAI-GmbH/AI-Expert-Roadmap |
+| [**amark/gun**](https://github.com/amark/gun) | https://github.com/amark/gun |
+| [**amusi/CVPR2025-Papers-with-Code**](https://github.com/amusi/CVPR2025-Papers-with-Code) | https://github.com/amusi/CVPR2025-Papers-with-Code |
+| [**andri27-ts/Reinforcement-Learning**](https://github.com/andri27-ts/Reinforcement-Learning) | https://github.com/andri27-ts/Reinforcement-Learning |
+| [**Aplicações Especializadas**](./02_APPLICATIONS/2.1_Specialized_Applications/)) | ./02_APPLICATIONS/2.1_Specialized_Applications/) |
+| [**Aplicações Financeiras**](./02_APPLICATIONS/2.4_Financial_Applications/)) | ./02_APPLICATIONS/2.4_Financial_Applications/) |
+| [**Aplicações na Indústria**](./02_APPLICATIONS/2.3_Industry_Applications/) | ./02_APPLICATIONS/2.3_Industry_Applications/ |
+| [**AutoML & Auto Learning**](./04_ECOSYSTEM/4.8_AutoML_and_Auto_Learning/) | ./04_ECOSYSTEM/4.8_AutoML_and_Auto_Learning/ |
+| [**Avik-Jain/100-Days-Of-ML-Code**](https://github.com/Avik-Jain/100-Days-Of-ML-Code) | https://github.com/Avik-Jain/100-Days-Of-ML-Code |
+| [**binhnguyennus/awesome-scalability**](https://github.com/binhnguyennus/awesome-scalability) | https://github.com/binhnguyennus/awesome-scalability |
+| [**d2l-ai/d2l-en**](https://github.com/d2l-ai/d2l-en) | https://github.com/d2l-ai/d2l-en |
+| [**d2l-ai/d2l-zh**](https://github.com/d2l-ai/d2l-zh) | https://github.com/d2l-ai/d2l-zh |
+| [**datamllab/rlcard**](https://github.com/datamllab/rlcard)) | https://github.com/datamllab/rlcard) |
+| [**Datasets**](./01_FOUNDATIONS/1.3_Datasets/) | ./01_FOUNDATIONS/1.3_Datasets/ |
+| [**datawhalechina/pumpkin-book**](https://github.com/datawhalechina/pumpkin-book) | https://github.com/datawhalechina/pumpkin-book |
+| [**deepfakes/faceswap**](https://github.com/deepfakes/faceswap) | https://github.com/deepfakes/faceswap |
+| [**deepspeedai/DeepSpeed**](https://github.com/deepspeedai/DeepSpeed) | https://github.com/deepspeedai/DeepSpeed |
+| [**Developer-Y/cs-video-courses**](https://github.com/Developer-Y/cs-video-courses) | https://github.com/Developer-Y/cs-video-courses |
+| [**Diretórios de IA**](./03_RESOURCES/3.3_AI_Directories/) | ./03_RESOURCES/3.3_AI_Directories/ |
+| [**donnemartin/data-science-ipython-notebooks**](https://github.com/donnemartin/data-science-ipython-notebooks)) | https://github.com/donnemartin/data-science-ipython-notebooks) |
+| [**donnemartin/data-science-ipython-notebooks**](https://github.com/donnemartin/data-science-ipython-notebooks)) | https://github.com/donnemartin/data-science-ipython-notebooks) |
+| [**Ensemble Learning**](./04_ECOSYSTEM/4.4_Ensemble_Learning/) | ./04_ECOSYSTEM/4.4_Ensemble_Learning/ |
+| [**eriklindernoren/ML-From-Scratch**](https://github.com/eriklindernoren/ML-From-Scratch) | https://github.com/eriklindernoren/ML-From-Scratch |
+| [**eugeneyan/applied-ml**](https://github.com/eugeneyan/applied-ml) | https://github.com/eugeneyan/applied-ml |
+| [**evilsocket/pwnagotchi**](https://github.com/evilsocket/pwnagotchi)) | https://github.com/evilsocket/pwnagotchi) |
+| [**facebookresearch/ReAgent**](https://github.com/facebookresearch/ReAgent)) | https://github.com/facebookresearch/ReAgent) |
+| [**fastai/fastbook**](https://github.com/fastai/fastbook) | https://github.com/fastai/fastbook |
+| [**fengdu78/Coursera-ML-AndrewNg-Notes**](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) | https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes |
+| [**fingerprintjs/fingerprintjs**](https://github.com/fingerprintjs/fingerprintjs) | https://github.com/fingerprintjs/fingerprintjs |
+| [**GokuMohandas/Made-With-ML**](https://github.com/GokuMohandas/Made-With-ML) | https://github.com/GokuMohandas/Made-With-ML |
+| [**google-ai-edge/mediapipe**](https://github.com/google-ai-edge/mediapipe) | https://github.com/google-ai-edge/mediapipe |
+| [**google-deepmind/open_spiel**](https://github.com/google-deepmind/open_spiel) | https://github.com/google-deepmind/open_spiel |
+| [**google-deepmind/trfl**](https://github.com/google-deepmind/trfl) | https://github.com/google-deepmind/trfl |
+| [**huggingface/deep-rl-class**](https://github.com/huggingface/deep-rl-class) | https://github.com/huggingface/deep-rl-class |
+| [**Humans vs AI Benchmarks**](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) | ./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/ |
+| [**ikostrikov/pytorch-a2c-ppo-acktr-gail**](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail)) | https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail) |
+| [**iperov/DeepFaceLab**](https://github.com/iperov/DeepFaceLab) | https://github.com/iperov/DeepFaceLab |
+| [**iperov/DeepFaceLive**](https://github.com/iperov/DeepFaceLive) | https://github.com/iperov/DeepFaceLive |
+| [**ItzCrazyKns/Perplexica**](https://github.com/ItzCrazyKns/Perplexica) | https://github.com/ItzCrazyKns/Perplexica |
+| [**JaidedAI/EasyOCR**](https://github.com/JaidedAI/EasyOCR) | https://github.com/JaidedAI/EasyOCR |
+| [**janhuenermann/neurojs**](https://github.com/janhuenermann/neurojs) | https://github.com/janhuenermann/neurojs |
+| [**jina-ai/serve**](https://github.com/jina-ai/serve) | https://github.com/jina-ai/serve |
+| [**JuliaLang/julia**](https://github.com/JuliaLang/julia) | https://github.com/JuliaLang/julia |
+| [**Kedreamix/Linly-Talker**](https://github.com/Kedreamix/Linly-Talker) | https://github.com/Kedreamix/Linly-Talker |
+| [**kmario23/deep-learning-drizzle**](https://github.com/kmario23/deep-learning-drizzle) | https://github.com/kmario23/deep-learning-drizzle |
+| [**kwai/DouZero**](https://github.com/kwai/DouZero) | https://github.com/kwai/DouZero |
+| [**Laboratórios Universitários**](./03_RESOURCES/3.2_University_Labs/) | ./03_RESOURCES/3.2_University_Labs/ |
+| [**LAION-AI/Open-Assistant**](https://github.com/LAION-AI/Open-Assistant) | https://github.com/LAION-AI/Open-Assistant |
+| [**LantaoYu/MARL-Papers**](https://github.com/LantaoYu/MARL-Papers)) | https://github.com/LantaoYu/MARL-Papers) |
+| [**lucidrains/PaLM-rlhf-pytorch**](https://github.com/lucidrains/PaLM-rlhf-pytorch)) | https://github.com/lucidrains/PaLM-rlhf-pytorch) |
+| [**MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning**](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) | https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning |
+| [**Meta Repositórios**](./04_ECOSYSTEM/4.2_Meta_Repositories/) | ./04_ECOSYSTEM/4.2_Meta_Repositories/ |
+| [**meta-llama/llama-cookbook**](https://github.com/meta-llama/llama-cookbook) | https://github.com/meta-llama/llama-cookbook |
+| [**microsoft/AI-For-Beginners**](https://github.com/microsoft/AI-For-Beginners) | https://github.com/microsoft/AI-For-Beginners |
+| [**microsoft/CNTK**](https://github.com/microsoft/CNTK)) | https://github.com/microsoft/CNTK) |
+| [**microsoft/ML-For-Beginners**](https://github.com/microsoft/ML-For-Beginners) | https://github.com/microsoft/ML-For-Beginners |
+| [**microsoft/RD-Agent**](https://github.com/microsoft/RD-Agent)) | https://github.com/microsoft/RD-Agent) |
+| [**MISP/MISP**](https://github.com/MISP/MISP)) | https://github.com/MISP/MISP) |
+| [**MLEveryday/100-Days-Of-ML-Code**](https://github.com/MLEveryday/100-Days-Of-ML-Code) | https://github.com/MLEveryday/100-Days-Of-ML-Code |
+| [**Modelos Core**](./01_FOUNDATIONS/1.2_Core_Models/) | ./01_FOUNDATIONS/1.2_Core_Models/ |
+| [**Modelos de Nicho**](./02_APPLICATIONS/2.2_Niche_Models/) | ./02_APPLICATIONS/2.2_Niche_Models/ |
+| [**Modelos Gerais de IA**](./04_ECOSYSTEM/4.5_General_AI_Models/) | ./04_ECOSYSTEM/4.5_General_AI_Models/ |
+| [**modular/modular**](https://github.com/modular/modular)) | https://github.com/modular/modular) |
+| [**MorvanZhou/Reinforcement-learning-with-tensorflow**](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow) | https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow |
+| [**mxgmn/WaveFunctionCollapse**](https://github.com/mxgmn/WaveFunctionCollapse) | https://github.com/mxgmn/WaveFunctionCollapse |
+| [**netdata/netdata**](https://github.com/netdata/netdata) | https://github.com/netdata/netdata |
+| [**Nome do Recurso**](URL_DO_RECURSO) | URL_DO_RECURSO |
+| [**openai/spinningup**](https://github.com/openai/spinningup) | https://github.com/openai/spinningup |
+| [**opendilab/awesome-RLHF**](https://github.com/opendilab/awesome-RLHF)) | https://github.com/opendilab/awesome-RLHF) |
+| [**opendilab/DI-engine**](https://github.com/opendilab/DI-engine) | https://github.com/opendilab/DI-engine |
+| [**OpenHands**](https://github.com/OpenHands/OpenHands) | https://github.com/OpenHands/OpenHands |
+| [**OpenPipe/ART**](https://github.com/OpenPipe/ART) | https://github.com/OpenPipe/ART |
+| [**p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch**](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch) | https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch |
+| [**PacktPublishing/Deep-Reinforcement-Learning-Hands-On**](https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On) | https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On |
+| [**paperless-ngx/paperless-ngx**](https://github.com/paperless-ngx/paperless-ngx) | https://github.com/paperless-ngx/paperless-ngx |
+| [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) | https://github.com/patchy631/ai-engineering-hub |
+| [**pathwaycom/llm-app**](https://github.com/pathwaycom/llm-app) | https://github.com/pathwaycom/llm-app |
+| [**photoprism/photoprism**](https://github.com/photoprism/photoprism) | https://github.com/photoprism/photoprism |
+| [**Plataformas de IA e Datasets**](./03_RESOURCES/3.4_AI_Platforms_and_Datasets/) | ./03_RESOURCES/3.4_AI_Platforms_and_Datasets/ |
+| [**Plataformas e Ferramentas**](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | ./04_ECOSYSTEM/4.1_Platforms_and_Tools/ |
+| [**PrimeIntellect-ai/verifiers**](https://github.com/PrimeIntellect-ai/verifiers) | https://github.com/PrimeIntellect-ai/verifiers |
+| [**PufferAI/PufferLib**](https://github.com/PufferAI/PufferLib) | https://github.com/PufferAI/PufferLib |
+| [**PWhiddy/PokemonRedExperiments**](https://github.com/PWhiddy/PokemonRedExperiments) | https://github.com/PWhiddy/PokemonRedExperiments |
+| [**pytorch/examples**](https://github.com/pytorch/examples) | https://github.com/pytorch/examples |
+| [**pytorch/torchtitan**](https://github.com/pytorch/torchtitan) | https://github.com/pytorch/torchtitan |
+| [**recommenders-team/recommenders**](https://github.com/recommenders-team/recommenders) | https://github.com/recommenders-team/recommenders |
+| [**Recursos de Aprendizagem**](./03_RESOURCES/3.1_Learning_Resources/) | ./03_RESOURCES/3.1_Learning_Resources/ |
+| [**Repositórios Enviados por Usuários**](./04_ECOSYSTEM/4.7_User_Submitted_Repos/)) | ./04_ECOSYSTEM/4.7_User_Submitted_Repos/) |
+| [**Repositórios SOTA 2025**](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/)) | ./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) |
+| [**Resource Name**](RESOURCE_URL) | RESOURCE_URL |
+| [**rlcode/reinforcement-learning**](https://github.com/rlcode/reinforcement-learning) | https://github.com/rlcode/reinforcement-learning |
+| [**rll/rllab**](https://github.com/rll/rllab) | https://github.com/rll/rllab |
+| [**rllm-org/rllm**](https://github.com/rllm-org/rllm) | https://github.com/rllm-org/rllm |
+| [**roboflow/supervision**](https://github.com/roboflow/supervision) | https://github.com/roboflow/supervision |
+| [**sebastianruder/NLP-progress**](https://github.com/sebastianruder/NLP-progress)) | https://github.com/sebastianruder/NLP-progress) |
+| [**ShangtongZhang/reinforcement-learning-an-introduction**](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) | https://github.com/ShangtongZhang/reinforcement-learning-an-introduction |
+| [**simoninithomas/Deep_reinforcement_learning_Course**](https://github.com/simoninithomas/Deep_reinforcement_learning_Course) | https://github.com/simoninithomas/Deep_reinforcement_learning_Course |
+| [**spmallick/learnopencv**](https://github.com/spmallick/learnopencv) | https://github.com/spmallick/learnopencv |
+| [**srbhr/Resume-Matcher**](https://github.com/srbhr/Resume-Matcher) | https://github.com/srbhr/Resume-Matcher |
+| [**sweetice/Deep-reinforcement-learning-with-pytorch**](https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch) | https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch |
+| [**TheAlgorithms/C**](https://github.com/TheAlgorithms/C) | https://github.com/TheAlgorithms/C |
+| [**thunlp/GNNPapers**](https://github.com/thunlp/GNNPapers)) | https://github.com/thunlp/GNNPapers) |
+| [**Top Repositórios Ausentes**](./04_ECOSYSTEM/4.6_Top_Missing_Repos/)) | ./04_ECOSYSTEM/4.6_Top_Missing_Repos/) |
+| [**trekhleb/homemade-machine-learning**](https://github.com/trekhleb/homemade-machine-learning) | https://github.com/trekhleb/homemade-machine-learning |
+| [**udacity/deep-reinforcement-learning**](https://github.com/udacity/deep-reinforcement-learning) | https://github.com/udacity/deep-reinforcement-learning |
+| [**unslothai/unsloth**](https://github.com/unslothai/unsloth) | https://github.com/unslothai/unsloth |
+| [**volcengine/verl**](https://github.com/volcengine/verl) | https://github.com/volcengine/verl |
+| [**wangshusen/DRL**](https://github.com/wangshusen/DRL) | https://github.com/wangshusen/DRL |
+| [**XinJingHao/DRL-Pytorch**](https://github.com/XinJingHao/DRL-Pytorch)) | https://github.com/XinJingHao/DRL-Pytorch) |
+| [**yamadashy/repomix**](https://github.com/yamadashy/repomix) | https://github.com/yamadashy/repomix |
+| [**yandexdataschool/Practical_RL**](https://github.com/yandexdataschool/Practical_RL) | https://github.com/yandexdataschool/Practical_RL |
+| [**yenchenlin/DeepLearningFlappyBird**](https://github.com/yenchenlin/DeepLearningFlappyBird)) | https://github.com/yenchenlin/DeepLearningFlappyBird) |
+| [**yzhao062/anomaly-detection-resources**](https://github.com/yzhao062/anomaly-detection-resources) | https://github.com/yzhao062/anomaly-detection-resources |
+| [**yzhao062/pyod**](https://github.com/yzhao062/pyod) | https://github.com/yzhao062/pyod |
+| [**zergtant/pytorch-handbook**](https://github.com/zergtant/pytorch-handbook) | https://github.com/zergtant/pytorch-handbook |
+| [**Zeyi-Lin/HivisionIDPhotos**](https://github.com/Zeyi-Lin/HivisionIDPhotos) | https://github.com/Zeyi-Lin/HivisionIDPhotos |
+| [**zhoubolei/introRL**](https://github.com/zhoubolei/introRL) | https://github.com/zhoubolei/introRL |
+| [**ZuzooVn/machine-learning-for-software-engineers**](https://github.com/ZuzooVn/machine-learning-for-software-engineers) | https://github.com/ZuzooVn/machine-learning-for-software-engineers |
+| [01_LEARN/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Books/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Books/](./01_LEARN/Books/) | ./01_LEARN/Books/ |
+| [01_LEARN/Collections/](./01_LEARN/Collections/) | ./01_LEARN/Collections/ |
+| [01_LEARN/Communities/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Communities/](./01_LEARN/Communities/) | ./01_LEARN/Communities/ |
+| [01_LEARN/Courses/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Courses/](./01_LEARN/Courses/) | ./01_LEARN/Courses/ |
+| [01_LEARN/Courses/](./01_LEARN/) and [01_LEARN/Books/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Courses/](./01_LEARN/) e [01_LEARN/Books/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Research/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Universities/](./01_LEARN/Universities/) | ./01_LEARN/Universities/ |
+| [01_Satellite_Platforms](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [02_AI_Models](02_AI_Models/) | 02_AI_Models/ |
+| [02_BUILD/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Computer_Vision/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Datasets/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Datasets/](./02_BUILD/Datasets/) | ./02_BUILD/Datasets/ |
+| [02_BUILD/Datasets/Platforms/](./02_BUILD/Datasets/Platforms/) | ./02_BUILD/Datasets/Platforms/ |
+| [02_BUILD/Frameworks/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Frameworks/](./02_BUILD/Frameworks/) | ./02_BUILD/Frameworks/ |
+| [02_BUILD/GNN/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Libraries/](./02_BUILD/Libraries/) | ./02_BUILD/Libraries/ |
+| [02_BUILD/Libraries/Audio/](./02_BUILD/Libraries/Audio/) | ./02_BUILD/Libraries/Audio/ |
+| [02_BUILD/Libraries/Computer_Vision/](./02_BUILD/Libraries/) | ./02_BUILD/Libraries/ |
+| [02_BUILD/Libraries/Graph/](./02_BUILD/Libraries/Graph/) | ./02_BUILD/Libraries/Graph/ |
+| [02_BUILD/Libraries/LLM/](./02_BUILD/Libraries/LLM/) | ./02_BUILD/Libraries/LLM/ |
+| [02_BUILD/Libraries/NLP/](./02_BUILD/Libraries/NLP/) | ./02_BUILD/Libraries/NLP/ |
+| [02_BUILD/Libraries/Reinforcement_Learning/](./02_BUILD/Libraries/Reinforcement_Learning/) | ./02_BUILD/Libraries/Reinforcement_Learning/ |
+| [02_BUILD/Libraries/Time_Series/](./02_BUILD/Libraries/Time_Series/) | ./02_BUILD/Libraries/Time_Series/ |
+| [02_BUILD/Models/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Models/](./02_BUILD/Models/) | ./02_BUILD/Models/ |
+| [02_BUILD/Models/Model_Zoos/](./02_BUILD/Models/Model_Zoos/) | ./02_BUILD/Models/Model_Zoos/ |
+| [02_BUILD/Models/Transfer_Learning/](./02_BUILD/Models/Transfer_Learning/) | ./02_BUILD/Models/Transfer_Learning/ |
+| [02_BUILD/NLP/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Reinforcement_Learning/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Time_Series/](./02_BUILD/) | ./02_BUILD/ |
+| [03_DEPLOY/](./03_DEPLOY/) | ./03_DEPLOY/ |
+| [03_DEPLOY/Cloud_Platforms/](./03_DEPLOY/Cloud_Platforms/) | ./03_DEPLOY/Cloud_Platforms/ |
+| [03_DEPLOY/Infrastructure/](./03_DEPLOY/Infrastructure/) | ./03_DEPLOY/Infrastructure/ |
+| [03_DEPLOY/Infrastructure/Distributed/](./03_DEPLOY/Infrastructure/Distributed/) | ./03_DEPLOY/Infrastructure/Distributed/ |
+| [03_DEPLOY/Infrastructure/Workflow/](./03_DEPLOY/Infrastructure/Workflow/) | ./03_DEPLOY/Infrastructure/Workflow/ |
+| [03_DEPLOY/MLOps/](./03_DEPLOY/MLOps/) | ./03_DEPLOY/MLOps/ |
+| [03_DEPLOY/MLOps/AutoML/](./03_DEPLOY/MLOps/AutoML/) | ./03_DEPLOY/MLOps/AutoML/ |
+| [03_DEPLOY/MLOps/Feature_Engineering/](./03_DEPLOY/MLOps/Feature_Engineering/) | ./03_DEPLOY/MLOps/Feature_Engineering/ |
+| [03_DEPLOY/MLOps/Feature_Stores/](./03_DEPLOY/MLOps/Feature_Stores/) | ./03_DEPLOY/MLOps/Feature_Stores/ |
+| [03_DEPLOY/MLOps/Interpretability/](./03_DEPLOY/MLOps/Interpretability/) | ./03_DEPLOY/MLOps/Interpretability/ |
+| [03_DEPLOY/MLOps/Monitoring/](./03_DEPLOY/MLOps/Monitoring/) | ./03_DEPLOY/MLOps/Monitoring/ |
+| [03_DEPLOY/MLOps/Visualization/](./03_DEPLOY/MLOps/Visualization/) | ./03_DEPLOY/MLOps/Visualization/ |
+| [03_DEPLOY/Optimization/](./03_DEPLOY/Optimization/) | ./03_DEPLOY/Optimization/ |
+| [03_DEPLOY/Serving/](./03_DEPLOY/Serving/) | ./03_DEPLOY/Serving/ |
+| [03_DEPLOY/Tools/Annotation/](./03_DEPLOY/Tools/Annotation/) | ./03_DEPLOY/Tools/Annotation/ |
+| [03_DEPLOY/Tools/Data_Labeling/](./03_DEPLOY/Tools/Data_Labeling/) | ./03_DEPLOY/Tools/Data_Labeling/ |
+| [03_DEPLOY/Tools/PDF/](./03_DEPLOY/Tools/PDF/) | ./03_DEPLOY/Tools/PDF/ |
+| [03_DEPLOY/Tools/Web_Scraping/](./03_DEPLOY/Tools/Web_Scraping/) | ./03_DEPLOY/Tools/Web_Scraping/ |
+| [03_Papers](03_Papers/) | 03_Papers/ |
+| [04_APPLY/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Entertainment/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Entertainment/](./04_APPLY/Entertainment/) | ./04_APPLY/Entertainment/ |
+| [04_APPLY/Finance/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Finance/](./04_APPLY/Finance/) | ./04_APPLY/Finance/ |
+| [04_APPLY/Healthcare/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Healthcare/](./04_APPLY/Healthcare/) | ./04_APPLY/Healthcare/ |
+| [04_APPLY/Marketing/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Marketing/](./04_APPLY/Marketing/) | ./04_APPLY/Marketing/ |
+| [04_APPLY/Marketing/](./04_APPLY/) and [04_APPLY/Retail/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Marketing/](./04_APPLY/) e [04_APPLY/Retail/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Research/](./04_APPLY/Research/) | ./04_APPLY/Research/ |
+| [04_APPLY/Retail/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Retail/](./04_APPLY/Retail/) | ./04_APPLY/Retail/ |
+| [04_Datasets](04_Datasets/) | 04_Datasets/ |
+| [05_Startups](05_Startups/) | 05_Startups/ |
+| [06_Software_Tools](06_Software_Tools/) | 06_Software_Tools/ |
+| [07_APIs](07_APIs/) | 07_APIs/ |
+| [08_Use_Cases](08_Use_Cases/) | 08_Use_Cases/ |
+| [10.1038/s41467-024-44824-z](https://www.nature.com/articles/s41467-024-44824-z) | https://www.nature.com/articles/s41467-024-44824-z |
+| [10.1038/s41586-024-08252-9](https://doi.org/10.1038/s41586-024-08252-9) | https://doi.org/10.1038/s41586-024-08252-9 |
+| [10.1038/s41586-025-08897-0](https://doi.org/10.1038/s41586-025-08897-0) | https://doi.org/10.1038/s41586-025-08897-0 |
+| [10.1126/science.adi2336](https://doi.org/10.1126/science.adi2336) | https://doi.org/10.1126/science.adi2336 |
+| [19 Questions](https://github.com/fulldecent/19-questions) | https://github.com/fulldecent/19-questions |
+| [2202.11214](https://arxiv.org/abs/2202.11214) | https://arxiv.org/abs/2202.11214 |
+| [2505.23719](https://arxiv.org/abs/2505.23719) | https://arxiv.org/abs/2505.23719 |
+| [26+ academic papers](03_Papers/) | 03_Papers/ |
+| [26+ papers acadêmicos](03_Papers/) | 03_Papers/ |
+| [500+ AI/ML/DL Projects](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code |
+| [@josephmisiti](https://twitter.com/josephmisiti) | https://twitter.com/josephmisiti |
+| [`AI`](https://metacpan.org/search?size=20&q=AI) | https://metacpan.org/search?size=20&q=AI |
+| [A Beginner's Guide To Understanding Convolutional Neural Networks](https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/) | https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/ |
+| [A beginners Guide to Deep Neural Networks](http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html) | http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html |
+| [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685) | https://arxiv.org/abs/1911.02685 |
+| [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf) | http://arxiv.org/pdf/1506.00019v1.pdf |
+| [A Deep Learning Tutorial: From Perceptrons to Deep Networks](http://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks) | http://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks |
+| [A friendly introduction to deep reinforcement learning by Luis Serrano](https://youtu.be/1FyAh07jh0o) | https://youtu.be/1FyAh07jh0o |
+| [A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) and [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html) | http://www.jmlr.org/papers/v13/gretton12a.html |
+| [A Review of Deep Transfer Learning and Recent Advancements](https://arxiv.org/abs/2201.09679) | https://arxiv.org/abs/2201.09679 |
+| [A semi-supervised domain adaptation library](https://domainadaptation.org) | https://domainadaptation.org |
+| [A State-of-the-Art Survey of Transfer Learning in Structural Health Monitoring](https://ieeexplore.ieee.org/abstract/document/9664171) | https://ieeexplore.ieee.org/abstract/document/9664171 |
+| [A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4) | https://pan.baidu.com/s/1eSGREF4 |
+| [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) | https://ieeexplore.ieee.org/abstract/document/8746210 |
+| [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT) | https://pan.baidu.com/s/1gfgXLXT |
+| [A Survey of Vision-Based Transfer Learning in Human Activity Recognition](https://www.mdpi.com/2079-9292/10/19/2412) | https://www.mdpi.com/2079-9292/10/19/2412 |
+| [A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0) | https://link.springer.com/article/10.1186/s40537-017-0089-0 |
+| [A survey on multi-task learning](https://arxiv.org/abs/1707.08114) | https://arxiv.org/abs/1707.08114 |
+| [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/) | http://ieeexplore.ieee.org/abstract/document/5288526/ |
+| [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4) | https://link.springer.com/article/10.1007/s10994-009-5152-4 |
+| [A.I - Berkeley](https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/) by Dan Klein and Pieter Abbeel (2013) | https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/) by Dan Klein and Pieter Abbeel (2013 |
+| [A.I - MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/) by Patrick Henry Winston (2010) | http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/) by Patrick Henry Winston (2010 |
+| [Aaron Courville](http://aaroncourville.wordpress.com) | http://aaroncourville.wordpress.com |
+| [Abdel-rahman Mohamed](http://www.cs.toronto.edu/~asamir/) | http://www.cs.toronto.edu/~asamir/ |
+| [abisee/cnn_dailymail](https://huggingface.co/datasets/abisee/cnn_dailymail) | https://huggingface.co/datasets/abisee/cnn_dailymail |
+| [Accord-Framework](http://accord-framework.net/) | http://accord-framework.net/ |
+| [Accord.MachineLearning](https://www.nuget.org/packages/Accord.MachineLearning/) | https://www.nuget.org/packages/Accord.MachineLearning/ |
+| [Accord.NET](http://accord-framework.net) | http://accord-framework.net |
+| [Adam Coates](http://cs.stanford.edu/~acoates/) | http://cs.stanford.edu/~acoates/ |
+| [adams-story/datacomp200m](https://huggingface.co/datasets/adams-story/datacomp200m) | https://huggingface.co/datasets/adams-story/datacomp200m |
+| [Advances in Transfer Learning: Theory, Algorithms, and Applications](https://www.frontiersin.org/research-topics/21133/advances-in-transfer-learning-theory-algorithms-and-applications) | https://www.frontiersin.org/research-topics/21133/advances-in-transfer-learning-theory-algorithms-and-applications |
+| [aerosolve](https://github.com/airbnb/aerosolve) | https://github.com/airbnb/aerosolve |
+| [AForge.NET](http://www.aforgenet.com/framework/) | http://www.aforgenet.com/framework/ |
+| [agents-course/course-images](https://huggingface.co/datasets/agents-course/course-images) | https://huggingface.co/datasets/agents-course/course-images |
+| [ahmedbesbes.com](http://ahmedbesbes.com) | http://ahmedbesbes.com |
+| [AI Coding Assistants](./04_ECOSYSTEM/4.7_User_Submitted_Repos/) | ./04_ECOSYSTEM/4.7_User_Submitted_Repos/ |
+| [AI for Everyone](https://www.deeplearning.ai/ai-for-everyone/) by Andrew Ng (2019) | https://www.deeplearning.ai/ai-for-everyone/) by Andrew Ng (2019 |
+| [AI for Weather](https://www.ecmwf.int/) | https://www.ecmwf.int/ |
+| [AI Hub - supported by AAAI, NeurIPS](https://aihub.org/) | https://aihub.org/ |
+| [AI Models](01_Models/) | 01_Models/ |
+| [AI Singapore](https://github.com/aisingapore) | https://github.com/aisingapore |
+| [AI Summer](https://theaisummer.com/) | https://theaisummer.com/ |
+| [AI Weekly](http://aiweekly.co) | http://aiweekly.co |
+| [ai-junkie.com](http://www.ai-junkie.com/ann/evolved/nnt1.html) | http://www.ai-junkie.com/ann/evolved/nnt1.html |
+| [ai.sri.com](http://www.ai.sri.com/) | http://www.ai.sri.com/ |
+| [aiai.ed.ac.uk](http://www.aiai.ed.ac.uk/) | http://www.aiai.ed.ac.uk/ |
+| [AIcrowd](https://www.aicrowd.com) | https://www.aicrowd.com |
+| [AIForge Issues](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [AIForge Main README](../../../README.md) | ../../../README.md |
+| [Air Freight](http://www.anc.ed.ac.uk/~amos/afreightdata.html) - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG) | http://www.anc.ed.ac.uk/~amos/afreightdata.html) - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG |
+| [AIT](https://github.com/eth-ait)) | https://github.com/eth-ait) |
+| [Alan Turing Institute](https://www.turing.ac.uk/) | https://www.turing.ac.uk/ |
+| [albumentations](https://github.com/albu/albumentations) | https://github.com/albu/albumentations |
+| [Alex Acero](http://research.microsoft.com/en-us/people/alexac/) | http://research.microsoft.com/en-us/people/alexac/ |
+| [Alex Krizhevsky](http://www.cs.utoronto.ca/~kriz/index.html) | http://www.cs.utoronto.ca/~kriz/index.html |
+| [Alexander Ilin](http://users.ics.aalto.fi/alexilin/) | http://users.ics.aalto.fi/alexilin/ |
+| [Algorithm::SVMLight](https://metacpan.org/pod/Algorithm::SVMLight) | https://metacpan.org/pod/Algorithm::SVMLight |
+| [Alibaba-NLP/gte-large-en-v1.5](https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5) | https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5 |
+| [all AI news](https://allainews.com/) | https://allainews.com/ |
+| [allenai/ai2_arc](https://huggingface.co/datasets/allenai/ai2_arc) | https://huggingface.co/datasets/allenai/ai2_arc |
+| [allenai/c4](https://huggingface.co/datasets/allenai/c4) | https://huggingface.co/datasets/allenai/c4 |
+| [allenai/objaverse](https://huggingface.co/datasets/allenai/objaverse) | https://huggingface.co/datasets/allenai/objaverse |
+| [allenai/winogrande](https://huggingface.co/datasets/allenai/winogrande) | https://huggingface.co/datasets/allenai/winogrande |
+| [AlpacaEval](https://tatsu-lab.github.io/alpacaeval/) | https://tatsu-lab.github.io/alpacaeval/ |
+| [AlphaFold 3 Publication](https://www.nature.com/articles/s41586-024-07487-w) | https://www.nature.com/articles/s41586-024-07487-w |
+| [alphafoldserver.com](https://alphafoldserver.com/) | https://alphafoldserver.com/ |
+| [Amazon SageMaker AI](https://aws.amazon.com/sagemaker) | https://aws.amazon.com/sagemaker |
+| [Amazon SageMaker Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | https://aws.amazon.com/sagemaker/autopilot/ |
+| [Amazon Science Blog](https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting) | https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting |
+| [Amazon Science: Chronos](https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting) | https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting |
+| [amCharts](https://www.amcharts.com/) | https://www.amcharts.com/ |
+| [AMIDST Toolbox](http://www.amidsttoolbox.com/) | http://www.amidsttoolbox.com/ |
+| [amitness.com](https://amitness.com/) | https://amitness.com/ |
+| [Amos Storkey](http://homepages.inf.ed.ac.uk/amos/) | http://homepages.inf.ed.ac.uk/amos/ |
+| [amphion/Emilia-Dataset](https://huggingface.co/datasets/amphion/Emilia-Dataset) | https://huggingface.co/datasets/amphion/Emilia-Dataset |
+| [Amsterdam Library of Object Images](http://www.science.uva.nl/~aloi/) - ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png) | http://www.science.uva.nl/~aloi/) - ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png |
+| [An introduction to genetic algorithms](http://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf) | http://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf |
+| [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474) | https://dl.acm.org/citation.cfm?id=2976474 |
+| [Analytics Vidhya](https://www.analyticsvidhya.com) | https://www.analyticsvidhya.com |
+| [Andrej Karpathy](https://karpathy.ai/) | https://karpathy.ai/ |
+| [Andrew M. Saxe](http://www.stanford.edu/~asaxe/) | http://www.stanford.edu/~asaxe/ |
+| [Andrew Ng](http://www.cs.stanford.edu/people/ang/) | http://www.cs.stanford.edu/people/ang/ |
+| [Andrew W. Senior](http://research.google.com/pubs/author37792.html) | http://research.google.com/pubs/author37792.html |
+| [Andriy Mnih](http://www.gatsby.ucl.ac.uk/~amnih/) | http://www.gatsby.ucl.ac.uk/~amnih/ |
+| [ANN](https://github.com/EricChiang/ANN.jl) | https://github.com/EricChiang/ANN.jl |
+| [Annotated face, hand, cardiac & meat images](http://www.imm.dtu.dk/~aam/) - Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf) | http://www.imm.dtu.dk/~aam/) - Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf |
+| [anthropics](https://github.com/anthropics) | https://github.com/anthropics |
+| [AnyChart](https://www.anychart.com/) | https://www.anychart.com/ |
+| [Anúncio AlphaFold 3 do Google DeepMind](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) | https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/ |
+| [Apache cTAKES](https://ctakes.apache.org/) - Apache Clinical Text Analysis and Knowledge Extraction System (cTAKES) | https://ctakes.apache.org/) - Apache Clinical Text Analysis and Knowledge Extraction System (cTAKES |
+| [applied-ai-018/pretraining_v1-omega_books](https://huggingface.co/datasets/applied-ai-018/pretraining_v1-omega_books) | https://huggingface.co/datasets/applied-ai-018/pretraining_v1-omega_books |
+| [aps/super_glue](https://huggingface.co/datasets/aps/super_glue) | https://huggingface.co/datasets/aps/super_glue |
+| [AquaV/genshin-voices-separated](https://huggingface.co/datasets/AquaV/genshin-voices-separated) | https://huggingface.co/datasets/AquaV/genshin-voices-separated |
+| [Architecture of a Modern CNN: the design pattern approach by Andrew Ferlitsch](https://youtu.be/QCGSS3kyGo0) | https://youtu.be/QCGSS3kyGo0 |
+| [Architectures](02_Architectures/) | 02_Architectures/ |
+| [Archive.org Datasets](https://archive.org/details/datasets) | https://archive.org/details/datasets |
+| [Artificial intelligence and machine learning: Topic wise explanation](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/) | https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/ |
+| [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) | http://aima.cs.berkeley.edu/ |
+| [ArXiv Paper](https://arxiv.org/abs/2202.11214) | https://arxiv.org/abs/2202.11214 |
+| [ArXiv Paper](https://arxiv.org/abs/2505.23719) | https://arxiv.org/abs/2505.23719 |
+| [ArXiv: TiRex](https://arxiv.org/abs/2505.23719) | https://arxiv.org/abs/2505.23719 |
+| [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](http://arxiv.org/pdf/1506.07285v1.pdf) | http://arxiv.org/pdf/1506.07285v1.pdf |
+| [Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834) | https://arxiv.org/abs/1804.10834 |
+| [AT&T Laboratories Cambridge face database](http://www.uk.research.att.com/facedatabase.html) | http://www.uk.research.att.com/facedatabase.html |
+| [Atari2600](https://github.com/fidlej/aledataset) | https://github.com/fidlej/aledataset |
+| [ATR Research, Kyoto, Japan](http://www.mic.atr.co.jp/) | http://www.mic.atr.co.jp/ |
+| [Auto ML](https://github.com/ClimbsRocks/auto_ml) | https://github.com/ClimbsRocks/auto_ml |
+| [AutoFeat](https://github.com/cod3licious/autofeat) | https://github.com/cod3licious/autofeat |
+| [AutoGluon](https://auto.gluon.ai) | https://auto.gluon.ai |
+| [autogluon/chronos-bolt-base](https://huggingface.co/autogluon/chronos-bolt-base) | https://huggingface.co/autogluon/chronos-bolt-base |
+| [autogluon/chronos-bolt-small](https://huggingface.co/autogluon/chronos-bolt-small) | https://huggingface.co/autogluon/chronos-bolt-small |
+| [autograd](https://github.com/twitter/torch-autograd) | https://github.com/twitter/torch-autograd |
+| [Autonomous driving](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#autonomous-driving) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#autonomous-driving |
+| [AVHRR Pathfinder](http://xtreme.gsfc.nasa.gov) | http://xtreme.gsfc.nasa.gov |
+| [Awesome Java (AI/ML section)](https://github.com/akullpp/awesome-java) | https://github.com/akullpp/awesome-java |
+| [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | https://github.com/josephmisiti/awesome-machine-learning |
+| [Awesome Machine Learning (Java section)](https://github.com/josephmisiti/awesome-machine-learning#java) | https://github.com/josephmisiti/awesome-machine-learning#java |
+| [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | https://github.com/awesomedata/awesome-public-datasets |
+| [AWS Machine Learning](https://aws.training/machinelearning) | https://aws.training/machinelearning |
+| [AWS Open Data Registry](https://registry.opendata.aws/) | https://registry.opendata.aws/ |
+| [Ayse Naz Erkan](http://www.cs.nyu.edu/~naz/) | http://www.cs.nyu.edu/~naz/ |
+| [Azure Automated ML](https://azure.microsoft.com/services/machine-learning/automatedml/) | https://azure.microsoft.com/services/machine-learning/automatedml/ |
+| [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/) | https://azure.microsoft.com/services/open-datasets/ |
+| [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5) | https://huggingface.co/BAAI/bge-base-en-v1.5 |
+| [BAAI/bge-large-en-v1.5](https://huggingface.co/BAAI/bge-large-en-v1.5) | https://huggingface.co/BAAI/bge-large-en-v1.5 |
+| [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3) | https://huggingface.co/BAAI/bge-m3 |
+| [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3) | https://huggingface.co/BAAI/bge-reranker-v2-m3 |
+| [BAAI/bge-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5) | https://huggingface.co/BAAI/bge-small-en-v1.5 |
+| [BanditLib](https://github.com/jkomiyama/banditlib) | https://github.com/jkomiyama/banditlib |
+| [Bandlets](http://www.cmap.polytechnique.fr/~peyre/download/) | http://www.cmap.polytechnique.fr/~peyre/download/ |
+| [banned-historical-archives/banned-historical-archives](https://huggingface.co/datasets/banned-historical-archives/banned-historical-archives) | https://huggingface.co/datasets/banned-historical-archives/banned-historical-archives |
+| [Batch Normalization](https://arxiv.org/abs/1502.03167) | https://arxiv.org/abs/1502.03167 |
+| [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://proceedings.mlr.press/v37/ioffe15.pdf) | http://proceedings.mlr.press/v37/ioffe15.pdf |
+| [bayesian](https://github.com/jbrukh/bayesian) | https://github.com/jbrukh/bayesian |
+| [Bayesian-Bandit](https://github.com/omphalos/bayesian-bandit.js) | https://github.com/omphalos/bayesian-bandit.js |
+| [bea.gov](https://www.bea.gov/data)) | https://www.bea.gov/data) |
+| [behavior-1k/2025-challenge-demos](https://huggingface.co/datasets/behavior-1k/2025-challenge-demos) | https://huggingface.co/datasets/behavior-1k/2025-challenge-demos |
+| [Benchmark Dataset](https://github.com/pangeo-data/WeatherBench) | https://github.com/pangeo-data/WeatherBench |
+| [Benchmarks](03_Benchmarks/) | 03_Benchmarks/ |
+| [Benjamin Schrauwen](http://reslab.elis.ugent.be/benjamin) | http://reslab.elis.ugent.be/benjamin |
+| [Berkeley AI Research (BAIR) Laboratory](https://arxiv.org/pdf/1611.07004v1.pdf) | https://arxiv.org/pdf/1611.07004v1.pdf |
+| [Berkeley CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/) | http://rll.berkeley.edu/deeprlcourse/ |
+| [Berkeley Segmentation Dataset 500](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/) | http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/ |
+| [berkeley-deep-learning](https://github.com/berkeley-deep-learning) | https://github.com/berkeley-deep-learning |
+| [Bernardete Ribeiro](https://www.cisuc.uc.pt/people/show/2020) | https://www.cisuc.uc.pt/people/show/2020 |
+| [Bi-directional RNN](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf) | http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf |
+| [Big-Bench](https://github.com/google/BIG-bench) | https://github.com/google/BIG-bench |
+| [bigscience/bloomz-560m](https://huggingface.co/bigscience/bloomz-560m) | https://huggingface.co/bigscience/bloomz-560m |
+| [Bingsu/adetailer](https://huggingface.co/Bingsu/adetailer) | https://huggingface.co/Bingsu/adetailer |
+| [Biometric Systems Lab](http://biolab.csr.unibo.it/home.asp) | http://biolab.csr.unibo.it/home.asp |
+| [birdland](https://github.com/rlouf/birdland) | https://github.com/rlouf/birdland |
+| [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser) | https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser |
+| [BLLIP Parser](https://pypi.org/project/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser) | https://pypi.org/project/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser |
+| [Bo David Chen](http://vision.caltech.edu/~bchen3/Site/Bo_David_Chen.html) | http://vision.caltech.edu/~bchen3/Site/Bo_David_Chen.html |
+| [Books](./Books/) | ./Books/ |
+| [Books / Livros](./01_LEARN/Books/) | ./01_LEARN/Books/ |
+| [Boureau Y-Lan](http://cs.nyu.edu/~ylan/) | http://cs.nyu.edu/~ylan/ |
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) | https://github.com/bowang-lab/MedSAM |
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) (mesmo repositório) | https://github.com/bowang-lab/MedSAM) (mesmo repositório |
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) (same repository) | https://github.com/bowang-lab/MedSAM) (same repository |
+| [BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - It implemented 3 layers of neural networks ( Input Layer, Hidden Layer and Output Layer ) and it was named Back Propagation Neural Networks (BPN) | https://github.com/Kalvar/ios-BPN-NeuralNetwork) - It implemented 3 layers of neural networks ( Input Layer, Hidden Layer and Output Layer ) and it was named Back Propagation Neural Networks (BPN |
+| [Brain](https://github.com/harthur/brain) | https://github.com/harthur/brain |
+| [Brain.js](https://github.com/BrainJS/brain.js) - Neural networks in JavaScript - continued community fork of [Brain](https://github.com/harthur/brain) | https://github.com/harthur/brain |
+| [Brian Kingsbury](http://researcher.watson.ibm.com/researcher/view.php?person=us-bedk) | http://researcher.watson.ibm.com/researcher/view.php?person=us-bedk |
+| [Brown University Stimuli](http://www.cog.brown.edu/~tarr/stimuli.html) - A variety of datasets including geons, objects, and "greebles". Good for testing recognition algorithms. (Formats: pict) | http://www.cog.brown.edu/~tarr/stimuli.html) - A variety of datasets including geons, objects, and "greebles". Good for testing recognition algorithms. (Formats: pict |
+| [C3.js](https://c3js.org/) | https://c3js.org/ |
+| [cadene/droid_1.0.1](https://huggingface.co/datasets/cadene/droid_1.0.1) | https://huggingface.co/datasets/cadene/droid_1.0.1 |
+| [Caffe](https://github.com/BVLC/caffe) | https://github.com/BVLC/caffe |
+| [cais/mmlu](https://huggingface.co/datasets/cais/mmlu) | https://huggingface.co/datasets/cais/mmlu |
+| [Caltech Image Database](http://www.vision.caltech.edu/html-files/archive.html) - about 20 images - mostly top-down views of small objects and toys. (Formats: GIF) | http://www.vision.caltech.edu/html-files/archive.html) - about 20 images - mostly top-down views of small objects and toys. (Formats: GIF |
+| [Cambridge News](https://www.cam.ac.uk/research/news/fully-ai-driven-weather-prediction-system-could-start-revolution-in-forecasting) | https://www.cam.ac.uk/research/news/fully-ai-driven-weather-prediction-system-could-start-revolution-in-forecasting |
+| [cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest) | https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest |
+| [CatalyzeX: Machine Learning Hub for Builders and Makers](https://www.catalyzeX.com) | https://www.catalyzeX.com |
+| [CatBoost](https://github.com/catboost/catboost) | https://github.com/catboost/catboost |
+| [CatBoost](https://github.com/catboost/catboost) - General purpose gradient boosting on decision trees library with categorical features support out of the box. It is easy to install, contains fast inference implementation and supports CPU and GPU (even multi-GPU) | https://github.com/catboost/catboost) - General purpose gradient boosting on decision trees library with categorical features support out of the box. It is easy to install, contains fast inference implementation and supports CPU and GPU (even multi-GPU |
+| [Category Encoders](https://github.com/scikit-learn-contrib/category_encoders) | https://github.com/scikit-learn-contrib/category_encoders |
+| [CAVIAR video sequences of mall and public space behavior](http://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/) - 90K video frames in 90 sequences of various human activities, with XML ground truth of detection and behavior classification (Formats: MPEG2 & JPEG) | http://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/) - 90K video frames in 90 sequences of various human activities, with XML ground truth of detection and behavior classification (Formats: MPEG2 & JPEG |
+| [CCITT Fax standard images](http://www.cs.waikato.ac.nz/~singlis/ccitt.html) - 8 images (Formats: gif) | http://www.cs.waikato.ac.nz/~singlis/ccitt.html) - 8 images (Formats: gif |
+| [CCV](https://github.com/liuliu/ccv) | https://github.com/liuliu/ccv |
+| [Centre for Vision, Speech and Signal Processing](http://www.ee.surrey.ac.uk/Research/CVSSP) | http://www.ee.surrey.ac.uk/Research/CVSSP |
+| [cephes](https://github.com/deepmind/torch-cephes) | https://github.com/deepmind/torch-cephes |
+| [CERN Open Data Portal](http://opendata.cern.ch/) | http://opendata.cern.ch/ |
+| [cgi.cse.unsw.edu.au/~aishare](http://cgi.cse.unsw.edu.au/~aishare/) | http://cgi.cse.unsw.edu.au/~aishare/ |
+| [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751) | https://arxiv.org/abs/1811.09751 |
+| [chartjs](https://www.chartjs.org/) | https://www.chartjs.org/ |
+| [chcorbi/helvipad](https://huggingface.co/datasets/chcorbi/helvipad) | https://huggingface.co/datasets/chcorbi/helvipad |
+| [cheminfo](https://www.cheminfo.org/) - Platform for data visualization and analysis, using the [visualizer](https://github.com/npellet/visualizer) | https://github.com/npellet/visualizer |
+| [Chips-n-Salsa](https://github.com/cicirello/Chips-n-Salsa) | https://github.com/cicirello/Chips-n-Salsa |
+| [Christopher Manning](http://nlp.stanford.edu/~manning/) | http://nlp.stanford.edu/~manning/ |
+| [CIFAR-10 and CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html) | http://www.cs.toronto.edu/~kriz/cifar.html |
+| [cl-libsvm](https://github.com/melisgl/cl-libsvm/) | https://github.com/melisgl/cl-libsvm/ |
+| [cl-online-learning](https://github.com/masatoi/cl-online-learning) - Online learning algorithms (Perceptron, AROW, SCW, Logistic Regression) | https://github.com/masatoi/cl-online-learning) - Online learning algorithms (Perceptron, AROW, SCW, Logistic Regression |
+| [cl-random-forest](https://github.com/masatoi/cl-random-forest) | https://github.com/masatoi/cl-random-forest |
+| [Classification on raw time series in TensorFlow with a LSTM RNN](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) | https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition |
+| [ClearTK](https://github.com/ClearTK/cleartk) - ClearTK provides a framework for developing statistical natural language processing (NLP) | https://github.com/ClearTK/cleartk) - ClearTK provides a framework for developing statistical natural language processing (NLP |
+| [Clement Farabet](http://www.clement.farabet.net/) | http://www.clement.farabet.net/ |
+| [Climate FieldView](06_Software_Tools/) | 06_Software_Tools/ |
+| [Climate Modeling](../../Climate_Modeling/) | ../../Climate_Modeling/ |
+| [clj-boost](https://gitlab.com/alanmarazzi/clj-boost) | https://gitlab.com/alanmarazzi/clj-boost |
+| [clj-ml](https://github.com/joshuaeckroth/clj-ml/) | https://github.com/joshuaeckroth/clj-ml/ |
+| [ClojisR](https://github.com/scicloj/clojisr) - Interop with R and Renjin (R on the JVM) | https://github.com/scicloj/clojisr) - Interop with R and Renjin (R on the JVM |
+| [clojupyter](https://github.com/clojupyter/clojupyter) | https://github.com/clojupyter/clojupyter |
+| [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp) | https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp |
+| [Clojush](https://github.com/lspector/Clojush) | https://github.com/lspector/Clojush |
+| [clortex](https://github.com/htm-community/clortex) | https://github.com/htm-community/clortex |
+| [Cloud Platforms](./Cloud_Platforms/) | ./Cloud_Platforms/ |
+| [Cloud Platforms / Plataformas de Nuvem](./03_DEPLOY/Cloud_Platforms/) | ./03_DEPLOY/Cloud_Platforms/ |
+| [Cloudforest](https://github.com/ryanbressler/CloudForest) | https://github.com/ryanbressler/CloudForest |
+| [CluGen](https://github.com/clugen/CluGen.jl/) | https://github.com/clugen/CluGen.jl/ |
+| [Clusterfck](https://harthur.github.io/clusterfck/) | https://harthur.github.io/clusterfck/ |
+| [Clustering](https://github.com/JuliaStats/Clustering.jl) | https://github.com/JuliaStats/Clustering.jl |
+| [Clustering.js](https://github.com/emilbayes/clustering.js) | https://github.com/emilbayes/clustering.js |
+| [CMU 11-785 Intro to Deep learning Spring 2020](https://www.youtube.com/playlist?list=PLp-0K3kfddPzCnS4CqKphh-zT3aDwybDe) | https://www.youtube.com/playlist?list=PLp-0K3kfddPzCnS4CqKphh-zT3aDwybDe |
+| [CMU CIL's Stereo Data with Ground Truth](cil-ster.html) - 3 sets of 11 images, including color tiff images with spectroradiometry (Formats: gif, tiff) | cil-ster.html) - 3 sets of 11 images, including color tiff images with spectroradiometry (Formats: gif, tiff |
+| [CMU PIE Database](http://www.ri.cmu.edu/projects/project_418.html) | http://www.ri.cmu.edu/projects/project_418.html |
+| [CMU Sphinx](https://cmusphinx.github.io) | https://cmusphinx.github.io |
+| [CMU VASC Image Database](http://www.ius.cs.cmu.edu/idb/) - Images, sequences, stereo pairs (thousands of images) (Formats: Sun Rasterimage) | http://www.ius.cs.cmu.edu/idb/) - Images, sequences, stereo pairs (thousands of images) (Formats: Sun Rasterimage |
+| [cmuparlay](https://github.com/cmuparlay) | https://github.com/cmuparlay |
+| [CMU’s list of papers](http://deeplearning.cs.cmu.edu/) | http://deeplearning.cs.cmu.edu/ |
+| [CNTK](https://github.com/Microsoft/CNTK) - The Computational Network Toolkit (CNTK) | https://github.com/Microsoft/CNTK) - The Computational Network Toolkit (CNTK |
+| [COCO](https://cocodataset.org/#detection-leaderboard) | https://cocodataset.org/#detection-leaderboard |
+| [COCO Dataset](https://cocodataset.org/) | https://cocodataset.org/ |
+| [Codalab](https://codalab.lisn.upsaclay.fr) | https://codalab.lisn.upsaclay.fr |
+| [Coding a basic WGAN in PyTorch by Edward Raff](https://youtu.be/7VRdaqMDalQ) | https://youtu.be/7VRdaqMDalQ |
+| [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - This project collects a number of core libraries for Natural Language Processing (NLP) | https://github.com/CogComp/cogcomp-nlp) - This project collects a number of core libraries for Natural Language Processing (NLP |
+| [CoLab Tutorial](https://colab.research.google.com/drive/1hhNdQAVMPBbPQlJsrpfMBwJvTqbJzjcX) | https://colab.research.google.com/drive/1hhNdQAVMPBbPQlJsrpfMBwJvTqbJzjcX |
+| [colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0) | https://huggingface.co/colbert-ir/colbertv2.0 |
+| [colibri-core](https://github.com/proycon/colibri-core) | https://github.com/proycon/colibri-core |
+| [Collections](./Collections/) | ./Collections/ |
+| [Collections / Coleções](./01_LEARN/Collections/) | ./01_LEARN/Collections/ |
+| [Columbia-Utrecht Reflectance and Texture Database](http://www.cs.columbia.edu/CAVE/curet/) - Texture and reflectance measurements for over 60 samples of 3D texture, observed with over 200 different combinations of viewing and illumination directions. (Formats: bmp) | http://www.cs.columbia.edu/CAVE/curet/) - Texture and reflectance measurements for over 60 samples of 3D texture, observed with over 200 different combinations of viewing and illumination directions. (Formats: bmp |
+| [Comet ML](https://www.comet.com) | https://www.comet.com |
+| [Comfy-Org/Wan_2.1_ComfyUI_repackaged](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged) | https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged |
+| [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged |
+| [Common Crawl](https://commoncrawl.org/) | https://commoncrawl.org/ |
+| [Communities](./Communities/) | ./Communities/ |
+| [Communities / Comunidades](./01_LEARN/Communities/) | ./01_LEARN/Communities/ |
+| [Competition Discussion](https://www.kaggle.com/competitions/csiro-biomass/discussion) | https://www.kaggle.com/competitions/csiro-biomass/discussion |
+| [comportex](https://github.com/htm-community/comportex) | https://github.com/htm-community/comportex |
+| [Computational Colour Constancy Data](http://www.cs.sfu.ca/~colour/data/index.html) - A dataset oriented towards computational color constancy, but useful for computer vision in general. It includes synthetic data, camera sensor data, and over 700 images. (Formats: tiff) | http://www.cs.sfu.ca/~colour/data/index.html) - A dataset oriented towards computational color constancy, but useful for computer vision in general. It includes synthetic data, camera sensor data, and over 700 images. (Formats: tiff |
+| [Computational Vision Lab](http://www.cs.sfu.ca/~colour/) | http://www.cs.sfu.ca/~colour/ |
+| [Computer Science VII (Graphical Systems)](http://ls7-www.cs.uni-dortmund.de/) | http://ls7-www.cs.uni-dortmund.de/ |
+| [Computer Vision](../../../02_BUILD/Computer_Vision/) | ../../../02_BUILD/Computer_Vision/ |
+| [Computer Vision](../2.3_Computer_Vision/) | ../2.3_Computer_Vision/ |
+| [Computer vision](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#computer-vision) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#computer-vision |
+| [Computer Vision Group](http://www.cee.hw.ac.uk/~mtc/research.html) | http://www.cee.hw.ac.uk/~mtc/research.html |
+| [computer-vision-in-action](https://github.com/Charmve/computer-vision-in-action) | https://github.com/Charmve/computer-vision-in-action |
+| [ComputerVisionAnimeProject/AnimeFaceColorization](https://huggingface.co/datasets/ComputerVisionAnimeProject/AnimeFaceColorization) | https://huggingface.co/datasets/ComputerVisionAnimeProject/AnimeFaceColorization |
+| [cONNXr](https://github.com/alrevuelta/cONNXr) - An `ONNX` runtime written in pure C (99) | https://github.com/alrevuelta/cONNXr) - An `ONNX` runtime written in pure C (99 |
+| [Content-based image retrieval database](http://www.cs.washington.edu/research/imagedatabase/groundtruth/) - 11 sets of color images for testing algorithms for content-based retrieval. Most sets have a description file with names of objects in each image. (Formats: jpg) | http://www.cs.washington.edu/research/imagedatabase/groundtruth/) - 11 sets of color images for testing algorithms for content-based retrieval. Most sets have a description file with names of objects in each image. (Formats: jpg |
+| [context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16](https://huggingface.co/context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16) | https://huggingface.co/context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16 |
+| [Contourlets](http://www.ifp.illinois.edu/~minhdo/software/contourlet_toolbox.tar) | http://www.ifp.illinois.edu/~minhdo/software/contourlet_toolbox.tar |
+| [Contributor Covenant](https://www.contributor-covenant.org), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html) | https://www.contributor-covenant.org/version/1/4/code-of-conduct.html |
+| [Convnet.js](https://cs.stanford.edu/people/karpathy/convnetjs/) | https://cs.stanford.edu/people/karpathy/convnetjs/ |
+| [Convolutional Neural Networks for Visual Recognition - Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html) by Fei-Fei Li, Andrej Karpathy (2017) | http://vision.stanford.edu/teaching/cs231n/syllabus.html) by Fei-Fei Li, Andrej Karpathy (2017 |
+| [Convolutional-Recursive Deep Learning for 3D Object Classification](https://www.socher.org/index.php/Main/Convolutional-RecursiveDeepLearningFor3DObjectClassification) | https://www.socher.org/index.php/Main/Convolutional-RecursiveDeepLearningFor3DObjectClassification |
+| [coqui/XTTS-v2](https://huggingface.co/coqui/XTTS-v2) | https://huggingface.co/coqui/XTTS-v2 |
+| [Core torch7 demos repository](https://github.com/e-lab/torch7-demos) | https://github.com/e-lab/torch7-demos |
+| [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) | https://nlp.stanford.edu/software/corenlp.shtml |
+| [Corpus Loaders](https://github.com/JuliaText/CorpusLoaders.jl) | https://github.com/JuliaText/CorpusLoaders.jl |
+| [cortex](https://github.com/originrose/cortex) | https://github.com/originrose/cortex |
+| [Cortical.io](https://www.cortical.io/) - Retina: an API performing complex NLP operations (disambiguation, classification, streaming text filtering, etc...) | https://www.cortical.io/) - Retina: an API performing complex NLP operations (disambiguation, classification, streaming text filtering, etc... |
+| [Courses](./Courses/) | ./Courses/ |
+| [Courses / Cursos](./01_LEARN/Courses/) | ./01_LEARN/Courses/ |
+| [CQSB/SoftDis](https://huggingface.co/datasets/CQSB/SoftDis) | https://huggingface.co/datasets/CQSB/SoftDis |
+| [Creatify MCP](https://github.com/TSavo/creatify-mcp) | https://github.com/TSavo/creatify-mcp |
+| [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) | https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs |
+| [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) | http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs |
+| [Cross Audio-Visual Recognition in the Wild Using Deep Learning](https://arxiv.org/abs/1706.05739) | https://arxiv.org/abs/1706.05739 |
+| [Cross Matching Methods for Astronomical Catalogs](https://github.com/SauravMaheshkar/Cross-Matching-Methods-for-Astronomical-Catalogs) | https://github.com/SauravMaheshkar/Cross-Matching-Methods-for-Astronomical-Catalogs |
+| [Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396) | https://arxiv.org/abs/1705.04396 |
+| [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2) | https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2 |
+| [crystal-fann](https://github.com/NeuraLegion/crystal-fann) - FANN (Fast Artificial Neural Network) | https://github.com/NeuraLegion/crystal-fann) - FANN (Fast Artificial Neural Network |
+| [cs.brown.edu/research/ai](http://cs.brown.edu/research/ai/) | http://cs.brown.edu/research/ai/ |
+| [cs.rochester.edu/research/ai](http://www.cs.rochester.edu/research/ai/) | http://www.cs.rochester.edu/research/ai/ |
+| [cs.utexas.edu/users/ai-lab](http://www.cs.utexas.edu/users/ai-lab/) | http://www.cs.utexas.edu/users/ai-lab/ |
+| [cs.washington.edu/research/ai](http://www.cs.washington.edu/research/ai/) | http://www.cs.washington.edu/research/ai/ |
+| [csail.mit.edu](http://www.csail.mit.edu/) | http://www.csail.mit.edu/ |
+| [CSIRO Image2Biomass](https://www.kaggle.com/competitions/csiro-biomass) | https://www.kaggle.com/competitions/csiro-biomass |
+| [CSIRO Pasture Biomass paper](03_Papers/) | 03_Papers/ |
+| [CUDA](https://code.google.com/p/cuda-convnet/) | https://code.google.com/p/cuda-convnet/ |
+| [cunn](https://github.com/torch/cunn) | https://github.com/torch/cunn |
+| [Curvelets](http://www.curvelet.org/software.html) | http://www.curvelet.org/software.html |
+| [cutorch](https://github.com/torch/cutorch) | https://github.com/torch/cutorch |
+| [CVAT](https://www.cvat.ai) | https://www.cvat.ai |
+| [cvg](https://github.com/cvg)) | https://github.com/cvg) |
+| [Cybertron](https://github.com/nlpodyssey/cybertron) | https://github.com/nlpodyssey/cybertron |
+| [D3.js](https://d3js.org/) | https://d3js.org/ |
+| [D3xter](https://github.com/NathanEpstein/D3xter) | https://github.com/NathanEpstein/D3xter |
+| [DA](https://github.com/trthatcher/DiscriminantAnalysis.jl) | https://github.com/trthatcher/DiscriminantAnalysis.jl |
+| [Dan Claudiu Cireșan](http://www.idsia.ch/~ciresan/) | http://www.idsia.ch/~ciresan/ |
+| [dandelin/vilt-b32-mlm](https://huggingface.co/dandelin/vilt-b32-mlm) | https://huggingface.co/dandelin/vilt-b32-mlm |
+| [daniilak/nbchr_pdfs](https://huggingface.co/datasets/daniilak/nbchr_pdfs) | https://huggingface.co/datasets/daniilak/nbchr_pdfs |
+| [Darknet](https://github.com/pjreddie/darknet) | https://github.com/pjreddie/darknet |
+| [Data Arrays](https://github.com/JuliaStats/DataArrays.jl) | https://github.com/JuliaStats/DataArrays.jl |
+| [Data Frames Meta](https://github.com/JuliaData/DataFramesMeta.jl) | https://github.com/JuliaData/DataFramesMeta.jl |
+| [Data Read](https://github.com/queryverse/ReadStat.jl) | https://github.com/queryverse/ReadStat.jl |
+| [Data.gov](https://data.gov/) | https://data.gov/ |
+| [DataDeps](https://github.com/oxinabox/DataDeps.jl) | https://github.com/oxinabox/DataDeps.jl |
+| [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - Dataframes for machine-learning and statistics (similar to pandas) | https://github.com/rocketlaunchr/dataframe-go) - Dataframes for machine-learning and statistics (similar to pandas |
+| [DataFrames](https://github.com/JuliaData/DataFrames.jl) | https://github.com/JuliaData/DataFrames.jl |
+| [DataHack](https://datahack.analyticsvidhya.com) | https://datahack.analyticsvidhya.com |
+| [Datahub.io](https://datahub.io/) | https://datahub.io/ |
+| [datakit](https://github.com/nathanepstein/datakit) | https://github.com/nathanepstein/datakit |
+| [Datamaps](https://datamaps.github.io/) | https://datamaps.github.io/ |
+| [DataMelt](https://jwork.org/dmelt/) | https://jwork.org/dmelt/ |
+| [DataRobot](https://www.datarobot.com/) | https://www.datarobot.com/ |
+| [dataset GrassClover](04_Datasets/) | 04_Datasets/ |
+| [dataset Image2Biomass](04_Datasets/) | 04_Datasets/ |
+| [Datasets](./02_BUILD/Datasets/) | ./02_BUILD/Datasets/ |
+| [Datasets](./Datasets/) | ./Datasets/ |
+| [Datasets](02_Datasets/) | 02_Datasets/ |
+| [datasocietyco/bge-base-en-v1.5-course-recommender-v5](https://huggingface.co/datasocietyco/bge-base-en-v1.5-course-recommender-v5) | https://huggingface.co/datasocietyco/bge-base-en-v1.5-course-recommender-v5 |
+| [Datumbox](https://github.com/datumbox/datumbox-framework) | https://github.com/datumbox/datumbox-framework |
+| [David Reichert](http://serre-lab.clps.brown.edu/person/david-reichert/) | http://serre-lab.clps.brown.edu/person/david-reichert/ |
+| [dc.js](https://dc-js.github.io/dc.js/) | https://dc-js.github.io/dc.js/ |
+| [Decision Tree](https://github.com/bensadeghi/DecisionTree.jl) | https://github.com/bensadeghi/DecisionTree.jl |
+| [Decision Trees](https://github.com/serendipious/nodejs-decision-tree-id3) | https://github.com/serendipious/nodejs-decision-tree-id3 |
+| [Deep Blueberry: Deep Learning](https://mithi.github.io/deep-blueberry) - A free five-weekend plan to self-learners to learn the basics of deep-learning architectures like CNNs, LSTMs, RNNs, VAEs, GANs, DQN, A3C and more (2019) | https://mithi.github.io/deep-blueberry) - A free five-weekend plan to self-learners to learn the basics of deep-learning architectures like CNNs, LSTMs, RNNs, VAEs, GANs, DQN, A3C and more (2019 |
+| [Deep Diamond](https://github.com/uncomplicate/deep-diamond) | https://github.com/uncomplicate/deep-diamond |
+| [Deep domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-domain-adaptation |
+| [Deep domain adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA |
+| [Deep domain generalization](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG |
+| [Deep High-Resolution-Net](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) | https://github.com/leoxiaobin/deep-high-resolution-net.pytorch |
+| [Deep Learning](http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf) by Microsoft Research (2013) | http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf) by Microsoft Research (2013 |
+| [Deep Learning](http://www.deeplearningbook.org/) by Yoshua Bengio, Ian Goodfellow and Aaron Courville  (05/07/2015) | http://www.deeplearningbook.org/) by Yoshua Bengio, Ian Goodfellow and Aaron Courville  (05/07/2015 |
+| [Deep Learning - Nvidia](https://developer.nvidia.com/deep-learning-courses) (2015) | https://developer.nvidia.com/deep-learning-courses) (2015 |
+| [Deep Learning - UC Berkeley](STAT-157) | STAT-157 |
+| [Deep Learning - Udacity/Google](https://www.udacity.com/course/deep-learning--ud730) by Vincent Vanhoucke and Arpan Chakraborty (2016) | https://www.udacity.com/course/deep-learning--ud730) by Vincent Vanhoucke and Arpan Chakraborty (2016 |
+| [Deep Learning - UWaterloo](https://www.youtube.com/playlist?list=PLehuLRPyt1Hyi78UOkMPWCGRxGcA9NVOE) by Prof. Ali Ghodsi at University of Waterloo (2015) | https://www.youtube.com/playlist?list=PLehuLRPyt1Hyi78UOkMPWCGRxGcA9NVOE) by Prof. Ali Ghodsi at University of Waterloo (2015 |
+| [Deep Learning A.I.Shelf](http://aishelf.org/category/ia/deep-learning/) | http://aishelf.org/category/ia/deep-learning/ |
+| [Deep Learning by Kaggle](https://www.kaggle.com/learn/deep-learning) | https://www.kaggle.com/learn/deep-learning |
+| [Deep Learning Course](http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start) by CILVR lab @ NYU (2014) | http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start) by CILVR lab @ NYU (2014 |
+| [Deep Learning Course](https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm) by Yann LeCun (2016) | https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm) by Yann LeCun (2016 |
+| [Deep Learning Crash Course](https://www.manning.com/livevideo/deep-learning-crash-course) | https://www.manning.com/livevideo/deep-learning-crash-course |
+| [Deep Learning Crash Course](https://www.youtube.com/watch?v=oS5fz_mHVz0&list=PLWKotBjTDoLj3rXBL-nEIPRN9V3a9Cx07): a series of mini-lectures by Leo Isikdogan on YouTube (2018) | https://www.youtube.com/watch?v=oS5fz_mHVz0&list=PLWKotBjTDoLj3rXBL-nEIPRN9V3a9Cx07): a series of mini-lectures by Leo Isikdogan on YouTube (2018 |
+| [Deep Learning Design Patterns by Andrew Ferlitsch](https://youtu.be/_DaviS6K0Vc) | https://youtu.be/_DaviS6K0Vc |
+| [Deep Learning for Beginners](https://spandan-madan.github.io/DeepLearningProject/) | https://spandan-madan.github.io/DeepLearningProject/ |
+| [Deep Learning for Natural Language Processing](https://www.manning.com/books/deep-learning-for-natural-language-processing) | https://www.manning.com/books/deep-learning-for-natural-language-processing |
+| [Deep Learning for Natural Language Processing - Stanford](http://cs224d.stanford.edu/) | http://cs224d.stanford.edu/ |
+| [Deep Learning for NLP (without Magic)](http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial) | http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial |
+| [Deep Learning for Search](https://www.manning.com/books/deep-learning-for-search) | https://www.manning.com/books/deep-learning-for-search |
+| [Deep Learning from the Bottom up](http://www.metacademy.org/roadmaps/rgrosse/deep_learning) | http://www.metacademy.org/roadmaps/rgrosse/deep_learning |
+| [Deep Learning from the Foundations](https://course.fast.ai/part2) | https://course.fast.ai/part2 |
+| [Deep Learning in Neural Networks: An Overview](http://arxiv.org/pdf/1404.7828v4.pdf) | http://arxiv.org/pdf/1404.7828v4.pdf |
+| [Deep Learning News](http://news.startup.ml/) | http://news.startup.ml/ |
+| [Deep Learning of Representations](https://www.youtube.com/watch?v=4xsVFLnHC_0) | https://www.youtube.com/watch?v=4xsVFLnHC_0 |
+| [Deep Learning Online Course list at Classpert](https://classpert.com/deep-learning) List of Deep Learning online courses (some are free) | https://classpert.com/deep-learning) List of Deep Learning online courses (some are free |
+| [Deep Learning Patterns and Practices](https://www.manning.com/books/deep-learning-patterns-and-practices) | https://www.manning.com/books/deep-learning-patterns-and-practices |
+| [Deep Learning Specialization - Coursera](https://www.coursera.org/specializations/deep-learning) | https://www.coursera.org/specializations/deep-learning |
+| [Deep Learning Tutorial](http://deeplearning.net/tutorial/deeplearning.pdf) by LISA lab, University of Montreal (Jan 6 2015) | http://deeplearning.net/tutorial/deeplearning.pdf) by LISA lab, University of Montreal (Jan 6 2015 |
+| [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) | https://www.manning.com/books/deep-learning-with-python |
+| [Deep Learning with Python, Second Edition](https://www.manning.com/books/deep-learning-with-python-second-edition) | https://www.manning.com/books/deep-learning-with-python-second-edition |
+| [Deep Learning with R in Motion](https://www.manning.com/livevideo/deep-learning-with-r-in-motion) | https://www.manning.com/livevideo/deep-learning-with-r-in-motion |
+| [Deep Learning with R, Second Edition](https://www.manning.com/books/deep-learning-with-r-second-edition) | https://www.manning.com/books/deep-learning-with-r-second-edition |
+| [Deep Learning, Self-Taught Learning and Unsupervised Feature Learning](https://www.youtube.com/watch?v=n1ViNeWhC24) | https://www.youtube.com/watch?v=n1ViNeWhC24 |
+| [Deep Learning: Intelligence from Big Data](https://www.youtube.com/watch?v=czLI3oLDe8M) by Steve Jurvetson (and panel) | https://www.youtube.com/watch?v=czLI3oLDe8M) by Steve Jurvetson (and panel |
+| [Deep N-Gram Models on Shakespeare’s works](https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/Deep%20N-Gram.ipynb) | https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/Deep%20N-Gram.ipynb |
+| [Deep Neural Networks for Acoustic Modeling in Speech Recognition](http://cs224d.stanford.edu/papers/maas_paper.pdf) | http://cs224d.stanford.edu/papers/maas_paper.pdf |
+| [Deep Reinforcement Learning (nanodegree) - Udacity](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) a 3-6 month Udacity nanodegree, spanning multiple courses (2018) | https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) a 3-6 month Udacity nanodegree, spanning multiple courses (2018 |
+| [Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684) | https://www.sciencedirect.com/science/article/pii/S0925231218306684 |
+| [DeepDA: a unified deep domain adaptation toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA |
+| [DeepDetect](https://github.com/jolibrain/deepdetect) | https://github.com/jolibrain/deepdetect |
+| [DeepDG: a unified deep domain generalization toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG |
+| [deepface](https://github.com/serengil/deepface) - A lightweight face recognition and facial attribute analysis (age, gender, emotion and race) | https://github.com/serengil/deepface) - A lightweight face recognition and facial attribute analysis (age, gender, emotion and race |
+| [DeepFaceDrawing: Deep Generation of Face Images from Sketches](http://geometrylearning.com/paper/DeepFaceDrawing.pdf?fbclid=IwAR0colWFHPGBCB1APZq9JVsWeWtmeZd9oCTNQvR52T5PRUJP_dLOwB8pt0I) | http://geometrylearning.com/paper/DeepFaceDrawing.pdf?fbclid=IwAR0colWFHPGBCB1APZq9JVsWeWtmeZd9oCTNQvR52T5PRUJP_dLOwB8pt0I |
+| [deepjavalibrary/djl](https://github.com/deepjavalibrary/djl) - Deep Java Library (DJL) | https://github.com/deepjavalibrary/djl) - Deep Java Library (DJL |
+| [DeepLabCut Model Zoo](https://deeplabcut.github.io/DeepLabCut/docs/ModelZoo.html) | https://deeplabcut.github.io/DeepLabCut/docs/ModelZoo.html |
+| [deeplearning.cs.toronto.edu](http://deeplearning.cs.toronto.edu/i2t) | http://deeplearning.cs.toronto.edu/i2t |
+| [deeplearning.net](http://deeplearning.net/) | http://deeplearning.net/ |
+| [deeplearning.stanford.edu](http://deeplearning.stanford.edu/) | http://deeplearning.stanford.edu/ |
+| [Deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) | https://github.com/deeplearning4j/deeplearning4j |
+| [Deepmind x UCL Deeplearning](https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF) | https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF |
+| [Deepmind x UCL Reinforcement Learning](https://www.youtube.com/playlist?list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb) | https://www.youtube.com/playlist?list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb |
+| [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044) | https://zhuanlan.zhihu.com/p/428097044 |
+| [Delight](https://github.com/datamechanics/delight) | https://github.com/datamechanics/delight |
+| [Demystifying Unsupervised Feature Learning](https://www.youtube.com/watch?v=wZfVBwOO0-k) | https://www.youtube.com/watch?v=wZfVBwOO0-k |
+| [Densely Sampled View Spheres](http://ls7-www.cs.uni-dortmund.de/~peters/pages/research/modeladaptsys/modeladaptsys_vba_rov.html) - Densely sampled view spheres - upper half of the view sphere of two toy objects with 2500 images each. (Formats: tiff) | http://ls7-www.cs.uni-dortmund.de/~peters/pages/research/modeladaptsys/modeladaptsys_vba_rov.html) - Densely sampled view spheres - upper half of the view sphere of two toy objects with 2500 images each. (Formats: tiff |
+| [Department Image Understanding](http://www.informatik.uni-stuttgart.de/ipvr/bv/bv_home_engl.html) | http://www.informatik.uni-stuttgart.de/ipvr/bv/bv_home_engl.html |
+| [Derek Rose](http://mil.engr.utk.edu/nmil/member/5.html) | http://mil.engr.utk.edu/nmil/member/5.html |
+| [Designing, Visualizing and Understanding Deep Neural Networks-UC Berkeley](https://www.youtube.com/playlist?list=PLkFD6_40KJIxopmdJF_CLNqG3QuDFHQUm) | https://www.youtube.com/playlist?list=PLkFD6_40KJIxopmdJF_CLNqG3QuDFHQUm |
+| [Detecto](https://github.com/alankbi/detecto) | https://github.com/alankbi/detecto |
+| [Detectron](https://github.com/facebookresearch/Detectron) | https://github.com/facebookresearch/Detectron |
+| [detectron2](https://github.com/facebookresearch/detectron2) | https://github.com/facebookresearch/detectron2 |
+| [Detectron2 Model Zoo](https://github.com/facebookresearch/detectron2) | https://github.com/facebookresearch/detectron2 |
+| [DiffSharp](https://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library providing exact and efficient derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products) | https://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library providing exact and efficient derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products |
+| [Digital Embryos](https://web-beta.archive.org/web/20011216051535/vision.psych.umn.edu/www/kersten-lab/demos/digitalembryo.html) - Digital embryos are novel objects which may be used to develop and test object recognition systems. They have an organic appearance. (Formats: various formats are available on request) | https://web-beta.archive.org/web/20011216051535/vision.psych.umn.edu/www/kersten-lab/demos/digitalembryo.html) - Digital embryos are novel objects which may be used to develop and test object recognition systems. They have an organic appearance. (Formats: various formats are available on request |
+| [dima806/fairface_age_image_detection](https://huggingface.co/dima806/fairface_age_image_detection) | https://huggingface.co/dima806/fairface_age_image_detection |
+| [dimple](http://dimplejs.org/) | http://dimplejs.org/ |
+| [Disco](https://github.com/discoproject/disco/) | https://github.com/discoproject/disco/ |
+| [Distances](https://github.com/JuliaStats/Distances.jl) | https://github.com/JuliaStats/Distances.jl |
+| [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) | https://huggingface.co/distilbert/distilbert-base-uncased |
+| [distilbert/distilbert-base-uncased-finetuned-sst-2-english](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) | https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english |
+| [Distribuição de Categorias (Barras)](./category_distribution_bar.png) | ./category_distribution_bar.png |
+| [Distribuição de Categorias (Pizza)](./category_distribution_pie.png) | ./category_distribution_pie.png |
+| [Distributed Machine learning Tool Kit (DMTK)](http://www.dmtk.io/) - A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense) | http://www.dmtk.io/) - A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense |
+| [Distributions](https://github.com/JuliaStats/Distributions.jl) | https://github.com/JuliaStats/Distributions.jl |
+| [Dive into Deep Learning](https://d2l.ai/) | https://d2l.ai/ |
+| [dl4clj](https://github.com/yetanalytics/dl4clj) | https://github.com/yetanalytics/dl4clj |
+| [DLib](http://dlib.net/imaging.html) | http://dlib.net/imaging.html |
+| [DLib](http://dlib.net/ml.html) | http://dlib.net/ml.html |
+| [dlxjj/pdf_ocr](https://huggingface.co/datasets/dlxjj/pdf_ocr) | https://huggingface.co/datasets/dlxjj/pdf_ocr |
+| [DN2A](https://github.com/antoniodeluca/dn2a.js) | https://github.com/antoniodeluca/dn2a.js |
+| [DNNGraph](https://github.com/ajtulloch/dnngraph) | https://github.com/ajtulloch/dnngraph |
+| [doc/awesome_paper_date.md](/doc/awesome_paper_date.md) | /doc/awesome_paper_date.md |
+| [doc/awesome_papers.md](/doc/awesome_paper.md) | /doc/awesome_paper.md |
+| [dockerface](https://github.com/natanielruiz/dockerface) | https://github.com/natanielruiz/dockerface |
+| [documentação](docs/) | docs/ |
+| [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/) | https://www.bilibili.com/video/BV1T7411R75a/ |
+| [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430) | https://arxiv.org/abs/0902.3430 |
+| [Domain generalization](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization |
+| [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/) | https://www.bilibili.com/video/BV1ro4y1S7dd/ |
+| [Domain generalization survey](http://jd92.wang/assets/files/DGSurvey-ppt.pdf) | http://jd92.wang/assets/files/DGSurvey-ppt.pdf |
+| [Dong Yu](http://research.microsoft.com/en-us/people/dongyu/default.aspx) | http://research.microsoft.com/en-us/people/dongyu/default.aspx |
+| [dp](https://github.com/nicholas-leonard/dp) | https://github.com/nicholas-leonard/dp |
+| [dphn/dolphin-2.9.1-yi-1.5-34b](https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b) | https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b |
+| [dpnn](https://github.com/Element-Research/dpnn) | https://github.com/Element-Research/dpnn |
+| [Dr. Michael Thomas Flanagan's Java Scientific Library.](https://www.ee.ucl.ac.uk/~mflanaga/java/) | https://www.ee.ucl.ac.uk/~mflanaga/java/ |
+| [Drausin Wulsin](http://www.seas.upenn.edu/~wulsin/) | http://www.seas.upenn.edu/~wulsin/ |
+| [dream-creator](https://github.com/ProGamerGov/dream-creator) | https://github.com/ProGamerGov/dream-creator |
+| [DrivenData](https://www.drivendata.org) | https://www.drivendata.org |
+| [DSP](https://github.com/JuliaDSP/DSP.jl) - Digital Signal Processing (filtering, periodograms, spectrograms, window functions) | https://github.com/JuliaDSP/DSP.jl) - Digital Signal Processing (filtering, periodograms, spectrograms, window functions |
+| [DSSTNE](https://github.com/amznlabs/amazon-dsstne) | https://github.com/amznlabs/amazon-dsstne |
+| [DVC](https://github.com/iterative/dvc) | https://github.com/iterative/dvc |
+| [DVC (Data Version Control)](https://dvc.org) | https://dvc.org |
+| [Dynamic Routing Between Capsules](https://arxiv.org/abs/1710.09829) | https://arxiv.org/abs/1710.09829 |
+| [DyNet](https://github.com/clab/dynet) | https://github.com/clab/dynet |
+| [eaopt](https://github.com/MaxHalford/eaopt) | https://github.com/MaxHalford/eaopt |
+| [Earth Data](https://earthdata.nasa.gov/) | https://earthdata.nasa.gov/ |
+| [EBLearn](http://eblearn.sourceforge.net/) | http://eblearn.sourceforge.net/ |
+| [ECMWF Reanalysis](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) | https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5 |
+| [ECMWF: AI for Weather Forecasting](https://www.ecmwf.int/) | https://www.ecmwf.int/ |
+| [ECMWF: IA para Previsão Meteorológica](https://www.ecmwf.int/) | https://www.ecmwf.int/ |
+| [eecs.umich.edu/ai](http://www.eecs.umich.edu/ai/) | http://www.eecs.umich.edu/ai/ |
+| [Efficient BackProp](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf) | http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf |
+| [Efficient Content-based Retrieval Group](http://www.cs.washington.edu/research/imagedatabase/) | http://www.cs.washington.edu/research/imagedatabase/ |
+| [El Salvador Atlas of Gastrointestinal VideoEndoscopy](http://www.gastrointestinalatlas.com) - Images and Videos of his-res of studies taken from Gastrointestinal Video endoscopy. (Formats: jpg, mpg, gif) | http://www.gastrointestinalatlas.com) - Images and Videos of his-res of studies taken from Gastrointestinal Video endoscopy. (Formats: jpg, mpg, gif |
+| [ELKI](https://elki-project.github.io/) - Java toolkit for data mining. (unsupervised: clustering, outlier detection etc.) | https://elki-project.github.io/) - Java toolkit for data mining. (unsupervised: clustering, outlier detection etc. |
+| [Embeddings](https://github.com/JuliaText/Embeddings.jl) | https://github.com/JuliaText/Embeddings.jl |
+| [emel](https://github.com/mrdimosthenis/emel) | https://github.com/mrdimosthenis/emel |
+| [Emgu CV](http://www.emgu.com/wiki/index.php/Main_Page) | http://www.emgu.com/wiki/index.php/Main_Page |
+| [emilyalsentzer/Bio_ClinicalBERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT) | https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT |
+| [EN]** For more details, see the [commit history](https://github.com/FELIPEACASTRO/AIForge/commits/master) | https://github.com/FELIPEACASTRO/AIForge/commits/master |
+| [EN]** If you have any questions, open an [issue](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [Encog](https://github.com/encog/encog-java-core) | https://github.com/encog/encog-java-core |
+| [Encog](https://github.com/jimpil/enclog) - Clojure wrapper for Encog (v3) (Machine-Learning framework that specializes in neural-nets) | https://github.com/jimpil/enclog) - Clojure wrapper for Encog (v3) (Machine-Learning framework that specializes in neural-nets |
+| [Encog](https://www.nuget.org/packages/encog-dotnet-core/) | https://www.nuget.org/packages/encog-dotnet-core/ |
+| [Engineering Deep Learning Platforms](https://www.manning.com/books/engineering-deep-learning-platforms) | https://www.manning.com/books/engineering-deep-learning-platforms |
+| [Entertainment](./Entertainment/) | ./Entertainment/ |
+| [Entertainment / Entretenimento](./04_APPLY/Entertainment/) | ./04_APPLY/Entertainment/ |
+| [Envision](https://github.com/clojurewerkz/envision) | https://github.com/clojurewerkz/envision |
+| [EOS Agriculture API](07_APIs/) | 07_APIs/ |
+| [epfl-ML](https://github.com/epfl-ML) | https://github.com/epfl-ML |
+| [Erik M. Schmidt](http://music.ece.drexel.edu/people/eschmidt) | http://music.ece.drexel.edu/people/eschmidt |
+| [espnet/yodas-granary](https://huggingface.co/datasets/espnet/yodas-granary) | https://huggingface.co/datasets/espnet/yodas-granary |
+| [espnet/yodas2](https://huggingface.co/datasets/espnet/yodas2) | https://huggingface.co/datasets/espnet/yodas2 |
+| [eth-cscs](https://github.com/eth-cscs)) | https://github.com/eth-cscs) |
+| [Eugenio Culurciello](https://engineering.purdue.edu/BME/People/viewPersonById?resource_id=71333) | https://engineering.purdue.edu/BME/People/viewPersonById?resource_id=71333 |
+| [Eurostat](https://ec.europa.eu/eurostat) | https://ec.europa.eu/eurostat |
+| [Evolutionary Deep Learning](https://www.manning.com/books/evolutionary-deep-learning) | https://www.manning.com/books/evolutionary-deep-learning |
+| [Exadel CompreFace](https://github.com/exadel-inc/CompreFace) | https://github.com/exadel-inc/CompreFace |
+| [Extensions of Recurrent Neural Network Language Model](http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf) | http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf |
+| [Face and Gesture images and image sequences](http://www.fg-net.org) | http://www.fg-net.org |
+| [Face Detection with Computer Vision and Deep Learning](https://www.udemy.com/share/1000gAA0QdcV9aQng=/) | https://www.udemy.com/share/1000gAA0QdcV9aQng=/ |
+| [face_recognition](https://github.com/ageitgey/face_recognition) | https://github.com/ageitgey/face_recognition |
+| [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) | https://huggingface.co/facebook/bart-large-cnn |
+| [facebook/bart-large-mnli](https://huggingface.co/facebook/bart-large-mnli) | https://huggingface.co/facebook/bart-large-mnli |
+| [facebook/contriever](https://huggingface.co/facebook/contriever) | https://huggingface.co/facebook/contriever |
+| [facebook/dinov2-base](https://huggingface.co/facebook/dinov2-base) | https://huggingface.co/facebook/dinov2-base |
+| [facebook/esm2_t33_650M_UR50D](https://huggingface.co/facebook/esm2_t33_650M_UR50D) | https://huggingface.co/facebook/esm2_t33_650M_UR50D |
+| [facebook/esmfold_v1](https://huggingface.co/facebook/esmfold_v1) | https://huggingface.co/facebook/esmfold_v1 |
+| [facebook/opt-125m](https://huggingface.co/facebook/opt-125m) | https://huggingface.co/facebook/opt-125m |
+| [facebook/wav2vec2-base-960h](https://huggingface.co/facebook/wav2vec2-base-960h) | https://huggingface.co/facebook/wav2vec2-base-960h |
+| [FacebookAI/roberta-base](https://huggingface.co/FacebookAI/roberta-base) | https://huggingface.co/FacebookAI/roberta-base |
+| [FacebookAI/roberta-large](https://huggingface.co/FacebookAI/roberta-large) | https://huggingface.co/FacebookAI/roberta-large |
+| [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) | https://huggingface.co/FacebookAI/xlm-roberta-base |
+| [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf) | https://arxiv.org/pdf/1503.03832.pdf |
+| [Fake News Classification (with streamlit deployment)](https://github.com/SauravMaheshkar/Fake-News-Classification) | https://github.com/SauravMaheshkar/Fake-News-Classification |
+| [Falconsai/nsfw_image_detection](https://huggingface.co/Falconsai/nsfw_image_detection) | https://huggingface.co/Falconsai/nsfw_image_detection |
+| [fancyzhx/ag_news](https://huggingface.co/datasets/fancyzhx/ag_news) | https://huggingface.co/datasets/fancyzhx/ag_news |
+| [Farmonaut](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [Fashion MNIST using Flax](https://github.com/SauravMaheshkar/Flax-Examples) | https://github.com/SauravMaheshkar/Flax-Examples |
+| [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) | https://arxiv.org/pdf/1504.08083.pdf |
+| [FastAI](https://www.fast.ai/) | https://www.fast.ai/ |
+| [fastmath](https://github.com/generateme/fastmath) | https://github.com/generateme/fastmath |
+| [Feast](https://feast.dev/) | https://feast.dev/ |
+| [Feast](https://github.com/gojek/feast) | https://github.com/gojek/feast |
+| [Feature-engine](https://github.com/feature-engine/feature_engine) | https://github.com/feature-engine/feature_engine |
+| [Featuretools](https://github.com/alteryx/featuretools) | https://github.com/alteryx/featuretools |
+| [Featuretools](https://github.com/featuretools/featuretools) | https://github.com/featuretools/featuretools |
+| [Federated transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#federated-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#federated-transfer-learning |
+| [Fei-Fei Li](http://vision.stanford.edu/feifeili) | http://vision.stanford.edu/feifeili |
+| [Felipe Castro](https://github.com/FELIPEACASTRO) | https://github.com/FELIPEACASTRO |
+| [FELIPEACASTRO/AIForge](https://github.com/FELIPEACASTRO/AIForge) | https://github.com/FELIPEACASTRO/AIForge |
+| [Felix92/docTR-resource-collection](https://huggingface.co/datasets/Felix92/docTR-resource-collection) | https://huggingface.co/datasets/Felix92/docTR-resource-collection |
+| [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf) | https://arxiv.org/pdf/2002.03497.pdf |
+| [fex](https://github.com/koraykv/fex) | https://github.com/koraykv/fex |
+| [FG-NET Facial Aging Database](http://sting.cycollege.ac.cy/~alanitis/fgnetaging/index.htm) - Database contains 1002 face images showing subjects at different ages. (Formats: jpg) | http://sting.cycollege.ac.cy/~alanitis/fgnetaging/index.htm) - Database contains 1002 face images showing subjects at different ages. (Formats: jpg |
+| [Fido](https://github.com/FidoProject/Fido) | https://github.com/FidoProject/Fido |
+| [FiftyOne](https://voxel51.com/docs/fiftyone) | https://voxel51.com/docs/fiftyone |
+| [figue](https://code.google.com/archive/p/figue) | https://code.google.com/archive/p/figue |
+| [Finance](./Finance/) | ./Finance/ |
+| [Finance / Finanças](./04_APPLY/Finance/) | ./04_APPLY/Finance/ |
+| [Finance AI](../../Finance/) | ../../Finance/ |
+| [Finance AI Overview](../README.md) | ../README.md |
+| [FiveThirtyEight Data](https://data.fivethirtyeight.com/) | https://data.fivethirtyeight.com/ |
+| [Flare](https://github.com/aria42/flare) - Dynamic Tensor Graph library in Clojure (think PyTorch, DynNet, etc.) | https://github.com/aria42/flare) - Dynamic Tensor Graph library in Clojure (think PyTorch, DynNet, etc. |
+| [FlexML](https://github.com/ozguraslank/flexml) | https://github.com/ozguraslank/flexml |
+| [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/) | http://shannon.cs.illinois.edu/DenotationGraph/ |
+| [Flickr 8k](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html) | http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html |
+| [Flickr Data](https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images) | https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images |
+| [Flink](https://flink.apache.org/) | https://flink.apache.org/ |
+| [FlinkML in Apache Flink](https://ci.apache.org/projects/flink/flink-docs-master/dev/libs/ml/index.html) | https://ci.apache.org/projects/flink/flink-docs-master/dev/libs/ml/index.html |
+| [Flux](https://fluxml.ai/) | https://fluxml.ai/ |
+| [Forward Data Lab](https://github.com/ForwardDataLab)) | https://github.com/ForwardDataLab) |
+| [Foundation Models](01_Foundation_Models/) | 01_Foundation_Models/ |
+| [Frameworks](./02_BUILD/Frameworks/) | ./02_BUILD/Frameworks/ |
+| [Frameworks](./Frameworks/) - Core frameworks (PyTorch, TensorFlow) | ./Frameworks/) - Core frameworks (PyTorch, TensorFlow |
+| [Frank Seide](http://research.microsoft.com/en-us/people/fseide/) | http://research.microsoft.com/en-us/people/fseide/ |
+| [frog](https://github.com/LanguageMachines/frog) | https://github.com/LanguageMachines/frog |
+| [ftp://ftp.cps.msu.edu/pub/prip](ftp://ftp.cps.msu.edu/pub/prip) - many images (Formats: unknown) | ftp://ftp.cps.msu.edu/pub/prip) - many images (Formats: unknown |
+| [ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/](ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/) - Real and synthetic image sequences used for testing a Particle Image Velocimetry application. These images may be used for the test of optical flow and image matching algorithms. (Formats: pgm (raw)) | ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/) - Real and synthetic image sequences used for testing a Particle Image Velocimetry application. These images may be used for the test of optical flow and image matching algorithms. (Formats: pgm (raw) |
+| [Fungp](https://github.com/vollmerm/fungp) | https://github.com/vollmerm/fungp |
+| [FusionCharts](https://www.fusioncharts.com/) | https://www.fusioncharts.com/ |
+| [FVC2000 Fingerprint Databases](http://bias.csr.unibo.it/fvc2000/) - FVC2000 is the First International Competition for Fingerprint Verification Algorithms. Four fingerprint databases constitute the FVC2000 benchmark (3520 fingerprints in all) | http://bias.csr.unibo.it/fvc2000/) - FVC2000 is the First International Competition for Fingerprint Verification Algorithms. Four fingerprint databases constitute the FVC2000 benchmark (3520 fingerprints in all |
+| [Gadfly](https://github.com/GiovineItalia/Gadfly.jl) | https://github.com/GiovineItalia/Gadfly.jl |
+| [gaimc](https://www.mathworks.com/matlabcentral/fileexchange/24134-gaimc---graph-algorithms-in-matlab-code) | https://www.mathworks.com/matlabcentral/fileexchange/24134-gaimc---graph-algorithms-in-matlab-code |
+| [Galen Andrew](http://homes.cs.washington.edu/~galen/) | http://homes.cs.washington.edu/~galen/ |
+| [Gaussian Mixture Model](https://github.com/lukapopijac/gaussian-mixture-model) | https://github.com/lukapopijac/gaussian-mixture-model |
+| [Gaussian Processes](https://github.com/STOR-i/GaussianProcesses.jl) | https://github.com/STOR-i/GaussianProcesses.jl |
+| [GaussianMixtures](https://github.com/davidavdav/GaussianMixtures.jl) | https://github.com/davidavdav/GaussianMixtures.jl |
+| [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097)]([知乎文章](https://zhuanlan.zhihu.com/p/354740610)) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) |
+| [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661v1.pdf) | https://arxiv.org/pdf/1406.2661v1.pdf |
+| [GeneticSharp](https://github.com/giacomelli/GeneticSharp) | https://github.com/giacomelli/GeneticSharp |
+| [Geni](https://github.com/zero-one-group/geni) | https://github.com/zero-one-group/geni |
+| [genius](https://github.com/duanhongyi/genius) | https://github.com/duanhongyi/genius |
+| [Gensyn/Qwen2.5-0.5B-Instruct](https://huggingface.co/Gensyn/Qwen2.5-0.5B-Instruct) | https://huggingface.co/Gensyn/Qwen2.5-0.5B-Instruct |
+| [Geoff Hinton's reading list (all papers)](http://www.cs.toronto.edu/~hinton/deeprefs.html) | http://www.cs.toronto.edu/~hinton/deeprefs.html |
+| [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) | http://www.cs.toronto.edu/~hinton/ |
+| [Geometric & Intelligent Computing Laboratory](http://gicl.mcs.drexel.edu) | http://gicl.mcs.drexel.edu |
+| [George Dahl](http://www.cs.toronto.edu/~gdahl/) | http://www.cs.toronto.edu/~gdahl/ |
+| [Geospatial AI](../../Agriculture/Biomass_AI/) | ../../Agriculture/Biomass_AI/ |
+| [German Fingerspelling Database](http://www-i6.informatik.rwth-aachen.de/~dreuw/database.html) - The database contains 35 gestures and consists of 1400 image sequences that contain gestures of 20 different persons recorded under non-uniform daylight lighting conditions. (Formats: mpg,jpg) | http://www-i6.informatik.rwth-aachen.de/~dreuw/database.html) - The database contains 35 gestures and consists of 1400 image sequences that contain gestures of 20 different persons recorded under non-uniform daylight lighting conditions. (Formats: mpg,jpg |
+| [GFRNN](http://arxiv.org/pdf/1502.02367v3.pdf) [.](http://jmlr.org/proceedings/papers/v37/chung15.pdf) [.](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf) | http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf |
+| [ggml-org/models-moved](https://huggingface.co/ggml-org/models-moved) | https://huggingface.co/ggml-org/models-moved |
+| [GitHub](https://github.com/amazon-science/chronos-forecasting) | https://github.com/amazon-science/chronos-forecasting |
+| [GitHub](https://github.com/google-deepmind/graphcast) | https://github.com/google-deepmind/graphcast |
+| [GitHub](https://github.com/NVlabs/FourCastNet) | https://github.com/NVlabs/FourCastNet |
+| [GitHub](https://github.com/nxai/tirex) | https://github.com/nxai/tirex |
+| [GitHub (Open Source)](https://github.com/google-deepmind/graphcast) | https://github.com/google-deepmind/graphcast |
+| [GitHub Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | https://github.com/awesomedata/awesome-public-datasets |
+| [GitHub Repository](https://github.com/bowang-lab/MedSAM) | https://github.com/bowang-lab/MedSAM |
+| [GitHub: AutoGluon](https://github.com/autogluon/autogluon) | https://github.com/autogluon/autogluon |
+| [GitHub: AutonLab](https://github.com/autonlab) | https://github.com/autonlab |
+| [GitHub: IBM Granite](https://github.com/ibm-granite) | https://github.com/ibm-granite |
+| [GLM](https://github.com/JuliaStats/GLM.jl) | https://github.com/JuliaStats/GLM.jl |
+| [GLMNet](https://github.com/simonster/GLMNet.jl) | https://github.com/simonster/GLMNet.jl |
+| [globe](https://github.com/mmcloughlin/globe) | https://github.com/mmcloughlin/globe |
+| [glot](https://github.com/arafatk/glot) | https://github.com/arafatk/glot |
+| [GLUE](https://gluebenchmark.com/) | https://gluebenchmark.com/ |
+| [go-dnn](https://github.com/sudachen/go-dnn) - Deep Neural Networks for Golang (powered by MXNet) | https://github.com/sudachen/go-dnn) - Deep Neural Networks for Golang (powered by MXNet |
+| [go-featureprocessing](https://github.com/nikolaydubina/go-featureprocessing) | https://github.com/nikolaydubina/go-featureprocessing |
+| [go-galib](https://github.com/thoj/go-galib) | https://github.com/thoj/go-galib |
+| [go-geom](https://github.com/twpayne/go-geom) | https://github.com/twpayne/go-geom |
+| [go-graph](https://github.com/StepLg/go-graph) | https://github.com/StepLg/go-graph |
+| [go-ml](https://github.com/alonsovidales/go_ml) | https://github.com/alonsovidales/go_ml |
+| [go-ml-benchmarks](https://github.com/nikolaydubina/go-ml-benchmarks) | https://github.com/nikolaydubina/go-ml-benchmarks |
+| [go-ml-transpiler](https://github.com/znly/go-ml-transpiler) | https://github.com/znly/go-ml-transpiler |
+| [go-mxnet-predictor](https://github.com/songtianyi/go-mxnet-predictor) | https://github.com/songtianyi/go-mxnet-predictor |
+| [go-ngram](https://github.com/Lazin/go-ngram) | https://github.com/Lazin/go-ngram |
+| [go-porterstemmer](https://github.com/reiver/go-porterstemmer) | https://github.com/reiver/go-porterstemmer |
+| [go-pr](https://github.com/daviddengcn/go-pr) | https://github.com/daviddengcn/go-pr |
+| [gobrain](https://github.com/goml/gobrain) | https://github.com/goml/gobrain |
+| [GoCV](https://github.com/hybridgroup/gocv) | https://github.com/hybridgroup/gocv |
+| [gogeo](https://github.com/golang/geo) | https://github.com/golang/geo |
+| [gold](https://github.com/aunum/gold) | https://github.com/aunum/gold |
+| [golearn](https://github.com/sjwhitworth/golearn) | https://github.com/sjwhitworth/golearn |
+| [goml](https://github.com/cdipaolo/goml) | https://github.com/cdipaolo/goml |
+| [GoNN](https://github.com/fxsjy/gonn) | https://github.com/fxsjy/gonn |
+| [gonum/graph](https://godoc.org/gonum.org/v1/gonum/graph) | https://godoc.org/gonum.org/v1/gonum/graph |
+| [gonum/mat](https://godoc.org/gonum.org/v1/gonum/mat) | https://godoc.org/gonum.org/v1/gonum/mat |
+| [gonum/optimize](https://godoc.org/gonum.org/v1/gonum/optimize) | https://godoc.org/gonum.org/v1/gonum/optimize |
+| [gonum/plot](https://godoc.org/gonum.org/v1/plot) | https://godoc.org/gonum.org/v1/plot |
+| [gonum/stat](https://godoc.org/gonum.org/v1/gonum/stat) | https://godoc.org/gonum.org/v1/gonum/stat |
+| [Google - Sequence to Sequence  Learning with Neural Networks](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) | http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf |
+| [Google Cloud AutoML](https://cloud.google.com/automl) | https://cloud.google.com/automl |
+| [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) | https://cloud.google.com/public-datasets |
+| [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) | https://cloud.google.com/vertex-ai |
+| [Google Colab Pro](https://colab.research.google.com/signup) ($9.99/mês) | https://colab.research.google.com/signup) ($9.99/mês |
+| [Google Dataset Search](https://datasetsearch.research.google.com) | https://datasetsearch.research.google.com |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | https://datasetsearch.research.google.com/ |
+| [Google DeepMind AlphaFold 3 Announcement](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) | https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/ |
+| [Google DeepMind Blog](https://deepmind.google/discover/blog/) | https://deepmind.google/discover/blog/ |
+| [Google House Numbers](http://ufldl.stanford.edu/housenumbers/) | http://ufldl.stanford.edu/housenumbers/ |
+| [Google Research Blog](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/) | https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/ |
+| [google-bert/bert-base-cased](https://huggingface.co/google-bert/bert-base-cased) | https://huggingface.co/google-bert/bert-base-cased |
+| [google-bert/bert-base-multilingual-cased](https://huggingface.co/google-bert/bert-base-multilingual-cased) | https://huggingface.co/google-bert/bert-base-multilingual-cased |
+| [google-bert/bert-base-multilingual-uncased](https://huggingface.co/google-bert/bert-base-multilingual-uncased) | https://huggingface.co/google-bert/bert-base-multilingual-uncased |
+| [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) | https://huggingface.co/google-bert/bert-base-uncased |
+| [google-t5/t5-small](https://huggingface.co/google-t5/t5-small) | https://huggingface.co/google-t5/t5-small |
+| [google/electra-base-discriminator](https://huggingface.co/google/electra-base-discriminator) | https://huggingface.co/google/electra-base-discriminator |
+| [google/gemma-3-1b-it](https://huggingface.co/google/gemma-3-1b-it) | https://huggingface.co/google/gemma-3-1b-it |
+| [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224) | https://huggingface.co/google/vit-base-patch16-224 |
+| [gorgonia](https://github.com/gorgonia/gorgonia) | https://github.com/gorgonia/gorgonia |
+| [goro](https://github.com/aunum/goro) | https://github.com/aunum/goro |
+| [gorse](https://github.com/zhenghaoz/gorse) | https://github.com/zhenghaoz/gorse |
+| [gota](https://github.com/go-gota/gota) | https://github.com/go-gota/gota |
+| [Gourieff/ReActor](https://huggingface.co/datasets/Gourieff/ReActor) | https://huggingface.co/datasets/Gourieff/ReActor |
+| [GPR](https://mmottl.github.io/gpr/) | https://mmottl.github.io/gpr/ |
+| [Graduate Summer School: Deep Learning, Feature Learning](https://www.youtube.com/playlist?list=PLHyI3Fbmv0SdzMHAy0aN59oYnLy5vyyTA) by Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Andrew Ng, Nando de Freitas and several others @ IPAM, UCLA (2012) | https://www.youtube.com/playlist?list=PLHyI3Fbmv0SdzMHAy0aN59oYnLy5vyyTA) by Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Andrew Ng, Nando de Freitas and several others @ IPAM, UCLA (2012 |
+| [Graham Taylor](http://www.uoguelph.ca/~gwtaylor/) | http://www.uoguelph.ca/~gwtaylor/ |
+| [Grand Challenge - Medical Imaging Challenges](https://grand-challenge.org/) | https://grand-challenge.org/ |
+| [graph](https://github.com/torch/graph) | https://github.com/torch/graph |
+| [Graph Layout](https://github.com/IainNZ/GraphLayout.jl) | https://github.com/IainNZ/GraphLayout.jl |
+| [GrassClover dataset](04_Datasets/) | 04_Datasets/ |
+| [GreatCircle](https://github.com/mwgg/GreatCircle) | https://github.com/mwgg/GreatCircle |
+| [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning) | https://www.manning.com/books/grokking-deep-learning |
+| [Grokking Deep Learning for Computer Vision](https://www.manning.com/books/grokking-deep-learning-for-computer-vision) | https://www.manning.com/books/grokking-deep-learning-for-computer-vision |
+| [Grokking Deep Learning in Motion](https://www.manning.com/livevideo/grokking-deep-learning-in-motion) by Beau Carnes (2018) | https://www.manning.com/livevideo/grokking-deep-learning-in-motion) by Beau Carnes (2018 |
+| [Groningen Natural Image Database](http://hlab.phys.rug.nl/archive.html) - 4000+ 1536x1024 (16 bit) calibrated outdoor images (Formats: homebrew) | http://hlab.phys.rug.nl/archive.html) - 4000+ 1536x1024 (16 bit) calibrated outdoor images (Formats: homebrew |
+| [grt](https://github.com/nickgillian/grt) - The Gesture Recognition Toolkit (GRT) | https://github.com/nickgillian/grt) - The Gesture Recognition Toolkit (GRT |
+| [GRU - Gated Recurrent Unit](http://arxiv.org/pdf/1406.1078v3.pdf) | http://arxiv.org/pdf/1406.1078v3.pdf |
+| [Grégoire Montavon](http://gregoire.montavon.name/) | http://gregoire.montavon.name/ |
+| [GUIA_FASE1_COMPLETO.md](docs/GUIA_FASE1_COMPLETO.md) | docs/GUIA_FASE1_COMPLETO.md |
+| [GUIA_FASE1_COMPLETO.md](GUIA_FASE1_COMPLETO.md) | GUIA_FASE1_COMPLETO.md |
+| [Guide to Machine Learning](http://yerevann.com/a-guide-to-deep-learning/) | http://yerevann.com/a-guide-to-deep-learning/ |
+| [Guido Francisco Montúfar](http://personal-homepages.mis.mpg.de/montufar/) | http://personal-homepages.mis.mpg.de/montufar/ |
+| [Guillaume Desjardins](http://brainlogging.wordpress.com/) | http://brainlogging.wordpress.com/ |
+| [H2O](https://github.com/h2oai/h2o-3) | https://github.com/h2oai/h2o-3 |
+| [H2O AutoML](https://docs.h2o.ai) | https://docs.h2o.ai |
+| [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html) | https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html |
+| [Hadoop](https://github.com/apache/hadoop) | https://github.com/apache/hadoop |
+| [Half Beer](https://github.com/sta-ger/HalfBeer) - Beer glass classifier created with [Synaptic](https://github.com/cazala/synaptic) | https://github.com/cazala/synaptic |
+| [hallucinations-leaderboard/results](https://huggingface.co/datasets/hallucinations-leaderboard/results) | https://huggingface.co/datasets/hallucinations-leaderboard/results |
+| [Hanami](https://github.com/jsa-aerial/hanami) : Clojure(Script) library and framework for creating interactive visualization applications based in Vega-Lite (VGL) and/or Vega (VG) | https://github.com/jsa-aerial/hanami) : Clojure(Script) library and framework for creating interactive visualization applications based in Vega-Lite (VGL) and/or Vega (VG |
+| [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf) | https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf |
+| [Hannes Schulz](http://www.ais.uni-bonn.de/~schulz/) | http://www.ais.uni-bonn.de/~schulz/ |
+| [Hardware for AI: Understanding computer hardware & build your own computer](https://github.com/MelAbgrall/HardwareforAI) | https://github.com/MelAbgrall/HardwareforAI |
+| [Harvard Atlas](http://atlas.cid.harvard.edu/)) | http://atlas.cid.harvard.edu/) |
+| [Harvard EconCS Group](https://github.com/HarvardEconCS) | https://github.com/HarvardEconCS |
+| [Harvard University](https://github.com/harvard) | https://github.com/harvard |
+| [haskell-ml](https://github.com/ajtulloch/haskell-ml) | https://github.com/ajtulloch/haskell-ml |
+| [Healthcare](./Healthcare/) | ./Healthcare/ |
+| [Healthcare / Saúde](./04_APPLY/Healthcare/) | ./04_APPLY/Healthcare/ |
+| [Healthcare AI](../../Healthcare/) | ../../Healthcare/ |
+| [HELM](https://crfm.stanford.edu/helm/) | https://crfm.stanford.edu/helm/ |
+| [Helsinki-NLP/fineweb-edu-translated](https://huggingface.co/datasets/Helsinki-NLP/fineweb-edu-translated) | https://huggingface.co/datasets/Helsinki-NLP/fineweb-edu-translated |
+| [here](https://arxiv.org/abs/1902.06714) | https://arxiv.org/abs/1902.06714 |
+| [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) | https://github.com/jindongwang/transferlearning/blob/master/data |
+| [here](https://github.com/terryum/awesome-deep-learning-papers) | https://github.com/terryum/awesome-deep-learning-papers |
+| [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) and [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) | https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing |
+| [Heroes Wear Masks](https://heroeswearmasks.fun/) | https://heroeswearmasks.fun/ |
+| [Heterogeneous transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#heterogeneous-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#heterogeneous-transfer-learning |
+| [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | https://huggingface.co/hexgrad/Kokoro-82M |
+| [hf-doc-build/doc-build](https://huggingface.co/datasets/hf-doc-build/doc-build) | https://huggingface.co/datasets/hf-doc-build/doc-build |
+| [hf-doc-build/doc-build-dev](https://huggingface.co/datasets/hf-doc-build/doc-build-dev) | https://huggingface.co/datasets/hf-doc-build/doc-build-dev |
+| [hf-internal-testing/hf_hub_cache](https://huggingface.co/datasets/hf-internal-testing/hf_hub_cache) | https://huggingface.co/datasets/hf-internal-testing/hf_hub_cache |
+| [hf-internal-testing/transformers_circleci_workflow_runs](https://huggingface.co/datasets/hf-internal-testing/transformers_circleci_workflow_runs) | https://huggingface.co/datasets/hf-internal-testing/transformers_circleci_workflow_runs |
+| [hf-vision/course-assets](https://huggingface.co/datasets/hf-vision/course-assets) | https://huggingface.co/datasets/hf-vision/course-assets |
+| [High Charts](https://www.highcharts.com/) | https://www.highcharts.com/ |
+| [hips.seas.harvard.edu](http://hips.seas.harvard.edu/) | http://hips.seas.harvard.edu/ |
+| [HLearn](https://github.com/mikeizbicki/HLearn) | https://github.com/mikeizbicki/HLearn |
+| [hnn](https://github.com/alpmestan/HNN) | https://github.com/alpmestan/HNN |
+| [Honglak Lee](http://web.eecs.umich.edu/~honglak/) | http://web.eecs.umich.edu/~honglak/ |
+| [hopfield-networks](https://github.com/ajtulloch/hopfield-networks) | https://github.com/ajtulloch/hopfield-networks |
+| [Hopsworks](https://github.com/logicalclocks/hopsworks) | https://github.com/logicalclocks/hopsworks |
+| [Hopsworks](https://www.hopsworks.ai/) | https://www.hopsworks.ai/ |
+| [How To Create A Mind](https://www.youtube.com/watch?v=RIkxVci-R4k) | https://www.youtube.com/watch?v=RIkxVci-R4k |
+| [HPLT/HPLT2.0_cleaned](https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned) | https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned |
+| [htm.java](https://github.com/numenta/htm.java) | https://github.com/numenta/htm.java |
+| [https://ai.google.dev/](https://ai.google.dev/) | https://ai.google.dev/ |
+| [https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/](https://ai.meta.com/blog/imagebind-six-modalidades-unified-embedding/) | https://ai.meta.com/blog/imagebind-six-modalidades-unified-embedding/ |
+| [https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/](https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/) | https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/ |
+| [https://ai.meta.com/blog/llama-3/](https://ai.meta.com/blog/llama-3/) | https://ai.meta.com/blog/llama-3/ |
+| [https://arxiv.org/abs/1904.05045](https://arxiv.org/abs/1904.05045) | https://arxiv.org/abs/1904.05045 |
+| [https://arxiv.org/abs/2212.09748](https://arxiv.org/abs/2212.09748) | https://arxiv.org/abs/2212.09748 |
+| [https://arxiv.org/abs/2305.05665](https://arxiv.org/abs/2305.05665) | https://arxiv.org/abs/2305.05665 |
+| [https://deepmind.google/technologies/gemini/](https://deepmind.google/technologies/gemini/) | https://deepmind.google/technologies/gemini/ |
+| [https://docs.anthropic.com/](https://docs.anthropic.com/) | https://docs.anthropic.com/ |
+| [https://docs.mistral.ai/](https://docs.mistral.ai/) | https://docs.mistral.ai/ |
+| [https://github.com/autogluon/autogluon](https://github.com/autogluon/autogluon) | https://github.com/autogluon/autogluon |
+| [https://github.com/awesome-mlops/awesome-mlops-platforms](https://github.com/awesome-mlops/awesome-mlops-platforms) | https://github.com/awesome-mlops/awesome-mlops-platforms |
+| [https://github.com/Azure/MachineLearningNotebooks](https://github.com/Azure/MachineLearningNotebooks) | https://github.com/Azure/MachineLearningNotebooks |
+| [https://github.com/BMEII-AI/RadImageNet](https://github.com/BMEII-AI/RadImageNet) | https://github.com/BMEII-AI/RadImageNet |
+| [https://github.com/catboost/catboost](https://github.com/catboost/catboost) | https://github.com/catboost/catboost |
+| [https://github.com/DataSciBoy/MLOps](https://github.com/DataSciBoy/MLOps) | https://github.com/DataSciBoy/MLOps |
+| [https://github.com/dmlc/xgboost](https://github.com/dmlc/xgboost) | https://github.com/dmlc/xgboost |
+| [https://github.com/dvc-org/dvc](https://github.com/dvc-org/dvc) | https://github.com/dvc-org/dvc |
+| [https://github.com/facebookresearch/DiT](https://github.com/facebookresearch/DiT) | https://github.com/facebookresearch/DiT |
+| [https://github.com/facebookresearch/ImageBind](https://github.com/facebookresearch/ImageBind) | https://github.com/facebookresearch/ImageBind |
+| [https://github.com/h2oai/h2o-3](https://github.com/h2oai/h2o-3) | https://github.com/h2oai/h2o-3 |
+| [https://github.com/Habtish-yimer/ML-Libraries-Python](https://github.com/Habtish-yimer/ML-Libraries-Python) | https://github.com/Habtish-yimer/ML-Libraries-Python |
+| [https://github.com/JoeriHermans/dist-keras](https://github.com/JoeriHermans/dist-keras) | https://github.com/JoeriHermans/dist-keras |
+| [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) | https://github.com/josephmisiti/awesome-machine-learning |
+| [https://github.com/kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops) | https://github.com/kelvins/awesome-mlops |
+| [https://github.com/keras-team/keras](https://github.com/keras-team/keras) | https://github.com/keras-team/keras |
+| [https://github.com/kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) | https://github.com/kubeflow/kubeflow |
+| [https://github.com/logicalclocks/hopsworks](https://github.com/logicalclocks/hopsworks) | https://github.com/logicalclocks/hopsworks |
+| [https://github.com/lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | https://github.com/lukasmasuch/best-of-ml-python |
+| [https://github.com/meta-llama/llama3](https://github.com/meta-llama/llama3) | https://github.com/meta-llama/llama3 |
+| [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) | https://github.com/microsoft/LightGBM |
+| [https://github.com/Microsoft/MLOpsPython](https://github.com/Microsoft/MLOpsPython) | https://github.com/Microsoft/MLOpsPython |
+| [https://github.com/mlflow/mlflow](https://github.com/mlflow/mlflow) | https://github.com/mlflow/mlflow |
+| [https://github.com/mlreef/mlreef](https://github.com/mlreef/mlreef) | https://github.com/mlreef/mlreef |
+| [https://github.com/Netflix/metaflow](https://github.com/Netflix/metaflow) | https://github.com/Netflix/metaflow |
+| [https://github.com/pachyderm/pachyderm](https://github.com/pachyderm/pachyderm) | https://github.com/pachyderm/pachyderm |
+| [https://github.com/polyaxon/polyaxon](https://github.com/polyaxon/polyaxon) | https://github.com/polyaxon/polyaxon |
+| [https://github.com/pybrain/pybrain](https://github.com/pybrain/pybrain) | https://github.com/pybrain/pybrain |
+| [https://github.com/pycaret/pycaret](https://github.com/pycaret/pycaret) | https://github.com/pycaret/pycaret |
+| [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch) | https://github.com/pytorch/pytorch |
+| [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | https://github.com/scikit-learn/scikit-learn |
+| [https://github.com/SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | https://github.com/SeldonIO/seldon-core |
+| [https://github.com/sematic-ai/sematic](https://github.com/sematic-ai/sematic) | https://github.com/sematic-ai/sematic |
+| [https://github.com/sorend/awesome-python-machine-learning](https://github.com/sorend/awesome-python-machine-learning) | https://github.com/sorend/awesome-python-machine-learning |
+| [https://github.com/TeamHG-Memex/eli5](https://github.com/TeamHG-Memex/eli5) | https://github.com/TeamHG-Memex/eli5 |
+| [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | https://github.com/tensorflow/tensorflow |
+| [https://github.com/Ternaus/awesome-mlops](https://github.com/Ternaus/awesome-mlops) | https://github.com/Ternaus/awesome-mlops |
+| [https://github.com/Theano/Theano](https://github.com/Theano/Theano) | https://github.com/Theano/Theano |
+| [https://github.com/zenml-io/zenml](https://github.com/zenml-io/zenml) | https://github.com/zenml-io/zenml |
+| [https://huggingface.co/meta-llama](https://huggingface.co/meta-llama) | https://huggingface.co/meta-llama |
+| [https://mistral.ai/](https://mistral.ai/) | https://mistral.ai/ |
+| [https://mistral.ai/news/mistral-large/](https://mistral.ai/news/mistral-large/) | https://mistral.ai/news/mistral-large/ |
+| [https://neptune.ai/blog/mlops-tools-platforms-landscape](https://neptune.ai/blog/mlops-tools-platforms-landscape) | https://neptune.ai/blog/mlops-tools-platforms-landscape |
+| [https://openai.com/](https://openai.com/) | https://openai.com/ |
+| [https://openai.com/sora](https://openai.com/sora) | https://openai.com/sora |
+| [https://physionet.org/content/mimic-cxr/](https://physionet.org/content/mimic-cxr/) | https://physionet.org/content/mimic-cxr/ |
+| [https://portal.gdc.cancer.gov/](https://portal.gdc.cancer.gov/) | https://portal.gdc.cancer.gov/ |
+| [https://stanfordmlgroup.github.io/competitions/chexpert/](https://stanfordmlgroup.github.io/competitions/chexpert/) | https://stanfordmlgroup.github.io/competitions/chexpert/ |
+| [https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf) | https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf |
+| [https://www.anthropic.com/](https://www.anthropic.com/) | https://www.anthropic.com/ |
+| [https://www.anthropic.com/news/claude-3-family](https://www.anthropic.com/news/claude-3-family) | https://www.anthropic.com/news/claude-3-family |
+| [https://www.cancer.gov/tcga](https://www.cancer.gov/tcga) | https://www.cancer.gov/tcga |
+| [https://www.isic-archive.com/](https://www.isic-archive.com/) | https://www.isic-archive.com/ |
+| [https://www.radimagenet.com/](https://www.radimagenet.com/) | https://www.radimagenet.com/ |
+| [https://x.ai/](https://x.ai/) | https://x.ai/ |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | https://huggingface.co/datasets |
+| [Hugging Face Models](https://huggingface.co/models) | https://huggingface.co/models |
+| [huggingchat/models-logo](https://huggingface.co/datasets/huggingchat/models-logo) | https://huggingface.co/datasets/huggingchat/models-logo |
+| [HuggingFace](https://huggingface.co/amazon/chronos-2) | https://huggingface.co/amazon/chronos-2 |
+| [HuggingFace](https://huggingface.co/autogluon/chronos-bolt-base) | https://huggingface.co/autogluon/chronos-bolt-base |
+| [HuggingFace](https://huggingface.co/AutonLab/MOMENT-1-large) | https://huggingface.co/AutonLab/MOMENT-1-large |
+| [HuggingFace](https://huggingface.co/google/timesfm-2.5-200m-pytorch) | https://huggingface.co/google/timesfm-2.5-200m-pytorch |
+| [HuggingFace](https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2) | https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2 |
+| [HuggingFace](https://huggingface.co/spaces/google/graphcast) | https://huggingface.co/spaces/google/graphcast |
+| [HuggingFace](https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025) | https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025 |
+| [HuggingFace - Lab-Rasool/RadImageNet](https://huggingface.co/Lab-Rasool/RadImageNet) | https://huggingface.co/Lab-Rasool/RadImageNet |
+| [HuggingFace Demo](https://huggingface.co/spaces/google/graphcast) | https://huggingface.co/spaces/google/graphcast |
+| [HuggingFace Model](https://huggingface.co/AutonLab/MOMENT-1-large) | https://huggingface.co/AutonLab/MOMENT-1-large |
+| [HuggingFace Model](https://huggingface.co/google/timesfm-2.5-200m-pytorch) | https://huggingface.co/google/timesfm-2.5-200m-pytorch |
+| [HuggingFace Model](https://huggingface.co/nxai/tirex) | https://huggingface.co/nxai/tirex |
+| [HuggingFace Model](https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025) | https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025 |
+| [huggingface-course/documentation-images](https://huggingface.co/datasets/huggingface-course/documentation-images) | https://huggingface.co/datasets/huggingface-course/documentation-images |
+| [huggingface-deep-rl-course/course-images](https://huggingface.co/datasets/huggingface-deep-rl-course/course-images) | https://huggingface.co/datasets/huggingface-deep-rl-course/course-images |
+| [huggingface.co/Alibaba/Qwen2.5-1.5B-Instruct](https://huggingface.co/Alibaba/Qwen2.5-1.5B-Instruct) | https://huggingface.co/Alibaba/Qwen2.5-1.5B-Instruct |
+| [huggingface.co/autogluon/autogluon-timeseries](https://huggingface.co/autogluon/autogluon-timeseries) | https://huggingface.co/autogluon/autogluon-timeseries |
+| [huggingface.co/BAAI/bge-large-en](https://huggingface.co/BAAI/bge-large-en) | https://huggingface.co/BAAI/bge-large-en |
+| [huggingface.co/bert-base-uncased](https://huggingface.co/bert-base-uncased) | https://huggingface.co/bert-base-uncased |
+| [huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest) | https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest |
+| [huggingface.co/dima806/fairface_age_image_detection](https://huggingface.co/dima806/fairface_age_image_detection) | https://huggingface.co/dima806/fairface_age_image_detection |
+| [huggingface.co/Falconsai/nsfw_image_detection](https://huggingface.co/Falconsai/nsfw_image_detection) | https://huggingface.co/Falconsai/nsfw_image_detection |
+| [huggingface.co/openai/clip-vit-base-patch16](https://huggingface.co/openai/clip-vit-base-patch16) | https://huggingface.co/openai/clip-vit-base-patch16 |
+| [huggingface.co/openai/gpt-3](https://huggingface.co/openai/gpt-3) | https://huggingface.co/openai/gpt-3 |
+| [huggingface.co/pyannote/audio](https://huggingface.co/pyannote/audio) | https://huggingface.co/pyannote/audio |
+| [huggingface/badges](https://huggingface.co/datasets/huggingface/badges) | https://huggingface.co/datasets/huggingface/badges |
+| [huggingface/brand-assets](https://huggingface.co/datasets/huggingface/brand-assets) | https://huggingface.co/datasets/huggingface/brand-assets |
+| [huggingface/documentation-images](https://huggingface.co/datasets/huggingface/documentation-images) | https://huggingface.co/datasets/huggingface/documentation-images |
+| [HuggingFace: Chronos-2](https://huggingface.co/amazon/chronos-2) | https://huggingface.co/amazon/chronos-2 |
+| [HuggingFace: Chronos-Bolt-Base](https://huggingface.co/autogluon/chronos-bolt-base) | https://huggingface.co/autogluon/chronos-bolt-base |
+| [HuggingFace: Chronos-Bolt-Tiny](https://huggingface.co/autogluon/chronos-bolt-tiny) | https://huggingface.co/autogluon/chronos-bolt-tiny |
+| [HuggingFace: Chronos-T5-Small](https://huggingface.co/amazon/chronos-t5-small) | https://huggingface.co/amazon/chronos-t5-small |
+| [HuggingFace: Time Series Models](https://huggingface.co/models?pipeline_tag=time-series-forecasting) | https://huggingface.co/models?pipeline_tag=time-series-forecasting |
+| [HuggingFace: TTM-R1](https://huggingface.co/ibm-granite/granite-timeseries-ttm-r1) | https://huggingface.co/ibm-granite/granite-timeseries-ttm-r1 |
+| [HuggingFace: TTM-R2](https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2) | https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2 |
+| [HuggingFaceFW/fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) | https://huggingface.co/datasets/HuggingFaceFW/fineweb |
+| [HuggingFaceFW/fineweb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) | https://huggingface.co/datasets/HuggingFaceFW/fineweb-2 |
+| [HuggingFaceFW/fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) | https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu |
+| [HuggingFaceM4/FineVision](https://huggingface.co/datasets/HuggingFaceM4/FineVision) | https://huggingface.co/datasets/HuggingFaceM4/FineVision |
+| [Hugo Larochelle](http://www.dmi.usherb.ca/~larocheh/index_en.html) | http://www.dmi.usherb.ca/~larocheh/index_en.html |
+| [Human activity recognition](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#human-activity-recognition) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#human-activity-recognition |
+| [HumanEval](https://github.com/openai/human-eval) | https://github.com/openai/human-eval |
+| [Humans vs AI Benchmarks](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) | ./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/ |
+| [hustvl/vitmatte-small-composition-1k](https://huggingface.co/hustvl/vitmatte-small-composition-1k) | https://huggingface.co/hustvl/vitmatte-small-composition-1k |
+| [Hybrid Recommender System](https://github.com/SeniorSA/hybrid-rs-trainner) | https://github.com/SeniorSA/hybrid-rs-trainner |
+| [Hydrosphere Mist](https://github.com/Hydrospheredata/mist) | https://github.com/Hydrospheredata/mist |
+| [Hypothesis Tests](https://github.com/JuliaStats/HypothesisTests.jl) | https://github.com/JuliaStats/HypothesisTests.jl |
+| [Hélène Paugam-Moisy](http://www.lri.fr/~hpaugam/) | http://www.lri.fr/~hpaugam/ |
+| [IA Geoespacial](../../Agriculture/Biomass_AI/) | ../../Agriculture/Biomass_AI/ |
+| [IAKS/KOGS](http://i21www.ira.uka.de) | http://i21www.ira.uka.de |
+| [Ian Goodfellow](https://research.google.com/pubs/105214.html) | https://research.google.com/pubs/105214.html |
+| [IBM Granite model](02_AI_Models/) | 02_AI_Models/ |
+| [IBM Transfer Learning Guide](https://www.ibm.com/topics/transfer-learning) | https://www.ibm.com/topics/transfer-learning |
+| [ibrahimhamamci/CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) | https://huggingface.co/datasets/ibrahimhamamci/CT-RATE |
+| [ICG Testhouse sequence](http://www.icg.tu-graz.ac.at/~schindler/Data) -  2 turntable sequences from different viewing heights, 36 images each, resolution 1000x750, color (Formats: PPM) | http://www.icg.tu-graz.ac.at/~schindler/Data) -  2 turntable sequences from different viewing heights, 36 images each, resolution 1000x750, color (Formats: PPM |
+| [IEN Image Library](http://www.ien.it/is/vislib/) - 1000+ images, mostly outdoor sequences (Formats: raw, ppm) | http://www.ien.it/is/vislib/) - 1000+ images, mostly outdoor sequences (Formats: raw, ppm |
+| [igraph](http://igraph.org/) | http://igraph.org/ |
+| [IJCAI'13](http://ijcai13.org/files/tutorial_slides/td2.pdf)]([2016 version) | [2016 version |
+| [IJCAI-ECAI'22 tutorial on domain generalization - 领域泛化tutorial](https://dgresearch.github.io/) | https://dgresearch.github.io/ |
+| [illinois](https://github.com/illinois) | https://github.com/illinois |
+| [Ilya Sutskever](http://www.cs.toronto.edu/~ilya/) | http://www.cs.toronto.edu/~ilya/ |
+| [Image Analysis and Computer Graphics](http://www.imm.dtu.dk/image/) | http://www.imm.dtu.dk/image/ |
+| [Image Analysis Laboratory](http://www.ece.ncsu.edu/imaging) | http://www.ece.ncsu.edu/imaging |
+| [Image Analysis Laboratory](http://www.ece.ncsu.edu/imaging/Archives/ImageDataBase/index.html) - Images obtained from a variety of imaging modalities -- raw CFA images, range images and a host of "medical images". (Formats: homebrew) | http://www.ece.ncsu.edu/imaging/Archives/ImageDataBase/index.html) - Images obtained from a variety of imaging modalities -- raw CFA images, range images and a host of "medical images". (Formats: homebrew |
+| [Image Database](http://www.prip.tuwien.ac.at/prip/image.html) | http://www.prip.tuwien.ac.at/prip/image.html |
+| [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/) | http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/ |
+| [Image Recognition App using Tflite and Flutter](https://github.com/SauravMaheshkar/Flutter_Image-Recognition) | https://github.com/SauravMaheshkar/Flutter_Image-Recognition |
+| [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf) | https://arxiv.org/pdf/1611.07004v1.pdf |
+| [Image2Biomass dataset](04_Datasets/) | 04_Datasets/ |
+| [IMAGENET](http://www.image-net.org/) | http://www.image-net.org/ |
+| [ImageNet](https://www.image-net.org/) | https://www.image-net.org/ |
+| [ImageNet](https://www.image-net.org/challenges/LSVRC/) | https://www.image-net.org/challenges/LSVRC/ |
+| [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf |
+| [Images](https://github.com/JuliaImages/Images.jl) | https://github.com/JuliaImages/Images.jl |
+| [imgraph](https://github.com/clementfarabet/lua---imgraph) | https://github.com/clementfarabet/lua---imgraph |
+| [Impala](https://github.com/cloudera/impala) | https://github.com/cloudera/impala |
+| [Imperial College London](https://github.com/ImperialCollegeLondon) | https://github.com/ImperialCollegeLondon |
+| [imutils](https://github.com/jrosebr1/imutils) | https://github.com/jrosebr1/imutils |
+| [Incanter](http://incanter.org/) | http://incanter.org/ |
+| [Infections-clj](https://github.com/r0man/inflections-clj) | https://github.com/r0man/inflections-clj |
+| [Infer](https://github.com/aria42/infer) | https://github.com/aria42/infer |
+| [Infer.NET](https://dotnet.github.io/infer/) | https://dotnet.github.io/infer/ |
+| [Infrastructure](./Infrastructure/) - Workflow orchestration and distributed systems (Airflow, Ray) | ./Infrastructure/) - Workflow orchestration and distributed systems (Airflow, Ray |
+| [Infrastructure / Infraestrutura](./03_DEPLOY/Infrastructure/) | ./03_DEPLOY/Infrastructure/ |
+| [INRIA](http://www.inria.fr/) | http://www.inria.fr/ |
+| [INRIA's Syntim images database](http://www-rocq.inria.fr/~tarel/syntim/images.html) - 15 color image of simple objects (Formats: gif) | http://www-rocq.inria.fr/~tarel/syntim/images.html) - 15 color image of simple objects (Formats: gif |
+| [INRIA's Syntim stereo databases](http://www-rocq.inria.fr/~tarel/syntim/paires.html) - 34 calibrated color stereo pairs (Formats: gif) | http://www-rocq.inria.fr/~tarel/syntim/paires.html) - 34 calibrated color stereo pairs (Formats: gif |
+| [Inside Deep Learning](https://www.manning.com/books/inside-deep-learning) | https://www.manning.com/books/inside-deep-learning |
+| [Institute of Computer Graphics and Vision](http://www.icg.tu-graz.ac.at) | http://www.icg.tu-graz.ac.at |
+| [Intel® oneAPI Data Analytics Library](https://github.com/oneapi-src/oneDAL) | https://github.com/oneapi-src/oneDAL |
+| [InternRobotics/InternData-fractal20220817_data](https://huggingface.co/datasets/InternRobotics/InternData-fractal20220817_data) | https://huggingface.co/datasets/InternRobotics/InternData-fractal20220817_data |
+| [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188) | https://www.udacity.com/course/deep-learning-pytorch--ud188 |
+| [Introduction to Artificial Neural Networks and Deep Learning](https://www.youtube.com/watch?v=FoO8qDB8gUU) | https://www.youtube.com/watch?v=FoO8qDB8gUU |
+| [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/) by Prof. Bhiksha Raj (2017) | http://deeplearning.cs.cmu.edu/) by Prof. Bhiksha Raj (2017 |
+| [IoT Owl](https://github.com/Ret2Me/IoT-Owl) | https://github.com/Ret2Me/IoT-Owl |
+| [IPEC-COMMUNITY/bridge_orig_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot |
+| [IPEC-COMMUNITY/droid_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/droid_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/droid_lerobot |
+| [IPEC-COMMUNITY/kuka_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/kuka_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/kuka_lerobot |
+| [IPEC-COMMUNITY/language_table_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/language_table_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/language_table_lerobot |
+| [isi.edu/AI/isd.htm](http://www.isi.edu/AI/isd.htm) | http://www.isi.edu/AI/isd.htm |
+| [isomorphiclabs.com](https://www.isomorphiclabs.com/) | https://www.isomorphiclabs.com/ |
+| [Isotonic/distilbert_finetuned_ai4privacy_v2](https://huggingface.co/Isotonic/distilbert_finetuned_ai4privacy_v2) | https://huggingface.co/Isotonic/distilbert_finetuned_ai4privacy_v2 |
+| [Issue no GitHub](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [Itamar Arel](http://mil.engr.utk.edu/nmil/member/2.html) | http://mil.engr.utk.edu/nmil/member/2.html |
+| [JAFFE Facial Expression Image Database](http://www.mis.atr.co.jp/~mlyons/jaffe.html) - The JAFFE database consists of 213 images of Japanese female subjects posing 6 basic facial expressions as well as a neutral pose. Ratings on emotion adjectives are also available, free of charge, for research purposes. (Formats: TIFF Grayscale images.) | http://www.mis.atr.co.jp/~mlyons/jaffe.html) - The JAFFE database consists of 213 images of Japanese female subjects posing 6 basic facial expressions as well as a neutral pose. Ratings on emotion adjectives are also available, free of charge, for research purposes. (Formats: TIFF Grayscale images. |
+| [James Martens](http://www.cs.toronto.edu/~jmartens/) | http://www.cs.toronto.edu/~jmartens/ |
+| [jamesqijingsong/zidian](https://huggingface.co/datasets/jamesqijingsong/zidian) | https://huggingface.co/datasets/jamesqijingsong/zidian |
+| [japanese-asr/whisper_transcriptions.reazon_speech_all.wer_10.0.vectorized](https://huggingface.co/datasets/japanese-asr/whisper_transcriptions.reazon_speech_all.wer_10.0.vectorized) | https://huggingface.co/datasets/japanese-asr/whisper_transcriptions.reazon_speech_all.wer_10.0.vectorized |
+| [Jason Morton](http://www.jasonmorton.com/) | http://www.jasonmorton.com/ |
+| [Jason Weston](http://www.thespermwhale.com/jaseweston/) | http://www.thespermwhale.com/jaseweston/ |
+| [jat-project/jat-dataset](https://huggingface.co/datasets/jat-project/jat-dataset) | https://huggingface.co/datasets/jat-project/jat-dataset |
+| [jat-project/jat-dataset-tokenized](https://huggingface.co/datasets/jat-project/jat-dataset-tokenized) | https://huggingface.co/datasets/jat-project/jat-dataset-tokenized |
+| [Java Interop](https://clojure.org/reference/java_interop) | https://clojure.org/reference/java_interop |
+| [JavaScript Interop](https://clojurescript.org/reference/javascript-api) | https://clojurescript.org/reference/javascript-api |
+| [JAX](https://github.com/google/jax) | https://github.com/google/jax |
+| [Jax in Action](https://www.manning.com/books/jax-in-action) | https://www.manning.com/books/jax-in-action |
+| [Jeff Dean](http://research.google.com/pubs/jeff.html) | http://research.google.com/pubs/jeff.html |
+| [jeffdonahue.com/lrcn/](http://jeffdonahue.com/lrcn/) | http://jeffdonahue.com/lrcn/ |
+| [jieba](https://github.com/fxsjy/jieba#jieba-1) | https://github.com/fxsjy/jieba#jieba-1 |
+| [jieba-php](https://github.com/fukuball/jieba-php) | https://github.com/fukuball/jieba-php |
+| [jinaai/jina-embeddings-v3](https://huggingface.co/jinaai/jina-embeddings-v3) | https://huggingface.co/jinaai/jina-embeddings-v3 |
+| [Jiquan Mgiam](http://cs.stanford.edu/~jngiam/) | http://cs.stanford.edu/~jngiam/ |
+| [JISCT Stereo Evaluation](ftp://ftp.vislist.com/IMAGERY/JISCT/) - 44 image pairs. These data have been used in an evaluation of stereo analysis, as described in the April 1993 ARPA Image Understanding Workshop paper ``The JISCT Stereo Evaluation'' by R.C.Bolles, H.H.Baker, and M.J.Hannah, 263--274 (Formats: SSI) | ftp://ftp.vislist.com/IMAGERY/JISCT/) - 44 image pairs. These data have been used in an evaluation of stereo analysis, as described in the April 1993 ARPA Image Understanding Workshop paper ``The JISCT Stereo Evaluation'' by R.C.Bolles, H.H.Baker, and M.J.Hannah, 263--274 (Formats: SSI |
+| [joliGEN](https://github.com/jolibrain/joliGEN) | https://github.com/jolibrain/joliGEN |
+| [jonatasgrosman/wav2vec2-large-xlsr-53-japanese](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese) | https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese |
+| [jonatasgrosman/wav2vec2-large-xlsr-53-portuguese](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese) | https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese |
+| [jonatasgrosman/wav2vec2-large-xlsr-53-russian](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian) | https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian |
+| [Joseph Turian](http://www-etud.iro.umontreal.ca/~turian/) | http://www-etud.iro.umontreal.ca/~turian/ |
+| [Joshua Matthew Susskind](http://aclab.ca/users/josh/index.html) | http://aclab.ca/users/josh/index.html |
+| [JSMLT](https://github.com/jsmlt/jsmlt) - Machine learning toolkit with classification and clustering for Node.js; supports visualization (see [visualml.io](https://visualml.io)) | https://visualml.io) |
+| [Julia Data](https://github.com/nfoti/JuliaData) | https://github.com/nfoti/JuliaData |
+| [JuliaCon Presentations](https://github.com/JuliaCon/presentations) | https://github.com/JuliaCon/presentations |
+| [Justin A. Blanco](https://sites.google.com/site/blancousna/) | https://sites.google.com/site/blancousna/ |
+| [jutsu.ai](https://github.com/hswick/jutsu.ai) | https://github.com/hswick/jutsu.ai |
+| [Jürgen Schmidhuber](http://www.idsia.ch/~juergen/) | http://www.idsia.ch/~juergen/ |
+| [Kaggle](https://www.kaggle.com/datasets) | https://www.kaggle.com/datasets |
+| [Kaggle](https://www.kaggle.com/datasets/googleai/open-images-v6)) | https://www.kaggle.com/datasets/googleai/open-images-v6) |
+| [Kaggle](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)) | https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) |
+| [Kaggle](https://www.kaggle.com/teertha/ushealthinsurancedataset)) | https://www.kaggle.com/teertha/ushealthinsurancedataset) |
+| [Kaggle - Medical Imaging Datasets](https://www.kaggle.com/datasets?search=medical+imaging) | https://www.kaggle.com/datasets?search=medical+imaging |
+| [Kaggle Finance](https://www.kaggle.com/datasets?search=finance)) | https://www.kaggle.com/datasets?search=finance) |
+| [kaggle.com](https://www.kaggle.com) | https://www.kaggle.com |
+| [kaggle.com/account](https://www.kaggle.com/account) | https://www.kaggle.com/account |
+| [kaggle.com/code](https://www.kaggle.com/code) | https://www.kaggle.com/code |
+| [kaist-ai](https://github.com/kaist-ai) | https://github.com/kaist-ai |
+| [KakologArchives/KakologArchives](https://huggingface.co/datasets/KakologArchives/KakologArchives) | https://huggingface.co/datasets/KakologArchives/KakologArchives |
+| [Kaldi](https://github.com/kaldi-asr/kaldi) | https://github.com/kaldi-asr/kaldi |
+| [kalman](https://github.com/itamarwe/kalman) | https://github.com/itamarwe/kalman |
+| [Keras and Lasagne Deep Learning Tutorials](https://github.com/Vict0rSch/deep_learning) | https://github.com/Vict0rSch/deep_learning |
+| [Keras Applications](https://keras.io/api/applications) | https://keras.io/api/applications |
+| [Keras Applications](https://keras.io/api/applications/) | https://keras.io/api/applications/ |
+| [Keras Beginner Tutorial](https://victorzhou.com/blog/keras-neural-network-tutorial/) | https://victorzhou.com/blog/keras-neural-network-tutorial/ |
+| [Keras GPT Copilot](https://github.com/fabprezja/keras-gpt-copilot) | https://github.com/fabprezja/keras-gpt-copilot |
+| [Keras in Motion video course](https://www.manning.com/livevideo/keras-in-motion) | https://www.manning.com/livevideo/keras-in-motion |
+| [Keras Tutorial: Content Based Image Retrieval Using a Convolutional Denoising Autoencoder](https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511) | https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511 |
+| [Keras.js](https://github.com/transcranial/keras-js) | https://github.com/transcranial/keras-js |
+| [Kernel Density](https://github.com/JuliaStats/KernelDensity.jl) | https://github.com/JuliaStats/KernelDensity.jl |
+| [kernel smoothing](https://github.com/rlowrance/kernel-smoothers) | https://github.com/rlowrance/kernel-smoothers |
+| [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | https://huggingface.co/Kijai/WanVideo_comfy |
+| [kixistats](https://github.com/MastodonC/kixi.stats) | https://github.com/MastodonC/kixi.stats |
+| [Kmeans.js](https://github.com/emilbayes/kMeans.js) | https://github.com/emilbayes/kMeans.js |
+| [kNear](https://github.com/NathanEpstein/kNear) | https://github.com/NathanEpstein/kNear |
+| [Knet](https://github.com/denizyuret/Knet.jl) | https://github.com/denizyuret/Knet.jl |
+| [knn-java-library](https://github.com/felipexw/knn-java-library) | https://github.com/felipexw/knn-java-library |
+| [Knowledge distillation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#knowledge-distillation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#knowledge-distillation |
+| [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525) | https://arxiv.org/abs/2006.05525 |
+| [Knwl.js](https://github.com/loadfive/Knwl.js) | https://github.com/loadfive/Knwl.js |
+| [KoNLPy](http://konlpy.org) | http://konlpy.org |
+| [Koray Kavukcuoglu](http://koray.kavukcuoglu.org/) | http://koray.kavukcuoglu.org/ |
+| [KotlinDL](https://github.com/JetBrains/KotlinDL) | https://github.com/JetBrains/KotlinDL |
+| [KRFuzzyCMeans-Algorithm](https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm) - It implemented Fuzzy C-Means (FCM) | https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm) - It implemented Fuzzy C-Means (FCM |
+| [KRHebbian-Algorithm](https://github.com/Kalvar/ios-KRHebbian-Algorithm) - It is a non-supervisory and self-learning algorithm (adjust the weights) | https://github.com/Kalvar/ios-KRHebbian-Algorithm) - It is a non-supervisory and self-learning algorithm (adjust the weights |
+| [KRKmeans-Algorithm](https://github.com/Kalvar/ios-KRKmeans-Algorithm) | https://github.com/Kalvar/ios-KRKmeans-Algorithm |
+| [Kubeflow](https://github.com/kubeflow/kubeflow) | https://github.com/kubeflow/kubeflow |
+| [KyungHyun Cho](http://users.ics.aalto.fi/kcho/) | http://users.ics.aalto.fi/kcho/ |
+| [kyutai/moshiko-pytorch-bf16](https://huggingface.co/kyutai/moshiko-pytorch-bf16) | https://huggingface.co/kyutai/moshiko-pytorch-bf16 |
+| [Label Studio](https://labelstud.io) | https://labelstud.io |
+| [Labelbox](https://labelbox.com) | https://labelbox.com |
+| [Laboratórios Universitários](./03_RESOURCES/3.2_University_Labs/) | ./03_RESOURCES/3.2_University_Labs/ |
+| [LAION AI](https://github.com/LAION-AI) | https://github.com/LAION-AI |
+| [laion/clap-htsat-fused](https://huggingface.co/laion/clap-htsat-fused) | https://huggingface.co/laion/clap-htsat-fused |
+| [lambda-ml](https://github.com/cloudkj/lambda-ml) | https://github.com/cloudkj/lambda-ml |
+| [LambdaNet](https://github.com/jbarrow/LambdaNet) | https://github.com/jbarrow/LambdaNet |
+| [Language Processing and Pattern Recognition](http://www-i6.informatik.rwth-aachen.de/) | http://www-i6.informatik.rwth-aachen.de/ |
+| [Languages](https://github.com/JuliaText/Languages.jl) | https://github.com/JuliaText/Languages.jl |
+| [lavita/medical-qa-shared-task-v1-toy](https://huggingface.co/datasets/lavita/medical-qa-shared-task-v1-toy) | https://huggingface.co/datasets/lavita/medical-qa-shared-task-v1-toy |
+| [lbfgs](https://github.com/clementfarabet/lbfgs) | https://github.com/clementfarabet/lbfgs |
+| [LBJava](https://github.com/CogComp/lbjava) | https://github.com/CogComp/lbjava |
+| [LDA.js](https://github.com/primaryobjects/lda) | https://github.com/primaryobjects/lda |
+| [Learn JS Data](http://learnjsdata.com/) | http://learnjsdata.com/ |
+| [Learnergy](https://github.com/gugarosa/learnergy) | https://github.com/gugarosa/learnergy |
+| [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation) | http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation |
+| [Learning Deep Architectures for AI](http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf) | http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf |
+| [Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](http://arxiv.org/pdf/1406.1078v3.pdf) | http://arxiv.org/pdf/1406.1078v3.pdf |
+| [Learning.js](https://github.com/yandongliu/learningjs) | https://github.com/yandongliu/learningjs |
+| [leaves](https://github.com/dmitryikh/leaves) | https://github.com/dmitryikh/leaves |
+| [Li Deng](http://research.microsoft.com/en-us/people/deng/) | http://research.microsoft.com/en-us/people/deng/ |
+| [libfm](https://github.com/srendle/libfm) | https://github.com/srendle/libfm |
+| [libfolia](https://github.com/LanguageMachines/libfolia) - C++ library for the [FoLiA format](https://proycon.github.io/folia/) | https://proycon.github.io/folia/ |
+| [LibLinear](https://www.csie.ntu.edu.tw/~cjlin/liblinear/#download) | https://www.csie.ntu.edu.tw/~cjlin/liblinear/#download |
+| [liblinear-java](https://github.com/bwaldvogel/liblinear-java) | https://github.com/bwaldvogel/liblinear-java |
+| [libonnx](https://github.com/xboot/libonnx) | https://github.com/xboot/libonnx |
+| [Libpython-clj](https://github.com/clj-python/libpython-clj) | https://github.com/clj-python/libpython-clj |
+| [Libra-Tk](https://libra.cs.uoregon.edu) | https://libra.cs.uoregon.edu |
+| [Libraries](./Libraries/) - Specialized libraries for different domains (NLP, CV, RL, etc.) | ./Libraries/) - Specialized libraries for different domains (NLP, CV, RL, etc. |
+| [Libraries / Bibliotecas](./02_BUILD/Libraries/) | ./02_BUILD/Libraries/ |
+| [LibSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab) | https://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab |
+| [Lifelong transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#lifelong-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#lifelong-transfer-learning |
+| [LightGBM](https://github.com/microsoft/LightGBM) | https://github.com/microsoft/LightGBM |
+| [LightGBM](https://github.com/Microsoft/LightGBM) - Microsoft's fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) | https://github.com/Microsoft/LightGBM) - Microsoft's fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART |
+| [LightGraphs](https://github.com/JuliaGraphs/LightGraphs.jl) | https://github.com/JuliaGraphs/LightGraphs.jl |
+| [lightly](https://github.com/lightly-ai/lightly) | https://github.com/lightly-ai/lightly |
+| [LightlyTrain](https://github.com/lightly-ai/lightly-train) | https://github.com/lightly-ai/lightly-train |
+| [LIMSI-CNRS](http://www.limsi.fr/) | http://www.limsi.fr/ |
+| [LIMSI-CNRS/CHM/IMM/vision](http://www.limsi.fr/Recherche/IMM/PageIMM.html) | http://www.limsi.fr/Recherche/IMM/PageIMM.html |
+| [LingPipe](http://alias-i.com/lingpipe/index.html) | http://alias-i.com/lingpipe/index.html |
+| [LKYDeepNN](https://github.com/mosdeo/LKYDeepNN) | https://github.com/mosdeo/LKYDeepNN |
+| [LLM](../2.1_LLM/) | ../2.1_LLM/ |
+| [LMSYS Chatbot Arena](https://chat.lmsys.org/) | https://chat.lmsys.org/ |
+| [Local Regression](https://github.com/JuliaStats/Loess.jl) | https://github.com/JuliaStats/Loess.jl |
+| [locuslab/TOFU](https://huggingface.co/datasets/locuslab/TOFU) | https://huggingface.co/datasets/locuslab/TOFU |
+| [loso](https://github.com/fangpenlin/loso) | https://github.com/fangpenlin/loso |
+| [loss_name.lower()](**kwargs) | **kwargs |
+| [LSTM](http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf) | http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf |
+| [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069v1.pdf) | http://arxiv.org/pdf/1503.04069v1.pdf |
+| [Lua - Numerical Algorithms](https://bitbucket.org/lucashnegri/lna) | https://bitbucket.org/lucashnegri/lna |
+| [LuaSHKit](https://github.com/ocallaco/LuaSHkit) | https://github.com/ocallaco/LuaSHkit |
+| [Lucas Theis](http://www.kyb.tuebingen.mpg.de/nc/employee/details/lucas.html) | http://www.kyb.tuebingen.mpg.de/nc/employee/details/lucas.html |
+| [Lucent](https://github.com/greentfrapp/lucent) | https://github.com/greentfrapp/lucent |
+| [Ludovic Arnold](http://ludovicarnold.altervista.org/home/) | http://ludovicarnold.altervista.org/home/ |
+| [Lunatic Python](https://labix.org/lunatic-python) | https://labix.org/lunatic-python |
+| [Lunum](https://github.com/jzrake/lunum) | https://github.com/jzrake/lunum |
+| [Lyric](https://github.com/flurry/Lyric) | https://github.com/flurry/Lyric |
+| [m-a-p/FineFineWeb](https://huggingface.co/datasets/m-a-p/FineFineWeb) | https://huggingface.co/datasets/m-a-p/FineFineWeb |
+| [machine](https://github.com/mathieulaporte/machine) | https://github.com/mathieulaporte/machine |
+| [Machine Learning - Caltech](http://work.caltech.edu/lectures.html) by Yaser Abu-Mostafa (2012-2014) | http://work.caltech.edu/lectures.html) by Yaser Abu-Mostafa (2012-2014 |
+| [Machine Learning - Carnegie Mellon](http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml) by Tom Mitchell (Spring 2011) | http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml) by Tom Mitchell (Spring 2011 |
+| [Machine Learning - Oxford](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) (2014-2015) | https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) (2014-2015 |
+| [Machine Learning - Stanford](https://class.coursera.org/ml-005) by Andrew Ng in Coursera (2010-2014) | https://class.coursera.org/ml-005) by Andrew Ng in Coursera (2010-2014 |
+| [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/) | https://developers.google.com/machine-learning/crash-course/ |
+| [Machine Learning CS 229](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) | https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU |
+| [Machine Learning Discussion Group - Deep Learning w/ Stanford AI Lab](https://www.youtube.com/watch?v=2QJi0ArLq7s&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT) | https://www.youtube.com/watch?v=2QJi0ArLq7s&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT |
+| [Machine Learning for Mere Mortals video course](https://www.manning.com/livevideo/machine-learning-for-mere-mortals) | https://www.manning.com/livevideo/machine-learning-for-mere-mortals |
+| [Machine Learning in MatLab/Octave](https://github.com/trekhleb/machine-learning-octave) - Examples of popular machine learning algorithms (neural networks, linear/logistic regressions, K-Means, etc.) | https://github.com/trekhleb/machine-learning-octave) - Examples of popular machine learning algorithms (neural networks, linear/logistic regressions, K-Means, etc. |
+| [Machine Learning Mastery blog](https://machinelearningmastery.com/blog/) | https://machinelearningmastery.com/blog/ |
+| [Machine Learning Module](https://github.com/josephmisiti/machine-learning-module) | https://github.com/josephmisiti/machine-learning-module |
+| [Machine Vision](http://vision.cse.psu.edu/book/testbed/images/) - Images from the textbook by Jain, Kasturi, Schunck (20+ images) (Formats: GIF TIFF) | http://vision.cse.psu.edu/book/testbed/images/) - Images from the textbook by Jain, Kasturi, Schunck (20+ images) (Formats: GIF TIFF |
+| [Machine Vision Unit](http://www.ipab.inf.ed.ac.uk/mvu/) | http://www.ipab.inf.ed.ac.uk/mvu/ |
+| [MachineHack](https://machinehack.com) | https://machinehack.com |
+| [machinelearn.js](https://github.com/machinelearnjs/machinelearnjs) | https://github.com/machinelearnjs/machinelearnjs |
+| [MachineLearning](https://github.com/benhamner/MachineLearning.jl) | https://github.com/benhamner/MachineLearning.jl |
+| [MAChineLearning](https://github.com/gianlucabertani/MAChineLearning) | https://github.com/gianlucabertani/MAChineLearning |
+| [MahmoudAshraf/mms-300m-1130-forced-aligner](https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner) | https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner |
+| [Mahout](https://github.com/apache/mahout) | https://github.com/apache/mahout |
+| [Making Sense of the World with Deep Learning](http://vimeo.com/80821560) | http://vimeo.com/80821560 |
+| [maknee/leaague-of-legends-decoded-replay-packets-s12-unorganized](https://huggingface.co/datasets/maknee/leaague-of-legends-decoded-replay-packets-s12-unorganized) | https://huggingface.co/datasets/maknee/leaague-of-legends-decoded-replay-packets-s12-unorganized |
+| [MALLET](http://mallet.cs.umass.edu/) | http://mallet.cs.umass.edu/ |
+| [Mamba](https://github.com/brian-j-smith/Mamba.jl) - Markov chain Monte Carlo (MCMC) | https://github.com/brian-j-smith/Mamba.jl) - Markov chain Monte Carlo (MCMC |
+| [Mammography Image Databases](http://marathon.csee.usf.edu/Mammography/Database.html) - 100 or more images of mammograms with ground truth. Additional images available by request, and links to several other mammography databases are provided. (Formats: homebrew) | http://marathon.csee.usf.edu/Mammography/Database.html) - 100 or more images of mammograms with ground truth. Additional images available by request, and links to several other mammography databases are provided. (Formats: homebrew |
+| [manifold](https://github.com/clementfarabet/manifold) | https://github.com/clementfarabet/manifold |
+| [ManifoldLearning](https://github.com/wildart/ManifoldLearning.jl) | https://github.com/wildart/ManifoldLearning.jl |
+| [Marc'Aurelio Ranzato](http://www.cs.nyu.edu/~ranzato/) | http://www.cs.nyu.edu/~ranzato/ |
+| [Marketing](./04_APPLY/Marketing/) | ./04_APPLY/Marketing/ |
+| [Marketing](./Marketing/) | ./Marketing/ |
+| [Martin Längkvist](http://aass.oru.se/~mlt/) | http://aass.oru.se/~mlt/ |
+| [Mastering the Game of Go with Deep Neural Networks and Tree Search](http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf) | http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf |
+| [Matching Networks for One Shot Learning](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning.pdf) | http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning.pdf |
+| [Math and Architectures of Deep Learning](https://www.manning.com/books/math-and-architectures-of-deep-learning) | https://www.manning.com/books/math-and-architectures-of-deep-learning |
+| [Math.NET Numerics](https://www.nuget.org/packages/MathNet.Numerics/) | https://www.nuget.org/packages/MathNet.Numerics/ |
+| [matlab_bgl](https://www.cs.purdue.edu/homes/dgleich/packages/matlab_bgl/) | https://www.cs.purdue.edu/homes/dgleich/packages/matlab_bgl/ |
+| [matlib](https://github.com/atisharma/matlib) | https://github.com/atisharma/matlib |
+| [Matplotlib](https://github.com/matplotlib/matplotlib) | https://github.com/matplotlib/matplotlib |
+| [Matrix Capsules With Em Routing](https://openreview.net/pdf?id=HJWLfGWRb) | https://openreview.net/pdf?id=HJWLfGWRb |
+| [mbouhaja/AI_REAL](https://huggingface.co/datasets/mbouhaja/AI_REAL) | https://huggingface.co/datasets/mbouhaja/AI_REAL |
+| [MCMC](https://github.com/doobwa/MCMC.jl) | https://github.com/doobwa/MCMC.jl |
+| [mcp-course/images](https://huggingface.co/datasets/mcp-course/images) | https://huggingface.co/datasets/mcp-course/images |
+| [Medical and healthcare](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#medical-and-healthcare) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#medical-and-healthcare |
+| [Medical Imaging with Deep Learning Tutorial](https://www.youtube.com/playlist?list=PLheiZMDg_8ufxEx9cNVcOYXsT3BppJP4b): This tutorial is styled as a graduate lecture about medical imaging with deep learning. This will cover the background of popular medical image domains (chest X-ray and histology) | https://www.youtube.com/playlist?list=PLheiZMDg_8ufxEx9cNVcOYXsT3BppJP4b): This tutorial is styled as a graduate lecture about medical imaging with deep learning. This will cover the background of popular medical image domains (chest X-ray and histology |
+| [Meka](http://meka.sourceforge.net/) - An open source implementation of methods for multi-label classification and evaluation (extension to Weka) | http://meka.sourceforge.net/) - An open source implementation of methods for multi-label classification and evaluation (extension to Weka |
+| [Memory Networks](http://arxiv.org/pdf/1410.3916v10) | http://arxiv.org/pdf/1410.3916v10 |
+| [Merlin](https://github.com/hshindo/Merlin.jl) | https://github.com/hshindo/Merlin.jl |
+| [Merve Ayyüce Kızrak](http://www.ayyucekizrak.com/) | http://www.ayyucekizrak.com/ |
+| [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) | https://meta-toolkit.org/ |
+| [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct |
+| [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct |
+| [Metaparameters in a CNN by Andrew Ferlitsch](https://youtu.be/K1PLeggQ33I) | https://youtu.be/K1PLeggQ33I |
+| [mexopencv](https://kyamagu.github.io/mexopencv/) | https://kyamagu.github.io/mexopencv/ |
+| [mgl](https://github.com/melisgl/mgl/) - Neural networks (boltzmann machines, feed-forward and recurrent nets) | https://github.com/melisgl/mgl/) - Neural networks (boltzmann machines, feed-forward and recurrent nets |
+| [mgl-gpr](https://github.com/melisgl/mgl-gpr/) | https://github.com/melisgl/mgl-gpr/ |
+| [Microsoft - Jointly Modeling Embedding and Translation to Bridge Video and Language](http://arxiv.org/pdf/1505.01861v1.pdf) | http://arxiv.org/pdf/1505.01861v1.pdf |
+| [Microsoft Azure Machine Learning](https://azure.microsoft.com/products/machine-learning) | https://azure.microsoft.com/products/machine-learning |
+| [Microsoft COCO](http://mscoco.org/home/) | http://mscoco.org/home/ |
+| [Middlebury Stereo Data Sets with Ground Truth](http://www.middlebury.edu/stereo/data.html) - Six multi-frame stereo data sets of scenes containing planar regions. Each data set contains 9 color images and subpixel-accuracy ground-truth data. (Formats: ppm) | http://www.middlebury.edu/stereo/data.html) - Six multi-frame stereo data sets of scenes containing planar regions. Each data set contains 9 color images and subpixel-accuracy ground-truth data. (Formats: ppm |
+| [Middlebury Stereo Vision Research Page](http://www.middlebury.edu/stereo) | http://www.middlebury.edu/stereo |
+| [mil-tokyo](https://github.com/mil-tokyo) | https://github.com/mil-tokyo |
+| [mila-iqia](https://github.com/mila-iqia) | https://github.com/mila-iqia |
+| [ming030890/youtube_caption_yue](https://huggingface.co/datasets/ming030890/youtube_caption_yue) | https://huggingface.co/datasets/ming030890/youtube_caption_yue |
+| [Misha Denil](http://mdenil.com/) | http://mdenil.com/ |
+| [MIT 6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/) | http://selfdrivingcars.mit.edu/ |
+| [MIT 6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/) | http://introtodeeplearning.com/ |
+| [MIT Aerospace Controls Laboratory](https://github.com/mit-acl) | https://github.com/mit-acl |
+| [MIT face images and more](ftp://whitechapel.media.mit.edu/pub/images) - hundreds of images (Formats: homebrew) | ftp://whitechapel.media.mit.edu/pub/images) - hundreds of images (Formats: homebrew |
+| [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) | https://github.com/mit-nlp/MITIE |
+| [MIT Intro to Deep Learning 7 day bootcamp](https://introtodeeplearning.com) - A seven day bootcamp designed in MIT to introduce deep learning methods and applications (2019) | https://introtodeeplearning.com) - A seven day bootcamp designed in MIT to introduce deep learning methods and applications (2019 |
+| [MIT Vision Texture](https://vismod.media.mit.edu/vismod/imagery/VisionTexture/vistex.html) - Image archive (100+ images) (Formats: ppm) | https://vismod.media.mit.edu/vismod/imagery/VisionTexture/vistex.html) - Image archive (100+ images) (Formats: ppm |
+| [Mixed Models](https://github.com/dmbates/MixedModels.jl) - A Julia package for fitting (statistical) | https://github.com/dmbates/MixedModels.jl) - A Julia package for fitting (statistical |
+| [ML Compiled](https://ml-compiled.readthedocs.io/en/latest/) | https://ml-compiled.readthedocs.io/en/latest/ |
+| [ml.js](https://github.com/mljs/ml) | https://github.com/mljs/ml |
+| [ML.NET](https://github.com/dotnet/machinelearning) | https://github.com/dotnet/machinelearning |
+| [ml5](https://github.com/ml5js/ml5-library) | https://github.com/ml5js/ml5-library |
+| [MLBase](https://github.com/JuliaStats/MLBase.jl) | https://github.com/JuliaStats/MLBase.jl |
+| [MLDB](https://mldb.ai) | https://mldb.ai |
+| [MLflow](https://github.com/mlflow/mlflow) | https://github.com/mlflow/mlflow |
+| [MLflow](https://mlflow.org) | https://mlflow.org |
+| [mlfoundations/dclm-baseline-1.0](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0) | https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0 |
+| [mlfoundations/MINT-1T-PDF-CC-2024-18](https://huggingface.co/datasets/mlfoundations/MINT-1T-PDF-CC-2024-18) | https://huggingface.co/datasets/mlfoundations/MINT-1T-PDF-CC-2024-18 |
+| [MLJ](https://github.com/alan-turing-institute/MLJ.jl) | https://github.com/alan-turing-institute/MLJ.jl |
+| [MLlib in Apache Spark](https://spark.apache.org/docs/latest/mllib-guide.html) | https://spark.apache.org/docs/latest/mllib-guide.html |
+| [MLOps](./03_DEPLOY/MLOps/) | ./03_DEPLOY/MLOps/ |
+| [MLOps](./MLOps/) - Tools for the entire MLOps lifecycle (W&B, MLflow, Feature Stores, Monitoring, etc.) | ./MLOps/) - Tools for the entire MLOps lifecycle (W&B, MLflow, Feature Stores, Monitoring, etc. |
+| [mlpack](https://www.mlpack.org/) | https://www.mlpack.org/ |
+| [MLPerf](https://mlcommons.org/benchmarks/) | https://mlcommons.org/benchmarks/ |
+| [MLPleaseHelp](https://github.com/jgreenemi/MLPleaseHelp) - MLPleaseHelp is a simple ML resource search engine. You can use this search engine right now at [https://jgreenemi.github.io/MLPleaseHelp/](https://jgreenemi.github.io/MLPleaseHelp/) | https://jgreenemi.github.io/MLPleaseHelp/ |
+| [MLPNeuralNet](https://github.com/nikolaypavlov/MLPNeuralNet) | https://github.com/nikolaypavlov/MLPNeuralNet |
+| [MLX](https://github.com/ml-explore/mlx) | https://github.com/ml-explore/mlx |
+| [MMDetection Model Zoo](https://github.com/open-mmlab/mmdetection) | https://github.com/open-mmlab/mmdetection |
+| [MMLU](https://github.com/hendrycks/test) | https://github.com/hendrycks/test |
+| [MNIST](http://yann.lecun.com/exdb/mnist/) | http://yann.lecun.com/exdb/mnist/ |
+| [MobileNets by Google](https://arxiv.org/abs/1704.04861) | https://arxiv.org/abs/1704.04861 |
+| [Mocha](https://github.com/pluskid/Mocha.jl) | https://github.com/pluskid/Mocha.jl |
+| [MOCluGen](https://github.com/clugen/MOCluGen/) | https://github.com/clugen/MOCluGen/ |
+| [Model Zoo](https://modelzoo.co/) | https://modelzoo.co/ |
+| [Modelagem Climática](../../Climate_Modeling/) | ../../Climate_Modeling/ |
+| [modelo IBM Granite](02_AI_Models/) | 02_AI_Models/ |
+| [Modelos Core](./01_FOUNDATIONS/1.2_Core_Models/) | ./01_FOUNDATIONS/1.2_Core_Models/ |
+| [Modelos de IA](01_Models/) | 01_Models/ |
+| [Modelos Generativos](./01_FOUNDATIONS/1.2_Core_Models/) | ./01_FOUNDATIONS/1.2_Core_Models/ |
+| [Models](./Models/) | ./Models/ |
+| [Models / Modelos](./02_BUILD/Models/) | ./02_BUILD/Models/ |
+| [models page](https://huggingface.co/models?sort=downloads) | https://huggingface.co/models?sort=downloads |
+| [Modis Airborne simulator, Gallery and data set](http://ltpwww.gsfc.nasa.gov/MODIS/MAS/) - High Altitude Imagery from around the world for environmental modeling in support of NASA EOS program (Formats: JPG and HDF) | http://ltpwww.gsfc.nasa.gov/MODIS/MAS/) - High Altitude Imagery from around the world for environmental modeling in support of NASA EOS program (Formats: JPG and HDF |
+| [Mohammad Norouzi](http://www.cs.toronto.edu/~norouzi/) | http://www.cs.toronto.edu/~norouzi/ |
+| [More TensorFlow tutorials](https://github.com/pkmital/tensorflow_tutorials) | https://github.com/pkmital/tensorflow_tutorials |
+| [MPI-IS](https://github.com/MPI-IS) | https://github.com/MPI-IS |
+| [MT-Bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) | https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge |
+| [mteb/sts22-crosslingual-sts](https://huggingface.co/datasets/mteb/sts22-crosslingual-sts) | https://huggingface.co/datasets/mteb/sts22-crosslingual-sts |
+| [Multi-Perceptron-NeuralNetwork](https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork) - It implemented multi-perceptrons neural network (ニューラルネットワーク) based on Back Propagation Neural Networks (BPN) | https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork) - It implemented multi-perceptrons neural network (ニューラルネットワーク) based on Back Propagation Neural Networks (BPN |
+| [Multi-source domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-source-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-source-domain-adaptation |
+| [Multi-task CNN: a real-world example by Andrew Ferlitsch](https://youtu.be/dH2nuI-1-qM) | https://youtu.be/dH2nuI-1-qM |
+| [Multi-task learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-task-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-task-learning |
+| [Multimedia](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#multimedia) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#multimedia |
+| [MultivariateStats](https://github.com/JuliaStats/MultivariateStats.jl) | https://github.com/JuliaStats/MultivariateStats.jl |
+| [mvp-lab/LLaVA-OneVision-1.5-Instruct-Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data) | https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data |
+| [mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) | https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M |
+| [MXNet](https://github.com/apache/incubator-mxnet) | https://github.com/apache/incubator-mxnet |
+| [MXNet](https://github.com/apache/incubator-mxnet/) | https://github.com/apache/incubator-mxnet/ |
+| [MXNet](https://mxnet.apache.org/versions/1.7.0/api/clojure) | https://mxnet.apache.org/versions/1.7.0/api/clojure |
+| [MXnet for Deep Learning, in Perl](https://github.com/apache/incubator-mxnet/tree/master/perl-package) | https://github.com/apache/incubator-mxnet/tree/master/perl-package |
+| [MxNet.Sharp](https://github.com/tech-quantum/MxNet.Sharp) | https://github.com/tech-quantum/MxNet.Sharp |
+| [N2D2](https://github.com/CEA-LIST/N2D2) | https://github.com/CEA-LIST/N2D2 |
+| [Naive Bayes](https://github.com/nutsiepully/NaiveBayes.jl) | https://github.com/nutsiepully/NaiveBayes.jl |
+| [naive-apl](https://github.com/mattcunningham/naive-apl) | https://github.com/mattcunningham/naive-apl |
+| [Named Entity Recognition using BiDirectional LSTMs](https://github.com/SauravMaheshkar/Named-Entity-Recognition-) | https://github.com/SauravMaheshkar/Named-Entity-Recognition- |
+| [Named Entity Recognition using Reformers](https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/NER%20using%20Reformer.ipynb) | https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/NER%20using%20Reformer.ipynb |
+| [Nando de Freitas](http://www.cs.ubc.ca/~nando/) | http://www.cs.ubc.ca/~nando/ |
+| [Narsil/image_dummy](https://huggingface.co/datasets/Narsil/image_dummy) | https://huggingface.co/datasets/Narsil/image_dummy |
+| [National Design Repository](http://www.designrepository.org) - Over 55,000 3D CAD and solid models of (mostly) mechanical/machined engineering designs. (Formats: gif,vrml,wrl,stp,sat) | http://www.designrepository.org) - Over 55,000 3D CAD and solid models of (mostly) mechanical/machined engineering designs. (Formats: gif,vrml,wrl,stp,sat |
+| [natural](https://github.com/NaturalNode/natural) | https://github.com/NaturalNode/natural |
+| [Natural Language Processing](http://web.stanford.edu/class/cs224n/handouts/) | http://web.stanford.edu/class/cs224n/handouts/ |
+| [Natural language processing](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#natural-language-processing) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#natural-language-processing |
+| [Nature Communications Paper](https://www.nature.com/articles/s41467-024-44824-z) | https://www.nature.com/articles/s41467-024-44824-z |
+| [Nature Paper](https://www.nature.com/articles/s41586-024-08252-9) | https://www.nature.com/articles/s41586-024-08252-9 |
+| [Nature Paper](https://www.nature.com/articles/s41586-025-08897-0) | https://www.nature.com/articles/s41586-025-08897-0 |
+| [Nature: Aardvark Weather](https://www.nature.com/articles/s41586-025-08897-0) | https://www.nature.com/articles/s41586-025-08897-0 |
+| [Nature: GenCast](https://www.nature.com/articles/s41586-024-08252-9) | https://www.nature.com/articles/s41586-024-08252-9 |
+| [Navdeep Jaitly](http://www.cs.utoronto.ca/~ndjaitly/) | http://www.cs.utoronto.ca/~ndjaitly/ |
+| [Navigation Guide](../../../NAVIGATION_GUIDE.md) | ../../../NAVIGATION_GUIDE.md |
+| [Naïve Bayes](https://github.com/titsuki/p6-Algorithm-NaiveBayes) | https://github.com/titsuki/p6-Algorithm-NaiveBayes |
+| [Naïve Bayes](https://metacpan.org/pod/AI::NaiveBayes) | https://metacpan.org/pod/AI::NaiveBayes |
+| [Neanderthal](https://neanderthal.uncomplicate.org/) - Fast Clojure Matrix Library (native CPU, GPU, OpenCL, CUDA) | https://neanderthal.uncomplicate.org/) - Fast Clojure Matrix Library (native CPU, GPU, OpenCL, CUDA |
+| [neat](https://github.com/jinyeom/neat) - Plug-and-play, parallel Go framework for NeuroEvolution of Augmenting Topologies (NEAT) | https://github.com/jinyeom/neat) - Plug-and-play, parallel Go framework for NeuroEvolution of Augmenting Topologies (NEAT |
+| [nebius/SWE-rebench](https://huggingface.co/datasets/nebius/SWE-rebench) | https://huggingface.co/datasets/nebius/SWE-rebench |
+| [Negative transfer - 负迁移](https://www.zhihu.com/question/66492194/answer/242870418) | https://www.zhihu.com/question/66492194/answer/242870418 |
+| [neonrvm](https://github.com/siavashserver/neonrvm) | https://github.com/siavashserver/neonrvm |
+| [Neptune.ai](https://neptune.ai) | https://neptune.ai |
+| [Netron](https://github.com/lutzroeder/netron) | https://github.com/lutzroeder/netron |
+| [Netron](https://netron.app) | https://netron.app |
+| [neulab/codebert-python](https://huggingface.co/neulab/codebert-python) | https://huggingface.co/neulab/codebert-python |
+| [Neural](https://github.com/compressed/BackpropNeuralNet.jl) | https://github.com/compressed/BackpropNeuralNet.jl |
+| [Neural Network Designer](https://sourceforge.net/projects/nnd/) | https://sourceforge.net/projects/nnd/ |
+| [Neural Networks - usherbrooke](http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html) | http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html |
+| [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by  Michael Nielsen (Dec 2014) | http://neuralnetworksanddeeplearning.com/) by  Michael Nielsen (Dec 2014 |
+| [Neural Networks and Deep Learning](https://webcms3.cse.unsw.edu.au/COMP9444/19T3/) | https://webcms3.cse.unsw.edu.au/COMP9444/19T3/ |
+| [Neural networks class](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle from Université de Sherbrooke (2013) | https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle from Université de Sherbrooke (2013 |
+| [Neural Networks for Machine Learning](https://class.coursera.org/neuralnets-2012-001) by Geoffrey Hinton in Coursera (2012) | https://class.coursera.org/neuralnets-2012-001) by Geoffrey Hinton in Coursera (2012 |
+| [Neural Networks for Matlab](http://uk.mathworks.com/help/pdf_doc/nnet/nnet_ug.pdf) | http://uk.mathworks.com/help/pdf_doc/nnet/nnet_ug.pdf |
+| [Neural Networks for Named Entity Recognition](http://nlp.stanford.edu/~socherr/pa4_ner.pdf) [zip](http://nlp.stanford.edu/~socherr/pa4-ner.zip) | http://nlp.stanford.edu/~socherr/pa4-ner.zip |
+| [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058) | https://arxiv.org/abs/1705.04058 |
+| [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) | http://arxiv.org/pdf/1410.5401v2.pdf |
+| [neural-dream](https://github.com/ProGamerGov/neural-dream) | https://github.com/ProGamerGov/neural-dream |
+| [neural-fortran](https://github.com/modern-fortran/neural-fortran) | https://github.com/modern-fortran/neural-fortran |
+| [neural-style-pt](https://github.com/ProGamerGov/neural-style-pt) - A PyTorch implementation of Justin Johnson's neural-style (neural style transfer) | https://github.com/ProGamerGov/neural-style-pt) - A PyTorch implementation of Justin Johnson's neural-style (neural style transfer |
+| [NeuralN](https://github.com/totemstech/neuraln) | https://github.com/totemstech/neuraln |
+| [neuraltalk](https://github.com/karpathy/neuraltalk) | https://github.com/karpathy/neuraltalk |
+| [Neuroph](http://neuroph.sourceforge.net/) | http://neuroph.sourceforge.net/ |
+| [NickL77/Llama3.1-8B-BaldEagle3-Ultrachat](https://huggingface.co/datasets/NickL77/Llama3.1-8B-BaldEagle3-Ultrachat) | https://huggingface.co/datasets/NickL77/Llama3.1-8B-BaldEagle3-Ultrachat |
+| [Nicolas Le Roux](http://nicolas.le-roux.name/) | http://nicolas.le-roux.name/ |
+| [NIPS 2016 lecture and workshop videos](https://nips.cc/Conferences/2016/Schedule) | https://nips.cc/Conferences/2016/Schedule |
+| [NIST Fingerprint and handwriting](ftp://sequoyah.ncsl.nist.gov/pub/databases/data) - datasets - thousands of images (Formats: unknown) | ftp://sequoyah.ncsl.nist.gov/pub/databases/data) - datasets - thousands of images (Formats: unknown |
+| [NIST Fingerprint data](ftp://ftp.cs.columbia.edu/jpeg/other/uuencoded) | ftp://ftp.cs.columbia.edu/jpeg/other/uuencoded |
+| [Nitish Srivastava](http://www.cs.toronto.edu/~nitish/) | http://www.cs.toronto.edu/~nitish/ |
+| [Nivo](https://nivo.rocks) | https://nivo.rocks |
+| [NLM HyperDoc Visible Human Project](http://www.nlm.nih.gov/research/visible/visible_human.html) - Color, CAT and MRI image samples - over 30 images (Formats: jpeg) | http://www.nlm.nih.gov/research/visible/visible_human.html) - Color, CAT and MRI image samples - over 30 images (Formats: jpeg |
+| [NLP](https://amplab.cs.berkeley.edu/an-nlp-library-for-matlab/) | https://amplab.cs.berkeley.edu/an-nlp-library-for-matlab/ |
+| [NLP Compromise](https://github.com/spencermountain/compromise) | https://github.com/spencermountain/compromise |
+| [nlp.js](https://github.com/axa-group/nlp.js) | https://github.com/axa-group/nlp.js |
+| [nlp.stanford.edu](http://nlp.stanford.edu/) | http://nlp.stanford.edu/ |
+| [NLP4J](https://github.com/emorynlp/nlp4j) | https://github.com/emorynlp/nlp4j |
+| [nlpaueb/legal-bert-base-uncased](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | https://huggingface.co/nlpaueb/legal-bert-base-uncased |
+| [NLTK](https://www.nltk.org/) | https://www.nltk.org/ |
+| [NMF](https://github.com/JuliaStats/NMF.jl) | https://github.com/JuliaStats/NMF.jl |
+| [nn](https://github.com/torch/nn) | https://github.com/torch/nn |
+| [nngraph](https://github.com/torch/nngraph) | https://github.com/torch/nngraph |
+| [nnx](https://github.com/clementfarabet/lua---nnx) | https://github.com/clementfarabet/lua---nnx |
+| [Node-fann](https://github.com/rlidwka/node-fann) - FANN (Fast Artificial Neural Network Library) | https://github.com/rlidwka/node-fann) - FANN (Fast Artificial Neural Network Library |
+| [Node-SVM](https://github.com/nicolaspanel/node-svm) | https://github.com/nicolaspanel/node-svm |
+| [Noel Lopes](https://www.cisuc.uc.pt/people/show/2028) | https://www.cisuc.uc.pt/people/show/2028 |
+| [notebooks de exemplo](notebooks/) | notebooks/ |
+| [notespace](https://github.com/scicloj/notespace) | https://github.com/scicloj/notespace |
+| [nrl.navy.mil/itd/aic](http://www.nrl.navy.mil/itd/aic/) | http://www.nrl.navy.mil/itd/aic/ |
+| [NSFWJS](http://nsfwjs.com) | http://nsfwjs.com |
+| [NTU.AI](https://github.com/NTU-AI) | https://github.com/NTU-AI |
+| [Numeric Lua](http://numlua.luaforge.net/) | http://numlua.luaforge.net/ |
+| [numl](https://www.nuget.org/packages/numl/) | https://www.nuget.org/packages/numl/ |
+| [NumPy](https://github.com/numpy/numpy) | https://github.com/numpy/numpy |
+| [nunchaku-tech/cdn](https://huggingface.co/datasets/nunchaku-tech/cdn) | https://huggingface.co/datasets/nunchaku-tech/cdn |
+| [nusmodifications](https://github.com/nusmodifications) | https://github.com/nusmodifications |
+| [nut](https://github.com/pprett/nut) | https://github.com/pprett/nut |
+| [NVD3.js](http://nvd3.org/) | http://nvd3.org/ |
+| [NVIDIA Blog](https://developer.nvidia.com/blog/) | https://developer.nvidia.com/blog/ |
+| [NVIDIA Developer](https://developer.nvidia.com/) | https://developer.nvidia.com/ |
+| [nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim) | https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim |
+| [nyu-dl](https://github.com/nyu-dl) | https://github.com/nyu-dl |
+| [nyu-mll/glue](https://huggingface.co/datasets/nyu-mll/glue) | https://huggingface.co/datasets/nyu-mll/glue |
+| [Oml](https://github.com/rleonid/oml) | https://github.com/rleonid/oml |
+| [omni-research/Tarsier2-Recap-7b](https://huggingface.co/omni-research/Tarsier2-Recap-7b) | https://huggingface.co/omni-research/Tarsier2-Recap-7b |
+| [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510) | https://arxiv.org/abs/2008.04510 |
+| [oneDNN](https://github.com/oneapi-src/oneDNN) | https://github.com/oneapi-src/oneDNN |
+| [Online Learning](https://github.com/lendle/OnlineLearning.jl) | https://github.com/lendle/OnlineLearning.jl |
+| [Online transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#online-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#online-transfer-learning |
+| [ONNX Model Zoo](https://github.com/onnx/models) | https://github.com/onnx/models |
+| [onnx-c](https://github.com/onnx/onnx-c) | https://github.com/onnx/onnx-c |
+| [Onyx](https://github.com/onyx-platform/onyx) | https://github.com/onyx-platform/onyx |
+| [Open Images](https://storage.googleapis.com/openimages/web/index.html) | https://storage.googleapis.com/openimages/web/index.html |
+| [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard |
+| [open-ko-llm-leaderboard/requests-backup](https://huggingface.co/datasets/open-ko-llm-leaderboard/requests-backup) | https://huggingface.co/datasets/open-ko-llm-leaderboard/requests-backup |
+| [open-llm-leaderboard-old/requests](https://huggingface.co/datasets/open-llm-leaderboard-old/requests) | https://huggingface.co/datasets/open-llm-leaderboard-old/requests |
+| [open-llm-leaderboard/requests](https://huggingface.co/datasets/open-llm-leaderboard/requests) | https://huggingface.co/datasets/open-llm-leaderboard/requests |
+| [openai-community/gpt2](https://huggingface.co/openai-community/gpt2) | https://huggingface.co/openai-community/gpt2 |
+| [openai/clip-vit-base-patch16](https://huggingface.co/openai/clip-vit-base-patch16) | https://huggingface.co/openai/clip-vit-base-patch16 |
+| [openai/clip-vit-base-patch32](https://huggingface.co/openai/clip-vit-base-patch32) | https://huggingface.co/openai/clip-vit-base-patch32 |
+| [openai/clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14) | https://huggingface.co/openai/clip-vit-large-patch14 |
+| [openai/clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336) | https://huggingface.co/openai/clip-vit-large-patch14-336 |
+| [openai/gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b) | https://huggingface.co/openai/gpt-oss-120b |
+| [openai/gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | https://huggingface.co/openai/gpt-oss-20b |
+| [openai/gsm8k](https://huggingface.co/datasets/openai/gsm8k) | https://huggingface.co/datasets/openai/gsm8k |
+| [openai/openai_humaneval](https://huggingface.co/datasets/openai/openai_humaneval) | https://huggingface.co/datasets/openai/openai_humaneval |
+| [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | https://huggingface.co/openai/whisper-large-v3 |
+| [openai/whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo) | https://huggingface.co/openai/whisper-large-v3-turbo |
+| [openclimatefix/met-office-uk-deterministic-solar](https://huggingface.co/datasets/openclimatefix/met-office-uk-deterministic-solar) | https://huggingface.co/datasets/openclimatefix/met-office-uk-deterministic-solar |
+| [OpenCV](https://github.com/opencv/opencv) | https://github.com/opencv/opencv |
+| [OpenCV](https://opencv.org) | https://opencv.org |
+| [OpenCVDotNet](https://code.google.com/archive/p/opencvdotnet) | https://code.google.com/archive/p/opencvdotnet |
+| [OpenFace](https://cmusatyalab.github.io/openface/) | https://cmusatyalab.github.io/openface/ |
+| [OpenGM](https://github.com/clementfarabet/lua---opengm) | https://github.com/clementfarabet/lua---opengm |
+| [OpenGVLab/InternVL3_5-241B-A28B-Instruct](https://huggingface.co/OpenGVLab/InternVL3_5-241B-A28B-Instruct) | https://huggingface.co/OpenGVLab/InternVL3_5-241B-A28B-Instruct |
+| [OpenML](https://www.openml.org) | https://www.openml.org |
+| [OpenML](https://www.openml.org/) | https://www.openml.org/ |
+| [OpenNLP](https://opennlp.apache.org/) | https://opennlp.apache.org/ |
+| [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | https://github.com/CMU-Perceptual-Computing-Lab/openpose |
+| [OpenVINO Model Zoo](https://github.com/openvinotoolkit/open_model_zoo) | https://github.com/openvinotoolkit/open_model_zoo |
+| [OpenVisionAPI](https://github.com/openvisionapi) | https://github.com/openvisionapi |
+| [Opik](https://www.comet.com/site/products/opik/) - Open source engineering platform to debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards. ([Source Code](https://github.com/comet-ml/opik/)) | https://github.com/comet-ml/opik/) |
+| [optim](https://github.com/torch/optim) | https://github.com/torch/optim |
+| [Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests) | http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests |
+| [Optimization](./Optimization/) - Hyperparameter tuning and distributed computing (Optuna, Ray) | ./Optimization/) - Hyperparameter tuning and distributed computing (Optuna, Ray |
+| [Optimization / Otimização](./03_DEPLOY/Optimization/) | ./03_DEPLOY/Optimization/ |
+| [Optuna](https://optuna.org) | https://optuna.org |
+| [Optunity](https://optunity.readthedocs.io/en/latest/) | https://optunity.readthedocs.io/en/latest/ |
+| [Oriol Vinyals](http://www.cs.berkeley.edu/~vinyals/) | http://www.cs.berkeley.edu/~vinyals/ |
+| [ORYX](https://github.com/oryxproject/oryx) | https://github.com/oryxproject/oryx |
+| [OSU (MSU) 3D Object Model Database](http://eewww.eng.ohio-state.edu/~flynn/3DDB/Models/) - several sets of 3D object models collected over several years to use in object recognition research (Formats: homebrew, vrml) | http://eewww.eng.ohio-state.edu/~flynn/3DDB/Models/) - several sets of 3D object models collected over several years to use in object recognition research (Formats: homebrew, vrml |
+| [OSU (MSU/WSU) Range Image Database](http://eewww.eng.ohio-state.edu/~flynn/3DDB/RID/) - Hundreds of real and synthetic images (Formats: gif, homebrew) | http://eewww.eng.ohio-state.edu/~flynn/3DDB/RID/) - Hundreds of real and synthetic images (Formats: gif, homebrew |
+| [OSU/SAMPL Database: Range Images, 3D Models, Stills, Motion Sequences](http://sampl.eng.ohio-state.edu/~sampl/database.htm) - Over 1000 range images, 3D object models, still images and motion sequences (Formats: gif, ppm, vrml, homebrew) | http://sampl.eng.ohio-state.edu/~sampl/database.htm) - Over 1000 range images, 3D object models, still images and motion sequences (Formats: gif, ppm, vrml, homebrew |
+| [Otago Optical Flow Evaluation Sequences](http://www.cs.otago.ac.nz/research/vision/Research/OpticalFlow/opticalflow.html) - Synthetic and real sequences with machine-readable ground truth optical flow fields, plus tools to generate ground truth for new sequences. (Formats: ppm,tif,homebrew) | http://www.cs.otago.ac.nz/research/vision/Research/OpticalFlow/opticalflow.html) - Synthetic and real sequences with machine-readable ground truth optical flow fields, plus tools to generate ground truth for new sequences. (Formats: ppm,tif,homebrew |
+| [Others](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#others) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#others |
+| [Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909) | https://arxiv.org/abs/2009.00909 |
+| [OverFeat](https://github.com/sermanet/OverFeat) | https://github.com/sermanet/OverFeat |
+| [Overview and benchmark of traditional and deep learning models in text classification](https://ahmedbesbes.com/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html) | https://ahmedbesbes.com/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html |
+| [oxford-cs-deepnlp-2017](https://github.com/oxford-cs-deepnlp-2017) | https://github.com/oxford-cs-deepnlp-2017 |
+| [OxfordIHTM](https://github.com/OxfordIHTM) | https://github.com/OxfordIHTM |
+| [Oz](https://github.com/metasoarous/oz) | https://github.com/metasoarous/oz |
+| [paicehusk](https://github.com/Rookii/paicehusk) | https://github.com/Rookii/paicehusk |
+| [Pandas](https://github.com/pandas-dev/pandas) | https://github.com/pandas-dev/pandas |
+| [Panthera](https://github.com/alanmarazzi/panthera) | https://github.com/alanmarazzi/panthera |
+| [paper CSIRO Pasture Biomass](03_Papers/) | 03_Papers/ |
+| [Paper: Few-shot learners](https://arxiv.org/abs/2310.10688) | https://arxiv.org/abs/2310.10688 |
+| [Papers](03_Papers/) | 03_Papers/ |
+| [Papers with Code](https://paperswithcode.com/) | https://paperswithcode.com/ |
+| [Papers with Code - Medical Imaging Datasets](https://paperswithcode.com/datasets?task=medical-imaging) | https://paperswithcode.com/datasets?task=medical-imaging |
+| [Papers with Code Datasets](https://paperswithcode.com/datasets) | https://paperswithcode.com/datasets |
+| [Paperweekly](http://www.paperweekly.site/collections/231/papers) | http://www.paperweekly.site/collections/231/papers |
+| [ParaMonte](https://github.com/cdslaborg/paramonte) - A general-purpose Fortran library for Bayesian data analysis and visualization via serial/parallel Monte Carlo and MCMC simulations. Documentation can be found [here](https://www.cdslab.org/paramonte/) | https://www.cdslab.org/paramonte/ |
+| [ParaMonte](https://github.com/cdslaborg/paramonte) - A general-purpose library with C/C++ interface for Bayesian data analysis and visualization via serial/parallel Monte Carlo and MCMC simulations. Documentation can be found [here](https://www.cdslab.org/paramonte/) | https://www.cdslab.org/paramonte/ |
+| [ParaMonte](https://github.com/cdslaborg/paramonte) - A general-purpose MATLAB library for Bayesian data analysis and visualization via serial/parallel Monte Carlo and MCMC simulations. Documentation can be found [here](https://www.cdslab.org/paramonte/) | https://www.cdslab.org/paramonte/ |
+| [Pascal Vincent](http://www.iro.umontreal.ca/~vincentp) | http://www.iro.umontreal.ca/~vincentp |
+| [Patrick Nguyen](https://sites.google.com/site/drpngx/) | https://sites.google.com/site/drpngx/ |
+| [patrickjohncyh/fashion-clip](https://huggingface.co/patrickjohncyh/fashion-clip) | https://huggingface.co/patrickjohncyh/fashion-clip |
+| [Pattern](https://github.com/clips/pattern) | https://github.com/clips/pattern |
+| [Pattern Recognition and Machine Learning](https://github.com/PRML/PRMLT) | https://github.com/PRML/PRMLT |
+| [Pattern Recognition Toolbox](https://github.com/covartech/PRT) | https://github.com/covartech/PRT |
+| [Pavlov.js](https://github.com/NathanEpstein/Pavlov.js) | https://github.com/NathanEpstein/Pavlov.js |
+| [PCV](https://github.com/jesolem/PCV) | https://github.com/jesolem/PCV |
+| [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video on Bilibili](https://www.bilibili.com/video/BV1T7411R75a/)]([Video on Youtube) | [Video on Youtube |
+| [Pedro Domingos](http://homes.cs.washington.edu/~pedrod/) | http://homes.cs.washington.edu/~pedrod/ |
+| [Peggy Series](http://homepages.inf.ed.ac.uk/pseries/) | http://homepages.inf.ed.ac.uk/pseries/ |
+| [Per-training/Finetuning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#per-trainingfinetuning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#per-trainingfinetuning |
+| [Perl Data Language](https://metacpan.org/pod/Paws::MachineLearning) | https://metacpan.org/pod/Paws::MachineLearning |
+| [permutans/fineweb-bbc-news](https://huggingface.co/datasets/permutans/fineweb-bbc-news) | https://huggingface.co/datasets/permutans/fineweb-bbc-news |
+| [PGM](https://github.com/JuliaStats/PGM.jl) | https://github.com/JuliaStats/PGM.jl |
+| [Phoenix](https://phoenix.arize.com) | https://phoenix.arize.com |
+| [Photometric 3D Surface Texture Database](http://www.taurusstudio.net/research/pmtexdb/index.htm) - This is the first 3D texture database which provides both full real surface rotations and registered photometric stereo data (30 textures, 1680 images). (Formats: TIFF) | http://www.taurusstudio.net/research/pmtexdb/index.htm) - This is the first 3D texture database which provides both full real surface rotations and registered photometric stereo data (30 textures, 1680 images). (Formats: TIFF |
+| [PHP-ML](https://gitlab.com/php-ai/php-ml) | https://gitlab.com/php-ai/php-ml |
+| [Pierre Sermanet](http://cs.nyu.edu/~sermanet) | http://cs.nyu.edu/~sermanet |
+| [PigPen](https://github.com/Netflix/PigPen) | https://github.com/Netflix/PigPen |
+| [Pink Gorilla Notebook](https://github.com/pink-gorilla/gorilla-notebook) | https://github.com/pink-gorilla/gorilla-notebook |
+| [Piotr Mirowski](http://www.cs.nyu.edu/~mirowski/) | http://www.cs.nyu.edu/~mirowski/ |
+| [Pipcook](https://github.com/alibaba/pipcook) | https://github.com/alibaba/pipcook |
+| [PKU-TANGENT](https://github.com/PKU-TANGENT) | https://github.com/PKU-TANGENT |
+| [PKU-YUAN-Lab (袁粒课题组-北大信工)](https://github.com/PKU-YuanGroup) | https://github.com/PKU-YuanGroup |
+| [pkuseg-python](https://github.com/lancopku/pkuseg-python) | https://github.com/lancopku/pkuseg-python |
+| [Plataformas](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | ./04_ECOSYSTEM/4.1_Platforms_and_Tools/ |
+| [Plataformas](04_Platforms/) | 04_Platforms/ |
+| [plataformas de satélite](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [Plataformas e Ferramentas](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | ./04_ECOSYSTEM/4.1_Platforms_and_Tools/ |
+| [Platforms](04_Platforms/) | 04_Platforms/ |
+| [Plotly](https://github.com/plotly/plotly.py) | https://github.com/plotly/plotly.py |
+| [pmchard/3D-ADAM](https://huggingface.co/datasets/pmchard/3D-ADAM) | https://huggingface.co/datasets/pmchard/3D-ADAM |
+| [Policy Learning with Continuous Memory States for Partially Observed Robotic Control](http://arxiv.org/pdf/1507.01273v1) | http://arxiv.org/pdf/1507.01273v1 |
+| [Polyaxon](https://github.com/polyaxon/polyaxon) | https://github.com/polyaxon/polyaxon |
+| [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf)]([PPT (中文)) | [PPT (中文) |
+| [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/) | https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/ |
+| [Practical Deep Learning For Coders](http://course.fast.ai/) | http://course.fast.ai/ |
+| [prajjwal1/bert-tiny](https://huggingface.co/prajjwal1/bert-tiny) | https://huggingface.co/prajjwal1/bert-tiny |
+| [PredictionBuilder](https://github.com/denissimon/prediction-builder) | https://github.com/denissimon/prediction-builder |
+| [Pretrained RadImageNet Models](https://www.kaggle.com/datasets/ipythonx/notop-wg-radimagenet) | https://www.kaggle.com/datasets/ipythonx/notop-wg-radimagenet |
+| [Previsão de Séries Temporais](../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/) | ../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/ |
+| [princeton-nlp/SWE-bench_Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified |
+| [Principles of Hierarchical Temporal Memory](https://www.youtube.com/watch?v=6ufPpZDmPKA) | https://www.youtube.com/watch?v=6ufPpZDmPKA |
+| [Programming Community Curated Resources](https://hackr.io/tutorials/learn-artificial-intelligence-ai) | https://hackr.io/tutorials/learn-artificial-intelligence-ai |
+| [proNet-core](https://github.com/cnclabs/proNet-core) | https://github.com/cnclabs/proNet-core |
+| [PT]** Para mais detalhes, consulte o [histórico de commits](https://github.com/FELIPEACASTRO/AIForge/commits/master) | https://github.com/FELIPEACASTRO/AIForge/commits/master |
+| [PT]** Se tiver alguma dúvida, abra uma [issue](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [Publicação AlphaFold 3](https://www.nature.com/articles/s41586-024-07487-w) | https://www.nature.com/articles/s41586-024-07487-w |
+| [Purdue Robot Vision Lab](http://rvl.www.ecn.purdue.edu/RVL/) | http://rvl.www.ecn.purdue.edu/RVL/ |
+| [pyannote/segmentation-3.0](https://huggingface.co/pyannote/segmentation-3.0) | https://huggingface.co/pyannote/segmentation-3.0 |
+| [pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1) | https://huggingface.co/pyannote/speaker-diarization-3.1 |
+| [pyannote/wespeaker-voxceleb-resnet34-LM](https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM) | https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM |
+| [PyCaret](https://github.com/pycaret/pycaret) | https://github.com/pycaret/pycaret |
+| [PyCUDA](https://mathema.tician.de/software/pycuda/) | https://mathema.tician.de/software/pycuda/ |
+| [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](https://proycon.github.io/folia/) | https://proycon.github.io/folia/ |
+| [pytessarct](https://github.com/madmaze/pytesseract) - Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and "read" the text embedded in images. Python-tesseract is a wrapper for [Google's Tesseract-OCR Engine](https://github.com/tesseract-ocr/tesseract) | https://github.com/tesseract-ocr/tesseract |
+| [PyTorch](https://github.com/pytorch/pytorch) | https://github.com/pytorch/pytorch |
+| [Pytorch finetune](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet) | https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet |
+| [PyTorch Hub](https://pytorch.org/hub/) | https://pytorch.org/hub/ |
+| [Pytorch Tutorial by Yunjey Choi](https://github.com/yunjey/pytorch-tutorial) | https://github.com/yunjey/pytorch-tutorial |
+| [Pytorch tutorial on transfer learning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) | https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html |
+| [PyTorchCV](https://github.com/donnyyou/PyTorchCV) | https://github.com/donnyyou/PyTorchCV |
+| [Quandl](https://www.quandl.com/) | https://www.quandl.com/ |
+| [Quepy](https://github.com/machinalis/quepy) | https://github.com/machinalis/quepy |
+| [QuestDB](https://questdb.io/) | https://questdb.io/ |
+| [Quick Start Guide](../../../QUICK_START.md) | ../../../QUICK_START.md |
+| [Quoc V. Le](http://ai.stanford.edu/~quocle/) | http://ai.stanford.edu/~quocle/ |
+| [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct |
+| [Qwen/Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-3B-Instruct |
+| [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-7B-Instruct |
+| [Qwen/Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct |
+| [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct |
+| [Qwen/Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) | https://huggingface.co/Qwen/Qwen3-0.6B |
+| [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507 |
+| [Qwen/Qwen3-Embedding-0.6B](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | https://huggingface.co/Qwen/Qwen3-Embedding-0.6B |
+| [RadImageNet: An Open Radiologic Deep Learning Research Dataset](https://pmc.ncbi.nlm.nih.gov/articles/PMC9530758/) | https://pmc.ncbi.nlm.nih.gov/articles/PMC9530758/ |
+| [rajpurkar/squad](https://huggingface.co/datasets/rajpurkar/squad) | https://huggingface.co/datasets/rajpurkar/squad |
+| [randomkit](https://github.com/deepmind/torch-randomkit) | https://github.com/deepmind/torch-randomkit |
+| [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) | https://sourceforge.net/p/lemur/wiki/RankLib/ |
+| [rapaio](https://github.com/padreati/rapaio) | https://github.com/padreati/rapaio |
+| [RapidMiner](https://rapidminer.com) | https://rapidminer.com |
+| [Rasgo](https://github.com/rasgointelligence/rasgo) | https://github.com/rasgointelligence/rasgo |
+| [Ray](https://www.ray.io) | https://www.ray.io |
+| [Ray Train](https://docs.ray.io/en/latest/train) | https://docs.ray.io/en/latest/train |
+| [Ray Tune](https://docs.ray.io/en/latest/tune) | https://docs.ray.io/en/latest/tune |
+| [RDataSets](https://github.com/johnmyleswhite/RDatasets.jl) | https://github.com/johnmyleswhite/RDatasets.jl |
+| [Recent advance of transfer learning](https://jd92.wang/assets/files/l16_aitime.pdf) | https://jd92.wang/assets/files/l16_aitime.pdf |
+| [Recent advance of transfer learning - 2022年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1nY411E7Uc/) | https://www.bilibili.com/video/BV1nY411E7Uc/ |
+| [Recent Developments in Deep Learning](https://www.youtube.com/watch?v=vShMxxqtDDs&amp;index=3&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT) | https://www.youtube.com/watch?v=vShMxxqtDDs&amp;index=3&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT |
+| [Recommendation](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#recommendation) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#recommendation |
+| [Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF) | https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF |
+| [Recurrent Neural Network based Language Model](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf) | http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf |
+| [Recurrent Neural Network based Language Modeling in Meeting Recognition](http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf) | http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf |
+| [Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf) | http://nlp.stanford.edu/~socherr/thesis.pdf |
+| [Recursos Avançados 2025](../09_ADVANCED_MODELS/) | ../09_ADVANCED_MODELS/ |
+| [Recursos de Aprendizagem](./03_RESOURCES/3.1_Learning_Resources/) | ./03_RESOURCES/3.1_Learning_Resources/ |
+| [Reddit Datasets](https://www.reddit.com/r/datasets/) | https://www.reddit.com/r/datasets/ |
+| [Regression](https://github.com/lindahua/Regression.jl) - Algorithms for regression analysis (e.g. linear regression and logistic regression) | https://github.com/lindahua/Regression.jl) - Algorithms for regression analysis (e.g. linear regression and logistic regression |
+| [Regression Analysis for Primary Biliary Cirrhosis](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis) | https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis |
+| [regression-js](https://github.com/Tom-Alexander/regression-js) | https://github.com/Tom-Alexander/regression-js |
+| [Regularization in Deep Learning](https://www.manning.com/books/regularization-in-deep-learning) | https://www.manning.com/books/regularization-in-deep-learning |
+| [Reinforcement Learning Neural Turing Machines](http://arxiv.org/pdf/1505.00521v1) | http://arxiv.org/pdf/1505.00521v1 |
+| [Reinhold Scherer](http://bci.tugraz.at/scherer/) | http://bci.tugraz.at/scherer/ |
+| [RELATORIO_DEVASTADOR_CSIRO.md](docs/RELATORIO_DEVASTADOR_CSIRO.md) | docs/RELATORIO_DEVASTADOR_CSIRO.md |
+| [RELATORIO_TRIPLE_CHECK.md](docs/RELATORIO_TRIPLE_CHECK.md) | docs/RELATORIO_TRIPLE_CHECK.md |
+| [released in CPAN](https://metacpan.org/pod/AI::MXNet) | https://metacpan.org/pod/AI::MXNet |
+| [Repositório Principal](../) | ../ |
+| [Repositórios SOTA 2025](../10_SOTA_REPOS_2025/) | ../10_SOTA_REPOS_2025/ |
+| [Repositórios SOTA 2025](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) | ./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/ |
+| [Research](./Research/) | ./Research/ |
+| [Research / Pesquisa](./04_APPLY/Research/) | ./04_APPLY/Research/ |
+| [Residual Learning](https://arxiv.org/pdf/1512.03385v1.pdf) | https://arxiv.org/pdf/1512.03385v1.pdf |
+| [Retail](./Retail/) | ./Retail/ |
+| [Retail / Varejo](./04_APPLY/Retail/) | ./04_APPLY/Retail/ |
+| [Retext](https://github.com/retextjs/retext) | https://github.com/retextjs/retext |
+| [retinaface](https://github.com/serengil/retinaface) | https://github.com/serengil/retinaface |
+| [RF](https://github.com/fxsjy/RF.go) | https://github.com/fxsjy/RF.go |
+| [Richard Socher](http://www.socher.org/) | http://www.socher.org/ |
+| [RLtools](https://github.com/rl-tools/rl-tools) - The fastest deep reinforcement learning library for continuous control, implemented header-only in pure, dependency-free C++ (Python bindings available as well) | https://github.com/rl-tools/rl-tools) - The fastest deep reinforcement learning library for continuous control, implemented header-only in pure, dependency-free C++ (Python bindings available as well |
+| [rnn](https://github.com/Element-Research/rnn) | https://github.com/Element-Research/rnn |
+| [Rob Fergus](http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php) | http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php |
+| [Robert Coop](http://mil.engr.utk.edu/nmil/member/19.html) | http://mil.engr.utk.edu/nmil/member/19.html |
+| [Robert Gens](http://homes.cs.washington.edu/~rcg/) | http://homes.cs.washington.edu/~rcg/ |
+| [Robert Laganière](http://www.site.uottawa.ca/~laganier/) | http://www.site.uottawa.ca/~laganier/ |
+| [Roboflow 100](https://public.roboflow.com) | https://public.roboflow.com |
+| [Roboflow Universe](https://universe.roboflow.com) | https://universe.roboflow.com |
+| [Robot Vision Laboratory](http://rvl1.ecn.purdue.edu/RVL/) | http://rvl1.ecn.purdue.edu/RVL/ |
+| [Robotic AI & Learning Lab Berkeley](https://github.com/rail-berkeley) | https://github.com/rail-berkeley |
+| [ROCAnalysis](https://github.com/davidavdav/ROCAnalysis.jl) | https://github.com/davidavdav/ROCAnalysis.jl |
+| [Rock Paper Scissors](https://rps-tfjs.netlify.com/) | https://rps-tfjs.netlify.com/ |
+| [Roger Grosse](http://people.csail.mit.edu/rgrosse/) | http://people.csail.mit.edu/rgrosse/ |
+| [ROI de agricultura de precisão](08_Use_Cases/) | 08_Use_Cases/ |
+| [ROI of precision agriculture](08_Use_Cases/) | 08_Use_Cases/ |
+| [Ronan Collobert](http://ronan.collobert.com/) | http://ronan.collobert.com/ |
+| [ROOT](https://root.cern.ch) | https://root.cern.ch |
+| [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit) | https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit |
+| [Rowan/hellaswag](https://huggingface.co/datasets/Rowan/hellaswag) | https://huggingface.co/datasets/Rowan/hellaswag |
+| [Rubix ML](https://github.com/RubixML) - A high-level machine learning (ML) | https://github.com/RubixML) - A high-level machine learning (ML |
+| [Ruslan Salakhutdinov](http://www.utstat.toronto.edu/~rsalakhu/) | http://www.utstat.toronto.edu/~rsalakhu/ |
+| [Safe transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#safe-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#safe-transfer-learning |
+| [Saite](https://github.com/jsa-aerial/saite) -  Clojure(Script) | https://github.com/jsa-aerial/saite) -  Clojure(Script |
+| [Salesforce/GiftEvalPretrain](https://huggingface.co/datasets/Salesforce/GiftEvalPretrain) | https://huggingface.co/datasets/Salesforce/GiftEvalPretrain |
+| [Salesforce/wikitext](https://huggingface.co/datasets/Salesforce/wikitext) | https://huggingface.co/datasets/Salesforce/wikitext |
+| [saliency](https://github.com/marcoscoffier/torch-saliency) | https://github.com/marcoscoffier/torch-saliency |
+| [Samoa](https://samoa.incubator.apache.org/) | https://samoa.incubator.apache.org/ |
+| [Sampling](https://github.com/lindahua/Sampling.jl) | https://github.com/lindahua/Sampling.jl |
+| [satellite platforms](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [Scicloj](https://scicloj.github.io/pages/libraries/) | https://scicloj.github.io/pages/libraries/ |
+| [scicloj.ml](https://github.com/scicloj/scicloj.ml) | https://github.com/scicloj/scicloj.ml |
+| [Science Paper](https://www.science.org/doi/10.1126/science.adi2336) | https://www.science.org/doi/10.1126/science.adi2336 |
+| [science.js](https://github.com/jasondavies/science.js/) | https://github.com/jasondavies/science.js/ |
+| [Scikit-Image](https://github.com/scikit-image/scikit-image) | https://github.com/scikit-image/scikit-image |
+| [scikit-learn](https://github.com/scikit-learn/scikit-learn) | https://github.com/scikit-learn/scikit-learn |
+| [Scikit-Opt](https://github.com/guofei9987/scikit-opt) - Swarm Intelligence in Python (Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Algorithm, Immune Algorithm, Artificial Fish Swarm Algorithm in Python) | https://github.com/guofei9987/scikit-opt) - Swarm Intelligence in Python (Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Algorithm, Immune Algorithm, Artificial Fish Swarm Algorithm in Python |
+| [ScikitLearn](https://github.com/cstjean/ScikitLearn.jl) | https://github.com/cstjean/ScikitLearn.jl |
+| [SciLua](http://scilua.org/) | http://scilua.org/ |
+| [Seaborn](https://github.com/mwaskom/seaborn) | https://github.com/mwaskom/seaborn |
+| [Sebastian Gerwinn](http://www.kyb.tuebingen.mpg.de/nc/employee/details/sgerwinn.html) | http://www.kyb.tuebingen.mpg.de/nc/employee/details/sgerwinn.html |
+| [seer.cancer.gov](http://seer.cancer.gov/faststats/selections.php?series=cancer)) | http://seer.cancer.gov/faststats/selections.php?series=cancer) |
+| [segmentation_models](https://github.com/qubvel/segmentation_models) | https://github.com/qubvel/segmentation_models |
+| [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) | https://github.com/qubvel/segmentation_models.pytorch |
+| [Self-supervised learning](https://pytorch-lightning-bolts.readthedocs.io/en/latest/self_supervised_models.html) | https://pytorch-lightning-bolts.readthedocs.io/en/latest/self_supervised_models.html |
+| [Semi-Supervised Deep Learning with GANs for Melanoma Detection](https://www.manning.com/liveproject/semi-supervised-deep-learning-with-gans-for-melanoma-detection/) | https://www.manning.com/liveproject/semi-supervised-deep-learning-with-gans-for-melanoma-detection/ |
+| [Sentence Transformers](https://www.sbert.net/) | https://www.sbert.net/ |
+| [sentence-transformers/all-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2) | https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2 |
+| [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 |
+| [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) | https://huggingface.co/sentence-transformers/all-mpnet-base-v2 |
+| [sentence-transformers/multi-qa-mpnet-base-dot-v1](https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1) | https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1 |
+| [sentence-transformers/paraphrase-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2) | https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2 |
+| [sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2) | https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 |
+| [sentence-transformers/paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) | https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 |
+| [SentencePiece](https://github.com/google/sentencepiece) | https://github.com/google/sentencepiece |
+| [sentences](https://github.com/neurosnap/sentences) | https://github.com/neurosnap/sentences |
+| [Sequences for Flow Based Reconstruction](http://www.nada.kth.se/~zucch/CAMERA/PUB/seq.html) - synthetic sequence for testing structure from motion algorithms (Formats: pgm) | http://www.nada.kth.se/~zucch/CAMERA/PUB/seq.html) - synthetic sequence for testing structure from motion algorithms (Formats: pgm |
+| [SEQUENCES FOR OPTICAL FLOW ANALYSIS (SOFA)](http://www.cee.hw.ac.uk/~mtc/sofa) - 9 synthetic sequences designed for testing motion analysis applications, including full ground truth of motion and camera parameters. (Formats: gif) | http://www.cee.hw.ac.uk/~mtc/sofa) - 9 synthetic sequences designed for testing motion analysis applications, including full ground truth of motion and camera parameters. (Formats: gif |
+| [Serving](./03_DEPLOY/Serving/) | ./03_DEPLOY/Serving/ |
+| [Serving](./Serving/) - Model serving and deployment (FastAPI, TorchServe, BentoML) | ./Serving/) - Model serving and deployment (FastAPI, TorchServe, BentoML |
+| [sfm](https://github.com/marcoscoffier/lua---sfm) | https://github.com/marcoscoffier/lua---sfm |
+| [shaman](https://github.com/luccastera/shaman) | https://github.com/luccastera/shaman |
+| [shark](http://image.diku.dk/shark/sphinx_pages/build/html/index.html) | http://image.diku.dk/shark/sphinx_pages/build/html/index.html |
+| [Shearlets](https://www3.math.tu-berlin.de/numerik/www.shearlab.org/software) | https://www3.math.tu-berlin.de/numerik/www.shearlab.org/software |
+| [shi-labs/oneformer_demo](https://huggingface.co/datasets/shi-labs/oneformer_demo) | https://huggingface.co/datasets/shi-labs/oneformer_demo |
+| [Sho](https://www.microsoft.com/en-us/research/project/sho-the-net-playground-for-data/) - Sho is an interactive environment for data analysis and scientific computing that lets you seamlessly connect scripts (in IronPython) with compiled code (in .NET) | https://www.microsoft.com/en-us/research/project/sho-the-net-playground-for-data/) - Sho is an interactive environment for data analysis and scientific computing that lets you seamlessly connect scripts (in IronPython) with compiled code (in .NET |
+| [Shogun](https://github.com/shogun-toolbox/shogun) | https://github.com/shogun-toolbox/shogun |
+| [Siamese Neural Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) | https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf |
+| [Sigma.js](http://sigmajs.org/) | http://sigmajs.org/ |
+| [signal](https://github.com/soumith/torch-signal) | https://github.com/soumith/torch-signal |
+| [Signal Analysis and Machine Perception Laboratory](http://sampl.eng.ohio-state.edu) | http://sampl.eng.ohio-state.edu |
+| [SignalProcessing](https://github.com/JuliaDSP/DSP.jl) | https://github.com/JuliaDSP/DSP.jl |
+| [Signate](https://signate.jp) | https://signate.jp |
+| [Simple Bayes](https://github.com/fredwu/simple_bayes) | https://github.com/fredwu/simple_bayes |
+| [Simple MCMC](https://github.com/fredo-dedup/SimpleMCMC.jl) | https://github.com/fredo-dedup/SimpleMCMC.jl |
+| [simple-statistics](https://github.com/simple-statistics/simple-statistics) - A JavaScript implementation of descriptive, regression, and inference statistics. Implemented in literate JavaScript with no dependencies, designed to work in all modern browsers (including IE) | https://github.com/simple-statistics/simple-statistics) - A JavaScript implementation of descriptive, regression, and inference statistics. Implemented in literate JavaScript with no dependencies, designed to work in all modern browsers (including IE |
+| [SimpleCV](http://simplecv.org/) | http://simplecv.org/ |
+| [skynet](https://github.com/Tyill/skynet) | https://github.com/Tyill/skynet |
+| [Smile](https://haifengl.github.io/) | https://haifengl.github.io/ |
+| [snowball](https://github.com/tebeka/snowball) | https://github.com/tebeka/snowball |
+| [SnowNLP](https://github.com/isnowfy/snownlp) | https://github.com/isnowfy/snownlp |
+| [SNU-AI](https://github.com/SNU-AI) | https://github.com/SNU-AI |
+| [sofia-ml](https://code.google.com/archive/p/sofia-ml) | https://code.google.com/archive/p/sofia-ml |
+| [Solinftec](05_Startups/) | 05_Startups/ |
+| [SOTA 2025](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) | ./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/ |
+| [Source-free domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#source-free-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#source-free-domain-adaptation |
+| [spaghetti](https://github.com/MichaelMathieu/lua---spaghetti) - Spaghetti (sparse linear) | https://github.com/MichaelMathieu/lua---spaghetti) - Spaghetti (sparse linear |
+| [Spago](https://github.com/nlpodyssey/spago) | https://github.com/nlpodyssey/spago |
+| [spammy](https://github.com/tasdikrahman/spammy) | https://github.com/tasdikrahman/spammy |
+| [Spark](https://github.com/apache/spark) | https://github.com/apache/spark |
+| [Speech](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#speech) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#speech |
+| [Speech Recognition with Deep Recurrent Neural Networks](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf) | http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf |
+| [Speedster](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster) | https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster |
+| [Spider](https://people.kyb.tuebingen.mpg.de/spider/) | https://people.kyb.tuebingen.mpg.de/spider/ |
+| [Spinning Up in Deep Reinforcement Learning](https://spinningup.openai.com/) - A free deep reinforcement learning course by OpenAI (2019) | https://spinningup.openai.com/) - A free deep reinforcement learning course by OpenAI (2019 |
+| [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) | https://rajpurkar.github.io/SQuAD-explorer/ |
+| [stabilityai/sd-turbo](https://huggingface.co/stabilityai/sd-turbo) | https://huggingface.co/stabilityai/sd-turbo |
+| [stable-baselines3](https://github.com/DLR-RM/stable-baselines3) - PyTorch implementations of Stable Baselines (deep) | https://github.com/DLR-RM/stable-baselines3) - PyTorch implementations of Stable Baselines (deep |
+| [Stan](http://mc-stan.org/) | http://mc-stan.org/ |
+| [Stanford Autonomous Systems Lab](https://github.com/StanfordASL) | https://github.com/StanfordASL |
+| [Stanford Classifier](https://nlp.stanford.edu/software/classifier.shtml) | https://nlp.stanford.edu/software/classifier.shtml |
+| [Stanford English Tokenizer](https://nlp.stanford.edu/software/tokenizer.shtml) | https://nlp.stanford.edu/software/tokenizer.shtml |
+| [Stanford Name Entity Recognizer](https://nlp.stanford.edu/software/CRF-NER.shtml) | https://nlp.stanford.edu/software/CRF-NER.shtml |
+| [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml) | https://nlp.stanford.edu/software/lex-parser.shtml |
+| [Stanford Phrasal: A Phrase-Based Translation System](https://nlp.stanford.edu/phrasal/) | https://nlp.stanford.edu/phrasal/ |
+| [Stanford POS Tagger](https://nlp.stanford.edu/software/tagger.shtml) - A Part-Of-Speech Tagger (POS Tagger) | https://nlp.stanford.edu/software/tagger.shtml) - A Part-Of-Speech Tagger (POS Tagger |
+| [Stanford SPIED](https://nlp.stanford.edu/software/patternslearning.shtml) | https://nlp.stanford.edu/software/patternslearning.shtml |
+| [Stanford Temporal Tagger](https://nlp.stanford.edu/software/sutime.shtml) | https://nlp.stanford.edu/software/sutime.shtml |
+| [Stanford Tokens Regex](https://nlp.stanford.edu/software/tokensregex.shtml) | https://nlp.stanford.edu/software/tokensregex.shtml |
+| [Stanford Word Segmenter](https://nlp.stanford.edu/software/segmenter.shtml) | https://nlp.stanford.edu/software/segmenter.shtml |
+| [Stanford.NLP for .NET](https://github.com/sergey-tihon/Stanford.NLP.NET/) | https://github.com/sergey-tihon/Stanford.NLP.NET/ |
+| [stanfordnlp/imdb](https://huggingface.co/datasets/stanfordnlp/imdb) | https://huggingface.co/datasets/stanfordnlp/imdb |
+| [StanfordSNR](https://github.com/StanfordSNR) | https://github.com/StanfordSNR |
+| [stat.ucla.edu](http://statistics.ucla.edu/) | http://statistics.ucla.edu/ |
+| [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf) | http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf |
+| [Statistical Machine Learning - CMU](https://www.youtube.com/watch?v=azaLcvuql_g&list=PLjbUi5mgii6BWEUZf7He6nowWvGne_Y8r) | https://www.youtube.com/watch?v=azaLcvuql_g&list=PLjbUi5mgii6BWEUZf7He6nowWvGne_Y8r |
+| [Statistiker](https://github.com/clojurewerkz/statistiker) | https://github.com/clojurewerkz/statistiker |
+| [statkit](https://github.com/rigtorp/statkit) | https://github.com/rigtorp/statkit |
+| [Stats](https://github.com/JuliaStats/StatsKit.jl) | https://github.com/JuliaStats/StatsKit.jl |
+| [stdlib](https://github.com/stdlib-js/stdlib) | https://github.com/stdlib-js/stdlib |
+| [Stemmer](https://github.com/fredwu/stemmer) - An English (Porter2) | https://github.com/fredwu/stemmer) - An English (Porter2 |
+| [Stereo Images with Ground Truth Disparity and Occlusion](http://www-dbv.cs.uni-bonn.de/stereo_data/) - a small set of synthetic images of a hallway with varying amounts of noise added. Use these images to benchmark your stereo algorithm. (Formats: raw, viff (khoros), or tiff) | http://www-dbv.cs.uni-bonn.de/stereo_data/) - a small set of synthetic images of a hallway with varying amounts of noise added. Use these images to benchmark your stereo algorithm. (Formats: raw, viff (khoros), or tiff |
+| [Stevross/mmlu](https://huggingface.co/datasets/Stevross/mmlu) | https://huggingface.co/datasets/Stevross/mmlu |
+| [stitch](https://github.com/marcoscoffier/lua---stitch) | https://github.com/marcoscoffier/lua---stitch |
+| [Storm](https://storm.apache.org/) | https://storm.apache.org/ |
+| [Stuttgart Range Image Database](http://range.informatik.uni-stuttgart.de) - A collection of synthetic range images taken from high-resolution polygonal models available on the web (Formats: homebrew) | http://range.informatik.uni-stuttgart.de) - A collection of synthetic range images taken from high-resolution polygonal models available on the web (Formats: homebrew |
+| [Stéphane Mallat](http://www.cmap.polytechnique.fr/~mallat/) | http://www.cmap.polytechnique.fr/~mallat/ |
+| [SuperGLUE](https://super.gluebenchmark.com/) | https://super.gluebenchmark.com/ |
+| [Supervised Sequence Labelling with Recurrent Neural Networks](http://www.cs.toronto.edu/~graves/preprint.pdf) | http://www.cs.toronto.edu/~graves/preprint.pdf |
+| [Support Vector Machines](https://github.com/titsuki/p6-Algorithm-LibSVM) | https://github.com/titsuki/p6-Algorithm-LibSVM |
+| [Survey](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#survey) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#survey |
+| [SVCFusion/Launcher](https://huggingface.co/datasets/SVCFusion/Launcher) | https://huggingface.co/datasets/SVCFusion/Launcher |
+| [Sven Behnke](http://www.ais.uni-bonn.de/behnke/) | http://www.ais.uni-bonn.de/behnke/ |
+| [SVGo](https://github.com/ajstarks/svgo) | https://github.com/ajstarks/svgo |
+| [SVM](https://github.com/JuliaStats/SVM.jl) | https://github.com/JuliaStats/SVM.jl |
+| [svm](https://github.com/koraykv/torch-svm) | https://github.com/koraykv/torch-svm |
+| [SWE-Gym/SWE-Gym](https://huggingface.co/datasets/SWE-Gym/SWE-Gym) | https://huggingface.co/datasets/SWE-Gym/SWE-Gym |
+| [sylvester](https://github.com/jcoglan/sylvester) | https://github.com/jcoglan/sylvester |
+| [Symato/cc](https://huggingface.co/datasets/Symato/cc) | https://huggingface.co/datasets/Symato/cc |
+| [Synapses](https://github.com/mrdimosthenis/Synapses) | https://github.com/mrdimosthenis/Synapses |
+| [Synaptic](https://github.com/cazala/synaptic) | https://github.com/cazala/synaptic |
+| [SystemML](https://github.com/apache/systemml) - flexible, scalable machine learning (ML) | https://github.com/apache/systemml) - flexible, scalable machine learning (ML |
+| [Tablecloth](https://github.com/scicloj/tablecloth) | https://github.com/scicloj/tablecloth |
+| [Tapani Raiko](http://users.ics.aalto.fi/praiko/) | http://users.ics.aalto.fi/praiko/ |
+| [Tara Sainath](https://sites.google.com/site/tsainath/) | https://sites.google.com/site/tsainath/ |
+| [tasl-lab/uniocc](https://huggingface.co/datasets/tasl-lab/uniocc) | https://huggingface.co/datasets/tasl-lab/uniocc |
+| [TAUR-Lab/Taur_CoT_Analysis_Project___gpt-4o-2024-08-06](https://huggingface.co/datasets/TAUR-Lab/Taur_CoT_Analysis_Project___gpt-4o-2024-08-06) | https://huggingface.co/datasets/TAUR-Lab/Taur_CoT_Analysis_Project___gpt-4o-2024-08-06 |
+| [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) | https://github.com/techascent/tech.ml.dataset |
+| [tech4humans/yolov8s-signature-detector](https://huggingface.co/tech4humans/yolov8s-signature-detector) | https://huggingface.co/tech4humans/yolov8s-signature-detector |
+| [Tecton](https://www.tecton.ai/) | https://www.tecton.ai/ |
+| [tensor-js](https://github.com/Hoff97/tensorjs) | https://github.com/Hoff97/tensorjs |
+| [TensorBoard](https://www.tensorflow.org/tensorboard) | https://www.tensorflow.org/tensorboard |
+| [Tensorflex](https://github.com/anshuman23/tensorflex) | https://github.com/anshuman23/tensorflex |
+| [TensorFlow](https://github.com/LaurentMazare/tensorflow-ocaml) | https://github.com/LaurentMazare/tensorflow-ocaml |
+| [TensorFlow](https://github.com/tensorflow/tensorflow) | https://github.com/tensorflow/tensorflow |
+| [TensorFlow 2.0 in Action](https://www.manning.com/books/tensorflow-in-action) | https://www.manning.com/books/tensorflow-in-action |
+| [TensorFlow Hub](https://tfhub.dev/) | https://tfhub.dev/ |
+| [TensorFlow Python Notebooks](https://github.com/aymericdamien/TensorFlow-Examples) | https://github.com/aymericdamien/TensorFlow-Examples |
+| [TensorFlow tutorials](https://github.com/nlintz/TensorFlow-Tutorials) | https://github.com/nlintz/TensorFlow-Tutorials |
+| [TensorFlow-World](https://github.com/astorfi/TensorFlow-World) | https://github.com/astorfi/TensorFlow-World |
+| [TensorFlow.js](https://js.tensorflow.org/) | https://js.tensorflow.org/ |
+| [Text Analysis](https://github.com/JuliaText/TextAnalysis.jl) | https://github.com/JuliaText/TextAnalysis.jl |
+| [TextBlob](http://textblob.readthedocs.io/en/dev/) - Providing a consistent API for diving into common natural language processing (NLP) | http://textblob.readthedocs.io/en/dev/) - Providing a consistent API for diving into common natural language processing (NLP |
+| [TF-GAN](https://github.com/tensorflow/gan) - TF-GAN is a lightweight library for training and evaluating Generative Adversarial Networks (GANs) | https://github.com/tensorflow/gan) - TF-GAN is a lightweight library for training and evaluating Generative Adversarial Networks (GANs |
+| [The AR Face Database](http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html) - Contains over 4,000 color images corresponding to 126 people's faces (70 men and 56 women). Frontal views with variations in facial expressions, illumination, and occlusions. (Formats: RAW (RGB 24-bit)) | http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html) - Contains over 4,000 color images corresponding to 126 people's faces (70 men and 56 women). Frontal views with variations in facial expressions, illumination, and occlusions. (Formats: RAW (RGB 24-bit) |
+| [The Best Machine Learning Tutorials On The Web](https://github.com/josephmisiti/machine-learning-module) | https://github.com/josephmisiti/machine-learning-module |
+| [The Bot](https://github.com/sta-ger/TheBot) - Example of how the neural network learns to predict the angle between two points created with [Synaptic](https://github.com/cazala/synaptic) | https://github.com/cazala/synaptic |
+| [The Epic Code](https://theepiccode.com/) | https://theepiccode.com/ |
+| [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/) | https://amitness.com/2020/02/illustrated-self-supervised-learning/ |
+| [The MIT-CSAIL Database of Objects and Scenes](http://web.mit.edu/torralba/www/database.html) - Database for testing multiclass object detection and scene recognition algorithms. Over 72,000 images with 2873 annotated frames. More than 50 annotated object classes. (Formats: jpg) | http://web.mit.edu/torralba/www/database.html) - Database for testing multiclass object detection and scene recognition algorithms. Over 72,000 images with 2873 annotated frames. More than 50 annotated object classes. (Formats: jpg |
+| [The Next Generation of Neural Networks](https://www.youtube.com/watch?v=AyzOUbkUf3M) | https://www.youtube.com/watch?v=AyzOUbkUf3M |
+| [The RVL SPEC-DB (SPECularity DataBase)](http://rvl1.ecn.purdue.edu/RVL/specularity_database/) - A collection of over 300 real images of 100 objects taken under three different illuminaiton conditions (Diffuse/Ambient/Directed). -- Use these images to test algorithms for detecting and compensating specular highlights in color images. (Formats: TIFF) | http://rvl1.ecn.purdue.edu/RVL/specularity_database/) - A collection of over 300 real images of 100 objects taken under three different illuminaiton conditions (Diffuse/Ambient/Directed). -- Use these images to test algorithms for detecting and compensating specular highlights in color images. (Formats: TIFF |
+| [The Unreasonable Effectiveness of Deep Learning](https://www.youtube.com/watch?v=sc-KbuZqGkI) | https://www.youtube.com/watch?v=sc-KbuZqGkI |
+| [The wonderful and terrifying implications of computers that can learn](http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn) | http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn |
+| [The Xm2vts database](http://xm2vtsdb.ee.surrey.ac.uk) | http://xm2vtsdb.ee.surrey.ac.uk |
+| [Theano Tutorial](http://deeplearning.net/tutorial/deeplearning.pdf) | http://deeplearning.net/tutorial/deeplearning.pdf |
+| [therfoo](https://github.com/therfoo/therfoo) | https://github.com/therfoo/therfoo |
+| [this arXiv survey](5) | 5 |
+| [ThunderGBM](https://github.com/Xtra-Computing/thundergbm) | https://github.com/Xtra-Computing/thundergbm |
+| [ThunderSVM](https://github.com/Xtra-Computing/thundersvm) | https://github.com/Xtra-Computing/thundersvm |
+| [THUNLP](https://github.com/thunlp) | https://github.com/thunlp |
+| [Tijmen Tieleman](http://www.cs.toronto.edu/~tijmen/) | http://www.cs.toronto.edu/~tijmen/ |
+| [Timbl](https://languagemachines.github.io/timbl/) | https://languagemachines.github.io/timbl/ |
+| [Time series](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#time-series) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#time-series |
+| [Time Series](https://github.com/JuliaStats/TimeSeries.jl) | https://github.com/JuliaStats/TimeSeries.jl |
+| [Time Series Forecasting](../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/) | ../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/ |
+| [timm](https://github.com/rwightman/pytorch-image-models) | https://github.com/rwightman/pytorch-image-models |
+| [Timm (PyTorch Image Models)](https://github.com/huggingface/pytorch-image-models) | https://github.com/huggingface/pytorch-image-models |
+| [timm/convnextv2_nano.fcmae_ft_in22k_in1k](https://huggingface.co/timm/convnextv2_nano.fcmae_ft_in22k_in1k) | https://huggingface.co/timm/convnextv2_nano.fcmae_ft_in22k_in1k |
+| [timm/mobilenetv3_small_100.lamb_in1k](https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k) | https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k |
+| [timm/resnet50.a1_in1k](https://huggingface.co/timm/resnet50.a1_in1k) | https://huggingface.co/timm/resnet50.a1_in1k |
+| [Tiny Images](http://groups.csail.mit.edu/vision/TinyImages/) | http://groups.csail.mit.edu/vision/TinyImages/ |
+| [TinyLlama/TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) | https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0 |
+| [Tom Karnowski](http://mil.engr.utk.edu/nmil/member/36.html) | http://mil.engr.utk.edu/nmil/member/36.html |
+| [Tomáš Mikolov](https://research.facebook.com/tomas-mikolov) | https://research.facebook.com/tomas-mikolov |
+| [Tools](./Tools/) - Utility tools (Annotation, Labeling, PDF, Web Scraping) | ./Tools/) - Utility tools (Annotation, Labeling, PDF, Web Scraping |
+| [Tools / Ferramentas](./03_DEPLOY/Tools/) | ./03_DEPLOY/Tools/ |
+| [Topcoder](https://www.topcoder.com) | https://www.topcoder.com |
+| [Topic Models](https://github.com/slycoder/TopicModels.jl) | https://github.com/slycoder/TopicModels.jl |
+| [ToPS](https://github.com/ayoshiaki/tops) | https://github.com/ayoshiaki/tops |
+| [torch-datasets](https://github.com/rosejn/torch-datasets) | https://github.com/rosejn/torch-datasets |
+| [Torch7](http://torch.ch/) | http://torch.ch/ |
+| [Torch7 Tutorials](https://github.com/clementfarabet/ipam-tutorials/tree/master/th_tutorials) | https://github.com/clementfarabet/ipam-tutorials/tree/master/th_tutorials |
+| [torchnet](https://github.com/torchnet/torchnet) | https://github.com/torchnet/torchnet |
+| [TorchVision Models](https://pytorch.org/vision/stable/models.html) | https://pytorch.org/vision/stable/models.html |
+| [Touchstone](https://github.com/ptaoussanis/touchstone) | https://github.com/ptaoussanis/touchstone |
+| [TPOT](https://github.com/EpistasisLab/tpot) | https://github.com/EpistasisLab/tpot |
+| [Traditional domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#traditional-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#traditional-domain-adaptation |
+| [Traffic Image Sequences and 'Marbled Block' Sequence](http://i21www.ira.uka.de/image_sequences) - thousands of frames of digitized traffic image sequences as well as the 'Marbled Block' sequence (grayscale images) (Formats: GIF) | http://i21www.ira.uka.de/image_sequences) - thousands of frames of digitized traffic image sequences as well as the 'Marbled Block' sequence (grayscale images) (Formats: GIF |
+| [Training a Convnet for the Galaxy-Zoo Kaggle challenge(CUDA demo)](https://github.com/soumith/galaxyzoo) | https://github.com/soumith/galaxyzoo |
+| [Training a Reinforcement Learning Agent by Miguel Morales](https://youtu.be/8TMT-gHlj_Q) | https://youtu.be/8TMT-gHlj_Q |
+| [Training Recurrent Neural Networks](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf) | http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf |
+| [Training tricks by YB](http://www.iro.umontreal.ca/~bengioy/papers/YB-tricks.pdf) | http://www.iro.umontreal.ca/~bengioy/papers/YB-tricks.pdf |
+| [Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687) | https://arxiv.org/abs/1903.04687 |
+| [Transfer learning applications](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-learning-applications) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-learning-applications |
+| [Transfer learning by Hung-yi Lee @ NTU - 台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ) | https://www.youtube.com/watch?v=qD6iD4TFsdQ |
+| [Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr) | https://pan.baidu.com/s/1kVABOYr |
+| [Transfer Learning for Future Wireless Networks: A Comprehensive Survey](https://arxiv.org/abs/2102.07572) | https://arxiv.org/abs/2102.07572 |
+| [Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1) | https://pan.baidu.com/s/1slfr0w1 |
+| [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13) | https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13 |
+| [Transfer metric learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-metric-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-metric-learning |
+| [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944) | https://arxiv.org/abs/1810.03944 |
+| [Transfer reinforcement learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-reinforcement-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-reinforcement-learning |
+| [Transferability in Deep Learning: A Survey](https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey) | https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey |
+| [Transformers by Hugging Face](https://github.com/huggingface/transformers) | https://github.com/huggingface/transformers |
+| [Tregex, Tsurgeon and Semgrex](https://nlp.stanford.edu/software/tregex.shtml) - Tregex is a utility for matching patterns in trees, based on tree relationships and regular expression matches on nodes (the name is short for "tree regular expressions") | https://nlp.stanford.edu/software/tregex.shtml) - Tregex is a utility for matching patterns in trees, based on tree relationships and regular expression matches on nodes (the name is short for "tree regular expressions" |
+| [Tribou](https://tribuo.org) | https://tribuo.org |
+| [trl-internal-testing/tiny-Qwen2ForCausalLM-2.5](https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5) | https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5 |
+| [Truss](https://truss.baseten.co) | https://truss.baseten.co |
+| [TSFresh](https://github.com/blue-yonder/tsfresh) | https://github.com/blue-yonder/tsfresh |
+| [Tsinghua AI](https://github.com/TsinghuaAI) | https://github.com/TsinghuaAI |
+| [Tsinghua MARS Lab](https://github.com/Tsinghua-MARS-Lab) | https://github.com/Tsinghua-MARS-Lab |
+| [Tutorials](04_Tutorials/) | 04_Tutorials/ |
+| [Twitter Text Java](https://github.com/twitter/twitter-text/tree/master/java) | https://github.com/twitter/twitter-text/tree/master/java |
+| [Twitter-text](https://github.com/twitter/twitter-text) | https://github.com/twitter/twitter-text |
+| [U Bern Face images](ftp://ftp.iam.unibe.ch/pub/Images/FaceImages) - hundreds of images (Formats: Sun rasterfile) | ftp://ftp.iam.unibe.ch/pub/Images/FaceImages) - hundreds of images (Formats: Sun rasterfile |
+| [U Michigan textures](ftp://freebie.engin.umich.edu/pub/misc/textures) (Formats: compressed raw) | ftp://freebie.engin.umich.edu/pub/misc/textures) (Formats: compressed raw |
+| [U Oulu wood and knots database](http://www.ee.oulu.fi/~olli/Projects/Lumber.Grading.html) - Includes classifications - 1000+ color images (Formats: ppm) | http://www.ee.oulu.fi/~olli/Projects/Lumber.Grading.html) - Includes classifications - 1000+ color images (Formats: ppm |
+| [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/) | http://archive.ics.uci.edu/ml/ |
+| [UCI Machine Learning Repository](https://archive.ics.uci.edu/) | https://archive.ics.uci.edu/ |
+| [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets) | https://archive.ics.uci.edu/datasets |
+| [UCID - an Uncompressed Colour Image Database](http://vision.doc.ntu.ac.uk/datasets/UCID/ucid.html) - a benchmark database for image retrieval with predefined ground truth. (Formats: tiff) | http://vision.doc.ntu.ac.uk/datasets/UCID/ucid.html) - a benchmark database for image retrieval with predefined ground truth. (Formats: tiff |
+| [ucto](https://github.com/LanguageMachines/ucto) | https://github.com/LanguageMachines/ucto |
+| [Ueli Meier](http://www.idsia.ch/~meier/) | http://www.idsia.ch/~meier/ |
+| [UFLDL Tutorial 1](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial) | http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial |
+| [UFLDL Tutorial 2](http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/) | http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/ |
+| [UMass Vision Image Archive](http://vis-www.cs.umass.edu/~vislib/) - Large image database with aerial, space, stereo, medical images and more. (Formats: homebrew) | http://vis-www.cs.umass.edu/~vislib/) - Large image database with aerial, space, stereo, medical images and more. (Formats: homebrew |
+| [UN Data](https://data.un.org/) | https://data.un.org/ |
+| [UNC's 3D image database](ftp://sunsite.unc.edu/pub/academic/computer-science/virtual-reality/3d) | ftp://sunsite.unc.edu/pub/academic/computer-science/virtual-reality/3d |
+| [Understand what is Deep Learning](https://www.scaler.com/topics/what-is-deep-learning/) | https://www.scaler.com/topics/what-is-deep-learning/ |
+| [Understanding deep Convolutional Neural Networks with a practical use-case in Tensorflow and Keras](https://ahmedbesbes.com/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html) | https://ahmedbesbes.com/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html |
+| [Univerity of Minnesota Vision Lab](http://vision.psych.umn.edu/users/kersten//kersten-lab/kersten-lab.html) | http://vision.psych.umn.edu/users/kersten//kersten-lab/kersten-lab.html |
+| [Universities](./Universities/) | ./Universities/ |
+| [Universities / Universidades](./01_LEARN/Universities/) | ./01_LEARN/Universities/ |
+| [University College London](https://github.com/UCL) | https://github.com/UCL |
+| [unsup](https://github.com/koraykv/unsup) - A package for unsupervised learning in Torch. Provides modules that are compatible with nn (LinearPsd, ConvPsd, AutoEncoder, ...), and self-contained algorithms (k-means, PCA) | https://github.com/koraykv/unsup) - A package for unsupervised learning in Torch. Provides modules that are compatible with nn (LinearPsd, ConvPsd, AutoEncoder, ...), and self-contained algorithms (k-means, PCA |
+| [Unsupervised Deep Learning - Stanford](http://web.stanford.edu/class/cs294a/handouts.html) by Andrew Ng in Stanford (2011) | http://web.stanford.edu/class/cs294a/handouts.html) by Andrew Ng in Stanford (2011 |
+| [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf) | https://arxiv.org/pdf/2006.03511.pdf |
+| [updatebao/country](https://huggingface.co/datasets/updatebao/country) | https://huggingface.co/datasets/updatebao/country |
+| [updatebao/geonamebase_1](https://huggingface.co/datasets/updatebao/geonamebase_1) | https://huggingface.co/datasets/updatebao/geonamebase_1 |
+| [used for machine learning](https://github.com/zenogantner/PDL-ML) | https://github.com/zenogantner/PDL-ML |
+| [Using convolutional neural nets to detect facial keypoints tutorial](http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/) | http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/ |
+| [Using Very Deep Autoencoders for Content Based Image Retrieval](http://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf) | http://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf |
+| [UVA Deep Learning Course](http://uvadlc.github.io) | http://uvadlc.github.io |
+| [UW Interactive Data Lab](https://github.com/uwdata) | https://github.com/uwdata |
+| [UW-Mad-DASH](https://github.com/uw-mad-dash) | https://github.com/uw-mad-dash |
+| [VGG Convolutional Neural Networks Practical](http://www.robots.ox.ac.uk/~vgg/practicals/cnn/index.html) | http://www.robots.ox.ac.uk/~vgg/practicals/cnn/index.html |
+| [videograph](https://github.com/clementfarabet/videograph) | https://github.com/clementfarabet/videograph |
+| [VIGRA](https://github.com/ukoethe/vigra) | https://github.com/ukoethe/vigra |
+| [Vigranumpy](https://github.com/ukoethe/vigra) | https://github.com/ukoethe/vigra |
+| [Vincent Vanhoucke](http://vincent.vanhoucke.com) | http://vincent.vanhoucke.com |
+| [Vision and learning - computers and brains](http://web.mit.edu/course/other/i2course/www/vision_and_learning_fall_2013.html) by Shimon Ullman, Tomaso Poggio, Ethan Meyers @ MIT (2013) | http://web.mit.edu/course/other/i2course/www/vision_and_learning_fall_2013.html) by Shimon Ullman, Tomaso Poggio, Ethan Meyers @ MIT (2013 |
+| [Vision Research Group](http://www.cs.otago.ac.nz/research/vision/index.html) | http://www.cs.otago.ac.nz/research/vision/index.html |
+| [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/) | http://ai.bu.edu/visda-2018/ |
+| [Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc) | https://pan.baidu.com/s/1o8BR7Vc |
+| [Visual Paper Summary: ALBERT (A Lite BERT)](https://amitness.com/2020/02/albert-visual-summary/) | https://amitness.com/2020/02/albert-visual-summary/ |
+| [Visual Perception with Deep Learning](https://www.youtube.com/watch?v=3boKlkPBckA) | https://www.youtube.com/watch?v=3boKlkPBckA |
+| [Visualizing and Understanding Recurrent Networks](http://arxiv.org/pdf/1506.02078v1.pdf) | http://arxiv.org/pdf/1506.02078v1.pdf |
+| [visualqa.org](http://www.visualqa.org/) | http://www.visualqa.org/ |
+| [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929.pdf) | https://arxiv.org/pdf/2010.11929.pdf |
+| [VLFeat](http://www.vlfeat.org/) | http://www.vlfeat.org/ |
+| [VOLO: Vision Outlooker for Visual Recognition](https://arxiv.org/pdf/2106.13112.pdf) | https://arxiv.org/pdf/2106.13112.pdf |
+| [Volodymyr Mnih](http://www.cs.toronto.edu/~vmnih/) | http://www.cs.toronto.edu/~vmnih/ |
+| [Vosk](https://github.com/alphacep/vosk-api) | https://github.com/alphacep/vosk-api |
+| [Vowpal Wabbit (VW)](https://github.com/VowpalWabbit/vowpal_wabbit) | https://github.com/VowpalWabbit/vowpal_wabbit |
+| [vowpalwabbit](https://github.com/clementfarabet/vowpal_wabbit) | https://github.com/clementfarabet/vowpal_wabbit |
+| [VQA](http://www.visualqa.org/) | http://www.visualqa.org/ |
+| [Vulpes](https://github.com/fsprojects/Vulpes) | https://github.com/fsprojects/Vulpes |
+| [w11wo/indonesian-roberta-base-posp-tagger](https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger) | https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger |
+| [Warp-CTC](https://github.com/baidu-research/warp-ctc) - A fast parallel implementation of Connectionist Temporal Classification (CTC) | https://github.com/baidu-research/warp-ctc) - A fast parallel implementation of Connectionist Temporal Classification (CTC |
+| [wav2letter](https://github.com/facebookresearch/wav2letter) - a simple and efficient end-to-end Automatic Speech Recognition (ASR) | https://github.com/facebookresearch/wav2letter) - a simple and efficient end-to-end Automatic Speech Recognition (ASR |
+| [Weather AI](../../../04_APPLY/Weather_Climate/AI_Weather_Prediction/) | ../../../04_APPLY/Weather_Climate/AI_Weather_Prediction/ |
+| [WebDNN](https://github.com/mil-tokyo/webdnn) | https://github.com/mil-tokyo/webdnn |
+| [WebNN](https://webnn.dev) | https://webnn.dev |
+| [Weights & Biases (W&B)](https://wandb.ai) | https://wandb.ai |
+| [Weka](https://www.cs.waikato.ac.nz/ml/weka/) | https://www.cs.waikato.ac.nz/ml/weka/ |
+| [What are GANs and how do they work? by Edward Raff](https://youtu.be/f6ivp84qFUc) | https://youtu.be/f6ivp84qFUc |
+| [What is Neural Structured Learning by Andrew Ferlitsch](https://youtu.be/LXWSE_9gHd0) | https://youtu.be/LXWSE_9gHd0 |
+| [Wide Residual Networks](https://github.com/SauravMaheshkar/Trax-Examples/blob/main/vision/illustrated-wideresnet.ipynb) | https://github.com/SauravMaheshkar/Trax-Examples/blob/main/vision/illustrated-wideresnet.ipynb |
+| [Wojciech Zaremba, Ilya Sutskever, An Empirical Exploration of Recurrent Network Architectures](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf) | http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf |
+| [Word Tokenizers](https://github.com/JuliaText/WordTokenizers.jl) | https://github.com/JuliaText/WordTokenizers.jl |
+| [word-embedding](https://github.com/ynqa/word-embedding) | https://github.com/ynqa/word-embedding |
+| [WordNet](https://github.com/JuliaText/WordNet.jl) | https://github.com/JuliaText/WordNet.jl |
+| [World Bank Open Data](https://data.worldbank.org/) | https://data.worldbank.org/ |
+| [World Meteorological Organization](https://public.wmo.int/) | https://public.wmo.int/ |
+| [www-aig.jpl.nasa.gov](http://www-aig.jpl.nasa.gov/) | http://www-aig.jpl.nasa.gov/ |
+| [www.mpi-inf.mpg.de/departments/computer-vision...](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/) | https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/ |
+| [wyu1/Leopard-Instruct](https://huggingface.co/datasets/wyu1/Leopard-Instruct) | https://huggingface.co/datasets/wyu1/Leopard-Instruct |
+| [XAD](https://github.com/auto-differentiation/XAD) | https://github.com/auto-differentiation/XAD |
+| [XGBoost](https://github.com/dmlc/xgboost) | https://github.com/dmlc/xgboost |
+| [XGBoost](https://github.com/dmlc/XGBoost.jl) | https://github.com/dmlc/XGBoost.jl |
+| [xgboost-node](https://github.com/nuanio/xgboost-node) | https://github.com/nuanio/xgboost-node |
+| [xlangai/ubuntu_osworld_file_cache](https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache) | https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache |
+| [xLearn](https://github.com/aksnzhy/xlearn) | https://github.com/aksnzhy/xlearn |
+| [YAlign](https://github.com/machinalis/yalign) | https://github.com/machinalis/yalign |
+| [Yann LeCun](http://yann.lecun.com/) | http://yann.lecun.com/ |
+| [Yann LeCun’s Deep Learning Course at CDS](https://cds.nyu.edu/deep-learning/) | https://cds.nyu.edu/deep-learning/ |
+| [YCML](https://github.com/yconst/YCML) - A Machine Learning framework for Objective-C and Swift (OS X / iOS) | https://github.com/yconst/YCML) - A Machine Learning framework for Objective-C and Swift (OS X / iOS |
+| [Yichuan Tang](http://www.cs.toronto.edu/~tang/) | http://www.cs.toronto.edu/~tang/ |
+| [YOLOv8](https://github.com/ultralytics/ultralytics) | https://github.com/ultralytics/ultralytics |
+| [Yoshua Bengio](http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html) | http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html |
+| [Yotaro Kubo](http://yota.ro/) | http://yota.ro/ |
+| [Youzhi (Will) Zou](http://ai.stanford.edu/~wzou) | http://ai.stanford.edu/~wzou |
+| [Z3d](https://github.com/NathanEpstein/Z3d) | https://github.com/NathanEpstein/Z3d |
+| [zcbecda/SpineAlign](https://huggingface.co/datasets/zcbecda/SpineAlign) | https://huggingface.co/datasets/zcbecda/SpineAlign |
+| [Zero-shot / few-shot learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#zero-shot--few-shot-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#zero-shot--few-shot-learning |
+| [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395) | https://zhuanlan.zhihu.com/p/130244395 |
+| [zhoujt1994/HumanCellEpigenomeAtlas_sc_contact](https://huggingface.co/datasets/zhoujt1994/HumanCellEpigenomeAtlas_sc_contact) | https://huggingface.co/datasets/zhoujt1994/HumanCellEpigenomeAtlas_sc_contact |
+| [Zindi](https://zindi.africa) | https://zindi.africa |
+| [ZingChart](https://www.zingchart.com/) | https://www.zingchart.com/ |
+| [ZJULearning](https://github.com/ZJULearning) | https://github.com/ZJULearning |
+| [Zyphra/Zyda-2](https://huggingface.co/datasets/Zyphra/Zyda-2) | https://huggingface.co/datasets/Zyphra/Zyda-2 |
+| [↩️ Voltar para o README principal](../README.md) | ../README.md |
+| [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code) | https://github.com/jindongwang/transferlearning/tree/master/code |
+| [迁移学习研究进展](https://pan.baidu.com/s/1bpautob) | https://pan.baidu.com/s/1bpautob |
+| [这里](https://github.com/jindongwang/transferlearning/blob/master/data) | https://github.com/jindongwang/transferlearning/blob/master/data |
+| [这里](https://pan.baidu.com/share/init?surl=iuzZhHdumrD64-yx_VAybA) | https://pan.baidu.com/share/init?surl=iuzZhHdumrD64-yx_VAybA |
 
 ---
 
-## A
+## 🇧🇷 Português
 
-- **Academic Research / Pesquisa Acadêmica**: [01_LEARN/Universities/](./01_LEARN/Universities/)
-- **Advanced AI Repositories / Repositórios Avançados de IA**: [01_LEARN/Collections/ADVANCED_AI_REPOSITORIES_2025.md](./01_LEARN/Collections/ADVANCED_AI_REPOSITORIES_2025.md)
-- **AI Models / Modelos de IA**: [02_BUILD/Models/](./02_BUILD/Models/)
-- **Annotation Tools / Ferramentas de Anotação**: [03_DEPLOY/Tools/Annotation/](./03_DEPLOY/Tools/Annotation/)
-- **Audio Libraries / Bibliotecas de Áudio**: [02_BUILD/Libraries/Audio/](./02_BUILD/Libraries/Audio/)
-- **AutoML**: [03_DEPLOY/MLOps/AutoML/](./03_DEPLOY/MLOps/AutoML/)
+Este índice fornece uma listagem alfabética de todos os mais de 15.686 recursos curados no repositório AIForge.
 
-## B
-
-- **Banking AI / IA Bancária**: [04_APPLY/Finance/](./04_APPLY/Finance/)
-- **Banking Datasets / Datasets Bancários**: [02_BUILD/Datasets/BANKING_DATASETS_FEATURES_TL.md](./02_BUILD/Datasets/BANKING_DATASETS_FEATURES_TL.md)
-- **Books / Livros**: [01_LEARN/Books/](./01_LEARN/Books/)
-
-## C
-
-- **Cloud Models / Modelos em Nuvem**: [02_BUILD/Models/CLOUD_MODELS_COLLECTION.md](./02_BUILD/Models/CLOUD_MODELS_COLLECTION.md)
-- **Cloud Platforms / Plataformas de Nuvem**: [03_DEPLOY/Cloud_Platforms/](./03_DEPLOY/Cloud_Platforms/)
-- **Collections / Coleções**: [01_LEARN/Collections/](./01_LEARN/Collections/)
-- **Communities / Comunidades**: [01_LEARN/Communities/](./01_LEARN/Communities/)
-- **Computer Vision / Visão Computacional**: [02_BUILD/Libraries/Computer_Vision/](./02_BUILD/Libraries/)
-- **Courses / Cursos**: [01_LEARN/Courses/](./01_LEARN/Courses/)
-
-## D
-
-- **Data Labeling / Rotulagem de Dados**: [03_DEPLOY/Tools/Data_Labeling/](./03_DEPLOY/Tools/Data_Labeling/)
-- **Datasets**: [02_BUILD/Datasets/](./02_BUILD/Datasets/)
-- **Deep Learning / Aprendizado Profundo**: [02_BUILD/Frameworks/](./02_BUILD/Frameworks/)
-- **Distributed Computing / Computação Distribuída**: [03_DEPLOY/Infrastructure/Distributed/](./03_DEPLOY/Infrastructure/Distributed/)
-
-## E
-
-- **E-commerce / Comércio Eletrônico**: [04_APPLY/Retail/](./04_APPLY/Retail/)
-- **Entertainment / Entretenimento**: [04_APPLY/Entertainment/](./04_APPLY/Entertainment/)
-- **Epic AI Collection / Coleção Épica de IA**: [02_BUILD/Models/EPIC_AI_COLLECTION.md](./02_BUILD/Models/EPIC_AI_COLLECTION.md)
-
-## F
-
-- **Feature Engineering / Engenharia de Features**: [03_DEPLOY/MLOps/Feature_Engineering/](./03_DEPLOY/MLOps/Feature_Engineering/)
-- **Feature Stores**: [03_DEPLOY/MLOps/Feature_Stores/](./03_DEPLOY/MLOps/Feature_Stores/)
-- **Finance / Finanças**: [04_APPLY/Finance/](./04_APPLY/Finance/)
-- **Frameworks**: [02_BUILD/Frameworks/](./02_BUILD/Frameworks/)
-- **Fraud Detection / Detecção de Fraudes**: [04_APPLY/Finance/](./04_APPLY/Finance/)
-
-## G
-
-- **Graph Neural Networks / Redes Neurais em Grafos**: [02_BUILD/Libraries/Graph/](./02_BUILD/Libraries/Graph/)
-
-## H
-
-- **Healthcare / Saúde**: [04_APPLY/Healthcare/](./04_APPLY/Healthcare/)
-
-## I
-
-- **Infrastructure / Infraestrutura**: [03_DEPLOY/Infrastructure/](./03_DEPLOY/Infrastructure/)
-- **Interpretability / Interpretabilidade**: [03_DEPLOY/MLOps/Interpretability/](./03_DEPLOY/MLOps/Interpretability/)
-
-## L
-
-- **Large Language Models (LLM)**: [02_BUILD/Libraries/LLM/](./02_BUILD/Libraries/LLM/)
-- **Learning Resources / Recursos de Aprendizagem**: [01_LEARN/Collections/LEARNING_RESOURCES_2025.md](./01_LEARN/Collections/LEARNING_RESOURCES_2025.md)
-- **Libraries / Bibliotecas**: [02_BUILD/Libraries/](./02_BUILD/Libraries/)
-
-## M
-
-- **Machine Learning / Aprendizado de Máquina**: [02_BUILD/](./02_BUILD/)
-- **Marketing**: [04_APPLY/Marketing/](./04_APPLY/Marketing/)
-- **Massive Collection / Coleção Massiva**: [02_BUILD/Datasets/MASSIVE_COLLECTION.md](./02_BUILD/Datasets/MASSIVE_COLLECTION.md)
-- **MLOps**: [03_DEPLOY/MLOps/](./03_DEPLOY/MLOps/)
-- **Model Serving / Serving de Modelos**: [03_DEPLOY/Serving/](./03_DEPLOY/Serving/)
-- **Model Zoos**: [02_BUILD/Models/Model_Zoos/](./02_BUILD/Models/Model_Zoos/)
-- **Models / Modelos**: [02_BUILD/Models/](./02_BUILD/Models/)
-- **Monitoring / Monitoramento**: [03_DEPLOY/MLOps/Monitoring/](./03_DEPLOY/MLOps/Monitoring/)
-
-## N
-
-- **Natural Language Processing (NLP)**: [02_BUILD/Libraries/NLP/](./02_BUILD/Libraries/NLP/)
-
-## O
-
-- **Optimization / Otimização**: [03_DEPLOY/Optimization/](./03_DEPLOY/Optimization/)
-
-## P
-
-- **PDF Tools / Ferramentas PDF**: [03_DEPLOY/Tools/PDF/](./03_DEPLOY/Tools/PDF/)
-- **Platforms / Plataformas**: [02_BUILD/Datasets/Platforms/](./02_BUILD/Datasets/Platforms/)
-
-## R
-
-- **Reinforcement Learning / Aprendizado por Reforço**: [02_BUILD/Libraries/Reinforcement_Learning/](./02_BUILD/Libraries/Reinforcement_Learning/)
-- **Research / Pesquisa**: [04_APPLY/Research/](./04_APPLY/Research/)
-- **Retail / Varejo**: [04_APPLY/Retail/](./04_APPLY/Retail/)
-
-## S
-
-- **Serving**: [03_DEPLOY/Serving/](./03_DEPLOY/Serving/)
-
-## T
-
-- **Time Series / Séries Temporais**: [02_BUILD/Libraries/Time_Series/](./02_BUILD/Libraries/Time_Series/)
-- **Transfer Learning / Aprendizado por Transferência**: [02_BUILD/Models/Transfer_Learning/](./02_BUILD/Models/Transfer_Learning/)
-- **Transfer Learning Datasets**: [02_BUILD/Datasets/TRANSFER_LEARNING_DATASETS_FEATURES.md](./02_BUILD/Datasets/TRANSFER_LEARNING_DATASETS_FEATURES.md)
-
-## U
-
-- **Universities / Universidades**: [01_LEARN/Universities/](./01_LEARN/Universities/)
-- **University Research Organizations / Organizações de Pesquisa Universitária**: [01_LEARN/Universities/UNIVERSITY_RESEARCH_ORGS_2025.md](./01_LEARN/Universities/UNIVERSITY_RESEARCH_ORGS_2025.md)
-
-## V
-
-- **Visualization / Visualização**: [03_DEPLOY/MLOps/Visualization/](./03_DEPLOY/MLOps/Visualization/)
-
-## W
-
-- **Web Scraping / Raspagem Web**: [03_DEPLOY/Tools/Web_Scraping/](./03_DEPLOY/Tools/Web_Scraping/)
-- **Workflow / Fluxo de Trabalho**: [03_DEPLOY/Infrastructure/Workflow/](./03_DEPLOY/Infrastructure/Workflow/)
-
----
-
-## By Category / Por Categoria
-
-### 📚 01_LEARN / APRENDER
-- [Books / Livros](./01_LEARN/Books/)
-- [Collections / Coleções](./01_LEARN/Collections/)
-- [Communities / Comunidades](./01_LEARN/Communities/)
-- [Courses / Cursos](./01_LEARN/Courses/)
-- [Universities / Universidades](./01_LEARN/Universities/)
-
-### 🔨 02_BUILD / CONSTRUIR
-- [Datasets](./02_BUILD/Datasets/)
-- [Frameworks](./02_BUILD/Frameworks/)
-- [Libraries / Bibliotecas](./02_BUILD/Libraries/)
-- [Models / Modelos](./02_BUILD/Models/)
-
-### 🚀 03_DEPLOY / IMPLANTAR
-- [Cloud Platforms / Plataformas de Nuvem](./03_DEPLOY/Cloud_Platforms/)
-- [Infrastructure / Infraestrutura](./03_DEPLOY/Infrastructure/)
-- [MLOps](./03_DEPLOY/MLOps/)
-- [Optimization / Otimização](./03_DEPLOY/Optimization/)
-- [Serving](./03_DEPLOY/Serving/)
-- [Tools / Ferramentas](./03_DEPLOY/Tools/)
-
-### 🎯 04_APPLY / APLICAR
-- [Entertainment / Entretenimento](./04_APPLY/Entertainment/)
-- [Finance / Finanças](./04_APPLY/Finance/)
-- [Healthcare / Saúde](./04_APPLY/Healthcare/)
-- [Marketing](./04_APPLY/Marketing/)
-- [Research / Pesquisa](./04_APPLY/Research/)
-- [Retail / Varejo](./04_APPLY/Retail/)
-
----
-
-**[EN]** For detailed navigation, see [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md)
-
-**[PT]** Para navegação detalhada, consulte [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md)
+| Título | URL |
+| :--- | :--- |
+| [**academic/awesome-datascience**](https://github.com/academic/awesome-datascience) | https://github.com/academic/awesome-datascience |
+| [**afshinea/stanford-cs-229-machine-learning**](https://github.com/afshinea/stanford-cs-229-machine-learning) | https://github.com/afshinea/stanford-cs-229-machine-learning |
+| [**ageron/handson-ml**](https://github.com/ageron/handson-ml) | https://github.com/ageron/handson-ml |
+| [**ageron/handson-ml3**](https://github.com/ageron/handson-ml3) | https://github.com/ageron/handson-ml3 |
+| [**aikorea/awesome-rl**](https://github.com/aikorea/awesome-rl) | https://github.com/aikorea/awesome-rl |
+| [**Algoritmos**](./01_FOUNDATIONS/1.1_Algorithms/) | ./01_FOUNDATIONS/1.1_Algorithms/ |
+| [**AMAI-GmbH/AI-Expert-Roadmap**](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | https://github.com/AMAI-GmbH/AI-Expert-Roadmap |
+| [**amark/gun**](https://github.com/amark/gun) | https://github.com/amark/gun |
+| [**amusi/CVPR2025-Papers-with-Code**](https://github.com/amusi/CVPR2025-Papers-with-Code) | https://github.com/amusi/CVPR2025-Papers-with-Code |
+| [**andri27-ts/Reinforcement-Learning**](https://github.com/andri27-ts/Reinforcement-Learning) | https://github.com/andri27-ts/Reinforcement-Learning |
+| [**Aplicações Especializadas**](./02_APPLICATIONS/2.1_Specialized_Applications/)) | ./02_APPLICATIONS/2.1_Specialized_Applications/) |
+| [**Aplicações Financeiras**](./02_APPLICATIONS/2.4_Financial_Applications/)) | ./02_APPLICATIONS/2.4_Financial_Applications/) |
+| [**Aplicações na Indústria**](./02_APPLICATIONS/2.3_Industry_Applications/) | ./02_APPLICATIONS/2.3_Industry_Applications/ |
+| [**AutoML & Auto Learning**](./04_ECOSYSTEM/4.8_AutoML_and_Auto_Learning/) | ./04_ECOSYSTEM/4.8_AutoML_and_Auto_Learning/ |
+| [**Avik-Jain/100-Days-Of-ML-Code**](https://github.com/Avik-Jain/100-Days-Of-ML-Code) | https://github.com/Avik-Jain/100-Days-Of-ML-Code |
+| [**binhnguyennus/awesome-scalability**](https://github.com/binhnguyennus/awesome-scalability) | https://github.com/binhnguyennus/awesome-scalability |
+| [**d2l-ai/d2l-en**](https://github.com/d2l-ai/d2l-en) | https://github.com/d2l-ai/d2l-en |
+| [**d2l-ai/d2l-zh**](https://github.com/d2l-ai/d2l-zh) | https://github.com/d2l-ai/d2l-zh |
+| [**datamllab/rlcard**](https://github.com/datamllab/rlcard)) | https://github.com/datamllab/rlcard) |
+| [**Datasets**](./01_FOUNDATIONS/1.3_Datasets/) | ./01_FOUNDATIONS/1.3_Datasets/ |
+| [**datawhalechina/pumpkin-book**](https://github.com/datawhalechina/pumpkin-book) | https://github.com/datawhalechina/pumpkin-book |
+| [**deepfakes/faceswap**](https://github.com/deepfakes/faceswap) | https://github.com/deepfakes/faceswap |
+| [**deepspeedai/DeepSpeed**](https://github.com/deepspeedai/DeepSpeed) | https://github.com/deepspeedai/DeepSpeed |
+| [**Developer-Y/cs-video-courses**](https://github.com/Developer-Y/cs-video-courses) | https://github.com/Developer-Y/cs-video-courses |
+| [**Diretórios de IA**](./03_RESOURCES/3.3_AI_Directories/) | ./03_RESOURCES/3.3_AI_Directories/ |
+| [**donnemartin/data-science-ipython-notebooks**](https://github.com/donnemartin/data-science-ipython-notebooks)) | https://github.com/donnemartin/data-science-ipython-notebooks) |
+| [**donnemartin/data-science-ipython-notebooks**](https://github.com/donnemartin/data-science-ipython-notebooks)) | https://github.com/donnemartin/data-science-ipython-notebooks) |
+| [**Ensemble Learning**](./04_ECOSYSTEM/4.4_Ensemble_Learning/) | ./04_ECOSYSTEM/4.4_Ensemble_Learning/ |
+| [**eriklindernoren/ML-From-Scratch**](https://github.com/eriklindernoren/ML-From-Scratch) | https://github.com/eriklindernoren/ML-From-Scratch |
+| [**eugeneyan/applied-ml**](https://github.com/eugeneyan/applied-ml) | https://github.com/eugeneyan/applied-ml |
+| [**evilsocket/pwnagotchi**](https://github.com/evilsocket/pwnagotchi)) | https://github.com/evilsocket/pwnagotchi) |
+| [**facebookresearch/ReAgent**](https://github.com/facebookresearch/ReAgent)) | https://github.com/facebookresearch/ReAgent) |
+| [**fastai/fastbook**](https://github.com/fastai/fastbook) | https://github.com/fastai/fastbook |
+| [**fengdu78/Coursera-ML-AndrewNg-Notes**](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) | https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes |
+| [**fingerprintjs/fingerprintjs**](https://github.com/fingerprintjs/fingerprintjs) | https://github.com/fingerprintjs/fingerprintjs |
+| [**GokuMohandas/Made-With-ML**](https://github.com/GokuMohandas/Made-With-ML) | https://github.com/GokuMohandas/Made-With-ML |
+| [**google-ai-edge/mediapipe**](https://github.com/google-ai-edge/mediapipe) | https://github.com/google-ai-edge/mediapipe |
+| [**google-deepmind/open_spiel**](https://github.com/google-deepmind/open_spiel) | https://github.com/google-deepmind/open_spiel |
+| [**google-deepmind/trfl**](https://github.com/google-deepmind/trfl) | https://github.com/google-deepmind/trfl |
+| [**huggingface/deep-rl-class**](https://github.com/huggingface/deep-rl-class) | https://github.com/huggingface/deep-rl-class |
+| [**Humans vs AI Benchmarks**](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) | ./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/ |
+| [**ikostrikov/pytorch-a2c-ppo-acktr-gail**](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail)) | https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail) |
+| [**iperov/DeepFaceLab**](https://github.com/iperov/DeepFaceLab) | https://github.com/iperov/DeepFaceLab |
+| [**iperov/DeepFaceLive**](https://github.com/iperov/DeepFaceLive) | https://github.com/iperov/DeepFaceLive |
+| [**ItzCrazyKns/Perplexica**](https://github.com/ItzCrazyKns/Perplexica) | https://github.com/ItzCrazyKns/Perplexica |
+| [**JaidedAI/EasyOCR**](https://github.com/JaidedAI/EasyOCR) | https://github.com/JaidedAI/EasyOCR |
+| [**janhuenermann/neurojs**](https://github.com/janhuenermann/neurojs) | https://github.com/janhuenermann/neurojs |
+| [**jina-ai/serve**](https://github.com/jina-ai/serve) | https://github.com/jina-ai/serve |
+| [**JuliaLang/julia**](https://github.com/JuliaLang/julia) | https://github.com/JuliaLang/julia |
+| [**Kedreamix/Linly-Talker**](https://github.com/Kedreamix/Linly-Talker) | https://github.com/Kedreamix/Linly-Talker |
+| [**kmario23/deep-learning-drizzle**](https://github.com/kmario23/deep-learning-drizzle) | https://github.com/kmario23/deep-learning-drizzle |
+| [**kwai/DouZero**](https://github.com/kwai/DouZero) | https://github.com/kwai/DouZero |
+| [**Laboratórios Universitários**](./03_RESOURCES/3.2_University_Labs/) | ./03_RESOURCES/3.2_University_Labs/ |
+| [**LAION-AI/Open-Assistant**](https://github.com/LAION-AI/Open-Assistant) | https://github.com/LAION-AI/Open-Assistant |
+| [**LantaoYu/MARL-Papers**](https://github.com/LantaoYu/MARL-Papers)) | https://github.com/LantaoYu/MARL-Papers) |
+| [**lucidrains/PaLM-rlhf-pytorch**](https://github.com/lucidrains/PaLM-rlhf-pytorch)) | https://github.com/lucidrains/PaLM-rlhf-pytorch) |
+| [**MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning**](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning) | https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning |
+| [**Meta Repositórios**](./04_ECOSYSTEM/4.2_Meta_Repositories/) | ./04_ECOSYSTEM/4.2_Meta_Repositories/ |
+| [**meta-llama/llama-cookbook**](https://github.com/meta-llama/llama-cookbook) | https://github.com/meta-llama/llama-cookbook |
+| [**microsoft/AI-For-Beginners**](https://github.com/microsoft/AI-For-Beginners) | https://github.com/microsoft/AI-For-Beginners |
+| [**microsoft/CNTK**](https://github.com/microsoft/CNTK)) | https://github.com/microsoft/CNTK) |
+| [**microsoft/ML-For-Beginners**](https://github.com/microsoft/ML-For-Beginners) | https://github.com/microsoft/ML-For-Beginners |
+| [**microsoft/RD-Agent**](https://github.com/microsoft/RD-Agent)) | https://github.com/microsoft/RD-Agent) |
+| [**MISP/MISP**](https://github.com/MISP/MISP)) | https://github.com/MISP/MISP) |
+| [**MLEveryday/100-Days-Of-ML-Code**](https://github.com/MLEveryday/100-Days-Of-ML-Code) | https://github.com/MLEveryday/100-Days-Of-ML-Code |
+| [**Modelos Core**](./01_FOUNDATIONS/1.2_Core_Models/) | ./01_FOUNDATIONS/1.2_Core_Models/ |
+| [**Modelos de Nicho**](./02_APPLICATIONS/2.2_Niche_Models/) | ./02_APPLICATIONS/2.2_Niche_Models/ |
+| [**Modelos Gerais de IA**](./04_ECOSYSTEM/4.5_General_AI_Models/) | ./04_ECOSYSTEM/4.5_General_AI_Models/ |
+| [**modular/modular**](https://github.com/modular/modular)) | https://github.com/modular/modular) |
+| [**MorvanZhou/Reinforcement-learning-with-tensorflow**](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow) | https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow |
+| [**mxgmn/WaveFunctionCollapse**](https://github.com/mxgmn/WaveFunctionCollapse) | https://github.com/mxgmn/WaveFunctionCollapse |
+| [**netdata/netdata**](https://github.com/netdata/netdata) | https://github.com/netdata/netdata |
+| [**Nome do Recurso**](URL_DO_RECURSO) | URL_DO_RECURSO |
+| [**openai/spinningup**](https://github.com/openai/spinningup) | https://github.com/openai/spinningup |
+| [**opendilab/awesome-RLHF**](https://github.com/opendilab/awesome-RLHF)) | https://github.com/opendilab/awesome-RLHF) |
+| [**opendilab/DI-engine**](https://github.com/opendilab/DI-engine) | https://github.com/opendilab/DI-engine |
+| [**OpenHands**](https://github.com/OpenHands/OpenHands) | https://github.com/OpenHands/OpenHands |
+| [**OpenPipe/ART**](https://github.com/OpenPipe/ART) | https://github.com/OpenPipe/ART |
+| [**p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch**](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch) | https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch |
+| [**PacktPublishing/Deep-Reinforcement-Learning-Hands-On**](https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On) | https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On |
+| [**paperless-ngx/paperless-ngx**](https://github.com/paperless-ngx/paperless-ngx) | https://github.com/paperless-ngx/paperless-ngx |
+| [**patchy631/ai-engineering-hub**](https://github.com/patchy631/ai-engineering-hub) | https://github.com/patchy631/ai-engineering-hub |
+| [**pathwaycom/llm-app**](https://github.com/pathwaycom/llm-app) | https://github.com/pathwaycom/llm-app |
+| [**photoprism/photoprism**](https://github.com/photoprism/photoprism) | https://github.com/photoprism/photoprism |
+| [**Plataformas de IA e Datasets**](./03_RESOURCES/3.4_AI_Platforms_and_Datasets/) | ./03_RESOURCES/3.4_AI_Platforms_and_Datasets/ |
+| [**Plataformas e Ferramentas**](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | ./04_ECOSYSTEM/4.1_Platforms_and_Tools/ |
+| [**PrimeIntellect-ai/verifiers**](https://github.com/PrimeIntellect-ai/verifiers) | https://github.com/PrimeIntellect-ai/verifiers |
+| [**PufferAI/PufferLib**](https://github.com/PufferAI/PufferLib) | https://github.com/PufferAI/PufferLib |
+| [**PWhiddy/PokemonRedExperiments**](https://github.com/PWhiddy/PokemonRedExperiments) | https://github.com/PWhiddy/PokemonRedExperiments |
+| [**pytorch/examples**](https://github.com/pytorch/examples) | https://github.com/pytorch/examples |
+| [**pytorch/torchtitan**](https://github.com/pytorch/torchtitan) | https://github.com/pytorch/torchtitan |
+| [**recommenders-team/recommenders**](https://github.com/recommenders-team/recommenders) | https://github.com/recommenders-team/recommenders |
+| [**Recursos de Aprendizagem**](./03_RESOURCES/3.1_Learning_Resources/) | ./03_RESOURCES/3.1_Learning_Resources/ |
+| [**Repositórios Enviados por Usuários**](./04_ECOSYSTEM/4.7_User_Submitted_Repos/)) | ./04_ECOSYSTEM/4.7_User_Submitted_Repos/) |
+| [**Repositórios SOTA 2025**](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/)) | ./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) |
+| [**Resource Name**](RESOURCE_URL) | RESOURCE_URL |
+| [**rlcode/reinforcement-learning**](https://github.com/rlcode/reinforcement-learning) | https://github.com/rlcode/reinforcement-learning |
+| [**rll/rllab**](https://github.com/rll/rllab) | https://github.com/rll/rllab |
+| [**rllm-org/rllm**](https://github.com/rllm-org/rllm) | https://github.com/rllm-org/rllm |
+| [**roboflow/supervision**](https://github.com/roboflow/supervision) | https://github.com/roboflow/supervision |
+| [**sebastianruder/NLP-progress**](https://github.com/sebastianruder/NLP-progress)) | https://github.com/sebastianruder/NLP-progress) |
+| [**ShangtongZhang/reinforcement-learning-an-introduction**](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) | https://github.com/ShangtongZhang/reinforcement-learning-an-introduction |
+| [**simoninithomas/Deep_reinforcement_learning_Course**](https://github.com/simoninithomas/Deep_reinforcement_learning_Course) | https://github.com/simoninithomas/Deep_reinforcement_learning_Course |
+| [**spmallick/learnopencv**](https://github.com/spmallick/learnopencv) | https://github.com/spmallick/learnopencv |
+| [**srbhr/Resume-Matcher**](https://github.com/srbhr/Resume-Matcher) | https://github.com/srbhr/Resume-Matcher |
+| [**sweetice/Deep-reinforcement-learning-with-pytorch**](https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch) | https://github.com/sweetice/Deep-reinforcement-learning-with-pytorch |
+| [**TheAlgorithms/C**](https://github.com/TheAlgorithms/C) | https://github.com/TheAlgorithms/C |
+| [**thunlp/GNNPapers**](https://github.com/thunlp/GNNPapers)) | https://github.com/thunlp/GNNPapers) |
+| [**Top Repositórios Ausentes**](./04_ECOSYSTEM/4.6_Top_Missing_Repos/)) | ./04_ECOSYSTEM/4.6_Top_Missing_Repos/) |
+| [**trekhleb/homemade-machine-learning**](https://github.com/trekhleb/homemade-machine-learning) | https://github.com/trekhleb/homemade-machine-learning |
+| [**udacity/deep-reinforcement-learning**](https://github.com/udacity/deep-reinforcement-learning) | https://github.com/udacity/deep-reinforcement-learning |
+| [**unslothai/unsloth**](https://github.com/unslothai/unsloth) | https://github.com/unslothai/unsloth |
+| [**volcengine/verl**](https://github.com/volcengine/verl) | https://github.com/volcengine/verl |
+| [**wangshusen/DRL**](https://github.com/wangshusen/DRL) | https://github.com/wangshusen/DRL |
+| [**XinJingHao/DRL-Pytorch**](https://github.com/XinJingHao/DRL-Pytorch)) | https://github.com/XinJingHao/DRL-Pytorch) |
+| [**yamadashy/repomix**](https://github.com/yamadashy/repomix) | https://github.com/yamadashy/repomix |
+| [**yandexdataschool/Practical_RL**](https://github.com/yandexdataschool/Practical_RL) | https://github.com/yandexdataschool/Practical_RL |
+| [**yenchenlin/DeepLearningFlappyBird**](https://github.com/yenchenlin/DeepLearningFlappyBird)) | https://github.com/yenchenlin/DeepLearningFlappyBird) |
+| [**yzhao062/anomaly-detection-resources**](https://github.com/yzhao062/anomaly-detection-resources) | https://github.com/yzhao062/anomaly-detection-resources |
+| [**yzhao062/pyod**](https://github.com/yzhao062/pyod) | https://github.com/yzhao062/pyod |
+| [**zergtant/pytorch-handbook**](https://github.com/zergtant/pytorch-handbook) | https://github.com/zergtant/pytorch-handbook |
+| [**Zeyi-Lin/HivisionIDPhotos**](https://github.com/Zeyi-Lin/HivisionIDPhotos) | https://github.com/Zeyi-Lin/HivisionIDPhotos |
+| [**zhoubolei/introRL**](https://github.com/zhoubolei/introRL) | https://github.com/zhoubolei/introRL |
+| [**ZuzooVn/machine-learning-for-software-engineers**](https://github.com/ZuzooVn/machine-learning-for-software-engineers) | https://github.com/ZuzooVn/machine-learning-for-software-engineers |
+| [01_LEARN/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Books/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Books/](./01_LEARN/Books/) | ./01_LEARN/Books/ |
+| [01_LEARN/Collections/](./01_LEARN/Collections/) | ./01_LEARN/Collections/ |
+| [01_LEARN/Communities/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Communities/](./01_LEARN/Communities/) | ./01_LEARN/Communities/ |
+| [01_LEARN/Courses/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Courses/](./01_LEARN/Courses/) | ./01_LEARN/Courses/ |
+| [01_LEARN/Courses/](./01_LEARN/) and [01_LEARN/Books/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Courses/](./01_LEARN/) e [01_LEARN/Books/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Research/](./01_LEARN/) | ./01_LEARN/ |
+| [01_LEARN/Universities/](./01_LEARN/Universities/) | ./01_LEARN/Universities/ |
+| [01_Satellite_Platforms](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [02_AI_Models](02_AI_Models/) | 02_AI_Models/ |
+| [02_BUILD/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Computer_Vision/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Datasets/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Datasets/](./02_BUILD/Datasets/) | ./02_BUILD/Datasets/ |
+| [02_BUILD/Datasets/Platforms/](./02_BUILD/Datasets/Platforms/) | ./02_BUILD/Datasets/Platforms/ |
+| [02_BUILD/Frameworks/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Frameworks/](./02_BUILD/Frameworks/) | ./02_BUILD/Frameworks/ |
+| [02_BUILD/GNN/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Libraries/](./02_BUILD/Libraries/) | ./02_BUILD/Libraries/ |
+| [02_BUILD/Libraries/Audio/](./02_BUILD/Libraries/Audio/) | ./02_BUILD/Libraries/Audio/ |
+| [02_BUILD/Libraries/Computer_Vision/](./02_BUILD/Libraries/) | ./02_BUILD/Libraries/ |
+| [02_BUILD/Libraries/Graph/](./02_BUILD/Libraries/Graph/) | ./02_BUILD/Libraries/Graph/ |
+| [02_BUILD/Libraries/LLM/](./02_BUILD/Libraries/LLM/) | ./02_BUILD/Libraries/LLM/ |
+| [02_BUILD/Libraries/NLP/](./02_BUILD/Libraries/NLP/) | ./02_BUILD/Libraries/NLP/ |
+| [02_BUILD/Libraries/Reinforcement_Learning/](./02_BUILD/Libraries/Reinforcement_Learning/) | ./02_BUILD/Libraries/Reinforcement_Learning/ |
+| [02_BUILD/Libraries/Time_Series/](./02_BUILD/Libraries/Time_Series/) | ./02_BUILD/Libraries/Time_Series/ |
+| [02_BUILD/Models/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Models/](./02_BUILD/Models/) | ./02_BUILD/Models/ |
+| [02_BUILD/Models/Model_Zoos/](./02_BUILD/Models/Model_Zoos/) | ./02_BUILD/Models/Model_Zoos/ |
+| [02_BUILD/Models/Transfer_Learning/](./02_BUILD/Models/Transfer_Learning/) | ./02_BUILD/Models/Transfer_Learning/ |
+| [02_BUILD/NLP/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Reinforcement_Learning/](./02_BUILD/) | ./02_BUILD/ |
+| [02_BUILD/Time_Series/](./02_BUILD/) | ./02_BUILD/ |
+| [03_DEPLOY/](./03_DEPLOY/) | ./03_DEPLOY/ |
+| [03_DEPLOY/Cloud_Platforms/](./03_DEPLOY/Cloud_Platforms/) | ./03_DEPLOY/Cloud_Platforms/ |
+| [03_DEPLOY/Infrastructure/](./03_DEPLOY/Infrastructure/) | ./03_DEPLOY/Infrastructure/ |
+| [03_DEPLOY/Infrastructure/Distributed/](./03_DEPLOY/Infrastructure/Distributed/) | ./03_DEPLOY/Infrastructure/Distributed/ |
+| [03_DEPLOY/Infrastructure/Workflow/](./03_DEPLOY/Infrastructure/Workflow/) | ./03_DEPLOY/Infrastructure/Workflow/ |
+| [03_DEPLOY/MLOps/](./03_DEPLOY/MLOps/) | ./03_DEPLOY/MLOps/ |
+| [03_DEPLOY/MLOps/AutoML/](./03_DEPLOY/MLOps/AutoML/) | ./03_DEPLOY/MLOps/AutoML/ |
+| [03_DEPLOY/MLOps/Feature_Engineering/](./03_DEPLOY/MLOps/Feature_Engineering/) | ./03_DEPLOY/MLOps/Feature_Engineering/ |
+| [03_DEPLOY/MLOps/Feature_Stores/](./03_DEPLOY/MLOps/Feature_Stores/) | ./03_DEPLOY/MLOps/Feature_Stores/ |
+| [03_DEPLOY/MLOps/Interpretability/](./03_DEPLOY/MLOps/Interpretability/) | ./03_DEPLOY/MLOps/Interpretability/ |
+| [03_DEPLOY/MLOps/Monitoring/](./03_DEPLOY/MLOps/Monitoring/) | ./03_DEPLOY/MLOps/Monitoring/ |
+| [03_DEPLOY/MLOps/Visualization/](./03_DEPLOY/MLOps/Visualization/) | ./03_DEPLOY/MLOps/Visualization/ |
+| [03_DEPLOY/Optimization/](./03_DEPLOY/Optimization/) | ./03_DEPLOY/Optimization/ |
+| [03_DEPLOY/Serving/](./03_DEPLOY/Serving/) | ./03_DEPLOY/Serving/ |
+| [03_DEPLOY/Tools/Annotation/](./03_DEPLOY/Tools/Annotation/) | ./03_DEPLOY/Tools/Annotation/ |
+| [03_DEPLOY/Tools/Data_Labeling/](./03_DEPLOY/Tools/Data_Labeling/) | ./03_DEPLOY/Tools/Data_Labeling/ |
+| [03_DEPLOY/Tools/PDF/](./03_DEPLOY/Tools/PDF/) | ./03_DEPLOY/Tools/PDF/ |
+| [03_DEPLOY/Tools/Web_Scraping/](./03_DEPLOY/Tools/Web_Scraping/) | ./03_DEPLOY/Tools/Web_Scraping/ |
+| [03_Papers](03_Papers/) | 03_Papers/ |
+| [04_APPLY/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Entertainment/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Entertainment/](./04_APPLY/Entertainment/) | ./04_APPLY/Entertainment/ |
+| [04_APPLY/Finance/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Finance/](./04_APPLY/Finance/) | ./04_APPLY/Finance/ |
+| [04_APPLY/Healthcare/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Healthcare/](./04_APPLY/Healthcare/) | ./04_APPLY/Healthcare/ |
+| [04_APPLY/Marketing/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Marketing/](./04_APPLY/Marketing/) | ./04_APPLY/Marketing/ |
+| [04_APPLY/Marketing/](./04_APPLY/) and [04_APPLY/Retail/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Marketing/](./04_APPLY/) e [04_APPLY/Retail/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Research/](./04_APPLY/Research/) | ./04_APPLY/Research/ |
+| [04_APPLY/Retail/](./04_APPLY/) | ./04_APPLY/ |
+| [04_APPLY/Retail/](./04_APPLY/Retail/) | ./04_APPLY/Retail/ |
+| [04_Datasets](04_Datasets/) | 04_Datasets/ |
+| [05_Startups](05_Startups/) | 05_Startups/ |
+| [06_Software_Tools](06_Software_Tools/) | 06_Software_Tools/ |
+| [07_APIs](07_APIs/) | 07_APIs/ |
+| [08_Use_Cases](08_Use_Cases/) | 08_Use_Cases/ |
+| [10.1038/s41467-024-44824-z](https://www.nature.com/articles/s41467-024-44824-z) | https://www.nature.com/articles/s41467-024-44824-z |
+| [10.1038/s41586-024-08252-9](https://doi.org/10.1038/s41586-024-08252-9) | https://doi.org/10.1038/s41586-024-08252-9 |
+| [10.1038/s41586-025-08897-0](https://doi.org/10.1038/s41586-025-08897-0) | https://doi.org/10.1038/s41586-025-08897-0 |
+| [10.1126/science.adi2336](https://doi.org/10.1126/science.adi2336) | https://doi.org/10.1126/science.adi2336 |
+| [19 Questions](https://github.com/fulldecent/19-questions) | https://github.com/fulldecent/19-questions |
+| [2202.11214](https://arxiv.org/abs/2202.11214) | https://arxiv.org/abs/2202.11214 |
+| [2505.23719](https://arxiv.org/abs/2505.23719) | https://arxiv.org/abs/2505.23719 |
+| [26+ academic papers](03_Papers/) | 03_Papers/ |
+| [26+ papers acadêmicos](03_Papers/) | 03_Papers/ |
+| [500+ AI/ML/DL Projects](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code |
+| [@josephmisiti](https://twitter.com/josephmisiti) | https://twitter.com/josephmisiti |
+| [`AI`](https://metacpan.org/search?size=20&q=AI) | https://metacpan.org/search?size=20&q=AI |
+| [A Beginner's Guide To Understanding Convolutional Neural Networks](https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/) | https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/ |
+| [A beginners Guide to Deep Neural Networks](http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html) | http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html |
+| [A Comprehensive Survey on Transfer Learning](https://arxiv.org/abs/1911.02685) | https://arxiv.org/abs/1911.02685 |
+| [A Critical Review of Recurrent Neural Networks for Sequence Learning](http://arxiv.org/pdf/1506.00019v1.pdf) | http://arxiv.org/pdf/1506.00019v1.pdf |
+| [A Deep Learning Tutorial: From Perceptrons to Deep Networks](http://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks) | http://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks |
+| [A friendly introduction to deep reinforcement learning by Luis Serrano](https://youtu.be/1FyAh07jh0o) | https://youtu.be/1FyAh07jh0o |
+| [A Hilbert Space Embedding for Distributions](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_5) and [A Kernel Two-Sample Test](http://www.jmlr.org/papers/v13/gretton12a.html) | http://www.jmlr.org/papers/v13/gretton12a.html |
+| [A Review of Deep Transfer Learning and Recent Advancements](https://arxiv.org/abs/2201.09679) | https://arxiv.org/abs/2201.09679 |
+| [A semi-supervised domain adaptation library](https://domainadaptation.org) | https://domainadaptation.org |
+| [A State-of-the-Art Survey of Transfer Learning in Structural Health Monitoring](https://ieeexplore.ieee.org/abstract/document/9664171) | https://ieeexplore.ieee.org/abstract/document/9664171 |
+| [A Survey of Multi-source Domain Adaptation](https://pan.baidu.com/s/1eSGREF4) | https://pan.baidu.com/s/1eSGREF4 |
+| [A Survey of Sentiment Analysis Based on Transfer Learning](https://ieeexplore.ieee.org/abstract/document/8746210) | https://ieeexplore.ieee.org/abstract/document/8746210 |
+| [A survey of transfer learning](https://pan.baidu.com/s/1gfgXLXT) | https://pan.baidu.com/s/1gfgXLXT |
+| [A Survey of Vision-Based Transfer Learning in Human Activity Recognition](https://www.mdpi.com/2079-9292/10/19/2412) | https://www.mdpi.com/2079-9292/10/19/2412 |
+| [A survey on heterogeneous transfer learning](https://link.springer.com/article/10.1186/s40537-017-0089-0) | https://link.springer.com/article/10.1186/s40537-017-0089-0 |
+| [A survey on multi-task learning](https://arxiv.org/abs/1707.08114) | https://arxiv.org/abs/1707.08114 |
+| [A survey on transfer learning](http://ieeexplore.ieee.org/abstract/document/5288526/) | http://ieeexplore.ieee.org/abstract/document/5288526/ |
+| [A Theory of Learning from Different Domains](https://link.springer.com/article/10.1007/s10994-009-5152-4) | https://link.springer.com/article/10.1007/s10994-009-5152-4 |
+| [A.I - Berkeley](https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/) by Dan Klein and Pieter Abbeel (2013) | https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/courseware/) by Dan Klein and Pieter Abbeel (2013 |
+| [A.I - MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/) by Patrick Henry Winston (2010) | http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/) by Patrick Henry Winston (2010 |
+| [Aaron Courville](http://aaroncourville.wordpress.com) | http://aaroncourville.wordpress.com |
+| [Abdel-rahman Mohamed](http://www.cs.toronto.edu/~asamir/) | http://www.cs.toronto.edu/~asamir/ |
+| [abisee/cnn_dailymail](https://huggingface.co/datasets/abisee/cnn_dailymail) | https://huggingface.co/datasets/abisee/cnn_dailymail |
+| [Accord-Framework](http://accord-framework.net/) | http://accord-framework.net/ |
+| [Accord.MachineLearning](https://www.nuget.org/packages/Accord.MachineLearning/) | https://www.nuget.org/packages/Accord.MachineLearning/ |
+| [Accord.NET](http://accord-framework.net) | http://accord-framework.net |
+| [Adam Coates](http://cs.stanford.edu/~acoates/) | http://cs.stanford.edu/~acoates/ |
+| [adams-story/datacomp200m](https://huggingface.co/datasets/adams-story/datacomp200m) | https://huggingface.co/datasets/adams-story/datacomp200m |
+| [Advances in Transfer Learning: Theory, Algorithms, and Applications](https://www.frontiersin.org/research-topics/21133/advances-in-transfer-learning-theory-algorithms-and-applications) | https://www.frontiersin.org/research-topics/21133/advances-in-transfer-learning-theory-algorithms-and-applications |
+| [aerosolve](https://github.com/airbnb/aerosolve) | https://github.com/airbnb/aerosolve |
+| [AForge.NET](http://www.aforgenet.com/framework/) | http://www.aforgenet.com/framework/ |
+| [agents-course/course-images](https://huggingface.co/datasets/agents-course/course-images) | https://huggingface.co/datasets/agents-course/course-images |
+| [ahmedbesbes.com](http://ahmedbesbes.com) | http://ahmedbesbes.com |
+| [AI Coding Assistants](./04_ECOSYSTEM/4.7_User_Submitted_Repos/) | ./04_ECOSYSTEM/4.7_User_Submitted_Repos/ |
+| [AI for Everyone](https://www.deeplearning.ai/ai-for-everyone/) by Andrew Ng (2019) | https://www.deeplearning.ai/ai-for-everyone/) by Andrew Ng (2019 |
+| [AI for Weather](https://www.ecmwf.int/) | https://www.ecmwf.int/ |
+| [AI Hub - supported by AAAI, NeurIPS](https://aihub.org/) | https://aihub.org/ |
+| [AI Models](01_Models/) | 01_Models/ |
+| [AI Singapore](https://github.com/aisingapore) | https://github.com/aisingapore |
+| [AI Summer](https://theaisummer.com/) | https://theaisummer.com/ |
+| [AI Weekly](http://aiweekly.co) | http://aiweekly.co |
+| [ai-junkie.com](http://www.ai-junkie.com/ann/evolved/nnt1.html) | http://www.ai-junkie.com/ann/evolved/nnt1.html |
+| [ai.sri.com](http://www.ai.sri.com/) | http://www.ai.sri.com/ |
+| [aiai.ed.ac.uk](http://www.aiai.ed.ac.uk/) | http://www.aiai.ed.ac.uk/ |
+| [AIcrowd](https://www.aicrowd.com) | https://www.aicrowd.com |
+| [AIForge Issues](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [AIForge Main README](../../../README.md) | ../../../README.md |
+| [Air Freight](http://www.anc.ed.ac.uk/~amos/afreightdata.html) - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG) | http://www.anc.ed.ac.uk/~amos/afreightdata.html) - The Air Freight data set is a ray-traced image sequence along with ground truth segmentation based on textural characteristics. (455 images + GT, each 160x120 pixels). (Formats: PNG |
+| [AIT](https://github.com/eth-ait)) | https://github.com/eth-ait) |
+| [Alan Turing Institute](https://www.turing.ac.uk/) | https://www.turing.ac.uk/ |
+| [albumentations](https://github.com/albu/albumentations) | https://github.com/albu/albumentations |
+| [Alex Acero](http://research.microsoft.com/en-us/people/alexac/) | http://research.microsoft.com/en-us/people/alexac/ |
+| [Alex Krizhevsky](http://www.cs.utoronto.ca/~kriz/index.html) | http://www.cs.utoronto.ca/~kriz/index.html |
+| [Alexander Ilin](http://users.ics.aalto.fi/alexilin/) | http://users.ics.aalto.fi/alexilin/ |
+| [Algorithm::SVMLight](https://metacpan.org/pod/Algorithm::SVMLight) | https://metacpan.org/pod/Algorithm::SVMLight |
+| [Alibaba-NLP/gte-large-en-v1.5](https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5) | https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5 |
+| [all AI news](https://allainews.com/) | https://allainews.com/ |
+| [allenai/ai2_arc](https://huggingface.co/datasets/allenai/ai2_arc) | https://huggingface.co/datasets/allenai/ai2_arc |
+| [allenai/c4](https://huggingface.co/datasets/allenai/c4) | https://huggingface.co/datasets/allenai/c4 |
+| [allenai/objaverse](https://huggingface.co/datasets/allenai/objaverse) | https://huggingface.co/datasets/allenai/objaverse |
+| [allenai/winogrande](https://huggingface.co/datasets/allenai/winogrande) | https://huggingface.co/datasets/allenai/winogrande |
+| [AlpacaEval](https://tatsu-lab.github.io/alpacaeval/) | https://tatsu-lab.github.io/alpacaeval/ |
+| [AlphaFold 3 Publication](https://www.nature.com/articles/s41586-024-07487-w) | https://www.nature.com/articles/s41586-024-07487-w |
+| [alphafoldserver.com](https://alphafoldserver.com/) | https://alphafoldserver.com/ |
+| [Amazon SageMaker AI](https://aws.amazon.com/sagemaker) | https://aws.amazon.com/sagemaker |
+| [Amazon SageMaker Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | https://aws.amazon.com/sagemaker/autopilot/ |
+| [Amazon Science Blog](https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting) | https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting |
+| [Amazon Science: Chronos](https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting) | https://www.amazon.science/blog/amazon-announces-chronos-a-foundation-model-for-time-series-forecasting |
+| [amCharts](https://www.amcharts.com/) | https://www.amcharts.com/ |
+| [AMIDST Toolbox](http://www.amidsttoolbox.com/) | http://www.amidsttoolbox.com/ |
+| [amitness.com](https://amitness.com/) | https://amitness.com/ |
+| [Amos Storkey](http://homepages.inf.ed.ac.uk/amos/) | http://homepages.inf.ed.ac.uk/amos/ |
+| [amphion/Emilia-Dataset](https://huggingface.co/datasets/amphion/Emilia-Dataset) | https://huggingface.co/datasets/amphion/Emilia-Dataset |
+| [Amsterdam Library of Object Images](http://www.science.uva.nl/~aloi/) - ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png) | http://www.science.uva.nl/~aloi/) - ALOI is a color image collection of one-thousand small objects, recorded for scientific purposes. In order to capture the sensory variation in object recordings, we systematically varied viewing angle, illumination angle, and illumination color for each object, and additionally captured wide-baseline stereo images. We recorded over a hundred images of each object, yielding a total of 110,250 images for the collection. (Formats: png |
+| [An introduction to genetic algorithms](http://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf) | http://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf |
+| [Analysis of Representations for Domain Adaptation](https://dl.acm.org/citation.cfm?id=2976474) | https://dl.acm.org/citation.cfm?id=2976474 |
+| [Analytics Vidhya](https://www.analyticsvidhya.com) | https://www.analyticsvidhya.com |
+| [Andrej Karpathy](https://karpathy.ai/) | https://karpathy.ai/ |
+| [Andrew M. Saxe](http://www.stanford.edu/~asaxe/) | http://www.stanford.edu/~asaxe/ |
+| [Andrew Ng](http://www.cs.stanford.edu/people/ang/) | http://www.cs.stanford.edu/people/ang/ |
+| [Andrew W. Senior](http://research.google.com/pubs/author37792.html) | http://research.google.com/pubs/author37792.html |
+| [Andriy Mnih](http://www.gatsby.ucl.ac.uk/~amnih/) | http://www.gatsby.ucl.ac.uk/~amnih/ |
+| [ANN](https://github.com/EricChiang/ANN.jl) | https://github.com/EricChiang/ANN.jl |
+| [Annotated face, hand, cardiac & meat images](http://www.imm.dtu.dk/~aam/) - Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf) | http://www.imm.dtu.dk/~aam/) - Most images & annotations are supplemented by various ASM/AAM analyses using the AAM-API. (Formats: bmp,asf |
+| [anthropics](https://github.com/anthropics) | https://github.com/anthropics |
+| [AnyChart](https://www.anychart.com/) | https://www.anychart.com/ |
+| [Anúncio AlphaFold 3 do Google DeepMind](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) | https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/ |
+| [Apache cTAKES](https://ctakes.apache.org/) - Apache Clinical Text Analysis and Knowledge Extraction System (cTAKES) | https://ctakes.apache.org/) - Apache Clinical Text Analysis and Knowledge Extraction System (cTAKES |
+| [applied-ai-018/pretraining_v1-omega_books](https://huggingface.co/datasets/applied-ai-018/pretraining_v1-omega_books) | https://huggingface.co/datasets/applied-ai-018/pretraining_v1-omega_books |
+| [aps/super_glue](https://huggingface.co/datasets/aps/super_glue) | https://huggingface.co/datasets/aps/super_glue |
+| [AquaV/genshin-voices-separated](https://huggingface.co/datasets/AquaV/genshin-voices-separated) | https://huggingface.co/datasets/AquaV/genshin-voices-separated |
+| [Architecture of a Modern CNN: the design pattern approach by Andrew Ferlitsch](https://youtu.be/QCGSS3kyGo0) | https://youtu.be/QCGSS3kyGo0 |
+| [Architectures](02_Architectures/) | 02_Architectures/ |
+| [Archive.org Datasets](https://archive.org/details/datasets) | https://archive.org/details/datasets |
+| [Artificial intelligence and machine learning: Topic wise explanation](https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/) | https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/ |
+| [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) | http://aima.cs.berkeley.edu/ |
+| [ArXiv Paper](https://arxiv.org/abs/2202.11214) | https://arxiv.org/abs/2202.11214 |
+| [ArXiv Paper](https://arxiv.org/abs/2505.23719) | https://arxiv.org/abs/2505.23719 |
+| [ArXiv: TiRex](https://arxiv.org/abs/2505.23719) | https://arxiv.org/abs/2505.23719 |
+| [Ask Me Anything: Dynamic Memory Networks for Natural Language Processing](http://arxiv.org/pdf/1506.07285v1.pdf) | http://arxiv.org/pdf/1506.07285v1.pdf |
+| [Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834) | https://arxiv.org/abs/1804.10834 |
+| [AT&T Laboratories Cambridge face database](http://www.uk.research.att.com/facedatabase.html) | http://www.uk.research.att.com/facedatabase.html |
+| [Atari2600](https://github.com/fidlej/aledataset) | https://github.com/fidlej/aledataset |
+| [ATR Research, Kyoto, Japan](http://www.mic.atr.co.jp/) | http://www.mic.atr.co.jp/ |
+| [Auto ML](https://github.com/ClimbsRocks/auto_ml) | https://github.com/ClimbsRocks/auto_ml |
+| [AutoFeat](https://github.com/cod3licious/autofeat) | https://github.com/cod3licious/autofeat |
+| [AutoGluon](https://auto.gluon.ai) | https://auto.gluon.ai |
+| [autogluon/chronos-bolt-base](https://huggingface.co/autogluon/chronos-bolt-base) | https://huggingface.co/autogluon/chronos-bolt-base |
+| [autogluon/chronos-bolt-small](https://huggingface.co/autogluon/chronos-bolt-small) | https://huggingface.co/autogluon/chronos-bolt-small |
+| [autograd](https://github.com/twitter/torch-autograd) | https://github.com/twitter/torch-autograd |
+| [Autonomous driving](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#autonomous-driving) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#autonomous-driving |
+| [AVHRR Pathfinder](http://xtreme.gsfc.nasa.gov) | http://xtreme.gsfc.nasa.gov |
+| [Awesome Java (AI/ML section)](https://github.com/akullpp/awesome-java) | https://github.com/akullpp/awesome-java |
+| [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | https://github.com/josephmisiti/awesome-machine-learning |
+| [Awesome Machine Learning (Java section)](https://github.com/josephmisiti/awesome-machine-learning#java) | https://github.com/josephmisiti/awesome-machine-learning#java |
+| [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | https://github.com/awesomedata/awesome-public-datasets |
+| [AWS Machine Learning](https://aws.training/machinelearning) | https://aws.training/machinelearning |
+| [AWS Open Data Registry](https://registry.opendata.aws/) | https://registry.opendata.aws/ |
+| [Ayse Naz Erkan](http://www.cs.nyu.edu/~naz/) | http://www.cs.nyu.edu/~naz/ |
+| [Azure Automated ML](https://azure.microsoft.com/services/machine-learning/automatedml/) | https://azure.microsoft.com/services/machine-learning/automatedml/ |
+| [Azure Open Datasets](https://azure.microsoft.com/services/open-datasets/) | https://azure.microsoft.com/services/open-datasets/ |
+| [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5) | https://huggingface.co/BAAI/bge-base-en-v1.5 |
+| [BAAI/bge-large-en-v1.5](https://huggingface.co/BAAI/bge-large-en-v1.5) | https://huggingface.co/BAAI/bge-large-en-v1.5 |
+| [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3) | https://huggingface.co/BAAI/bge-m3 |
+| [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3) | https://huggingface.co/BAAI/bge-reranker-v2-m3 |
+| [BAAI/bge-small-en-v1.5](https://huggingface.co/BAAI/bge-small-en-v1.5) | https://huggingface.co/BAAI/bge-small-en-v1.5 |
+| [BanditLib](https://github.com/jkomiyama/banditlib) | https://github.com/jkomiyama/banditlib |
+| [Bandlets](http://www.cmap.polytechnique.fr/~peyre/download/) | http://www.cmap.polytechnique.fr/~peyre/download/ |
+| [banned-historical-archives/banned-historical-archives](https://huggingface.co/datasets/banned-historical-archives/banned-historical-archives) | https://huggingface.co/datasets/banned-historical-archives/banned-historical-archives |
+| [Batch Normalization](https://arxiv.org/abs/1502.03167) | https://arxiv.org/abs/1502.03167 |
+| [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://proceedings.mlr.press/v37/ioffe15.pdf) | http://proceedings.mlr.press/v37/ioffe15.pdf |
+| [bayesian](https://github.com/jbrukh/bayesian) | https://github.com/jbrukh/bayesian |
+| [Bayesian-Bandit](https://github.com/omphalos/bayesian-bandit.js) | https://github.com/omphalos/bayesian-bandit.js |
+| [bea.gov](https://www.bea.gov/data)) | https://www.bea.gov/data) |
+| [behavior-1k/2025-challenge-demos](https://huggingface.co/datasets/behavior-1k/2025-challenge-demos) | https://huggingface.co/datasets/behavior-1k/2025-challenge-demos |
+| [Benchmark Dataset](https://github.com/pangeo-data/WeatherBench) | https://github.com/pangeo-data/WeatherBench |
+| [Benchmarks](03_Benchmarks/) | 03_Benchmarks/ |
+| [Benjamin Schrauwen](http://reslab.elis.ugent.be/benjamin) | http://reslab.elis.ugent.be/benjamin |
+| [Berkeley AI Research (BAIR) Laboratory](https://arxiv.org/pdf/1611.07004v1.pdf) | https://arxiv.org/pdf/1611.07004v1.pdf |
+| [Berkeley CS 294: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcourse/) | http://rll.berkeley.edu/deeprlcourse/ |
+| [Berkeley Segmentation Dataset 500](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/) | http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/ |
+| [berkeley-deep-learning](https://github.com/berkeley-deep-learning) | https://github.com/berkeley-deep-learning |
+| [Bernardete Ribeiro](https://www.cisuc.uc.pt/people/show/2020) | https://www.cisuc.uc.pt/people/show/2020 |
+| [Bi-directional RNN](http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf) | http://www.di.ufpe.br/~fnj/RNA/bibliografia/BRNN.pdf |
+| [Big-Bench](https://github.com/google/BIG-bench) | https://github.com/google/BIG-bench |
+| [bigscience/bloomz-560m](https://huggingface.co/bigscience/bloomz-560m) | https://huggingface.co/bigscience/bloomz-560m |
+| [Bingsu/adetailer](https://huggingface.co/Bingsu/adetailer) | https://huggingface.co/Bingsu/adetailer |
+| [Biometric Systems Lab](http://biolab.csr.unibo.it/home.asp) | http://biolab.csr.unibo.it/home.asp |
+| [birdland](https://github.com/rlouf/birdland) | https://github.com/rlouf/birdland |
+| [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser) | https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser |
+| [BLLIP Parser](https://pypi.org/project/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser) | https://pypi.org/project/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser |
+| [Bo David Chen](http://vision.caltech.edu/~bchen3/Site/Bo_David_Chen.html) | http://vision.caltech.edu/~bchen3/Site/Bo_David_Chen.html |
+| [Books](./Books/) | ./Books/ |
+| [Books / Livros](./01_LEARN/Books/) | ./01_LEARN/Books/ |
+| [Boureau Y-Lan](http://cs.nyu.edu/~ylan/) | http://cs.nyu.edu/~ylan/ |
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) | https://github.com/bowang-lab/MedSAM |
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) (mesmo repositório) | https://github.com/bowang-lab/MedSAM) (mesmo repositório |
+| [bowang-lab/MedSAM](https://github.com/bowang-lab/MedSAM) (same repository) | https://github.com/bowang-lab/MedSAM) (same repository |
+| [BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - It implemented 3 layers of neural networks ( Input Layer, Hidden Layer and Output Layer ) and it was named Back Propagation Neural Networks (BPN) | https://github.com/Kalvar/ios-BPN-NeuralNetwork) - It implemented 3 layers of neural networks ( Input Layer, Hidden Layer and Output Layer ) and it was named Back Propagation Neural Networks (BPN |
+| [Brain](https://github.com/harthur/brain) | https://github.com/harthur/brain |
+| [Brain.js](https://github.com/BrainJS/brain.js) - Neural networks in JavaScript - continued community fork of [Brain](https://github.com/harthur/brain) | https://github.com/harthur/brain |
+| [Brian Kingsbury](http://researcher.watson.ibm.com/researcher/view.php?person=us-bedk) | http://researcher.watson.ibm.com/researcher/view.php?person=us-bedk |
+| [Brown University Stimuli](http://www.cog.brown.edu/~tarr/stimuli.html) - A variety of datasets including geons, objects, and "greebles". Good for testing recognition algorithms. (Formats: pict) | http://www.cog.brown.edu/~tarr/stimuli.html) - A variety of datasets including geons, objects, and "greebles". Good for testing recognition algorithms. (Formats: pict |
+| [C3.js](https://c3js.org/) | https://c3js.org/ |
+| [cadene/droid_1.0.1](https://huggingface.co/datasets/cadene/droid_1.0.1) | https://huggingface.co/datasets/cadene/droid_1.0.1 |
+| [Caffe](https://github.com/BVLC/caffe) | https://github.com/BVLC/caffe |
+| [cais/mmlu](https://huggingface.co/datasets/cais/mmlu) | https://huggingface.co/datasets/cais/mmlu |
+| [Caltech Image Database](http://www.vision.caltech.edu/html-files/archive.html) - about 20 images - mostly top-down views of small objects and toys. (Formats: GIF) | http://www.vision.caltech.edu/html-files/archive.html) - about 20 images - mostly top-down views of small objects and toys. (Formats: GIF |
+| [Cambridge News](https://www.cam.ac.uk/research/news/fully-ai-driven-weather-prediction-system-could-start-revolution-in-forecasting) | https://www.cam.ac.uk/research/news/fully-ai-driven-weather-prediction-system-could-start-revolution-in-forecasting |
+| [cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest) | https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest |
+| [CatalyzeX: Machine Learning Hub for Builders and Makers](https://www.catalyzeX.com) | https://www.catalyzeX.com |
+| [CatBoost](https://github.com/catboost/catboost) | https://github.com/catboost/catboost |
+| [CatBoost](https://github.com/catboost/catboost) - General purpose gradient boosting on decision trees library with categorical features support out of the box. It is easy to install, contains fast inference implementation and supports CPU and GPU (even multi-GPU) | https://github.com/catboost/catboost) - General purpose gradient boosting on decision trees library with categorical features support out of the box. It is easy to install, contains fast inference implementation and supports CPU and GPU (even multi-GPU |
+| [Category Encoders](https://github.com/scikit-learn-contrib/category_encoders) | https://github.com/scikit-learn-contrib/category_encoders |
+| [CAVIAR video sequences of mall and public space behavior](http://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/) - 90K video frames in 90 sequences of various human activities, with XML ground truth of detection and behavior classification (Formats: MPEG2 & JPEG) | http://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1/) - 90K video frames in 90 sequences of various human activities, with XML ground truth of detection and behavior classification (Formats: MPEG2 & JPEG |
+| [CCITT Fax standard images](http://www.cs.waikato.ac.nz/~singlis/ccitt.html) - 8 images (Formats: gif) | http://www.cs.waikato.ac.nz/~singlis/ccitt.html) - 8 images (Formats: gif |
+| [CCV](https://github.com/liuliu/ccv) | https://github.com/liuliu/ccv |
+| [Centre for Vision, Speech and Signal Processing](http://www.ee.surrey.ac.uk/Research/CVSSP) | http://www.ee.surrey.ac.uk/Research/CVSSP |
+| [cephes](https://github.com/deepmind/torch-cephes) | https://github.com/deepmind/torch-cephes |
+| [CERN Open Data Portal](http://opendata.cern.ch/) | http://opendata.cern.ch/ |
+| [cgi.cse.unsw.edu.au/~aishare](http://cgi.cse.unsw.edu.au/~aishare/) | http://cgi.cse.unsw.edu.au/~aishare/ |
+| [Characterizing and Avoiding Negative Transfer](https://arxiv.org/abs/1811.09751) | https://arxiv.org/abs/1811.09751 |
+| [chartjs](https://www.chartjs.org/) | https://www.chartjs.org/ |
+| [chcorbi/helvipad](https://huggingface.co/datasets/chcorbi/helvipad) | https://huggingface.co/datasets/chcorbi/helvipad |
+| [cheminfo](https://www.cheminfo.org/) - Platform for data visualization and analysis, using the [visualizer](https://github.com/npellet/visualizer) | https://github.com/npellet/visualizer |
+| [Chips-n-Salsa](https://github.com/cicirello/Chips-n-Salsa) | https://github.com/cicirello/Chips-n-Salsa |
+| [Christopher Manning](http://nlp.stanford.edu/~manning/) | http://nlp.stanford.edu/~manning/ |
+| [CIFAR-10 and CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar.html) | http://www.cs.toronto.edu/~kriz/cifar.html |
+| [cl-libsvm](https://github.com/melisgl/cl-libsvm/) | https://github.com/melisgl/cl-libsvm/ |
+| [cl-online-learning](https://github.com/masatoi/cl-online-learning) - Online learning algorithms (Perceptron, AROW, SCW, Logistic Regression) | https://github.com/masatoi/cl-online-learning) - Online learning algorithms (Perceptron, AROW, SCW, Logistic Regression |
+| [cl-random-forest](https://github.com/masatoi/cl-random-forest) | https://github.com/masatoi/cl-random-forest |
+| [Classification on raw time series in TensorFlow with a LSTM RNN](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) | https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition |
+| [ClearTK](https://github.com/ClearTK/cleartk) - ClearTK provides a framework for developing statistical natural language processing (NLP) | https://github.com/ClearTK/cleartk) - ClearTK provides a framework for developing statistical natural language processing (NLP |
+| [Clement Farabet](http://www.clement.farabet.net/) | http://www.clement.farabet.net/ |
+| [Climate FieldView](06_Software_Tools/) | 06_Software_Tools/ |
+| [Climate Modeling](../../Climate_Modeling/) | ../../Climate_Modeling/ |
+| [clj-boost](https://gitlab.com/alanmarazzi/clj-boost) | https://gitlab.com/alanmarazzi/clj-boost |
+| [clj-ml](https://github.com/joshuaeckroth/clj-ml/) | https://github.com/joshuaeckroth/clj-ml/ |
+| [ClojisR](https://github.com/scicloj/clojisr) - Interop with R and Renjin (R on the JVM) | https://github.com/scicloj/clojisr) - Interop with R and Renjin (R on the JVM |
+| [clojupyter](https://github.com/clojupyter/clojupyter) | https://github.com/clojupyter/clojupyter |
+| [Clojure-openNLP](https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp) | https://github.com/dakrone/clojure-opennlp) - Natural Language Processing in Clojure (opennlp |
+| [Clojush](https://github.com/lspector/Clojush) | https://github.com/lspector/Clojush |
+| [clortex](https://github.com/htm-community/clortex) | https://github.com/htm-community/clortex |
+| [Cloud Platforms](./Cloud_Platforms/) | ./Cloud_Platforms/ |
+| [Cloud Platforms / Plataformas de Nuvem](./03_DEPLOY/Cloud_Platforms/) | ./03_DEPLOY/Cloud_Platforms/ |
+| [Cloudforest](https://github.com/ryanbressler/CloudForest) | https://github.com/ryanbressler/CloudForest |
+| [CluGen](https://github.com/clugen/CluGen.jl/) | https://github.com/clugen/CluGen.jl/ |
+| [Clusterfck](https://harthur.github.io/clusterfck/) | https://harthur.github.io/clusterfck/ |
+| [Clustering](https://github.com/JuliaStats/Clustering.jl) | https://github.com/JuliaStats/Clustering.jl |
+| [Clustering.js](https://github.com/emilbayes/clustering.js) | https://github.com/emilbayes/clustering.js |
+| [CMU 11-785 Intro to Deep learning Spring 2020](https://www.youtube.com/playlist?list=PLp-0K3kfddPzCnS4CqKphh-zT3aDwybDe) | https://www.youtube.com/playlist?list=PLp-0K3kfddPzCnS4CqKphh-zT3aDwybDe |
+| [CMU CIL's Stereo Data with Ground Truth](cil-ster.html) - 3 sets of 11 images, including color tiff images with spectroradiometry (Formats: gif, tiff) | cil-ster.html) - 3 sets of 11 images, including color tiff images with spectroradiometry (Formats: gif, tiff |
+| [CMU PIE Database](http://www.ri.cmu.edu/projects/project_418.html) | http://www.ri.cmu.edu/projects/project_418.html |
+| [CMU Sphinx](https://cmusphinx.github.io) | https://cmusphinx.github.io |
+| [CMU VASC Image Database](http://www.ius.cs.cmu.edu/idb/) - Images, sequences, stereo pairs (thousands of images) (Formats: Sun Rasterimage) | http://www.ius.cs.cmu.edu/idb/) - Images, sequences, stereo pairs (thousands of images) (Formats: Sun Rasterimage |
+| [cmuparlay](https://github.com/cmuparlay) | https://github.com/cmuparlay |
+| [CMU’s list of papers](http://deeplearning.cs.cmu.edu/) | http://deeplearning.cs.cmu.edu/ |
+| [CNTK](https://github.com/Microsoft/CNTK) - The Computational Network Toolkit (CNTK) | https://github.com/Microsoft/CNTK) - The Computational Network Toolkit (CNTK |
+| [COCO](https://cocodataset.org/#detection-leaderboard) | https://cocodataset.org/#detection-leaderboard |
+| [COCO Dataset](https://cocodataset.org/) | https://cocodataset.org/ |
+| [Codalab](https://codalab.lisn.upsaclay.fr) | https://codalab.lisn.upsaclay.fr |
+| [Coding a basic WGAN in PyTorch by Edward Raff](https://youtu.be/7VRdaqMDalQ) | https://youtu.be/7VRdaqMDalQ |
+| [CogcompNLP](https://github.com/CogComp/cogcomp-nlp) - This project collects a number of core libraries for Natural Language Processing (NLP) | https://github.com/CogComp/cogcomp-nlp) - This project collects a number of core libraries for Natural Language Processing (NLP |
+| [CoLab Tutorial](https://colab.research.google.com/drive/1hhNdQAVMPBbPQlJsrpfMBwJvTqbJzjcX) | https://colab.research.google.com/drive/1hhNdQAVMPBbPQlJsrpfMBwJvTqbJzjcX |
+| [colbert-ir/colbertv2.0](https://huggingface.co/colbert-ir/colbertv2.0) | https://huggingface.co/colbert-ir/colbertv2.0 |
+| [colibri-core](https://github.com/proycon/colibri-core) | https://github.com/proycon/colibri-core |
+| [Collections](./Collections/) | ./Collections/ |
+| [Collections / Coleções](./01_LEARN/Collections/) | ./01_LEARN/Collections/ |
+| [Columbia-Utrecht Reflectance and Texture Database](http://www.cs.columbia.edu/CAVE/curet/) - Texture and reflectance measurements for over 60 samples of 3D texture, observed with over 200 different combinations of viewing and illumination directions. (Formats: bmp) | http://www.cs.columbia.edu/CAVE/curet/) - Texture and reflectance measurements for over 60 samples of 3D texture, observed with over 200 different combinations of viewing and illumination directions. (Formats: bmp |
+| [Comet ML](https://www.comet.com) | https://www.comet.com |
+| [Comfy-Org/Wan_2.1_ComfyUI_repackaged](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged) | https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged |
+| [Comfy-Org/Wan_2.2_ComfyUI_Repackaged](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged) | https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged |
+| [Common Crawl](https://commoncrawl.org/) | https://commoncrawl.org/ |
+| [Communities](./Communities/) | ./Communities/ |
+| [Communities / Comunidades](./01_LEARN/Communities/) | ./01_LEARN/Communities/ |
+| [Competition Discussion](https://www.kaggle.com/competitions/csiro-biomass/discussion) | https://www.kaggle.com/competitions/csiro-biomass/discussion |
+| [comportex](https://github.com/htm-community/comportex) | https://github.com/htm-community/comportex |
+| [Computational Colour Constancy Data](http://www.cs.sfu.ca/~colour/data/index.html) - A dataset oriented towards computational color constancy, but useful for computer vision in general. It includes synthetic data, camera sensor data, and over 700 images. (Formats: tiff) | http://www.cs.sfu.ca/~colour/data/index.html) - A dataset oriented towards computational color constancy, but useful for computer vision in general. It includes synthetic data, camera sensor data, and over 700 images. (Formats: tiff |
+| [Computational Vision Lab](http://www.cs.sfu.ca/~colour/) | http://www.cs.sfu.ca/~colour/ |
+| [Computer Science VII (Graphical Systems)](http://ls7-www.cs.uni-dortmund.de/) | http://ls7-www.cs.uni-dortmund.de/ |
+| [Computer Vision](../../../02_BUILD/Computer_Vision/) | ../../../02_BUILD/Computer_Vision/ |
+| [Computer Vision](../2.3_Computer_Vision/) | ../2.3_Computer_Vision/ |
+| [Computer vision](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#computer-vision) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#computer-vision |
+| [Computer Vision Group](http://www.cee.hw.ac.uk/~mtc/research.html) | http://www.cee.hw.ac.uk/~mtc/research.html |
+| [computer-vision-in-action](https://github.com/Charmve/computer-vision-in-action) | https://github.com/Charmve/computer-vision-in-action |
+| [ComputerVisionAnimeProject/AnimeFaceColorization](https://huggingface.co/datasets/ComputerVisionAnimeProject/AnimeFaceColorization) | https://huggingface.co/datasets/ComputerVisionAnimeProject/AnimeFaceColorization |
+| [cONNXr](https://github.com/alrevuelta/cONNXr) - An `ONNX` runtime written in pure C (99) | https://github.com/alrevuelta/cONNXr) - An `ONNX` runtime written in pure C (99 |
+| [Content-based image retrieval database](http://www.cs.washington.edu/research/imagedatabase/groundtruth/) - 11 sets of color images for testing algorithms for content-based retrieval. Most sets have a description file with names of objects in each image. (Formats: jpg) | http://www.cs.washington.edu/research/imagedatabase/groundtruth/) - 11 sets of color images for testing algorithms for content-based retrieval. Most sets have a description file with names of objects in each image. (Formats: jpg |
+| [context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16](https://huggingface.co/context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16) | https://huggingface.co/context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16 |
+| [Contourlets](http://www.ifp.illinois.edu/~minhdo/software/contourlet_toolbox.tar) | http://www.ifp.illinois.edu/~minhdo/software/contourlet_toolbox.tar |
+| [Contributor Covenant](https://www.contributor-covenant.org), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html) | https://www.contributor-covenant.org/version/1/4/code-of-conduct.html |
+| [Convnet.js](https://cs.stanford.edu/people/karpathy/convnetjs/) | https://cs.stanford.edu/people/karpathy/convnetjs/ |
+| [Convolutional Neural Networks for Visual Recognition - Stanford](http://vision.stanford.edu/teaching/cs231n/syllabus.html) by Fei-Fei Li, Andrej Karpathy (2017) | http://vision.stanford.edu/teaching/cs231n/syllabus.html) by Fei-Fei Li, Andrej Karpathy (2017 |
+| [Convolutional-Recursive Deep Learning for 3D Object Classification](https://www.socher.org/index.php/Main/Convolutional-RecursiveDeepLearningFor3DObjectClassification) | https://www.socher.org/index.php/Main/Convolutional-RecursiveDeepLearningFor3DObjectClassification |
+| [coqui/XTTS-v2](https://huggingface.co/coqui/XTTS-v2) | https://huggingface.co/coqui/XTTS-v2 |
+| [Core torch7 demos repository](https://github.com/e-lab/torch7-demos) | https://github.com/e-lab/torch7-demos |
+| [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml) | https://nlp.stanford.edu/software/corenlp.shtml |
+| [Corpus Loaders](https://github.com/JuliaText/CorpusLoaders.jl) | https://github.com/JuliaText/CorpusLoaders.jl |
+| [cortex](https://github.com/originrose/cortex) | https://github.com/originrose/cortex |
+| [Cortical.io](https://www.cortical.io/) - Retina: an API performing complex NLP operations (disambiguation, classification, streaming text filtering, etc...) | https://www.cortical.io/) - Retina: an API performing complex NLP operations (disambiguation, classification, streaming text filtering, etc... |
+| [Courses](./Courses/) | ./Courses/ |
+| [Courses / Cursos](./01_LEARN/Courses/) | ./01_LEARN/Courses/ |
+| [CQSB/SoftDis](https://huggingface.co/datasets/CQSB/SoftDis) | https://huggingface.co/datasets/CQSB/SoftDis |
+| [Creatify MCP](https://github.com/TSavo/creatify-mcp) | https://github.com/TSavo/creatify-mcp |
+| [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) | https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs |
+| [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) | http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs |
+| [Cross Audio-Visual Recognition in the Wild Using Deep Learning](https://arxiv.org/abs/1706.05739) | https://arxiv.org/abs/1706.05739 |
+| [Cross Matching Methods for Astronomical Catalogs](https://github.com/SauravMaheshkar/Cross-Matching-Methods-for-Astronomical-Catalogs) | https://github.com/SauravMaheshkar/Cross-Matching-Methods-for-Astronomical-Catalogs |
+| [Cross-dataset recognition: a survey](https://arxiv.org/abs/1705.04396) | https://arxiv.org/abs/1705.04396 |
+| [cross-encoder/ms-marco-MiniLM-L6-v2](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2) | https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2 |
+| [crystal-fann](https://github.com/NeuraLegion/crystal-fann) - FANN (Fast Artificial Neural Network) | https://github.com/NeuraLegion/crystal-fann) - FANN (Fast Artificial Neural Network |
+| [cs.brown.edu/research/ai](http://cs.brown.edu/research/ai/) | http://cs.brown.edu/research/ai/ |
+| [cs.rochester.edu/research/ai](http://www.cs.rochester.edu/research/ai/) | http://www.cs.rochester.edu/research/ai/ |
+| [cs.utexas.edu/users/ai-lab](http://www.cs.utexas.edu/users/ai-lab/) | http://www.cs.utexas.edu/users/ai-lab/ |
+| [cs.washington.edu/research/ai](http://www.cs.washington.edu/research/ai/) | http://www.cs.washington.edu/research/ai/ |
+| [csail.mit.edu](http://www.csail.mit.edu/) | http://www.csail.mit.edu/ |
+| [CSIRO Image2Biomass](https://www.kaggle.com/competitions/csiro-biomass) | https://www.kaggle.com/competitions/csiro-biomass |
+| [CSIRO Pasture Biomass paper](03_Papers/) | 03_Papers/ |
+| [CUDA](https://code.google.com/p/cuda-convnet/) | https://code.google.com/p/cuda-convnet/ |
+| [cunn](https://github.com/torch/cunn) | https://github.com/torch/cunn |
+| [Curvelets](http://www.curvelet.org/software.html) | http://www.curvelet.org/software.html |
+| [cutorch](https://github.com/torch/cutorch) | https://github.com/torch/cutorch |
+| [CVAT](https://www.cvat.ai) | https://www.cvat.ai |
+| [cvg](https://github.com/cvg)) | https://github.com/cvg) |
+| [Cybertron](https://github.com/nlpodyssey/cybertron) | https://github.com/nlpodyssey/cybertron |
+| [D3.js](https://d3js.org/) | https://d3js.org/ |
+| [D3xter](https://github.com/NathanEpstein/D3xter) | https://github.com/NathanEpstein/D3xter |
+| [DA](https://github.com/trthatcher/DiscriminantAnalysis.jl) | https://github.com/trthatcher/DiscriminantAnalysis.jl |
+| [Dan Claudiu Cireșan](http://www.idsia.ch/~ciresan/) | http://www.idsia.ch/~ciresan/ |
+| [dandelin/vilt-b32-mlm](https://huggingface.co/dandelin/vilt-b32-mlm) | https://huggingface.co/dandelin/vilt-b32-mlm |
+| [daniilak/nbchr_pdfs](https://huggingface.co/datasets/daniilak/nbchr_pdfs) | https://huggingface.co/datasets/daniilak/nbchr_pdfs |
+| [Darknet](https://github.com/pjreddie/darknet) | https://github.com/pjreddie/darknet |
+| [Data Arrays](https://github.com/JuliaStats/DataArrays.jl) | https://github.com/JuliaStats/DataArrays.jl |
+| [Data Frames Meta](https://github.com/JuliaData/DataFramesMeta.jl) | https://github.com/JuliaData/DataFramesMeta.jl |
+| [Data Read](https://github.com/queryverse/ReadStat.jl) | https://github.com/queryverse/ReadStat.jl |
+| [Data.gov](https://data.gov/) | https://data.gov/ |
+| [DataDeps](https://github.com/oxinabox/DataDeps.jl) | https://github.com/oxinabox/DataDeps.jl |
+| [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - Dataframes for machine-learning and statistics (similar to pandas) | https://github.com/rocketlaunchr/dataframe-go) - Dataframes for machine-learning and statistics (similar to pandas |
+| [DataFrames](https://github.com/JuliaData/DataFrames.jl) | https://github.com/JuliaData/DataFrames.jl |
+| [DataHack](https://datahack.analyticsvidhya.com) | https://datahack.analyticsvidhya.com |
+| [Datahub.io](https://datahub.io/) | https://datahub.io/ |
+| [datakit](https://github.com/nathanepstein/datakit) | https://github.com/nathanepstein/datakit |
+| [Datamaps](https://datamaps.github.io/) | https://datamaps.github.io/ |
+| [DataMelt](https://jwork.org/dmelt/) | https://jwork.org/dmelt/ |
+| [DataRobot](https://www.datarobot.com/) | https://www.datarobot.com/ |
+| [dataset GrassClover](04_Datasets/) | 04_Datasets/ |
+| [dataset Image2Biomass](04_Datasets/) | 04_Datasets/ |
+| [Datasets](./02_BUILD/Datasets/) | ./02_BUILD/Datasets/ |
+| [Datasets](./Datasets/) | ./Datasets/ |
+| [Datasets](02_Datasets/) | 02_Datasets/ |
+| [datasocietyco/bge-base-en-v1.5-course-recommender-v5](https://huggingface.co/datasocietyco/bge-base-en-v1.5-course-recommender-v5) | https://huggingface.co/datasocietyco/bge-base-en-v1.5-course-recommender-v5 |
+| [Datumbox](https://github.com/datumbox/datumbox-framework) | https://github.com/datumbox/datumbox-framework |
+| [David Reichert](http://serre-lab.clps.brown.edu/person/david-reichert/) | http://serre-lab.clps.brown.edu/person/david-reichert/ |
+| [dc.js](https://dc-js.github.io/dc.js/) | https://dc-js.github.io/dc.js/ |
+| [Decision Tree](https://github.com/bensadeghi/DecisionTree.jl) | https://github.com/bensadeghi/DecisionTree.jl |
+| [Decision Trees](https://github.com/serendipious/nodejs-decision-tree-id3) | https://github.com/serendipious/nodejs-decision-tree-id3 |
+| [Deep Blueberry: Deep Learning](https://mithi.github.io/deep-blueberry) - A free five-weekend plan to self-learners to learn the basics of deep-learning architectures like CNNs, LSTMs, RNNs, VAEs, GANs, DQN, A3C and more (2019) | https://mithi.github.io/deep-blueberry) - A free five-weekend plan to self-learners to learn the basics of deep-learning architectures like CNNs, LSTMs, RNNs, VAEs, GANs, DQN, A3C and more (2019 |
+| [Deep Diamond](https://github.com/uncomplicate/deep-diamond) | https://github.com/uncomplicate/deep-diamond |
+| [Deep domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-domain-adaptation |
+| [Deep domain adaptation](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA |
+| [Deep domain generalization](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG |
+| [Deep High-Resolution-Net](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) | https://github.com/leoxiaobin/deep-high-resolution-net.pytorch |
+| [Deep Learning](http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf) by Microsoft Research (2013) | http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf) by Microsoft Research (2013 |
+| [Deep Learning](http://www.deeplearningbook.org/) by Yoshua Bengio, Ian Goodfellow and Aaron Courville  (05/07/2015) | http://www.deeplearningbook.org/) by Yoshua Bengio, Ian Goodfellow and Aaron Courville  (05/07/2015 |
+| [Deep Learning - Nvidia](https://developer.nvidia.com/deep-learning-courses) (2015) | https://developer.nvidia.com/deep-learning-courses) (2015 |
+| [Deep Learning - UC Berkeley](STAT-157) | STAT-157 |
+| [Deep Learning - Udacity/Google](https://www.udacity.com/course/deep-learning--ud730) by Vincent Vanhoucke and Arpan Chakraborty (2016) | https://www.udacity.com/course/deep-learning--ud730) by Vincent Vanhoucke and Arpan Chakraborty (2016 |
+| [Deep Learning - UWaterloo](https://www.youtube.com/playlist?list=PLehuLRPyt1Hyi78UOkMPWCGRxGcA9NVOE) by Prof. Ali Ghodsi at University of Waterloo (2015) | https://www.youtube.com/playlist?list=PLehuLRPyt1Hyi78UOkMPWCGRxGcA9NVOE) by Prof. Ali Ghodsi at University of Waterloo (2015 |
+| [Deep Learning A.I.Shelf](http://aishelf.org/category/ia/deep-learning/) | http://aishelf.org/category/ia/deep-learning/ |
+| [Deep Learning by Kaggle](https://www.kaggle.com/learn/deep-learning) | https://www.kaggle.com/learn/deep-learning |
+| [Deep Learning Course](http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start) by CILVR lab @ NYU (2014) | http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start) by CILVR lab @ NYU (2014 |
+| [Deep Learning Course](https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm) by Yann LeCun (2016) | https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm) by Yann LeCun (2016 |
+| [Deep Learning Crash Course](https://www.manning.com/livevideo/deep-learning-crash-course) | https://www.manning.com/livevideo/deep-learning-crash-course |
+| [Deep Learning Crash Course](https://www.youtube.com/watch?v=oS5fz_mHVz0&list=PLWKotBjTDoLj3rXBL-nEIPRN9V3a9Cx07): a series of mini-lectures by Leo Isikdogan on YouTube (2018) | https://www.youtube.com/watch?v=oS5fz_mHVz0&list=PLWKotBjTDoLj3rXBL-nEIPRN9V3a9Cx07): a series of mini-lectures by Leo Isikdogan on YouTube (2018 |
+| [Deep Learning Design Patterns by Andrew Ferlitsch](https://youtu.be/_DaviS6K0Vc) | https://youtu.be/_DaviS6K0Vc |
+| [Deep Learning for Beginners](https://spandan-madan.github.io/DeepLearningProject/) | https://spandan-madan.github.io/DeepLearningProject/ |
+| [Deep Learning for Natural Language Processing](https://www.manning.com/books/deep-learning-for-natural-language-processing) | https://www.manning.com/books/deep-learning-for-natural-language-processing |
+| [Deep Learning for Natural Language Processing - Stanford](http://cs224d.stanford.edu/) | http://cs224d.stanford.edu/ |
+| [Deep Learning for NLP (without Magic)](http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial) | http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial |
+| [Deep Learning for Search](https://www.manning.com/books/deep-learning-for-search) | https://www.manning.com/books/deep-learning-for-search |
+| [Deep Learning from the Bottom up](http://www.metacademy.org/roadmaps/rgrosse/deep_learning) | http://www.metacademy.org/roadmaps/rgrosse/deep_learning |
+| [Deep Learning from the Foundations](https://course.fast.ai/part2) | https://course.fast.ai/part2 |
+| [Deep Learning in Neural Networks: An Overview](http://arxiv.org/pdf/1404.7828v4.pdf) | http://arxiv.org/pdf/1404.7828v4.pdf |
+| [Deep Learning News](http://news.startup.ml/) | http://news.startup.ml/ |
+| [Deep Learning of Representations](https://www.youtube.com/watch?v=4xsVFLnHC_0) | https://www.youtube.com/watch?v=4xsVFLnHC_0 |
+| [Deep Learning Online Course list at Classpert](https://classpert.com/deep-learning) List of Deep Learning online courses (some are free) | https://classpert.com/deep-learning) List of Deep Learning online courses (some are free |
+| [Deep Learning Patterns and Practices](https://www.manning.com/books/deep-learning-patterns-and-practices) | https://www.manning.com/books/deep-learning-patterns-and-practices |
+| [Deep Learning Specialization - Coursera](https://www.coursera.org/specializations/deep-learning) | https://www.coursera.org/specializations/deep-learning |
+| [Deep Learning Tutorial](http://deeplearning.net/tutorial/deeplearning.pdf) by LISA lab, University of Montreal (Jan 6 2015) | http://deeplearning.net/tutorial/deeplearning.pdf) by LISA lab, University of Montreal (Jan 6 2015 |
+| [Deep Learning with Python](https://www.manning.com/books/deep-learning-with-python) | https://www.manning.com/books/deep-learning-with-python |
+| [Deep Learning with Python, Second Edition](https://www.manning.com/books/deep-learning-with-python-second-edition) | https://www.manning.com/books/deep-learning-with-python-second-edition |
+| [Deep Learning with R in Motion](https://www.manning.com/livevideo/deep-learning-with-r-in-motion) | https://www.manning.com/livevideo/deep-learning-with-r-in-motion |
+| [Deep Learning with R, Second Edition](https://www.manning.com/books/deep-learning-with-r-second-edition) | https://www.manning.com/books/deep-learning-with-r-second-edition |
+| [Deep Learning, Self-Taught Learning and Unsupervised Feature Learning](https://www.youtube.com/watch?v=n1ViNeWhC24) | https://www.youtube.com/watch?v=n1ViNeWhC24 |
+| [Deep Learning: Intelligence from Big Data](https://www.youtube.com/watch?v=czLI3oLDe8M) by Steve Jurvetson (and panel) | https://www.youtube.com/watch?v=czLI3oLDe8M) by Steve Jurvetson (and panel |
+| [Deep N-Gram Models on Shakespeare’s works](https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/Deep%20N-Gram.ipynb) | https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/Deep%20N-Gram.ipynb |
+| [Deep Neural Networks for Acoustic Modeling in Speech Recognition](http://cs224d.stanford.edu/papers/maas_paper.pdf) | http://cs224d.stanford.edu/papers/maas_paper.pdf |
+| [Deep Reinforcement Learning (nanodegree) - Udacity](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) a 3-6 month Udacity nanodegree, spanning multiple courses (2018) | https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) a 3-6 month Udacity nanodegree, spanning multiple courses (2018 |
+| [Deep Visual Domain Adaptation: A Survey](https://www.sciencedirect.com/science/article/pii/S0925231218306684) | https://www.sciencedirect.com/science/article/pii/S0925231218306684 |
+| [DeepDA: a unified deep domain adaptation toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDA |
+| [DeepDetect](https://github.com/jolibrain/deepdetect) | https://github.com/jolibrain/deepdetect |
+| [DeepDG: a unified deep domain generalization toolbox](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG) | https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG |
+| [deepface](https://github.com/serengil/deepface) - A lightweight face recognition and facial attribute analysis (age, gender, emotion and race) | https://github.com/serengil/deepface) - A lightweight face recognition and facial attribute analysis (age, gender, emotion and race |
+| [DeepFaceDrawing: Deep Generation of Face Images from Sketches](http://geometrylearning.com/paper/DeepFaceDrawing.pdf?fbclid=IwAR0colWFHPGBCB1APZq9JVsWeWtmeZd9oCTNQvR52T5PRUJP_dLOwB8pt0I) | http://geometrylearning.com/paper/DeepFaceDrawing.pdf?fbclid=IwAR0colWFHPGBCB1APZq9JVsWeWtmeZd9oCTNQvR52T5PRUJP_dLOwB8pt0I |
+| [deepjavalibrary/djl](https://github.com/deepjavalibrary/djl) - Deep Java Library (DJL) | https://github.com/deepjavalibrary/djl) - Deep Java Library (DJL |
+| [DeepLabCut Model Zoo](https://deeplabcut.github.io/DeepLabCut/docs/ModelZoo.html) | https://deeplabcut.github.io/DeepLabCut/docs/ModelZoo.html |
+| [deeplearning.cs.toronto.edu](http://deeplearning.cs.toronto.edu/i2t) | http://deeplearning.cs.toronto.edu/i2t |
+| [deeplearning.net](http://deeplearning.net/) | http://deeplearning.net/ |
+| [deeplearning.stanford.edu](http://deeplearning.stanford.edu/) | http://deeplearning.stanford.edu/ |
+| [Deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) | https://github.com/deeplearning4j/deeplearning4j |
+| [Deepmind x UCL Deeplearning](https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF) | https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF |
+| [Deepmind x UCL Reinforcement Learning](https://www.youtube.com/playlist?list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb) | https://www.youtube.com/playlist?list=PLqYmG7hTraZBKeNJ-JE_eyJHZ7XgBoAyb |
+| [Definitions of transfer learning area - 迁移学习领域名词解释](https://www.bilibili.com/video/BV1fu411o7BW) [[Article](https://zhuanlan.zhihu.com/p/428097044) | https://zhuanlan.zhihu.com/p/428097044 |
+| [Delight](https://github.com/datamechanics/delight) | https://github.com/datamechanics/delight |
+| [Demystifying Unsupervised Feature Learning](https://www.youtube.com/watch?v=wZfVBwOO0-k) | https://www.youtube.com/watch?v=wZfVBwOO0-k |
+| [Densely Sampled View Spheres](http://ls7-www.cs.uni-dortmund.de/~peters/pages/research/modeladaptsys/modeladaptsys_vba_rov.html) - Densely sampled view spheres - upper half of the view sphere of two toy objects with 2500 images each. (Formats: tiff) | http://ls7-www.cs.uni-dortmund.de/~peters/pages/research/modeladaptsys/modeladaptsys_vba_rov.html) - Densely sampled view spheres - upper half of the view sphere of two toy objects with 2500 images each. (Formats: tiff |
+| [Department Image Understanding](http://www.informatik.uni-stuttgart.de/ipvr/bv/bv_home_engl.html) | http://www.informatik.uni-stuttgart.de/ipvr/bv/bv_home_engl.html |
+| [Derek Rose](http://mil.engr.utk.edu/nmil/member/5.html) | http://mil.engr.utk.edu/nmil/member/5.html |
+| [Designing, Visualizing and Understanding Deep Neural Networks-UC Berkeley](https://www.youtube.com/playlist?list=PLkFD6_40KJIxopmdJF_CLNqG3QuDFHQUm) | https://www.youtube.com/playlist?list=PLkFD6_40KJIxopmdJF_CLNqG3QuDFHQUm |
+| [Detecto](https://github.com/alankbi/detecto) | https://github.com/alankbi/detecto |
+| [Detectron](https://github.com/facebookresearch/Detectron) | https://github.com/facebookresearch/Detectron |
+| [detectron2](https://github.com/facebookresearch/detectron2) | https://github.com/facebookresearch/detectron2 |
+| [Detectron2 Model Zoo](https://github.com/facebookresearch/detectron2) | https://github.com/facebookresearch/detectron2 |
+| [DiffSharp](https://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library providing exact and efficient derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products) | https://diffsharp.github.io/DiffSharp/) - An automatic differentiation (AD) library providing exact and efficient derivatives (gradients, Hessians, Jacobians, directional derivatives, and matrix-free Hessian- and Jacobian-vector products |
+| [Digital Embryos](https://web-beta.archive.org/web/20011216051535/vision.psych.umn.edu/www/kersten-lab/demos/digitalembryo.html) - Digital embryos are novel objects which may be used to develop and test object recognition systems. They have an organic appearance. (Formats: various formats are available on request) | https://web-beta.archive.org/web/20011216051535/vision.psych.umn.edu/www/kersten-lab/demos/digitalembryo.html) - Digital embryos are novel objects which may be used to develop and test object recognition systems. They have an organic appearance. (Formats: various formats are available on request |
+| [dima806/fairface_age_image_detection](https://huggingface.co/dima806/fairface_age_image_detection) | https://huggingface.co/dima806/fairface_age_image_detection |
+| [dimple](http://dimplejs.org/) | http://dimplejs.org/ |
+| [Disco](https://github.com/discoproject/disco/) | https://github.com/discoproject/disco/ |
+| [Distances](https://github.com/JuliaStats/Distances.jl) | https://github.com/JuliaStats/Distances.jl |
+| [distilbert/distilbert-base-uncased](https://huggingface.co/distilbert/distilbert-base-uncased) | https://huggingface.co/distilbert/distilbert-base-uncased |
+| [distilbert/distilbert-base-uncased-finetuned-sst-2-english](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english) | https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english |
+| [Distribuição de Categorias (Barras)](./category_distribution_bar.png) | ./category_distribution_bar.png |
+| [Distribuição de Categorias (Pizza)](./category_distribution_pie.png) | ./category_distribution_pie.png |
+| [Distributed Machine learning Tool Kit (DMTK)](http://www.dmtk.io/) - A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense) | http://www.dmtk.io/) - A distributed machine learning (parameter server) framework by Microsoft. Enables training models on large data sets across multiple machines. Current tools bundled with it include: LightLDA and Distributed (Multisense |
+| [Distributions](https://github.com/JuliaStats/Distributions.jl) | https://github.com/JuliaStats/Distributions.jl |
+| [Dive into Deep Learning](https://d2l.ai/) | https://d2l.ai/ |
+| [dl4clj](https://github.com/yetanalytics/dl4clj) | https://github.com/yetanalytics/dl4clj |
+| [DLib](http://dlib.net/imaging.html) | http://dlib.net/imaging.html |
+| [DLib](http://dlib.net/ml.html) | http://dlib.net/ml.html |
+| [dlxjj/pdf_ocr](https://huggingface.co/datasets/dlxjj/pdf_ocr) | https://huggingface.co/datasets/dlxjj/pdf_ocr |
+| [DN2A](https://github.com/antoniodeluca/dn2a.js) | https://github.com/antoniodeluca/dn2a.js |
+| [DNNGraph](https://github.com/ajtulloch/dnngraph) | https://github.com/ajtulloch/dnngraph |
+| [doc/awesome_paper_date.md](/doc/awesome_paper_date.md) | /doc/awesome_paper_date.md |
+| [doc/awesome_papers.md](/doc/awesome_paper.md) | /doc/awesome_paper.md |
+| [dockerface](https://github.com/natanielruiz/dockerface) | https://github.com/natanielruiz/dockerface |
+| [documentação](docs/) | docs/ |
+| [Domain adaptation - 迁移学习中的领域自适应方法(中文)](https://www.bilibili.com/video/BV1T7411R75a/) | https://www.bilibili.com/video/BV1T7411R75a/ |
+| [Domain adaptation: Learning bounds and algorithms](https://arxiv.org/abs/0902.3430) | https://arxiv.org/abs/0902.3430 |
+| [Domain generalization](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization |
+| [Domain generalization - 迁移学习新兴研究方向领域泛化](https://www.bilibili.com/video/BV1ro4y1S7dd/) | https://www.bilibili.com/video/BV1ro4y1S7dd/ |
+| [Domain generalization survey](http://jd92.wang/assets/files/DGSurvey-ppt.pdf) | http://jd92.wang/assets/files/DGSurvey-ppt.pdf |
+| [Dong Yu](http://research.microsoft.com/en-us/people/dongyu/default.aspx) | http://research.microsoft.com/en-us/people/dongyu/default.aspx |
+| [dp](https://github.com/nicholas-leonard/dp) | https://github.com/nicholas-leonard/dp |
+| [dphn/dolphin-2.9.1-yi-1.5-34b](https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b) | https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b |
+| [dpnn](https://github.com/Element-Research/dpnn) | https://github.com/Element-Research/dpnn |
+| [Dr. Michael Thomas Flanagan's Java Scientific Library.](https://www.ee.ucl.ac.uk/~mflanaga/java/) | https://www.ee.ucl.ac.uk/~mflanaga/java/ |
+| [Drausin Wulsin](http://www.seas.upenn.edu/~wulsin/) | http://www.seas.upenn.edu/~wulsin/ |
+| [dream-creator](https://github.com/ProGamerGov/dream-creator) | https://github.com/ProGamerGov/dream-creator |
+| [DrivenData](https://www.drivendata.org) | https://www.drivendata.org |
+| [DSP](https://github.com/JuliaDSP/DSP.jl) - Digital Signal Processing (filtering, periodograms, spectrograms, window functions) | https://github.com/JuliaDSP/DSP.jl) - Digital Signal Processing (filtering, periodograms, spectrograms, window functions |
+| [DSSTNE](https://github.com/amznlabs/amazon-dsstne) | https://github.com/amznlabs/amazon-dsstne |
+| [DVC](https://github.com/iterative/dvc) | https://github.com/iterative/dvc |
+| [DVC (Data Version Control)](https://dvc.org) | https://dvc.org |
+| [Dynamic Routing Between Capsules](https://arxiv.org/abs/1710.09829) | https://arxiv.org/abs/1710.09829 |
+| [DyNet](https://github.com/clab/dynet) | https://github.com/clab/dynet |
+| [eaopt](https://github.com/MaxHalford/eaopt) | https://github.com/MaxHalford/eaopt |
+| [Earth Data](https://earthdata.nasa.gov/) | https://earthdata.nasa.gov/ |
+| [EBLearn](http://eblearn.sourceforge.net/) | http://eblearn.sourceforge.net/ |
+| [ECMWF Reanalysis](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) | https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5 |
+| [ECMWF: AI for Weather Forecasting](https://www.ecmwf.int/) | https://www.ecmwf.int/ |
+| [ECMWF: IA para Previsão Meteorológica](https://www.ecmwf.int/) | https://www.ecmwf.int/ |
+| [eecs.umich.edu/ai](http://www.eecs.umich.edu/ai/) | http://www.eecs.umich.edu/ai/ |
+| [Efficient BackProp](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf) | http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf |
+| [Efficient Content-based Retrieval Group](http://www.cs.washington.edu/research/imagedatabase/) | http://www.cs.washington.edu/research/imagedatabase/ |
+| [El Salvador Atlas of Gastrointestinal VideoEndoscopy](http://www.gastrointestinalatlas.com) - Images and Videos of his-res of studies taken from Gastrointestinal Video endoscopy. (Formats: jpg, mpg, gif) | http://www.gastrointestinalatlas.com) - Images and Videos of his-res of studies taken from Gastrointestinal Video endoscopy. (Formats: jpg, mpg, gif |
+| [ELKI](https://elki-project.github.io/) - Java toolkit for data mining. (unsupervised: clustering, outlier detection etc.) | https://elki-project.github.io/) - Java toolkit for data mining. (unsupervised: clustering, outlier detection etc. |
+| [Embeddings](https://github.com/JuliaText/Embeddings.jl) | https://github.com/JuliaText/Embeddings.jl |
+| [emel](https://github.com/mrdimosthenis/emel) | https://github.com/mrdimosthenis/emel |
+| [Emgu CV](http://www.emgu.com/wiki/index.php/Main_Page) | http://www.emgu.com/wiki/index.php/Main_Page |
+| [emilyalsentzer/Bio_ClinicalBERT](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT) | https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT |
+| [EN]** For more details, see the [commit history](https://github.com/FELIPEACASTRO/AIForge/commits/master) | https://github.com/FELIPEACASTRO/AIForge/commits/master |
+| [EN]** If you have any questions, open an [issue](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [Encog](https://github.com/encog/encog-java-core) | https://github.com/encog/encog-java-core |
+| [Encog](https://github.com/jimpil/enclog) - Clojure wrapper for Encog (v3) (Machine-Learning framework that specializes in neural-nets) | https://github.com/jimpil/enclog) - Clojure wrapper for Encog (v3) (Machine-Learning framework that specializes in neural-nets |
+| [Encog](https://www.nuget.org/packages/encog-dotnet-core/) | https://www.nuget.org/packages/encog-dotnet-core/ |
+| [Engineering Deep Learning Platforms](https://www.manning.com/books/engineering-deep-learning-platforms) | https://www.manning.com/books/engineering-deep-learning-platforms |
+| [Entertainment](./Entertainment/) | ./Entertainment/ |
+| [Entertainment / Entretenimento](./04_APPLY/Entertainment/) | ./04_APPLY/Entertainment/ |
+| [Envision](https://github.com/clojurewerkz/envision) | https://github.com/clojurewerkz/envision |
+| [EOS Agriculture API](07_APIs/) | 07_APIs/ |
+| [epfl-ML](https://github.com/epfl-ML) | https://github.com/epfl-ML |
+| [Erik M. Schmidt](http://music.ece.drexel.edu/people/eschmidt) | http://music.ece.drexel.edu/people/eschmidt |
+| [espnet/yodas-granary](https://huggingface.co/datasets/espnet/yodas-granary) | https://huggingface.co/datasets/espnet/yodas-granary |
+| [espnet/yodas2](https://huggingface.co/datasets/espnet/yodas2) | https://huggingface.co/datasets/espnet/yodas2 |
+| [eth-cscs](https://github.com/eth-cscs)) | https://github.com/eth-cscs) |
+| [Eugenio Culurciello](https://engineering.purdue.edu/BME/People/viewPersonById?resource_id=71333) | https://engineering.purdue.edu/BME/People/viewPersonById?resource_id=71333 |
+| [Eurostat](https://ec.europa.eu/eurostat) | https://ec.europa.eu/eurostat |
+| [Evolutionary Deep Learning](https://www.manning.com/books/evolutionary-deep-learning) | https://www.manning.com/books/evolutionary-deep-learning |
+| [Exadel CompreFace](https://github.com/exadel-inc/CompreFace) | https://github.com/exadel-inc/CompreFace |
+| [Extensions of Recurrent Neural Network Language Model](http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf) | http://www.fit.vutbr.cz/research/groups/speech/publi/2011/mikolov_icassp2011_5528.pdf |
+| [Face and Gesture images and image sequences](http://www.fg-net.org) | http://www.fg-net.org |
+| [Face Detection with Computer Vision and Deep Learning](https://www.udemy.com/share/1000gAA0QdcV9aQng=/) | https://www.udemy.com/share/1000gAA0QdcV9aQng=/ |
+| [face_recognition](https://github.com/ageitgey/face_recognition) | https://github.com/ageitgey/face_recognition |
+| [facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn) | https://huggingface.co/facebook/bart-large-cnn |
+| [facebook/bart-large-mnli](https://huggingface.co/facebook/bart-large-mnli) | https://huggingface.co/facebook/bart-large-mnli |
+| [facebook/contriever](https://huggingface.co/facebook/contriever) | https://huggingface.co/facebook/contriever |
+| [facebook/dinov2-base](https://huggingface.co/facebook/dinov2-base) | https://huggingface.co/facebook/dinov2-base |
+| [facebook/esm2_t33_650M_UR50D](https://huggingface.co/facebook/esm2_t33_650M_UR50D) | https://huggingface.co/facebook/esm2_t33_650M_UR50D |
+| [facebook/esmfold_v1](https://huggingface.co/facebook/esmfold_v1) | https://huggingface.co/facebook/esmfold_v1 |
+| [facebook/opt-125m](https://huggingface.co/facebook/opt-125m) | https://huggingface.co/facebook/opt-125m |
+| [facebook/wav2vec2-base-960h](https://huggingface.co/facebook/wav2vec2-base-960h) | https://huggingface.co/facebook/wav2vec2-base-960h |
+| [FacebookAI/roberta-base](https://huggingface.co/FacebookAI/roberta-base) | https://huggingface.co/FacebookAI/roberta-base |
+| [FacebookAI/roberta-large](https://huggingface.co/FacebookAI/roberta-large) | https://huggingface.co/FacebookAI/roberta-large |
+| [FacebookAI/xlm-roberta-base](https://huggingface.co/FacebookAI/xlm-roberta-base) | https://huggingface.co/FacebookAI/xlm-roberta-base |
+| [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf) | https://arxiv.org/pdf/1503.03832.pdf |
+| [Fake News Classification (with streamlit deployment)](https://github.com/SauravMaheshkar/Fake-News-Classification) | https://github.com/SauravMaheshkar/Fake-News-Classification |
+| [Falconsai/nsfw_image_detection](https://huggingface.co/Falconsai/nsfw_image_detection) | https://huggingface.co/Falconsai/nsfw_image_detection |
+| [fancyzhx/ag_news](https://huggingface.co/datasets/fancyzhx/ag_news) | https://huggingface.co/datasets/fancyzhx/ag_news |
+| [Farmonaut](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [Fashion MNIST using Flax](https://github.com/SauravMaheshkar/Flax-Examples) | https://github.com/SauravMaheshkar/Flax-Examples |
+| [Fast R-CNN](https://arxiv.org/pdf/1504.08083.pdf) | https://arxiv.org/pdf/1504.08083.pdf |
+| [FastAI](https://www.fast.ai/) | https://www.fast.ai/ |
+| [fastmath](https://github.com/generateme/fastmath) | https://github.com/generateme/fastmath |
+| [Feast](https://feast.dev/) | https://feast.dev/ |
+| [Feast](https://github.com/gojek/feast) | https://github.com/gojek/feast |
+| [Feature-engine](https://github.com/feature-engine/feature_engine) | https://github.com/feature-engine/feature_engine |
+| [Featuretools](https://github.com/alteryx/featuretools) | https://github.com/alteryx/featuretools |
+| [Featuretools](https://github.com/featuretools/featuretools) | https://github.com/featuretools/featuretools |
+| [Federated transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#federated-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#federated-transfer-learning |
+| [Fei-Fei Li](http://vision.stanford.edu/feifeili) | http://vision.stanford.edu/feifeili |
+| [Felipe Castro](https://github.com/FELIPEACASTRO) | https://github.com/FELIPEACASTRO |
+| [FELIPEACASTRO/AIForge](https://github.com/FELIPEACASTRO/AIForge) | https://github.com/FELIPEACASTRO/AIForge |
+| [Felix92/docTR-resource-collection](https://huggingface.co/datasets/Felix92/docTR-resource-collection) | https://huggingface.co/datasets/Felix92/docTR-resource-collection |
+| [Few-shot domain adaptation by causal mechanism transfer](https://arxiv.org/pdf/2002.03497.pdf) | https://arxiv.org/pdf/2002.03497.pdf |
+| [fex](https://github.com/koraykv/fex) | https://github.com/koraykv/fex |
+| [FG-NET Facial Aging Database](http://sting.cycollege.ac.cy/~alanitis/fgnetaging/index.htm) - Database contains 1002 face images showing subjects at different ages. (Formats: jpg) | http://sting.cycollege.ac.cy/~alanitis/fgnetaging/index.htm) - Database contains 1002 face images showing subjects at different ages. (Formats: jpg |
+| [Fido](https://github.com/FidoProject/Fido) | https://github.com/FidoProject/Fido |
+| [FiftyOne](https://voxel51.com/docs/fiftyone) | https://voxel51.com/docs/fiftyone |
+| [figue](https://code.google.com/archive/p/figue) | https://code.google.com/archive/p/figue |
+| [Finance](./Finance/) | ./Finance/ |
+| [Finance / Finanças](./04_APPLY/Finance/) | ./04_APPLY/Finance/ |
+| [Finance AI](../../Finance/) | ../../Finance/ |
+| [Finance AI Overview](../README.md) | ../README.md |
+| [FiveThirtyEight Data](https://data.fivethirtyeight.com/) | https://data.fivethirtyeight.com/ |
+| [Flare](https://github.com/aria42/flare) - Dynamic Tensor Graph library in Clojure (think PyTorch, DynNet, etc.) | https://github.com/aria42/flare) - Dynamic Tensor Graph library in Clojure (think PyTorch, DynNet, etc. |
+| [FlexML](https://github.com/ozguraslank/flexml) | https://github.com/ozguraslank/flexml |
+| [Flickr 30k](http://shannon.cs.illinois.edu/DenotationGraph/) | http://shannon.cs.illinois.edu/DenotationGraph/ |
+| [Flickr 8k](http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html) | http://nlp.cs.illinois.edu/HockenmaierGroup/Framing_Image_Description/KCCA.html |
+| [Flickr Data](https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images) | https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images |
+| [Flink](https://flink.apache.org/) | https://flink.apache.org/ |
+| [FlinkML in Apache Flink](https://ci.apache.org/projects/flink/flink-docs-master/dev/libs/ml/index.html) | https://ci.apache.org/projects/flink/flink-docs-master/dev/libs/ml/index.html |
+| [Flux](https://fluxml.ai/) | https://fluxml.ai/ |
+| [Forward Data Lab](https://github.com/ForwardDataLab)) | https://github.com/ForwardDataLab) |
+| [Foundation Models](01_Foundation_Models/) | 01_Foundation_Models/ |
+| [Frameworks](./02_BUILD/Frameworks/) | ./02_BUILD/Frameworks/ |
+| [Frameworks](./Frameworks/) - Core frameworks (PyTorch, TensorFlow) | ./Frameworks/) - Core frameworks (PyTorch, TensorFlow |
+| [Frank Seide](http://research.microsoft.com/en-us/people/fseide/) | http://research.microsoft.com/en-us/people/fseide/ |
+| [frog](https://github.com/LanguageMachines/frog) | https://github.com/LanguageMachines/frog |
+| [ftp://ftp.cps.msu.edu/pub/prip](ftp://ftp.cps.msu.edu/pub/prip) - many images (Formats: unknown) | ftp://ftp.cps.msu.edu/pub/prip) - many images (Formats: unknown |
+| [ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/](ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/) - Real and synthetic image sequences used for testing a Particle Image Velocimetry application. These images may be used for the test of optical flow and image matching algorithms. (Formats: pgm (raw)) | ftp://ftp.limsi.fr/pub/quenot/opflow/testdata/piv/) - Real and synthetic image sequences used for testing a Particle Image Velocimetry application. These images may be used for the test of optical flow and image matching algorithms. (Formats: pgm (raw) |
+| [Fungp](https://github.com/vollmerm/fungp) | https://github.com/vollmerm/fungp |
+| [FusionCharts](https://www.fusioncharts.com/) | https://www.fusioncharts.com/ |
+| [FVC2000 Fingerprint Databases](http://bias.csr.unibo.it/fvc2000/) - FVC2000 is the First International Competition for Fingerprint Verification Algorithms. Four fingerprint databases constitute the FVC2000 benchmark (3520 fingerprints in all) | http://bias.csr.unibo.it/fvc2000/) - FVC2000 is the First International Competition for Fingerprint Verification Algorithms. Four fingerprint databases constitute the FVC2000 benchmark (3520 fingerprints in all |
+| [Gadfly](https://github.com/GiovineItalia/Gadfly.jl) | https://github.com/GiovineItalia/Gadfly.jl |
+| [gaimc](https://www.mathworks.com/matlabcentral/fileexchange/24134-gaimc---graph-algorithms-in-matlab-code) | https://www.mathworks.com/matlabcentral/fileexchange/24134-gaimc---graph-algorithms-in-matlab-code |
+| [Galen Andrew](http://homes.cs.washington.edu/~galen/) | http://homes.cs.washington.edu/~galen/ |
+| [Gaussian Mixture Model](https://github.com/lukapopijac/gaussian-mixture-model) | https://github.com/lukapopijac/gaussian-mixture-model |
+| [Gaussian Processes](https://github.com/STOR-i/GaussianProcesses.jl) | https://github.com/STOR-i/GaussianProcesses.jl |
+| [GaussianMixtures](https://github.com/davidavdav/GaussianMixtures.jl) | https://github.com/davidavdav/GaussianMixtures.jl |
+| [Generalizing to Unseen Domains: A Survey on Domain Generalization](https://arxiv.org/abs/2103.03097)]([知乎文章](https://zhuanlan.zhihu.com/p/354740610)) | [知乎文章](https://zhuanlan.zhihu.com/p/354740610) |
+| [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661v1.pdf) | https://arxiv.org/pdf/1406.2661v1.pdf |
+| [GeneticSharp](https://github.com/giacomelli/GeneticSharp) | https://github.com/giacomelli/GeneticSharp |
+| [Geni](https://github.com/zero-one-group/geni) | https://github.com/zero-one-group/geni |
+| [genius](https://github.com/duanhongyi/genius) | https://github.com/duanhongyi/genius |
+| [Gensyn/Qwen2.5-0.5B-Instruct](https://huggingface.co/Gensyn/Qwen2.5-0.5B-Instruct) | https://huggingface.co/Gensyn/Qwen2.5-0.5B-Instruct |
+| [Geoff Hinton's reading list (all papers)](http://www.cs.toronto.edu/~hinton/deeprefs.html) | http://www.cs.toronto.edu/~hinton/deeprefs.html |
+| [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) | http://www.cs.toronto.edu/~hinton/ |
+| [Geometric & Intelligent Computing Laboratory](http://gicl.mcs.drexel.edu) | http://gicl.mcs.drexel.edu |
+| [George Dahl](http://www.cs.toronto.edu/~gdahl/) | http://www.cs.toronto.edu/~gdahl/ |
+| [Geospatial AI](../../Agriculture/Biomass_AI/) | ../../Agriculture/Biomass_AI/ |
+| [German Fingerspelling Database](http://www-i6.informatik.rwth-aachen.de/~dreuw/database.html) - The database contains 35 gestures and consists of 1400 image sequences that contain gestures of 20 different persons recorded under non-uniform daylight lighting conditions. (Formats: mpg,jpg) | http://www-i6.informatik.rwth-aachen.de/~dreuw/database.html) - The database contains 35 gestures and consists of 1400 image sequences that contain gestures of 20 different persons recorded under non-uniform daylight lighting conditions. (Formats: mpg,jpg |
+| [GFRNN](http://arxiv.org/pdf/1502.02367v3.pdf) [.](http://jmlr.org/proceedings/papers/v37/chung15.pdf) [.](http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf) | http://jmlr.org/proceedings/papers/v37/chung15-supp.pdf |
+| [ggml-org/models-moved](https://huggingface.co/ggml-org/models-moved) | https://huggingface.co/ggml-org/models-moved |
+| [GitHub](https://github.com/amazon-science/chronos-forecasting) | https://github.com/amazon-science/chronos-forecasting |
+| [GitHub](https://github.com/google-deepmind/graphcast) | https://github.com/google-deepmind/graphcast |
+| [GitHub](https://github.com/NVlabs/FourCastNet) | https://github.com/NVlabs/FourCastNet |
+| [GitHub](https://github.com/nxai/tirex) | https://github.com/nxai/tirex |
+| [GitHub (Open Source)](https://github.com/google-deepmind/graphcast) | https://github.com/google-deepmind/graphcast |
+| [GitHub Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | https://github.com/awesomedata/awesome-public-datasets |
+| [GitHub Repository](https://github.com/bowang-lab/MedSAM) | https://github.com/bowang-lab/MedSAM |
+| [GitHub: AutoGluon](https://github.com/autogluon/autogluon) | https://github.com/autogluon/autogluon |
+| [GitHub: AutonLab](https://github.com/autonlab) | https://github.com/autonlab |
+| [GitHub: IBM Granite](https://github.com/ibm-granite) | https://github.com/ibm-granite |
+| [GLM](https://github.com/JuliaStats/GLM.jl) | https://github.com/JuliaStats/GLM.jl |
+| [GLMNet](https://github.com/simonster/GLMNet.jl) | https://github.com/simonster/GLMNet.jl |
+| [globe](https://github.com/mmcloughlin/globe) | https://github.com/mmcloughlin/globe |
+| [glot](https://github.com/arafatk/glot) | https://github.com/arafatk/glot |
+| [GLUE](https://gluebenchmark.com/) | https://gluebenchmark.com/ |
+| [go-dnn](https://github.com/sudachen/go-dnn) - Deep Neural Networks for Golang (powered by MXNet) | https://github.com/sudachen/go-dnn) - Deep Neural Networks for Golang (powered by MXNet |
+| [go-featureprocessing](https://github.com/nikolaydubina/go-featureprocessing) | https://github.com/nikolaydubina/go-featureprocessing |
+| [go-galib](https://github.com/thoj/go-galib) | https://github.com/thoj/go-galib |
+| [go-geom](https://github.com/twpayne/go-geom) | https://github.com/twpayne/go-geom |
+| [go-graph](https://github.com/StepLg/go-graph) | https://github.com/StepLg/go-graph |
+| [go-ml](https://github.com/alonsovidales/go_ml) | https://github.com/alonsovidales/go_ml |
+| [go-ml-benchmarks](https://github.com/nikolaydubina/go-ml-benchmarks) | https://github.com/nikolaydubina/go-ml-benchmarks |
+| [go-ml-transpiler](https://github.com/znly/go-ml-transpiler) | https://github.com/znly/go-ml-transpiler |
+| [go-mxnet-predictor](https://github.com/songtianyi/go-mxnet-predictor) | https://github.com/songtianyi/go-mxnet-predictor |
+| [go-ngram](https://github.com/Lazin/go-ngram) | https://github.com/Lazin/go-ngram |
+| [go-porterstemmer](https://github.com/reiver/go-porterstemmer) | https://github.com/reiver/go-porterstemmer |
+| [go-pr](https://github.com/daviddengcn/go-pr) | https://github.com/daviddengcn/go-pr |
+| [gobrain](https://github.com/goml/gobrain) | https://github.com/goml/gobrain |
+| [GoCV](https://github.com/hybridgroup/gocv) | https://github.com/hybridgroup/gocv |
+| [gogeo](https://github.com/golang/geo) | https://github.com/golang/geo |
+| [gold](https://github.com/aunum/gold) | https://github.com/aunum/gold |
+| [golearn](https://github.com/sjwhitworth/golearn) | https://github.com/sjwhitworth/golearn |
+| [goml](https://github.com/cdipaolo/goml) | https://github.com/cdipaolo/goml |
+| [GoNN](https://github.com/fxsjy/gonn) | https://github.com/fxsjy/gonn |
+| [gonum/graph](https://godoc.org/gonum.org/v1/gonum/graph) | https://godoc.org/gonum.org/v1/gonum/graph |
+| [gonum/mat](https://godoc.org/gonum.org/v1/gonum/mat) | https://godoc.org/gonum.org/v1/gonum/mat |
+| [gonum/optimize](https://godoc.org/gonum.org/v1/gonum/optimize) | https://godoc.org/gonum.org/v1/gonum/optimize |
+| [gonum/plot](https://godoc.org/gonum.org/v1/plot) | https://godoc.org/gonum.org/v1/plot |
+| [gonum/stat](https://godoc.org/gonum.org/v1/gonum/stat) | https://godoc.org/gonum.org/v1/gonum/stat |
+| [Google - Sequence to Sequence  Learning with Neural Networks](http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) | http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf |
+| [Google Cloud AutoML](https://cloud.google.com/automl) | https://cloud.google.com/automl |
+| [Google Cloud Public Datasets](https://cloud.google.com/public-datasets) | https://cloud.google.com/public-datasets |
+| [Google Cloud Vertex AI](https://cloud.google.com/vertex-ai) | https://cloud.google.com/vertex-ai |
+| [Google Colab Pro](https://colab.research.google.com/signup) ($9.99/mês) | https://colab.research.google.com/signup) ($9.99/mês |
+| [Google Dataset Search](https://datasetsearch.research.google.com) | https://datasetsearch.research.google.com |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | https://datasetsearch.research.google.com/ |
+| [Google DeepMind AlphaFold 3 Announcement](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) | https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/ |
+| [Google DeepMind Blog](https://deepmind.google/discover/blog/) | https://deepmind.google/discover/blog/ |
+| [Google House Numbers](http://ufldl.stanford.edu/housenumbers/) | http://ufldl.stanford.edu/housenumbers/ |
+| [Google Research Blog](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/) | https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/ |
+| [google-bert/bert-base-cased](https://huggingface.co/google-bert/bert-base-cased) | https://huggingface.co/google-bert/bert-base-cased |
+| [google-bert/bert-base-multilingual-cased](https://huggingface.co/google-bert/bert-base-multilingual-cased) | https://huggingface.co/google-bert/bert-base-multilingual-cased |
+| [google-bert/bert-base-multilingual-uncased](https://huggingface.co/google-bert/bert-base-multilingual-uncased) | https://huggingface.co/google-bert/bert-base-multilingual-uncased |
+| [google-bert/bert-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) | https://huggingface.co/google-bert/bert-base-uncased |
+| [google-t5/t5-small](https://huggingface.co/google-t5/t5-small) | https://huggingface.co/google-t5/t5-small |
+| [google/electra-base-discriminator](https://huggingface.co/google/electra-base-discriminator) | https://huggingface.co/google/electra-base-discriminator |
+| [google/gemma-3-1b-it](https://huggingface.co/google/gemma-3-1b-it) | https://huggingface.co/google/gemma-3-1b-it |
+| [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224) | https://huggingface.co/google/vit-base-patch16-224 |
+| [gorgonia](https://github.com/gorgonia/gorgonia) | https://github.com/gorgonia/gorgonia |
+| [goro](https://github.com/aunum/goro) | https://github.com/aunum/goro |
+| [gorse](https://github.com/zhenghaoz/gorse) | https://github.com/zhenghaoz/gorse |
+| [gota](https://github.com/go-gota/gota) | https://github.com/go-gota/gota |
+| [Gourieff/ReActor](https://huggingface.co/datasets/Gourieff/ReActor) | https://huggingface.co/datasets/Gourieff/ReActor |
+| [GPR](https://mmottl.github.io/gpr/) | https://mmottl.github.io/gpr/ |
+| [Graduate Summer School: Deep Learning, Feature Learning](https://www.youtube.com/playlist?list=PLHyI3Fbmv0SdzMHAy0aN59oYnLy5vyyTA) by Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Andrew Ng, Nando de Freitas and several others @ IPAM, UCLA (2012) | https://www.youtube.com/playlist?list=PLHyI3Fbmv0SdzMHAy0aN59oYnLy5vyyTA) by Geoffrey Hinton, Yoshua Bengio, Yann LeCun, Andrew Ng, Nando de Freitas and several others @ IPAM, UCLA (2012 |
+| [Graham Taylor](http://www.uoguelph.ca/~gwtaylor/) | http://www.uoguelph.ca/~gwtaylor/ |
+| [Grand Challenge - Medical Imaging Challenges](https://grand-challenge.org/) | https://grand-challenge.org/ |
+| [graph](https://github.com/torch/graph) | https://github.com/torch/graph |
+| [Graph Layout](https://github.com/IainNZ/GraphLayout.jl) | https://github.com/IainNZ/GraphLayout.jl |
+| [GrassClover dataset](04_Datasets/) | 04_Datasets/ |
+| [GreatCircle](https://github.com/mwgg/GreatCircle) | https://github.com/mwgg/GreatCircle |
+| [Grokking Deep Learning](https://www.manning.com/books/grokking-deep-learning) | https://www.manning.com/books/grokking-deep-learning |
+| [Grokking Deep Learning for Computer Vision](https://www.manning.com/books/grokking-deep-learning-for-computer-vision) | https://www.manning.com/books/grokking-deep-learning-for-computer-vision |
+| [Grokking Deep Learning in Motion](https://www.manning.com/livevideo/grokking-deep-learning-in-motion) by Beau Carnes (2018) | https://www.manning.com/livevideo/grokking-deep-learning-in-motion) by Beau Carnes (2018 |
+| [Groningen Natural Image Database](http://hlab.phys.rug.nl/archive.html) - 4000+ 1536x1024 (16 bit) calibrated outdoor images (Formats: homebrew) | http://hlab.phys.rug.nl/archive.html) - 4000+ 1536x1024 (16 bit) calibrated outdoor images (Formats: homebrew |
+| [grt](https://github.com/nickgillian/grt) - The Gesture Recognition Toolkit (GRT) | https://github.com/nickgillian/grt) - The Gesture Recognition Toolkit (GRT |
+| [GRU - Gated Recurrent Unit](http://arxiv.org/pdf/1406.1078v3.pdf) | http://arxiv.org/pdf/1406.1078v3.pdf |
+| [Grégoire Montavon](http://gregoire.montavon.name/) | http://gregoire.montavon.name/ |
+| [GUIA_FASE1_COMPLETO.md](docs/GUIA_FASE1_COMPLETO.md) | docs/GUIA_FASE1_COMPLETO.md |
+| [GUIA_FASE1_COMPLETO.md](GUIA_FASE1_COMPLETO.md) | GUIA_FASE1_COMPLETO.md |
+| [Guide to Machine Learning](http://yerevann.com/a-guide-to-deep-learning/) | http://yerevann.com/a-guide-to-deep-learning/ |
+| [Guido Francisco Montúfar](http://personal-homepages.mis.mpg.de/montufar/) | http://personal-homepages.mis.mpg.de/montufar/ |
+| [Guillaume Desjardins](http://brainlogging.wordpress.com/) | http://brainlogging.wordpress.com/ |
+| [H2O](https://github.com/h2oai/h2o-3) | https://github.com/h2oai/h2o-3 |
+| [H2O AutoML](https://docs.h2o.ai) | https://docs.h2o.ai |
+| [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html) | https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html |
+| [Hadoop](https://github.com/apache/hadoop) | https://github.com/apache/hadoop |
+| [Half Beer](https://github.com/sta-ger/HalfBeer) - Beer glass classifier created with [Synaptic](https://github.com/cazala/synaptic) | https://github.com/cazala/synaptic |
+| [hallucinations-leaderboard/results](https://huggingface.co/datasets/hallucinations-leaderboard/results) | https://huggingface.co/datasets/hallucinations-leaderboard/results |
+| [Hanami](https://github.com/jsa-aerial/hanami) : Clojure(Script) library and framework for creating interactive visualization applications based in Vega-Lite (VGL) and/or Vega (VG) | https://github.com/jsa-aerial/hanami) : Clojure(Script) library and framework for creating interactive visualization applications based in Vega-Lite (VGL) and/or Vega (VG |
+| [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf) | https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf |
+| [Hannes Schulz](http://www.ais.uni-bonn.de/~schulz/) | http://www.ais.uni-bonn.de/~schulz/ |
+| [Hardware for AI: Understanding computer hardware & build your own computer](https://github.com/MelAbgrall/HardwareforAI) | https://github.com/MelAbgrall/HardwareforAI |
+| [Harvard Atlas](http://atlas.cid.harvard.edu/)) | http://atlas.cid.harvard.edu/) |
+| [Harvard EconCS Group](https://github.com/HarvardEconCS) | https://github.com/HarvardEconCS |
+| [Harvard University](https://github.com/harvard) | https://github.com/harvard |
+| [haskell-ml](https://github.com/ajtulloch/haskell-ml) | https://github.com/ajtulloch/haskell-ml |
+| [Healthcare](./Healthcare/) | ./Healthcare/ |
+| [Healthcare / Saúde](./04_APPLY/Healthcare/) | ./04_APPLY/Healthcare/ |
+| [Healthcare AI](../../Healthcare/) | ../../Healthcare/ |
+| [HELM](https://crfm.stanford.edu/helm/) | https://crfm.stanford.edu/helm/ |
+| [Helsinki-NLP/fineweb-edu-translated](https://huggingface.co/datasets/Helsinki-NLP/fineweb-edu-translated) | https://huggingface.co/datasets/Helsinki-NLP/fineweb-edu-translated |
+| [here](https://arxiv.org/abs/1902.06714) | https://arxiv.org/abs/1902.06714 |
+| [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) | https://github.com/jindongwang/transferlearning/blob/master/data |
+| [here](https://github.com/terryum/awesome-deep-learning-papers) | https://github.com/terryum/awesome-deep-learning-papers |
+| [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) and [HERE](https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing) | https://colab.research.google.com/drive/1MVuk95mMg4ecGyUAIG94vedF81HtWQAr?usp=sharing |
+| [Heroes Wear Masks](https://heroeswearmasks.fun/) | https://heroeswearmasks.fun/ |
+| [Heterogeneous transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#heterogeneous-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#heterogeneous-transfer-learning |
+| [hexgrad/Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | https://huggingface.co/hexgrad/Kokoro-82M |
+| [hf-doc-build/doc-build](https://huggingface.co/datasets/hf-doc-build/doc-build) | https://huggingface.co/datasets/hf-doc-build/doc-build |
+| [hf-doc-build/doc-build-dev](https://huggingface.co/datasets/hf-doc-build/doc-build-dev) | https://huggingface.co/datasets/hf-doc-build/doc-build-dev |
+| [hf-internal-testing/hf_hub_cache](https://huggingface.co/datasets/hf-internal-testing/hf_hub_cache) | https://huggingface.co/datasets/hf-internal-testing/hf_hub_cache |
+| [hf-internal-testing/transformers_circleci_workflow_runs](https://huggingface.co/datasets/hf-internal-testing/transformers_circleci_workflow_runs) | https://huggingface.co/datasets/hf-internal-testing/transformers_circleci_workflow_runs |
+| [hf-vision/course-assets](https://huggingface.co/datasets/hf-vision/course-assets) | https://huggingface.co/datasets/hf-vision/course-assets |
+| [High Charts](https://www.highcharts.com/) | https://www.highcharts.com/ |
+| [hips.seas.harvard.edu](http://hips.seas.harvard.edu/) | http://hips.seas.harvard.edu/ |
+| [HLearn](https://github.com/mikeizbicki/HLearn) | https://github.com/mikeizbicki/HLearn |
+| [hnn](https://github.com/alpmestan/HNN) | https://github.com/alpmestan/HNN |
+| [Honglak Lee](http://web.eecs.umich.edu/~honglak/) | http://web.eecs.umich.edu/~honglak/ |
+| [hopfield-networks](https://github.com/ajtulloch/hopfield-networks) | https://github.com/ajtulloch/hopfield-networks |
+| [Hopsworks](https://github.com/logicalclocks/hopsworks) | https://github.com/logicalclocks/hopsworks |
+| [Hopsworks](https://www.hopsworks.ai/) | https://www.hopsworks.ai/ |
+| [How To Create A Mind](https://www.youtube.com/watch?v=RIkxVci-R4k) | https://www.youtube.com/watch?v=RIkxVci-R4k |
+| [HPLT/HPLT2.0_cleaned](https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned) | https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned |
+| [htm.java](https://github.com/numenta/htm.java) | https://github.com/numenta/htm.java |
+| [https://ai.google.dev/](https://ai.google.dev/) | https://ai.google.dev/ |
+| [https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/](https://ai.meta.com/blog/imagebind-six-modalidades-unified-embedding/) | https://ai.meta.com/blog/imagebind-six-modalidades-unified-embedding/ |
+| [https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/](https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/) | https://ai.meta.com/blog/imagebind-six-modalities-unified-embedding/ |
+| [https://ai.meta.com/blog/llama-3/](https://ai.meta.com/blog/llama-3/) | https://ai.meta.com/blog/llama-3/ |
+| [https://arxiv.org/abs/1904.05045](https://arxiv.org/abs/1904.05045) | https://arxiv.org/abs/1904.05045 |
+| [https://arxiv.org/abs/2212.09748](https://arxiv.org/abs/2212.09748) | https://arxiv.org/abs/2212.09748 |
+| [https://arxiv.org/abs/2305.05665](https://arxiv.org/abs/2305.05665) | https://arxiv.org/abs/2305.05665 |
+| [https://deepmind.google/technologies/gemini/](https://deepmind.google/technologies/gemini/) | https://deepmind.google/technologies/gemini/ |
+| [https://docs.anthropic.com/](https://docs.anthropic.com/) | https://docs.anthropic.com/ |
+| [https://docs.mistral.ai/](https://docs.mistral.ai/) | https://docs.mistral.ai/ |
+| [https://github.com/autogluon/autogluon](https://github.com/autogluon/autogluon) | https://github.com/autogluon/autogluon |
+| [https://github.com/awesome-mlops/awesome-mlops-platforms](https://github.com/awesome-mlops/awesome-mlops-platforms) | https://github.com/awesome-mlops/awesome-mlops-platforms |
+| [https://github.com/Azure/MachineLearningNotebooks](https://github.com/Azure/MachineLearningNotebooks) | https://github.com/Azure/MachineLearningNotebooks |
+| [https://github.com/BMEII-AI/RadImageNet](https://github.com/BMEII-AI/RadImageNet) | https://github.com/BMEII-AI/RadImageNet |
+| [https://github.com/catboost/catboost](https://github.com/catboost/catboost) | https://github.com/catboost/catboost |
+| [https://github.com/DataSciBoy/MLOps](https://github.com/DataSciBoy/MLOps) | https://github.com/DataSciBoy/MLOps |
+| [https://github.com/dmlc/xgboost](https://github.com/dmlc/xgboost) | https://github.com/dmlc/xgboost |
+| [https://github.com/dvc-org/dvc](https://github.com/dvc-org/dvc) | https://github.com/dvc-org/dvc |
+| [https://github.com/facebookresearch/DiT](https://github.com/facebookresearch/DiT) | https://github.com/facebookresearch/DiT |
+| [https://github.com/facebookresearch/ImageBind](https://github.com/facebookresearch/ImageBind) | https://github.com/facebookresearch/ImageBind |
+| [https://github.com/h2oai/h2o-3](https://github.com/h2oai/h2o-3) | https://github.com/h2oai/h2o-3 |
+| [https://github.com/Habtish-yimer/ML-Libraries-Python](https://github.com/Habtish-yimer/ML-Libraries-Python) | https://github.com/Habtish-yimer/ML-Libraries-Python |
+| [https://github.com/JoeriHermans/dist-keras](https://github.com/JoeriHermans/dist-keras) | https://github.com/JoeriHermans/dist-keras |
+| [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) | https://github.com/josephmisiti/awesome-machine-learning |
+| [https://github.com/kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops) | https://github.com/kelvins/awesome-mlops |
+| [https://github.com/keras-team/keras](https://github.com/keras-team/keras) | https://github.com/keras-team/keras |
+| [https://github.com/kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) | https://github.com/kubeflow/kubeflow |
+| [https://github.com/logicalclocks/hopsworks](https://github.com/logicalclocks/hopsworks) | https://github.com/logicalclocks/hopsworks |
+| [https://github.com/lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | https://github.com/lukasmasuch/best-of-ml-python |
+| [https://github.com/meta-llama/llama3](https://github.com/meta-llama/llama3) | https://github.com/meta-llama/llama3 |
+| [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM) | https://github.com/microsoft/LightGBM |
+| [https://github.com/Microsoft/MLOpsPython](https://github.com/Microsoft/MLOpsPython) | https://github.com/Microsoft/MLOpsPython |
+| [https://github.com/mlflow/mlflow](https://github.com/mlflow/mlflow) | https://github.com/mlflow/mlflow |
+| [https://github.com/mlreef/mlreef](https://github.com/mlreef/mlreef) | https://github.com/mlreef/mlreef |
+| [https://github.com/Netflix/metaflow](https://github.com/Netflix/metaflow) | https://github.com/Netflix/metaflow |
+| [https://github.com/pachyderm/pachyderm](https://github.com/pachyderm/pachyderm) | https://github.com/pachyderm/pachyderm |
+| [https://github.com/polyaxon/polyaxon](https://github.com/polyaxon/polyaxon) | https://github.com/polyaxon/polyaxon |
+| [https://github.com/pybrain/pybrain](https://github.com/pybrain/pybrain) | https://github.com/pybrain/pybrain |
+| [https://github.com/pycaret/pycaret](https://github.com/pycaret/pycaret) | https://github.com/pycaret/pycaret |
+| [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch) | https://github.com/pytorch/pytorch |
+| [https://github.com/scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | https://github.com/scikit-learn/scikit-learn |
+| [https://github.com/SeldonIO/seldon-core](https://github.com/SeldonIO/seldon-core) | https://github.com/SeldonIO/seldon-core |
+| [https://github.com/sematic-ai/sematic](https://github.com/sematic-ai/sematic) | https://github.com/sematic-ai/sematic |
+| [https://github.com/sorend/awesome-python-machine-learning](https://github.com/sorend/awesome-python-machine-learning) | https://github.com/sorend/awesome-python-machine-learning |
+| [https://github.com/TeamHG-Memex/eli5](https://github.com/TeamHG-Memex/eli5) | https://github.com/TeamHG-Memex/eli5 |
+| [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | https://github.com/tensorflow/tensorflow |
+| [https://github.com/Ternaus/awesome-mlops](https://github.com/Ternaus/awesome-mlops) | https://github.com/Ternaus/awesome-mlops |
+| [https://github.com/Theano/Theano](https://github.com/Theano/Theano) | https://github.com/Theano/Theano |
+| [https://github.com/zenml-io/zenml](https://github.com/zenml-io/zenml) | https://github.com/zenml-io/zenml |
+| [https://huggingface.co/meta-llama](https://huggingface.co/meta-llama) | https://huggingface.co/meta-llama |
+| [https://mistral.ai/](https://mistral.ai/) | https://mistral.ai/ |
+| [https://mistral.ai/news/mistral-large/](https://mistral.ai/news/mistral-large/) | https://mistral.ai/news/mistral-large/ |
+| [https://neptune.ai/blog/mlops-tools-platforms-landscape](https://neptune.ai/blog/mlops-tools-platforms-landscape) | https://neptune.ai/blog/mlops-tools-platforms-landscape |
+| [https://openai.com/](https://openai.com/) | https://openai.com/ |
+| [https://openai.com/sora](https://openai.com/sora) | https://openai.com/sora |
+| [https://physionet.org/content/mimic-cxr/](https://physionet.org/content/mimic-cxr/) | https://physionet.org/content/mimic-cxr/ |
+| [https://portal.gdc.cancer.gov/](https://portal.gdc.cancer.gov/) | https://portal.gdc.cancer.gov/ |
+| [https://stanfordmlgroup.github.io/competitions/chexpert/](https://stanfordmlgroup.github.io/competitions/chexpert/) | https://stanfordmlgroup.github.io/competitions/chexpert/ |
+| [https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf) | https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf |
+| [https://www.anthropic.com/](https://www.anthropic.com/) | https://www.anthropic.com/ |
+| [https://www.anthropic.com/news/claude-3-family](https://www.anthropic.com/news/claude-3-family) | https://www.anthropic.com/news/claude-3-family |
+| [https://www.cancer.gov/tcga](https://www.cancer.gov/tcga) | https://www.cancer.gov/tcga |
+| [https://www.isic-archive.com/](https://www.isic-archive.com/) | https://www.isic-archive.com/ |
+| [https://www.radimagenet.com/](https://www.radimagenet.com/) | https://www.radimagenet.com/ |
+| [https://x.ai/](https://x.ai/) | https://x.ai/ |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | https://huggingface.co/datasets |
+| [Hugging Face Models](https://huggingface.co/models) | https://huggingface.co/models |
+| [huggingchat/models-logo](https://huggingface.co/datasets/huggingchat/models-logo) | https://huggingface.co/datasets/huggingchat/models-logo |
+| [HuggingFace](https://huggingface.co/amazon/chronos-2) | https://huggingface.co/amazon/chronos-2 |
+| [HuggingFace](https://huggingface.co/autogluon/chronos-bolt-base) | https://huggingface.co/autogluon/chronos-bolt-base |
+| [HuggingFace](https://huggingface.co/AutonLab/MOMENT-1-large) | https://huggingface.co/AutonLab/MOMENT-1-large |
+| [HuggingFace](https://huggingface.co/google/timesfm-2.5-200m-pytorch) | https://huggingface.co/google/timesfm-2.5-200m-pytorch |
+| [HuggingFace](https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2) | https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2 |
+| [HuggingFace](https://huggingface.co/spaces/google/graphcast) | https://huggingface.co/spaces/google/graphcast |
+| [HuggingFace](https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025) | https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025 |
+| [HuggingFace - Lab-Rasool/RadImageNet](https://huggingface.co/Lab-Rasool/RadImageNet) | https://huggingface.co/Lab-Rasool/RadImageNet |
+| [HuggingFace Demo](https://huggingface.co/spaces/google/graphcast) | https://huggingface.co/spaces/google/graphcast |
+| [HuggingFace Model](https://huggingface.co/AutonLab/MOMENT-1-large) | https://huggingface.co/AutonLab/MOMENT-1-large |
+| [HuggingFace Model](https://huggingface.co/google/timesfm-2.5-200m-pytorch) | https://huggingface.co/google/timesfm-2.5-200m-pytorch |
+| [HuggingFace Model](https://huggingface.co/nxai/tirex) | https://huggingface.co/nxai/tirex |
+| [HuggingFace Model](https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025) | https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025 |
+| [huggingface-course/documentation-images](https://huggingface.co/datasets/huggingface-course/documentation-images) | https://huggingface.co/datasets/huggingface-course/documentation-images |
+| [huggingface-deep-rl-course/course-images](https://huggingface.co/datasets/huggingface-deep-rl-course/course-images) | https://huggingface.co/datasets/huggingface-deep-rl-course/course-images |
+| [huggingface.co/Alibaba/Qwen2.5-1.5B-Instruct](https://huggingface.co/Alibaba/Qwen2.5-1.5B-Instruct) | https://huggingface.co/Alibaba/Qwen2.5-1.5B-Instruct |
+| [huggingface.co/autogluon/autogluon-timeseries](https://huggingface.co/autogluon/autogluon-timeseries) | https://huggingface.co/autogluon/autogluon-timeseries |
+| [huggingface.co/BAAI/bge-large-en](https://huggingface.co/BAAI/bge-large-en) | https://huggingface.co/BAAI/bge-large-en |
+| [huggingface.co/bert-base-uncased](https://huggingface.co/bert-base-uncased) | https://huggingface.co/bert-base-uncased |
+| [huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest) | https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest |
+| [huggingface.co/dima806/fairface_age_image_detection](https://huggingface.co/dima806/fairface_age_image_detection) | https://huggingface.co/dima806/fairface_age_image_detection |
+| [huggingface.co/Falconsai/nsfw_image_detection](https://huggingface.co/Falconsai/nsfw_image_detection) | https://huggingface.co/Falconsai/nsfw_image_detection |
+| [huggingface.co/openai/clip-vit-base-patch16](https://huggingface.co/openai/clip-vit-base-patch16) | https://huggingface.co/openai/clip-vit-base-patch16 |
+| [huggingface.co/openai/gpt-3](https://huggingface.co/openai/gpt-3) | https://huggingface.co/openai/gpt-3 |
+| [huggingface.co/pyannote/audio](https://huggingface.co/pyannote/audio) | https://huggingface.co/pyannote/audio |
+| [huggingface/badges](https://huggingface.co/datasets/huggingface/badges) | https://huggingface.co/datasets/huggingface/badges |
+| [huggingface/brand-assets](https://huggingface.co/datasets/huggingface/brand-assets) | https://huggingface.co/datasets/huggingface/brand-assets |
+| [huggingface/documentation-images](https://huggingface.co/datasets/huggingface/documentation-images) | https://huggingface.co/datasets/huggingface/documentation-images |
+| [HuggingFace: Chronos-2](https://huggingface.co/amazon/chronos-2) | https://huggingface.co/amazon/chronos-2 |
+| [HuggingFace: Chronos-Bolt-Base](https://huggingface.co/autogluon/chronos-bolt-base) | https://huggingface.co/autogluon/chronos-bolt-base |
+| [HuggingFace: Chronos-Bolt-Tiny](https://huggingface.co/autogluon/chronos-bolt-tiny) | https://huggingface.co/autogluon/chronos-bolt-tiny |
+| [HuggingFace: Chronos-T5-Small](https://huggingface.co/amazon/chronos-t5-small) | https://huggingface.co/amazon/chronos-t5-small |
+| [HuggingFace: Time Series Models](https://huggingface.co/models?pipeline_tag=time-series-forecasting) | https://huggingface.co/models?pipeline_tag=time-series-forecasting |
+| [HuggingFace: TTM-R1](https://huggingface.co/ibm-granite/granite-timeseries-ttm-r1) | https://huggingface.co/ibm-granite/granite-timeseries-ttm-r1 |
+| [HuggingFace: TTM-R2](https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2) | https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2 |
+| [HuggingFaceFW/fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) | https://huggingface.co/datasets/HuggingFaceFW/fineweb |
+| [HuggingFaceFW/fineweb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) | https://huggingface.co/datasets/HuggingFaceFW/fineweb-2 |
+| [HuggingFaceFW/fineweb-edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) | https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu |
+| [HuggingFaceM4/FineVision](https://huggingface.co/datasets/HuggingFaceM4/FineVision) | https://huggingface.co/datasets/HuggingFaceM4/FineVision |
+| [Hugo Larochelle](http://www.dmi.usherb.ca/~larocheh/index_en.html) | http://www.dmi.usherb.ca/~larocheh/index_en.html |
+| [Human activity recognition](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#human-activity-recognition) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#human-activity-recognition |
+| [HumanEval](https://github.com/openai/human-eval) | https://github.com/openai/human-eval |
+| [Humans vs AI Benchmarks](./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/) | ./03_RESOURCES/3.5_Humans_vs_AI_Benchmarks/ |
+| [hustvl/vitmatte-small-composition-1k](https://huggingface.co/hustvl/vitmatte-small-composition-1k) | https://huggingface.co/hustvl/vitmatte-small-composition-1k |
+| [Hybrid Recommender System](https://github.com/SeniorSA/hybrid-rs-trainner) | https://github.com/SeniorSA/hybrid-rs-trainner |
+| [Hydrosphere Mist](https://github.com/Hydrospheredata/mist) | https://github.com/Hydrospheredata/mist |
+| [Hypothesis Tests](https://github.com/JuliaStats/HypothesisTests.jl) | https://github.com/JuliaStats/HypothesisTests.jl |
+| [Hélène Paugam-Moisy](http://www.lri.fr/~hpaugam/) | http://www.lri.fr/~hpaugam/ |
+| [IA Geoespacial](../../Agriculture/Biomass_AI/) | ../../Agriculture/Biomass_AI/ |
+| [IAKS/KOGS](http://i21www.ira.uka.de) | http://i21www.ira.uka.de |
+| [Ian Goodfellow](https://research.google.com/pubs/105214.html) | https://research.google.com/pubs/105214.html |
+| [IBM Granite model](02_AI_Models/) | 02_AI_Models/ |
+| [IBM Transfer Learning Guide](https://www.ibm.com/topics/transfer-learning) | https://www.ibm.com/topics/transfer-learning |
+| [ibrahimhamamci/CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) | https://huggingface.co/datasets/ibrahimhamamci/CT-RATE |
+| [ICG Testhouse sequence](http://www.icg.tu-graz.ac.at/~schindler/Data) -  2 turntable sequences from different viewing heights, 36 images each, resolution 1000x750, color (Formats: PPM) | http://www.icg.tu-graz.ac.at/~schindler/Data) -  2 turntable sequences from different viewing heights, 36 images each, resolution 1000x750, color (Formats: PPM |
+| [IEN Image Library](http://www.ien.it/is/vislib/) - 1000+ images, mostly outdoor sequences (Formats: raw, ppm) | http://www.ien.it/is/vislib/) - 1000+ images, mostly outdoor sequences (Formats: raw, ppm |
+| [igraph](http://igraph.org/) | http://igraph.org/ |
+| [IJCAI'13](http://ijcai13.org/files/tutorial_slides/td2.pdf)]([2016 version) | [2016 version |
+| [IJCAI-ECAI'22 tutorial on domain generalization - 领域泛化tutorial](https://dgresearch.github.io/) | https://dgresearch.github.io/ |
+| [illinois](https://github.com/illinois) | https://github.com/illinois |
+| [Ilya Sutskever](http://www.cs.toronto.edu/~ilya/) | http://www.cs.toronto.edu/~ilya/ |
+| [Image Analysis and Computer Graphics](http://www.imm.dtu.dk/image/) | http://www.imm.dtu.dk/image/ |
+| [Image Analysis Laboratory](http://www.ece.ncsu.edu/imaging) | http://www.ece.ncsu.edu/imaging |
+| [Image Analysis Laboratory](http://www.ece.ncsu.edu/imaging/Archives/ImageDataBase/index.html) - Images obtained from a variety of imaging modalities -- raw CFA images, range images and a host of "medical images". (Formats: homebrew) | http://www.ece.ncsu.edu/imaging/Archives/ImageDataBase/index.html) - Images obtained from a variety of imaging modalities -- raw CFA images, range images and a host of "medical images". (Formats: homebrew |
+| [Image Database](http://www.prip.tuwien.ac.at/prip/image.html) | http://www.prip.tuwien.ac.at/prip/image.html |
+| [Image QA](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/) | http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/ |
+| [Image Recognition App using Tflite and Flutter](https://github.com/SauravMaheshkar/Flutter_Image-Recognition) | https://github.com/SauravMaheshkar/Flutter_Image-Recognition |
+| [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/pdf/1611.07004v1.pdf) | https://arxiv.org/pdf/1611.07004v1.pdf |
+| [Image2Biomass dataset](04_Datasets/) | 04_Datasets/ |
+| [IMAGENET](http://www.image-net.org/) | http://www.image-net.org/ |
+| [ImageNet](https://www.image-net.org/) | https://www.image-net.org/ |
+| [ImageNet](https://www.image-net.org/challenges/LSVRC/) | https://www.image-net.org/challenges/LSVRC/ |
+| [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf |
+| [Images](https://github.com/JuliaImages/Images.jl) | https://github.com/JuliaImages/Images.jl |
+| [imgraph](https://github.com/clementfarabet/lua---imgraph) | https://github.com/clementfarabet/lua---imgraph |
+| [Impala](https://github.com/cloudera/impala) | https://github.com/cloudera/impala |
+| [Imperial College London](https://github.com/ImperialCollegeLondon) | https://github.com/ImperialCollegeLondon |
+| [imutils](https://github.com/jrosebr1/imutils) | https://github.com/jrosebr1/imutils |
+| [Incanter](http://incanter.org/) | http://incanter.org/ |
+| [Infections-clj](https://github.com/r0man/inflections-clj) | https://github.com/r0man/inflections-clj |
+| [Infer](https://github.com/aria42/infer) | https://github.com/aria42/infer |
+| [Infer.NET](https://dotnet.github.io/infer/) | https://dotnet.github.io/infer/ |
+| [Infrastructure](./Infrastructure/) - Workflow orchestration and distributed systems (Airflow, Ray) | ./Infrastructure/) - Workflow orchestration and distributed systems (Airflow, Ray |
+| [Infrastructure / Infraestrutura](./03_DEPLOY/Infrastructure/) | ./03_DEPLOY/Infrastructure/ |
+| [INRIA](http://www.inria.fr/) | http://www.inria.fr/ |
+| [INRIA's Syntim images database](http://www-rocq.inria.fr/~tarel/syntim/images.html) - 15 color image of simple objects (Formats: gif) | http://www-rocq.inria.fr/~tarel/syntim/images.html) - 15 color image of simple objects (Formats: gif |
+| [INRIA's Syntim stereo databases](http://www-rocq.inria.fr/~tarel/syntim/paires.html) - 34 calibrated color stereo pairs (Formats: gif) | http://www-rocq.inria.fr/~tarel/syntim/paires.html) - 34 calibrated color stereo pairs (Formats: gif |
+| [Inside Deep Learning](https://www.manning.com/books/inside-deep-learning) | https://www.manning.com/books/inside-deep-learning |
+| [Institute of Computer Graphics and Vision](http://www.icg.tu-graz.ac.at) | http://www.icg.tu-graz.ac.at |
+| [Intel® oneAPI Data Analytics Library](https://github.com/oneapi-src/oneDAL) | https://github.com/oneapi-src/oneDAL |
+| [InternRobotics/InternData-fractal20220817_data](https://huggingface.co/datasets/InternRobotics/InternData-fractal20220817_data) | https://huggingface.co/datasets/InternRobotics/InternData-fractal20220817_data |
+| [Intro to Deep Learning with PyTorch](https://www.udacity.com/course/deep-learning-pytorch--ud188) | https://www.udacity.com/course/deep-learning-pytorch--ud188 |
+| [Introduction to Artificial Neural Networks and Deep Learning](https://www.youtube.com/watch?v=FoO8qDB8gUU) | https://www.youtube.com/watch?v=FoO8qDB8gUU |
+| [Introduction to Deep Learning](http://deeplearning.cs.cmu.edu/) by Prof. Bhiksha Raj (2017) | http://deeplearning.cs.cmu.edu/) by Prof. Bhiksha Raj (2017 |
+| [IoT Owl](https://github.com/Ret2Me/IoT-Owl) | https://github.com/Ret2Me/IoT-Owl |
+| [IPEC-COMMUNITY/bridge_orig_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot |
+| [IPEC-COMMUNITY/droid_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/droid_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/droid_lerobot |
+| [IPEC-COMMUNITY/kuka_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/kuka_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/kuka_lerobot |
+| [IPEC-COMMUNITY/language_table_lerobot](https://huggingface.co/datasets/IPEC-COMMUNITY/language_table_lerobot) | https://huggingface.co/datasets/IPEC-COMMUNITY/language_table_lerobot |
+| [isi.edu/AI/isd.htm](http://www.isi.edu/AI/isd.htm) | http://www.isi.edu/AI/isd.htm |
+| [isomorphiclabs.com](https://www.isomorphiclabs.com/) | https://www.isomorphiclabs.com/ |
+| [Isotonic/distilbert_finetuned_ai4privacy_v2](https://huggingface.co/Isotonic/distilbert_finetuned_ai4privacy_v2) | https://huggingface.co/Isotonic/distilbert_finetuned_ai4privacy_v2 |
+| [Issue no GitHub](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [Itamar Arel](http://mil.engr.utk.edu/nmil/member/2.html) | http://mil.engr.utk.edu/nmil/member/2.html |
+| [JAFFE Facial Expression Image Database](http://www.mis.atr.co.jp/~mlyons/jaffe.html) - The JAFFE database consists of 213 images of Japanese female subjects posing 6 basic facial expressions as well as a neutral pose. Ratings on emotion adjectives are also available, free of charge, for research purposes. (Formats: TIFF Grayscale images.) | http://www.mis.atr.co.jp/~mlyons/jaffe.html) - The JAFFE database consists of 213 images of Japanese female subjects posing 6 basic facial expressions as well as a neutral pose. Ratings on emotion adjectives are also available, free of charge, for research purposes. (Formats: TIFF Grayscale images. |
+| [James Martens](http://www.cs.toronto.edu/~jmartens/) | http://www.cs.toronto.edu/~jmartens/ |
+| [jamesqijingsong/zidian](https://huggingface.co/datasets/jamesqijingsong/zidian) | https://huggingface.co/datasets/jamesqijingsong/zidian |
+| [japanese-asr/whisper_transcriptions.reazon_speech_all.wer_10.0.vectorized](https://huggingface.co/datasets/japanese-asr/whisper_transcriptions.reazon_speech_all.wer_10.0.vectorized) | https://huggingface.co/datasets/japanese-asr/whisper_transcriptions.reazon_speech_all.wer_10.0.vectorized |
+| [Jason Morton](http://www.jasonmorton.com/) | http://www.jasonmorton.com/ |
+| [Jason Weston](http://www.thespermwhale.com/jaseweston/) | http://www.thespermwhale.com/jaseweston/ |
+| [jat-project/jat-dataset](https://huggingface.co/datasets/jat-project/jat-dataset) | https://huggingface.co/datasets/jat-project/jat-dataset |
+| [jat-project/jat-dataset-tokenized](https://huggingface.co/datasets/jat-project/jat-dataset-tokenized) | https://huggingface.co/datasets/jat-project/jat-dataset-tokenized |
+| [Java Interop](https://clojure.org/reference/java_interop) | https://clojure.org/reference/java_interop |
+| [JavaScript Interop](https://clojurescript.org/reference/javascript-api) | https://clojurescript.org/reference/javascript-api |
+| [JAX](https://github.com/google/jax) | https://github.com/google/jax |
+| [Jax in Action](https://www.manning.com/books/jax-in-action) | https://www.manning.com/books/jax-in-action |
+| [Jeff Dean](http://research.google.com/pubs/jeff.html) | http://research.google.com/pubs/jeff.html |
+| [jeffdonahue.com/lrcn/](http://jeffdonahue.com/lrcn/) | http://jeffdonahue.com/lrcn/ |
+| [jieba](https://github.com/fxsjy/jieba#jieba-1) | https://github.com/fxsjy/jieba#jieba-1 |
+| [jieba-php](https://github.com/fukuball/jieba-php) | https://github.com/fukuball/jieba-php |
+| [jinaai/jina-embeddings-v3](https://huggingface.co/jinaai/jina-embeddings-v3) | https://huggingface.co/jinaai/jina-embeddings-v3 |
+| [Jiquan Mgiam](http://cs.stanford.edu/~jngiam/) | http://cs.stanford.edu/~jngiam/ |
+| [JISCT Stereo Evaluation](ftp://ftp.vislist.com/IMAGERY/JISCT/) - 44 image pairs. These data have been used in an evaluation of stereo analysis, as described in the April 1993 ARPA Image Understanding Workshop paper ``The JISCT Stereo Evaluation'' by R.C.Bolles, H.H.Baker, and M.J.Hannah, 263--274 (Formats: SSI) | ftp://ftp.vislist.com/IMAGERY/JISCT/) - 44 image pairs. These data have been used in an evaluation of stereo analysis, as described in the April 1993 ARPA Image Understanding Workshop paper ``The JISCT Stereo Evaluation'' by R.C.Bolles, H.H.Baker, and M.J.Hannah, 263--274 (Formats: SSI |
+| [joliGEN](https://github.com/jolibrain/joliGEN) | https://github.com/jolibrain/joliGEN |
+| [jonatasgrosman/wav2vec2-large-xlsr-53-japanese](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese) | https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese |
+| [jonatasgrosman/wav2vec2-large-xlsr-53-portuguese](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese) | https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-portuguese |
+| [jonatasgrosman/wav2vec2-large-xlsr-53-russian](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian) | https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian |
+| [Joseph Turian](http://www-etud.iro.umontreal.ca/~turian/) | http://www-etud.iro.umontreal.ca/~turian/ |
+| [Joshua Matthew Susskind](http://aclab.ca/users/josh/index.html) | http://aclab.ca/users/josh/index.html |
+| [JSMLT](https://github.com/jsmlt/jsmlt) - Machine learning toolkit with classification and clustering for Node.js; supports visualization (see [visualml.io](https://visualml.io)) | https://visualml.io) |
+| [Julia Data](https://github.com/nfoti/JuliaData) | https://github.com/nfoti/JuliaData |
+| [JuliaCon Presentations](https://github.com/JuliaCon/presentations) | https://github.com/JuliaCon/presentations |
+| [Justin A. Blanco](https://sites.google.com/site/blancousna/) | https://sites.google.com/site/blancousna/ |
+| [jutsu.ai](https://github.com/hswick/jutsu.ai) | https://github.com/hswick/jutsu.ai |
+| [Jürgen Schmidhuber](http://www.idsia.ch/~juergen/) | http://www.idsia.ch/~juergen/ |
+| [Kaggle](https://www.kaggle.com/datasets) | https://www.kaggle.com/datasets |
+| [Kaggle](https://www.kaggle.com/datasets/googleai/open-images-v6)) | https://www.kaggle.com/datasets/googleai/open-images-v6) |
+| [Kaggle](https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)) | https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) |
+| [Kaggle](https://www.kaggle.com/teertha/ushealthinsurancedataset)) | https://www.kaggle.com/teertha/ushealthinsurancedataset) |
+| [Kaggle - Medical Imaging Datasets](https://www.kaggle.com/datasets?search=medical+imaging) | https://www.kaggle.com/datasets?search=medical+imaging |
+| [Kaggle Finance](https://www.kaggle.com/datasets?search=finance)) | https://www.kaggle.com/datasets?search=finance) |
+| [kaggle.com](https://www.kaggle.com) | https://www.kaggle.com |
+| [kaggle.com/account](https://www.kaggle.com/account) | https://www.kaggle.com/account |
+| [kaggle.com/code](https://www.kaggle.com/code) | https://www.kaggle.com/code |
+| [kaist-ai](https://github.com/kaist-ai) | https://github.com/kaist-ai |
+| [KakologArchives/KakologArchives](https://huggingface.co/datasets/KakologArchives/KakologArchives) | https://huggingface.co/datasets/KakologArchives/KakologArchives |
+| [Kaldi](https://github.com/kaldi-asr/kaldi) | https://github.com/kaldi-asr/kaldi |
+| [kalman](https://github.com/itamarwe/kalman) | https://github.com/itamarwe/kalman |
+| [Keras and Lasagne Deep Learning Tutorials](https://github.com/Vict0rSch/deep_learning) | https://github.com/Vict0rSch/deep_learning |
+| [Keras Applications](https://keras.io/api/applications) | https://keras.io/api/applications |
+| [Keras Applications](https://keras.io/api/applications/) | https://keras.io/api/applications/ |
+| [Keras Beginner Tutorial](https://victorzhou.com/blog/keras-neural-network-tutorial/) | https://victorzhou.com/blog/keras-neural-network-tutorial/ |
+| [Keras GPT Copilot](https://github.com/fabprezja/keras-gpt-copilot) | https://github.com/fabprezja/keras-gpt-copilot |
+| [Keras in Motion video course](https://www.manning.com/livevideo/keras-in-motion) | https://www.manning.com/livevideo/keras-in-motion |
+| [Keras Tutorial: Content Based Image Retrieval Using a Convolutional Denoising Autoencoder](https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511) | https://medium.com/sicara/keras-tutorial-content-based-image-retrieval-convolutional-denoising-autoencoder-dc91450cc511 |
+| [Keras.js](https://github.com/transcranial/keras-js) | https://github.com/transcranial/keras-js |
+| [Kernel Density](https://github.com/JuliaStats/KernelDensity.jl) | https://github.com/JuliaStats/KernelDensity.jl |
+| [kernel smoothing](https://github.com/rlowrance/kernel-smoothers) | https://github.com/rlowrance/kernel-smoothers |
+| [Kijai/WanVideo_comfy](https://huggingface.co/Kijai/WanVideo_comfy) | https://huggingface.co/Kijai/WanVideo_comfy |
+| [kixistats](https://github.com/MastodonC/kixi.stats) | https://github.com/MastodonC/kixi.stats |
+| [Kmeans.js](https://github.com/emilbayes/kMeans.js) | https://github.com/emilbayes/kMeans.js |
+| [kNear](https://github.com/NathanEpstein/kNear) | https://github.com/NathanEpstein/kNear |
+| [Knet](https://github.com/denizyuret/Knet.jl) | https://github.com/denizyuret/Knet.jl |
+| [knn-java-library](https://github.com/felipexw/knn-java-library) | https://github.com/felipexw/knn-java-library |
+| [Knowledge distillation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#knowledge-distillation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#knowledge-distillation |
+| [Knowledge Distillation: A Survey](https://arxiv.org/abs/2006.05525) | https://arxiv.org/abs/2006.05525 |
+| [Knwl.js](https://github.com/loadfive/Knwl.js) | https://github.com/loadfive/Knwl.js |
+| [KoNLPy](http://konlpy.org) | http://konlpy.org |
+| [Koray Kavukcuoglu](http://koray.kavukcuoglu.org/) | http://koray.kavukcuoglu.org/ |
+| [KotlinDL](https://github.com/JetBrains/KotlinDL) | https://github.com/JetBrains/KotlinDL |
+| [KRFuzzyCMeans-Algorithm](https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm) - It implemented Fuzzy C-Means (FCM) | https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm) - It implemented Fuzzy C-Means (FCM |
+| [KRHebbian-Algorithm](https://github.com/Kalvar/ios-KRHebbian-Algorithm) - It is a non-supervisory and self-learning algorithm (adjust the weights) | https://github.com/Kalvar/ios-KRHebbian-Algorithm) - It is a non-supervisory and self-learning algorithm (adjust the weights |
+| [KRKmeans-Algorithm](https://github.com/Kalvar/ios-KRKmeans-Algorithm) | https://github.com/Kalvar/ios-KRKmeans-Algorithm |
+| [Kubeflow](https://github.com/kubeflow/kubeflow) | https://github.com/kubeflow/kubeflow |
+| [KyungHyun Cho](http://users.ics.aalto.fi/kcho/) | http://users.ics.aalto.fi/kcho/ |
+| [kyutai/moshiko-pytorch-bf16](https://huggingface.co/kyutai/moshiko-pytorch-bf16) | https://huggingface.co/kyutai/moshiko-pytorch-bf16 |
+| [Label Studio](https://labelstud.io) | https://labelstud.io |
+| [Labelbox](https://labelbox.com) | https://labelbox.com |
+| [Laboratórios Universitários](./03_RESOURCES/3.2_University_Labs/) | ./03_RESOURCES/3.2_University_Labs/ |
+| [LAION AI](https://github.com/LAION-AI) | https://github.com/LAION-AI |
+| [laion/clap-htsat-fused](https://huggingface.co/laion/clap-htsat-fused) | https://huggingface.co/laion/clap-htsat-fused |
+| [lambda-ml](https://github.com/cloudkj/lambda-ml) | https://github.com/cloudkj/lambda-ml |
+| [LambdaNet](https://github.com/jbarrow/LambdaNet) | https://github.com/jbarrow/LambdaNet |
+| [Language Processing and Pattern Recognition](http://www-i6.informatik.rwth-aachen.de/) | http://www-i6.informatik.rwth-aachen.de/ |
+| [Languages](https://github.com/JuliaText/Languages.jl) | https://github.com/JuliaText/Languages.jl |
+| [lavita/medical-qa-shared-task-v1-toy](https://huggingface.co/datasets/lavita/medical-qa-shared-task-v1-toy) | https://huggingface.co/datasets/lavita/medical-qa-shared-task-v1-toy |
+| [lbfgs](https://github.com/clementfarabet/lbfgs) | https://github.com/clementfarabet/lbfgs |
+| [LBJava](https://github.com/CogComp/lbjava) | https://github.com/CogComp/lbjava |
+| [LDA.js](https://github.com/primaryobjects/lda) | https://github.com/primaryobjects/lda |
+| [Learn JS Data](http://learnjsdata.com/) | http://learnjsdata.com/ |
+| [Learnergy](https://github.com/gugarosa/learnergy) | https://github.com/gugarosa/learnergy |
+| [Learning Bounds for Domain Adaptation](http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation) | http://papers.nips.cc/paper/3212-learning-bounds-for-domain-adaptation |
+| [Learning Deep Architectures for AI](http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf) | http://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf |
+| [Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation](http://arxiv.org/pdf/1406.1078v3.pdf) | http://arxiv.org/pdf/1406.1078v3.pdf |
+| [Learning.js](https://github.com/yandongliu/learningjs) | https://github.com/yandongliu/learningjs |
+| [leaves](https://github.com/dmitryikh/leaves) | https://github.com/dmitryikh/leaves |
+| [Li Deng](http://research.microsoft.com/en-us/people/deng/) | http://research.microsoft.com/en-us/people/deng/ |
+| [libfm](https://github.com/srendle/libfm) | https://github.com/srendle/libfm |
+| [libfolia](https://github.com/LanguageMachines/libfolia) - C++ library for the [FoLiA format](https://proycon.github.io/folia/) | https://proycon.github.io/folia/ |
+| [LibLinear](https://www.csie.ntu.edu.tw/~cjlin/liblinear/#download) | https://www.csie.ntu.edu.tw/~cjlin/liblinear/#download |
+| [liblinear-java](https://github.com/bwaldvogel/liblinear-java) | https://github.com/bwaldvogel/liblinear-java |
+| [libonnx](https://github.com/xboot/libonnx) | https://github.com/xboot/libonnx |
+| [Libpython-clj](https://github.com/clj-python/libpython-clj) | https://github.com/clj-python/libpython-clj |
+| [Libra-Tk](https://libra.cs.uoregon.edu) | https://libra.cs.uoregon.edu |
+| [Libraries](./Libraries/) - Specialized libraries for different domains (NLP, CV, RL, etc.) | ./Libraries/) - Specialized libraries for different domains (NLP, CV, RL, etc. |
+| [Libraries / Bibliotecas](./02_BUILD/Libraries/) | ./02_BUILD/Libraries/ |
+| [LibSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab) | https://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab |
+| [Lifelong transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#lifelong-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#lifelong-transfer-learning |
+| [LightGBM](https://github.com/microsoft/LightGBM) | https://github.com/microsoft/LightGBM |
+| [LightGBM](https://github.com/Microsoft/LightGBM) - Microsoft's fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART) | https://github.com/Microsoft/LightGBM) - Microsoft's fast, distributed, high performance gradient boosting (GBDT, GBRT, GBM or MART |
+| [LightGraphs](https://github.com/JuliaGraphs/LightGraphs.jl) | https://github.com/JuliaGraphs/LightGraphs.jl |
+| [lightly](https://github.com/lightly-ai/lightly) | https://github.com/lightly-ai/lightly |
+| [LightlyTrain](https://github.com/lightly-ai/lightly-train) | https://github.com/lightly-ai/lightly-train |
+| [LIMSI-CNRS](http://www.limsi.fr/) | http://www.limsi.fr/ |
+| [LIMSI-CNRS/CHM/IMM/vision](http://www.limsi.fr/Recherche/IMM/PageIMM.html) | http://www.limsi.fr/Recherche/IMM/PageIMM.html |
+| [LingPipe](http://alias-i.com/lingpipe/index.html) | http://alias-i.com/lingpipe/index.html |
+| [LKYDeepNN](https://github.com/mosdeo/LKYDeepNN) | https://github.com/mosdeo/LKYDeepNN |
+| [LLM](../2.1_LLM/) | ../2.1_LLM/ |
+| [LMSYS Chatbot Arena](https://chat.lmsys.org/) | https://chat.lmsys.org/ |
+| [Local Regression](https://github.com/JuliaStats/Loess.jl) | https://github.com/JuliaStats/Loess.jl |
+| [locuslab/TOFU](https://huggingface.co/datasets/locuslab/TOFU) | https://huggingface.co/datasets/locuslab/TOFU |
+| [loso](https://github.com/fangpenlin/loso) | https://github.com/fangpenlin/loso |
+| [loss_name.lower()](**kwargs) | **kwargs |
+| [LSTM](http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf) | http://web.eecs.utk.edu/~itamar/courses/ECE-692/Bobby_paper1.pdf |
+| [LSTM: A Search Space Odyssey](http://arxiv.org/pdf/1503.04069v1.pdf) | http://arxiv.org/pdf/1503.04069v1.pdf |
+| [Lua - Numerical Algorithms](https://bitbucket.org/lucashnegri/lna) | https://bitbucket.org/lucashnegri/lna |
+| [LuaSHKit](https://github.com/ocallaco/LuaSHkit) | https://github.com/ocallaco/LuaSHkit |
+| [Lucas Theis](http://www.kyb.tuebingen.mpg.de/nc/employee/details/lucas.html) | http://www.kyb.tuebingen.mpg.de/nc/employee/details/lucas.html |
+| [Lucent](https://github.com/greentfrapp/lucent) | https://github.com/greentfrapp/lucent |
+| [Ludovic Arnold](http://ludovicarnold.altervista.org/home/) | http://ludovicarnold.altervista.org/home/ |
+| [Lunatic Python](https://labix.org/lunatic-python) | https://labix.org/lunatic-python |
+| [Lunum](https://github.com/jzrake/lunum) | https://github.com/jzrake/lunum |
+| [Lyric](https://github.com/flurry/Lyric) | https://github.com/flurry/Lyric |
+| [m-a-p/FineFineWeb](https://huggingface.co/datasets/m-a-p/FineFineWeb) | https://huggingface.co/datasets/m-a-p/FineFineWeb |
+| [machine](https://github.com/mathieulaporte/machine) | https://github.com/mathieulaporte/machine |
+| [Machine Learning - Caltech](http://work.caltech.edu/lectures.html) by Yaser Abu-Mostafa (2012-2014) | http://work.caltech.edu/lectures.html) by Yaser Abu-Mostafa (2012-2014 |
+| [Machine Learning - Carnegie Mellon](http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml) by Tom Mitchell (Spring 2011) | http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml) by Tom Mitchell (Spring 2011 |
+| [Machine Learning - Oxford](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) (2014-2015) | https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) (2014-2015 |
+| [Machine Learning - Stanford](https://class.coursera.org/ml-005) by Andrew Ng in Coursera (2010-2014) | https://class.coursera.org/ml-005) by Andrew Ng in Coursera (2010-2014 |
+| [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/) | https://developers.google.com/machine-learning/crash-course/ |
+| [Machine Learning CS 229](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU) | https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU |
+| [Machine Learning Discussion Group - Deep Learning w/ Stanford AI Lab](https://www.youtube.com/watch?v=2QJi0ArLq7s&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT) | https://www.youtube.com/watch?v=2QJi0ArLq7s&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT |
+| [Machine Learning for Mere Mortals video course](https://www.manning.com/livevideo/machine-learning-for-mere-mortals) | https://www.manning.com/livevideo/machine-learning-for-mere-mortals |
+| [Machine Learning in MatLab/Octave](https://github.com/trekhleb/machine-learning-octave) - Examples of popular machine learning algorithms (neural networks, linear/logistic regressions, K-Means, etc.) | https://github.com/trekhleb/machine-learning-octave) - Examples of popular machine learning algorithms (neural networks, linear/logistic regressions, K-Means, etc. |
+| [Machine Learning Mastery blog](https://machinelearningmastery.com/blog/) | https://machinelearningmastery.com/blog/ |
+| [Machine Learning Module](https://github.com/josephmisiti/machine-learning-module) | https://github.com/josephmisiti/machine-learning-module |
+| [Machine Vision](http://vision.cse.psu.edu/book/testbed/images/) - Images from the textbook by Jain, Kasturi, Schunck (20+ images) (Formats: GIF TIFF) | http://vision.cse.psu.edu/book/testbed/images/) - Images from the textbook by Jain, Kasturi, Schunck (20+ images) (Formats: GIF TIFF |
+| [Machine Vision Unit](http://www.ipab.inf.ed.ac.uk/mvu/) | http://www.ipab.inf.ed.ac.uk/mvu/ |
+| [MachineHack](https://machinehack.com) | https://machinehack.com |
+| [machinelearn.js](https://github.com/machinelearnjs/machinelearnjs) | https://github.com/machinelearnjs/machinelearnjs |
+| [MachineLearning](https://github.com/benhamner/MachineLearning.jl) | https://github.com/benhamner/MachineLearning.jl |
+| [MAChineLearning](https://github.com/gianlucabertani/MAChineLearning) | https://github.com/gianlucabertani/MAChineLearning |
+| [MahmoudAshraf/mms-300m-1130-forced-aligner](https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner) | https://huggingface.co/MahmoudAshraf/mms-300m-1130-forced-aligner |
+| [Mahout](https://github.com/apache/mahout) | https://github.com/apache/mahout |
+| [Making Sense of the World with Deep Learning](http://vimeo.com/80821560) | http://vimeo.com/80821560 |
+| [maknee/leaague-of-legends-decoded-replay-packets-s12-unorganized](https://huggingface.co/datasets/maknee/leaague-of-legends-decoded-replay-packets-s12-unorganized) | https://huggingface.co/datasets/maknee/leaague-of-legends-decoded-replay-packets-s12-unorganized |
+| [MALLET](http://mallet.cs.umass.edu/) | http://mallet.cs.umass.edu/ |
+| [Mamba](https://github.com/brian-j-smith/Mamba.jl) - Markov chain Monte Carlo (MCMC) | https://github.com/brian-j-smith/Mamba.jl) - Markov chain Monte Carlo (MCMC |
+| [Mammography Image Databases](http://marathon.csee.usf.edu/Mammography/Database.html) - 100 or more images of mammograms with ground truth. Additional images available by request, and links to several other mammography databases are provided. (Formats: homebrew) | http://marathon.csee.usf.edu/Mammography/Database.html) - 100 or more images of mammograms with ground truth. Additional images available by request, and links to several other mammography databases are provided. (Formats: homebrew |
+| [manifold](https://github.com/clementfarabet/manifold) | https://github.com/clementfarabet/manifold |
+| [ManifoldLearning](https://github.com/wildart/ManifoldLearning.jl) | https://github.com/wildart/ManifoldLearning.jl |
+| [Marc'Aurelio Ranzato](http://www.cs.nyu.edu/~ranzato/) | http://www.cs.nyu.edu/~ranzato/ |
+| [Marketing](./04_APPLY/Marketing/) | ./04_APPLY/Marketing/ |
+| [Marketing](./Marketing/) | ./Marketing/ |
+| [Martin Längkvist](http://aass.oru.se/~mlt/) | http://aass.oru.se/~mlt/ |
+| [Mastering the Game of Go with Deep Neural Networks and Tree Search](http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf) | http://www.nature.com/nature/journal/v529/n7587/pdf/nature16961.pdf |
+| [Matching Networks for One Shot Learning](http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning.pdf) | http://papers.nips.cc/paper/6385-matching-networks-for-one-shot-learning.pdf |
+| [Math and Architectures of Deep Learning](https://www.manning.com/books/math-and-architectures-of-deep-learning) | https://www.manning.com/books/math-and-architectures-of-deep-learning |
+| [Math.NET Numerics](https://www.nuget.org/packages/MathNet.Numerics/) | https://www.nuget.org/packages/MathNet.Numerics/ |
+| [matlab_bgl](https://www.cs.purdue.edu/homes/dgleich/packages/matlab_bgl/) | https://www.cs.purdue.edu/homes/dgleich/packages/matlab_bgl/ |
+| [matlib](https://github.com/atisharma/matlib) | https://github.com/atisharma/matlib |
+| [Matplotlib](https://github.com/matplotlib/matplotlib) | https://github.com/matplotlib/matplotlib |
+| [Matrix Capsules With Em Routing](https://openreview.net/pdf?id=HJWLfGWRb) | https://openreview.net/pdf?id=HJWLfGWRb |
+| [mbouhaja/AI_REAL](https://huggingface.co/datasets/mbouhaja/AI_REAL) | https://huggingface.co/datasets/mbouhaja/AI_REAL |
+| [MCMC](https://github.com/doobwa/MCMC.jl) | https://github.com/doobwa/MCMC.jl |
+| [mcp-course/images](https://huggingface.co/datasets/mcp-course/images) | https://huggingface.co/datasets/mcp-course/images |
+| [Medical and healthcare](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#medical-and-healthcare) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#medical-and-healthcare |
+| [Medical Imaging with Deep Learning Tutorial](https://www.youtube.com/playlist?list=PLheiZMDg_8ufxEx9cNVcOYXsT3BppJP4b): This tutorial is styled as a graduate lecture about medical imaging with deep learning. This will cover the background of popular medical image domains (chest X-ray and histology) | https://www.youtube.com/playlist?list=PLheiZMDg_8ufxEx9cNVcOYXsT3BppJP4b): This tutorial is styled as a graduate lecture about medical imaging with deep learning. This will cover the background of popular medical image domains (chest X-ray and histology |
+| [Meka](http://meka.sourceforge.net/) - An open source implementation of methods for multi-label classification and evaluation (extension to Weka) | http://meka.sourceforge.net/) - An open source implementation of methods for multi-label classification and evaluation (extension to Weka |
+| [Memory Networks](http://arxiv.org/pdf/1410.3916v10) | http://arxiv.org/pdf/1410.3916v10 |
+| [Merlin](https://github.com/hshindo/Merlin.jl) | https://github.com/hshindo/Merlin.jl |
+| [Merve Ayyüce Kızrak](http://www.ayyucekizrak.com/) | http://www.ayyucekizrak.com/ |
+| [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) | https://meta-toolkit.org/ |
+| [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct |
+| [meta-llama/Llama-3.2-1B-Instruct](https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct) | https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct |
+| [Metaparameters in a CNN by Andrew Ferlitsch](https://youtu.be/K1PLeggQ33I) | https://youtu.be/K1PLeggQ33I |
+| [mexopencv](https://kyamagu.github.io/mexopencv/) | https://kyamagu.github.io/mexopencv/ |
+| [mgl](https://github.com/melisgl/mgl/) - Neural networks (boltzmann machines, feed-forward and recurrent nets) | https://github.com/melisgl/mgl/) - Neural networks (boltzmann machines, feed-forward and recurrent nets |
+| [mgl-gpr](https://github.com/melisgl/mgl-gpr/) | https://github.com/melisgl/mgl-gpr/ |
+| [Microsoft - Jointly Modeling Embedding and Translation to Bridge Video and Language](http://arxiv.org/pdf/1505.01861v1.pdf) | http://arxiv.org/pdf/1505.01861v1.pdf |
+| [Microsoft Azure Machine Learning](https://azure.microsoft.com/products/machine-learning) | https://azure.microsoft.com/products/machine-learning |
+| [Microsoft COCO](http://mscoco.org/home/) | http://mscoco.org/home/ |
+| [Middlebury Stereo Data Sets with Ground Truth](http://www.middlebury.edu/stereo/data.html) - Six multi-frame stereo data sets of scenes containing planar regions. Each data set contains 9 color images and subpixel-accuracy ground-truth data. (Formats: ppm) | http://www.middlebury.edu/stereo/data.html) - Six multi-frame stereo data sets of scenes containing planar regions. Each data set contains 9 color images and subpixel-accuracy ground-truth data. (Formats: ppm |
+| [Middlebury Stereo Vision Research Page](http://www.middlebury.edu/stereo) | http://www.middlebury.edu/stereo |
+| [mil-tokyo](https://github.com/mil-tokyo) | https://github.com/mil-tokyo |
+| [mila-iqia](https://github.com/mila-iqia) | https://github.com/mila-iqia |
+| [ming030890/youtube_caption_yue](https://huggingface.co/datasets/ming030890/youtube_caption_yue) | https://huggingface.co/datasets/ming030890/youtube_caption_yue |
+| [Misha Denil](http://mdenil.com/) | http://mdenil.com/ |
+| [MIT 6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/) | http://selfdrivingcars.mit.edu/ |
+| [MIT 6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/) | http://introtodeeplearning.com/ |
+| [MIT Aerospace Controls Laboratory](https://github.com/mit-acl) | https://github.com/mit-acl |
+| [MIT face images and more](ftp://whitechapel.media.mit.edu/pub/images) - hundreds of images (Formats: homebrew) | ftp://whitechapel.media.mit.edu/pub/images) - hundreds of images (Formats: homebrew |
+| [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) | https://github.com/mit-nlp/MITIE |
+| [MIT Intro to Deep Learning 7 day bootcamp](https://introtodeeplearning.com) - A seven day bootcamp designed in MIT to introduce deep learning methods and applications (2019) | https://introtodeeplearning.com) - A seven day bootcamp designed in MIT to introduce deep learning methods and applications (2019 |
+| [MIT Vision Texture](https://vismod.media.mit.edu/vismod/imagery/VisionTexture/vistex.html) - Image archive (100+ images) (Formats: ppm) | https://vismod.media.mit.edu/vismod/imagery/VisionTexture/vistex.html) - Image archive (100+ images) (Formats: ppm |
+| [Mixed Models](https://github.com/dmbates/MixedModels.jl) - A Julia package for fitting (statistical) | https://github.com/dmbates/MixedModels.jl) - A Julia package for fitting (statistical |
+| [ML Compiled](https://ml-compiled.readthedocs.io/en/latest/) | https://ml-compiled.readthedocs.io/en/latest/ |
+| [ml.js](https://github.com/mljs/ml) | https://github.com/mljs/ml |
+| [ML.NET](https://github.com/dotnet/machinelearning) | https://github.com/dotnet/machinelearning |
+| [ml5](https://github.com/ml5js/ml5-library) | https://github.com/ml5js/ml5-library |
+| [MLBase](https://github.com/JuliaStats/MLBase.jl) | https://github.com/JuliaStats/MLBase.jl |
+| [MLDB](https://mldb.ai) | https://mldb.ai |
+| [MLflow](https://github.com/mlflow/mlflow) | https://github.com/mlflow/mlflow |
+| [MLflow](https://mlflow.org) | https://mlflow.org |
+| [mlfoundations/dclm-baseline-1.0](https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0) | https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0 |
+| [mlfoundations/MINT-1T-PDF-CC-2024-18](https://huggingface.co/datasets/mlfoundations/MINT-1T-PDF-CC-2024-18) | https://huggingface.co/datasets/mlfoundations/MINT-1T-PDF-CC-2024-18 |
+| [MLJ](https://github.com/alan-turing-institute/MLJ.jl) | https://github.com/alan-turing-institute/MLJ.jl |
+| [MLlib in Apache Spark](https://spark.apache.org/docs/latest/mllib-guide.html) | https://spark.apache.org/docs/latest/mllib-guide.html |
+| [MLOps](./03_DEPLOY/MLOps/) | ./03_DEPLOY/MLOps/ |
+| [MLOps](./MLOps/) - Tools for the entire MLOps lifecycle (W&B, MLflow, Feature Stores, Monitoring, etc.) | ./MLOps/) - Tools for the entire MLOps lifecycle (W&B, MLflow, Feature Stores, Monitoring, etc. |
+| [mlpack](https://www.mlpack.org/) | https://www.mlpack.org/ |
+| [MLPerf](https://mlcommons.org/benchmarks/) | https://mlcommons.org/benchmarks/ |
+| [MLPleaseHelp](https://github.com/jgreenemi/MLPleaseHelp) - MLPleaseHelp is a simple ML resource search engine. You can use this search engine right now at [https://jgreenemi.github.io/MLPleaseHelp/](https://jgreenemi.github.io/MLPleaseHelp/) | https://jgreenemi.github.io/MLPleaseHelp/ |
+| [MLPNeuralNet](https://github.com/nikolaypavlov/MLPNeuralNet) | https://github.com/nikolaypavlov/MLPNeuralNet |
+| [MLX](https://github.com/ml-explore/mlx) | https://github.com/ml-explore/mlx |
+| [MMDetection Model Zoo](https://github.com/open-mmlab/mmdetection) | https://github.com/open-mmlab/mmdetection |
+| [MMLU](https://github.com/hendrycks/test) | https://github.com/hendrycks/test |
+| [MNIST](http://yann.lecun.com/exdb/mnist/) | http://yann.lecun.com/exdb/mnist/ |
+| [MobileNets by Google](https://arxiv.org/abs/1704.04861) | https://arxiv.org/abs/1704.04861 |
+| [Mocha](https://github.com/pluskid/Mocha.jl) | https://github.com/pluskid/Mocha.jl |
+| [MOCluGen](https://github.com/clugen/MOCluGen/) | https://github.com/clugen/MOCluGen/ |
+| [Model Zoo](https://modelzoo.co/) | https://modelzoo.co/ |
+| [Modelagem Climática](../../Climate_Modeling/) | ../../Climate_Modeling/ |
+| [modelo IBM Granite](02_AI_Models/) | 02_AI_Models/ |
+| [Modelos Core](./01_FOUNDATIONS/1.2_Core_Models/) | ./01_FOUNDATIONS/1.2_Core_Models/ |
+| [Modelos de IA](01_Models/) | 01_Models/ |
+| [Modelos Generativos](./01_FOUNDATIONS/1.2_Core_Models/) | ./01_FOUNDATIONS/1.2_Core_Models/ |
+| [Models](./Models/) | ./Models/ |
+| [Models / Modelos](./02_BUILD/Models/) | ./02_BUILD/Models/ |
+| [models page](https://huggingface.co/models?sort=downloads) | https://huggingface.co/models?sort=downloads |
+| [Modis Airborne simulator, Gallery and data set](http://ltpwww.gsfc.nasa.gov/MODIS/MAS/) - High Altitude Imagery from around the world for environmental modeling in support of NASA EOS program (Formats: JPG and HDF) | http://ltpwww.gsfc.nasa.gov/MODIS/MAS/) - High Altitude Imagery from around the world for environmental modeling in support of NASA EOS program (Formats: JPG and HDF |
+| [Mohammad Norouzi](http://www.cs.toronto.edu/~norouzi/) | http://www.cs.toronto.edu/~norouzi/ |
+| [More TensorFlow tutorials](https://github.com/pkmital/tensorflow_tutorials) | https://github.com/pkmital/tensorflow_tutorials |
+| [MPI-IS](https://github.com/MPI-IS) | https://github.com/MPI-IS |
+| [MT-Bench](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) | https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge |
+| [mteb/sts22-crosslingual-sts](https://huggingface.co/datasets/mteb/sts22-crosslingual-sts) | https://huggingface.co/datasets/mteb/sts22-crosslingual-sts |
+| [Multi-Perceptron-NeuralNetwork](https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork) - It implemented multi-perceptrons neural network (ニューラルネットワーク) based on Back Propagation Neural Networks (BPN) | https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork) - It implemented multi-perceptrons neural network (ニューラルネットワーク) based on Back Propagation Neural Networks (BPN |
+| [Multi-source domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-source-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-source-domain-adaptation |
+| [Multi-task CNN: a real-world example by Andrew Ferlitsch](https://youtu.be/dH2nuI-1-qM) | https://youtu.be/dH2nuI-1-qM |
+| [Multi-task learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-task-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-task-learning |
+| [Multimedia](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#multimedia) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#multimedia |
+| [MultivariateStats](https://github.com/JuliaStats/MultivariateStats.jl) | https://github.com/JuliaStats/MultivariateStats.jl |
+| [mvp-lab/LLaVA-OneVision-1.5-Instruct-Data](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data) | https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Instruct-Data |
+| [mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M](https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M) | https://huggingface.co/datasets/mvp-lab/LLaVA-OneVision-1.5-Mid-Training-85M |
+| [MXNet](https://github.com/apache/incubator-mxnet) | https://github.com/apache/incubator-mxnet |
+| [MXNet](https://github.com/apache/incubator-mxnet/) | https://github.com/apache/incubator-mxnet/ |
+| [MXNet](https://mxnet.apache.org/versions/1.7.0/api/clojure) | https://mxnet.apache.org/versions/1.7.0/api/clojure |
+| [MXnet for Deep Learning, in Perl](https://github.com/apache/incubator-mxnet/tree/master/perl-package) | https://github.com/apache/incubator-mxnet/tree/master/perl-package |
+| [MxNet.Sharp](https://github.com/tech-quantum/MxNet.Sharp) | https://github.com/tech-quantum/MxNet.Sharp |
+| [N2D2](https://github.com/CEA-LIST/N2D2) | https://github.com/CEA-LIST/N2D2 |
+| [Naive Bayes](https://github.com/nutsiepully/NaiveBayes.jl) | https://github.com/nutsiepully/NaiveBayes.jl |
+| [naive-apl](https://github.com/mattcunningham/naive-apl) | https://github.com/mattcunningham/naive-apl |
+| [Named Entity Recognition using BiDirectional LSTMs](https://github.com/SauravMaheshkar/Named-Entity-Recognition-) | https://github.com/SauravMaheshkar/Named-Entity-Recognition- |
+| [Named Entity Recognition using Reformers](https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/NER%20using%20Reformer.ipynb) | https://github.com/SauravMaheshkar/Trax-Examples/blob/main/NLP/NER%20using%20Reformer.ipynb |
+| [Nando de Freitas](http://www.cs.ubc.ca/~nando/) | http://www.cs.ubc.ca/~nando/ |
+| [Narsil/image_dummy](https://huggingface.co/datasets/Narsil/image_dummy) | https://huggingface.co/datasets/Narsil/image_dummy |
+| [National Design Repository](http://www.designrepository.org) - Over 55,000 3D CAD and solid models of (mostly) mechanical/machined engineering designs. (Formats: gif,vrml,wrl,stp,sat) | http://www.designrepository.org) - Over 55,000 3D CAD and solid models of (mostly) mechanical/machined engineering designs. (Formats: gif,vrml,wrl,stp,sat |
+| [natural](https://github.com/NaturalNode/natural) | https://github.com/NaturalNode/natural |
+| [Natural Language Processing](http://web.stanford.edu/class/cs224n/handouts/) | http://web.stanford.edu/class/cs224n/handouts/ |
+| [Natural language processing](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#natural-language-processing) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#natural-language-processing |
+| [Nature Communications Paper](https://www.nature.com/articles/s41467-024-44824-z) | https://www.nature.com/articles/s41467-024-44824-z |
+| [Nature Paper](https://www.nature.com/articles/s41586-024-08252-9) | https://www.nature.com/articles/s41586-024-08252-9 |
+| [Nature Paper](https://www.nature.com/articles/s41586-025-08897-0) | https://www.nature.com/articles/s41586-025-08897-0 |
+| [Nature: Aardvark Weather](https://www.nature.com/articles/s41586-025-08897-0) | https://www.nature.com/articles/s41586-025-08897-0 |
+| [Nature: GenCast](https://www.nature.com/articles/s41586-024-08252-9) | https://www.nature.com/articles/s41586-024-08252-9 |
+| [Navdeep Jaitly](http://www.cs.utoronto.ca/~ndjaitly/) | http://www.cs.utoronto.ca/~ndjaitly/ |
+| [Navigation Guide](../../../NAVIGATION_GUIDE.md) | ../../../NAVIGATION_GUIDE.md |
+| [Naïve Bayes](https://github.com/titsuki/p6-Algorithm-NaiveBayes) | https://github.com/titsuki/p6-Algorithm-NaiveBayes |
+| [Naïve Bayes](https://metacpan.org/pod/AI::NaiveBayes) | https://metacpan.org/pod/AI::NaiveBayes |
+| [Neanderthal](https://neanderthal.uncomplicate.org/) - Fast Clojure Matrix Library (native CPU, GPU, OpenCL, CUDA) | https://neanderthal.uncomplicate.org/) - Fast Clojure Matrix Library (native CPU, GPU, OpenCL, CUDA |
+| [neat](https://github.com/jinyeom/neat) - Plug-and-play, parallel Go framework for NeuroEvolution of Augmenting Topologies (NEAT) | https://github.com/jinyeom/neat) - Plug-and-play, parallel Go framework for NeuroEvolution of Augmenting Topologies (NEAT |
+| [nebius/SWE-rebench](https://huggingface.co/datasets/nebius/SWE-rebench) | https://huggingface.co/datasets/nebius/SWE-rebench |
+| [Negative transfer - 负迁移](https://www.zhihu.com/question/66492194/answer/242870418) | https://www.zhihu.com/question/66492194/answer/242870418 |
+| [neonrvm](https://github.com/siavashserver/neonrvm) | https://github.com/siavashserver/neonrvm |
+| [Neptune.ai](https://neptune.ai) | https://neptune.ai |
+| [Netron](https://github.com/lutzroeder/netron) | https://github.com/lutzroeder/netron |
+| [Netron](https://netron.app) | https://netron.app |
+| [neulab/codebert-python](https://huggingface.co/neulab/codebert-python) | https://huggingface.co/neulab/codebert-python |
+| [Neural](https://github.com/compressed/BackpropNeuralNet.jl) | https://github.com/compressed/BackpropNeuralNet.jl |
+| [Neural Network Designer](https://sourceforge.net/projects/nnd/) | https://sourceforge.net/projects/nnd/ |
+| [Neural Networks - usherbrooke](http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html) | http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html |
+| [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) by  Michael Nielsen (Dec 2014) | http://neuralnetworksanddeeplearning.com/) by  Michael Nielsen (Dec 2014 |
+| [Neural Networks and Deep Learning](https://webcms3.cse.unsw.edu.au/COMP9444/19T3/) | https://webcms3.cse.unsw.edu.au/COMP9444/19T3/ |
+| [Neural networks class](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle from Université de Sherbrooke (2013) | https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle from Université de Sherbrooke (2013 |
+| [Neural Networks for Machine Learning](https://class.coursera.org/neuralnets-2012-001) by Geoffrey Hinton in Coursera (2012) | https://class.coursera.org/neuralnets-2012-001) by Geoffrey Hinton in Coursera (2012 |
+| [Neural Networks for Matlab](http://uk.mathworks.com/help/pdf_doc/nnet/nnet_ug.pdf) | http://uk.mathworks.com/help/pdf_doc/nnet/nnet_ug.pdf |
+| [Neural Networks for Named Entity Recognition](http://nlp.stanford.edu/~socherr/pa4_ner.pdf) [zip](http://nlp.stanford.edu/~socherr/pa4-ner.zip) | http://nlp.stanford.edu/~socherr/pa4-ner.zip |
+| [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058) | https://arxiv.org/abs/1705.04058 |
+| [Neural Turing Machines](http://arxiv.org/pdf/1410.5401v2.pdf) | http://arxiv.org/pdf/1410.5401v2.pdf |
+| [neural-dream](https://github.com/ProGamerGov/neural-dream) | https://github.com/ProGamerGov/neural-dream |
+| [neural-fortran](https://github.com/modern-fortran/neural-fortran) | https://github.com/modern-fortran/neural-fortran |
+| [neural-style-pt](https://github.com/ProGamerGov/neural-style-pt) - A PyTorch implementation of Justin Johnson's neural-style (neural style transfer) | https://github.com/ProGamerGov/neural-style-pt) - A PyTorch implementation of Justin Johnson's neural-style (neural style transfer |
+| [NeuralN](https://github.com/totemstech/neuraln) | https://github.com/totemstech/neuraln |
+| [neuraltalk](https://github.com/karpathy/neuraltalk) | https://github.com/karpathy/neuraltalk |
+| [Neuroph](http://neuroph.sourceforge.net/) | http://neuroph.sourceforge.net/ |
+| [NickL77/Llama3.1-8B-BaldEagle3-Ultrachat](https://huggingface.co/datasets/NickL77/Llama3.1-8B-BaldEagle3-Ultrachat) | https://huggingface.co/datasets/NickL77/Llama3.1-8B-BaldEagle3-Ultrachat |
+| [Nicolas Le Roux](http://nicolas.le-roux.name/) | http://nicolas.le-roux.name/ |
+| [NIPS 2016 lecture and workshop videos](https://nips.cc/Conferences/2016/Schedule) | https://nips.cc/Conferences/2016/Schedule |
+| [NIST Fingerprint and handwriting](ftp://sequoyah.ncsl.nist.gov/pub/databases/data) - datasets - thousands of images (Formats: unknown) | ftp://sequoyah.ncsl.nist.gov/pub/databases/data) - datasets - thousands of images (Formats: unknown |
+| [NIST Fingerprint data](ftp://ftp.cs.columbia.edu/jpeg/other/uuencoded) | ftp://ftp.cs.columbia.edu/jpeg/other/uuencoded |
+| [Nitish Srivastava](http://www.cs.toronto.edu/~nitish/) | http://www.cs.toronto.edu/~nitish/ |
+| [Nivo](https://nivo.rocks) | https://nivo.rocks |
+| [NLM HyperDoc Visible Human Project](http://www.nlm.nih.gov/research/visible/visible_human.html) - Color, CAT and MRI image samples - over 30 images (Formats: jpeg) | http://www.nlm.nih.gov/research/visible/visible_human.html) - Color, CAT and MRI image samples - over 30 images (Formats: jpeg |
+| [NLP](https://amplab.cs.berkeley.edu/an-nlp-library-for-matlab/) | https://amplab.cs.berkeley.edu/an-nlp-library-for-matlab/ |
+| [NLP Compromise](https://github.com/spencermountain/compromise) | https://github.com/spencermountain/compromise |
+| [nlp.js](https://github.com/axa-group/nlp.js) | https://github.com/axa-group/nlp.js |
+| [nlp.stanford.edu](http://nlp.stanford.edu/) | http://nlp.stanford.edu/ |
+| [NLP4J](https://github.com/emorynlp/nlp4j) | https://github.com/emorynlp/nlp4j |
+| [nlpaueb/legal-bert-base-uncased](https://huggingface.co/nlpaueb/legal-bert-base-uncased) | https://huggingface.co/nlpaueb/legal-bert-base-uncased |
+| [NLTK](https://www.nltk.org/) | https://www.nltk.org/ |
+| [NMF](https://github.com/JuliaStats/NMF.jl) | https://github.com/JuliaStats/NMF.jl |
+| [nn](https://github.com/torch/nn) | https://github.com/torch/nn |
+| [nngraph](https://github.com/torch/nngraph) | https://github.com/torch/nngraph |
+| [nnx](https://github.com/clementfarabet/lua---nnx) | https://github.com/clementfarabet/lua---nnx |
+| [Node-fann](https://github.com/rlidwka/node-fann) - FANN (Fast Artificial Neural Network Library) | https://github.com/rlidwka/node-fann) - FANN (Fast Artificial Neural Network Library |
+| [Node-SVM](https://github.com/nicolaspanel/node-svm) | https://github.com/nicolaspanel/node-svm |
+| [Noel Lopes](https://www.cisuc.uc.pt/people/show/2028) | https://www.cisuc.uc.pt/people/show/2028 |
+| [notebooks de exemplo](notebooks/) | notebooks/ |
+| [notespace](https://github.com/scicloj/notespace) | https://github.com/scicloj/notespace |
+| [nrl.navy.mil/itd/aic](http://www.nrl.navy.mil/itd/aic/) | http://www.nrl.navy.mil/itd/aic/ |
+| [NSFWJS](http://nsfwjs.com) | http://nsfwjs.com |
+| [NTU.AI](https://github.com/NTU-AI) | https://github.com/NTU-AI |
+| [Numeric Lua](http://numlua.luaforge.net/) | http://numlua.luaforge.net/ |
+| [numl](https://www.nuget.org/packages/numl/) | https://www.nuget.org/packages/numl/ |
+| [NumPy](https://github.com/numpy/numpy) | https://github.com/numpy/numpy |
+| [nunchaku-tech/cdn](https://huggingface.co/datasets/nunchaku-tech/cdn) | https://huggingface.co/datasets/nunchaku-tech/cdn |
+| [nusmodifications](https://github.com/nusmodifications) | https://github.com/nusmodifications |
+| [nut](https://github.com/pprett/nut) | https://github.com/pprett/nut |
+| [NVD3.js](http://nvd3.org/) | http://nvd3.org/ |
+| [NVIDIA Blog](https://developer.nvidia.com/blog/) | https://developer.nvidia.com/blog/ |
+| [NVIDIA Developer](https://developer.nvidia.com/) | https://developer.nvidia.com/ |
+| [nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim) | https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim |
+| [nyu-dl](https://github.com/nyu-dl) | https://github.com/nyu-dl |
+| [nyu-mll/glue](https://huggingface.co/datasets/nyu-mll/glue) | https://huggingface.co/datasets/nyu-mll/glue |
+| [Oml](https://github.com/rleonid/oml) | https://github.com/rleonid/oml |
+| [omni-research/Tarsier2-Recap-7b](https://huggingface.co/omni-research/Tarsier2-Recap-7b) | https://huggingface.co/omni-research/Tarsier2-Recap-7b |
+| [On Learning Language-Invariant Representations for Universal Machine Translation](https://arxiv.org/abs/2008.04510) | https://arxiv.org/abs/2008.04510 |
+| [oneDNN](https://github.com/oneapi-src/oneDNN) | https://github.com/oneapi-src/oneDNN |
+| [Online Learning](https://github.com/lendle/OnlineLearning.jl) | https://github.com/lendle/OnlineLearning.jl |
+| [Online transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#online-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#online-transfer-learning |
+| [ONNX Model Zoo](https://github.com/onnx/models) | https://github.com/onnx/models |
+| [onnx-c](https://github.com/onnx/onnx-c) | https://github.com/onnx/onnx-c |
+| [Onyx](https://github.com/onyx-platform/onyx) | https://github.com/onyx-platform/onyx |
+| [Open Images](https://storage.googleapis.com/openimages/web/index.html) | https://storage.googleapis.com/openimages/web/index.html |
+| [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard |
+| [open-ko-llm-leaderboard/requests-backup](https://huggingface.co/datasets/open-ko-llm-leaderboard/requests-backup) | https://huggingface.co/datasets/open-ko-llm-leaderboard/requests-backup |
+| [open-llm-leaderboard-old/requests](https://huggingface.co/datasets/open-llm-leaderboard-old/requests) | https://huggingface.co/datasets/open-llm-leaderboard-old/requests |
+| [open-llm-leaderboard/requests](https://huggingface.co/datasets/open-llm-leaderboard/requests) | https://huggingface.co/datasets/open-llm-leaderboard/requests |
+| [openai-community/gpt2](https://huggingface.co/openai-community/gpt2) | https://huggingface.co/openai-community/gpt2 |
+| [openai/clip-vit-base-patch16](https://huggingface.co/openai/clip-vit-base-patch16) | https://huggingface.co/openai/clip-vit-base-patch16 |
+| [openai/clip-vit-base-patch32](https://huggingface.co/openai/clip-vit-base-patch32) | https://huggingface.co/openai/clip-vit-base-patch32 |
+| [openai/clip-vit-large-patch14](https://huggingface.co/openai/clip-vit-large-patch14) | https://huggingface.co/openai/clip-vit-large-patch14 |
+| [openai/clip-vit-large-patch14-336](https://huggingface.co/openai/clip-vit-large-patch14-336) | https://huggingface.co/openai/clip-vit-large-patch14-336 |
+| [openai/gpt-oss-120b](https://huggingface.co/openai/gpt-oss-120b) | https://huggingface.co/openai/gpt-oss-120b |
+| [openai/gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b) | https://huggingface.co/openai/gpt-oss-20b |
+| [openai/gsm8k](https://huggingface.co/datasets/openai/gsm8k) | https://huggingface.co/datasets/openai/gsm8k |
+| [openai/openai_humaneval](https://huggingface.co/datasets/openai/openai_humaneval) | https://huggingface.co/datasets/openai/openai_humaneval |
+| [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | https://huggingface.co/openai/whisper-large-v3 |
+| [openai/whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo) | https://huggingface.co/openai/whisper-large-v3-turbo |
+| [openclimatefix/met-office-uk-deterministic-solar](https://huggingface.co/datasets/openclimatefix/met-office-uk-deterministic-solar) | https://huggingface.co/datasets/openclimatefix/met-office-uk-deterministic-solar |
+| [OpenCV](https://github.com/opencv/opencv) | https://github.com/opencv/opencv |
+| [OpenCV](https://opencv.org) | https://opencv.org |
+| [OpenCVDotNet](https://code.google.com/archive/p/opencvdotnet) | https://code.google.com/archive/p/opencvdotnet |
+| [OpenFace](https://cmusatyalab.github.io/openface/) | https://cmusatyalab.github.io/openface/ |
+| [OpenGM](https://github.com/clementfarabet/lua---opengm) | https://github.com/clementfarabet/lua---opengm |
+| [OpenGVLab/InternVL3_5-241B-A28B-Instruct](https://huggingface.co/OpenGVLab/InternVL3_5-241B-A28B-Instruct) | https://huggingface.co/OpenGVLab/InternVL3_5-241B-A28B-Instruct |
+| [OpenML](https://www.openml.org) | https://www.openml.org |
+| [OpenML](https://www.openml.org/) | https://www.openml.org/ |
+| [OpenNLP](https://opennlp.apache.org/) | https://opennlp.apache.org/ |
+| [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | https://github.com/CMU-Perceptual-Computing-Lab/openpose |
+| [OpenVINO Model Zoo](https://github.com/openvinotoolkit/open_model_zoo) | https://github.com/openvinotoolkit/open_model_zoo |
+| [OpenVisionAPI](https://github.com/openvisionapi) | https://github.com/openvisionapi |
+| [Opik](https://www.comet.com/site/products/opik/) - Open source engineering platform to debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards. ([Source Code](https://github.com/comet-ml/opik/)) | https://github.com/comet-ml/opik/) |
+| [optim](https://github.com/torch/optim) | https://github.com/torch/optim |
+| [Optimal kernel choice for large-scale two-sample tests](http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests) | http://papers.nips.cc/paper/4727-optimal-kernel-choice-for-large-scale-two-sample-tests |
+| [Optimization](./Optimization/) - Hyperparameter tuning and distributed computing (Optuna, Ray) | ./Optimization/) - Hyperparameter tuning and distributed computing (Optuna, Ray |
+| [Optimization / Otimização](./03_DEPLOY/Optimization/) | ./03_DEPLOY/Optimization/ |
+| [Optuna](https://optuna.org) | https://optuna.org |
+| [Optunity](https://optunity.readthedocs.io/en/latest/) | https://optunity.readthedocs.io/en/latest/ |
+| [Oriol Vinyals](http://www.cs.berkeley.edu/~vinyals/) | http://www.cs.berkeley.edu/~vinyals/ |
+| [ORYX](https://github.com/oryxproject/oryx) | https://github.com/oryxproject/oryx |
+| [OSU (MSU) 3D Object Model Database](http://eewww.eng.ohio-state.edu/~flynn/3DDB/Models/) - several sets of 3D object models collected over several years to use in object recognition research (Formats: homebrew, vrml) | http://eewww.eng.ohio-state.edu/~flynn/3DDB/Models/) - several sets of 3D object models collected over several years to use in object recognition research (Formats: homebrew, vrml |
+| [OSU (MSU/WSU) Range Image Database](http://eewww.eng.ohio-state.edu/~flynn/3DDB/RID/) - Hundreds of real and synthetic images (Formats: gif, homebrew) | http://eewww.eng.ohio-state.edu/~flynn/3DDB/RID/) - Hundreds of real and synthetic images (Formats: gif, homebrew |
+| [OSU/SAMPL Database: Range Images, 3D Models, Stills, Motion Sequences](http://sampl.eng.ohio-state.edu/~sampl/database.htm) - Over 1000 range images, 3D object models, still images and motion sequences (Formats: gif, ppm, vrml, homebrew) | http://sampl.eng.ohio-state.edu/~sampl/database.htm) - Over 1000 range images, 3D object models, still images and motion sequences (Formats: gif, ppm, vrml, homebrew |
+| [Otago Optical Flow Evaluation Sequences](http://www.cs.otago.ac.nz/research/vision/Research/OpticalFlow/opticalflow.html) - Synthetic and real sequences with machine-readable ground truth optical flow fields, plus tools to generate ground truth for new sequences. (Formats: ppm,tif,homebrew) | http://www.cs.otago.ac.nz/research/vision/Research/OpticalFlow/opticalflow.html) - Synthetic and real sequences with machine-readable ground truth optical flow fields, plus tools to generate ground truth for new sequences. (Formats: ppm,tif,homebrew |
+| [Others](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#others) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#others |
+| [Overcoming Negative Transfer: A Survey](https://arxiv.org/abs/2009.00909) | https://arxiv.org/abs/2009.00909 |
+| [OverFeat](https://github.com/sermanet/OverFeat) | https://github.com/sermanet/OverFeat |
+| [Overview and benchmark of traditional and deep learning models in text classification](https://ahmedbesbes.com/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html) | https://ahmedbesbes.com/overview-and-benchmark-of-traditional-and-deep-learning-models-in-text-classification.html |
+| [oxford-cs-deepnlp-2017](https://github.com/oxford-cs-deepnlp-2017) | https://github.com/oxford-cs-deepnlp-2017 |
+| [OxfordIHTM](https://github.com/OxfordIHTM) | https://github.com/OxfordIHTM |
+| [Oz](https://github.com/metasoarous/oz) | https://github.com/metasoarous/oz |
+| [paicehusk](https://github.com/Rookii/paicehusk) | https://github.com/Rookii/paicehusk |
+| [Pandas](https://github.com/pandas-dev/pandas) | https://github.com/pandas-dev/pandas |
+| [Panthera](https://github.com/alanmarazzi/panthera) | https://github.com/alanmarazzi/panthera |
+| [paper CSIRO Pasture Biomass](03_Papers/) | 03_Papers/ |
+| [Paper: Few-shot learners](https://arxiv.org/abs/2310.10688) | https://arxiv.org/abs/2310.10688 |
+| [Papers](03_Papers/) | 03_Papers/ |
+| [Papers with Code](https://paperswithcode.com/) | https://paperswithcode.com/ |
+| [Papers with Code - Medical Imaging Datasets](https://paperswithcode.com/datasets?task=medical-imaging) | https://paperswithcode.com/datasets?task=medical-imaging |
+| [Papers with Code Datasets](https://paperswithcode.com/datasets) | https://paperswithcode.com/datasets |
+| [Paperweekly](http://www.paperweekly.site/collections/231/papers) | http://www.paperweekly.site/collections/231/papers |
+| [ParaMonte](https://github.com/cdslaborg/paramonte) - A general-purpose Fortran library for Bayesian data analysis and visualization via serial/parallel Monte Carlo and MCMC simulations. Documentation can be found [here](https://www.cdslab.org/paramonte/) | https://www.cdslab.org/paramonte/ |
+| [ParaMonte](https://github.com/cdslaborg/paramonte) - A general-purpose library with C/C++ interface for Bayesian data analysis and visualization via serial/parallel Monte Carlo and MCMC simulations. Documentation can be found [here](https://www.cdslab.org/paramonte/) | https://www.cdslab.org/paramonte/ |
+| [ParaMonte](https://github.com/cdslaborg/paramonte) - A general-purpose MATLAB library for Bayesian data analysis and visualization via serial/parallel Monte Carlo and MCMC simulations. Documentation can be found [here](https://www.cdslab.org/paramonte/) | https://www.cdslab.org/paramonte/ |
+| [Pascal Vincent](http://www.iro.umontreal.ca/~vincentp) | http://www.iro.umontreal.ca/~vincentp |
+| [Patrick Nguyen](https://sites.google.com/site/drpngx/) | https://sites.google.com/site/drpngx/ |
+| [patrickjohncyh/fashion-clip](https://huggingface.co/patrickjohncyh/fashion-clip) | https://huggingface.co/patrickjohncyh/fashion-clip |
+| [Pattern](https://github.com/clips/pattern) | https://github.com/clips/pattern |
+| [Pattern Recognition and Machine Learning](https://github.com/PRML/PRMLT) | https://github.com/PRML/PRMLT |
+| [Pattern Recognition Toolbox](https://github.com/covartech/PRT) | https://github.com/covartech/PRT |
+| [Pavlov.js](https://github.com/NathanEpstein/Pavlov.js) | https://github.com/NathanEpstein/Pavlov.js |
+| [PCV](https://github.com/jesolem/PCV) | https://github.com/jesolem/PCV |
+| [PDF](http://jd92.wang/assets/files/l12_da.pdf) ｜ [Video on Bilibili](https://www.bilibili.com/video/BV1T7411R75a/)]([Video on Youtube) | [Video on Youtube |
+| [Pedro Domingos](http://homes.cs.washington.edu/~pedrod/) | http://homes.cs.washington.edu/~pedrod/ |
+| [Peggy Series](http://homepages.inf.ed.ac.uk/pseries/) | http://homepages.inf.ed.ac.uk/pseries/ |
+| [Per-training/Finetuning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#per-trainingfinetuning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#per-trainingfinetuning |
+| [Perl Data Language](https://metacpan.org/pod/Paws::MachineLearning) | https://metacpan.org/pod/Paws::MachineLearning |
+| [permutans/fineweb-bbc-news](https://huggingface.co/datasets/permutans/fineweb-bbc-news) | https://huggingface.co/datasets/permutans/fineweb-bbc-news |
+| [PGM](https://github.com/JuliaStats/PGM.jl) | https://github.com/JuliaStats/PGM.jl |
+| [Phoenix](https://phoenix.arize.com) | https://phoenix.arize.com |
+| [Photometric 3D Surface Texture Database](http://www.taurusstudio.net/research/pmtexdb/index.htm) - This is the first 3D texture database which provides both full real surface rotations and registered photometric stereo data (30 textures, 1680 images). (Formats: TIFF) | http://www.taurusstudio.net/research/pmtexdb/index.htm) - This is the first 3D texture database which provides both full real surface rotations and registered photometric stereo data (30 textures, 1680 images). (Formats: TIFF |
+| [PHP-ML](https://gitlab.com/php-ai/php-ml) | https://gitlab.com/php-ai/php-ml |
+| [Pierre Sermanet](http://cs.nyu.edu/~sermanet) | http://cs.nyu.edu/~sermanet |
+| [PigPen](https://github.com/Netflix/PigPen) | https://github.com/Netflix/PigPen |
+| [Pink Gorilla Notebook](https://github.com/pink-gorilla/gorilla-notebook) | https://github.com/pink-gorilla/gorilla-notebook |
+| [Piotr Mirowski](http://www.cs.nyu.edu/~mirowski/) | http://www.cs.nyu.edu/~mirowski/ |
+| [Pipcook](https://github.com/alibaba/pipcook) | https://github.com/alibaba/pipcook |
+| [PKU-TANGENT](https://github.com/PKU-TANGENT) | https://github.com/PKU-TANGENT |
+| [PKU-YUAN-Lab (袁粒课题组-北大信工)](https://github.com/PKU-YuanGroup) | https://github.com/PKU-YuanGroup |
+| [pkuseg-python](https://github.com/lancopku/pkuseg-python) | https://github.com/lancopku/pkuseg-python |
+| [Plataformas](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | ./04_ECOSYSTEM/4.1_Platforms_and_Tools/ |
+| [Plataformas](04_Platforms/) | 04_Platforms/ |
+| [plataformas de satélite](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [Plataformas e Ferramentas](./04_ECOSYSTEM/4.1_Platforms_and_Tools/) | ./04_ECOSYSTEM/4.1_Platforms_and_Tools/ |
+| [Platforms](04_Platforms/) | 04_Platforms/ |
+| [Plotly](https://github.com/plotly/plotly.py) | https://github.com/plotly/plotly.py |
+| [pmchard/3D-ADAM](https://huggingface.co/datasets/pmchard/3D-ADAM) | https://huggingface.co/datasets/pmchard/3D-ADAM |
+| [Policy Learning with Continuous Memory States for Partially Observed Robotic Control](http://arxiv.org/pdf/1507.01273v1) | http://arxiv.org/pdf/1507.01273v1 |
+| [Polyaxon](https://github.com/polyaxon/polyaxon) | https://github.com/polyaxon/polyaxon |
+| [PPT (English)](http://jd92.wang/assets/files/l03_transferlearning.pdf)]([PPT (中文)) | [PPT (中文) |
+| [Practical Deep Learning for Cloud, Mobile, and Edge](https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/) | https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/ |
+| [Practical Deep Learning For Coders](http://course.fast.ai/) | http://course.fast.ai/ |
+| [prajjwal1/bert-tiny](https://huggingface.co/prajjwal1/bert-tiny) | https://huggingface.co/prajjwal1/bert-tiny |
+| [PredictionBuilder](https://github.com/denissimon/prediction-builder) | https://github.com/denissimon/prediction-builder |
+| [Pretrained RadImageNet Models](https://www.kaggle.com/datasets/ipythonx/notop-wg-radimagenet) | https://www.kaggle.com/datasets/ipythonx/notop-wg-radimagenet |
+| [Previsão de Séries Temporais](../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/) | ../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/ |
+| [princeton-nlp/SWE-bench_Verified](https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified) | https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified |
+| [Principles of Hierarchical Temporal Memory](https://www.youtube.com/watch?v=6ufPpZDmPKA) | https://www.youtube.com/watch?v=6ufPpZDmPKA |
+| [Programming Community Curated Resources](https://hackr.io/tutorials/learn-artificial-intelligence-ai) | https://hackr.io/tutorials/learn-artificial-intelligence-ai |
+| [proNet-core](https://github.com/cnclabs/proNet-core) | https://github.com/cnclabs/proNet-core |
+| [PT]** Para mais detalhes, consulte o [histórico de commits](https://github.com/FELIPEACASTRO/AIForge/commits/master) | https://github.com/FELIPEACASTRO/AIForge/commits/master |
+| [PT]** Se tiver alguma dúvida, abra uma [issue](https://github.com/FELIPEACASTRO/AIForge/issues) | https://github.com/FELIPEACASTRO/AIForge/issues |
+| [Publicação AlphaFold 3](https://www.nature.com/articles/s41586-024-07487-w) | https://www.nature.com/articles/s41586-024-07487-w |
+| [Purdue Robot Vision Lab](http://rvl.www.ecn.purdue.edu/RVL/) | http://rvl.www.ecn.purdue.edu/RVL/ |
+| [pyannote/segmentation-3.0](https://huggingface.co/pyannote/segmentation-3.0) | https://huggingface.co/pyannote/segmentation-3.0 |
+| [pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1) | https://huggingface.co/pyannote/speaker-diarization-3.1 |
+| [pyannote/wespeaker-voxceleb-resnet34-LM](https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM) | https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM |
+| [PyCaret](https://github.com/pycaret/pycaret) | https://github.com/pycaret/pycaret |
+| [PyCUDA](https://mathema.tician.de/software/pycuda/) | https://mathema.tician.de/software/pycuda/ |
+| [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](https://proycon.github.io/folia/) | https://proycon.github.io/folia/ |
+| [pytessarct](https://github.com/madmaze/pytesseract) - Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and "read" the text embedded in images. Python-tesseract is a wrapper for [Google's Tesseract-OCR Engine](https://github.com/tesseract-ocr/tesseract) | https://github.com/tesseract-ocr/tesseract |
+| [PyTorch](https://github.com/pytorch/pytorch) | https://github.com/pytorch/pytorch |
+| [Pytorch finetune](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet) | https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet |
+| [PyTorch Hub](https://pytorch.org/hub/) | https://pytorch.org/hub/ |
+| [Pytorch Tutorial by Yunjey Choi](https://github.com/yunjey/pytorch-tutorial) | https://github.com/yunjey/pytorch-tutorial |
+| [Pytorch tutorial on transfer learning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) | https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html |
+| [PyTorchCV](https://github.com/donnyyou/PyTorchCV) | https://github.com/donnyyou/PyTorchCV |
+| [Quandl](https://www.quandl.com/) | https://www.quandl.com/ |
+| [Quepy](https://github.com/machinalis/quepy) | https://github.com/machinalis/quepy |
+| [QuestDB](https://questdb.io/) | https://questdb.io/ |
+| [Quick Start Guide](../../../QUICK_START.md) | ../../../QUICK_START.md |
+| [Quoc V. Le](http://ai.stanford.edu/~quocle/) | http://ai.stanford.edu/~quocle/ |
+| [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct |
+| [Qwen/Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-3B-Instruct |
+| [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-7B-Instruct |
+| [Qwen/Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct |
+| [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct |
+| [Qwen/Qwen3-0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) | https://huggingface.co/Qwen/Qwen3-0.6B |
+| [Qwen/Qwen3-4B-Instruct-2507](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507) | https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507 |
+| [Qwen/Qwen3-Embedding-0.6B](https://huggingface.co/Qwen/Qwen3-Embedding-0.6B) | https://huggingface.co/Qwen/Qwen3-Embedding-0.6B |
+| [RadImageNet: An Open Radiologic Deep Learning Research Dataset](https://pmc.ncbi.nlm.nih.gov/articles/PMC9530758/) | https://pmc.ncbi.nlm.nih.gov/articles/PMC9530758/ |
+| [rajpurkar/squad](https://huggingface.co/datasets/rajpurkar/squad) | https://huggingface.co/datasets/rajpurkar/squad |
+| [randomkit](https://github.com/deepmind/torch-randomkit) | https://github.com/deepmind/torch-randomkit |
+| [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) | https://sourceforge.net/p/lemur/wiki/RankLib/ |
+| [rapaio](https://github.com/padreati/rapaio) | https://github.com/padreati/rapaio |
+| [RapidMiner](https://rapidminer.com) | https://rapidminer.com |
+| [Rasgo](https://github.com/rasgointelligence/rasgo) | https://github.com/rasgointelligence/rasgo |
+| [Ray](https://www.ray.io) | https://www.ray.io |
+| [Ray Train](https://docs.ray.io/en/latest/train) | https://docs.ray.io/en/latest/train |
+| [Ray Tune](https://docs.ray.io/en/latest/tune) | https://docs.ray.io/en/latest/tune |
+| [RDataSets](https://github.com/johnmyleswhite/RDatasets.jl) | https://github.com/johnmyleswhite/RDatasets.jl |
+| [Recent advance of transfer learning](https://jd92.wang/assets/files/l16_aitime.pdf) | https://jd92.wang/assets/files/l16_aitime.pdf |
+| [Recent advance of transfer learning - 2022年最新迁移学习发展现状探讨](https://www.bilibili.com/video/BV1nY411E7Uc/) | https://www.bilibili.com/video/BV1nY411E7Uc/ |
+| [Recent Developments in Deep Learning](https://www.youtube.com/watch?v=vShMxxqtDDs&amp;index=3&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT) | https://www.youtube.com/watch?v=vShMxxqtDDs&amp;index=3&amp;list=PL78U8qQHXgrhP9aZraxTT5-X1RccTcUYT |
+| [Recommendation](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#recommendation) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#recommendation |
+| [Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF) | https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF |
+| [Recurrent Neural Network based Language Model](http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf) | http://www.fit.vutbr.cz/research/groups/speech/publi/2010/mikolov_interspeech2010_IS100722.pdf |
+| [Recurrent Neural Network based Language Modeling in Meeting Recognition](http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf) | http://www.fit.vutbr.cz/~imikolov/rnnlm/ApplicationOfRNNinMeetingRecognition_IS2011.pdf |
+| [Recursive Deep Learning for Natural Language Processing and Computer Vision](http://nlp.stanford.edu/~socherr/thesis.pdf) | http://nlp.stanford.edu/~socherr/thesis.pdf |
+| [Recursos Avançados 2025](../09_ADVANCED_MODELS/) | ../09_ADVANCED_MODELS/ |
+| [Recursos de Aprendizagem](./03_RESOURCES/3.1_Learning_Resources/) | ./03_RESOURCES/3.1_Learning_Resources/ |
+| [Reddit Datasets](https://www.reddit.com/r/datasets/) | https://www.reddit.com/r/datasets/ |
+| [Regression](https://github.com/lindahua/Regression.jl) - Algorithms for regression analysis (e.g. linear regression and logistic regression) | https://github.com/lindahua/Regression.jl) - Algorithms for regression analysis (e.g. linear regression and logistic regression |
+| [Regression Analysis for Primary Biliary Cirrhosis](https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis) | https://github.com/SauravMaheshkar/CoxPH-Model-for-Primary-Biliary-Cirrhosis |
+| [regression-js](https://github.com/Tom-Alexander/regression-js) | https://github.com/Tom-Alexander/regression-js |
+| [Regularization in Deep Learning](https://www.manning.com/books/regularization-in-deep-learning) | https://www.manning.com/books/regularization-in-deep-learning |
+| [Reinforcement Learning Neural Turing Machines](http://arxiv.org/pdf/1505.00521v1) | http://arxiv.org/pdf/1505.00521v1 |
+| [Reinhold Scherer](http://bci.tugraz.at/scherer/) | http://bci.tugraz.at/scherer/ |
+| [RELATORIO_DEVASTADOR_CSIRO.md](docs/RELATORIO_DEVASTADOR_CSIRO.md) | docs/RELATORIO_DEVASTADOR_CSIRO.md |
+| [RELATORIO_TRIPLE_CHECK.md](docs/RELATORIO_TRIPLE_CHECK.md) | docs/RELATORIO_TRIPLE_CHECK.md |
+| [released in CPAN](https://metacpan.org/pod/AI::MXNet) | https://metacpan.org/pod/AI::MXNet |
+| [Repositório Principal](../) | ../ |
+| [Repositórios SOTA 2025](../10_SOTA_REPOS_2025/) | ../10_SOTA_REPOS_2025/ |
+| [Repositórios SOTA 2025](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) | ./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/ |
+| [Research](./Research/) | ./Research/ |
+| [Research / Pesquisa](./04_APPLY/Research/) | ./04_APPLY/Research/ |
+| [Residual Learning](https://arxiv.org/pdf/1512.03385v1.pdf) | https://arxiv.org/pdf/1512.03385v1.pdf |
+| [Retail](./Retail/) | ./Retail/ |
+| [Retail / Varejo](./04_APPLY/Retail/) | ./04_APPLY/Retail/ |
+| [Retext](https://github.com/retextjs/retext) | https://github.com/retextjs/retext |
+| [retinaface](https://github.com/serengil/retinaface) | https://github.com/serengil/retinaface |
+| [RF](https://github.com/fxsjy/RF.go) | https://github.com/fxsjy/RF.go |
+| [Richard Socher](http://www.socher.org/) | http://www.socher.org/ |
+| [RLtools](https://github.com/rl-tools/rl-tools) - The fastest deep reinforcement learning library for continuous control, implemented header-only in pure, dependency-free C++ (Python bindings available as well) | https://github.com/rl-tools/rl-tools) - The fastest deep reinforcement learning library for continuous control, implemented header-only in pure, dependency-free C++ (Python bindings available as well |
+| [rnn](https://github.com/Element-Research/rnn) | https://github.com/Element-Research/rnn |
+| [Rob Fergus](http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php) | http://cs.nyu.edu/~fergus/pmwiki/pmwiki.php |
+| [Robert Coop](http://mil.engr.utk.edu/nmil/member/19.html) | http://mil.engr.utk.edu/nmil/member/19.html |
+| [Robert Gens](http://homes.cs.washington.edu/~rcg/) | http://homes.cs.washington.edu/~rcg/ |
+| [Robert Laganière](http://www.site.uottawa.ca/~laganier/) | http://www.site.uottawa.ca/~laganier/ |
+| [Roboflow 100](https://public.roboflow.com) | https://public.roboflow.com |
+| [Roboflow Universe](https://universe.roboflow.com) | https://universe.roboflow.com |
+| [Robot Vision Laboratory](http://rvl1.ecn.purdue.edu/RVL/) | http://rvl1.ecn.purdue.edu/RVL/ |
+| [Robotic AI & Learning Lab Berkeley](https://github.com/rail-berkeley) | https://github.com/rail-berkeley |
+| [ROCAnalysis](https://github.com/davidavdav/ROCAnalysis.jl) | https://github.com/davidavdav/ROCAnalysis.jl |
+| [Rock Paper Scissors](https://rps-tfjs.netlify.com/) | https://rps-tfjs.netlify.com/ |
+| [Roger Grosse](http://people.csail.mit.edu/rgrosse/) | http://people.csail.mit.edu/rgrosse/ |
+| [ROI de agricultura de precisão](08_Use_Cases/) | 08_Use_Cases/ |
+| [ROI of precision agriculture](08_Use_Cases/) | 08_Use_Cases/ |
+| [Ronan Collobert](http://ronan.collobert.com/) | http://ronan.collobert.com/ |
+| [ROOT](https://root.cern.ch) | https://root.cern.ch |
+| [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit) | https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit |
+| [Rowan/hellaswag](https://huggingface.co/datasets/Rowan/hellaswag) | https://huggingface.co/datasets/Rowan/hellaswag |
+| [Rubix ML](https://github.com/RubixML) - A high-level machine learning (ML) | https://github.com/RubixML) - A high-level machine learning (ML |
+| [Ruslan Salakhutdinov](http://www.utstat.toronto.edu/~rsalakhu/) | http://www.utstat.toronto.edu/~rsalakhu/ |
+| [Safe transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#safe-transfer-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#safe-transfer-learning |
+| [Saite](https://github.com/jsa-aerial/saite) -  Clojure(Script) | https://github.com/jsa-aerial/saite) -  Clojure(Script |
+| [Salesforce/GiftEvalPretrain](https://huggingface.co/datasets/Salesforce/GiftEvalPretrain) | https://huggingface.co/datasets/Salesforce/GiftEvalPretrain |
+| [Salesforce/wikitext](https://huggingface.co/datasets/Salesforce/wikitext) | https://huggingface.co/datasets/Salesforce/wikitext |
+| [saliency](https://github.com/marcoscoffier/torch-saliency) | https://github.com/marcoscoffier/torch-saliency |
+| [Samoa](https://samoa.incubator.apache.org/) | https://samoa.incubator.apache.org/ |
+| [Sampling](https://github.com/lindahua/Sampling.jl) | https://github.com/lindahua/Sampling.jl |
+| [satellite platforms](01_Satellite_Platforms/) | 01_Satellite_Platforms/ |
+| [Scicloj](https://scicloj.github.io/pages/libraries/) | https://scicloj.github.io/pages/libraries/ |
+| [scicloj.ml](https://github.com/scicloj/scicloj.ml) | https://github.com/scicloj/scicloj.ml |
+| [Science Paper](https://www.science.org/doi/10.1126/science.adi2336) | https://www.science.org/doi/10.1126/science.adi2336 |
+| [science.js](https://github.com/jasondavies/science.js/) | https://github.com/jasondavies/science.js/ |
+| [Scikit-Image](https://github.com/scikit-image/scikit-image) | https://github.com/scikit-image/scikit-image |
+| [scikit-learn](https://github.com/scikit-learn/scikit-learn) | https://github.com/scikit-learn/scikit-learn |
+| [Scikit-Opt](https://github.com/guofei9987/scikit-opt) - Swarm Intelligence in Python (Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Algorithm, Immune Algorithm, Artificial Fish Swarm Algorithm in Python) | https://github.com/guofei9987/scikit-opt) - Swarm Intelligence in Python (Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Algorithm, Immune Algorithm, Artificial Fish Swarm Algorithm in Python |
+| [ScikitLearn](https://github.com/cstjean/ScikitLearn.jl) | https://github.com/cstjean/ScikitLearn.jl |
+| [SciLua](http://scilua.org/) | http://scilua.org/ |
+| [Seaborn](https://github.com/mwaskom/seaborn) | https://github.com/mwaskom/seaborn |
+| [Sebastian Gerwinn](http://www.kyb.tuebingen.mpg.de/nc/employee/details/sgerwinn.html) | http://www.kyb.tuebingen.mpg.de/nc/employee/details/sgerwinn.html |
+| [seer.cancer.gov](http://seer.cancer.gov/faststats/selections.php?series=cancer)) | http://seer.cancer.gov/faststats/selections.php?series=cancer) |
+| [segmentation_models](https://github.com/qubvel/segmentation_models) | https://github.com/qubvel/segmentation_models |
+| [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) | https://github.com/qubvel/segmentation_models.pytorch |
+| [Self-supervised learning](https://pytorch-lightning-bolts.readthedocs.io/en/latest/self_supervised_models.html) | https://pytorch-lightning-bolts.readthedocs.io/en/latest/self_supervised_models.html |
+| [Semi-Supervised Deep Learning with GANs for Melanoma Detection](https://www.manning.com/liveproject/semi-supervised-deep-learning-with-gans-for-melanoma-detection/) | https://www.manning.com/liveproject/semi-supervised-deep-learning-with-gans-for-melanoma-detection/ |
+| [Sentence Transformers](https://www.sbert.net/) | https://www.sbert.net/ |
+| [sentence-transformers/all-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2) | https://huggingface.co/sentence-transformers/all-MiniLM-L12-v2 |
+| [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) | https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 |
+| [sentence-transformers/all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) | https://huggingface.co/sentence-transformers/all-mpnet-base-v2 |
+| [sentence-transformers/multi-qa-mpnet-base-dot-v1](https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1) | https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-dot-v1 |
+| [sentence-transformers/paraphrase-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2) | https://huggingface.co/sentence-transformers/paraphrase-MiniLM-L6-v2 |
+| [sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2) | https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 |
+| [sentence-transformers/paraphrase-multilingual-mpnet-base-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) | https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2 |
+| [SentencePiece](https://github.com/google/sentencepiece) | https://github.com/google/sentencepiece |
+| [sentences](https://github.com/neurosnap/sentences) | https://github.com/neurosnap/sentences |
+| [Sequences for Flow Based Reconstruction](http://www.nada.kth.se/~zucch/CAMERA/PUB/seq.html) - synthetic sequence for testing structure from motion algorithms (Formats: pgm) | http://www.nada.kth.se/~zucch/CAMERA/PUB/seq.html) - synthetic sequence for testing structure from motion algorithms (Formats: pgm |
+| [SEQUENCES FOR OPTICAL FLOW ANALYSIS (SOFA)](http://www.cee.hw.ac.uk/~mtc/sofa) - 9 synthetic sequences designed for testing motion analysis applications, including full ground truth of motion and camera parameters. (Formats: gif) | http://www.cee.hw.ac.uk/~mtc/sofa) - 9 synthetic sequences designed for testing motion analysis applications, including full ground truth of motion and camera parameters. (Formats: gif |
+| [Serving](./03_DEPLOY/Serving/) | ./03_DEPLOY/Serving/ |
+| [Serving](./Serving/) - Model serving and deployment (FastAPI, TorchServe, BentoML) | ./Serving/) - Model serving and deployment (FastAPI, TorchServe, BentoML |
+| [sfm](https://github.com/marcoscoffier/lua---sfm) | https://github.com/marcoscoffier/lua---sfm |
+| [shaman](https://github.com/luccastera/shaman) | https://github.com/luccastera/shaman |
+| [shark](http://image.diku.dk/shark/sphinx_pages/build/html/index.html) | http://image.diku.dk/shark/sphinx_pages/build/html/index.html |
+| [Shearlets](https://www3.math.tu-berlin.de/numerik/www.shearlab.org/software) | https://www3.math.tu-berlin.de/numerik/www.shearlab.org/software |
+| [shi-labs/oneformer_demo](https://huggingface.co/datasets/shi-labs/oneformer_demo) | https://huggingface.co/datasets/shi-labs/oneformer_demo |
+| [Sho](https://www.microsoft.com/en-us/research/project/sho-the-net-playground-for-data/) - Sho is an interactive environment for data analysis and scientific computing that lets you seamlessly connect scripts (in IronPython) with compiled code (in .NET) | https://www.microsoft.com/en-us/research/project/sho-the-net-playground-for-data/) - Sho is an interactive environment for data analysis and scientific computing that lets you seamlessly connect scripts (in IronPython) with compiled code (in .NET |
+| [Shogun](https://github.com/shogun-toolbox/shogun) | https://github.com/shogun-toolbox/shogun |
+| [Siamese Neural Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) | https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf |
+| [Sigma.js](http://sigmajs.org/) | http://sigmajs.org/ |
+| [signal](https://github.com/soumith/torch-signal) | https://github.com/soumith/torch-signal |
+| [Signal Analysis and Machine Perception Laboratory](http://sampl.eng.ohio-state.edu) | http://sampl.eng.ohio-state.edu |
+| [SignalProcessing](https://github.com/JuliaDSP/DSP.jl) | https://github.com/JuliaDSP/DSP.jl |
+| [Signate](https://signate.jp) | https://signate.jp |
+| [Simple Bayes](https://github.com/fredwu/simple_bayes) | https://github.com/fredwu/simple_bayes |
+| [Simple MCMC](https://github.com/fredo-dedup/SimpleMCMC.jl) | https://github.com/fredo-dedup/SimpleMCMC.jl |
+| [simple-statistics](https://github.com/simple-statistics/simple-statistics) - A JavaScript implementation of descriptive, regression, and inference statistics. Implemented in literate JavaScript with no dependencies, designed to work in all modern browsers (including IE) | https://github.com/simple-statistics/simple-statistics) - A JavaScript implementation of descriptive, regression, and inference statistics. Implemented in literate JavaScript with no dependencies, designed to work in all modern browsers (including IE |
+| [SimpleCV](http://simplecv.org/) | http://simplecv.org/ |
+| [skynet](https://github.com/Tyill/skynet) | https://github.com/Tyill/skynet |
+| [Smile](https://haifengl.github.io/) | https://haifengl.github.io/ |
+| [snowball](https://github.com/tebeka/snowball) | https://github.com/tebeka/snowball |
+| [SnowNLP](https://github.com/isnowfy/snownlp) | https://github.com/isnowfy/snownlp |
+| [SNU-AI](https://github.com/SNU-AI) | https://github.com/SNU-AI |
+| [sofia-ml](https://code.google.com/archive/p/sofia-ml) | https://code.google.com/archive/p/sofia-ml |
+| [Solinftec](05_Startups/) | 05_Startups/ |
+| [SOTA 2025](./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/) | ./04_ECOSYSTEM/4.3_SOTA_Repositories_2025/ |
+| [Source-free domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#source-free-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#source-free-domain-adaptation |
+| [spaghetti](https://github.com/MichaelMathieu/lua---spaghetti) - Spaghetti (sparse linear) | https://github.com/MichaelMathieu/lua---spaghetti) - Spaghetti (sparse linear |
+| [Spago](https://github.com/nlpodyssey/spago) | https://github.com/nlpodyssey/spago |
+| [spammy](https://github.com/tasdikrahman/spammy) | https://github.com/tasdikrahman/spammy |
+| [Spark](https://github.com/apache/spark) | https://github.com/apache/spark |
+| [Speech](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#speech) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#speech |
+| [Speech Recognition with Deep Recurrent Neural Networks](http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf) | http://www.cs.toronto.edu/~fritz/absps/RNN13.pdf |
+| [Speedster](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster) | https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster |
+| [Spider](https://people.kyb.tuebingen.mpg.de/spider/) | https://people.kyb.tuebingen.mpg.de/spider/ |
+| [Spinning Up in Deep Reinforcement Learning](https://spinningup.openai.com/) - A free deep reinforcement learning course by OpenAI (2019) | https://spinningup.openai.com/) - A free deep reinforcement learning course by OpenAI (2019 |
+| [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) | https://rajpurkar.github.io/SQuAD-explorer/ |
+| [stabilityai/sd-turbo](https://huggingface.co/stabilityai/sd-turbo) | https://huggingface.co/stabilityai/sd-turbo |
+| [stable-baselines3](https://github.com/DLR-RM/stable-baselines3) - PyTorch implementations of Stable Baselines (deep) | https://github.com/DLR-RM/stable-baselines3) - PyTorch implementations of Stable Baselines (deep |
+| [Stan](http://mc-stan.org/) | http://mc-stan.org/ |
+| [Stanford Autonomous Systems Lab](https://github.com/StanfordASL) | https://github.com/StanfordASL |
+| [Stanford Classifier](https://nlp.stanford.edu/software/classifier.shtml) | https://nlp.stanford.edu/software/classifier.shtml |
+| [Stanford English Tokenizer](https://nlp.stanford.edu/software/tokenizer.shtml) | https://nlp.stanford.edu/software/tokenizer.shtml |
+| [Stanford Name Entity Recognizer](https://nlp.stanford.edu/software/CRF-NER.shtml) | https://nlp.stanford.edu/software/CRF-NER.shtml |
+| [Stanford Parser](https://nlp.stanford.edu/software/lex-parser.shtml) | https://nlp.stanford.edu/software/lex-parser.shtml |
+| [Stanford Phrasal: A Phrase-Based Translation System](https://nlp.stanford.edu/phrasal/) | https://nlp.stanford.edu/phrasal/ |
+| [Stanford POS Tagger](https://nlp.stanford.edu/software/tagger.shtml) - A Part-Of-Speech Tagger (POS Tagger) | https://nlp.stanford.edu/software/tagger.shtml) - A Part-Of-Speech Tagger (POS Tagger |
+| [Stanford SPIED](https://nlp.stanford.edu/software/patternslearning.shtml) | https://nlp.stanford.edu/software/patternslearning.shtml |
+| [Stanford Temporal Tagger](https://nlp.stanford.edu/software/sutime.shtml) | https://nlp.stanford.edu/software/sutime.shtml |
+| [Stanford Tokens Regex](https://nlp.stanford.edu/software/tokensregex.shtml) | https://nlp.stanford.edu/software/tokensregex.shtml |
+| [Stanford Word Segmenter](https://nlp.stanford.edu/software/segmenter.shtml) | https://nlp.stanford.edu/software/segmenter.shtml |
+| [Stanford.NLP for .NET](https://github.com/sergey-tihon/Stanford.NLP.NET/) | https://github.com/sergey-tihon/Stanford.NLP.NET/ |
+| [stanfordnlp/imdb](https://huggingface.co/datasets/stanfordnlp/imdb) | https://huggingface.co/datasets/stanfordnlp/imdb |
+| [StanfordSNR](https://github.com/StanfordSNR) | https://github.com/StanfordSNR |
+| [stat.ucla.edu](http://statistics.ucla.edu/) | http://statistics.ucla.edu/ |
+| [Statistical Language Models based on Neural Networks](http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf) | http://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf |
+| [Statistical Machine Learning - CMU](https://www.youtube.com/watch?v=azaLcvuql_g&list=PLjbUi5mgii6BWEUZf7He6nowWvGne_Y8r) | https://www.youtube.com/watch?v=azaLcvuql_g&list=PLjbUi5mgii6BWEUZf7He6nowWvGne_Y8r |
+| [Statistiker](https://github.com/clojurewerkz/statistiker) | https://github.com/clojurewerkz/statistiker |
+| [statkit](https://github.com/rigtorp/statkit) | https://github.com/rigtorp/statkit |
+| [Stats](https://github.com/JuliaStats/StatsKit.jl) | https://github.com/JuliaStats/StatsKit.jl |
+| [stdlib](https://github.com/stdlib-js/stdlib) | https://github.com/stdlib-js/stdlib |
+| [Stemmer](https://github.com/fredwu/stemmer) - An English (Porter2) | https://github.com/fredwu/stemmer) - An English (Porter2 |
+| [Stereo Images with Ground Truth Disparity and Occlusion](http://www-dbv.cs.uni-bonn.de/stereo_data/) - a small set of synthetic images of a hallway with varying amounts of noise added. Use these images to benchmark your stereo algorithm. (Formats: raw, viff (khoros), or tiff) | http://www-dbv.cs.uni-bonn.de/stereo_data/) - a small set of synthetic images of a hallway with varying amounts of noise added. Use these images to benchmark your stereo algorithm. (Formats: raw, viff (khoros), or tiff |
+| [Stevross/mmlu](https://huggingface.co/datasets/Stevross/mmlu) | https://huggingface.co/datasets/Stevross/mmlu |
+| [stitch](https://github.com/marcoscoffier/lua---stitch) | https://github.com/marcoscoffier/lua---stitch |
+| [Storm](https://storm.apache.org/) | https://storm.apache.org/ |
+| [Stuttgart Range Image Database](http://range.informatik.uni-stuttgart.de) - A collection of synthetic range images taken from high-resolution polygonal models available on the web (Formats: homebrew) | http://range.informatik.uni-stuttgart.de) - A collection of synthetic range images taken from high-resolution polygonal models available on the web (Formats: homebrew |
+| [Stéphane Mallat](http://www.cmap.polytechnique.fr/~mallat/) | http://www.cmap.polytechnique.fr/~mallat/ |
+| [SuperGLUE](https://super.gluebenchmark.com/) | https://super.gluebenchmark.com/ |
+| [Supervised Sequence Labelling with Recurrent Neural Networks](http://www.cs.toronto.edu/~graves/preprint.pdf) | http://www.cs.toronto.edu/~graves/preprint.pdf |
+| [Support Vector Machines](https://github.com/titsuki/p6-Algorithm-LibSVM) | https://github.com/titsuki/p6-Algorithm-LibSVM |
+| [Survey](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#survey) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#survey |
+| [SVCFusion/Launcher](https://huggingface.co/datasets/SVCFusion/Launcher) | https://huggingface.co/datasets/SVCFusion/Launcher |
+| [Sven Behnke](http://www.ais.uni-bonn.de/behnke/) | http://www.ais.uni-bonn.de/behnke/ |
+| [SVGo](https://github.com/ajstarks/svgo) | https://github.com/ajstarks/svgo |
+| [SVM](https://github.com/JuliaStats/SVM.jl) | https://github.com/JuliaStats/SVM.jl |
+| [svm](https://github.com/koraykv/torch-svm) | https://github.com/koraykv/torch-svm |
+| [SWE-Gym/SWE-Gym](https://huggingface.co/datasets/SWE-Gym/SWE-Gym) | https://huggingface.co/datasets/SWE-Gym/SWE-Gym |
+| [sylvester](https://github.com/jcoglan/sylvester) | https://github.com/jcoglan/sylvester |
+| [Symato/cc](https://huggingface.co/datasets/Symato/cc) | https://huggingface.co/datasets/Symato/cc |
+| [Synapses](https://github.com/mrdimosthenis/Synapses) | https://github.com/mrdimosthenis/Synapses |
+| [Synaptic](https://github.com/cazala/synaptic) | https://github.com/cazala/synaptic |
+| [SystemML](https://github.com/apache/systemml) - flexible, scalable machine learning (ML) | https://github.com/apache/systemml) - flexible, scalable machine learning (ML |
+| [Tablecloth](https://github.com/scicloj/tablecloth) | https://github.com/scicloj/tablecloth |
+| [Tapani Raiko](http://users.ics.aalto.fi/praiko/) | http://users.ics.aalto.fi/praiko/ |
+| [Tara Sainath](https://sites.google.com/site/tsainath/) | https://sites.google.com/site/tsainath/ |
+| [tasl-lab/uniocc](https://huggingface.co/datasets/tasl-lab/uniocc) | https://huggingface.co/datasets/tasl-lab/uniocc |
+| [TAUR-Lab/Taur_CoT_Analysis_Project___gpt-4o-2024-08-06](https://huggingface.co/datasets/TAUR-Lab/Taur_CoT_Analysis_Project___gpt-4o-2024-08-06) | https://huggingface.co/datasets/TAUR-Lab/Taur_CoT_Analysis_Project___gpt-4o-2024-08-06 |
+| [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset) | https://github.com/techascent/tech.ml.dataset |
+| [tech4humans/yolov8s-signature-detector](https://huggingface.co/tech4humans/yolov8s-signature-detector) | https://huggingface.co/tech4humans/yolov8s-signature-detector |
+| [Tecton](https://www.tecton.ai/) | https://www.tecton.ai/ |
+| [tensor-js](https://github.com/Hoff97/tensorjs) | https://github.com/Hoff97/tensorjs |
+| [TensorBoard](https://www.tensorflow.org/tensorboard) | https://www.tensorflow.org/tensorboard |
+| [Tensorflex](https://github.com/anshuman23/tensorflex) | https://github.com/anshuman23/tensorflex |
+| [TensorFlow](https://github.com/LaurentMazare/tensorflow-ocaml) | https://github.com/LaurentMazare/tensorflow-ocaml |
+| [TensorFlow](https://github.com/tensorflow/tensorflow) | https://github.com/tensorflow/tensorflow |
+| [TensorFlow 2.0 in Action](https://www.manning.com/books/tensorflow-in-action) | https://www.manning.com/books/tensorflow-in-action |
+| [TensorFlow Hub](https://tfhub.dev/) | https://tfhub.dev/ |
+| [TensorFlow Python Notebooks](https://github.com/aymericdamien/TensorFlow-Examples) | https://github.com/aymericdamien/TensorFlow-Examples |
+| [TensorFlow tutorials](https://github.com/nlintz/TensorFlow-Tutorials) | https://github.com/nlintz/TensorFlow-Tutorials |
+| [TensorFlow-World](https://github.com/astorfi/TensorFlow-World) | https://github.com/astorfi/TensorFlow-World |
+| [TensorFlow.js](https://js.tensorflow.org/) | https://js.tensorflow.org/ |
+| [Text Analysis](https://github.com/JuliaText/TextAnalysis.jl) | https://github.com/JuliaText/TextAnalysis.jl |
+| [TextBlob](http://textblob.readthedocs.io/en/dev/) - Providing a consistent API for diving into common natural language processing (NLP) | http://textblob.readthedocs.io/en/dev/) - Providing a consistent API for diving into common natural language processing (NLP |
+| [TF-GAN](https://github.com/tensorflow/gan) - TF-GAN is a lightweight library for training and evaluating Generative Adversarial Networks (GANs) | https://github.com/tensorflow/gan) - TF-GAN is a lightweight library for training and evaluating Generative Adversarial Networks (GANs |
+| [The AR Face Database](http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html) - Contains over 4,000 color images corresponding to 126 people's faces (70 men and 56 women). Frontal views with variations in facial expressions, illumination, and occlusions. (Formats: RAW (RGB 24-bit)) | http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html) - Contains over 4,000 color images corresponding to 126 people's faces (70 men and 56 women). Frontal views with variations in facial expressions, illumination, and occlusions. (Formats: RAW (RGB 24-bit) |
+| [The Best Machine Learning Tutorials On The Web](https://github.com/josephmisiti/machine-learning-module) | https://github.com/josephmisiti/machine-learning-module |
+| [The Bot](https://github.com/sta-ger/TheBot) - Example of how the neural network learns to predict the angle between two points created with [Synaptic](https://github.com/cazala/synaptic) | https://github.com/cazala/synaptic |
+| [The Epic Code](https://theepiccode.com/) | https://theepiccode.com/ |
+| [The Illustrated Self-Supervised Learning](https://amitness.com/2020/02/illustrated-self-supervised-learning/) | https://amitness.com/2020/02/illustrated-self-supervised-learning/ |
+| [The MIT-CSAIL Database of Objects and Scenes](http://web.mit.edu/torralba/www/database.html) - Database for testing multiclass object detection and scene recognition algorithms. Over 72,000 images with 2873 annotated frames. More than 50 annotated object classes. (Formats: jpg) | http://web.mit.edu/torralba/www/database.html) - Database for testing multiclass object detection and scene recognition algorithms. Over 72,000 images with 2873 annotated frames. More than 50 annotated object classes. (Formats: jpg |
+| [The Next Generation of Neural Networks](https://www.youtube.com/watch?v=AyzOUbkUf3M) | https://www.youtube.com/watch?v=AyzOUbkUf3M |
+| [The RVL SPEC-DB (SPECularity DataBase)](http://rvl1.ecn.purdue.edu/RVL/specularity_database/) - A collection of over 300 real images of 100 objects taken under three different illuminaiton conditions (Diffuse/Ambient/Directed). -- Use these images to test algorithms for detecting and compensating specular highlights in color images. (Formats: TIFF) | http://rvl1.ecn.purdue.edu/RVL/specularity_database/) - A collection of over 300 real images of 100 objects taken under three different illuminaiton conditions (Diffuse/Ambient/Directed). -- Use these images to test algorithms for detecting and compensating specular highlights in color images. (Formats: TIFF |
+| [The Unreasonable Effectiveness of Deep Learning](https://www.youtube.com/watch?v=sc-KbuZqGkI) | https://www.youtube.com/watch?v=sc-KbuZqGkI |
+| [The wonderful and terrifying implications of computers that can learn](http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn) | http://www.ted.com/talks/jeremy_howard_the_wonderful_and_terrifying_implications_of_computers_that_can_learn |
+| [The Xm2vts database](http://xm2vtsdb.ee.surrey.ac.uk) | http://xm2vtsdb.ee.surrey.ac.uk |
+| [Theano Tutorial](http://deeplearning.net/tutorial/deeplearning.pdf) | http://deeplearning.net/tutorial/deeplearning.pdf |
+| [therfoo](https://github.com/therfoo/therfoo) | https://github.com/therfoo/therfoo |
+| [this arXiv survey](5) | 5 |
+| [ThunderGBM](https://github.com/Xtra-Computing/thundergbm) | https://github.com/Xtra-Computing/thundergbm |
+| [ThunderSVM](https://github.com/Xtra-Computing/thundersvm) | https://github.com/Xtra-Computing/thundersvm |
+| [THUNLP](https://github.com/thunlp) | https://github.com/thunlp |
+| [Tijmen Tieleman](http://www.cs.toronto.edu/~tijmen/) | http://www.cs.toronto.edu/~tijmen/ |
+| [Timbl](https://languagemachines.github.io/timbl/) | https://languagemachines.github.io/timbl/ |
+| [Time series](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#time-series) | https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md#time-series |
+| [Time Series](https://github.com/JuliaStats/TimeSeries.jl) | https://github.com/JuliaStats/TimeSeries.jl |
+| [Time Series Forecasting](../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/) | ../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/ |
+| [timm](https://github.com/rwightman/pytorch-image-models) | https://github.com/rwightman/pytorch-image-models |
+| [Timm (PyTorch Image Models)](https://github.com/huggingface/pytorch-image-models) | https://github.com/huggingface/pytorch-image-models |
+| [timm/convnextv2_nano.fcmae_ft_in22k_in1k](https://huggingface.co/timm/convnextv2_nano.fcmae_ft_in22k_in1k) | https://huggingface.co/timm/convnextv2_nano.fcmae_ft_in22k_in1k |
+| [timm/mobilenetv3_small_100.lamb_in1k](https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k) | https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k |
+| [timm/resnet50.a1_in1k](https://huggingface.co/timm/resnet50.a1_in1k) | https://huggingface.co/timm/resnet50.a1_in1k |
+| [Tiny Images](http://groups.csail.mit.edu/vision/TinyImages/) | http://groups.csail.mit.edu/vision/TinyImages/ |
+| [TinyLlama/TinyLlama-1.1B-Chat-v1.0](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) | https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0 |
+| [Tom Karnowski](http://mil.engr.utk.edu/nmil/member/36.html) | http://mil.engr.utk.edu/nmil/member/36.html |
+| [Tomáš Mikolov](https://research.facebook.com/tomas-mikolov) | https://research.facebook.com/tomas-mikolov |
+| [Tools](./Tools/) - Utility tools (Annotation, Labeling, PDF, Web Scraping) | ./Tools/) - Utility tools (Annotation, Labeling, PDF, Web Scraping |
+| [Tools / Ferramentas](./03_DEPLOY/Tools/) | ./03_DEPLOY/Tools/ |
+| [Topcoder](https://www.topcoder.com) | https://www.topcoder.com |
+| [Topic Models](https://github.com/slycoder/TopicModels.jl) | https://github.com/slycoder/TopicModels.jl |
+| [ToPS](https://github.com/ayoshiaki/tops) | https://github.com/ayoshiaki/tops |
+| [torch-datasets](https://github.com/rosejn/torch-datasets) | https://github.com/rosejn/torch-datasets |
+| [Torch7](http://torch.ch/) | http://torch.ch/ |
+| [Torch7 Tutorials](https://github.com/clementfarabet/ipam-tutorials/tree/master/th_tutorials) | https://github.com/clementfarabet/ipam-tutorials/tree/master/th_tutorials |
+| [torchnet](https://github.com/torchnet/torchnet) | https://github.com/torchnet/torchnet |
+| [TorchVision Models](https://pytorch.org/vision/stable/models.html) | https://pytorch.org/vision/stable/models.html |
+| [Touchstone](https://github.com/ptaoussanis/touchstone) | https://github.com/ptaoussanis/touchstone |
+| [TPOT](https://github.com/EpistasisLab/tpot) | https://github.com/EpistasisLab/tpot |
+| [Traditional domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#traditional-domain-adaptation) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#traditional-domain-adaptation |
+| [Traffic Image Sequences and 'Marbled Block' Sequence](http://i21www.ira.uka.de/image_sequences) - thousands of frames of digitized traffic image sequences as well as the 'Marbled Block' sequence (grayscale images) (Formats: GIF) | http://i21www.ira.uka.de/image_sequences) - thousands of frames of digitized traffic image sequences as well as the 'Marbled Block' sequence (grayscale images) (Formats: GIF |
+| [Training a Convnet for the Galaxy-Zoo Kaggle challenge(CUDA demo)](https://github.com/soumith/galaxyzoo) | https://github.com/soumith/galaxyzoo |
+| [Training a Reinforcement Learning Agent by Miguel Morales](https://youtu.be/8TMT-gHlj_Q) | https://youtu.be/8TMT-gHlj_Q |
+| [Training Recurrent Neural Networks](http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf) | http://www.cs.utoronto.ca/~ilya/pubs/ilya_sutskever_phd_thesis.pdf |
+| [Training tricks by YB](http://www.iro.umontreal.ca/~bengioy/papers/YB-tricks.pdf) | http://www.iro.umontreal.ca/~bengioy/papers/YB-tricks.pdf |
+| [Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687) | https://arxiv.org/abs/1903.04687 |
+| [Transfer learning applications](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-learning-applications) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-learning-applications |
+| [Transfer learning by Hung-yi Lee @ NTU - 台湾大学李宏毅的视频讲解(中文视频)](https://www.youtube.com/watch?v=qD6iD4TFsdQ) | https://www.youtube.com/watch?v=qD6iD4TFsdQ |
+| [Transfer Learning for Activity Recognition: A Survey](https://pan.baidu.com/s/1kVABOYr) | https://pan.baidu.com/s/1kVABOYr |
+| [Transfer Learning for Future Wireless Networks: A Comprehensive Survey](https://arxiv.org/abs/2102.07572) | https://arxiv.org/abs/2102.07572 |
+| [Transfer Learning for Reinforcement Learning Domains: A Survey](https://pan.baidu.com/s/1slfr0w1) | https://pan.baidu.com/s/1slfr0w1 |
+| [Transfer learning: survey and classification](https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13) | https://link.springer.com/chapter/10.1007/978-981-15-5345-5_13 |
+| [Transfer metric learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-metric-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-metric-learning |
+| [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944) | https://arxiv.org/abs/1810.03944 |
+| [Transfer reinforcement learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-reinforcement-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-reinforcement-learning |
+| [Transferability in Deep Learning: A Survey](https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey) | https://paperswithcode.com/paper/transferability-in-deep-learning-a-survey |
+| [Transformers by Hugging Face](https://github.com/huggingface/transformers) | https://github.com/huggingface/transformers |
+| [Tregex, Tsurgeon and Semgrex](https://nlp.stanford.edu/software/tregex.shtml) - Tregex is a utility for matching patterns in trees, based on tree relationships and regular expression matches on nodes (the name is short for "tree regular expressions") | https://nlp.stanford.edu/software/tregex.shtml) - Tregex is a utility for matching patterns in trees, based on tree relationships and regular expression matches on nodes (the name is short for "tree regular expressions" |
+| [Tribou](https://tribuo.org) | https://tribuo.org |
+| [trl-internal-testing/tiny-Qwen2ForCausalLM-2.5](https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5) | https://huggingface.co/trl-internal-testing/tiny-Qwen2ForCausalLM-2.5 |
+| [Truss](https://truss.baseten.co) | https://truss.baseten.co |
+| [TSFresh](https://github.com/blue-yonder/tsfresh) | https://github.com/blue-yonder/tsfresh |
+| [Tsinghua AI](https://github.com/TsinghuaAI) | https://github.com/TsinghuaAI |
+| [Tsinghua MARS Lab](https://github.com/Tsinghua-MARS-Lab) | https://github.com/Tsinghua-MARS-Lab |
+| [Tutorials](04_Tutorials/) | 04_Tutorials/ |
+| [Twitter Text Java](https://github.com/twitter/twitter-text/tree/master/java) | https://github.com/twitter/twitter-text/tree/master/java |
+| [Twitter-text](https://github.com/twitter/twitter-text) | https://github.com/twitter/twitter-text |
+| [U Bern Face images](ftp://ftp.iam.unibe.ch/pub/Images/FaceImages) - hundreds of images (Formats: Sun rasterfile) | ftp://ftp.iam.unibe.ch/pub/Images/FaceImages) - hundreds of images (Formats: Sun rasterfile |
+| [U Michigan textures](ftp://freebie.engin.umich.edu/pub/misc/textures) (Formats: compressed raw) | ftp://freebie.engin.umich.edu/pub/misc/textures) (Formats: compressed raw |
+| [U Oulu wood and knots database](http://www.ee.oulu.fi/~olli/Projects/Lumber.Grading.html) - Includes classifications - 1000+ color images (Formats: ppm) | http://www.ee.oulu.fi/~olli/Projects/Lumber.Grading.html) - Includes classifications - 1000+ color images (Formats: ppm |
+| [UC Irvine Machine Learning Repository](http://archive.ics.uci.edu/ml/) | http://archive.ics.uci.edu/ml/ |
+| [UCI Machine Learning Repository](https://archive.ics.uci.edu/) | https://archive.ics.uci.edu/ |
+| [UCI Machine Learning Repository](https://archive.ics.uci.edu/datasets) | https://archive.ics.uci.edu/datasets |
+| [UCID - an Uncompressed Colour Image Database](http://vision.doc.ntu.ac.uk/datasets/UCID/ucid.html) - a benchmark database for image retrieval with predefined ground truth. (Formats: tiff) | http://vision.doc.ntu.ac.uk/datasets/UCID/ucid.html) - a benchmark database for image retrieval with predefined ground truth. (Formats: tiff |
+| [ucto](https://github.com/LanguageMachines/ucto) | https://github.com/LanguageMachines/ucto |
+| [Ueli Meier](http://www.idsia.ch/~meier/) | http://www.idsia.ch/~meier/ |
+| [UFLDL Tutorial 1](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial) | http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial |
+| [UFLDL Tutorial 2](http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/) | http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/ |
+| [UMass Vision Image Archive](http://vis-www.cs.umass.edu/~vislib/) - Large image database with aerial, space, stereo, medical images and more. (Formats: homebrew) | http://vis-www.cs.umass.edu/~vislib/) - Large image database with aerial, space, stereo, medical images and more. (Formats: homebrew |
+| [UN Data](https://data.un.org/) | https://data.un.org/ |
+| [UNC's 3D image database](ftp://sunsite.unc.edu/pub/academic/computer-science/virtual-reality/3d) | ftp://sunsite.unc.edu/pub/academic/computer-science/virtual-reality/3d |
+| [Understand what is Deep Learning](https://www.scaler.com/topics/what-is-deep-learning/) | https://www.scaler.com/topics/what-is-deep-learning/ |
+| [Understanding deep Convolutional Neural Networks with a practical use-case in Tensorflow and Keras](https://ahmedbesbes.com/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html) | https://ahmedbesbes.com/understanding-deep-convolutional-neural-networks-with-a-practical-use-case-in-tensorflow-and-keras.html |
+| [Univerity of Minnesota Vision Lab](http://vision.psych.umn.edu/users/kersten//kersten-lab/kersten-lab.html) | http://vision.psych.umn.edu/users/kersten//kersten-lab/kersten-lab.html |
+| [Universities](./Universities/) | ./Universities/ |
+| [Universities / Universidades](./01_LEARN/Universities/) | ./01_LEARN/Universities/ |
+| [University College London](https://github.com/UCL) | https://github.com/UCL |
+| [unsup](https://github.com/koraykv/unsup) - A package for unsupervised learning in Torch. Provides modules that are compatible with nn (LinearPsd, ConvPsd, AutoEncoder, ...), and self-contained algorithms (k-means, PCA) | https://github.com/koraykv/unsup) - A package for unsupervised learning in Torch. Provides modules that are compatible with nn (LinearPsd, ConvPsd, AutoEncoder, ...), and self-contained algorithms (k-means, PCA |
+| [Unsupervised Deep Learning - Stanford](http://web.stanford.edu/class/cs294a/handouts.html) by Andrew Ng in Stanford (2011) | http://web.stanford.edu/class/cs294a/handouts.html) by Andrew Ng in Stanford (2011 |
+| [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf) | https://arxiv.org/pdf/2006.03511.pdf |
+| [updatebao/country](https://huggingface.co/datasets/updatebao/country) | https://huggingface.co/datasets/updatebao/country |
+| [updatebao/geonamebase_1](https://huggingface.co/datasets/updatebao/geonamebase_1) | https://huggingface.co/datasets/updatebao/geonamebase_1 |
+| [used for machine learning](https://github.com/zenogantner/PDL-ML) | https://github.com/zenogantner/PDL-ML |
+| [Using convolutional neural nets to detect facial keypoints tutorial](http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/) | http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/ |
+| [Using Very Deep Autoencoders for Content Based Image Retrieval](http://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf) | http://www.cs.toronto.edu/~hinton/absps/esann-deep-final.pdf |
+| [UVA Deep Learning Course](http://uvadlc.github.io) | http://uvadlc.github.io |
+| [UW Interactive Data Lab](https://github.com/uwdata) | https://github.com/uwdata |
+| [UW-Mad-DASH](https://github.com/uw-mad-dash) | https://github.com/uw-mad-dash |
+| [VGG Convolutional Neural Networks Practical](http://www.robots.ox.ac.uk/~vgg/practicals/cnn/index.html) | http://www.robots.ox.ac.uk/~vgg/practicals/cnn/index.html |
+| [videograph](https://github.com/clementfarabet/videograph) | https://github.com/clementfarabet/videograph |
+| [VIGRA](https://github.com/ukoethe/vigra) | https://github.com/ukoethe/vigra |
+| [Vigranumpy](https://github.com/ukoethe/vigra) | https://github.com/ukoethe/vigra |
+| [Vincent Vanhoucke](http://vincent.vanhoucke.com) | http://vincent.vanhoucke.com |
+| [Vision and learning - computers and brains](http://web.mit.edu/course/other/i2course/www/vision_and_learning_fall_2013.html) by Shimon Ullman, Tomaso Poggio, Ethan Meyers @ MIT (2013) | http://web.mit.edu/course/other/i2course/www/vision_and_learning_fall_2013.html) by Shimon Ullman, Tomaso Poggio, Ethan Meyers @ MIT (2013 |
+| [Vision Research Group](http://www.cs.otago.ac.nz/research/vision/index.html) | http://www.cs.otago.ac.nz/research/vision/index.html |
+| [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/) | http://ai.bu.edu/visda-2018/ |
+| [Visual Domain Adaptation: A Survey of Recent Advances](https://pan.baidu.com/s/1o8BR7Vc) | https://pan.baidu.com/s/1o8BR7Vc |
+| [Visual Paper Summary: ALBERT (A Lite BERT)](https://amitness.com/2020/02/albert-visual-summary/) | https://amitness.com/2020/02/albert-visual-summary/ |
+| [Visual Perception with Deep Learning](https://www.youtube.com/watch?v=3boKlkPBckA) | https://www.youtube.com/watch?v=3boKlkPBckA |
+| [Visualizing and Understanding Recurrent Networks](http://arxiv.org/pdf/1506.02078v1.pdf) | http://arxiv.org/pdf/1506.02078v1.pdf |
+| [visualqa.org](http://www.visualqa.org/) | http://www.visualqa.org/ |
+| [ViT: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929.pdf) | https://arxiv.org/pdf/2010.11929.pdf |
+| [VLFeat](http://www.vlfeat.org/) | http://www.vlfeat.org/ |
+| [VOLO: Vision Outlooker for Visual Recognition](https://arxiv.org/pdf/2106.13112.pdf) | https://arxiv.org/pdf/2106.13112.pdf |
+| [Volodymyr Mnih](http://www.cs.toronto.edu/~vmnih/) | http://www.cs.toronto.edu/~vmnih/ |
+| [Vosk](https://github.com/alphacep/vosk-api) | https://github.com/alphacep/vosk-api |
+| [Vowpal Wabbit (VW)](https://github.com/VowpalWabbit/vowpal_wabbit) | https://github.com/VowpalWabbit/vowpal_wabbit |
+| [vowpalwabbit](https://github.com/clementfarabet/vowpal_wabbit) | https://github.com/clementfarabet/vowpal_wabbit |
+| [VQA](http://www.visualqa.org/) | http://www.visualqa.org/ |
+| [Vulpes](https://github.com/fsprojects/Vulpes) | https://github.com/fsprojects/Vulpes |
+| [w11wo/indonesian-roberta-base-posp-tagger](https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger) | https://huggingface.co/w11wo/indonesian-roberta-base-posp-tagger |
+| [Warp-CTC](https://github.com/baidu-research/warp-ctc) - A fast parallel implementation of Connectionist Temporal Classification (CTC) | https://github.com/baidu-research/warp-ctc) - A fast parallel implementation of Connectionist Temporal Classification (CTC |
+| [wav2letter](https://github.com/facebookresearch/wav2letter) - a simple and efficient end-to-end Automatic Speech Recognition (ASR) | https://github.com/facebookresearch/wav2letter) - a simple and efficient end-to-end Automatic Speech Recognition (ASR |
+| [Weather AI](../../../04_APPLY/Weather_Climate/AI_Weather_Prediction/) | ../../../04_APPLY/Weather_Climate/AI_Weather_Prediction/ |
+| [WebDNN](https://github.com/mil-tokyo/webdnn) | https://github.com/mil-tokyo/webdnn |
+| [WebNN](https://webnn.dev) | https://webnn.dev |
+| [Weights & Biases (W&B)](https://wandb.ai) | https://wandb.ai |
+| [Weka](https://www.cs.waikato.ac.nz/ml/weka/) | https://www.cs.waikato.ac.nz/ml/weka/ |
+| [What are GANs and how do they work? by Edward Raff](https://youtu.be/f6ivp84qFUc) | https://youtu.be/f6ivp84qFUc |
+| [What is Neural Structured Learning by Andrew Ferlitsch](https://youtu.be/LXWSE_9gHd0) | https://youtu.be/LXWSE_9gHd0 |
+| [Wide Residual Networks](https://github.com/SauravMaheshkar/Trax-Examples/blob/main/vision/illustrated-wideresnet.ipynb) | https://github.com/SauravMaheshkar/Trax-Examples/blob/main/vision/illustrated-wideresnet.ipynb |
+| [Wojciech Zaremba, Ilya Sutskever, An Empirical Exploration of Recurrent Network Architectures](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf) | http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf |
+| [Word Tokenizers](https://github.com/JuliaText/WordTokenizers.jl) | https://github.com/JuliaText/WordTokenizers.jl |
+| [word-embedding](https://github.com/ynqa/word-embedding) | https://github.com/ynqa/word-embedding |
+| [WordNet](https://github.com/JuliaText/WordNet.jl) | https://github.com/JuliaText/WordNet.jl |
+| [World Bank Open Data](https://data.worldbank.org/) | https://data.worldbank.org/ |
+| [World Meteorological Organization](https://public.wmo.int/) | https://public.wmo.int/ |
+| [www-aig.jpl.nasa.gov](http://www-aig.jpl.nasa.gov/) | http://www-aig.jpl.nasa.gov/ |
+| [www.mpi-inf.mpg.de/departments/computer-vision...](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/) | https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/ |
+| [wyu1/Leopard-Instruct](https://huggingface.co/datasets/wyu1/Leopard-Instruct) | https://huggingface.co/datasets/wyu1/Leopard-Instruct |
+| [XAD](https://github.com/auto-differentiation/XAD) | https://github.com/auto-differentiation/XAD |
+| [XGBoost](https://github.com/dmlc/xgboost) | https://github.com/dmlc/xgboost |
+| [XGBoost](https://github.com/dmlc/XGBoost.jl) | https://github.com/dmlc/XGBoost.jl |
+| [xgboost-node](https://github.com/nuanio/xgboost-node) | https://github.com/nuanio/xgboost-node |
+| [xlangai/ubuntu_osworld_file_cache](https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache) | https://huggingface.co/datasets/xlangai/ubuntu_osworld_file_cache |
+| [xLearn](https://github.com/aksnzhy/xlearn) | https://github.com/aksnzhy/xlearn |
+| [YAlign](https://github.com/machinalis/yalign) | https://github.com/machinalis/yalign |
+| [Yann LeCun](http://yann.lecun.com/) | http://yann.lecun.com/ |
+| [Yann LeCun’s Deep Learning Course at CDS](https://cds.nyu.edu/deep-learning/) | https://cds.nyu.edu/deep-learning/ |
+| [YCML](https://github.com/yconst/YCML) - A Machine Learning framework for Objective-C and Swift (OS X / iOS) | https://github.com/yconst/YCML) - A Machine Learning framework for Objective-C and Swift (OS X / iOS |
+| [Yichuan Tang](http://www.cs.toronto.edu/~tang/) | http://www.cs.toronto.edu/~tang/ |
+| [YOLOv8](https://github.com/ultralytics/ultralytics) | https://github.com/ultralytics/ultralytics |
+| [Yoshua Bengio](http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html) | http://www.iro.umontreal.ca/~bengioy/yoshua_en/index.html |
+| [Yotaro Kubo](http://yota.ro/) | http://yota.ro/ |
+| [Youzhi (Will) Zou](http://ai.stanford.edu/~wzou) | http://ai.stanford.edu/~wzou |
+| [Z3d](https://github.com/NathanEpstein/Z3d) | https://github.com/NathanEpstein/Z3d |
+| [zcbecda/SpineAlign](https://huggingface.co/datasets/zcbecda/SpineAlign) | https://huggingface.co/datasets/zcbecda/SpineAlign |
+| [Zero-shot / few-shot learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#zero-shot--few-shot-learning) | https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#zero-shot--few-shot-learning |
+| [Zhihu blogs - 知乎专栏《小王爱迁移》系列文章](https://zhuanlan.zhihu.com/p/130244395) | https://zhuanlan.zhihu.com/p/130244395 |
+| [zhoujt1994/HumanCellEpigenomeAtlas_sc_contact](https://huggingface.co/datasets/zhoujt1994/HumanCellEpigenomeAtlas_sc_contact) | https://huggingface.co/datasets/zhoujt1994/HumanCellEpigenomeAtlas_sc_contact |
+| [Zindi](https://zindi.africa) | https://zindi.africa |
+| [ZingChart](https://www.zingchart.com/) | https://www.zingchart.com/ |
+| [ZJULearning](https://github.com/ZJULearning) | https://github.com/ZJULearning |
+| [Zyphra/Zyda-2](https://huggingface.co/datasets/Zyphra/Zyda-2) | https://huggingface.co/datasets/Zyphra/Zyda-2 |
+| [↩️ Voltar para o README principal](../README.md) | ../README.md |
+| [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code) | https://github.com/jindongwang/transferlearning/tree/master/code |
+| [迁移学习研究进展](https://pan.baidu.com/s/1bpautob) | https://pan.baidu.com/s/1bpautob |
+| [这里](https://github.com/jindongwang/transferlearning/blob/master/data) | https://github.com/jindongwang/transferlearning/blob/master/data |
+| [这里](https://pan.baidu.com/share/init?surl=iuzZhHdumrD64-yx_VAybA) | https://pan.baidu.com/share/init?surl=iuzZhHdumrD64-yx_VAybA |
