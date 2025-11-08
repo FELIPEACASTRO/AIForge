@@ -1,6 +1,5 @@
-# AIForge - Alphabetical Index / Índice Alfabético
-
-## 🇬🇧 English
+INDEX.md generated successfully at /home/ubuntu/AIForge/INDEX.md
+ English
 
 This index provides an alphabetical listing of all 15,686+ resources curated in the AIForge repository.
 

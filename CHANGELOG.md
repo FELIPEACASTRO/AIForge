@@ -6,6 +6,24 @@
 
 ---
 
+## [3.0.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **Devastating Search & Integration:** 20+ revolutionary resources from 2024-2025 integrated after a massive parallel search (KA-GNN, Evoformer\AcODE, Unsloth AI, OpenRLHF, etc.).
+- **Complete Structural Reorganization:** New hierarchical structure (01_LEARN, 02_BUILD, 03_DEPLOY, 04_APPLY) for didactic and clear navigation.
+- **Definitive README.md Guide:** The README.md has been transformed into a central, comprehensive guide to the entire repository.
+- **Final INDEX.md Update:** The alphabetical index has been regenerated to include all 15,700+ resources.
+
+**[PT]**
+- **Busca Devastadora e Integração:** 20+ recursos revolucionários de 2024-2025 integrados após uma busca massiva em paralelo (KA-GNN, Evoformer\AcODE, Unsloth AI, OpenRLHF, etc.).
+- **Reorganização Estrutural Completa:** Nova estrutura hierárquica (01_LEARN, 02_BUILD, 03_DEPLOY, 04_APPLY) para uma navegação didática e clara.
+- **Guia Definitivo no README.md:** O README.md foi transformado em um guia central e abrangente para todo o repositório.
+- **Atualização Final do INDEX.md:** O índice alfabético foi regenerado para incluir todos os 15.700+ recursos.
+
+---
+
 ## [2.0.0] - 2025-11-08
 
 ### Added / Adicionado
