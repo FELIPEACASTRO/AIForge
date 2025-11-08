@@ -6,6 +6,32 @@
 
 ---
 
+## [4.0.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **New Directory Structure:** Complete reorganization of the repository for clarity and intuitive navigation.
+- **New Categories:** `03_RESOURCES`, `04_DEPLOY`, `05_APPLY`, `06_PROJECTS`.
+- **`docs/reports`:** All analysis reports moved to this directory.
+
+**[PT]**
+- **Nova Estrutura de Diretórios:** Reorganização completa do repositório para maior clareza e navegação intuitiva.
+- **Novas Categorias:** `03_RESOURCES`, `04_DEPLOY`, `05_APPLY`, `06_PROJECTS`.
+- **`docs/reports`:** Todos os relatórios de análise movidos para este diretório.
+
+### Changed / Alterado
+
+**[EN]**
+- **README.md:** Updated all links to reflect the new structure.
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **README.md:** Todos os links atualizados para refletir a nova estrutura.
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [3.2.0] - 2025-11-08
 
 ### Added / Adicionado

@@ -31,8 +31,10 @@ AIForge is organized into a clear, hierarchical structure designed for intuitive
 | :--- | :--- | :--- |
 | 🧠 **01_LEARN** | `01_LEARN/` | Foundational knowledge, from core algorithms to advanced learning techniques. |
 | 🛠️ **02_BUILD** | `02_BUILD/` | The tools of the trade: foundation models, niche models, and development platforms. |
-| 🚀 **03_DEPLOY** | `03_DEPLOY/` | Resources for deploying, monitoring, and scaling AI models in production. |
-| 🔬 **04_APPLY** | `04_APPLY/` | Real-world applications of AI across various industries and domains. |
+| 📊 **03_RESOURCES** | `03_RESOURCES/` | Essential resources: datasets, tools, cloud platforms, and APIs. |
+| 🚀 **04_DEPLOY** | `04_DEPLOY/` | Resources for deploying, monitoring, and scaling AI models in production. |
+| 🎯 **05_APPLY** | `05_APPLY/` | Real-world applications of AI across various industries and domains. |
+| 🏆 **06_PROJECTS** | `06_PROJECTS/` | Practical AI/ML projects and implementations. |
 
 ---
 
@@ -56,25 +58,28 @@ Dive directly into the topics that interest you most. Each link below leads to a
 
 | # | Topic | Directory | Description |
 | :--- | :--- | :--- | :--- |
-| 2.1 | **Foundation Models** | `02_BUILD/2.1_Foundation_Models/` | The giants of AI: GPT-5, Claude 3.5, Gemini 2.5, Llama 3, and more. |
-| 2.2 | **Niche & Specialized Models** | `02_BUILD/2.2_Niche_Models/` | Models designed for specific tasks: GNNs, Time Series, Video, etc. |
+| 2.1 | **Foundation Models** | `02_BUILD/Foundation_Models/` | The giants of AI: GPT-5, Claude 3.5, Gemini 2.5, Llama 3, and more. |
+| 2.2 | **Niche & Specialized Models** | `02_BUILD/Niche_Models/` | Models designed for specific tasks: GNNs, Time Series, Video, etc. |
 | 2.3 | **Development Platforms** | `02_BUILD/2.3_Development_Platforms/` | MLOps platforms, cloud services (AWS, Azure, GCP), and more. |
 
 ### 🚀 03_DEPLOY: From Model to Production
 
 | # | Topic | Directory | Description |
 | :--- | :--- | :--- | :--- |
-| 3.1 | **Deployment & Serving** | `03_DEPLOY/Deployment_and_Serving/` | Tools and frameworks for serving models at scale. |
-| 3.2 | **Monitoring & Observability** | `03_DEPLOY/Monitoring_and_Observability/` | Solutions for monitoring model performance and data drift. |
+| 3.1 | **Datasets** | `03_RESOURCES/Datasets/` | Dataset platforms and famous datasets. |
+| 3.2 | **Tools** | `03_RESOURCES/Tools/` | Feature engineering, data labeling, annotation, and web scraping tools. |
+| 4.1 | **Deployment & Serving** | `04_DEPLOY/Serving/` | Tools and frameworks for serving models at scale. |
+| 4.2 | **Monitoring & Observability** | `04_DEPLOY/Monitoring/` | Solutions for monitoring model performance and data drift. |
 
 ### 🔬 04_APPLY: AI in the Real World
 
 | # | Topic | Directory | Description |
 | :--- | :--- | :--- | :--- |
-| 4.1 | **Healthcare AI** | `04_APPLY/Healthcare/` | AI in drug discovery, medical imaging, and synthetic data generation. |
-| 4.2 | **Agriculture AI** | `04_APPLY/Agriculture/` | Precision agriculture, crop monitoring, and biomass estimation. |
-| 4.3 | **Financial AI** | `04_APPLY/Finance/` | AI in fraud detection, trading, and risk management. |
-| 4.4 | **Computer Vision** | `04_APPLY/Computer_Vision/` | AI for autonomous driving, image recognition, and more. |
+| 5.1 | **Healthcare AI** | `05_APPLY/Healthcare/` | AI in drug discovery, medical imaging, and synthetic data generation. |
+| 5.2 | **Agriculture AI** | `05_APPLY/Agriculture/` | Precision agriculture, crop monitoring, and biomass estimation. |
+| 5.3 | **Financial AI** | `05_APPLY/Finance/` | AI in fraud detection, trading, and risk management. |
+| 5.4 | **Computer Vision** | `05_APPLY/Computer_Vision/` | AI for autonomous driving, image recognition, and more. |
+| 6.1 | **CSIRO Biomass** | `06_PROJECTS/CSIRO_Biomass/` | Biomass prediction using AI. |
 
 ---
 
@@ -84,11 +89,11 @@ A curated selection of the most revolutionary resources added to AIForge.
 
 | Resource | Domain | Impact |
 | :--- | :--- | :--- |
-| [**KA-GNN**](./02_BUILD/2.2_Niche_Models/Graph_Neural_Networks/GNN_Game_Changers_2025.md) | GNNs | Interpretable GNNs with superior performance. |
-| [**Evoformer\AcODE**](./04_APPLY/Healthcare/Protein_Structure_Prediction/Evoformer_AcODE_2025.md) | Healthcare | A lighter, more interpretable alternative to AlphaFold. |
+| [**KA-GNN**](./02_BUILD/Niche_Models/Graph_Neural_Networks/GNN_Game_Changers_2025.md) | GNNs | Interpretable GNNs with superior performance. |
+| [**Evoformer\AcODE**](./05_APPLY/Healthcare/Protein_Structure_Prediction/Evoformer_AcODE_2025.md) | Healthcare | A lighter, more interpretable alternative to AlphaFold. |
 | [**Unsloth AI**](./01_LEARN/Model_Optimization/Unsloth_AI_2025.md) | LLM Optimization | Up to 30x faster LLM fine-tuning with 90% less memory. |
 | [**OpenRLHF**](./01_LEARN/Reinforcement_Learning/OpenRLHF_2025.md) | RL | One of the fastest and most scalable RLHF frameworks available. |
-| [**SCALEMED**](./04_APPLY/Healthcare/Synthetic_Data_Generation/SCALEMED_DermaSynth_2025.md) | Healthcare | Low-cost, high-performance medical AI with synthetic data. |
+| [**SCALEMED**](./05_APPLY/Healthcare/Synthetic_Data_Generation/SCALEMED_DermaSynth_2025.md) | Healthcare | Low-cost, high-performance medical AI with synthetic data. |
 
 ---
 
