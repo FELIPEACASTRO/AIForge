@@ -6,6 +6,30 @@
 
 ---
 
+## [3.2.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **Dataset Platforms:** Comprehensive guide to 8 major dataset platforms (Kaggle, UCI, AWS, Google, etc.).
+- **Feature Engineering Tools:** Guide to 4 key feature engineering tools (Featuretools, tsfresh, etc.).
+- **Famous Datasets:** Individual files for ImageNet, COCO, and MNIST.
+
+**[PT]**
+- **Plataformas de Datasets:** Guia abrangente para 8 principais plataformas de datasets (Kaggle, UCI, AWS, Google, etc.).
+- **Ferramentas de Engenharia de Features:** Guia para 4 principais ferramentas de engenharia de features (Featuretools, tsfresh, etc.).
+- **Datasets Famosos:** Arquivos individuais para ImageNet, COCO e MNIST.
+
+### Changed / Alterado
+
+**[EN]**
+- Updated `INDEX.md` with all new resources.
+
+**[PT]**
+- `INDEX.md` atualizado com todos os novos recursos.
+
+---
+
 ## [3.1.0] - 2025-11-08
 
 ### Added / Adicionado
