@@ -150,7 +150,14 @@
 /home/ubuntu/AIForge/03_RESOURCES/Google_AI_Resources_2025.md
 /home/ubuntu/AIForge/03_RESOURCES/MLOps_Tools_2025.md
 /home/ubuntu/AIForge/03_RESOURCES/NASA_Earth_Data_Resources.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets_Platforms_2025.md
+/home/ubuntu/AIForge/03_RESOURCES/Feature_Engineering_Tools_2025.md
+/home/ubuntu/AIForge/03_RESOURCES/Famous_Datasets/ImageNet.md
+/home/ubuntu/AIForge/03_RESOURCES/Famous_Datasets/COCO.md
+/home/ubuntu/AIForge/03_RESOURCES/Famous_Datasets/MNIST.md
 /home/ubuntu/AIForge/NEW_ATTACHMENTS_ANALYSIS_REPORT.md
 /home/ubuntu/AIForge/ATTACHMENT_ANALYSIS_REPORT.md
 /home/ubuntu/AIForge/DEVASTATING_SWEEP_FINAL_REPORT.md
 /home/ubuntu/AIForge/DOUBLE_CHECK_GAPS_REPORT.md
+/home/ubuntu/AIForge/DOUBLE_CHECK_FINAL_REPORT.md
+/home/ubuntu/AIForge/URL_DOMAIN_ANALYSIS.md
