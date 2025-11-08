@@ -1,0 +1,10 @@
+b9f16f1596f0b611998cc9e46d947b54  sankofa-enterprise-real/backend/data/real_data_generation.py
+e0257d58f105632ce3c433bed7e82b4f  sankofa-enterprise-real/backend/data/real_time_transaction_generator.py
+f2b158e69108872a86525eabb6df4799  sankofa-enterprise-real/backend/data/external_dataset_integration.py
+98feb7136958bc0a9edc91571355aceb  sankofa-enterprise-real/backend/data/brazilian_synthetic_data_generator.py
+1f3739863efcfc5f7b4202e4a7ee6836  sankofa-enterprise-real/backend/data/brazilian_data_pipeline.py
+b19f14dc110e992996e6065d6319d3f2  sankofa-enterprise-real/backend/ml_engine/real_model_training.py
+b6db0e4d2c86d2a33723ddfb10c5a683  sankofa-enterprise-real/backend/ml_engine/continuous_learning_system.py
+cd311932464bb537623163e9ccdedc2a  sankofa-enterprise-real/backend/ml_engine/fraud_analyzer.py
+f345b6a8270a7f90bcf25440b8a68cac  sankofa-enterprise-real/backend/ml_engine/optimized_fraud_analyzer.py
+580f3997d1a3ba40bf29c67ed81099a7  sankofa-enterprise-real/backend/ml_engine/final_fraud_analyzer.py

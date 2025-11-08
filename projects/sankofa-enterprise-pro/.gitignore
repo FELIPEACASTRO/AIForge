@@ -1,0 +1,10 @@
+# Datasets grandes
+*.csv
+*.zip
+*.pkl
+*.h5
+*.hdf5
+
+# Dados externos
+data/external_datasets/
+backend/data/*.csv

@@ -1,0 +1,526 @@
+{
+  "timestamp": "2025-09-21T14:57:14.266176",
+  "engine_status": "MOTOR REJEITADO",
+  "engine_score": 65.39583333333334,
+  "engine_approved": false,
+  "fraud_engine_summary": {
+    "total_specialists": 4,
+    "approved_specialists": 0,
+    "needs_improvement_specialists": 1,
+    "rejected_specialists": 3
+  },
+  "test_summary": {
+    "total_tests": 13,
+    "passed_tests": 7,
+    "failed_tests": 4,
+    "critical_issues": 1,
+    "success_rate": 53.84615384615385
+  },
+  "engine_metrics": {
+    "avg_feature_importance": 0.07576672575018602,
+    "total_features": 38.0,
+    "informative_features": 10.0,
+    "cv_f1_mean": 0.6333333333333333,
+    "cv_f1_std": 0.3711842908553348,
+    "stability_score": 0.4139195407547346,
+    "cv_folds": 5.0,
+    "avg_drift_score": 0.021466666666666665,
+    "features_tested": 3.0,
+    "drift_threshold": 0.3,
+    "quality_score": 0.9971236842105263,
+    "null_percentage": 0.0,
+    "duplicate_percentage": 0.0,
+    "avg_outlier_percentage": 0.0028763157894736843,
+    "total_records": 10000.0,
+    "fraud_rate": 0.001625,
+    "expected_fraud_rate": 0.0017,
+    "fraud_rate_deviation": 0.04411764705882352,
+    "avg_distribution_score": 8.926472202498653e-57,
+    "distributions_tested": 3.0,
+    "temporal_score": 0.6793,
+    "hour_consistency": 0.038,
+    "consistent_gaps": 0.9999,
+    "is_sorted": 1.0,
+    "avg_f1_score": 0.5,
+    "avg_throughput_tps": 22168.97155177124,
+    "RandomForest_accuracy": 1.0,
+    "RandomForest_precision": 1.0,
+    "RandomForest_recall": 1.0,
+    "RandomForest_f1_score": 1.0,
+    "RandomForest_execution_time_ms": 1388.4077072143555,
+    "RandomForest_throughput_tps": 7202.495310303046,
+    "IsolationForest_accuracy": 0.9963,
+    "IsolationForest_precision": 0.0,
+    "IsolationForest_recall": 0.0,
+    "IsolationForest_f1_score": 0.0,
+    "IsolationForest_execution_time_ms": 269.2844867706299,
+    "IsolationForest_throughput_tps": 37135.44779323943,
+    "throughput_degradation": 0.4950171748999227,
+    "min_throughput_tps": 24866.133023886083,
+    "max_throughput_tps": 54614.04445370383,
+    "sizes_tested": 4.0,
+    "size_1000_throughput": 54614.04445370383,
+    "size_1000_time_ms": 18.3103084564209,
+    "size_5000_throughput": 50092.127483226206,
+    "size_5000_time_ms": 99.81608390808105,
+    "size_10000_throughput": 32897.79207027727,
+    "size_10000_time_ms": 303.9717674255371,
+    "size_20000_throughput": 27579.154458372566,
+    "size_20000_time_ms": 725.1853942871094,
+    "avg_latency_ms": 1.7879533767700195,
+    "p95_latency_ms": 1.9404888153076172,
+    "p99_latency_ms": 2.0255208015441895,
+    "threshold_ms": 100.0,
+    "predictions_tested": 100.0,
+    "pipeline_f1_score": 0.2222222222222222,
+    "pipeline_accuracy": 0.9972,
+    "pipeline_precision": 0.2,
+    "pipeline_recall": 0.25,
+    "pipeline_throughput_tps": 25026.72545989391,
+    "total_pipeline_time_ms": 199.78642463684082,
+    "preprocessing_time_ms": 4.124164581298828,
+    "feature_eng_time_ms": 2.5501251220703125,
+    "detection_time_ms": 192.2433376312256,
+    "scoring_time_ms": 0.8687973022460938,
+    "avg_time_per_transaction_ms": 0.039957284927368164,
+    "robustness_score": 1.0,
+    "edge_cases_tested": 5.0,
+    "successful_cases": 5.0,
+    "edge_case_empty_data_score": 1.0,
+    "edge_case_single_row_score": 1.0,
+    "edge_case_missing_features_score": 1.0,
+    "edge_case_extreme_values_score": 1.0,
+    "edge_case_all_nulls_score": 1.0,
+    "max_batch_time_ms": 1.4921927452087402,
+    "load_tests_count": 3.0,
+    "load_1000_throughput_tps": 31301.94410239188,
+    "load_1000_batch_time_ms": 1.470184326171875,
+    "load_5000_throughput_tps": 29035.086019034115,
+    "load_5000_batch_time_ms": 1.4858675003051758,
+    "load_10000_throughput_tps": 22153.111589399603,
+    "load_10000_batch_time_ms": 1.4921927452087402
+  },
+  "critical_engine_issues": [
+    {
+      "specialist": "Dr. Elena Rodriguez",
+      "test": "Ensemble Model Validation",
+      "details": "Erro crítico na validação do ensemble: name 'models' is not defined",
+      "score": 0.0
+    }
+  ],
+  "high_priority_issues": [
+    {
+      "specialist": "Dr. Elena Rodriguez",
+      "test": "Cross-Validation & Generalization",
+      "details": "CV F1-Score: 0.633 ± 0.371, Estabilidade: 0.414",
+      "score": 45.0
+    },
+    {
+      "specialist": "Dr. Marcus Chen",
+      "test": "Distribution & Pattern Validation",
+      "details": "Taxa de fraude: 0.0016, Desvio: 0.044, Dist. Score: 0.000",
+      "score": 55.0
+    },
+    {
+      "specialist": "Dr. Marcus Chen",
+      "test": "Temporal Consistency Validation",
+      "details": "Consistência temporal: 0.679, Ordenação: True, Gaps: 1.000",
+      "score": 60.0
+    },
+    {
+      "specialist": "Dr. Alex Thompson",
+      "test": "End-to-End Fraud Engine Testing",
+      "details": "Pipeline F1: 0.222, Throughput: 25026.7 TPS, Tempo total: 199.8ms",
+      "score": 50.0
+    }
+  ],
+  "specialist_reports": [
+    {
+      "specialist_name": "Dr. Elena Rodriguez",
+      "specialty_area": "ML Model Validation & Algorithm Testing",
+      "total_tests": 4,
+      "passed_tests": 2,
+      "failed_tests": 1,
+      "critical_issues": 1,
+      "overall_score": 56.25,
+      "engine_approval": "REJECTED",
+      "test_results": [
+        {
+          "specialist_name": "Dr. Elena Rodriguez",
+          "test_category": "ML Model Validation & Algorithm Testing",
+          "test_name": "Ensemble Model Validation",
+          "status": "CRITICAL",
+          "score": 0.0,
+          "details": "Erro crítico na validação do ensemble: name 'models' is not defined",
+          "metrics": {},
+          "recommendations": [
+            "Verificar implementação dos modelos de ML"
+          ],
+          "execution_time_ms": 0.0,
+          "timestamp": "2025-09-21T14:57:05.706733",
+          "severity": "critical"
+        },
+        {
+          "specialist_name": "Dr. Elena Rodriguez",
+          "test_category": "ML Model Validation & Algorithm Testing",
+          "test_name": "Feature Engineering Validation",
+          "status": "PASS",
+          "score": 90.0,
+          "details": "Features informativas: 10, Importância média: 0.0758",
+          "metrics": {
+            "avg_feature_importance": 0.07576672575018602,
+            "high_correlations": 0,
+            "total_features": 38,
+            "informative_features": 10
+          },
+          "recommendations": [
+            "Implementar seleção de features baseada em importância",
+            "Remover features altamente correlacionadas",
+            "Considerar feature engineering adicional"
+          ],
+          "execution_time_ms": 588.3941650390625,
+          "timestamp": "2025-09-21T14:57:06.295150",
+          "severity": "low"
+        },
+        {
+          "specialist_name": "Dr. Elena Rodriguez",
+          "test_category": "ML Model Validation & Algorithm Testing",
+          "test_name": "Cross-Validation & Generalization",
+          "status": "FAIL",
+          "score": 45.0,
+          "details": "CV F1-Score: 0.633 ± 0.371, Estabilidade: 0.414",
+          "metrics": {
+            "cv_f1_mean": 0.6333333333333333,
+            "cv_f1_std": 0.3711842908553348,
+            "stability_score": 0.4139195407547346,
+            "cv_folds": 5
+          },
+          "recommendations": [
+            "Implementar validação temporal para dados de série temporal",
+            "Usar stratified cross-validation para classes desbalanceadas",
+            "Monitorar performance em dados out-of-time"
+          ],
+          "execution_time_ms": 3262.5515460968018,
+          "timestamp": "2025-09-21T14:57:09.557737",
+          "severity": "high"
+        },
+        {
+          "specialist_name": "Dr. Elena Rodriguez",
+          "test_category": "ML Model Validation & Algorithm Testing",
+          "test_name": "Concept & Data Drift Detection",
+          "status": "PASS",
+          "score": 90.0,
+          "details": "Drift Score médio: 0.021, Features testadas: 3",
+          "metrics": {
+            "avg_drift_score": 0.021466666666666665,
+            "features_tested": 3,
+            "drift_threshold": 0.3
+          },
+          "recommendations": [
+            "Implementar monitoramento contínuo de drift",
+            "Configurar alertas para drift significativo",
+            "Planejar retreinamento automático quando drift detectado"
+          ],
+          "execution_time_ms": 17.91214942932129,
+          "timestamp": "2025-09-21T14:57:09.575673",
+          "severity": "low"
+        }
+      ],
+      "summary": "Motor de Fraude - ML Model Validation & Algorithm Testing: 4 testes executados. Score: 56.2%. Aprovados: 2, Falharam: 1. 🚨 1 problemas críticos. Status: REJECTED.",
+      "timestamp": "2025-09-21T14:57:09.576676"
+    },
+    {
+      "specialist_name": "Dr. Marcus Chen",
+      "specialty_area": "Data Quality & Data Pipeline Validation",
+      "total_tests": 3,
+      "passed_tests": 1,
+      "failed_tests": 2,
+      "critical_issues": 0,
+      "overall_score": 70.0,
+      "engine_approval": "REJECTED",
+      "test_results": [
+        {
+          "specialist_name": "Dr. Marcus Chen",
+          "test_category": "Data Quality & Data Pipeline Validation",
+          "test_name": "Data Integrity Validation",
+          "status": "PASS",
+          "score": 95.0,
+          "details": "Qualidade: 0.997, Nulos: 0.000, Duplicatas: 0.000",
+          "metrics": {
+            "quality_score": 0.9971236842105263,
+            "null_percentage": 0.0,
+            "duplicate_percentage": 0.0,
+            "avg_outlier_percentage": 0.0028763157894736843,
+            "total_records": 10000
+          },
+          "recommendations": [
+            "Implementar validação automática de qualidade de dados",
+            "Configurar alertas para degradação de qualidade",
+            "Estabelecer pipeline de limpeza de dados"
+          ],
+          "execution_time_ms": 93.18804740905762,
+          "timestamp": "2025-09-21T14:57:09.670054",
+          "severity": "low"
+        },
+        {
+          "specialist_name": "Dr. Marcus Chen",
+          "test_category": "Data Quality & Data Pipeline Validation",
+          "test_name": "Distribution & Pattern Validation",
+          "status": "FAIL",
+          "score": 55.0,
+          "details": "Taxa de fraude: 0.0016, Desvio: 0.044, Dist. Score: 0.000",
+          "metrics": {
+            "fraud_rate": 0.001625,
+            "expected_fraud_rate": 0.0017,
+            "fraud_rate_deviation": 0.04411764705882352,
+            "avg_distribution_score": 8.926472202498653e-57,
+            "distributions_tested": 3
+          },
+          "recommendations": [
+            "Monitorar taxa de fraude em produção",
+            "Implementar testes de distribuição automáticos",
+            "Configurar alertas para mudanças significativas"
+          ],
+          "execution_time_ms": 24.11651611328125,
+          "timestamp": "2025-09-21T14:57:09.694198",
+          "severity": "high"
+        },
+        {
+          "specialist_name": "Dr. Marcus Chen",
+          "test_category": "Data Quality & Data Pipeline Validation",
+          "test_name": "Temporal Consistency Validation",
+          "status": "FAIL",
+          "score": 60.0,
+          "details": "Consistência temporal: 0.679, Ordenação: True, Gaps: 1.000",
+          "metrics": {
+            "temporal_score": 0.6793,
+            "hour_consistency": 0.038,
+            "consistent_gaps": 0.9999,
+            "is_sorted": true,
+            "total_records": 10000
+          },
+          "recommendations": [
+            "Implementar validação de timestamps em tempo real",
+            "Configurar detecção de gaps temporais",
+            "Estabelecer políticas de ordenação de dados"
+          ],
+          "execution_time_ms": 26.641368865966797,
+          "timestamp": "2025-09-21T14:57:09.720866",
+          "severity": "high"
+        }
+      ],
+      "summary": "Motor de Fraude - Data Quality & Data Pipeline Validation: 3 testes executados. Score: 70.0%. Aprovados: 1, Falharam: 2. Status: REJECTED.",
+      "timestamp": "2025-09-21T14:57:09.721592"
+    },
+    {
+      "specialist_name": "Dr. Sarah Kim",
+      "specialty_area": "Algorithm Performance & Optimization",
+      "total_tests": 3,
+      "passed_tests": 2,
+      "failed_tests": 0,
+      "critical_issues": 0,
+      "overall_score": 86.66666666666667,
+      "engine_approval": "NEEDS_IMPROVEMENT",
+      "test_results": [
+        {
+          "specialist_name": "Dr. Sarah Kim",
+          "test_category": "Algorithm Performance & Optimization",
+          "test_name": "Algorithm Performance Benchmark",
+          "status": "WARNING",
+          "score": 75.0,
+          "details": "Algoritmos testados: 2, F1 médio: 0.500, Throughput médio: 22169.0 TPS",
+          "metrics": {
+            "avg_f1_score": 0.5,
+            "avg_throughput_tps": 22168.97155177124,
+            "RandomForest_accuracy": 1.0,
+            "RandomForest_precision": 1.0,
+            "RandomForest_recall": 1.0,
+            "RandomForest_f1_score": 1.0,
+            "RandomForest_execution_time_ms": 1388.4077072143555,
+            "RandomForest_throughput_tps": 7202.495310303046,
+            "IsolationForest_accuracy": 0.9963,
+            "IsolationForest_precision": 0.0,
+            "IsolationForest_recall": 0.0,
+            "IsolationForest_f1_score": 0.0,
+            "IsolationForest_execution_time_ms": 269.2844867706299,
+            "IsolationForest_throughput_tps": 37135.44779323943
+          },
+          "recommendations": [
+            "Otimizar hiperparâmetros dos algoritmos",
+            "Considerar paralelização para melhor throughput",
+            "Implementar cache para features computadas"
+          ],
+          "execution_time_ms": 1697.8154182434082,
+          "timestamp": "2025-09-21T14:57:11.419447",
+          "severity": "medium"
+        },
+        {
+          "specialist_name": "Dr. Sarah Kim",
+          "test_category": "Algorithm Performance & Optimization",
+          "test_name": "Scalability Testing",
+          "status": "PASS",
+          "score": 90.0,
+          "details": "Degradação de throughput: 0.495, Min throughput: 27579.2 TPS",
+          "metrics": {
+            "throughput_degradation": 0.4950171748999227,
+            "min_throughput_tps": 27579.154458372566,
+            "max_throughput_tps": 54614.04445370383,
+            "sizes_tested": 4,
+            "size_1000_throughput": 54614.04445370383,
+            "size_1000_time_ms": 18.3103084564209,
+            "size_5000_throughput": 50092.127483226206,
+            "size_5000_time_ms": 99.81608390808105,
+            "size_10000_throughput": 32897.79207027727,
+            "size_10000_time_ms": 303.9717674255371,
+            "size_20000_throughput": 27579.154458372566,
+            "size_20000_time_ms": 725.1853942871094
+          },
+          "recommendations": [
+            "Implementar processamento em lotes para grandes volumes",
+            "Considerar distribuição de carga entre múltiplos workers",
+            "Otimizar algoritmos para melhor escalabilidade linear"
+          ],
+          "execution_time_ms": 1234.8711490631104,
+          "timestamp": "2025-09-21T14:57:12.654348",
+          "severity": "low"
+        },
+        {
+          "specialist_name": "Dr. Sarah Kim",
+          "test_category": "Algorithm Performance & Optimization",
+          "test_name": "Latency & Response Time Testing",
+          "status": "PASS",
+          "score": 95.0,
+          "details": "Latência P95: 1.94ms, Média: 1.79ms, P99: 2.03ms",
+          "metrics": {
+            "avg_latency_ms": 1.7879533767700195,
+            "p95_latency_ms": 1.9404888153076172,
+            "p99_latency_ms": 2.0255208015441895,
+            "threshold_ms": 100,
+            "predictions_tested": 100
+          },
+          "recommendations": [
+            "Otimizar modelo para menor latência de predição",
+            "Implementar cache para features frequentes",
+            "Considerar modelos mais simples para casos de baixa latência"
+          ],
+          "execution_time_ms": 226.68218612670898,
+          "timestamp": "2025-09-21T14:57:12.881054",
+          "severity": "low"
+        }
+      ],
+      "summary": "Motor de Fraude - Algorithm Performance & Optimization: 3 testes executados. Score: 86.7%. Aprovados: 2, Falharam: 0. Status: NEEDS_IMPROVEMENT.",
+      "timestamp": "2025-09-21T14:57:12.881854"
+    },
+    {
+      "specialist_name": "Dr. Alex Thompson",
+      "specialty_area": "Fraud Engine Integration & End-to-End Testing",
+      "total_tests": 3,
+      "passed_tests": 2,
+      "failed_tests": 1,
+      "critical_issues": 0,
+      "overall_score": 48.666666666666664,
+      "engine_approval": "REJECTED",
+      "test_results": [
+        {
+          "specialist_name": "Dr. Alex Thompson",
+          "test_category": "Fraud Engine Integration & End-to-End Testing",
+          "test_name": "End-to-End Fraud Engine Testing",
+          "status": "FAIL",
+          "score": 50.0,
+          "details": "Pipeline F1: 0.222, Throughput: 25026.7 TPS, Tempo total: 199.8ms",
+          "metrics": {
+            "pipeline_f1_score": 0.2222222222222222,
+            "pipeline_accuracy": 0.9972,
+            "pipeline_precision": 0.2,
+            "pipeline_recall": 0.25,
+            "pipeline_throughput_tps": 25026.72545989391,
+            "total_pipeline_time_ms": 199.78642463684082,
+            "preprocessing_time_ms": 4.124164581298828,
+            "feature_eng_time_ms": 2.5501251220703125,
+            "detection_time_ms": 192.2433376312256,
+            "scoring_time_ms": 0.8687973022460938,
+            "avg_time_per_transaction_ms": 0.039957284927368164
+          },
+          "recommendations": [
+            "Otimizar etapa de pré-processamento para melhor throughput",
+            "Implementar cache para features computadas",
+            "Considerar processamento assíncrono para scoring"
+          ],
+          "execution_time_ms": 217.9875373840332,
+          "timestamp": "2025-09-21T14:57:13.099881",
+          "severity": "high"
+        },
+        {
+          "specialist_name": "Dr. Alex Thompson",
+          "test_category": "Fraud Engine Integration & End-to-End Testing",
+          "test_name": "Robustness & Edge Cases Testing",
+          "status": "PASS",
+          "score": 1.0,
+          "details": "Robustez: 1.000, Edge cases testados: 5",
+          "metrics": {
+            "robustness_score": 1.0,
+            "edge_cases_tested": 5,
+            "successful_cases": 5,
+            "edge_case_empty_data_score": 1.0,
+            "edge_case_single_row_score": 1.0,
+            "edge_case_missing_features_score": 1.0,
+            "edge_case_extreme_values_score": 1.0,
+            "edge_case_all_nulls_score": 1.0
+          },
+          "recommendations": [
+            "Implementar validação robusta de entrada",
+            "Adicionar tratamento de casos extremos",
+            "Configurar fallbacks para dados problemáticos"
+          ],
+          "execution_time_ms": 471.8143939971924,
+          "timestamp": "2025-09-21T14:57:13.571717",
+          "severity": "low"
+        },
+        {
+          "specialist_name": "Dr. Alex Thompson",
+          "test_category": "Fraud Engine Integration & End-to-End Testing",
+          "test_name": "Stress & Load Testing",
+          "status": "PASS",
+          "score": 95.0,
+          "details": "Min throughput: 22153.1 TPS, Max batch time: 1.5ms",
+          "metrics": {
+            "min_throughput_tps": 22153.111589399603,
+            "max_batch_time_ms": 1.4921927452087402,
+            "load_tests_count": 3,
+            "load_1000_throughput_tps": 31301.94410239188,
+            "load_1000_batch_time_ms": 1.470184326171875,
+            "load_5000_throughput_tps": 29035.086019034115,
+            "load_5000_batch_time_ms": 1.4858675003051758,
+            "load_10000_throughput_tps": 22153.111589399603,
+            "load_10000_batch_time_ms": 1.4921927452087402
+          },
+          "recommendations": [
+            "Implementar load balancing para distribuir carga",
+            "Otimizar processamento em lotes",
+            "Configurar auto-scaling baseado em carga"
+          ],
+          "execution_time_ms": 693.079948425293,
+          "timestamp": "2025-09-21T14:57:14.264817",
+          "severity": "low"
+        }
+      ],
+      "summary": "Motor de Fraude - Fraud Engine Integration & End-to-End Testing: 3 testes executados. Score: 48.7%. Aprovados: 2, Falharam: 1. Status: REJECTED.",
+      "timestamp": "2025-09-21T14:57:14.265522"
+    }
+  ],
+  "engine_recommendations": [
+    "❌ Motor de fraude não aprovado para produção",
+    "🚨 Resolver problemas críticos imediatamente",
+    "🔧 Refatorar algoritmos de detecção",
+    "📊 Revisar pipeline de dados completamente",
+    "👥 Consultar especialistas para orientação técnica",
+    "🚨 CRÍTICO: Resolver 1 problemas críticos do motor"
+  ],
+  "production_readiness": {
+    "ready_for_production": false,
+    "confidence_level": "LOW",
+    "estimated_fraud_detection_rate": 0.5,
+    "estimated_throughput_tps": 22168.97155177124,
+    "estimated_latency_ms": 1.7879533767700195
+  }
+}

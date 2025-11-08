@@ -1,0 +1,48 @@
+{
+  "test_configuration": {
+    "total_transactions": 1000000,
+    "batch_size": 10000,
+    "num_batches": 100,
+    "test_start": "2025-09-21T14:04:41.248348",
+    "test_end": "2025-09-21T14:05:01.761576",
+    "total_duration_seconds": 20.513228
+  },
+  "performance_metrics": {
+    "overall_throughput_tps": 48749.03,
+    "avg_processing_time_ms": 0.05,
+    "p95_processing_time_ms": 0.02,
+    "p99_processing_time_ms": 0.03,
+    "total_processed": 1000000,
+    "processing_errors": 0
+  },
+  "quality_metrics": {
+    "accuracy": 0.669913,
+    "precision": 0.6883876357560568,
+    "recall": 0.0024929055055697077,
+    "f1_score": 0.004967820700257736,
+    "auc_roc": 0.5407620626948274,
+    "specificity": 0.9994428361878643,
+    "false_positive_rate": 0.000557163812135715,
+    "false_negative_rate": 0.9975070944944303,
+    "confusion_matrix": {
+      "true_negatives": 669089,
+      "false_positives": 373,
+      "false_negatives": 329714,
+      "true_positives": 824
+    }
+  },
+  "fraud_detection_stats": {
+    "total_frauds_in_dataset": 330538,
+    "total_frauds_detected": 1197,
+    "total_legitimate": 998803,
+    "fraud_detection_rate": 0.0024929055055697077,
+    "false_alarm_rate": 0.000557163812135715
+  },
+  "system_requirements_check": {
+    "target_throughput_100_tps": true,
+    "target_latency_50ms": "True",
+    "target_accuracy_90pct": false,
+    "target_precision_85pct": false,
+    "target_recall_80pct": false
+  }
+}
