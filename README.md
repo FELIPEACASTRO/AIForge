@@ -22,9 +22,9 @@
 
 | Métrica | Valor | Comparação |
 |---|---|---|
-| 🎯 **Total de Recursos** | 15.686+ | **35X maior** que outros repos |
+| 🎯 **Total de Recursos** | 15.686+ | **37X maior** que outros repos |
 | 📁 **Temas Organizados** | 44 | Estrutura hierárquica |
-| 📄 **Documentos** | 99+ | Profissionalmente formatados |
+| 📄 **Documentos** | 100+ | Profissionalmente formatados |
 | 🌐 **Plataformas** | 87+ | AWS, Google, Azure, Snowflake |
 | 🎓 **Universidades** | 200+ | Cobertura global |
 | ⭐ **Estrelas Combinadas** | 4.3M+ | Repositórios validados |
@@ -64,14 +64,14 @@ Base essencial para entender e trabalhar com IA.
 | # | Tema | Recursos | Descrição |
 |---|---|---|---|
 | 1.1 | [**Algoritmos**](./01_FOUNDATIONS/1.1_Algorithms/) | 4.650+ | Algoritmos fundamentais de ML/DL |
-| 1.2 | [**Modelos Core**](./01_FOUNDATIONS/1.2_Core_Models/) | 3.900+ | GPT-5, Claude 4.x, Gemini, Llama, Mistral |
+|| 1.2 | [**Modelos Core**](./01_FOUNDATIONS/1.2_Core_Models/) | 3.900+ | GPT-5, Claude, Gemini, Llama 3, Mistral Large |l |
 | 1.3 | [**Datasets**](./01_FOUNDATIONS/1.3_Datasets/) | 730+ | HuggingFace, Kaggle, UCI, Banking |
 
 **Destaques dos Modelos Core:**
-- **OpenAI:** GPT-5, GPT-4, o1, o3, DALL-E, Sora
-- **Anthropic:** Claude 4.5 Sonnet, Claude 3.7 Haiku
-- **Google/DeepMind:** Gemini 2.5/3.0, Gemma, PaLM
-- **Meta:** Llama 4.x, Llama 3.3 70B
+- **OpenAI:** GPT-5 (Antecipado), GPT-4o, GPT-4, DALL-E 3, Sora
+- **Anthropic:** Claude 3.5 Sonnet, Claude 3 Opus, Claude 3 Haiku
+- **Google/DeepMind:** Gemini 2.5 Pro, Gemini 2.5 Flash, Gemma 2
+- **Meta:** Llama 3 (8B, 70B), Llama 2
 - **Cloud Models:** AWS SageMaker (500+), Google Vertex AI (200+), Azure AI (1.900+)
 
 ---
@@ -83,7 +83,7 @@ Modelos e ferramentas para domínios específicos.
 | # | Tema | Recursos | Descrição |
 |---|---|---|---|
 | 2.1 | [**Aplicações Especializadas**](./02_APPLICATIONS/2.1_Specialized_Applications/) | 553 | Banking (186), Fraud Detection (140), **Biomass AI (92)**, Business |
-| 2.2 | [**Modelos de Nicho**](./02_APPLICATIONS/2.2_Niche_Models/) | 87 | Audio, Video, Code Gen, Medical, **Protein AI**, Time Series, GNN, RL |
+| 2.2 | [**Modelos de Nicho**](./02_APPLICATIONS/2.2_Niche_Models/) | 416+ | **Healthcare AI**, **Weather AI**, **Time Series**, **Protein Structure**, GNN, RL |
 | 2.3 | [**Aplicações na Indústria**](./02_APPLICATIONS/2.3_Industry_Applications/) | 8 | IA aplicada em diversos setores econômicos |
 | 2.4 | [**Aplicações Financeiras**](./02_APPLICATIONS/2.4_Financial_Applications/) | 14 | IA em finanças (trading, risco, fraude, AML, chatbots) |
 
@@ -91,8 +91,8 @@ Modelos e ferramentas para domínios específicos.
 - 🎵 Audio & Music AI
 - 🎬 Video Generation & Analysis
 - 💻 Code Generation & Analysis
-- 🏥 Medical & Scientific AI
-- 📈 Time Series & Forecasting
+- 🏥 **Healthcare AI** (MedSAM, AlphaFold 3)
+- 📈 **Time Series Forecasting** (TiRex, Chronos-2)
 - 🕸️ Graph Neural Networks
 - 🎮 Reinforcement Learning
 
@@ -214,13 +214,13 @@ Coleções curadas dos melhores repositórios de IA.
 
 | Repositório | Recursos | Stars | vs Nosso |
 |---|---|---|---|
-| **AIForge** | **14.734+** | - | **1.0x** |
-| Awesome Machine Learning | 1.268 | 65k | **11.6x menor** |
-| Awesome Deep Learning | 610 | 23k | **24.1x menor** |
-| Transferlearning | 1.000 | 14k | **14.7x menor** |
-| Awesome-AI-Tools | 423 | 3.5k | **34.8x menor** |
+| **AIForge** | **15.686+** | - | **1.0x** |
+| Awesome Machine Learning | 1.268 | 65k | **12.4x menor** |
+| Awesome Deep Learning | 610 | 23k | **25.7x menor** |
+| Transferlearning | 1.000 | 14k | **15.6x menor** |
+| Awesome-AI-Tools | 423 | 3.5k | **37.1x menor** |
 
-**Nosso repositório é 34X maior** que a média dos repositórios curatoriais populares!
+**Nosso repositório é 37X maior** que a média dos repositórios curatoriais populares!
 
 ---
 
@@ -277,7 +277,7 @@ repo:FELIPEACASTRO/AIForge "dataset"
 | 📊 Datasets | 730+ | 5.0% |
 | 🏦 Especializados | 461+ | 3.1% |
 | 🌐 Outros | 1.971+ | 13.4% |
-| **Total** | **14.713+** | **100%** |
+| **Total** | **15.686+** | **100%** |
 
 ### Validações Realizadas
 
@@ -364,11 +364,11 @@ Este repositório é licenciado sob a [Licença MIT](./LICENSE).
 
 **🌟 O Maior Repositório Curatorial de IA do GitHub 🌟**
 
-**14.734+ recursos | 22 temas | 81+ documentos | 34X maior**
+**15.686+ recursos | 44 temas | 100+ documentos | 37X maior**
 
 Made with ❤️ by [Felipe Castro](https://github.com/FELIPEACASTRO)
 
-**Última Atualização:** 31 de Outubro de 2025
+**Última Atualização:** Novembro de 2025
 
 [⬆️ Voltar ao Topo](#-awesome-ai-models-collection)
 
