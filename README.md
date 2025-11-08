@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Recursos-15,270%2B-blue?style=for-the-badge" alt="Total de Recursos">
-  <img src="https://img.shields.io/badge/Temas-39-green?style=for-the-badge" alt="Total de Temas">
+  <img src="https://img.shields.io/badge/Total%20Recursos-15,295%2B-blue?style=for-the-badge" alt="Total de Recursos">
+  <img src="https://img.shields.io/badge/Temas-41-green?style=for-the-badge" alt="Total de Temas">
   <img src="https://img.shields.io/badge/Documentos-99%2B-orange?style=for-the-badge" alt="Total de Documentos">
-  <img src="https://img.shields.io/badge/Atualizado-Outubro%202025-red?style=for-the-badge" alt="Atualizado">
+  <img src="https://img.shields.io/badge/Atualizado-Novembro%202025-red?style=for-the-badge" alt="Atualizado">
 </p>
 
 ---
@@ -22,8 +22,8 @@
 
 | Métrica | Valor | Comparação |
 |---|---|---|
-| 🎯 **Total de Recursos** | 15.270+ | **35X maior** que outros repos |
-| 📁 **Temas Organizados** | 38 | Estrutura hierárquica |
+| 🎯 **Total de Recursos** | 15.295+ | **35X maior** que outros repos |
+| 📁 **Temas Organizados** | 41 | Estrutura hierárquica |
 | 📄 **Documentos** | 99+ | Profissionalmente formatados |
 | 🌐 **Plataformas** | 87+ | AWS, Google, Azure, Snowflake |
 | 🎓 **Universidades** | 200+ | Cobertura global |
