@@ -122,6 +122,7 @@
 /home/ubuntu/AIForge/02_BUILD/ai_in_proteomics/AlphaFold_(DeepMind_Isomorphic_Labs).md
 /home/ubuntu/AIForge/02_BUILD/AI in Cardiology - ECG analysis, heart disease prediction/PMcardio_(Powerful_Medical).md
 /home/ubuntu/AIForge/02_BUILD/AI in Neurology - Brain imaging, neurological disorders/Neurogram™.md
+/home/ubuntu/AIForge/02_BUILD/Reinforcement_Learning_Simulator/WOFOSTGym:_A_Crop_Simulator_for_Learning_Annual_and_Perennial_Crop_Management_Strategies.md
 /home/ubuntu/AIForge/05_APPLY/Entertainment/README.md
 /home/ubuntu/AIForge/05_APPLY/Finance/README.md
 /home/ubuntu/AIForge/05_APPLY/Finance/Credit_AI/01_Repositories/README.md
@@ -152,6 +153,30 @@
 /home/ubuntu/AIForge/05_APPLY/Agriculture/BIOMASSA_AGRO_COMPLETO.md
 /home/ubuntu/AIForge/05_APPLY/Agriculture/Coordinated_Distillation_Weed_Detection_2025.md
 /home/ubuntu/AIForge/05_APPLY/Agriculture/Agriculture_AI_Platforms_2025.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Yield_Prediction/RicEns-Net_(Deep_Ensemble_Model).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Yield_Prediction/MMST-ViT:_Climate_Change-aware_Crop_Yield_Prediction_via_Multi-Modal_Spatial-Temporal_Vision_Transformer.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Yield_Prediction/AgriTransformer.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Yield_Prediction/AgriTransformer_(Co-attention_variant).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Plant_Disease_Detection/Mob-Res.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Biomass_Estimation_Remote_Sensing/Unified_Deep_Learning_Model_for_Global_Prediction_of_Aboveground_Biomass,_Canopy_Height_and_Cover.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Weed_Segmentation/Transfer_Learning/UAVWeedSegmentation_(UNet_+_ResNet-34).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Health_Monitoring/Integração_de_Imagem_Hiperespectral_e_IA_para_Mapeamento_e_Saúde_de_Culturas.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Biomass_Estimation, Benchmark_Dataset, Deep_Learning_Implementation/DeepBioFusion_(Modelo),_BioMassters_(Dataset),_DeepLiDARPlanet_(Implementação).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Growth_Prediction/DeepCGM_(Deep_learning_Crop_Growth_Model).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Yield_Prediction, Pest_and_Disease_Detection, Agricultural_AGI_Framework, Biomass_Estimation/Múltiplos_Recursos_(Agri-GNN,_HV-GNN,_OpenAg,_UAV_Random_Forest).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Synthetic_Data_Generation/SAGDA:_Synthetic_Agriculture_Data_for_Africa.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Large_Language_Model_Agriculture/AgriLLM.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Earth_Observation_Foundation_Model/Prithvi-EO-2.0_(IBM-NASA_Geospatial_Foundation_Model).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Transfer_Learning/AgriNet_Models_(VGG16,_VGG19,_Inception-v3,_InceptionResNet-v2,_Xception).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Transfer_Learning/Multi-Source_Domain_Feature_Adaptation_Network_(MDFAN).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Transfer_Learning/Fine_Tuning_Strategies/Parameter-Efficient_Fine-Tuning_(PEFT)___LoRA_for_Agricultural_Foundation_Models.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Transfer_Learning/Plant_Disease_Detection/PDDNet-LVE_(Lead_Voting_Ensemble)_-_Transfer_Learning_em_Agricultura.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Few_Shot_Learning_Doenças_Raras/Few-Shot_Learning_(FSL)_com_PMF+FA_e_Vision_Transformers_(ViT).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Growth_Stage_Recognition/CO-ResNetRS50-SSL.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Crop_Disease_Detection, Biomass_Estimation/Vegetation_Structure, Crop_Type_Prediction/Remote_Sensing/ToT-Net,_Abordagem_Multimodal_e_Meta-Learning_para_Estrutura_de_Vegetação_3D,_SWE-MAML,_crop-maml.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Seasonal_Crop_Monitoring/AGLPF_(APSIM_Guided_LSTM_Phenology_Framework).md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/Transfer_Learning / Multi-Task_Learning/Aprendizado_Multi-Tarefa_(Multi-Task_Learning_-_MTL)_em_Aplicações_Agrícolas.md
+/home/ubuntu/AIForge/05_APPLY/Agriculture/TinyML_Edge_Deployment e Plant_Disease_Detection_Edge_AI/FLOPs-Aware_Knowledge_Distillation_(FAKD)_framework_e_Multistage_Knowledge_Distillation_(MSKD)_method.md
 /home/ubuntu/AIForge/05_APPLY/Weather_Climate/AI_Weather_Prediction/01_Models/README.md
 /home/ubuntu/AIForge/05_APPLY/Weather_Climate/AI_Weather_Prediction/README.md
 /home/ubuntu/AIForge/05_APPLY/Healthcare/AI_Medical_Devices/01_FDA_Approved/README.md
@@ -263,6 +288,27 @@
 /home/ubuntu/AIForge/03_RESOURCES/Tools/Web_Scraping/README.md
 /home/ubuntu/AIForge/03_RESOURCES/Datasets/Machine Learning/Kaggle_Datasets.md
 /home/ubuntu/AIForge/03_RESOURCES/Datasets/Benchmarks/Papers_With_Code_Datasets_-_Research_datasets_with_benchmarks_(Archive).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/BioMassters:_A_Benchmark_Dataset_for_Forest_Biomass_Estimation_using_Multi-modal_Satellite_Time-series.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/PlantVillage_Dataset_(Plant_Disease).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/Agriculture-Vision_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/DeepWeeds_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/Global_Wheat_Head_Detection_(GWHD)_Dataset_e_Global_Wheat_Full_Semantic_Organ_Segmentation_(GWFSS)_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/Plant_Pathology_2020_-_FGVC7.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/CropSight-US:_An_Object-based_Crop_Type_Ground_Truth_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/3-hour,_1-km_Surface_Soil_Moisture_Dataset_for_the_Contiguous_United_States_(STF_SSM).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/Annual_global_gridded_livestock_mapping_from_1961_to_2021_(AGLW).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/IoT_Agriculture_2024.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/The_Rosario_Dataset_v2:_Multi-modal_dataset_for_agricultural_robotics.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/FAOSTAT_-_Produção_(Culturas_e_Produtos_Pecuários).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/MapBiomas_Cobertura_10M_-_Coleção_2_(beta).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/High-resolution_(10_m)_dataset_of_multi-crop_planting_structure_on_the_Loess_Plateau_during_2018–2022.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/OpenLandMap-soildb:_Informação_Global_do_Solo_em_30m.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Agriculture_Datasets/Global_Dataset_for_Assessing_Nitrogen-Related_Plant_Traits_Using_Drone_Imagery.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Climate_Datasets/AgERA5:_Agrometeorological_indicators_from_1979_to_present.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Vegetation_Indices/Reconstructed_NDVI_and_EVI_datasets_in_China_(ReVIChina).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Vegetation_Indices/VHIopt:_Improved_Global_Vegetation_Health_Index_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Biomass_Datasets/AGBD:_A_Global-scale_Biomass_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Biomass_Datasets, Agriculture_Datasets, Spatial_Feature_Engineering/Global_Maps_of_Aboveground_Biomass,_Canopy_Height_and_Cover_for_2023,_Cropland_Data_Layer_(CDL)_2024_-_10m_Resolution,_Geospatial_Feature_Engineering_Techniques_(GLCM_and_CAE-based_Features).md
 /home/ubuntu/AIForge/03_RESOURCES/Data_Sources/UCI_Machine_Learning_Repository.md
 /home/ubuntu/AIForge/03_RESOURCES/Cloud datasets/AWS_Open_Data_Registry.md
 /home/ubuntu/AIForge/03_RESOURCES/Data_Analysis/Public_Datasets/Google_Cloud_Public_Datasets_(BigQuery).md
@@ -307,3 +353,7 @@
 /home/ubuntu/AIForge/03_RESOURCES/ai_observability/Whylabs_-_Plataforma_de_Observabilidade_de_IA_(Open_Source).md
 /home/ubuntu/AIForge/03_RESOURCES/ml-observability / llm-ops/Arize_AI_-_ML_Observability_and_Monitoring.md
 /home/ubuntu/AIForge/03_RESOURCES/AI_Observability/Fiddler_AI.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Vegetation_Indices/Awesome_Spectral_Indices_(ASI)_e_spyndex.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Vegetation_Indices/Features_de_Textura_(GLCM,_LBP,_Gabor)_para_Agropecuária.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Feature_Engineering/Averaging-based_Feature_Engineering_for_Climate_Data.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Topographic_Features/Fatores_Topográficos_(Elevação,_Inclinação,_Aspecto)_como_Features.md
