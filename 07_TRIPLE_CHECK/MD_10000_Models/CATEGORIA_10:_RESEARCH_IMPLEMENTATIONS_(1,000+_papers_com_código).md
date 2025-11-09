@@ -1,0 +1,4 @@
+# CATEGORIA 10: RESEARCH IMPLEMENTATIONS (1,000+ papers com código)
+
+**Resource:** CATEGORIA 10: RESEARCH IMPLEMENTATIONS (1,000+ papers com código)
+

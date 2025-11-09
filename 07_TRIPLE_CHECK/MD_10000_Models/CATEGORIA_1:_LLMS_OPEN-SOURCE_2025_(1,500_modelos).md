@@ -1,0 +1,4 @@
+# CATEGORIA 1: LLMS OPEN-SOURCE 2025 (1,500 modelos)
+
+**Resource:** CATEGORIA 1: LLMS OPEN-SOURCE 2025 (1,500 modelos)
+

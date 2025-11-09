@@ -1,0 +1,6 @@
+# aws-samples/Satellite_Imagery_Characterization_using_Amazon_Bedrock_Generative_AI_models
+
+**Resource:** aws-samples/Satellite_Imagery_Characterization_using_Amazon_Bedrock_Generative_AI_models
+
+**URL:** https://github.com/aws-samples/Satellite_Imagery_Characterization_using_Amazon_Bedrock_Generative_AI_models
+
