@@ -1,0 +1,13 @@
+# Segmentation Models
+
+**Categoria:** Web Resource
+
+**Área Médica:** Radiology
+
+**Relevância (1-10):** 5
+
+**URL:** https://ods.ai/projects/segmentation_models
+
+---
+
+*Recurso extraído da busca devastadora de IA Médica (445 URLs totais)*
