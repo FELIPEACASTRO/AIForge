@@ -6,6 +6,28 @@
 
 ---
 
+## [5.3.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **+50 New Resources:** Added 50 new resources from the Universal Prompt Engineering Devastating Search.
+- **New Categories:** Expanded `01_LEARN/Prompt_Engineering` with Universal Techniques and Domain-Specific Prompts.
+
+**[PT]**
+- **+50 Novos Recursos:** Adicionados 50 novos recursos da Busca Devastadora de Prompt Engineering Universal.
+- **Novas Categorias:** Expandidas `01_LEARN/Prompt_Engineering` com Técnicas Universais e Prompts de Domínio Específico.
+
+### Changed / Alterado
+
+**[EN]**
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [5.2.0] - 2025-11-08
 
 ### Added / Adicionado
