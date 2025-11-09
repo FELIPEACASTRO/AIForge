@@ -1,0 +1,25 @@
+# H2O.ai - Open Source AutoML (H2O-3)
+
+## Description
+
+H2O.ai é uma plataforma de Machine Learning (ML) distribuída e in-memory de código aberto, que se destaca por sua funcionalidade de **AutoML (Automated Machine Learning)**. Sua proposta de valor única reside na **democratização da Inteligência Artificial (IA)**, permitindo que usuários com diferentes níveis de experiência construam modelos de ML de alta performance de forma rápida e escalável. A plataforma automatiza o fluxo de trabalho de ML de ponta a ponta, incluindo seleção de algoritmos, engenharia de features, ajuste de hiperparâmetros e validação, permitindo que os cientistas de dados se concentrem nos problemas de negócio. O core da plataforma é o **H2O-3**, um framework robusto e escalável que suporta uma ampla gama de algoritmos e é altamente integrável com ecossistemas de Big Data como Apache Spark (via Sparkling Water) e Kubernetes. A empresa também oferece produtos empresariais como o Driverless AI, que complementam a oferta de código aberto com recursos avançados de MLOps e explicabilidade (XAI).
+
+## Statistics
+
+**Adoção Global:** Utilizada por mais de **18.000 organizações** em todo o mundo, incluindo 40% das empresas Fortune 500. **Comunidade:** Milhões de downloads do core H2O-3 e uma comunidade ativa de desenvolvedores e Kaggle Grandmasters. **Performance:** Processamento distribuído em memória que pode ser até **100x mais rápido** em grandes volumes de dados em comparação com soluções tradicionais. **Reconhecimento:** Consistentemente posicionada como **Líder ou Visionária** em relatórios de analistas de mercado como Gartner e Forrester para plataformas de Ciência de Dados e Machine Learning. **Licença:** Distribuída sob a licença **Apache License 2.0**, que permite uso, modificação e distribuição comercial.
+
+## Features
+
+**AutoML Completo:** Automação de seleção de modelos, engenharia de features e ajuste de hiperparâmetros. **Escalabilidade Distribuída:** Processamento in-memory e distribuído para lidar com grandes volumes de dados (Big Data). **Algoritmos Diversificados:** Suporte a GLM, GBM, Random Forest, Deep Learning, e Stacked Ensembles automáticos. **Explicabilidade (XAI):** Módulos integrados para interpretabilidade de modelos, como Feature Importance e Partial Dependence Plots. **APIs Multilíngues:** APIs robustas em Python, R, Java, Scala e uma interface web (H2O Flow). **Exportação de Modelos:** Capacidade de exportar modelos como POJOs/MOJOs para fácil implantação em produção. **Integração com Ecossistemas:** Integração nativa com Apache Spark (Sparkling Water), Hadoop e Kubernetes.
+
+## Use Cases
+
+**Setor Bancário e Financeiro:** Detecção de fraude, análise de risco de crédito, e modelagem de propensão de clientes. **Saúde:** Previsão de diagnósticos, otimização de custos hospitalares e análise de dados genômicos. **Seguros:** Avaliação de risco de apólices, detecção de sinistros fraudulentos e otimização de preços. **Varejo e E-commerce:** Otimização de preços dinâmicos, previsão de demanda, gestão de estoque e sistemas de recomendação personalizados. **Manufatura e Indústria 4.0:** Manutenção preditiva de equipamentos (Prever falhas antes que ocorram), controle de qualidade automatizado e otimização de processos industriais. **Telecomunicações:** Previsão de churn de clientes, otimização de rede e detecção de fraude em serviços. **Setor Público:** Alocação de recursos, previsão de tendências sociais e econômicas para informar políticas públicas.
+
+## Integration
+
+A integração com H2O.ai é facilitada por suas APIs multilíngues e sua arquitetura distribuída. O método mais comum é via Python ou R, utilizando o pacote `h2o`.\n\n**Exemplo de Integração em Python (AutoML):**\n```python\nimport h2o\nfrom h2o.automl import H2OAutoML\n\n# 1. Inicializa o cluster H2O\nh2o.init(nthreads=-1, max_mem_size='4G')\n\n# 2. Carrega o dataset\ndata = h2o.import_file(\"caminho/para/dataset.csv\")\n\n# 3. Define variáveis e roda o AutoML\nx = data.columns\ny = \"coluna_alvo\"\nx.remove(y)\n\naml = H2OAutoML(max_models=20, seed=1, sort_metric=\"AUC\")\naml.train(x=x, y=y, training_frame=data)\n\n# 4. Exibe o leaderboard com o melhor modelo\nlb = aml.leaderboard\nprint(lb.head())\n\n# 5. Para implantação, o modelo líder pode ser exportado como MOJO\n# h2o.save_model(model=aml.leader, path=\"/caminho/para/modelo_mojo\", force=True)\n```\n\n**Integração com Apache Spark (Sparkling Water):**\nO Sparkling Water permite que os usuários usem o H2O-3 diretamente dentro do ambiente Spark, combinando a preparação de dados do Spark com os algoritmos de ML do H2O. Isso é feito através de APIs em Scala ou Python (PySpark). A integração é crucial para pipelines de Big Data, onde a orquestração e o processamento distribuído são essenciais. Além disso, a **REST API** completa permite o controle da plataforma a partir de qualquer linguagem que suporte requisições HTTP (Java, Scala, Node.js, Go, etc.), facilitando a inclusão em pipelines de MLOps e orquestradores como Apache Airflow ou Kubeflow.
+
+## URL
+
+https://h2o.ai

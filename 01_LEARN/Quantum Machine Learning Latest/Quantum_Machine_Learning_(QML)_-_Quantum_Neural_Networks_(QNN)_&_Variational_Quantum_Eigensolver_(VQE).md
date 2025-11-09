@@ -1,0 +1,25 @@
+# Quantum Machine Learning (QML) - Quantum Neural Networks (QNN) & Variational Quantum Eigensolver (VQE)
+
+## Description
+
+O Quantum Machine Learning (QML) representa a convergência da computação quântica e do aprendizado de máquina. As Redes Neurais Quânticas (QNNs) são modelos computacionais sofisticados que combinam princípios da mecânica quântica, como superposição e emaranhamento, com arquiteturas de redes neurais clássicas. Elas são projetadas para aproveitar o poder expressivo dos espaços de Hilbert de alta dimensão para tarefas como classificação e extração de características. O Variational Quantum Eigensolver (VQE) é um algoritmo quântico-clássico híbrido de destaque, que utiliza o princípio variacional de Ritz para estimar o autovalor fundamental (energia do estado fundamental) de um Hamiltoniano. O VQE é um dos algoritmos mais promissores para computadores quânticos de curto prazo (NISQ - Noisy Intermediate-Scale Quantum), pois delega a otimização de parâmetros a um computador clássico, mitigando a necessidade de circuitos quânticos profundos e tolerando certo nível de ruído.
+
+## Statistics
+
+A pesquisa recente demonstra que as QNNs, especialmente em arquiteturas híbridas como as Redes Neurais Convolucionais Quântico-Clássico-Quânticas (QCCNNs), podem superar as CNNs clássicas em precisão de classificação de imagens sob arquiteturas comparáveis [1]. O VQE, embora propenso a problemas de platô estéril (barren plateaus), é continuamente aprimorado; variantes como o Variational Quantum-Neural Hybrid Eigensolver (VQNHE) demonstraram superar significativamente o VQE padrão na simulação de energias de estado fundamental de spins quânticos e moléculas [3]. A eficiência de QNNs é frequentemente medida pela capacidade de reduzir os custos de recursos, exigindo um número menor de qubits para certas operações [1].
+
+## Features
+
+QNNs: 1. **Expressividade Aprimorada** devido ao uso de espaços de Hilbert de alta dimensão e emaranhamento. 2. **Arquitetura Híbrida** que integra circuitos quânticos parametrizados (VQC) como camadas de extração de características ou classificadores. 3. **Otimização Clássica** de parâmetros via gradiente descendente. VQE: 1. **Algoritmo Híbrido** que combina um circuito quântico (ansatz) para preparar o estado de teste e um otimizador clássico para minimizar a função de custo (valor esperado do Hamiltoniano). 2. **Princípio Variacional de Ritz** para garantir que o valor esperado seja um limite superior para a energia do estado fundamental. 3. **Adaptabilidade** através da escolha de diferentes ansätze (por exemplo, RealAmplitudes, Excitações Unitárias Acopladas Quânticas - Q-UCC) para diferentes problemas.
+
+## Use Cases
+
+QNNs: 1. **Classificação de Imagens** e reconhecimento de padrões [1]. 2. **Previsão de Propriedades Moleculares** e descoberta de medicamentos [4]. 3. **Análise de Sentimento** multimodal e classificação aprimorada [5]. VQE: 1. **Química Quântica** para calcular energias de estado fundamental de moléculas (por exemplo, H2, LiH) [2] [6]. 2. **Simulações Quânticas** de sistemas de muitos corpos. 3. **Problemas de Otimização** e busca por autovalores de Hamiltonianos.
+
+## Integration
+
+A integração de QNNs e VQE é tipicamente realizada através de frameworks de software de QML que fornecem interfaces para construir circuitos quânticos parametrizados (VQC) e conectá-los a otimizadores clássicos. **PennyLane** e **Qiskit** são as plataformas mais utilizadas. O PennyLane, por exemplo, permite a construção de VQE de forma concisa, definindo o Hamiltoniano, o circuito quântico (QNode) e a função de custo, e utilizando otimizadores clássicos como `optax.sgd` para minimizar a energia. \n\n**Exemplo de VQE com PennyLane (Python):**\n```python\nimport pennylane as qml\nfrom pennylane import numpy as np\nimport optax\n\n# 1. Definir o dispositivo (simulador ou hardware)\ndev = qml.device(\"default.qubit\", wires=4)\n\n# 2. Definir o Hamiltoniano (exemplo: H2 em separação de 0.74 Å)\n# H = -1.05 Z0 + 0.39 Z1 + 0.01 X0X1Y2Y3 + ... (simplificado)\nH = qml.Hamiltonian(\n    [-1.05, 0.39, 0.01],\n    [qml.PauliZ(0), qml.PauliZ(1), qml.PauliX(0) @ qml.PauliX(1) @ qml.PauliY(2) @ qml.PauliY(3)]\n)\n\n# 3. Definir o circuito quântico (Ansatz)\n@qml.qnode(dev, interface=\"jax\")\ndef circuit(param, wires):\n    qml.BasisState(np.array([1, 1, 0, 0]), wires=wires) # Estado de Hartree-Fock\n    qml.DoubleExcitation(param, wires=[0, 1, 2, 3])\n    return qml.expval(H)\n\n# 4. Definir a função de custo\ndef cost_fn(param):\n    return circuit(param, wires=range(4))\n\n# 5. Otimização Clássica\nmax_iterations = 100\nopt = optax.sgd(learning_rate=0.4)\ntheta = np.array(0.0)\nopt_state = opt.init(theta)\n\nfor n in range(max_iterations):\n    gradient = qml.grad(cost_fn)(theta)\n    updates, opt_state = opt.update(gradient, opt_state)\n    theta = optax.apply_updates(theta, updates)\n\nfinal_energy = cost_fn(theta)\n# O valor final_energy é a estimativa da energia do estado fundamental.\n```
+
+## URL
+
+https://pennylane.ai/qml/demos/tutorial_vqe/
