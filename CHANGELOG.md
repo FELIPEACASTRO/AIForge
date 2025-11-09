@@ -6,6 +6,28 @@
 
 ---
 
+## [5.0.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **+155 New Resources:** Added 155 new resources from the Devastating Search, doubling the repository size.
+- **New Categories:** Expanded `03_RESOURCES`, `04_DEPLOY`, `06_PROJECTS`, `01_LEARN`, `02_BUILD`, and `05_APPLY`.
+
+**[PT]**
+- **+155 Novos Recursos:** Adicionados 155 novos recursos da Busca Devastadora, duplicando o tamanho do repositório.
+- **Novas Categorias:** Expandidas `03_RESOURCES`, `04_DEPLOY`, `06_PROJECTS`, `01_LEARN`, `02_BUILD` e `05_APPLY`.
+
+### Changed / Alterado
+
+**[EN]**
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [4.0.0] - 2025-11-08
 
 ### Added / Adicionado
