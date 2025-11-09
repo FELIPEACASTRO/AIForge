@@ -1,0 +1,19 @@
+# VQA (Visual Question Answering)
+
+## Description
+O VQA (Visual Question Answering) é um dataset multimodal fundamental que estabeleceu o padrão para a tarefa de Resposta Visual a Perguntas. Ele consiste em imagens e perguntas de linguagem natural de formato aberto sobre essas imagens. Para responder corretamente, um modelo deve ser capaz de integrar a compreensão visual, o processamento de linguagem natural e o conhecimento de senso comum. A versão mais utilizada e balanceada é a VQA v2.0, que foi projetada para reduzir o viés de resposta, garantindo que cada pergunta tenha pelo menos duas respostas plausíveis, mas incorretas, além das respostas de verdade fundamental. O dataset é amplamente utilizado como benchmark para avaliar a capacidade dos modelos de raciocinar sobre o conteúdo visual em conjunto com o texto.
+
+## Statistics
+**Versão Principal:** VQA v2.0 (Lançamento Completo: Abril de 2017). **Imagens:** 204.721 imagens COCO (usadas nos conjuntos de treino/validação/teste). **Perguntas:** 1.105.904 perguntas no total. **Anotações de Resposta:** 11.059.040 respostas de verdade fundamental (10 por pergunta). **Divisão (VQA v2.0 - Imagens Reais Balanceadas):** *   **Treino:** 443.757 perguntas, 4.437.570 respostas. *   **Validação:** 214.354 perguntas, 2.143.540 respostas. *   **Teste:** 447.793 perguntas.
+
+## Features
+**Natureza Multimodal:** Combina dados de imagem (do dataset COCO) e dados de texto (perguntas e respostas). **Perguntas de Formato Aberto:** As perguntas exigem respostas de linguagem natural, em vez de apenas opções de múltipla escolha. **Anotações Múltiplas:** Cada pergunta tem 10 respostas de verdade fundamental fornecidas por diferentes anotadores humanos, permitindo uma avaliação mais robusta. **Balanceamento (v2.0):** A versão 2.0 é balanceada para garantir que as perguntas não possam ser respondidas corretamente apenas com base no viés da linguagem (ou seja, sem olhar para a imagem). **API Python:** Inclui uma API Python para fácil carregamento, manipulação e avaliação dos dados.
+
+## Use Cases
+O VQA é usado principalmente para o desenvolvimento e avaliação de modelos de IA que exigem a fusão de informações visuais e textuais. **Aplicações Reais:** *   **Assistentes Visuais para Pessoas com Deficiência Visual:** Modelos VQA podem descrever o conteúdo de uma imagem em resposta a perguntas, auxiliando na navegação e compreensão do ambiente. *   **Sistemas de Busca de Imagens:** Permite a busca de imagens com base em perguntas complexas e contextuais, indo além da simples correspondência de tags. *   **Educação Automatizada:** Criação de sistemas de tutoria que podem responder a perguntas sobre diagramas, gráficos ou imagens educacionais. *   **Análise de Conteúdo de Mídia:** Extração automatizada de informações detalhadas de imagens e vídeos para fins de catalogação ou segurança. *   **Robótica:** Permite que robôs compreendam e interajam com o ambiente com base em comandos de linguagem natural e percepção visual.
+
+## Integration
+O dataset VQA pode ser baixado diretamente do site oficial (visualqa.org) ou através de ferramentas de terceiros, como a biblioteca `datasets` do Hugging Face. O site oficial fornece links diretos para os arquivos JSON de anotações e perguntas, bem como links para as imagens COCO correspondentes. A integração e o uso são facilitados pela **VQA API (Python)**, que permite carregar, filtrar e visualizar as perguntas e anotações. Para a versão 2.0, é necessário baixar as anotações e perguntas de treino/validação/teste, além das imagens COCO. O uso da API é demonstrado em um script de demonstração fornecido pelos criadores. Modelos modernos de VQA, como BLIP e ViT, são frequentemente implementados usando bibliotecas como Hugging Face Transformers, que gerenciam o pré-processamento e a inferência.
+
+## URL
+[https://visualqa.org/](https://visualqa.org/)

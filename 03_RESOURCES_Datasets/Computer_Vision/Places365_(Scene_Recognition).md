@@ -1,0 +1,19 @@
+# Places365 (Scene Recognition)
+
+## Description
+O Places365 é um subconjunto da base de dados Places2, um vasto repositório de imagens concebido para o **reconhecimento e compreensão de cenas** (Scene Recognition). O objetivo principal é fornecer um recurso fundamental para treinar sistemas de inteligência artificial em tarefas de alto nível de compreensão visual, como contexto de cena, reconhecimento de objetos e previsão de ações. As categorias semânticas do dataset são definidas pela sua função, representando o nível de entrada de um ambiente (por exemplo, distinguindo entre diferentes tipos de quartos: de casa, de hotel ou de berçário). O dataset é amplamente utilizado para o treinamento de Redes Neurais Convolucionais (CNNs) para extração de *deep scene features* e para estabelecer novos *benchmarks* em tarefas centradas em cenas. O uso do dataset e dos modelos pré-treinados continua relevante, sendo referenciado em pesquisas recentes (2024-2025) para validação de novos métodos de *machine learning*.
+
+## Statistics
+**Versões Principais:** Places365-Standard e Places365-Challenge. **Categorias:** 365 classes de cenas únicas. **Places365-Standard:** Aproximadamente 1.8 milhões de imagens de treinamento, com no máximo 5.000 imagens por categoria. **Places365-Challenge:** Aproximadamente 8 milhões de imagens de treinamento (incluindo as do Standard), com no máximo 40.000 imagens por categoria. **Base Places (Total):** Mais de 10 milhões de imagens no total, com mais de 400 categorias de cena.
+
+## Features
+**Reconhecimento de Cena em Larga Escala:** Contém 365 categorias de cenas únicas. **Categorias Funcionais:** As classes são definidas pela função do ambiente, alinhadas com a cognição visual humana. **Modelos Pré-treinados:** Disponibiliza CNNs pré-treinadas (AlexNet, VGG, ResNet, GoogLeNet) para Caffe e PyTorch. **Recursos de Saída:** Os modelos treinados podem prever categorias de cena, tipo de ambiente (interno/externo), atributos de cena e gerar Mapas de Ativação de Classe (CAM) para visualização. **Duas Versões:** Places365-Standard (1.8M imagens) e Places365-Challenge (8M imagens) para diferentes necessidades de treinamento.
+
+## Use Cases
+**Reconhecimento de Cena:** Classificação de imagens em uma das 365 categorias de cena (ex: aeroporto, quarto, floresta). **Transfer Learning:** Uso dos modelos pré-treinados (Places365-CNNs) como *feature extractors* para tarefas de visão computacional relacionadas, como detecção de objetos e segmentação semântica, devido à sua capacidade de aprender *features* genéricas de cena. **Geolocalização:** Análise de conteúdo visual para inferir a localização geográfica. **Análise de Vídeo:** Classificação de cenas em vídeos para indexação ou sumarização (ex: em vídeos de esportes ou filmes). **Robótica e Veículos Autônomos:** Auxílio na compreensão do ambiente para navegação e tomada de decisão. **Moderação de Conteúdo:** Classificação automática de imagens com base no tipo de cena.
+
+## Integration
+O dataset e os modelos pré-treinados estão disponíveis no site oficial do projeto. Para a integração em projetos de *deep learning*, a forma mais comum é através de bibliotecas de *frameworks* populares: **PyTorch:** O dataset é acessível diretamente através de `torchvision.datasets.Places365`. **Modelos Pré-treinados:** Os pesos dos modelos Places365-CNNs (para AlexNet, VGG, ResNet, etc.) podem ser baixados do repositório GitHub oficial e utilizados com Caffe ou PyTorch. **Uso:** O repositório GitHub fornece exemplos de código em Python (`run_placesCNN_basic.py`, `run_placesCNN_unified.py`) para realizar a predição de cenas e a visualização de CAMs. **Citação:** O uso do dataset requer a citação do artigo: Zhou et al., "Places: A 10 million Image Database for Scene Recognition," IEEE T-PAMI, 2017.
+
+## URL
+[http://places2.csail.mit.edu/](http://places2.csail.mit.edu/)
