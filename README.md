@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Resources-25,000%2B-blue?style=for-the-badge" alt="Total de Recursos">
+  <img src="https://img.shields.io/badge/Total%20Resources-33,300%2B-blue?style=for-the-badge" alt="Total de Recursos">
   <img src="https://img.shields.io/badge/Total%20Topics-60%2B-green?style=for-the-badge" alt="Total de Temas">
   <img src="https://img.shields.io/badge/Updated-November%202025-red?style=for-the-badge" alt="Atualizado">
 </p>
@@ -21,7 +21,7 @@
 
 **AIForge** is not just a list of links; it is a **structured and didactic learning ecosystem**. Our mission is to provide the most comprehensive and well-organized collection of AI resources, enabling anyone, from a curious beginner to a seasoned researcher, to navigate the vast universe of Artificial Intelligence with clarity and purpose.
 
-This repository has been meticulously curated, validated, and organized to be **50x larger** than other popular AI repositories, with over 25,000 resources across 2,400+ files, and is continuously updated with the latest breakthroughs.
+This repository has been meticulously curated, validated, and organized to be **50x larger** than other popular AI repositories, with over **33,300+ resources** across **10,760 files**, and is continuously updated with the latest breakthroughs.
 
 ## 🗺️ The Map of the AI Universe: Repository Structure
 
