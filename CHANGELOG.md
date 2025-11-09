@@ -6,6 +6,28 @@
 
 ---
 
+## [5.4.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **+99 New Resources:** Added 99 new datasets from the Universal Datasets Devastating Search.
+- **New Categories:** Expanded `03_RESOURCES/Datasets` with 10 new subcategories (Computer Vision, NLP, Audio, Video, Multimodal, Robotics, Climate, Finance, Social Science, Gaming).
+
+**[PT]**
+- **+99 Novos Recursos:** Adicionados 99 novos datasets da Busca Devastadora de Datasets Universal.
+- **Novas Categorias:** Expandidas `03_RESOURCES/Datasets` com 10 novas subcategorias (Visão Computacional, NLP, Áudio, Vídeo, Multimodal, Robótica, Clima, Finanças, Ciências Sociais, Jogos).
+
+### Changed / Alterado
+
+**[EN]**
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [5.3.0] - 2025-11-08
 
 ### Added / Adicionado
