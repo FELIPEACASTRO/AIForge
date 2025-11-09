@@ -6,7 +6,7 @@ A segurança é uma prioridade para o projeto **AIForge**. Agradecemos a comunid
 
 Se você descobrir uma vulnerabilidade de segurança neste repositório, por favor, **NÃO** abra uma Issue pública. Em vez disso, siga o processo de divulgação responsável:
 
-1. **Envie um e-mail** para o mantenedor principal em **[INSERIR ENDEREÇO DE E-MAIL DE CONTATO]**.
+1. **Envie um e-mail** para o mantenedor principal em **felipeacastro@gmail.com**.
 2. **Assunto do E-mail:** `Vulnerabilidade de Segurança no AIForge`
 3. **Corpo do E-mail:** Inclua o máximo de detalhes possível sobre a vulnerabilidade, incluindo:
     *   Descrição da vulnerabilidade.

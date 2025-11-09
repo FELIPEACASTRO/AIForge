@@ -36,7 +36,7 @@ Este Código de Conduta se aplica dentro de todos os espaços do projeto e tamb�
 
 ## Aplicação
 
-Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser relatadas aos mantenedores do projeto responsáveis pela aplicação em **[INSERIR ENDEREÇO DE E-MAIL DE CONTATO]**. Todos os mantenedores do projeto são obrigados a respeitar a privacidade e a segurança do relator da ocorrência.
+Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser relatadas aos mantenedores do projeto responsáveis pela aplicação em **felipeacastro@gmail.com**. Todos os mantenedores do projeto são obrigados a respeitar a privacidade e a segurança do relator da ocorrência.
 
 Detalhes adicionais sobre políticas de aplicação específicas podem ser postados separadamente.
 
