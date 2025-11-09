@@ -6,6 +6,28 @@
 
 ---
 
+## [5.2.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **+60 New Resources:** Added 60 new resources from the Healthcare & Medicine Devastating Search.
+- **New Categories:** Expanded `05_APPLY/Healthcare`, `03_RESOURCES/Datasets`, and `01_LEARN/Prompt_Engineering`.
+
+**[PT]**
+- **+60 Novos Recursos:** Adicionados 60 novos recursos da Busca Devastadora de Saúde e Medicina.
+- **Novas Categorias:** Expandidas `05_APPLY/Healthcare`, `03_RESOURCES/Datasets` e `01_LEARN/Prompt_Engineering`.
+
+### Changed / Alterado
+
+**[EN]**
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [5.1.0] - 2025-11-08
 
 ### Added / Adicionado
