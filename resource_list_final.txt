@@ -26,6 +26,54 @@
 /home/ubuntu/AIForge/01_LEARN/Reinforcement_Learning/OpenRLHF_2025.md
 /home/ubuntu/AIForge/01_LEARN/Natural_Language_Processing/XLM-RSA_Multilingual_Sentiment_Analysis_2025.md
 /home/ubuntu/AIForge/01_LEARN/Natural_Language_Processing/RAG-Anything_2025.md
+/home/ubuntu/AIForge/01_LEARN/model_optimization/Knowledge_Distillation_Frameworks_(e.g.,_torchdistill,_Hugging_Face).md
+/home/ubuntu/AIForge/01_LEARN/01_LEARN/Interpretability/SHAP_(SHapley_Additive_exPlanations).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning_architectures/Arquiteturas_Avançadas_de_Deep_Learning_2024-2025_(Nested_Learning,_LMFMs,_Neuro-Symbolic_AI).md
+/home/ubuntu/AIForge/01_LEARN/Arquiteturas_LLM/Eficiencia_Contexto_Longo/Variantes_de_Transformer_Eficientes_e_de_Longo_Contexto_(Infini-attention,_ModernBERT,_HMT).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/attention_mechanisms/Mecanismos_de_Atenção_Eficientes_(Efficient_Attention_Mechanisms).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/normalization_techniques/Técnicas_de_Normalização_em_Redes_Neurais_(BatchNorm,_LayerNorm,_GroupNorm_e_Variantes).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/activation_functions/Funções_de_Ativação_(GELU,_Swish,_Mish,_SERF).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/regularization/Técnicas_de_Regularização:_Dropout_e_Decaimento_de_Peso_(L2,_AdamW).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/multi_task_learning/Multi-Task_Learning_(MTL)_-_Hard_and_Soft_Parameter_Sharing.md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/graph_neural_networks/Hypergraph_Neural_Networks_(HNNs)___Hypergraph_Convolution.md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/geometric_deep_learning/Geometric_Deep_Learning_(GDL)_and_Equivariant_Networks.md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/architectures/Equivariant_Neural_Networks_(SE(3)_Equivariance_&_Steerable_CNNs).md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/architectures/Sparse_Transformers___Sparse_Attention.md
+/home/ubuntu/AIForge/01_LEARN/deep_learning/3d_vision/point_cloud_processing/PointNet.md
+/home/ubuntu/AIForge/01_LEARN/Deep_Learning/Loss_Functions/Funções_de_Perda_para_Deep_Learning:_Perdas_Personalizadas_e_Multi-tarefa.md
+/home/ubuntu/AIForge/01_LEARN/optimization_algorithms/Algoritmos_de_Otimização:_Adam,_AdamW,_LAMB,_Lion.md
+/home/ubuntu/AIForge/01_LEARN/few_shot_learning/Few-Shot_Learning_Techniques:_Prototypical_Networks_and_Matching_Networks.md
+/home/ubuntu/AIForge/01_LEARN/machine_learning/zero_shot_learning/CLIP_(Contrastive_Language-Image_Pre-training).md
+/home/ubuntu/AIForge/01_LEARN/machine_learning/training_strategies/Curriculum_Learning_-_Progressive_Training_Strategies.md
+/home/ubuntu/AIForge/01_LEARN/machine_learning/federated_learning/Aprendizado_Federado_Avançado:_FedAvg,_FedProx_e_Personalização.md
+/home/ubuntu/AIForge/01_LEARN/Computer_Vision/Self_Supervised_Learning/Self-Supervised_Learning:_SimCLR,_MoCo,_BYOL.md
+/home/ubuntu/AIForge/01_LEARN/contrastive_learning/Contrastive_Learning_-_InfoNCE,_NT-Xent_Loss.md
+/home/ubuntu/AIForge/01_LEARN/Query_strategies/Active_Learning_-_Uncertainty_Sampling.md
+/home/ubuntu/AIForge/01_LEARN/Online Learning - Streaming data, incremental learning/Aprendizado_Online_(Online_Learning)___Aprendizado_Incremental_(Incremental_Learning).md
+/home/ubuntu/AIForge/01_LEARN/AI_Concepts/Continual_Learning/Continual_Learning_(Lifelong_Learning).md
+/home/ubuntu/AIForge/01_LEARN/advanced_ml_techniques/transfer_learning/Transfer_Learning_Avançado:_Estratégias_PEFT_(LoRA,_Adapters).md
+/home/ubuntu/AIForge/01_LEARN/Domain Adaptation/Transfer Learning/Domain_Adaptation:_DANN,_CORAL,_and_Adversarial_Methods.md
+/home/ubuntu/AIForge/01_LEARN/certified_defenses/Randomized_Smoothing_(Suavização_Aleatória).md
+/home/ubuntu/AIForge/01_LEARN/Criptografia e Privacidade/ML_com_Preservação_de_Privacidade_(SMPC_e_HE).md
+/home/ubuntu/AIForge/01_LEARN/privacy/differential_privacy/Differential_Privacy_in_ML_(DP-SGD).md
+/home/ubuntu/AIForge/01_LEARN/Quantum Machine Learning Latest/Quantum_Machine_Learning_(QML)_-_Quantum_Neural_Networks_(QNN)_&_Variational_Quantum_Eigensolver_(VQE).md
+/home/ubuntu/AIForge/01_LEARN/Vision_Transformers/Variants/Vision_Transformers_(ViT)_Variants:_DeiT,_Swin,_BEiT.md
+/home/ubuntu/AIForge/01_LEARN/NLP/Models/BERT_Variants_and_Successors_(RoBERTa,_ALBERT,_DeBERTa).md
+/home/ubuntu/AIForge/01_LEARN/generative_models/diffusion/DDPM_(Denoising_Diffusion_Probabilistic_Models).md
+/home/ubuntu/AIForge/01_LEARN/generative_models/flow_based/Normalizing_Flows_(RealNVP,_Glow,_CNF).md
+/home/ubuntu/AIForge/01_LEARN/generative_models/ebm_training_methods/Energy-Based_Models_(EBMs)_-_Contrastive_Divergence_(CD)_and_Score_Matching_(SM).md
+/home/ubuntu/AIForge/01_LEARN/Generative_Models/GANs/StyleGAN3_(Alias-Free_Generative_Adversarial_Networks).md
+/home/ubuntu/AIForge/01_LEARN/Generative Models/Variational Autoencoders/VAE_Variants_-_Beta-VAE,_VQ-VAE,_Hierarchical_VAE.md
+/home/ubuntu/AIForge/01_LEARN/Deep Learning/Graph Models/Graph_Neural_Networks_Advanced_(GCN,_GAT,_GraphSAGE).md
+/home/ubuntu/AIForge/01_LEARN/Deep Learning/Neural Architecture Search/DARTS_(Differentiable_Architecture_Search).md
+/home/ubuntu/AIForge/01_LEARN/graph_neural_networks/dynamic_graphs/Temporal_Graph_Networks_(TGN).md
+/home/ubuntu/AIForge/01_LEARN/Modelos de Linguagem de Longo Contexto/Long-Context_Models_(Longformer,_BigBird,_Transformer-XL).md
+/home/ubuntu/AIForge/01_LEARN/multimodal/vision-language/CLIP_(Contrastive_Language-Image_Pre-Training).md
+/home/ubuntu/AIForge/01_LEARN/Vision-Language Models/Vision-Language_Models:_BLIP,_CoCa,_Flamingo.md
+/home/ubuntu/AIForge/01_LEARN/Video Understanding Models/VideoMAE.md
+/home/ubuntu/AIForge/01_LEARN/AI_in_Radiology/Inteligência_Artificial_em_Radiologia_(Raio-X,_TC,_RM).md
+/home/ubuntu/AIForge/01_LEARN/nan/nan.md
+/home/ubuntu/AIForge/01_LEARN/Saúde/Medicina_Personalizada/Inteligência_Artificial_na_Medicina_Personalizada_e_Genômica.md
 /home/ubuntu/AIForge/02_BUILD/Datasets/BANKING_DATASETS_FEATURES_TL.md
 /home/ubuntu/AIForge/02_BUILD/Datasets/MASSIVE_COLLECTION.md
 /home/ubuntu/AIForge/02_BUILD/Datasets/Platforms/README.md
@@ -45,6 +93,7 @@
 /home/ubuntu/AIForge/02_BUILD/Models/Repositories/README.md
 /home/ubuntu/AIForge/02_BUILD/Models/Transfer_Learning/README.md
 /home/ubuntu/AIForge/02_BUILD/README.md
+/home/ubuntu/AIForge/02_BUILD/security/robustness/Adversarial_Training_(PGD,_FGSM)_and_Robustness.md
 /home/ubuntu/AIForge/02_BUILD/Niche_Models/Time_Series_Forecasting/01_Foundation_Models/README.md
 /home/ubuntu/AIForge/02_BUILD/Niche_Models/Time_Series_Forecasting/README.md
 /home/ubuntu/AIForge/02_BUILD/Niche_Models/Time_Series_Forecasting/TimeSeries_Transformers_Analysis_2025.md
@@ -56,6 +105,7 @@
 /home/ubuntu/AIForge/02_BUILD/Niche_Models/Graph_Neural_Networks/GNN_Game_Changers_2025.md
 /home/ubuntu/AIForge/02_BUILD/Niche_Models/Quantum_Machine_Learning/QML_Game_Changers_2025.md
 /home/ubuntu/AIForge/02_BUILD/Niche_Models/Reservoir_Computing/Stochastic_ESNs_2025.md
+/home/ubuntu/AIForge/02_BUILD/llm/model/openai/GPT-4.md
 /home/ubuntu/AIForge/02_BUILD/Foundation_Models/Grok_1.md
 /home/ubuntu/AIForge/02_BUILD/Foundation_Models/Gemini.md
 /home/ubuntu/AIForge/02_BUILD/Foundation_Models/Claude.md
@@ -63,6 +113,15 @@
 /home/ubuntu/AIForge/02_BUILD/Foundation_Models/Llama_3.md
 /home/ubuntu/AIForge/02_BUILD/Foundation_Models/Mistral_Large.md
 /home/ubuntu/AIForge/02_BUILD/Foundation_Models/MIO_Multimodal_Foundation_Model_2024.md
+/home/ubuntu/AIForge/02_BUILD/Data_Preprocessing/Augmentation/Estratégias_de_Aumento_de_Dados_(Data_Augmentation).md
+/home/ubuntu/AIForge/02_BUILD/efficient_transformers/Efficient_Transformers:_Linformer,_Performer,_Reformer.md
+/home/ubuntu/AIForge/02_BUILD/audio/speech-to-text/Whisper_(OpenAI).md
+/home/ubuntu/AIForge/02_BUILD/drug_discovery/ai_models/IA_na_Descoberta_de_Medicamentos:_AlphaFold,_RoseTTAFold_e_Design_Molecular_Generativo.md
+/home/ubuntu/AIForge/02_BUILD/medical_imaging/segmentation/foundation_models/Segment_Anything_Medical_(MedSAM).md
+/home/ubuntu/AIForge/02_BUILD/genomics/variant-calling, genomics/protein-folding/DeepVariant_and_AlphaFold.md
+/home/ubuntu/AIForge/02_BUILD/ai_in_proteomics/AlphaFold_(DeepMind_Isomorphic_Labs).md
+/home/ubuntu/AIForge/02_BUILD/AI in Cardiology - ECG analysis, heart disease prediction/PMcardio_(Powerful_Medical).md
+/home/ubuntu/AIForge/02_BUILD/AI in Neurology - Brain imaging, neurological disorders/Neurogram™.md
 /home/ubuntu/AIForge/05_APPLY/Entertainment/README.md
 /home/ubuntu/AIForge/05_APPLY/Finance/README.md
 /home/ubuntu/AIForge/05_APPLY/Finance/Credit_AI/01_Repositories/README.md
@@ -106,31 +165,83 @@
 /home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Image_Segmentation/U-Net_Benchmark_2025.md
 /home/ubuntu/AIForge/05_APPLY/Healthcare/Synthetic_Data_Generation/SCALEMED_DermaSynth_2025.md
 /home/ubuntu/AIForge/05_APPLY/Healthcare/Drug_Discovery/REINVENT4_2024.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Clinical_Trials/Inteligência_Artificial_na_Otimização_de_Ensaios_Clínicos:_Recrutamento_de_Pacientes_e_Desenho_de_Protocolo.md
 /home/ubuntu/AIForge/05_APPLY/Computer_Vision/Autonomous_Driving_Segmentation_2025.md
 /home/ubuntu/AIForge/05_APPLY/Computer_Vision/X-SAM_2025.md
+/home/ubuntu/AIForge/05_APPLY/05_APPLY/Healthcare/Oncology/Inteligência_Artificial_em_Oncologia_(Visão_Geral).md
+/home/ubuntu/AIForge/05_APPLY/Saúde Mental/IA_em_Saúde_Mental:_Detecção_de_Depressão_e_Chatbots_de_Terapia_(Woebot,_Youper).md
+/home/ubuntu/AIForge/05_APPLY/Telemedicina/Inteligência_Artificial_em_Telemedicina:_Diagnóstico_Remoto_e_Consultas_Virtuais.md
+/home/ubuntu/AIForge/05_APPLY/Saúde Pública/Vigilância Epidemiológica/Inteligência_Artificial_em_Vigilância_de_Doenças_e_Previsão_de_Surtos.md
+/home/ubuntu/AIForge/05_APPLY/Epidemiologia/Modelagem_Rastreamento/Inteligência_Artificial_em_Epidemiologia.md
 /home/ubuntu/AIForge/04_DEPLOY/Cloud_Platforms/README.md
 /home/ubuntu/AIForge/04_DEPLOY/Infrastructure/Distributed/README.md
 /home/ubuntu/AIForge/04_DEPLOY/Infrastructure/Workflow/README.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/AutoML/README.md
+/home/ubuntu/AIForge/04_DEPLOY/MLOps/AutoML/DataRobot_-_Enterprise_AI_Platform.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/Feature_Engineering/README.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/Feature_Stores/README.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/Interpretability/README.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/Monitoring/README.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/README.md
 /home/ubuntu/AIForge/04_DEPLOY/MLOps/Visualization/README.md
+/home/ubuntu/AIForge/04_DEPLOY/MLOps/Plataformas/Google_Vertex_AI.md
+/home/ubuntu/AIForge/04_DEPLOY/MLOps/Experiment_Tracking/Neptune.ai.md
 /home/ubuntu/AIForge/04_DEPLOY/Optimization/README.md
 /home/ubuntu/AIForge/04_DEPLOY/README.md
 /home/ubuntu/AIForge/04_DEPLOY/Serving/README.md
+/home/ubuntu/AIForge/04_DEPLOY/deployment/model_serving/TensorFlow_Serving.md
+/home/ubuntu/AIForge/04_DEPLOY/model_serving/TorchServe.md
+/home/ubuntu/AIForge/04_DEPLOY/Workflow Orchestration/Prefect_-_Modern_workflow_orchestration.md
+/home/ubuntu/AIForge/04_DEPLOY/Model_Registry_Solutions/Model_Registry_Solutions_-_MLflow_Registry,_Seldon,_BentoML.md
+/home/ubuntu/AIForge/04_DEPLOY/mlops/feature_store/Tecton.md
+/home/ubuntu/AIForge/04_DEPLOY/feature_store/Feast_-_Open_Source_Feature_Store.md
+/home/ubuntu/AIForge/04_DEPLOY/Deploy/ONNX/ONNX_-_Open_Neural_Network_Exchange.md
+/home/ubuntu/AIForge/04_DEPLOY/deep_learning_inference_optimization/NVIDIA_TensorRT.md
+/home/ubuntu/AIForge/04_DEPLOY/inference_optimization/Intel®_Distribution_of_OpenVINO™_Toolkit.md
+/home/ubuntu/AIForge/04_DEPLOY/model_optimization/Ferramentas_de_Quantização_de_Modelos_(PyTorch_e_TensorFlow_Lite).md
+/home/ubuntu/AIForge/04_DEPLOY/model_optimization/pruning_tools/Model_Pruning_Tools_-_Técnicas_de_Compressão_de_Redes_Neurais.md
+/home/ubuntu/AIForge/04_DEPLOY/microsoft/deepspeed/DeepSpeed.md
+/home/ubuntu/AIForge/04_DEPLOY/A-B-Testing-Platforms-for-ML/Optimizely_Feature_Experimentation.md
+/home/ubuntu/AIForge/04_DEPLOY/Canary Deployment Tools/Flagger.md
+/home/ubuntu/AIForge/04_DEPLOY/Kubernetes/BlueGreen/Argo_Rollouts_e_Estratégias_Blue-Green_no_Kubernetes.md
 /home/ubuntu/AIForge/06_PROJECTS/CSIRO_Biomass/README.md
 /home/ubuntu/AIForge/06_PROJECTS/CSIRO_Biomass/docs/SETUP_GUIDE.md
+/home/ubuntu/AIForge/06_PROJECTS/mlops/experiment_tracking/Weights_&_Biases_(W&B)_-_Experiment_Tracking_and_Model_Management.md
+/home/ubuntu/AIForge/06_PROJECTS/mlops_tools/Comet.ml_(Comet).md
+/home/ubuntu/AIForge/06_PROJECTS/automl/H2O.ai_-_Open_Source_AutoML_(H2O-3).md
+/home/ubuntu/AIForge/06_PROJECTS/automl/Google_AutoML_-_Cloud_AutoML_services_(via_Vertex_AI).md
+/home/ubuntu/AIForge/06_PROJECTS/06_PROJECTS/ML_Frameworks/Hyperparameter_Optimization/Optuna_-_Hyperparameter_Optimization_Framework.md
+/home/ubuntu/AIForge/06_PROJECTS/06_PROJECTS/Agriculture_AI/AgriSync:_AI-Powered_Smart_Farming_&_Marketplace_System.md
+/home/ubuntu/AIForge/06_PROJECTS/ray-tune/Ray_Tune.md
+/home/ubuntu/AIForge/06_PROJECTS/deep_learning/distributed_training/Horovod.md
+/home/ubuntu/AIForge/06_PROJECTS/xai/LIME_-_Local_Interpretable_Model-agnostic_Explanations.md
+/home/ubuntu/AIForge/06_PROJECTS/kaggle/solutions/2024-2025/RSNA_2024_Lumbar_Spine_Degenerative_Classification_-_1st_Place_Solution.md
+/home/ubuntu/AIForge/06_PROJECTS/diversos/GitHub_Trending_ML_Projects_-_Most_starred_projects_(Parte_2).md
+/home/ubuntu/AIForge/06_PROJECTS/Healthcare AI/Medical Imaging/Project_MONAI_(Medical_Open_Network_for_AI)_|_Project_InnerEye.md
+/home/ubuntu/AIForge/06_PROJECTS/finance/ai-projects/TradingAgents,_FinRobot_e_NVIDIA_AI_Blueprint_for_Financial_Fraud_Detection.md
+/home/ubuntu/AIForge/06_PROJECTS/Computer_Vision/Object_Detection_Segmentation/Open_Source_Computer_Vision_Projects_-_Object_Detection_and_Segmentation_(YOLO_&_Detectron2).md
+/home/ubuntu/AIForge/06_PROJECTS/nlp/text_generation/Hugging_Face_Transformers.md
+/home/ubuntu/AIForge/06_PROJECTS/reinforcement_learning/game_ai_robotics/Open_Source_Reinforcement_Learning_Projects_(Gymnasium,_PyBullet,_OpenSpiel,_Ray_RLlib).md
+/home/ubuntu/AIForge/06_PROJECTS/time_series/forecasting_anomaly_detection/Darts.md
+/home/ubuntu/AIForge/06_PROJECTS/recommender_systems/LightFM.md
+/home/ubuntu/AIForge/06_PROJECTS/anomaly_detection_fraud/Open_Source_Anomaly_Detection_Projects_-_PyOD_&_Tazama.md
+/home/ubuntu/AIForge/06_PROJECTS/fraud-detection/Tazama.md
+/home/ubuntu/AIForge/06_PROJECTS/Conversational AI/Dialogue Systems/Rasa.md
+/home/ubuntu/AIForge/06_PROJECTS/generative_ai/image_generation/diffusion/Stable_Diffusion.md
+/home/ubuntu/AIForge/06_PROJECTS/video_generation/Projetos_de_Geração_de_Vídeo_Open_Source_(VideoCrafter,_CogVideoX,_Open-Sora).md
+/home/ubuntu/AIForge/06_PROJECTS/audio-generation/AudioCraft_(MusicGen_AudioGen)_e_Coqui_TTS_(XTTS-v2).md
+/home/ubuntu/AIForge/06_PROJECTS/multimodal/vision-language/LLaVA_(Large_Language_and_Vision_Assistant).md
+/home/ubuntu/AIForge/06_PROJECTS/Edge AI/Mobile ML/LiteRT_(formerly_TensorFlow_Lite).md
 /home/ubuntu/AIForge/CHANGELOG.md
 /home/ubuntu/AIForge/EXTERNAL_DISCOVERY_STRATEGY.md
 /home/ubuntu/AIForge/INDEX.md
 /home/ubuntu/AIForge/LOGO_USAGE_GUIDE.md
 /home/ubuntu/AIForge/NAVIGATION_GUIDE.md
+/home/ubuntu/AIForge/Uncategorized/General/Untitled.md
 /home/ubuntu/AIForge/QUICK_START.md
 /home/ubuntu/AIForge/README.md
 /home/ubuntu/AIForge/SUBMISSION_CHECKLIST.md
+/home/ubuntu/AIForge/nan/nan/nan.md
 /home/ubuntu/AIForge/advanced_seo_optimization_report.md
 /home/ubuntu/AIForge/competitor_analysis.md
 /home/ubuntu/AIForge/ULTIMATE_AI_COLLECTION.md
@@ -150,3 +261,49 @@
 /home/ubuntu/AIForge/03_RESOURCES/Tools/Data_Labeling/README.md
 /home/ubuntu/AIForge/03_RESOURCES/Tools/PDF/README.md
 /home/ubuntu/AIForge/03_RESOURCES/Tools/Web_Scraping/README.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Machine Learning/Kaggle_Datasets.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Benchmarks/Papers_With_Code_Datasets_-_Research_datasets_with_benchmarks_(Archive).md
+/home/ubuntu/AIForge/03_RESOURCES/Data_Sources/UCI_Machine_Learning_Repository.md
+/home/ubuntu/AIForge/03_RESOURCES/Cloud datasets/AWS_Open_Data_Registry.md
+/home/ubuntu/AIForge/03_RESOURCES/Data_Analysis/Public_Datasets/Google_Cloud_Public_Datasets_(BigQuery).md
+/home/ubuntu/AIForge/03_RESOURCES/Data_Management/AI_ML_Data/Hugging_Face_Datasets.md
+/home/ubuntu/AIForge/03_RESOURCES/Open Data / Government/Data.gov_-_US_Government_Open_Data.md
+/home/ubuntu/AIForge/03_RESOURCES/Data Portals/European_Data_Portal_(data.europa.eu)_-_EU_Datasets_for_Machine_Learning.md
+/home/ubuntu/AIForge/03_RESOURCES/Data Science/Feature Engineering/Feature_Engineering_Libraries:_Featuretools,_tsfresh,_category_encoders.md
+/home/ubuntu/AIForge/03_RESOURCES/data_augmentation/computer_vision/Albumentations.md
+/home/ubuntu/AIForge/03_RESOURCES/synthetic_data_generation/SDV_(Synthetic_Data_Vault).md
+/home/ubuntu/AIForge/03_RESOURCES/Data Versioning Tools/DVC_(Data_Version_Control).md
+/home/ubuntu/AIForge/03_RESOURCES/Data_Quality/Data_Quality_Tools:_Great_Expectations,_Deequ,_Soda.md
+/home/ubuntu/AIForge/03_RESOURCES/Data Catalog Tools/Amundsen.md
+/home/ubuntu/AIForge/03_RESOURCES/AWS/AWS_SageMaker.md
+/home/ubuntu/AIForge/03_RESOURCES/machine-learning/platform/Azure_Machine_Learning.md
+/home/ubuntu/AIForge/03_RESOURCES/ai_platforms/IBM_watsonx.ai_(Evolução_do_IBM_Watson_Studio).md
+/home/ubuntu/AIForge/03_RESOURCES/Cloud Platforms/AI-ML/Oracle_Cloud_AI_and_Machine_Learning_Services_(OCI_AI_ML).md
+/home/ubuntu/AIForge/03_RESOURCES/Data_Annotation_Platforms/Label_Studio.md
+/home/ubuntu/AIForge/03_RESOURCES/Data_Labeling/Data_Labeling_Platforms:_Scale_AI,_Labelbox,_Supervisely.md
+/home/ubuntu/AIForge/03_RESOURCES/Web Scraping Libraries/Scrapy.md
+/home/ubuntu/AIForge/03_RESOURCES/API_Integration_Tools/Postman.md
+/home/ubuntu/AIForge/03_RESOURCES/Data Pipeline Tools/Apache_NiFi.md
+/home/ubuntu/AIForge/03_RESOURCES/ETL/ML/ETL_Tools_for_ML_-_Apache_Spark,_Dask,_Pandas.md
+/home/ubuntu/AIForge/03_RESOURCES/data_streaming/platform/Apache_Kafka.md
+/home/ubuntu/AIForge/03_RESOURCES/Data Warehouse Solutions/Snowflake.md
+/home/ubuntu/AIForge/03_RESOURCES/data-lake-solutions/Data_Lake_Solutions_-_Delta_Lake,_Apache_Iceberg,_Hudi.md
+/home/ubuntu/AIForge/03_RESOURCES/Storage/Object/Object_Storage_Solutions:_MinIO,_Ceph_RGW,_and_S3-compatible.md
+/home/ubuntu/AIForge/03_RESOURCES/Database_Solutions_for_ML/PostgreSQL_(PostgresML_pgvector).md
+/home/ubuntu/AIForge/03_RESOURCES/Vector_Databases/Vector_Databases:_Pinecone,_Weaviate,_Milvus,_Qdrant.md
+/home/ubuntu/AIForge/03_RESOURCES/Databases/Graph/Neo4j.md
+/home/ubuntu/AIForge/03_RESOURCES/Time Series Databases/InfluxDB,_TimescaleDB,_Prometheus.md
+/home/ubuntu/AIForge/03_RESOURCES/Document_Databases/MongoDB.md
+/home/ubuntu/AIForge/03_RESOURCES/databases/key-value-stores/Redis_(Remote_Dictionary_Server).md
+/home/ubuntu/AIForge/03_RESOURCES/In-Memory-Databases/In-Memory_Databases:_Redis,_Hazelcast,_Apache_Ignite.md
+/home/ubuntu/AIForge/03_RESOURCES/Distributed File Systems/Apache_Hadoop_Distributed_File_System_(HDFS).md
+/home/ubuntu/AIForge/03_RESOURCES/Inference Engines/ONNX_Runtime.md
+/home/ubuntu/AIForge/03_RESOURCES/Inference Serving/NVIDIA_Triton_Inference_Server.md
+/home/ubuntu/AIForge/03_RESOURCES/mlops/platform/MLflow_-_Open_source_MLOps_platform.md
+/home/ubuntu/AIForge/03_RESOURCES/mlops/platform/Kubeflow.md
+/home/ubuntu/AIForge/03_RESOURCES/mlops/observability/Evidently_AI.md
+/home/ubuntu/AIForge/03_RESOURCES/Workflow Orchestration/Apache_Airflow.md
+/home/ubuntu/AIForge/03_RESOURCES/MLOps/Infrastructure/Metaflow.md
+/home/ubuntu/AIForge/03_RESOURCES/ai_observability/Whylabs_-_Plataforma_de_Observabilidade_de_IA_(Open_Source).md
+/home/ubuntu/AIForge/03_RESOURCES/ml-observability / llm-ops/Arize_AI_-_ML_Observability_and_Monitoring.md
+/home/ubuntu/AIForge/03_RESOURCES/AI_Observability/Fiddler_AI.md
