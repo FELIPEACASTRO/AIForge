@@ -6,6 +6,28 @@
 
 ---
 
+## [5.1.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **+50 New Resources:** Added 50 new resources from the Biomass & Agriculture Devastating Search.
+- **New Categories:** Expanded `05_APPLY/Agriculture` and `03_RESOURCES/Datasets`.
+
+**[PT]**
+- **+50 Novos Recursos:** Adicionados 50 novos recursos da Busca Devastadora de Biomassa e Agropecuária.
+- **Novas Categorias:** Expandidas `05_APPLY/Agriculture` e `03_RESOURCES/Datasets`.
+
+### Changed / Alterado
+
+**[EN]**
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [5.0.0] - 2025-11-08
 
 ### Added / Adicionado
