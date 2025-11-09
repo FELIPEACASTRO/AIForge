@@ -74,6 +74,14 @@
 /home/ubuntu/AIForge/01_LEARN/AI_in_Radiology/Inteligência_Artificial_em_Radiologia_(Raio-X,_TC,_RM).md
 /home/ubuntu/AIForge/01_LEARN/nan/nan.md
 /home/ubuntu/AIForge/01_LEARN/Saúde/Medicina_Personalizada/Inteligência_Artificial_na_Medicina_Personalizada_e_Genômica.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/AutoMedPrompt_e_Prompt_de_Raciocínio_Clínico_Estruturado.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/Models-Vote_Prompting_(MVP).md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/Chain-of-Thought_(CoT)_Prompting_para_Raciocínio_Clínico.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/ROT_Prompting,_Chain-of-Thought_(CoT)_e_HealthBench.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/DDI-JUDGE:_LLM-Enhanced_Drug-Drug_Interaction_Prediction.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/Engenharia_de_Prompt_e_LLMs_para_Geração_de_Relatórios_Médicos.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/Estrutura_de_Prompt_SMART_(Seeker,_Mission,_AI_Role,_Register,_Targeted_Question)_e_Prompt_Baseado_em_Métrica_para_Readability.md
+/home/ubuntu/AIForge/01_LEARN/Prompt_Engineering/Medical_Prompts/TrialGPT_(Framework_de_Correspondência_de_Ensaios_Clínicos).md
 /home/ubuntu/AIForge/02_BUILD/Datasets/BANKING_DATASETS_FEATURES_TL.md
 /home/ubuntu/AIForge/02_BUILD/Datasets/MASSIVE_COLLECTION.md
 /home/ubuntu/AIForge/02_BUILD/Datasets/Platforms/README.md
@@ -123,6 +131,9 @@
 /home/ubuntu/AIForge/02_BUILD/AI in Cardiology - ECG analysis, heart disease prediction/PMcardio_(Powerful_Medical).md
 /home/ubuntu/AIForge/02_BUILD/AI in Neurology - Brain imaging, neurological disorders/Neurogram™.md
 /home/ubuntu/AIForge/02_BUILD/Reinforcement_Learning_Simulator/WOFOSTGym:_A_Crop_Simulator_for_Learning_Annual_and_Perennial_Crop_Management_Strategies.md
+/home/ubuntu/AIForge/02_BUILD/Medical_Imaging/Generative_Models/Image_Synthesis/medigan_-_A_Python_Library_of_Pretrained_Generative_Models_for_Medical_Image_Synthesis.md
+/home/ubuntu/AIForge/02_BUILD/LLMs/Medical_LLMs/Med-PaLM_2.md
+/home/ubuntu/AIForge/02_BUILD/LLMs/Medical_LLMs/AMIE_(Articulate_Medical_Intelligence_Explorer).md
 /home/ubuntu/AIForge/05_APPLY/Entertainment/README.md
 /home/ubuntu/AIForge/05_APPLY/Finance/README.md
 /home/ubuntu/AIForge/05_APPLY/Finance/Credit_AI/01_Repositories/README.md
@@ -191,6 +202,30 @@
 /home/ubuntu/AIForge/05_APPLY/Healthcare/Synthetic_Data_Generation/SCALEMED_DermaSynth_2025.md
 /home/ubuntu/AIForge/05_APPLY/Healthcare/Drug_Discovery/REINVENT4_2024.md
 /home/ubuntu/AIForge/05_APPLY/Healthcare/Clinical_Trials/Inteligência_Artificial_na_Otimização_de_Ensaios_Clínicos:_Recrutamento_de_Pacientes_e_Desenho_de_Protocolo.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Segmentation/nnU-Net_(no-new-U-Net).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/TITAN_(Transformer-based_pathology_Image_and_Text_Alignment_Network).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/MedViT_(Medical_Vision_Transformer).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/EffiDec3D.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Modelo_de_Conjunto_com_Transfer_Learning_para_Detecção_Precoce_da_Doença_de_Alzheimer_(DA).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Transfer_Learning/RadImageNet_(Modelos_Pré-treinados).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Múltiplos_(ADA,_SFDA,_SE_ASA).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Self-Supervised_Learning/Snap-MAE_(Snapshot_Ensemble_Learning_into_Masked_Autoencoders).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Fine_Tuning/Parameter-Efficient_Fine-Tuning_(PEFT)_for_Medical_Image_Analysis.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/MetaScleraSeg.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Continual_Learning/SFDA/CLMS_(Continual_Learning_Multi-Scale_domain_adaptation).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Imaging/Framework/ATOMMIC_(Advanced_Toolbox_for_Multitask_Medical_Imaging_Consistency).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Clinical_Decision_Support e Biomedical_NLP/Med-PaLM_2_e_BioGPT.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Clinical_Decision_Support/DeepSeek_R1_(Modelo_Multimodal).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Informatics/TransformEHR.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Informatics/Clinician-informed_XAI_evaluation_checklist_with_metrics_(CLIX-M).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Molecular_Docking/PPDock_(Pocket_Prediction-Based_Protein–Ligand_Blind_Docking).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Clinical_Dialogue_Optimization/DoctorAgent-RL.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Medical_Question_Answering/Med-PaLM_2_e_DeepSeek-R1_(LLMs_para_QA_Médico).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Explainable_AI_Risk_Prediction/PersonalCareNet_(CNN_com_Mecanismo_de_Atenção_e_XAI).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Patient_Monitoring/ICU/GRU-D_e_TBAL_(Modelos_RNN_para_Monitoramento_de_Pacientes).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Rare_Disease_Diagnosis/SHEPHERD.md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Transfer_Learning/Medical_Imaging/CDTM_(Cross-Domain_Transfer_Module)_+_SFT_(Staged_Fine-Tuning).md
+/home/ubuntu/AIForge/05_APPLY/Healthcare/Edge_AI/Model_Compression/Medical_Imaging/Knowledge_Distillation_for_Edge_Medical_Devices.md
 /home/ubuntu/AIForge/05_APPLY/Computer_Vision/Autonomous_Driving_Segmentation_2025.md
 /home/ubuntu/AIForge/05_APPLY/Computer_Vision/X-SAM_2025.md
 /home/ubuntu/AIForge/05_APPLY/05_APPLY/Healthcare/Oncology/Inteligência_Artificial_em_Oncologia_(Visão_Geral).md
@@ -309,6 +344,26 @@
 /home/ubuntu/AIForge/03_RESOURCES/Datasets/Vegetation_Indices/VHIopt:_Improved_Global_Vegetation_Health_Index_Dataset.md
 /home/ubuntu/AIForge/03_RESOURCES/Datasets/Biomass_Datasets/AGBD:_A_Global-scale_Biomass_Dataset.md
 /home/ubuntu/AIForge/03_RESOURCES/Datasets/Biomass_Datasets, Agriculture_Datasets, Spatial_Feature_Engineering/Global_Maps_of_Aboveground_Biomass,_Canopy_Height_and_Cover_for_2023,_Cropland_Data_Layer_(CDL)_2024_-_10m_Resolution,_Geospatial_Feature_Engineering_Techniques_(GLCM_and_CAE-based_Features).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/ChestX-ray14_Dataset_(NIH_Chest_X-ray_Dataset).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/MIMIC-III_Clinical_Database_v1.4.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/Radiologia/CheXpert_Plus:_Radiology_Multimodal_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/SLICE-3D_Dataset_(ISIC_2024_Challenge).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/BraTS-Africa_Dataset_(Extensão_BraTS_2023).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/Histopathology/PathoNet_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/COVID-19CT+.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/The_Cancer_Genome_Atlas_(TCGA)_via_GDC_Data_Portal.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/DDInter_2.0.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/MedAlign:_A_Clinician-Generated_Dataset_for_Instruction_Following_with_Electronic_Medical_Records.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/TrialBench:_Multi-Modal_AI-Ready_Datasets_for_Clinical_Trial_Prediction.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/MIMIC-IV_v3.1.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets/PI-CAI_Public_Training_and_Development_Dataset_(ADC).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Datasets / Radiomics_Features/mBRSET_(Mobile_Brazilian_Retinal_Dataset),_Advanced_Feature_Engineering_(LBP,_GLCM),_Open_UWF_Fundus_Image_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Medical_Question_Answering/Medical_Question_Answering_Datasets_(MedQA,_PubMedQA,_RealMedQA).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Radiology_Datasets/RaTE-NER.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Structural_Biology_Datasets/Protein_Data_Bank_(PDB).md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Cancer_Genomics_Multi-Omics/MLOmics.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Time_Series_Datasets/MIMIC-IV-Ext-22MCTS:_A_22_Millions-Event_Temporal_Clinical_Time-Series_Dataset_with_Relative_Timestamp.md
+/home/ubuntu/AIForge/03_RESOURCES/Datasets/Pharmacological_Features/DrugBank_6.0_Knowledgebase.md
 /home/ubuntu/AIForge/03_RESOURCES/Data_Sources/UCI_Machine_Learning_Repository.md
 /home/ubuntu/AIForge/03_RESOURCES/Cloud datasets/AWS_Open_Data_Registry.md
 /home/ubuntu/AIForge/03_RESOURCES/Data_Analysis/Public_Datasets/Google_Cloud_Public_Datasets_(BigQuery).md
@@ -357,3 +412,8 @@
 /home/ubuntu/AIForge/03_RESOURCES/Features/Vegetation_Indices/Features_de_Textura_(GLCM,_LBP,_Gabor)_para_Agropecuária.md
 /home/ubuntu/AIForge/03_RESOURCES/Features/Feature_Engineering/Averaging-based_Feature_Engineering_for_Climate_Data.md
 /home/ubuntu/AIForge/03_RESOURCES/Features/Topographic_Features/Fatores_Topográficos_(Elevação,_Inclinação,_Aspecto)_como_Features.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Radiomics_Features/PyRadiomics_(Feature_Extraction_Tool).md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Radiomics_Features/LesionLocator:_Zero-Shot_Universal_Tumor_Segmentation_and_Tracking.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Medical_Concept_Embeddings/CSpace:_a_concept_embedding_space_for_biomedical_applications.md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Phenotypic_Features_Extraction/PhenoBrain_AI_Pipeline_(PBTagger).md
+/home/ubuntu/AIForge/03_RESOURCES/Features/Features_Histológicas/TITAN_(Transformer-based_pathology_Image_and_Text_Alignment_Network).md
