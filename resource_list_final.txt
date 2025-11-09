@@ -357,6 +357,105 @@
 /home/ubuntu/AIForge/ULTIMATE_AI_COLLECTION.md
 /home/ubuntu/AIForge/USER_PROVIDED_REPOSITORIES.md
 /home/ubuntu/AIForge/USER_PROVIDED_URLS.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/ImageNet_(Image_Classification).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/COCO_(Common_Objects_in_Context).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/CIFAR-10_100_(Image_Classification).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/Open_Images_Dataset_V7_(Google).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/Places365_(Scene_Recognition).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/ADE20K_(Scene_Parsing).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/Cityscapes_Dataset_(Autonomous_Driving).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/KITTI_(Autonomous_Driving).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/CelebA_(Large-scale_CelebFaces_Attributes_Dataset).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision/DAVIS_(Densely_Annotated_VIdeo_Segmentation).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision, Multimodal, Autonomous_Driving/nuScenes_(Autonomous_Driving).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/GLUE_Benchmark_(General_Language_Understanding_Evaluation).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/SuperGLUE_Benchmark.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/WikiText_(Language_Modeling_Dataset).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/C4_(Colossal_Clean_Crawled_Corpus).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/The_Pile_(EleutherAI).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/BookCorpus.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/SNLI_(Stanford_Natural_Language_Inference)_Corpus.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP/MultiNLI_(Multi-Genre_Natural_Language_Inference).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/NLP (Processamento de Linguagem Natural)/SQuAD_(Stanford_Question_Answering_Dataset).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Web Data _ Multimodal/Common_Crawl.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/LibriSpeech_ASR_Corpus.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/Common_Voice_(Mozilla).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/AudioSet_(Google).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/ESC-50_(Environmental_Sound_Classification).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/UrbanSound8K.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/TIMIT_Acoustic-Phonetic_Continuous_Speech_Corpus.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/CSTR_VCTK_Corpus:_English_Multi-speaker_Corpus_for_CSTR_Voice_Cloning_Toolkit_(version_0.92).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/LJSpeech_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio/MusicNet.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Audio, Multimodal/VoxCeleb_(Speaker_Recognition).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video/Kinetics_(Action_Recognition).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video/Charades_(Activity_Recognition).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video_Computer_Vision/UCF101_(Action_Recognition).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision_Video/HMDB51_(Human_Motion_Database_51).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video, Computer_Vision, Multimodal/ActivityNet.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video, Computer_Vision, Multimodal/AVA_(Atomic_Visual_Actions)_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video, Multimodal, Computer_Vision, Audio/YouTube-8M.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video, Temporal Reasoning, Action Recognition/Something-Something_V2_(Temporal_Reasoning).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Video, Multimodal (Audiovisual)/Moments_in_Time_Dataset_(MIT)___Audiovisual_Moments_in_Time_(AVMIT).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal/MS_COCO_Captions_(Microsoft_Common_Objects_in_Context_Captions).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal/Visual_Genome.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal/Flickr30k.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal/OK-VQA_(Outside_Knowledge_Visual_Question_Answering).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal/TextVQA.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal/VizWiz-VQA_(Visual_Question_Answering).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal (Visão e Linguagem)/Conceptual_Captions_(CC3M_e_CC12M).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Multimodal (Visão Computacional e Processamento de Linguagem Natural)/VQA_(Visual_Question_Answering).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision, Visual_Question_Answering, Reasoning/CLEVR_(Compositional_Language_and_Elementary_Visual_Reasoning).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision, Multimodal/GQA_(Scene_Graph_Question_Answering).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/RoboNet.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/MIME_(Multiple_Interactions_Made_Easy).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/Meta-World_(Multi-task_RL).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/RLBench:_The_Robot_Learning_Benchmark_&_Learning_Environment.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/Habitat_(Embodied_AI)___Habitat-Matterport_3D_Dataset_(HM3D).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/AI2-THOR_(The_House_Of_inteRactions).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Robotics/Gibson_(Indoor_Navigation).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer Vision, 3D Reconstruction, Robotics, Embodied AI/Matterport3D.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer_Vision_3D/ScanNet_(3D_Scene_Understanding)_e_ScanNet++.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Computer Vision, Robotics, 3D Modeling/ShapeNet_(3D_Models).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate/ERA5_(Climate_Reanalysis).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate/CMIP6_(Coupled_Model_Intercomparison_Project_Phase_6).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate/Landsat_(Imagens_de_Satélite).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate/Sentinel_(ESA_Satellite_Data)_-_Programa_Copernicus.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate/Air_Quality_Datasets_(EPA)_-_Air_Quality_System_(AQS).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate/Weather_Station_Data_(ICBA).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate_Earth Observation_Remote Sensing/MODIS_(Moderate_Resolution_Imaging_Spectroradiometer)_-_NASA_Earth_Observations.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate, Environmental_Science, Geospatial/Global_Forest_Watch_(GFW).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Climate_Oceanography/World_Ocean_Database_(WOD)_-_NOAA_Ocean_Data.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Environmental Science/Biodiversity_Datasets_(GBIF).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Yahoo_Finance_Data.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Quandl_Financial_Data_(Nasdaq_Data_Link).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/IMF_Data_(International_Monetary_Fund).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Financial_Statement_Data_Sets.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Top_100_Cryptocurrency_(2020-2025).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Company_Financials_(SEC_EDGAR)_-_Financial_Statement_Data_Sets.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Credit_Card_Fraud_Detection_(MLG-ULB).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance/Telco_Customer_Churn_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science, Finance, Climate/World_Bank_Open_Data.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Finance, Social_Science, Climate/World_Development_Indicators_(WDI)_-_Indicadores_Econômicos,_Sociais_e_Ambientais.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/US_Census_Data_(Dados_do_Censo_dos_EUA).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/World_Population_Prospects_2024_(WPP_2024).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/Pew_Research_Center_Survey_Datasets.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/Resultados_-_2024_(TSE).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/National_Incident-Based_Reporting_System_(NIBRS)_Data.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/Education_Statistics_(EdStats)_-_World_Bank.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/Adult_(Census_Income)_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/California_Housing_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/International_Migrant_Stock_2024.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social_Science/Streaming_Service_Data.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Social\_Science, NLP, AI\_Governance/Datasets_de_Mídias_Sociais_(Twitter_e_Reddit)_Focados_em_IA_(2023-2025).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming/DQN_Replay_Dataset_(Atari_2600_Games_RL).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming/SC2EGSet:_StarCraft_II_Esport_Game_State_Dataset.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming/Dota_2_Pro_League_Matches_2016-2025.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming/Lichess_standard-chess-games.md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming/Game_Analytics_Datasets_(via_GameAnalytics_PipelineIQ).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming/The_competitive_esports_physiological,_affective,_and_video_dataset_(CEPAV).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Gaming, Reinforcement Learning, Robotics/Gymnasium_(Sucessor_do_OpenAI_Gym_Environments).md
+/home/ubuntu/AIForge/03_RESOURCES_Datasets/Bioinformatics, Genomics, Computational Biology/Gene_Ontology_(GO)_Dataset.md
 /home/ubuntu/AIForge/FINAL_DELIVERY_REPORT_V3.md
 /home/ubuntu/AIForge/03_RESOURCES/Transfer_Learning_Hubs_2025.md
 /home/ubuntu/AIForge/03_RESOURCES/Google_AI_Resources_2025.md
