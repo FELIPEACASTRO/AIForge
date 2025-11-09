@@ -1,41 +1,48 @@
-# 📜 Código de Conduta
+# 📜 Código de Conduta do Contributor Covenant
 
-## 1. Nosso Compromisso
+## Nosso Compromisso
 
-No interesse de promover um ambiente aberto e acolhedor, nós, como contribuidores e mantenedores, nos comprometemos a tornar a participação em nosso projeto e nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, corpo, deficiência, etnia, identidade e expressão de gênero, nível de experiência, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
+No interesse de fomentar um ambiente aberto e acolhedor, nós, como contribuidores e mantenedores, nos comprometemos a tornar a participação em nosso projeto e em nossa comunidade uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, deficiência visível ou invisível, etnia, características sexuais, identidade e expressão de gênero, nível de experiência, educação, status socioeconômico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
 
-## 2. Nossos Padrões
+## Nossos Padrões
 
-Exemplos de comportamento que contribuem para criar um ambiente positivo incluem:
+Exemplos de comportamento que contribuem para um ambiente positivo incluem:
 
-- Uso de linguagem acolhedora e inclusiva
-- Respeito a diferentes pontos de vista e experiências
-- Aceitar críticas construtivas com elegância
-- Foco no que é melhor para a comunidade
-- Mostrar empatia para com outros membros da comunidade
+*   Demonstrar empatia e bondade para com outras pessoas.
+*   Ser respeitoso com diferentes opiniões, pontos de vista e experiências.
+*   Dar e aceitar feedback construtivo com graça.
+*   Aceitar a responsabilidade e pedir desculpas àqueles que são afetados por nossos erros.
+*   Focar no que é melhor não apenas para nós como indivíduos, mas para a comunidade em geral.
 
-Exemplos de comportamento inaceitável por parte dos participantes incluem:
+Exemplos de comportamento inaceitável incluem:
 
-- Uso de linguagem ou imagens sexualizadas e atenção ou avanços sexuais indesejados
-- Trolling, comentários insultuosos/depreciativos e ataques pessoais ou políticos
-- Assédio público ou privado
-- Publicar informações privadas de outras pessoas, como um endereço físico ou eletrônico, sem permissão explícita
-- Outra conduta que possa ser razoavelmente considerada inadequada em um ambiente profissional
+*   O uso de linguagem ou imagens sexualizadas, e atenção ou avanço sexual de qualquer tipo.
+*   Comentários de trolling, insultuosos ou depreciativos, e ataques pessoais ou políticos.
+*   Assédio público ou privado.
+*   Publicar informações privadas de outras pessoas, como endereços físicos ou de e-mail, sem a permissão explícita delas.
+*   Outras condutas que poderiam ser razoavelmente consideradas inadequadas em um ambiente profissional.
 
-## 3. Nossas Responsabilidades
+## Responsabilidades de Aplicação
 
 Os mantenedores do projeto são responsáveis por esclarecer os padrões de comportamento aceitável e devem tomar medidas corretivas apropriadas e justas em resposta a qualquer instância de comportamento inaceitável.
 
-Os mantenedores do projeto têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, issues e outras contribuições que não estejam alinhadas a este Código de Conduta, ou de banir temporária ou permanentemente qualquer contribuidor por outros comportamentos que considerem inadequados, ameaçadores, ofensivos ou prejudiciais.
+Os mantenedores do projeto são responsáveis por garantir que este Código de Conduta seja seguido em todos os espaços do projeto.
 
-## 4. Escopo
+Os mantenedores do projeto têm o direito e a responsabilidade de remover, editar ou rejeitar comentários, commits, código, edições de wiki, issues e outras contribuições que não estejam alinhadas com este Código de Conduta, e banir temporária ou permanentemente qualquer colaborador por outros comportamentos que considerem inadequados, ameaçadores, ofensivos ou prejudiciais.
 
-Este Código de Conduta se aplica tanto nos espaços do projeto quanto nos espaços públicos quando um indivíduo está representando o projeto ou sua comunidade.
+## Escopo
 
-## 5. Aplicação
+Este Código de Conduta se aplica dentro de todos os espaços do projeto e também se aplica quando um indivíduo está representando o projeto ou sua comunidade em espaços públicos. Exemplos de representação de um projeto incluem o uso de um endereço de e-mail oficial do projeto, postagem por meio de uma conta oficial de mídia social ou atuação como um representante nomeado em um evento online ou offline.
 
-Instâncias de comportamento abusivo, de assédio ou de outra forma inaceitável podem ser relatadas entrando em contato com a equipe do projeto. Todas as reclamações serão revisadas e investigadas e resultarão em uma resposta considerada necessária e apropriada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao relator de um incidente.
+## Aplicação
 
-## 6. Atribuição
+Instâncias de comportamento abusivo, de assédio ou inaceitável podem ser relatadas aos mantenedores do projeto responsáveis pela aplicação em **[INSERIR ENDEREÇO DE E-MAIL DE CONTATO]**. Todos os mantenedores do projeto são obrigados a respeitar a privacidade e a segurança do relator da ocorrência.
 
-Este Código de Conduta é adaptado do [Contributor Covenant](https://www.contributor-covenant.org), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
+Detalhes adicionais sobre políticas de aplicação específicas podem ser postados separadamente.
+
+## Atribuição
+
+Este Código de Conduta é adaptado do [Contributor Covenant][homepage], versão 2.1, disponível em [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][version].
+
+[homepage]: https://www.contributor-covenant.org
+[version]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html

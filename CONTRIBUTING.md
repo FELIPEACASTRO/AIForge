@@ -54,10 +54,10 @@ repo:FELIPEACASTRO/AIForge "RESOURCE_NAME"
    git checkout -b feature/AddResourceX
    ```
 4. **Find the correct directory** for your resource, following the new Use Case structure:
-   - **01_LEARN/**: Courses, books, communities.
-   - **02_BUILD/**: Frameworks, models, datasets.
-   - **03_DEPLOY/**: MLOps, serving, infrastructure.
-   - **04_APPLY/**: Applications in specific domains (Finance, Healthcare, etc.).
+   - **01_FUNDAMENTOS/**: Theory, Algorithms, Prompt Engineering, Learning Resources.
+   - **02_MODELOS/**: LLMs, Vision, Audio, Multimodal Models, Architectures.
+   - **03_DADOS_E_RECURSOS/**: Datasets, Data Tools, APIs, Vector Databases, MLOps.
+   - **04_PRODUCAO_E_DEPLOY/**: Deployment, Optimization, Serving, Infrastructure, MLOps.
 5. **Add the link** in Markdown format, following the existing pattern.
 
 **[PT]**
@@ -69,10 +69,10 @@ repo:FELIPEACASTRO/AIForge "RESOURCE_NAME"
    git checkout -b feature/AdicionarRecursoX
    ```
 4. **Encontre o diretório correto** para o seu recurso, seguindo a nova estrutura por Caso de Uso:
-   - **01_LEARN/**: Cursos, livros, comunidades.
-   - **02_BUILD/**: Frameworks, modelos, datasets.
-   - **03_DEPLOY/**: MLOps, serving, infraestrutura.
-   - **04_APPLY/**: Aplicações em domínios específicos (Finanças, Saúde, etc.).
+   - **01_FUNDAMENTOS/**: Teoria, Algoritmos, Prompt Engineering, Recursos de Aprendizado.
+   - **02_MODELOS/**: LLMs, Visão, Áudio, Modelos Multimodais, Arquiteturas.
+   - **03_DADOS_E_RECURSOS/**: Datasets, Ferramentas de Dados, APIs, Vector Databases, MLOps.
+   - **04_PRODUCAO_E_DEPLOY/**: Deployment, Otimização, Serving, Infraestrutura, MLOps.
 5. **Adicione o link** no formato Markdown, seguindo o padrão existente.
 
 ---
@@ -147,16 +147,16 @@ git push origin feature/AdicionarRecursoX
 
 **[EN]**
 
-- **Relevance**: The resource must be relevant to the AI community.
+- **Relevance**: The resource must be relevant to the AI community, focusing on **Deep Learning, Transfer Learning, and Production AI**.
 - **Quality**: Must be a high-quality, well-documented, and functional resource.
-- **Focus**: Priority for resources that fit the new Use Case structure.
+- **Focus**: Priority for resources that fit the new logical structure. Resources related to **05_APLICACOES** (Projects/Applications) are highly encouraged.
 - **Format**: Must follow the contribution format.
 
 **[PT]**
 
-- **Relevância**: O recurso deve ser relevante para a comunidade de IA.
+- **Relevância**: O recurso deve ser relevante para a comunidade de IA, com foco em **Deep Learning, Transfer Learning e IA em Produção**.
 - **Qualidade**: Deve ser um recurso de alta qualidade, bem documentado e funcional.
-- **Foco**: Prioridade para recursos que se encaixam na nova estrutura por Caso de Uso.
+- **Foco**: Prioridade para recursos que se encaixam na nova estrutura lógica. Recursos relacionados a **05_APLICACOES** (Projetos/Aplicações) são altamente encorajados.
 - **Formato**: Deve seguir o formato de contribuição.
 
 ---

@@ -1,6 +1,4 @@
-># 🔥 AIForge V3: The Definitive AI Universe
-
-> **The largest, most structured, and most up-to-date curated AI repository on GitHub. A definitive guide to the AI universe, from foundational algorithms to the latest revolutionary models.**
+# 🧠 AIForge: O Repositório Definitivo de Inteligência Artificial
 
 <p align="center">
   <a href="https://github.com/FELIPEACASTRO/AIForge/stargazers"><img src="https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social" alt="Stars"></a>
@@ -10,117 +8,81 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Resources-33,300%2B-blue?style=for-the-badge" alt="Total de Recursos">
-  <img src="https://img.shields.io/badge/Total%20Topics-60%2B-green?style=for-the-badge" alt="Total de Temas">
-  <img src="https://img.shields.io/badge/Updated-November%202025-red?style=for-the-badge" alt="Atualizado">
+  <img src="https://img.shields.io/badge/Total%20Recursos-33,300%2B-blue?style=for-the-badge" alt="Total de Recursos">
+  <img src="https://img.shields.io/badge/Arquivos%20Indexados-10,760-green?style=for-the-badge" alt="Arquivos Indexados">
+  <img src="https://img.shields.io/badge/Versão-7.0.0-red?style=for-the-badge" alt="Versão">
+  <img src="https://img.shields.io/badge/Atualizado-Novembro%202025-orange?style=for-the-badge" alt="Atualizado">
 </p>
 
 ---
 
-## 🚀 Welcome to AIForge
+## 🚀 O Ecossistema AIForge
 
-**AIForge** is not just a list of links; it is a **structured and didactic learning ecosystem**. Our mission is to provide the most comprehensive and well-organized collection of AI resources, enabling anyone, from a curious beginner to a seasoned researcher, to navigate the vast universe of Artificial Intelligence with clarity and purpose.
+O **AIForge** é a **maior, mais estruturada e mais completa coleção de recursos de Inteligência Artificial (IA), Machine Learning (ML) e Deep Learning (DL)** do GitHub. Com mais de **33.300 recursos** indexados em **10.760 arquivos**, este repositório é o seu guia definitivo para navegar no vasto universo da IA, desde os fundamentos teóricos até as aplicações mais avançadas em produção.
 
-This repository has been meticulously curated, validated, and organized to be **50x larger** than other popular AI repositories, with over **33,300+ resources** across **10,760 files**, and is continuously updated with the latest breakthroughs.
-
-## 🗺️ The Map of the AI Universe: Repository Structure
-
-AIForge is organized into a clear, hierarchical structure designed for intuitive navigation. Here is the map to guide your journey:
-
-| Category | Directory | Description |
-| :--- | :--- | :--- |
-| 🧠 **01_LEARN** | `01_LEARN/` | Foundational knowledge, from core algorithms to advanced learning techniques. |
-| 🛠️ **02_BUILD** | `02_BUILD/` | The tools of the trade: foundation models, niche models, and development platforms. |
-| 📊 **03_RESOURCES** | `03_RESOURCES/` | Essential resources: datasets, tools, cloud platforms, and APIs. |
-| 🚀 **04_DEPLOY** | `04_DEPLOY/` | Resources for deploying, monitoring, and scaling AI models in production. |
-| 🎯 **05_APPLY** | `05_APPLY/` | Real-world applications of AI across various industries and domains. |
-| 🏆 **06_PROJECTS** | `06_PROJECTS/` | Practical AI/ML projects and implementations. |
+Este repositório foi meticulosamente curado, validado e organizado para ser **50x maior** que qualquer outro repositório similar, garantindo que você tenha acesso a:
+- **Modelos de Ponta:** GPT-5, Claude 4.5, Gemini 2.5 Pro, Llama 3 e modelos open-source.
+- **Ferramentas de Produção:** vLLM, MLOps, Feature Stores e otimização de inferência.
+- **Pesquisa Avançada:** Papers do ArXiv 2025, Transfer Learning e Meta-Learning.
+- **Aplicações Setoriais:** Saúde, Finanças, Agricultura e Visão Computacional.
 
 ---
 
-## 🧭 Your Guide to AI: Navigation by Topic
+## 🗺️ Estrutura de Navegação Otimizada
 
-Dive directly into the topics that interest you most. Each link below leads to a curated collection of the best resources available.
+A nova estrutura foi simplificada para garantir uma navegação intuitiva e focada nos principais pilares da IA moderna.
 
-### 🧠 01_LEARN: The Foundations of AI
-
-| # | Topic | Directory | Description |
+| ID | Diretório | Foco Principal | Palavras-Chave SEO |
 | :--- | :--- | :--- | :--- |
-| 1.1 | **Core Algorithms** | `01_LEARN/Core_Algorithms/` | The mathematical and computational building blocks of ML/DL. |
-| 1.2 | **Natural Language Processing** | `01_LEARN/Natural_Language_Processing/` | Models and techniques for understanding and generating human language. |
-| 1.3 | **Reinforcement Learning** | `01_LEARN/Reinforcement_Learning/` | Training agents to make optimal decisions through trial and error. |
-| 1.4 | **Meta-Learning** | `01_LEARN/Meta_Learning/` | Learning to learn: models that can adapt to new tasks with few examples. |
-| 1.5 | **Federated Learning** | `01_LEARN/Federated_Learning/` | Training models on decentralized data while preserving privacy. |
-| 1.6 | **Explainable AI (XAI)** | `01_LEARN/Explainable_AI/` | Techniques for making AI models more transparent and interpretable. |
-| 1.7 | **Model Optimization** | `01_LEARN/Model_Optimization/` | Methods for making models smaller, faster, and more efficient. |
-
-### 🛠️ 02_BUILD: The AI Toolchain
-
-| # | Topic | Directory | Description |
-| :--- | :--- | :--- | :--- |
-| 2.1 | **Foundation Models** | `02_BUILD/Foundation_Models/` | The giants of AI: GPT-5, Claude 3.5, Gemini 2.5, Llama 3, and more. |
-| 2.2 | **Niche & Specialized Models** | `02_BUILD/Niche_Models/` | Models designed for specific tasks: GNNs, Time Series, Video, etc. |
-| 2.3 | **Development Platforms** | `02_BUILD/2.3_Development_Platforms/` | MLOps platforms, cloud services (AWS, Azure, GCP), and more. |
-
-### 🚀 03_DEPLOY: From Model to Production
-
-| # | Topic | Directory | Description |
-| :--- | :--- | :--- | :--- |
-| 3.1 | **Datasets** | `03_RESOURCES/Datasets/` | Dataset platforms and famous datasets. |
-| 3.2 | **Tools** | `03_RESOURCES/Tools/` | Feature engineering, data labeling, annotation, and web scraping tools. |
-| 4.1 | **Deployment & Serving** | `04_DEPLOY/Serving/` | Tools and frameworks for serving models at scale. |
-| 4.2 | **Monitoring & Observability** | `04_DEPLOY/Monitoring/` | Solutions for monitoring model performance and data drift. |
-
-### 🔬 04_APPLY: AI in the Real World
-
-| # | Topic | Directory | Description |
-| :--- | :--- | :--- | :--- |
-| 5.1 | **Healthcare AI** | `05_APPLY/Healthcare/` | AI in drug discovery, medical imaging, and synthetic data generation. |
-| 5.2 | **Agriculture AI** | `05_APPLY/Agriculture/` | Precision agriculture, crop monitoring, and biomass estimation. |
-| 5.3 | **Financial AI** | `05_APPLY/Finance/` | AI in fraud detection, trading, and risk management. |
-| 5.4 | **Computer Vision** | `05_APPLY/Computer_Vision/` | AI for autonomous driving, image recognition, and more. |
-| 6.1 | **CSIRO Biomass** | `06_PROJECTS/CSIRO_Biomass/` | Biomass prediction using AI. |
+| **01** | **[FUNDAMENTOS](./01_FUNDAMENTOS)** | Teoria, Algoritmos, Prompt Engineering, Aprendizado | `IA`, `ML`, `Deep Learning`, `Prompt Engineering`, `Transfer Learning` |
+| **02** | **[MODELOS](./02_MODELOS)** | LLMs, Modelos de Visão, Áudio, Multimodais, Arquiteturas | `LLM`, `GPT-5`, `Claude 4.5`, `Gemini 2.5 Pro`, `Modelos Open Source` |
+| **03** | **[DADOS_E_RECURSOS](./03_DADOS_E_RECURSOS)** | Datasets, Ferramentas de Dados, APIs, Vector Databases, MLOps | `Data Science`, `Datasets`, `MLOps`, `Vector Database`, `Feature Store` |
+| **04** | **[PRODUCAO_E_DEPLOY](./04_PRODUCAO_E_DEPLOY)** | Deployment, Otimização, Serving, Infraestrutura, MLOps | `MLOps`, `Deployment`, `vLLM`, `Model Serving`, `Otimização de Inferência` |
+| **05** | **[APLICACOES](./05_APLICACOES)** | Projetos, Casos de Uso, Aplicações Setoriais (Saúde, Finanças, Agro) | `IA na Saúde`, `IA em Finanças`, `Visão Computacional`, `Projetos de IA` |
+| **06** | **[ARQUIVOS_HISTORICOS](./06_ARQUIVOS_HISTORICOS)** | Arquivos brutos de buscas devastadoras e análises históricas | `Triple Check`, `Quadruple Check`, `Busca Devastadora`, `Dados Brutos` |
 
 ---
 
-## ✨ Featured Game-Changers (2024-2025)
+## 🔍 Otimização para Buscas (SEO)
 
-A curated selection of the most revolutionary resources added to AIForge.
+Este repositório foi otimizado para ser encontrado em buscas orgânicas no Google e no GitHub.
 
-| Resource | Domain | Impact |
-| :--- | :--- | :--- |
-| [**KA-GNN**](./02_BUILD/Niche_Models/Graph_Neural_Networks/GNN_Game_Changers_2025.md) | GNNs | Interpretable GNNs with superior performance. |
-| [**Evoformer\AcODE**](./05_APPLY/Healthcare/Protein_Structure_Prediction/Evoformer_AcODE_2025.md) | Healthcare | A lighter, more interpretable alternative to AlphaFold. |
-| [**Unsloth AI**](./01_LEARN/Model_Optimization/Unsloth_AI_2025.md) | LLM Optimization | Up to 30x faster LLM fine-tuning with 90% less memory. |
-| [**OpenRLHF**](./01_LEARN/Reinforcement_Learning/OpenRLHF_2025.md) | RL | One of the fastest and most scalable RLHF frameworks available. |
-| [**SCALEMED**](./05_APPLY/Healthcare/Synthetic_Data_Generation/SCALEMED_DermaSynth_2025.md) | Healthcare | Low-cost, high-performance medical AI with synthetic data. |
+### Palavras-Chave Principais (Keywords)
+- **Inteligência Artificial**
+- **Machine Learning**
+- **Deep Learning**
+- **Data Science**
+- **Transfer Learning**
+- **LLM (Large Language Models)**
+- **MLOps**
+- **Datasets**
+- **GPT-5**
+- **Claude 4.5**
+- **Gemini 2.5 Pro**
 
----
-
-## 🤝 How to Contribute
-
-Contributions are the lifeblood of AIForge. We welcome your expertise and encourage you to add new resources. Please follow our [**Contributing Guidelines**](./CONTRIBUTING.md) to get started.
-
-## 📄 License
-
-This repository is licensed under the [**MIT License**](./LICENSE).
-
-## 🙏 Acknowledgments
-
-AIForge would not be possible without the incredible work of the open-source AI community, researchers, and developers who share their knowledge with the world.
+### Estratégia de Conteúdo
+O repositório utiliza uma estrutura de conteúdo hierárquica e rica em palavras-chave, com títulos e descrições claras em cada um dos **10.760 arquivos .md** indexados. O **[INDEX.md](./INDEX.md)** atua como um sitemap completo, garantindo que todos os recursos sejam rastreáveis por motores de busca.
 
 ---
 
-<div align="center">
+## 🔗 Índices e Navegação Rápida
 
-**🌟 The Definitive Guide to the AI Universe 🌟**
+- **[Índice Alfabético Completo](./INDEX.md):** Lista de todos os **10.688 recursos** indexados.
+- **[Histórico de Versões](./CHANGELOG.md):** Detalhamento de todas as integrações massivas (v7.0.0, Quadruple Check, Triple Check).
+- **[Relatórios de Auditoria](./docs/reports/):** Documentação completa das buscas devastadoras e auditorias de integridade.
 
-**15,700+ Resources | 60+ Topics | Continuously Updated**
+---
 
-Made with ❤️ by [Felipe Castro](https://github.com/FELIPEACASTRO)
+## 🤝 Contribua para o AIForge
 
-**Last Update:** November 2025
+Sua contribuição é essencial para manter o AIForge como o recurso de IA mais completo do mundo.
 
-[⬆️ Back to Top](#-aiforge-v3-the-definitive-ai-universe)
+- **[Guia de Contribuição](./CONTRIBUTING.md):** Como adicionar novos recursos.
+- **[Código de Conduta](./CODE_OF_CONDUCT.md):** Diretrizes para a comunidade.
+- **[Política de Segurança](./SECURITY.md):** Como reportar vulnerabilidades.
 
-</div>
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para detalhes.

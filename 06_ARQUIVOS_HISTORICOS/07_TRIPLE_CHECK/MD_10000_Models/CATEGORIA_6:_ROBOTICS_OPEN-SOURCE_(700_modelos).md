@@ -1,0 +1,4 @@
+# CATEGORIA 6: ROBOTICS OPEN-SOURCE (700 modelos)
+
+**Resource:** CATEGORIA 6: ROBOTICS OPEN-SOURCE (700 modelos)
+
