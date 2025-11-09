@@ -6,6 +6,28 @@
 
 ---
 
+## [6.0.0] - 2025-11-08
+
+### Added / Adicionado
+
+**[EN]**
+- **+300 New Resources:** Added 300 new prompt engineering resources from the Historical Devastating Search.
+- **New Categories:** Expanded `01_LEARN/Prompt_Engineering` with 11 new subcategories (Universal Techniques, Business, Technology, Creative, Education, Healthcare, Science, Legal, Design, Data, Finance, Agriculture).
+
+**[PT]**
+- **+300 Novos Recursos:** Adicionados 300 novos recursos de engenharia de prompts da Busca Devastadora Histórica.
+- **Novas Categorias:** Expandidas `01_LEARN/Prompt_Engineering` com 11 novas subcategorias (Técnicas Universais, Negócios, Tecnologia, Criativo, Educação, Saúde, Ciência, Jurídico, Design, Dados, Finanças, Agricultura).
+
+### Changed / Alterado
+
+**[EN]**
+- **INDEX.md:** Regenerated with all new paths.
+
+**[PT]**
+- **INDEX.md:** Regenerado com todos os novos caminhos.
+
+---
+
 ## [5.4.0] - 2025-11-08
 
 ### Added / Adicionado
