@@ -337,3 +337,5 @@ The index is organized by the main repository pillars:
 ---
 
 *This index was generated on November 09, 2025.*
+
+- [133 Repositórios de Agentes de IA para Desenvolvimento de Software](./04_MLOPS_AND_PRODUCTION_AI/03_AI_SOFTWARE_AGENTS/133_AWESOME_AI_AGENTS_REPOSITORIES.md)
