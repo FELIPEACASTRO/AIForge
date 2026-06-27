@@ -8,6 +8,9 @@ Repository: https://github.com/FELIPEACASTRO/AIForge
 Website: https://felipeacastro.github.io/AIForge/
 License: MIT
 
+## Community
+- [MACHINE LEARNING KNBIS on Discord](https://discord.gg/RTRdCVcS3): the AIForge community server for AI/ML discussion.
+
 ## Start here
 - [README](https://github.com/FELIPEACASTRO/AIForge/blob/master/README.md): Overview, the 5 pillars, how to navigate.
 - [INDEX](https://github.com/FELIPEACASTRO/AIForge/blob/master/INDEX.md): Complete machine-generated sitemap of every directory.

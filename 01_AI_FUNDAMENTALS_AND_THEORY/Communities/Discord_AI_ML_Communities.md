@@ -4,6 +4,12 @@ Curated Discord servers for Artificial Intelligence, Machine Learning, and open-
 
 > ⚠️ Discord invite links can expire or change. When an invite is dead, search the org's official site for the current link.
 
+## ⭐ AIForge community server
+
+| Server | Focus | Link |
+|---|---|---|
+| **MACHINE LEARNING KNBIS** | The AIForge community — ML/AI discussion, LLMs, MLOps, papers, repo updates. | https://discord.gg/RTRdCVcS3 |
+
 ## Open-source AI & research
 
 | Server | Members (approx.) | Focus | Link |

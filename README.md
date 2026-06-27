@@ -7,6 +7,7 @@
   <a href="https://github.com/FELIPEACASTRO/AIForge/network/members"><img src="https://img.shields.io/github/forks/FELIPEACASTRO/AIForge?style=social" alt="Forks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://discord.gg/RTRdCVcS3"><img src="https://img.shields.io/badge/Discord-MACHINE%20LEARNING%20KNBIS-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 <p align="center">
@@ -194,7 +195,7 @@ Curated community lists:
   <a href="https://discord.com/invite/hugging-face-879548962464493619"><img src="https://img.shields.io/badge/Discord-Hugging%20Face-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
-> Have an AIForge Discord/subreddit? Add its badge & invite here.
+> 💬 **Official community — [MACHINE LEARNING KNBIS on Discord](https://discord.gg/RTRdCVcS3)** — join for AI/ML discussion, LLMs, MLOps, papers, and AIForge updates.
 
 **Share AIForge:** [Tweet](https://twitter.com/intent/tweet?text=AIForge%20%E2%80%94%20the%20definitive%20AI%2FML%2FDeep%20Learning%20resources%20index&url=https://github.com/FELIPEACASTRO/AIForge) · [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/FELIPEACASTRO/AIForge) · [Reddit](https://www.reddit.com/submit?url=https://github.com/FELIPEACASTRO/AIForge&title=AIForge%20%E2%80%94%20curated%20AI%2FML%2FDL%20resources%20index) · [Hacker News](https://news.ycombinator.com/submitlink?u=https://github.com/FELIPEACASTRO/AIForge&t=AIForge)
 

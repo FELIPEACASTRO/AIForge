@@ -1,5 +1,7 @@
 # AIForge — Promotion / Launch Kit
 
+**Community Discord:** [MACHINE LEARNING KNBIS](https://discord.gg/RTRdCVcS3)
+
 Ready-to-paste copy for announcing AIForge across platforms. Replace the link if you rename the repo or enable a custom domain.
 
 > **Before posting:** ensure the repo is **public**, **GitHub Pages** is enabled (Settings → Pages → `/docs`), and the PR is merged to `master` so the canonical link is stable.
@@ -83,3 +85,14 @@ Built for anyone who wants one well-organized map instead of scattered bookmarks
 - Lead with the problem ("scattered bookmarks"), not the self-promo.
 - Pin a "what's missing?" question to invite contributions (drives stars + PRs).
 - Best times (US audience): Tue–Thu, 13:00–16:00 UTC.
+
+---
+
+## Discord community announcement (MACHINE LEARNING KNBIS)
+```
+🤖 New Machine Learning / AI community — MACHINE LEARNING KNBIS!
+Discussion on LLMs, deep learning, MLOps, papers, and the AIForge repo
+(curated index of 5,000+ AI/ML resources). Everyone welcome 👇
+→ https://discord.gg/RTRdCVcS3
+Repo: https://github.com/FELIPEACASTRO/AIForge
+```
