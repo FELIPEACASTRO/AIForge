@@ -1,0 +1,21 @@
+name: IndexNow + Sitemap Ping
+on:
+  push:
+    branches: [ master ]
+    paths: [ 'docs/**', '**/*.md' ]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping IndexNow (Bing, Yandex, Seznam)
+        run: |
+          KEY="506f2862052224a4408acb39c6781a27"
+          HOST="felipeacastro.github.io"
+          URL="https://felipeacastro.github.io/AIForge/"
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/AIForge/$KEY.txt\",\"urlList\":[\"$URL\",\"https://$HOST/AIForge/llms.txt\",\"https://$HOST/AIForge/sitemap.xml\"]}" || true
+      - name: Ping Google & Bing sitemap
+        run: |
+          curl -s "https://www.bing.com/ping?sitemap=https://felipeacastro.github.io/AIForge/sitemap.xml" || true

@@ -18,6 +18,12 @@ User-agent: Anthropic-AI
 Allow: /
 User-agent: PerplexityBot
 Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: YandexBot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
 User-agent: Google-Extended
 Allow: /
 User-agent: Googlebot

@@ -196,6 +196,11 @@ Curated community lists:
 
 > Have an AIForge Discord/subreddit? Add its badge & invite here.
 
+**Share AIForge:** [Tweet](https://twitter.com/intent/tweet?text=AIForge%20%E2%80%94%20the%20definitive%20AI%2FML%2FDeep%20Learning%20resources%20index&url=https://github.com/FELIPEACASTRO/AIForge) · [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/FELIPEACASTRO/AIForge) · [Reddit](https://www.reddit.com/submit?url=https://github.com/FELIPEACASTRO/AIForge&title=AIForge%20%E2%80%94%20curated%20AI%2FML%2FDL%20resources%20index) · [Hacker News](https://news.ycombinator.com/submitlink?u=https://github.com/FELIPEACASTRO/AIForge&t=AIForge)
+
+See the full growth plan in [DISCOVERABILITY.md](./DISCOVERABILITY.md).
+
+
 ---
 
 ## ❓ Frequently Asked Questions (FAQ)
