@@ -180,6 +180,24 @@
 
 ---
 
+## 💬 Community (Reddit & Discord)
+
+Share an AIForge link on **Reddit** or **Discord** and it renders a rich preview (title, description, image, accent color) automatically — the repo ships complete Open Graph + `theme-color` tags tuned for both.
+
+Curated community lists:
+- **Reddit:** [AI/ML subreddits](./01_AI_FUNDAMENTALS_AND_THEORY/Communities/Reddit_AI_ML_Communities.md) — r/MachineLearning, r/LocalLLaMA, r/StableDiffusion, r/PromptEngineering, and more.
+- **Discord:** [AI/ML servers](./01_AI_FUNDAMENTALS_AND_THEORY/Communities/Discord_AI_ML_Communities.md) — Hugging Face (224k+), EleutherAI, LAION, MLOps Community, and more.
+
+<p align="center">
+  <a href="https://www.reddit.com/r/MachineLearning/"><img src="https://img.shields.io/badge/Reddit-r%2FMachineLearning-FF4500?logo=reddit&logoColor=white" alt="Reddit"></a>
+  <a href="https://www.reddit.com/r/LocalLLaMA/"><img src="https://img.shields.io/badge/Reddit-r%2FLocalLLaMA-FF4500?logo=reddit&logoColor=white" alt="r/LocalLLaMA"></a>
+  <a href="https://discord.com/invite/hugging-face-879548962464493619"><img src="https://img.shields.io/badge/Discord-Hugging%20Face-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+</p>
+
+> Have an AIForge Discord/subreddit? Add its badge & invite here.
+
+---
+
 ## ❓ Frequently Asked Questions (FAQ)
 
 **What is AIForge?**
