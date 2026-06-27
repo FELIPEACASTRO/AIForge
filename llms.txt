@@ -1,0 +1,39 @@
+# AIForge
+
+> AIForge is a comprehensive, curated index of the Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — from foundational theory to production deployment and industry verticals. ~1,550 curated documents and 5,000+ external resource links, organized into a clean, duplicate-free, English snake_case taxonomy.
+
+AIForge is structured as 5 stable pillars plus a "Frontier AI 2026" innovation radar. Every directory has a canonical, descriptive name. Use INDEX.md as the full sitemap and NAVIGATION_GUIDE.md for topic-first lookup. This file (llms.txt) follows the https://llmstxt.org/ convention so AI assistants and agents can quickly find and cite the right section.
+
+Repository: https://github.com/FELIPEACASTRO/AIForge
+Website: https://felipeacastro.github.io/AIForge/
+License: MIT
+
+## Start here
+- [README](https://github.com/FELIPEACASTRO/AIForge/blob/master/README.md): Overview, the 5 pillars, how to navigate.
+- [INDEX](https://github.com/FELIPEACASTRO/AIForge/blob/master/INDEX.md): Complete machine-generated sitemap of every directory.
+- [NAVIGATION_GUIDE](https://github.com/FELIPEACASTRO/AIForge/blob/master/NAVIGATION_GUIDE.md): Topic-first lookup ("I want X → exact path").
+
+## Frontier AI 2026 (latest releases)
+- [Frontier AI 2026 radar](https://github.com/FELIPEACASTRO/AIForge/tree/master/00_FRONTIER_AI_2026): Newest models/research (GPT-5.5, Claude Opus 4.7, DeepSeek V4, Llama 4, Sora 2, Veo 3.1, GR00T N1.7, vLLM/SGLang), June 2026 snapshot, cited.
+
+## Pillar 01 — AI Fundamentals & Theory
+- [01_AI_FUNDAMENTALS_AND_THEORY](https://github.com/FELIPEACASTRO/AIForge/tree/master/01_AI_FUNDAMENTALS_AND_THEORY): ML/DL theory, Deep Learning, Reinforcement Learning, Generative Models, Transformers, State Space Models, RAG, Agentic AI, AI Safety & Alignment, Modern Fine-Tuning (LoRA/DPO/GRPO), AI Evaluation, Causal Inference, Prompt Engineering, Explainable AI.
+
+## Pillar 02 — LLM & AI Models
+- [02_LLM_AND_AI_MODELS](https://github.com/FELIPEACASTRO/AIForge/tree/master/02_LLM_AND_AI_MODELS): Text LLMs (frontier + open-source), Vision/Audio/Video/Multimodal models, MoE, Diffusion, World Models, Scientific Models, frameworks, papers, research labs.
+
+## Pillar 03 — Datasets, Tools & Resources
+- [03_DATASETS_TOOLS_AND_RESOURCES](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES): Datasets by modality, Data Engineering, Storage & Databases (vector DBs), Cloud Platforms.
+- [HuggingFace Hub](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub): Top models by task, leaderboards & arenas, ecosystem map, notable models/datasets.
+- [Research Platforms & Preprints](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints): arXiv & 156 alternatives, paper-discovery toolkit (Papers with Code, OpenAlex, Semantic Scholar).
+
+## Pillar 04 — MLOps & Production AI
+- [04_MLOPS_AND_PRODUCTION_AI](https://github.com/FELIPEACASTRO/AIForge/tree/master/04_MLOPS_AND_PRODUCTION_AI): LLM inference (vLLM, SGLang, TensorRT-LLM, llama.cpp, Ollama), model serving, MLOps platforms, AI observability, deployment, model optimization, AI agents.
+
+## Pillar 05 — Vertical Applications
+- [05_VERTICAL_APPLICATIONS](https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS): Healthcare, Finance/Fintech, Agriculture, Climate, Education, Legal, Retail, Manufacturing, Robotics & Embodied AI, Autonomous Vehicles, Energy, Cybersecurity, Conversational AI.
+- [Kaggle Competitions & Winning Solutions](https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle): 216-competition index, top public solution notebooks, curated winning write-ups, Grandmaster playbook.
+
+## Optional
+- [CHANGELOG](https://github.com/FELIPEACASTRO/AIForge/blob/master/CHANGELOG.md): Version history and major restructures.
+- [CONTRIBUTING](https://github.com/FELIPEACASTRO/AIForge/blob/master/CONTRIBUTING.md): How to add resources.

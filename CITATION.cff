@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "AIForge — The Definitive Index of AI, Machine Learning, Deep Learning, LLM, and Data Science Resources"
+message: "If you use AIForge, please cite it using these metadata."
+type: dataset
+authors:
+  - family-names: Castro
+    given-names: Felipe
+repository-code: "https://github.com/FELIPEACASTRO/AIForge"
+url: "https://felipeacastro.github.io/AIForge/"
+abstract: >-
+  AIForge is a comprehensive, curated index of the Artificial Intelligence,
+  Machine Learning, Deep Learning, Large Language Model (LLM), and Data Science
+  ecosystem. It spans foundational theory, state-of-the-art models, datasets,
+  MLOps and production tooling, industry verticals, Kaggle winning solutions,
+  the HuggingFace ecosystem, and research/preprint platforms — organized into a
+  clean, duplicate-free, English snake_case taxonomy of five pillars plus a
+  Frontier AI 2026 innovation radar.
+keywords:
+  - artificial intelligence
+  - machine learning
+  - deep learning
+  - large language models
+  - LLM
+  - generative AI
+  - data science
+  - MLOps
+  - datasets
+  - awesome list
+  - curated resources
+  - computer vision
+  - natural language processing
+  - reinforcement learning
+  - Kaggle
+  - HuggingFace
+license: MIT
+date-released: 2026-06-27
+version: "2.1.0"

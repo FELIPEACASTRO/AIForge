@@ -180,6 +180,45 @@
 
 ---
 
+## ❓ Frequently Asked Questions (FAQ)
+
+**What is AIForge?**
+AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — ~1,550 curated documents linking to 5,000+ external resources, organized into a clean, duplicate-free taxonomy of 5 pillars plus a Frontier AI 2026 radar.
+
+**Who is AIForge for?**
+Data scientists, ML/AI engineers, researchers, students, and anyone who wants a single, well-organized map of AI/ML resources — from theory to production.
+
+**How is AIForge organized?**
+Five pillars: (01) Fundamentals & Theory, (02) LLM & AI Models, (03) Datasets/Tools/Resources, (04) MLOps & Production AI, (05) Vertical Applications — plus (00) Frontier AI 2026 for the newest releases. Browse `INDEX.md` (full sitemap) or `NAVIGATION_GUIDE.md` (topic-first lookup).
+
+**Where do I find the latest AI models (GPT-5.5, Claude, DeepSeek, Llama 4)?**
+See [`00_FRONTIER_AI_2026`](./00_FRONTIER_AI_2026/).
+
+**Where are Kaggle winning solutions?**
+See [`05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/) — 216-competition index, top public notebooks, and curated winning write-ups.
+
+**Where do I find datasets, vector databases, or the HuggingFace ecosystem?**
+See [`03_DATASETS_TOOLS_AND_RESOURCES`](./03_DATASETS_TOOLS_AND_RESOURCES/), including [HuggingFace_Hub](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/) and [Research_Platforms_and_Preprints](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/).
+
+**How do I deploy/serve LLMs (vLLM, SGLang, llama.cpp)?**
+See [`04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`](./04_MLOPS_AND_PRODUCTION_AI/LLM_Inference/).
+
+**Is AIForge readable by AI assistants?**
+Yes — it ships an [`llms.txt`](./llms.txt) following the [llmstxt.org](https://llmstxt.org/) convention so LLMs, AI agents, and AI search engines can discover, navigate, and cite the right section.
+
+**How can I contribute?**
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+---
+
+## 🏷️ Topics & Keywords
+
+`artificial-intelligence` · `machine-learning` · `deep-learning` · `large-language-models` · `llm` · `generative-ai` · `data-science` · `mlops` · `datasets` · `awesome-list` · `awesome` · `computer-vision` · `nlp` · `natural-language-processing` · `reinforcement-learning` · `transformers` · `diffusion-models` · `rag` · `ai-agents` · `huggingface` · `kaggle` · `pytorch` · `tensorflow` · `model-deployment` · `vector-database` · `ai-resources` · `curated-list`
+
+> **Searching for** "awesome machine learning list", "AI resources collection", "deep learning index", "LLM resources", "MLOps tools list", "Kaggle winning solutions", "AI datasets directory", or "machine learning roadmap"? You're in the right place.
+
+---
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md). New resources should go to the canonical English snake_case directory; if no fit exists, propose a new one in your PR.
