@@ -17,6 +17,10 @@
 
 ---
 
+## 🚀 Start Here: Frontier AI 2026
+
+**[00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/)** — a living *Innovation Radar* of the newest releases (GPT-5.5, Claude Opus 4.7 / Fable 5, DeepSeek V4, Qwen 3.7, Llama 4, Sora 2, Veo 3.1, GR00T N1.7, SGLang, AI-for-math) captured **June 2026**. This is the "what just shipped" layer; the 5 pillars below are the stable, organized core.
+
 ## Five Pillars
 
 | # | Pillar | What lives here |
@@ -87,7 +91,6 @@
 │   ├── Small_LLMs/                      Phi, Gemma, SmolLM
 │   ├── Code_LLMs/, Specialized_LLMs/
 │   ├── Efficient_Transformers/
-│   └── Libraries/
 ├── Vision_Models/                       Detection, segmentation, image gen
 ├── Audio_Models/                        ASR, TTS, music
 ├── Video_Models/                        Text-to-video, image-to-video
@@ -144,7 +147,6 @@
 │                                        Phoenix, Helicone, Arize, OpenLLMetry
 ├── AI_Agents/                           Production agent stacks
 ├── Cloud_Platforms/                     Azure/Microsoft, others
-├── Infrastructure/
 └── API_Integration_Tools/
 ```
 

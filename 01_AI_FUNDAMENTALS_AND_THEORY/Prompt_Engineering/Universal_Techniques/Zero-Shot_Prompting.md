@@ -1,45 +1,78 @@
 # Zero-Shot Prompting
 
 ## Description
+O **Zero-Shot Prompting** (ou "Prompting de Disparo Zero") é a forma mais fundamental e direta de interagir com um Large Language Model (LLM). A técnica consiste em fornecer ao modelo uma instrução ou pergunta para realizar uma tarefa específica, sem incluir exemplos prévios (demonstrações) de pares de entrada e saída. O modelo deve confiar inteiramente em seu conhecimento interno, adquirido durante o pré-treinamento em vastos conjuntos de dados, e em sua capacidade de seguir instruções (aprimorada por técnicas como *Instruction Tuning* e *RLHF* - Reinforcement Learning from Human Feedback) para gerar a resposta apropriada. É a abordagem padrão e mais simples, ideal para tarefas bem definidas e para modelos modernos que já possuem alta capacidade de generalização.
 
-Uma técnica fundamental de Prompt Engineering onde o Large Language Model (LLM) é instruído a completar uma tarefa sem receber exemplos prévios (demonstrações) no prompt. O modelo depende inteiramente de seu conhecimento interno adquirido durante o pré-treinamento para inferir a resposta apropriada. É a forma mais simples de prompting e serve como linha de base para técnicas mais avançadas como Few-Shot e Chain-of-Thought. A eficácia do Zero-Shot Prompting é um testemunho do poder dos modelos de linguagem modernos, que são ajustados para seguir instruções e generalizar conhecimento para tarefas não vistas.
+## Examples
+```
+1. **Classificação de Sentimento:**
+   ```
+   Classifique o sentimento do seguinte texto como "Positivo", "Negativo" ou "Neutro".
+   Texto: "Apesar do atraso, o atendimento foi impecável e o produto superou minhas expectativas."
+   Sentimento:
+   ```
 
-## Statistics
+2. **Extração de Entidades:**
+   ```
+   Extraia o nome da pessoa, a organização e a localização deste texto.
+   Texto: "A Dra. Ana Silva, CEO da TechSolutions, fará uma palestra em São Paulo na próxima semana."
+   Pessoa:
+   Organização:
+   Localização:
+   ```
 
-A precisão em tarefas de raciocínio pode ser significativamente aumentada com variações. Por exemplo, o **Role-Play Prompting** (uma variação zero-shot) elevou a precisão do ChatGPT em AQuA de 53.5% para 63.8% e em Last Letter de 23.8% para 84.2% [3]. O Zero-Shot Prompting é a base para o **Zero-Shot-CoT** (Chain-of-Thought), que instrui o modelo a "pensar passo a passo" para melhorar o desempenho em tarefas complexas de raciocínio. A técnica é amplamente citada em pesquisas de 2023 e 2024 como um método fundamental para avaliar a capacidade de generalização de LLMs [1] [2].
+3. **Tradução Simples:**
+   ```
+   Traduza a seguinte frase para o português.
+   Frase: "The quick brown fox jumps over the lazy dog."
+   Tradução:
+   ```
 
-## Features
+4. **Resumo de Texto:**
+   ```
+   Resuma o parágrafo abaixo em uma única frase.
+   Parágrafo: "A energia solar fotovoltaica é a principal fonte de energia renovável em crescimento no mundo. Ela converte a luz do sol diretamente em eletricidade, utilizando células fotovoltaicas, e tem um impacto ambiental significativamente menor do que os combustíveis fósseis."
+   Resumo:
+   ```
 
-- **Simplicidade:** Não requer a criação de exemplos de treinamento (demonstrações) no prompt.
-- **Generalização:** Aproveita a capacidade do LLM de generalizar conhecimento de seu pré-treinamento para novas tarefas.
-- **Linha de Base:** Serve como o método de prompting mais básico e uma linha de base para avaliar o desempenho de técnicas mais complexas.
-- **Variantes Avançadas:** Pode ser combinado com outras técnicas zero-shot, como **Role-Play Prompting** e **Zero-Shot-CoT** (Chain-of-Thought), para melhorar o raciocínio e a precisão.
+5. **Geração de Código (Função Simples):**
+   ```
+   Escreva uma função em Python que calcule o fatorial de um número inteiro positivo.
+   ```
+
+6. **Resposta a Perguntas (Factual):**
+   ```
+   Qual é a capital do Canadá e qual é o seu idioma oficial?
+   ```
+
+7. **Reescrita de Estilo:**
+   ```
+   Reescreva a seguinte frase em um tom mais formal e profissional.
+   Frase: "A gente precisa dar um jeito de terminar isso logo, tá?"
+   Reescrita:
+   ```
+```
+
+## Best Practices
+*   **Seja Explícito e Claro:** A instrução deve ser o mais clara e detalhada possível, definindo a tarefa, o formato de saída e quaisquer restrições.
+*   **Use Delimitadores:** Para prompts mais longos ou com dados de entrada, use delimitadores (como `###`, `"""`, ou tags XML) para separar a instrução do contexto ou dos dados.
+*   **Especifique o Formato de Saída:** Peça explicitamente o formato desejado (e.g., "Responda em formato JSON", "Liste em tópicos", "Apenas a palavra-chave").
+*   **Instruções Negativas (Evitar):** Evite dizer ao modelo o que *não* fazer. Em vez disso, diga o que *deve* ser feito. Por exemplo, em vez de "Não inclua a introdução", diga "Comece diretamente com o primeiro ponto".
+*   **Modelos Modernos:** Utilize modelos mais recentes e aprimorados (*Instruction-Tuned*), pois eles são inerentemente mais eficazes no Zero-Shot Prompting.
 
 ## Use Cases
+*   **Classificação Rápida:** Classificação de e-mails, tickets de suporte ou comentários de clientes em categorias pré-definidas (e.g., urgência, tópico, sentimento).
+*   **Extração de Dados:** Extrair informações específicas (nomes, datas, valores) de documentos ou textos não estruturados.
+*   **Tradução e Resumo:** Tarefas simples de tradução de frases ou resumos concisos onde a precisão contextual extrema não é crítica.
+*   **Geração de Conteúdo Inicial:** Criar rascunhos, títulos, ou esboços de artigos e códigos para tarefas simples e diretas.
+*   **Testes de Capacidade do Modelo:** Avaliar rapidamente a capacidade de generalização de um novo LLM em uma variedade de tarefas.
 
-- **Classificação de Texto:** Determinar o sentimento, tópico ou intenção de um texto.
-- **Tradução:** Traduzir um texto de um idioma para outro.
-- **Resumo:** Gerar um resumo conciso de um documento ou artigo.
-- **Geração de Código:** Criar pequenos trechos de código com base em uma descrição.
-- **Resposta a Perguntas (QA):** Responder a perguntas factuais ou conceituais diretamente.
-- **Raciocínio Simples:** Resolver problemas lógicos ou matemáticos básicos.
-
-## Integration
-
-**Exemplo Básico (Classificação de Sentimento):**
-`Classifique o texto em neutro, negativo ou positivo.
-Texto: Eu acho que as férias foram razoáveis.
-Sentimento:`
-
-**Exemplo Avançado (Role-Play Prompting):**
-`Você é um especialista em lógica e raciocínio. Analise a seguinte questão e forneça a resposta mais precisa.
-Questão: Se todos os A são B, e todos os B são C, qual é a relação entre A e C?`
-
-**Melhores Práticas:**
-1. **Clareza e Especificidade:** A instrução deve ser o mais clara e específica possível, definindo a tarefa e o formato de saída desejado.
-2. **Uso de Palavras-Chave:** Incluir palavras-chave que o modelo associa à tarefa (ex: "resumir", "traduzir", "classificar").
-3. **Definição de Papel (Role-Play):** Atribuir um papel ao modelo (ex: "Você é um especialista...", "Aja como um tradutor profissional...") pode melhorar o desempenho em tarefas de raciocínio e geração.
+## Pitfalls
+*   **Ambiguidade:** Instruções vagas ou ambíguas levam a resultados inconsistentes ou incorretos. O modelo não tem exemplos para inferir a intenção.
+*   **Tarefas Complexas:** Não é adequado para tarefas que exigem raciocínio multi-etapas, planejamento ou conhecimento muito específico e não comum (onde Few-Shot ou Chain-of-Thought seriam melhores).
+*   **Dependência Excessiva:** Confiar demais na capacidade de generalização do modelo para tarefas onde a formatação ou o estilo são cruciais.
+*   **Ausência de Contexto:** Não fornecer o contexto necessário para a tarefa, assumindo que o modelo "sabe" o que você quer.
+*   **Alucinações:** Em tarefas de geração de fatos ou dados, a ausência de exemplos ou contexto pode aumentar a probabilidade de o modelo "alucinar" informações.
 
 ## URL
-
-https://www.promptingguide.ai/techniques/zeroshot
+[https://www.promptingguide.ai/techniques/zeroshot](https://www.promptingguide.ai/techniques/zeroshot)
