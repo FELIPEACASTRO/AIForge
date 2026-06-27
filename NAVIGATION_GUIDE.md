@@ -22,6 +22,8 @@ Find what you're looking for, fast.
 | RLHF / DPO / GRPO / PEFT / LoRA / QLoRA | `01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning/` |
 | AI Safety / Alignment / interpretability | `01_AI_FUNDAMENTALS_AND_THEORY/AI_Safety_and_Alignment/` |
 | Agentic AI / ReAct / multi-agent / MCP | `01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/` |
+| AI agent security / multi-step tool attacks / prompt injection | `01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/Agent_Security/` |
+| Wellbore geology / geosteering / lithology ML (oil & gas) | `05_VERTICAL_APPLICATIONS/13_Energy_AI/Oil_Gas_and_Geoscience_AI/` |
 | RAG / GraphRAG / Self-RAG / re-ranking | `01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval/` |
 | Eval / benchmarks / LLM-as-judge | `01_AI_FUNDAMENTALS_AND_THEORY/AI_Evaluation/` |
 | Causal inference for ML | `01_AI_FUNDAMENTALS_AND_THEORY/Causal_Inference/` |
