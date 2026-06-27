@@ -1,0 +1,6 @@
+# https://securitytxt.org/
+Contact: mailto:felipeacastro@gmail.com
+Preferred-Languages: en, pt
+Canonical: https://felipeacastro.github.io/AIForge/.well-known/security.txt
+Expires: 2027-06-27T00:00:00.000Z
+Policy: https://github.com/FELIPEACASTRO/AIForge/blob/master/SECURITY.md

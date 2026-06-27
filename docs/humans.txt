@@ -1,0 +1,16 @@
+/* TEAM */
+Maintainer: Felipe Castro
+Site: https://github.com/FELIPEACASTRO/AIForge
+Contact: felipeacastro [at] gmail.com
+
+/* SITE */
+Name: AIForge — The Definitive AI / ML / Deep Learning Resources Index
+Standards: HTML5, Markdown, Schema.org JSON-LD, llms.txt
+Components: GitHub Pages, sitemap.xml, robots.txt, llms.txt, CITATION.cff
+Language: English / Portuguese
+Last updated: 2026-06
+
+/* ABOUT */
+AIForge is a curated, open-source index of Artificial Intelligence, Machine
+Learning, Deep Learning, LLM and Data Science resources — five pillars plus a
+Frontier AI 2026 radar. ~1,550 documents, 5,000+ links, MIT licensed.

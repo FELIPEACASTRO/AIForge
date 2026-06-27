@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0d1117">
     
     <!-- Primary Meta Tags -->
     <title>AIForge - The Ultimate AI, Machine Learning & Deep Learning Resources Collection</title>
@@ -35,20 +36,152 @@
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": "https://felipeacastro.github.io/AIForge/#website",
       "name": "AIForge",
-      "alternateName": "The Ultimate AI, ML, DL Resources Collection",
+      "alternateName": "The Definitive AI / ML / Deep Learning Resources Index",
       "url": "https://felipeacastro.github.io/AIForge/",
-      "description": "Discover 5,000+ curated AI, Machine Learning, and Deep Learning resources. Frameworks, models, datasets, MLOps tools, LLM inference, Kaggle winning solutions, HuggingFace ecosystem, and 2026 frontier models (GPT-5.5, Claude, DeepSeek, Llama 4).",
-      "author": {
-        "@type": "Person",
-        "name": "Felipe Castro"
+      "inLanguage": [
+        "en",
+        "pt"
+      ],
+      "description": "AIForge is a comprehensive curated index of Artificial Intelligence, Machine Learning, Deep Learning, LLM and Data Science resources — theory, models, datasets, MLOps, Kaggle solutions, HuggingFace, and 2026 frontier models.",
+      "keywords": "artificial intelligence, machine learning, deep learning, large language models, LLM, generative AI, data science, MLOps, datasets, awesome list, computer vision, NLP, reinforcement learning, transformers, RAG, AI agents, HuggingFace, Kaggle",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://github.com/FELIPEACASTRO/AIForge/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
       },
-      "inLanguage": ["en", "pt"],
-      "keywords": "artificial intelligence, machine learning, deep learning, AI resources, ML frameworks, datasets, MLOps, LLM, NLP, computer vision"
+      "author": {
+        "@id": "https://github.com/FELIPEACASTRO#person"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://github.com/FELIPEACASTRO#person",
+      "name": "Felipe Castro",
+      "url": "https://github.com/FELIPEACASTRO"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://github.com/FELIPEACASTRO/AIForge#dataset",
+      "name": "AIForge — Curated AI / Machine Learning / Deep Learning Resource Index",
+      "description": "A curated, duplicate-free index of ~1,550 documents and 5,000+ links spanning AI/ML/DL/LLM theory, state-of-the-art models, datasets, MLOps and production tooling, industry verticals, Kaggle winning solutions, the HuggingFace ecosystem, and research/preprint platforms. Organized into five pillars plus a Frontier AI 2026 radar.",
+      "url": "https://github.com/FELIPEACASTRO/AIForge",
+      "sameAs": "https://felipeacastro.github.io/AIForge/",
+      "license": "https://opensource.org/licenses/MIT",
+      "creator": {
+        "@id": "https://github.com/FELIPEACASTRO#person"
+      },
+      "keywords": [
+        "artificial intelligence",
+        "machine learning",
+        "deep learning",
+        "large language models",
+        "datasets",
+        "MLOps",
+        "computer vision",
+        "NLP",
+        "reinforcement learning",
+        "generative AI",
+        "awesome list",
+        "Kaggle",
+        "HuggingFace"
+      ],
+      "isAccessibleForFree": true,
+      "dateModified": "2026-06-27"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://felipeacastro.github.io/AIForge/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is AIForge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AIForge is a free, open-source, curated index of the Artificial Intelligence, Machine Learning, Deep Learning, LLM and Data Science ecosystem — about 1,550 curated documents linking to 5,000+ external resources, organized into five pillars plus a Frontier AI 2026 radar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is AIForge for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Data scientists, ML and AI engineers, researchers, and students who want a single well-organized map of AI/ML resources from theory to production."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is AIForge organized?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Five pillars: 01 Fundamentals & Theory, 02 LLM & AI Models, 03 Datasets/Tools/Resources, 04 MLOps & Production AI, 05 Vertical Applications, plus 00 Frontier AI 2026. Browse INDEX.md for the full sitemap or NAVIGATION_GUIDE.md for topic-first lookup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I find the latest AI models like GPT-5.5, Claude, DeepSeek and Llama 4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the 00_FRONTIER_AI_2026 section, a continuously refreshed radar of the newest model and research releases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is AIForge readable by AI assistants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It ships an llms.txt file following the llmstxt.org convention so LLMs, AI agents and AI search engines can discover, navigate and cite the right section."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://felipeacastro.github.io/AIForge/#pillars",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AI Fundamentals & Theory",
+          "item": "https://github.com/FELIPEACASTRO/AIForge/tree/master/01_AI_FUNDAMENTALS_AND_THEORY"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "LLM & AI Models",
+          "item": "https://github.com/FELIPEACASTRO/AIForge/tree/master/02_LLM_AND_AI_MODELS"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Datasets, Tools & Resources",
+          "item": "https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "MLOps & Production AI",
+          "item": "https://github.com/FELIPEACASTRO/AIForge/tree/master/04_MLOPS_AND_PRODUCTION_AI"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Vertical Applications",
+          "item": "https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS"
+        }
+      ]
     }
+  ]
+}
     </script>
     
     <style>
@@ -178,6 +311,8 @@
             }
         }
     </style>
+    <link rel="author" href="/AIForge/humans.txt">
+    <link rel="alternate" type="text/plain" title="llms.txt" href="/AIForge/llms.txt">
 </head>
 <body>
     <div class="container">
