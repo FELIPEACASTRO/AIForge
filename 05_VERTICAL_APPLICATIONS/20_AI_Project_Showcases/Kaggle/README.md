@@ -27,3 +27,5 @@ The most complete map of **Kaggle competitive ML** in AIForge: a live index of c
 3. **Learn the patterns** that win → `Winning_Solutions/Grandmaster_Playbook.md`, then the category file matching your problem.
 
 > Notebook lists and competition metadata were pulled from the **public Kaggle API**. Curated write-ups were assembled from public sources; verify specific links before relying on them.
+
+- [More_Competitive_ML_and_HuggingFace_Resources.md](./More_Competitive_ML_and_HuggingFace_Resources.md) — 46 additional verified resources (double-check).

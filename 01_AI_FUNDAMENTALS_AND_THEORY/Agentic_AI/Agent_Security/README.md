@@ -31,3 +31,5 @@ A single tool call is easy to reason about. An agent that chains **retrieval →
 
 ## Responsible-use note
 All material here is public, defensive, and research-oriented (benchmarks, surveys, frameworks, mitigations). Use it to **evaluate and harden** systems you own or are authorized to test. Production guardrails should combine architecture (least privilege, isolation) with runtime defenses and continuous red-teaming.
+
+- [More_Verified_Sources_RoundB.md](./More_Verified_Sources_RoundB.md) — 59 additional verified sources (round B double-check).

@@ -39,3 +39,6 @@
 - Time series / sequence models: [`../../../02_LLM_AND_AI_MODELS/Time_Series_Models`](../../../02_LLM_AND_AI_MODELS/Time_Series_Models/)
 - Datasets hub: [`../../../03_DATASETS_TOOLS_AND_RESOURCES/Datasets`](../../../03_DATASETS_TOOLS_AND_RESOURCES/Datasets/)
 - Reinforcement learning: [`../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning`](../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/)
+
+## More
+- [More_Research_and_Resources.md](./More_Research_and_Resources.md) — 37 additional verified sources (double-check).
