@@ -1,4 +1,0 @@
-# Organizado:
-
-**Resource:** Organizado:
-

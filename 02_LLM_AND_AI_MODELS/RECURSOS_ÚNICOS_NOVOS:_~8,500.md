@@ -1,4 +1,0 @@
-# RECURSOS ÚNICOS NOVOS: ~8,500
-
-**Resource:** RECURSOS ÚNICOS NOVOS: ~8,500
-

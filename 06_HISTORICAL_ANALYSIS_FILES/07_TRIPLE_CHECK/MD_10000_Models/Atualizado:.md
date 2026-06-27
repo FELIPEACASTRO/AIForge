@@ -1,4 +1,0 @@
-# Atualizado:
-
-**Resource:** Atualizado:
-

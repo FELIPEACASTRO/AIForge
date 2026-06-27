@@ -1,4 +1,0 @@
-# TOP 5 EMPRESAS POR REPOS:
-
-**Resource:** TOP 5 EMPRESAS POR REPOS:
-

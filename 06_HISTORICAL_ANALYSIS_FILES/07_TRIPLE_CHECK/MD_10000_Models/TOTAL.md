@@ -1,4 +1,0 @@
-# TOTAL
-
-**Resource:** TOTAL
-

@@ -1,4 +1,0 @@
-# Completo:
-
-**Resource:** Completo:
-

@@ -1,4 +1,0 @@
-# OpenHands
-
-**Resource:** OpenHands
-

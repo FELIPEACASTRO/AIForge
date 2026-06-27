@@ -1,363 +1,54 @@
-# Changelog / Registro de Alterações
-
-**[EN]** All notable changes to the AIForge repository will be documented in this file.
-
-**[PT]** Todas as mudanças notáveis no repositório AIForge serão documentadas neste arquivo.
-
----
-
-## [7.0.0] - 2025-11-08 (Pós-Quadruple Check)
-
-### Added / Adicionado
-
-**[EN]**
-- **+8.311 New Files:** Massive integration from Quadruple Check.
-- **8.300 Resources:** Re-integrated from the critical PDF file (10000-NOVOS-RECURSOS-IA-COMPLEMENTO-MASSIVO.pdf).
-- **2.500+ Resources:** Integrated from ArXiv 2025 papers and cutting-edge LLMs (GPT-5, Claude 4.5, Gemini 2.5 Pro).
-- **3.600+ Resources:** Integrated from 9 previously unprocessed .md files.
-- **New Directory:** Created `09_QUADRUPLE_CHECK_MISSING/` for final resources.
-- **Repository Growth:** From 2,449 to **10.760** .md files (+339% growth).
-
-**[PT]**
-- **+8.311 Novos Arquivos:** Integração massiva do Quadruple Check.
-- **8.300 Recursos:** Reintegrados do arquivo PDF crítico (10000-NOVOS-RECURSOS-IA-COMPLEMENTO-MASSIVO.pdf).
-- **2.500+ Recursos:** Integrados de papers ArXiv 2025 e LLMs de ponta (GPT-5, Claude 4.5, Gemini 2.5 Pro).
-- **3.600+ Recursos:** Integrados de 9 arquivos .md não processados anteriormente.
-- **Novo Diretório:** Criado `09_QUADRUPLE_CHECK_MISSING/` para recursos finais.
-- **Crescimento do Repositório:** De 2.449 para **10.760** arquivos .md (+339% de crescimento).
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Completely regenerated with **10.688** resources across 10 categories.
-- **README.md:** Updated statistics to reflect **33.300+** resources and **50x larger** than competitors.
-
-**[PT]**
-- **INDEX.md:** Completamente regenerado com **10.688** recursos em 10 categorias.
-- **README.md:** Estatísticas atualizadas para refletir **33.300+** recursos e **50x maior** que concorrentes.
-
----
-
-## [7.0.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+23,600 New Resources:** Massive integration from Triple Check analysis.
-- **1,536 Resources from 4 Critical Files:** PDF (10,800), Open-Source Models (10,000+), Top 100 Repos (100), Advanced Deep Learning (1,300).
-- **2,089 URLs and 1,388 GitHub Repos:** Extracted from 18 pasted_content files.
-- **New Directories:** Created `07_TRIPLE_CHECK/` and `08_PASTED_CONTENT_ANALYSIS/` with comprehensive categorization.
-- **Repository Growth:** From 868 to 2,449 .md files (+182% growth).
-
-**[PT]**
-- **+23.600 Novos Recursos:** Integração massiva da análise do Triple Check.
-- **1.536 Recursos de 4 Arquivos Críticos:** PDF (10.800), Modelos Open-Source (10.000+), Top 100 Repos (100), Deep Learning Avançado (1.300).
-- **2.089 URLs e 1.388 Repos GitHub:** Extraídos de 18 arquivos pasted_content.
-- **Novos Diretórios:** Criados `07_TRIPLE_CHECK/` e `08_PASTED_CONTENT_ANALYSIS/` com categorização abrangente.
-- **Crescimento do Repositório:** De 868 para 2.449 arquivos .md (+182% de crescimento).
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Completely regenerated with 2,376 resources across 9 categories.
-- **README.md:** Updated statistics to reflect 25,000+ resources and 50x larger than competitors.
-
-**[PT]**
-- **INDEX.md:** Completamente regenerado com 2.376 recursos em 9 categorias.
-- **README.md:** Estatísticas atualizadas para refletir 25.000+ recursos e 50x maior que concorrentes.
-
----
-
-## [6.0.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+300 New Resources:** Added 300 new prompt engineering resources from the Historical Devastating Search.
-- **New Categories:** Expanded `01_LEARN/Prompt_Engineering` with 11 new subcategories (Universal Techniques, Business, Technology, Creative, Education, Healthcare, Science, Legal, Design, Data, Finance, Agriculture).
-
-**[PT]**
-- **+300 Novos Recursos:** Adicionados 300 novos recursos de engenharia de prompts da Busca Devastadora Histórica.
-- **Novas Categorias:** Expandidas `01_LEARN/Prompt_Engineering` com 11 novas subcategorias (Técnicas Universais, Negócios, Tecnologia, Criativo, Educação, Saúde, Ciência, Jurídico, Design, Dados, Finanças, Agricultura).
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [5.4.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+99 New Resources:** Added 99 new datasets from the Universal Datasets Devastating Search.
-- **New Categories:** Expanded `03_RESOURCES/Datasets` with 10 new subcategories (Computer Vision, NLP, Audio, Video, Multimodal, Robotics, Climate, Finance, Social Science, Gaming).
-
-**[PT]**
-- **+99 Novos Recursos:** Adicionados 99 novos datasets da Busca Devastadora de Datasets Universal.
-- **Novas Categorias:** Expandidas `03_RESOURCES/Datasets` com 10 novas subcategorias (Visão Computacional, NLP, Áudio, Vídeo, Multimodal, Robótica, Clima, Finanças, Ciências Sociais, Jogos).
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [5.3.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+50 New Resources:** Added 50 new resources from the Universal Prompt Engineering Devastating Search.
-- **New Categories:** Expanded `01_LEARN/Prompt_Engineering` with Universal Techniques and Domain-Specific Prompts.
-
-**[PT]**
-- **+50 Novos Recursos:** Adicionados 50 novos recursos da Busca Devastadora de Prompt Engineering Universal.
-- **Novas Categorias:** Expandidas `01_LEARN/Prompt_Engineering` com Técnicas Universais e Prompts de Domínio Específico.
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [5.2.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+60 New Resources:** Added 60 new resources from the Healthcare & Medicine Devastating Search.
-- **New Categories:** Expanded `05_APPLY/Healthcare`, `03_RESOURCES/Datasets`, and `01_LEARN/Prompt_Engineering`.
-
-**[PT]**
-- **+60 Novos Recursos:** Adicionados 60 novos recursos da Busca Devastadora de Saúde e Medicina.
-- **Novas Categorias:** Expandidas `05_APPLY/Healthcare`, `03_RESOURCES/Datasets` e `01_LEARN/Prompt_Engineering`.
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [5.1.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+50 New Resources:** Added 50 new resources from the Biomass & Agriculture Devastating Search.
-- **New Categories:** Expanded `05_APPLY/Agriculture` and `03_RESOURCES/Datasets`.
-
-**[PT]**
-- **+50 Novos Recursos:** Adicionados 50 novos recursos da Busca Devastadora de Biomassa e Agropecuária.
-- **Novas Categorias:** Expandidas `05_APPLY/Agriculture` e `03_RESOURCES/Datasets`.
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [5.0.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **+155 New Resources:** Added 155 new resources from the Devastating Search, doubling the repository size.
-- **New Categories:** Expanded `03_RESOURCES`, `04_DEPLOY`, `06_PROJECTS`, `01_LEARN`, `02_BUILD`, and `05_APPLY`.
-
-**[PT]**
-- **+155 Novos Recursos:** Adicionados 155 novos recursos da Busca Devastadora, duplicando o tamanho do repositório.
-- **Novas Categorias:** Expandidas `03_RESOURCES`, `04_DEPLOY`, `06_PROJECTS`, `01_LEARN`, `02_BUILD` e `05_APPLY`.
-
-### Changed / Alterado
-
-**[EN]**
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [4.0.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **New Directory Structure:** Complete reorganization of the repository for clarity and intuitive navigation.
-- **New Categories:** `03_RESOURCES`, `04_DEPLOY`, `05_APPLY`, `06_PROJECTS`.
-- **`docs/reports`:** All analysis reports moved to this directory.
-
-**[PT]**
-- **Nova Estrutura de Diretórios:** Reorganização completa do repositório para maior clareza e navegação intuitiva.
-- **Novas Categorias:** `03_RESOURCES`, `04_DEPLOY`, `05_APPLY`, `06_PROJECTS`.
-- **`docs/reports`:** Todos os relatórios de análise movidos para este diretório.
-
-### Changed / Alterado
-
-**[EN]**
-- **README.md:** Updated all links to reflect the new structure.
-- **INDEX.md:** Regenerated with all new paths.
-
-**[PT]**
-- **README.md:** Todos os links atualizados para refletir a nova estrutura.
-- **INDEX.md:** Regenerado com todos os novos caminhos.
-
----
-
-## [3.2.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **Dataset Platforms:** Comprehensive guide to 8 major dataset platforms (Kaggle, UCI, AWS, Google, etc.).
-- **Feature Engineering Tools:** Guide to 4 key feature engineering tools (Featuretools, tsfresh, etc.).
-- **Famous Datasets:** Individual files for ImageNet, COCO, and MNIST.
-
-**[PT]**
-- **Plataformas de Datasets:** Guia abrangente para 8 principais plataformas de datasets (Kaggle, UCI, AWS, Google, etc.).
-- **Ferramentas de Engenharia de Features:** Guia para 4 principais ferramentas de engenharia de features (Featuretools, tsfresh, etc.).
-- **Datasets Famosos:** Arquivos individuais para ImageNet, COCO e MNIST.
-
-### Changed / Alterado
-
-**[EN]**
-- Updated `INDEX.md` with all new resources.
-
-**[PT]**
-- `INDEX.md` atualizado com todos os novos recursos.
-
----
-
-## [3.1.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **CNN Survey (2015-2025):** Comprehensive 100-page survey on CNN architectural advances.
-- **XAI for Credit Risk:** Paper on Explainable AI for credit risk assessment.
-- **Google AI Resources:** Guide to Gemini API, MediaPipe, and LiteRT.
-- **Agriculture AI Platforms:** Guide to Farmonaut and EOS.
-- **MLOps Tools:** Guide to Neptune.ai and MLflow.
-- **NASA Earth Data Resources:** Guide to NASA's Earth Data.
-
-**[PT]**
-- **Survey de CNNs (2015-2025):** Survey abrangente de 100 páginas sobre avanços arquitetônicos em CNNs.
-- **XAI para Risco de Crédito:** Artigo sobre IA Explicável para avaliação de risco de crédito.
-- **Recursos de IA do Google:** Guia para a API Gemini, MediaPipe e LiteRT.
-- **Plataformas de IA para Agricultura:** Guia para Farmonaut e EOS.
-- **Ferramentas de MLOps:** Guia para Neptune.ai e MLflow.
-- **Recursos de Dados da NASA:** Guia para os Dados da Terra da NASA.
-
-### Changed / Alterado
-
-**[EN]**
-- Updated `INDEX.md` with all new resources.
-
-**[PT]**
-- `INDEX.md` atualizado com todos os novos recursos.
-
----
-
-## [3.0.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- **Devastating Search & Integration:** 20+ revolutionary resources from 2024-2025 integrated after a massive parallel search (KA-GNN, Evoformer\AcODE, Unsloth AI, OpenRLHF, etc.).
-- **Complete Structural Reorganization:** New hierarchical structure (01_LEARN, 02_BUILD, 03_DEPLOY, 04_APPLY) for didactic and clear navigation.
-- **Definitive README.md Guide:** The README.md has been transformed into a central, comprehensive guide to the entire repository.
-- **Final INDEX.md Update:** The alphabetical index has been regenerated to include all 15,700+ resources.
-
-**[PT]**
-- **Busca Devastadora e Integração:** 20+ recursos revolucionários de 2024-2025 integrados após uma busca massiva em paralelo (KA-GNN, Evoformer\AcODE, Unsloth AI, OpenRLHF, etc.).
-- **Reorganização Estrutural Completa:** Nova estrutura hierárquica (01_LEARN, 02_BUILD, 03_DEPLOY, 04_APPLY) para uma navegação didática e clara.
-- **Guia Definitivo no README.md:** O README.md foi transformado em um guia central e abrangente para todo o repositório.
-- **Atualização Final do INDEX.md:** O índice alfabético foi regenerado para incluir todos os 15.700+ recursos.
-
----
-
-## [2.0.0] - 2025-11-08
-
-### Added / Adicionado
-
-**[EN]**
-- Bilingual (PT/EN) documentation for README.md, NAVIGATION_GUIDE.md, QUICK_START.md, and CONTRIBUTING.md
-- Advanced SEO optimization with long-tail keywords
-- GitHub badges for stars, forks, contributors, and last commit
-- 20 strategic GitHub topics/tags (Maximum SEO)
-- Triple Check report with comprehensive analysis (10/10 score)
-- Legacy files archived to `/docs/legacy/`
-
-**[PT]**
-- Documentação bilíngue (PT/EN) para README.md, NAVIGATION_GUIDE.md, QUICK_START.md e CONTRIBUTING.md
-- Otimização avançada de SEO com palavras-chave de cauda longa
-- Badges do GitHub para stars, forks, contribuidores e último commit
-- 20 tópicos/tags estratégicos do GitHub (SEO Máximo)
-- Relatório de Triple Check com análise abrangente (nota 10/10)
-- Arquivos legados arquivados em `/docs/legacy/`
-
----
-
-## [1.0.0] - 2025-11-01
-
-### Added / Adicionado
-
-**[EN]**
-- Complete repository reorganization into 4 use-case categories (01_LEARN, 02_BUILD, 03_DEPLOY, 04_APPLY)
-- 15,686+ validated AI/ML/DL resources (+549 resources)
-- 44 themes organized across 4 main categories (Refined)
-- Navigation guides (NAVIGATION_GUIDE.md, QUICK_START.md) and **Complete Alphabetical Index (INDEX.md)**
-- Financial & Commercial AI resources (fraud detection, banking, credit, betting, marketing, e-commerce, crypto)
-
-**[PT]**
-- Reorganização completa do repositório em 4 categorias de caso de uso (01_LEARN, 02_BUILD, 03_DEPLOY, 04_APPLY)
-- 15.686+ recursos validados de IA/ML/DL (+549 resources)
-- 44 temas organizados em 4 categorias principais (Refinado)
-- Guias de navegação (NAVIGATION_GUIDE.md, QUICK_START.md) e **Índice Alfabético Completo (INDEX.md)**
-- Recursos de IA Financeira & Comercial (detecção de fraudes, banking, crédito, apostas, marketing, e-commerce, crypto)
-
----
-
-## [0.5.0] - 2025-10-30
-
-### Added / Adicionado
-
-**[EN]**
-- QUADRUPLE CHECK: +60 resources (NLP, RL, GNN, Time Series, Bayesian, etc.)
-- TRIPLE CHECK: +45 resources (LLM frameworks, Model Zoos, Interpretability)
-- FINAL UPDATE: +44 resources (Hugging Face ecosystem, Kaggle ecosystem)
-- MEGA UPDATE: +55 resources (Cloud, Datasets, MLOps, AutoML, etc.)
-
-**[PT]**
-- QUADRUPLE CHECK: +60 recursos (NLP, RL, GNN, Séries Temporais, Bayesiano, etc.)
-- TRIPLE CHECK: +45 recursos (frameworks LLM, Model Zoos, Interpretabilidade)
-- FINAL UPDATE: +44 recursos (ecossistema Hugging Face, ecossistema Kaggle)
-- MEGA UPDATE: +55 recursos (Cloud, Datasets, MLOps, AutoML, etc.)
-
----
-
-**[EN]** For more details, see the [commit history](https://github.com/FELIPEACASTRO/AIForge/commits/master).
-
-**[PT]** Para mais detalhes, consulte o [histórico de commits](https://github.com/FELIPEACASTRO/AIForge/commits/master).
+# Changelog
+
+All notable changes to **AIForge**.
+
+## [2.0.0] — 2026-06-27 — Devastating Restructure
+
+### Reorganized
+- **5 canonical pillars** with `Snake_Case_English_Only` directories. Zero duplicate categories.
+- **01_AI_FUNDAMENTALS_AND_THEORY**: consolidated `Deep Learning` / `Deep_Learning` / `deep_learning` / `Deep_Learning_Architectures` into a single canonical `Deep_Learning/`. Same pattern applied to `Generative_Models`, `Graph_Neural_Networks`, `Multimodal`, `Machine_Learning`, `Model_Optimization`, `Privacy_and_Security`, `Few_Shot_Learning`, `Contrastive_Learning`, `Domain_Adaptation`, `Quantum_Machine_Learning`, `Online_Learning`, `Long_Context_Models`, `Vision_Language_Models`, `Video_Understanding`, `LLM_Architectures`, `Active_Learning`, `Optimization_Algorithms`, `Natural_Language_Processing`.
+- **02_LLM_AND_AI_MODELS**: collapsed 336+ fragment stub files. Created thematic subtree: `Text_LLMs/`, `Vision_Models/`, `Audio_Models/`, `Video_Models/`, `Multimodal_Models/`, `Scientific_Models/`, `Time_Series_Models/`, `MoE_Models/`, `Diffusion_Models/`, `World_Models/`, `Foundation_Models/`, `Frameworks/`, `Papers/`, `Research_Labs/`, `Communities/`, `Guides_and_Tutorials/`, `Collections/`.
+- **03_DATASETS_TOOLS_AND_RESOURCES**: collapsed 84 chaotic subdirs (many comma-separated names) into 4 canonical umbrellas: `Datasets/`, `Data_Engineering/`, `Storage_and_Databases/`, `Cloud_Platforms/`.
+- **04_MLOPS_AND_PRODUCTION_AI**: consolidated `MLOps_Platforms/`, `Deployment/`, `Model_Serving/`, `Inference_Optimization/`, `Model_Optimization/`, `Workflow_Orchestration/`, `AB_Testing_and_Canary/`, `AI_Agents/`, `Cloud_Platforms/`.
+- **05_VERTICAL_APPLICATIONS**: 20 sequential industry verticals — `01_Healthcare_*` through `20_AI_Project_Showcases/`.
+
+### Removed
+- 10,400+ empty/fragment stub `.md` files (e.g. `101-200._Music_Analysis_Processing:.md`, four-line `1._GLM_4.6.md` stubs).
+- `06_HISTORICAL_ANALYSIS_FILES/` (40 MB of legacy audit artifacts).
+- `ENRIQUECIMENTO_4_ARQUIVOS/` and `ENRIQUECIMENTO_ANEXOS/` across every pillar.
+- Root-level junk: raw resource lists (`all_resources_*.txt`, `resource_list*.txt`), stray Colab notebooks, `competent-shamir/`, SEO/strategy docs (`competitor_analysis.md`, `advanced_seo_optimization_report.md`, `SUBMISSION_CHECKLIST.md`, `FINAL_DELIVERY_REPORT_V3.md`, `EXTERNAL_DISCOVERY_STRATEGY.md`, `LOGO_USAGE_GUIDE.md`, `ULTIMATE_AI_COLLECTION.md`, `USER_PROVIDED_*.md`).
+- `nan/` directory artifact.
+
+### Moved
+- Verticals out of `01_AI_FUNDAMENTALS_AND_THEORY/` to `05_VERTICAL_APPLICATIONS/`: `Healthcare`, `Saúde`, `Healthcare_Science`, `AI_in_Radiology`, `Finance`, `Agriculture`, `Legal`, `Business`, `Creative`, `Design`, `Education`, `Universities`, `Science`.
+- Verticals out of `02_LLM_AND_AI_MODELS/`: `AI in Cardiology`, `AI in Neurology`, `Medical_Imaging`, `drug_discovery`, `genomics`, `ai_in_proteomics` → `05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/`.
+- Datasets/data tooling out of `02` to `03`.
+- `Technology`, `Technology_DevOps` → `04_MLOPS_AND_PRODUCTION_AI/Infrastructure/`.
+
+### Added (gap-fill — net-new directories with curated content)
+
+- `01/AI_Safety_and_Alignment/` — RLHF, DPO, GRPO, Constitutional AI, mechanistic interp, red-teaming.
+- `01/Agentic_AI/` — ReAct, Reflexion, Tool Use, MCP, frameworks (LangGraph, AutoGen, CrewAI, Pydantic AI, DSPy).
+- `01/RAG_and_Retrieval/` — RAG, HyDE, Self-RAG, CRAG, GraphRAG, ColBERT, embedding models, re-rankers, frameworks.
+- `01/AI_Evaluation/` — MMLU-Pro, GPQA, HLE, SWE-bench, ARC-AGI, LiveCodeBench, eval frameworks.
+- `01/Causal_Inference/` — DoWhy, EconML, CausalML, NOTEARS, books and surveys.
+- `01/Modern_Fine_Tuning/` — SFT, DPO/KTO/ORPO/SimPO/GRPO, LoRA/QLoRA/DoRA, Unsloth, Axolotl.
+- `01/State_Space_Models/` — Mamba, S4, RWKV, Hyena, hybrid Jamba/Zamba.
+- `02/MoE_Models/` — Mixtral, DeepSeek-V3, OLMoE, Snowflake Arctic, Jamba, DBRX.
+- `02/Diffusion_Models/` — SD3.5, FLUX, Veo, Sora, Wan, HunyuanVideo, CogVideoX, plus 3D/molecule diffusion.
+- `02/World_Models/` — Genie, Cosmos, V-JEPA, GAIA, OASIS, robotics VLAs.
+- `04/LLM_Inference/` — vLLM, SGLang, TensorRT-LLM, TGI, llama.cpp, Ollama, MLX, MLC, ExecuTorch.
+- `04/AI_Observability/` — Langfuse, LangSmith, Weave, Phoenix, Helicone, OpenLLMetry.
+- `05/08_Manufacturing_and_Industry_AI/` — PdM, QC, digital twins, supply chain.
+- `05/10_Robotics_and_Embodied_AI/` — VLAs, datasets, simulators, software stacks, benchmarks.
+- `05/11_Autonomous_Vehicles_AI/` — UniAD, GAIA, datasets, simulators.
+- `05/13_Energy_AI/` — Grid, renewables, fusion, batteries, smart buildings.
+- `05/14_Cybersecurity_AI/` — Red/Blue team, model security, OWASP LLM Top 10, benchmarks.
+
+### Documentation
+- Rewrote `README.md` around the 5-pillar canonical taxonomy with a per-pillar tree view.
+- Rewrote `NAVIGATION_GUIDE.md` as a topic-first lookup table.
+- Regenerated `INDEX.md` as a complete machine-generated sitemap.
+
+## [1.x] — Prior history
+Snapshots in git history. See commits before this changelog entry for the legacy state.

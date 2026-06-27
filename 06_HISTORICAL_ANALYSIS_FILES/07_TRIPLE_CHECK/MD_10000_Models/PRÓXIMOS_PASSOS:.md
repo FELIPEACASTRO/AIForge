@@ -1,4 +1,0 @@
-# PRÓXIMOS PASSOS:
-
-**Resource:** PRÓXIMOS PASSOS:
-

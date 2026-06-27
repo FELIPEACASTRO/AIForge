@@ -1,6 +1,6 @@
-# 🚀 AIForge: The Ultimate Repository for AI, Machine Learning, and Deep Learning Resources
+# AIForge — The Definitive Repository for AI, ML, and Data Science
 
-**AIForge** is the world's most comprehensive and meticulously organized collection of resources for **Artificial Intelligence (AI)**, **Machine Learning (ML)**, **Deep Learning (DL)**, and **Data Science**. With over **11,951 files** and **34,000+ curated resources**, AIForge serves as the definitive, single-source guide for researchers, developers, data scientists, and industry professionals.
+**AIForge** is a comprehensive, hand-organized atlas of the **Artificial Intelligence**, **Machine Learning**, **Deep Learning**, **LLM**, and **Data Science** ecosystem — from foundational theory to production deployment and industry verticals.
 
 <p align="center">
   <a href="https://github.com/FELIPEACASTRO/AIForge/stargazers"><img src="https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social" alt="Stars"></a>
@@ -10,95 +10,183 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Resources-34,000%2B-blue?style=for-the-badge" alt="Total de Recursos">
-  <img src="https://img.shields.io/badge/Files%20Indexed-11,951-green?style=for-the-badge" alt="Arquivos Indexados">
-  <img src="https://img.shields.io/badge/Verticals%20Covered-5%2B-red?style=for-the-badge" alt="Verticals Covered">
-  <img src="https://img.shields.io/badge/Last%20Update-November%202025-orange?style=for-the-badge" alt="Atualizado">
+  <img src="https://img.shields.io/badge/Pillars-5-blue?style=for-the-badge" alt="5 Pillars">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--06-orange?style=for-the-badge" alt="Updated">
+  <img src="https://img.shields.io/badge/Coverage-AI%20%2F%20ML%20%2F%20DL%20%2F%20LLM%20%2F%20MLOps-green?style=for-the-badge" alt="Coverage">
 </p>
 
 ---
 
-## 🌟 Why AIForge is the Definitive Resource (SEO Optimized)
+## Five Pillars
 
-AIForge is meticulously engineered for **maximum discoverability** on platforms like **Google Search**, **GitHub Search**, and **AI-powered research tools**.
-
-| Feature | Description | SEO Keywords Targeted |
-| :--- | :--- | :--- |
-| **Massive Scale** | Over **34,000+** unique, high-quality resources, making it **60x larger** than competitors. | **Deep Learning Resources**, **Machine Learning Datasets**, **AI Frameworks**. |
-| **Production Focus** | Dedicated guides and tools for deploying and scaling AI models. | **MLOps Guide**, **Model Serving**, **Inference Optimization**, **vLLM**. |
-| **Vertical Applications** | Deep-dive sections for high-value industries. | **Healthcare AI**, **Fintech AI**, **AgTech**, **Medical Imaging**, **Fraud Detection**. |
-| **Cutting-Edge Models** | Resources on the latest LLMs and advanced architectures. | **GPT-5**, **Claude 4.5**, **Gemini 2.5 Pro**, **Transfer Learning**, **Vision Transformer**. |
-
----
-
-## 🗺️ Navigation Guide: The 5 Pillars of AIForge (The Complete Guide)
-
-The repository is structured into 5 main pillars, designed to guide users from foundational theory to advanced production deployment.
-
-| ID | Directory Name (SEO Focus) | Description | Key Topics (SEO Keywords) |
-| :--- | :--- | :--- | :--- |
-| **01** | **[01_AI_FUNDAMENTALS_AND_THEORY](./01_AI_FUNDAMENTALS_AND_THEORY)** | Essential concepts, algorithms, mathematics, and learning guides. | **AI Theory**, **Machine Learning Algorithms**, **Deep Learning Fundamentals**, **Prompt Engineering**, **Transfer Learning**. |
-| **02** | **[02_LLM_AND_AI_MODELS](./02_LLM_AND_AI_MODELS)** | Comprehensive collection of state-of-the-art models, architectures, and frameworks. | **Large Language Models (LLM)**, **Vision Models**, **Multimodal AI**, **Transformer Architecture**, **GPT-5**, **Claude 4.5**, **MedGemma**. |
-| **03** | **[03_DATASETS_TOOLS_AND_RESOURCES](./03_DATASETS_TOOLS_AND_RESOURCES)** | Curated datasets, essential tools, APIs, and MLOps platforms. | **Data Science Datasets**, **ML Tools**, **AI APIs**, **HuggingFace**, **Kaggle**, **ArXiv Papers**. |
-| **04** | **[04_MLOPS_AND_PRODUCTION_AI](./04_MLOPS_AND_PRODUCTION_AI)** | Guides and resources for deploying, monitoring, and scaling AI models in production. | **MLOps**, **Model Deployment**, **Model Serving**, **Inference Optimization**, **vLLM**, **Kubernetes for ML**. |
-| **05** | **[05_VERTICAL_APPLICATIONS](./05_VERTICAL_APPLICATIONS)** | Industry-specific case studies, code, and resources for high-value sectors. | **Healthcare AI**, **Fintech AI**, **AgTech**, **Medical Imaging**, **Fraud Detection**, **Algorithmic Trading**. |
-
-### 05 - Vertical Applications Deep Dive (Industry-Specific AI)
-
-| Sub-Directory | Primary Focus | Key Resources Integrated |
-| :--- | :--- | :--- |
-| **[01_HEALTHCARE_AND_MEDICAL_AI](./05_VERTICAL_APPLICATIONS/01_HEALTHCARE_AND_MEDICAL_AI)** | Diagnosis, Medical Imaging, Genomics, Clinical NLP. | **445 Resources** (MONAI, ClinicalBERT, Drug Discovery Tools). |
-| **[02_FINTECH_AND_FINANCIAL_AI](./05_VERTICAL_APPLICATIONS/02_FINTECH_AND_FINANCIAL_AI)** | Fraud Detection, Credit Scoring, Algorithmic Trading, Risk Management. | **172 Resources** (FinGPT, FinRL, NVIDIA Blueprints). |
+| # | Pillar | What lives here |
+|---|---|---|
+| **01** | **[AI Fundamentals & Theory](./01_AI_FUNDAMENTALS_AND_THEORY/)** | Foundational ML/DL theory, algorithms, paradigms (RL, GenAI, Transformers, SSMs), training methods, safety, evaluation. |
+| **02** | **[LLM & AI Models](./02_LLM_AND_AI_MODELS/)** | Frontier LLMs, open-source models, vision/audio/video/multimodal models, MoE, diffusion, world models, frameworks. |
+| **03** | **[Datasets, Tools & Resources](./03_DATASETS_TOOLS_AND_RESOURCES/)** | Curated datasets by modality, data engineering tools, storage & databases, cloud platforms. |
+| **04** | **[MLOps & Production AI](./04_MLOPS_AND_PRODUCTION_AI/)** | Model serving, LLM inference (vLLM/SGLang/TensorRT-LLM/llama.cpp), MLOps platforms, observability, deployment. |
+| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI: Healthcare, Finance, Agriculture, Climate, Education, Legal, Retail, Robotics, AV, more. |
 
 ---
 
-## 🔍 How to Find What You Need (The AIForge Search Guide)
+## How to Navigate
 
-The best way to navigate the massive collection of AIForge is by using the following methods:
+**Browse by pillar.** Each pillar has a sub-tree of canonical, English, snake_case topics — no duplicates, no language drift.
 
-### 1. The INDEX.md (The AIForge Sitemap)
-The **[INDEX.md](./INDEX.md)** file at the root of the repository is a **complete, machine-generated sitemap** of all 11,951 files.
-- **Use Case:** Browse all resources under a specific high-level category.
-- **SEO Benefit:** Crucial for search engine crawlers to index every single resource.
+**Use [`INDEX.md`](./INDEX.md).** The complete sitemap with every category and a one-line description.
 
-### 2. GitHub Search (Keyword Search)
-Use the GitHub search bar within the AIForge repository for targeted searches.
-- **Example Search:** `MONAI path:05_VERTICAL_APPLICATIONS/01_HEALTHCARE_AND_MEDICAL_AI`
-- **Use Case:** Find a specific tool, model, or paper.
+**Use [`NAVIGATION_GUIDE.md`](./NAVIGATION_GUIDE.md).** A topic-first guide ("I want to learn about RAG" → exact path).
 
-### 3. Directory Navigation (Thematic Browsing)
-Browse the directory structure directly for thematic exploration.
-- **Example Path:** `05_VERTICAL_APPLICATIONS/02_FINTECH_AND_FINANCIAL_AI/Fraud_Detection`
-- **Use Case:** See all resources related to a specific sub-topic.
+**GitHub search.** Scoped path search: `vLLM path:04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`.
 
 ---
 
-## 📈 AIForge by the Numbers (Final Audit)
+## Pillar 01 — Highlights
 
-| Metric | Value |
-| :--- | :--- |
-| **Total Files (.md)** | **11,951** |
-| **Total Curated Resources** | **34,000+** |
-| **HealthTech Resources** | 445 |
-| **Fintech Resources** | 172 |
-| **Deep Learning Resources** | 136 |
+```
+01_AI_FUNDAMENTALS_AND_THEORY/
+├── Machine_Learning/                    Classical ML, supervised/unsupervised
+├── Deep_Learning/                       Architectures, regularization, optim
+├── Reinforcement_Learning/
+├── Generative_Models/                   GANs, VAEs, Diffusion, Flow, EBM
+├── Computer_Vision/                     Self-supervised, ViT
+├── Natural_Language_Processing/
+├── Multimodal/
+├── Graph_Neural_Networks/
+├── Vision_Transformers/
+├── Vision_Language_Models/
+├── Video_Understanding/
+├── LLM_Architectures/
+├── Long_Context_Models/
+├── State_Space_Models/                  NEW — Mamba, S4, RWKV, Hyena
+├── Transfer_Learning, Federated_Learning, Few_Shot_Learning,
+│   Meta_Learning, Contrastive_Learning, Domain_Adaptation,
+│   Online_Learning, Active_Learning
+├── Optimization_Algorithms/, Model_Optimization/
+├── Explainable_AI/
+├── Privacy_and_Security/
+├── Quantum_Machine_Learning/
+├── Prompt_Engineering/                  Use-case prompt libraries
+├── Modern_Fine_Tuning/                  NEW — SFT, DPO, GRPO, LoRA, QLoRA
+├── AI_Safety_and_Alignment/             NEW — RLHF, Constitutional AI, interp
+├── Agentic_AI/                          NEW — ReAct, Reflexion, MCP, frameworks
+├── RAG_and_Retrieval/                   NEW — RAG patterns, retrievers, rerank
+├── AI_Evaluation/                       NEW — benchmarks, eval frameworks
+├── Causal_Inference/                    NEW — DoWhy, EconML, frameworks
+├── Courses/ Universities/ Communities/ Collections/
+```
+
+## Pillar 02 — Highlights
+
+```
+02_LLM_AND_AI_MODELS/
+├── Text_LLMs/
+│   ├── Frontier_Closed_Models/          GPT-5, Claude 4.5, Gemini 2.5
+│   ├── Open_Source_LLMs/                Llama, Qwen, Mistral, DeepSeek, GLM
+│   ├── Reasoning_Models/                R1, Open-R1, Sky-T1
+│   ├── Small_LLMs/                      Phi, Gemma, SmolLM
+│   ├── Code_LLMs/, Specialized_LLMs/
+│   ├── Efficient_Transformers/
+│   └── Libraries/
+├── Vision_Models/                       Detection, segmentation, image gen
+├── Audio_Models/                        ASR, TTS, music
+├── Video_Models/                        Text-to-video, image-to-video
+├── Multimodal_Models/                   VLMs, GLM-V, Qwen-VL
+├── Scientific_Models/                   Protein, Quantum ML, Reservoir
+├── Time_Series_Models/
+├── MoE_Models/                          NEW — Mixtral, DeepSeek, OLMoE
+├── Diffusion_Models/                    NEW — SD3.5, FLUX, Veo, Wan, Sora
+├── World_Models/                        NEW — Genie, Cosmos, V-JEPA, GR00T
+├── Foundation_Models/, Frameworks/
+├── Papers/, Research_Labs/, Communities/
+└── Guides_and_Tutorials/, Collections/
+```
+
+## Pillar 03 — Highlights
+
+```
+03_DATASETS_TOOLS_AND_RESOURCES/
+├── Datasets/
+│   ├── Computer_Vision_Datasets/
+│   ├── NLP_Datasets/
+│   ├── Audio_Datasets/, Video_Datasets/
+│   ├── Multimodal_Datasets/             VQA, autonomous driving
+│   ├── Time_Series_Datasets/, Tabular_Datasets/
+│   ├── Climate_and_Geospatial/          Earth observation, oceanography
+│   ├── Bioinformatics_and_Genomics/
+│   ├── Finance_Datasets/, Gaming_and_RL/
+│   ├── Robotics_Datasets/, Social_Science_Datasets/
+│   ├── Open_Data_Portals/
+│   ├── Synthetic_Data/, Web_Datasets/
+│   └── Famous_Benchmarks/
+├── Data_Engineering/                    Pipelines, versioning, quality,
+│                                        annotation, feature engineering,
+│                                        feature stores, ETL, web scraping
+├── Storage_and_Databases/               Vector, time-series, document,
+│                                        in-memory, lakes, warehouses
+└── Cloud_Platforms/                     AWS / others
+```
+
+## Pillar 04 — Highlights
+
+```
+04_MLOPS_AND_PRODUCTION_AI/
+├── MLOps_Platforms/                     MLflow, Kubeflow, ZenML, Metaflow
+├── Model_Serving/                       Triton, BentoML, KServe, Ray Serve
+├── LLM_Inference/                       NEW — vLLM, SGLang, TensorRT-LLM,
+│                                        TGI, llama.cpp, Ollama, MLX, MLC
+├── Inference_Optimization/              ONNX, TensorRT, quantization
+├── Model_Optimization/, Model_Registry_Solutions/
+├── Workflow_Orchestration/              Airflow, Prefect, Dagster
+├── Deployment/                          Kubernetes, Docker, Serverless
+├── AB_Testing_and_Canary/
+├── AI_Observability/                    NEW — Langfuse, LangSmith, Weave,
+│                                        Phoenix, Helicone, Arize, OpenLLMetry
+├── AI_Agents/                           Production agent stacks
+├── Cloud_Platforms/                     Azure/Microsoft, others
+├── Infrastructure/
+└── API_Integration_Tools/
+```
+
+## Pillar 05 — Highlights
+
+```
+05_VERTICAL_APPLICATIONS/
+├── 01_Healthcare_and_Medical_AI/        Imaging, clinical NLP, drug discovery,
+│                                        radiology, cardiology, neurology,
+│                                        genomics, telemedicine, mental health
+├── 02_Finance_and_Fintech_AI/           Fraud, credit, trading, risk
+├── 03_Agriculture_AgTech/               Precision farming, biomass, vegetation
+├── 04_Climate_and_Sustainability/       Weather, Earth obs
+├── 05_Education_AI/
+├── 06_Legal_AI/
+├── 07_Retail_and_Ecommerce/
+├── 08_Manufacturing_and_Industry_AI/    NEW — PdM, QC, digital twins
+├── 09_Entertainment_and_Creative_AI/
+├── 10_Robotics_and_Embodied_AI/         VLAs, manipulation, humanoids
+├── 11_Autonomous_Vehicles_AI/           NEW — UniAD, GAIA, datasets, sims
+├── 12_Business_and_Marketing_AI/
+├── 13_Energy_AI/                        NEW — Grid, renewables, fusion
+├── 14_Cybersecurity_AI/                 NEW — Red/Blue team, model security
+├── 15_Science_AI/
+├── 16_Edge_and_IoT_AI/
+├── 17_Conversational_AI/
+├── 18_Predictive_AI/
+├── 19_Computer_Vision_Applications/
+└── 20_AI_Project_Showcases/             AutoML, Kaggle, RL, NLP, multimodal
+```
 
 ---
 
-## 🤝 Contributing to AIForge
+## Contributing
 
-AIForge is an open-source project dedicated to the global AI community. We welcome contributions!
+See [CONTRIBUTING.md](./CONTRIBUTING.md). New resources should go to the canonical English snake_case directory; if no fit exists, propose a new one in your PR.
 
-Please see the **[CONTRIBUTING.md](./CONTRIBUTING.md)** file for detailed guidelines on how to submit new resources, report broken links, or suggest structural improvements.
+## Code of Conduct & Security
 
-### Code of Conduct & Security
-- **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md):** We are committed to providing a welcoming and inclusive environment.
-- **[SECURITY.md](./SECURITY.md):** For reporting security vulnerabilities, please contact the maintainer directly at `felipeacastro@gmail.com`.
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)
+- [SECURITY.md](./SECURITY.md)
 
----
+## License
 
-## 📄 License
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-**Maintainer Contact:** `felipeacastro@gmail.com`
+MIT — see [LICENSE](./LICENSE).

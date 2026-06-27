@@ -1,4 +1,0 @@
-# VALOR AGREGADO:
-
-**Resource:** VALOR AGREGADO:
-

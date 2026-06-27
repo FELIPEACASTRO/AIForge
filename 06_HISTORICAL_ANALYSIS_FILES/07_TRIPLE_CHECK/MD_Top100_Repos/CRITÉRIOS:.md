@@ -1,4 +1,0 @@
-# CRITÉRIOS:
-
-**Resource:** CRITÉRIOS:
-

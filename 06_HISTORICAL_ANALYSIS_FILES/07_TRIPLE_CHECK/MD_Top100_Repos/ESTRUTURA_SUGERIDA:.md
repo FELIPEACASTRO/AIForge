@@ -1,4 +1,0 @@
-# ESTRUTURA SUGERIDA:
-
-**Resource:** ESTRUTURA SUGERIDA:
-

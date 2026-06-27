@@ -1,4 +1,0 @@
-# Time Series
-
-- Prophet
-- statsmodels

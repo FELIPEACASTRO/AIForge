@@ -1,4 +1,0 @@
-# IMPACTO:
-
-**Resource:** IMPACTO:
-

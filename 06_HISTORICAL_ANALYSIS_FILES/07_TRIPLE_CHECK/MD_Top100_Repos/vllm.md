@@ -1,4 +1,0 @@
-# vllm
-
-**Resource:** vllm
-
