@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>AIForge — AI / ML / Deep Learning Resources Index</title>
+  <link>https://felipeacastro.github.io/AIForge/</link>
+  <atom:link href="https://felipeacastro.github.io/AIForge/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Updates from AIForge: frontier AI models, datasets, MLOps, Kaggle solutions, agent security, and more.</description>
+  <language>en</language>
+  <lastBuildDate>Sat, 27 Jun 2026 00:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Frontier AI 2026 — Innovation Radar</title>
+    <link>https://github.com/FELIPEACASTRO/AIForge/tree/master/00_FRONTIER_AI_2026</link>
+    <guid>https://github.com/FELIPEACASTRO/AIForge/tree/master/00_FRONTIER_AI_2026</guid>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Newest models &amp; research: GPT-5.5, Claude Opus 4.7, DeepSeek V4, Llama 4, Sora 2, Veo 3.1, GR00T N1.7.</description>
+  </item>
+  <item>
+    <title>AI Agent Security — Multi-Step Tool Attacks</title>
+    <link>https://github.com/FELIPEACASTRO/AIForge/tree/master/01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/Agent_Security</link>
+    <guid>https://github.com/FELIPEACASTRO/AIForge/tree/master/01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/Agent_Security</guid>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Defensive research: tool attacks, prompt injection, MCP, defenses, benchmarks, CVEs.</description>
+  </item>
+  <item>
+    <title>Kaggle Competitions &amp; Winning Solutions</title>
+    <link>https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle</link>
+    <guid>https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle</guid>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+    <description>216-competition index, top public notebooks, curated winning write-ups, grandmaster playbook.</description>
+  </item>
+  <item>
+    <title>HuggingFace Hub</title>
+    <link>https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub</link>
+    <guid>https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub</guid>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+    <description>Top models by task, leaderboards, ecosystem map, notable models &amp; datasets.</description>
+  </item>
+  <item>
+    <title>Wellbore Geology &amp; Geosteering AI</title>
+    <link>https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/13_Energy_AI/Oil_Gas_and_Geoscience_AI</link>
+    <guid>https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/13_Energy_AI/Oil_Gas_and_Geoscience_AI</guid>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+    <description>ML for lithology prediction, formation tops, geosteering; datasets &amp; tools.</description>
+  </item>
+  <item>
+    <title>Research Platforms &amp; Preprints</title>
+    <link>https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints</link>
+    <guid>https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints</guid>
+    <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+    <description>arXiv &amp; 156 alternatives; paper-discovery toolkit.</description>
+  </item>
+</channel></rss>

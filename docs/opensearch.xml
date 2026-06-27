@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>AIForge</ShortName>
+  <Description>Search AIForge — the definitive AI/ML/Deep Learning resources index</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/png">https://felipeacastro.github.io/AIForge/favicon.png</Image>
+  <Url type="text/html" template="https://github.com/FELIPEACASTRO/AIForge/search?q={searchTerms}"/>
+  <moz:SearchForm xmlns:moz="http://www.mozilla.org/2006/browser/search/">https://github.com/FELIPEACASTRO/AIForge</moz:SearchForm>
+</OpenSearchDescription>

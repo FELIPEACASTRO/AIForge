@@ -29,4 +29,8 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+
+# Discovery surfaces
+# LLM index: /llms.txt  /llms-full.txt
+# RSS: /feed.xml
 Sitemap: https://felipeacastro.github.io/AIForge/sitemap.xml
