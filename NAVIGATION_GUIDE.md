@@ -51,6 +51,20 @@ Find what you're looking for, fast.
 | Protein / Drug models (AlphaFold, RFdiffusion) | `02_LLM_AND_AI_MODELS/Scientific_Models/` and `05/.../Drug_Discovery/` |
 | Time series foundation models | `02_LLM_AND_AI_MODELS/Time_Series_Models/` |
 
+## "I want Kaggle solutions / HuggingFace / papers..."
+
+| Goal | Path |
+|---|---|
+| Kaggle competitions index (216, by category) | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Competitions_Index.md` |
+| Top public solution notebooks per competition | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Top_Solution_Notebooks.md` |
+| Curated winning solutions by category (CV/NLP/Tabular/TS) | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/` |
+| The Kaggle Grandmaster playbook (winning techniques) | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/Grandmaster_Playbook.md` |
+| HuggingFace top models by task | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Top_Models_By_Task.md` |
+| HuggingFace leaderboards & arenas | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Leaderboards_and_Evaluation.md` |
+| HuggingFace ecosystem / libraries map | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Ecosystem_Map.md` |
+| Find/track/reproduce ML papers (arXiv, PwC, OpenAlex) | `03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/AI_ML_Paper_Discovery.md` |
+| arXiv alternatives / preprint servers (156 catalog) | `03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/Preprint_Servers_and_arXiv_Alternatives.md` |
+
 ## "I need a dataset..."
 
 | Modality | Path |

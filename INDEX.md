@@ -1,6 +1,6 @@
 # AIForge — Complete Index
 
-Auto-generated sitemap of every directory in the repository. For a topic-oriented entry point, see [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md). For the latest cutting-edge releases, see [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/).
+Auto-generated sitemap of every directory. Topic-first entry: [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md). Latest releases: [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/).
 
 ## [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/)
 
@@ -194,7 +194,9 @@ Auto-generated sitemap of every directory in the repository. For a topic-oriente
       - [`Action_Recognition/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/Action_Recognition/)
       - [`Audiovisual/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/Audiovisual/)
     - [`Web_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Web_Datasets/)
+  - [`HuggingFace_Hub/`](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/)
   - [`RL_Simulators/`](./03_DATASETS_TOOLS_AND_RESOURCES/RL_Simulators/)
+  - [`Research_Platforms_and_Preprints/`](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/)
   - [`Resource_Catalogs/`](./03_DATASETS_TOOLS_AND_RESOURCES/Resource_Catalogs/)
   - [`Storage_and_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/)
     - [`Data_Lakes/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Data_Lakes/)
@@ -409,6 +411,7 @@ Auto-generated sitemap of every directory in the repository. For a topic-oriente
       - [`image_generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/)
         - [`diffusion/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/diffusion/)
     - [`Kaggle/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)
+      - [`Winning_Solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/)
       - [`solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/)
         - [`2024-2025/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/2024-2025/)
     - [`MLOps_Projects/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/MLOps_Projects/)
