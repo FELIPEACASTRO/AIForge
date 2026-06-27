@@ -1,4 +1,0 @@
-# ecossistemas
-
-**Resource:** ecossistemas
-

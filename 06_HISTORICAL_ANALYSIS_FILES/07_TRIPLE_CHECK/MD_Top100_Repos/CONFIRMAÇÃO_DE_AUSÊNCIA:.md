@@ -1,4 +1,0 @@
-# CONFIRMAÇÃO DE AUSÊNCIA:
-
-**Resource:** CONFIRMAÇÃO DE AUSÊNCIA:
-

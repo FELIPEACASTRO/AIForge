@@ -1,4 +1,0 @@
-# DESTAQUES:
-
-**Resource:** DESTAQUES:
-

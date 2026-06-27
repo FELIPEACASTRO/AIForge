@@ -1,4 +1,0 @@
-# Verificado:
-
-**Resource:** Verificado:
-

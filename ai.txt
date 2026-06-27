@@ -1,0 +1,9 @@
+# ai.txt — policy for AI/LLM crawlers and dataset collectors
+# AIForge welcomes indexing, citation, and retrieval by AI systems.
+User-Agent: *
+Allow: /
+Content-Usage: index, cite, train
+Sitemap: https://felipeacastro.github.io/AIForge/sitemap.xml
+LLM-Index: https://felipeacastro.github.io/AIForge/llms.txt
+LLM-Full-Index: https://felipeacastro.github.io/AIForge/llms-full.txt
+Contact: felipeacastro@gmail.com

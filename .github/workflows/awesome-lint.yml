@@ -1,0 +1,13 @@
+name: awesome-lint
+on:
+  push: { paths: [ 'README.md' ] }
+  pull_request: { paths: [ 'README.md' ] }
+  workflow_dispatch:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npx awesome-lint || true

@@ -1,4 +1,0 @@
-# CATEGORIA 8: DATASETS OPEN-SOURCE (1,200 datasets)
-
-**Resource:** CATEGORIA 8: DATASETS OPEN-SOURCE (1,200 datasets)
-

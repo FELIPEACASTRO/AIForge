@@ -1,0 +1,40 @@
+# ============================================================
+# SECRETS & CREDENTIALS — never commit these
+# ============================================================
+kaggle.json
+*kaggle*.json
+CHAVE*
+*CHAVE*
+.env
+.env.*
+*.env
+secrets.*
+*secret*
+*credentials*
+*.pem
+*.key
+id_rsa*
+*.p12
+*.pfx
+service-account*.json
+gcp-*.json
+.hf_token
+hf_token*
+token.txt
+api_keys*
+*.apikey
+
+# ============================================================
+# OS / editor / tooling
+# ============================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+.venv/
+venv/

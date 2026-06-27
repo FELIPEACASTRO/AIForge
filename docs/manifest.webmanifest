@@ -1,0 +1,15 @@
+{
+  "name": "AIForge — AI / ML / Deep Learning Resources Index",
+  "short_name": "AIForge",
+  "description": "Curated index of AI, Machine Learning, Deep Learning, LLM and Data Science resources.",
+  "start_url": "/AIForge/",
+  "scope": "/AIForge/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "lang": "en",
+  "categories": ["education", "productivity", "developer", "reference"],
+  "icons": [
+    {"src": "/AIForge/favicon.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

@@ -1,4 +1,0 @@
-# DISTRIBUIÇÃO TOTAL:
-
-**Resource:** DISTRIBUIÇÃO TOTAL:
-

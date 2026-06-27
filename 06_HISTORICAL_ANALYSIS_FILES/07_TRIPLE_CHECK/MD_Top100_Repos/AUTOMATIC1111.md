@@ -1,4 +1,0 @@
-# AUTOMATIC1111
-
-**Resource:** AUTOMATIC1111
-

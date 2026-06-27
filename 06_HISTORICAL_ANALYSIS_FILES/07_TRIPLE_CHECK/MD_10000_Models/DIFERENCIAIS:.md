@@ -1,4 +1,0 @@
-# DIFERENCIAIS:
-
-**Resource:** DIFERENCIAIS:
-

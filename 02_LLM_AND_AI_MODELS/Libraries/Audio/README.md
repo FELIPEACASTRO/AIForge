@@ -1,3 +1,0 @@
-# Audio Processing
-
-- librosa

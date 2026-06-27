@@ -1,4 +1,0 @@
-# PAÍSES:
-
-**Resource:** PAÍSES:
-

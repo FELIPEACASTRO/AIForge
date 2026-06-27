@@ -1,4 +1,0 @@
-# ragflow
-
-**Resource:** ragflow
-

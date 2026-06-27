@@ -1,4 +1,0 @@
-# ollama
-
-**Resource:** ollama
-

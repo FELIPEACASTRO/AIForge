@@ -1,4 +1,0 @@
-# FONTES:
-
-**Resource:** FONTES:
-
