@@ -30,7 +30,7 @@
 | **02** | **[LLM & AI Models](./02_LLM_AND_AI_MODELS/)** | Frontier LLMs, open-source models, vision/audio/video/multimodal models, MoE, diffusion, world models, frameworks. |
 | **03** | **[Datasets, Tools & Resources](./03_DATASETS_TOOLS_AND_RESOURCES/)** | Curated datasets by modality, data engineering, storage & databases, cloud, **[HuggingFace Hub](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/)**, **[research/preprint platforms](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/)**. |
 | **04** | **[MLOps & Production AI](./04_MLOPS_AND_PRODUCTION_AI/)** | Model serving, LLM inference (vLLM/SGLang/TensorRT-LLM/llama.cpp), MLOps platforms, observability, deployment. |
-| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI + **[Kaggle competitions & winning solutions](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)**: Healthcare, **[Banking](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/)** (KYC/onboarding, AML, fraud), Agriculture, Robotics, AV, more. |
+| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI + **[Kaggle competitions & winning solutions](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)**: Healthcare, **[Banking](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/)** (KYC/onboarding, AML, fraud), **[Financial Markets](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/)** (stocks, options, futures, bonds, FX, crypto, quant trading), Agriculture, Robotics, AV, more. |
 
 ---
 
@@ -165,7 +165,7 @@
 ├── 01_Healthcare_and_Medical_AI/        Imaging, clinical NLP, drug discovery,
 │                                        radiology, cardiology, neurology,
 │                                        genomics, telemedicine, mental health
-├── 02_Finance_and_Fintech_AI/           Fraud, credit, trading, risk
+├── 02_Finance_and_Fintech_AI/           Banking (KYC/AML/fraud) + Financial Markets (stocks, options, FX, crypto, quant), credit, risk
 ├── 03_Agriculture_AgTech/               Precision farming, biomass, vegetation
 ├── 04_Climate_and_Sustainability/       Weather, Earth obs
 ├── 05_Education_AI/
