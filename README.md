@@ -30,7 +30,7 @@
 | **02** | **[LLM & AI Models](./02_LLM_AND_AI_MODELS/)** | Frontier LLMs, open-source models, vision/audio/video/multimodal models, MoE, diffusion, world models, frameworks. |
 | **03** | **[Datasets, Tools & Resources](./03_DATASETS_TOOLS_AND_RESOURCES/)** | Curated datasets by modality, data engineering, storage & databases, cloud, **[HuggingFace Hub](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/)**, **[research/preprint platforms](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/)**. |
 | **04** | **[MLOps & Production AI](./04_MLOPS_AND_PRODUCTION_AI/)** | Model serving, LLM inference (vLLM/SGLang/TensorRT-LLM/llama.cpp), MLOps platforms, observability, deployment. |
-| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI + **[Kaggle competitions & winning solutions](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)**: Healthcare, Finance, Agriculture, Robotics, AV, more. |
+| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI + **[Kaggle competitions & winning solutions](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)**: Healthcare, **[Banking](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/)** (KYC/onboarding, AML, fraud), Agriculture, Robotics, AV, more. |
 
 ---
 
