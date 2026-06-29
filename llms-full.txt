@@ -1,6 +1,6 @@
 # AIForge — Full Index for LLMs
 
-> Expanded llms.txt (see https://llmstxt.org/). AIForge is a curated index of the AI/ML/DL/LLM/Data-Science ecosystem: ~1,550 documents, 5,000+ links, organized into 5 pillars + a Frontier AI 2026 radar. Canonical names, no duplicates. Full sitemap: INDEX.md.
+> Expanded llms.txt (see https://llmstxt.org/). AIForge is a curated index of the AI/ML/DL/LLM/Data-Science ecosystem: 1,650+ documents, 7,500+ links, organized into 5 pillars + a Frontier AI 2026 radar. Canonical names, no duplicates. Full sitemap: INDEX.md.
 
 Repository: https://github.com/FELIPEACASTRO/AIForge | License: MIT
 

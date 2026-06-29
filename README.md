@@ -30,7 +30,7 @@
 | **02** | **[LLM & AI Models](./02_LLM_AND_AI_MODELS/)** | Frontier LLMs, open-source models, vision/audio/video/multimodal models, MoE, diffusion, world models, frameworks. |
 | **03** | **[Datasets, Tools & Resources](./03_DATASETS_TOOLS_AND_RESOURCES/)** | Curated datasets by modality, data engineering, storage & databases, cloud, **[HuggingFace Hub](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/)**, **[research/preprint platforms](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/)**. |
 | **04** | **[MLOps & Production AI](./04_MLOPS_AND_PRODUCTION_AI/)** | Model serving, LLM inference (vLLM/SGLang/TensorRT-LLM/llama.cpp), MLOps platforms, observability, deployment. |
-| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI + **[Kaggle competitions & winning solutions](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)**: Healthcare, Finance, Agriculture, Robotics, AV, more. |
+| **05** | **[Vertical Applications](./05_VERTICAL_APPLICATIONS/)** | Industry-specific AI + **[Kaggle competitions & winning solutions](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)**: Healthcare, **[Banking](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/)** (KYC/onboarding, AML, fraud), **[Financial Markets](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/)** (stocks, options, futures, bonds, FX, crypto, quant trading), Agriculture, Robotics, AV, more. |
 
 ---
 
@@ -50,6 +50,13 @@
 
 ```
 01_AI_FUNDAMENTALS_AND_THEORY/
+├── Mathematics_for_ML/                  NEW — linear algebra, calculus, probability, stats, convex opt
+├── Statistical_Learning/                 NEW — regression, GLMs, time series, survival, A/B testing
+├── Probabilistic_ML/                     NEW — PGMs, Gaussian processes, VI, MCMC, HMMs, PPLs
+├── Classical_ML_Algorithms/              NEW — SVM, trees, RF, boosting, kNN, clustering, PCA
+├── AutoML/                               NEW — HPO, AutoML frameworks, auto feature engineering
+├── Feature_Engineering/                  NEW — selection, scaling/encoding, techniques
+├── Model_Evaluation/                     NEW — metrics, model selection & validation
 ├── Machine_Learning/                    Classical ML, supervised/unsupervised
 ├── Deep_Learning/                       Architectures, regularization, optim
 ├── Reinforcement_Learning/
@@ -158,7 +165,7 @@
 ├── 01_Healthcare_and_Medical_AI/        Imaging, clinical NLP, drug discovery,
 │                                        radiology, cardiology, neurology,
 │                                        genomics, telemedicine, mental health
-├── 02_Finance_and_Fintech_AI/           Fraud, credit, trading, risk
+├── 02_Finance_and_Fintech_AI/           Banking (KYC/AML/fraud) + Financial Markets (stocks, options, FX, crypto, quant), credit, risk
 ├── 03_Agriculture_AgTech/               Precision farming, biomass, vegetation
 ├── 04_Climate_and_Sustainability/       Weather, Earth obs
 ├── 05_Education_AI/
@@ -207,7 +214,7 @@ See the full growth plan in [DISCOVERABILITY.md](./DISCOVERABILITY.md).
 ## ❓ Frequently Asked Questions (FAQ)
 
 **What is AIForge?**
-AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — ~1,550 curated documents linking to 5,000+ external resources, organized into a clean, duplicate-free taxonomy of 5 pillars plus a Frontier AI 2026 radar.
+AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — 1,650+ curated documents linking to 7,500+ external resources, organized into a clean, duplicate-free taxonomy of 5 pillars plus a Frontier AI 2026 radar.
 
 **Who is AIForge for?**
 Data scientists, ML/AI engineers, researchers, students, and anyone who wants a single, well-organized map of AI/ML resources — from theory to production.

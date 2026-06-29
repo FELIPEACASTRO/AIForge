@@ -1,6 +1,6 @@
 # AIForge
 
-> AIForge is a comprehensive, curated index of the Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — from foundational theory to production deployment and industry verticals. ~1,550 curated documents and 5,000+ external resource links, organized into a clean, duplicate-free, English snake_case taxonomy.
+> AIForge is a comprehensive, curated index of the Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — from foundational theory to production deployment and industry verticals. 1,650+ curated documents and 7,500+ external resource links, organized into a clean, duplicate-free, English snake_case taxonomy.
 
 AIForge is structured as 5 stable pillars plus a "Frontier AI 2026" innovation radar. Every directory has a canonical, descriptive name. Use INDEX.md as the full sitemap and NAVIGATION_GUIDE.md for topic-first lookup. This file (llms.txt) follows the https://llmstxt.org/ convention so AI assistants and agents can quickly find and cite the right section.
 
@@ -35,6 +35,8 @@ License: MIT
 
 ## Pillar 05 — Vertical Applications
 - [05_VERTICAL_APPLICATIONS](https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS): Healthcare, Finance/Fintech, Agriculture, Climate, Education, Legal, Retail, Manufacturing, Robotics & Embodied AI, Autonomous Vehicles, Energy, Cybersecurity, Conversational AI.
+- [Banking AI](https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking): Customer onboarding (KYC/eKYC), identity verification, transaction monitoring & AML, fraud detection, transaction categorization, credit scoring, payments, open banking, conversational/agentic banking.
+- [Financial Markets & Investing AI](https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets): All investment modalities — equities/stocks, options & derivatives, futures & commodities, fixed income/bonds, FX, ETFs/funds, crypto — plus algorithmic/quant trading, portfolio optimization, market microstructure & HFT, risk & derivatives pricing, technical/fundamental analysis, alternative data, backtesting, datasets/APIs, tools, key papers.
 - [Kaggle Competitions & Winning Solutions](https://github.com/FELIPEACASTRO/AIForge/tree/master/05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle): 216-competition index, top public solution notebooks, curated winning write-ups, Grandmaster playbook.
 
 ## Optional
