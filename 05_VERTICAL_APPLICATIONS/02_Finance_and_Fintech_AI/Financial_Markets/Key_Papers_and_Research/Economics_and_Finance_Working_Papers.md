@@ -66,8 +66,8 @@ RePEc (Research Papers in Economics) is a **decentralized bibliographic database
 ### Searching RePEc by topic (the quant workflow)
 - **Browse by JEL code** — the canonical way to find asset-pricing work:
   - **G12** Asset Pricing; Trading Volume; Bond Interest Rates → https://ideas.repec.org/j/G12.html
-  - **G11** Portfolio Choice; Investment Decisions; **G13** Contingent Pricing; Futures Pricing (derivatives/options); **G14** Information & Market Efficiency; **C58** Financial Econometrics.
-  - EconPapers JEL pattern: `https://econpapers.repec.org/scripts/search.pf?jel=G12`
+  - **G11** Portfolio Choice; Investment Decisions; **G13** Contingent Pricing; Futures Pricing (derivatives/options); **G14** Information & Market Efficiency; **C58** Financial Econometrics. (All five resolve to `https://ideas.repec.org/j/<CODE>.html`, e.g. `/j/G13.html`.)
+  - EconPapers JEL hub (pick a code from the list): `https://econpapers.repec.org/scripts/jelsearch.pf`
 - **Browse by series** — IDEAS series pattern `https://ideas.repec.org/s/<handle>.html` (e.g. CEPR DPs at https://ideas.repec.org/s/cpr/ceprdp.html). EconPapers series pattern: `https://econpapers.repec.org/paper/<archive><series>/`.
 - **Author tracking** — every registered economist has an IDEAS profile listing all their indexed papers plus citation counts; this is how you follow a factor researcher's full pipeline.
 - **Citation/reference graphs** (via CitEc) on IDEAS let you do forward-citation chasing on a seminal factor paper to find every follow-up and replication.
@@ -91,7 +91,7 @@ RePEc (Research Papers in Economics) is a **decentralized bibliographic database
 | **AgEcon Search** | https://ageconsearch.umn.edu/ | Agricultural/applied & **commodity** economics (~150,000 texts) — relevant for commodity derivatives |
 | **arXiv q-fin** | https://arxiv.org/archive/q-fin | Quantitative-finance preprints (math/ML-heavy; pricing, microstructure, portfolio management) |
 
-**FEDS direct PDF pattern:** `https://www.federalreserve.gov/econres/feds/files/<YEAR><NUM>pap.pdf`.
+**FEDS direct PDF pattern:** `https://www.federalreserve.gov/econres/feds/files/<YEAR><NNN>pap.pdf` (3-digit zero-padded number, e.g. https://www.federalreserve.gov/econres/feds/files/2024007pap.pdf).
 
 ---
 

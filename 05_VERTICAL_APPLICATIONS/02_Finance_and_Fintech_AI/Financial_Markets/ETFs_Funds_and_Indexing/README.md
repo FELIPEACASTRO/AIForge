@@ -31,6 +31,12 @@
 - Malkiel, *A Random Walk Down Wall Street* — indexing rationale.
 - Arnott, Hsu, Moore, *Fundamental Indexation* (FAJ 2005).
 
+## 🌎 ETF deep-dives by country
+| Page | What's inside |
+|---|---|
+| [Brazilian ETFs on B3](./Brazilian_ETFs_B3.md) | BOVA11, IVVB11, SMAL11, BOVV11, PIBB11, DIVO11, GOLD11, fixed-income (IMAB11, IB5M11, FIXA11), thematic (NASD11, HASH11), issuers, costs, tributação de ETF. |
+| [US ETFs](./US_ETFs.md) | SPY/IVV/VOO, QQQ, VTI, bond/intl ETFs, sector SPDRs, spot bitcoin ETFs (IBIT/FBTC), leveraged, issuers, creation/redemption, access from abroad. |
+
 ## Related in AIForge
 - [Portfolio Management & Optimization](../Portfolio_Management_and_Optimization/) · [Equities & Stock Markets](../Equities_and_Stock_Markets/) · [Technical & Fundamental Analysis](../Technical_and_Fundamental_Analysis/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/)

@@ -70,9 +70,9 @@ The **advanced search** UI (<https://arxiv.org/search/advanced>) lets you tick t
 - **Endpoint:** `http://export.arxiv.org/api/query` (HTTPS works too)
 - **Manual:** <https://info.arxiv.org/help/api/user-manual.html>
 - **Output:** Atom 1.0 XML (title, authors, abstract, categories, DOI, dates)
-- **Pagination:** `start` + `max_results` (cap 30,000 per query; page in batches of ≤2,000)
+- **Pagination:** `start` + `max_results` (cap 30,000 per query; page in slices of ≤2,000; over-cap requests return HTTP 400)
 - **Sort:** `sortBy=submittedDate|lastUpdatedDate|relevance`, `sortOrder=ascending|descending`
-- **Etiquette:** ≤1 request / 3 s; identify yourself; bulk harvesting should use OAI-PMH instead.
+- **Etiquette:** insert a ≥3 s delay between successive calls; cache daily (results change only when new articles post); bulk harvesting should use OAI-PMH instead.
 
 **Example queries (paste into a browser or `curl`):**
 
@@ -90,11 +90,11 @@ http://export.arxiv.org/api/query?search_query=%28cat:q-fin.TR+OR+cat:cs.LG%29+A
 http://export.arxiv.org/api/query?search_query=au:Buehler_H+AND+cat:q-fin.PR
 ```
 
-Query-builder fields: `ti:` (title), `au:` (author), `abs:` (abstract), `cat:` (category), `all:`; combine with `AND`/`OR`/`ANDNOT` (URL-encode spaces as `+` and quotes as `%22`).
+Query-builder fields: `ti:` (title), `au:` (author), `abs:` (abstract), `cat:` (category), `co:` (comment), `jr:` (journal ref), `rn:` (report no.), `all:`; combine with `AND`/`OR`/`ANDNOT` (URL-encode spaces as `+` and quotes as `%22`).
 
-- **Bulk / mirroring:** OAI-PMH at `http://export.arxiv.org/oai2` (set `metadataPrefix=arXiv`, `set=q-fin`).
+- **Bulk / mirroring:** OAI-PMH at `https://oaipmh.arxiv.org/oai` (set `metadataPrefix=arXiv`, `set=q-fin`; the old `export.arxiv.org/oai2` now 301-redirects here).
 - **Python wrappers:** `arxiv` (<https://pypi.org/project/arxiv/>), `lukasschwab/arxiv.py` (<https://github.com/lukasschwab/arxiv.py>).
-- **RSS/Atom feeds:** `http://export.arxiv.org/rss/q-fin.TR` (per-subcategory daily feed for trackers).
+- **RSS/Atom feeds (re-implemented Jan 2024):** `https://rss.arxiv.org/rss/q-fin.TR` (RSS 2.0) or `https://rss.arxiv.org/atom/q-fin.TR` (Atom); combine categories with `+`, e.g. `.../rss/q-fin.TR+q-fin.PR`. `arxiv.org/rss/...` redirects to `rss.arxiv.org`.
 
 ---
 
@@ -102,7 +102,7 @@ Query-builder fields: `ti:` (title), `au:` (author), `abs:` (abstract), `cat:` (
 
 | Tool | URL | What it adds | Tip |
 |------|-----|--------------|-----|
-| **ar5iv** | `https://ar5iv.org/abs/<id>` (or `ar5iv.labs.arxiv.org`) | HTML rendering of any arXiv paper (mobile-friendly, no PDF) | Swap `arxiv.org/abs/2011.09607` → `ar5iv.org/abs/2011.09607` |
+| **ar5iv** | `https://ar5iv.org/abs/<id>` (301-redirects to `ar5iv.labs.arxiv.org`) | HTML rendering of any arXiv paper (mobile-friendly, no PDF) | Swap `arxiv.org/abs/2011.09607` → `ar5iv.org/abs/2011.09607` |
 | **alphaXiv** | <https://www.alphaxiv.org/> | AI Q&A on papers, comments, related-work; replace `arxiv`→`alphaxiv` in any URL | Good for understanding a dense q-fin proof fast |
 | **SciRate** | <https://scirate.com/> | Community "scites" / ranking of arXiv papers, daily feeds per category | Sort q-fin by scites to surface attention |
 | **Hugging Face Papers** | <https://huggingface.co/papers> | Daily trending arXiv papers, linked code/models/datasets, search by title/abstract | Best for ML-finance with released code |
@@ -155,13 +155,13 @@ A starting reading list, all discoverable via the channels above. Use these as C
 
 | Paper | Authors | Where | Link |
 |-------|---------|-------|------|
-| **Deep Hedging** | Buehler, Gonon, Teichmann, Wood (2019) | arXiv 1802.03042 (q-fin.PR/CP) | <https://arxiv.org/abs/1802.03042> |
+| **Deep Hedging** | Bühler, Gonon, Teichmann, Wood (2018) | arXiv 1802.03042 (primary q-fin.CP; cross-list q-fin.RM, math.NA/OC/PR) | <https://arxiv.org/abs/1802.03042> |
 | **Empirical Asset Pricing via Machine Learning** | Gu, Kelly, Xiu (2020, *RFS*) | SSRN 3159577 / NBER w25398 | <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3159577> · <https://www.nber.org/papers/w25398> |
-| **FinRL: A Deep RL Library for Automated Stock Trading** | Liu et al. (2020) | arXiv 2011.09607 (q-fin.TR / cs.LG) | <https://arxiv.org/abs/2011.09607> |
-| **FinRL: DRL Framework to Automate Trading** | Liu et al. (2021) | arXiv 2111.09395 | <https://arxiv.org/abs/2111.09395> |
-| **Deep Hedging: Learning to Simulate Equity Option Markets** | Wiese, Bai, Wood, Buehler (2019) | arXiv 1911.01700 (q-fin.PR) | <https://arxiv.org/abs/1911.01700> |
-| **Deep Hedging: Learning Risk-Neutral Implied Volatility Dynamics** | Buehler et al. (2021) | arXiv 2103.11948 | <https://arxiv.org/abs/2103.11948> |
-| **Stock Market Prediction via Deep Learning Techniques: A Survey** | Survey (2022) | arXiv 2212.12717 (q-fin.ST) | <https://arxiv.org/abs/2212.12717> |
+| **FinRL: A Deep RL Library for Automated Stock Trading** | Liu, Yang, Chen, Zhang, Yang, Xiao, Wang (2020) | arXiv 2011.09607 (q-fin.TR / cs.LG) | <https://arxiv.org/abs/2011.09607> |
+| **FinRL: DRL Framework to Automate Trading** | Liu, Yang, Gao, Wang (2021) | arXiv 2111.09395 (q-fin.TR / cs.LG) | <https://arxiv.org/abs/2111.09395> |
+| **Deep Hedging: Learning to Simulate Equity Option Markets** | Wiese, Bai, Wood, Buehler (2019) | arXiv 1911.01700 (primary q-fin.CP; cross-list cs.LG, q-fin.MF/ST, stat.ML) | <https://arxiv.org/abs/1911.01700> |
+| **Deep Hedging: Learning Risk-Neutral Implied Volatility Dynamics** | Buehler, Murray, Pakkanen, Wood (2021) | arXiv 2103.11948 (primary q-fin.CP; cross-list math.OC, q-fin.ST, stat.ML) | <https://arxiv.org/abs/2103.11948> |
+| **Stock Market Prediction via Deep Learning Techniques: A Survey** | Zou et al. (2022) | arXiv 2212.12717 (q-fin.GN) | <https://arxiv.org/abs/2212.12717> |
 
 > Verify IDs by opening the `/abs/` link; arXiv numbers and versions are stable and citable. Do not cite a paper you have not opened.
 
@@ -170,7 +170,7 @@ A starting reading list, all discoverable via the channels above. Use these as C
 ## 8. Fast recipes
 
 - **"What's new in B3/options ML this month?"** → `https://arxiv.org/list/q-fin.PR/recent` and `q-fin.TR/recent`, plus SSRN FEN and SciELO Preprints (PT-BR).
-- **"Track a subfield automatically"** → subscribe to RSS `http://export.arxiv.org/rss/q-fin.TR` and follow a SciRate category feed.
+- **"Track a subfield automatically"** → subscribe to RSS `https://rss.arxiv.org/rss/q-fin.TR` and follow a SciRate category feed.
 - **"Find code with the paper"** → Hugging Face Papers and the Papers-with-Code links on the abstract page.
 - **"Reproducible dataset for a Brazil study"** → publish/find data on Zenodo (DOI), manuscript on SciELO Preprints/SSRN.
 - **"Map citations around Deep Hedging"** → seed Connected Papers / Semantic Scholar with arXiv 1802.03042.

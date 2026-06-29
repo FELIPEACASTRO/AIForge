@@ -44,6 +44,7 @@
 |---|---|
 | [HuggingFace Finance Datasets & Models](./HuggingFace_Finance_Datasets_and_Models.md) | Top finance models (FinBERT, FinBERT-tone, **FinBERT-PT-BR 🇧🇷**, FinancialBERT) and datasets (financial_phrasebank, FinanceBench, twitter-financial-news, yahoo-finance-data), ranked by downloads, + HF API snippets. |
 | [Kaggle Finance Competitions & Datasets](./Kaggle_Finance_Competitions_and_Datasets.md) | Landmark quant competitions (Jane Street, Optiver, G-Research Crypto, JPX, Two Sigma, Ubiquant) + curated datasets (US/India equities, options, crypto, FX, sentiment) + Kaggle API snippets. |
+| [Brazil & B3 Market Data — APIs](./Brazil_B3_Market_Data_APIs.md) | 🇧🇷 brapi.dev, `yfinance` `.SA`, MetaTrader5, python-bcb (Selic/IPCA), B3 UP2DATA, Status Invest/Fundamentus, Tesouro Direto, CVM open data — with endpoints & code snippets. |
 
 ## Notes & caveats
 

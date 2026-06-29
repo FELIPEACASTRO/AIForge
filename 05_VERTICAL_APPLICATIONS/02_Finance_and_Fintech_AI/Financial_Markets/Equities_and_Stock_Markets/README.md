@@ -40,6 +40,12 @@ Critical practices: **point-in-time** data (no look-ahead via restated fundament
 - López de Prado, *Advances in Financial Machine Learning* (2018). https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086
 - Zhang et al., *DeepLOB: Deep Convolutional Neural Networks for Limit Order Books* (2019). https://arxiv.org/abs/1808.03668
 
+## 🌎 Market deep-dives by country
+| Page | What's inside |
+|---|---|
+| [B3 — Brazilian Stock Market](./B3_Brazilian_Stock_Market.md) | Ações na B3: Novo Mercado, ON/PN/Units, tickers (PETR4/VALE3), Ibovespa, BDRs, lote/fracionário, D+2, tributação, corretoras, dados (brapi/MT5/yfinance .SA). |
+| [US Stock Market — NYSE & Nasdaq](./US_Stock_Market_NYSE_Nasdaq.md) | Reg NMS, NBBO, S&P 500/Dow/Nasdaq/Russell, T+1, PFOF, ADRs, how Brazilians invest in the US (BDRs, Avenue/IBKR, W-8BEN). |
+
 ## Related in AIForge
 - [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Portfolio Management](../Portfolio_Management_and_Optimization/) · [Technical & Fundamental Analysis](../Technical_and_Fundamental_Analysis/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/)

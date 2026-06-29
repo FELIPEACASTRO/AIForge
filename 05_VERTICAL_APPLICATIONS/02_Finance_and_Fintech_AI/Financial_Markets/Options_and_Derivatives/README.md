@@ -40,6 +40,12 @@
 - Horvath, Muguruza, Tomas, *Deep Learning Volatility* (2019) — deep calibration of rough-vol. https://arxiv.org/abs/1901.09647
 - Gatheral, *The Volatility Surface* (2006).
 
+## 🌎 Options & derivatives deep-dives by country
+| Page | What's inside |
+|---|---|
+| [B3 Options & Derivatives (Brazil)](./B3_Options_and_Derivatives_Brazil.md) | Opções sobre ações/Ibovespa, convenção de séries/letras, futuros WIN/IND, WDO/DOL, DI, agro, especificações de contrato, margem, day trade, COE. |
+| [US Options & Derivatives](./US_Options_and_Derivatives.md) | Equity/ETF options (100x), SPX/XSP index options, OCC, VIX, weeklys/0DTE, strategies, CME futures (ES/MES, NQ/MNQ), OPRA. |
+
 ## Related in AIForge
 - [Risk Management & Derivatives Pricing](../Risk_Management_and_Derivatives_Pricing/) · [Futures & Commodities](../Futures_and_Commodities/) · [Crypto & Digital Assets](../Crypto_and_Digital_Assets/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/)

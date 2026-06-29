@@ -56,6 +56,13 @@
 - Ozbayoglu, Gudelek, Sezer, *Deep Learning for Financial Applications: A Survey* (2020). https://arxiv.org/abs/2002.05786
 - Hambly, Xu, Yang, *Recent Advances in Reinforcement Learning in Finance* (2021). https://arxiv.org/abs/2112.04553
 
+## 🔎 Where to find the research (platforms & search)
+| Page | What's inside |
+|---|---|
+| [arXiv q-fin & Preprint Servers](./arXiv_q-fin_and_Preprints.md) | All nine q-fin subcategories (CP/GN/MF/PM/PR/RM/ST/TR/EC), arXiv API & listing/RSS URLs, ar5iv/alphaXiv/SciRate, general & Brazil preprints (SciELO Preprints). |
+| [Economics & Finance Working Papers](./Economics_and_Finance_Working_Papers.md) | SSRN/FEN, NBER, RePEc/IDEAS/EconPapers, CEPR, EconStor, MPRA, Fed/IMF/World Bank, 🇧🇷 BCB & RBFin/SBFin — with how-to-search & JEL tips. |
+| [Research Search Engines & Aggregators](./Research_Search_Engines_and_Aggregators.md) | Papers with Code (→ HF Papers), Semantic Scholar API, OpenAlex API, DBLP, CORE, Crossref, Unpaywall — example queries for ML-finance literature pipelines. |
+
 ## Related in AIForge
 - [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Backtesting & Frameworks](../Backtesting_and_Frameworks/) · [Options & Derivatives](../Options_and_Derivatives/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/) · [Alternative Data & Sentiment](../Alternative_Data_and_Sentiment_Analysis/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/)
