@@ -144,7 +144,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 | [**Deutsche-Boerse/a7**](https://github.com/Deutsche-Boerse/a7) | Eurex/Xetra **order-by-order** | Cloud API / SDK | Freemium | Tick-level, research-grade |
 | [**Euronext Web Services**](https://www.euronext.com/en/data/how-access-market-data/web-services) | Paris/AMS/BRU/LIS/DUB/MIL/OSL | REST web API | Paid (low cost) | Official quotes + reference data |
 | [**SIX**](https://www.six-group.com/en/products-services/the-swiss-stock-exchange/market-data.html) | SIX Swiss + BME (Spain) | Vendor feeds | Paid | FINMA-supervised official source |
-| [**EODHD**](https://eodhd.com/list-of-stock-markets) | 60+ exchanges incl. all above; 15-20y EU history | REST API | Freemium/paid | Splits/div-adjusted OHLCV; intraday 1m/5m/1h |
+| [**EODHD**](https://eodhd.com/list-of-stock-markets) | 70+ exchanges incl. all above; 15-20y EU history | REST API | Freemium/paid | Splits/div-adjusted OHLCV; intraday 1m/5m/1h |
 | [**Tiingo**](https://www.tiingo.com/) | EOD global incl. major EU | REST API | Freemium | Strong fundamentals + news |
 | [**OpenBB Platform**](https://docs.openbb.co/platform/reference/equity/price/historical) | Aggregator over yfinance/Tiingo/EODHD/FMP | Python/CLI | Free core | Single API, swappable providers |
 | [**FTSE Russell / LSEG**](https://www.lseg.com/en/ftse-russell/academic-solutions) | Index constituents, GEIS Monitor List (~34k equities) | Academic program / vendor | Paid/academic | Free-float, nationality, review data |

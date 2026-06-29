@@ -140,11 +140,11 @@ Lightweight ingestion layers — the practical on-ramp before any of the above.
 | `JerBouma/FinanceToolkit` | 150+ financial ratios/metrics from raw fundamentals; transparent formulas. | 5.0k | Active | https://github.com/JerBouma/FinanceToolkit |
 | `cuemacro/finmarketpy` | Market analysis + backtesting (Cuemacro); pairs with `findatapy`. | 3.8k | Active | https://github.com/cuemacro/finmarketpy |
 | `cuemacro/findatapy` | Unified API over Bloomberg/Quandl/Dukascopy/ALFRED and CSVs. | 2.1k | Active | https://github.com/cuemacro/findatapy |
-| `alvarobartt/investpy` | Investing.com scraper. **Deprecated/blocked** since 2022 (Cloudflare); kept for reference only. | 1.8k | Broken | https://github.com/alvarobartt/investpy |
+| `alvarobartt/investpy` | Investing.com scraper. **Broken** — README warns it no longer works due to Investing.com API changes and points users to `investiny`. Kept for reference only. | 1.8k | Broken | https://github.com/alvarobartt/investpy |
 | `dpguthrie/yahooquery` | Alternative Yahoo Finance API (more endpoints: fundamentals, options). | 0.9k | Active | https://github.com/dpguthrie/yahooquery |
-| `pandas-datareader` | Legacy pandas remote-data access (FRED, Stooq, etc.); maintenance-mode but still useful for FRED. | — | Low activity | https://github.com/pydata/pandas-datareader |
+| `pydata/pandas-datareader` | Legacy pandas remote-data access (FRED, Stooq, etc.); maintenance-mode but still useful for FRED. | 3.2k | Low activity | https://github.com/pydata/pandas-datareader |
 
-> **investpy status (important):** `investpy` no longer works — Investing.com added Cloudflare protection in 2022 and the maintainer marked it deprecated. Do not recommend it for new pipelines; use `yfinance`/`yahooquery`/OpenBB or official exchange feeds instead.
+> **investpy status (important):** `investpy` no longer works — its README warns it is broken due to Investing.com API changes and directs users to the (also limited) `investiny`. Do not recommend it for new pipelines; use `yfinance`/`yahooquery`/OpenBB or official exchange feeds instead.
 
 ---
 
@@ -158,7 +158,7 @@ Under-indexed globally but essential for B3/Bacen data. English description, Por
 | `brapi` (brapi.dev) | Free REST API for B3 equities (ações), FIIs, ETFs, dividends and crypto; ~15-min delayed quotes. Multiple community clients. | — | Free tier; key for higher limits. Org: https://github.com/brapi-dev | https://brapi.dev |
 | `geovannyAvelar/brapigo` | Go client for brapi.dev (Brazilian stock data). | 0 | Reference client. | https://github.com/geovannyAvelar/brapigo |
 | MetaTrader 5 (MT5) Python | Official `MetaTrader5` PyPI package bridges Python to an MT5 terminal — the standard route to **live B3/forex data and order execution** for Brazilian retail brokers. | — | `pip install MetaTrader5`; needs an MT5 terminal + broker account. | https://pypi.org/project/MetaTrader5/ |
-| `sgs` (PyPI) | Lightweight pure-Bacen SGS time-series fetcher (alternative to `python-bcb`). | — | `pip install sgs`. | https://pypi.org/project/sgs/ |
+| `rafpyprog/pySGS` (`sgs` on PyPI) | Lightweight pure-Bacen SGS time-series fetcher (18k+ séries, search + caching); alternative to `python-bcb`. By Rafael Alves Ribeiro. | 0.1k | `pip install sgs`. | https://github.com/rafpyprog/pySGS |
 
 > Brazilian quant context: Wilson Freitas (maintainer of `awesome-quant` *and* `python-bcb`) is a hub of the Brazilian OSS-quant scene. Community courses/notebooks like `codigoquant/python_para_investimentos` show end-to-end Bacen+B3 pipelines in Portuguese.
 
@@ -169,7 +169,7 @@ Under-indexed globally but essential for B3/Bacen data. English description, Por
 | Library | What | Stars (~) | License | Link |
 |---|---|---|---|---|
 | `alpacahq/alpaca-py` | Official SDK for Alpaca commission-free US stocks/crypto trading + market data. | 1.4k | Apache-2.0 | https://github.com/alpacahq/alpaca-py |
-| `polygon-io/client-python` | Official Polygon.io client (US equities/options/FX/crypto market data). | — | MIT | https://github.com/polygon-io/client-python |
+| `massive-com/client-python` | Official Polygon.io client (US equities/options/FX/crypto data). **Polygon.io rebranded to Massive (Oct 2025)**, so the repo/org is now `massive-com`; PyPI is still `polygon-api-client` and `api.polygon.io` keys keep working. | 1.4k | MIT | https://github.com/massive-com/client-python |
 | `QuantConnect/lean-cli` | Local CLI for the LEAN engine — backtest/live without the cloud UI. | 0.3k | Apache-2.0 | https://github.com/QuantConnect/lean-cli |
 
 ---
@@ -192,6 +192,6 @@ Under-indexed globally but essential for B3/Bacen data. English description, Por
 - https://github.com/goldmansachs/gs-quant • https://github.com/lballabio/QuantLib • https://github.com/google/tf-quant-finance • https://github.com/hudson-and-thames/mlfinlab
 - https://github.com/TauricResearch/TradingAgents • https://github.com/virattt/ai-hedge-fund • https://github.com/AI4Finance-Foundation/FinGPT • https://github.com/AI4Finance-Foundation/FinRL • https://github.com/microsoft/qlib • https://github.com/microsoft/RD-Agent • https://github.com/OpenBB-finance/OpenBB
 - https://github.com/TA-Lib/ta-lib-python • https://github.com/xgboosted/pandas-ta-classic • https://github.com/ranaroussi/yfinance • https://github.com/JerBouma/FinanceDatabase • https://github.com/cuemacro/findatapy • https://github.com/alvarobartt/investpy
-- https://github.com/wilsonfreitas/python-bcb • https://brapi.dev • https://github.com/brapi-dev • https://pypi.org/project/MetaTrader5/ • https://pypi.org/project/sgs/
+- https://github.com/wilsonfreitas/python-bcb • https://brapi.dev • https://github.com/brapi-dev • https://github.com/geovannyAvelar/brapigo • https://pypi.org/project/MetaTrader5/ • https://github.com/rafpyprog/pySGS • https://github.com/massive-com/client-python (ex-`polygon-io/client-python`)
 
 **Keywords:** open-source quant, awesome lists, awesome-quant, systematic trading, backtesting engine, portfolio optimization, risk analytics, financial machine learning, RL trading, LLM trading agents, FinGPT, FinRL, Qlib, OpenBB, NautilusTrader, alt-data, B3, Bacen, MetaTrader 5; código aberto quant, listas awesome, negociação sistemática, backtesting, otimização de carteira, análise de risco, aprendizado de máquina em finanças, aprendizado por reforço, agentes LLM de trading, dados alternativos, ações, câmbio, séries temporais

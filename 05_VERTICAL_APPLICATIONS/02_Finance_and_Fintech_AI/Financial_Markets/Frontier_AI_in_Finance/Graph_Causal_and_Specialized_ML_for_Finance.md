@@ -41,7 +41,7 @@ The shift is from a *static* relation graph to **a fresh graph per trading day**
 
 | Method | What's new | Key paper | Link |
 |---|---|---|---|
-| **THGNN** | Builds a company-relation graph *each day* from recent prices; Transformer temporal encoder + heterogeneous GAT; deployed in a live quant system | Xiang et al., CIKM 2022 / 2023 | [arXiv:2305.08740](https://arxiv.org/abs/2305.08740) |
+| **THGNN** | Builds a company-relation graph *each day* from recent prices; Transformer temporal encoder + heterogeneous GAT; deployed in a live quant system | Xiang et al., *Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction*, CIKM 2022 | [arXiv:2305.08740](https://arxiv.org/abs/2305.08740) |
 | **MDGNN** | Multi-relational *dynamic* GNN for comprehensive stock investment | 2024 | [arXiv:2402.06633](https://arxiv.org/abs/2402.06633) |
 | **FinMamba** | Market-aware graph + multi-level Mamba (state-space) for movement prediction | 2025 | [arXiv:2502.06707](https://arxiv.org/abs/2502.06707) |
 | **MaGNet** | Mamba dual-*hypergraph* for temporal-causal + global relational learning | 2025 | [arXiv:2511.00085](https://arxiv.org/abs/2511.00085) |
@@ -66,8 +66,9 @@ The shift is from a *static* relation graph to **a fresh graph per trading day**
 | Work | Thesis | Link |
 |---|---|---|
 | López de Prado, **Causal Factor Investing: Can Factor Investing Become Scientific?**, Cambridge Univ. Press, *Elements in Quantitative Finance*, 2023 | Factor literature makes associational claims while denying causal content; without a stated causal graph, findings are likely false (backtest overfitting + bad controls/colliders) | [Cambridge](https://www.cambridge.org/core/elements/causal-factor-investing/9AFE270D7099B787B8FD4F4CBADE0C6E) · [SSRN 4205613](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4205613) · free PDF [quantresearch.org](https://www.quantresearch.org/QF_Causal_Factor_Investing.pdf) |
-| López de Prado & Zoonekynd, **Causality and Factor Investing: A Primer**, CFA Institute Research Foundation, 2024 | Accessible primer version | [CFA RF PDF](https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_lopezdeprado_causalityprimer_online.pdf) · [SSRN 5277078](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5277078) |
-| Journal version | Peer-reviewed *Quantitative Finance* article | [Tandfonline](https://www.tandfonline.com/doi/full/10.1080/14697688.2024.2354849) |
+| López de Prado & Zoonekynd, **Causality and Factor Investing: A Primer**, CFA Institute Research Foundation, 2025 | Accessible primer version | [CFA RF landing](https://rpc.cfainstitute.org/research/foundation/2025/causality-factor-investing) · [PDF](https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_lopezdeprado_causalityprimer_online.pdf) · [SSRN 5277078](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5277078) |
+| Journal version | Peer-reviewed *Quantitative Finance* article (2024) | [Tandfonline](https://www.tandfonline.com/doi/full/10.1080/14697688.2024.2354849) |
+| López de Prado, Lipton & Zoonekynd, **The Case for Causal Factor Investing**, 2024 | Short companion arguing the practical case for causal factor models | [SSRN 4774522](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4774522) |
 
 ### 2.2 Double / debiased machine learning (econ.EM)
 
@@ -96,7 +97,7 @@ Learning the causal *graph* directly from return time series (lagged conditional
 
 | Work | Contribution | Link |
 |---|---|---|
-| Goldsmith-Pinkham et al., **Causal Inference in Financial Event Studies**, 2025 | Shows market-model event studies are biased under (near-certain) factor misspecification; recommends diff-in-means, DiD, synthetic control, synthetic DiD | [arXiv:2511.15123](https://arxiv.org/abs/2511.15123) · [PDF](https://paulgp.com/papers/financial_event_studies_nov18.pdf) |
+| Goldsmith-Pinkham & Lyu, **Causal Inference in Financial Event Studies**, 2025 | Shows market-model event studies are biased under (near-certain) factor misspecification; recommends diff-in-means, DiD, synthetic control, synthetic DiD | [arXiv:2511.15123](https://arxiv.org/abs/2511.15123) · [PDF](https://paulgp.com/papers/financial_event_studies_nov18.pdf) |
 | Synthetic Diff-in-Diff (practitioner) | Hands-on Python | [Causal Inference for the Brave and True, ch.25](https://matheusfacure.github.io/python-causality-handbook/25-Synthetic-Diff-in-Diff.html) |
 
 **Honest read.** Causal methods rarely improve raw return prediction — that's not their job. Their payoff is (a) *killing spurious factors* before you trade them, (b) getting *unbiased* effect estimates for events/policies, and (c) building models that survive distribution shift. The hard part is the *untestable* assumptions (no unobserved confounding, correct graph); on observational market data these are routinely violated, so treat any single causal estimate as a *hypothesis*, not a fact. PT note: the López de Prado primer is the single best Portuguese-accessible entry point conceptually (he is widely read in BR quant circles).
@@ -112,7 +113,8 @@ Learning the causal *graph* directly from return time series (lagged conditional
 | **Gaussian HMM** | Classic 2–3 state bull/bear/crisis labeling on returns+vol | Kritzman et al. regime framework; `hmmlearn` | [Kritzman-Regime-Detection](https://github.com/tianyu-z/Kritzman-Regime-Detection) · https://github.com/hmmlearn/hmmlearn |
 | **Hidden semi-Markov / HMM regression** | Model state *durations* and regime-switching regressions | Model-based clustering with HMM regression | [arXiv:1312.7024](https://arxiv.org/abs/1312.7024) |
 | **Change-point detection** | Detect structural breaks online | `ruptures` (PELT, BinSeg, window) | https://github.com/deepcharles/ruptures |
-| **Wasserstein regime clustering** | Non-parametric, path-dependent regime clustering via optimal transport | Horvath et al., *Clustering Market Regimes Using the Wasserstein Distance*, J. Comp. Finance 2024; online version | [arXiv:2306.15835](https://arxiv.org/abs/2306.15835) |
+| **Wasserstein regime clustering** | Non-parametric regime clustering via the Wasserstein *k*-means algorithm (optimal transport on return distributions) | Horvath, Issa & Muguruza, *Clustering Market Regimes Using the Wasserstein Distance*, J. Comp. Finance 28(1) 2024 | [arXiv:2110.11848](https://arxiv.org/abs/2110.11848) · [SSRN 3947905](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3947905) |
+| **Signature/MMD regime detection** | Path-dependent *online* regime detection + clustering via signatures and maximum mean discrepancy | Issa & Horvath, *Non-parametric Online Market Regime Detection and Regime Clustering...*, 2023 | [arXiv:2306.15835](https://arxiv.org/abs/2306.15835) |
 | **Practitioner pipeline** | HMM regimes + Random Forest signal layer in Python | QuantInsti tutorial | https://blog.quantinsti.com/regime-adaptive-trading-python/ |
 
 **Honest read.** Regime *detection* is genuinely useful for *risk scaling* (cut leverage when the HMM flips to the high-vol state) and works well in-sample. The trap is *latency and look-ahead*: a Gaussian HMM fit on full history "knows" the crisis; in true online use the state-switch is detected *after* much of the move. Treat regimes as a risk overlay, not an alpha. Markov-switching and HMMs label volatility regimes far more reliably than directional (bull/bear *return*) regimes.
@@ -159,7 +161,7 @@ Learning the causal *graph* directly from return time series (lagged conditional
 | **Deep quantile regression for VaR** | Non-linear conditional-quantile VaR; beats linear/MIDAS/CAViaR | Chronopoulos, Raftapostolos, Kapetanios, *J. Financial Econometrics* 2024 | [Oxford Academic](https://academic.oup.com/jfec/article/22/3/636/7163191) |
 | **Quantile CNN for VaR** | Convolutional quantile estimator | Sci. of Data 2021 | https://www.sciencedirect.com/science/article/pii/S2666827021000487 |
 | **DeepVaR** | Probabilistic deep NN for portfolio risk | Digital Finance 2022 | https://link.springer.com/article/10.1007/s42521-022-00050-0 |
-| **Deep distributional forecasting of returns** | Full predictive return distribution | 2025 | [arXiv:2508.18921](https://arxiv.org/abs/2508.18921) |
+| **Deep distributional forecasting of returns** | *Forecasting Probability Distributions of Financial Returns with Deep Neural Networks* — full predictive return distribution (Normal / Student-t / skewed-t via NLL) | 2025 | [arXiv:2508.18921](https://arxiv.org/abs/2508.18921) |
 | **Deep quantile + GANs scenario gen.** | VaR & ES via scenario generation | Financial Innovation 2023 | https://link.springer.com/article/10.1186/s40854-023-00564-5 |
 
 **Honest read.** This is the section where the methods *genuinely* deliver. Conformal prediction gives finite-sample coverage guarantees with almost no assumptions — but the standard guarantee assumes *exchangeability*, which returns violate; you must use the *adaptive/online* variants (ACI) or coverage silently degrades exactly during crises. Deep quantile regression is a solid, deployable VaR upgrade. Bayesian deep nets are theoretically appealing but heavy and the posterior is approximate (MC dropout / variational), so calibrate empirically rather than trusting the credible interval.
@@ -225,12 +227,12 @@ Learning the causal *graph* directly from return time series (lagged conditional
 - Hsu/Tsai/Li, *FinGAT* — https://arxiv.org/abs/2106.10159 · https://github.com/Roytsai27/Financial-GraphAttention
 - THGNN — https://arxiv.org/abs/2305.08740 ; MDGNN — https://arxiv.org/abs/2402.06633 ; FinMamba — https://arxiv.org/abs/2502.06707 ; MaGNet — https://arxiv.org/abs/2511.00085
 - López de Prado, *Causal Factor Investing* (Cambridge 2023) — https://www.cambridge.org/core/elements/causal-factor-investing/9AFE270D7099B787B8FD4F4CBADE0C6E · https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4205613 · https://www.quantresearch.org/QF_Causal_Factor_Investing.pdf
-- López de Prado & Zoonekynd, *Causality and Factor Investing: A Primer* (CFA RF 2024) — https://rpc.cfainstitute.org/sites/default/files/docs/research-reports/rf_lopezdeprado_causalityprimer_online.pdf
+- López de Prado & Zoonekynd, *Causality and Factor Investing: A Primer* (CFA RF 2025) — https://rpc.cfainstitute.org/research/foundation/2025/causality-factor-investing ; *The Case for Causal Factor Investing* (López de Prado, Lipton & Zoonekynd) — https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4774522
 - Chernozhukov et al., *Double/Debiased ML* — https://arxiv.org/abs/1608.00060 ; DoubleML — https://docs.doubleml.org · https://arxiv.org/abs/2104.03220 ; EconML — https://github.com/py-why/EconML
 - causal-learn — https://github.com/py-why/causal-learn · https://arxiv.org/abs/2307.16405 ; Tigramite/PCMCI — https://github.com/jakobrunge/tigramite
 - Causal Discovery in Financial Markets — https://arxiv.org/html/2312.17375v2
-- Goldsmith-Pinkham et al., *Causal Inference in Financial Event Studies* — https://arxiv.org/abs/2511.15123
-- Wasserstein regime clustering — https://arxiv.org/abs/2306.15835 ; HMM regression clustering — https://arxiv.org/abs/1312.7024 ; ruptures — https://github.com/deepcharles/ruptures
+- Goldsmith-Pinkham & Lyu, *Causal Inference in Financial Event Studies* — https://arxiv.org/abs/2511.15123
+- Wasserstein regime clustering (Horvath/Issa/Muguruza, J. Comp. Finance 2024) — https://arxiv.org/abs/2110.11848 ; signature/MMD online regime detection (Issa & Horvath) — https://arxiv.org/abs/2306.15835 ; HMM regression clustering — https://arxiv.org/abs/1312.7024 ; ruptures — https://github.com/deepcharles/ruptures
 - HFT anomaly detection — https://arxiv.org/abs/2504.00287 ; LOB manipulation (contrastive) — https://arxiv.org/abs/2508.17086 ; LSE AI surveillance — https://www.oxjournal.org/fraud-detection-and-market-surveillance-on-the-london-stock-exchange/
 - MAPIE — https://github.com/scikit-learn-contrib/MAPIE · https://arxiv.org/abs/2207.12274 ; Conformal portfolio selection — https://arxiv.org/abs/2410.16333 ; CP benchmark — https://arxiv.org/abs/2601.18509
 - Deep quantile VaR (J. Fin. Econometrics 2024) — https://academic.oup.com/jfec/article/22/3/636/7163191 ; DeepVaR — https://link.springer.com/article/10.1007/s42521-022-00050-0

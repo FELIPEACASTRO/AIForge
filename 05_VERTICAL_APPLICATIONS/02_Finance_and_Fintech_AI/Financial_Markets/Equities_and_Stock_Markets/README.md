@@ -45,6 +45,12 @@ Critical practices: **point-in-time** data (no look-ahead via restated fundament
 |---|---|
 | [B3 — Brazilian Stock Market](./B3_Brazilian_Stock_Market.md) | Ações na B3: Novo Mercado, ON/PN/Units, tickers (PETR4/VALE3), Ibovespa, BDRs, lote/fracionário, D+2, tributação, corretoras, dados (brapi/MT5/yfinance .SA). |
 | [US Stock Market — NYSE & Nasdaq](./US_Stock_Market_NYSE_Nasdaq.md) | Reg NMS, NBBO, S&P 500/Dow/Nasdaq/Russell, T+1, PFOF, ADRs, how Brazilians invest in the US (BDRs, Avenue/IBKR, W-8BEN). |
+| [India — NSE & BSE](./India_Stock_Market_NSE_BSE.md) | Nifty 50/Bank Nifty/Sensex, SEBI, T+1/T+0, the world-leading F&O market + 2024-25 SEBI reforms, APIs (Kite/Upstox/NSEpy), `.NS`/`.BO`. |
+| [China — Shanghai, Shenzhen, STAR & Beijing](./China_Stock_Markets_SSE_SZSE.md) | A/B/H-shares, CSI 300, ±10/20/30% limits, IPO no-limit-5-days, Stock Connect, QFII; data (Tushare/AkShare/baostock), `.SS`/`.SZ`. |
+| [Japan & East Asia — JPX, HKEX, KRX, TWSE](./Japan_and_East_Asia_Markets.md) | Nikkei/TOPIX (J-Quants V2), Hang Seng, KOSPI/KOSDAQ (±30%), TAIEX; suffixes `.T`/`.HK`/`.KS`/`.TW`. |
+| [ASEAN & Southeast Asia](./ASEAN_and_Southeast_Asia_Markets.md) | SGX, IDX, SET, Bursa, PSE, HOSE (Vietnam KRX go-live); `.SI`/`.JK`/`.BK`/`.KL`/`.PS`. |
+| [Europe & Eurasia](./Europe_and_Eurasia_Markets.md) | LSE, Euronext, Xetra/DAX, SIX, Nasdaq Nordic, BME, GPW, MOEX (sanctions), BIST; suffixes & data. |
+| [Middle East · Africa · LatAm (ex-Brazil) · Canada · Oceania](./MiddleEast_Africa_LatAm_Canada_Oceania_Markets.md) | Tadawul (`.SR`), UAE (`.AE`), TASE, JSE, EGX, BMV, BYMA, IPSA, TSX, ASX + access ETFs. |
 
 ## Related in AIForge
 - [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Portfolio Management](../Portfolio_Management_and_Optimization/) · [Technical & Fundamental Analysis](../Technical_and_Fundamental_Analysis/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/)
