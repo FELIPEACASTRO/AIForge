@@ -41,7 +41,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 
 - **Exchange:** [London Stock Exchange](https://www.londonstockexchange.com/), part of the London Stock Exchange Group (LSEG), which also owns FTSE Russell and Refinitiv data assets.
 - **Indices:** [FTSE 100](https://www.londonstockexchange.com/indices/ftse-100) (100 largest blue chips), [FTSE 250](https://www.londonstockexchange.com/indices/ftse-250) (next 250), FTSE 350, FTSE All-Share. Index methodology in the [FTSE UK Index Series Ground Rules](https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-uk-index-series-ground-rules.pdf).
-- **Regulator:** [Financial Conduct Authority (FCA)](https://www.fca.org.uk/). The FCA executed the **biggest listing-regime overhaul in 40 years** in mid-2024, collapsing the premium/standard split into a single **Equity Shares (Commercial Companies, ESCC)** category. From the **June 2026 review**, both UK- and non-UK-incorporated companies with a **≥10% free float** become eligible for the FTSE UK Index Series ([LSEG note](https://www.lseg.com/en/insights/ftse-russell/which-uk-shares-will-the-ftse-100-include-in-future)).
+- **Regulator:** [Financial Conduct Authority (FCA)](https://www.fca.org.uk/). The FCA executed the **biggest listing-regime overhaul in decades** effective **29 July 2024**, collapsing the premium/standard split into a single **Equity Shares (Commercial Companies, ESCC)** category (public float requirement reduced to 10%) ([LSEG note](https://www.lseg.com/en/insights/ftse-russell/which-uk-shares-will-the-ftse-100-include-in-future)). Two follow-on FTSE UK Index Series changes matter for index pipelines: (1) **from 22 Sep 2025** the sterling-only requirement was dropped — EUR/USD-traded UK securities are now eligible, plus fast-entry threshold changes; (2) **from the June 2026 review**, free-float requirements for UK- and non-UK-incorporated companies are aligned at **≥10%** (previously 25% for non-UK), per the [FTSE Russell inclusion-criteria change](https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-uk-index-series-inclusion-criteria-change).
 - **Data quirk:** Pence-denominated quotes (GBX) — divide by 100 for GBP; common pitfall in ML pipelines.
 
 ## 3. Pan-European — Euronext
@@ -67,7 +67,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 - **Indices:** [DAX 40](https://www.deutsche-boerse.com/dbg-en/) (expanded 30→40 in Sept 2021 post-**Wirecard** scandal, with tightened profitability/governance rules), MDAX (50 mid-caps), SDAX, TecDAX. Index families now governed by [STOXX/Qontigo](https://stoxx.com/index/mdax/).
 - **Regulator:** [BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht)](https://www.bafin.de/).
 - **Open data (high value for ML):**
-  - [**Deutsche Börse Public Dataset**](https://registry.opendata.aws/deutsche-boerse-pds/) on AWS — free **1-minute OHLCV** for every Xetra & Eurex security, S3 buckets in `eu-central-1`. Excellent for intraday backtesting.
+  - [**Deutsche Börse Public Dataset**](https://registry.opendata.aws/deutsche-boerse-pds/) on AWS — free **1-minute OHLCV** for every Xetra & Eurex security, S3 buckets in `eu-central-1`. ⚠️ **Marked deprecated on the AWS Open Data Registry** (provider no longer maintaining it) — historical data remains usable for backtesting, but do not expect fresh updates.
   - [**A7 (Deutsche-Boerse/a7)**](https://github.com/Deutsche-Boerse/a7) — cloud access to **order-by-order** historical data from Eurex & Xetra (co-location quality), plus the [A7 Analytics platform](https://mds.deutsche-boerse.com/mds-de/analytics/a7-analytics-platform).
   - [Deutsche Börse Developer Portal](https://developer.deutsche-boerse.com/apis) — additional market-data APIs.
 
@@ -75,7 +75,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 
 - **Exchange:** [SIX Swiss Exchange](https://www.six-group.com/en/) (SIX Group). SIX also **owns BME (Spain)** since 2020.
 - **Index:** [SMI (Swiss Market Index)](https://www.six-group.com/en/market-data/indices/switzerland/equity/smi.html) — 20 largest/most-liquid SPI names; broad benchmark is the SPI; SMIM for mid-caps. Heavily concentrated in Nestlé, Novartis, Roche.
-- **Regulator:** [FINMA](https://www.finma.ch/) (ultimate authority); day-to-day market surveillance by SIX Exchange Regulation. FINMA ran **113 on-site bank inspections in 2025**, a notably more active year ([swissinfo](https://www.swissinfo.ch/eng/various/finma-closes-significantly-more-proceedings-in-2025/91289905)). Dec 2025: SMI near 13,200, cumulative annual turnover ~**CHF 1 trillion**, EuroCTP consolidated-tape vendor selected.
+- **Regulator:** [FINMA](https://www.finma.ch/) (ultimate authority); day-to-day market surveillance by SIX Exchange Regulation. FINMA was notably more active in 2025, closing **55 enforcement proceedings** (vs 38 in 2024) and opening ~450 investigations into unauthorised providers ([swissinfo](https://www.swissinfo.ch/eng/various/finma-closes-significantly-more-proceedings-in-2025/91289905)).
 
 ## 6. Nordics — Nasdaq Nordic + Euronext Oslo
 
@@ -108,10 +108,10 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 ## 9. Russia — Moscow Exchange (MOEX) ⚠️ access-restricted
 
 - **Exchange:** [Moscow Exchange (MOEX)](https://www.moex.com/en); regulated by the **Bank of Russia**.
-- **Indices:** [MOEX Russia Index (IMOEX, RUB)](https://grokipedia.com/page/MOEX_Russia_Index) and **RTS Index (USD-denominated)**.
+- **Indices:** [MOEX Russia Index (IMOEX, RUB)](https://www.moex.com/en/index/IMOEX) and **RTS Index (USD-denominated)**.
 - **⚠️ Sanctions & foreign-access restrictions (critical for any pipeline):**
   - Equities trading suspended **28 Feb – 24 Mar 2022** after the invasion of Ukraine; on resumption, **foreign investors were restricted** (repo/derivatives only) and assets held via the central depositary were effectively **frozen/trapped**.
-  - **12-13 June 2024:** US (OFAC) and UK sanctioned MOEX itself, **halting exchange-traded USD/EUR FX** and freezing foreign-asset trading ([RFE/RL](https://www.rferl.org/a/moscow-exchange-dollar-trades-sanctions/32991219.html)).
+  - **12-13 June 2024:** OFAC sanctioned MOEX (plus NCC and NSD) on 12 June; the exchange **halted USD/EUR trading on 13 June** ([RFE/RL](https://www.rferl.org/a/moscow-exchange-dollar-trades-sanctions/32991219.html), [OFAC Russia sanctions](https://ofac.treasury.gov/sanctions-programs-and-country-information/russian-harmful-foreign-activities-sanctions)).
   - The IMOEX rebounded to pre-war ~3,500 by mid-2024 driven by **domestic/repatriated capital**; the USD RTS stayed depressed.
   - **Practical note:** yfinance `.ME` data is often stale/unreliable for foreigners; most Western data vendors dropped real-time MOEX. Treat any MOEX dataset as **non-investable** for EU/US/BR persons and a compliance hazard. Use only for academic study.
 
@@ -140,7 +140,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 |---|---|---|---|---|
 | [**yfinance**](https://github.com/ranaroussi/yfinance) | All listed exchanges via suffixes (§1) | Python, unofficial Yahoo | Free | Delayed (15-30 min); Nordics real-time; GBX/100 trap on `.L` |
 | [**Stooq**](https://stooq.com/db/) | UK `.UK`, DE, PL (best), most EU; bulk zips | CSV download (no official API) | Free | Polish-built; deepest free GPW history; pandas-datareader `StooqDailyReader` |
-| [**Deutsche Börse PDS**](https://registry.opendata.aws/deutsche-boerse-pds/) | Xetra + Eurex, **1-min OHLCV** | AWS S3 `eu-central-1` | Free | Best free intraday in Europe |
+| [**Deutsche Börse PDS**](https://registry.opendata.aws/deutsche-boerse-pds/) | Xetra + Eurex, **1-min OHLCV** | AWS S3 `eu-central-1` | Free | Best free intraday in Europe; **deprecated** on AWS registry (no longer maintained) — historical archive still usable |
 | [**Deutsche-Boerse/a7**](https://github.com/Deutsche-Boerse/a7) | Eurex/Xetra **order-by-order** | Cloud API / SDK | Freemium | Tick-level, research-grade |
 | [**Euronext Web Services**](https://www.euronext.com/en/data/how-access-market-data/web-services) | Paris/AMS/BRU/LIS/DUB/MIL/OSL | REST web API | Paid (low cost) | Official quotes + reference data |
 | [**SIX**](https://www.six-group.com/en/products-services/the-swiss-stock-exchange/market-data.html) | SIX Swiss + BME (Spain) | Vendor feeds | Paid | FINMA-supervised official source |
@@ -148,7 +148,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 | [**Tiingo**](https://www.tiingo.com/) | EOD global incl. major EU | REST API | Freemium | Strong fundamentals + news |
 | [**OpenBB Platform**](https://docs.openbb.co/platform/reference/equity/price/historical) | Aggregator over yfinance/Tiingo/EODHD/FMP | Python/CLI | Free core | Single API, swappable providers |
 | [**FTSE Russell / LSEG**](https://www.lseg.com/en/ftse-russell/academic-solutions) | Index constituents, GEIS Monitor List (~34k equities) | Academic program / vendor | Paid/academic | Free-float, nationality, review data |
-| [**investiny**](https://github.com/alvarobartt/investiny) | Investing.com global (interim) | Python | Free | Replacement for the **deprecated** `investpy` (broke on Cloudflare); reduced features |
+| [**investiny**](https://github.com/alvarobartt/investiny) | Investing.com global (interim) | Python | Free | Stopgap for the broken `investpy` (Cloudflare); **itself largely unmaintained** (last release Oct 2022) — verify before relying on it |
 | [STOXX/Qontigo](https://stoxx.com/) | DAX/MDAX family, STOXX 600, Euro STOXX 50 | Vendor | Paid | Pan-EU benchmark families |
 
 > ⚠️ **investpy is effectively dead** — Investing.com's Cloudflare changes broke it ([issue #611](https://github.com/alvarobartt/investpy/issues/611)). For Investing.com-style pulls use [`investiny`](https://github.com/alvarobartt/investiny); for everything else prefer yfinance + Stooq + the official exchange APIs above.
@@ -158,7 +158,7 @@ Sources: [Yahoo exchange list](https://help.yahoo.com/kb/SLN2310.html), [Stooq D
 ## 13. ML / quant notes specific to Europe & Eurasia
 
 - **Multi-currency, multi-timezone:** EUR (Eurozone), GBP, CHF, SEK, NOK, DKK, PLN, TRY, RUB. Always (a) align to a single trading calendar with [`pandas-market-calendars`](https://github.com/rsheftel/pandas_market_calendars) (LSE, XETR, XPAR, SIX, etc.) and (b) decide on FX-hedged vs. local-currency returns before training. Carry/FX dominates Turkish and (historically) Russian nominal series.
-- **Index reconstitution as a feature/label source:** STOXX (DAX/MDAX), FTSE Russell (FTSE 100/250 quarterly reviews), and IBEX twice-yearly reviews create well-documented **add/delete events** useful for index-effect studies. FTSE UK rule change (free-float ≥10%, non-UK eligibility from **June 2026**) will shift the FTSE 100/250 universe — retrain feature pipelines accordingly.
+- **Index reconstitution as a feature/label source:** STOXX (DAX/MDAX), FTSE Russell (FTSE 100/250 quarterly reviews), and IBEX twice-yearly reviews create well-documented **add/delete events** useful for index-effect studies. FTSE UK rule changes (EUR/USD-traded eligibility + fast-entry from **Sep 2025**; UK/non-UK free-float alignment at ≥10% from the **June 2026** review) shift the FTSE 100/250 universe — retrain feature pipelines accordingly.
 - **Free intraday:** the **Deutsche Börse Public Dataset (1-min)** is the standout free intraday corpus in Europe; pair with Xetra A7 tick data for microstructure work.
 - **Survivorship & corporate actions:** UK pence quoting (GBX), frequent CHF/SEK splits, and Euronext cross-listings (same ISIN, multiple MICs) require careful dedup by **ISIN + primary MIC**.
 - **Sanctions/compliance gate:** exclude or quarantine **MOEX (`.ME`)** data from any investable strategy; it is non-tradable for EU/US/BR persons and Western data is stale. Treat as academic-only.
@@ -189,14 +189,14 @@ Brazilians (investidores brasileiros) cannot trade most of these exchanges direc
 
 - Yahoo Finance exchange suffixes: https://help.yahoo.com/kb/SLN2310.html
 - Stooq free market data: https://stooq.com/db/ — DB index: https://stooq.com/db/h/
-- LSE / FTSE: https://www.londonstockexchange.com/indices/ftse-100 · https://www.londonstockexchange.com/indices/ftse-250 · FTSE UK Ground Rules https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-uk-index-series-ground-rules.pdf · https://www.lseg.com/en/insights/ftse-russell/which-uk-shares-will-the-ftse-100-include-in-future · FCA https://www.fca.org.uk/
+- LSE / FTSE: https://www.londonstockexchange.com/indices/ftse-100 · https://www.londonstockexchange.com/indices/ftse-250 · FTSE UK Ground Rules https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-uk-index-series-ground-rules.pdf · https://www.lseg.com/en/insights/ftse-russell/which-uk-shares-will-the-ftse-100-include-in-future · FTSE 2026 free-float change https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/ftse-uk-index-series-inclusion-criteria-change · FTSE 2025 methodology change https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2025/ftse-uk-index-series-methodology-changes · FCA https://www.fca.org.uk/
 - Euronext: https://www.euronext.com/en · indices https://live.euronext.com/en/products/indices · CAC 40 join https://live.euronext.com/en/news/euronext-joins-cac-40r-milestone-decade-transformation · Web Services https://www.euronext.com/en/data/how-access-market-data/web-services · ICE catalog https://developer.ice.com/fixed-income-data-services/catalog/euronext
 - Deutsche Börse: https://www.cashmarket.deutsche-boerse.com/cash-en · PDS (AWS) https://registry.opendata.aws/deutsche-boerse-pds/ · A7 repo https://github.com/Deutsche-Boerse/a7 · A7 platform https://mds.deutsche-boerse.com/mds-de/analytics/a7-analytics-platform · Dev portal https://developer.deutsche-boerse.com/apis · BaFin https://www.bafin.de/ · STOXX MDAX https://stoxx.com/index/mdax/
 - SIX / SMI: https://www.six-group.com/en/market-data/indices/switzerland/equity/smi.html · governance https://www.six-group.com/en/company/governance/monitoring-and-regulation.html · FINMA 2025 https://www.swissinfo.ch/eng/various/finma-closes-significantly-more-proceedings-in-2025/91289905
 - Nasdaq Nordic: https://www.nasdaq.com/european-market-activity/indexes · methodology https://indexes.nasdaqomx.com/docs/Methodology_NORDIC.pdf · futures https://www.nasdaq.com/solutions/index-futures-on-the-nordic-markets
 - BME / IBEX 35: https://www.bolsasymercados.es/en/bme-exchange/prices-and-markets/shares/ibex-35-es0si0000005.html · CNMV https://www.cnmv.es/
 - GPW / WIG20: https://www.gpw.pl/en-home · KNF https://www.knf.gov.pl/en/
-- MOEX: https://www.moex.com/en · index https://grokipedia.com/page/MOEX_Russia_Index · sanctions https://www.rferl.org/a/moscow-exchange-dollar-trades-sanctions/32991219.html
+- MOEX: https://www.moex.com/en · index https://www.moex.com/en/index/IMOEX · sanctions https://www.rferl.org/a/moscow-exchange-dollar-trades-sanctions/32991219.html · OFAC GL https://ofac.treasury.gov/faqs/topic/6626
 - Borsa İstanbul / BIST 100: https://www.borsaistanbul.com/en/index/xu100 · indices https://www.borsaistanbul.com/en/indices
 - Wiener Börse: https://www.wienerborse.at/en/ · ATHEX: https://www.athexgroup.gr/
 - Data tooling: yfinance https://github.com/ranaroussi/yfinance · EODHD https://eodhd.com/list-of-stock-markets · Tiingo https://www.tiingo.com/ · OpenBB https://docs.openbb.co/platform/reference/equity/price/historical · investiny https://github.com/alvarobartt/investiny · investpy issue https://github.com/alvarobartt/investpy/issues/611 · FTSE Russell academic https://www.lseg.com/en/ftse-russell/academic-solutions

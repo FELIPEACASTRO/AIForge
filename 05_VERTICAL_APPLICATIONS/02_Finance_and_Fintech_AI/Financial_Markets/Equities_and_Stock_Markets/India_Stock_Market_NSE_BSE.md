@@ -50,12 +50,12 @@ Nifty 50 eligibility (key gates): constituent must be **F&O-eligible**, have **�
 | Cycle | Status | Detail |
 |---|---|---|
 | **T+1** | **Default** for equity cash (full rollout by Jan 2023) | Trades on T settle T+1; final obligations by ~08:30 on T+1. [NSE settlement cycle](https://www.nseindia.com/static/products-services/equity-market-settlement-cycle) |
-| **T+0 (same-day)** | **Optional / beta** since **28 Mar 2024** | Trading window to ~13:30; obligations by ~14:30; payout same day. Being expanded scrip-by-scrip. [NSE T+0 page](https://www.nseindia.com/static/products-services/t0-settlement-cycle) |
+| **T+0 (same-day)** | **Optional / beta** since **28 Mar 2024** | Trading window to ~13:30; obligations determined by ~14:30; funds & securities pay-out by ~16:30 (4:30 pm) same day. Being expanded scrip-by-scrip (top-500 stocks). [NSE Clearing T+0 page](https://www.nseclearing.in/t0-settlement-cycle) |
 
 India is a global leader on settlement speed: it moved to T+1 ahead of the US/EU and is piloting optional **T+0** and (proposed) instant settlement.
 
 ### Price bands & circuit breakers
-- **Market-wide index circuit breakers** trigger at **10% / 15% / 20%** moves of Nifty 50 or Sensex (whichever breaches first), halting the whole market for set durations; re-open via a call auction. (Source: [NSE circuit breakers](https://www.nseindia.com/products/content/equities/equities/circuit_breakers.htm))
+- **Market-wide index circuit breakers** trigger at **10% / 15% / 20%** moves of Nifty 50 or Sensex (whichever breaches first), halting the whole market for set durations; re-open via a call auction. (Source: [NSE circuit breakers](https://www.nseindia.com/products-services/equity-market-circuit-breakers))
 - **Stock-level daily price bands:** typically **2% / 5% / 10% / 20%** depending on the security; **20%** band for most scrips not in F&O. Stocks in the derivatives segment have **no fixed daily price band** but are subject to dynamic operating ranges / flexible bands. (Source: [NSE price bands](https://www.nseindia.com/static/products-services/equity-market-price-bands))
 
 ### Taxes & frictions — **Securities Transaction Tax (STT)**
@@ -83,7 +83,7 @@ STT is levied on-exchange and is a major cost driver for high-frequency/options 
 
 ## 5. Equity derivatives (F&O) — the centre of gravity
 
-NSE's index options volume makes India the **largest derivatives market by contract count** worldwide. Retail participation is exceptionally high — SEBI reported **~62% of NSE F&O volume is retail-driven** (Apr 2025). The flip side: SEBI studies found **~91% of individual F&O traders lost money in FY25** (net losses **₹1,05,603 crore (~₹1.05 lakh crore)**, up ~41% y/y from ₹74,812 crore in FY24; average loss ~₹1.1 lakh/trader) ([Moneylife on SEBI FY25 data](https://moneylife.in/article/91-percentage-of-retail-traders-lost-money-in-derivatives-losses-in-fo-surged-41-percentage-to-rs105-lakh-crore-in-fy25-sebi-study/77613.html)), and **93% lost over FY22-FY24** (aggregate >**₹1.8 lakh crore**) ([SEBI press release, Sep 2024](https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html)).
+NSE's index options volume makes India the **largest derivatives market by contract count** worldwide. Retail participation is exceptionally high (individuals and proprietary/HFT desks together dominate index-options turnover). The flip side: SEBI studies found **~91% of individual F&O traders lost money in FY25** (net losses **₹1,05,603 crore (~₹1.05 lakh crore)**, up ~41% y/y from ₹74,812 crore in FY24; average loss ~₹1.1 lakh/trader) ([Moneylife on SEBI FY25 data](https://moneylife.in/article/91-percentage-of-retail-traders-lost-money-in-derivatives-losses-in-fo-surged-41-percentage-to-rs105-lakh-crore-in-fy25-sebi-study/77613.html)), and **93% lost over FY22-FY24** (aggregate >**₹1.8 lakh crore**) ([SEBI press release, Sep 2024](https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html)).
 
 ### Index options & the weekly-expiry / 0DTE phenomenon
 Weekly-expiring index options (Nifty, Bank Nifty, FinNifty) drove a massive **expiry-day / 0DTE (zero-days-to-expiry)** retail trade — cheap, far-OTM weeklies bought hours before expiry. This concentration of speculative volume on expiry day is exactly what SEBI's 2024-25 reforms target.
@@ -95,7 +95,7 @@ Weekly-expiring index options (Nifty, Bank Nifty, FinNifty) drove a massive **ex
 | **Larger contract value (lot-size hike)** | 21 Nov 2024 | Minimum index-derivative contract value raised to **₹15-20 lakh** (from ₹5-10 lakh). |
 | **Extreme Loss Margin (ELM)** | 20 Nov 2024 | Extra **2% ELM** on short option positions on expiry day. |
 | **Upfront option premium** | 1 Feb 2025 | Buyers must pay **full premium upfront** (removes intraday leverage on long options). |
-| **No calendar-spread benefit on expiry** | 10 Feb 2025 | Margin offset removed for spreads where one leg expires that day. |
+| **No calendar-spread benefit on expiry** | 1 Feb 2025 (per SEBI; exchange go-live 10 Feb 2025) | Margin offset removed for spreads where one leg expires that day. |
 | **Intraday position-limit monitoring** | 1 Apr 2025 | Position limits checked **multiple times intraday**, not just EOD. |
 | **Uniform expiry days** | 1 Sep 2025 | SEBI circular **SEBI/HO/MRD/MRD-TPD-1/P/CIR/2025/76 (26 May 2025)**: all equity-derivative expiries on **Tuesday (NSE)** or **Thursday (BSE)**; expiry changes need SEBI approval. ([Ventura](https://www.venturasecurities.com/blog/changes-in-expiry-nse-and-bse/)) |
 
@@ -108,7 +108,7 @@ Weekly-expiring index options (Nifty, Bank Nifty, FinNifty) drove a massive **ex
 | **MIDCPNIFTY** | 50 | **120** |
 | **SENSEX (BSE)** | 10 | **20** |
 
-(Source: [Zerodha Z-Connect](https://zerodha.com/z-connect/business-updates/sebis-new-rules-for-index-derivatives-heres-whats-changing).) Existing contracts kept old lots until expiry; quarterly/half-yearly contracts transitioned on staggered dates (late Dec 2024).
+(Source: [Zerodha Z-Connect](https://zerodha.com/z-connect/business-updates/sebis-new-rules-for-index-derivatives-heres-whats-changing).) New lots applied from trade date **21 Nov 2024** (20 Nov 2024 was an NSE/BSE trading holiday for the Maharashtra Assembly elections). Existing contracts kept old lots until expiry; quarterly/half-yearly contracts transitioned on staggered dates (late Dec 2024).
 
 ### Stock futures & options
 Single-stock F&O exists for SEBI-eligible large/liquid stocks (the F&O list is periodically revised on liquidity/turnover criteria). Each stock has its **own lot size** (published by NSE/BSE; revised periodically). All equity-derivative single-stock contracts now expire on the exchange's chosen monthly day (last Tuesday/Thursday). Index & stock options are **European-style, cash-settled** (stock options moved to physical/delivery settlement in 2019).
@@ -156,7 +156,7 @@ ETFs trade on NSE/BSE like shares (T+1), priced near iNAV. Gold ETFs and (recent
 |---|---|
 | **`yfinance`** | Yahoo Finance OHLC. Use **`.NS`** suffix for NSE (`RELIANCE.NS`, `TCS.NS`, `INFY.NS`) and **`.BO`** for BSE (`RELIANCE.BO`). Indices: `^NSEI` (Nifty 50), `^BSESN` (Sensex), `^NSEBANK` (Bank Nifty). |
 | **`nsepython` / `nsepy`** | NSE EOD/derivatives/option-chain data scraping. |
-| **`jugaad-data`** | NSE/BSE bhavcopy, historical stock & derivatives data. |
+| **`jugaad-data`** | NSE/BSE bhavcopy, historical stock & derivatives data ([PyPI](https://pypi.org/project/jugaad-data/)). |
 | **`bhavcopy` (NSE/BSE)** | Official **EOD CSV** of all traded securities — the canonical reference for prices/volumes/settlement. Downloadable from NSE/BSE archives. |
 
 ### Ticker / symbol conventions
@@ -178,21 +178,24 @@ ETFs trade on NSE/BSE like shares (T+1), priced near iNAV. Gold ETFs and (recent
 ## Sources
 
 - NSE — settlement cycle: https://www.nseindia.com/static/products-services/equity-market-settlement-cycle
-- NSE — T+0 settlement: https://www.nseindia.com/static/products-services/t0-settlement-cycle
+- NSE Clearing — T+0 settlement: https://www.nseclearing.in/t0-settlement-cycle
 - NSE — price bands: https://www.nseindia.com/static/products-services/equity-market-price-bands
-- NSE — circuit breakers: https://www.nseindia.com/products/content/equities/equities/circuit_breakers.htm
+- NSE — circuit breakers: https://www.nseindia.com/products-services/equity-market-circuit-breakers
 - Nifty 50 factsheet/methodology: https://www.niftyindices.com/Factsheet/ind_nifty50.pdf · https://nsearchives.nseindia.com/content/indices/Method_NIFTY_Equity_Indices.pdf
 - Nifty Next 50 methodology: https://nsearchives.nseindia.com/content/indices/ind_next50.pdf
+- Nifty Bank factsheet (12 constituents): https://www.niftyindices.com/Factsheet/ind_nifty_bank.pdf
 - BSE Indices methodology: https://www.bseindices.com/Downloads/BSE_Indices_Methodology.pdf
 - SEBI F&O study (93% losses, FY22-FY24): https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html
 - SEBI F&O losses (91%, ₹1.05 lakh crore, FY25): https://moneylife.in/article/91-percentage-of-retail-traders-lost-money-in-derivatives-losses-in-fo-surged-41-percentage-to-rs105-lakh-crore-in-fy25-sebi-study/77613.html
-- NSE lot-size revision circular (FAOP, effective 21 Nov 2024 / SEBI 1 Oct 2024): https://nsearchives.nseindia.com/content/circulars/FAOP64625.pdf
-- ICCL → BSE Clearing Limited rebrand: https://www.icclindia.com/
+- Lot-size revision (effective 21 Nov 2024; SEBI 1 Oct 2024): https://zerodha.com/marketintel/bulletin/393605/revision-in-lot-size-of-index-derivative-contracts-from-november-20-2024 · NSE circular: https://nsearchives.nseindia.com/content/circulars/FAOP64625.pdf
+- 20 Nov 2024 trading holiday (Maharashtra elections): https://www.zeebiz.com/market-news/news-stock-market-holiday-in-november-2024-bse-nse-to-remain-shut-on-wednesday-for-maharashtra-legislative-assembly-election-trading-to-be-unavailable-for-equity-derivatives-also-stock-market-news-326992
+- ICCL → BSE Clearing Limited rebrand (June 2026): https://www.mxmindia.com/news/iccl-rebrands-as-bse-clearing-limited/ · https://www.icclindia.com/
 - SEBI F&O reforms (Zerodha Z-Connect): https://zerodha.com/z-connect/business-updates/sebis-new-rules-for-index-derivatives-heres-whats-changing
-- Expiry-day rationalisation: https://www.venturasecurities.com/blog/changes-in-expiry-nse-and-bse/
-- STT (ClearTax): https://cleartax.in/s/securities-transaction-tax-stt · NSE Clearing: https://www.nseclearing.in/clearing-settlement/equity-derivatives/securities-transaction-tax
+- Calendar-spread expiry-benefit removal: https://www.icicidirect.com/faqs/fno/removal-of-calendar-spread-margin-benefits-on-expiry-days
+- Expiry-day rationalisation (NSE Tue / BSE Thu, Sep 2025): https://www.venturasecurities.com/blog/changes-in-expiry-nse-and-bse/ · https://www.businesstoday.in/markets/stocks/story/nse-receives-sebi-nod-for-tuesday-expiry-bse-thursday-480736-2025-06-17
+- STT (ClearTax): https://cleartax.in/s/securities-transaction-tax-stt · Budget 2026-27 STT hike: https://www.outlookmoney.com/invest/stt-hike-from-april-1-2026-budget-what-it-means-for-futures-and-options-traders · NSE Clearing: https://www.nseclearing.in/clearing-settlement/equity-derivatives/securities-transaction-tax
 - Demat boom: https://www.deccanherald.com/business/markets/nse-adds-84-lakh-new-demat-accounts-in-fy25-groww-angel-one-drive-growth-3501638 · https://www.angelone.in/news/market-updates/nse-crosses-24-crore-investor-accounts-milestone-amid-surge-from-small-town-india
-- Kite Connect: https://zerodha.com/products/api/ · Angel One SmartAPI: https://smartapi.angelbroking.com/
+- Kite Connect: https://zerodha.com/products/api/ · Angel One SmartAPI: https://smartapi.angelbroking.com/ · jugaad-data: https://pypi.org/project/jugaad-data/
 - INDA ETF: https://www.ishares.com/us/products/239659/ishares-msci-india-etf
 - B3 BDR de ETF: https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/brazilian-depositary-receipts-bdrs-de-etf.htm · BNDA39: https://investidor10.com.br/bdrs/bnda39/
 

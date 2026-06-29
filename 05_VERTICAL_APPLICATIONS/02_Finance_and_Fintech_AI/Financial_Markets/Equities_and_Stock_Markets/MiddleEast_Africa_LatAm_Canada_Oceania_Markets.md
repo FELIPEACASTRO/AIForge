@@ -2,7 +2,7 @@
 
 > Authoritative, current (2025-2026) reference for equity markets that the AIForge index does NOT cover elsewhere: GCC + Israel, frontier/emerging Africa, Spanish-speaking Latin America, Canada (TMX) and Oceania (ASX/NZX) — with exchanges, indices, regulators, data suffixes, ML/quant notes, and Brazil-access ETFs (acesso via ETFs/BDRs).
 
-Brazil (B3), the US (NYSE/Nasdaq), India (NSE/BSE), China (SSE/SZSE), Japan/HK/Korea/Taiwan and ASEAN are documented in sibling pages of this repo and are NOT repeated here. This page fills the remaining global gaps. The first practical thing to verify before any pull: the **Yahoo Finance / `yfinance` suffix** for each venue — several differ from the obvious guess (e.g. Saudi Tadawul is `.SAU`, not `.SR`; Egypt is `.CA`, not `.EG`).
+Brazil (B3), the US (NYSE/Nasdaq), India (NSE/BSE), China (SSE/SZSE), Japan/HK/Korea/Taiwan and ASEAN are documented in sibling pages of this repo and are NOT repeated here. This page fills the remaining global gaps. The first practical thing to verify before any pull: the **Yahoo Finance / `yfinance` suffix** for each venue — several differ from the obvious guess (e.g. Egypt is `.CA`, not `.EG`; both UAE venues — Abu Dhabi *and* Dubai — resolve to `.AE`, not separate codes). Note: Yahoo's own help table lists Saudi as `.SAU`, but the suffix that actually resolves on Yahoo/yfinance is `.SR` (e.g. `2222.SR` for Saudi Aramco) — always test against a live quote.
 
 ---
 
@@ -10,9 +10,9 @@ Brazil (B3), the US (NYSE/Nasdaq), India (NSE/BSE), China (SSE/SZSE), Japan/HK/K
 
 | Region | Country | Exchange (local name) | Flagship index | Regulator | yfinance suffix |
 |---|---|---|---|---|---|
-| Middle East | Saudi Arabia | Saudi Exchange / **Tadawul** | TASI (Tadawul All Share) | CMA (Capital Market Authority) | `.SAU` |
-| Middle East | UAE — Abu Dhabi | **ADX** (Abu Dhabi Securities Exchange) | FADGI (ADX General) | SCA (Securities & Commodities Authority) | `.AD` |
-| Middle East | UAE — Dubai | **DFM** (Dubai Financial Market) | DFMGI | SCA | `.DU` |
+| Middle East | Saudi Arabia | Saudi Exchange / **Tadawul** | TASI (Tadawul All Share) | CMA (Capital Market Authority) | `.SR` (Yahoo help lists `.SAU`) |
+| Middle East | UAE — Abu Dhabi | **ADX** (Abu Dhabi Securities Exchange) | FADGI (ADX General) | SCA (Securities & Commodities Authority) | `.AE` |
+| Middle East | UAE — Dubai | **DFM** (Dubai Financial Market) | DFMGI | SCA | `.AE` |
 | Middle East | Qatar | **QSE** (Qatar Stock Exchange) | QE Index (QSE 20) | QFMA | `.QA` |
 | Middle East | Kuwait | **Boursa Kuwait** | All Share / Premier Market | CMA Kuwait | `.KW` |
 | Middle East | Israel | **TASE** (Tel-Aviv Stock Exchange) | TA-35 / TA-125 | ISA (Israel Securities Authority) | `.TA` |
@@ -41,16 +41,16 @@ The GCC ex-Saudi venues are small but index-relevant: Saudi Arabia, UAE, Qatar a
 
 | Exchange | 1-liner | Regulator | Suffix |
 |---|---|---|---|
-| **Saudi Tadawul** | Largest Arab market, ~US$2.7T cap; TASI fell ~13% in 2025 (weakest GCC). From **1 Feb 2026** the main market opened to *all* foreign retail investors (QFI regime abolished). | CMA | `.SAU` |
-| **ADX (Abu Dhabi)** | ~90+ securities; dominated by IHC, Alpha Dhabi, FAB. FADGI is the broad index. | SCA | `.AD` |
-| **DFM (Dubai)** | ~65+ securities; real-estate/banking heavy (Emaar, EMAARDEV, DIB). ~85% of 2024 new accounts were foreign. | SCA | `.DU` |
+| **Saudi Tadawul** | Largest Arab market, ~US$2.7T cap; TASI fell ~13% in 2025 (weakest GCC). From **1 Feb 2026** the main market opened to *all* foreign investors — the QFI regime was abolished (confirmed by CMA, effective 1 Feb 2026). | CMA | `.SR` |
+| **ADX (Abu Dhabi)** | ~90+ securities; dominated by IHC, Alpha Dhabi, FAB. FADGI is the broad index. Yahoo tickers resolve as `.AE` (e.g. `FAB.AE`). | SCA | `.AE` |
+| **DFM (Dubai)** | ~65+ securities; real-estate/banking heavy (Emaar `EMAAR.AE`, Emaar Dev `EMAARDEV.AE`, DIB). ~85% of 2024 new accounts were foreign. | SCA | `.AE` |
 | **QSE (Qatar)** | 54 main-market listings (Feb 2026); QE Index benchmark; QFMA issued a 2025 Code of Market Conduct. | QFMA | `.QA` |
 | **Boursa Kuwait** | Premier/Main market tiers; added to MSCI EM in 2020. | CMA Kuwait | `.KW` |
 | **TASE (Israel)** | Only Israeli exchange; TA-35 flagship (renamed from TA-25 in 2017), TA-125 broader. Developed-market index member. | ISA | `.TA` |
 
 Primary sources: Saudi Exchange <https://www.saudiexchange.sa/> · CMA <https://cma.org.sa/en/> · ADX <https://www.adx.ae/> · DFM <https://www.dfm.ae/> · SCA <https://www.sca.gov.ae/> · QSE <https://www.qe.com.qa/> · QFMA <https://www.qfma.org.qa/> · Boursa Kuwait <https://www.boursakuwait.com.kw/en/> · TASE <https://www.tase.co.il/en> · ISA <https://www.isa.gov.il/>.
 
-**Index tickers (Yahoo):** TASI `^TASI`, ADX `^ADI`, DFM `^DFMGI`, TA-35 `TA35.TA`. GCC trading weeks historically ran Sunday–Thursday; Saudi/UAE/Qatar/Kuwait have aligned closer to a Mon-Fri week in recent years — confirm the venue calendar before backtesting (weekend gap differs from US/EU).
+**Index tickers (Yahoo):** TASI `^TASI.SR`, DFM General `DFMGI.AE`, TA-35 `TA35.TA` (the ADX General / FADGI is not reliably exposed on Yahoo — pull it from ADX or a vendor). GCC trading weeks historically ran Sunday–Thursday; Saudi/UAE/Qatar/Kuwait have aligned closer to a Mon-Fri week in recent years — confirm the venue calendar before backtesting (weekend gap differs from US/EU).
 
 ---
 
@@ -68,13 +68,13 @@ Two derivatives milestones in 2024-2025 made Africa relevant for quant: **EGX** 
 
 Primary sources: JSE <https://www.jse.co.za/> · FSCA <https://www.fsca.co.za/> · EGX <https://www.egx.com.eg/en/> · FRA <https://fra.gov.eg/> · NGX <https://ngxgroup.com/> · SEC Nigeria <https://sec.gov.ng/> · Nairobi NSE <https://www.nse.co.ke/> · CMA Kenya <https://www.cma.or.ke/> · Casablanca BVC <https://www.casablanca-bourse.com/> · AMMC <https://www.ammc.ma/en>.
 
-**Data tip:** For Nigeria/Kenya/Morocco where Yahoo is thin, the free aggregator **african-markets.com** (<https://www.african-markets.com/>) and **afx.kwayisi.org** (NGX/GSE/USE/NSE live boards) are practical fallbacks; JSE/EGX are well covered by EODHD (`.JSE`, `.EGX` codes — see §8).
+**Data tip:** For Nigeria/Kenya/Morocco where Yahoo is thin, the free aggregator **african-markets.com** (<https://www.african-markets.com/>) and **afx.kwayisi.org** (NGX/GSE/USE/NSE live boards) are practical fallbacks; JSE/EGX are covered by EODHD (confirm the exact exchange codes on EODHD's live list — see §8).
 
 ---
 
 ## 4. Latin America (ex-Brazil) and the nuam integration
 
-The big structural story: **nuam exchange** — the merger of the **Santiago (Chile)**, **Colombia (BVC)** and **Lima (Peru)** exchanges into one operator. "Day zero" was **31 March 2026**; Colombia migrated to the unified Nasdaq-built matching engine first (1 Apr), Lima activated the platform **27 Apr 2026** (+19.7% volume day one), Santiago last. Combined, nuam is the **3rd-largest LatAm market (~US$391B cap)** after Brazil and Mexico, targeting Mexico-scale by 2030. Indices and trading rules are being harmonized — expect ticker/index continuity breaks; re-validate symbol maps in any LatAm pipeline.
+The big structural story: **nuam exchange** — the merger of the **Santiago (Chile)**, **Colombia (BVC)** and **Lima (Peru)** exchanges into one operator on a Nasdaq-built matching engine. Rollout is phased: **Colombia** migrated first (early 2025), **Lima/Peru** activated the unified platform in **late April 2026** (volume ~20% above the prior day on day one), with **Santiago/Chile** — the largest of the three — following. As of Q1 2026 nuam's combined market cap was **~US$532B** (up ~43% y/y) with equity-trading volumes up ~75% — making it one of the largest LatAm markets after Brazil and Mexico, targeting Mexico-scale by 2030. Indices and trading rules are being harmonized — expect ticker/index continuity breaks; re-validate symbol maps in any LatAm pipeline.
 
 | Exchange | 1-liner | Regulator | Suffix |
 |---|---|---|---|
@@ -137,7 +137,7 @@ Libraries that already speak these venues: **`exchange_calendars`** (<https://gi
 
 ### 8.1 yfinance / Yahoo (free, suffix-based)
 
-Use `yf.download("2222.SAU")` (Saudi Aramco), `"FAB.AD"` (First Abu Dhabi Bank), `"TEVA.TA"` (Teva), `"ABG.JO"` (Absa), `"WALMEX.MX"` (Walmart de México), `"SHOP.TO"` (Shopify), `"BHP.AX"` (BHP). Index lookups: `^TASI`, `^MXX`, `^AXJO`, `^NZ50`, `TA35.TA`. Reliable for GCC majors, JSE, BMV, BYMA, Santiago, TSX/TSXV, ASX, NZX; **patchy** for Nigeria/Kenya/Morocco/Colombia/Peru fundamentals.
+Use `yf.download("2222.SR")` (Saudi Aramco), `"FAB.AE"` (First Abu Dhabi Bank), `"EMAAR.AE"` (Emaar, Dubai), `"TEVA.TA"` (Teva), `"ABG.JO"` (Absa), `"WALMEX.MX"` (Walmart de México), `"SHOP.TO"` (Shopify), `"BHP.AX"` (BHP). Index lookups: `^TASI.SR`, `^MXX`, `^AXJO`, `^NZ50`, `TA35.TA`. Reliable for GCC majors, JSE, BMV, BYMA, Santiago, TSX/TSXV, ASX, NZX; **patchy** for Nigeria/Kenya/Morocco/Colombia/Peru fundamentals.
 
 ### 8.2 Local exchange feeds & national aggregators
 
@@ -157,7 +157,7 @@ Use `yf.download("2222.SAU")` (Saudi Aramco), `"FAB.AD"` (First Abu Dhabi Bank),
 
 | Vendor | Coverage relevant here | Notes |
 |---|---|---|
-| **EODHD** (<https://eodhd.com/>) | 60+ exchanges incl. JSE, TA (Tel Aviv), Tadawul, ADX, DFM, QSE, BMV, TSX/TSXV, ASX, NZX, EGX | EOD + fundamentals + splits/divs; good frontier coverage. Exchange-code list: <https://eodhd.com/list-of-stock-markets> |
+| **EODHD** (<https://eodhd.com/>) | 70+ exchanges incl. Mexico (MX), Toronto (TO), ASX (AU), Egypt (EGX), plus GCC / Tel Aviv / JSE via their global feed | EOD + fundamentals + splits/divs; good frontier coverage. Confirm the exact exchange code per venue on the live list: <https://eodhd.com/list-of-stock-markets> |
 | **Twelve Data / Marketstack / Tiingo** | Major venues (MX, TSX, ASX, JSE, TASE) | Generic global APIs — covered in this repo's data-APIs page; suffix conventions differ from Yahoo. |
 | **Refinitiv / Bloomberg / FactSet** | All of the above | Institutional; authoritative corporate actions and index constituents. |
 | **LSEG FTSE Russell / S&P DJI** | Index constituents & weights (FTSE/JSE Top 40, IPC, ASX 200, Merval) | Free factsheets, paid full constituents. |
@@ -179,16 +179,15 @@ Most Brazilian investors reach these markets via **US-listed ETFs** (held throug
 | **KSA** | iShares MSCI Saudi Arabia ETF | Saudi (Tadawul) | ~0.74% |
 | **UAE** | iShares MSCI UAE ETF | ADX + DFM | ~0.59% |
 | **QAT** | iShares MSCI Qatar ETF | QSE | ~0.59% |
-| **GULF** | WisdomTree Middle East Dividend Fund | GCC + Egypt/Morocco/Jordan dividends | ~0.88% |
 | **ILF** | iShares Latin America 40 ETF | Brazil + Mexico + Chile + others (LatAm large-caps) | ~0.48% |
-| **AGT / FRN-type** | Argentina / frontier exposure | Argentina via ADRs (e.g. ARGT — Global X MSCI Argentina) | ~0.59% |
+| **ARGT** | Global X MSCI Argentina ETF | Argentina (BYMA + Argentine ADRs) | ~0.59% |
 
-Notes & cautions: (1) **iShares MSCI Frontier ETF (FM)** that historically held Nigeria/Kenya/Morocco names **closed in Jan 2025** — there is now no clean single US ETF for those frontier markets; access them via ADRs/GDRs or EM-frontier blends. (2) TERs above are approximate, last-verified figures — confirm on the issuer fact sheet before allocating. (3) Many large Canadian, Israeli and Mexican companies trade directly as **ADRs/BDRs** (e.g. RY, SHOP, TEVA, AMX/América Móvil) — often the simplest single-name route for a Brazilian portfolio.
+Notes & cautions: (1) **iShares Frontier and Select EM ETF (FM)** that historically held Nigeria/Kenya/Morocco names **stopped trading 6 Jan 2025 and was liquidated** (proceeds paid 9 Jan 2025) — there is now no clean single US ETF for those frontier markets; access them via ADRs/GDRs or EM-frontier blends. (2) The **WisdomTree Middle East Dividend Fund (GULF)** that previously gave broad GCC dividend exposure **was closed/liquidated around 30 Jun 2025** — it is no longer a usable route; use single-country KSA/UAE/QAT instead. (3) TERs above are approximate, last-verified figures — confirm on the issuer fact sheet before allocating. (4) Many large Canadian, Israeli and Mexican companies trade directly as **ADRs/BDRs** (e.g. RY, SHOP, TEVA, AMX/América Móvil) — often the simplest single-name route for a Brazilian portfolio.
 
-ETF sources: iShares/BlackRock <https://www.ishares.com/> · WisdomTree GULF <https://www.wisdomtree.com/investments/etfs/equity/gulf> · Global X ARGT.
+ETF sources: iShares/BlackRock <https://www.ishares.com/> · Global X MSCI Argentina (ARGT) <https://www.globalxetfs.com/funds/argt>.
 
 ---
 
-**Sources:** Saudi Exchange <https://www.saudiexchange.sa/>; CMA <https://cma.org.sa/en/>; ADX <https://www.adx.ae/>; DFM <https://www.dfm.ae/>; SCA <https://www.sca.gov.ae/>; QSE <https://www.qe.com.qa/>; QFMA <https://www.qfma.org.qa/>; Boursa Kuwait <https://www.boursakuwait.com.kw/en/>; TASE <https://www.tase.co.il/en>; ISA <https://www.isa.gov.il/>; JSE <https://www.jse.co.za/>; FSCA <https://www.fsca.co.za/>; FTSE/JSE Top 40 <https://research.ftserussell.com/>; EGX <https://www.egx.com.eg/en/>; FRA <https://fra.gov.eg/>; NGX <https://ngxgroup.com/>; SEC Nigeria <https://sec.gov.ng/>; Nairobi NSE <https://www.nse.co.ke/>; CMA Kenya <https://www.cma.or.ke/>; Casablanca BVC <https://www.casablanca-bourse.com/>; AMMC <https://www.ammc.ma/en>; BMV <https://www.bmv.com.mx/>; BIVA <https://www.biva.mx/>; CNBV <https://www.gob.mx/cnbv>; S&P/BMV IPC <https://www.spglobal.com/spdji/>; BYMA <https://www.byma.com.ar/en>; CNV <https://www.argentina.gob.ar/cnv>; Bolsa de Santiago <https://www.bolsadesantiago.com/>; CMF <https://www.cmfchile.cl/>; BVC Colombia <https://www.bvc.com.co/>; BVL Peru <https://www.bvl.com.pe/>; nuam <https://www.nuam.com/en>; TMX/TSX <https://www.tsx.com/>; CIRO <https://www.ciro.ca/>; CSA <https://www.securities-administrators.ca/>; ASX <https://www.asx.com.au/>; ASIC <https://asic.gov.au/>; NZX <https://www.nzx.com/>; FMA NZ <https://www.fma.govt.nz/>; Yahoo Finance suffix list <https://help.yahoo.com/kb/finance-for-web/SLN2310.html>; EODHD exchanges <https://eodhd.com/list-of-stock-markets>; iShares <https://www.ishares.com/>; WisdomTree GULF <https://www.wisdomtree.com/>.
+**Sources:** Saudi Exchange <https://www.saudiexchange.sa/>; CMA <https://cma.org.sa/en/>; ADX <https://www.adx.ae/>; DFM <https://www.dfm.ae/>; SCA <https://www.sca.gov.ae/>; QSE <https://www.qe.com.qa/>; QFMA <https://www.qfma.org.qa/>; Boursa Kuwait <https://www.boursakuwait.com.kw/en/>; TASE <https://www.tase.co.il/en>; ISA <https://www.isa.gov.il/>; JSE <https://www.jse.co.za/>; FSCA <https://www.fsca.co.za/>; FTSE/JSE Top 40 <https://research.ftserussell.com/>; EGX <https://www.egx.com.eg/en/>; FRA <https://fra.gov.eg/>; NGX <https://ngxgroup.com/>; SEC Nigeria <https://sec.gov.ng/>; Nairobi NSE <https://www.nse.co.ke/>; CMA Kenya <https://www.cma.or.ke/>; Casablanca BVC <https://www.casablanca-bourse.com/>; AMMC <https://www.ammc.ma/en>; BMV <https://www.bmv.com.mx/>; BIVA <https://www.biva.mx/>; CNBV <https://www.gob.mx/cnbv>; S&P/BMV IPC <https://www.spglobal.com/spdji/>; BYMA <https://www.byma.com.ar/en>; CNV <https://www.argentina.gob.ar/cnv>; Bolsa de Santiago <https://www.bolsadesantiago.com/>; CMF <https://www.cmfchile.cl/>; BVC Colombia <https://www.bvc.com.co/>; BVL Peru <https://www.bvl.com.pe/>; nuam <https://www.nuam.com/en>; TMX/TSX <https://www.tsx.com/>; CIRO <https://www.ciro.ca/>; CSA <https://www.securities-administrators.ca/>; ASX <https://www.asx.com.au/>; ASIC <https://asic.gov.au/>; NZX <https://www.nzx.com/>; FMA NZ <https://www.fma.govt.nz/>; Yahoo Finance suffix list <https://help.yahoo.com/kb/finance-for-web/SLN2310.html>; EODHD exchanges <https://eodhd.com/list-of-stock-markets>; iShares <https://www.ishares.com/>; Global X MSCI Argentina (ARGT) <https://www.globalxetfs.com/funds/argt>; Saudi CMA foreign-investor opening (1 Feb 2026) <https://cma.gov.sa/en/MediaCenter/NEWS/Pages/CMA_N_3974.aspx>; nuam <https://www.nuam.com/en>.
 
-**Keywords:** emerging markets equities, frontier markets, GCC stock exchanges, Tadawul TASI, ADX DFM UAE, Qatar QSE, Boursa Kuwait, Tel Aviv TASE TA-35, Johannesburg JSE Top 40, Egyptian Exchange EGX 30, Nigerian Exchange NGX, Nairobi NSE 20, Casablanca MASI, Bolsa Mexicana IPC, BYMA Merval, IPSA Chile, COLCAP, BVL Peru, nuam exchange, MILA, TMX TSX TSXV, S&P/ASX 200, NZX 50, yfinance suffix, EODHD, country ETFs EWW EZA EWC EWA GULF ILF KSA; mercados emergentes, bolsas de valores, Oriente Médio, África, América Latina, Canadá, Oceania, índices acionários, reguladores de mercado, acesso via ETFs e BDRs, sufixo de dados, suíte de calendários de mercado, ações estrangeiras.
+**Keywords:** emerging markets equities, frontier markets, GCC stock exchanges, Tadawul TASI, ADX DFM UAE, Qatar QSE, Boursa Kuwait, Tel Aviv TASE TA-35, Johannesburg JSE Top 40, Egyptian Exchange EGX 30, Nigerian Exchange NGX, Nairobi NSE 20, Casablanca MASI, Bolsa Mexicana IPC, BYMA Merval, IPSA Chile, COLCAP, BVL Peru, nuam exchange, MILA, TMX TSX TSXV, S&P/ASX 200, NZX 50, yfinance suffix, EODHD, country ETFs EWW EZA EWC EWA ENZL EIS KSA UAE QAT ILF ARGT; mercados emergentes, bolsas de valores, Oriente Médio, África, América Latina, Canadá, Oceania, índices acionários, reguladores de mercado, acesso via ETFs e BDRs, sufixo de dados, suíte de calendários de mercado, ações estrangeiras.

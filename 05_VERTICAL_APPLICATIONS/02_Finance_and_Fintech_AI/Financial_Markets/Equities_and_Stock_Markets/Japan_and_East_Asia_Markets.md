@@ -40,7 +40,7 @@ Of 3,771 TSE companies at transition, those were the segment selections ([JPX �
 
 ### Mechanics
 - **Settlement:** **T+2**, live since **16 July 2019** (shortened from T+3) ([JPX – T+2 settlement](https://www.jpx.co.jp/english/equities/clearing-settlement/tplus2-settlement-cycle/index.html)).
-- **Trading hours:** morning session 09:00–11:30, afternoon 12:30–15:00 (extended to 15:30 from Nov 2024; verify on JPX). Lunch break between sessions.
+- **Trading hours:** morning session 09:00–11:30, afternoon 12:30–15:30 (extended by 30 min on **5 November 2024**, with a new 5-minute closing auction 15:25–15:30). Lunch break between sessions.
 - **Price limits:** static **renewal price limits** (daily limit-up/limit-down expressed as fixed yen amounts per base-price band), not a percentage day-band like Korea.
 - **Ticker convention:** 4-digit numeric codes (e.g., Toyota `7203`, Sony `6758`). On Yahoo/yfinance append `.T` → `7203.T`.
 
@@ -51,8 +51,8 @@ Of 3,771 TSE companies at transition, those were the segment selections ([JPX �
 **Operator:** Hong Kong Exchanges and Clearing (HKEX), running the Stock Exchange of Hong Kong (SEHK). **Regulator:** Securities and Futures Commission (SFC).
 
 ### Indices (Hang Seng Indexes Company)
-- **Hang Seng Index (HSI)** — flagship blue-chip benchmark, **free-float-adjusted market-cap weighted with an 8% per-constituent cap**; quarterly review/rebalance; constituent count expanded over time (≈82+ as of 2024) ([HSI methodology PDF](https://www.hsi.com.hk/static/uploads/contents/en/dl_centre/methodologies/IM_hsie.pdf)).
-- **Hang Seng TECH Index (HSTECH)** — the **30 largest** Hong Kong-listed tech companies, market-cap weighted with an **8% cap**, fixed at 30 constituents, quarterly review ([HSTECH methodology PDF](https://www.hsi.com.hk/static/uploads/contents/en/dl_centre/methodologies/IM_hsteche.pdf)).
+- **Hang Seng Index (HSI)** — flagship blue-chip benchmark, **free-float-adjusted market-cap weighted with an 8% per-constituent cap**; quarterly review/rebalance; constituent count expanded over time (≈89 effective the December 2025 review, up from 88) ([HSI methodology PDF](https://www.hsi.com.hk/static/uploads/contents/en/dl_centre/methodologies/IM_hsie.pdf)).
+- **Hang Seng TECH Index (HSTECH)** — the **30 largest** Hong Kong-listed tech companies, free-float market-cap weighted with an **8% cap**, fixed at 30 constituents, quarterly review ([HSTECH methodology PDF](https://www.hsi.com.hk/static/uploads/contents/en/dl_centre/methodologies/IM_hsteche.pdf)).
 
 ### Mechanics
 - **Settlement:** **T+2** for SEHK equities ([Clearstream – HK settlement](https://www.clearstream.com/clearstream-en/res-library/market-coverage/settlement-process-hong-kong-1281186)).
@@ -77,7 +77,7 @@ Of 3,771 TSE companies at transition, those were the segment selections ([JPX �
 - **Regular session:** 09:00–15:30 KST, continuous trading with **no lunch break**; opening single-price call auction 08:30–09:00 and closing call auction 15:20–15:30 set official open/close prices.
 - **Tick sizes** (KRW, by price band): <1,000 → 1; 1,000–4,999 → 5; 5,000–9,999 → 10; 10,000–49,999 → 50; 50,000–99,999 → 100; 100,000–499,999 → 500 (KOSPI); ≥500,000 → 1,000 (KOSPI). ETF/ETN/ELW trade on a flat 5-KRW tick.
 - **Volatility Interruption (VI):** static/dynamic VI temporarily switches a stock to single-price auction on sharp moves.
-- **2026 change:** from **29 June 2026** KRX adds executable pre-market (07:00–08:00) and after-market (16:00–20:00) sessions alongside the regular 09:00–15:30 session — verify the latest rules before building intraday systems.
+- **2026 change:** from **29 June 2026** KRX adds executable pre-market (07:00–08:00) and after-market (16:00–20:00) sessions alongside the regular 09:00–15:30 session — the first phase of a plan toward near round-the-clock trading; verify the latest rules before building intraday systems.
 - **Ticker convention:** 6-digit numeric (Samsung Electronics `005930`); yfinance `005930.KS` (KOSPI) or `.KQ` (KOSDAQ).
 
 ---
@@ -90,7 +90,7 @@ Of 3,771 TSE companies at transition, those were the segment selections ([JPX �
 - **TAIEX** (Taiwan Capitalization Weighted Stock Index) — free-float market-cap weighted main-board benchmark; heavily concentrated in semiconductors (TSMC dominant).
 
 ### Mechanics ([TWSE – Trading Mechanism](https://www.twse.com.tw/en/products/system/trading.html))
-- **Daily price limit:** **±10%** of the opening auction reference price for stocks, ETFs/ETNs, beneficiary certificates, TDRs and convertible bonds (bonds ±5%); **new IPOs have no price limit for the first 5 trading days**.
+- **Daily price limit:** **±10%** of the opening auction reference price for stocks, ETFs/ETNs, beneficiary certificates, TDRs and convertible bonds (bonds ±5%); **new IPOs have no price limit for the first 5 trading days** (market orders are not accepted during that window).
 - **Settlement:** **T+2**.
 - **Trading hours:** order entry from 08:30; continuous regular session **09:00–13:30**; opening & closing prices set by call auction; intraday odd-lot trading runs 09:00–13:30 with periodic call auctions (first match 09:10, then every few seconds).
 - **Tick sizes** (NT$, by band): 0.01–4.99 → 0.01; 5.00–9.99 → 0.05; 10.00–49.99 → 0.05; 50.00–99.99 → 0.10; rising further at higher price bands.
@@ -116,7 +116,7 @@ These markets are attractive — and tricky — for quant/ML work because their 
 
 | Source | Market | Type | Endpoint / library | Notes |
 |---|---|---|---|---|
-| **J-Quants API** (official, JPX) | Japan | Prices, financials, listed info, calendar | `https://api.jquants.com/v1` ; docs at [jpx.co.jp J-Quants](https://www.jpx.co.jp/english/markets/other-data-services/j-quants-api/index.html) | Free tier has **12-week delay**; paid plans (Light/Standard/Premium) reduce delay. Endpoints: `/listed/info`, `/prices/daily_quotes`, `/fins/statements`, `/fins/announcement`, `/markets/trading_calendar`. Register at [jpx-jquants.com](https://jpx-jquants.com/en). |
+| **J-Quants API** (official, JPX) | Japan | Prices, financials, listed info, calendar | `https://api.jquants.com/v2` ; docs at [jpx.co.jp J-Quants](https://www.jpx.co.jp/english/markets/other-data-services/j-quants-api/index.html), endpoint reference at [jpx-jquants.com/en/spec](https://jpx-jquants.com/en/spec) | **V2 is now the only version** — the legacy V1 (`/v1`, token auth) was retired **1 June 2026**; V2 uses **API-key auth** (`x-api-key` header). Free tier keeps a **12-week delay**; paid plans (Light/Standard/Premium) reduce it. V2 endpoints were renamed, e.g. `/equities/master` (listed info), `/equities/bars/daily` (daily OHLC), `/fins/statements`, `/markets/calendar` — check the spec for exact current paths. Register at [jpx-jquants.com](https://jpx-jquants.com/en). |
 | **yfinance** (Yahoo Finance) | all four | OHLCV, basics | `pip install yfinance` | Suffixes: `.T` (Tokyo), `.HK` (Hong Kong), `.KS`/`.KQ` (KOSPI/KOSDAQ), `.TW`/`.TWO` (TWSE/TPEx). Indices: `^N225` (Nikkei 225), `^TPX` (TOPIX), `^HSI` (Hang Seng), `^KS11` (KOSPI), `^KQ11` (KOSDAQ), `^TWII` (TAIEX). Unofficial; rate-limited. |
 | **pykrx** | Korea | KRX/Naver scrape: OHLCV, market cap, fundamentals | [github.com/sharebook-kr/pykrx](https://github.com/sharebook-kr/pykrx) ([PyPI](https://pypi.org/project/pykrx/)) | `get_market_ohlcv`, `get_stock_ticker_list`; add ~1s delay between calls to avoid KRX blocking. |
 | **KRX Information Data System** | Korea | Official market data portal | [data.krx.co.kr](https://data.krx.co.kr/contents/MDC/MAIN/main/index.cmd?locale=en) | Official statistics, indices, derivatives data. |
@@ -148,6 +148,8 @@ A *pessoa física* in Brazil can reach these markets without opening a foreign b
 - Nikkei Inc. — Nikkei Stock Average FAQ (PDF): https://indexes.nikkei.co.jp/nkave/archives/faq/faq_nikkei_stock_average_en.pdf
 - JPX — J-Quants API: https://www.jpx.co.jp/english/markets/other-data-services/j-quants-api/index.html
 - J-Quants (registration): https://jpx-jquants.com/en
+- J-Quants — API V2 spec / endpoint reference: https://jpx-jquants.com/en/spec
+- J-Quants — V1→V2 migration (V1 retired 1 Jun 2026): https://jpx-jquants.com/en/spec/migration-v1-v2
 - HKEX — Stock Connect: https://www.hkex.com.hk/Mutual-Market/Stock-Connect?sc_lang=en
 - HKEX — Stock Connect FAQ (PDF): https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf
 - Clearstream — Hong Kong settlement: https://www.clearstream.com/clearstream-en/res-library/market-coverage/settlement-process-hong-kong-1281186
