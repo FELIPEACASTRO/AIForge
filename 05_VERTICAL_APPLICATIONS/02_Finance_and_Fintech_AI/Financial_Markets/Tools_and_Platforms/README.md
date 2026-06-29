@@ -47,6 +47,9 @@
 
 - Alpaca, Interactive Brokers (IBKR / `ib_insync`), Tradier, OANDA (FX), CCXT (crypto). Paper-trading endpoints for safe testing.
 
+## 🌐 Discover even more
+- [Open-Source Quant Ecosystem & Awesome Lists](./Open_Source_Ecosystem_and_Awesome_Lists.md) — meta-lists (awesome-quant, financial-machine-learning) + OSS libs (QuantStats, mlfinlab, OpenBB, NautilusTrader, Hummingbot, Jesse, Freqtrade…) that unlock thousands more resources.
+
 ## Related in AIForge
 - [Backtesting & Frameworks](../Backtesting_and_Frameworks/) · [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Portfolio Management](../Portfolio_Management_and_Optimization/) · [Risk Management & Derivatives Pricing](../Risk_Management_and_Derivatives_Pricing/) · [Datasets & APIs](../Datasets_APIs_and_Data_Vendors/)
 - [`../../../../04_MLOPS_AND_PRODUCTION_AI/`](../../../../04_MLOPS_AND_PRODUCTION_AI/)

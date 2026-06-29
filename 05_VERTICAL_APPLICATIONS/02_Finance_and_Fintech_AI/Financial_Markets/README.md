@@ -35,6 +35,8 @@ Markets are the original "big data" problem: high-frequency, noisy, non-stationa
 | [Datasets_APIs_and_Data_Vendors](./Datasets_APIs_and_Data_Vendors/) | Market-data APIs (yfinance, Polygon, Alpaca, IEX, Tiingo), LOBSTER, WRDS, CRSP/Compustat, tick data, crypto feeds. |
 | [Tools_and_Platforms](./Tools_and_Platforms/) | QuantConnect, Zipline, Backtrader, vectorbt, QuantLib, zipline-reloaded, broker APIs, research stacks. |
 | [Key_Papers_and_Research](./Key_Papers_and_Research/) | Deep learning for finance, *Advances in Financial ML*, deep hedging, DeepLOB, FinRL, empirical asset pricing with ML. |
+| [Models_Features_and_Datasets](./Models_Features_and_Datasets/) | 🧰 Global toolbox usable on **any** market: model zoo (boosting, deep TS, TS foundation models, LOB, RL, finance LLMs), feature-engineering catalog (indicators, microstructure, factor alphas), and a global datasets directory. |
+| [Frontier_AI_in_Finance](./Frontier_AI_in_Finance/) | 🚀 The 2024-2026 edge: LLM trading agents, market simulation & synthetic data, graph/causal/specialized ML, and where the research is published (ICAIF, journals, communities). |
 
 ## ⚠️ Honest framing — why markets are hard for ML
 
