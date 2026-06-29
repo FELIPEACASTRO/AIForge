@@ -50,6 +50,13 @@
 
 ```
 01_AI_FUNDAMENTALS_AND_THEORY/
+├── Mathematics_for_ML/                  NEW — linear algebra, calculus, probability, stats, convex opt
+├── Statistical_Learning/                 NEW — regression, GLMs, time series, survival, A/B testing
+├── Probabilistic_ML/                     NEW — PGMs, Gaussian processes, VI, MCMC, HMMs, PPLs
+├── Classical_ML_Algorithms/              NEW — SVM, trees, RF, boosting, kNN, clustering, PCA
+├── AutoML/                               NEW — HPO, AutoML frameworks, auto feature engineering
+├── Feature_Engineering/                  NEW — selection, scaling/encoding, techniques
+├── Model_Evaluation/                     NEW — metrics, model selection & validation
 ├── Machine_Learning/                    Classical ML, supervised/unsupervised
 ├── Deep_Learning/                       Architectures, regularization, optim
 ├── Reinforcement_Learning/
@@ -207,7 +214,7 @@ See the full growth plan in [DISCOVERABILITY.md](./DISCOVERABILITY.md).
 ## ❓ Frequently Asked Questions (FAQ)
 
 **What is AIForge?**
-AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — ~1,550 curated documents linking to 5,000+ external resources, organized into a clean, duplicate-free taxonomy of 5 pillars plus a Frontier AI 2026 radar.
+AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — 1,650+ curated documents linking to 7,500+ external resources, organized into a clean, duplicate-free taxonomy of 5 pillars plus a Frontier AI 2026 radar.
 
 **Who is AIForge for?**
 Data scientists, ML/AI engineers, researchers, students, and anyone who wants a single, well-organized map of AI/ML resources — from theory to production.
