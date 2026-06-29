@@ -116,9 +116,9 @@ Text/NLP datasets for sentiment, NER, QA, and event studies. Most are English; f
 | **FNSPID** | 29.7M stock prices + 15.7M news records for 4,775 S&P500 firms (1999–2023); time-series aligned | Free | https://huggingface.co/datasets/Zihan1004/FNSPID |
 | **Financial PhraseBank** | 4,840 finance sentences labeled positive/neutral/negative by 16 finance annotators | Free | https://huggingface.co/datasets/takala/financial_phrasebank |
 | **FiQA (sentiment/QA)** | Aspect-based financial sentiment + opinion QA benchmark (~1k sentiment samples) | Free | https://huggingface.co/datasets/TheFinAI/fiqa-sentiment-classification |
-| **Twitter Financial News Sentiment** | 9,540 finance tweets labeled Bullish/Bearish/Neutral | Free | https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment |
+| **Twitter Financial News Sentiment** | ~11,900 finance tweets (9,938 train + 2,486 validation) labeled Bullish/Bearish/Neutral | Free | https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment |
 | **GDELT** | Global news event + tone database, updated continuously; BigQuery + API, every country/language | Free | https://www.gdeltproject.org/ |
-| **RavenPack** (now BigData.com) | Commercial structured news/sentiment analytics with entity tagging & event detection | Paid | https://www.ravenpack.com/ |
+| **RavenPack** (now Bigdata.com) | Commercial structured news/sentiment analytics with entity tagging & event detection | Paid | https://www.ravenpack.com/ |
 
 ---
 

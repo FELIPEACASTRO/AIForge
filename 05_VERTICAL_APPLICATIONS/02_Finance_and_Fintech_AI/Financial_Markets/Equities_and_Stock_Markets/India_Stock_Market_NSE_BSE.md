@@ -13,7 +13,7 @@ India's cash and derivatives markets are dominated by two exchanges. The **Natio
 | **NSE** (National Stock Exchange of India) | Largest equities + derivatives exchange | 1992 (trading 1994) | Flagship index Nifty 50; world's largest derivatives exchange by contract count. [nseindia.com](https://www.nseindia.com/) |
 | **BSE** (Bombay Stock Exchange) | Equities + derivatives; Asia's oldest | **1875** | Flagship index Sensex (30); Asia's oldest exchange. [bseindia.com](https://www.bseindia.com/) |
 | **NSE Clearing Ltd (NCL)** | CCP / clearing-settlement for NSE | — | Runs T+1 and optional T+0 cycles. [nseclearing.in](https://www.nseclearing.in/) |
-| **Indian Clearing Corp (ICCL)** | CCP for BSE | — | — |
+| **BSE Clearing Ltd** (formerly Indian Clearing Corp / ICCL) | CCP for BSE | 2007 | ICCL rebranded as **BSE Clearing Limited** (June 2026). [icclindia.com](https://www.icclindia.com/) |
 | **SEBI** | Statutory market regulator | 1992 | Sets F&O rules, expiry calendar, STT framework. [sebi.gov.in](https://www.sebi.gov.in/) |
 | **NSE Indices Ltd** | Index provider (Nifty family) | — | Owns/maintains Nifty 50, Bank Nifty, etc. [niftyindices.com](https://www.niftyindices.com/) |
 | **BSE Index Services / S&P DJI** | Sensex methodology (joint) | — | Sensex maintained jointly with S&P Dow Jones Indices. |
@@ -59,15 +59,15 @@ India is a global leader on settlement speed: it moved to T+1 ahead of the US/EU
 - **Stock-level daily price bands:** typically **2% / 5% / 10% / 20%** depending on the security; **20%** band for most scrips not in F&O. Stocks in the derivatives segment have **no fixed daily price band** but are subject to dynamic operating ranges / flexible bands. (Source: [NSE price bands](https://www.nseindia.com/static/products-services/equity-market-price-bands))
 
 ### Taxes & frictions — **Securities Transaction Tax (STT)**
-STT is levied on-exchange and is a major cost driver for high-frequency/options strategies. Rates effective the FY2025-26 / Budget-2026 framework (always re-confirm against the current Finance Act):
+STT is levied on-exchange and is a major cost driver for high-frequency/options strategies. The F&O rates below reflect the **Budget 2026-27** hike effective **1 April 2026**; cash-segment rates are unchanged (always re-confirm against the current Finance Act):
 
 | Transaction | STT (on) | Rate |
 |---|---|---|
 | Delivery equity (buy & sell) | turnover, both sides | **0.10%** each |
 | Intraday equity | sell side | **0.025%** |
-| Equity **futures** | sell side | **0.02%** (Budget-2026 proposal: rising) |
-| Equity **options** | premium, sell side | **0.10%** (post-2024 hike) |
-| Options on exercise | settlement (intrinsic) value | **0.125%** |
+| Equity **futures** | sell side | **0.05%** (raised from 0.02% on 1 Apr 2026) |
+| Equity **options** | premium, sell side | **0.15%** (raised from 0.10% on 1 Apr 2026) |
+| Options on exercise | settlement (intrinsic) value | **0.15%** (raised from 0.125% on 1 Apr 2026) |
 
 (Source: [ClearTax STT guide](https://cleartax.in/s/securities-transaction-tax-stt); [NSE Clearing STT](https://www.nseclearing.in/clearing-settlement/equity-derivatives/securities-transaction-tax)). Other costs: exchange transaction charges, SEBI turnover fee, GST, stamp duty, brokerage. Confirm live rates with broker calculators (e.g. Zerodha).
 
@@ -83,7 +83,7 @@ STT is levied on-exchange and is a major cost driver for high-frequency/options 
 
 ## 5. Equity derivatives (F&O) — the centre of gravity
 
-NSE's index options volume makes India the **largest derivatives market by contract count** worldwide. Retail participation is exceptionally high — SEBI reported **~62% of NSE F&O volume is retail-driven** (Apr 2025). The flip side: SEBI studies found **~91% of individual F&O traders lost money in FY25** (net losses ~**₹1.05 lakh crore**, up 41% y/y), and **93% lost over FY22-FY24** (aggregate >**₹1.8 lakh crore**). ([SEBI press release](https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html))
+NSE's index options volume makes India the **largest derivatives market by contract count** worldwide. Retail participation is exceptionally high — SEBI reported **~62% of NSE F&O volume is retail-driven** (Apr 2025). The flip side: SEBI studies found **~91% of individual F&O traders lost money in FY25** (net losses **₹1,05,603 crore (~₹1.05 lakh crore)**, up ~41% y/y from ₹74,812 crore in FY24; average loss ~₹1.1 lakh/trader) ([Moneylife on SEBI FY25 data](https://moneylife.in/article/91-percentage-of-retail-traders-lost-money-in-derivatives-losses-in-fo-surged-41-percentage-to-rs105-lakh-crore-in-fy25-sebi-study/77613.html)), and **93% lost over FY22-FY24** (aggregate >**₹1.8 lakh crore**) ([SEBI press release, Sep 2024](https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html)).
 
 ### Index options & the weekly-expiry / 0DTE phenomenon
 Weekly-expiring index options (Nifty, Bank Nifty, FinNifty) drove a massive **expiry-day / 0DTE (zero-days-to-expiry)** retail trade — cheap, far-OTM weeklies bought hours before expiry. This concentration of speculative volume on expiry day is exactly what SEBI's 2024-25 reforms target.
@@ -184,7 +184,10 @@ ETFs trade on NSE/BSE like shares (T+1), priced near iNAV. Gold ETFs and (recent
 - Nifty 50 factsheet/methodology: https://www.niftyindices.com/Factsheet/ind_nifty50.pdf · https://nsearchives.nseindia.com/content/indices/Method_NIFTY_Equity_Indices.pdf
 - Nifty Next 50 methodology: https://nsearchives.nseindia.com/content/indices/ind_next50.pdf
 - BSE Indices methodology: https://www.bseindices.com/Downloads/BSE_Indices_Methodology.pdf
-- SEBI F&O study (93% losses): https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html
+- SEBI F&O study (93% losses, FY22-FY24): https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html
+- SEBI F&O losses (91%, ₹1.05 lakh crore, FY25): https://moneylife.in/article/91-percentage-of-retail-traders-lost-money-in-derivatives-losses-in-fo-surged-41-percentage-to-rs105-lakh-crore-in-fy25-sebi-study/77613.html
+- NSE lot-size revision circular (FAOP, effective 21 Nov 2024 / SEBI 1 Oct 2024): https://nsearchives.nseindia.com/content/circulars/FAOP64625.pdf
+- ICCL → BSE Clearing Limited rebrand: https://www.icclindia.com/
 - SEBI F&O reforms (Zerodha Z-Connect): https://zerodha.com/z-connect/business-updates/sebis-new-rules-for-index-derivatives-heres-whats-changing
 - Expiry-day rationalisation: https://www.venturasecurities.com/blog/changes-in-expiry-nse-and-bse/
 - STT (ClearTax): https://cleartax.in/s/securities-transaction-tax-stt · NSE Clearing: https://www.nseclearing.in/clearing-settlement/equity-derivatives/securities-transaction-tax

@@ -12,11 +12,11 @@ China runs the world's second-largest equity market by capitalization, split acr
 |---|---|---|---|---|---|
 | Shanghai Stock Exchange (SSE) | 上海证券交易所 | Shanghai | 1990 | Main Board, **STAR Market** (科创板) | CSRC |
 | Shenzhen Stock Exchange (SZSE) | 深圳证券交易所 | Shenzhen | 1990 | Main Board, **ChiNext** (创业板) | CSRC |
-| Beijing Stock Exchange (BSE) | 北京证券交易所 | Beijing | **2021-09-03** | Single board (SMEs / 专精特新) | CSRC |
+| Beijing Stock Exchange (BSE) | 北京证券交易所 | Beijing | **2021** (incorporated 2021-09-03; trading began **2021-11-15**) | Single board (SMEs / 专精特新) | CSRC |
 
 - The **CSRC** (China Securities Regulatory Commission, 中国证监会) is the unified national regulator over all three exchanges, IPO registration and QFI access ([csrc.gov.cn](http://www.csrc.gov.cn/csrc_en/)).
 - SSE and SZSE were both established in 1990; the **STAR Market** (Science and Technology Innovation Board) launched on SSE in July 2019 as a registration-based tech/growth board; **ChiNext** is SZSE's older growth board (2009), which moved to a registration-based regime in 2020.
-- The **Beijing Stock Exchange** opened **3 Sep 2021**, built on the former NEEQ "Select" tier, targeting "specialized, refined, distinctive, innovative" SMEs (专精特新) ([en.wikipedia.org/wiki/Beijing_Stock_Exchange](https://en.wikipedia.org/wiki/Beijing_Stock_Exchange)).
+- The **Beijing Stock Exchange** was announced 2 Sep 2021 and incorporated 3 Sep 2021, but **began trading on 15 Nov 2021** (81 firms in the first batch), built on the former NEEQ "Select" tier, targeting "specialized, refined, distinctive, innovative" SMEs (专精特新) ([en.wikipedia.org/wiki/Beijing_Stock_Exchange](https://en.wikipedia.org/wiki/Beijing_Stock_Exchange)).
 
 ---
 
@@ -47,9 +47,9 @@ A security's **6-digit code prefix** tells you its board and class — essential
 | SZSE Main Board A-shares | SZSE | 000 / 001 / 002 / 003 | `.SZ` |
 | SZSE ChiNext (创业板) | SZSE | **300 / 301** | `.SZ` |
 | SZSE B-shares | SZSE | 200 | `.SZ` |
-| Beijing Stock Exchange | BSE | 43x / 83x / 87x / 92x (8-series) | `.BJ` |
+| Beijing Stock Exchange | BSE | **920** (new unified segment); legacy NEEQ-derived 43x / 83x / 87x / 88x | `.BJ` |
 
-Prefix conventions per SSE/SZSE listing rules and code guides: SSE A-shares 600/601/603/605; STAR 688; SZSE main board 000/001/002/003; ChiNext 300/301 ([Shenzhen Stock Exchange — Wikipedia](https://en.wikipedia.org/wiki/Shenzhen_Stock_Exchange); [AllTick code/rules guide](https://blog.alltick.co/chinese-stock-code-formats-and-trading-rules/)). Yahoo Finance / `yfinance` use `.SS` for Shanghai and `.SZ` for Shenzhen (e.g. `000001.SS` = SSE Composite, `399001.SZ` = SZSE Component) ([Yahoo Finance exchanges list](https://help.yahoo.com/kb/SLN2310.html)).
+Prefix conventions per SSE/SZSE listing rules and code guides: SSE A-shares 600/601/603/605; STAR 688; SZSE main board 000/001/002/003; ChiNext 300/301 ([Shenzhen Stock Exchange — Wikipedia](https://en.wikipedia.org/wiki/Shenzhen_Stock_Exchange); [AllTick code/rules guide](https://blog.alltick.co/chinese-stock-code-formats-and-trading-rules/)). The **BSE** migrated its listings to a dedicated **920** code segment (activated April 2024, full rollout completed October 2025), replacing the earlier 6-digit NEEQ-derived codes (43x/83x/87x/88x) that had caused confusion with SSE/SZSE codes ([BSE switch to 920 codes, China.org.cn](http://www.china.org.cn/2025-10/10/content_118117100.shtml)). Yahoo Finance / `yfinance` use `.SS` for Shanghai and `.SZ` for Shenzhen (e.g. `000001.SS` = SSE Composite, `399001.SZ` = SZSE Component) ([Yahoo Finance exchanges list](https://help.yahoo.com/kb/SLN2310.html)).
 
 ---
 

@@ -36,7 +36,7 @@ The backbone. Computable from a single OHLCV series, identical math everywhere.
 | Detrending | subtract rolling mean / linear trend / HP filter | HP filter is two-sided → look-ahead; avoid online |
 | Fractional differentiation | `(1-B)^d` with fractional `d` | Stationarity **while preserving memory** (see below) |
 
-**Fractional differentiation (López de Prado).** Integer differencing (`d=1`, i.e. returns) makes a series stationary but erases its memory; using a *fractional* `d` finds the minimum differencing that passes a stationarity test (ADF) while keeping maximal correlation with the original level series. This is Chapter 5 of *Advances in Financial Machine Learning*. Reference implementation `frac_diff_ffd()` (fixed-width window fracdiff) lives in **mlfinlab** (https://github.com/hudson-and-thames/mlfinlab); a lightweight alternative is **fracdiff** (https://github.com/fracdiff/fracdiff), and a maintained re-implementation is **mlfinpy** (https://mlfinpy.readthedocs.io/en/latest/FractionalDifferentiated.html). Source paper context: arXiv mirror discussions and the book by Marcos López de Prado (Wiley, 2018).
+**Fractional differentiation (López de Prado).** Integer differencing (`d=1`, i.e. returns) makes a series stationary but erases its memory; using a *fractional* `d` finds the minimum differencing that passes a stationarity test (ADF) while keeping maximal correlation with the original level series. This is Chapter 5 of *Advances in Financial Machine Learning*. Reference implementation `frac_diff_ffd()` (fixed-width window fracdiff) lives in **mlfinlab** (https://github.com/hudson-and-thames/mlfinlab); a lightweight alternative is **fracdiff** (https://github.com/fracdiff/fracdiff), and a maintained re-implementation is **mlfinpy** (https://mlfinpy.readthedocs.io/en/latest/FractionalDifferentiated.html). Source: *Advances in Financial Machine Learning* by Marcos López de Prado (Wiley, 2018).
 
 ---
 
@@ -56,7 +56,7 @@ Deterministic transforms of OHLCV. Group by what they measure. All apply to any 
 | Library | What it does | Link |
 |---|---|---|
 | TA-Lib | C-backed industry standard, 150+ indicators + candlestick patterns; needs C build | https://github.com/TA-Lib/ta-lib-python |
-| pandas-ta | Pandas extension, 130+ indicators + 60 candlestick patterns; pure-Python, DataFrame `.ta` accessor | https://github.com/twopirllc/pandas-ta |
+| pandas-ta | Pandas extension, 130+ indicators + 60 candlestick patterns; DataFrame `.ta` accessor (twopirllc GitHub repo currently 404s — install via PyPI; docs at pandas-ta.dev) | https://www.pandas-ta.dev |
 | pandas-ta-classic | Community-maintained continuation, 250+ indicators/patterns, no TA-Lib required | https://github.com/xgboosted/pandas-ta-classic |
 | ta (bukosabino) | Pandas/Numpy, 40+ indicators, "add all" one-liner for feature engineering | https://github.com/bukosabino/ta |
 | tulipy | Python bindings to Tulip Indicators (fast C lib) | https://github.com/cirla/tulipy |
@@ -132,7 +132,7 @@ For multi-asset / panel models you score every name **per date** and compare acr
 | Qlib Alpha158 | 158 human-engineered expression features (price/vol/rolling) | https://github.com/microsoft/qlib/blob/main/qlib/contrib/data/handler.py |
 | Qlib Alpha360 | 360 raw normalized price/volume lags (low feature-engineering) | https://github.com/microsoft/qlib/blob/main/qlib/contrib/data/handler.py |
 | Qlib expression engine | Operators like `Ref($close,60)/$close`, `Mean`, `Std`, `Corr` | https://qlib.readthedocs.io/en/latest/component/data.html |
-| Alpha Factor Library (Jansen) | Catalogue of factors incl. 101 alphas + Kakushadze GTJA-191 | https://stefan-jansen.github.io/machine-learning-for-trading/24_alpha_factor_library/ |
+| Alpha Factor Library (Jansen) | Financial-feature engineering chapter incl. 101 formulaic alphas, price/microstructure/cross-instrument factors | https://github.com/stefan-jansen/machine-learning-for-trading/tree/main/08_financial_features |
 
 > Qlib's Alpha158/Alpha360 are **expression-based** and run on any market you ingest into Qlib's data layer — they are not China-specific despite Qlib's origin. The 101 alphas were designed on US equities but the formulas are generic OHLCV/returns expressions and port to any cross-section.
 
@@ -182,7 +182,7 @@ Text, search, satellite, and card data. NLP sentiment is the most accessible; mo
 | FinBERT-tone (yiyanghkust) | FinBERT trained on 4.9B-token financial corpus; analyst-report tone | https://huggingface.co/yiyanghkust/finbert-tone |
 | FinBERT repo | Training/inference code (Prosus) | https://github.com/ProsusAI/finBERT |
 | FinGPT | Open financial LLM suite incl. sentiment/forecasting adapters | https://github.com/AI4Finance-Foundation/FinGPT |
-| sentence-transformers | General + financial embeddings for news/headlines | https://github.com/UKPLab/sentence-transformers |
+| sentence-transformers | General + financial embeddings for news/headlines | https://github.com/huggingface/sentence-transformers |
 
 **Feature types from text:** sentiment score/polarity (FinBERT softmax), earnings-call **tone** and uncertainty, document embeddings (mean-pooled or [CLS]), novelty (cosine distance vs prior news), event flags (guidance, M&A, downgrade). **Leakage warning:** timestamp news/filings by **publication time in market timezone**, never by the date you scraped them; align to the next tradable bar. For non-English markets (e.g. Portuguese news in Brazil), use multilingual encoders or translate, and validate that FinBERT's English-finance vocabulary transfers.
 
@@ -238,15 +238,15 @@ A minimal, robust, mostly-collinearity-aware set that works on any single instru
 
 - mlfinlab (López de Prado fracdiff, microstructure, bars): https://github.com/hudson-and-thames/mlfinlab
 - fracdiff: https://github.com/fracdiff/fracdiff · mlfinpy frac-diff docs: https://mlfinpy.readthedocs.io/en/latest/FractionalDifferentiated.html
-- TA-Lib: https://github.com/TA-Lib/ta-lib-python · pandas-ta: https://github.com/twopirllc/pandas-ta · pandas-ta-classic: https://github.com/xgboosted/pandas-ta-classic
+- TA-Lib: https://github.com/TA-Lib/ta-lib-python · pandas-ta: https://www.pandas-ta.dev (PyPI: https://pypi.org/project/pandas-ta/) · pandas-ta-classic: https://github.com/xgboosted/pandas-ta-classic
 - ta (bukosabino): https://github.com/bukosabino/ta · tulipy: https://github.com/cirla/tulipy · FinTA: https://github.com/peerchemist/finta
 - arch (GARCH): https://github.com/bashtage/arch · Yang–Zhang paper: https://www.sciencedirect.com/science/article/pii/S2665963824000010 · vol estimators: https://www.pyquantnews.com/the-pyquant-newsletter/how-to-compute-volatility-6-ways
 - VPIN explainer: https://microalphas.com/vpin/ · order-flow normalization: https://arxiv.org/abs/2512.18648
 - 101 Formulaic Alphas (Kakushadze): https://arxiv.org/abs/1601.00991 · code: https://github.com/yli188/WorldQuant_alpha101_code
 - Qlib: https://github.com/microsoft/qlib · handler (Alpha158/360): https://github.com/microsoft/qlib/blob/main/qlib/contrib/data/handler.py · docs: https://qlib.readthedocs.io/en/latest/component/data.html
-- Alpha Factor Library (Jansen): https://stefan-jansen.github.io/machine-learning-for-trading/24_alpha_factor_library/
+- Alpha Factor Library (Jansen): https://github.com/stefan-jansen/machine-learning-for-trading/tree/main/08_financial_features
 - exchange_calendars: https://github.com/gerrymanoim/exchange_calendars · pandas-market-calendars: https://github.com/rsheftel/pandas_market_calendars
-- FinBERT: https://huggingface.co/ProsusAI/finbert · FinBERT-tone: https://huggingface.co/yiyanghkust/finbert-tone · FinBERT repo: https://github.com/ProsusAI/finBERT · FinGPT: https://github.com/AI4Finance-Foundation/FinGPT
+- FinBERT: https://huggingface.co/ProsusAI/finbert · FinBERT-tone: https://huggingface.co/yiyanghkust/finbert-tone · FinBERT repo: https://github.com/ProsusAI/finBERT · FinGPT: https://github.com/AI4Finance-Foundation/FinGPT · sentence-transformers: https://github.com/huggingface/sentence-transformers
 - tsfresh: https://github.com/blue-yonder/tsfresh · Featuretools: https://github.com/alteryx/featuretools · TSFEL: https://github.com/fraunhoferportugal/tsfel · Feature-engine: https://github.com/feature-engine/feature_engine
 - alphalens: https://github.com/quantopian/alphalens · maintained fork: https://github.com/cloudQuant/alphalens · Feast: https://github.com/feast-dev/feast
 
