@@ -38,6 +38,13 @@
 - Kaggle: *Jane Street Market Prediction*, *Optiver Realized Volatility*, *Two Sigma / G-Research Crypto*, *JPX Tokyo Stock Exchange*. See sibling [`../../../`](../../../) Kaggle solutions and [Banking Datasets](../../Banking/Datasets_and_Benchmarks/).
 - Numerai — encrypted tournament dataset. https://numer.ai/
 
+## Platform deep-dives (pulled live via API)
+
+| Page | What's inside |
+|---|---|
+| [HuggingFace Finance Datasets & Models](./HuggingFace_Finance_Datasets_and_Models.md) | Top finance models (FinBERT, FinBERT-tone, **FinBERT-PT-BR 🇧🇷**, FinancialBERT) and datasets (financial_phrasebank, FinanceBench, twitter-financial-news, yahoo-finance-data), ranked by downloads, + HF API snippets. |
+| [Kaggle Finance Competitions & Datasets](./Kaggle_Finance_Competitions_and_Datasets.md) | Landmark quant competitions (Jane Street, Optiver, G-Research Crypto, JPX, Two Sigma, Ubiquant) + curated datasets (US/India equities, options, crypto, FX, sentiment) + Kaggle API snippets. |
+
 ## Notes & caveats
 
 - Always check for **survivorship bias** (delisted names) and **point-in-time** correctness (restated fundamentals). Free APIs have rate limits and adjustment quirks — validate corporate-action adjustments before modeling.
