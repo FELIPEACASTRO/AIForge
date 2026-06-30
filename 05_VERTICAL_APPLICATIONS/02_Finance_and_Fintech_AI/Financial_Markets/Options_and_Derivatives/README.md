@@ -49,6 +49,10 @@
 | [B3 Options & Derivatives (Brazil)](./B3_Options_and_Derivatives_Brazil.md) | Opções sobre ações/Ibovespa, convenção de séries/letras, futuros WIN/IND, WDO/DOL, DI, agro, especificações de contrato, margem, day trade, COE. |
 | [US Options & Derivatives](./US_Options_and_Derivatives.md) | Equity/ETF options (100x), SPX/XSP index options, OCC, VIX, weeklys/0DTE, strategies, CME futures (ES/MES, NQ/MNQ), OPRA. |
 
+## 🧩 More on options & derivatives
+- [Options Strategies & Analytics Tools](./Options_Strategies_and_Analytics_Tools.md) — strategy catalog (wheel, spreads, condors…) + builders (OptionStrat, OptionsProfitCalculator) and flow/GEX analytics (SpotGamma, Menthor Q, Unusual Whales, SqueezeMetrics); 🇧🇷 opcoes.net.br, OpLab, Opstra.
+- [Exotic Options, Swaps & Structured Products](./Exotic_Options_and_Structured_Products.md) — barriers/Asians/autocallables, variance & VIX derivatives, IRS/CDS/TRS/swaptions, structured notes & COE 🇧🇷, warrants/CFDs/ETNs, ISDA/QuantLib.
+
 ## Related in AIForge
 - [Risk Management & Derivatives Pricing](../Risk_Management_and_Derivatives_Pricing/) · [Futures & Commodities](../Futures_and_Commodities/) · [Crypto & Digital Assets](../Crypto_and_Digital_Assets/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/)

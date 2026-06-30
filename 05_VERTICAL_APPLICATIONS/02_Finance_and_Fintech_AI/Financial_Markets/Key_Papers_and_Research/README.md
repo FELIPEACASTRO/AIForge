@@ -63,6 +63,9 @@
 | [Economics & Finance Working Papers](./Economics_and_Finance_Working_Papers.md) | SSRN/FEN, NBER, RePEc/IDEAS/EconPapers, CEPR, EconStor, MPRA, Fed/IMF/World Bank, 🇧🇷 BCB & RBFin/SBFin — with how-to-search & JEL tips. |
 | [Research Search Engines & Aggregators](./Research_Search_Engines_and_Aggregators.md) | Papers with Code (→ HF Papers), Semantic Scholar API, OpenAlex API, DBLP, CORE, Crossref, Unpaywall — example queries for ML-finance literature pipelines. |
 
+## 📖 Learn the field
+- [Books, Courses & Learning Resources](./Books_Courses_and_Learning_Resources.md) — Hull, Natenberg, Sinclair, Taleb, Gatheral, López de Prado, Chan, Jansen; courses (QuantInsti EPAT, WorldQuant University, Coursera/Georgia Tech, CQF, Damodaran); blogs/podcasts; 🇧🇷 QuantBrasil, Asimov Academy.
+
 ## Related in AIForge
 - [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Backtesting & Frameworks](../Backtesting_and_Frameworks/) · [Options & Derivatives](../Options_and_Derivatives/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/) · [Alternative Data & Sentiment](../Alternative_Data_and_Sentiment_Analysis/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/)
