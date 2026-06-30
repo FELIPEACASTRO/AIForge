@@ -40,6 +40,9 @@
 - Horvath, Muguruza, Tomas, *Deep Learning Volatility* (2019) — deep calibration of rough-vol. https://arxiv.org/abs/1901.09647
 - Gatheral, *The Volatility Surface* (2006).
 
+## 🔮 Prediction toolkit
+- [Options-Market Prediction](./Options_Market_Prediction/) — features (Greeks, IV surface, VRP, GEX), datasets (OptionMetrics/ORATS/Deribit/CBOE), and models & frontier techniques (vol forecasting, arbitrage-free IV-surface NN, deep hedging, generative surfaces) for forecasting volatility, the surface, and options-driven signals.
+
 ## 🌎 Options & derivatives deep-dives by country
 | Page | What's inside |
 |---|---|
