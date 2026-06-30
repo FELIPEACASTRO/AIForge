@@ -33,6 +33,9 @@
 - Loughran & McDonald, *When Is a Liability Not a Liability?* (JF 2011) — finance sentiment. https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2010.01625.x
 - Araci, *FinBERT* (2019). https://arxiv.org/abs/1908.10063
 
+## 📑 Fundamental data & filings
+- [Fundamental Data & Filings Sources](./Fundamental_Data_and_Filings_Sources.md) — SEC EDGAR (XBRL frames/full-text APIs), Sharadar, SimFin, FMP, Finnhub, Daloopa, Quartr; international filings; 🇧🇷 CVM dados abertos, Fundamentus, Status Invest, brapi.
+
 ## Related in AIForge
 - [Equities & Stock Markets](../Equities_and_Stock_Markets/) · [Alternative Data & Sentiment](../Alternative_Data_and_Sentiment_Analysis/) · [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/)
 - Fundamentals: [`../../../../02_LLM_AND_AI_MODELS/`](../../../../02_LLM_AND_AI_MODELS/)
