@@ -29,7 +29,7 @@ The **expected move** (*movimento esperado / implícito*) is the options-market'
 | Method | Formula | Notes |
 |---|---|---|
 | **IV (closed-form 1σ)** | `EM ≈ Spot × IV × √(DTE/365)` | Generic; uses annualized ATM IV and calendar days. ~68% containment. |
-| **ATM straddle shortcut** | `EM ≈ 0.85 × (ATM straddle price)` of the expiry **immediately after** the event | The 0.85 factor trims the straddle's slight overshoot of 1σ. Fast desk heuristic ([MenthorQ](https://menthorq.com/guide/from-straddle-price-to-expected-move/)). |
+| **ATM straddle shortcut** | `EM ≈ 0.80–0.85 × (ATM straddle price)` of the expiry **immediately after** the event | The ~0.8 factor (some desks divide the straddle by 1.25, i.e. ×0.80) trims the straddle's slight overshoot of 1σ. Fast desk heuristic ([MenthorQ](https://menthorq.com/guide/from-straddle-price-to-expected-move/)). |
 | **tastytrade weighted blend** | `EM = 0.60×ATM straddle + 0.30×1st OTM strangle + 0.10×2nd OTM strangle` | The platform's published method ([tastytrade EM article](https://support.tastytrade.com/support/s/solutions/articles/43000435415)). |
 
 Use the **expiry that expires just after the announcement** to isolate the event premium; the post-event weekly straddle is dominated by the earnings jump, not ordinary time premium. The earnings expected move is typically **2–4× the ordinary weekly move** for the same name ([projectfinance](https://www.projectfinance.com/expected-move/), [Options Hawk](https://optionshawk.com/calculating-expected-moves-using-options/)).
