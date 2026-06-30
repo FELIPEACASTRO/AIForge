@@ -438,6 +438,7 @@ Auto-generated sitemap of every directory. Topic-first entry: [NAVIGATION_GUIDE.
       - [`Market_Microstructure_and_HFT/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Market_Microstructure_and_HFT/)
       - [`Models_Features_and_Datasets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Models_Features_and_Datasets/)
       - [`Options_and_Derivatives/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/)
+        - [`Options_Market_Prediction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/Options_Market_Prediction/)
       - [`Portfolio_Management_and_Optimization/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Portfolio_Management_and_Optimization/)
       - [`Risk_Management_and_Derivatives_Pricing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Risk_Management_and_Derivatives_Pricing/)
       - [`Technical_and_Fundamental_Analysis/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Technical_and_Fundamental_Analysis/)
