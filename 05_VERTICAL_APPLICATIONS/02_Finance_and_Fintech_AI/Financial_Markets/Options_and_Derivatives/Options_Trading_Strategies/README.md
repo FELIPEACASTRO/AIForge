@@ -21,8 +21,8 @@ This subsection is the strategy layer of [Options & Derivatives](../). For forec
 | [Execution, Strike & Expiry Selection](./Execution_Strike_and_Expiry_Selection.md) | Micro | Delta targeting (16/30/50Δ), expected move, DTE choice (45/0DTE/LEAPS), order mechanics (mid/limit/legging), liquidity screening, slippage, pin risk. |
 | [Hedging, Tail Risk & Macro-Driven Options](./Hedging_Tail_Risk_and_Macro_Strategies.md) | Macro | Protective puts/collars, tail hedging (Spitznagel/Universa), VIX hedging, beta-weighted delta, vol regimes, macro-event positioning (FOMC/CPI). |
 | [Earnings & Event-Driven Strategies](./Earnings_and_Event_Driven_Strategies.md) | — | IV ramp & post-earnings IV crush, expected-move calc, straddle vs iron condor around earnings, ex-dividend assignment, M&A/binary events. |
-
-> 🔜 Two more pages — **strategy encyclopedias & learning sources** and **B3 (Brazil) options strategies** — are finishing the triple-check pass and will be added next.
+| [Strategy Encyclopedias & Learning Sources](./Strategy_Encyclopedias_and_Learning_Sources.md) | Sources | Where to find **every** strategy: The Options Playbook, CBOE/OIC, theoptionsguide, books (McMillan/Natenberg/Sinclair/Cohen), courses, r/options & r/thetagang; 🇧🇷 OpLab Academy. |
+| [B3 (Brazil) Options Strategies](./B3_Brazil_Options_Strategies.md) | 🇧🇷 | Financiamento (covered call), travas de alta/baixa, borboleta, condor, mesa de opções, put protecionista, rolagem, tributação, opcoes.net.br/OpLab. |
 
 ## ⚠️ Risk note
 No options strategy is "free money." Selling premium has high win-rate but undefined/large tail risk; buying premium fights theta and IV crush. Liquidity, bid-ask spreads, commissions, assignment, and sizing decide real outcomes. Always backtest with realistic costs ([Backtesting & Frameworks](../../Backtesting_and_Frameworks/)) and size for survival.
