@@ -128,12 +128,14 @@ Confirm with a contador; rules change and this is not tax advice.
 | **Day trade** | **20%** sobre o lucro líquido | Mesma série comprada e vendida no dia |
 | **IRRF "dedo-duro"** | **0,005%** retido na fonte sobre o **valor de venda** em operação comum/swing; **1%** sobre o **ganho** em **day trade** | Sinaliza a operação à Receita; é antecipação, compensável no DARF |
 | **Isenção de R$ 20 mil/mês** | **NÃO se aplica a opções** | A isenção é só p/ venda de **ações** no à vista; opções são sempre tributadas |
-| **Pagamento** | Via **DARF**, código de renda variável, até o **último dia útil do mês seguinte** | Você mesmo apura e paga |
+| **Pagamento** | Via **DARF** (código **6015** de renda variável) até o **último dia útil do mês seguinte** | Você mesmo apura e paga |
 | **Compensação de prejuízo** | Swing ↔ swing (qualquer RV); **day trade só com day trade** | Carrega para meses seguintes |
 
 Sources: [XP — day trade no IR](https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/day-trade-no-imposto-de-renda/), [investimentos.com.br — declarar opções](https://investimentos.com.br/artigos/como-declarar-opcoes-no-imposto-de-renda/), [Nubank — DARF day trade](https://blog.nubank.com.br/como-emitir-darf-day-trade/), [B3 Bora Investir — declarar day trade](https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/day-trade/como-declarar-day-trade-no-imposto-de-renda-confira-com-o-bora/), [Receita Federal — Isenções (renda variável)](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/renda-variavel/bolsa-de-valores-1/isencoes).
 
 > Key trap: many beginners assume the R$ 20k/month equity exemption covers option profits. **It does not** — option gains (and any day trade) are taxable from the first real.
+>
+> Note (2025–2026): a proposed reform (MP 1.303) that would have unified equity/derivatives gains at a flat **17.5%** was **rejected by Congress and lapsed**, so the **15% swing / 20% day-trade** rates above remain in force for 2026.
 
 ---
 
