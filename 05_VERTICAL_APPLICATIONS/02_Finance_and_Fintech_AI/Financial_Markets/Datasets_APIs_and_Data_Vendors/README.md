@@ -51,6 +51,12 @@
 
 - Always check for **survivorship bias** (delisted names) and **point-in-time** correctness (restated fundamentals). Free APIs have rate limits and adjustment quirks — validate corporate-action adjustments before modeling.
 
+## 🗄️ More data-source catalogs (by type)
+- [Macro & Economic Data](./Macro_and_Economic_Data.md) — FRED-MD/QD, ALFRED (point-in-time), DBnomics, Trading Economics, GDPNow/Nowcast, calendars; 🇧🇷 BCB SGS, IBGE SIDRA, IPEAData.
+- [Tick & High-Frequency Data Vendors](./Tick_and_HFT_Data_Vendors.md) — Databento, AlgoSeek, TickData, FirstRate, dxFeed, OneTick, Refinitiv Tick History, IEX DEEP; crypto tick.
+- [News & Events Data APIs](./News_and_Events_Data_APIs.md) — Benzinga, Finnhub, Marketaux, GDELT, Tiingo/FMP, RavenPack, transcripts (Quartr/EarningsCall), EDGAR feeds.
+- [Real-Time Streaming & Broker APIs](./Realtime_Streaming_and_Broker_APIs.md) — WebSocket feeds (Polygon/Massive, Alpaca, Finnhub) + broker APIs (IBKR, Schwab, Tastytrade, OANDA, MT5); 🇧🇷 XP/Clear, OpLab, brapi.
+
 ## Related in AIForge
 - [Backtesting & Frameworks](../Backtesting_and_Frameworks/) · [Tools & Platforms](../Tools_and_Platforms/) · [Equities & Stock Markets](../Equities_and_Stock_Markets/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/)
 - [`../../../../03_DATASETS_TOOLS_AND_RESOURCES/`](../../../../03_DATASETS_TOOLS_AND_RESOURCES/)

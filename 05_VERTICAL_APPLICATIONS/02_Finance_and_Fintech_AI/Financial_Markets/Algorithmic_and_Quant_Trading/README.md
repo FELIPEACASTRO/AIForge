@@ -43,6 +43,9 @@ QuantConnect/LEAN, Zipline-reloaded, Backtrader, vectorbt, `bt`, Qlib (Microsoft
 - Liu et al., *FinRL: Deep Reinforcement Learning Framework* (2020). https://arxiv.org/abs/2011.09607
 - Yang, Liu, Zhong, Walid, *Deep RL for Automated Stock Trading* (2020). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3690996
 
+## 🏆 Crowdsourced alpha & competitions
+- [Quant Competitions & Crowdsourced Alpha](./Quant_Competitions_and_Crowdsourced_Alpha.md) — Numerai (Signals/Crypto), WorldQuant BRAIN, CrunchDAO/ADIA Lab, Quantiacs, IMC Prosperity, Rotman RIT — how to participate, data & payout (honest on realistic terms).
+
 ## Related in AIForge
 - [Portfolio Management](../Portfolio_Management_and_Optimization/) · [Backtesting & Frameworks](../Backtesting_and_Frameworks/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/) · [Tools & Platforms](../Tools_and_Platforms/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/)

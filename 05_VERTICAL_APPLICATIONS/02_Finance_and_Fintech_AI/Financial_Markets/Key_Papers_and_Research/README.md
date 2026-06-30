@@ -66,6 +66,9 @@
 ## 📖 Learn the field
 - [Books, Courses & Learning Resources](./Books_Courses_and_Learning_Resources.md) — Hull, Natenberg, Sinclair, Taleb, Gatheral, López de Prado, Chan, Jansen; courses (QuantInsti EPAT, WorldQuant University, Coursera/Georgia Tech, CQF, Damodaran); blogs/podcasts; 🇧🇷 QuantBrasil, Asimov Academy.
 
+## 🧪 Benchmarks & NLP datasets
+- [Finance LLM Benchmarks & NLP Datasets](./Finance_LLM_Benchmarks_and_Datasets.md) — FinBen/FLARE, FinanceBench, FinQA/ConvFinQA/TAT-QA, ECTSum, FNSPID, EDGAR-CORPUS, Financial PhraseBank, Trillion Dollar Words, Open Financial LLM Leaderboard.
+
 ## Related in AIForge
 - [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Backtesting & Frameworks](../Backtesting_and_Frameworks/) · [Options & Derivatives](../Options_and_Derivatives/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/) · [Alternative Data & Sentiment](../Alternative_Data_and_Sentiment_Analysis/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/)

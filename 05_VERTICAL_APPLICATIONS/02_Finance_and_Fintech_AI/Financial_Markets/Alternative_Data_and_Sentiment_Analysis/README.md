@@ -36,6 +36,10 @@
 ## 🆕 New & emerging alt-data
 - [Prediction Markets, ESG & New Alternative-Data Sources](./Prediction_Markets_ESG_and_New_Alt_Data.md) — Polymarket/Kalshi/Metaculus event probabilities, ESG/climate data, GDELT, satellite/geospatial, web/card/shipping panels, crypto on-chain (Nansen/Dune/Glassnode).
 
+## 🏛️ Positioning & sell-side data
+- [Insider, Institutional & Ownership Data](./Insider_Institutional_and_Ownership_Data.md) — Form 4/OpenInsider, 13F (WhaleWisdom/Fintel/HedgeFollow), short interest (Ortex/S3), congressional trading (Quiver/Capitol Trades), ETF flows.
+- [Analyst Estimates & Sell-Side Data](./Analyst_Estimates_and_Sell_Side_Data.md) — I/B/E/S, Visible Alpha, TipRanks, Estimize, Zacks, Daloopa, AlphaSense/Tegus — consensus, price targets, PEAD.
+
 ## Related in AIForge
 - [Technical & Fundamental Analysis](../Technical_and_Fundamental_Analysis/) · [Equities & Stock Markets](../Equities_and_Stock_Markets/) · [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Crypto & Digital Assets](../Crypto_and_Digital_Assets/)
 - Fundamentals: [`../../../../02_LLM_AND_AI_MODELS/`](../../../../02_LLM_AND_AI_MODELS/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval/)
