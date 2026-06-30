@@ -49,7 +49,7 @@ The only repeatable edge in earnings options is a **persistent gap between impli
 | **tastytrade** | Expected-move overlay on the platform; market-study research | [tastylive.com](https://www.tastylive.com/) |
 | **CBOE / OIC** | Authoritative mechanics, assignment & dividend education (not signals) | [optionseducation.org](https://www.optionseducation.org/) |
 
-**Reading the signal:** If a name has *consistently moved less than implied* (e.g., META in an ORATS dashboard showing implied 6.8% vs 12-quarter average actual 13.2% — here implied is *below* realized, favoring buyers; the reverse favors sellers — [ORATS via Nasdaq](https://www.nasdaq.com/articles/will-meta-surprise-again-orats-data-shows-traders-are-bracing-for-volatility)), that is a *data point*, not a guarantee. Earnings regimes shift; a name that under-delivered eight times can gap 3× implied on the ninth.
+**Reading the signal:** If a name has *consistently moved less than implied* (e.g., META in an ORATS dashboard showing implied 6.8% vs 12-quarter average actual 13.2% — here implied is *below* realized, favoring buyers; the reverse favors sellers — [ORATS via Nasdaq](https://www.nasdaq.com/articles/will-meta-surprise-again-orats-data-shows-traders-are-bracing-volatility)), that is a *data point*, not a guarantee. Earnings regimes shift; a name that under-delivered eight times can gap 3× implied on the ninth.
 
 ---
 
@@ -65,7 +65,7 @@ The only repeatable edge in earnings options is a **persistent gap between impli
 | Profile | Many small losses, rare large win (lottery-ish) | Many small wins, rare large loss (negative skew) |
 
 **Empirical reality check (cite, don't trust blindly):**
-- ORATS' earnings backtest (Jan-2020→Oct-2021; **5,217 announcements, 20,868 trades**): in-sample **Sell Straddle +1.18%** over 214 trades but with a worst trade of **−26.7%** vs best **+8.3%** — textbook negative skew; **Buy Straddle +0.40%** (worst −3.8%, best +13.7%); the **long calendar** was the best out-of-sample performer (+0.91%) ([ORATS backtest](https://orats.com/blog/earnings-options-strategies-backtest)).
+- ORATS' earnings backtest (**5,217 announcements, 20,868 trades**; in-sample Jan-2020→Jul-2021, out-of-sample Jul-2021→Oct-2021): in-sample **Sell Straddle +1.18%** over 214 trades but with a worst trade of **−26.7%** vs best **+8.3%** — textbook negative skew; **Buy Straddle +0.40%** (worst −3.8%, best +13.7%); the **long calendar** was the best out-of-sample performer (+0.91%) ([ORATS backtest](https://orats.com/blog/earnings-options-strategies-backtest)).
 - An independent study across 4,200 events reports an **average IV crush of ~38%** and a **next-open short-straddle win rate of 54.7%** with avg win +19.4% / avg loss −22.1% — i.e., barely-above-coin-flip hit rate paired with *unfavorable* payoff asymmetry ([iPresage research](https://www.ipresage.com/research/earnings-iv-crush)).
 
 The takeaway both camps must internalize: **after costs and skew, expected value hovers near zero.** Any positive expectancy comes from disciplined ticker selection (implied-vs-realized edge), sizing, and management — not from the structure itself.
@@ -88,7 +88,7 @@ Mechanics & timing: enter **1–5 days before** the print when the IV differenti
 
 ## 6. Ex-dividend & early assignment of ITM calls (a non-earnings event)
 
-For **American-style** options (all single-name US equity options; B3 equity options are also American), the dominant rational early-exercise case is a **deep-ITM call before an ex-dividend date**. If you are **short** that call, you can be assigned, go short the stock over the ex-date, and **owe the dividend**.
+For **American-style** options (all single-name US equity options; B3 equity options are predominantly American, especially calls), the dominant rational early-exercise case is a **deep-ITM call before an ex-dividend date**. If you are **short** that call, you can be assigned, go short the stock over the ex-date, and **owe the dividend**.
 
 **Decision rule (memorize):** a long call holder rationally exercises early to capture a dividend when the call's **remaining extrinsic value (time + IV premium) < the dividend**. So as a short-call writer:
 
