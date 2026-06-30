@@ -52,6 +52,9 @@ Critical practices: **point-in-time** data (no look-ahead via restated fundament
 | [Europe & Eurasia](./Europe_and_Eurasia_Markets.md) | LSE, Euronext, Xetra/DAX, SIX, Nasdaq Nordic, BME, GPW, MOEX (sanctions), BIST; suffixes & data. |
 | [Middle East · Africa · LatAm (ex-Brazil) · Canada · Oceania](./MiddleEast_Africa_LatAm_Canada_Oceania_Markets.md) | Tadawul (`.SR`), UAE (`.AE`), TASE, JSE, EGX, BMV, BYMA, IPSA, TSX, ASX + access ETFs. |
 
+## 🔍 Research & screening
+- [Stock Screeners & Research Platforms](./Stock_Screeners_and_Research_Platforms.md) — Finviz, TradingView, Koyfin, Stockopedia, TIKR, GuruFocus, Quartr, Portfolio123; 🇧🇷 Status Invest, Investidor10, Fundamentus, TradeMap, MaisRetorno.
+
 ## Related in AIForge
 - [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Portfolio Management](../Portfolio_Management_and_Optimization/) · [Technical & Fundamental Analysis](../Technical_and_Fundamental_Analysis/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/)
 - Fundamentals: [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/) · [`../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/`](../../../../01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/)

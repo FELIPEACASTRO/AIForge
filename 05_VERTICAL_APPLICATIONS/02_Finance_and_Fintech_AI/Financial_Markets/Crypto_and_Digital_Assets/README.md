@@ -30,6 +30,9 @@
 - Weber et al., *Anti-Money Laundering in Bitcoin: GCNs for Financial Forensics* (2019) — Elliptic. https://arxiv.org/abs/1908.02591
 - Daian et al., *Flash Boys 2.0* (MEV, 2019). https://arxiv.org/abs/1904.05234
 
+## 📉 Crypto derivatives
+- [Crypto Derivatives & Perpetual Futures](./Crypto_Derivatives_and_Perpetuals.md) — perps & funding rates (Binance/Bybit/OKX; DEX: dYdX/GMX/Hyperliquid), crypto options (Deribit/Aevo/Derive), analytics (Coinglass/Laevitas/Velo), and ML angles (funding/basis/liquidations).
+
 ## Related in AIForge
 - [Options & Derivatives](../Options_and_Derivatives/) · [Algorithmic & Quant Trading](../Algorithmic_and_Quant_Trading/) · [Market Microstructure & HFT](../Market_Microstructure_and_HFT/) · [Alternative Data & Sentiment](../Alternative_Data_and_Sentiment_Analysis/)
 - Sibling: [`../../Banking/Transaction_Monitoring_and_AML/`](../../Banking/Transaction_Monitoring_and_AML/) (on-chain AML)
