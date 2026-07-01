@@ -18,6 +18,12 @@ Sport is one of the most data-rich verticals: every match produces synchronized 
 | Officiating CV | Offside, goal-line, line-calling, ball tracking | Hawk-Eye-style ball tracking (TrackNet) |
 | Tactical / RL simulators | Agent learning, decision states, what-if tactics | Google Research Football |
 
+## ⚽ Deep-dive sections
+
+| Section | What's inside |
+|---|---|
+| [Football Match & Betting Prediction](./Football_Match_and_Betting_Prediction/) | The most complete open index of **football (soccer) match & betting prediction** — models (Dixon-Coles/Elo/xG/ML/DL), features, statistics & probability, global datasets & APIs, odds & value theory, tools, papers, and research platforms. Fact-checked, worldwide coverage, responsible-gambling framed (research/education only). |
+
 ## Key datasets & tools
 
 | Name | Sport | Type | Link |
