@@ -27,7 +27,19 @@
 | [In-Play, Advanced & ML/AI Approaches](./In_Play_Advanced_and_ML_Approaches.md) | Live win-probability, xT/VAEP, Monte Carlo sims, SPI/ClubElo/Opta, GNNs, TacticAI, LLMs. |
 | [Key Papers & Research](./Key_Papers_and_Research.md) | Maher 1982, **Dixon-Coles 1997**, Rue-Salvesen, Karlis-Ntzoufras, Baio-Blangiardo, Constantinou (pi-football/dolores), ML surveys — with verified DOIs. |
 
-> 🔜 More triple-checked pages are being finalized (regional deep-dives for Asia+India / Americas / Europe; bet-selection & staking; exchanges/trading; community & open projects; FPL; data providers/tracking/CV; corners/cards; injuries/lineups; referees; women's & lower-tier; sentiment/alt-data; odds archives; simulation engines; benchmarks; evaluation/calibration; academic preprints & aggregators) and will be added here.
+## 🌏 Regional & market deep-dives
+| Page | What's inside |
+|---|---|
+| [Asia & India — Data, Leagues & Markets](./Asia_and_India_Football_Data_and_Markets.md) | J-League, K-League, CSL, **ISL/India**, Saudi Pro League, AFC + the origin of the **Asian handicap**; data sources per country. |
+| [Europe — Data, Leagues & Markets](./Europe_Football_Data_and_Markets.md) | Top-5 + lower divisions + all UEFA nations; **football-data.co.uk**, ClubElo, Understat/FBref, Opta — the deepest, most-modelled region. |
+| [Bet Selection, Staking & High-Odds ("Apostas Bomba")](./Bet_Selection_Staking_and_High_Odds_Analysis.md) | Value/edge, CLV, devigging, Kelly & fractional Kelly; an **honest, evidence-based debunk** of accumulators/longshots (margin compounds → usually −EV). |
+| [Betting Exchanges, Trading & Microstructure](./Betting_Exchanges_Trading_and_Microstructure.md) | Betfair Exchange (back/lay), betfairlightweight/flumine, Smarkets; in-play trading, liquidity, matched betting (educational). |
+| [Corners, Cards & Secondary-Markets Modeling](./Corners_Cards_and_Secondary_Markets_Modeling.md) | Over/under corners, cards, fouls; BTTS & total-goals; player props — modeling & data for "secondary" markets. |
+| [Fantasy Football (FPL) Analytics](./Fantasy_Football_and_FPL_Analytics.md) | Official FPL API, vaastav historical dataset, xP models, LP optimizers; Dream11/Sorare context. |
+| [Injury, Lineup & Player-Availability Data](./Injury_Lineup_and_Availability_Data.md) | Predicted/confirmed lineups, injury feeds, suspensions; impact of key-player absence (pre-kickoff timing). |
+| [Women's & Lower-Tier Football](./Womens_and_Lower_Tier_Football_Data.md) | WSL/NWSL/UWCL (StatsBomb free women's data), lower divisions — less-efficient markets & the honest tradeoffs. |
+
+> 🔜 A few more triple-checked pages are still finalizing (Americas regional deep-dive; community & open projects; data providers/tracking/CV; referees; sentiment/alt-data; odds archives; simulation engines; benchmarks; evaluation/calibration; academic preprints & aggregators) and will be added.
 
 ## Related in AIForge
 - Parent vertical: [`../`](../) (Sports Analytics AI)
