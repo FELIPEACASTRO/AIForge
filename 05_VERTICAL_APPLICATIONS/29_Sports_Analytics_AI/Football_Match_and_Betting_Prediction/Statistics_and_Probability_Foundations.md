@@ -179,7 +179,7 @@ Key intuition: Kelly's edge term `o·p − 1` **is exactly the EV**; if your `p`
 | 7 | **Constantinou & Fenton** — *…dynamic ratings based on relative discrepancies…* | **pi-ratings** | [JQAS 9(1):37–50, 2013](https://ideas.repec.org/a/bpj/jqsprt/v9y2013i1p37-50n4.html) |
 | 8 | **Herbrich, Minka & Graepel** — *TrueSkill™* | Bayesian skill rating | [NeurIPS 2006](https://papers.nips.cc/paper/3079-trueskilltm-a-bayesian-skill-rating-system) |
 | 9 | **Boshnakov, Kharrat & McHale** — *A bivariate Weibull count model…* | Non-Poisson goal timing | [IJF 33(2):458–466, 2017](https://www.sciencedirect.com/science/article/abs/pii/S0169207017300018) |
-| 10 | **Wheatcroft** — *…the case against the ranked probability score* | Critique of RPS | [JQAS 2021 / arXiv:1908.08980](https://arxiv.org/abs/1908.08980) |
+| 10 | **Wheatcroft** — *…the case against the ranked probability score* | Critique of RPS | [JQAS 17(4):273–287, 2021 / arXiv:1908.08980](https://arxiv.org/abs/1908.08980) |
 
 ---
 

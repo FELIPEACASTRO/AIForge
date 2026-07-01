@@ -35,7 +35,7 @@ The percentages are only a *summary of the base model's assumptions* — they ad
 | **Club Elo** | http://clubelo.com/ (API: http://api.clubelo.com/) | Club Elo ratings with full history and a plain-CSV API — strength priors for the base model |
 | **Football-Data.co.uk** | https://www.football-data.co.uk/ | Historical results + opening/closing bookmaker odds as CSV/Excel — backtesting and probability calibration |
 | **Understat** | https://understat.com/ | Expected-goals (xG) for the five big leagues + RPL, exportable as CSV/JSON/XLSX — a live xG feed for goal models |
-| **FBref** (Sports Reference) | https://fbref.com/ | Broad team/player stats. Note: FBref's **advanced (xG) stats were discontinued in January 2026**, so use Understat for current xG feeds. |
+| **FBref** (Sports Reference) | https://fbref.com/ | Broad team/player stats. Note: FBref's **advanced (xG) stats were discontinued in January 2026** (Stats Perform/Opta ended the data agreement), so use Understat for current xG feeds. |
 
 ## Open-source simulators & modelling libraries (verified)
 
@@ -49,8 +49,8 @@ The percentages are only a *summary of the base model's assumptions* — they ad
 | Study | Link | Contribution |
 |---|---|---|
 | **Dixon & Coles (1997)**, *JRSS Series C (Applied Statistics)* 46(2):265–280 | https://doi.org/10.1111/1467-9876.00065 | The bivariate-Poisson base model with a low-score correction and time-weighting that most goal-based sims still build on |
-| **Groll, Ley & Schauberger (2018)** — random-forest World Cup 2018 forecast | https://arxiv.org/abs/1806.03208 | Combines a random forest with ranking-based team-ability parameters, then simulates the tournament repeatedly for winning probabilities |
-| **Zeileis, Leitner & Hornik** — bookmaker-consensus tournament forecasts | https://www.zeileis.org/news/fifa2022/ · https://ideas.repec.org/p/inn/wpaper/2018-09.html | "Inverse" approach: average de-margined bookmaker odds into a consensus, back out team abilities, then simulate all pairwise matches |
+| **Groll, Ley, Schauberger & Van Eetvelde (2018)** — random-forest World Cup 2018 forecast | https://arxiv.org/abs/1806.03208 | Combines a random forest with ranking-based team-ability parameters, then simulates the tournament repeatedly for winning probabilities |
+| **Bookmaker-consensus model** (Zeileis, Leitner & Hornik) | https://ideas.repec.org/p/inn/wpaper/2018-09.html · latest hybrid application (Zeileis, Groll, Ley *et al.*): https://www.zeileis.org/news/fifa2022/ | "Inverse" approach: average de-margined odds from many bookmakers into a consensus, back out team abilities, then simulate all pairwise matches. The 2022 page extends this into a hybrid that also blends historic bivariate-Poisson form and team covariates. |
 
 ## Minimal Monte Carlo recipe
 
