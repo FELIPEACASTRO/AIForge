@@ -17,11 +17,11 @@ Every feature for a fixture must be computable **using only information availabl
 | Family | Example features | Signal strength | Primary sources |
 |---|---|---|---|
 | Strength / ratings | Elo, pi-ratings, SPI, squad value, market-implied | ⭐⭐⭐⭐ | ClubElo, Transfermarkt, odds |
-| Form & momentum | rolling pts/goals, xG rolling, streaks | ⭐⭐⭐ (regresses to mean) | FBref, Understat |
-| Expected goals family | xG, npxG, xGD, xT, VAEP, xPts | ⭐⭐⭐⭐ | Understat, FBref, StatsBomb |
+| Form & momentum | rolling pts/goals, xG rolling, streaks | ⭐⭐⭐ (regresses to mean) | Understat, football-data |
+| Expected goals family | xG, npxG, xGD, xT, VAEP, xPts | ⭐⭐⭐⭐ | Understat, StatsBomb |
 | Context | home adv., rest, congestion, travel, altitude | ⭐⭐–⭐⭐⭐ | fixtures, APIs |
 | Team news | lineups, absences, injuries, manager change | ⭐⭐⭐ (if pre-match) | API-Football, press |
-| H2H & style | PPDA, possession, set-piece reliance | ⭐⭐ | FBref, StatsBomb |
+| H2H & style | PPDA, possession, set-piece reliance | ⭐⭐ | StatsBomb, Sofascore |
 | Referee | cards / penalty tendencies | ⭐ (niche markets) | FBref, FootyMetrics |
 | Market | opening/closing odds, movement, volume | ⭐⭐⭐⭐⭐ (hard to beat) | football-data, OddsPortal |
 
@@ -52,8 +52,8 @@ Recent-performance features. Useful but **noisy and mean-reverting** — raw "la
 |---|---|---|---|
 | **Rolling points / PPG** | Points per game over last N matches (média de pontos por jogo) | Simple momentum proxy; window N (3–10) is a tunable hyperparameter | Any results feed ([football-data.co.uk](https://www.football-data.co.uk/data.php)) |
 | **Rolling goals for / against** | GF/GA moving averages (gols marcados/sofridos) | Captures scoring trend; blend home-only vs away-only splits | football-data.co.uk, [OpenFootball](https://github.com/openfootball) |
-| **Rolling xG / xGA** | Moving average of expected goals for/against | **More predictive of future goals than past goals** — less noisy signal of underlying level | [Understat](https://understat.com/) · [FBref](https://fbref.com/) |
-| **Shot-based form** | Rolling shots, shots on target, big chances (finalizações) | Volume proxy that leads goals; robust in small samples | FBref, [StatsBomb open data](https://github.com/statsbomb/open-data) |
+| **Rolling xG / xGA** | Moving average of expected goals for/against | **More predictive of future goals than past goals** — less noisy signal of underlying level | [Understat](https://understat.com/) · [StatsBomb](https://github.com/statsbomb/open-data) |
+| **Shot-based form** | Rolling shots, shots on target, big chances (finalizações) | Volume proxy that leads goals; robust in small samples | [StatsBomb open data](https://github.com/statsbomb/open-data), [Understat](https://understat.com/) |
 | **Weighted / decayed form** | Exponential time-decay so recent games count more (forma ponderada) | Same idea as Dixon–Coles ξ half-life; reduces staleness | [time-weighting](https://dashee87.github.io/football/python/predicting-football-results-with-statistical-modelling-dixon-coles-and-time-weighting/) |
 | **Streaks** | Consecutive W/D/L, unbeaten/scoring runs (sequências / invencibilidade) | Weak marginal signal once ratings are included; watch for leakage & overfitting | derived from results |
 
@@ -61,16 +61,18 @@ Recent-performance features. Useful but **noisy and mean-reverting** — raw "la
 
 ## 3) The Expected Goals family (família de Expected Goals — xG)
 
-The most valuable modern feature class. xG assigns each shot a scoring probability from its characteristics; aggregating and extending it yields a rich family. (FBref/StatsBomb value a penalty at **xG ≈ 0.76**; Opta uses **0.79**.)
+The most valuable modern feature class. xG assigns each shot a scoring probability from its characteristics; aggregating and extending it yields a rich family. (Providers assign penalties a fixed xG: **Understat ≈ 0.76**, **StatsBomb ≈ 0.78**, **Opta ≈ 0.79**.)
+
+> ⚠️ **Data-source update (Jan 2026):** **FBref removed all advanced stats — xG, npxG, progressive passes, shot-creating actions, possession, etc. — on 20 Jan 2026** after Opta/StatsPerform terminated its data feed. Source the xG family from **Understat** (top-5 European leagues + RFPL only), **StatsBomb open data**, or Opta-powered sites (**Sofascore, WhoScored**) instead; FBref now serves basic scores/standings only. This especially affects non-European leagues (e.g. Brasileirão) that Understat does not cover.
 
 | Feature | Definition (PT) | Why it matters | Data source |
 |---|---|---|---|
-| **xG (Expected Goals)** | Sum of shot scoring probabilities (gols esperados) | Best single "deserved goals" signal; smooths finishing luck | [FBref xG explained](https://fbref.com/en/expected-goals-model-explained/) · [Understat](https://understat.com/) |
-| **xGA (xG Against)** | xG conceded (gols esperados sofridos) | Defensive quality proxy, less noisy than goals against | FBref, Understat |
-| **xGD (xG Difference)** | xG − xGA, often per 90 (saldo de gols esperados) | Strong league-table and future-results predictor | FBref, Understat |
-| **npxG (non-penalty xG)** | xG excluding penalties (xG sem pênaltis) | Removes penalty distortion → cleaner open-play quality | [FBref](https://fbref.com/en/expected-goals-model-explained/) |
-| **xG overperformance** | Goals − xG (goals scored above/below expected) | Flags unsustainable hot/cold finishing → **fade regression to the mean** | derived (FBref/Understat) |
-| **Set-piece xG (xGSP)** vs **open-play xG (xGOP)** | xG split by phase (xG de bola parada vs bola rolando) | Set plays convert ~2× open play; reveals set-piece-reliant sides (e.g. Arsenal) | [StatsBomb](https://github.com/statsbomb/open-data), FBref |
+| **xG (Expected Goals)** | Sum of shot scoring probabilities (gols esperados) | Best single "deserved goals" signal; smooths finishing luck | [xG explained (Hudl/StatsBomb)](https://www.hudl.com/blog/expected-goals-xg-explained) · [Understat](https://understat.com/) |
+| **xGA (xG Against)** | xG conceded (gols esperados sofridos) | Defensive quality proxy, less noisy than goals against | Understat, StatsBomb |
+| **xGD (xG Difference)** | xG − xGA, often per 90 (saldo de gols esperados) | Strong league-table and future-results predictor | Understat, StatsBomb |
+| **npxG (non-penalty xG)** | xG excluding penalties (xG sem pênaltis) | Removes penalty distortion → cleaner open-play quality | [Understat](https://understat.com/), StatsBomb |
+| **xG overperformance** | Goals − xG (goals scored above/below expected) | Flags unsustainable hot/cold finishing → **fade regression to the mean** | derived (Understat/StatsBomb) |
+| **Set-piece xG (xGSP)** vs **open-play xG (xGOP)** | xG split by phase (xG de bola parada vs bola rolando) | Set plays convert ~2× open play; reveals set-piece-reliant sides (e.g. Arsenal) | [StatsBomb](https://github.com/statsbomb/open-data) |
 | **xT (Expected Threat)** | Pitch split into a **16×12 grid**; value = danger added by moving the ball (ameaça esperada) | Credits build-up/progression, not just shots; team-style signal | [Karun Singh (2018)](https://karun.in/blog/expected-threat.html) · [socceraction](https://github.com/ML-KULeuven/socceraction) |
 | **VAEP / xPossession value** | ML value of each action via score/concede probability change | Broadest action-value framework; context-aware | [VAEP (KU Leuven)](https://dtai.cs.kuleuven.be/sports/vaep/) · [socceraction (Python)](https://github.com/ML-KULeuven/socceraction) |
 | **xPoints (xPts)** | Simulate match from both sides' shot xG → expected points (pontos esperados) | Detects lucky/unlucky results → better strength estimate than actual points | [Understat](https://understat.com/) (xPTS column) · [method](https://mckayjohns.substack.com/p/how-to-calculate-expected-points) |
@@ -104,7 +106,7 @@ High-value but **time-sensitive**: confirmed lineups drop ~1 hour pre-match. Use
 | **Confirmed / predicted lineups** | Starting XI & formation (escalação) | Big swing vs a "full-strength" prior; rotation detection | [API-Football](https://www.api-football.com/) (lineups), [SportMonks](https://www.sportmonks.com/football-api/) |
 | **Key-player absence** | Star/high-VAEP player missing (desfalque de titular) | Value-weighted absence (e.g. lost squad value %) beats a raw count | Transfermarkt values × lineups |
 | **Injuries & suspensions** | Injured/banned players (lesões e suspensões) | Aggregate lost minutes/value; suspensions are known days ahead (less leakage risk) | API-Football injuries, [SportMonks](https://www.sportmonks.com/) |
-| **Manager change** | New head coach recently appointed (troca de técnico) | "New-manager bounce" is real short-term (~+0.3 PPG over 5 games) but **largely regression to the mean** — model with skepticism | [Premier League](https://www.premierleague.com/en/news/4593686/what-is-a-new-manager-bounce-and-is-it-a-myth) · [analysis](https://socceranalytics.substack.com/p/is-the-new-manager-bounce-really) |
+| **Manager change** | New head coach recently appointed (troca de técnico) | "New-manager bounce" is real short-term (~+0.4 PPG over first 5 games — Opta: 1.27 vs 0.90 PPG) but **largely regression to the mean** — model with skepticism | [Premier League](https://www.premierleague.com/en/news/4593686/what-is-a-new-manager-bounce-and-is-it-a-myth) · [analysis](https://socceranalytics.substack.com/p/is-the-new-manager-bounce-really) |
 
 ---
 
@@ -115,10 +117,10 @@ Matchup-specific signals. H2H is popular but **weak once ratings are included** 
 | Feature | Definition (PT) | Why it matters | Data source |
 |---|---|---|---|
 | **Head-to-head (H2H)** | Prior meetings' results (confronto direto) | Intuitive but low signal beyond strength; prone to overfit on tiny N | results feeds |
-| **Possession %** | Share of the ball (posse de bola) | Style descriptor; weak alone, useful in interactions | FBref, [Sofascore](https://www.sofascore.com/) |
+| **Possession %** | Share of the ball (posse de bola) | Style descriptor; weak alone, useful in interactions | [Sofascore](https://www.sofascore.com/), WhoScored |
 | **PPDA (Passes per Defensive Action)** | Opp passes ÷ defensive actions in the pressing zone (~front 60%) — pressing intensity | Low PPDA (~4–8) = high press; mismatches (press vs build-up) shift outcomes | [Premier League def.](https://www.premierleague.com/en/news/4250153/passes-per-defensive-action-explained) · [StatsBomb/Hudl glossary](https://support.hudl.com/s/article/passes-defensive-action) |
-| **Style / matchup vectors** | Directness, width, build-up type, aerial reliance (estilo de jogo) | Style clashes (e.g. press vs long-ball) inform tactical priors | FBref, StatsBomb, [socceraction](https://github.com/ML-KULeuven/socceraction) |
-| **Set-piece reliance** | Share of xG/goals from set plays (dependência de bola parada) | Identifies teams whose output is corner/free-kick driven | StatsBomb, FBref (xGSP) |
+| **Style / matchup vectors** | Directness, width, build-up type, aerial reliance (estilo de jogo) | Style clashes (e.g. press vs long-ball) inform tactical priors | StatsBomb, [socceraction](https://github.com/ML-KULeuven/socceraction) |
+| **Set-piece reliance** | Share of xG/goals from set plays (dependência de bola parada) | Identifies teams whose output is corner/free-kick driven | StatsBomb (xGSP) |
 
 ---
 
@@ -180,8 +182,8 @@ Guiding principle: **fewer, causal, leak-free features beat a wide leaky matrix.
 | **Feast** | Open-source feature store; **point-in-time correct** joins for train/serve consistency | ✅ Apache-2.0 | [github](https://github.com/feast-dev/feast) |
 | **Featuretools** | Automated feature synthesis (deep feature synthesis) with time cutoffs | ✅ BSD | [github](https://github.com/alteryx/featuretools) |
 | **Hopsworks / Tecton** | Managed feature platforms (online+offline) | Freemium / Paid | [hopsworks.ai](https://www.hopsworks.ai/) · [tecton.ai](https://www.tecton.ai/) |
-| **soccerdata** | Pulls FBref/Understat/ClubElo/Sofascore into tidy frames to build features | ✅ | [github](https://github.com/probberechts/soccerdata) |
-| **worldfootballR** | R access to FBref/Transfermarkt/Understat | ✅ | [github](https://github.com/JaseZiv/worldfootballR) |
+| **soccerdata** | Pulls Understat/ClubElo/Sofascore/WhoScored/FBref into tidy frames to build features (FBref advanced-stats scraping broke Jan 2026) | ✅ | [github](https://github.com/probberechts/soccerdata) |
+| **worldfootballR** | R access to Transfermarkt/Understat/FBref (FBref advanced stats removed Jan 2026) | ✅ | [github](https://github.com/JaseZiv/worldfootballR) |
 | **socceraction / kloppy** | Event→SPADL, xT/VAEP features; standardize event/tracking | ✅ | [socceraction](https://github.com/ML-KULeuven/socceraction) · [kloppy](https://github.com/PySport/kloppy) |
 
 > A feature store isn't required for a personal project, but its core idea — **compute a feature once, serve the exact same point-in-time value to training and to live prediction** — is exactly what stops train/serve skew and leakage.
@@ -190,7 +192,7 @@ Guiding principle: **fewer, causal, leak-free features beat a wide leaky matrix.
 
 ## 11) 🇧🇷 Brazil-specific notes (notas para o Brasil)
 
-- **Brasileirão data with the same features:** results/odds via [football-data.co.uk (Brazil)](https://www.football-data.co.uk/all_new_data.php); xG & style via [FBref (Série A)](https://fbref.com/); free fixtures via [football-data.org](https://www.football-data.org/coverage); squad values via [Transfermarkt/dcaribou](https://github.com/dcaribou/transfermarkt-datasets).
+- **Brasileirão data with the same features:** results/odds via [football-data.co.uk (Brazil)](https://www.football-data.co.uk/all_new_data.php); free fixtures via [football-data.org](https://www.football-data.org/coverage) (Série A is on the free tier); squad values via [Transfermarkt/dcaribou](https://github.com/dcaribou/transfermarkt-datasets). ⚠️ **xG for Série A:** FBref's free xG feed was removed in Jan 2026 and **Understat does not cover Brazil**, so Brazilian xG/style now needs [Sofascore](https://www.sofascore.com/) / WhoScored or a paid API ([API-Football](https://www.api-football.com/), [SportMonks](https://www.sportmonks.com/)).
 - **Cartões (cards) markets** are popular locally — referee-tendency features matter there, but samples are small and markets still efficient.
 - **Altitude & travel** are first-class features in South America (e.g. La Paz ~3,600 m; long CONMEBOL trips) — see [McSharry BMJ](https://www.bmj.com/content/335/7633/1278).
 - Brazilian datasets (results, gols, cartões): [adaoduque](https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol) · [ricardomattos05](https://www.kaggle.com/datasets/ricardomattos05/jogos-do-campeonato-brasileiro).
@@ -221,6 +223,6 @@ Gambling can cause serious harm. This page exists for **data-science / ML resear
 - [Global Football Datasets & Data APIs](./Global_Datasets_and_Data_APIs.md) — where every feature's data comes from.
 - [Kaggle Football Datasets & Competitions](./Kaggle_Football_Datasets_and_Competitions.md) · Parent vertical: [`../`](../) (Sports Analytics AI).
 
-**Sources:** clubelo.com/API · eloratings.net · constantinou.info (pi-ratings, JQAS 2013) · github.com/fivethirtyeight/data (SPI; FiveThirtyEight discontinued 2023) · transfermarkt.com + github.com/dcaribou/transfermarkt-datasets · researchgate.net (Peeters 2018) · rss.onlinelibrary.wiley.com (Dixon–Coles 1997) · dashee87.github.io · fbref.com/en/expected-goals-model-explained · understat.com · karun.in/blog/expected-threat · dtai.cs.kuleuven.be/sports/vaep · github.com/ML-KULeuven/socceraction · mckayjohns.substack.com · link.springer.com (home-advantage review; congestion meta-analysis; travel study) · pmc.ncbi.nlm.nih.gov/PMC9758680 · sciencedaily.com · bmj.com/content/335/7633/1278 (McSharry 2007) · forebet.com · premierleague.com (PPDA; manager bounce) · socceranalytics.substack.com · footymetrics.com · pmc.ncbi.nlm.nih.gov/PMC7739605 (referee bias) · football-data.co.uk · oddsportal.com · penaltyblog.readthedocs.io · tradematesports.medium.com (Pinnacle closing-line efficiency) · arxiv.org/abs/1710.02824 · github.com/feast-dev/feast · github.com/alteryx/featuretools · hopsworks.ai · tecton.ai · github.com/probberechts/soccerdata · github.com/JaseZiv/worldfootballR · github.com/PySport/kloppy · ibm.com (data leakage) · begambleaware.org · gamcare.org.uk · gamblingtherapy.org · gov.br/fazenda SPA/MF (apostas)
+**Sources:** clubelo.com/API · eloratings.net · constantinou.info (pi-ratings, JQAS 2013) · github.com/fivethirtyeight/data (SPI; FiveThirtyEight discontinued 2023) · transfermarkt.com + github.com/dcaribou/transfermarkt-datasets · researchgate.net (Peeters 2018) · rss.onlinelibrary.wiley.com (Dixon–Coles 1997) · dashee87.github.io · hudl.com/StatsBomb (xG explained) · fbref.com (advanced xG feed removed Jan 2026) · understat.com · karun.in/blog/expected-threat · dtai.cs.kuleuven.be/sports/vaep · github.com/ML-KULeuven/socceraction · mckayjohns.substack.com · link.springer.com (home-advantage review; congestion meta-analysis; travel study) · pmc.ncbi.nlm.nih.gov/PMC9758680 · sciencedaily.com · bmj.com/content/335/7633/1278 (McSharry 2007) · forebet.com · premierleague.com (PPDA; manager bounce) · socceranalytics.substack.com · footymetrics.com · pmc.ncbi.nlm.nih.gov/PMC7739605 (referee bias) · football-data.co.uk · oddsportal.com · penaltyblog.readthedocs.io · tradematesports.medium.com (Pinnacle closing-line efficiency) · arxiv.org/abs/1710.02824 · github.com/feast-dev/feast · github.com/alteryx/featuretools · hopsworks.ai · tecton.ai · github.com/probberechts/soccerdata · github.com/JaseZiv/worldfootballR · github.com/PySport/kloppy · ibm.com (data leakage) · begambleaware.org · gamcare.org.uk · gamblingtherapy.org · gov.br/fazenda SPA/MF (apostas)
 
-**Keywords:** football feature engineering, soccer match prediction features, Elo rating, pi-ratings, Soccer Power Index SPI, squad market value Transfermarkt, expected goals xG, npxG, xGD, expected threat xT, VAEP, expected points xPoints, rolling form, home advantage decline COVID, fixture congestion, rest days, altitude effect, PPDA pressing, set-piece xG, referee bias cards, closing line value, odds movement, market implied probability, data leakage, point-in-time correctness, walk-forward validation, feature store Feast, SHAP feature selection — engenharia de atributos futebol, previsão de partidas, diferença de Elo, valor de elenco, gols esperados, ameaça esperada, pontos esperados, fator casa, calendário congestionado, altitude, tendência de cartões do árbitro, variação das odds, probabilidade implícita, vazamento de dados, validação temporal, seleção de variáveis, jogo responsável.
+**Keywords:** football feature engineering, soccer match prediction features, Elo rating, pi-ratings, Soccer Power Index SPI, squad market value Transfermarkt, expected goals xG, npxG, xGD, expected threat xT, VAEP, expected points xPoints, rolling form, home advantage decline COVID, fixture congestion, rest days, altitude effect, PPDA pressing, set-piece xG, FBref advanced stats removed 2026, xG data providers Understat StatsBomb Opta, referee bias cards, closing line value, odds movement, market implied probability, data leakage, point-in-time correctness, walk-forward validation, feature store Feast, SHAP feature selection — engenharia de atributos futebol, previsão de partidas, diferença de Elo, valor de elenco, gols esperados, ameaça esperada, pontos esperados, fator casa, calendário congestionado, altitude, tendência de cartões do árbitro, variação das odds, probabilidade implícita, vazamento de dados, validação temporal, seleção de variáveis, jogo responsável.

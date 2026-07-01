@@ -205,7 +205,7 @@ Sibling pages in this folder: [Global Football Datasets & Data APIs](./Global_Da
 | Resource | Region | Contact |
 |---|---|---|
 | **GamCare** — National Gambling Helpline | 🇬🇧 UK (global info) | [gamcare.org.uk](https://www.gamcare.org.uk/) · **0808 8020 133** (24/7) |
-| **BeGambleAware / National Gambling Support Network** | 🇬🇧 UK | [gambleaware.org](https://www.gambleaware.org/) *(GambleAware ceased operations 31 Mar 2026; gambling-harm treatment is now funded via the statutory levy and delivered through the **National Gambling Support Network**, a 22-partner treatment network)* |
+| **BeGambleAware / National Gambling Support Network** | 🇬🇧 UK | [gambleaware.org](https://www.gambleaware.org/) *(GambleAware ceased operations 31 Mar 2026; gambling-harm treatment is now funded via the statutory levy and delivered through the **National Gambling Support Network**, a Great Britain-wide network of specialist gambling-treatment providers)* |
 | **Gambling Therapy** | 🌍 Worldwide | [gamblingtherapy.org](https://www.gamblingtherapy.org/) |
 | **🇧🇷 Jogo Responsável — SPA/MF** | 🇧🇷 Brazil | [gov.br/fazenda — Jogo Responsável](https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/jogo-responsavel) |
 | **🇧🇷 IBJR — Instituto Brasileiro de Jogo Responsável** | 🇧🇷 Brazil | [ibjr.org.br](https://ibjr.org.br/en/responsible-gaming/) |

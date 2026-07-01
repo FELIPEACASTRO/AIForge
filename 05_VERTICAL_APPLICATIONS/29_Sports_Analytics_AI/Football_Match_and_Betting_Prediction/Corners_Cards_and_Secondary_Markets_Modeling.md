@@ -70,7 +70,7 @@ Card totals are driven **more by the referee than by either team**, plus fixture
 
 - **Philipson (2026), *JRSS-A***: "Yellow fever" fits a **bivariate mean-parameterized Conway–Maxwell–Poisson copula** to **7,203 Big-5 matches (2018/19–2021/22, 171 referees, 129 teams)**, handling under-/over-dispersion and home/away correlation. It finds home teams receive **~12% fewer** yellow cards — an effect that **disappeared when matches were played without crowds** (COVID lockdowns) ([Oxford Academic](https://academic.oup.com/jrsssa/advance-article/doi/10.1093/jrsssa/qnag014/8488960), DOI 10.1093/jrsssa/qnag014). A rigorous template for card-count modeling.
 - **Azmat & Yi (2024), arXiv 2401.08718** — *Expected Booking (xB)*: an ensemble ML model estimating the probability a foul results in a yellow card, developed and evaluated on 2022 World Cup data ([arXiv](https://arxiv.org/abs/2401.08718)). Connects fouling *style* to card risk — a player-prop input.
-- **Practical priors:** referee card averages are widely published (e.g. [OLBG referee/card blog](https://www.olbg.com/blogs/yellow-card-betting-odds-and-historical-statistics)); treat tipster narratives skeptically and rebuild rates yourself from raw data.
+- **Practical priors:** referee card averages circulate widely on tipster/odds sites — treat those narratives skeptically and **rebuild the rates yourself from raw match data** (Football-Data.co.uk HY/AY/HR/AR joined to referee name).
 
 ---
 

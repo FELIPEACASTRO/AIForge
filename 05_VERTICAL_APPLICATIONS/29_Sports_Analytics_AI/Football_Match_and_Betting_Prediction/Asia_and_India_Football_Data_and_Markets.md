@@ -61,7 +61,7 @@ For leagues without a tidy CSV (Korea, Gulf, SE-Asia), pull from these. Asia-foc
 | Source | Asian coverage | Free tier | Paid from | URL |
 |---|---|---|---|---|
 | **API-Football** (api-sports.io) | 1,200+ leagues/cups incl. J1, K1/K2, CSL, SPL, QSL, UAE, ISL, A-League; fixtures, lineups, events, stats, **pre-match odds** | ✅ **100 req/day**, all endpoints | **$19/mo** | [api-football.com](https://www.api-football.com/) · [coverage](https://www.api-football.com/coverage) |
-| **SportMonks** | 2,300+ leagues; explicit **APAC** (J.League, K League, ISL, A-League); live, stats, odds, Predictions API | 🆓 trial (2 leagues) | €29 → Enterprise (all leagues) | [sportmonks.com](https://www.sportmonks.com/football-api/) · [coverage](https://www.sportmonks.com/football-api/coverage/) |
+| **SportMonks** | 2,300+ leagues; **APAC** coverage (J.League, K League, ISL, A-League on paid tiers); live, stats, odds, Predictions API | 🆓 free plan (2 leagues: Danish + Scottish) | Starter **€29/mo** (5 leagues) → Enterprise (all) | [sportmonks.com](https://www.sportmonks.com/football-api/) · [coverage](https://www.sportmonks.com/football-api/coverage/) |
 | **iSports API** | **Asia-specialist**: J-League, K-League, CSL + Asian books; **Asian Handicap / O-U** odds feeds | 🆓 trial | Paid tiers | [isportsapi.com](https://www.isportsapi.com/) |
 | **BetsAPI** | Results + odds incl. Asian bookmakers (e.g. Saudi Pro League listing); AH markets | 🆓 limited | Paid | [betsapi.com](https://betsapi.com/) |
 | **The Odds API** | Bookmaker odds incl. some Asian competitions; h2h/spreads/totals | ✅ 500 req/mo | Paid tiers | [the-odds-api.com](https://the-odds-api.com/sports-odds-data/football-odds.html) |
