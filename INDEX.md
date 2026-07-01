@@ -571,4 +571,5 @@ Auto-generated sitemap of every directory. Topic-first entry: [NAVIGATION_GUIDE.
   - [`27_Customer_Support_AI/`](./05_VERTICAL_APPLICATIONS/27_Customer_Support_AI/)
   - [`28_Government_and_Public_Sector_AI/`](./05_VERTICAL_APPLICATIONS/28_Government_and_Public_Sector_AI/)
   - [`29_Sports_Analytics_AI/`](./05_VERTICAL_APPLICATIONS/29_Sports_Analytics_AI/)
+    - [`Football_Match_and_Betting_Prediction/`](./05_VERTICAL_APPLICATIONS/29_Sports_Analytics_AI/Football_Match_and_Betting_Prediction/)
 
