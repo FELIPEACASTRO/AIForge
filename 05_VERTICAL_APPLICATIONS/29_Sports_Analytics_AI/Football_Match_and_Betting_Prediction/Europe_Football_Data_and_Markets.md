@@ -20,13 +20,13 @@ The **Big-5** are the deepest-covered leagues (results, odds, xG, event data all
 | **Nordics** | Allsvenskan 🇸🇪, Eliteserien 🇳🇴, Superliga 🇩🇰, Veikkausliiga 🇫🇮 | Results + odds (football-data.co.uk "extra"), stats (FBref) |
 | **Central/Eastern Europe** | Ekstraklasa 🇵🇱, Fortuna Liga 🇨🇿, Super League 🇨🇭, Bundesliga 🇦🇹, SuperLiga 🇷🇸, HNL 🇭🇷, Ukr. Premier League 🇺🇦 | Results (openfootball, FBref); odds partial (football-data.co.uk "extra") |
 
-> **Russia note.** Since late February 2022, UEFA and FIFA have suspended all Russian clubs and national teams from their competitions; the ban has been **extended through the 2026/27 season** (a fifth consecutive campaign) — [UEFA statement](https://www.uefa.com/news-media/news/0272-148df1faf082-6e50b5ea1f84-1000--fifa-uefa-suspend-russian-clubs-and-national-teams-from-a/). The Russian Premier League still plays domestically, and historical/ongoing RPL results + odds remain in football-data.co.uk "extra" and xG in Understat.
+> **Russia note.** Since late February 2022, UEFA and FIFA have suspended all Russian clubs and national teams from their competitions ([UEFA statement, 28 Feb 2022](https://www.uefa.com/news-media/news/0272-148df1faf082-6e50b5ea1f84-1000--fifa-uefa-suspend-russian-clubs-and-national-teams-from-a/)); the suspension has been **renewed every season since — most recently for 2026/27** (a fifth consecutive campaign). The Russian Premier League still plays domestically, and historical/ongoing RPL results + odds remain in football-data.co.uk "extra" and xG in Understat.
 
 ---
 
 ## 2) football-data.co.uk — the canonical free EU results + odds archive
 
-The workhorse for European match-outcome and value-betting research: free CSVs going back to **1993/94**, with per-match results, match stats, and **multi-bookmaker odds** including 1X2, Over/Under 2.5, Asian Handicap, and Pinnacle closing prices.
+The workhorse for European match-outcome and value-betting research: free CSVs with results back to **1993/94**, match stats, and **multi-bookmaker odds** (odds from **2000/01**) including 1X2, Over/Under 2.5, Asian Handicap, and Pinnacle closing prices.
 
 | Page | What | URL |
 |---|---|---|
@@ -57,7 +57,7 @@ The workhorse for European match-outcome and value-betting research: free CSVs g
 | **StatsBomb** (full, now **Hudl**) | Event + 360 | Global licensed leagues (StatsBomb acquired by Hudl, Aug 2024) | **Paid** (free tier via open-data) | [statsbomb.com](https://statsbomb.com/) |
 | **Wyscout** (Hudl) | Event + video scouting | 1,000+ competitions worldwide | **Paid** | [hudl.com/wyscout](https://www.hudl.com/products/wyscout) |
 | **SkillCorner** | Broadcast **tracking** (computer vision) | Open-data sample + licensed physical/off-ball data | **Free sample / Paid** | [github](https://github.com/SkillCorner/opendata) · [skillcorner.com](https://skillcorner.com/) |
-| **Impect** (Packing, now **Catapult**) | Packing® event data | 70+ competitions worldwide (acquired by Catapult) | **Paid** | [impect.com](https://www.impect.com/en/) |
+| **Impect** (Packing, now **Catapult**) | Packing® event data | 70+ competitions worldwide (acquired by Catapult, 2025) | **Paid** | [impect.com](https://www.impect.com/en/) |
 
 ---
 
@@ -79,9 +79,9 @@ The workhorse for European match-outcome and value-betting research: free CSVs g
 | **API-Football** (api-sports.io) | 1,100+ leagues & cups: fixtures, standings, events, lineups, players, **pre-match odds**, stats | ✅ **100 req/day**, all endpoints | **$19/mo** (Pro tier) | [api-football.com](https://www.api-football.com/) · [docs](https://www.api-football.com/documentation-v3) |
 | **football-data.org** | 12+ free comps incl. EPL, La Liga, Serie A, Bundesliga, Ligue 1, UCL, Euro | ✅ **10 calls/min**, fixtures/results/tables | from **€29/mo** | [football-data.org](https://www.football-data.org/) · [coverage](https://www.football-data.org/coverage) · [pricing](https://www.football-data.org/pricing) |
 | **SportMonks** | 2,500+ leagues; live, odds, stats; Predictions add-on | 🆓 trial (2 free leagues) | €29 / €99 / €249 | [sportmonks.com](https://www.sportmonks.com/football-api/) |
-| **The Odds API** | Odds across ~40 mainly soft books (no Pinnacle); 1X2, totals, spreads | ✅ **500 free credits/mo** (credit-based) | paid credit tiers | [the-odds-api.com](https://the-odds-api.com/) |
+| **The Odds API** | Live/upcoming odds from 40+ books (US/UK/EU/AU) — EU list includes **Pinnacle** & Betfair Exchange; 1X2, totals, spreads | ✅ **500 free credits/mo** (credit-based) | paid credit tiers | [the-odds-api.com](https://the-odds-api.com/) |
 
-> ⚠️ **The Odds API** does **not** include sharp books (Pinnacle, Betfair Exchange). For efficiency/CLV research the free `PSC*` closing columns in football-data.co.uk (§2) are a better free reference than soft-book odds.
+> ⚠️ **The Odds API** now lists Pinnacle and Betfair Exchange (EU), but its Pinnacle feed is scraped from the public site ("may incur a delay") and its free tier serves current/upcoming odds, not deep historical archives. For back-testing and **CLV** research on past seasons, the free `PSC*` (Pinnacle closing) columns in football-data.co.uk (§2) remain the better free reference.
 
 ---
 

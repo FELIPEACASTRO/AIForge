@@ -173,7 +173,7 @@ Scoring/chip changes alter the xP function every season — hard-code nothing. K
 | **DanielSalesS/cartola_etl** · **cartola_data** | Python | ETL / data pipelines for Cartola API data | [etl](https://github.com/DanielSalesS/cartola_etl) · [data](https://github.com/DanielSalesS/cartola_data) |
 | **topic hub** | — | Browse all Cartola OSS | [github.com/topics/cartolafc](https://github.com/topics/cartolafc) |
 
-> For **Brasileirão** underlying stats (xG/scouts) to power a Cartola model, use FBref-via-`soccerdata`/`ScraperFC` from the [tools page](./Open_Source_Tools_and_Libraries.md) and results/odds from the Americas page. Cartola is a *free skill game* — a perfect, no-stake ML sandbox for Portuguese-speaking learners (**pesquisa e educação**).
+> For **Brasileirão** underlying stats (xG/scouts) to power a Cartola model, use FBref-via-`soccerdata`/`ScraperFC` from the [tools page](./Open_Source_Tools_and_Libraries.md) and results/odds from the [Americas page](./Americas_Football_Data_and_Markets.md). Cartola is a *free skill game* — a perfect, no-stake ML sandbox for Portuguese-speaking learners (**pesquisa e educação**).
 
 ---
 
@@ -192,7 +192,7 @@ Scoring/chip changes alter the xP function every season — hard-code nothing. K
 ---
 
 ## Related in AIForge
-- [Open-Source Tools & Libraries](./Open_Source_Tools_and_Libraries.md) · [Global Football Datasets & Data APIs](./Global_Datasets_and_Data_APIs.md) · [Innovative Models & Deep Learning](./Innovative_Models_and_Deep_Learning.md) · [Bet Selection & Staking](./Bet_Selection_Staking_and_High_Odds_Analysis.md) · [Asia & India](./Asia_and_India_Football_Data_and_Markets.md) · Americas · Parent vertical: [`../`](../) (Sports Analytics AI)
+- [Open-Source Tools & Libraries](./Open_Source_Tools_and_Libraries.md) · [Global Football Datasets & Data APIs](./Global_Datasets_and_Data_APIs.md) · [Innovative Models & Deep Learning](./Innovative_Models_and_Deep_Learning.md) · [Bet Selection & Staking](./Bet_Selection_Staking_and_High_Odds_Analysis.md) · [Asia & India](./Asia_and_India_Football_Data_and_Markets.md) · [Americas](./Americas_Football_Data_and_Markets.md) · Parent vertical: [`../`](../) (Sports Analytics AI)
 
 **Sources:** fantasy.premierleague.com/api (bootstrap-static/, fixtures/, element-summary/, event/{gw}/live/, entry/, leagues-classic/, dream-team/, event-status/, team/set-piece-notes/) · github.com/amosbastian/fpl · fpl.readthedocs.io · github.com/jeppe-smith/fpl-api · pypi.org/project/pandas-fpl · github.com/177arc/pandas-fpl · github.com/vaastav/Fantasy-Premier-League · github.com/olbauday/FPL-Core-Insights · fplreview.com · docs.fplreview.com · fantasyfootballhub.co.uk · fantasyfootballscout.co.uk · fantasyfootballfix.com · fplform.com · fplcopilot.com · fantasyfootballpundit.com · arxiv.org/abs/2508.09992 · github.com/daniegr/OpenFPL · github.com/saheedniyi02/fpl-ai · github.com/daniel-mehta/FPL-Expected-Points · github.com/ritviyer/FPL-Team-Prediction · github.com/solioanalytics/open-fpl-solver · github.com/ewenme/fplinear · fploptimized.com · livefpl.net · fplstatistics.com · github.com/amosbastian/FPLbot · premierleague.com (2025/26 rules) · rotowire.com · gaming.uefa.com · draftkings.com/fantasy-soccer · rotowire.com/daily/soccer · dream11.com · en.wikipedia.org/wiki/Dream11 · sorare.com · github.com/vicenteneto/python-cartolafc · github.com/henriquepgomide/caRtola · github.com/rafaelpierre/cartolator · github.com/DanielSalesS/cartola_etl · begambleaware.org · gamcare.org.uk · gamblingtherapy.org · gov.br/fazenda (SPA)
 

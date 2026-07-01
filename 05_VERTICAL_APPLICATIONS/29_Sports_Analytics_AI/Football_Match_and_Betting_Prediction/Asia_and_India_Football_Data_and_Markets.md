@@ -72,7 +72,7 @@ For leagues without a tidy CSV (Korea, Gulf, SE-Asia), pull from these. Asia-foc
 
 **Scraper toolkits** (Python/R, free/OSS): [`soccerdata`](https://github.com/probberechts/soccerdata) (FBref, Sofascore, ClubElo, Football-Data.co.uk…), [`ScraperFC`](https://github.com/oseymour/ScraperFC), [`worldfootballR`](https://github.com/JaseZiv/worldfootballR), [`statsbombpy`](https://github.com/statsbomb/statsbombpy) + [`mplsoccer`](https://github.com/andrewRowlinson/mplsoccer) for the ISL open data.
 
-> ⚠️ **FBref caveat (important, 2026):** FBref historically carried Asian leagues (J1 `comps/25`, K League 1 `comps/55`, Saudi PL `comps/70`, Persian Gulf `comps/64`, A-League `comps/65`, ISL `comps/82`). On **2026-01-20**, Sports Reference announced **advanced stats (xG, etc.) were removed** after its Opta/Stats Perform feed deal ended. Basic results/schedules remain; treat FBref advanced-metric pipelines for Asia as **at-risk** and verify freshness. [Understat](https://understat.com/) does **not** cover any Asian league (top-5 EU + Russian PL only).
+> ⚠️ **FBref caveat (important, 2026):** FBref historically carried Asian leagues (J1 `comps/25`, K League 1 `comps/55`, Saudi PL `comps/70`, Persian Gulf `comps/64`, A-League `comps/65`, ISL `comps/82`). On **2026-01-20**, Sports Reference removed **advanced stats (xG, etc.)** after Stats Perform (Opta) terminated its data-feed agreement. Basic results/schedules remain; treat FBref advanced-metric pipelines for Asia as **at-risk** and verify freshness. [Understat](https://understat.com/) does **not** cover any Asian league (top-5 EU + Russian PL only).
 
 ---
 
