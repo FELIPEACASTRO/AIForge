@@ -153,7 +153,6 @@ Verified to exist with **star counts checked mid-2026** (rounded). These are *co
 | **opisthokonta/goalmodel** | ~115 | R Dixon-Coles / bivariate-Poisson goals model | [github](https://github.com/opisthokonta/goalmodel) |
 | **octosport/octopy** | ~76 | Poisson, **Shin** margin-removal, Elo, ML prediction (companion to the octosport blog) | [github](https://github.com/octosport/octopy) |
 | **RyanSCodes/Dixon-Coles-Football-Predictor** | small (~12) | Minimal, readable Dixon-Coles implementation for learning | [github](https://github.com/RyanSCodes/Dixon-Coles-Football-Predictor) |
-| **BettingIsCool/woc-streamlit** | small | Streamlit demo of Buchdahl's *Wisdom of the Crowd* margin-free strategy | [github](https://github.com/BettingIsCool/woc-streamlit) |
 
 ### 8c) Exchange & betting-automation frameworks
 
