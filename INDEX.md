@@ -564,6 +564,7 @@ Auto-generated sitemap of every directory. Topic-first entry: [NAVIGATION_GUIDE.
     - [`XAI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/XAI/)
   - [`21_Supply_Chain_and_Logistics_AI/`](./05_VERTICAL_APPLICATIONS/21_Supply_Chain_and_Logistics_AI/)
   - [`22_Gaming_AI/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/)
+    - [`Poker_AI_and_Game_Theory/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/Poker_AI_and_Game_Theory/)
   - [`23_Insurance_AI/`](./05_VERTICAL_APPLICATIONS/23_Insurance_AI/)
   - [`24_Real_Estate_and_PropTech_AI/`](./05_VERTICAL_APPLICATIONS/24_Real_Estate_and_PropTech_AI/)
   - [`25_Telecom_and_Network_AI/`](./05_VERTICAL_APPLICATIONS/25_Telecom_and_Network_AI/)

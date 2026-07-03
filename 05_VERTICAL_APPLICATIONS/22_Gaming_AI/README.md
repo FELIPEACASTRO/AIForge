@@ -1,5 +1,8 @@
 # 22 Gaming AI
 
+
+## ♠️ Featured section
+- [Poker AI & Game Theory](./Poker_AI_and_Game_Theory/) — Libratus/Pluribus/DeepStack, CFR & GTO foundations, solvers (PioSOLVER/GTO Wizard/OpenSpiel/RLCard), datasets & hand histories, strategy resources, trackers/HUDs. Fact-checked; research/education only.
 > AI applied to interactive entertainment: agents that play games, generate playable content (PCG/PCGML), drive lifelike NPCs and dialogue, balance and test games, and detect cheating/toxicity — spanning a $180B+ industry and one of RL's most productive research testbeds.
 
 ## Why it matters
