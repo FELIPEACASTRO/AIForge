@@ -89,10 +89,22 @@ Batch 02 added guides for statistical learning, mathematics for ML, probabilisti
 
 Batch 03 added guides for medical imaging, genomics, drug discovery, agriculture transfer learning, AgTech biomass, business/marketing AI, computer-vision datasets, finance datasets, privacy/security, graph neural networks, machine learning, reinforcement learning, cloud platforms, general databases, vector databases, and A/B testing/canary releases.
 
+## Batch 04 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 04 | 279 |
+| Directories without `README.md` after Batch 04 | 301 |
+| New directory guides added in Batch 04 | 22 |
+
+Batch 04 added source-linked guides for feature engineering theory, data analysis, social-science datasets, business prompts, creative prompts, model optimization, NLP, data pipelines, feature stores, other AI clouds, medical image segmentation, healthcare transfer learning, healthcare edge model compression, video models, data augmentation, and AI project-showcase subdirectories for MLOps, NLP, ML frameworks, multimodal systems, deep learning, generative AI, and applied ML.
+
+Key source families inserted directly into the new guides include scikit-learn, pandas, SciPy, ICPSR, Harvard Dataverse, World Bank Microdata, OpenAI prompting and video documentation, Anthropic prompting documentation, Google prompting and Gemini documentation, ONNX Runtime, PyTorch, TensorFlow Lite, Hugging Face, spaCy, NLTK, Stanford CoreNLP, Airflow, Kubeflow, Feast, MLflow, MONAI, nnU-Net, TCIA, Albumentations, TorchVision, and Papers with Code.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 04 | Add README guides to vertical application domains without strong local routing. |
-| 05 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, and agent frameworks. |
-| 06 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 05 | Add README guides to remaining high-priority subdirectories under project showcases, healthcare AI, prompt engineering, data engineering, and model catalogs. |
+| 06 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 07 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
