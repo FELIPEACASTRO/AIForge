@@ -276,9 +276,8 @@ catboost >= 1.2.0 (para stacking)
 
 ## 📚 Documentação Adicional
 
-- **[GUIA_FASE1_COMPLETO.md](docs/GUIA_FASE1_COMPLETO.md)**: Guia passo a passo da Fase 1
-- **[RELATORIO_DEVASTADOR_CSIRO.md](docs/RELATORIO_DEVASTADOR_CSIRO.md)**: Análise completa da competição
-- **[RELATORIO_TRIPLE_CHECK.md](docs/RELATORIO_TRIPLE_CHECK.md)**: Descobertas do repositório AIForge
+- **[SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**: Guia passo a passo de setup e execução
+- **[SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**: Setup, execução e validação operacional
 
 ---
 
@@ -294,7 +293,7 @@ Este projeto é parte do repositório **AIForge** para competições Kaggle.
 
 ## 📝 Licença
 
-MIT License - Veja [LICENSE](LICENSE) para detalhes.
+MIT License - Veja [LICENSE](../../../LICENSE) para detalhes.
 
 ---
 
@@ -345,7 +344,7 @@ MIT License - Veja [LICENSE](LICENSE) para detalhes.
 Para dúvidas ou problemas:
 1. Abra uma [Issue no GitHub](https://github.com/FELIPEACASTRO/AIForge/issues)
 2. Consulte a [documentação](docs/)
-3. Revise os [notebooks de exemplo](notebooks/)
+3. Revise os [exemplos de código](code_examples/)
 
 ---
 

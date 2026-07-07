@@ -411,4 +411,4 @@ Se encontrar problemas:
 
 ---
 
-**Próximo passo**: [GUIA_FASE1_COMPLETO.md](GUIA_FASE1_COMPLETO.md)
+**Próximo passo**: revise os exemplos em [code_examples](../code_examples/).

@@ -66,6 +66,9 @@ Find what you're looking for, fast.
 | HuggingFace ecosystem / libraries map | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Ecosystem_Map.md` |
 | Find/track/reproduce ML papers (arXiv, PwC, OpenAlex) | `03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/AI_ML_Paper_Discovery.md` |
 | arXiv alternatives / preprint servers (156 catalog) | `03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/Preprint_Servers_and_arXiv_Alternatives.md` |
+| Global AI policy/readiness/country coverage | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/` |
+| Official country AI policy sources by region | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/` |
+| Evidence for AIForge scale vs other repositories | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Repository_Scale_Benchmark_2026-07-07.md` |
 
 ## "I need a dataset..."
 

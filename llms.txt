@@ -27,6 +27,7 @@ License: MIT
 
 ## Pillar 03 — Datasets, Tools & Resources
 - [03_DATASETS_TOOLS_AND_RESOURCES](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES): Datasets by modality, Data Engineering, Storage & Databases (vector DBs), Cloud Platforms.
+- [Global AI Ecosystem](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem): country coverage, AI policy/readiness indexes, academic source discovery, and scale evidence.
 - [HuggingFace Hub](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub): Top models by task, leaderboards & arenas, ecosystem map, notable models/datasets.
 - [Research Platforms & Preprints](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints): arXiv & 156 alternatives, paper-discovery toolkit (Papers with Code, OpenAlex, Semantic Scholar).
 

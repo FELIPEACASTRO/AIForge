@@ -94,4 +94,4 @@ Estou com muitos sentimentos guardados em relação a [pessoa ou situação]. Me
 **5. Aceitar "Alucinações" (Accepting "Hallucinations"):** A IA pode ocasionalmente fornecer conselhos incorretos, perigosos ou clinicamente imprecisos. O usuário deve sempre aplicar um filtro crítico e bom senso, especialmente em questões de saúde.
 
 ## URL
-[nan](nan)
+No canonical source URL was supplied for this prompt collection.

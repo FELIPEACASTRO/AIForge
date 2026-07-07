@@ -22,7 +22,7 @@ This category contains cutting-edge foundation models, architectures, benchmarks
 
 ## 📂 Categories
 
-### 01. [Foundation Models](01_Foundation_Models/)
+### 01. Foundation Models
 Pretrained models ready for zero-shot and few-shot forecasting:
 - **TiRex** (NXAI) - 35M params, beats 500M models, zero-shot
 - **Chronos-2** (Amazon) - Latest generation, multivariate support
@@ -30,20 +30,20 @@ Pretrained models ready for zero-shot and few-shot forecasting:
 - **TimesFM-2.5** (Google) - 200M params, few-shot learning
 - **IBM Granite TTM** (IBM) - Ultra compact (800K params), 313 likes
 
-### 02. [Architectures](02_Architectures/)
+### 02. Architectures
 Novel architectures for time series:
 - **xLSTM** - Enhanced LSTM (TiRex)
 - **T5-based** - Transformer architecture (Chronos)
 - **Fourier Neural Operator** - Frequency domain (FourCastNet)
 - **Tiny Time Mixer** - Ultra compact (IBM Granite TTM)
 
-### 03. [Benchmarks](03_Benchmarks/)
+### 03. Benchmarks
 Standard benchmarks and leaderboards:
 - **Monash Time Series Repository**
 - **TimesFM Benchmark**
 - **Chronos Benchmark**
 
-### 04. [Tutorials](04_Tutorials/)
+### 04. Tutorials
 Practical guides and examples:
 - Getting started with foundation models
 - Zero-shot forecasting tutorial
@@ -54,19 +54,19 @@ Practical guides and examples:
 ## 🚀 Getting Started
 
 ### For Researchers:
-1. Explore [Foundation Models](01_Foundation_Models/) for latest models
-2. Review [Benchmarks](03_Benchmarks/) for evaluation
-3. Study [Architectures](02_Architectures/) for novel approaches
+1. Explore the Foundation Models section above for latest models.
+2. Review the Benchmarks section above for evaluation.
+3. Study the Architectures section above for novel approaches.
 
 ### For Developers:
-1. Start with [Tutorials](04_Tutorials/) for practical examples
-2. Download [Foundation Models](01_Foundation_Models/) from HuggingFace
+1. Start with the Tutorials section above for practical examples.
+2. Download foundation models from HuggingFace.
 3. Integrate into your application
 
 ### For Businesses:
-1. Evaluate [Foundation Models](01_Foundation_Models/) for your use case
-2. Test with [Benchmarks](03_Benchmarks/)
-3. Deploy using [Tutorials](04_Tutorials/)
+1. Evaluate foundation models for your use case.
+2. Test with standard benchmarks.
+3. Deploy using the tutorials and production guidance.
 
 ---
 
@@ -132,9 +132,9 @@ Practical guides and examples:
 
 ## 🔗 Related Categories
 
-- [Weather AI](../../../04_APPLY/Weather_Climate/AI_Weather_Prediction/) - Weather forecasting models
-- [LLM](../2.1_LLM/) - Large Language Models
-- [Computer Vision](../2.3_Computer_Vision/) - Vision models
+- [Weather AI](../../05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/) - Weather forecasting models
+- [Text LLMs](../Text_LLMs/) - Large language models
+- [Vision Models](../Vision_Models/) - Vision models
 
 ---
 
@@ -148,13 +148,13 @@ Practical guides and examples:
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for guidelines on adding new resources.
+See [CONTRIBUTING.md](../../CONTRIBUTING.md) for guidelines on adding new resources.
 
 ---
 
 ## 📄 License
 
-See [LICENSE](../../../LICENSE) for details.
+See [LICENSE](../../LICENSE) for details.
 
 ---
 

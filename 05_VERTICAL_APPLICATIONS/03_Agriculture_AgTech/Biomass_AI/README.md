@@ -156,9 +156,9 @@ Resources are provided under their respective licenses. See individual resource 
 
 ### 🔗 Related Categories
 
-- [Finance AI](../../Finance/) - AI for financial applications
-- [Healthcare AI](../../Healthcare/) - AI for medical applications
-- [Computer Vision](../../../02_BUILD/Computer_Vision/) - CV frameworks and models
+- [Finance AI](../../02_Finance_and_Fintech_AI/) - AI for financial applications
+- [Healthcare AI](../../01_Healthcare_and_Medical_AI/) - AI for medical applications
+- [Computer Vision](../../../01_AI_FUNDAMENTALS_AND_THEORY/Computer_Vision/) - CV frameworks and models
 
 ---
 
@@ -314,9 +314,9 @@ Recursos são fornecidos sob suas respectivas licenças. Veja páginas individua
 
 ### 🔗 Categorias Relacionadas
 
-- [Finance AI](../../Finance/) - IA para aplicações financeiras
-- [Healthcare AI](../../Healthcare/) - IA para aplicações médicas
-- [Computer Vision](../../../02_BUILD/Computer_Vision/) - Frameworks e modelos de CV
+- [Finance AI](../../02_Finance_and_Fintech_AI/) - IA para aplicações financeiras
+- [Healthcare AI](../../01_Healthcare_and_Medical_AI/) - IA para aplicações médicas
+- [Computer Vision](../../../01_AI_FUNDAMENTALS_AND_THEORY/Computer_Vision/) - Frameworks e modelos de CV
 
 ---
 
