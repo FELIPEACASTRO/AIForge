@@ -101,10 +101,22 @@ Batch 04 added source-linked guides for feature engineering theory, data analysi
 
 Key source families inserted directly into the new guides include scikit-learn, pandas, SciPy, ICPSR, Harvard Dataverse, World Bank Microdata, OpenAI prompting and video documentation, Anthropic prompting documentation, Google prompting and Gemini documentation, ONNX Runtime, PyTorch, TensorFlow Lite, Hugging Face, spaCy, NLTK, Stanford CoreNLP, Airflow, Kubeflow, Feast, MLflow, MONAI, nnU-Net, TCIA, Albumentations, TorchVision, and Papers with Code.
 
+## Batch 05 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 05 | 304 |
+| Directories without `README.md` after Batch 05 | 276 |
+| New directory guides added in Batch 05 | 25 |
+
+Batch 05 added source-linked guides for high-volume healthcare, finance, prompt, agent, dataset, model, legal, science, entertainment, and predictive-AI directories. The largest remaining unguided healthcare area, radiology, now has local routing and official references; finance now has guides for fraud detection, credit scoring, general fintech AI, algorithmic trading, and risk management; prompt engineering now has guides for universal techniques, medical prompts, and coding prompts.
+
+Key source families inserted directly into the new guides include ACR, DICOM, RSNA, FDA, WHO, HL7 FHIR, PhysioNet, CFPB, Federal Reserve, OCC, FINRA, SEC, FRED, Kaggle, IEEE-CIS, Amazon Science, OpenAI, Anthropic, Google Gemini, Hugging Face, LangGraph, CrewAI, AutoGen, Semantic Kernel, Microsoft Copilot Studio, Google Agentspace, Salesforce Agentforce, ServiceNow AI Agent Studio, AlphaFold, Materials Project, NASA Open Data, arXiv, Papers with Code, Radiant MLHub on AWS Open Data, USDA NASS, NASA Earthdata, Unity ML-Agents, Gymnasium, Farama, Open X-Embodiment, LeRobot, Common Voice, LibriSpeech, AudioSet, ABA, CourtListener, and Caselaw Access Project.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 05 | Add README guides to remaining high-priority subdirectories under project showcases, healthcare AI, prompt engineering, data engineering, and model catalogs. |
-| 06 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 07 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 06 | Add README guides to remaining high-priority prompt, model, healthcare, agriculture, climate, computer-vision, MLOps, and project-showcase subdirectories. |
+| 07 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 08 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
