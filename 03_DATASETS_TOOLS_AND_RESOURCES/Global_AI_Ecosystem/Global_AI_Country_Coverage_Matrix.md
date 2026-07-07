@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 156 |
+| S2 official national source | 161 |
 | S1 global-index covered | 1 |
-| S0 seeded | 38 |
+| S0 seeded | 33 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_13_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_13_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_13_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_13_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_14_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_14_2026-07-07.md).
 
 ## Countries
 
@@ -55,12 +55,12 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | GAB | Gabon | Africa | Sub-Saharan Africa | S2 official national source |
 | GMB | Gambia | Africa | Sub-Saharan Africa | S2 official national source |
 | GHA | Ghana | Africa | Sub-Saharan Africa | S2 official national source |
-| GIN | Guinea | Africa | Sub-Saharan Africa | S0 seeded |
+| GIN | Guinea | Africa | Sub-Saharan Africa | S2 official national source |
 | GNB | Guinea-Bissau | Africa | Sub-Saharan Africa | S0 seeded |
 | CIV | Ivory Coast | Africa | Sub-Saharan Africa | S2 official national source |
 | KEN | Kenya | Africa | Sub-Saharan Africa | S2 official national source |
 | LSO | Lesotho | Africa | Sub-Saharan Africa | S2 official national source |
-| LBR | Liberia | Africa | Sub-Saharan Africa | S0 seeded |
+| LBR | Liberia | Africa | Sub-Saharan Africa | S2 official national source |
 | MDG | Madagascar | Africa | Sub-Saharan Africa | S0 seeded |
 | MWI | Malawi | Africa | Sub-Saharan Africa | S2 official national source |
 | MLI | Mali | Africa | Sub-Saharan Africa | S0 seeded |
@@ -73,9 +73,9 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | RWA | Rwanda | Africa | Sub-Saharan Africa | S2 official national source |
 | STP | Sao Tome and Principe | Africa | Sub-Saharan Africa | S0 seeded |
 | SEN | Senegal | Africa | Sub-Saharan Africa | S2 official national source |
-| SYC | Seychelles | Africa | Sub-Saharan Africa | S0 seeded |
+| SYC | Seychelles | Africa | Sub-Saharan Africa | S2 official national source |
 | SLE | Sierra Leone | Africa | Sub-Saharan Africa | S2 official national source |
-| SOM | Somalia | Africa | Sub-Saharan Africa | S0 seeded |
+| SOM | Somalia | Africa | Sub-Saharan Africa | S2 official national source |
 | ZAF | South Africa | Africa | Sub-Saharan Africa | S2 official national source |
 | SSD | South Sudan | Africa | Sub-Saharan Africa | S0 seeded |
 | TGO | Togo | Africa | Sub-Saharan Africa | S2 official national source |
@@ -94,7 +94,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | COL | Colombia | Americas | Latin America and the Caribbean | S2 official national source |
 | CRI | Costa Rica | Americas | Latin America and the Caribbean | S2 official national source |
 | CUB | Cuba | Americas | Latin America and the Caribbean | S2 official national source |
-| DMA | Dominica | Americas | Latin America and the Caribbean | S0 seeded |
+| DMA | Dominica | Americas | Latin America and the Caribbean | S2 official national source |
 | DOM | Dominican Republic | Americas | Latin America and the Caribbean | S2 official national source |
 | ECU | Ecuador | Americas | Latin America and the Caribbean | S2 official national source |
 | SLV | El Salvador | Americas | Latin America and the Caribbean | S2 official national source |

@@ -324,10 +324,27 @@ New file:
 
 - `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_13_2026-07-07.md`
 
+## Batch 20 Result
+
+| Metric | Count |
+|---|---:|
+| New country-source seed files added in Batch 20 | 1 |
+| Countries promoted from `S0 seeded` to `S2 official national source` | 5 |
+| `S2 official national source` countries after Batch 20 | 161 |
+| `S0 seeded` countries after Batch 20 | 33 |
+| Repository Markdown files after Batch 20 | 2,235 |
+| Unique external URLs after Batch 20 | 12,763 |
+
+Batch 20 promoted Guinea, Liberia, Seychelles, Somalia, and Dominica. Guinea was promoted with Primature evidence for digital-data and AI strategy development plus official public-health AI documentation. Liberia was promoted with LTA, Ministry of Agriculture, and national digital-strategy sources. Seychelles was promoted with budget and blue-economy sources naming AI as a strategic enabler and policy-insight tool. Somalia was promoted with MOCT, NCA, SNAIC, and e-government strategy sources. Dominica was promoted with official Caribbean Digital Transformation Project procurement sources for AI-enabled service delivery and data-quality automation.
+
+New file:
+
+- `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_14_2026-07-07.md`
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 20 | Continue the remaining 38 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
-| 21 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 22 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
+| 21 | Continue the remaining 33 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
+| 22 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 23 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
