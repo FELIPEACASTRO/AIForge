@@ -8,14 +8,14 @@ Measured from `C:\Users\davis\Workspace\AIForge` on 2026-07-07.
 
 | Metric | Count |
 |---|---:|
-| Git-tracked files | 1,894 |
-| Markdown files | 1,846 |
-| Non-git files scanned, excluding `.git` | 1,894 |
+| Git-tracked files | 1,895 |
+| Markdown files | 1,847 |
+| Non-git files scanned, excluding `.git` | 1,895 |
 | Directories scanned, excluding `.git` | 580 |
-| Estimated text lines | 101,359 |
-| Estimated text words | 1,188,926 |
-| External URL mentions | 21,122 |
-| Unique external URLs | 12,081 |
+| Estimated text lines | 101,412 |
+| Estimated text words | 1,190,964 |
+| External URL mentions | 21,166 |
+| Unique external URLs | 12,103 |
 | Top-level pillar with most files | `05_VERTICAL_APPLICATIONS` (1,144 scanned files) |
 
 ## GitHub Comparator Snapshot
@@ -24,7 +24,7 @@ Measured with GitHub REST API repository metadata and recursive tree endpoints o
 
 | Repository | Stars | Files | Markdown files | README unique URLs | Notes |
 |---|---:|---:|---:|---:|---|
-| `FELIPEACASTRO/AIForge` | 4 | 1,869 | 1,823 | 23 | Remote GitHub default-branch snapshot from the prior successful API pass; local branch has 1,894 scanned files including Batch 07 plus the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
+| `FELIPEACASTRO/AIForge` | 4 | 1,869 | 1,823 | 23 | Remote GitHub default-branch snapshot from the prior successful API pass; local branch has 1,895 scanned files including Batch 08 plus the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
 | `josephmisiti/awesome-machine-learning` | 73,225 | 10 | 7 | 1,252 | Very high-authority compact awesome list. |
 | `ChristosChristofidis/awesome-deep-learning` | 28,561 | 1 | 1 | 601 | Compact README list. |
 | `owainlewis/awesome-artificial-intelligence` | 15,177 | 6 | 3 | 92 | Compact AI resource list. |
