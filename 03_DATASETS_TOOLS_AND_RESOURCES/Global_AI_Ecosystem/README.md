@@ -12,6 +12,7 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md) | Second country-level source batch, adding 24 official national AI/government AI sources across the Americas, Africa, Asia/Oceania, and Europe. |
 | [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md) | Third source batch, adding 18 official national AI/government AI sources and preserving deferred leads for lower-confidence countries. |
 | [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md) | Fourth source batch, adding 15 official national AI/government AI sources and inserting each promoted source into the regional browsing layer. |
+| [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md) | Fifth source batch, adding 16 official national AI/government AI sources and preserving unstable or lower-confidence leads as deferred. |
 | [AI_Papers_Models_Datasets_Discovery_Map.md](./AI_Papers_Models_Datasets_Discovery_Map.md) | Repeatable source map for papers, models, datasets, benchmarks, model hubs, and scholarly graphs. |
 | [AI_Governance_Standards_and_Law_Trackers.md](./AI_Governance_Standards_and_Law_Trackers.md) | High-authority AI governance, legal, risk-management, and standards trackers. |
 | [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) | Coverage matrix for 195 independent countries, seeded from ISO/UN country-code data. |
@@ -27,7 +28,7 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | S3 ecosystem sources | Academic, industry, dataset, startup, compute, and community sources added. |
 | S4 verified current | Links checked, dates captured, and claims reconciled against at least two independent sources. |
 
-Current matrix seed after the 2026-07-07 source passes: 195 countries, 75 with `S2 official national source`, 1 with `S1 global-index covered`, and 119 still at `S0 seeded`.
+Current matrix seed after the 2026-07-07 source passes: 195 countries, 91 with `S2 official national source`, 1 with `S1 global-index covered`, and 103 still at `S0 seeded`.
 
 ## Source Rules
 

@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 75 |
+| S2 official national source | 91 |
 | S1 global-index covered | 1 |
-| S0 seeded | 119 |
+| S0 seeded | 103 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md).
 
 ## Countries
 
@@ -36,12 +36,12 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | SDN | Sudan | Africa | Northern Africa | S0 seeded |
 | TUN | Tunisia | Africa | Northern Africa | S0 seeded |
 | AGO | Angola | Africa | Sub-Saharan Africa | S0 seeded |
-| BEN | Benin | Africa | Sub-Saharan Africa | S0 seeded |
+| BEN | Benin | Africa | Sub-Saharan Africa | S2 official national source |
 | BWA | Botswana | Africa | Sub-Saharan Africa | S0 seeded |
 | BFA | Burkina Faso | Africa | Sub-Saharan Africa | S0 seeded |
 | BDI | Burundi | Africa | Sub-Saharan Africa | S0 seeded |
 | CPV | Cabo Verde | Africa | Sub-Saharan Africa | S0 seeded |
-| CMR | Cameroon | Africa | Sub-Saharan Africa | S0 seeded |
+| CMR | Cameroon | Africa | Sub-Saharan Africa | S2 official national source |
 | CAF | Central African Republic | Africa | Sub-Saharan Africa | S0 seeded |
 | TCD | Chad | Africa | Sub-Saharan Africa | S0 seeded |
 | COM | Comoros | Africa | Sub-Saharan Africa | S0 seeded |
@@ -57,7 +57,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | GHA | Ghana | Africa | Sub-Saharan Africa | S2 official national source |
 | GIN | Guinea | Africa | Sub-Saharan Africa | S0 seeded |
 | GNB | Guinea-Bissau | Africa | Sub-Saharan Africa | S0 seeded |
-| CIV | Ivory Coast | Africa | Sub-Saharan Africa | S0 seeded |
+| CIV | Ivory Coast | Africa | Sub-Saharan Africa | S2 official national source |
 | KEN | Kenya | Africa | Sub-Saharan Africa | S2 official national source |
 | LSO | Lesotho | Africa | Sub-Saharan Africa | S0 seeded |
 | LBR | Liberia | Africa | Sub-Saharan Africa | S0 seeded |
@@ -84,7 +84,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | ZMB | Zambia | Africa | Sub-Saharan Africa | S2 official national source |
 | ZWE | Zimbabwe | Africa | Sub-Saharan Africa | S0 seeded |
 | ATG | Antigua and Barbuda | Americas | Latin America and the Caribbean | S0 seeded |
-| ARG | Argentina | Americas | Latin America and the Caribbean | S0 seeded |
+| ARG | Argentina | Americas | Latin America and the Caribbean | S2 official national source |
 | BHS | Bahamas | Americas | Latin America and the Caribbean | S0 seeded |
 | BRB | Barbados | Americas | Latin America and the Caribbean | S0 seeded |
 | BLZ | Belize | Americas | Latin America and the Caribbean | S0 seeded |
@@ -113,7 +113,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | LCA | Saint Lucia | Americas | Latin America and the Caribbean | S0 seeded |
 | VCT | Saint Vincent and the Grenadines | Americas | Latin America and the Caribbean | S0 seeded |
 | SUR | Suriname | Americas | Latin America and the Caribbean | S0 seeded |
-| TTO | Trinidad and Tobago | Americas | Latin America and the Caribbean | S0 seeded |
+| TTO | Trinidad and Tobago | Americas | Latin America and the Caribbean | S2 official national source |
 | URY | Uruguay | Americas | Latin America and the Caribbean | S2 official national source |
 | VEN | Venezuela (Bolivarian Republic of) | Americas | Latin America and the Caribbean | S0 seeded |
 | CAN | Canada | Americas | Northern America | S2 official national source |
@@ -128,7 +128,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | JPN | Japan | Asia | Eastern Asia | S2 official national source |
 | MNG | Mongolia | Asia | Eastern Asia | S0 seeded |
 | KOR | Republic of Korea | Asia | Eastern Asia | S2 official national source |
-| TWN | Taiwan | Asia | Eastern Asia | S0 seeded |
+| TWN | Taiwan | Asia | Eastern Asia | S2 official national source |
 | BRN | Brunei Darussalam | Asia | South-eastern Asia | S2 official national source |
 | KHM | Cambodia | Asia | South-eastern Asia | S0 seeded |
 | IDN | Indonesia | Asia | South-eastern Asia | S2 official national source |
@@ -142,15 +142,15 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | VNM | Viet Nam | Asia | South-eastern Asia | S2 official national source |
 | AFG | Afghanistan | Asia | Southern Asia | S0 seeded |
 | BGD | Bangladesh | Asia | Southern Asia | S2 official national source |
-| BTN | Bhutan | Asia | Southern Asia | S0 seeded |
+| BTN | Bhutan | Asia | Southern Asia | S2 official national source |
 | IND | India | Asia | Southern Asia | S2 official national source |
 | IRN | Iran (Islamic Republic of) | Asia | Southern Asia | S0 seeded |
 | MDV | Maldives | Asia | Southern Asia | S0 seeded |
-| NPL | Nepal | Asia | Southern Asia | S0 seeded |
+| NPL | Nepal | Asia | Southern Asia | S2 official national source |
 | PAK | Pakistan | Asia | Southern Asia | S2 official national source |
 | LKA | Sri Lanka | Asia | Southern Asia | S2 official national source |
 | ARM | Armenia | Asia | Western Asia | S0 seeded |
-| AZE | Azerbaijan | Asia | Western Asia | S0 seeded |
+| AZE | Azerbaijan | Asia | Western Asia | S2 official national source |
 | BHR | Bahrain | Asia | Western Asia | S2 official national source |
 | CYP | Cyprus | Asia | Western Asia | S0 seeded |
 | GEO | Georgia | Asia | Western Asia | S0 seeded |
@@ -158,7 +158,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | ISR | Israel | Asia | Western Asia | S2 official national source |
 | JOR | Jordan | Asia | Western Asia | S2 official national source |
 | KWT | Kuwait | Asia | Western Asia | S0 seeded |
-| LBN | Lebanon | Asia | Western Asia | S0 seeded |
+| LBN | Lebanon | Asia | Western Asia | S2 official national source |
 | OMN | Oman | Asia | Western Asia | S2 official national source |
 | QAT | Qatar | Asia | Western Asia | S2 official national source |
 | SAU | Saudi Arabia | Asia | Western Asia | S2 official national source |
@@ -169,13 +169,13 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | BLR | Belarus | Europe | Eastern Europe | S0 seeded |
 | BGR | Bulgaria | Europe | Eastern Europe | S2 official national source |
 | CZE | Czechia | Europe | Eastern Europe | S2 official national source |
-| HUN | Hungary | Europe | Eastern Europe | S0 seeded |
+| HUN | Hungary | Europe | Eastern Europe | S2 official national source |
 | POL | Poland | Europe | Eastern Europe | S2 official national source |
-| MDA | Republic of Moldova | Europe | Eastern Europe | S0 seeded |
+| MDA | Republic of Moldova | Europe | Eastern Europe | S2 official national source |
 | ROU | Romania | Europe | Eastern Europe | S2 official national source |
 | RUS | Russian Federation | Europe | Eastern Europe | S0 seeded |
 | SVK | Slovakia | Europe | Eastern Europe | S2 official national source |
-| UKR | Ukraine | Europe | Eastern Europe | S0 seeded |
+| UKR | Ukraine | Europe | Eastern Europe | S2 official national source |
 | DNK | Denmark | Europe | Northern Europe | S2 official national source |
 | EST | Estonia | Europe | Northern Europe | S2 official national source |
 | FIN | Finland | Europe | Northern Europe | S2 official national source |
@@ -198,7 +198,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | MKD | North Macedonia | Europe | Southern Europe | S0 seeded |
 | PRT | Portugal | Europe | Southern Europe | S2 official national source |
 | SMR | San Marino | Europe | Southern Europe | S0 seeded |
-| SRB | Serbia | Europe | Southern Europe | S0 seeded |
+| SRB | Serbia | Europe | Southern Europe | S2 official national source |
 | SVN | Slovenia | Europe | Southern Europe | S2 official national source |
 | ESP | Spain | Europe | Southern Europe | S2 official national source |
 | AUT | Austria | Europe | Western Europe | S2 official national source |
@@ -212,8 +212,8 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | CHE | Switzerland | Europe | Western Europe | S2 official national source |
 | AUS | Australia | Oceania | Australia and New Zealand | S2 official national source |
 | NZL | New Zealand | Oceania | Australia and New Zealand | S2 official national source |
-| FJI | Fiji | Oceania | Melanesia | S0 seeded |
-| PNG | Papua New Guinea | Oceania | Melanesia | S0 seeded |
+| FJI | Fiji | Oceania | Melanesia | S2 official national source |
+| PNG | Papua New Guinea | Oceania | Melanesia | S2 official national source |
 | SLB | Solomon Islands | Oceania | Melanesia | S0 seeded |
 | VUT | Vanuatu | Oceania | Melanesia | S0 seeded |
 | KIR | Kiribati | Oceania | Micronesia | S0 seeded |

@@ -8,14 +8,14 @@ Measured from `C:\Users\davis\Workspace\AIForge` on 2026-07-07.
 
 | Metric | Count |
 |---|---:|
-| Git-tracked files | 1,873 |
-| Markdown files | 1,834 |
-| Non-git files scanned, excluding `.git` | 1,882 |
+| Git-tracked files | 1,883 |
+| Markdown files | 1,835 |
+| Non-git files scanned, excluding `.git` | 1,883 |
 | Directories scanned, excluding `.git` | 579 |
-| Estimated text lines | 99,710 |
-| Estimated text words | 1,154,075 |
-| External URL mentions | 20,497 |
-| Unique external URLs | 11,913 |
+| Estimated text lines | 99,778 |
+| Estimated text words | 1,156,262 |
+| External URL mentions | 20,551 |
+| Unique external URLs | 11,940 |
 | Top-level pillar with most files | `05_VERTICAL_APPLICATIONS` (1,135 scanned files) |
 
 ## GitHub Comparator Snapshot
@@ -24,7 +24,7 @@ Measured with GitHub REST API repository metadata and recursive tree endpoints o
 
 | Repository | Stars | Files | Markdown files | README unique URLs | Notes |
 |---|---:|---:|---:|---:|---|
-| `FELIPEACASTRO/AIForge` | 4 | 1,869 | 1,823 | 23 | Remote GitHub snapshot; local clone has 1,873 tracked files and 1,882 scanned files including the current uncommitted regional source atlas and batch files. |
+| `FELIPEACASTRO/AIForge` | 4 | 1,869 | 1,823 | 23 | Remote GitHub snapshot; local clone has 1,883 scanned files including Batch 05; remote can lag until local commits are pushed. |
 | `josephmisiti/awesome-machine-learning` | 73,225 | 10 | 7 | 1,252 | Very high-authority compact awesome list. |
 | `ChristosChristofidis/awesome-deep-learning` | 28,561 | 1 | 1 | 601 | Compact README list. |
 | `owainlewis/awesome-artificial-intelligence` | 15,177 | 6 | 3 | 92 | Compact AI resource list. |

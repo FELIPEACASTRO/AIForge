@@ -4,6 +4,7 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 
 | ISO3 | Country | Status | Official source | Publisher | Evidence type |
 |---|---|---|---|---|---|
+| ARG | Argentina | S2 official national source | [National Transparency and Personal Data Protection Programme for AI use](https://www.argentina.gob.ar/programa-nacional-de-transparencia-y-proteccion-de-datos-personales-en-el-uso-de-la-inteligencia) and [AI document hub](https://www.argentina.gob.ar/aaip/documentos-de-inteligencia-artificial) | Argentina.gob.ar / AAIP | Official national AI governance programme and guidance hub |
 | BRA | Brazil | S2 official national source | [Plano Brasileiro de Inteligencia Artificial](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/plano-brasileiro-de-inteligencia-artificial) | MCTI / gov.br | PBIA 2024-2028 national plan |
 | CAN | Canada | S2 official national source | [AI for All: Canada's National Artificial Intelligence Strategy](https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all) | Innovation, Science and Economic Development Canada | National AI strategy |
 | CHL | Chile | S2 official national source | [Politica Nacional de Inteligencia Artificial](https://www.minciencia.gob.cl/areas/inteligencia-artificial/politica-nacional-de-inteligencia-artificial/) | Ministerio de Ciencia, Tecnologia, Conocimiento e Innovacion | National AI policy, current policy, action plan, and update material |
@@ -14,6 +15,7 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 | MEX | Mexico | S1 global-index covered | [Mexico - UNESCO AI Ethics and Governance Observatory](https://www.unesco.org/ethics-ai/en/mexico) and [Mexico's National AI Strategy - OECD STIP](https://stip.oecd.org/stip/interactive-dashboards/policy-initiatives/2021%2Fdata%2FpolicyInitiatives%2F26703) | UNESCO / OECD STIP | Global-index and historical strategy evidence; UNESCO notes no current national AI plan/strategy |
 | PER | Peru | S2 official national source | [Government presents ENIA 2026-2030](https://www.gob.pe/institucion/pcm/noticias/1387571-gobierno-presenta-la-estrategia-nacional-de-inteligencia-artificial-enia-para-fortalecer-la-gestion-segura-inclusiva-y-etica-de-la-ia) and [ENIA proposal publication](https://www.gob.pe/institucion/pcm/informes-publicaciones/7190386-propuesta-de-la-estrategia-nacional-de-inteligencia-artificial-2026-2030) | Presidencia del Consejo de Ministros | National AI strategy 2026-2030 presentation and official publication record |
 | SLV | El Salvador | S2 official national source | [UNESCO highlights El Salvador's progress in AI adoption](https://rree.gob.sv/unesco-destaca-avances-de-el-salvador-en-la-adopcion-y-uso-de-la-inteligencia-artificial/) and [AI summit note](https://www.mh.gob.sv/hacienda-participa-en-la-primera-cumbre-internacional-de-inteligencia-artificial-en-el-salvador/) | Ministry of Foreign Affairs / Ministry of Finance | Official government AI adoption, readiness, and capacity-building sources |
+| TTO | Trinidad and Tobago | S2 official national source | [Ministry of Public Administration and Artificial Intelligence](https://mpaai.gov.tt/) and [Digital Transformation Strategy 2024-2027](https://mpaai.gov.tt/general-reports/digital-transformation-strategy-2024-2027) | MPAAI | National AI ministry, AI readiness assessment, and digital transformation strategy source |
 | URY | Uruguay | S2 official national source | [Estrategia Nacional de Inteligencia Artificial 2024-2030](https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/estrategia-nacional-inteligencia-artificial-2024-2030) | Agesic / gub.uy | National AI strategy 2024-2030 |
 | USA | United States of America | S2 official national source | [AI.gov - America's AI Action Plan](https://www.ai.gov/) | U.S. Government | Current national AI action plan and strategic pillars |
 
@@ -21,7 +23,6 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 
 | ISO3 | Country | Lead |
 |---|---|---|
-| ARG | Argentina | Historical plan and secondary references found; current official national AI strategy page not confirmed. |
 | ECU | Ecuador | Strategy-development references found; official strategy page/document not confirmed. |
-| PAN | Panama | ENIA references found; official AIG source not confirmed. |
+| PAN | Panama | ENIA references found, but public evidence remains mixed and the official AIG/SENACYT strategy source was not confirmed in this pass. |
 | PRY | Paraguay | UNESCO indicates strategy under development; no adopted official strategy found yet. |
