@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 141 |
+| S2 official national source | 143 |
 | S1 global-index covered | 1 |
-| S0 seeded | 53 |
+| S0 seeded | 51 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md).
 
 ## Countries
 
@@ -109,7 +109,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | PAN | Panama | Americas | Latin America and the Caribbean | S2 official national source |
 | PRY | Paraguay | Americas | Latin America and the Caribbean | S2 official national source |
 | PER | Peru | Americas | Latin America and the Caribbean | S2 official national source |
-| KNA | Saint Kitts and Nevis | Americas | Latin America and the Caribbean | S0 seeded |
+| KNA | Saint Kitts and Nevis | Americas | Latin America and the Caribbean | S2 official national source |
 | LCA | Saint Lucia | Americas | Latin America and the Caribbean | S0 seeded |
 | VCT | Saint Vincent and the Grenadines | Americas | Latin America and the Caribbean | S0 seeded |
 | SUR | Suriname | Americas | Latin America and the Caribbean | S0 seeded |
@@ -154,7 +154,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | BHR | Bahrain | Asia | Western Asia | S2 official national source |
 | CYP | Cyprus | Asia | Western Asia | S2 official national source |
 | GEO | Georgia | Asia | Western Asia | S0 seeded |
-| IRQ | Iraq | Asia | Western Asia | S0 seeded |
+| IRQ | Iraq | Asia | Western Asia | S2 official national source |
 | ISR | Israel | Asia | Western Asia | S2 official national source |
 | JOR | Jordan | Asia | Western Asia | S2 official national source |
 | KWT | Kuwait | Asia | Western Asia | S0 seeded |
