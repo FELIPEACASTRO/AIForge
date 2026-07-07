@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 91 |
+| S2 official national source | 103 |
 | S1 global-index covered | 1 |
-| S0 seeded | 103 |
+| S0 seeded | 91 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md).
 
 ## Countries
 
@@ -80,9 +80,9 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | SSD | South Sudan | Africa | Sub-Saharan Africa | S0 seeded |
 | TGO | Togo | Africa | Sub-Saharan Africa | S0 seeded |
 | UGA | Uganda | Africa | Sub-Saharan Africa | S2 official national source |
-| TZA | United Republic of Tanzania | Africa | Sub-Saharan Africa | S0 seeded |
+| TZA | United Republic of Tanzania | Africa | Sub-Saharan Africa | S2 official national source |
 | ZMB | Zambia | Africa | Sub-Saharan Africa | S2 official national source |
-| ZWE | Zimbabwe | Africa | Sub-Saharan Africa | S0 seeded |
+| ZWE | Zimbabwe | Africa | Sub-Saharan Africa | S2 official national source |
 | ATG | Antigua and Barbuda | Americas | Latin America and the Caribbean | S0 seeded |
 | ARG | Argentina | Americas | Latin America and the Caribbean | S2 official national source |
 | BHS | Bahamas | Americas | Latin America and the Caribbean | S0 seeded |
@@ -96,17 +96,17 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | CUB | Cuba | Americas | Latin America and the Caribbean | S0 seeded |
 | DMA | Dominica | Americas | Latin America and the Caribbean | S0 seeded |
 | DOM | Dominican Republic | Americas | Latin America and the Caribbean | S2 official national source |
-| ECU | Ecuador | Americas | Latin America and the Caribbean | S0 seeded |
+| ECU | Ecuador | Americas | Latin America and the Caribbean | S2 official national source |
 | SLV | El Salvador | Americas | Latin America and the Caribbean | S2 official national source |
 | GRD | Grenada | Americas | Latin America and the Caribbean | S0 seeded |
 | GTM | Guatemala | Americas | Latin America and the Caribbean | S2 official national source |
 | GUY | Guyana | Americas | Latin America and the Caribbean | S0 seeded |
 | HTI | Haiti | Americas | Latin America and the Caribbean | S0 seeded |
 | HND | Honduras | Americas | Latin America and the Caribbean | S0 seeded |
-| JAM | Jamaica | Americas | Latin America and the Caribbean | S0 seeded |
+| JAM | Jamaica | Americas | Latin America and the Caribbean | S2 official national source |
 | MEX | Mexico | Americas | Latin America and the Caribbean | S1 global-index covered |
 | NIC | Nicaragua | Americas | Latin America and the Caribbean | S0 seeded |
-| PAN | Panama | Americas | Latin America and the Caribbean | S0 seeded |
+| PAN | Panama | Americas | Latin America and the Caribbean | S2 official national source |
 | PRY | Paraguay | Americas | Latin America and the Caribbean | S0 seeded |
 | PER | Peru | Americas | Latin America and the Caribbean | S2 official national source |
 | KNA | Saint Kitts and Nevis | Americas | Latin America and the Caribbean | S0 seeded |
@@ -144,7 +144,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | BGD | Bangladesh | Asia | Southern Asia | S2 official national source |
 | BTN | Bhutan | Asia | Southern Asia | S2 official national source |
 | IND | India | Asia | Southern Asia | S2 official national source |
-| IRN | Iran (Islamic Republic of) | Asia | Southern Asia | S0 seeded |
+| IRN | Iran (Islamic Republic of) | Asia | Southern Asia | S2 official national source |
 | MDV | Maldives | Asia | Southern Asia | S0 seeded |
 | NPL | Nepal | Asia | Southern Asia | S2 official national source |
 | PAK | Pakistan | Asia | Southern Asia | S2 official national source |
@@ -152,7 +152,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | ARM | Armenia | Asia | Western Asia | S0 seeded |
 | AZE | Azerbaijan | Asia | Western Asia | S2 official national source |
 | BHR | Bahrain | Asia | Western Asia | S2 official national source |
-| CYP | Cyprus | Asia | Western Asia | S0 seeded |
+| CYP | Cyprus | Asia | Western Asia | S2 official national source |
 | GEO | Georgia | Asia | Western Asia | S0 seeded |
 | IRQ | Iraq | Asia | Western Asia | S0 seeded |
 | ISR | Israel | Asia | Western Asia | S2 official national source |
@@ -173,13 +173,13 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | POL | Poland | Europe | Eastern Europe | S2 official national source |
 | MDA | Republic of Moldova | Europe | Eastern Europe | S2 official national source |
 | ROU | Romania | Europe | Eastern Europe | S2 official national source |
-| RUS | Russian Federation | Europe | Eastern Europe | S0 seeded |
+| RUS | Russian Federation | Europe | Eastern Europe | S2 official national source |
 | SVK | Slovakia | Europe | Eastern Europe | S2 official national source |
 | UKR | Ukraine | Europe | Eastern Europe | S2 official national source |
 | DNK | Denmark | Europe | Northern Europe | S2 official national source |
 | EST | Estonia | Europe | Northern Europe | S2 official national source |
 | FIN | Finland | Europe | Northern Europe | S2 official national source |
-| ISL | Iceland | Europe | Northern Europe | S0 seeded |
+| ISL | Iceland | Europe | Northern Europe | S2 official national source |
 | IRL | Ireland | Europe | Northern Europe | S2 official national source |
 | LVA | Latvia | Europe | Northern Europe | S2 official national source |
 | LTU | Lithuania | Europe | Northern Europe | S2 official national source |
@@ -188,14 +188,14 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | GBR | United Kingdom of Great Britain and Northern Ireland | Europe | Northern Europe | S2 official national source |
 | ALB | Albania | Europe | Southern Europe | S0 seeded |
 | AND | Andorra | Europe | Southern Europe | S0 seeded |
-| BIH | Bosnia and Herzegovina | Europe | Southern Europe | S0 seeded |
-| HRV | Croatia | Europe | Southern Europe | S0 seeded |
+| BIH | Bosnia and Herzegovina | Europe | Southern Europe | S2 official national source |
+| HRV | Croatia | Europe | Southern Europe | S2 official national source |
 | GRC | Greece | Europe | Southern Europe | S2 official national source |
 | VAT | Holy See | Europe | Southern Europe | S0 seeded |
 | ITA | Italy | Europe | Southern Europe | S2 official national source |
 | MLT | Malta | Europe | Southern Europe | S2 official national source |
 | MNE | Montenegro | Europe | Southern Europe | S0 seeded |
-| MKD | North Macedonia | Europe | Southern Europe | S0 seeded |
+| MKD | North Macedonia | Europe | Southern Europe | S2 official national source |
 | PRT | Portugal | Europe | Southern Europe | S2 official national source |
 | SMR | San Marino | Europe | Southern Europe | S0 seeded |
 | SRB | Serbia | Europe | Southern Europe | S2 official national source |

@@ -6,14 +6,14 @@ This directory is the organized country-facing layer for AIForge's national AI s
 
 | Region | File | Current entries |
 |---|---|---:|
-| Africa | [Africa](./Africa/README.md) | 15 |
-| Americas | [Americas](./Americas/README.md) | 14 |
-| Asia | [Asia](./Asia/README.md) | 28 |
-| Europe | [Europe](./Europe/README.md) | 31 |
+| Africa | [Africa](./Africa/README.md) | 17 |
+| Americas | [Americas](./Americas/README.md) | 17 |
+| Asia | [Asia](./Asia/README.md) | 30 |
+| Europe | [Europe](./Europe/README.md) | 36 |
 | Oceania | [Oceania](./Oceania/README.md) | 4 |
 | Supranational and global indexes | [Supranational_and_Global_Indexes](./Supranational_and_Global_Indexes/README.md) | 11 |
 
-Country status totals are maintained in [Global_AI_Country_Coverage_Matrix.md](../Global_AI_Country_Coverage_Matrix.md): 195 country rows, 91 `S2 official national source`, 1 `S1 global-index covered`, and 103 `S0 seeded` after the fifth source pass.
+Country status totals are maintained in [Global_AI_Country_Coverage_Matrix.md](../Global_AI_Country_Coverage_Matrix.md): 195 country rows, 103 `S2 official national source`, 1 `S1 global-index covered`, and 91 `S0 seeded` after the sixth source pass.
 
 ## Source Rules
 
@@ -31,5 +31,6 @@ Country status totals are maintained in [Global_AI_Country_Coverage_Matrix.md](.
 | [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md) | Third audited country-source batch and deferred leads. |
 | [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md) | Fourth audited country-source batch; sources inserted into regional pages. |
 | [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md) | Fifth audited country-source batch; sources inserted into regional pages, with lower-confidence leads deferred. |
+| [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md) | Sixth audited country-source batch; sources inserted into regional pages and revised deferred leads. |
 | [Global_AI_Source_Discovery_Run_2026-07-07.md](../Global_AI_Source_Discovery_Run_2026-07-07.md) | Run-level source discovery log. |
 | [Repository_Scale_Benchmark_2026-07-07.md](../Repository_Scale_Benchmark_2026-07-07.md) | Repository-scale evidence and comparator snapshot. |
