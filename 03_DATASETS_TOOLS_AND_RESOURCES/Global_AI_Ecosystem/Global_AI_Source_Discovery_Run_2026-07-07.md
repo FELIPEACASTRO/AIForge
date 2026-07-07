@@ -13,6 +13,7 @@ This is the first source-backed expansion run for making AIForge a world-scale A
 | [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md) | Fourth official national-source batch: 15 additional countries promoted to `S2`, with each promoted source inserted into the organized regional source pages. |
 | [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md) | Fifth official national-source batch: 16 additional countries promoted to `S2`, with unstable or lower-confidence sources retained as deferred leads. |
 | [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md) | Sixth official national-source batch: 12 additional countries promoted to `S2`, with some earlier deferred leads revisited and still-weak leads retained. |
+| [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md) | Seventh official national-source batch: 12 additional countries promoted to `S2`, including additional Europe microstate coverage and Samoa in Oceania. |
 | [AI_Papers_Models_Datasets_Discovery_Map.md](./AI_Papers_Models_Datasets_Discovery_Map.md) | Source families for recurring extraction of scholarly graphs, papers, datasets, model hubs, benchmarks, and code resources. |
 | [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) | 195-country baseline and status ledger for source-backed country coverage. |
 | [Repository_Scale_Benchmark_2026-07-07.md](./Repository_Scale_Benchmark_2026-07-07.md) | Local and GitHub comparator metrics for repository-scale claims. |
@@ -71,7 +72,7 @@ This is the first source-backed expansion run for making AIForge a world-scale A
 5. GIRAI: add responsible AI country coverage and regional gaps.
 6. WIPO: add AI patent/scientific-publication geography and technology-cluster taxonomy.
 7. OpenAlex + Semantic Scholar: build paper-discovery queries for machine learning, deep learning, AutoML, LLMs, RAG, safety, agents, datasets, features, and algorithms.
-8. Official national-source batches: expand beyond the first 103 S2 countries, prioritizing underrepresented regions before adding more large economies.
+8. Official national-source batches: expand beyond the first 115 S2 countries, prioritizing underrepresented regions before adding more large economies.
 
 ## Evidence Notes
 

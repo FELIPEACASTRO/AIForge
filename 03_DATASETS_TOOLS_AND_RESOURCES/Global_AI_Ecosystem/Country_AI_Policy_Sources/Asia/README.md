@@ -32,6 +32,7 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 | SGP | Singapore | S2 official national source | [National AI Strategy](https://www.smartnation.gov.sg/initiatives/national-ai-strategy/) and [2026 update factsheet](https://www.mddi.gov.sg/newsroom/update-to-singapore-s-national-ai-strategy--refreshed-priorities-to-harness-ai-for-the-public-good-factsheet/) | Smart Nation / MDDI | National AI strategy and refreshed priorities |
 | THA | Thailand | S2 official national source | [Thailand national AI strategy and action plan 2022-2027 reference](https://thailand.prd.go.th/en/content/category/detail/id/48/iid/242460) | Government Public Relations Department | Government source referencing national AI strategy and action plan |
 | TWN | Taiwan | S2 official national source | [AI Taiwan Action Plan](https://english.ey.gov.tw/News3/9E5540D592A5FECD/1dec0902-e02a-49c6-870d-e77208481667) and [Ten AI Initiatives Promotion Plan](https://www.ndc.gov.tw/en/Content_List.aspx?n=E738D6D7DD31163F) | Executive Yuan / National Development Council | National AI action plan and 2025-2028 AI initiatives |
+| TUR | Turkiye | S2 official national source | [Turkiye AI Action Plan announcement](https://www.iletisim.gov.tr/turkce/haberler/detay/cumhurbaskani-erdogan-turkiye-yapay-zeka-eylem-planini-acikladi) and [National AI Strategy 2024-2025 Action Plan PDF](https://www.sanayi.gov.tr/assets/pdf/UlusalYapayZekaStratejisi2024-2025EylemPlani.pdf) | Directorate of Communications / Ministry of Industry and Technology | National AI action plan and strategy-update source |
 | UZB | Uzbekistan | S2 official national source | [Strategy for the Development of Artificial Intelligence Technologies until 2030](https://lex.uz/en/docs/7159258) and [GOV.uz announcement](https://gov.uz/en/digital/news/view/24510) | Lex.uz / Government of Uzbekistan | Presidential resolution approving national AI strategy to 2030 |
 | VNM | Viet Nam | S2 official national source | [Vietnamese AI for Vietnamese people](https://english.mic.gov.vn/vietnamese-ai-for-vietnamese-people-197250206103526407.htm) | Ministry of Science and Technology | Government source referencing national strategy for AI research, development, and application to 2030 |
 
@@ -40,7 +41,6 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 | ISO3 | Country | Lead |
 |---|---|---|
 | ARM | Armenia | Official government speech/announcement found, but no stable final national AI strategy or current policy page was confirmed. |
-| TUR | Turkiye | Official `cbddo.gov.tr` strategy URL timed out during verification; keep as deferred until reachable. |
 | KWT | Kuwait | Draft and secondary strategy references found, but no stable official government strategy source was confirmed. |
 | GEO | Georgia | UNESCO states that Georgia does not yet have a dedicated national AI strategy or formal AI governance framework. |
 | MNG | Mongolia | UNDP landscape evidence and readiness leads found; no official national AI strategy source confirmed. |
