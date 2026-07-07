@@ -11,7 +11,7 @@ The **data and tooling** layer of AI/ML: curated datasets by modality, data-engi
 | **[Storage_and_Databases/](./Storage_and_Databases/)** | Vector databases, time-series DBs, document DBs, in-memory, data lakes, data warehouses, distributed file systems. |
 | **[Cloud_Platforms/](./Cloud_Platforms/)** | AWS and other cloud ML platforms. |
 | **[HuggingFace_Hub/](./HuggingFace_Hub/)** | Top models by task, leaderboards & arenas, ecosystem map, notable models & datasets. |
-| **[Global_AI_Ecosystem/](./Global_AI_Ecosystem/)** | Global country coverage, organized [country AI policy sources](./Global_AI_Ecosystem/Country_AI_Policy_Sources/), AI policy/readiness indexes, academic source discovery, and repository-scale evidence. |
+| **[Global_AI_Ecosystem/](./Global_AI_Ecosystem/)** | Global country coverage, organized [country AI policy sources](./Global_AI_Ecosystem/Country_AI_Policy_Sources/), AI policy/readiness indexes, academic source discovery, broad [AI/ML data-model-prompt source atlas](./Global_AI_Ecosystem/AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md), and repository-scale evidence. |
 | **[Research_Platforms_and_Preprints/](./Research_Platforms_and_Preprints/)** | arXiv & 156 alternatives; paper-discovery toolkit (Papers with Code, OpenAlex, Semantic Scholar). |
 | **[Resource_Catalogs/](./Resource_Catalogs/)** | Cross-cutting 2025/2026 resource catalogs. |
 
@@ -20,4 +20,4 @@ The **data and tooling** layer of AI/ML: curated datasets by modality, data-engi
 - Build a literature RAG: [`../01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval`](../01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval/)
 - Productionize data/feature pipelines: [`../04_MLOPS_AND_PRODUCTION_AI`](../04_MLOPS_AND_PRODUCTION_AI/)
 
-**Keywords:** machine learning datasets, AI datasets, vector database, data engineering, feature store, data versioning, HuggingFace datasets, arXiv, Papers with Code, open data.
+**Keywords:** machine learning datasets, AI datasets, vector database, data engineering, feature store, data versioning, HuggingFace datasets, arXiv, Papers with Code, open data, prompt engineering, model hubs, AI benchmarks, agent frameworks.

@@ -1,8 +1,10 @@
 # AI Papers, Models, Datasets, And Benchmarks Discovery Map
 
-This map defines the source families AIForge should repeatedly mine to become a comprehensive AI/ML evidence repository. It emphasizes primary or high-authority sources and separates papers, code, datasets, model hubs, benchmarks, and evaluation infrastructure.
+This map defines the source families AIForge should repeatedly mine to become a comprehensive AI/ML evidence repository. It emphasizes primary or high-authority sources and separates papers, code, datasets, model hubs, benchmarks, prompt engineering, agent frameworks, and evaluation infrastructure.
 
 Access date: 2026-07-07.
+
+Broader routing atlas: [AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md](./AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md).
 
 ## Scholarly Graphs And Paper Sources
 
@@ -49,6 +51,18 @@ Access date: 2026-07-07.
 | [GitHub Topics - machine-learning](https://github.com/topics/machine-learning) | Open-source ML code repositories | Repository discovery, stars, activity, topic taxonomy. |
 | [GitHub Topics - artificial-intelligence](https://github.com/topics/artificial-intelligence) | Open-source AI repositories | Broad AI code/resource discovery. |
 
+## Prompt, Context, And Agent Sources
+
+| Source | Scope | Extraction target |
+|---|---|---|
+| [OpenAI prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering) | Official prompt engineering guide for OpenAI models | Prompt patterns, model-specific guidance, tool prompts, agent prompts. |
+| [Anthropic prompt engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | Official Claude prompt engineering documentation | Prompt structure, examples, XML organization, evaluation-first prompting. |
+| [Google Gemini prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies) | Gemini prompting guide | Prompt strategies, prompt examples, multimodal prompting notes. |
+| [Microsoft Foundry prompt engineering](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/prompt-engineering) | Azure OpenAI prompt engineering documentation | Grounding, system messages, prompt testing, and safety templates. |
+| [LangSmith prompt management](https://docs.langchain.com/langsmith/manage-prompts) | Prompt creation, versioning, hub, and templates | Prompt lifecycle, prompt provenance, public prompt risk labels. |
+| [OpenAI Agents SDK](https://developers.openai.com/api/docs/guides/agents) | Agent orchestration with tools, handoffs, tracing, and guardrails | Agent framework pages and production patterns. |
+| [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro) | Open protocol connecting AI apps to tools, data, prompts, and workflows | MCP servers, clients, security notes, and integration examples. |
+
 ## Extraction Priorities
 
 1. Build repeatable queries for core topics: machine learning, AutoML, deep learning, reinforcement learning, LLMs, RAG, agents, AI safety, computer vision, NLP, time series, graph ML, diffusion, datasets, feature engineering, benchmarks, MLOps.
@@ -56,4 +70,3 @@ Access date: 2026-07-07.
 3. Prefer primary metadata APIs where available: OpenAlex, Semantic Scholar, arXiv, OpenReview, Hugging Face Hub, OpenML, Kaggle.
 4. Keep benchmark claims separated from educational content; task/dataset/metric rows need exact definitions.
 5. Re-run availability checks because some community leaderboards and paper indexes can change ownership, URL structure, or maintenance status.
-
