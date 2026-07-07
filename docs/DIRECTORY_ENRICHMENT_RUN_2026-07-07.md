@@ -163,10 +163,22 @@ Batch 09 added source-linked guides for storage infrastructure, clinical dialogu
 
 Key source families inserted directly into the new guides include scikit-learn, pandas, Kafka, Flink, Beam, Redpanda, OpenSlide, HistomicsTK, dbt, Airflow, Dagster, Great Expectations, Scrapy, Beautiful Soup, Playwright, Common Crawl, Feast, Tecton, OpenMetadata, DataHub, Albumentations, Kornia, NVIDIA DALI, MongoDB, Couchbase, CouchDB, Cosmos DB, HDFS, CephFS, Lustre, Redis, Dragonfly, Neo4j, TinkerPop, RDF, Neptune, InfluxDB, Timescale, Prometheus, VictoriaMetrics, HPO, OHDSI, PlantCV, UMLS, SNOMED CT, LOINC, RxNorm, SRTM, USGS 3DEP, Copernicus DEM, BigQuery, Snowflake, Redshift, Delta Lake, Iceberg, Hudi, FAO, CGIAR, PubAg, FDA CDS guidance, AHRQ, HL7 FHIR, OpenTelemetry, Evidently, Langfuse, PyTorch pruning, NNI pruning, RecBole, TensorFlow Recommenders, NASA Earthdata, USDA NASS, Prithvi, FinRL, Qlib, GEDI, PlantVillage, and CABI.
 
+## Batch 10 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 10 | 481 |
+| Directories without `README.md` after Batch 10 | 99 |
+| New directory guides added in Batch 10 | 32 |
+
+Batch 10 added source-linked guides for data preprocessing, data management, ETL, data science, data streaming, data versioning, data transformation, data sources, data cataloging, data labeling, data quality, data annotation, multimodal VQA, cloud-hosted and government open-data portals, vision-language datasets, radiomics datasets, audio multimodal datasets, autonomous-driving datasets, video action recognition, social-science AI governance and cross-domain datasets, plant disease detection, agriculture transfer learning, synthetic AgTech data, seasonal monitoring, weed segmentation, TinyML edge plant disease AI, CSIRO biomass docs, and remote-sensing vegetation/crop-type prediction.
+
+Key source families inserted directly into the new guides include scikit-learn, pandas, TensorFlow, TorchVision, DataHub, OpenMetadata, DVC, Great Expectations, dbt, Airflow, Dagster, Spark, Jupyter, Kafka, Flink, Beam, Redpanda, PlantVillage, FAO, lakeFS, Delta Lake, Iceberg, NASA Earthdata, Radiant MLHub, Polars, Google Earth Engine, GEDI, PEFT, BlenderProc, Omniverse Replicator, Edge Impulse, OpenAPI, Common Crawl, VQA, GQA, DocVQA, AWS Open Data, Google Cloud public datasets, Azure Open Datasets, Data.gov, World Bank, COCO Captions, LAION, TCIA, PyRadiomics, AudioSet, AVA, nuScenes, Waymo Open Dataset, Argoverse, KITTI, Label Studio, CVAT, Snorkel, FiftyOne, OECD AI, Stanford AI Index, AI Incident Database, NIST AI RMF, World Bank Data, ICPSR, Kinetics, UCF101, HMDB51, and Papers with Code.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 10 | Add README guides to remaining project-showcase, recommender, time-series, video/audio generation, applied healthcare oncology, predictive templates, docs language, medical-device, agriculture transfer-learning, and nested project subdirectories. |
-| 11 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 12 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 11 | Add README guides to the remaining 99 project-showcase, predictive-template, docs, medical-device, core-theory, prompt, and nested AgTech/healthcare subdirectories. |
+| 12 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 13 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
