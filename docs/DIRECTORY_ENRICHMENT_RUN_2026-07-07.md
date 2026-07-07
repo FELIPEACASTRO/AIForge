@@ -113,10 +113,22 @@ Batch 05 added source-linked guides for high-volume healthcare, finance, prompt,
 
 Key source families inserted directly into the new guides include ACR, DICOM, RSNA, FDA, WHO, HL7 FHIR, PhysioNet, CFPB, Federal Reserve, OCC, FINRA, SEC, FRED, Kaggle, IEEE-CIS, Amazon Science, OpenAI, Anthropic, Google Gemini, Hugging Face, LangGraph, CrewAI, AutoGen, Semantic Kernel, Microsoft Copilot Studio, Google Agentspace, Salesforce Agentforce, ServiceNow AI Agent Studio, AlphaFold, Materials Project, NASA Open Data, arXiv, Papers with Code, Radiant MLHub on AWS Open Data, USDA NASS, NASA Earthdata, Unity ML-Agents, Gymnasium, Farama, Open X-Embodiment, LeRobot, Common Voice, LibriSpeech, AudioSet, ABA, CourtListener, and Caselaw Access Project.
 
+## Batch 06 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 06 | 329 |
+| Directories without `README.md` after Batch 06 | 251 |
+| New directory guides added in Batch 06 | 25 |
+
+Batch 06 added source-linked guides for climate and weather AI, AI papers, model frameworks, launch documentation, academic/data-science/education/evaluation prompts, crop-yield prediction, payment and transaction AI, inference optimization, MLOps platforms, famous benchmarks, biomass papers and datasets, protein structure prediction, radiomics features, predictive-AI framework and dataset folders, video generation, open-source/open-weight LLMs, audiovisual datasets, oncology, and neurology.
+
+Key source families inserted directly into the new guides include Copernicus, Climate Data Store, ECMWF, NOAA, NASA Earthdata, Google Earth Engine, WeatherBench, arXiv, Semantic Scholar, OpenReview, ACL Anthology, TCIA, NCI GDC, TCGA, cBioPortal, PyTorch, TensorFlow, JAX, ONNX Runtime, vLLM, Triton, KServe, TensorRT-LLM, MLflow, Kubeflow, Weights & Biases, MLCommons, SWE-bench, AlphaFold, RCSB PDB, UniProt, ESM, OpenFold, PyRadiomics, OpenNeuro, ADNI, OpenML, UCI, OpenAI video generation, Meta Llama, Mistral, Qwen, DeepSeek, Gemma, AudioSet, AVA, and VGGSound.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 06 | Add README guides to remaining high-priority prompt, model, healthcare, agriculture, climate, computer-vision, MLOps, and project-showcase subdirectories. |
-| 07 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 08 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 07 | Add README guides to remaining code-example, operations, computer-vision, transfer-learning, graph, federated-learning, long-context, medical-device, prompt, model-serving, and workflow subdirectories. |
+| 08 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 09 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
