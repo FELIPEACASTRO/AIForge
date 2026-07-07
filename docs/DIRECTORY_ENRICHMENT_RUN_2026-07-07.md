@@ -151,10 +151,22 @@ MLOps and infrastructure additions covered model serving deployment, Kubernetes,
 
 Key source families inserted directly into the new guides include Kaggle, FDA, Synthea, HL7 FHIR, WHO, ONC, DeepChem, TDC, ChEMBL, PubChem, Genome in a Bottle, GATK, ClinVar, gnomAD, DeepVariant, WHO data, CDC data, Our World in Data, Johns Hopkins CSSE, ONNX Runtime, TensorRT, LiteRT, OpenVINO, PubMed, Europe PMC, medRxiv, AutoDock Vina, Orphanet, HPO, OMIM, PRIDE, Human Protein Atlas, ProteomeXchange, Ensembl VEP, eICU, Segment Anything, MONAI Generative Models, FINRA, CFPB, KServe, BentoML, MLflow, Kubernetes, NVIDIA GPU Operator, DeepSpeed, Azure Machine Learning, OpenAPI, MCP, FastAPI, Amazon S3, Google Cloud Storage, Azure Blob Storage, MinIO, Redis, DynamoDB, Argo Rollouts, MLflow Model Registry, Vertex AI Model Registry, SageMaker Model Registry, Weights & Biases, Neptune, Comet ML, DoWhy, CausalML, SHAP, and InterpretML.
 
+## Batch 09 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 09 | 449 |
+| Directories without `README.md` after Batch 09 | 131 |
+| New directory guides added in Batch 09 | 44 |
+
+Batch 09 added source-linked guides for storage infrastructure, clinical dialogue, clinical decision support, biomedical NLP, medical QA, personalized medicine, MLOps observability and infrastructure, pruning tools, retail/ecommerce AI, crop health, crop growth, integrated agricultural AI, few-shot rare crop disease learning, Earth observation foundation models, finance tutorials and repositories, biomass estimation, data-science feature engineering, preprocessing augmentation, streaming platforms, histology features, ML ETL, web scraping, feature stores, public datasets, AI/ML data management, computer-vision augmentation, document databases, distributed file systems, in-memory databases, graph databases, time-series databases, phenotypic feature extraction, medical concept embeddings, topographic features, data warehouses, data lakes, and agriculture LLMs.
+
+Key source families inserted directly into the new guides include scikit-learn, pandas, Kafka, Flink, Beam, Redpanda, OpenSlide, HistomicsTK, dbt, Airflow, Dagster, Great Expectations, Scrapy, Beautiful Soup, Playwright, Common Crawl, Feast, Tecton, OpenMetadata, DataHub, Albumentations, Kornia, NVIDIA DALI, MongoDB, Couchbase, CouchDB, Cosmos DB, HDFS, CephFS, Lustre, Redis, Dragonfly, Neo4j, TinkerPop, RDF, Neptune, InfluxDB, Timescale, Prometheus, VictoriaMetrics, HPO, OHDSI, PlantCV, UMLS, SNOMED CT, LOINC, RxNorm, SRTM, USGS 3DEP, Copernicus DEM, BigQuery, Snowflake, Redshift, Delta Lake, Iceberg, Hudi, FAO, CGIAR, PubAg, FDA CDS guidance, AHRQ, HL7 FHIR, OpenTelemetry, Evidently, Langfuse, PyTorch pruning, NNI pruning, RecBole, TensorFlow Recommenders, NASA Earthdata, USDA NASS, Prithvi, FinRL, Qlib, GEDI, PlantVillage, and CABI.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 09 | Add README guides to remaining project-showcase, retail/ecommerce, recommender, time-series, video/audio generation, applied healthcare oncology, predictive templates, docs language, and medical-device subdirectories. |
-| 10 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 11 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 10 | Add README guides to remaining project-showcase, recommender, time-series, video/audio generation, applied healthcare oncology, predictive templates, docs language, medical-device, agriculture transfer-learning, and nested project subdirectories. |
+| 11 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 12 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
