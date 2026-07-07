@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 127 |
+| S2 official national source | 139 |
 | S1 global-index covered | 1 |
-| S0 seeded | 67 |
+| S0 seeded | 55 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md).
 
 ## Countries
 
@@ -38,35 +38,35 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | AGO | Angola | Africa | Sub-Saharan Africa | S0 seeded |
 | BEN | Benin | Africa | Sub-Saharan Africa | S2 official national source |
 | BWA | Botswana | Africa | Sub-Saharan Africa | S2 official national source |
-| BFA | Burkina Faso | Africa | Sub-Saharan Africa | S0 seeded |
+| BFA | Burkina Faso | Africa | Sub-Saharan Africa | S2 official national source |
 | BDI | Burundi | Africa | Sub-Saharan Africa | S0 seeded |
 | CPV | Cabo Verde | Africa | Sub-Saharan Africa | S2 official national source |
 | CMR | Cameroon | Africa | Sub-Saharan Africa | S2 official national source |
 | CAF | Central African Republic | Africa | Sub-Saharan Africa | S0 seeded |
 | TCD | Chad | Africa | Sub-Saharan Africa | S0 seeded |
 | COM | Comoros | Africa | Sub-Saharan Africa | S0 seeded |
-| COG | Congo | Africa | Sub-Saharan Africa | S0 seeded |
-| COD | Democratic Republic of the Congo | Africa | Sub-Saharan Africa | S0 seeded |
+| COG | Congo | Africa | Sub-Saharan Africa | S2 official national source |
+| COD | Democratic Republic of the Congo | Africa | Sub-Saharan Africa | S2 official national source |
 | DJI | Djibouti | Africa | Sub-Saharan Africa | S0 seeded |
 | GNQ | Equatorial Guinea | Africa | Sub-Saharan Africa | S0 seeded |
 | ERI | Eritrea | Africa | Sub-Saharan Africa | S0 seeded |
 | SWZ | Eswatini | Africa | Sub-Saharan Africa | S0 seeded |
 | ETH | Ethiopia | Africa | Sub-Saharan Africa | S2 official national source |
-| GAB | Gabon | Africa | Sub-Saharan Africa | S0 seeded |
+| GAB | Gabon | Africa | Sub-Saharan Africa | S2 official national source |
 | GMB | Gambia | Africa | Sub-Saharan Africa | S2 official national source |
 | GHA | Ghana | Africa | Sub-Saharan Africa | S2 official national source |
 | GIN | Guinea | Africa | Sub-Saharan Africa | S0 seeded |
 | GNB | Guinea-Bissau | Africa | Sub-Saharan Africa | S0 seeded |
 | CIV | Ivory Coast | Africa | Sub-Saharan Africa | S2 official national source |
 | KEN | Kenya | Africa | Sub-Saharan Africa | S2 official national source |
-| LSO | Lesotho | Africa | Sub-Saharan Africa | S0 seeded |
+| LSO | Lesotho | Africa | Sub-Saharan Africa | S2 official national source |
 | LBR | Liberia | Africa | Sub-Saharan Africa | S0 seeded |
 | MDG | Madagascar | Africa | Sub-Saharan Africa | S0 seeded |
 | MWI | Malawi | Africa | Sub-Saharan Africa | S0 seeded |
 | MLI | Mali | Africa | Sub-Saharan Africa | S0 seeded |
 | MRT | Mauritania | Africa | Sub-Saharan Africa | S0 seeded |
 | MUS | Mauritius | Africa | Sub-Saharan Africa | S2 official national source |
-| MOZ | Mozambique | Africa | Sub-Saharan Africa | S0 seeded |
+| MOZ | Mozambique | Africa | Sub-Saharan Africa | S2 official national source |
 | NAM | Namibia | Africa | Sub-Saharan Africa | S2 official national source |
 | NER | Niger | Africa | Sub-Saharan Africa | S0 seeded |
 | NGA | Nigeria | Africa | Sub-Saharan Africa | S2 official national source |
@@ -78,7 +78,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | SOM | Somalia | Africa | Sub-Saharan Africa | S0 seeded |
 | ZAF | South Africa | Africa | Sub-Saharan Africa | S2 official national source |
 | SSD | South Sudan | Africa | Sub-Saharan Africa | S0 seeded |
-| TGO | Togo | Africa | Sub-Saharan Africa | S0 seeded |
+| TGO | Togo | Africa | Sub-Saharan Africa | S2 official national source |
 | UGA | Uganda | Africa | Sub-Saharan Africa | S2 official national source |
 | TZA | United Republic of Tanzania | Africa | Sub-Saharan Africa | S2 official national source |
 | ZMB | Zambia | Africa | Sub-Saharan Africa | S2 official national source |
@@ -120,19 +120,19 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | USA | United States of America | Americas | Northern America | S2 official national source |
 | KAZ | Kazakhstan | Asia | Central Asia | S2 official national source |
 | KGZ | Kyrgyzstan | Asia | Central Asia | S2 official national source |
-| TJK | Tajikistan | Asia | Central Asia | S0 seeded |
-| TKM | Turkmenistan | Asia | Central Asia | S0 seeded |
+| TJK | Tajikistan | Asia | Central Asia | S2 official national source |
+| TKM | Turkmenistan | Asia | Central Asia | S2 official national source |
 | UZB | Uzbekistan | Asia | Central Asia | S2 official national source |
 | CHN | China | Asia | Eastern Asia | S2 official national source |
 | PRK | Democratic People's Republic of Korea | Asia | Eastern Asia | S0 seeded |
 | JPN | Japan | Asia | Eastern Asia | S2 official national source |
-| MNG | Mongolia | Asia | Eastern Asia | S0 seeded |
+| MNG | Mongolia | Asia | Eastern Asia | S2 official national source |
 | KOR | Republic of Korea | Asia | Eastern Asia | S2 official national source |
 | TWN | Taiwan | Asia | Eastern Asia | S2 official national source |
 | BRN | Brunei Darussalam | Asia | South-eastern Asia | S2 official national source |
-| KHM | Cambodia | Asia | South-eastern Asia | S0 seeded |
+| KHM | Cambodia | Asia | South-eastern Asia | S2 official national source |
 | IDN | Indonesia | Asia | South-eastern Asia | S2 official national source |
-| LAO | Lao People's Democratic Republic | Asia | South-eastern Asia | S0 seeded |
+| LAO | Lao People's Democratic Republic | Asia | South-eastern Asia | S2 official national source |
 | MYS | Malaysia | Asia | South-eastern Asia | S2 official national source |
 | MMR | Myanmar | Asia | South-eastern Asia | S0 seeded |
 | PHL | Philippines | Asia | South-eastern Asia | S2 official national source |

@@ -16,6 +16,7 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md) | Sixth source batch, adding 12 official national AI/government AI sources and revisiting earlier deferred leads. |
 | [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md) | Seventh source batch, adding 12 official national AI/government AI sources and extending Oceania coverage with Samoa. |
 | [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md) | Eighth source batch, adding 12 official national AI/government AI sources across Africa, the Americas, Asia, and Oceania. |
+| [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md) | Ninth source batch, adding 12 official national AI/government AI sources across Africa and Asia. |
 | [AI_Papers_Models_Datasets_Discovery_Map.md](./AI_Papers_Models_Datasets_Discovery_Map.md) | Repeatable source map for papers, models, datasets, benchmarks, model hubs, and scholarly graphs. |
 | [AI_Governance_Standards_and_Law_Trackers.md](./AI_Governance_Standards_and_Law_Trackers.md) | High-authority AI governance, legal, risk-management, and standards trackers. |
 | [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) | Coverage matrix for 195 independent countries, seeded from ISO/UN country-code data. |
@@ -31,7 +32,7 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | S3 ecosystem sources | Academic, industry, dataset, startup, compute, and community sources added. |
 | S4 verified current | Links checked, dates captured, and claims reconciled against at least two independent sources. |
 
-Current matrix seed after the 2026-07-07 source passes: 195 countries, 127 with `S2 official national source`, 1 with `S1 global-index covered`, and 67 still at `S0 seeded`.
+Current matrix seed after the 2026-07-07 source passes: 195 countries, 139 with `S2 official national source`, 1 with `S1 global-index covered`, and 55 still at `S0 seeded`.
 
 ## Source Rules
 

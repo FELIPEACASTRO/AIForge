@@ -1,0 +1,38 @@
+# Official National AI Source Seeds - Batch 09 - 2026-07-07
+
+This file records the ninth source-discovery batch for AIForge's global AI country coverage. Each promoted source is also inserted into the organized regional browsing layer under [Country_AI_Policy_Sources](./Country_AI_Policy_Sources/).
+
+Access date: 2026-07-07.
+
+## Source Seeds
+
+| ISO3 | Country | Source | Publisher | Evidence type | Matrix impact |
+|---|---|---|---|---|---|
+| BFA | Burkina Faso | [National AI workshop](https://www.mdenp.gov.bf/details?cHash=b9c89091470055a016f89f5176165793&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=1024) and [AI plan-action parliamentary response](https://www.mdenp.gov.bf/details?cHash=205c417982e989d9ce9b93eda7b0781c&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=907) | Ministry of Digital Transition, Posts and Electronic Communications | Official national AI strategic-planning workshop and ministerial source for AI action-plan development | S2 official national source |
+| COG | Congo | [CARIA decree page](https://postetelecom.gouv.cg/decret-n-2025-279-du-2-juillet-2025-portant-approbation-des-statuts-du-centre-africain-de-recherche-en-intelligence-artificielle/) and [CARIA decree PDF](https://postetelecom.gouv.cg/wp-content/uploads/2025/08/Decret-numero-2025-_-279-du-2-juillet-2025-portant-approbation-des-statuts-du-centre-africain-de-recherche-en-intelligence-artificielle-.pdf) | Ministry of Posts, Telecommunications and the Digital Economy | Official decree source for the African Artificial Intelligence Research Center in Congo | S2 official national source |
+| COD | Democratic Republic of the Congo | [Digital-transformation acceleration note](https://www.primature.gouv.cd/2026/02/17/rdc-le-gouvernement-accelere-la-mise-en-oeuvre-de-la-transformation-numerique-avec-lappui-de-la-banque-mondiale/) and [AI-focused digital skills source](https://economienumerique.gouv.cd/news-en-details/eyJpdiI6ImVVWldvZ2o2VVhYZ24zdjcxY2FYZlE9PSIsInZhbHVlIjoiWUtXM0U2eVlSUW1CMEJNb0d3dUI4Zz09IiwibWFjIjoiMzA2ZTU2ODFhMDliNWU5YzQzMGRhZWU2OTFhY2ZlZWI4NzcyY2ZhMWM5NDBlMWQ3OWI1YThiMjlmYzE4MTljNiIsInRhZyI6IiJ9) | Primature / Ministry of Digital Economy | Official digital-transformation and AI skills-programme evidence | S2 official national source |
+| GAB | Gabon | [AI readiness report submitted to the Prime Minister](https://www.primature.gouv.ga/2-actualites/1418-societe/2205-intelligence-artificielle-le-rapport-d-evaluation-dans-les-mains-du-premier-ministre/) and [AI assessment workshops](https://communication.gouv.ga/2200-carnaud/2220-lancement-des-ateliers-sur-les-methodes-devaluation-de-lintelligence-artificielle/) | Primature / Ministry of Communication and Media | Official AI readiness and AI assessment process sources | S2 official national source |
+| LSO | Lesotho | [Lesotho's AI vision takes center stage](https://www.gov.ls/development/lesothos-ai-vision-takes-center-stage-at-ministerial-round-table/) | Government of Lesotho | Official source describing newly developed and validated national AI policy direction | S2 official national source |
+| MOZ | Mozambique | [Draft national AI strategy presented at ITU workshop](https://intic.gov.mz/mocambique-apresenta-draft-da-estrategia-nacional-de-inteligencia-artificial-em-workshop-internacional-da-itu-no-quenia/) and [CNIA decree PDF](https://intic.gov.mz/wp-content/uploads/2026/04/BR_72_I_SERIE_2026_CNIA.pdf) | National Institute of Information and Communication Technologies | Official draft AI strategy source and decree establishing the National Artificial Intelligence Commission | S2 official national source |
+| TGO | Togo | [Digital ministry portal](https://numerique.gouv.tg/) and [Togo AI Lab about page](https://datalab.gouv.tg/apropos) | Ministry of Public Service Efficiency and Digital Transformation | Official AI training, Togo AI Lab, and public-sector data/AI programme source | S2 official national source |
+| KHM | Cambodia | [Artificial Intelligence report PDF](https://cdn.misti.gov.kh/documents/20260423080543MYMC34mCsRFw.pdf) and [AI readiness assessment launch](https://www.unesco.org/en/articles/cambodia-launches-ai-readiness-assessment-report-guide-ethical-and-inclusive-digital-transformation) | Ministry of Industry, Science, Technology and Innovation / UNESCO | Official AI landscape/strategic-directions report and AI readiness assessment source | S2 official national source |
+| LAO | Lao People's Democratic Republic | [National AI strategy readiness source](https://www.unesco.org/en/articles/lao-pdr-sets-course-national-ai-strategy-guided-unesco-ethics-framework) and [KPL national AI strategy source](https://kpl.gov.la/En/detail.aspx/detail.aspx?id=96675) | UNESCO / Lao News Agency | Official national AI strategy-development and readiness-assessment source | S2 official national source |
+| MNG | Mongolia | [National AI and big-data skills programme](https://mddic.gov.mn/eng/%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB-%D1%83%D0%BB%D1%81-%D1%85%D0%B8%D0%B9%D0%BC%D1%8D%D0%BB-%D0%BE%D1%8E%D1%83%D0%BD-%D0%B8%D1%85-%D3%A9%D0%B3%D3%A9%D0%B3%D0%B4%D0%BB%D0%B8%D0%B9%D0%BD-%D1%83%D1%80/) | Ministry of Digital Development, Innovation and Communications | Official ministry source for National Big Data and Artificial Intelligence Strategy implementation through skills programme | S2 official national source |
+| TJK | Tajikistan | [AI strategy document page](https://egov.tj/site/innovation/documents/details/545?lang=ru&ysclid=mi09cc0m6a4143466) and [AI strategy PDF](https://egov.tj/uploads/2025/9/25/db29ff250e97ee01de3339e6bf2423e6_original.144805.pdf) | Agency of Innovation and Digital Technologies under the President | Official government AI strategy to 2040 | S2 official national source |
+| TKM | Turkmenistan | [UNDP-Ministry AI strategy development source](https://www.undp.org/turkmenistan/press-releases/undp-supports-turkmenistan-development-national-artificial-intelligence-ai-strategy-sustainable-digital-transformation) and [state information source](https://turkmenistaninfo.gov.tm/en/news/proon-podderzhivaet-n) | UNDP / Ministry of Communications / Turkmenistan state information portal | Officially partnered national AI strategy-development source | S2 official national source |
+
+## Deferred Or Lower-Confidence Items
+
+| ISO3 | Country | Reason not promoted in this batch |
+|---|---|---|
+| AGO | Angola | Public references to AI platforms and draft/proposed AI law exist, but a stable official national AI policy, strategy, or programme page was not confirmed in this pass. |
+| MWI | Malawi | UNDP and UNESCO sources indicate AI readiness and strategy work, but the stable country-owned AI strategy or national programme source remains unconfirmed. |
+| SUR | Suriname | The official national digital strategy mentions monitoring AI and other emerging technologies, but it does not yet establish an AI-specific policy, programme, or governance source. |
+| SMR | San Marino | Digital-agenda and EU-association sources mention digital transformation and AI-related EU acquis, but no San Marino-owned AI policy or programme source was confirmed. |
+| VUT | Vanuatu | Digital-transformation legislation and secondary AI-regulation explainers exist, but no country-owned AI-specific strategy, policy, or programme source was confirmed. |
+
+## Extraction Notes
+
+- This batch promotes 12 additional countries from `S0 seeded` to `S2 official national source`.
+- The promoted set covers 7 African countries and 5 Asian countries.
+- `S2` remains a source-presence status: several entries are AI readiness, AI commission, AI centre, AI skills, or strategy-development sources rather than final stand-alone national AI strategies.

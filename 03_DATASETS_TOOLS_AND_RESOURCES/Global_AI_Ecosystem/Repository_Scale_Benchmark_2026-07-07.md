@@ -8,14 +8,14 @@ Measured from `C:\Users\davis\Workspace\AIForge` on 2026-07-07.
 
 | Metric | Count |
 |---|---:|
-| Git-tracked files | 1,895 |
-| Markdown files | 1,847 |
-| Non-git files scanned, excluding `.git` | 1,895 |
+| Git-tracked files | 1,896 |
+| Markdown files | 1,848 |
+| Non-git files scanned, excluding `.git` | 1,896 |
 | Directories scanned, excluding `.git` | 580 |
-| Estimated text lines | 101,412 |
-| Estimated text words | 1,190,964 |
-| External URL mentions | 21,166 |
-| Unique external URLs | 12,103 |
+| Estimated text lines | 101,464 |
+| Estimated text words | 1,192,886 |
+| External URL mentions | 21,210 |
+| Unique external URLs | 12,125 |
 | Top-level pillar with most files | `05_VERTICAL_APPLICATIONS` (1,144 scanned files) |
 
 ## GitHub Comparator Snapshot
@@ -24,19 +24,19 @@ Measured with GitHub REST API repository metadata and recursive tree endpoints o
 
 | Repository | Stars | Files | Markdown files | README unique URLs | Notes |
 |---|---:|---:|---:|---:|---|
-| `FELIPEACASTRO/AIForge` | 4 | 1,869 | 1,823 | 23 | Remote GitHub default-branch snapshot from the prior successful API pass; local branch has 1,895 scanned files including Batch 08 plus the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
-| `josephmisiti/awesome-machine-learning` | 73,225 | 10 | 7 | 1,252 | Very high-authority compact awesome list. |
-| `ChristosChristofidis/awesome-deep-learning` | 28,561 | 1 | 1 | 601 | Compact README list. |
+| `FELIPEACASTRO/AIForge` | 4 | 1,893 | 1,845 | 23 | Remote GitHub default-branch snapshot from the latest successful API pass; local branch has 1,896 scanned files including Batch 09 plus the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
+| `josephmisiti/awesome-machine-learning` | 73,224 | 10 | 7 | 1,252 | Very high-authority compact awesome list. |
+| `ChristosChristofidis/awesome-deep-learning` | 28,562 | 1 | 1 | 601 | Compact README list. |
 | `owainlewis/awesome-artificial-intelligence` | 15,177 | 6 | 3 | 92 | Compact AI resource list. |
-| `Hannibal046/Awesome-LLM` | 27,100 | 28 | 17 | 374 | LLM-specific. |
+| `Hannibal046/Awesome-LLM` | 27,102 | 28 | 17 | 374 | LLM-specific. |
 | `steven2358/awesome-generative-ai` | 12,264 | 8 | 4 | 393 | Generative-AI-specific. |
-| `Shubhamsaboo/awesome-llm-apps` | 116,687 | 1,768 | 283 | 31 | Large runnable app/code collection. |
-| `aishwaryanr/awesome-generative-ai-guide` | 28,153 | 443 | 116 | 137 | Generative AI guide, notebooks, resources. |
-| `ethicalml/awesome-production-machine-learning` | 20,702 | 10 | 3 | 1,111 | Production ML resource list. |
-| `academic/awesome-datascience` | 29,567 | 12 | 4 | 972 | Data-science resource list. |
+| `Shubhamsaboo/awesome-llm-apps` | 116,695 | 1,768 | 283 | 31 | Large runnable app/code collection. |
+| `aishwaryanr/awesome-generative-ai-guide` | 28,157 | 443 | 116 | 137 | Generative AI guide, notebooks, resources. |
+| `ethicalml/awesome-production-machine-learning` | 20,703 | 10 | 3 | 1,111 | Production ML resource list. |
+| `academic/awesome-datascience` | 29,569 | 12 | 4 | 972 | Data-science resource list. |
 | `ml-tooling/best-of-ml-python` | 23,655 | 438 | 217 | 1,747 | Ranked Python ML libraries; weekly-generated. |
 | `zhimin-z/awesome-awesome-machine-learning` | 222 | 3 | 1 | 342 | Meta-list of AI/ML lists. |
-| `ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code` | 35,234 | 4 | 1 | 103 | Project-code collection. |
+| `ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code` | 35,235 | 4 | 1 | 103 | Project-code collection. |
 
 ## Conservative Claim
 
