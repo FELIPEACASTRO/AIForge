@@ -6,14 +6,14 @@ This directory is the organized country-facing layer for AIForge's national AI s
 
 | Region | File | Current entries |
 |---|---|---:|
-| Africa | [Africa](./Africa/README.md) | 31 |
-| Americas | [Americas](./Americas/README.md) | 24 |
+| Africa | [Africa](./Africa/README.md) | 33 |
+| Americas | [Americas](./Americas/README.md) | 29 |
 | Asia | [Asia](./Asia/README.md) | 40 |
 | Europe | [Europe](./Europe/README.md) | 43 |
 | Oceania | [Oceania](./Oceania/README.md) | 6 |
 | Supranational and global indexes | [Supranational_and_Global_Indexes](./Supranational_and_Global_Indexes/README.md) | 11 |
 
-Country status totals are maintained in [Global_AI_Country_Coverage_Matrix.md](../Global_AI_Country_Coverage_Matrix.md): 195 country rows, 143 `S2 official national source`, 1 `S1 global-index covered`, and 51 `S0 seeded` after the eleventh source pass.
+Country status totals are maintained in [Global_AI_Country_Coverage_Matrix.md](../Global_AI_Country_Coverage_Matrix.md): 195 country rows, 150 `S2 official national source`, 1 `S1 global-index covered`, and 44 `S0 seeded` after the twelfth source pass.
 
 ## Source Rules
 
@@ -37,5 +37,6 @@ Country status totals are maintained in [Global_AI_Country_Coverage_Matrix.md](.
 | [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md) | Ninth audited country-source batch; sources inserted into regional pages across Africa and Asia. |
 | [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md) | Tenth audited country-source batch; Bahamas and Maldives promoted, and unstable/deferred leads preserved. |
 | [Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md) | Eleventh audited country-source batch; Saint Kitts and Nevis and Iraq promoted, and unstable/deferred leads preserved. |
+| [Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md](../Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md) | Twelfth audited country-source batch; Angola, Malawi, Barbados, Belize, Grenada, Saint Lucia, and Saint Vincent and the Grenadines promoted. |
 | [Global_AI_Source_Discovery_Run_2026-07-07.md](../Global_AI_Source_Discovery_Run_2026-07-07.md) | Run-level source discovery log. |
 | [Repository_Scale_Benchmark_2026-07-07.md](../Repository_Scale_Benchmark_2026-07-07.md) | Repository-scale evidence and comparator snapshot. |

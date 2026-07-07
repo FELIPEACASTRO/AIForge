@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 143 |
+| S2 official national source | 150 |
 | S1 global-index covered | 1 |
-| S0 seeded | 51 |
+| S0 seeded | 44 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md).
 
 ## Countries
 
@@ -35,7 +35,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | MAR | Morocco | Africa | Northern Africa | S2 official national source |
 | SDN | Sudan | Africa | Northern Africa | S0 seeded |
 | TUN | Tunisia | Africa | Northern Africa | S2 official national source |
-| AGO | Angola | Africa | Sub-Saharan Africa | S0 seeded |
+| AGO | Angola | Africa | Sub-Saharan Africa | S2 official national source |
 | BEN | Benin | Africa | Sub-Saharan Africa | S2 official national source |
 | BWA | Botswana | Africa | Sub-Saharan Africa | S2 official national source |
 | BFA | Burkina Faso | Africa | Sub-Saharan Africa | S2 official national source |
@@ -62,7 +62,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | LSO | Lesotho | Africa | Sub-Saharan Africa | S2 official national source |
 | LBR | Liberia | Africa | Sub-Saharan Africa | S0 seeded |
 | MDG | Madagascar | Africa | Sub-Saharan Africa | S0 seeded |
-| MWI | Malawi | Africa | Sub-Saharan Africa | S0 seeded |
+| MWI | Malawi | Africa | Sub-Saharan Africa | S2 official national source |
 | MLI | Mali | Africa | Sub-Saharan Africa | S0 seeded |
 | MRT | Mauritania | Africa | Sub-Saharan Africa | S0 seeded |
 | MUS | Mauritius | Africa | Sub-Saharan Africa | S2 official national source |
@@ -86,8 +86,8 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | ATG | Antigua and Barbuda | Americas | Latin America and the Caribbean | S0 seeded |
 | ARG | Argentina | Americas | Latin America and the Caribbean | S2 official national source |
 | BHS | Bahamas | Americas | Latin America and the Caribbean | S2 official national source |
-| BRB | Barbados | Americas | Latin America and the Caribbean | S0 seeded |
-| BLZ | Belize | Americas | Latin America and the Caribbean | S0 seeded |
+| BRB | Barbados | Americas | Latin America and the Caribbean | S2 official national source |
+| BLZ | Belize | Americas | Latin America and the Caribbean | S2 official national source |
 | BOL | Bolivia (Plurinational State of) | Americas | Latin America and the Caribbean | S2 official national source |
 | BRA | Brazil | Americas | Latin America and the Caribbean | S2 official national source |
 | CHL | Chile | Americas | Latin America and the Caribbean | S2 official national source |
@@ -98,7 +98,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | DOM | Dominican Republic | Americas | Latin America and the Caribbean | S2 official national source |
 | ECU | Ecuador | Americas | Latin America and the Caribbean | S2 official national source |
 | SLV | El Salvador | Americas | Latin America and the Caribbean | S2 official national source |
-| GRD | Grenada | Americas | Latin America and the Caribbean | S0 seeded |
+| GRD | Grenada | Americas | Latin America and the Caribbean | S2 official national source |
 | GTM | Guatemala | Americas | Latin America and the Caribbean | S2 official national source |
 | GUY | Guyana | Americas | Latin America and the Caribbean | S2 official national source |
 | HTI | Haiti | Americas | Latin America and the Caribbean | S0 seeded |
@@ -110,8 +110,8 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | PRY | Paraguay | Americas | Latin America and the Caribbean | S2 official national source |
 | PER | Peru | Americas | Latin America and the Caribbean | S2 official national source |
 | KNA | Saint Kitts and Nevis | Americas | Latin America and the Caribbean | S2 official national source |
-| LCA | Saint Lucia | Americas | Latin America and the Caribbean | S0 seeded |
-| VCT | Saint Vincent and the Grenadines | Americas | Latin America and the Caribbean | S0 seeded |
+| LCA | Saint Lucia | Americas | Latin America and the Caribbean | S2 official national source |
+| VCT | Saint Vincent and the Grenadines | Americas | Latin America and the Caribbean | S2 official national source |
 | SUR | Suriname | Americas | Latin America and the Caribbean | S0 seeded |
 | TTO | Trinidad and Tobago | Americas | Latin America and the Caribbean | S2 official national source |
 | URY | Uruguay | Americas | Latin America and the Caribbean | S2 official national source |

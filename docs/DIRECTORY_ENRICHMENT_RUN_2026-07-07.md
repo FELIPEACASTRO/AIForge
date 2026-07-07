@@ -290,10 +290,27 @@ New file:
 
 - `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_11_2026-07-07.md`
 
+## Batch 18 Result
+
+| Metric | Count |
+|---|---:|
+| New country-source seed files added in Batch 18 | 1 |
+| Countries promoted from `S0 seeded` to `S2 official national source` | 7 |
+| `S2 official national source` countries after Batch 18 | 150 |
+| `S0 seeded` countries after Batch 18 | 44 |
+| Repository Markdown files after Batch 18 | 2,233 |
+| Unique external URLs after Batch 18 | 12,734 |
+
+Batch 18 promoted Angola, Malawi, Barbados, Belize, Grenada, Saint Lucia, and Saint Vincent and the Grenadines with stable official sources. The batch deliberately excluded weaker or unstable sources: Angola's central-government AI modernization page failed live validation, Saint Lucia's AI training workshop page returned `500`, and Dominica, Antigua and Barbuda, and Haiti remained deferred because no stable AI-specific national source was confirmed.
+
+New file:
+
+- `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md`
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 18 | Continue the remaining 51 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
-| 19 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 20 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
+| 19 | Continue the remaining 44 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
+| 20 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 21 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
