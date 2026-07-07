@@ -79,11 +79,20 @@ Batch 01 established guides for the documentation hub, prompt engineering, deep 
 
 Batch 02 added guides for statistical learning, mathematics for ML, probabilistic ML, generative models, model evaluation, AutoML, feature engineering, multimodal datasets, medical datasets, climate/geospatial datasets, video datasets, open data portals, deployment, AI agents, and predictive AI.
 
+## Batch 03 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 03 | 257 |
+| Directories without `README.md` after Batch 03 | 323 |
+| New directory guides added in Batch 03 | 16 |
+
+Batch 03 added guides for medical imaging, genomics, drug discovery, agriculture transfer learning, AgTech biomass, business/marketing AI, computer-vision datasets, finance datasets, privacy/security, graph neural networks, machine learning, reinforcement learning, cloud platforms, general databases, vector databases, and A/B testing/canary releases.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 03 | Add README guides to remaining fundamentals subdirectories with two or more children. |
 | 04 | Add README guides to vertical application domains without strong local routing. |
 | 05 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, and agent frameworks. |
 | 06 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
