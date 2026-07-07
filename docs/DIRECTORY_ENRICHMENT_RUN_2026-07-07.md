@@ -231,10 +231,35 @@ Batch 14 added `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/UN_M49_Count
 
 Key source families inserted directly into the Batch 14 backlog include United Nations Member States, UN Statistics Division M49 country or area codes, the UN M49 overview table, and the OECD.AI national AI repository. The backlog also preserves UN M49 LDC, LLDC, and SIDS flags to support inclusion-focused search prioritization.
 
+## Batch 15 Result
+
+| Metric | Count |
+|---|---:|
+| New broad source-atlas files added in Batch 15 | 8 |
+| Repository Markdown files after Batch 15 | 2,230 |
+| External URL mentions after Batch 15 | 23,149 |
+| Unique external URLs after Batch 15 | 12,717 |
+| Changed-file unique external URLs checked in Batch 15 | 146 |
+
+Batch 15 responded to the instruction to search beyond datasets and inserted source-atlas files across machine learning, research discovery, global data catalogs, model hubs/providers, production ML tooling, agent frameworks/benchmarks, prompting/evals/PromptOps, and vertical AI applications. These files are source-first routers: each one maps official docs, primary repositories, benchmark pages, public portals, and domain authorities into the existing AIForge directory taxonomy so later additions land in the right subject folders.
+
+New files:
+
+- `01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/Machine_Learning_Frameworks_And_Research_Source_Atlas_2026-07-07.md`
+- `01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Prompting_Evals_And_PromptOps_Source_Atlas_2026-07-07.md`
+- `02_LLM_AND_AI_MODELS/Models/Open_And_Closed_Model_Source_Atlas_2026-07-07.md`
+- `03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/AI_Research_Discovery_Source_Atlas_2026-07-07.md`
+- `03_DATASETS_TOOLS_AND_RESOURCES/Resource_Catalogs/Global_Data_Source_Catalog_Atlas_2026-07-07.md`
+- `04_MLOPS_AND_PRODUCTION_AI/AI_Agents/Agent_Frameworks_Benchmarks_And_Runtime_Source_Atlas_2026-07-07.md`
+- `04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/Production_ML_Tooling_Source_Atlas_2026-07-07.md`
+- `05_VERTICAL_APPLICATIONS/Vertical_AI_Source_Routing_Atlas_2026-07-07.md`
+
+Key source families inserted directly into Batch 15 include scikit-learn, PyTorch, TensorFlow, Keras, JAX, XGBoost, LightGBM, CatBoost, Ray Tune, Optuna, arXiv, OpenReview, Semantic Scholar, Papers with Code, JMLR, NeurIPS, PMLR, ACL Anthology, CVF Open Access, PubMed, Hugging Face Datasets and Models, Kaggle Datasets and Models, OpenML, UCI, Data.gov, data.europa.eu, World Bank Data, UNdata, OECD Data Explorer, IMF Data, WHO GHO, FAOSTAT, NASA Earthdata, NOAA Data, Copernicus, AWS Open Data, BigQuery public datasets, OpenAI, Anthropic, Google Gemini, Microsoft Foundry, PyTorch Hub, ONNX Model Zoo, NVIDIA NGC, Replicate, OpenRouter, MLflow, Kubeflow, KServe, BentoML, Seldon, Ray Serve, Feast, DVC, lakeFS, Evidently, WhyLabs, Great Expectations, Weights and Biases, Neptune, Langfuse, Promptfoo, Airflow, Dagster, Prefect, Metaflow, Flyte, Argo Workflows, Model Context Protocol, LangGraph, AutoGen, CrewAI, LlamaIndex, Pydantic AI, Semantic Kernel, Google ADK, smolagents, SWE-bench, WebArena, OSWorld, tau-bench, AgentBench, ToolBench, Terminal-Bench, GAIA, FDA, PhysioNet, TCIA, PubChem, RCSB PDB, AlphaFold DB, UniProt, SEC EDGAR, FRED, FINRA, USDA NASS, CGIAR, IPCC, UNESCO, NIST, CISA, MITRE ATT&CK, OWASP, Gymnasium, MuJoCo, Isaac Lab, RoboSuite, nuScenes, Waymo Open Dataset, Argoverse, KITTI, and the UN e-Government Knowledgebase.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 15 | Expand the UN M49 backlog with native official AI/government/regulator sources by region, starting with Africa, Latin America, and Asia entries not yet seeded. |
-| 16 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 17 | Add domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, and cybersecurity AI. |
+| 16 | Expand the UN M49 backlog with native official AI/government/regulator sources by region, starting with Africa, Latin America, and Asia entries not yet seeded. |
+| 17 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 18 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
