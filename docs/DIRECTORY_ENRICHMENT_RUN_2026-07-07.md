@@ -218,10 +218,23 @@ Batch 13 started the country and region source-coverage layer requested for glob
 
 Key source families inserted directly into the country matrix include OECD.AI, OECD national AI repository, UNESCO AI ethics/governance sources, Stanford AI Index, Stanford Global AI Vibrancy Tool, European Commission AI Watch, AI.gov, NIST AI RMF, EU AI Act, European AI Office, Brazilian PBIA/EBIA, INDIAai, India AI Mission, Canada AI for All, Singapore NAIS, Japan AI Basic Plan, UK digital standards and parliamentary AI regulation briefings, China OECD policy pages, Korea OECD policy pages, UAE AI government policy sources, SDAIA, and OECD country pages for additional national coverage.
 
+## Batch 14 Result
+
+| Metric | Count |
+|---|---:|
+| New global country/area backlog files added in Batch 14 | 1 |
+| UN M49 country/area rows added | 248 |
+| Repository Markdown files after Batch 14 | 2,222 |
+| Unique external URLs after Batch 14 | 12,678 |
+
+Batch 14 added `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/UN_M49_Country_Area_AI_Coverage_Backlog_2026-07-07.md`, generated from the official United Nations Statistics Division M49 country/area table. This file is a coverage-control backlog for the user-requested "all countries" expansion. It deliberately distinguishes between countries/areas already seeded in the Batch 13 country matrix and countries/areas that still need native official AI-policy or AI-ecosystem source discovery.
+
+Key source families inserted directly into the Batch 14 backlog include United Nations Member States, UN Statistics Division M49 country or area codes, the UN M49 overview table, and the OECD.AI national AI repository. The backlog also preserves UN M49 LDC, LLDC, and SIDS flags to support inclusion-focused search prioritization.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 14 | Expand the country matrix toward all OECD-listed countries and add native-language official sources where possible. |
-| 15 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 16 | Add domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, and cybersecurity AI. |
+| 15 | Expand the UN M49 backlog with native official AI/government/regulator sources by region, starting with Africa, Latin America, and Asia entries not yet seeded. |
+| 16 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 17 | Add domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, and cybersecurity AI. |
