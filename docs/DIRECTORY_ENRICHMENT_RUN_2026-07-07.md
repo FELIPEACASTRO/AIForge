@@ -137,10 +137,24 @@ Batch 07 added source-linked guides for repository operations, GitHub workflows,
 
 Key source families inserted directly into the new guides include GitHub Actions and issue-template documentation, PyTorch, PyTorch Lightning, scikit-learn, ONNX Runtime, TensorRT, timm, Google Earth Engine, NASA Earthdata, HL7 FHIR, OHDSI OMOP, MIMIC-IV, MONAI Deploy, LiteRT, PyTorch Geometric, DGL, NVIDIA GNN resources, AutoGluon, H2O AutoML, FLAML, OpenCV, TorchVision, Hugging Face computer-vision and VLM resources, PhysioNet, PTB-XL, Med-PaLM, BioMistral, PubMed, OpenAI, Google Gemini, Anthropic, RULER, PEFT, Airflow, Dagster, Prefect, Kubeflow Pipelines, Flyte, KServe, BentoML, Triton, vLLM, Seldon, Flower, TensorFlow Federated, FedML, OpenFL, SHAP, InterpretML, Captum, and LIME.
 
+## Batch 08 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 08 | 405 |
+| Directories without `README.md` after Batch 08 | 175 |
+| New directory guides added in Batch 08 | 45 |
+
+Batch 08 added source-linked guides for high-density remaining healthcare, MLOps, storage, deployment, experiment, and project-showcase subdirectories. Healthcare additions covered synthetic data, telemedicine, drug-discovery AI models, variant calling, epidemiology surveillance, medical imaging edge compression, healthcare papers, molecular docking, mental health, patient monitoring, rare disease diagnosis, public health, proteomics, protein-folding variant interpretation, ICU monitoring, segmentation foundation models, medical image synthesis, transfer learning, continual learning, self-supervised learning, and clinical trials.
+
+MLOps and infrastructure additions covered model serving deployment, Kubernetes, Azure/Microsoft AI cloud, Azure DeepSpeed, AutoML platforms, Kubernetes blue-green, ONNX deployment, API integration tools, object storage, key-value stores, canary deployment, A/B testing, model registry solutions, and experiment tracking. Project coverage added Kaggle winning solutions and fintech AI projects.
+
+Key source families inserted directly into the new guides include Kaggle, FDA, Synthea, HL7 FHIR, WHO, ONC, DeepChem, TDC, ChEMBL, PubChem, Genome in a Bottle, GATK, ClinVar, gnomAD, DeepVariant, WHO data, CDC data, Our World in Data, Johns Hopkins CSSE, ONNX Runtime, TensorRT, LiteRT, OpenVINO, PubMed, Europe PMC, medRxiv, AutoDock Vina, Orphanet, HPO, OMIM, PRIDE, Human Protein Atlas, ProteomeXchange, Ensembl VEP, eICU, Segment Anything, MONAI Generative Models, FINRA, CFPB, KServe, BentoML, MLflow, Kubernetes, NVIDIA GPU Operator, DeepSpeed, Azure Machine Learning, OpenAPI, MCP, FastAPI, Amazon S3, Google Cloud Storage, Azure Blob Storage, MinIO, Redis, DynamoDB, Argo Rollouts, MLflow Model Registry, Vertex AI Model Registry, SageMaker Model Registry, Weights & Biases, Neptune, Comet ML, DoWhy, CausalML, SHAP, and InterpretML.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 08 | Add README guides to remaining one-file healthcare, medical imaging, deployment, Azure, AutoML, clinical-trials, public-health, synthetic-data, and prompt/model subdirectories. |
-| 09 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 10 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 09 | Add README guides to remaining project-showcase, retail/ecommerce, recommender, time-series, video/audio generation, applied healthcare oncology, predictive templates, docs language, and medical-device subdirectories. |
+| 10 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 11 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
