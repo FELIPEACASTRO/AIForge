@@ -6,8 +6,11 @@ This is the first source-backed expansion run for making AIForge a world-scale A
 
 | Artifact | Role |
 |---|---|
+| [Country_AI_Policy_Sources/](./Country_AI_Policy_Sources/) | Organized source browsing layer by region and supranational/global source family. |
 | [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md) | First official national-source batch: 18 countries promoted to `S2`, Mexico retained at `S1`, and the EU retained as a supranational anchor. |
 | [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md) | Second official national-source batch: 24 additional countries promoted to `S2`, with a deferred note for Turkiye because the official source URL timed out during verification. |
+| [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md) | Third official national-source batch: 18 additional countries promoted to `S2`, with deferred leads for countries where only secondary, draft, or unconfirmed official sources were found. |
+| [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md) | Fourth official national-source batch: 15 additional countries promoted to `S2`, with each promoted source inserted into the organized regional source pages. |
 | [AI_Papers_Models_Datasets_Discovery_Map.md](./AI_Papers_Models_Datasets_Discovery_Map.md) | Source families for recurring extraction of scholarly graphs, papers, datasets, model hubs, benchmarks, and code resources. |
 | [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) | 195-country baseline and status ledger for source-backed country coverage. |
 | [Repository_Scale_Benchmark_2026-07-07.md](./Repository_Scale_Benchmark_2026-07-07.md) | Local and GitHub comparator metrics for repository-scale claims. |
@@ -66,7 +69,7 @@ This is the first source-backed expansion run for making AIForge a world-scale A
 5. GIRAI: add responsible AI country coverage and regional gaps.
 6. WIPO: add AI patent/scientific-publication geography and technology-cluster taxonomy.
 7. OpenAlex + Semantic Scholar: build paper-discovery queries for machine learning, deep learning, AutoML, LLMs, RAG, safety, agents, datasets, features, and algorithms.
-8. Official national-source batches: expand beyond the first 42 S2 countries, prioritizing underrepresented regions before adding more large economies.
+8. Official national-source batches: expand beyond the first 75 S2 countries, prioritizing underrepresented regions before adding more large economies.
 
 ## Evidence Notes
 

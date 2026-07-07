@@ -6,9 +6,12 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 
 | File | Purpose |
 |---|---|
+| [Country_AI_Policy_Sources/](./Country_AI_Policy_Sources/) | Organized browsing layer for official national AI sources by region, plus supranational/global indexes. |
 | [Global_AI_Source_Discovery_Run_2026-07-07.md](./Global_AI_Source_Discovery_Run_2026-07-07.md) | First verified discovery run for global AI policy, readiness, research, patent, and source-discovery datasets. |
 | [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md) | First country-level batch of official national AI strategy, policy, and government AI sources. |
 | [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md) | Second country-level source batch, adding 24 official national AI/government AI sources across the Americas, Africa, Asia/Oceania, and Europe. |
+| [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md) | Third source batch, adding 18 official national AI/government AI sources and preserving deferred leads for lower-confidence countries. |
+| [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md) | Fourth source batch, adding 15 official national AI/government AI sources and inserting each promoted source into the regional browsing layer. |
 | [AI_Papers_Models_Datasets_Discovery_Map.md](./AI_Papers_Models_Datasets_Discovery_Map.md) | Repeatable source map for papers, models, datasets, benchmarks, model hubs, and scholarly graphs. |
 | [AI_Governance_Standards_and_Law_Trackers.md](./AI_Governance_Standards_and_Law_Trackers.md) | High-authority AI governance, legal, risk-management, and standards trackers. |
 | [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) | Coverage matrix for 195 independent countries, seeded from ISO/UN country-code data. |
@@ -24,7 +27,7 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | S3 ecosystem sources | Academic, industry, dataset, startup, compute, and community sources added. |
 | S4 verified current | Links checked, dates captured, and claims reconciled against at least two independent sources. |
 
-Current matrix seed after the 2026-07-07 source passes: 195 countries, 42 with `S2 official national source`, 1 with `S1 global-index covered`, and 152 still at `S0 seeded`.
+Current matrix seed after the 2026-07-07 source passes: 195 countries, 75 with `S2 official national source`, 1 with `S1 global-index covered`, and 119 still at `S0 seeded`.
 
 ## Source Rules
 
@@ -58,3 +61,10 @@ Current matrix seed after the 2026-07-07 source passes: 195 countries, 42 with `
 3. Add only source-backed entries.
 4. Update the country matrix and benchmark evidence.
 5. Re-run link and scale checks before claiming coverage.
+
+## Directory Organization
+
+- Use [Country_AI_Policy_Sources/](./Country_AI_Policy_Sources/) for browsable country and supranational source pages.
+- Use batch files as audit logs for discovery passes, including deferred or lower-confidence leads.
+- Use [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) as the canonical status ledger.
+- Use [Repository_Scale_Benchmark_2026-07-07.md](./Repository_Scale_Benchmark_2026-07-07.md) only for scale claims and comparator evidence.

@@ -1,0 +1,27 @@
+# Africa - Official AI Policy Sources
+
+Official national AI strategy, policy, ministry, and national AI institution sources for African countries. This page is organized for browsing; the coverage status ledger remains [Global_AI_Country_Coverage_Matrix.md](../../Global_AI_Country_Coverage_Matrix.md).
+
+| ISO3 | Country | Status | Official source | Publisher | Evidence type |
+|---|---|---|---|---|---|
+| EGY | Egypt | S2 official national source | [Egypt's AI Strategy](https://mcit.gov.eg/en/Publication/Publication_Summary/9283) and [2025-2030 strategy PDF](https://ai.gov.eg/SynchedFiles/en/Resources/AIstrategy%20English%2016-1-2025-1.pdf) | MCIT / National Council for AI | National AI strategy |
+| ETH | Ethiopia | S2 official national source | [Ethiopian Artificial Intelligence Institute](https://aii.et/) and [OECD.AI policy record](https://oecd.ai/en/dashboards/policy-initiatives/national-artificial-intelligence-policy) | Ethiopian Artificial Intelligence Institute / OECD.AI | Official national AI institute plus national policy record |
+| GHA | Ghana | S2 official national source | [President launches Ghana's National AI Strategy](https://www.mint.gov.gh/president-mahama-launches-ghanas-national-ai-strategy-calls-for-ai-that-reflects-ghanaian-values/) and [Ministry launch note](https://moc.gov.gh/2026/04/24/ghana-launches-national-ai-strategy-to-drive-digital-transformation-and-economic-growth/) | Ministry of Communication, Digital Technology and Innovations / Ministry of Communications | National AI strategy launch and roadmap source |
+| KEN | Kenya | S2 official national source | [Kenya AI Strategy 2025-2030](https://ict.go.ke/node/641) and [strategy PDF](https://ict.go.ke/sites/default/files/2025-03/Kenya%20AI%20Strategy%202025%20-%202030.pdf) | Ministry of Information, Communications and the Digital Economy | National AI strategy 2025-2030 |
+| MAR | Morocco | S2 official national source | [Digital Morocco 2030 PDF](https://www.mmsp.gov.ma/sites/default/files/2024-09/PlaquetteInstitutionnel_18092024_Ang.pdf), [AI Made in Morocco event](https://micepp.gov.ma/en/le-ministere/actualites/rabat-minister-takes-part-ai-made-morocco-event), and [AI synthesis report](https://www.mmsp.gov.ma/sites/default/files/2025-09/Rapport%20de%20Synthe%CC%80se%20ANG.pdf) | Ministry of Digital Transition and Administrative Reform / MICEPP | Official digital strategy and government AI roadmap/event sources |
+| MUS | Mauritius | S2 official national source | [National AI Strategy and FAIR Guidelines unveiled](https://mitci.govmu.org/mitci/national-ai-strategy-and-fair-guidelines-unveiled-to-position-mauritius-as-a-high-tech-innovation-driven-economy/) and [AI Strategy page](https://aim.govmu.org/aim/ai-strategy/) | Ministry of Information Technology, Communication and Innovation | National AI strategy and public AI unit source |
+| NGA | Nigeria | S2 official national source | [National Artificial Intelligence Strategy PDF](https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf) | Federal Ministry of Communications, Innovation and Digital Economy / NITDA / NCAIR | National AI strategy |
+| RWA | Rwanda | S2 official national source | [AI Policy](https://www.minict.gov.rw/ai-policy) and [Artificial Intelligence Policy PDF](https://www.minict.gov.rw/fileadmin/user_upload/minict_user_upload/Documents/Policies/Artificial_Intelligence_Policy.pdf) | Ministry of ICT and Innovation | National AI policy |
+| SEN | Senegal | S2 official national source | [MCTN AI and data strategy article](https://www.mctn.sn/actualite/publication-1782917969), [OECD.AI strategy record](https://oecd.ai/en/dashboards/policy-initiatives/senegal-national-artificial-intelligence-strategy-and-road-map), and [UNESCO country profile](https://www.unesco.org/ethics-ai/en/senegal) | MCTN / OECD.AI / UNESCO | Official government AI/data strategy source plus intergovernmental corroboration |
+| ZAF | South Africa | S2 official national source | [SA National AI Policy Framework](https://www.dcdt.gov.za/sa-national-ai-policy-framework/file/338-sa-national-ai-policy-framework.html) | Department of Communications and Digital Technologies | National AI policy framework |
+| UGA | Uganda | S2 official national source | [Shaping Uganda's AI Future](https://ict.go.ug/media/news/shaping-ugandas-ai-future) and [National 4IR Strategy executive summary](https://ict.go.ug/site/documents/Executive-Summary-Ugandas-National-4IR-Strategy.pdf) | Ministry of ICT and National Guidance | Official AI governance direction and 4IR strategy including AI |
+| ZMB | Zambia | S2 official national source | [Artificial Intelligence Strategy launched](https://www.mots.gov.zm/?p=4492) and [National AI Strategy PDF](https://www.mots.gov.zm/wp-content/uploads/2025/02/Zambia-Ai-Strategy-Book-option-2.pdf) | Ministry of Technology and Science | National AI strategy launch and strategy document |
+
+## Deferred Leads
+
+| ISO3 | Country | Lead |
+|---|---|---|
+| DZA | Algeria | Draft or government-meeting coverage found, but no stable official AI strategy source confirmed. |
+| BWA | Botswana | Official and UNESCO sources indicate strategy/policy development, but public evidence still points to draft or in-progress policy. |
+| NAM | Namibia | UNESCO RAM and secondary reports indicate strategy work, but official national strategy source was not confirmed. |
+| TUN | Tunisia | Strategy-development evidence found, but current official strategy source not confirmed. |
