@@ -124,9 +124,9 @@ Commercial and open-source platforms:
 
 ## 🔗 Related Categories
 
-- [Climate Modeling](../../Climate_Modeling/) - Long-term climate prediction
-- [Time Series Forecasting](../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/) - Foundation models for forecasting
-- [Geospatial AI](../../Agriculture/Biomass_AI/) - Satellite-based AI applications
+- Climate modeling - long-term climate prediction
+- [Time Series Forecasting](../../../../02_LLM_AND_AI_MODELS/Time_Series_Models/) - Foundation models for forecasting
+- [Geospatial AI](../../../03_Agriculture_AgTech/Biomass_AI/) - Satellite-based AI applications
 
 ---
 
@@ -140,13 +140,13 @@ Commercial and open-source platforms:
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](../../../CONTRIBUTING.md) for guidelines on adding new resources.
+See [CONTRIBUTING.md](../../../../CONTRIBUTING.md) for guidelines on adding new resources.
 
 ---
 
 ## 📄 License
 
-See [LICENSE](../../../LICENSE) for details.
+See [LICENSE](../../../../LICENSE) for details.
 
 ---
 
@@ -277,9 +277,9 @@ Plataformas comerciais e open-source:
 
 ## 🔗 Categorias Relacionadas
 
-- [Modelagem Climática](../../Climate_Modeling/) - Previsão climática de longo prazo
-- [Previsão de Séries Temporais](../../../02_BUILD/2.2_Niche_Models/Time_Series_Forecasting/) - Modelos de fundação para previsão
-- [IA Geoespacial](../../Agriculture/Biomass_AI/) - Aplicações de IA baseadas em satélite
+- Modelagem climática - previsão climática de longo prazo
+- [Previsão de Séries Temporais](../../../../02_LLM_AND_AI_MODELS/Time_Series_Models/) - Modelos de fundação para previsão
+- [IA Geoespacial](../../../03_Agriculture_AgTech/Biomass_AI/) - Aplicações de IA baseadas em satélite
 
 ---
 
@@ -293,13 +293,13 @@ Plataformas comerciais e open-source:
 
 ## 🤝 Contribuindo
 
-Veja [CONTRIBUTING.md](../../../CONTRIBUTING.md) para diretrizes sobre como adicionar novos recursos.
+Veja [CONTRIBUTING.md](../../../../CONTRIBUTING.md) para diretrizes sobre como adicionar novos recursos.
 
 ---
 
 ## 📄 Licença
 
-Veja [LICENSE](../../../LICENSE) para detalhes.
+Veja [LICENSE](../../../../LICENSE) para detalhes.
 
 ---
 

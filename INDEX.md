@@ -190,6 +190,7 @@ Auto-generated sitemap of every directory. Topic-first entry: [NAVIGATION_GUIDE.
     - [`Notebook_and_Compute_Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Notebook_and_Compute_Platforms/)
     - [`Other_Clouds/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Other_Clouds/)
       - [`AI-ML/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Other_Clouds/AI-ML/)
+  - [`Global_AI_Ecosystem/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/)
   - [`Data_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/)
     - [`Data_Analysis/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/)
       - [`Evaluation_Frameworks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Evaluation_Frameworks/)

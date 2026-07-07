@@ -226,7 +226,7 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 - [AIForge Main README](../../../README.md)
 - [Navigation Guide](../../../NAVIGATION_GUIDE.md)
-- [Quick Start Guide](../../../QUICK_START.md)
+- [AIForge README](../../../README.md)
 - [Finance AI Overview](../README.md)
 
 ---

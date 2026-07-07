@@ -134,6 +134,7 @@ Repository: https://github.com/FELIPEACASTRO/AIForge | License: MIT
   - [Computer_Vision_Datasets](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Computer_Vision_Datasets)
   - [Famous_Benchmarks](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Famous_Benchmarks)
   - [Finance_Datasets](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Finance_Datasets)
+- [Global_AI_Ecosystem](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem)
 - [HuggingFace_Hub](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub)
 - [RL_Simulators](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/RL_Simulators)
 - [Research_Platforms_and_Preprints](https://github.com/FELIPEACASTRO/AIForge/tree/master/03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints)

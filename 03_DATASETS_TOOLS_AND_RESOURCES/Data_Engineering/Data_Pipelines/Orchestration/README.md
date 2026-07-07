@@ -61,7 +61,7 @@ Modern data and ML stacks are made of dozens of interdependent steps — ingesti
 
 ## Cross-references in AIForge
 
-- [Apache NiFi](../Apache_NiFi/) — flow-based data routing and ingestion within the same pillar.
+- Apache NiFi — flow-based data routing and ingestion within the same pillar.
 - [Data Pipelines](../) — parent section covering pipeline patterns and tooling.
 - [Data Engineering](../../) — the broader pillar for storage, processing, and quality.
 - ML-workflow orchestration (Airflow + Prefect framed for ML) lives under pillar `04` MLOps; this page is the data-engineering DAG/asset home.

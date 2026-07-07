@@ -16,10 +16,10 @@ State-of-the-art and historical **AI models** across every modality: large langu
 | **[World_Models/](./World_Models/)** | Genie, Cosmos, V-JEPA, GAIA, robotics VLAs. |
 | **[Scientific_Models/](./Scientific_Models/)** | Protein structure, quantum ML, reservoir computing. |
 | **[Time_Series_Models/](./Time_Series_Models/)** | Forecasting foundation models. |
-| **[Foundation_Models/](./Foundation_Models/)**, **[Frameworks/](./Frameworks/)** | Foundation model hubs; training/inference frameworks (NeMo, etc.). |
-| **[Papers/](./Papers/)**, **[Research_Labs/](./Research_Labs/)**, **[Communities/](./Communities/)** | Primary literature, labs, communities. |
-| **[Guides_and_Tutorials/](./Guides_and_Tutorials/)**, **[Collections/](./Collections/)** | How-tos and curated link collections. |
-| **[Models/](./Models/)**, **[Libraries/](./Libraries/)** | Model catalogs and libraries. |
+| **[Vision_Foundation_Models/](./Vision_Foundation_Models/)**, **[Frameworks/](./Frameworks/)** | Foundation model hubs; training/inference frameworks (NeMo, etc.). |
+| **[Papers/](./Papers/)**, **[Research_Labs/](./Research_Labs/)** | Primary literature and labs. |
+| **[Guides_and_Tutorials/](./Guides_and_Tutorials/)** | How-tos and curated guides. |
+| **[Models/](./Models/)** | Model catalogs and collections. |
 
 ## Related
 - Latest releases: [`../00_FRONTIER_AI_2026`](../00_FRONTIER_AI_2026/)

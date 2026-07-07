@@ -5,9 +5,9 @@ Resources for deploying, managing, and monitoring AI models in production.
 ## Subcategories
 
 - [Cloud Platforms](./Cloud_Platforms/) - AWS, Google Cloud, Azure.
-- [MLOps](./MLOps/) - Tools for the entire MLOps lifecycle (W&B, MLflow, Feature Stores, Monitoring, etc.).
-- [Serving](./Serving/) - Model serving and deployment (FastAPI, TorchServe, BentoML).
-- [Optimization](./Optimization/) - Hyperparameter tuning and distributed computing (Optuna, Ray).
-- [Infrastructure](./Infrastructure/) - Workflow orchestration and distributed systems (Airflow, Ray).
-- [Tools](./Tools/) - Utility tools (Annotation, Labeling, PDF, Web Scraping).
+- [MLOps Platforms](./MLOps_Platforms/) - Tools for the entire MLOps lifecycle (W&B, MLflow, feature stores, monitoring, etc.).
+- [Model Serving](./Model_Serving/) - Model serving and deployment (FastAPI, TorchServe, BentoML).
+- [Model Optimization](./Model_Optimization/) - Compression, quantization, pruning, and efficient deployment.
+- [Workflow Orchestration](./Workflow_Orchestration/) - Workflow orchestration and distributed systems (Airflow, Ray).
+- [API Integration Tools](./API_Integration_Tools/) - Integration and utility tools around production AI systems.
 

@@ -158,8 +158,8 @@ As universidades listadas oferecem programas de PhD e mestrado em:
 ## 🔗 Links Úteis
 
 - [Repositório Principal](../)
-- [Recursos Avançados 2025](../09_ADVANCED_MODELS/)
-- [Repositórios SOTA 2025](../10_SOTA_REPOS_2025/)
+- [Recursos avançados e projetos aplicados](../20_AI_Project_Showcases/)
+- [Repositórios SOTA e projetos aplicados](../20_AI_Project_Showcases/)
 
 ---
 
