@@ -51,7 +51,7 @@ Current matrix seed after the 2026-07-07 source passes: 195 countries, 139 with 
 | [Oxford Insights Government AI Readiness Index 2025](https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/) | Benchmarks 195 governments on public-sector AI readiness. |
 | [Stanford HAI AI Index](https://hai.stanford.edu/ai-index) | Annual global AI data across research, models, investment, governance, education, and public opinion. |
 | [IMF AI Preparedness Index](https://www.imf.org/external/datamapper/datasets/AIPI) | Country-level AI preparedness across 174 economies. |
-| [UNESCO AI Readiness Assessment Methodology](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics/readiness-assessment-methodology) | Readiness framework tied to UNESCO's Recommendation on the Ethics of AI. |
+| [UNESCO AI Readiness Assessment Methodology](https://www.unesco.org/ethics-ai/en/ram) | Readiness framework tied to UNESCO's Recommendation on the Ethics of AI. |
 | [Global Index on Responsible AI](https://www.global-index.ai/) | Responsible AI benchmark covering 138 countries and jurisdictions in its first edition. |
 | [WIPO Technology Trends: Artificial Intelligence](https://www.wipo.int/en/web/technology-trends/artificial_intelligence/index) | Patent and scientific-publication landscape for AI technologies. |
 | [OpenAlex](https://openalex.org/) | Open scholarly graph for global AI literature discovery. |

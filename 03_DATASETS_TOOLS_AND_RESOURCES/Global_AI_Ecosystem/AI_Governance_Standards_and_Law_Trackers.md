@@ -9,7 +9,7 @@ This file collects high-authority sources for AI governance, regulation, standar
 | [Global AI Law and Policy Tracker](https://iapp.org/resources/article/global-ai-legislation-tracker) | IAPP | AI legislative and policy developments across a subset of jurisdictions on six continents | Country-level law/policy tracking, national AI strategy updates, regulatory status. |
 | [OECD.AI Policy Navigator](https://oecd.ai/en/dashboards/policy-initiatives) | OECD.AI / GPAI | National and international AI policy initiatives, strategies, governance bodies, regulations, standards, and sector programs | Primary policy backbone for country extraction. |
 | [Global Index on Responsible AI](https://www.global-index.ai/) | Global Center on AI Governance / partners | Responsible AI benchmark across 138 countries and jurisdictions in its first edition | Responsible AI maturity, regional gaps, safeguards, public-sector delivery. |
-| [UNESCO AI Readiness Assessment Methodology](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics/readiness-assessment-methodology) | UNESCO | Readiness framework for implementing UNESCO's Recommendation on the Ethics of AI | Ethics/readiness dimensions for country profiles. |
+| [UNESCO AI Readiness Assessment Methodology](https://www.unesco.org/ethics-ai/en/ram) | UNESCO | Readiness framework for implementing UNESCO's Recommendation on the Ethics of AI | Ethics/readiness dimensions for country profiles. |
 | [Government AI Readiness Index 2025](https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/) | Oxford Insights | 195 governments | Public-sector readiness, regional comparison, country profile seed. |
 
 ## Risk Management And Assurance Frameworks
