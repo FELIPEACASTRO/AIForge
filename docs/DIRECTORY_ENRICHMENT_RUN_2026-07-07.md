@@ -307,10 +307,27 @@ New file:
 
 - `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_12_2026-07-07.md`
 
+## Batch 19 Result
+
+| Metric | Count |
+|---|---:|
+| New country-source seed files added in Batch 19 | 1 |
+| Countries promoted from `S0 seeded` to `S2 official national source` | 6 |
+| `S2 official national source` countries after Batch 19 | 156 |
+| `S0 seeded` countries after Batch 19 | 38 |
+| Repository Markdown files after Batch 19 | 2,234 |
+| Unique external URLs after Batch 19 | 12,750 |
+
+Batch 19 promoted Libya, Nicaragua, Suriname, Venezuela, Timor-Leste, and San Marino. Libya was promoted with General Information Authority, Libyan News Agency, and OECD.AI strategy evidence. Nicaragua was promoted with official INATEC/TELCOR AI education and capacity-building sources. Suriname was promoted with government public-sector AI and national digital strategy sources. Venezuela was promoted with MINCYT national AI plan, ethics, and sovereign-AI-system sources. Timor-Leste was promoted with a government AI/digital-transformation source plus UNESCO AI readiness evidence. San Marino was promoted with validated government ICT authority material and official foreign-affairs AI convention-position evidence.
+
+New file:
+
+- `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_13_2026-07-07.md`
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 19 | Continue the remaining 44 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
-| 20 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 21 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
+| 20 | Continue the remaining 38 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
+| 21 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 22 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |

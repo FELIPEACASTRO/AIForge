@@ -8,14 +8,14 @@ Measured from `C:\Users\davis\Workspace\AIForge` on 2026-07-07.
 
 | Metric | Count |
 |---|---:|
-| Git-tracked files | 2,281 |
-| Markdown files | 2,233 |
-| Non-git files scanned, excluding `.git` | 2,281 |
+| Git-tracked files | 2,282 |
+| Markdown files | 2,234 |
+| Non-git files scanned, excluding `.git` | 2,282 |
 | Directories scanned, excluding `.git` | 580 |
-| Estimated text lines | 112,742 |
-| Estimated text words | 1,271,893 |
-| External URL mentions | 23,183 |
-| Unique external URLs | 12,734 |
+| Estimated text lines | 112,797 |
+| Estimated text words | 1,273,279 |
+| External URL mentions | 23,215 |
+| Unique external URLs | 12,750 |
 | Top-level pillar with most files | `05_VERTICAL_APPLICATIONS` (1,291 scanned files) |
 
 ## GitHub Comparator Snapshot
@@ -24,7 +24,7 @@ Measured with GitHub REST API repository metadata and recursive tree endpoints o
 
 | Repository | Stars | Files | Markdown files | README unique URLs | Notes |
 |---|---:|---:|---:|---:|---|
-| `FELIPEACASTRO/AIForge` | 4 | 1,963 | 1,915 | 23 | Remote GitHub default-branch snapshot from the latest successful API pass; local branch has 2,281 scanned files including Batch 18 country-source expansion for Angola, Malawi, Barbados, Belize, Grenada, Saint Lucia, and Saint Vincent and the Grenadines, Batch 17 country-source expansion for Saint Kitts and Nevis and Iraq, Batch 16 country-source expansion for Bahamas and Maldives, Batch 15 broad ML/research/data/model/MLOps/agent/prompt/vertical source atlas files, Batch 14 UN M49 country/area backlog, Batch 13 country matrix, Batch 12 source indexes, Batch 11, Batch 10, Batch 09, Batch 08, Batch 07, Batch 06, Batch 05, Batch 04, Batch 03, Batch 02, Batch 01, the broad AI/ML data-model-prompt source atlas, Batch 09 source batch, and the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
+| `FELIPEACASTRO/AIForge` | 4 | 1,963 | 1,915 | 23 | Remote GitHub default-branch snapshot from the latest successful API pass; local branch has 2,282 scanned files including Batch 19 country-source expansion for Libya, Nicaragua, Suriname, Venezuela, Timor-Leste, and San Marino, Batch 18 country-source expansion for Angola, Malawi, Barbados, Belize, Grenada, Saint Lucia, and Saint Vincent and the Grenadines, Batch 17 country-source expansion for Saint Kitts and Nevis and Iraq, Batch 16 country-source expansion for Bahamas and Maldives, Batch 15 broad ML/research/data/model/MLOps/agent/prompt/vertical source atlas files, Batch 14 UN M49 country/area backlog, Batch 13 country matrix, Batch 12 source indexes, Batch 11, Batch 10, Batch 09, Batch 08, Batch 07, Batch 06, Batch 05, Batch 04, Batch 03, Batch 02, Batch 01, the broad AI/ML data-model-prompt source atlas, Batch 09 source batch, and the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
 | `josephmisiti/awesome-machine-learning` | 73,226 | 10 | 7 | 1,252 | Very high-authority compact awesome list. |
 | `ChristosChristofidis/awesome-deep-learning` | 28,562 | 1 | 1 | 601 | Compact README list. |
 | `owainlewis/awesome-artificial-intelligence` | 15,177 | 6 | 3 | 92 | Compact AI resource list. |
