@@ -14,6 +14,10 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md) | Fourth source batch, adding 15 official national AI/government AI sources and inserting each promoted source into the regional browsing layer. |
 | [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md) | Fifth source batch, adding 16 official national AI/government AI sources and preserving unstable or lower-confidence leads as deferred. |
 | [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md) | Sixth source batch, adding 12 official national AI/government AI sources and revisiting earlier deferred leads. |
+| [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md) | Seventh source batch, adding 12 official national AI/government AI sources and extending Oceania coverage with Samoa. |
+| [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md) | Eighth source batch, adding 12 official national AI/government AI sources across Africa, the Americas, Asia, and Oceania. |
+| [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md) | Ninth source batch, adding 12 official national AI/government AI sources across Africa and Asia. |
+| [AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md](./AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md) | First broad source atlas for AI/ML papers, datasets, model hubs, prompts, agent frameworks, benchmark suites, and production evaluation tools. |
 | [AI_Papers_Models_Datasets_Discovery_Map.md](./AI_Papers_Models_Datasets_Discovery_Map.md) | Repeatable source map for papers, models, datasets, benchmarks, model hubs, and scholarly graphs. |
 | [AI_Governance_Standards_and_Law_Trackers.md](./AI_Governance_Standards_and_Law_Trackers.md) | High-authority AI governance, legal, risk-management, and standards trackers. |
 | [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) | Coverage matrix for 195 independent countries, seeded from ISO/UN country-code data. |
@@ -29,7 +33,7 @@ This section turns AIForge from a topic catalog into a world-scale AI evidence m
 | S3 ecosystem sources | Academic, industry, dataset, startup, compute, and community sources added. |
 | S4 verified current | Links checked, dates captured, and claims reconciled against at least two independent sources. |
 
-Current matrix seed after the 2026-07-07 source passes: 195 countries, 103 with `S2 official national source`, 1 with `S1 global-index covered`, and 91 still at `S0 seeded`.
+Current matrix seed after the 2026-07-07 source passes: 195 countries, 139 with `S2 official national source`, 1 with `S1 global-index covered`, and 55 still at `S0 seeded`.
 
 ## Source Rules
 
@@ -58,7 +62,7 @@ Current matrix seed after the 2026-07-07 source passes: 195 countries, 103 with 
 
 ## Expansion Loop
 
-1. Pick a source family: policy, research, dataset, model, benchmark, patent, compute, education, safety, or country ecosystem.
+1. Pick a source family: policy, research, dataset, model, benchmark, prompt, agent, patent, compute, education, safety, or country ecosystem.
 2. Search primary sources first, then cross-check with global indexes.
 3. Add only source-backed entries.
 4. Update the country matrix and benchmark evidence.
@@ -68,5 +72,6 @@ Current matrix seed after the 2026-07-07 source passes: 195 countries, 103 with 
 
 - Use [Country_AI_Policy_Sources/](./Country_AI_Policy_Sources/) for browsable country and supranational source pages.
 - Use batch files as audit logs for discovery passes, including deferred or lower-confidence leads.
+- Use [AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md](./AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md) as the broad routing map for AI/ML sources that are not country-policy-specific.
 - Use [Global_AI_Country_Coverage_Matrix.md](./Global_AI_Country_Coverage_Matrix.md) as the canonical status ledger.
 - Use [Repository_Scale_Benchmark_2026-07-07.md](./Repository_Scale_Benchmark_2026-07-07.md) only for scale claims and comparator evidence.

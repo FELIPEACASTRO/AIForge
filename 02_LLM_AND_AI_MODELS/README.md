@@ -26,5 +26,6 @@ State-of-the-art and historical **AI models** across every modality: large langu
 - Fine-tuning these models: [`../01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning`](../01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning/)
 - Serving them in production: [`../04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`](../04_MLOPS_AND_PRODUCTION_AI/LLM_Inference/)
 - Datasets to train/eval: [`../03_DATASETS_TOOLS_AND_RESOURCES/Datasets`](../03_DATASETS_TOOLS_AND_RESOURCES/Datasets/)
+- Broad model, prompt, benchmark, and agent source atlas: [`../03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md`](../03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md)
 
 **Keywords:** large language models, LLM, open-source models, vision models, multimodal, VLM, diffusion models, mixture of experts, world models, foundation models, generative AI.

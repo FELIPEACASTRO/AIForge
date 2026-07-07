@@ -1,0 +1,40 @@
+# Official National AI Source Seeds - Batch 08 - 2026-07-07
+
+This file records the eighth source-discovery batch for AIForge's global AI country coverage. Each promoted source is also inserted into the organized regional browsing layer under [Country_AI_Policy_Sources](./Country_AI_Policy_Sources/).
+
+Access date: 2026-07-07.
+
+## Source Seeds
+
+| ISO3 | Country | Source | Publisher | Evidence type | Matrix impact |
+|---|---|---|---|---|---|
+| BWA | Botswana | [Ministry of Communications and Innovation mandate](https://www.gov.bw/ministries/ministry-communications-and-innovation) and [2026/2027 Ministry budget proposal PDF](https://www.botswanaspeaks.gov.bw/media/COMMITTEE%20OF%20SUPPPLY%20SPEECHES/2026%20MCI%20COMMITTEE%20OF%20SUPPLY%20-%20%2016%2003%202026%20REVISED%20FINAL%20%28%20Hon%20Minister%29%201.pdf) | Government of Botswana / Botswana Speaks parliamentary platform | Ministry mandate covering AI policy plus official budget speech naming the National Artificial Intelligence Policy 2026-2030 | S2 official national source |
+| CPV | Cabo Verde | [Economia Digital government booklet PDF](https://www.governo.cv/wp-content/uploads/2026/04/economiadigital.pdf) and [digital-governance strategy article](https://www.governo.cv/ministro-eurico-monteiro-apresenta-avancos-de-cabo-verde-em-materia-de-governacao-eletronica-e-modernizacao-dos-sistemas-na-iii-reuniao-interministerial-da-governacao-eletronica-da-cplp/) | Government of Cabo Verde | Official digital-economy and digital-governance sources naming AI strategy, AI center, and AI-enabled digital government | S2 official national source |
+| GMB | Gambia | [National Digital Economy Master Plan 2023-2033 PDF](https://mocde.gov.gm/wp-content/uploads/2023/10/Final-The-Gambia-Digital-Economy-Master-Plan-2023-20233.pdf) | Ministry of Communications and Digital Economy | National digital economy master plan including an AI development policy and strategy line | S2 official national source |
+| NAM | Namibia | [NDP6 policy document PDF](https://www.npc.gov.na/wp-content/uploads/2025/07/NDP6-Policy-Document_compressed.pdf) and [Namibia AI readiness profile](https://www.unesco.org/ethics-ai/en/namibia) | National Planning Commission / UNESCO | Official national development plan with AI adoption priorities plus intergovernmental AI-readiness corroboration | S2 official national source |
+| SLE | Sierra Leone | [National AI Strategy development note](https://mocti.gov.sl/the-ministry-of-communication-technology-and-innovation-mocti-in-collaboration-with-the-world-bank-group-is-developing-sierra-leones-first-ever-national-ai-strategy/) and [National Innovation and Digital Strategy PDF](https://mocti.gov.sl/wp-content/uploads/2024/12/Sierra-Leone-National-Innovation-and-Digital-Strategy.pdf) | Ministry of Communication, Technology and Innovation | Official national AI strategy-development source and national digital strategy with applied AI for governance | S2 official national source |
+| BOL | Bolivia (Plurinational State of) | [Agenda Digital 2030 PDF](https://agetic.gob.bo/sites/default/files/2025-07/Anexo%20D.S%20N%C2%B0%205367%20-%20Agenda%20Digital%202030-firmado%20%281%29.pdf) and [AGETIC 2024 accountability report PDF](https://agetic.gob.bo/sites/default/files/2025-08/Informe%20Rendicio%CC%81n%20Pu%CC%81blica%20de%20Cuentas%20Final%202024.pdf) | AGETIC / State digital-government agency | Official digital agenda and public-sector data/AI governance project evidence | S2 official national source |
+| CUB | Cuba | [Digital Transformation Policy, Cuban Digital Agenda, and AI Strategy](https://www.fgr.gob.cu/politica-para-la-transformacion-digital-agenda-digital-cubana-y-estrategia-de-inteligencia) and [AI work in the Cuban Prosecutor's Office](https://www.fgr.gob.cu/noticias/nuevos-pasos-en-la-aplicacion-de-la-inteligencia-artificial-en-la-fiscalia-cubana-fotos) | Fiscalia General de la Republica de Cuba | Official AI strategy document listing and public-sector AI implementation source | S2 official national source |
+| GUY | Guyana | [National digitisation programme driven by AI](https://op.gov.gy/government-to-digitise-services-by-mid-2026-president-ali/) and [AI in national security overhaul](https://op.gov.gy/president-ali-unveils-bold-security-overhaul/) | Office of the President of Guyana | Official national digital transformation and national-security AI programme sources | S2 official national source |
+| HND | Honduras | [National AI and e-commerce plan note](https://dnh.gob.hn/diario/mas-de-10000-pymes-hondurenas-impulsan-sus-ventas-con-tiendas-en-linea) and [AI tool for investment and institutional modernization](https://dnh.gob.hn/diario/gobierno-impulsa-agenda-de-inversion-modernizacion-y-generacion-de-empleo) | Diario Nacional de Honduras / Government of Honduras | Official government-news sources for national AI/e-commerce plan and AI-enabled state modernization | S2 official national source |
+| ARM | Armenia | [Ministry of High-Tech Industry AI virtual institute listing](https://hightech.gov.am/en/) and [Artificial Intelligence Strategy for Armenia](https://www.gov.am/en/news/item/9940/) | Ministry of High-Tech Industry / Government of Armenia | Official AI institute/programme evidence and government AI strategy statement | S2 official national source |
+| KGZ | Kyrgyzstan | [Digital Transformation Concept 2024-2028 PDF](https://digital.gov.kg/wp-content/uploads/2024/06/concept-digital-transformation-of-the-kyrgyz-republic-for-2024-2028.pdf) | Ministry of Digital Development of the Kyrgyz Republic | National digital transformation concept with AI development strategy, AI council, regulation, and compute-center actions | S2 official national source |
+| SLB | Solomon Islands | [AI education policy commitment](https://solomons.gov.sb/govt-committed-to-developing-an-education-policy-on-artificial-intelligence-learning/) and [ICT for Education Master Plan 2026-2030 launch](https://solomons.gov.sb/mehrd-launches-solomon-islands-ict-for-education-master-plan-2026-2030/) | Solomon Islands Government / Ministry of Education and Human Resources Development | Official AI-in-education policy commitment and national ICT education master plan source | S2 official national source |
+
+## Deferred Or Lower-Confidence Items
+
+| ISO3 | Country | Reason not promoted in this batch |
+|---|---|---|
+| MWI | Malawi | Official and UNESCO sources indicate AI strategy and ethics-readiness work, but the sources still point to draft or validation-stage strategy material rather than an adopted public AI strategy or direct national AI programme page. |
+| BHS | Bahamas | Official government snippets indicate AI policy/legislation work and a national AI committee, but the government pages returned `403` during live URL validation in this pass. |
+| BRB | Barbados | Government pages mention AI skills and labour impacts, but no country-owned AI policy, AI strategy, AI regulator, or national AI programme source was confirmed. |
+| BLZ | Belize | Regional AI-readiness sources exist, but a stable official Belize-owned AI source was not confirmed. |
+| KWT | Kuwait | CAIT official search results identify an AI Innovation Center and national AI strategy workshop, but the CAIT pages timed out during live URL validation in this pass. |
+| LCA | Saint Lucia | Regional AI-readiness sources exist, but no country-owned official AI source was confirmed. |
+| VCT | Saint Vincent and the Grenadines | Regional AI-readiness sources exist, but no country-owned official AI source was confirmed. |
+
+## Extraction Notes
+
+- This batch promotes 12 additional countries from `S0 seeded` to `S2 official national source`.
+- `S2` remains a source-presence status: several entries are official strategy-development pages, national digital plans with AI components, national AI committees, AI centres, or AI readiness/governance programmes rather than final stand-alone national AI strategies.
+- Earlier deferred leads for Botswana, Armenia, and Namibia were revisited and promoted because direct official or government-owned AI sources were found in this pass.

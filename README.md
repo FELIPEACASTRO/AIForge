@@ -42,6 +42,8 @@
 
 **Use [`NAVIGATION_GUIDE.md`](./NAVIGATION_GUIDE.md).** A topic-first guide ("I want to learn about RAG" → exact path).
 
+**Track enrichment.** The repo-wide directory enrichment pass is recorded in [`docs/DIRECTORY_ENRICHMENT_RUN_2026-07-07.md`](./docs/DIRECTORY_ENRICHMENT_RUN_2026-07-07.md), and broad AI/ML source routing lives in [`AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md).
+
 **GitHub search.** Scoped path search: `vLLM path:04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`.
 
 ---

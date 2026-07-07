@@ -69,6 +69,8 @@ Find what you're looking for, fast.
 | Global AI policy/readiness/country coverage | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/` |
 | Official country AI policy sources by region | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/` |
 | Evidence for AIForge scale vs other repositories | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Repository_Scale_Benchmark_2026-07-07.md` |
+| Directory enrichment status and next batches | `docs/DIRECTORY_ENRICHMENT_RUN_2026-07-07.md` |
+| Broad AI/ML data, model, prompt, agent, and benchmark source atlas | `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/AI_ML_Data_Model_Prompt_Source_Atlas_Batch_01_2026-07-07.md` |
 
 ## "I need a dataset..."
 

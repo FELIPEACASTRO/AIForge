@@ -1,13 +1,37 @@
-# 🎯 Apply AI
+# Vertical Applications
 
-Resources for applying AI in specific domains and industries.
+AI applications organized by industry and domain. This pillar turns general AI methods into domain-specific workflows, datasets, models, prompts, benchmarks, products, regulations, and implementation playbooks.
 
-## Subcategories
+## Domain Map
 
-- [Finance and FinTech](./02_Finance_and_Fintech_AI/) - Banking, fraud, credit risk, crypto, markets, and trading.
-- [Healthcare and Medical AI](./01_Healthcare_and_Medical_AI/) - Diagnostics, imaging, clinical NLP, drug discovery, and public health.
-- [Retail and Ecommerce](./07_Retail_and_Ecommerce/) - E-commerce, recommendation systems, pricing, and customer intelligence.
-- [Business and Marketing AI](./12_Business_and_Marketing_AI/) - Marketing automation, segmentation, growth, and customer analytics.
-- [Entertainment and Creative AI](./09_Entertainment_and_Creative_AI/) - Media, content generation, UX/design, and creative prompts.
-- [AI Project Showcases](./20_AI_Project_Showcases/) - Competitions, benchmarks, Kaggle, SOTA projects, and applied ML examples.
+| Domain family | Directories |
+|---|---|
+| Life sciences and health | `01_Healthcare_and_Medical_AI`, medical devices, imaging, clinical NLP, drug discovery, genomics, public health, and patient-facing AI. |
+| Finance and business | `02_Finance_and_Fintech_AI`, insurance, real estate, HR, customer support, retail, ecommerce, marketing, and operations. |
+| Physical world and industry | Agriculture, climate, energy, manufacturing, robotics, autonomous vehicles, telecom, edge/IoT, and supply chain. |
+| Knowledge work and public sector | Education, legal, cybersecurity, science, government, and public-sector AI. |
+| Media, games, and creativity | Entertainment, creative AI, gaming, sports analytics, video/image generation, and project showcases. |
 
+## Enrichment Standard
+
+Each vertical directory should record:
+
+1. Domain tasks and user workflows.
+2. Models and methods that actually fit the domain.
+3. Datasets, benchmarks, and data-access constraints.
+4. Prompt patterns and agent workflows where useful.
+5. Evaluation metrics and failure modes.
+6. Regulatory, safety, privacy, and deployment constraints.
+7. Open-source projects, papers, APIs, and production tools.
+
+## Routing Rules
+
+- Put general methods in `../01_AI_FUNDAMENTALS_AND_THEORY/`.
+- Put model families in `../02_LLM_AND_AI_MODELS/`.
+- Put reusable datasets and tools in `../03_DATASETS_TOOLS_AND_RESOURCES/`.
+- Put deployment and operations in `../04_MLOPS_AND_PRODUCTION_AI/`.
+- Keep vertical pages focused on domain-specific application, evidence, and constraints.
+
+## Priority Enrichment
+
+Start with the largest and highest-impact verticals: healthcare, finance, agriculture, climate, cybersecurity, science, government/public sector, sports analytics, and project showcases.
