@@ -125,10 +125,22 @@ Batch 06 added source-linked guides for climate and weather AI, AI papers, model
 
 Key source families inserted directly into the new guides include Copernicus, Climate Data Store, ECMWF, NOAA, NASA Earthdata, Google Earth Engine, WeatherBench, arXiv, Semantic Scholar, OpenReview, ACL Anthology, TCIA, NCI GDC, TCGA, cBioPortal, PyTorch, TensorFlow, JAX, ONNX Runtime, vLLM, Triton, KServe, TensorRT-LLM, MLflow, Kubeflow, Weights & Biases, MLCommons, SWE-bench, AlphaFold, RCSB PDB, UniProt, ESM, OpenFold, PyRadiomics, OpenNeuro, ADNI, OpenML, UCI, OpenAI video generation, Meta Llama, Mistral, Qwen, DeepSeek, Gemma, AudioSet, AVA, and VGGSound.
 
+## Batch 07 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 07 | 360 |
+| Directories without `README.md` after Batch 07 | 220 |
+| New directory guides added in Batch 07 | 31 |
+
+Batch 07 added source-linked guides for repository operations, GitHub workflows, issue templates, tooling, CSIRO biomass code examples, source modules, training/inference/loss/optimizer modules, medical informatics, healthcare edge AI, GNN models, AutoML projects, computer vision applications, deep-learning architectures, vegetation-index features and datasets, cardiology, medical LLMs, vision models, research labs, multimodal models, the general model catalog, long-context models, transfer learning, workflow orchestration, model serving, federated learning, vision-language models, and explainable AI.
+
+Key source families inserted directly into the new guides include GitHub Actions and issue-template documentation, PyTorch, PyTorch Lightning, scikit-learn, ONNX Runtime, TensorRT, timm, Google Earth Engine, NASA Earthdata, HL7 FHIR, OHDSI OMOP, MIMIC-IV, MONAI Deploy, LiteRT, PyTorch Geometric, DGL, NVIDIA GNN resources, AutoGluon, H2O AutoML, FLAML, OpenCV, TorchVision, Hugging Face computer-vision and VLM resources, PhysioNet, PTB-XL, Med-PaLM, BioMistral, PubMed, OpenAI, Google Gemini, Anthropic, RULER, PEFT, Airflow, Dagster, Prefect, Kubeflow Pipelines, Flyte, KServe, BentoML, Triton, vLLM, Seldon, Flower, TensorFlow Federated, FedML, OpenFL, SHAP, InterpretML, Captum, and LIME.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 07 | Add README guides to remaining code-example, operations, computer-vision, transfer-learning, graph, federated-learning, long-context, medical-device, prompt, model-serving, and workflow subdirectories. |
-| 08 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 09 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 08 | Add README guides to remaining one-file healthcare, medical imaging, deployment, Azure, AutoML, clinical-trials, public-health, synthetic-data, and prompt/model subdirectories. |
+| 09 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
+| 10 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
