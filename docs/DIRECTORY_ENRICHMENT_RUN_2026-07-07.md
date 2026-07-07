@@ -175,10 +175,22 @@ Batch 10 added source-linked guides for data preprocessing, data management, ETL
 
 Key source families inserted directly into the new guides include scikit-learn, pandas, TensorFlow, TorchVision, DataHub, OpenMetadata, DVC, Great Expectations, dbt, Airflow, Dagster, Spark, Jupyter, Kafka, Flink, Beam, Redpanda, PlantVillage, FAO, lakeFS, Delta Lake, Iceberg, NASA Earthdata, Radiant MLHub, Polars, Google Earth Engine, GEDI, PEFT, BlenderProc, Omniverse Replicator, Edge Impulse, OpenAPI, Common Crawl, VQA, GQA, DocVQA, AWS Open Data, Google Cloud public datasets, Azure Open Datasets, Data.gov, World Bank, COCO Captions, LAION, TCIA, PyRadiomics, AudioSet, AVA, nuScenes, Waymo Open Dataset, Argoverse, KITTI, Label Studio, CVAT, Snorkel, FiftyOne, OECD AI, Stanford AI Index, AI Incident Database, NIST AI RMF, World Bank Data, ICPSR, Kinetics, UCF101, HMDB51, and Papers with Code.
 
+## Batch 11 Result
+
+| Metric | Count |
+|---|---:|
+| Directories with `README.md` after Batch 11 | 580 |
+| Directories without `README.md` after Batch 11 | 0 |
+| New directory guides added in Batch 11 | 99 |
+
+Batch 11 completed README coverage across every directory and subdirectory currently present in the repository. The new guides cover the remaining core AI/ML theory areas, prompt directories, model subdirectories, cloud and benchmark folders, medical and scientific datasets, reinforcement-learning simulators, predictive-AI templates, and AI project-showcase categories.
+
+Key source families inserted directly into the new guides include OpenAI, Anthropic/Claude, Google Gemini, Microsoft Foundry, Promptfoo, scikit-learn, PyTorch, TensorFlow, Keras, Hugging Face Transformers, Hugging Face datasets and models, Papers with Code, OpenML, UCI, arXiv, OpenReview, TorchVision, OpenCV, Diffusers, PyTorch Geometric, DGL, Open Graph Benchmark, NVIDIA GNN resources, NIST AI RMF, ART, TensorFlow Privacy, MLCommons, HELM, lm-evaluation-harness, AWS, SageMaker, AWS Open Data, Google Cloud AI, Azure AI, GDC, cBioPortal, TCIA, PhysioNet, PubMed, RCSB PDB, AlphaFold DB, UniProt, NASA Earthdata, Copernicus, NOAA, Google Earth Engine, SEC EDGAR, FRED, FINRA, Gymnasium, MuJoCo, Isaac Lab, Unity ML-Agents, PlantVillage, FAOSTAT, USDA NASS, Radiant MLHub, TensorFlow Lite, ONNX Runtime Mobile, Core ML, ExecuTorch, Rasa, Botpress, Monash forecasting data, UCR time-series archive, GluonTS, sktime, SHAP, InterpretML, Captum, RFC 8615, security.txt, W3C DID, OpenSearch, and Web App Manifest.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 11 | Add README guides to the remaining 99 project-showcase, predictive-template, docs, medical-device, core-theory, prompt, and nested AgTech/healthcare subdirectories. |
 | 12 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
-| 13 | Continue dataset modality and vertical-domain subdirectories until every meaningful content directory has a local guide. |
+| 13 | Add country and region coverage matrices for AI policy, research institutions, datasets, companies, compute providers, and public-sector AI sources. |
+| 14 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
