@@ -256,10 +256,27 @@ New files:
 
 Key source families inserted directly into Batch 15 include scikit-learn, PyTorch, TensorFlow, Keras, JAX, XGBoost, LightGBM, CatBoost, Ray Tune, Optuna, arXiv, OpenReview, Semantic Scholar, Papers with Code, JMLR, NeurIPS, PMLR, ACL Anthology, CVF Open Access, PubMed, Hugging Face Datasets and Models, Kaggle Datasets and Models, OpenML, UCI, Data.gov, data.europa.eu, World Bank Data, UNdata, OECD Data Explorer, IMF Data, WHO GHO, FAOSTAT, NASA Earthdata, NOAA Data, Copernicus, AWS Open Data, BigQuery public datasets, OpenAI, Anthropic, Google Gemini, Microsoft Foundry, PyTorch Hub, ONNX Model Zoo, NVIDIA NGC, Replicate, OpenRouter, MLflow, Kubeflow, KServe, BentoML, Seldon, Ray Serve, Feast, DVC, lakeFS, Evidently, WhyLabs, Great Expectations, Weights and Biases, Neptune, Langfuse, Promptfoo, Airflow, Dagster, Prefect, Metaflow, Flyte, Argo Workflows, Model Context Protocol, LangGraph, AutoGen, CrewAI, LlamaIndex, Pydantic AI, Semantic Kernel, Google ADK, smolagents, SWE-bench, WebArena, OSWorld, tau-bench, AgentBench, ToolBench, Terminal-Bench, GAIA, FDA, PhysioNet, TCIA, PubChem, RCSB PDB, AlphaFold DB, UniProt, SEC EDGAR, FRED, FINRA, USDA NASS, CGIAR, IPCC, UNESCO, NIST, CISA, MITRE ATT&CK, OWASP, Gymnasium, MuJoCo, Isaac Lab, RoboSuite, nuScenes, Waymo Open Dataset, Argoverse, KITTI, and the UN e-Government Knowledgebase.
 
+## Batch 16 Result
+
+| Metric | Count |
+|---|---:|
+| New country-source seed files added in Batch 16 | 1 |
+| Countries promoted from `S0 seeded` to `S2 official national source` | 2 |
+| `S2 official national source` countries after Batch 16 | 141 |
+| `S0 seeded` countries after Batch 16 | 53 |
+| Repository Markdown files after Batch 16 | 2,231 |
+| Unique external URLs after Batch 16 | 12,720 |
+
+Batch 16 continued the country-by-country source work without forcing weak evidence. Bahamas was promoted based on an official Government of The Bahamas source establishing a National AI Committee to draft the country's first AI legislation. Maldives was promoted based on an official Ministry of Foreign Affairs AI governance statement, paired with UNESCO's AI readiness assessment report for the country. Kuwait, Timor-Leste, Georgia, Madagascar, Malawi, Seychelles, Vanuatu, Kiribati, and the Marshall Islands were preserved as deferred leads because the available evidence was unstable, not country-owned, or not AI-specific enough for `S2`.
+
+New file:
+
+- `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md`
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 16 | Expand the UN M49 backlog with native official AI/government/regulator sources by region, starting with Africa, Latin America, and Asia entries not yet seeded. |
-| 17 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 18 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |
+| 17 | Continue the remaining 53 `S0 seeded` countries with conservative official-source promotion and deferred-lead evidence. |
+| 18 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 19 | Add deeper domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, cybersecurity, and science AI. |

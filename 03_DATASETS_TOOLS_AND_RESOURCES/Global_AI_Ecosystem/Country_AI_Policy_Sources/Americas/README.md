@@ -5,6 +5,7 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 | ISO3 | Country | Status | Official source | Publisher | Evidence type |
 |---|---|---|---|---|---|
 | ARG | Argentina | S2 official national source | [National Transparency and Personal Data Protection Programme for AI use](https://www.argentina.gob.ar/programa-nacional-de-transparencia-y-proteccion-de-datos-personales-en-el-uso-de-la-inteligencia) and [AI document hub](https://www.argentina.gob.ar/aaip/documentos-de-inteligencia-artificial) | Argentina.gob.ar / AAIP | Official national AI governance programme and guidance hub |
+| BHS | Bahamas | S2 official national source | [Innovation Ministry to establish a National AI Committee to draft the country's first AI legislation](https://www.bahamas.gov.bs/news-press-release/innovation-ministry-to-establish-a-national-ai-committee-to-draft-the-country-s-first-ai-legislation) | Government of The Bahamas | Official national AI committee and first AI legislation-development source |
 | BOL | Bolivia (Plurinational State of) | S2 official national source | [Agenda Digital 2030 PDF](https://agetic.gob.bo/sites/default/files/2025-07/Anexo%20D.S%20N%C2%B0%205367%20-%20Agenda%20Digital%202030-firmado%20%281%29.pdf) and [AGETIC 2024 accountability report PDF](https://agetic.gob.bo/sites/default/files/2025-08/Informe%20Rendicio%CC%81n%20Pu%CC%81blica%20de%20Cuentas%20Final%202024.pdf) | AGETIC / State digital-government agency | Official digital agenda and public-sector data/AI governance project evidence |
 | BRA | Brazil | S2 official national source | [Plano Brasileiro de Inteligencia Artificial](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/plano-brasileiro-de-inteligencia-artificial) | MCTI / gov.br | PBIA 2024-2028 national plan |
 | CAN | Canada | S2 official national source | [AI for All: Canada's National Artificial Intelligence Strategy](https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all) | Innovation, Science and Economic Development Canada | National AI strategy |
@@ -31,5 +32,4 @@ Official national AI strategy, policy, ministry, and government AI programme sou
 
 | ISO3 | Country | Lead |
 |---|---|---|
-| BHS | Bahamas | Official government snippets indicate AI policy/legislation work and a national AI committee, but the government pages returned `403` during live URL validation in the eighth pass. |
 | BRB | Barbados | Regional and secondary sources indicate foundational AI governance activity, but no official published national AI strategy or AI policy was confirmed. |

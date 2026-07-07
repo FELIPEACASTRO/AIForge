@@ -18,12 +18,12 @@ Source universe: [datasets/country-codes](https://github.com/datasets/country-co
 
 | Status | Countries |
 |---|---:|
-| S2 official national source | 139 |
+| S2 official national source | 141 |
 | S1 global-index covered | 1 |
-| S0 seeded | 55 |
+| S0 seeded | 53 |
 | Total country rows | 195 |
 
-S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md).
+S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source_Seeds_2026-07-07.md](./Official_National_AI_Source_Seeds_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_02_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_03_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_04_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_05_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_06_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_07_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_08_2026-07-07.md), [Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_09_2026-07-07.md), and [Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md](./Official_National_AI_Source_Seeds_Batch_10_2026-07-07.md).
 
 ## Countries
 
@@ -85,7 +85,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | ZWE | Zimbabwe | Africa | Sub-Saharan Africa | S2 official national source |
 | ATG | Antigua and Barbuda | Americas | Latin America and the Caribbean | S0 seeded |
 | ARG | Argentina | Americas | Latin America and the Caribbean | S2 official national source |
-| BHS | Bahamas | Americas | Latin America and the Caribbean | S0 seeded |
+| BHS | Bahamas | Americas | Latin America and the Caribbean | S2 official national source |
 | BRB | Barbados | Americas | Latin America and the Caribbean | S0 seeded |
 | BLZ | Belize | Americas | Latin America and the Caribbean | S0 seeded |
 | BOL | Bolivia (Plurinational State of) | Americas | Latin America and the Caribbean | S2 official national source |
@@ -145,7 +145,7 @@ S1/S2 evidence for these seed passes is recorded in [Official_National_AI_Source
 | BTN | Bhutan | Asia | Southern Asia | S2 official national source |
 | IND | India | Asia | Southern Asia | S2 official national source |
 | IRN | Iran (Islamic Republic of) | Asia | Southern Asia | S2 official national source |
-| MDV | Maldives | Asia | Southern Asia | S0 seeded |
+| MDV | Maldives | Asia | Southern Asia | S2 official national source |
 | NPL | Nepal | Asia | Southern Asia | S2 official national source |
 | PAK | Pakistan | Asia | Southern Asia | S2 official national source |
 | LKA | Sri Lanka | Asia | Southern Asia | S2 official national source |
