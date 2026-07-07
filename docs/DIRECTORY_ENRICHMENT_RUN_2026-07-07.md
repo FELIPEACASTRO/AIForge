@@ -187,10 +187,29 @@ Batch 11 completed README coverage across every directory and subdirectory curre
 
 Key source families inserted directly into the new guides include OpenAI, Anthropic/Claude, Google Gemini, Microsoft Foundry, Promptfoo, scikit-learn, PyTorch, TensorFlow, Keras, Hugging Face Transformers, Hugging Face datasets and models, Papers with Code, OpenML, UCI, arXiv, OpenReview, TorchVision, OpenCV, Diffusers, PyTorch Geometric, DGL, Open Graph Benchmark, NVIDIA GNN resources, NIST AI RMF, ART, TensorFlow Privacy, MLCommons, HELM, lm-evaluation-harness, AWS, SageMaker, AWS Open Data, Google Cloud AI, Azure AI, GDC, cBioPortal, TCIA, PhysioNet, PubMed, RCSB PDB, AlphaFold DB, UniProt, NASA Earthdata, Copernicus, NOAA, Google Earth Engine, SEC EDGAR, FRED, FINRA, Gymnasium, MuJoCo, Isaac Lab, Unity ML-Agents, PlantVillage, FAOSTAT, USDA NASS, Radiant MLHub, TensorFlow Lite, ONNX Runtime Mobile, Core ML, ExecuTorch, Rasa, Botpress, Monash forecasting data, UCR time-series archive, GluonTS, sktime, SHAP, InterpretML, Captum, RFC 8615, security.txt, W3C DID, OpenSearch, and Web App Manifest.
 
+## Batch 12 Result
+
+| Metric | Count |
+|---|---:|
+| New source-index files added in Batch 12 | 4 |
+| Repository Markdown files after Batch 12 | 2,220 |
+| Unique external URLs after Batch 12 | 12,640 |
+
+Batch 12 moved beyond directory coverage into source-depth. It added organized, topic-specific source indexes for prompt engineering, model hubs/providers, benchmark/evaluation sources, and agent frameworks/evaluation. These indexes are intended to convert broad searches into maintainable local routing files with provenance, trust ranking, metadata requirements, and caveats.
+
+New files:
+
+- `01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Prompt_Source_Index_2026-07-07.md`
+- `02_LLM_AND_AI_MODELS/Models/Model_Hub_Provider_Index_2026-07-07.md`
+- `03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Benchmarks/Benchmark_And_Evaluation_Source_Index_2026-07-07.md`
+- `04_MLOPS_AND_PRODUCTION_AI/AI_Agents/Agent_Frameworks_And_Evaluation_Source_Index_2026-07-07.md`
+
+Key source families inserted directly into the new indexes include OpenAI prompt/model/Agents SDK/Cookbook/Evals docs, Anthropic prompt/model/transparency docs, Claude Code prompt library, Google Gemini model/prompt/gallery/changelog docs, Microsoft Foundry prompt/system-message/Agent Framework/Semantic Kernel docs, Hugging Face model and inference-provider docs, OpenRouter, Replicate, Together AI, Groq, LiteLLM, LangSmith, LangChain, LangGraph, AutoGen, CrewAI, LlamaIndex, Pydantic AI, Google ADK, Model Context Protocol, MLPerf, HELM, lm-evaluation-harness, SWE-bench, GPQA, Chatbot Arena, BIG-bench, HumanEval, MATH, OpenML, UCI, Promptfoo, Ragas, DeepEval, Langfuse, GAIA, AgentBench, tau-bench, OSWorld, and WebArena.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 12 | Add source-backed enrichment files for prompt libraries, model catalogs, benchmarks, agent frameworks, and evaluation suites. |
 | 13 | Add country and region coverage matrices for AI policy, research institutions, datasets, companies, compute providers, and public-sector AI sources. |
 | 14 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 15 | Add domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, and cybersecurity AI. |
