@@ -206,10 +206,22 @@ New files:
 
 Key source families inserted directly into the new indexes include OpenAI prompt/model/Agents SDK/Cookbook/Evals docs, Anthropic prompt/model/transparency docs, Claude Code prompt library, Google Gemini model/prompt/gallery/changelog docs, Microsoft Foundry prompt/system-message/Agent Framework/Semantic Kernel docs, Hugging Face model and inference-provider docs, OpenRouter, Replicate, Together AI, Groq, LiteLLM, LangSmith, LangChain, LangGraph, AutoGen, CrewAI, LlamaIndex, Pydantic AI, Google ADK, Model Context Protocol, MLPerf, HELM, lm-evaluation-harness, SWE-bench, GPQA, Chatbot Arena, BIG-bench, HumanEval, MATH, OpenML, UCI, Promptfoo, Ragas, DeepEval, Langfuse, GAIA, AgentBench, tau-bench, OSWorld, and WebArena.
 
+## Batch 13 Result
+
+| Metric | Count |
+|---|---:|
+| New country/region matrix files added in Batch 13 | 1 |
+| Repository Markdown files after Batch 13 | 2,221 |
+| Unique external URLs after Batch 13 | 12,675 |
+
+Batch 13 started the country and region source-coverage layer requested for global AIForge expansion. It added `03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_And_Region_AI_Source_Coverage_Matrix_2026-07-07.md`, with global aggregator routing plus a priority seed matrix for the United States, European Union, Brazil, India, Canada, Singapore, Japan, United Kingdom, China, South Korea, United Arab Emirates, Saudi Arabia, Australia, France, Germany, Spain, Italy, Netherlands, South Africa, Nigeria, Chile, Mexico, Colombia, and Israel.
+
+Key source families inserted directly into the country matrix include OECD.AI, OECD national AI repository, UNESCO AI ethics/governance sources, Stanford AI Index, Stanford Global AI Vibrancy Tool, European Commission AI Watch, AI.gov, NIST AI RMF, EU AI Act, European AI Office, Brazilian PBIA/EBIA, INDIAai, India AI Mission, Canada AI for All, Singapore NAIS, Japan AI Basic Plan, UK digital standards and parliamentary AI regulation briefings, China OECD policy pages, Korea OECD policy pages, UAE AI government policy sources, SDAIA, and OECD country pages for additional national coverage.
+
 ## Next Batches
 
 | Batch | Focus |
 |---|---|
-| 13 | Add country and region coverage matrices for AI policy, research institutions, datasets, companies, compute providers, and public-sector AI sources. |
-| 14 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
-| 15 | Add domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, and cybersecurity AI. |
+| 14 | Expand the country matrix toward all OECD-listed countries and add native-language official sources where possible. |
+| 15 | Deepen high-value directories with ranked resources, local examples, and reproducible source-validation manifests beyond README coverage. |
+| 16 | Add domain-specific source indexes for healthcare, agriculture, finance, climate, education, robotics, and cybersecurity AI. |

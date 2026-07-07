@@ -8,14 +8,14 @@ Measured from `C:\Users\davis\Workspace\AIForge` on 2026-07-07.
 
 | Metric | Count |
 |---|---:|
-| Git-tracked files | 2,268 |
-| Markdown files | 2,220 |
-| Non-git files scanned, excluding `.git` | 2,268 |
+| Git-tracked files | 2,269 |
+| Markdown files | 2,221 |
+| Non-git files scanned, excluding `.git` | 2,269 |
 | Directories scanned, excluding `.git` | 580 |
-| Estimated text lines | 111,808 |
-| Estimated text words | 1,254,748 |
-| External URL mentions | 22,918 |
-| Unique external URLs | 12,640 |
+| Estimated text lines | 111,897 |
+| Estimated text words | 1,256,698 |
+| External URL mentions | 22,975 |
+| Unique external URLs | 12,675 |
 | Top-level pillar with most files | `05_VERTICAL_APPLICATIONS` (1,290 scanned files) |
 
 ## GitHub Comparator Snapshot
@@ -24,7 +24,7 @@ Measured with GitHub REST API repository metadata and recursive tree endpoints o
 
 | Repository | Stars | Files | Markdown files | README unique URLs | Notes |
 |---|---:|---:|---:|---:|---|
-| `FELIPEACASTRO/AIForge` | 4 | 1,963 | 1,915 | 23 | Remote GitHub default-branch snapshot from the latest successful API pass; local branch has 2,268 scanned files including directory-enrichment Batch 12 source indexes, Batch 11, Batch 10, Batch 09, Batch 08, Batch 07, Batch 06, Batch 05, Batch 04, Batch 03, Batch 02, Batch 01, the broad AI/ML data-model-prompt source atlas, Batch 09 source batch, and the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
+| `FELIPEACASTRO/AIForge` | 4 | 1,963 | 1,915 | 23 | Remote GitHub default-branch snapshot from the latest successful API pass; local branch has 2,269 scanned files including directory-enrichment Batch 13 country matrix, Batch 12 source indexes, Batch 11, Batch 10, Batch 09, Batch 08, Batch 07, Batch 06, Batch 05, Batch 04, Batch 03, Batch 02, Batch 01, the broad AI/ML data-model-prompt source atlas, Batch 09 source batch, and the merged Omaha expansion, and remote can lag until branch commits are pushed or merged. |
 | `josephmisiti/awesome-machine-learning` | 73,226 | 10 | 7 | 1,252 | Very high-authority compact awesome list. |
 | `ChristosChristofidis/awesome-deep-learning` | 28,562 | 1 | 1 | 601 | Compact README list. |
 | `owainlewis/awesome-artificial-intelligence` | 15,177 | 6 | 3 | 92 | Compact AI resource list. |
