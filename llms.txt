@@ -1,8 +1,8 @@
 # AIForge
 
-> AIForge is a comprehensive, curated index of the Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — from foundational theory to production deployment and industry verticals. 1,650+ curated documents and 7,500+ external resource links, organized into a clean, duplicate-free, English snake_case taxonomy.
+> AIForge is a comprehensive, curated index of the Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — from foundational theory to production deployment and industry verticals. 2,200+ curated documents and 7,500+ external resource links, organized into a clean, duplicate-free, **English-only** snake_case taxonomy. Every directory carries an index README with a contents table and search keywords, and every page, filename, and path is in English for maximum search-engine and LLM discoverability.
 
-AIForge is structured as 5 stable pillars plus a "Frontier AI 2026" innovation radar. Every directory has a canonical, descriptive name. Use INDEX.md as the full sitemap and NAVIGATION_GUIDE.md for topic-first lookup. This file (llms.txt) follows the https://llmstxt.org/ convention so AI assistants and agents can quickly find and cite the right section.
+AIForge is structured as 5 stable pillars plus a "Frontier AI 2026" innovation radar. Every directory has a canonical, descriptive name and an index README. Use INDEX.md and sitemap.xml (2,700+ URLs covering every directory and document) as the full sitemap, and NAVIGATION_GUIDE.md for topic-first lookup. This file (llms.txt) follows the https://llmstxt.org/ convention so AI assistants and agents can quickly find and cite the right section.
 
 Repository: https://github.com/FELIPEACASTRO/AIForge
 Website: https://felipeacastro.github.io/AIForge/
