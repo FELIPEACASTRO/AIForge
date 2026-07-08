@@ -1,577 +1,596 @@
 # AIForge — Complete Index
 
-Auto-generated sitemap of every directory. Topic-first entry: [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md). Latest releases: [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/).
+Auto-generated sitemap of every directory (577 directories, 2214 documents, **English-only**). Topic-first entry: [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md). Machine sitemap: [sitemap.xml](./sitemap.xml). Latest releases: [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/).
 
 ## [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/)
 
 
 ## [01_AI_FUNDAMENTALS_AND_THEORY](./01_AI_FUNDAMENTALS_AND_THEORY/)
 
-  - [`AI_Evaluation/`](./01_AI_FUNDAMENTALS_AND_THEORY/AI_Evaluation/)
-  - [`AI_Safety_and_Alignment/`](./01_AI_FUNDAMENTALS_AND_THEORY/AI_Safety_and_Alignment/)
-  - [`Active_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Active_Learning/)
-  - [`Agentic_AI/`](./01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/)
-    - [`Agent_Security/`](./01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/Agent_Security/)
-  - [`Anomaly_and_OOD_Detection/`](./01_AI_FUNDAMENTALS_AND_THEORY/Anomaly_and_OOD_Detection/)
-  - [`AutoML/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/)
-    - [`AutoML_Frameworks/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/AutoML_Frameworks/)
-    - [`Automated_Feature_Engineering/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/Automated_Feature_Engineering/)
-    - [`Hyperparameter_Optimization/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/Hyperparameter_Optimization/)
-  - [`Bayesian_and_Probabilistic_ML/`](./01_AI_FUNDAMENTALS_AND_THEORY/Bayesian_and_Probabilistic_ML/)
-  - [`Causal_Inference/`](./01_AI_FUNDAMENTALS_AND_THEORY/Causal_Inference/)
-  - [`Classical_ML_Algorithms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/)
-    - [`Association_Rule_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Association_Rule_Learning/)
-    - [`Clustering_Algorithms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Clustering_Algorithms/)
-    - [`Decision_Trees/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Decision_Trees/)
-    - [`Dimensionality_Reduction/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Dimensionality_Reduction/)
-    - [`Discriminant_Analysis/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Discriminant_Analysis/)
-    - [`Ensemble_Methods/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Ensemble_Methods/)
-    - [`Gradient_Boosting/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Gradient_Boosting/)
-    - [`K_Nearest_Neighbors/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/K_Nearest_Neighbors/)
-    - [`Naive_Bayes/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Naive_Bayes/)
-    - [`Random_Forests/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Random_Forests/)
-    - [`Support_Vector_Machines/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Support_Vector_Machines/)
-  - [`Collections/`](./01_AI_FUNDAMENTALS_AND_THEORY/Collections/)
-  - [`Communities/`](./01_AI_FUNDAMENTALS_AND_THEORY/Communities/)
-  - [`Computer_Vision/`](./01_AI_FUNDAMENTALS_AND_THEORY/Computer_Vision/)
-    - [`Self_Supervised_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Computer_Vision/Self_Supervised_Learning/)
-  - [`Contrastive_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Contrastive_Learning/)
-  - [`Deep_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/)
-    - [`3d_vision/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/3d_vision/)
-    - [`Adaptive_Compute_Mixture_of_Depths/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/Adaptive_Compute_Mixture_of_Depths/)
-    - [`Loss_Functions/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/Loss_Functions/)
-    - [`Neural_Architecture_Search/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/Neural_Architecture_Search/)
-    - [`activation_functions/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/activation_functions/)
-    - [`architectures/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/architectures/)
-    - [`attention_mechanisms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/attention_mechanisms/)
-    - [`geometric_deep_learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/geometric_deep_learning/)
-    - [`multi_task_learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/multi_task_learning/)
-    - [`normalization_techniques/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/normalization_techniques/)
-    - [`regularization/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/regularization/)
-  - [`Domain_Adaptation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Domain_Adaptation/)
-  - [`Explainable_AI/`](./01_AI_FUNDAMENTALS_AND_THEORY/Explainable_AI/)
-  - [`Feature_Engineering/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/)
-    - [`Feature_Engineering_Techniques/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/Feature_Engineering_Techniques/)
-    - [`Feature_Scaling_and_Encoding/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/Feature_Scaling_and_Encoding/)
-    - [`Feature_Selection/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/Feature_Selection/)
-  - [`Federated_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Federated_Learning/)
-  - [`Few_Shot_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Few_Shot_Learning/)
-  - [`Generative_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/)
-    - [`GANs/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/GANs/)
-    - [`Variational_Autoencoders/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/Variational_Autoencoders/)
-    - [`diffusion/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/diffusion/)
-    - [`ebm_training_methods/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/ebm_training_methods/)
-    - [`flow_based/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/flow_based/)
-  - [`Graph_Neural_Networks/`](./01_AI_FUNDAMENTALS_AND_THEORY/Graph_Neural_Networks/)
-    - [`Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Graph_Neural_Networks/Models/)
-    - [`dynamic_graphs/`](./01_AI_FUNDAMENTALS_AND_THEORY/Graph_Neural_Networks/dynamic_graphs/)
-  - [`Information_Retrieval/`](./01_AI_FUNDAMENTALS_AND_THEORY/Information_Retrieval/)
-  - [`Information_Theory/`](./01_AI_FUNDAMENTALS_AND_THEORY/Information_Theory/)
-  - [`Knowledge_Graphs/`](./01_AI_FUNDAMENTALS_AND_THEORY/Knowledge_Graphs/)
-  - [`Long_Context_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Long_Context_Models/)
-  - [`Machine_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/)
-    - [`Continual_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/Continual_Learning/)
-    - [`training_strategies/`](./01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/training_strategies/)
-  - [`Mathematics_for_ML/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/)
-    - [`Calculus_and_Differentiation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Calculus_and_Differentiation/)
-    - [`Convex_Optimization/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Convex_Optimization/)
-    - [`Discrete_Math_and_Graph_Theory/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Discrete_Math_and_Graph_Theory/)
-    - [`Linear_Algebra/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Linear_Algebra/)
-    - [`Numerical_Methods/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Numerical_Methods/)
-    - [`Probability_Theory/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Probability_Theory/)
-    - [`Statistics_Fundamentals/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Statistics_Fundamentals/)
-  - [`Meta_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Meta_Learning/)
-  - [`Model_Evaluation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Evaluation/)
-    - [`Evaluation_Metrics/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Evaluation/Evaluation_Metrics/)
-    - [`Model_Selection_and_Validation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Evaluation/Model_Selection_and_Validation/)
-  - [`Model_Merging/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Merging/)
-  - [`Modern_Fine_Tuning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning/)
-  - [`Natural_Language_Processing/`](./01_AI_FUNDAMENTALS_AND_THEORY/Natural_Language_Processing/)
-    - [`Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Natural_Language_Processing/Models/)
-  - [`Neuro_Symbolic_AI/`](./01_AI_FUNDAMENTALS_AND_THEORY/Neuro_Symbolic_AI/)
-  - [`Online_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Online_Learning/)
-  - [`Optimal_Transport/`](./01_AI_FUNDAMENTALS_AND_THEORY/Optimal_Transport/)
-  - [`Optimization_Algorithms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Optimization_Algorithms/)
-  - [`Privacy_and_Security/`](./01_AI_FUNDAMENTALS_AND_THEORY/Privacy_and_Security/)
-    - [`differential_privacy/`](./01_AI_FUNDAMENTALS_AND_THEORY/Privacy_and_Security/differential_privacy/)
-    - [`robustness/`](./01_AI_FUNDAMENTALS_AND_THEORY/Privacy_and_Security/robustness/)
-  - [`Probabilistic_ML/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/)
-    - [`Gaussian_Processes/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Gaussian_Processes/)
-    - [`Hidden_Markov_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Hidden_Markov_Models/)
-    - [`MCMC_and_Sampling/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/MCMC_and_Sampling/)
-    - [`Mixture_Models_and_EM/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Mixture_Models_and_EM/)
-    - [`Probabilistic_Graphical_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Probabilistic_Graphical_Models/)
-    - [`Probabilistic_Programming/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Probabilistic_Programming/)
-    - [`Variational_Inference/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Variational_Inference/)
-  - [`Prompt_Engineering/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/)
-    - [`Academic_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Academic_Prompts/)
-    - [`Business_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Business_Prompts/)
-      - [`Legal_Tech/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Business_Prompts/Legal_Tech/)
-    - [`Coding_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Coding_Prompts/)
-    - [`Creative_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Creative_Prompts/)
-      - [`Game_Design/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Creative_Prompts/Game_Design/)
-    - [`Data_Science_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Data_Science_Prompts/)
-    - [`Education_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Education_Prompts/)
-    - [`Engineering_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Engineering_Prompts/)
-    - [`Evaluation_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Evaluation_Prompts/)
-    - [`Legal_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Legal_Prompts/)
-    - [`Medical_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Medical_Prompts/)
-    - [`Multilingual_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Multilingual_Prompts/)
-    - [`Scientific_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Scientific_Prompts/)
-    - [`Translation_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Translation_Prompts/)
-    - [`UX_UI_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/UX_UI_Prompts/)
-    - [`Universal_Techniques/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Universal_Techniques/)
-  - [`Quantum_Machine_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Quantum_Machine_Learning/)
-  - [`RAG_and_Retrieval/`](./01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval/)
-  - [`Recommender_Systems/`](./01_AI_FUNDAMENTALS_AND_THEORY/Recommender_Systems/)
-  - [`Reinforcement_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/)
-    - [`Reasoning_RL_RLVR_GRPO/`](./01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/Reasoning_RL_RLVR_GRPO/)
-  - [`Speculative_Decoding/`](./01_AI_FUNDAMENTALS_AND_THEORY/Speculative_Decoding/)
-  - [`State_Space_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/State_Space_Models/)
-  - [`Statistical_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/)
-    - [`Experimental_Design_and_AB_Testing/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Experimental_Design_and_AB_Testing/)
-    - [`Generalized_Linear_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Generalized_Linear_Models/)
-    - [`Hypothesis_Testing/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Hypothesis_Testing/)
-    - [`Linear_Regression/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Linear_Regression/)
-    - [`Logistic_Regression/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Logistic_Regression/)
-    - [`Regularization_Ridge_Lasso_ElasticNet/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Regularization_Ridge_Lasso_ElasticNet/)
-    - [`Resampling_and_Cross_Validation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Resampling_and_Cross_Validation/)
-    - [`Statistical_Time_Series/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Statistical_Time_Series/)
-    - [`Survival_Analysis/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Survival_Analysis/)
-  - [`Tabular_Deep_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Tabular_Deep_Learning/)
-  - [`Test_Time_Compute/`](./01_AI_FUNDAMENTALS_AND_THEORY/Test_Time_Compute/)
-  - [`Transfer_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Transfer_Learning/)
-  - [`Uncertainty_Quantification/`](./01_AI_FUNDAMENTALS_AND_THEORY/Uncertainty_Quantification/)
-  - [`Video_Understanding/`](./01_AI_FUNDAMENTALS_AND_THEORY/Video_Understanding/)
-  - [`Vision_Language_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Vision_Language_Models/)
-  - [`Vision_Transformers/`](./01_AI_FUNDAMENTALS_AND_THEORY/Vision_Transformers/)
-    - [`Variants/`](./01_AI_FUNDAMENTALS_AND_THEORY/Vision_Transformers/Variants/)
+- [`AI_Evaluation/`](./01_AI_FUNDAMENTALS_AND_THEORY/AI_Evaluation/) — 1 doc
+- [`AI_Safety_and_Alignment/`](./01_AI_FUNDAMENTALS_AND_THEORY/AI_Safety_and_Alignment/) — 1 doc
+- [`Active_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Active_Learning/) — 2 docs
+- [`Agentic_AI/`](./01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/) — 1 doc
+  - [`Agent_Security/`](./01_AI_FUNDAMENTALS_AND_THEORY/Agentic_AI/Agent_Security/) — 12 docs
+- [`Anomaly_and_OOD_Detection/`](./01_AI_FUNDAMENTALS_AND_THEORY/Anomaly_and_OOD_Detection/) — 1 doc
+- [`AutoML/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/) — 1 doc
+  - [`AutoML_Frameworks/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/AutoML_Frameworks/) — 1 doc
+  - [`Automated_Feature_Engineering/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/Automated_Feature_Engineering/) — 1 doc
+  - [`Hyperparameter_Optimization/`](./01_AI_FUNDAMENTALS_AND_THEORY/AutoML/Hyperparameter_Optimization/) — 1 doc
+- [`Bayesian_and_Probabilistic_ML/`](./01_AI_FUNDAMENTALS_AND_THEORY/Bayesian_and_Probabilistic_ML/) — 1 doc
+- [`Causal_Inference/`](./01_AI_FUNDAMENTALS_AND_THEORY/Causal_Inference/) — 1 doc
+- [`Classical_ML_Algorithms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/) — 1 doc
+  - [`Association_Rule_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Association_Rule_Learning/) — 1 doc
+  - [`Clustering_Algorithms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Clustering_Algorithms/) — 1 doc
+  - [`Decision_Trees/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Decision_Trees/) — 1 doc
+  - [`Dimensionality_Reduction/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Dimensionality_Reduction/) — 1 doc
+  - [`Discriminant_Analysis/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Discriminant_Analysis/) — 1 doc
+  - [`Ensemble_Methods/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Ensemble_Methods/) — 1 doc
+  - [`Gradient_Boosting/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Gradient_Boosting/) — 1 doc
+  - [`K_Nearest_Neighbors/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/K_Nearest_Neighbors/) — 1 doc
+  - [`Naive_Bayes/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Naive_Bayes/) — 1 doc
+  - [`Random_Forests/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Random_Forests/) — 1 doc
+  - [`Support_Vector_Machines/`](./01_AI_FUNDAMENTALS_AND_THEORY/Classical_ML_Algorithms/Support_Vector_Machines/) — 1 doc
+- [`Collections/`](./01_AI_FUNDAMENTALS_AND_THEORY/Collections/) — 8 docs
+- [`Communities/`](./01_AI_FUNDAMENTALS_AND_THEORY/Communities/) — 4 docs
+- [`Computer_Vision/`](./01_AI_FUNDAMENTALS_AND_THEORY/Computer_Vision/) — 1 doc
+  - [`Self_Supervised_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Computer_Vision/Self_Supervised_Learning/) — 2 docs
+- [`Contrastive_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Contrastive_Learning/) — 2 docs
+- [`Deep_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/) — 5 docs
+  - [`3d_vision/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/3d_vision/) — 2 docs
+  - [`Adaptive_Compute_Mixture_of_Depths/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/Adaptive_Compute_Mixture_of_Depths/) — 1 doc
+  - [`Loss_Functions/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/Loss_Functions/) — 2 docs
+  - [`Neural_Architecture_Search/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/Neural_Architecture_Search/) — 2 docs
+  - [`activation_functions/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/activation_functions/) — 2 docs
+  - [`architectures/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/architectures/) — 3 docs
+  - [`attention_mechanisms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/attention_mechanisms/) — 2 docs
+  - [`geometric_deep_learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/geometric_deep_learning/) — 2 docs
+  - [`multi_task_learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/multi_task_learning/) — 2 docs
+  - [`normalization_techniques/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/normalization_techniques/) — 2 docs
+  - [`regularization/`](./01_AI_FUNDAMENTALS_AND_THEORY/Deep_Learning/regularization/) — 2 docs
+- [`Domain_Adaptation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Domain_Adaptation/) — 2 docs
+- [`Explainable_AI/`](./01_AI_FUNDAMENTALS_AND_THEORY/Explainable_AI/) — 3 docs
+- [`Feature_Engineering/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/) — 1 doc
+  - [`Feature_Engineering_Techniques/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/Feature_Engineering_Techniques/) — 1 doc
+  - [`Feature_Scaling_and_Encoding/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/Feature_Scaling_and_Encoding/) — 1 doc
+  - [`Feature_Selection/`](./01_AI_FUNDAMENTALS_AND_THEORY/Feature_Engineering/Feature_Selection/) — 1 doc
+- [`Federated_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Federated_Learning/) — 3 docs
+- [`Few_Shot_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Few_Shot_Learning/) — 2 docs
+- [`Generative_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/) — 1 doc
+  - [`GANs/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/GANs/) — 2 docs
+  - [`Variational_Autoencoders/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/Variational_Autoencoders/) — 2 docs
+  - [`diffusion/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/diffusion/) — 2 docs
+  - [`ebm_training_methods/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/ebm_training_methods/) — 2 docs
+  - [`flow_based/`](./01_AI_FUNDAMENTALS_AND_THEORY/Generative_Models/flow_based/) — 2 docs
+- [`Graph_Neural_Networks/`](./01_AI_FUNDAMENTALS_AND_THEORY/Graph_Neural_Networks/) — 2 docs
+  - [`Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Graph_Neural_Networks/Models/) — 3 docs
+  - [`dynamic_graphs/`](./01_AI_FUNDAMENTALS_AND_THEORY/Graph_Neural_Networks/dynamic_graphs/) — 2 docs
+- [`Information_Retrieval/`](./01_AI_FUNDAMENTALS_AND_THEORY/Information_Retrieval/) — 1 doc
+- [`Information_Theory/`](./01_AI_FUNDAMENTALS_AND_THEORY/Information_Theory/) — 1 doc
+- [`Knowledge_Graphs/`](./01_AI_FUNDAMENTALS_AND_THEORY/Knowledge_Graphs/) — 1 doc
+- [`Long_Context_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Long_Context_Models/) — 3 docs
+- [`Machine_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/) — 1 doc
+  - [`Continual_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/Continual_Learning/) — 2 docs
+  - [`training_strategies/`](./01_AI_FUNDAMENTALS_AND_THEORY/Machine_Learning/training_strategies/) — 2 docs
+- [`Mathematics_for_ML/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/) — 1 doc
+  - [`Calculus_and_Differentiation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Calculus_and_Differentiation/) — 1 doc
+  - [`Convex_Optimization/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Convex_Optimization/) — 1 doc
+  - [`Discrete_Math_and_Graph_Theory/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Discrete_Math_and_Graph_Theory/) — 1 doc
+  - [`Linear_Algebra/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Linear_Algebra/) — 1 doc
+  - [`Numerical_Methods/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Numerical_Methods/) — 1 doc
+  - [`Probability_Theory/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Probability_Theory/) — 1 doc
+  - [`Statistics_Fundamentals/`](./01_AI_FUNDAMENTALS_AND_THEORY/Mathematics_for_ML/Statistics_Fundamentals/) — 1 doc
+- [`Meta_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Meta_Learning/) — 2 docs
+- [`Model_Evaluation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Evaluation/) — 1 doc
+  - [`Evaluation_Metrics/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Evaluation/Evaluation_Metrics/) — 1 doc
+  - [`Model_Selection_and_Validation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Evaluation/Model_Selection_and_Validation/) — 1 doc
+- [`Model_Merging/`](./01_AI_FUNDAMENTALS_AND_THEORY/Model_Merging/) — 1 doc
+- [`Modern_Fine_Tuning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning/) — 6 docs
+- [`Natural_Language_Processing/`](./01_AI_FUNDAMENTALS_AND_THEORY/Natural_Language_Processing/) — 3 docs
+  - [`Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Natural_Language_Processing/Models/) — 2 docs
+- [`Neuro_Symbolic_AI/`](./01_AI_FUNDAMENTALS_AND_THEORY/Neuro_Symbolic_AI/) — 1 doc
+- [`Online_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Online_Learning/) — 2 docs
+- [`Optimal_Transport/`](./01_AI_FUNDAMENTALS_AND_THEORY/Optimal_Transport/) — 1 doc
+- [`Optimization_Algorithms/`](./01_AI_FUNDAMENTALS_AND_THEORY/Optimization_Algorithms/) — 2 docs
+- [`Privacy_and_Security/`](./01_AI_FUNDAMENTALS_AND_THEORY/Privacy_and_Security/) — 4 docs
+  - [`differential_privacy/`](./01_AI_FUNDAMENTALS_AND_THEORY/Privacy_and_Security/differential_privacy/) — 2 docs
+  - [`robustness/`](./01_AI_FUNDAMENTALS_AND_THEORY/Privacy_and_Security/robustness/) — 2 docs
+- [`Probabilistic_ML/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/) — 1 doc
+  - [`Gaussian_Processes/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Gaussian_Processes/) — 1 doc
+  - [`Hidden_Markov_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Hidden_Markov_Models/) — 1 doc
+  - [`MCMC_and_Sampling/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/MCMC_and_Sampling/) — 1 doc
+  - [`Mixture_Models_and_EM/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Mixture_Models_and_EM/) — 1 doc
+  - [`Probabilistic_Graphical_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Probabilistic_Graphical_Models/) — 1 doc
+  - [`Probabilistic_Programming/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Probabilistic_Programming/) — 1 doc
+  - [`Variational_Inference/`](./01_AI_FUNDAMENTALS_AND_THEORY/Probabilistic_ML/Variational_Inference/) — 1 doc
+- [`Prompt_Engineering/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/) — 62 docs
+  - [`Academic_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Academic_Prompts/) — 5 docs
+  - [`Business_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Business_Prompts/) — 11 docs
+    - [`Legal_Tech/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Business_Prompts/Legal_Tech/) — 2 docs
+  - [`Coding_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Coding_Prompts/) — 7 docs
+  - [`Creative_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Creative_Prompts/) — 5 docs
+    - [`Game_Design/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Creative_Prompts/Game_Design/) — 2 docs
+  - [`Data_Science_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Data_Science_Prompts/) — 3 docs
+  - [`Education_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Education_Prompts/) — 3 docs
+  - [`Engineering_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Engineering_Prompts/) — 2 docs
+  - [`Evaluation_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Evaluation_Prompts/) — 3 docs
+  - [`Legal_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Legal_Prompts/) — 2 docs
+  - [`Medical_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Medical_Prompts/) — 9 docs
+  - [`Multilingual_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Multilingual_Prompts/) — 2 docs
+  - [`Scientific_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Scientific_Prompts/) — 2 docs
+  - [`Translation_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Translation_Prompts/) — 2 docs
+  - [`UX_UI_Prompts/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/UX_UI_Prompts/) — 2 docs
+  - [`Universal_Techniques/`](./01_AI_FUNDAMENTALS_AND_THEORY/Prompt_Engineering/Universal_Techniques/) — 25 docs
+- [`Quantum_Machine_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Quantum_Machine_Learning/) — 2 docs
+- [`RAG_and_Retrieval/`](./01_AI_FUNDAMENTALS_AND_THEORY/RAG_and_Retrieval/) — 1 doc
+- [`Recommender_Systems/`](./01_AI_FUNDAMENTALS_AND_THEORY/Recommender_Systems/) — 1 doc
+- [`Reinforcement_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/) — 2 docs
+  - [`Reasoning_RL_RLVR_GRPO/`](./01_AI_FUNDAMENTALS_AND_THEORY/Reinforcement_Learning/Reasoning_RL_RLVR_GRPO/) — 1 doc
+- [`Speculative_Decoding/`](./01_AI_FUNDAMENTALS_AND_THEORY/Speculative_Decoding/) — 1 doc
+- [`State_Space_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/State_Space_Models/) — 1 doc
+- [`Statistical_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/) — 1 doc
+  - [`Experimental_Design_and_AB_Testing/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Experimental_Design_and_AB_Testing/) — 1 doc
+  - [`Generalized_Linear_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Generalized_Linear_Models/) — 1 doc
+  - [`Hypothesis_Testing/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Hypothesis_Testing/) — 1 doc
+  - [`Linear_Regression/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Linear_Regression/) — 1 doc
+  - [`Logistic_Regression/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Logistic_Regression/) — 1 doc
+  - [`Regularization_Ridge_Lasso_ElasticNet/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Regularization_Ridge_Lasso_ElasticNet/) — 1 doc
+  - [`Resampling_and_Cross_Validation/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Resampling_and_Cross_Validation/) — 1 doc
+  - [`Statistical_Time_Series/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Statistical_Time_Series/) — 1 doc
+  - [`Survival_Analysis/`](./01_AI_FUNDAMENTALS_AND_THEORY/Statistical_Learning/Survival_Analysis/) — 1 doc
+- [`Tabular_Deep_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Tabular_Deep_Learning/) — 1 doc
+- [`Test_Time_Compute/`](./01_AI_FUNDAMENTALS_AND_THEORY/Test_Time_Compute/) — 1 doc
+- [`Transfer_Learning/`](./01_AI_FUNDAMENTALS_AND_THEORY/Transfer_Learning/) — 3 docs
+- [`Uncertainty_Quantification/`](./01_AI_FUNDAMENTALS_AND_THEORY/Uncertainty_Quantification/) — 1 doc
+- [`Video_Understanding/`](./01_AI_FUNDAMENTALS_AND_THEORY/Video_Understanding/) — 2 docs
+- [`Vision_Language_Models/`](./01_AI_FUNDAMENTALS_AND_THEORY/Vision_Language_Models/) — 3 docs
+- [`Vision_Transformers/`](./01_AI_FUNDAMENTALS_AND_THEORY/Vision_Transformers/) — 1 doc
+  - [`Variants/`](./01_AI_FUNDAMENTALS_AND_THEORY/Vision_Transformers/Variants/) — 2 docs
 
 ## [02_LLM_AND_AI_MODELS](./02_LLM_AND_AI_MODELS/)
 
-  - [`Audio_Models/`](./02_LLM_AND_AI_MODELS/Audio_Models/)
-    - [`Music_Generation/`](./02_LLM_AND_AI_MODELS/Audio_Models/Music_Generation/)
-    - [`Speech_LLMs/`](./02_LLM_AND_AI_MODELS/Audio_Models/Speech_LLMs/)
-  - [`Code_LLMs/`](./02_LLM_AND_AI_MODELS/Code_LLMs/)
-  - [`Diffusion_Models/`](./02_LLM_AND_AI_MODELS/Diffusion_Models/)
-  - [`Embedding_Models/`](./02_LLM_AND_AI_MODELS/Embedding_Models/)
-  - [`Frameworks/`](./02_LLM_AND_AI_MODELS/Frameworks/)
-  - [`Guides_and_Tutorials/`](./02_LLM_AND_AI_MODELS/Guides_and_Tutorials/)
-  - [`MoE_Models/`](./02_LLM_AND_AI_MODELS/MoE_Models/)
-  - [`Models/`](./02_LLM_AND_AI_MODELS/Models/)
-  - [`Multimodal_Models/`](./02_LLM_AND_AI_MODELS/Multimodal_Models/)
-  - [`OCR_Document_AI/`](./02_LLM_AND_AI_MODELS/OCR_Document_AI/)
-  - [`Papers/`](./02_LLM_AND_AI_MODELS/Papers/)
-  - [`Reasoning_Models/`](./02_LLM_AND_AI_MODELS/Reasoning_Models/)
-  - [`Reranker_Models/`](./02_LLM_AND_AI_MODELS/Reranker_Models/)
-  - [`Research_Labs/`](./02_LLM_AND_AI_MODELS/Research_Labs/)
-  - [`Scientific_Models/`](./02_LLM_AND_AI_MODELS/Scientific_Models/)
-    - [`Protein_Structure/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Protein_Structure/)
-    - [`Quantum_ML/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Quantum_ML/)
-    - [`Reservoir_Computing/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Reservoir_Computing/)
-    - [`Weather_Climate_Models/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Weather_Climate_Models/)
-  - [`Small_Language_Models/`](./02_LLM_AND_AI_MODELS/Small_Language_Models/)
-  - [`Text_LLMs/`](./02_LLM_AND_AI_MODELS/Text_LLMs/)
-    - [`Efficient_Transformers/`](./02_LLM_AND_AI_MODELS/Text_LLMs/Efficient_Transformers/)
-    - [`Frontier_Closed_Models/`](./02_LLM_AND_AI_MODELS/Text_LLMs/Frontier_Closed_Models/)
-    - [`Open_Source_LLMs/`](./02_LLM_AND_AI_MODELS/Text_LLMs/Open_Source_LLMs/)
-  - [`Time_Series_Models/`](./02_LLM_AND_AI_MODELS/Time_Series_Models/)
-    - [`01_Foundation_Models/`](./02_LLM_AND_AI_MODELS/Time_Series_Models/01_Foundation_Models/)
-  - [`Video_Models/`](./02_LLM_AND_AI_MODELS/Video_Models/)
-    - [`Video_Generation/`](./02_LLM_AND_AI_MODELS/Video_Models/Video_Generation/)
-  - [`Vision_Foundation_Models/`](./02_LLM_AND_AI_MODELS/Vision_Foundation_Models/)
-  - [`Vision_Models/`](./02_LLM_AND_AI_MODELS/Vision_Models/)
-  - [`World_Models/`](./02_LLM_AND_AI_MODELS/World_Models/)
+- [`Audio_Models/`](./02_LLM_AND_AI_MODELS/Audio_Models/) — 2 docs
+  - [`Music_Generation/`](./02_LLM_AND_AI_MODELS/Audio_Models/Music_Generation/) — 1 doc
+  - [`Speech_LLMs/`](./02_LLM_AND_AI_MODELS/Audio_Models/Speech_LLMs/) — 1 doc
+- [`Code_LLMs/`](./02_LLM_AND_AI_MODELS/Code_LLMs/) — 1 doc
+- [`Diffusion_Models/`](./02_LLM_AND_AI_MODELS/Diffusion_Models/) — 1 doc
+- [`Embedding_Models/`](./02_LLM_AND_AI_MODELS/Embedding_Models/) — 1 doc
+- [`Frameworks/`](./02_LLM_AND_AI_MODELS/Frameworks/) — 5 docs
+- [`Guides_and_Tutorials/`](./02_LLM_AND_AI_MODELS/Guides_and_Tutorials/) — 23 docs
+- [`MoE_Models/`](./02_LLM_AND_AI_MODELS/MoE_Models/) — 1 doc
+- [`Models/`](./02_LLM_AND_AI_MODELS/Models/) — 3 docs
+- [`Multimodal_Models/`](./02_LLM_AND_AI_MODELS/Multimodal_Models/) — 3 docs
+- [`OCR_Document_AI/`](./02_LLM_AND_AI_MODELS/OCR_Document_AI/) — 1 doc
+- [`Papers/`](./02_LLM_AND_AI_MODELS/Papers/) — 5 docs
+- [`Reasoning_Models/`](./02_LLM_AND_AI_MODELS/Reasoning_Models/) — 1 doc
+- [`Reranker_Models/`](./02_LLM_AND_AI_MODELS/Reranker_Models/) — 1 doc
+- [`Research_Labs/`](./02_LLM_AND_AI_MODELS/Research_Labs/) — 3 docs
+- [`Scientific_Models/`](./02_LLM_AND_AI_MODELS/Scientific_Models/) — 1 doc
+  - [`Protein_Structure/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Protein_Structure/) — 1 doc
+  - [`Quantum_ML/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Quantum_ML/) — 2 docs
+  - [`Reservoir_Computing/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Reservoir_Computing/) — 2 docs
+  - [`Weather_Climate_Models/`](./02_LLM_AND_AI_MODELS/Scientific_Models/Weather_Climate_Models/) — 1 doc
+- [`Small_Language_Models/`](./02_LLM_AND_AI_MODELS/Small_Language_Models/) — 1 doc
+- [`Text_LLMs/`](./02_LLM_AND_AI_MODELS/Text_LLMs/) — 1 doc
+  - [`Efficient_Transformers/`](./02_LLM_AND_AI_MODELS/Text_LLMs/Efficient_Transformers/) — 2 docs
+  - [`Frontier_Closed_Models/`](./02_LLM_AND_AI_MODELS/Text_LLMs/Frontier_Closed_Models/) — 7 docs
+  - [`Open_Source_LLMs/`](./02_LLM_AND_AI_MODELS/Text_LLMs/Open_Source_LLMs/) — 3 docs
+- [`Time_Series_Models/`](./02_LLM_AND_AI_MODELS/Time_Series_Models/) — 2 docs
+  - [`01_Foundation_Models/`](./02_LLM_AND_AI_MODELS/Time_Series_Models/01_Foundation_Models/) — 1 doc
+- [`Video_Models/`](./02_LLM_AND_AI_MODELS/Video_Models/) — 1 doc
+  - [`Video_Generation/`](./02_LLM_AND_AI_MODELS/Video_Models/Video_Generation/) — 3 docs
+- [`Vision_Foundation_Models/`](./02_LLM_AND_AI_MODELS/Vision_Foundation_Models/) — 1 doc
+- [`Vision_Models/`](./02_LLM_AND_AI_MODELS/Vision_Models/) — 3 docs
+- [`World_Models/`](./02_LLM_AND_AI_MODELS/World_Models/) — 1 doc
 
 ## [03_DATASETS_TOOLS_AND_RESOURCES](./03_DATASETS_TOOLS_AND_RESOURCES/)
 
-  - [`Cloud_Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/)
-    - [`AWS/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/AWS/)
-    - [`Notebook_and_Compute_Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Notebook_and_Compute_Platforms/)
-    - [`Other_Clouds/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Other_Clouds/)
-      - [`AI-ML/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Other_Clouds/AI-ML/)
-  - [`Global_AI_Ecosystem/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/)
-  - [`Data_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/)
-    - [`Data_Analysis/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/)
-      - [`Evaluation_Frameworks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Evaluation_Frameworks/)
-      - [`Public_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Public_Datasets/)
-      - [`Visualization_and_BI_Tools/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Visualization_and_BI_Tools/)
-    - [`Data_Annotation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Annotation/)
-    - [`Data_Augmentation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Augmentation/)
-      - [`computer_vision/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Augmentation/computer_vision/)
-    - [`Data_Catalog/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Catalog/)
-    - [`Data_Labeling/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Labeling/)
-    - [`Data_Management/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Management/)
-      - [`AI_ML_Data/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Management/AI_ML_Data/)
-    - [`Data_Pipelines/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Pipelines/)
-      - [`Orchestration/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Pipelines/Orchestration/)
-    - [`Data_Preprocessing/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Preprocessing/)
-      - [`Augmentation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Preprocessing/Augmentation/)
-    - [`Data_Quality/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Quality/)
-    - [`Data_Science/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Science/)
-      - [`Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Science/Feature_Engineering/)
-    - [`Data_Sources/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Sources/)
-    - [`Data_Streaming/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Streaming/)
-      - [`platform/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Streaming/platform/)
-    - [`Data_Transformation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Transformation/)
-      - [`SQL_Transformation_dbt/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Transformation/SQL_Transformation_dbt/)
-    - [`Data_Versioning/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Versioning/)
-    - [`ETL/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/ETL/)
-      - [`ML/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/ETL/ML/)
-    - [`Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/)
-      - [`Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Feature_Engineering/)
-      - [`Features_Histologicas/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Features_Histologicas/)
-      - [`Medical_Concept_Embeddings/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Medical_Concept_Embeddings/)
-      - [`Phenotypic_Features_Extraction/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Phenotypic_Features_Extraction/)
-      - [`Radiomics_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Radiomics_Features/)
-      - [`Topographic_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Topographic_Features/)
-      - [`Vegetation_Indices/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Vegetation_Indices/)
-    - [`Feature_Stores/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Stores/)
-    - [`Web_Scraping/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Web_Scraping/)
-  - [`Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/)
-    - [`Agriculture_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Agriculture_Datasets/)
-    - [`Audio_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Audio_Datasets/)
-    - [`Benchmarks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Benchmarks/)
-    - [`Bioinformatics_and_Genomics/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Bioinformatics_and_Genomics/)
-    - [`Biomass_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Biomass_Datasets/)
-    - [`Biomass_Datasets_Agriculture_Datasets_Spatial_Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Biomass_Datasets_Agriculture_Datasets_Spatial_Feature_Engineering/)
-    - [`Cancer_Genomics_Multi-Omics/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Cancer_Genomics_Multi-Omics/)
-    - [`Climate_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_Datasets/)
-    - [`Climate_and_Geospatial/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_and_Geospatial/)
-      - [`Earth_Observation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_and_Geospatial/Earth_Observation/)
-      - [`Oceanography/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_and_Geospatial/Oceanography/)
-    - [`Computer_Vision_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Computer_Vision_Datasets/)
-      - [`3D_Vision/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Computer_Vision_Datasets/3D_Vision/)
-    - [`Famous_Benchmarks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Famous_Benchmarks/)
-    - [`Finance_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Finance_Datasets/)
-      - [`Cross_Domain/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Finance_Datasets/Cross_Domain/)
-    - [`Gaming_and_RL/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Gaming_and_RL/)
-    - [`Machine_Learning/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Machine_Learning/)
-    - [`Medical_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/)
-      - [`Histopathology/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/Histopathology/)
-      - [`Radiologia/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/Radiologia/)
-      - [`Radiomics_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/Radiomics_Features/)
-    - [`Medical_Question_Answering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Question_Answering/)
-    - [`Multimodal_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/)
-      - [`Audio_Multimodal/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/Audio_Multimodal/)
-      - [`Autonomous_Driving/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/Autonomous_Driving/)
-      - [`VQA/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/VQA/)
-      - [`Vision_Language/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/Vision_Language/)
-    - [`NLP_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/NLP_Datasets/)
-    - [`Open_Data_Portals/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Open_Data_Portals/)
-      - [`Cloud_Hosted/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Open_Data_Portals/Cloud_Hosted/)
-      - [`Government/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Open_Data_Portals/Government/)
-    - [`Pharmacological_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Pharmacological_Features/)
-    - [`Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Platforms/)
-    - [`Radiology_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Radiology_Datasets/)
-    - [`Robotics_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Robotics_Datasets/)
-    - [`Social_Science_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Social_Science_Datasets/)
-      - [`AI_Governance/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Social_Science_Datasets/AI_Governance/)
-      - [`Cross_Domain/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Social_Science_Datasets/Cross_Domain/)
-    - [`Structural_Biology_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Structural_Biology_Datasets/)
-    - [`Synthetic_Data/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Synthetic_Data/)
-    - [`Time_Series_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Time_Series_Datasets/)
-    - [`Vegetation_Indices/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Vegetation_Indices/)
-    - [`Video_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/)
-      - [`Action_Recognition/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/Action_Recognition/)
-      - [`Audiovisual/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/Audiovisual/)
-    - [`Web_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Web_Datasets/)
-  - [`HuggingFace_Hub/`](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/)
-  - [`RL_Simulators/`](./03_DATASETS_TOOLS_AND_RESOURCES/RL_Simulators/)
-  - [`Research_Platforms_and_Preprints/`](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/)
-  - [`Resource_Catalogs/`](./03_DATASETS_TOOLS_AND_RESOURCES/Resource_Catalogs/)
-  - [`Storage_and_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/)
-    - [`Data_Lakes/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Data_Lakes/)
-    - [`Data_Warehouses/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Data_Warehouses/)
-    - [`Distributed_File_Systems/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Distributed_File_Systems/)
-    - [`Document_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Document_Databases/)
-    - [`General_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/General_Databases/)
-      - [`Graph/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/General_Databases/Graph/)
-      - [`key-value-stores/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/General_Databases/key-value-stores/)
-    - [`In_Memory_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/In_Memory_Databases/)
-    - [`Storage_Infrastructure/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Storage_Infrastructure/)
-      - [`Object/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Storage_Infrastructure/Object/)
-    - [`Time_Series_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Time_Series_Databases/)
-    - [`Vector_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Vector_Databases/)
-      - [`Embedding_Infrastructure/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Vector_Databases/Embedding_Infrastructure/)
+- [`Cloud_Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/) — 1 doc
+  - [`AWS/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/AWS/) — 2 docs
+  - [`Notebook_and_Compute_Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Notebook_and_Compute_Platforms/) — 1 doc
+  - [`Other_Clouds/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Other_Clouds/) — 2 docs
+    - [`AI-ML/`](./03_DATASETS_TOOLS_AND_RESOURCES/Cloud_Platforms/Other_Clouds/AI-ML/) — 2 docs
+- [`Data_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/) — 17 docs
+  - [`Data_Analysis/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/) — 1 doc
+    - [`Evaluation_Frameworks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Evaluation_Frameworks/) — 1 doc
+    - [`Public_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Public_Datasets/) — 2 docs
+    - [`Visualization_and_BI_Tools/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Analysis/Visualization_and_BI_Tools/) — 1 doc
+  - [`Data_Annotation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Annotation/) — 2 docs
+  - [`Data_Augmentation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Augmentation/) — 1 doc
+    - [`computer_vision/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Augmentation/computer_vision/) — 2 docs
+  - [`Data_Catalog/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Catalog/) — 2 docs
+  - [`Data_Labeling/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Labeling/) — 2 docs
+  - [`Data_Management/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Management/) — 1 doc
+    - [`AI_ML_Data/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Management/AI_ML_Data/) — 2 docs
+  - [`Data_Pipelines/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Pipelines/) — 2 docs
+    - [`Orchestration/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Pipelines/Orchestration/) — 1 doc
+  - [`Data_Preprocessing/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Preprocessing/) — 1 doc
+    - [`Augmentation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Preprocessing/Augmentation/) — 2 docs
+  - [`Data_Quality/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Quality/) — 2 docs
+  - [`Data_Science/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Science/) — 1 doc
+    - [`Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Science/Feature_Engineering/) — 2 docs
+  - [`Data_Sources/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Sources/) — 2 docs
+  - [`Data_Streaming/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Streaming/) — 1 doc
+    - [`platform/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Streaming/platform/) — 2 docs
+  - [`Data_Transformation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Transformation/) — 1 doc
+    - [`SQL_Transformation_dbt/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Transformation/SQL_Transformation_dbt/) — 1 doc
+  - [`Data_Versioning/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Data_Versioning/) — 2 docs
+  - [`ETL/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/ETL/) — 1 doc
+    - [`ML/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/ETL/ML/) — 2 docs
+  - [`Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/) — 1 doc
+    - [`Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Feature_Engineering/) — 2 docs
+    - [`Features_Histologicas/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Features_Histologicas/) — 2 docs
+    - [`Medical_Concept_Embeddings/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Medical_Concept_Embeddings/) — 2 docs
+    - [`Phenotypic_Features_Extraction/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Phenotypic_Features_Extraction/) — 2 docs
+    - [`Radiomics_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Radiomics_Features/) — 3 docs
+    - [`Topographic_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Topographic_Features/) — 2 docs
+    - [`Vegetation_Indices/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Engineering/Vegetation_Indices/) — 3 docs
+  - [`Feature_Stores/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Feature_Stores/) — 2 docs
+  - [`Web_Scraping/`](./03_DATASETS_TOOLS_AND_RESOURCES/Data_Engineering/Web_Scraping/) — 2 docs
+- [`Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/) — 16 docs
+  - [`Agriculture_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Agriculture_Datasets/) — 17 docs
+  - [`Audio_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Audio_Datasets/) — 10 docs
+  - [`Benchmarks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Benchmarks/) — 2 docs
+  - [`Bioinformatics_and_Genomics/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Bioinformatics_and_Genomics/) — 2 docs
+  - [`Biomass_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Biomass_Datasets/) — 2 docs
+  - [`Biomass_Datasets_Agriculture_Datasets_Spatial_Feature_Engineering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Biomass_Datasets_Agriculture_Datasets_Spatial_Feature_Engineering/) — 2 docs
+  - [`Cancer_Genomics_Multi-Omics/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Cancer_Genomics_Multi-Omics/) — 2 docs
+  - [`Climate_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_Datasets/) — 2 docs
+  - [`Climate_and_Geospatial/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_and_Geospatial/) — 9 docs
+    - [`Earth_Observation/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_and_Geospatial/Earth_Observation/) — 2 docs
+    - [`Oceanography/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Climate_and_Geospatial/Oceanography/) — 2 docs
+  - [`Computer_Vision_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Computer_Vision_Datasets/) — 11 docs
+    - [`3D_Vision/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Computer_Vision_Datasets/3D_Vision/) — 2 docs
+  - [`Famous_Benchmarks/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Famous_Benchmarks/) — 4 docs
+  - [`Finance_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Finance_Datasets/) — 9 docs
+    - [`Cross_Domain/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Finance_Datasets/Cross_Domain/) — 2 docs
+  - [`Gaming_and_RL/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Gaming_and_RL/) — 8 docs
+  - [`Machine_Learning/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Machine_Learning/) — 2 docs
+  - [`Medical_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/) — 12 docs
+    - [`Histopathology/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/Histopathology/) — 2 docs
+    - [`Radiologia/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/Radiologia/) — 2 docs
+    - [`Radiomics_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Datasets/Radiomics_Features/) — 2 docs
+  - [`Medical_Question_Answering/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Medical_Question_Answering/) — 2 docs
+  - [`Multimodal_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/) — 9 docs
+    - [`Audio_Multimodal/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/Audio_Multimodal/) — 2 docs
+    - [`Autonomous_Driving/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/Autonomous_Driving/) — 2 docs
+    - [`VQA/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/VQA/) — 2 docs
+    - [`Vision_Language/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Multimodal_Datasets/Vision_Language/) — 2 docs
+  - [`NLP_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/NLP_Datasets/) — 10 docs
+  - [`Open_Data_Portals/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Open_Data_Portals/) — 2 docs
+    - [`Cloud_Hosted/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Open_Data_Portals/Cloud_Hosted/) — 2 docs
+    - [`Government/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Open_Data_Portals/Government/) — 2 docs
+  - [`Pharmacological_Features/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Pharmacological_Features/) — 2 docs
+  - [`Platforms/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Platforms/) — 1 doc
+  - [`Radiology_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Radiology_Datasets/) — 2 docs
+  - [`Robotics_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Robotics_Datasets/) — 10 docs
+  - [`Social_Science_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Social_Science_Datasets/) — 11 docs
+    - [`AI_Governance/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Social_Science_Datasets/AI_Governance/) — 2 docs
+    - [`Cross_Domain/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Social_Science_Datasets/Cross_Domain/) — 2 docs
+  - [`Structural_Biology_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Structural_Biology_Datasets/) — 2 docs
+  - [`Synthetic_Data/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Synthetic_Data/) — 2 docs
+  - [`Time_Series_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Time_Series_Datasets/) — 2 docs
+  - [`Vegetation_Indices/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Vegetation_Indices/) — 3 docs
+  - [`Video_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/) — 7 docs
+    - [`Action_Recognition/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/Action_Recognition/) — 2 docs
+    - [`Audiovisual/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Video_Datasets/Audiovisual/) — 3 docs
+  - [`Web_Datasets/`](./03_DATASETS_TOOLS_AND_RESOURCES/Datasets/Web_Datasets/) — 2 docs
+- [`Global_AI_Ecosystem/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/) — 16 docs
+  - [`Country_AI_Policy_Sources/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/) — 1 doc
+    - [`Africa/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/Africa/) — 1 doc
+    - [`Americas/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/Americas/) — 1 doc
+    - [`Asia/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/Asia/) — 1 doc
+    - [`Europe/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/Europe/) — 1 doc
+    - [`Oceania/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/Oceania/) — 1 doc
+    - [`Supranational_and_Global_Indexes/`](./03_DATASETS_TOOLS_AND_RESOURCES/Global_AI_Ecosystem/Country_AI_Policy_Sources/Supranational_and_Global_Indexes/) — 1 doc
+- [`HuggingFace_Hub/`](./03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/) — 6 docs
+- [`RL_Simulators/`](./03_DATASETS_TOOLS_AND_RESOURCES/RL_Simulators/) — 2 docs
+- [`Research_Platforms_and_Preprints/`](./03_DATASETS_TOOLS_AND_RESOURCES/Research_Platforms_and_Preprints/) — 3 docs
+- [`Resource_Catalogs/`](./03_DATASETS_TOOLS_AND_RESOURCES/Resource_Catalogs/) — 7 docs
+- [`Storage_and_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/) — 1 doc
+  - [`Data_Lakes/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Data_Lakes/) — 2 docs
+  - [`Data_Warehouses/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Data_Warehouses/) — 2 docs
+  - [`Distributed_File_Systems/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Distributed_File_Systems/) — 2 docs
+  - [`Document_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Document_Databases/) — 2 docs
+  - [`General_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/General_Databases/) — 2 docs
+    - [`Graph/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/General_Databases/Graph/) — 2 docs
+    - [`key-value-stores/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/General_Databases/key-value-stores/) — 2 docs
+  - [`In_Memory_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/In_Memory_Databases/) — 2 docs
+  - [`Storage_Infrastructure/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Storage_Infrastructure/) — 1 doc
+    - [`Object/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Storage_Infrastructure/Object/) — 2 docs
+  - [`Time_Series_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Time_Series_Databases/) — 2 docs
+  - [`Vector_Databases/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Vector_Databases/) — 2 docs
+    - [`Embedding_Infrastructure/`](./03_DATASETS_TOOLS_AND_RESOURCES/Storage_and_Databases/Vector_Databases/Embedding_Infrastructure/) — 1 doc
 
 ## [04_MLOPS_AND_PRODUCTION_AI](./04_MLOPS_AND_PRODUCTION_AI/)
 
-  - [`AB_Testing_and_Canary/`](./04_MLOPS_AND_PRODUCTION_AI/AB_Testing_and_Canary/)
-    - [`AB_Testing/`](./04_MLOPS_AND_PRODUCTION_AI/AB_Testing_and_Canary/AB_Testing/)
-    - [`Canary_Deployment/`](./04_MLOPS_AND_PRODUCTION_AI/AB_Testing_and_Canary/Canary_Deployment/)
-  - [`AI_Agents/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Agents/)
-    - [`01_COMMERCIAL_AGENTS/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Agents/01_COMMERCIAL_AGENTS/)
-    - [`02_OPEN_SOURCE_AGENTS/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Agents/02_OPEN_SOURCE_AGENTS/)
-  - [`AI_Observability/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Observability/)
-  - [`API_Integration_Tools/`](./04_MLOPS_AND_PRODUCTION_AI/API_Integration_Tools/)
-  - [`CI_CD_for_ML/`](./04_MLOPS_AND_PRODUCTION_AI/CI_CD_for_ML/)
-  - [`Cloud_Platforms/`](./04_MLOPS_AND_PRODUCTION_AI/Cloud_Platforms/)
-    - [`Azure_Microsoft/`](./04_MLOPS_AND_PRODUCTION_AI/Cloud_Platforms/Azure_Microsoft/)
-      - [`deepspeed/`](./04_MLOPS_AND_PRODUCTION_AI/Cloud_Platforms/Azure_Microsoft/deepspeed/)
-  - [`Cost_Optimization_and_FinOps/`](./04_MLOPS_AND_PRODUCTION_AI/Cost_Optimization_and_FinOps/)
-  - [`Deployment/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/)
-    - [`Kubernetes/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/Kubernetes/)
-      - [`BlueGreen/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/Kubernetes/BlueGreen/)
-    - [`ONNX/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/ONNX/)
-    - [`model_serving/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/model_serving/)
-  - [`Distributed_Training/`](./04_MLOPS_AND_PRODUCTION_AI/Distributed_Training/)
-  - [`Drift_Monitoring/`](./04_MLOPS_AND_PRODUCTION_AI/Drift_Monitoring/)
-  - [`Edge_and_On_Device_Deployment/`](./04_MLOPS_AND_PRODUCTION_AI/Edge_and_On_Device_Deployment/)
-  - [`GPU_Infrastructure_and_Scheduling/`](./04_MLOPS_AND_PRODUCTION_AI/GPU_Infrastructure_and_Scheduling/)
-  - [`Guardrails_and_Safety/`](./04_MLOPS_AND_PRODUCTION_AI/Guardrails_and_Safety/)
-  - [`Inference_Optimization/`](./04_MLOPS_AND_PRODUCTION_AI/Inference_Optimization/)
-  - [`LLMOps_and_Prompt_Management/`](./04_MLOPS_AND_PRODUCTION_AI/LLMOps_and_Prompt_Management/)
-  - [`LLM_Gateway_and_Routing/`](./04_MLOPS_AND_PRODUCTION_AI/LLM_Gateway_and_Routing/)
-  - [`LLM_Inference/`](./04_MLOPS_AND_PRODUCTION_AI/LLM_Inference/)
-  - [`MLOps_Platforms/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/)
-    - [`AutoML/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/AutoML/)
-    - [`Experiment_Tracking/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/Experiment_Tracking/)
-    - [`Infrastructure/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/Infrastructure/)
-    - [`feature_store/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/feature_store/)
-      - [`Feature_Pipelines/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/feature_store/Feature_Pipelines/)
-    - [`observability/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/observability/)
-    - [`platform/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/platform/)
-  - [`Model_Optimization/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Optimization/)
-    - [`pruning_tools/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Optimization/pruning_tools/)
-  - [`Model_Registry_Solutions/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Registry_Solutions/)
-  - [`Model_Serving/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Serving/)
-  - [`Workflow_Orchestration/`](./04_MLOPS_AND_PRODUCTION_AI/Workflow_Orchestration/)
+- [`AB_Testing_and_Canary/`](./04_MLOPS_AND_PRODUCTION_AI/AB_Testing_and_Canary/) — 1 doc
+  - [`AB_Testing/`](./04_MLOPS_AND_PRODUCTION_AI/AB_Testing_and_Canary/AB_Testing/) — 2 docs
+  - [`Canary_Deployment/`](./04_MLOPS_AND_PRODUCTION_AI/AB_Testing_and_Canary/Canary_Deployment/) — 2 docs
+- [`AI_Agents/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Agents/) — 2 docs
+  - [`01_COMMERCIAL_AGENTS/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Agents/01_COMMERCIAL_AGENTS/) — 13 docs
+  - [`02_OPEN_SOURCE_AGENTS/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Agents/02_OPEN_SOURCE_AGENTS/) — 13 docs
+- [`AI_Observability/`](./04_MLOPS_AND_PRODUCTION_AI/AI_Observability/) — 4 docs
+- [`API_Integration_Tools/`](./04_MLOPS_AND_PRODUCTION_AI/API_Integration_Tools/) — 2 docs
+- [`CI_CD_for_ML/`](./04_MLOPS_AND_PRODUCTION_AI/CI_CD_for_ML/) — 1 doc
+- [`Cloud_Platforms/`](./04_MLOPS_AND_PRODUCTION_AI/Cloud_Platforms/) — 1 doc
+  - [`Azure_Microsoft/`](./04_MLOPS_AND_PRODUCTION_AI/Cloud_Platforms/Azure_Microsoft/) — 1 doc
+    - [`deepspeed/`](./04_MLOPS_AND_PRODUCTION_AI/Cloud_Platforms/Azure_Microsoft/deepspeed/) — 2 docs
+- [`Cost_Optimization_and_FinOps/`](./04_MLOPS_AND_PRODUCTION_AI/Cost_Optimization_and_FinOps/) — 1 doc
+- [`Deployment/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/) — 1 doc
+  - [`Kubernetes/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/Kubernetes/) — 1 doc
+    - [`BlueGreen/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/Kubernetes/BlueGreen/) — 2 docs
+  - [`ONNX/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/ONNX/) — 2 docs
+  - [`model_serving/`](./04_MLOPS_AND_PRODUCTION_AI/Deployment/model_serving/) — 2 docs
+- [`Distributed_Training/`](./04_MLOPS_AND_PRODUCTION_AI/Distributed_Training/) — 1 doc
+- [`Drift_Monitoring/`](./04_MLOPS_AND_PRODUCTION_AI/Drift_Monitoring/) — 1 doc
+- [`Edge_and_On_Device_Deployment/`](./04_MLOPS_AND_PRODUCTION_AI/Edge_and_On_Device_Deployment/) — 1 doc
+- [`GPU_Infrastructure_and_Scheduling/`](./04_MLOPS_AND_PRODUCTION_AI/GPU_Infrastructure_and_Scheduling/) — 1 doc
+- [`Guardrails_and_Safety/`](./04_MLOPS_AND_PRODUCTION_AI/Guardrails_and_Safety/) — 1 doc
+- [`Inference_Optimization/`](./04_MLOPS_AND_PRODUCTION_AI/Inference_Optimization/) — 4 docs
+- [`LLMOps_and_Prompt_Management/`](./04_MLOPS_AND_PRODUCTION_AI/LLMOps_and_Prompt_Management/) — 1 doc
+- [`LLM_Gateway_and_Routing/`](./04_MLOPS_AND_PRODUCTION_AI/LLM_Gateway_and_Routing/) — 1 doc
+- [`LLM_Inference/`](./04_MLOPS_AND_PRODUCTION_AI/LLM_Inference/) — 1 doc
+- [`MLOps_Platforms/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/) — 2 docs
+  - [`AutoML/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/AutoML/) — 2 docs
+  - [`Experiment_Tracking/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/Experiment_Tracking/) — 2 docs
+  - [`Infrastructure/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/Infrastructure/) — 2 docs
+  - [`feature_store/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/feature_store/) — 2 docs
+    - [`Feature_Pipelines/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/feature_store/Feature_Pipelines/) — 1 doc
+  - [`observability/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/observability/) — 2 docs
+  - [`platform/`](./04_MLOPS_AND_PRODUCTION_AI/MLOps_Platforms/platform/) — 4 docs
+- [`Model_Optimization/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Optimization/) — 5 docs
+  - [`pruning_tools/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Optimization/pruning_tools/) — 2 docs
+- [`Model_Registry_Solutions/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Registry_Solutions/) — 2 docs
+- [`Model_Serving/`](./04_MLOPS_AND_PRODUCTION_AI/Model_Serving/) — 3 docs
+- [`Workflow_Orchestration/`](./04_MLOPS_AND_PRODUCTION_AI/Workflow_Orchestration/) — 3 docs
 
 ## [05_VERTICAL_APPLICATIONS](./05_VERTICAL_APPLICATIONS/)
 
-  - [`01_Healthcare_and_Medical_AI/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/)
-    - [`AI_Medical_Devices/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/)
-      - [`01_FDA_Approved/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/01_FDA_Approved/)
-      - [`02_HuggingFace_Models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/02_HuggingFace_Models/)
-        - [`Medical_Segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/02_HuggingFace_Models/Medical_Segmentation/)
-      - [`04_Datasets/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/04_Datasets/)
-    - [`Cardiology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Cardiology/)
-    - [`Clinical_Decision_Support/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Decision_Support/)
-    - [`Clinical_Decision_Support_and_Biomedical_NLP/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Decision_Support_and_Biomedical_NLP/)
-    - [`Clinical_Dialogue_Optimization/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Dialogue_Optimization/)
-    - [`Clinical_NLP/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_NLP/)
-    - [`Clinical_Trials/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Trials/)
-    - [`Drug_Discovery/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Drug_Discovery/)
-      - [`ai_models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Drug_Discovery/ai_models/)
-    - [`Edge_AI/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Edge_AI/)
-      - [`Model_Compression/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Edge_AI/Model_Compression/)
-        - [`Medical_Imaging/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Edge_AI/Model_Compression/Medical_Imaging/)
-    - [`Epidemiology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Epidemiology/)
-      - [`Modelagem_Rastreamento/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Epidemiology/Modelagem_Rastreamento/)
-    - [`Explainable_AI_Risk_Prediction/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Explainable_AI_Risk_Prediction/)
-    - [`General_Healthcare_AI/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/General_Healthcare_AI/)
-    - [`Genomics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Genomics/)
-      - [`variant-calling_genomics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Genomics/variant-calling_genomics/)
-        - [`protein-folding/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Genomics/variant-calling_genomics/protein-folding/)
-    - [`Medical_Image_Segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Image_Segmentation/)
-    - [`Medical_Imaging/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/)
-      - [`Continual_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Continual_Learning/)
-        - [`SFDA/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Continual_Learning/SFDA/)
-      - [`Fine_Tuning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Fine_Tuning/)
-      - [`Framework/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Framework/)
-      - [`Generative_Models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Generative_Models/)
-        - [`Image_Synthesis/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Generative_Models/Image_Synthesis/)
-      - [`Segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Segmentation/)
-      - [`Self-Supervised_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Self-Supervised_Learning/)
-      - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Transfer_Learning/)
-      - [`segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/segmentation/)
-        - [`foundation_models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/segmentation/foundation_models/)
-    - [`Medical_Informatics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Informatics/)
-    - [`Medical_LLMs/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_LLMs/)
-    - [`Medical_Question_Answering/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Question_Answering/)
-    - [`Medicina_Personalizada/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medicina_Personalizada/)
-    - [`Mental_Health/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Mental_Health/)
-    - [`Molecular_Docking/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Molecular_Docking/)
-    - [`Neurology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Neurology/)
-    - [`Oncology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Oncology/)
-    - [`Paper_Cientifico/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Paper_Cientifico/)
-    - [`Patient_Monitoring/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Patient_Monitoring/)
-      - [`ICU/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Patient_Monitoring/ICU/)
-    - [`Protein_Structure_Prediction/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Protein_Structure_Prediction/)
-    - [`Proteomics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Proteomics/)
-    - [`Public_Health/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Public_Health/)
-      - [`Vigilancia_Epidemiologica/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Public_Health/Vigilancia_Epidemiologica/)
-    - [`Radiology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Radiology/)
-    - [`Rare_Disease_Diagnosis/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Rare_Disease_Diagnosis/)
-    - [`Synthetic_Data_Generation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Synthetic_Data_Generation/)
-    - [`Telemedicine/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Telemedicine/)
-    - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Transfer_Learning/)
-      - [`Medical_Imaging/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Transfer_Learning/Medical_Imaging/)
-  - [`02_Finance_and_Fintech_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/)
-    - [`Algorithmic_Trading/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Algorithmic_Trading/)
-    - [`Banking/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/)
-      - [`Conversational_and_Agentic_Banking/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Conversational_and_Agentic_Banking/)
-      - [`Credit_Scoring_and_Underwriting/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Credit_Scoring_and_Underwriting/)
-      - [`Customer_Onboarding_and_KYC/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Customer_Onboarding_and_KYC/)
-      - [`Datasets_and_Benchmarks/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Datasets_and_Benchmarks/)
-      - [`Fraud_Detection/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Fraud_Detection/)
-      - [`Identity_Verification_and_Document_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Identity_Verification_and_Document_AI/)
-      - [`Key_Papers_and_Research/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Key_Papers_and_Research/)
-      - [`Open_Banking_and_APIs/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Open_Banking_and_APIs/)
-      - [`Payments_and_Real_Time_Processing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Payments_and_Real_Time_Processing/)
-      - [`Regulations_and_Compliance/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Regulations_and_Compliance/)
-      - [`Tools_Vendors_and_Platforms/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Tools_Vendors_and_Platforms/)
-      - [`Transaction_Categorization_and_Enrichment/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Transaction_Categorization_and_Enrichment/)
-      - [`Transaction_Monitoring_and_AML/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Transaction_Monitoring_and_AML/)
-    - [`Credit_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/)
-      - [`01_Repositories/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/01_Repositories/)
-      - [`02_Platforms/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/02_Platforms/)
-      - [`03_Papers/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/03_Papers/)
-      - [`04_Datasets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/04_Datasets/)
-      - [`05_Libraries/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/05_Libraries/)
-      - [`06_APIs/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/06_APIs/)
-      - [`08_Use_Cases/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/08_Use_Cases/)
-    - [`Credit_Scoring/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_Scoring/)
-    - [`Financial_Markets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/)
-      - [`Algorithmic_and_Quant_Trading/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Algorithmic_and_Quant_Trading/)
-      - [`Alternative_Data_and_Sentiment_Analysis/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Alternative_Data_and_Sentiment_Analysis/)
-      - [`Backtesting_and_Frameworks/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Backtesting_and_Frameworks/)
-      - [`Crypto_and_Digital_Assets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Crypto_and_Digital_Assets/)
-      - [`Datasets_APIs_and_Data_Vendors/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Datasets_APIs_and_Data_Vendors/)
-      - [`ETFs_Funds_and_Indexing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/ETFs_Funds_and_Indexing/)
-      - [`Equities_and_Stock_Markets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Equities_and_Stock_Markets/)
-      - [`Fixed_Income_and_Bonds/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Fixed_Income_and_Bonds/)
-      - [`Foreign_Exchange_FX/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Foreign_Exchange_FX/)
-      - [`Frontier_AI_in_Finance/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Frontier_AI_in_Finance/)
-      - [`Futures_and_Commodities/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Futures_and_Commodities/)
-      - [`Key_Papers_and_Research/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Key_Papers_and_Research/)
-      - [`Market_Microstructure_and_HFT/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Market_Microstructure_and_HFT/)
-      - [`Models_Features_and_Datasets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Models_Features_and_Datasets/)
-      - [`Options_and_Derivatives/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/)
-        - [`Options_Market_Prediction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/Options_Market_Prediction/)
-        - [`Options_Trading_Strategies/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/Options_Trading_Strategies/)
-      - [`Portfolio_Management_and_Optimization/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Portfolio_Management_and_Optimization/)
-      - [`Risk_Management_and_Derivatives_Pricing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Risk_Management_and_Derivatives_Pricing/)
-      - [`Technical_and_Fundamental_Analysis/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Technical_and_Fundamental_Analysis/)
-      - [`Tools_and_Platforms/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Tools_and_Platforms/)
-    - [`Fraud_Detection/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Fraud_Detection/)
-    - [`General_Fintech_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/General_Fintech_AI/)
-    - [`GitHub_Repository/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/GitHub_Repository/)
-    - [`Market_Prediction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Market_Prediction/)
-    - [`Payment_and_Transaction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Payment_and_Transaction/)
-    - [`Risk_Management/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Risk_Management/)
-    - [`Tutorial/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Tutorial/)
-    - [`ai-projects/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/ai-projects/)
-  - [`03_Agriculture_AgTech/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/)
-    - [`AgTech_Biomass/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/AgTech_Biomass/)
-      - [`Dataset/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/AgTech_Biomass/Dataset/)
-      - [`Paper_ArXiv/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/AgTech_Biomass/Paper_ArXiv/)
-    - [`Biomass_AI/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/)
-      - [`01_Satellite_Platforms/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/01_Satellite_Platforms/)
-      - [`02_AI_Models/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/02_AI_Models/)
-      - [`03_Papers/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/03_Papers/)
-      - [`04_Datasets/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/04_Datasets/)
-      - [`05_Startups/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/05_Startups/)
-      - [`06_Software_Tools/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/06_Software_Tools/)
-      - [`07_APIs/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/07_APIs/)
-      - [`08_Use_Cases/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/08_Use_Cases/)
-    - [`Biomass_Estimation_Benchmark_Dataset_Deep_Learning_Implementation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_Estimation_Benchmark_Dataset_Deep_Learning_Implementation/)
-    - [`Biomass_Estimation_Remote_Sensing/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_Estimation_Remote_Sensing/)
-    - [`CSIRO_Biomass/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/)
-      - [`code_examples/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/)
-        - [`src/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/)
-          - [`inference/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/inference/)
-          - [`losses/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/losses/)
-          - [`optimizers/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/optimizers/)
-          - [`training/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/training/)
-      - [`docs/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/docs/)
-    - [`Crop_Disease_Detection_Biomass_Estimation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Disease_Detection_Biomass_Estimation/)
-      - [`Vegetation_Structure_Crop_Type_Prediction/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Disease_Detection_Biomass_Estimation/Vegetation_Structure_Crop_Type_Prediction/)
-        - [`Remote_Sensing/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Disease_Detection_Biomass_Estimation/Vegetation_Structure_Crop_Type_Prediction/Remote_Sensing/)
-    - [`Crop_Growth_Prediction/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Growth_Prediction/)
-    - [`Crop_Growth_Stage_Recognition/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Growth_Stage_Recognition/)
-    - [`Crop_Health_Monitoring/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Health_Monitoring/)
-    - [`Crop_Yield_Prediction/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Yield_Prediction/)
-    - [`Crop_Yield_Prediction_Pest_and_Disease_Detection_Agricultural_AGI_Framework_Biomass_Estimation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Yield_Prediction_Pest_and_Disease_Detection_Agricultural_AGI_Framework_Biomass_Estimation/)
-    - [`Earth_Observation_Foundation_Model/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Earth_Observation_Foundation_Model/)
-    - [`Few_Shot_Learning_Doencas_Raras/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Few_Shot_Learning_Doencas_Raras/)
-    - [`Large_Language_Model_Agriculture/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Large_Language_Model_Agriculture/)
-    - [`Plant_Disease_Detection/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Plant_Disease_Detection/)
-    - [`Seasonal_Crop_Monitoring/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Seasonal_Crop_Monitoring/)
-    - [`Synthetic_Data_Generation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Synthetic_Data_Generation/)
-    - [`TinyML_Edge_Deployment_and_Plant_Disease_Detection/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/TinyML_Edge_Deployment_and_Plant_Disease_Detection/)
-    - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/)
-      - [`Fine_Tuning_Strategies/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/Fine_Tuning_Strategies/)
-      - [`Multi-Task_Learning/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/Multi-Task_Learning/)
-      - [`Plant_Disease_Detection/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/Plant_Disease_Detection/)
-    - [`Weed_Segmentation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Weed_Segmentation/)
-      - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Weed_Segmentation/Transfer_Learning/)
-  - [`04_Climate_and_Sustainability/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/)
-    - [`Weather/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/)
-      - [`AI_Weather_Prediction/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/)
-        - [`01_Models/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/01_Models/)
-  - [`05_Education_AI/`](./05_VERTICAL_APPLICATIONS/05_Education_AI/)
-  - [`06_Legal_AI/`](./05_VERTICAL_APPLICATIONS/06_Legal_AI/)
-  - [`07_Retail_and_Ecommerce/`](./05_VERTICAL_APPLICATIONS/07_Retail_and_Ecommerce/)
-    - [`Demand_Forecasting/`](./05_VERTICAL_APPLICATIONS/07_Retail_and_Ecommerce/Demand_Forecasting/)
-  - [`08_Manufacturing_and_Industry_AI/`](./05_VERTICAL_APPLICATIONS/08_Manufacturing_and_Industry_AI/)
-  - [`09_Entertainment_and_Creative_AI/`](./05_VERTICAL_APPLICATIONS/09_Entertainment_and_Creative_AI/)
-  - [`10_Robotics_and_Embodied_AI/`](./05_VERTICAL_APPLICATIONS/10_Robotics_and_Embodied_AI/)
-  - [`11_Autonomous_Vehicles_AI/`](./05_VERTICAL_APPLICATIONS/11_Autonomous_Vehicles_AI/)
-  - [`12_Business_and_Marketing_AI/`](./05_VERTICAL_APPLICATIONS/12_Business_and_Marketing_AI/)
-    - [`Marketing/`](./05_VERTICAL_APPLICATIONS/12_Business_and_Marketing_AI/Marketing/)
-  - [`13_Energy_AI/`](./05_VERTICAL_APPLICATIONS/13_Energy_AI/)
-    - [`Oil_Gas_and_Geoscience_AI/`](./05_VERTICAL_APPLICATIONS/13_Energy_AI/Oil_Gas_and_Geoscience_AI/)
-  - [`14_Cybersecurity_AI/`](./05_VERTICAL_APPLICATIONS/14_Cybersecurity_AI/)
-  - [`15_Science_AI/`](./05_VERTICAL_APPLICATIONS/15_Science_AI/)
-  - [`16_Edge_and_IoT_AI/`](./05_VERTICAL_APPLICATIONS/16_Edge_and_IoT_AI/)
-    - [`Mobile_ML/`](./05_VERTICAL_APPLICATIONS/16_Edge_and_IoT_AI/Mobile_ML/)
-  - [`17_Conversational_AI/`](./05_VERTICAL_APPLICATIONS/17_Conversational_AI/)
-    - [`Dialogue_Systems/`](./05_VERTICAL_APPLICATIONS/17_Conversational_AI/Dialogue_Systems/)
-  - [`18_Predictive_AI/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/)
-    - [`Blog_Post/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Blog_Post/)
-    - [`Dataset/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Dataset/)
-    - [`Framework/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Framework/)
-    - [`GitHub_Repository/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/GitHub_Repository/)
-    - [`Guia_Oficial/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Guia_Oficial/)
-    - [`Template/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Template/)
-    - [`Strategy_Kit_Template/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Strategy_Kit_Template/)
-  - [`19_Computer_Vision_Applications/`](./05_VERTICAL_APPLICATIONS/19_Computer_Vision_Applications/)
-  - [`20_AI_Project_Showcases/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/)
-    - [`Agriculture_AI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Agriculture_AI/)
-    - [`Applied_ML/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Applied_ML/)
-      - [`Healthcare/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Applied_ML/Healthcare/)
-        - [`Oncology/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Applied_ML/Healthcare/Oncology/)
-    - [`Audio_Generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Audio_Generation/)
-    - [`AutoML/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/AutoML/)
-    - [`Deep_Learning/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Deep_Learning/)
-      - [`distributed_training/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Deep_Learning/distributed_training/)
-    - [`Generative_AI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/)
-      - [`image_generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/)
-        - [`diffusion/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/diffusion/)
-    - [`Kaggle/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/)
-      - [`Winning_Solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/)
-      - [`solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/)
-        - [`2024-2025/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/2024-2025/)
-    - [`MLOps_Projects/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/MLOps_Projects/)
-      - [`experiment_tracking/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/MLOps_Projects/experiment_tracking/)
-    - [`ML_Frameworks/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/ML_Frameworks/)
-      - [`Hyperparameter_Optimization/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/ML_Frameworks/Hyperparameter_Optimization/)
-    - [`Misc/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Misc/)
-    - [`Multimodal/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Multimodal/)
-      - [`vision-language/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Multimodal/vision-language/)
-    - [`NLP/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/NLP/)
-      - [`text_generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/NLP/text_generation/)
-    - [`Ray_Tune/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Ray_Tune/)
-    - [`Recommender_Systems/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Recommender_Systems/)
-    - [`Reinforcement_Learning/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Reinforcement_Learning/)
-      - [`game_ai_robotics/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Reinforcement_Learning/game_ai_robotics/)
-    - [`Research/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Research/)
-      - [`Competitions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Research/Competitions/)
-    - [`Time_Series/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Time_Series/)
-      - [`forecasting_anomaly_detection/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Time_Series/forecasting_anomaly_detection/)
-    - [`Video_Generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Video_Generation/)
-    - [`XAI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/XAI/)
-  - [`21_Supply_Chain_and_Logistics_AI/`](./05_VERTICAL_APPLICATIONS/21_Supply_Chain_and_Logistics_AI/)
-  - [`22_Gaming_AI/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/)
-    - [`Poker_AI_and_Game_Theory/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/Poker_AI_and_Game_Theory/)
-  - [`23_Insurance_AI/`](./05_VERTICAL_APPLICATIONS/23_Insurance_AI/)
-  - [`24_Real_Estate_and_PropTech_AI/`](./05_VERTICAL_APPLICATIONS/24_Real_Estate_and_PropTech_AI/)
-  - [`25_Telecom_and_Network_AI/`](./05_VERTICAL_APPLICATIONS/25_Telecom_and_Network_AI/)
-  - [`26_HR_and_Recruiting_AI/`](./05_VERTICAL_APPLICATIONS/26_HR_and_Recruiting_AI/)
-  - [`27_Customer_Support_AI/`](./05_VERTICAL_APPLICATIONS/27_Customer_Support_AI/)
-  - [`28_Government_and_Public_Sector_AI/`](./05_VERTICAL_APPLICATIONS/28_Government_and_Public_Sector_AI/)
-  - [`29_Sports_Analytics_AI/`](./05_VERTICAL_APPLICATIONS/29_Sports_Analytics_AI/)
-    - [`Football_Match_and_Betting_Prediction/`](./05_VERTICAL_APPLICATIONS/29_Sports_Analytics_AI/Football_Match_and_Betting_Prediction/)
+- [`01_Healthcare_and_Medical_AI/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/) — 30 docs
+  - [`AI_Medical_Devices/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/) — 1 doc
+    - [`01_FDA_Approved/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/01_FDA_Approved/) — 1 doc
+    - [`02_HuggingFace_Models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/02_HuggingFace_Models/) — 1 doc
+      - [`Medical_Segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/02_HuggingFace_Models/Medical_Segmentation/) — 1 doc
+    - [`04_Datasets/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/AI_Medical_Devices/04_Datasets/) — 2 docs
+  - [`Cardiology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Cardiology/) — 3 docs
+  - [`Clinical_Decision_Support/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Decision_Support/) — 2 docs
+  - [`Clinical_Decision_Support_and_Biomedical_NLP/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Decision_Support_and_Biomedical_NLP/) — 2 docs
+  - [`Clinical_Dialogue_Optimization/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Dialogue_Optimization/) — 2 docs
+  - [`Clinical_NLP/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_NLP/) — 7 docs
+  - [`Clinical_Trials/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Clinical_Trials/) — 2 docs
+  - [`Drug_Discovery/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Drug_Discovery/) — 6 docs
+    - [`ai_models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Drug_Discovery/ai_models/) — 2 docs
+  - [`Edge_AI/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Edge_AI/) — 1 doc
+    - [`Model_Compression/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Edge_AI/Model_Compression/) — 1 doc
+      - [`Medical_Imaging/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Edge_AI/Model_Compression/Medical_Imaging/) — 2 docs
+  - [`Epidemiology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Epidemiology/) — 1 doc
+    - [`Modelagem_Rastreamento/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Epidemiology/Modelagem_Rastreamento/) — 2 docs
+  - [`Explainable_AI_Risk_Prediction/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Explainable_AI_Risk_Prediction/) — 2 docs
+  - [`General_Healthcare_AI/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/General_Healthcare_AI/) — 50 docs
+  - [`Genomics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Genomics/) — 6 docs
+    - [`variant-calling_genomics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Genomics/variant-calling_genomics/) — 1 doc
+      - [`protein-folding/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Genomics/variant-calling_genomics/protein-folding/) — 2 docs
+  - [`Medical_Image_Segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Image_Segmentation/) — 2 docs
+  - [`Medical_Imaging/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/) — 8 docs
+    - [`Continual_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Continual_Learning/) — 1 doc
+      - [`SFDA/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Continual_Learning/SFDA/) — 2 docs
+    - [`Fine_Tuning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Fine_Tuning/) — 2 docs
+    - [`Framework/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Framework/) — 2 docs
+    - [`Generative_Models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Generative_Models/) — 1 doc
+      - [`Image_Synthesis/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Generative_Models/Image_Synthesis/) — 2 docs
+    - [`Segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Segmentation/) — 2 docs
+    - [`Self-Supervised_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Self-Supervised_Learning/) — 2 docs
+    - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/Transfer_Learning/) — 2 docs
+    - [`segmentation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/segmentation/) — 1 doc
+      - [`foundation_models/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Imaging/segmentation/foundation_models/) — 2 docs
+  - [`Medical_Informatics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Informatics/) — 3 docs
+  - [`Medical_LLMs/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_LLMs/) — 3 docs
+  - [`Medical_Question_Answering/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medical_Question_Answering/) — 2 docs
+  - [`Medicina_Personalizada/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Medicina_Personalizada/) — 2 docs
+  - [`Mental_Health/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Mental_Health/) — 2 docs
+  - [`Molecular_Docking/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Molecular_Docking/) — 2 docs
+  - [`Neurology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Neurology/) — 3 docs
+  - [`Oncology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Oncology/) — 5 docs
+  - [`Paper_Cientifico/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Paper_Cientifico/) — 2 docs
+  - [`Patient_Monitoring/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Patient_Monitoring/) — 1 doc
+    - [`ICU/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Patient_Monitoring/ICU/) — 2 docs
+  - [`Protein_Structure_Prediction/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Protein_Structure_Prediction/) — 3 docs
+  - [`Proteomics/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Proteomics/) — 2 docs
+  - [`Public_Health/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Public_Health/) — 1 doc
+    - [`Vigilancia_Epidemiologica/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Public_Health/Vigilancia_Epidemiologica/) — 2 docs
+  - [`Radiology/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Radiology/) — 348 docs
+  - [`Rare_Disease_Diagnosis/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Rare_Disease_Diagnosis/) — 2 docs
+  - [`Synthetic_Data_Generation/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Synthetic_Data_Generation/) — 2 docs
+  - [`Telemedicine/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Telemedicine/) — 2 docs
+  - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Transfer_Learning/) — 1 doc
+    - [`Medical_Imaging/`](./05_VERTICAL_APPLICATIONS/01_Healthcare_and_Medical_AI/Transfer_Learning/Medical_Imaging/) — 2 docs
+- [`02_Finance_and_Fintech_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/) — 20 docs
+  - [`Algorithmic_Trading/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Algorithmic_Trading/) — 22 docs
+  - [`Banking/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/) — 1 doc
+    - [`Conversational_and_Agentic_Banking/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Conversational_and_Agentic_Banking/) — 1 doc
+    - [`Credit_Scoring_and_Underwriting/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Credit_Scoring_and_Underwriting/) — 1 doc
+    - [`Customer_Onboarding_and_KYC/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Customer_Onboarding_and_KYC/) — 1 doc
+    - [`Datasets_and_Benchmarks/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Datasets_and_Benchmarks/) — 1 doc
+    - [`Fraud_Detection/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Fraud_Detection/) — 1 doc
+    - [`Identity_Verification_and_Document_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Identity_Verification_and_Document_AI/) — 1 doc
+    - [`Key_Papers_and_Research/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Key_Papers_and_Research/) — 1 doc
+    - [`Open_Banking_and_APIs/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Open_Banking_and_APIs/) — 1 doc
+    - [`Payments_and_Real_Time_Processing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Payments_and_Real_Time_Processing/) — 1 doc
+    - [`Regulations_and_Compliance/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Regulations_and_Compliance/) — 1 doc
+    - [`Tools_Vendors_and_Platforms/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Tools_Vendors_and_Platforms/) — 1 doc
+    - [`Transaction_Categorization_and_Enrichment/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Transaction_Categorization_and_Enrichment/) — 1 doc
+    - [`Transaction_Monitoring_and_AML/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Banking/Transaction_Monitoring_and_AML/) — 1 doc
+  - [`Credit_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/) — 1 doc
+    - [`01_Repositories/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/01_Repositories/) — 1 doc
+    - [`02_Platforms/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/02_Platforms/) — 1 doc
+    - [`03_Papers/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/03_Papers/) — 1 doc
+    - [`04_Datasets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/04_Datasets/) — 1 doc
+    - [`05_Libraries/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/05_Libraries/) — 1 doc
+    - [`06_APIs/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/06_APIs/) — 1 doc
+    - [`08_Use_Cases/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_AI/08_Use_Cases/) — 1 doc
+  - [`Credit_Scoring/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Credit_Scoring/) — 44 docs
+  - [`Financial_Markets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/) — 1 doc
+    - [`Algorithmic_and_Quant_Trading/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Algorithmic_and_Quant_Trading/) — 2 docs
+    - [`Alternative_Data_and_Sentiment_Analysis/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Alternative_Data_and_Sentiment_Analysis/) — 4 docs
+    - [`Backtesting_and_Frameworks/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Backtesting_and_Frameworks/) — 1 doc
+    - [`Crypto_and_Digital_Assets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Crypto_and_Digital_Assets/) — 2 docs
+    - [`Datasets_APIs_and_Data_Vendors/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Datasets_APIs_and_Data_Vendors/) — 9 docs
+    - [`ETFs_Funds_and_Indexing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/ETFs_Funds_and_Indexing/) — 3 docs
+    - [`Equities_and_Stock_Markets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Equities_and_Stock_Markets/) — 10 docs
+    - [`Fixed_Income_and_Bonds/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Fixed_Income_and_Bonds/) — 1 doc
+    - [`Foreign_Exchange_FX/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Foreign_Exchange_FX/) — 1 doc
+    - [`Frontier_AI_in_Finance/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Frontier_AI_in_Finance/) — 5 docs
+    - [`Futures_and_Commodities/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Futures_and_Commodities/) — 2 docs
+    - [`Key_Papers_and_Research/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Key_Papers_and_Research/) — 6 docs
+    - [`Market_Microstructure_and_HFT/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Market_Microstructure_and_HFT/) — 1 doc
+    - [`Models_Features_and_Datasets/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Models_Features_and_Datasets/) — 4 docs
+    - [`Options_and_Derivatives/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/) — 5 docs
+      - [`Options_Market_Prediction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/Options_Market_Prediction/) — 4 docs
+      - [`Options_Trading_Strategies/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Options_and_Derivatives/Options_Trading_Strategies/) — 11 docs
+    - [`Portfolio_Management_and_Optimization/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Portfolio_Management_and_Optimization/) — 1 doc
+    - [`Risk_Management_and_Derivatives_Pricing/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Risk_Management_and_Derivatives_Pricing/) — 1 doc
+    - [`Technical_and_Fundamental_Analysis/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Technical_and_Fundamental_Analysis/) — 2 docs
+    - [`Tools_and_Platforms/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Financial_Markets/Tools_and_Platforms/) — 3 docs
+  - [`Fraud_Detection/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Fraud_Detection/) — 55 docs
+  - [`General_Fintech_AI/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/General_Fintech_AI/) — 30 docs
+  - [`GitHub_Repository/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/GitHub_Repository/) — 2 docs
+  - [`Market_Prediction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Market_Prediction/) — 1 doc
+  - [`Payment_and_Transaction/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Payment_and_Transaction/) — 4 docs
+  - [`Risk_Management/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Risk_Management/) — 15 docs
+  - [`Tutorial/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/Tutorial/) — 2 docs
+  - [`ai-projects/`](./05_VERTICAL_APPLICATIONS/02_Finance_and_Fintech_AI/ai-projects/) — 2 docs
+- [`03_Agriculture_AgTech/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/) — 18 docs
+  - [`AgTech_Biomass/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/AgTech_Biomass/) — 1 doc
+    - [`Dataset/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/AgTech_Biomass/Dataset/) — 4 docs
+    - [`Paper_ArXiv/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/AgTech_Biomass/Paper_ArXiv/) — 4 docs
+  - [`Biomass_AI/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/) — 1 doc
+    - [`01_Satellite_Platforms/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/01_Satellite_Platforms/) — 1 doc
+    - [`02_AI_Models/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/02_AI_Models/) — 1 doc
+    - [`03_Papers/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/03_Papers/) — 1 doc
+    - [`04_Datasets/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/04_Datasets/) — 1 doc
+    - [`05_Startups/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/05_Startups/) — 1 doc
+    - [`06_Software_Tools/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/06_Software_Tools/) — 1 doc
+    - [`07_APIs/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/07_APIs/) — 1 doc
+    - [`08_Use_Cases/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_AI/08_Use_Cases/) — 1 doc
+  - [`Biomass_Estimation_Benchmark_Dataset_Deep_Learning_Implementation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_Estimation_Benchmark_Dataset_Deep_Learning_Implementation/) — 2 docs
+  - [`Biomass_Estimation_Remote_Sensing/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Biomass_Estimation_Remote_Sensing/) — 2 docs
+  - [`CSIRO_Biomass/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/) — 1 doc
+    - [`code_examples/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/) — 1 doc
+      - [`src/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/) — 1 doc
+        - [`inference/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/inference/) — 1 doc
+        - [`losses/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/losses/) — 1 doc
+        - [`optimizers/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/optimizers/) — 1 doc
+        - [`training/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/code_examples/src/training/) — 1 doc
+    - [`docs/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/CSIRO_Biomass/docs/) — 2 docs
+  - [`Crop_Disease_Detection_Biomass_Estimation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Disease_Detection_Biomass_Estimation/) — 1 doc
+    - [`Vegetation_Structure_Crop_Type_Prediction/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Disease_Detection_Biomass_Estimation/Vegetation_Structure_Crop_Type_Prediction/) — 1 doc
+      - [`Remote_Sensing/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Disease_Detection_Biomass_Estimation/Vegetation_Structure_Crop_Type_Prediction/Remote_Sensing/) — 2 docs
+  - [`Crop_Growth_Prediction/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Growth_Prediction/) — 2 docs
+  - [`Crop_Growth_Stage_Recognition/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Growth_Stage_Recognition/) — 2 docs
+  - [`Crop_Health_Monitoring/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Health_Monitoring/) — 2 docs
+  - [`Crop_Yield_Prediction/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Yield_Prediction/) — 5 docs
+  - [`Crop_Yield_Prediction_Pest_and_Disease_Detection_Agricultural_AGI_Framework_Biomass_Estimation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Crop_Yield_Prediction_Pest_and_Disease_Detection_Agricultural_AGI_Framework_Biomass_Estimation/) — 2 docs
+  - [`Earth_Observation_Foundation_Model/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Earth_Observation_Foundation_Model/) — 2 docs
+  - [`Few_Shot_Learning_Doencas_Raras/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Few_Shot_Learning_Doencas_Raras/) — 2 docs
+  - [`Large_Language_Model_Agriculture/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Large_Language_Model_Agriculture/) — 2 docs
+  - [`Plant_Disease_Detection/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Plant_Disease_Detection/) — 2 docs
+  - [`Seasonal_Crop_Monitoring/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Seasonal_Crop_Monitoring/) — 2 docs
+  - [`Synthetic_Data_Generation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Synthetic_Data_Generation/) — 2 docs
+  - [`TinyML_Edge_Deployment_and_Plant_Disease_Detection/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/TinyML_Edge_Deployment_and_Plant_Disease_Detection/) — 2 docs
+  - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/) — 3 docs
+    - [`Fine_Tuning_Strategies/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/Fine_Tuning_Strategies/) — 2 docs
+    - [`Multi-Task_Learning/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/Multi-Task_Learning/) — 2 docs
+    - [`Plant_Disease_Detection/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Transfer_Learning/Plant_Disease_Detection/) — 2 docs
+  - [`Weed_Segmentation/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Weed_Segmentation/) — 1 doc
+    - [`Transfer_Learning/`](./05_VERTICAL_APPLICATIONS/03_Agriculture_AgTech/Weed_Segmentation/Transfer_Learning/) — 2 docs
+- [`04_Climate_and_Sustainability/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/) — 1 doc
+  - [`Weather/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/) — 1 doc
+    - [`AI_Weather_Prediction/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/) — 1 doc
+      - [`01_Models/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/01_Models/) — 1 doc
+      - [`02_Datasets/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/02_Datasets/) — 1 doc
+      - [`03_Papers/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/03_Papers/) — 1 doc
+      - [`04_Platforms/`](./05_VERTICAL_APPLICATIONS/04_Climate_and_Sustainability/Weather/AI_Weather_Prediction/04_Platforms/) — 1 doc
+- [`05_Education_AI/`](./05_VERTICAL_APPLICATIONS/05_Education_AI/) — 24 docs
+- [`06_Legal_AI/`](./05_VERTICAL_APPLICATIONS/06_Legal_AI/) — 17 docs
+- [`07_Retail_and_Ecommerce/`](./05_VERTICAL_APPLICATIONS/07_Retail_and_Ecommerce/) — 1 doc
+  - [`Demand_Forecasting/`](./05_VERTICAL_APPLICATIONS/07_Retail_and_Ecommerce/Demand_Forecasting/) — 1 doc
+- [`08_Manufacturing_and_Industry_AI/`](./05_VERTICAL_APPLICATIONS/08_Manufacturing_and_Industry_AI/) — 1 doc
+- [`09_Entertainment_and_Creative_AI/`](./05_VERTICAL_APPLICATIONS/09_Entertainment_and_Creative_AI/) — 38 docs
+- [`10_Robotics_and_Embodied_AI/`](./05_VERTICAL_APPLICATIONS/10_Robotics_and_Embodied_AI/) — 1 doc
+- [`11_Autonomous_Vehicles_AI/`](./05_VERTICAL_APPLICATIONS/11_Autonomous_Vehicles_AI/) — 1 doc
+- [`12_Business_and_Marketing_AI/`](./05_VERTICAL_APPLICATIONS/12_Business_and_Marketing_AI/) — 53 docs
+  - [`Marketing/`](./05_VERTICAL_APPLICATIONS/12_Business_and_Marketing_AI/Marketing/) — 1 doc
+- [`13_Energy_AI/`](./05_VERTICAL_APPLICATIONS/13_Energy_AI/) — 1 doc
+  - [`Oil_Gas_and_Geoscience_AI/`](./05_VERTICAL_APPLICATIONS/13_Energy_AI/Oil_Gas_and_Geoscience_AI/) — 6 docs
+- [`14_Cybersecurity_AI/`](./05_VERTICAL_APPLICATIONS/14_Cybersecurity_AI/) — 1 doc
+- [`15_Science_AI/`](./05_VERTICAL_APPLICATIONS/15_Science_AI/) — 25 docs
+- [`16_Edge_and_IoT_AI/`](./05_VERTICAL_APPLICATIONS/16_Edge_and_IoT_AI/) — 1 doc
+  - [`Mobile_ML/`](./05_VERTICAL_APPLICATIONS/16_Edge_and_IoT_AI/Mobile_ML/) — 2 docs
+- [`17_Conversational_AI/`](./05_VERTICAL_APPLICATIONS/17_Conversational_AI/) — 1 doc
+  - [`Dialogue_Systems/`](./05_VERTICAL_APPLICATIONS/17_Conversational_AI/Dialogue_Systems/) — 2 docs
+- [`18_Predictive_AI/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/) — 1 doc
+  - [`Blog_Post/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Blog_Post/) — 2 docs
+  - [`Dataset/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Dataset/) — 3 docs
+  - [`Framework/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Framework/) — 3 docs
+  - [`GitHub_Repository/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/GitHub_Repository/) — 2 docs
+  - [`Guia_Oficial/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Guia_Oficial/) — 11 docs
+  - [`Strategy_Kit_Template/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Strategy_Kit_Template/) — 2 docs
+  - [`Template/`](./05_VERTICAL_APPLICATIONS/18_Predictive_AI/Template/) — 2 docs
+- [`19_Computer_Vision_Applications/`](./05_VERTICAL_APPLICATIONS/19_Computer_Vision_Applications/) — 3 docs
+- [`20_AI_Project_Showcases/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/) — 1 doc
+  - [`Agriculture_AI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Agriculture_AI/) — 2 docs
+  - [`Applied_ML/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Applied_ML/) — 1 doc
+    - [`Healthcare/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Applied_ML/Healthcare/) — 1 doc
+      - [`Oncology/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Applied_ML/Healthcare/Oncology/) — 2 docs
+  - [`Audio_Generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Audio_Generation/) — 2 docs
+  - [`AutoML/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/AutoML/) — 3 docs
+  - [`Deep_Learning/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Deep_Learning/) — 1 doc
+    - [`distributed_training/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Deep_Learning/distributed_training/) — 2 docs
+  - [`Generative_AI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/) — 1 doc
+    - [`image_generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/) — 1 doc
+      - [`diffusion/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/diffusion/) — 2 docs
+  - [`Kaggle/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/) — 4 docs
+    - [`Winning_Solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/) — 6 docs
+    - [`solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/) — 1 doc
+      - [`2024-2025/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/2024-2025/) — 2 docs
+  - [`MLOps_Projects/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/MLOps_Projects/) — 2 docs
+    - [`experiment_tracking/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/MLOps_Projects/experiment_tracking/) — 2 docs
+  - [`ML_Frameworks/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/ML_Frameworks/) — 1 doc
+    - [`Hyperparameter_Optimization/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/ML_Frameworks/Hyperparameter_Optimization/) — 2 docs
+  - [`Misc/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Misc/) — 2 docs
+  - [`Multimodal/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Multimodal/) — 1 doc
+    - [`vision-language/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Multimodal/vision-language/) — 2 docs
+  - [`NLP/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/NLP/) — 1 doc
+    - [`text_generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/NLP/text_generation/) — 2 docs
+  - [`Ray_Tune/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Ray_Tune/) — 2 docs
+  - [`Recommender_Systems/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Recommender_Systems/) — 2 docs
+  - [`Reinforcement_Learning/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Reinforcement_Learning/) — 1 doc
+    - [`game_ai_robotics/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Reinforcement_Learning/game_ai_robotics/) — 2 docs
+  - [`Research/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Research/) — 1 doc
+    - [`Competitions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Research/Competitions/) — 1 doc
+  - [`Time_Series/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Time_Series/) — 1 doc
+    - [`forecasting_anomaly_detection/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Time_Series/forecasting_anomaly_detection/) — 2 docs
+  - [`Video_Generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Video_Generation/) — 2 docs
+  - [`XAI/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/XAI/) — 2 docs
+- [`21_Supply_Chain_and_Logistics_AI/`](./05_VERTICAL_APPLICATIONS/21_Supply_Chain_and_Logistics_AI/) — 1 doc
+- [`22_Gaming_AI/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/) — 1 doc
+  - [`Poker_AI_and_Game_Theory/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/Poker_AI_and_Game_Theory/) — 12 docs
+    - [`Omaha/`](./05_VERTICAL_APPLICATIONS/22_Gaming_AI/Poker_AI_and_Game_Theory/Omaha/) — 9 docs
+- [`23_Insurance_AI/`](./05_VERTICAL_APPLICATIONS/23_Insurance_AI/) — 1 doc
+- [`24_Real_Estate_and_PropTech_AI/`](./05_VERTICAL_APPLICATIONS/24_Real_Estate_and_PropTech_AI/) — 1 doc
+- [`25_Telecom_and_Network_AI/`](./05_VERTICAL_APPLICATIONS/25_Telecom_and_Network_AI/) — 1 doc
+- [`26_HR_and_Recruiting_AI/`](./05_VERTICAL_APPLICATIONS/26_HR_and_Recruiting_AI/) — 1 doc
+- [`27_Customer_Support_AI/`](./05_VERTICAL_APPLICATIONS/27_Customer_Support_AI/) — 1 doc
+- [`28_Government_and_Public_Sector_AI/`](./05_VERTICAL_APPLICATIONS/28_Government_and_Public_Sector_AI/) — 1 doc
+- [`29_Sports_Analytics_AI/`](./05_VERTICAL_APPLICATIONS/29_Sports_Analytics_AI/) — 1 doc
+  - [`Football_Match_and_Betting_Prediction/`](./05_VERTICAL_APPLICATIONS/29_Sports_Analytics_AI/Football_Match_and_Betting_Prediction/) — 32 docs
+
+## Meta & Tooling
+
+- [`docs/`](./docs/)
+- [`.well-known/`](./docs/.well-known/) — 1 doc
+- [`launch/`](./docs/launch/) — 5 docs
+- [`pt/`](./docs/pt/) — 1 doc
+- [`tools/`](./tools/)
 
