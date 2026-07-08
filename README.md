@@ -2,6 +2,8 @@
 
 **AIForge** is a comprehensive, hand-organized atlas of the **Artificial Intelligence**, **Machine Learning**, **Deep Learning**, **LLM**, and **Data Science** ecosystem — from foundational theory to production deployment and industry verticals.
 
+> **2,200+ documents · 100% English · every directory carries an index README with keywords · a complete [`sitemap.xml`](./sitemap.xml) (2,700+ URLs) covers every folder and file** — built for maximum search-engine and LLM discoverability.
+
 <p align="center">
   <a href="https://github.com/FELIPEACASTRO/AIForge/stargazers"><img src="https://img.shields.io/github/stars/FELIPEACASTRO/AIForge?style=social" alt="Stars"></a>
   <a href="https://github.com/FELIPEACASTRO/AIForge/network/members"><img src="https://img.shields.io/github/forks/FELIPEACASTRO/AIForge?style=social" alt="Forks"></a>
@@ -12,7 +14,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pillars-5-blue?style=for-the-badge" alt="5 Pillars">
-  <img src="https://img.shields.io/badge/Last%20Update-2026--06-orange?style=for-the-badge" alt="Updated">
+  <img src="https://img.shields.io/badge/Last%20Update-2026--07-orange?style=for-the-badge" alt="Updated">
+  <img src="https://img.shields.io/badge/Language-English%20only-blue?style=for-the-badge" alt="English only">
   <img src="https://img.shields.io/badge/Coverage-AI%20%2F%20ML%20%2F%20DL%20%2F%20LLM%20%2F%20MLOps-green?style=for-the-badge" alt="Coverage">
 </p>
 
@@ -216,7 +219,7 @@ See the full growth plan in [DISCOVERABILITY.md](./DISCOVERABILITY.md).
 ## ❓ Frequently Asked Questions (FAQ)
 
 **What is AIForge?**
-AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — 1,650+ curated documents linking to 7,500+ external resources, organized into a clean, duplicate-free taxonomy of 5 pillars plus a Frontier AI 2026 radar.
+AIForge is a free, open-source, curated index of the entire Artificial Intelligence, Machine Learning, Deep Learning, LLM, and Data Science ecosystem — 2,200+ curated documents linking to 7,500+ external resources, organized into a clean, duplicate-free, **English-only** taxonomy of 5 pillars plus a Frontier AI 2026 radar. Every directory has an index README, and a complete sitemap (2,700+ URLs) covers every folder and file.
 
 **Who is AIForge for?**
 Data scientists, ML/AI engineers, researchers, students, and anyone who wants a single, well-organized map of AI/ML resources — from theory to production.
@@ -238,6 +241,9 @@ See [`04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`](./04_MLOPS_AND_PRODUCTION_AI/LL
 
 **Is AIForge readable by AI assistants?**
 Yes — it ships an [`llms.txt`](./llms.txt) following the [llmstxt.org](https://llmstxt.org/) convention so LLMs, AI agents, and AI search engines can discover, navigate, and cite the right section.
+
+**What language is AIForge in?**
+100% English — every page, heading, filename, and directory path. This keeps the taxonomy consistent and maximizes discoverability for global search engines and AI assistants.
 
 **How can I contribute?**
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
