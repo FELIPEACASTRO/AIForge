@@ -1,32 +1,32 @@
 # World Ocean Database (WOD) - NOAA Ocean Data
 
 ## Description
-O **World Ocean Database (WOD)** é a maior e mais abrangente coleção mundial de dados de perfil oceânico in situ, mantida pelo National Centers for Environmental Information (NCEI) da NOAA. O WOD é uma ferramenta essencial para pesquisa oceanográfica, climática e ambiental, fornecendo dados de alta qualidade, formatados uniformemente e controlados, que abrangem o período de 1772 até o presente. A versão mais recente, WOD23, foi lançada em 2024 e inclui mais de 20 milhões de "casts" oceanográficos. O dataset é fundamental para a análise climática oceânica de longo prazo e para o desenvolvimento de modelos de IA em ciências da Terra.
+The **World Ocean Database (WOD)** is the world's largest and most comprehensive collection of in situ ocean profile data, maintained by NOAA's National Centers for Environmental Information (NCEI). The WOD is an essential tool for oceanographic, climate, and environmental research, providing high-quality, uniformly formatted, and quality-controlled data spanning the period from 1772 to the present. The most recent version, WOD23, was released in 2024 and includes more than 20 million oceanographic "casts." The dataset is fundamental for long-term ocean climate analysis and for the development of AI models in Earth sciences.
 
 ## Statistics
-- **Versão Mais Recente:** WOD23 (World Ocean Database 2023), lançado em 2024.
-- **Casts Oceanográficos:** Mais de 20.6 milhões de "casts" (medições de perfil).
-- **Observações:** Cerca de 3.6 bilhões de observações individuais de perfil.
-- **Período de Tempo:** Abrange de 1772 até o presente (WOD23 inclui dados até o final de 2022).
-- **Atualizações:** Lançamentos principais periódicos e atualizações trimestrais.
+- **Most Recent Version:** WOD23 (World Ocean Database 2023), released in 2024.
+- **Oceanographic Casts:** More than 20.6 million "casts" (profile measurements).
+- **Observations:** About 3.6 billion individual profile observations.
+- **Time Period:** Spans from 1772 to the present (WOD23 includes data through the end of 2022).
+- **Updates:** Periodic major releases and quarterly updates.
 
 ## Features
-- **Variáveis Abrangentes:** Inclui até 27 perfis de variáveis oceânicas essenciais, como temperatura, salinidade, oxigênio dissolvido, nutrientes (fosfato, nitrato, silicato), clorofila, pH e variáveis de estado do mar.
-- **Controle de Qualidade:** Os dados são rigorosamente controlados por qualidade e são reproduzíveis a partir dos dados originais arquivados no NCEI.
-- **Formato Interoperável:** Disponível em formatos interoperáveis, incluindo NetCDF (Climate and Forecast compliant ragged-array), ideal para processamento por modelos de Machine Learning e Deep Learning.
-- **Metadados Granulares:** Possui metadados extensivos que facilitam a busca e o uso dos dados.
+- **Comprehensive Variables:** Includes up to 27 profiles of essential ocean variables, such as temperature, salinity, dissolved oxygen, nutrients (phosphate, nitrate, silicate), chlorophyll, pH, and sea state variables.
+- **Quality Control:** The data are rigorously quality-controlled and are reproducible from the original data archived at NCEI.
+- **Interoperable Format:** Available in interoperable formats, including NetCDF (Climate and Forecast compliant ragged-array), ideal for processing by Machine Learning and Deep Learning models.
+- **Granular Metadata:** Features extensive metadata that facilitate the search and use of the data.
 
 ## Use Cases
-- **Modelagem Climática:** Análise de longo prazo e histórica do clima oceânico, essencial para estudos de aquecimento global e acidificação dos oceanos.
-- **Pesquisa Oceanográfica:** Estudo da circulação oceânica, da distribuição de propriedades da água e dos ecossistemas marinhos.
-- **Inteligência Artificial:** Treinamento de modelos de Machine Learning e Deep Learning para previsão de condições oceânicas, detecção de anomalias e reconstrução de dados ausentes (como no projeto de reconstrução de oxigênio dissolvido usando ML).
-- **Desenvolvimento de Produtos:** Criação de produtos de dados científicos e socioeconômicos de valor agregado, como o World Ocean Atlas (WOA).
+- **Climate Modeling:** Long-term and historical analysis of ocean climate, essential for studies of global warming and ocean acidification.
+- **Oceanographic Research:** Study of ocean circulation, the distribution of water properties, and marine ecosystems.
+- **Artificial Intelligence:** Training of Machine Learning and Deep Learning models for predicting ocean conditions, anomaly detection, and reconstruction of missing data (as in the dissolved oxygen reconstruction project using ML).
+- **Product Development:** Creation of value-added scientific and socioeconomic data products, such as the World Ocean Atlas (WOA).
 
 ## Integration
-O acesso ao WOD é facilitado por diversas vias:
-1.  **WODselect:** Um sistema de recuperação online que permite aos usuários buscar dados por parâmetros específicos (data, área geográfica, tipo de sonda) e variáveis medidas, com a opção de baixar datasets customizados nos formatos WOD nativo, CSV ou **NetCDF**.
-2.  **Acesso Direto:** Dados pré-organizados por localização e tempo estão disponíveis para download direto.
-3.  **Plataformas Cloud (NODD):** O dataset é disponibilizado através do NOAA Open Data Dissemination (NODD) em plataformas de Cloud Service Providers (CSPs) como Amazon Web Services (AWS) e Google Cloud, facilitando o acesso e processamento em larga escala para aplicações de IA.
+Access to the WOD is facilitated through several avenues:
+1.  **WODselect:** An online retrieval system that allows users to search for data by specific parameters (date, geographic area, probe type) and measured variables, with the option to download customized datasets in native WOD, CSV, or **NetCDF** formats.
+2.  **Direct Access:** Data pre-organized by location and time are available for direct download.
+3.  **Cloud Platforms (NODD):** The dataset is made available through NOAA Open Data Dissemination (NODD) on Cloud Service Providers (CSPs) such as Amazon Web Services (AWS) and Google Cloud, facilitating access and large-scale processing for AI applications.
 
 ## URL
 [https://www.ncei.noaa.gov/products/world-ocean-database](https://www.ncei.noaa.gov/products/world-ocean-database)

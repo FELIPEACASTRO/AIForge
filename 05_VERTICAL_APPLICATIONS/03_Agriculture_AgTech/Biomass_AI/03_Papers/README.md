@@ -1,11 +1,4 @@
-# 📄 Academic Papers on Biomass AI / Papers Acadêmicos sobre IA para Biomassa
-
-[English](#english) | [Português](#português)
-
----
-
-<a name="english"></a>
-## 📄 Academic Papers on Biomass AI
+# 📄 Academic Papers on Biomass AI
 
 High-impact research papers on biomass estimation, crop yield prediction, and precision agriculture using AI/ML.
 
@@ -214,68 +207,6 @@ Comprehensive review of machine learning methods for crop yield prediction.
 
 ---
 
-<a name="português"></a>
-## 📄 Papers Acadêmicos sobre IA para Biomassa
-
-Papers de pesquisa de alto impacto sobre estimativa de biomassa, previsão de produtividade agrícola e agricultura de precisão usando IA/ML.
-
-### Papers em Destaque (Top 10)
-
----
-
-## ⭐ 1. Estimando Biomassa de Pastagens Usando Imagens Sentinel-2 (2025)
-
-**URL:** https://arxiv.org/html/2510.22916v1  
-**Data:** 27 Outubro 2025  
-**Citações:** Novo (2025)  
-**Autores:** CSIRO + Google + MLA + Universidades
-
-### Visão Geral
-
-Este paper introduz o dataset **Image2Biomass Pasture Innovation Challenge**, o maior dataset anotado de biomassa de pastagens até o momento.
-
-**Destaques do Dataset:**
-- **1.162 imagens anotadas** (vs 435 no GrassClover)
-- **19 sites em 4 estados australianos**
-- **Cobertura anual** (vs Maio-Outubro no GrassClover)
-- **Metadados extensivos:** Espécies, NDVI, altura, matéria morta
-- **Competição Kaggle:** https://www.kaggle.com/competitions/csiro-biomass
-
-**Impacto Econômico:**
-- 10% de aumento na lucratividade agrícola
-- $96/hectare (ovelhas), $52/hectare (gado)
-- 380 milhões de hectares na Austrália
-
-**Licença:** CC BY-SA 4.0 (Aberto!)
-
----
-
-## ⭐ 2. Previsão de Produtividade Agrícola Usando Redes Neurais Profundas (2019)
-
-**URL:** https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2019.00621/full  
-**Data:** 2019  
-**Citações:** 971 (Altamente Citado!)  
-**Autores:** S Khaki et al.
-
-### Visão Geral
-
-Paper benchmark sobre uso de redes neurais profundas para previsão de produtividade de milho.
-
----
-
-## ⭐ 3. Previsão de Produtividade Agrícola Usando Machine Learning: Revisão Sistemática (2020)
-
-**URL:** https://www.sciencedirect.com/science/article/pii/S0168169920302301  
-**Data:** 2020  
-**Citações:** 1.876 (Extremamente Citado!)  
-**Tipo:** Revisão sistemática
-
-### Visão Geral
-
-Revisão abrangente de métodos de machine learning para previsão de produtividade agrícola.
-
----
-
-**Última Atualização:** Novembro 2025  
-**Total de Papers:** 26+  
-**Mantido por:** AIForge Community
+**Last Updated:** November 2025  
+**Total Papers:** 26+  
+**Maintained by:** AIForge Community

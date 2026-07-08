@@ -2,23 +2,23 @@
 
 ## Description
 
-Banco de dados multi-ômico de câncer aberto, derivado do projeto The Cancer Genome Atlas (TCGA), projetado para facilitar o desenvolvimento e avaliação de modelos de aprendizado de máquina e bioinformática. Ele padroniza e pré-processa dados complexos de câncer, tornando-os "prontos para modelo" para pesquisadores sem profundo conhecimento em bioinformática. Publicado em 2025.
+Open cancer multi-omics database, derived from The Cancer Genome Atlas (TCGA) project, designed to facilitate the development and evaluation of machine learning and bioinformatics models. It standardizes and preprocesses complex cancer data, making it "model-ready" for researchers without deep bioinformatics knowledge. Published in 2025.
 
 ## Statistics
 
-8.314 amostras de pacientes, cobrindo 32 tipos de câncer do TCGA. Quatro tipos de ômicas. Três versões de features (Original, Aligned, Top) para análise.
+8,314 patient samples, covering 32 TCGA cancer types. Four omics types. Three feature versions (Original, Aligned, Top) for analysis.
 
 ## Features
 
-Expressão de mRNA, Expressão de microRNA, Metilação de DNA, Variações de Número de Cópias (CNVs). A versão 'Top' contém features mais significativas selecionadas via teste ANOVA.
+mRNA Expression, microRNA Expression, DNA Methylation, Copy Number Variations (CNVs). The 'Top' version contains the most significant features selected via ANOVA test.
 
 ## Use Cases
 
-Desenvolvimento e avaliação de modelos de aprendizado de máquina (ML) para subtipagem molecular, previsão de associação doença-gene, descoberta de medicamentos e análise interdisciplinar.
+Development and evaluation of machine learning (ML) models for molecular subtyping, disease-gene association prediction, drug discovery, and interdisciplinary analysis.
 
 ## Integration
 
-O código para pré-processamento e preparação do banco de dados MLOmics, bem como os algoritmos de benchmarking, está disponível no repositório GitHub: https://github.com/chenzRG/Cancer-Multi-Omics-Benchmark
+The code for preprocessing and preparing the MLOmics database, as well as the benchmarking algorithms, is available in the GitHub repository: https://github.com/chenzRG/Cancer-Multi-Omics-Benchmark
 
 ## URL
 

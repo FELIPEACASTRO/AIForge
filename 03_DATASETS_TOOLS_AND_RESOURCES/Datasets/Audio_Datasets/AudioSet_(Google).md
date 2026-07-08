@@ -1,44 +1,44 @@
 # AudioSet (Google)
 
 ## Description
-O AudioSet é um dataset de grande escala composto por uma coleção de **2.084.320** clipes de áudio de 10 segundos, extraídos de vídeos do YouTube e rotulados por humanos. O objetivo principal é fornecer um recurso abrangente para o treinamento de modelos de classificação de eventos de áudio. O dataset é baseado em uma **ontologia** hierárquica de **632 classes** de eventos sonoros, cobrindo uma ampla gama de sons do cotidiano, desde sons humanos e de animais até sons naturais, ambientais e musicais. O dataset não fornece os arquivos de áudio brutos diretamente, mas sim os metadados (IDs de vídeo do YouTube, tempos de início e fim) e *embeddings* de áudio de 128 dimensões extraídos a 1Hz usando o modelo VGGish.
+AudioSet is a large-scale dataset composed of a collection of **2,084,320** 10-second audio clips, extracted from YouTube videos and labeled by humans. Its main goal is to provide a comprehensive resource for training audio event classification models. The dataset is based on a hierarchical **ontology** of **632 classes** of sound events, covering a wide range of everyday sounds, from human and animal sounds to natural, environmental, and musical sounds. The dataset does not provide the raw audio files directly, but rather the metadata (YouTube video IDs, start and end times) and 128-dimensional audio *embeddings* extracted at 1Hz using the VGGish model.
 
 ## Statistics
-- **Tamanho Total:** 2.084.320 segmentos de áudio.
-- **Duração dos Segmentos:** 10 segundos.
-- **Classes:** 632 classes de eventos sonoros.
-- **Divisão:**
-    - Avaliação: 20.383 segmentos.
-    - Treinamento Balanceado: 22.176 segmentos.
-    - Treinamento Não Balanceado: 2.042.985 segmentos.
-- **Tamanho dos *Embeddings*:** 2.4 GB (em formato TensorFlow Record).
-- **Versão:** A versão principal referenciada é a "v1" (lançamento inicial de 2017), com atualizações de qualidade de rótulos (rerating) incluídas.
+- **Total Size:** 2,084,320 audio segments.
+- **Segment Duration:** 10 seconds.
+- **Classes:** 632 sound event classes.
+- **Split:**
+    - Evaluation: 20,383 segments.
+    - Balanced Training: 22,176 segments.
+    - Unbalanced Training: 2,042,985 segments.
+- **Size of *Embeddings*:** 2.4 GB (in TensorFlow Record format).
+- **Version:** The main referenced version is "v1" (initial 2017 release), with label quality updates (rerating) included.
 
 ## Features
-- **Ontologia Extensa:** 632 classes de eventos sonoros organizadas hierarquicamente.
-- **Grande Escala:** Mais de 2 milhões de segmentos de áudio rotulados.
-- **Duração Fixa:** Todos os clipes de áudio têm 10 segundos de duração.
-- **Metadados e *Embeddings*:** Fornece IDs de vídeo do YouTube, metadados de tempo e *embeddings* de áudio (features) em vez dos arquivos de áudio brutos.
-- **Divisão em Subconjuntos:** Dividido em conjuntos de avaliação (20.383 segmentos), treinamento balanceado (22.176 segmentos) e treinamento não balanceado (2.042.985 segmentos).
+- **Extensive Ontology:** 632 sound event classes organized hierarchically.
+- **Large Scale:** More than 2 million labeled audio segments.
+- **Fixed Duration:** All audio clips are 10 seconds long.
+- **Metadata and *Embeddings*:** Provides YouTube video IDs, time metadata, and audio *embeddings* (features) instead of the raw audio files.
+- **Subset Split:** Divided into evaluation (20,383 segments), balanced training (22,176 segments), and unbalanced training (2,042,985 segments) sets.
 
 ## Use Cases
-- **Classificação de Eventos de Áudio (AEC):** Treinamento de modelos para identificar e classificar sons em gravações.
-- **Marcação Automática de Conteúdo:** Aplicação em plataformas de vídeo (como o YouTube) para categorizar e indexar conteúdo com base no áudio.
-- **Sistemas de Vigilância e Monitoramento:** Detecção de eventos sonoros específicos (ex: alarmes, tiros, choro de bebê).
-- **Pesquisa em Processamento de Áudio:** Desenvolvimento de novas arquiteturas de rede neural e técnicas de *embedding* de áudio (como o VGGish).
-- **Transfer Learning:** Uso dos *embeddings* pré-treinados (VGGish) como *features* para tarefas de áudio relacionadas.
+- **Audio Event Classification (AEC):** Training models to identify and classify sounds in recordings.
+- **Automatic Content Tagging:** Application on video platforms (such as YouTube) to categorize and index content based on audio.
+- **Surveillance and Monitoring Systems:** Detection of specific sound events (e.g., alarms, gunshots, baby crying).
+- **Audio Processing Research:** Development of new neural network architectures and audio *embedding* techniques (such as VGGish).
+- **Transfer Learning:** Use of pre-trained *embeddings* (VGGish) as *features* for related audio tasks.
 
 ## Integration
-O dataset é disponibilizado em dois formatos:
-1.  **Arquivos CSV:** Contêm os metadados de cada segmento: ID do vídeo do YouTube, tempo de início, tempo de fim e rótulos (classes). Os arquivos principais são `eval_segments.csv`, `balanced_train_segments.csv` e `unbalanced_train_segments.csv`.
-2.  ***Embeddings* de Áudio (Features):** *Features* de áudio de 128 dimensões extraídas a 1Hz, armazenadas como arquivos TensorFlow Record (2.4 GB no total).
+The dataset is made available in two formats:
+1.  **CSV Files:** Contain the metadata for each segment: YouTube video ID, start time, end time, and labels (classes). The main files are `eval_segments.csv`, `balanced_train_segments.csv`, and `unbalanced_train_segments.csv`.
+2.  ***Audio Embeddings* (Features):** 128-dimensional audio *features* extracted at 1Hz, stored as TensorFlow Record files (2.4 GB in total).
 
-**Acesso aos *Embeddings*:**
-Os *embeddings* podem ser baixados manualmente via `tar.gz` de *buckets* do Google Cloud Storage (GCS) ou usando o utilitário `gsutil` para sincronização:
-`gsutil rsync -d -r features gs://{região}_audioset/youtube_corpus/v1/features` (onde {região} é 'us', 'eu' ou 'asia').
+**Accessing the *Embeddings*:**
+The *embeddings* can be downloaded manually via `tar.gz` from Google Cloud Storage (GCS) *buckets* or by using the `gsutil` utility for synchronization:
+`gsutil rsync -d -r features gs://{region}_audioset/youtube_corpus/v1/features` (where {region} is 'us', 'eu', or 'asia').
 
-**Acesso ao Áudio Bruto:**
-O dataset não fornece os arquivos de áudio brutos. É necessário usar os IDs de vídeo do YouTube e os metadados de tempo para baixar e extrair os clipes de áudio dos vídeos originais do YouTube, o que requer ferramentas de terceiros e está sujeito à disponibilidade do vídeo. O modelo VGGish e o código de suporte estão disponíveis no repositório GitHub do TensorFlow models.
+**Accessing the Raw Audio:**
+The dataset does not provide the raw audio files. It is necessary to use the YouTube video IDs and the time metadata to download and extract the audio clips from the original YouTube videos, which requires third-party tools and is subject to video availability. The VGGish model and supporting code are available in the TensorFlow models GitHub repository.
 
 ## URL
 [https://research.google.com/audioset/](https://research.google.com/audioset/)

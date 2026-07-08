@@ -2,41 +2,41 @@
 
 ## Description
 
-LIME (Local Interpretable Model-agnostic Explanations) é uma técnica inovadora de eXplainable AI (XAI) que visa tornar as previsões de modelos de Machine Learning (ML) de "caixa-preta" compreensíveis para os humanos. Sua proposta de valor única reside em sua **agnosticidade de modelo** e **interpretabilidade local**. A agnosticidade de modelo significa que o LIME pode ser aplicado a *qualquer* modelo de ML, independentemente de sua arquitetura (Redes Neurais, Random Forests, SVMs, etc.). A interpretabilidade local garante que, em vez de tentar explicar o modelo inteiro (o que é inviável para modelos complexos), o LIME explica a previsão de uma *única* instância de dados, ajustando um modelo substituto interpretável (como regressão linear) em torno dessa previsão específica. Isso aumenta a **confiança** e a **auditabilidade** dos sistemas de ML, permitindo que os usuários entendam *por que* uma decisão específica foi tomada.
+LIME (Local Interpretable Model-agnostic Explanations) is an innovative eXplainable AI (XAI) technique that aims to make the predictions of "black-box" Machine Learning (ML) models understandable to humans. Its unique value proposition lies in its **model agnosticism** and **local interpretability**. Model agnosticism means that LIME can be applied to *any* ML model, regardless of its architecture (Neural Networks, Random Forests, SVMs, etc.). Local interpretability ensures that, instead of trying to explain the entire model (which is infeasible for complex models), LIME explains the prediction of a *single* data instance by fitting an interpretable surrogate model (such as linear regression) around that specific prediction. This increases the **trust** and **auditability** of ML systems, allowing users to understand *why* a specific decision was made.
 
 ## Statistics
 
-**Citações Acadêmicas:** O artigo original ("Why Should I Trust You?": Explaining the Predictions of Any Classifier) possui mais de **27.000 citações** (em 2024), destacando seu impacto fundamental no campo de XAI.
-**Popularidade:** É uma das bibliotecas de interpretabilidade de modelo mais populares e amplamente adotadas na comunidade de Machine Learning.
-**Desempenho:** Embora o LIME seja localmente fiel, a fidelidade global do modelo substituto é tipicamente baixa, o que é uma característica inerente ao seu design local.
-**Velocidade:** A geração de explicações pode ser computacionalmente intensiva, especialmente para modelos complexos ou grandes conjuntos de dados, devido à necessidade de perturbar a instância e reavaliar o modelo.
+**Academic Citations:** The original paper ("Why Should I Trust You?": Explaining the Predictions of Any Classifier) has more than **27,000 citations** (as of 2024), highlighting its foundational impact in the field of XAI.
+**Popularity:** It is one of the most popular and widely adopted model interpretability libraries in the Machine Learning community.
+**Performance:** Although LIME is locally faithful, the global fidelity of the surrogate model is typically low, which is an inherent characteristic of its local design.
+**Speed:** Generating explanations can be computationally intensive, especially for complex models or large datasets, due to the need to perturb the instance and re-evaluate the model.
 
 ## Features
 
-**Agnosticismo de Modelo:** Pode explicar as previsões de qualquer modelo de Machine Learning, sem acesso à sua estrutura interna ou parâmetros.
-**Interpretabilidade Local:** Foca em explicar previsões individuais, ajustando um modelo simples e interpretável (por exemplo, regressão linear) localmente em torno da instância de interesse.
-**Suporte a Múltiplos Tipos de Dados:** Funciona com dados tabulares, texto e imagens, usando diferentes métodos de perturbação para gerar amostras vizinhas.
-**Fidelidade:** O modelo substituto local é projetado para ser fiel à previsão do modelo de caixa-preta na vizinhança da instância explicada.
-**Transparência e Confiança:** Ajuda a identificar vieses e falhas do modelo, permitindo que os desenvolvedores e usuários decidam se devem confiar em uma previsão específica.
+**Model Agnosticism:** Can explain the predictions of any Machine Learning model, without access to its internal structure or parameters.
+**Local Interpretability:** Focuses on explaining individual predictions by fitting a simple, interpretable model (for example, linear regression) locally around the instance of interest.
+**Support for Multiple Data Types:** Works with tabular data, text, and images, using different perturbation methods to generate neighboring samples.
+**Fidelity:** The local surrogate model is designed to be faithful to the black-box model's prediction in the neighborhood of the explained instance.
+**Transparency and Trust:** Helps identify model biases and flaws, allowing developers and users to decide whether to trust a specific prediction.
 
 ## Use Cases
 
-**Avaliação de Confiança:** Decidir se uma previsão individual deve ser confiável, especialmente em domínios de alto risco (saúde, finanças).
-**Seleção de Modelo:** Comparar modelos de ML diferentes com base em suas explicações para escolher o mais robusto e menos enviesado.
-**Depuração de Modelo:** Identificar falhas e vieses em modelos de "caixa-preta", revelando que o modelo pode estar usando características irrelevantes ou espúrias para fazer previsões.
-**Conformidade Regulatória:** Atender aos requisitos de transparência e explicabilidade em setores regulamentados (por exemplo, GDPR, leis de discriminação algorítmica).
-**Melhoria de Modelo:** Usar as explicações para obter *insights* sobre o modelo e o conjunto de dados, levando a melhorias no *feature engineering* ou na arquitetura do modelo.
+**Trust Assessment:** Deciding whether an individual prediction should be trusted, especially in high-stakes domains (healthcare, finance).
+**Model Selection:** Comparing different ML models based on their explanations to choose the most robust and least biased one.
+**Model Debugging:** Identifying flaws and biases in "black-box" models, revealing that the model may be using irrelevant or spurious features to make predictions.
+**Regulatory Compliance:** Meeting transparency and explainability requirements in regulated sectors (for example, GDPR, algorithmic discrimination laws).
+**Model Improvement:** Using the explanations to gain *insights* about the model and the dataset, leading to improvements in *feature engineering* or model architecture.
 
 ## Integration
 
-A integração do LIME é feita através de sua biblioteca Python, que requer que o modelo de Machine Learning forneça uma função de previsão de probabilidade. O exemplo a seguir demonstra o uso do `LimeTabularExplainer` com um modelo `RandomForestClassifier` do Scikit-learn para explicar uma previsão no conjunto de dados Iris.
+LIME integration is done through its Python library, which requires the Machine Learning model to provide a probability prediction function. The following example demonstrates the use of `LimeTabularExplainer` with a Scikit-learn `RandomForestClassifier` model to explain a prediction on the Iris dataset.
 
-**Pré-requisitos:**
+**Prerequisites:**
 ```bash
 sudo pip3 install lime scikit-learn
 ```
 
-**Exemplo de Código Python (lime_example.py):**
+**Python Code Example (lime_example.py):**
 ```python
 import lime
 import lime.lime_tabular
@@ -45,59 +45,59 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
-# 1. Carregar e preparar os dados
+# 1. Load and prepare the data
 iris = load_iris()
 X, y = iris.data, iris.target
 feature_names = iris.feature_names
 class_names = [str(x) for x in iris.target_names]
 
-# Dividir os dados em treino e teste
+# Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
 
-# 2. Treinar um modelo "caixa-preta" (Random Forest)
+# 2. Train a "black-box" model (Random Forest)
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
-# 3. Criar o explicador LIME
+# 3. Create the LIME explainer
 explainer = lime.lime_tabular.LimeTabularExplainer(
     training_data=X_train,
     feature_names=feature_names,
     class_names=class_names,
     mode='classification',
-    kernel_width=0.25 # Controla o tamanho da vizinhança local
+    kernel_width=0.25 # Controls the size of the local neighborhood
 )
 
-# 4. Escolher uma instância para explicar (o primeiro ponto de teste)
+# 4. Choose an instance to explain (the first test point)
 instance_to_explain = X_test[0]
 prediction = class_names[model.predict(instance_to_explain.reshape(1, -1))[0]]
 
-print(f"Instância a ser explicada: {instance_to_explain}")
-print(f"Previsão do Modelo: {prediction}\n")
+print(f"Instance to be explained: {instance_to_explain}")
+print(f"Model Prediction: {prediction}\n")
 
-# 5. Gerar a explicação
-# 'num_features' define quantas características mais importantes serão mostradas
+# 5. Generate the explanation
+# 'num_features' defines how many of the most important features will be shown
 explanation = explainer.explain_instance(
     data_row=instance_to_explain,
     predict_fn=model.predict_proba,
     num_features=2
 )
 
-# 6. Exibir a explicação
-print("Explicação LIME (Top 2 Características):")
+# 6. Display the explanation
+print("LIME Explanation (Top 2 Features):")
 for feature, weight in explanation.as_list():
     print(f" - {feature}: {weight:.4f}")
 ```
 
-**Saída do Exemplo:**
+**Example Output:**
 ```
-Instância a ser explicada: [6.1 2.8 4.7 1.2]
-Previsão do Modelo: versicolor
+Instance to be explained: [6.1 2.8 4.7 1.2]
+Model Prediction: versicolor
 
-Explicação LIME (Top 2 Características):
+LIME Explanation (Top 2 Features):
  - 0.30 < petal width (cm) <= 1.30: 0.0095
  - 4.30 < petal length (cm) <= 5.10: 0.0073
 ```
-A saída mostra que a previsão para a classe "versicolor" foi influenciada positivamente pela largura e comprimento da pétala dentro de faixas específicas.
+The output shows that the prediction for the "versicolor" class was positively influenced by the petal width and length within specific ranges.
 
 ## URL
 

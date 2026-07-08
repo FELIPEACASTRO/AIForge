@@ -1,51 +1,51 @@
 # BookCorpus
 
 ## Description
-O **BookCorpus** é um corpus de texto massivo, originalmente composto por cerca de 11.038 livros auto-publicados, extraídos da plataforma de distribuição de e-books independentes Smashwords. Foi criado para o treinamento de modelos de linguagem influentes, como o **BERT** e seus derivados, sendo notável por fornecer texto de formato longo, o que é crucial para o aprendizado de dependências de longo alcance em modelos de Processamento de Linguagem Natural (PLN). Uma análise retrospectiva de 2021 destacou que o dataset possui "dívida de documentação", contém restrições de direitos autorais, inclui milhares de livros duplicados e apresenta um viés significativo na representação de gêneros (por exemplo, Romance e Fantasia são super-representados). A versão mais limpa e amplamente utilizada atualmente é o **BookCorpusOpen**, que tenta mitigar essas deficiências.
+**BookCorpus** is a massive text corpus, originally composed of about 11,038 self-published books extracted from the independent e-book distribution platform Smashwords. It was created for training influential language models such as **BERT** and its derivatives, and is notable for providing long-form text, which is crucial for learning long-range dependencies in Natural Language Processing (NLP) models. A 2021 retrospective analysis highlighted that the dataset has "documentation debt," contains copyright restrictions, includes thousands of duplicate books, and presents a significant bias in genre representation (for example, Romance and Fantasy are over-represented). The cleaner and most widely used version currently is **BookCorpusOpen**, which attempts to mitigate these shortcomings.
 
 ## Statistics
-- **Número de Livros (Versão Analisada em 2021):** 11.038 (com apenas 7.185 livros únicos).
-- **Número de Sentenças:** 74.004.228
-- **Número de Palavras:** 984.346.357
-- **Tamanho do Download (Versão Hugging Face):** 4.61 GB (arquivos de dataset) / 3.02 GB (arquivos Parquet convertidos).
-- **Versões Notáveis:**
-    - **Original BookCorpus (2015):** Versão inicial usada para treinar o BERT.
-    - **BookCorpusOpen:** Uma versão mais limpa e popular que visa resolver problemas de duplicação e direitos autorais.
-    - **Versões em Repositórios (e.g., Hugging Face):** Variantes re-hospedadas e pré-processadas.
+- **Number of Books (2021 Analyzed Version):** 11,038 (with only 7,185 unique books).
+- **Number of Sentences:** 74,004,228
+- **Number of Words:** 984,346,357
+- **Download Size (Hugging Face Version):** 4.61 GB (dataset files) / 3.02 GB (converted Parquet files).
+- **Notable Versions:**
+    - **Original BookCorpus (2015):** Initial version used to train BERT.
+    - **BookCorpusOpen:** A cleaner and more popular version that aims to resolve duplication and copyright issues.
+    - **Repository Versions (e.g., Hugging Face):** Re-hosted and pre-processed variants.
 
 ## Features
-- **Texto de Formato Longo:** Ideal para treinar modelos de linguagem na compreensão de contexto e dependências de longo alcance.
-- **Diversidade de Gêneros:** Embora com viés, inclui uma variedade de gêneros de ficção, como Romance, Fantasia e Ficção Científica.
-- **Grande Escala:** Um dos primeiros datasets de grande escala para pré-treinamento de modelos de PLN.
-- **Base para Modelos Fundamentais:** Serviu como base para o desenvolvimento de modelos como BERT, RoBERTa e GPT-N.
+- **Long-Form Text:** Ideal for training language models on understanding context and long-range dependencies.
+- **Genre Diversity:** Although biased, it includes a variety of fiction genres, such as Romance, Fantasy, and Science Fiction.
+- **Large Scale:** One of the first large-scale datasets for pre-training NLP models.
+- **Foundation for Foundational Models:** Served as a foundation for the development of models such as BERT, RoBERTa, and GPT-N.
 
 ## Use Cases
-- **Pré-treinamento de Modelos de Linguagem:** Usado para treinar modelos de PLN de grande escala, como BERT, RoBERTa, e modelos da série GPT.
-- **Aprendizado de Representações de Sentenças:** Ideal para o aprendizado não supervisionado de codificações de sentenças e parágrafos.
-- **Tarefas de Geração de Linguagem:** O texto de formato longo é útil para treinar modelos a gerar narrativas e textos coerentes.
-- **Pesquisa em PLN:** Utilizado como benchmark e corpus de treinamento em diversas pesquisas acadêmicas sobre compreensão e geração de linguagem.
+- **Pre-training of Language Models:** Used to train large-scale NLP models such as BERT, RoBERTa, and the GPT series of models.
+- **Learning Sentence Representations:** Ideal for unsupervised learning of sentence and paragraph encodings.
+- **Language Generation Tasks:** The long-form text is useful for training models to generate coherent narratives and texts.
+- **NLP Research:** Used as a benchmark and training corpus in various academic research on language understanding and generation.
 
 ## Integration
-A forma mais recomendada e acessível de utilizar o BookCorpus é através de repositórios de datasets como o **Hugging Face**, que geralmente oferecem versões pré-processadas e mais limpas (como o BookCorpusOpen ou variantes refinadas).
+The most recommended and accessible way to use BookCorpus is through dataset repositories such as **Hugging Face**, which generally offer pre-processed and cleaner versions (such as BookCorpusOpen or refined variants).
 
-**Exemplo de Uso com a Biblioteca `datasets` do Hugging Face (Versão `rojagtap/bookcorpus`):**
+**Usage Example with the Hugging Face `datasets` Library (`rojagtap/bookcorpus` Version):**
 
 ```python
 from datasets import load_dataset
 
-# Carrega o dataset
+# Load the dataset
 ds = load_dataset("rojagtap/bookcorpus")
 
-# Acessa o split de treinamento
+# Access the training split
 train_data = ds["train"]
 
-# Exibe o primeiro exemplo
+# Display the first example
 print(train_data[0])
 ```
 
-**Alternativas:**
-- **Kaggle:** Diversas versões refinadas ou parciais do BookCorpus estão disponíveis no Kaggle.
-- **Repositórios Não Oficiais:** Devido a questões de direitos autorais e remoção da fonte original (Smashwords), a versão original não está mais disponível diretamente, sendo necessário buscar versões re-hospedadas ou derivadas.
+**Alternatives:**
+- **Kaggle:** Various refined or partial versions of BookCorpus are available on Kaggle.
+- **Unofficial Repositories:** Due to copyright issues and removal of the original source (Smashwords), the original version is no longer directly available, requiring you to seek re-hosted or derived versions.
 
 ## URL
 [https://huggingface.co/datasets/rojagtap/bookcorpus](https://huggingface.co/datasets/rojagtap/bookcorpus)

@@ -1,56 +1,56 @@
 # Insurance Analysis Prompts
 
 ## Description
-A engenharia de prompts para análise de seguros refere-se à criação e otimização de instruções (prompts) para Large Language Models (LLMs) com o objetivo de automatizar e aprimorar tarefas específicas do setor de seguros. Isso inclui a análise de documentos de apólices, processamento de sinistros, avaliação de risco (subscrição), detecção de fraude e interação com o cliente. A chave é fornecer ao LLM contexto e estrutura suficientes para que ele atue como um especialista em seguros, garantindo precisão e conformidade regulatória. A precisão e a conformidade regulatória são aspectos críticos que exigem o uso de técnicas avançadas de prompt, como o Chain-of-Thought (CoT), para garantir a rastreabilidade e a justificativa das decisões.
+Prompt engineering for insurance analysis refers to the creation and optimization of instructions (prompts) for Large Language Models (LLMs) with the goal of automating and enhancing tasks specific to the insurance sector. This includes analyzing policy documents, processing claims, risk assessment (underwriting), fraud detection, and customer interaction. The key is to provide the LLM with sufficient context and structure so that it acts as an insurance expert, ensuring accuracy and regulatory compliance. Accuracy and regulatory compliance are critical aspects that require the use of advanced prompting techniques, such as Chain-of-Thought (CoT), to ensure the traceability and justification of decisions.
 
 ## Examples
 ```
-### Exemplo 1: Sumarização de Apólice (Policy Summarization)
-**Papel:** Analista de Apólices Sênior
-**Instrução:** "Você é um Analista de Apólices Sênior. Sua tarefa é resumir a apólice de seguro fornecida abaixo. O resumo deve ter no máximo 200 palavras e deve destacar obrigatoriamente: 1) O limite máximo de cobertura para 'Danos a Terceiros', 2) O valor da franquia (dedutível) para 'Colisão', e 3) As duas principais exclusões de cobertura. Use a seção exata da apólice para justificar cada ponto."
-**Entrada:** `[Texto completo da apólice]`
+### Example 1: Policy Summarization
+**Role:** Senior Policy Analyst
+**Instruction:** "You are a Senior Policy Analyst. Your task is to summarize the insurance policy provided below. The summary must be no more than 200 words and must mandatorily highlight: 1) The maximum coverage limit for 'Third-Party Damages', 2) The deductible amount for 'Collision', and 3) The two main coverage exclusions. Use the exact section of the policy to justify each point."
+**Input:** `[Full policy text]`
 
-### Exemplo 2: Avaliação de Sinistro (Claim Evaluation)
-**Papel:** Avaliador de Sinistros
-**Instrução:** "Atue como um Avaliador de Sinistros. Analise os 'Detalhes do Sinistro' e o 'Trecho da Apólice' fornecidos. Determine se o sinistro é coberto. **Passos de Raciocínio (Chain-of-Thought):** 1. Identifique a cláusula de cobertura relevante. 2. Verifique se alguma exclusão se aplica. 3. Conclua a elegibilidade. Sua resposta final deve ser 'COBERTO' ou 'NÃO COBERTO', seguida pela sua justificativa passo a passo."
-**Entrada:** `Detalhes do Sinistro: [Descrição do evento]`, `Trecho da Apólice: [Cláusulas relevantes]`
+### Example 2: Claim Evaluation
+**Role:** Claims Adjuster
+**Instruction:** "Act as a Claims Adjuster. Analyze the 'Claim Details' and the 'Policy Excerpt' provided. Determine whether the claim is covered. **Reasoning Steps (Chain-of-Thought):** 1. Identify the relevant coverage clause. 2. Check whether any exclusion applies. 3. Conclude eligibility. Your final answer must be 'COVERED' or 'NOT COVERED', followed by your step-by-step justification."
+**Input:** `Claim Details: [Event description]`, `Policy Excerpt: [Relevant clauses]`
 
-### Exemplo 3: Comparação de Propostas (Proposal Comparison)
-**Papel:** Consultor de Seguros
-**Instrução:** "Você é um Consultor de Seguros imparcial. Compare as duas propostas de seguro de automóvel abaixo. Crie uma tabela comparativa que inclua: Prêmio Anual, Cobertura contra Roubo, Franquia e Classificação de Risco (Baixo, Médio, Alto) com base nas exclusões. Recomende a melhor opção para um cliente que prioriza o menor custo total em caso de sinistro."
-**Entrada:** `Proposta A: [Detalhes]`, `Proposta B: [Detalhes]`
+### Example 3: Proposal Comparison
+**Role:** Insurance Advisor
+**Instruction:** "You are an impartial Insurance Advisor. Compare the two auto insurance proposals below. Create a comparison table that includes: Annual Premium, Theft Coverage, Deductible, and Risk Rating (Low, Medium, High) based on the exclusions. Recommend the best option for a client who prioritizes the lowest total cost in the event of a claim."
+**Input:** `Proposal A: [Details]`, `Proposal B: [Details]`
 
-### Exemplo 4: Análise de Risco de Subscrição (Underwriting Risk Analysis)
-**Papel:** Subscritor de Risco
-**Instrução:** "Analise o perfil do proponente e o histórico de sinistros. Com base nos dados, atribua uma pontuação de risco de 1 (Baixo) a 10 (Alto) e justifique a pontuação. Se a pontuação for superior a 7, sugira uma cláusula de exclusão ou um aumento de prêmio de 15%."
-**Entrada:** `Perfil do Proponente: [Idade, Localização, Tipo de Propriedade]`, `Histórico de Sinistros: [Data, Tipo, Valor]`
+### Example 4: Underwriting Risk Analysis
+**Role:** Risk Underwriter
+**Instruction:** "Analyze the applicant's profile and claims history. Based on the data, assign a risk score from 1 (Low) to 10 (High) and justify the score. If the score is above 7, suggest an exclusion clause or a 15% premium increase."
+**Input:** `Applicant Profile: [Age, Location, Property Type]`, `Claims History: [Date, Type, Amount]`
 
-### Exemplo 5: Geração de Comunicação de Não Cobertura (Denial Letter Generation)
-**Papel:** Agente de Comunicação Legal
-**Instrução:** "Gere uma carta formal de recusa de sinistro para o cliente [Nome do Cliente]. O motivo da recusa é a 'Cláusula de Exclusão de Desastres Naturais' (Seção 4.B da apólice). A carta deve ser empática, citar a seção exata da apólice e informar o cliente sobre o processo de apelação."
-**Entrada:** `Nome do Cliente: João Silva`, `Número da Apólice: 12345`, `Data do Sinistro: 01/01/2025`
+### Example 5: Denial Letter Generation
+**Role:** Legal Communications Agent
+**Instruction:** "Generate a formal claim denial letter for the client [Client Name]. The reason for denial is the 'Natural Disasters Exclusion Clause' (Section 4.B of the policy). The letter must be empathetic, cite the exact section of the policy, and inform the client about the appeals process."
+**Input:** `Client Name: João Silva`, `Policy Number: 12345`, `Claim Date: 01/01/2025`
 ```
 
 ## Best Practices
-1. **Atribuição de Papel (Role Assignment):** Comece o prompt definindo o papel do LLM (ex: "Você é um subscritor sênior de seguros de propriedade e acidentes").
-2. **Estrutura e Variáveis:** Utilize templates de prompt estruturados com variáveis claras (ex: `{policy_text}`, `{claim_details}`) para garantir que o modelo receba todas as informações necessárias.
-3. **Estratégias de Raciocínio:** Implemente estratégias de prompting avançadas como **Chain-of-Thought (CoT)** para tarefas complexas (ex: avaliação de sinistros), solicitando que o modelo justifique seu raciocínio passo a passo.
-4. **Foco em Conformidade e Precisão:** Inclua instruções explícitas para que o modelo cite a seção exata da apólice ou regulamento que suporta sua conclusão.
-5. **Avaliação Rigorosa:** Utilize frameworks de avaliação com métricas específicas do domínio (ex: precisão na extração de cláusulas, conformidade regulatória) e avaliação humana.
+1. **Role Assignment:** Begin the prompt by defining the LLM's role (e.g., "You are a senior property and casualty insurance underwriter").
+2. **Structure and Variables:** Use structured prompt templates with clear variables (e.g., `{policy_text}`, `{claim_details}`) to ensure the model receives all necessary information.
+3. **Reasoning Strategies:** Implement advanced prompting strategies such as **Chain-of-Thought (CoT)** for complex tasks (e.g., claim evaluation), asking the model to justify its reasoning step by step.
+4. **Focus on Compliance and Accuracy:** Include explicit instructions for the model to cite the exact section of the policy or regulation that supports its conclusion.
+5. **Rigorous Evaluation:** Use evaluation frameworks with domain-specific metrics (e.g., accuracy in clause extraction, regulatory compliance) and human review.
 
 ## Use Cases
-1. **Subscrição e Avaliação de Risco:** Analisar dados de candidatos a seguro (histórico de sinistros, informações demográficas) para determinar a elegibilidade e o prêmio.
-2. **Processamento de Sinistros:** Avaliar a validade de um sinistro, calcular o valor do pagamento e gerar a carta de decisão, comparando os detalhes do sinistro com os termos da apólice.
-3. **Análise de Documentos de Apólice:** Sumarizar apólices complexas, extrair cláusulas específicas (exclusões, franquias) e comparar diferentes propostas de seguro.
-4. **Detecção de Fraude:** Analisar padrões em relatórios de sinistros e documentos de suporte para identificar anomalias ou indicadores de fraude.
-5. **Atendimento ao Cliente (Chatbots Especializados):** Responder a perguntas complexas de clientes sobre coberturas e processos de sinistro com base em documentos internos.
+1. **Underwriting and Risk Assessment:** Analyze insurance applicant data (claims history, demographic information) to determine eligibility and premium.
+2. **Claims Processing:** Assess the validity of a claim, calculate the payout amount, and generate the decision letter by comparing the claim details with the policy terms.
+3. **Policy Document Analysis:** Summarize complex policies, extract specific clauses (exclusions, deductibles), and compare different insurance proposals.
+4. **Fraud Detection:** Analyze patterns in claim reports and supporting documents to identify anomalies or fraud indicators.
+5. **Customer Service (Specialized Chatbots):** Answer complex customer questions about coverage and claim processes based on internal documents.
 
 ## Pitfalls
-1. **Alucinações e Imprecisão:** O LLM pode gerar informações factualmente incorretas ou citar cláusulas inexistentes, o que é crítico em um setor regulamentado.
-2. **Viés e Injustiça:** Se os dados de treinamento contiverem viés, o modelo pode levar a decisões de subscrição ou sinistro injustas ou discriminatórias.
-3. **Falta de Contexto Específico:** Prompts muito genéricos falham em capturar a complexidade e a terminologia técnica do domínio de seguros.
-4. **Dependência Excessiva de Zero-Shot:** Para tarefas de alto risco, depender apenas de prompts simples (zero-shot) sem CoT ou validação externa é perigoso.
-5. **Insegurança de Dados (Data Leakage):** O uso de dados sensíveis de clientes em prompts sem a devida anonimização ou em modelos não seguros.
+1. **Hallucinations and Inaccuracy:** The LLM may generate factually incorrect information or cite nonexistent clauses, which is critical in a regulated sector.
+2. **Bias and Unfairness:** If the training data contains bias, the model may lead to unfair or discriminatory underwriting or claims decisions.
+3. **Lack of Specific Context:** Overly generic prompts fail to capture the complexity and technical terminology of the insurance domain.
+4. **Overreliance on Zero-Shot:** For high-risk tasks, relying solely on simple (zero-shot) prompts without CoT or external validation is dangerous.
+5. **Data Insecurity (Data Leakage):** The use of sensitive customer data in prompts without proper anonymization or on non-secure models.
 
 ## URL
 [https://github.com/ozturkoktay/insurance-llm-framework](https://github.com/ozturkoktay/insurance-llm-framework)

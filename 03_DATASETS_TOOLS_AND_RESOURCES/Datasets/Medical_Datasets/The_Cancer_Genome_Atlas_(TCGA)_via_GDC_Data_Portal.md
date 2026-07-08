@@ -2,37 +2,37 @@
 
 ## Description
 
-O The Cancer Genome Atlas (TCGA) é um programa abrangente e coordenado para mapear as alterações genômicas do câncer. Os dados são acessados e harmonizados através do Genomic Data Commons (GDC) Data Portal, que fornece uma plataforma computacional para pesquisadores de câncer. O GDC harmoniza dados clínicos e genômicos, incluindo sequenciamento de genoma completo (WGS), sequenciamento de exoma completo (WES), RNA-Seq, miRNA-Seq, metilação e dados clínicos.
+The Cancer Genome Atlas (TCGA) is a comprehensive, coordinated program to map the genomic alterations of cancer. The data is accessed and harmonized through the Genomic Data Commons (GDC) Data Portal, which provides a computational platform for cancer researchers. The GDC harmonizes clinical and genomic data, including whole genome sequencing (WGS), whole exome sequencing (WES), RNA-Seq, miRNA-Seq, methylation, and clinical data.
 
 ## Statistics
 
-Dados da Data Release 44.0 (Outubro de 2025): 88 Projetos, 69 Sítios Primários, 48.763 Casos, 1.223.539 Arquivos, 22.580 Genes, 3.082.397 Mutações. Os dados são continuamente atualizados e expandidos com novos projetos como APOLLO-OV e CCDI-MCI.
+Data from Data Release 44.0 (October 2025): 88 Projects, 69 Primary Sites, 48,763 Cases, 1,223,539 Files, 22,580 Genes, 3,082,397 Mutations. The data is continuously updated and expanded with new projects such as APOLLO-OV and CCDI-MCI.
 
 ## Features
 
-Dados multi-ômicos harmonizados (genômica, transcriptômica, epigenômica, proteômica) e dados clínicos padronizados. Inclui variantes somáticas, expressão gênica, contagens de RNA-Seq, dados de metilação, e imagens de lâminas (WSIs).
+Harmonized multi-omics data (genomics, transcriptomics, epigenomics, proteomics) and standardized clinical data. Includes somatic variants, gene expression, RNA-Seq counts, methylation data, and slide images (WSIs).
 
 ## Use Cases
 
-Identificação de novos biomarcadores e alvos terapêuticos, classificação de subtipos de câncer, estudos de sobrevivência e prognóstico, desenvolvimento de modelos de aprendizado de máquina para predição de resposta a medicamentos e progressão da doença.
+Identification of new biomarkers and therapeutic targets, classification of cancer subtypes, survival and prognosis studies, and development of machine learning models for predicting drug response and disease progression.
 
 ## Integration
 
-Acesso via GDC Data Portal (interface web) ou GDC API. Ferramentas como TCGADownloadHelper (Python) simplificam a extração e pré-processamento. O GDC Data Transfer Tool é recomendado para download de grandes volumes de dados. Exemplo de uso do TCGADownloadHelper:
+Access via the GDC Data Portal (web interface) or the GDC API. Tools such as TCGADownloadHelper (Python) simplify extraction and preprocessing. The GDC Data Transfer Tool is recommended for downloading large volumes of data. Example use of TCGADownloadHelper:
 
 ```python
-# Instalação (exemplo)
+# Installation (example)
 # pip install TCGADownloadHelper
 
 from TCGADownloadHelper import TCGADownloadHelper
 
-# Inicializa o helper
+# Initialize the helper
 tcga_helper = TCGADownloadHelper(project_name='TCGA-BRCA', data_type='RNA-Seq', file_type='counts')
 
-# Baixa os dados
+# Download the data
 tcga_helper.download_data()
 
-# Prepara os dados para análise (exemplo)
+# Prepare the data for analysis (example)
 df = tcga_helper.prepare_data()
 print(df.head())
 ```

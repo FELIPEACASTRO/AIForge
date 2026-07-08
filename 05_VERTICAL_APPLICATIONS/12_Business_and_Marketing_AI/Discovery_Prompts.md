@@ -1,73 +1,73 @@
 # Discovery Prompts
 
 ## Description
-Discovery Prompts (Prompts de Descoberta) são uma técnica de Engenharia de Prompt focada em acelerar e aprofundar a fase de **Product Discovery** (Descoberta de Produto) e **User Research** (Pesquisa de Usuário). O cerne da técnica é instruir o Modelo de Linguagem Grande (LLM) a assumir o papel de um especialista em Lean Startup, Product Discovery ou UX Researcher. O objetivo principal é utilizar a IA para ajudar a **definir o problema, gerar hipóteses de solução, criar planos de pesquisa (entrevistas, surveys, testes) e sugerir métodos de validação de baixo custo e baixa tecnologia** ("processualizar antes de produtizar"). Em vez de pedir à IA para construir a solução final, o Discovery Prompt a utiliza para estruturar o processo de aprendizado e validação inicial, minimizando o desperdício de recursos em soluções não validadas. É uma abordagem que prioriza o aprendizado e a redução de risco antes do desenvolvimento completo de software.
+Discovery Prompts are a Prompt Engineering technique focused on accelerating and deepening the **Product Discovery** and **User Research** phase. The core of the technique is instructing the Large Language Model (LLM) to take on the role of an expert in Lean Startup, Product Discovery, or UX Research. The main goal is to use AI to help **define the problem, generate solution hypotheses, create research plans (interviews, surveys, tests), and suggest low-cost, low-tech validation methods** ("processualize before productizing"). Rather than asking the AI to build the final solution, the Discovery Prompt uses it to structure the initial learning and validation process, minimizing the waste of resources on unvalidated solutions. It is an approach that prioritizes learning and risk reduction before full software development.
 
 ## Examples
 ```
-**Exemplo 1: Geração de Hipótese e Plano de Validação (Role-Playing)**
+**Example 1: Hypothesis Generation and Validation Plan (Role-Playing)**
 
-**Instrução:** Atue como um **Product Manager sênior** especializado em Lean Startup. Nosso problema é: "Usuários de pequenas empresas perdem muito tempo inserindo dados manualmente em nosso software de gestão, o que causa alta taxa de abandono após o primeiro mês."
+**Instruction:** Act as a **senior Product Manager** specialized in Lean Startup. Our problem is: "Small business users spend a lot of time manually entering data into our management software, which causes a high abandonment rate after the first month."
 
-**Prompt:** "Com base no problema, gere uma **Hipótese de Valor** clara (formato: 'Acreditamos que [ação] para [público] resultará em [resultado mensurável]'). Em seguida, proponha **três experimentos de baixo custo** (ex: Concierge MVP, Landing Page de Fumaça, Entrevistas) para validar esta hipótese antes de qualquer desenvolvimento de software. Para cada experimento, defina o **critério de sucesso**."
+**Prompt:** "Based on the problem, generate a clear **Value Hypothesis** (format: 'We believe that [action] for [audience] will result in [measurable outcome]'). Then, propose **three low-cost experiments** (e.g., Concierge MVP, Smoke Test Landing Page, Interviews) to validate this hypothesis before any software development. For each experiment, define the **success criterion**."
 
-**Exemplo 2: Criação de Roteiro de Entrevista (User Research)**
+**Example 2: Interview Script Creation (User Research)**
 
-**Instrução:** Atue como um **UX Researcher** com foco em entrevistas de profundidade. Nossa hipótese é: "A introdução de um recurso de importação automática de planilhas reduzirá o tempo de setup inicial em 50% para novos clientes."
+**Instruction:** Act as a **UX Researcher** focused on in-depth interviews. Our hypothesis is: "The introduction of an automatic spreadsheet import feature will reduce initial setup time by 50% for new customers."
 
-**Prompt:** "Crie um **roteiro de entrevista semi-estruturado** com 8 perguntas abertas para validar esta hipótese. As perguntas devem focar na **dor atual** (como eles fazem hoje), na **necessidade** (o que eles esperam de uma solução) e na **disposição a pagar/usar** (o valor percebido). Inclua uma pergunta de 'teste de estresse' para refutar a hipótese."
+**Prompt:** "Create a **semi-structured interview script** with 8 open-ended questions to validate this hypothesis. The questions should focus on the **current pain** (how they do it today), the **need** (what they expect from a solution), and the **willingness to pay/use** (perceived value). Include a 'stress test' question to refute the hypothesis."
 
-**Exemplo 3: Análise de Concorrência e Lacunas (Benchmark)**
+**Example 3: Competitor and Gap Analysis (Benchmark)**
 
-**Instrução:** Atue como um **Analista de Inteligência Competitiva**. Nosso produto é um aplicativo de meditação. Queremos descobrir o que falta em nossa oferta para usuários avançados.
+**Instruction:** Act as a **Competitive Intelligence Analyst**. Our product is a meditation app. We want to discover what is missing in our offering for advanced users.
 
-**Prompt:** "Identifique **três concorrentes diretos e dois indiretos** (ex: jogos de quebra-cabeça) no mercado de bem-estar digital. Analise as **funcionalidades de 'descoberta'** (como o usuário encontra novos conteúdos) e as **estratégias de retenção** para usuários que usam o aplicativo há mais de 6 meses. Apresente os resultados em uma tabela, destacando as **lacunas** que podemos explorar em nosso Discovery."
+**Prompt:** "Identify **three direct and two indirect competitors** (e.g., puzzle games) in the digital wellness market. Analyze the **'discovery' features** (how the user finds new content) and the **retention strategies** for users who have used the app for more than 6 months. Present the results in a table, highlighting the **gaps** we can explore in our Discovery."
 
-**Exemplo 4: Definição de Métricas para MVP Manual**
+**Example 4: Defining Metrics for a Manual MVP**
 
-**Instrução:** Atue como um **Especialista em Growth e Métrica**. Estamos testando manualmente um serviço de curadoria de notícias para executivos (o 'MVP Manual').
+**Instruction:** Act as a **Growth and Metrics Specialist**. We are manually testing a news curation service for executives (the 'Manual MVP').
 
-**Prompt:** "Quais são as **três métricas de sucesso** mais importantes para este MVP Manual, focadas em aprendizado e validação, e não em escala? Defina o **objetivo quantitativo** (ex: 'X% de Y') para cada métrica que indicaria que a hipótese de valor foi validada e que devemos 'produtizar' o serviço."
+**Prompt:** "What are the **three most important success metrics** for this Manual MVP, focused on learning and validation rather than scale? Define the **quantitative target** (e.g., 'X% of Y') for each metric that would indicate the value hypothesis has been validated and that we should 'productize' the service."
 
-**Exemplo 5: Refutação de Hipótese (Pensamento Crítico)**
+**Example 5: Hypothesis Refutation (Critical Thinking)**
 
-**Instrução:** Atue como um **Cético de Produto**. Nossa equipe está muito animada com a ideia de um 'bot de atendimento 24/7'.
+**Instruction:** Act as a **Product Skeptic**. Our team is very excited about the idea of a '24/7 support bot'.
 
-**Prompt:** "Liste **cinco razões críticas** pelas quais um bot de atendimento 24/7 pode **falhar** em nosso contexto (Pequenas Empresas de Serviços). Para cada razão, sugira uma **pergunta de pesquisa** que devemos fazer aos usuários para tentar **refutar** a ideia do bot antes de construí-lo."
+**Prompt:** "List **five critical reasons** why a 24/7 support bot might **fail** in our context (Small Service Businesses). For each reason, suggest a **research question** we should ask users to try to **refute** the bot idea before building it."
 
-**Exemplo 6: Estruturação de Pesquisa Quantitativa (Survey)**
+**Example 6: Structuring Quantitative Research (Survey)**
 
-**Instrução:** Atue como um **Especialista em Pesquisa Quantitativa**. Queremos medir a frequência e a intensidade da dor de 'gerenciar faturas de fornecedores' em nossa base de 500 clientes.
+**Instruction:** Act as a **Quantitative Research Specialist**. We want to measure the frequency and intensity of the pain of 'managing supplier invoices' across our base of 500 customers.
 
-**Prompt:** "Crie um **mini-survey** com 5 perguntas (incluindo perguntas de escala Likert e múltipla escolha) para medir a **frequência** e a **severidade** deste problema. Inclua uma pergunta demográfica chave para segmentação. O objetivo é obter dados para priorizar esta dor no roadmap."
+**Prompt:** "Create a **mini-survey** with 5 questions (including Likert scale and multiple-choice questions) to measure the **frequency** and **severity** of this problem. Include a key demographic question for segmentation. The goal is to obtain data to prioritize this pain point on the roadmap."
 
-**Exemplo 7: Análise de Dados Existentes (Feedback de Suporte)**
+**Example 7: Analysis of Existing Data (Support Feedback)**
 
-**Instrução:** Atue como um **Cientista de Dados de Produto**. Temos 500 tickets de suporte abertos no último mês.
+**Instruction:** Act as a **Product Data Scientist**. We have 500 support tickets opened in the last month.
 
-**Prompt:** "Se eu te fornecer o texto desses 500 tickets, quais **cinco categorias de problemas** você sugeriria para agrupá-los? Quais **três palavras-chave** você usaria para identificar rapidamente se o problema está relacionado à 'usabilidade', 'valor' ou 'viabilidade técnica'? O objetivo é usar a IA para estruturar a análise de dados qualitativos."
+**Prompt:** "If I provide you with the text of these 500 tickets, which **five problem categories** would you suggest to group them? Which **three keywords** would you use to quickly identify whether the problem is related to 'usability', 'value', or 'technical viability'? The goal is to use AI to structure the analysis of qualitative data."
 ```
 
 ## Best Practices
-1. **Definição de Persona/Papel (Role-Playing):** Comece o prompt instruindo a IA a assumir o papel de um especialista (ex: "Atue como um Product Manager sênior...").
-2. **Contexto Detalhado do Problema:** Forneça o máximo de contexto possível sobre o problema, o público-alvo e o objetivo de negócio.
-3. **Foco na Validação:** Peça explicitamente à IA para sugerir **métodos de validação** (ex: "Quais são 3 experimentos de baixo custo para validar esta hipótese?").
-4. **Perguntas Investigativas:** Use o prompt para gerar perguntas que aprofundem o entendimento do problema (ex: "Gere 10 perguntas de entrevista para usuários sobre este ponto de dor.").
-5. **Iteração e Refinamento:** Use a saída da IA como ponto de partida para prompts de acompanhamento, refinando o problema ou a hipótese.
+1. **Persona/Role Definition (Role-Playing):** Start the prompt by instructing the AI to take on the role of an expert (e.g., "Act as a senior Product Manager...").
+2. **Detailed Problem Context:** Provide as much context as possible about the problem, the target audience, and the business objective.
+3. **Focus on Validation:** Explicitly ask the AI to suggest **validation methods** (e.g., "What are 3 low-cost experiments to validate this hypothesis?").
+4. **Investigative Questions:** Use the prompt to generate questions that deepen understanding of the problem (e.g., "Generate 10 interview questions for users about this pain point.").
+5. **Iteration and Refinement:** Use the AI's output as a starting point for follow-up prompts, refining the problem or the hypothesis.
 
 ## Use Cases
-1. **Geração de Hipóteses:** Criar hipóteses de valor, usabilidade e viabilidade para um novo recurso ou produto.
-2. **Desenho de Pesquisa:** Elaborar roteiros de entrevistas, questionários de pesquisa (surveys) e planos de teste de usabilidade.
-3. **Análise de Concorrência (Benchmark):** Solicitar à IA que identifique concorrentes indiretos e suas soluções para um problema específico.
-4. **Definição de Métricas:** Gerar sugestões de métricas de sucesso (KPIs) para a fase de validação (ex: "Métricas de Sucesso para um MVP Manual").
-5. **Priorização de Problemas:** Usar a IA para analisar dados de feedback e sugerir a priorização de dores do usuário.
+1. **Hypothesis Generation:** Create value, usability, and feasibility hypotheses for a new feature or product.
+2. **Research Design:** Develop interview scripts, survey questionnaires, and usability test plans.
+3. **Competitor Analysis (Benchmark):** Ask the AI to identify indirect competitors and their solutions to a specific problem.
+4. **Metrics Definition:** Generate suggestions for success metrics (KPIs) for the validation phase (e.g., "Success Metrics for a Manual MVP").
+5. **Problem Prioritization:** Use AI to analyze feedback data and suggest prioritization of user pain points.
 
 ## Pitfalls
-1. **Confundir Descoberta com Solução:** Pedir à IA para "criar o produto" em vez de "estruturar a pesquisa sobre o problema".
-2. **Falta de Contexto:** Fornecer um problema vago, resultando em sugestões de pesquisa genéricas e inúteis.
-3. **Aceitar a Saída como Verdade Absoluta:** A IA pode sugerir métodos de pesquisa que não são adequados ao contexto real da empresa ou do produto.
-4. **Ignorar a Execução Manual:** O valor do Discovery Prompt está em estruturar a validação manual. O erro é pular a validação e ir direto para o desenvolvimento.
-5. **Viés de Confirmação:** Usar a IA apenas para confirmar uma ideia pré-concebida, em vez de buscar ativamente a refutação da hipótese.
+1. **Confusing Discovery with Solution:** Asking the AI to "build the product" instead of "structuring the research on the problem".
+2. **Lack of Context:** Providing a vague problem, resulting in generic and useless research suggestions.
+3. **Accepting the Output as Absolute Truth:** The AI may suggest research methods that are not suited to the real context of the company or the product.
+4. **Ignoring Manual Execution:** The value of the Discovery Prompt lies in structuring manual validation. The mistake is skipping validation and going straight to development.
+5. **Confirmation Bias:** Using AI only to confirm a preconceived idea, rather than actively seeking to refute the hypothesis.
 
 ## URL
 [https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar](https://calirenato82.substack.com/p/prompt-ia-discovery-operacionalizar-produtizar)

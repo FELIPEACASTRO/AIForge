@@ -1,93 +1,93 @@
 # Docker & Kubernetes Prompts
 
 ## Description
-**Prompts de Docker & Kubernetes** é uma categoria de Prompt Engineering focada na utilização de Modelos de Linguagem Grande (LLMs) para automatizar, otimizar e solucionar problemas em ambientes de desenvolvimento e produção baseados em contêineres e orquestração. Esta técnica se insere no contexto de **PromptOps** ou **DevOps assistido por IA**, onde a IA atua como um copiloto para engenheiros de DevOps, SREs e desenvolvedores. O objetivo principal é acelerar a criação de arquivos de configuração (como `Dockerfile` e manifestos YAML de Kubernetes), diagnosticar falhas complexas e gerar scripts de automação, transformando descrições em linguagem natural em código de infraestrutura acionável. A eficácia desta técnica depende da clareza, especificidade e do fornecimento de contexto técnico detalhado nos prompts.
+**Docker & Kubernetes Prompts** is a category of Prompt Engineering focused on using Large Language Models (LLMs) to automate, optimize, and troubleshoot container-based and orchestration-based development and production environments. This technique fits within the context of **PromptOps** or **AI-assisted DevOps**, where the AI acts as a copilot for DevOps engineers, SREs, and developers. The main goal is to accelerate the creation of configuration files (such as `Dockerfile` and Kubernetes YAML manifests), diagnose complex failures, and generate automation scripts, transforming natural-language descriptions into actionable infrastructure code. The effectiveness of this technique depends on clarity, specificity, and the provision of detailed technical context in the prompts.
 
 ## Examples
 ```
-1.  **Geração de Dockerfile Otimizado (Multi-Stage):**
+1.  **Optimized Dockerfile Generation (Multi-Stage):**
     ```
-    Crie um Dockerfile multi-stage para uma aplicação Python (Flask) que usa a imagem base 'python:3.11-slim'. O estágio de build deve instalar as dependências de 'requirements.txt'. O estágio final deve usar 'python:3.11-slim' e copiar apenas o código-fonte e as dependências instaladas. Garanta que o usuário de execução final seja não-root e que o cache do pip seja limpo.
-    ```
-
-2.  **Geração de Manifesto Kubernetes (Deployment e Service):**
-    ```
-    Gere um manifesto YAML de Kubernetes que inclua um Deployment e um Service. O Deployment deve ter 3 réplicas, usar a imagem 'minha-app:v1.2.0' e expor a porta 8080. O Service deve ser do tipo LoadBalancer e rotear o tráfego para o Deployment. Adicione um readinessProbe que verifique o endpoint '/health' na porta 8080.
+    Create a multi-stage Dockerfile for a Python (Flask) application that uses the 'python:3.11-slim' base image. The build stage must install the dependencies from 'requirements.txt'. The final stage must use 'python:3.11-slim' and copy only the source code and the installed dependencies. Ensure that the final runtime user is non-root and that the pip cache is cleared.
     ```
 
-3.  **Solução de Problemas (CrashLoopBackOff):**
+2.  **Kubernetes Manifest Generation (Deployment and Service):**
     ```
-    Estou recebendo o erro 'CrashLoopBackOff' no meu Pod. Analise os logs do container (logs anexados abaixo) e o manifesto YAML do Deployment (também anexado). Identifique a causa provável e sugira a correção exata no manifesto YAML.
+    Generate a Kubernetes YAML manifest that includes a Deployment and a Service. The Deployment must have 3 replicas, use the 'minha-app:v1.2.0' image, and expose port 8080. The Service must be of type LoadBalancer and route traffic to the Deployment. Add a readinessProbe that checks the '/health' endpoint on port 8080.
+    ```
 
-    [Logs do Container]
+3.  **Troubleshooting (CrashLoopBackOff):**
+    ```
+    I am getting the 'CrashLoopBackOff' error on my Pod. Analyze the container logs (logs attached below) and the Deployment YAML manifest (also attached). Identify the likely cause and suggest the exact fix in the YAML manifest.
+
+    [Container Logs]
     ...
-    [Manifesto YAML]
-    ...
-    ```
-
-4.  **Otimização de Dockerfile Existente:**
-    ```
-    Analise o Dockerfile fornecido abaixo. Sugira 3 otimizações para reduzir o tamanho final da imagem e o tempo de build, focando em cache de camadas e melhores práticas de segurança. Apresente o Dockerfile otimizado.
-
-    [Dockerfile Existente]
+    [YAML Manifest]
     ...
     ```
 
-5.  **Criação de Configuração de Ingress:**
+4.  **Optimizing an Existing Dockerfile:**
     ```
-    Crie um manifesto Ingress para Kubernetes que roteie o tráfego do host 'api.meudominio.com' para o Service chamado 'api-service' na porta 80. O Ingress deve usar TLS com um Secret chamado 'meu-tls-secret'.
-    ```
+    Analyze the Dockerfile provided below. Suggest 3 optimizations to reduce the final image size and build time, focusing on layer caching and security best practices. Present the optimized Dockerfile.
 
-6.  **Geração de Script de Shell para K8s:**
-    ```
-    Escreva um script de shell que verifique o status de todos os Pods no namespace 'producao'. Se algum Pod estiver em estado 'CrashLoopBackOff' ou 'ImagePullBackOff', o script deve imprimir o nome do Pod e seus logs recentes.
-    ```
-
-7.  **Explicação e Geração de HPA:**
-    ```
-    Explique o conceito de Horizontal Pod Autoscaler (HPA) no Kubernetes. Em seguida, gere um manifesto HPA para o Deployment chamado 'web-app-deployment' que mantenha o uso médio de CPU em 70%, com um mínimo de 2 e um máximo de 10 réplicas.
-    ```
-
-8.  **Validação e Correção de YAML:**
-    ```
-    Valide o manifesto YAML de Kubernetes abaixo. Corrija quaisquer erros de sintaxe, indentação ou versão de API. Mantenha a lógica original intacta e retorne apenas o YAML corrigido.
-
-    [YAML com Erro]
+    [Existing Dockerfile]
     ...
     ```
 
-9.  **Geração de ConfigMap para Variáveis de Ambiente:**
+5.  **Ingress Configuration Creation:**
     ```
-    Crie um ConfigMap chamado 'app-config' com as seguintes variáveis de ambiente: 'LOG_LEVEL'='INFO', 'FEATURE_TOGGLE'='true', e 'API_URL'='http://backend-service'. Em seguida, mostre como referenciar este ConfigMap em um Deployment YAML.
+    Create a Kubernetes Ingress manifest that routes traffic from the host 'api.meudominio.com' to the Service named 'api-service' on port 80. The Ingress must use TLS with a Secret named 'meu-tls-secret'.
     ```
 
-10. **Revisão de Segurança de Dockerfile:**
+6.  **Shell Script Generation for K8s:**
     ```
-    Revise o Dockerfile abaixo para identificar e corrigir vulnerabilidades de segurança. As correções devem incluir a remoção de senhas ou chaves expostas, a garantia de que o usuário não-root seja usado e a atualização de pacotes desatualizados.
+    Write a shell script that checks the status of all Pods in the 'producao' namespace. If any Pod is in a 'CrashLoopBackOff' or 'ImagePullBackOff' state, the script must print the Pod name and its recent logs.
+    ```
 
-    [Dockerfile para Revisão]
+7.  **HPA Explanation and Generation:**
+    ```
+    Explain the concept of the Horizontal Pod Autoscaler (HPA) in Kubernetes. Then, generate an HPA manifest for the Deployment named 'web-app-deployment' that maintains average CPU usage at 70%, with a minimum of 2 and a maximum of 10 replicas.
+    ```
+
+8.  **YAML Validation and Correction:**
+    ```
+    Validate the Kubernetes YAML manifest below. Fix any syntax, indentation, or API version errors. Keep the original logic intact and return only the corrected YAML.
+
+    [YAML with Error]
+    ...
+    ```
+
+9.  **ConfigMap Generation for Environment Variables:**
+    ```
+    Create a ConfigMap named 'app-config' with the following environment variables: 'LOG_LEVEL'='INFO', 'FEATURE_TOGGLE'='true', and 'API_URL'='http://backend-service'. Then, show how to reference this ConfigMap in a Deployment YAML.
+    ```
+
+10. **Dockerfile Security Review:**
+    ```
+    Review the Dockerfile below to identify and fix security vulnerabilities. The fixes should include removing exposed passwords or keys, ensuring that a non-root user is used, and updating outdated packages.
+
+    [Dockerfile for Review]
     ...
     ```
 ```
 
 ## Best Practices
-**Clareza e Especificidade Extrema:** Trate o LLM como um "engenheiro júnior brilhante, mas não confiável". Seja extremamente detalhado sobre a versão da linguagem, a imagem base, os requisitos de segurança (ex: usuário não-root), e o tipo exato de recurso (ex: Deployment, Service, Ingress).
-**Comunicação Estruturada e Iterativa:** Use prompts iterativos. Primeiro, peça a geração do código. Em seguida, peça a validação e a correção de erros. Por fim, peça a otimização (ex: "Agora, otimize este Dockerfile para uma imagem final menor").
-**Inclusão de Contexto e Restrições:** Sempre forneça o contexto relevante (logs de erro, código existente, requisitos de rede) e restrições (ex: "O Service deve ser do tipo LoadBalancer", "O HPA deve manter o uso de CPU em 70%").
-**Validação e Segurança:** Peça explicitamente ao LLM para validar o código gerado (ex: "Verifique a sintaxe YAML e a versão da API") e para aplicar as melhores práticas de segurança (ex: "Adicione um healthcheck e garanta que o usuário não-root seja usado").
+**Extreme Clarity and Specificity:** Treat the LLM as a "brilliant but unreliable junior engineer." Be extremely detailed about the language version, the base image, the security requirements (e.g., non-root user), and the exact resource type (e.g., Deployment, Service, Ingress).
+**Structured and Iterative Communication:** Use iterative prompts. First, ask for the code to be generated. Then, ask for validation and error correction. Finally, ask for optimization (e.g., "Now, optimize this Dockerfile for a smaller final image").
+**Inclusion of Context and Constraints:** Always provide relevant context (error logs, existing code, network requirements) and constraints (e.g., "The Service must be of type LoadBalancer", "The HPA must maintain CPU usage at 70%").
+**Validation and Security:** Explicitly ask the LLM to validate the generated code (e.g., "Check the YAML syntax and the API version") and to apply security best practices (e.g., "Add a healthcheck and ensure that a non-root user is used").
 
 ## Use Cases
-**Automação de Configuração:** Geração rápida de `Dockerfile` otimizados (multi-stage, base image leve) e manifestos YAML de Kubernetes (Deployment, Service, Ingress, HPA) a partir de requisitos em linguagem natural.
-**Solução de Problemas (Troubleshooting):** Diagnóstico e sugestão de correção para erros comuns de Kubernetes (ex: `CrashLoopBackOff`, `ImagePullBackOff`) com base em logs e manifestos fornecidos.
-**Otimização de Infraestrutura:** Otimização de Dockerfiles para redução do tamanho da imagem e do tempo de build, e sugestão de configurações de Kubernetes para melhor escalabilidade e resiliência.
-**Geração de Scripts e Documentação:** Criação de scripts de shell para tarefas de manutenção e automação de K8s, e geração de documentação técnica a partir de configurações existentes.
-**Revisão de Segurança:** Análise de Dockerfiles e manifestos de Kubernetes para identificar e corrigir vulnerabilidades de segurança (ex: uso de usuário root, exposição de segredos).
+**Configuration Automation:** Rapid generation of optimized `Dockerfile`s (multi-stage, lightweight base image) and Kubernetes YAML manifests (Deployment, Service, Ingress, HPA) from natural-language requirements.
+**Troubleshooting:** Diagnosis and fix suggestions for common Kubernetes errors (e.g., `CrashLoopBackOff`, `ImagePullBackOff`) based on provided logs and manifests.
+**Infrastructure Optimization:** Optimizing Dockerfiles to reduce image size and build time, and suggesting Kubernetes configurations for better scalability and resilience.
+**Script and Documentation Generation:** Creating shell scripts for K8s maintenance and automation tasks, and generating technical documentation from existing configurations.
+**Security Review:** Analyzing Dockerfiles and Kubernetes manifests to identify and fix security vulnerabilities (e.g., use of the root user, exposure of secrets).
 
 ## Pitfalls
-**Confiança Cega no Código Gerado:** O LLM pode gerar YAMLs com versões de API desatualizadas, Dockerfiles sem `healthcheck` ou configurações inseguras. A validação manual ou por ferramentas de IA específicas (como K8sGPT) é crucial.
-**Exposição de Dados Sensíveis:** Inserir logs de produção, segredos ou dados proprietários em prompts de modelos de IA públicos pode violar políticas de segurança e contratos de confidencialidade. Recomenda-se o uso de modelos hospedados localmente ou com garantias de privacidade.
-**Prompts Vagos:** Prompts genéricos resultam em código não otimizado, inseguro ou que não atende aos requisitos específicos do ambiente de produção. A falta de contexto (ex: imagem base, versão da linguagem) leva a resultados de baixa qualidade.
-**Ignorar a Iteração:** Esperar o resultado perfeito no primeiro prompt. A engenharia de prompts para DevOps é um processo iterativo de refinamento e correção.
+**Blind Trust in Generated Code:** The LLM may generate YAMLs with outdated API versions, Dockerfiles without a `healthcheck`, or insecure configurations. Manual validation or validation by specific AI tools (such as K8sGPT) is crucial.
+**Exposure of Sensitive Data:** Inserting production logs, secrets, or proprietary data into prompts for public AI models can violate security policies and confidentiality agreements. Using locally hosted models or ones with privacy guarantees is recommended.
+**Vague Prompts:** Generic prompts result in unoptimized, insecure code that does not meet the specific requirements of the production environment. The lack of context (e.g., base image, language version) leads to low-quality results.
+**Ignoring Iteration:** Expecting a perfect result on the first prompt. Prompt engineering for DevOps is an iterative process of refinement and correction.
 
 ## URL
 [https://medium.com/@osomudeyazudonu/10-ai-prompts-every-devops-engineer-should-use-to-work-10-faster-3474ac59ffc1](https://medium.com/@osomudeyazudonu/10-ai-prompts-every-devops-engineer-should-use-to-work-10-faster-3474ac59ffc1)

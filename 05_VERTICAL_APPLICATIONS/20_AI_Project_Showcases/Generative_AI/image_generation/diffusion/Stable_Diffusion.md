@@ -2,40 +2,40 @@
 
 ## Description
 
-O Stable Diffusion é um modelo de difusão latente de texto para imagem de código aberto, desenvolvido pela Stability AI e colaboradores. Ele é notável por sua capacidade de gerar imagens fotorrealistas de alta resolução a partir de prompts de texto, mantendo a eficiência computacional ao operar no espaço latente, em vez do espaço de pixel. Sua natureza de código aberto fomentou um ecossistema massivo de ferramentas, interfaces de usuário e modelos ajustados.
+Stable Diffusion is an open-source text-to-image latent diffusion model, developed by Stability AI and collaborators. It is notable for its ability to generate high-resolution photorealistic images from text prompts while maintaining computational efficiency by operating in the latent space rather than the pixel space. Its open-source nature has fostered a massive ecosystem of tools, user interfaces, and fine-tuned models.
 
 ## Statistics
 
-**Arquitetura:** Modelo de Difusão Latente (LDM). **Parâmetros:** Versões recentes como SDXL possuem 3.5 bilhões de parâmetros. **Resolução:** Suporte nativo a resoluções de 1024x1024 pixels (SDXL) e 1 megapixel (SD3.5 Large). **Ecossistema:** Um dos maiores ecossistemas de código aberto em IA generativa, com milhares de modelos ajustados e interfaces de usuário (UIs) como Automatic1111.
+**Architecture:** Latent Diffusion Model (LDM). **Parameters:** Recent versions such as SDXL have 3.5 billion parameters. **Resolution:** Native support for resolutions of 1024x1024 pixels (SDXL) and 1 megapixel (SD3.5 Large). **Ecosystem:** One of the largest open-source ecosystems in generative AI, with thousands of fine-tuned models and user interfaces (UIs) such as Automatic1111.
 
 ## Features
 
-Geração de texto para imagem (text-to-image), Imagem para imagem (image-to-image), Inpainting e Outpainting, Ajuste fino (Fine-tuning) com dados personalizados (ex: LoRA, DreamBooth), Suporte a múltiplos estilos (3D, fotografia, pintura, arte linear), Alta aderência ao prompt (especialmente nas versões 3.5).
+Text-to-image generation, Image-to-image, Inpainting and Outpainting, Fine-tuning with custom data (e.g., LoRA, DreamBooth), Support for multiple styles (3D, photography, painting, line art), High prompt adherence (especially in the 3.5 versions).
 
 ## Use Cases
 
-**Design Gráfico e Arte Digital:** Criação rápida de ativos visuais, conceitos de arte e ilustrações. **Mídia e Entretenimento:** Geração de fundos, texturas e personagens para jogos e filmes. **E-commerce e Publicidade:** Criação de imagens de produtos em diferentes cenários (fotografia de produto virtual). **Pesquisa:** Ferramenta para estudar modelos de difusão e desenvolver novas arquiteturas de IA.
+**Graphic Design and Digital Art:** Rapid creation of visual assets, art concepts, and illustrations. **Media and Entertainment:** Generation of backgrounds, textures, and characters for games and films. **E-commerce and Advertising:** Creation of product images in different settings (virtual product photography). **Research:** A tool for studying diffusion models and developing new AI architectures.
 
 ## Integration
 
-A integração é tipicamente feita através da biblioteca **Hugging Face Diffusers** em Python ou através da **Stability AI API**.
+Integration is typically done through the **Hugging Face Diffusers** library in Python or through the **Stability AI API**.
 
-**Exemplo de Integração (Python com Diffusers):**
+**Integration Example (Python with Diffusers):**
 ```python
 import torch
 from diffusers import DiffusionPipeline
 
-# Carregar o pipeline do SDXL-Turbo (otimizado para velocidade)
+# Load the SDXL-Turbo pipeline (optimized for speed)
 pipe = DiffusionPipeline.from_pretrained(
     "stabilityai/sdxl-turbo", 
     torch_dtype=torch.float16, 
     variant="fp16"
 )
-pipe.to("cuda") # Mover para GPU
+pipe.to("cuda") # Move to GPU
 
 prompt = "A high-quality, photorealistic image of a majestic lion wearing a crown, digital art."
 
-# Gerar a imagem
+# Generate the image
 image = pipe(
     prompt=prompt, 
     num_inference_steps=1, 

@@ -1,65 +1,65 @@
 # Automatic Prompt Engineering (APE)
 
 ## Description
-A Engenharia de Prompt Automática (APE - Automatic Prompt Engineer) é uma estrutura proposta por Zhou et al. (2022) que automatiza o processo de geração e seleção de instruções (prompts) para Modelos de Linguagem Grande (LLMs). O APE enquadra o problema de geração de instruções como uma tarefa de síntese de linguagem natural, tratando-o como um problema de otimização de caixa preta. Em vez de um engenheiro humano criar prompts manualmente por tentativa e erro, o APE utiliza um LLM (o "Modelo de Inferência") para gerar um conjunto de prompts candidatos a partir de exemplos de entrada e saída (demonstrações) fornecidos. Em seguida, um segundo LLM (o "Modelo de Pontuação") avalia a probabilidade logarítmica de cada prompt candidato produzir as saídas desejadas para as entradas de demonstração. O prompt com a maior pontuação (ou seja, o que melhor explica as demonstrações) é selecionado como o prompt otimizado. O APE demonstrou ser capaz de descobrir prompts de raciocínio de Cadeia de Pensamento (CoT) que superam até mesmo os prompts criados por humanos, como o famoso "Let's think step by step" (Vamos pensar passo a passo).
+Automatic Prompt Engineering (APE - Automatic Prompt Engineer) is a framework proposed by Zhou et al. (2022) that automates the process of generating and selecting instructions (prompts) for Large Language Models (LLMs). APE frames the instruction generation problem as a natural language synthesis task, treating it as a black-box optimization problem. Instead of a human engineer creating prompts manually by trial and error, APE uses an LLM (the "Inference Model") to generate a set of candidate prompts from provided input and output examples (demonstrations). Then, a second LLM (the "Scoring Model") evaluates the log probability of each candidate prompt producing the desired outputs for the demonstration inputs. The prompt with the highest score (that is, the one that best explains the demonstrations) is selected as the optimized prompt. APE has been shown to be capable of discovering Chain-of-Thought (CoT) reasoning prompts that outperform even human-crafted prompts, such as the famous "Let's think step by step".
 
 ## Examples
 ```
-**1. Geração de Prompt Otimizado para Classificação de Sentimento**
-**Demonstrações (Input/Output):**
-- Input: "O filme foi espetacular, adorei cada minuto." Output: "Positivo"
-- Input: "Atraso na entrega e produto danificado." Output: "Negativo"
-- Input: "Não é bom nem ruim, apenas mediano." Output: "Neutro"
-**Prompt de Inferência para o LLM:** "Gere 5 instruções de prompt diferentes que, quando dadas a um LLM, resultariam nas saídas fornecidas para as entradas correspondentes."
-**Prompt Candidato Otimizado (Exemplo):** "Classifique o sentimento do texto fornecido em 'Positivo', 'Negativo' ou 'Neutro'. Pense cuidadosamente sobre o tom antes de responder."
+**1. Optimized Prompt Generation for Sentiment Classification**
+**Demonstrations (Input/Output):**
+- Input: "The movie was spectacular, I loved every minute." Output: "Positive"
+- Input: "Delay in delivery and damaged product." Output: "Negative"
+- Input: "It is neither good nor bad, just average." Output: "Neutral"
+**Inference Prompt for the LLM:** "Generate 5 different prompt instructions that, when given to an LLM, would result in the provided outputs for the corresponding inputs."
+**Optimized Candidate Prompt (Example):** "Classify the sentiment of the provided text as 'Positive', 'Negative', or 'Neutral'. Think carefully about the tone before answering."
 
-**2. Geração de Prompt Otimizado para Resolução de Problemas Matemáticos (CoT)**
-**Demonstrações (Input/Output):**
-- Input: "Se um trem viaja a 60 km/h por 3 horas, qual a distância percorrida?" Output: "180 km"
-- Input: "Qual é o resultado de 15 * 7?" Output: "105"
-**Prompt de Inferência para o LLM:** "Gere 3 prompts que induzam um raciocínio passo a passo para resolver problemas de matemática."
-**Prompt Candidato Otimizado (Exemplo):** "Resolva o seguinte problema de matemática. Para garantir a precisão, trabalhe a solução em uma abordagem passo a passo antes de fornecer a resposta final."
+**2. Optimized Prompt Generation for Mathematical Problem Solving (CoT)**
+**Demonstrations (Input/Output):**
+- Input: "If a train travels at 60 km/h for 3 hours, what is the distance traveled?" Output: "180 km"
+- Input: "What is the result of 15 * 7?" Output: "105"
+**Inference Prompt for the LLM:** "Generate 3 prompts that induce step-by-step reasoning to solve math problems."
+**Optimized Candidate Prompt (Example):** "Solve the following math problem. To ensure accuracy, work out the solution in a step-by-step approach before providing the final answer."
 
-**3. Geração de Prompt Otimizado para Sumarização**
-**Demonstrações (Input/Output):**
-- Input: [Artigo longo sobre IA] Output: [Sumário conciso de 3 frases]
-**Prompt de Inferência para o LLM:** "Gere 4 instruções de prompt para resumir textos longos, focando na concisão e retenção de informações-chave."
-**Prompt Candidato Otimizado (Exemplo):** "Resuma o texto a seguir em no máximo 50 palavras, garantindo que os três pontos principais sejam preservados. Comece com 'Em resumo,'."
+**3. Optimized Prompt Generation for Summarization**
+**Demonstrations (Input/Output):**
+- Input: [Long article about AI] Output: [Concise 3-sentence summary]
+**Inference Prompt for the LLM:** "Generate 4 prompt instructions to summarize long texts, focusing on conciseness and retention of key information."
+**Optimized Candidate Prompt (Example):** "Summarize the following text in no more than 50 words, ensuring that the three main points are preserved. Start with 'In summary,'."
 
-**4. Geração de Prompt Otimizado para Tradução com Contexto**
-**Demonstrações (Input/Output):**
+**4. Optimized Prompt Generation for Context-Aware Translation**
+**Demonstrations (Input/Output):**
 - Input: "The bank is on the river." Output: "O banco está na margem do rio."
 - Input: "I need to go to the bank." Output: "Eu preciso ir ao banco (instituição financeira)."
-**Prompt de Inferência para o LLM:** "Gere 2 prompts que instruam o LLM a considerar o contexto para desambiguação de palavras em traduções."
-**Prompt Candidato Otimizado (Exemplo):** "Traduza o texto a seguir do inglês para o português. Analise o contexto da frase para escolher a tradução mais precisa para palavras com múltiplos significados."
+**Inference Prompt for the LLM:** "Generate 2 prompts that instruct the LLM to consider context for word disambiguation in translations."
+**Optimized Candidate Prompt (Example):** "Translate the following text from English to Portuguese. Analyze the context of the sentence to choose the most accurate translation for words with multiple meanings."
 
-**5. Geração de Prompt Otimizado para Extração de Entidades**
-**Demonstrações (Input/Output):**
-- Input: "A reunião com a Dra. Silva será em São Paulo, na sede da TechCorp." Output: "Pessoa: Dra. Silva; Local: São Paulo; Organização: TechCorp"
-**Prompt de Inferência para o LLM:** "Gere 3 prompts para extrair entidades nomeadas (Pessoa, Local, Organização) de um texto."
-**Prompt Candidato Otimizado (Exemplo):** "Extraia todas as entidades nomeadas do texto. Apresente o resultado em formato JSON com as chaves 'Pessoa', 'Local' e 'Organização'. Se uma entidade não estiver presente, use uma string vazia."
+**5. Optimized Prompt Generation for Entity Extraction**
+**Demonstrations (Input/Output):**
+- Input: "The meeting with Dr. Silva will be in São Paulo, at the TechCorp headquarters." Output: "Person: Dr. Silva; Location: São Paulo; Organization: TechCorp"
+**Inference Prompt for the LLM:** "Generate 3 prompts to extract named entities (Person, Location, Organization) from a text."
+**Optimized Candidate Prompt (Example):** "Extract all named entities from the text. Present the result in JSON format with the keys 'Person', 'Location', and 'Organization'. If an entity is not present, use an empty string."
 ```
 
 ## Best Practices
-**Foco na Qualidade dos Dados de Demonstração:** A qualidade e a diversidade dos exemplos de entrada/saída (demonstrações) fornecidos ao LLM de inferência são cruciais. Demonstrações ruins ou inconsistentes levarão a prompts candidatos ineficazes.
-**Iteração e Refinamento:** O APE é um processo iterativo. Não se contente com o primeiro prompt otimizado. Use o prompt de melhor desempenho como um novo ponto de partida para gerar e testar mais variações.
-**Modelo de Inferência vs. Modelo Alvo:** Idealmente, use um LLM mais potente (e.g., GPT-4, Claude 3 Opus) como o "Modelo de Inferência" para gerar prompts candidatos e um modelo mais leve ou o modelo alvo real para a "Seleção" e avaliação, economizando custos e tempo.
-**Métricas de Avaliação Robustas:** Use métricas de avaliação que se alinhem diretamente com o objetivo da tarefa (e.g., acurácia para classificação, F1-score para extração de entidades, ROUGE para sumarização). Evite métricas genéricas que podem não capturar a qualidade real da saída.
-**Aproveitar o CoT (Chain-of-Thought):** O APE demonstrou ser eficaz na descoberta de prompts de CoT aprimorados (como "Let's work this out in a step by step way..."). Sempre inclua a busca por prompts que induzam o raciocínio passo a passo.
+**Focus on the Quality of the Demonstration Data:** The quality and diversity of the input/output examples (demonstrations) provided to the inference LLM are crucial. Poor or inconsistent demonstrations will lead to ineffective candidate prompts.
+**Iteration and Refinement:** APE is an iterative process. Do not settle for the first optimized prompt. Use the best-performing prompt as a new starting point to generate and test more variations.
+**Inference Model vs. Target Model:** Ideally, use a more powerful LLM (e.g., GPT-4, Claude 3 Opus) as the "Inference Model" to generate candidate prompts and a lighter model or the actual target model for the "Selection" and evaluation, saving costs and time.
+**Robust Evaluation Metrics:** Use evaluation metrics that align directly with the task objective (e.g., accuracy for classification, F1-score for entity extraction, ROUGE for summarization). Avoid generic metrics that may not capture the real quality of the output.
+**Leverage CoT (Chain-of-Thought):** APE has been shown to be effective in discovering enhanced CoT prompts (such as "Let's work this out in a step by step way..."). Always include the search for prompts that induce step-by-step reasoning.
 
 ## Use Cases
-**Otimização de Prompts de Raciocínio (CoT):** O caso de uso mais notável é a descoberta de prompts de Cadeia de Pensamento (CoT) mais eficazes, como o aprimoramento do prompt "Let's think step by step" para "Let's work this out in a step by step way to be sure we have the right answer."
-**Geração de Prompts para Tarefas Específicas:** Automatizar a criação de prompts para tarefas de Processamento de Linguagem Natural (PLN) onde a engenharia manual é tediosa, como classificação de texto, extração de entidades nomeadas (NER) e sumarização.
-**Adaptação de Prompts a Diferentes LLMs:** Otimizar prompts para um modelo de linguagem específico (o "Modelo Alvo") sem a necessidade de acesso aos seus gradientes, tratando-o como uma caixa preta. Isso é útil para adaptar prompts entre diferentes APIs de LLMs.
-**Melhoria de Desempenho em Benchmarks:** Usado em pesquisa para alcançar ou superar o desempenho de prompts criados por humanos em benchmarks como MultiArith e GSM8K.
-**Otimização de Prompts em Ambientes de Produção:** Em ambientes de produção, o APE pode ser usado para refinar continuamente os prompts com base em dados de feedback do usuário, garantindo que o LLM mantenha o desempenho ideal à medida que os requisitos da tarefa evoluem.
+**Reasoning Prompt Optimization (CoT):** The most notable use case is the discovery of more effective Chain-of-Thought (CoT) prompts, such as the enhancement of the prompt "Let's think step by step" to "Let's work this out in a step by step way to be sure we have the right answer."
+**Prompt Generation for Specific Tasks:** Automating the creation of prompts for Natural Language Processing (NLP) tasks where manual engineering is tedious, such as text classification, named entity recognition (NER), and summarization.
+**Adapting Prompts to Different LLMs:** Optimizing prompts for a specific language model (the "Target Model") without needing access to its gradients, treating it as a black box. This is useful for adapting prompts across different LLM APIs.
+**Performance Improvement on Benchmarks:** Used in research to reach or surpass the performance of human-crafted prompts on benchmarks such as MultiArith and GSM8K.
+**Prompt Optimization in Production Environments:** In production environments, APE can be used to continuously refine prompts based on user feedback data, ensuring that the LLM maintains optimal performance as task requirements evolve.
 
 ## Pitfalls
-**Dependência da Qualidade das Demonstrações:** O APE é altamente dependente da qualidade e da representatividade dos exemplos de entrada/saída fornecidos. Demonstrações insuficientes ou ruidosas podem levar à otimização para um prompt subótimo ou incorreto.
-**Custo Computacional Elevado:** O processo de geração de múltiplos prompts candidatos e, em seguida, a pontuação de cada um deles usando um LLM (o Modelo de Pontuação) pode ser computacionalmente caro e demorado, especialmente para modelos grandes.
-**Risco de Overfitting:** Existe o risco de o prompt otimizado se ajustar excessivamente aos dados de demonstração, resultando em um desempenho ruim em dados de teste não vistos (generalização fraca).
-**Complexidade de Implementação:** A implementação do APE requer a orquestração de dois LLMs (Inferência e Pontuação) e a gestão de um processo de busca e avaliação, o que é mais complexo do que a engenharia de prompt manual.
-**Limitação a Tarefas de Geração de Texto:** Embora eficaz para tarefas como classificação e CoT, o APE pode ser menos aplicável ou menos eficiente para tarefas que exigem interações complexas ou uso de ferramentas externas.
+**Dependence on the Quality of the Demonstrations:** APE is highly dependent on the quality and representativeness of the input/output examples provided. Insufficient or noisy demonstrations can lead to optimization for a suboptimal or incorrect prompt.
+**High Computational Cost:** The process of generating multiple candidate prompts and then scoring each of them using an LLM (the Scoring Model) can be computationally expensive and time-consuming, especially for large models.
+**Risk of Overfitting:** There is a risk that the optimized prompt overfits the demonstration data, resulting in poor performance on unseen test data (weak generalization).
+**Implementation Complexity:** Implementing APE requires the orchestration of two LLMs (Inference and Scoring) and the management of a search and evaluation process, which is more complex than manual prompt engineering.
+**Limitation to Text Generation Tasks:** Although effective for tasks such as classification and CoT, APE may be less applicable or less efficient for tasks that require complex interactions or the use of external tools.
 
 ## URL
 [https://arxiv.org/abs/2211.01910](https://arxiv.org/abs/2211.01910)

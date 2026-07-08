@@ -1,42 +1,42 @@
 # Game UI/UX Prompts
 
 ## Description
-Prompts de UI/UX para jogos são instruções específicas dadas a uma IA para gerar recursos, ideias e análises para a interface do usuário (UI) e a experiência do usuário (UX) de videogames. Isso pode variar desde a criação de elementos visuais, como menus e HUDs, até a análise de feedback de jogadores e tendências de mercado. O objetivo é alavancar a IA para otimizar o processo de design, aprimorar a criatividade e melhorar a experiência geral do jogador.
+Game UI/UX prompts are specific instructions given to an AI to generate assets, ideas, and analyses for the user interface (UI) and user experience (UX) of video games. This can range from creating visual elements, such as menus and HUDs, to analyzing player feedback and market trends. The goal is to leverage AI to optimize the design process, enhance creativity, and improve the overall player experience.
 
 ## Examples
 ```
-1. **Design Visual e Estilo:** Crie 5 variações de design para a tela de inventário de um jogo de sobrevivência pós-apocalíptico. O estilo deve ser 'brutalista' e funcional, com foco na clareza das informações e na fácil organização de itens. O esquema de cores deve ser limitado a tons de cinza, preto e um único destaque laranja para itens raros.
+1. **Visual Design and Style:** Create 5 design variations for the inventory screen of a post-apocalyptic survival game. The style should be 'brutalist' and functional, focusing on information clarity and easy item organization. The color scheme should be limited to shades of gray, black, and a single orange highlight for rare items.
 
-2. **Acessibilidade (Color-Blindness):** Desenvolva uma paleta de cores e um conjunto de ícones para o HUD de um jogo de estratégia em tempo real (RTS) que seja totalmente compatível com a deuteranopia (cegueira para o verde). Os ícones devem ser distinguíveis por forma e não apenas por cor.
+2. **Accessibility (Color-Blindness):** Develop a color palette and a set of icons for the HUD of a real-time strategy (RTS) game that is fully compatible with deuteranopia (green color blindness). The icons should be distinguishable by shape and not only by color.
 
-3. **Análise de Feedback do Jogador:** Analise o arquivo de 'Feedback do Jogador Q3.csv' e resuma os 3 principais problemas de usabilidade (UX) relatados pelos jogadores em relação ao sistema de mapa. Sugira 2 soluções de design para cada problema, priorizando a implementação de menor esforço.
+3. **Player Feedback Analysis:** Analyze the 'Player Feedback Q3.csv' file and summarize the top 3 usability (UX) problems reported by players regarding the map system. Suggest 2 design solutions for each problem, prioritizing the lowest-effort implementation.
 
-4. **Criação de Texto de Tutorial:** Escreva o texto conciso e envolvente para um tutorial de 5 etapas sobre o novo sistema de 'Crafting de Poções' em um RPG de fantasia. O tom deve ser 'místico e acolhedor', e cada etapa não deve exceder 15 palavras.
+4. **Tutorial Text Creation:** Write concise and engaging text for a 5-step tutorial on the new 'Potion Crafting' system in a fantasy RPG. The tone should be 'mystical and welcoming', and each step should not exceed 15 words.
 
-5. **Otimização de Fluxo de Usuário:** Mapeie o fluxo de usuário para a compra de um item na loja do jogo, começando na tela inicial e terminando na confirmação da compra. Identifique e remova quaisquer etapas redundantes, visando uma taxa de conversão 20% maior.
+5. **User Flow Optimization:** Map the user flow for purchasing an item in the in-game store, starting from the home screen and ending at the purchase confirmation. Identify and remove any redundant steps, aiming for a 20% higher conversion rate.
 
-6. **Localização e Layout:** Gere regras de posicionamento e dimensionamento para todos os elementos de UI (botões, caixas de texto) no menu de configurações, considerando a expansão de texto em idiomas como alemão e japonês, para evitar quebras de layout.
+6. **Localization and Layout:** Generate positioning and sizing rules for all UI elements (buttons, text boxes) in the settings menu, considering text expansion in languages such as German and Japanese, to avoid layout breaks.
 
-7. **Geração de Conceito de HUD:** Projete um conceito de HUD minimalista para um jogo de tiro em primeira pessoa (FPS) de ficção científica. O HUD deve exibir apenas a saúde, munição e um minimapa, e todos os elementos devem se retrair para a borda da tela quando o jogador estiver fora de combate por mais de 5 segundos.
+7. **HUD Concept Generation:** Design a minimalist HUD concept for a science fiction first-person shooter (FPS). The HUD should display only health, ammo, and a minimap, and all elements should retract to the edge of the screen when the player has been out of combat for more than 5 seconds.
 ```
 
 ## Best Practices
-- Seja Específico e Contextual: Forneça contexto detalhado, incluindo documentos de design, estilos de arte e público-alvo.
-- Use Documentos de Referência: Faça referência a documentos, imagens ou relatórios existentes para orientar a IA.
-- Itere e Refine: Comece com prompts amplos e refine-os com base nos resultados para obter o resultado desejado.
-- Defina o Tom e o Estilo: Especifique o tom de voz e o estilo visual para garantir a consistência com a identidade do jogo.
+- Be Specific and Contextual: Provide detailed context, including design documents, art styles, and target audience.
+- Use Reference Documents: Reference existing documents, images, or reports to guide the AI.
+- Iterate and Refine: Start with broad prompts and refine them based on the results to achieve the desired outcome.
+- Define the Tone and Style: Specify the tone of voice and visual style to ensure consistency with the game's identity.
 
 ## Use Cases
-- Geração de Conceitos de UI: Criar rapidamente múltiplos conceitos de UI para diferentes temas e estilos de jogos.
-- Análise de Mercado e Tendências: Identificar recursos de interface populares e tendências de UX em jogos concorrentes.
-- Criação de Conteúdo de UI: Gerar texto para tutoriais, menus e outros elementos da interface do usuário.
-- Teste e Garantia de Qualidade: Criar listas de verificação e planos de teste para garantir a usabilidade e a acessibilidade da UI.
+- UI Concept Generation: Quickly create multiple UI concepts for different game themes and styles.
+- Market and Trend Analysis: Identify popular interface features and UX trends in competing games.
+- UI Content Creation: Generate text for tutorials, menus, and other user interface elements.
+- Testing and Quality Assurance: Create checklists and test plans to ensure UI usability and accessibility.
 
 ## Pitfalls
-- Prompts Vagos ou Genéricos: Prompts que carecem de detalhes podem levar a resultados irrelevantes ou de baixa qualidade.
-- Falta de Contexto: Sem contexto suficiente, a IA pode não entender as restrições de design ou o público-alvo.
-- Excesso de Confiança na IA: A IA é uma ferramenta para auxiliar, não para substituir o designer. A supervisão humana é crucial.
-- Ignorar a Iteração: Esperar resultados perfeitos na primeira tentativa é irreal. A engenharia de prompt eficaz requer experimentação e refinamento.
+- Vague or Generic Prompts: Prompts that lack detail can lead to irrelevant or low-quality results.
+- Lack of Context: Without sufficient context, the AI may not understand the design constraints or the target audience.
+- Over-Reliance on AI: The AI is a tool to assist, not to replace, the designer. Human oversight is crucial.
+- Ignoring Iteration: Expecting perfect results on the first attempt is unrealistic. Effective prompt engineering requires experimentation and refinement.
 
 ## URL
 [https://clickup.com/p/ai/prompts/video-game-design](https://clickup.com/p/ai/prompts/video-game-design)

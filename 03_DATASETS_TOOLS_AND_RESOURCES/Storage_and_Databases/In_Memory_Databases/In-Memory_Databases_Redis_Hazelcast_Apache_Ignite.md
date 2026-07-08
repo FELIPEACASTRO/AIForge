@@ -2,19 +2,19 @@
 
 ## Description
 
-**Redis** é o banco de dados em memória mais rápido do mundo, atuando como um armazenamento de estrutura de dados NoSQL de código aberto. Sua proposta de valor única reside na sua velocidade ultrabaixa latência (sub-milissegundo) e na versatilidade de suas estruturas de dados (Strings, Hashes, Lists, Sets, Sorted Sets, etc.), tornando-o ideal para caching, filas de mensagens e sessões de usuário. **Hazelcast** é uma Grade de Dados em Memória (IMDG) e Plataforma de Computação em Memória, focada em fornecer escalabilidade elástica e alta disponibilidade para aplicações distribuídas. Sua proposta de valor é transformar a memória RAM de um cluster de servidores em um único pool de dados distribuído, permitindo processamento paralelo e transações distribuídas. **Apache Ignite** é uma Plataforma de Computação em Memória (IMCP) e um Banco de Dados Distribuído, que se destaca por oferecer recursos de HTAP (Processamento Transacional e Analítico Híbrido) e um armazenamento de dados em múltiplas camadas (memória e disco). Sua proposta de valor é atuar como uma camada de aceleração de dados para sistemas existentes (cache) ou como um banco de dados distribuído completo com suporte a SQL, transações ACID e persistência nativa.
+**Redis** is the world's fastest in-memory database, acting as an open-source NoSQL data-structure store. Its unique value proposition lies in its ultra-low latency speed (sub-millisecond) and the versatility of its data structures (Strings, Hashes, Lists, Sets, Sorted Sets, etc.), making it ideal for caching, message queues, and user sessions. **Hazelcast** is an In-Memory Data Grid (IMDG) and In-Memory Computing Platform, focused on providing elastic scalability and high availability for distributed applications. Its value proposition is to transform the RAM of a cluster of servers into a single distributed data pool, enabling parallel processing and distributed transactions. **Apache Ignite** is an In-Memory Computing Platform (IMCP) and a Distributed Database, which stands out for offering HTAP (Hybrid Transactional and Analytical Processing) capabilities and a multi-tier data store (memory and disk). Its value proposition is to act as a data acceleration layer for existing systems (cache) or as a complete distributed database with support for SQL, ACID transactions, and native persistence.
 
 ## Statistics
 
-**Redis:** Latência de sub-milissegundo (muitas vezes sub-microssegundo) para operações de leitura/escrita. Alta taxa de transferência (throughput), atingindo centenas de milhares de operações por segundo em hardware moderno. **Hazelcast:** Latência de leitura/escrita em microssegundos. Projetado para escalabilidade elástica, suportando clusters com terabytes de dados em memória e alta taxa de transferência em cenários multi-threaded. **Apache Ignite:** Latência de leitura/escrita em microssegundos. Oferece desempenho de HTAP (Processamento Transacional e Analítico Híbrido) em tempo real, com a capacidade de escalar para petabytes de dados usando a arquitetura de múltiplas camadas (memória e disco).
+**Redis:** Sub-millisecond (often sub-microsecond) latency for read/write operations. High throughput, reaching hundreds of thousands of operations per second on modern hardware. **Hazelcast:** Microsecond read/write latency. Designed for elastic scalability, supporting clusters with terabytes of in-memory data and high throughput in multi-threaded scenarios. **Apache Ignite:** Microsecond read/write latency. Delivers real-time HTAP (Hybrid Transactional and Analytical Processing) performance, with the ability to scale to petabytes of data using the multi-tier architecture (memory and disk).
 
 ## Features
 
-**Redis:** Estruturas de dados ricas e atômicas (Listas, Sets, Hashes, Streams, etc.), persistência opcional (RDB/AOF), replicação assíncrona, transações, Pub/Sub, e módulos para funcionalidades avançadas como pesquisa de vetores (Vector Search) e JSON. **Hazelcast:** Estruturas de dados distribuídas (Mapas, Filas, Tópicos, Semáforos), transações distribuídas, processamento de fluxo (Stream Processing) com o Hazelcast Jet, alta disponibilidade e tolerância a falhas, e suporte a clientes em diversas linguagens. **Apache Ignite:** Banco de dados distribuído com suporte a SQL (ANSI-99), transações ACID, persistência nativa em disco (opcional), Data Grid, Compute Grid (processamento distribuído), Service Grid, e suporte a Machine Learning distribuído.
+**Redis:** Rich, atomic data structures (Lists, Sets, Hashes, Streams, etc.), optional persistence (RDB/AOF), asynchronous replication, transactions, Pub/Sub, and modules for advanced functionality such as Vector Search and JSON. **Hazelcast:** Distributed data structures (Maps, Queues, Topics, Semaphores), distributed transactions, stream processing with Hazelcast Jet, high availability and fault tolerance, and client support in multiple languages. **Apache Ignite:** Distributed database with SQL support (ANSI-99), ACID transactions, optional native on-disk persistence, Data Grid, Compute Grid (distributed processing), Service Grid, and support for distributed Machine Learning.
 
 ## Use Cases
 
-**Redis:** Caching de sessão (session caching), filas de mensagens (message queues), contadores e rate limiting, placares de líderes (leaderboards) em tempo real, e armazenamento de dados geoespaciais. **Hazelcast:** Caching de segundo nível para Hibernate, processamento de transações de alto volume (ex: pagamentos), gerenciamento de estado para microsserviços e processamento de eventos em tempo real. **Apache Ignite:** Camada de aceleração de dados (Data Acceleration Layer) para bancos de dados legados, plataforma de HTAP para análise e transações em tempo real, e armazenamento de dados para aplicações de Machine Learning distribuído.
+**Redis:** Session caching, message queues, counters and rate limiting, real-time leaderboards, and geospatial data storage. **Hazelcast:** Second-level caching for Hibernate, high-volume transaction processing (e.g., payments), state management for microservices, and real-time event processing. **Apache Ignite:** Data Acceleration Layer for legacy databases, HTAP platform for real-time analytics and transactions, and data storage for distributed Machine Learning applications.
 
 ## Integration
 
@@ -22,17 +22,17 @@
 ```python
 import redis
 
-# Conexão com o servidor Redis
+# Connection to the Redis server
 r = redis.Redis(decode_responses=True)
 
-# SET (Definir um valor)
+# SET (Set a value)
 r.set('user:100:name', 'Alice')
 
-# GET (Obter um valor)
+# GET (Get a value)
 name = r.get('user:100:name')
-print(f"O nome do usuário 100 é {name}")
+print(f"The name of user 100 is {name}")
 
-# INCR (Incrementar um contador)
+# INCR (Increment a counter)
 r.incr('page_views')
 ```
 
@@ -53,12 +53,12 @@ public class HazelcastIntegration {
         HazelcastInstance client = HazelcastClient.newHazelcastClient(clientConfig);
         IMap<String, String> cities = client.getMap("cities");
 
-        // PUT (Inserir um valor)
+        // PUT (Insert a value)
         cities.put("BR", "Brasília");
 
-        // GET (Obter um valor)
+        // GET (Get a value)
         String capitalBR = cities.get("BR");
-        System.out.println("A capital do Brasil é " + capitalBR);
+        System.out.println("The capital of Brazil is " + capitalBR);
 
         client.shutdown();
     }
@@ -70,19 +70,19 @@ public class HazelcastIntegration {
 ```python
 from pyignite import Client
 
-# Conexão com o servidor Ignite
+# Connection to the Ignite server
 client = Client()
 client.connect('127.0.0.1', 10800)
 
-# Obter ou criar um Cache
+# Get or create a Cache
 cache = client.get_or_create_cache('myCache')
 
-# PUT (Inserir um valor)
+# PUT (Insert a value)
 cache.put(1, 'Ignite Value 1')
 
-# GET (Obter um valor)
+# GET (Get a value)
 value1 = cache.get(1)
-print(f"O valor da chave 1 é {value1}")
+print(f"The value of key 1 is {value1}")
 
 client.close()
 ```

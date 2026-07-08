@@ -2,43 +2,43 @@
 
 ## Description
 
-O Google AutoML é um conjunto de produtos de Machine Learning (ML) que permite a desenvolvedores com **pouca ou nenhuma experiência em ML** treinar modelos personalizados de alta qualidade com o mínimo de esforço. Sua proposta de valor única é a **democratização do ML**, automatizando o ciclo de vida do desenvolvimento de modelos (desde a seleção de algoritmos até o ajuste de hiperparâmetros) e permitindo que as empresas criem modelos específicos para suas necessidades de negócio em minutos, utilizando uma interface gráfica amigável. Atualmente, o Cloud AutoML está integrado e acessível através do **Vertex AI**, a plataforma unificada de ML do Google Cloud.
+Google AutoML is a suite of Machine Learning (ML) products that enables developers with **little or no ML experience** to train high-quality custom models with minimal effort. Its unique value proposition is the **democratization of ML**, automating the model development lifecycle (from algorithm selection to hyperparameter tuning) and allowing companies to create models tailored to their business needs in minutes using a user-friendly graphical interface. Cloud AutoML is now integrated and accessible through **Vertex AI**, Google Cloud's unified ML platform.
 
 ## Statistics
 
-As métricas de avaliação são específicas para cada tipo de modelo e são acessíveis via console do Google Cloud ou API. Para **Modelos de Classificação e Regressão (Tabular)**, as métricas incluem **Mean Absolute Error (MAE)**, **Root Mean Squared Error (RMSE)**, **Matrizes de Confusão** e valores de **Precisão-Recall**. O AutoML é projetado para **acelerar o treinamento e a implantação de modelos**, reduzindo o tempo de desenvolvimento e a necessidade de cientistas de dados especializados. O custo é variável, baseado em fatores como o tempo de treinamento (ex: aproximadamente $21.252 por hora de nó para treinamento de dados tabulares) e o volume de previsões.
+Evaluation metrics are specific to each model type and are accessible via the Google Cloud console or API. For **Classification and Regression Models (Tabular)**, the metrics include **Mean Absolute Error (MAE)**, **Root Mean Squared Error (RMSE)**, **Confusion Matrices**, and **Precision-Recall** values. AutoML is designed to **accelerate model training and deployment**, reducing development time and the need for specialized data scientists. Cost is variable, based on factors such as training time (e.g., approximately $21.252 per node hour for tabular data training) and prediction volume.
 
 ## Features
 
-**Plataforma Unificada (Vertex AI):** Prepara e armazena datasets, oferece acesso às ferramentas de ML do Google, e gerencia modelos com confiança. **AutoML Tabular:** Constrói e implanta modelos de ML para dados estruturados (classificação, regressão, previsão). **AutoML Image:** Deriva insights de detecção de objetos e classificação de imagens (com rótulos personalizados). Suporta implantação de modelos na borda (edge). **AutoML Video:** Permite análise de vídeo em streaming, detecção de mudança de cena e rastreamento de objetos. **AutoML Text:** Revela a estrutura e o significado do texto, oferecendo extração de entidade e análise de sentimento personalizadas. **AutoML Translation:** Detecta e traduz dinamicamente entre idiomas, suportando 50 pares de idiomas e modelos personalizados. **APIs:** Suporte a APIs REST, RPC e gRPC para interações programáticas.
+**Unified Platform (Vertex AI):** Prepares and stores datasets, provides access to Google's ML tools, and manages models with confidence. **AutoML Tabular:** Builds and deploys ML models for structured data (classification, regression, forecasting). **AutoML Image:** Derives insights from object detection and image classification (with custom labels). Supports edge model deployment. **AutoML Video:** Enables streaming video analysis, scene change detection, and object tracking. **AutoML Text:** Reveals the structure and meaning of text, offering custom entity extraction and sentiment analysis. **AutoML Translation:** Dynamically detects and translates between languages, supporting 50 language pairs and custom models. **APIs:** Support for REST, RPC, and gRPC APIs for programmatic interactions.
 
 ## Use Cases
 
-**Análise de Imagem:** Classificação de produtos em e-commerce, detecção de defeitos em linhas de produção (controle de qualidade). **Análise de Vídeo:** Anotação de conteúdo para descoberta aprimorada, rastreamento de objetos em vídeos de segurança. **Processamento de Linguagem Natural (NLP):** Extração de entidades personalizadas em documentos legais ou médicos, análise de sentimento de avaliações de clientes. **Dados Tabulares:** Previsão de demanda de vendas (como no exemplo do Colab), detecção de fraudes, previsão de rotatividade de clientes. **Exemplos Reais:** **Twitter** (ajuda clientes a encontrar "Spaces" significativos), **Imagia** (usa AutoML para descobrir marcadores para doenças degenerativas).
+**Image Analysis:** Product classification in e-commerce, defect detection on production lines (quality control). **Video Analysis:** Content annotation for improved discovery, object tracking in security videos. **Natural Language Processing (NLP):** Custom entity extraction in legal or medical documents, sentiment analysis of customer reviews. **Tabular Data:** Sales demand forecasting (as in the Colab example), fraud detection, customer churn prediction. **Real-World Examples:** **Twitter** (helps customers find meaningful "Spaces"), **Imagia** (uses AutoML to discover markers for degenerative diseases).
 
 ## Integration
 
-A integração é feita principalmente através da plataforma **Vertex AI** e suas APIs. O cliente Python mais recente e recomendado é o **Vertex AI SDK for Python**, que substitui o cliente `google-cloud-automl` mais antigo e permite o treinamento e a previsão programática.
+Integration is done primarily through the **Vertex AI** platform and its APIs. The latest and recommended Python client is the **Vertex AI SDK for Python**, which replaces the older `google-cloud-automl` client and enables programmatic training and prediction.
 
-**Exemplo de Integração (Vertex AI SDK for Python para Previsão em Lote):**
+**Integration Example (Vertex AI SDK for Python for Batch Prediction):**
 
 ```python
 from google.cloud import bigquery
 from google.cloud import aiplatform
 
-# Inicializa o SDK do Vertex AI
+# Initialize the Vertex AI SDK
 aiplatform.init(project=PROJECT_ID, location=REGION)
 
-# Define o caminho do modelo (assumindo que 'model' é uma instância de Model)
+# Define the model path (assuming 'model' is a Model instance)
 # model = aiplatform.Model(model_name='projects/PROJECT_ID/locations/REGION/models/MODEL_ID')
 
-# Define as configurações de entrada e saída do BigQuery
+# Define the BigQuery input and output configurations
 PREDICTION_DATASET_BQ_PATH = "bq://bigquery-public-data:iowa_liquor_sales_forecasting.2021_sales_predict"
 batch_predict_bq_output_uri_prefix = "bq://{}.{}".format(
     PROJECT_ID, "iowa_liquor_sales_predictions"
 )
 
-# Realiza a previsão em lote
+# Run the batch prediction
 batch_prediction_job = model.batch_predict(
     job_display_name="iowa_liquor_sales_forecasting_predictions",
     bigquery_source=PREDICTION_DATASET_BQ_PATH,
@@ -46,7 +46,7 @@ batch_prediction_job = model.batch_predict(
     bigquery_destination_prefix=batch_predict_bq_output_uri_prefix,
     predictions_format="bigquery",
     generate_explanation=True,
-    sync=False, # Executa de forma assíncrona
+    sync=False, # Run asynchronously
 )
 
 print(f"Batch Prediction Job Name: {batch_prediction_job.resource_name}")

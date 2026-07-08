@@ -1,30 +1,30 @@
 # ShapeNet (3D Models)
 
 ## Description
-ShapeNet é um esforço contínuo para estabelecer um dataset de grande escala de modelos 3D ricamente anotados. É uma colaboração entre pesquisadores de Princeton, Stanford e TTIC, organizado de acordo com a hierarquia WordNet. O dataset é fundamental para pesquisa em computação gráfica, visão computacional e robótica. Possui dois subconjuntos principais: ShapeNetCore e ShapeNetSem. O ShapeNet original indexou mais de 3.000.000 de modelos.
+ShapeNet is an ongoing effort to establish a large-scale dataset of richly annotated 3D models. It is a collaboration between researchers from Princeton, Stanford, and TTIC, organized according to the WordNet hierarchy. The dataset is fundamental for research in computer graphics, computer vision, and robotics. It has two main subsets: ShapeNetCore and ShapeNetSem. The original ShapeNet indexed more than 3,000,000 models.
 
 ## Statistics
-*   **ShapeNet (Total):** Mais de 3.000.000 de modelos indexados (em 2015).
-*   **ShapeNetCore:** Aproximadamente **51.300** modelos 3D únicos, cobrindo **55** categorias de objetos.
-*   **ShapeNetSem:** Aproximadamente **12.000** modelos, abrangendo **270** categorias.
-*   **Versão Principal:** O relatório técnico principal é de 2015, mas o dataset continua sendo a base para novas pesquisas e derivações (como o OpenShape, 2023).
+*   **ShapeNet (Total):** More than 3,000,000 indexed models (in 2015).
+*   **ShapeNetCore:** Approximately **51,300** unique 3D models, covering **55** object categories.
+*   **ShapeNetSem:** Approximately **12,000** models, spanning **270** categories.
+*   **Main Version:** The main technical report is from 2015, but the dataset continues to be the foundation for new research and derivations (such as OpenShape, 2023).
 
 ## Features
-O dataset é composto por modelos 3D em formato OBJ+MTL. É organizado hierarquicamente usando a taxonomia WordNet.
-*   **ShapeNetCore:** Subconjunto com modelos 3D limpos e únicos, com anotações de categoria e alinhamento verificadas manualmente. Cobre 55 categorias comuns de objetos.
-*   **ShapeNetSem:** Subconjunto menor, mais densamente anotado, com 270 categorias. Inclui anotações de dimensões do mundo real, composição material, volume e peso.
-*   **ShapeNetPart:** Uma derivação popular do ShapeNetCore com anotações de segmentação de partes.
+The dataset consists of 3D models in OBJ+MTL format. It is organized hierarchically using the WordNet taxonomy.
+*   **ShapeNetCore:** A subset of clean, unique 3D models with manually verified category and alignment annotations. Covers 55 common object categories.
+*   **ShapeNetSem:** A smaller, more densely annotated subset with 270 categories. Includes annotations of real-world dimensions, material composition, volume, and weight.
+*   **ShapeNetPart:** A popular derivation of ShapeNetCore with part segmentation annotations.
 
 ## Use Cases
-*   Reconhecimento e classificação de objetos 3D.
-*   Segmentação de partes de objetos 3D (com ShapeNetPart).
-*   Síntese e geração de formas 3D.
-*   Estimativa de pose de objetos 3D.
-*   Pesquisa em robótica para percepção e manipulação de objetos.
-*   Treinamento de modelos de aprendizado profundo para representação de formas volumétricas (3D ShapeNets).
+*   3D object recognition and classification.
+*   3D object part segmentation (with ShapeNetPart).
+*   3D shape synthesis and generation.
+*   3D object pose estimation.
+*   Robotics research for object perception and manipulation.
+*   Training deep learning models for volumetric shape representation (3D ShapeNets).
 
 ## Integration
-O acesso aos dados do modelo (OBJ+MTL) e aos metadados de anotação processados é fornecido para fins de pesquisa e/ou educacionais não comerciais. É necessário **registrar** uma conta no site oficial. Após a verificação e aprovação por um administrador do site, o download é liberado. O ShapeNet Viewer é fornecido para visualização e renderização dos modelos. O artigo principal a ser citado é: "ShapeNet: An Information-Rich 3D Model Repository" (2015).
+Access to the model data (OBJ+MTL) and to the processed annotation metadata is provided for non-commercial research and/or educational purposes. It is necessary to **register** an account on the official website. After verification and approval by a site administrator, the download is enabled. The ShapeNet Viewer is provided for visualizing and rendering the models. The main article to be cited is: "ShapeNet: An Information-Rich 3D Model Repository" (2015).
 
 ## URL
 [https://shapenet.org/](https://shapenet.org/)

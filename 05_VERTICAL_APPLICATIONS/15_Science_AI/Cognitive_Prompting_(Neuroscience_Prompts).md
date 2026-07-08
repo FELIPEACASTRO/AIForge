@@ -1,79 +1,79 @@
 # Cognitive Prompting (Neuroscience Prompts)
 
 ## Description
-O **Cognitive Prompting** é uma técnica avançada de Engenharia de Prompt que estrutura o raciocínio de Modelos de Linguagem Grande (LLMs) em operações cognitivas distintas (*Cognitive Operations - COPs*), inspiradas no pensamento humano. Desenvolvida por Oliver Kramer e Jill Baumann, ela decompõe problemas complexos em etapas como **Clarificação de Objetivo**, **Decomposição**, **Filtragem**, **Reconhecimento de Padrões**, **Abstração** e **Integração**. Ao contrário do *Chain of Thought* (CoT), que é sequencial, o *Cognitive Prompting* oferece uma estrutura mais adaptável e multidimensional, tornando o raciocínio da IA mais estruturado, interpretável e eficaz para tarefas complexas de múltiplos passos [1]. Esta abordagem é a manifestação mais próxima e bem documentada do conceito de "Neuroscience Prompts", pois emula a arquitetura psicológica e cognitiva humana para guiar a resolução de problemas pela IA.
+**Cognitive Prompting** is an advanced Prompt Engineering technique that structures the reasoning of Large Language Models (LLMs) into distinct cognitive operations (*Cognitive Operations - COPs*), inspired by human thinking. Developed by Oliver Kramer and Jill Baumann, it decomposes complex problems into steps such as **Goal Clarification**, **Decomposition**, **Filtering**, **Pattern Recognition**, **Abstraction**, and **Integration**. Unlike *Chain of Thought* (CoT), which is sequential, *Cognitive Prompting* offers a more adaptable and multidimensional structure, making the AI's reasoning more structured, interpretable, and effective for complex multi-step tasks [1]. This approach is the closest and best-documented manifestation of the "Neuroscience Prompts" concept, as it emulates the human psychological and cognitive architecture to guide AI problem solving.
 
 ## Examples
 ```
-**Exemplo 1: Análise de Viabilidade de Produto (Business)**
+**Example 1: Product Viability Analysis (Business)**
 ```
-**Papel:** Você é um Analista de Estratégia de Mercado.
-**Tarefa:** Avalie a viabilidade de lançar um novo aplicativo de fitness baseado em IA.
-**COPs a Seguir:**
-1. **Clarificação de Objetivo:** Defina os 3 principais critérios de sucesso para o lançamento.
-2. **Decomposição:** Liste 5 áreas de risco (Tecnologia, Mercado, Financeiro, Legal, Operacional).
-3. **Filtragem:** Identifique os 2 riscos mais críticos e descarte os demais.
-4. **Reconhecimento de Padrões:** Compare o modelo de negócios com 3 concorrentes de sucesso.
-5. **Integração:** Apresente um resumo executivo com a recomendação final e os próximos 3 passos.
-```
-
-**Exemplo 2: Diagnóstico de Erro em Código (Tecnologia)**
-```
-**Papel:** Você é um Engenheiro de Software Sênior.
-**Tarefa:** Encontre a causa raiz de um erro de 'NullPointerException' em um sistema Java.
-**COPs a Seguir:**
-1. **Clarificação de Objetivo:** Qual é o escopo do erro (módulo, função, linha)?
-2. **Decomposição:** Liste 4 possíveis causas para 'NullPointerException' (e.g., variável não inicializada, retorno de função nulo).
-3. **Filtragem:** Analise o trecho de código fornecido e filtre as causas improváveis.
-4. **Abstração:** Formule uma regra geral de codificação para evitar este tipo de erro no futuro.
-5. **Integração:** Forneça o código corrigido e a explicação da causa raiz.
+**Role:** You are a Market Strategy Analyst.
+**Task:** Assess the viability of launching a new AI-based fitness app.
+**COPs to Follow:**
+1. **Goal Clarification:** Define the 3 main success criteria for the launch.
+2. **Decomposition:** List 5 risk areas (Technology, Market, Financial, Legal, Operational).
+3. **Filtering:** Identify the 2 most critical risks and discard the rest.
+4. **Pattern Recognition:** Compare the business model with 3 successful competitors.
+5. **Integration:** Present an executive summary with the final recommendation and the next 3 steps.
 ```
 
-**Exemplo 3: Criação de Plano de Estudos (Educação)**
+**Example 2: Code Error Diagnosis (Technology)**
 ```
-**Papel:** Você é um Tutor Cognitivo.
-**Tarefa:** Crie um plano de estudos de 4 semanas para aprender "Machine Learning" do zero.
-**COPs a Seguir:**
-1. **Clarificação de Objetivo:** Defina o nível de proficiência desejado ao final das 4 semanas.
-2. **Decomposição:** Divida o conteúdo em 4 módulos semanais (e.g., Matemática, Python, Algoritmos, Projetos).
-3. **Reconhecimento de Padrões:** Identifique a sequência de aprendizado mais eficiente (pré-requisitos).
-4. **Abstração:** Sugira 3 métodos de estudo baseados em neurociência (e.g., repetição espaçada, teste ativo).
-5. **Integração:** Apresente o cronograma detalhado com recursos e métodos de avaliação.
-```
-
-**Exemplo 4: Resolução de Dilema Ético (Legal/Filosofia)**
-```
-**Papel:** Você é um Conselheiro Ético.
-**Tarefa:** Analise o dilema ético do uso de reconhecimento facial em escolas.
-**COPs a Seguir:**
-1. **Clarificação de Objetivo:** Quais são os 3 principais valores em conflito (e.g., Segurança vs. Privacidade)?
-2. **Decomposição:** Liste os stakeholders (Pais, Alunos, Escola, Governo) e seus interesses.
-3. **Filtragem:** Descarte argumentos irrelevantes ou baseados em falácias lógicas.
-4. **Abstração:** Aplique 2 estruturas éticas (e.g., Utilitarismo, Deontologia) ao problema.
-5. **Integração:** Apresente uma recomendação ponderada, destacando os trade-offs.
+**Role:** You are a Senior Software Engineer.
+**Task:** Find the root cause of a 'NullPointerException' error in a Java system.
+**COPs to Follow:**
+1. **Goal Clarification:** What is the scope of the error (module, function, line)?
+2. **Decomposition:** List 4 possible causes for 'NullPointerException' (e.g., uninitialized variable, null function return).
+3. **Filtering:** Analyze the provided code snippet and filter out the unlikely causes.
+4. **Abstraction:** Formulate a general coding rule to avoid this type of error in the future.
+5. **Integration:** Provide the corrected code and the explanation of the root cause.
 ```
 
-**Exemplo 5: Otimização de Processo Criativo (Criativo/Design)**
+**Example 3: Study Plan Creation (Education)**
 ```
-**Papel:** Você é um Diretor de Criação.
-**Tarefa:** Desenvolver 5 conceitos de slogan para uma campanha de sustentabilidade.
-**COPs a Seguir:**
-1. **Clarificação de Objetivo:** Defina o público-alvo e a emoção central a ser evocada.
-2. **Decomposição:** Gere 3 categorias de slogans (e.g., Ação, Consciência, Futuro).
-3. **Filtragem:** Elimine slogans que sejam clichês ou muito longos.
-4. **Reconhecimento de Padrões:** Analise 3 slogans de sucesso em campanhas ambientais.
-5. **Integração:** Apresente os 5 melhores slogans, cada um com uma breve justificativa criativa.
+**Role:** You are a Cognitive Tutor.
+**Task:** Create a 4-week study plan to learn "Machine Learning" from scratch.
+**COPs to Follow:**
+1. **Goal Clarification:** Define the desired proficiency level at the end of the 4 weeks.
+2. **Decomposition:** Divide the content into 4 weekly modules (e.g., Mathematics, Python, Algorithms, Projects).
+3. **Pattern Recognition:** Identify the most efficient learning sequence (prerequisites).
+4. **Abstraction:** Suggest 3 study methods based on neuroscience (e.g., spaced repetition, active recall).
+5. **Integration:** Present the detailed schedule with resources and assessment methods.
+```
+
+**Example 4: Ethical Dilemma Resolution (Legal/Philosophy)**
+```
+**Role:** You are an Ethics Advisor.
+**Task:** Analyze the ethical dilemma of using facial recognition in schools.
+**COPs to Follow:**
+1. **Goal Clarification:** What are the 3 main conflicting values (e.g., Security vs. Privacy)?
+2. **Decomposition:** List the stakeholders (Parents, Students, School, Government) and their interests.
+3. **Filtering:** Discard irrelevant arguments or those based on logical fallacies.
+4. **Abstraction:** Apply 2 ethical frameworks (e.g., Utilitarianism, Deontology) to the problem.
+5. **Integration:** Present a balanced recommendation, highlighting the trade-offs.
+```
+
+**Example 5: Creative Process Optimization (Creative/Design)**
+```
+**Role:** You are a Creative Director.
+**Task:** Develop 5 slogan concepts for a sustainability campaign.
+**COPs to Follow:**
+1. **Goal Clarification:** Define the target audience and the central emotion to be evoked.
+2. **Decomposition:** Generate 3 categories of slogans (e.g., Action, Awareness, Future).
+3. **Filtering:** Eliminate slogans that are clichés or too long.
+4. **Pattern Recognition:** Analyze 3 successful slogans from environmental campaigns.
+5. **Integration:** Present the 5 best slogans, each with a brief creative justification.
 ```
 ```
 
 ## Best Practices
-**Estrutura de COPs (Cognitive Operations):** Sempre comece o prompt definindo o papel da IA e, em seguida, liste as etapas de COPs que ela deve seguir (Clarificação, Decomposição, Filtragem, etc.). **Instruções Explícitas:** Seja explícito sobre o que cada COP deve produzir. Por exemplo, na fase de "Decomposição", peça para listar 5 sub-tarefas. **Iteração e Refinamento:** Use o output de uma COP como input para a próxima, criando um fluxo de trabalho iterativo e auto-corretivo. **Meta-Cognição:** Peça à IA para justificar a transição entre as COPs, simulando a auto-reflexão humana.
+**COP (Cognitive Operations) Structure:** Always begin the prompt by defining the AI's role, then list the COP steps it should follow (Clarification, Decomposition, Filtering, etc.). **Explicit Instructions:** Be explicit about what each COP should produce. For example, in the "Decomposition" phase, ask it to list 5 subtasks. **Iteration and Refinement:** Use the output of one COP as input for the next, creating an iterative and self-correcting workflow. **Meta-Cognition:** Ask the AI to justify the transition between COPs, simulating human self-reflection.
 
 ## Use Cases
-**Resolução de Problemas Complexos:** Ideal para tarefas que exigem raciocínio multi-etapas e não linear, como análise de causa raiz, planejamento estratégico e design de sistemas. **Análise de Dados:** Estrutura a exploração de grandes conjuntos de dados, desde a definição da pergunta de pesquisa (Clarificação) até a formulação de *insights* acionáveis (Integração). **Tomada de Decisão:** Ajuda a simular o processo decisório humano, garantindo que todos os fatores (objetivos, riscos, padrões) sejam considerados antes de uma conclusão. **Educação e Tutoria:** Cria planos de aprendizado estruturados e personalizados, imitando o processo de um tutor humano que decompõe o conhecimento e sugere métodos de estudo. **Criação de Conteúdo:** Otimiza o processo criativo, desde a definição do objetivo da comunicação até a filtragem de ideias e a integração do conceito final.
+**Complex Problem Solving:** Ideal for tasks that require multi-step, non-linear reasoning, such as root cause analysis, strategic planning, and systems design. **Data Analysis:** Structures the exploration of large datasets, from defining the research question (Clarification) to formulating actionable *insights* (Integration). **Decision Making:** Helps simulate the human decision-making process, ensuring that all factors (goals, risks, patterns) are considered before a conclusion. **Education and Tutoring:** Creates structured and personalized learning plans, mimicking the process of a human tutor who decomposes knowledge and suggests study methods. **Content Creation:** Optimizes the creative process, from defining the communication goal to filtering ideas and integrating the final concept.
 
 ## Pitfalls
-**Confundir com CoT:** O erro mais comum é tratar o *Cognitive Prompting* como um simples *Chain of Thought* (CoT) sequencial. O CoT foca na lógica passo a passo; o *Cognitive Prompting* foca em operações cognitivas não lineares e adaptáveis. **COPs Vagas:** Não definir claramente o que cada Operação Cognitiva (COP) deve fazer resulta em outputs genéricos. Cada COP deve ter um objetivo de output mensurável. **Sobrecarga Cognitiva:** Usar um número excessivo de COPs para tarefas simples pode ser contraproducente, aumentando a latência e o custo sem melhorar a qualidade. **Falta de Feedback:** Não usar o output de uma COP para informar a próxima quebra o fluxo de raciocínio estruturado, transformando a técnica em uma lista de tarefas desconectadas.
+**Confusing it with CoT:** The most common mistake is treating *Cognitive Prompting* as a simple sequential *Chain of Thought* (CoT). CoT focuses on step-by-step logic; *Cognitive Prompting* focuses on non-linear and adaptable cognitive operations. **Vague COPs:** Not clearly defining what each Cognitive Operation (COP) should do results in generic outputs. Each COP should have a measurable output goal. **Cognitive Overload:** Using an excessive number of COPs for simple tasks can be counterproductive, increasing latency and cost without improving quality. **Lack of Feedback:** Not using the output of one COP to inform the next breaks the structured reasoning flow, turning the technique into a disconnected task list.
 
 ## URL
 [https://www.ikangai.com/cognitive-prompting-unlocking-structured-thinking-in-ai/](https://www.ikangai.com/cognitive-prompting-unlocking-structured-thinking-in-ai/)

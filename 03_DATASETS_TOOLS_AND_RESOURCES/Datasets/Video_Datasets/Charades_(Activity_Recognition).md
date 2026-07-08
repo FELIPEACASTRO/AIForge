@@ -1,50 +1,50 @@
 # Charades (Activity Recognition)
 
 ## Description
-O Charades é um dataset de grande escala composto por 9.848 vídeos de atividades diárias internas, coletados via Amazon Mechanical Turk. O objetivo principal é guiar a pesquisa em reconhecimento de atividades em vídeo não estruturado e raciocínio de senso comum para atividades humanas diárias. Os vídeos são de curta duração (média de 30 segundos) e mostram 267 usuários diferentes encenando frases que incluem objetos e ações de um vocabulário fixo. O dataset é frequentemente usado como um benchmark para tarefas de reconhecimento e localização temporal de ações.
+Charades is a large-scale dataset composed of 9,848 videos of daily indoor activities, collected via Amazon Mechanical Turk. Its main goal is to drive research in activity recognition in unstructured video and common-sense reasoning for daily human activities. The videos are short (average of 30 seconds) and show 267 different users acting out sentences that include objects and actions from a fixed vocabulary. The dataset is frequently used as a benchmark for action recognition and temporal localization tasks.
 
 ## Statistics
-- **Vídeos:** 9.848 vídeos de atividades diárias internas.
-- **Anotações Temporais:** 66.500 anotações para 157 classes de ações.
-- **Rótulos de Objetos:** 41.104 rótulos para 46 classes de objetos.
-- **Descrições Textuais:** 27.847 descrições textuais.
-- **Tamanho Total:** O conjunto de dados em tamanho original é de aproximadamente 55 GB (vídeos), com a versão escalada para 480p em 13 GB.
-- **Versões:** A versão original (v1) foi lançada em 2016. Extensões notáveis incluem Charades-Ego e Charades-STA.
+- **Videos:** 9,848 videos of daily indoor activities.
+- **Temporal Annotations:** 66,500 annotations for 157 action classes.
+- **Object Labels:** 41,104 labels for 46 object classes.
+- **Textual Descriptions:** 27,847 textual descriptions.
+- **Total Size:** The dataset in its original size is approximately 55 GB (videos), with the version scaled to 480p at 13 GB.
+- **Versions:** The original version (v1) was released in 2016. Notable extensions include Charades-Ego and Charades-STA.
 
 ## Features
-- **Vídeos de Atividades Diárias:** 9.848 vídeos de atividades internas cotidianas.
-- **Anotações Ricas:** Inclui 66.500 anotações temporais para 157 classes de ações, 41.104 rótulos para 46 classes de objetos e 27.847 descrições textuais.
-- **Natureza Multi-rótulo:** As atividades podem ocorrer simultaneamente ou sequencialmente, tornando-o ideal para o reconhecimento de atividades multi-rótulo.
-- **Diversidade de Dados:** Coletado de 267 usuários diferentes, garantindo uma variedade de cenários e estilos de atuação.
-- **Variações:** Possui extensões como Charades-Ego (vídeos em primeira e terceira pessoa) e Charades-STA (para localização temporal de atividades com sentenças).
+- **Daily Activity Videos:** 9,848 videos of everyday indoor activities.
+- **Rich Annotations:** Includes 66,500 temporal annotations for 157 action classes, 41,104 labels for 46 object classes, and 27,847 textual descriptions.
+- **Multi-label Nature:** Activities can occur simultaneously or sequentially, making it ideal for multi-label activity recognition.
+- **Data Diversity:** Collected from 267 different users, ensuring a variety of scenarios and acting styles.
+- **Variations:** Has extensions such as Charades-Ego (first- and third-person videos) and Charades-STA (for temporal localization of activities with sentences).
 
 ## Use Cases
-- **Reconhecimento de Atividades em Vídeo (HAR):** Principal caso de uso, focado em identificar ações e atividades humanas em vídeos não estruturados.
-- **Localização Temporal de Ações:** Utilizado para determinar o início e o fim exatos de uma atividade dentro de um vídeo.
-- **Reconhecimento de Atividades Multi-rótulo:** Ideal para modelos que precisam identificar múltiplas ações ocorrendo simultaneamente ou sequencialmente.
-- **Raciocínio de Senso Comum:** Pesquisa sobre a compreensão de como objetos e ações se relacionam em cenários cotidianos.
-- **Visão Egocêntrica:** A extensão Charades-Ego é usada para treinar modelos que compreendem atividades a partir da perspectiva de primeira pessoa.
-- **Geração de Legendas de Vídeo:** As descrições textuais e anotações temporais suportam o desenvolvimento de modelos de *video captioning*.
+- **Human Activity Recognition (HAR):** Main use case, focused on identifying human actions and activities in unstructured videos.
+- **Temporal Action Localization:** Used to determine the exact start and end of an activity within a video.
+- **Multi-label Activity Recognition:** Ideal for models that need to identify multiple actions occurring simultaneously or sequentially.
+- **Common-Sense Reasoning:** Research on understanding how objects and actions relate to each other in everyday scenarios.
+- **Egocentric Vision:** The Charades-Ego extension is used to train models that understand activities from a first-person perspective.
+- **Video Caption Generation:** The textual descriptions and temporal annotations support the development of *video captioning* models.
 
 ## Integration
-O dataset Charades pode ser acessado e baixado diretamente da página oficial do Allen AI (prior.allenai.org/projects/charades) ou através de plataformas como o Hugging Face Datasets.
+The Charades dataset can be accessed and downloaded directly from the official Allen AI page (prior.allenai.org/projects/charades) or through platforms such as Hugging Face Datasets.
 
-**Opções de Download:**
-1.  **Página Oficial (Allen AI):** Oferece diversas opções de download, incluindo:
-    *   Dados (escalados para 480p, 13 GB)
-    *   Dados (tamanho original, 55 GB)
-    *   Frames RGB e Optical Flow
-    *   Anotações e Código de Avaliação (3 MB)
-2.  **Hugging Face Datasets:** Pode ser carregado diretamente em ambientes Python usando a biblioteca `datasets`:
+**Download Options:**
+1.  **Official Page (Allen AI):** Offers several download options, including:
+    *   Data (scaled to 480p, 13 GB)
+    *   Data (original size, 55 GB)
+    *   RGB and Optical Flow Frames
+    *   Annotations and Evaluation Code (3 MB)
+2.  **Hugging Face Datasets:** Can be loaded directly into Python environments using the `datasets` library:
     ```python
     from datasets import load_dataset
-    # Para a versão Charades-STA
+    # For the Charades-STA version
     dataset = load_dataset("HuggingFaceM4/charades")
     ```
-3.  **Repositórios GitHub:** Códigos de inicialização e algoritmos de linha de base estão disponíveis em repositórios como `gsig/charades-algorithms` para auxiliar na integração com frameworks como PyTorch e Torch.
+3.  **GitHub Repositories:** Starter code and baseline algorithms are available in repositories such as `gsig/charades-algorithms` to assist with integration into frameworks like PyTorch and Torch.
 
-**Instruções de Uso:**
-Após o download, as anotações (em formato CSV) e os vídeos devem ser processados. O código de avaliação e os scripts de linha de base fornecidos pelos autores são essenciais para configurar o ambiente e executar modelos de reconhecimento de atividade. É recomendável começar com a versão escalada (480p) para testes iniciais.
+**Usage Instructions:**
+After downloading, the annotations (in CSV format) and the videos must be processed. The evaluation code and baseline scripts provided by the authors are essential for setting up the environment and running activity recognition models. It is recommended to start with the scaled version (480p) for initial testing.
 
 ## URL
 [https://prior.allenai.org/projects/charades](https://prior.allenai.org/projects/charades)

@@ -2,23 +2,23 @@
 
 ## Description
 
-DANN (Domain-Adversarial Neural Network) é uma abordagem de aprendizado de representação para adaptação de domínio não supervisionada que aprende características discriminativas para a tarefa principal e invariantes ao domínio através de um treinamento adversarial com uma Camada de Reversão de Gradiente (GRL). CORAL (Correlation Alignment) é um método que minimiza o desvio de domínio alinhando as estatísticas de segunda ordem (covariâncias) das distribuições de características de origem e alvo, podendo ser aplicado de forma rasa ou profunda (Deep CORAL). A Adaptação de Domínio Adversarial (ADA) é uma família de métodos que utiliza o princípio adversarial (como em GANs) para aprender representações transferíveis, sendo o DANN e o ADDA (Adversarial Discriminative Domain Adaptation) exemplos proeminentes. Todos visam mitigar o problema de *domain shift* em cenários onde os dados de treinamento (origem) e teste (alvo) vêm de distribuições semelhantes, mas diferentes.
+DANN (Domain-Adversarial Neural Network) is a representation-learning approach for unsupervised domain adaptation that learns features that are discriminative for the main task and invariant to the domain through adversarial training with a Gradient Reversal Layer (GRL). CORAL (Correlation Alignment) is a method that minimizes domain shift by aligning the second-order statistics (covariances) of the source and target feature distributions, and it can be applied in a shallow or deep form (Deep CORAL). Adversarial Domain Adaptation (ADA) is a family of methods that uses the adversarial principle (as in GANs) to learn transferable representations, with DANN and ADDA (Adversarial Discriminative Domain Adaptation) being prominent examples. All of them aim to mitigate the *domain shift* problem in scenarios where the training data (source) and test data (target) come from similar but different distributions.
 
 ## Statistics
 
-O artigo seminal do DANN (2016) possui mais de 12.500 citações, e o ADDA (2017) possui mais de 6.500 citações, indicando o impacto fundamental dos métodos adversariais. O Deep CORAL alcançou desempenho de última geração em benchmarks como Office31 na época de sua publicação. Em estudos de benchmarking, o DANN demonstrou superar métodos mais recentes.
+The seminal DANN paper (2016) has more than 12,500 citations, and ADDA (2017) has more than 6,500 citations, indicating the fundamental impact of adversarial methods. Deep CORAL achieved state-of-the-art performance on benchmarks such as Office31 at the time of its publication. In benchmarking studies, DANN was shown to outperform more recent methods.
 
 ## Features
 
-**DANN:** Aprendizado de representação invariante ao domínio; Uso de Camada de Reversão de Gradiente (GRL); Treinamento de ponta a ponta com backpropagation padrão. **CORAL:** Alinhamento de estatísticas de segunda ordem (covariância); Simplicidade e eficiência; Pode ser aplicado como método 'raso' ou 'profundo'. **ADA (Geral):** Utiliza o princípio de treinamento adversarial (minimax); Aprende representações de características invariantes ao domínio; Componentes principais: Extrator de Características e Discriminador de Domínio.
+**DANN:** Learning of domain-invariant representations; Use of a Gradient Reversal Layer (GRL); End-to-end training with standard backpropagation. **CORAL:** Alignment of second-order statistics (covariance); Simplicity and efficiency; Can be applied as a 'shallow' or 'deep' method. **ADA (General):** Uses the adversarial (minimax) training principle; Learns domain-invariant feature representations; Main components: Feature Extractor and Domain Discriminator.
 
 ## Use Cases
 
-Classificação de imagens (Office-31, Office-Caltech); Análise de sentimento de documentos; Aprendizado de descritores para reidentificação de pessoas; Detecção de falhas em rolamentos; Reconhecimento de atividade de usuário (cross-user activity recognition); Transferência de sintético para real (simulação para robótica).
+Image classification (Office-31, Office-Caltech); Document sentiment analysis; Learning of descriptors for person re-identification; Bearing fault detection; User activity recognition (cross-user activity recognition); Synthetic-to-real transfer (simulation to robotics).
 
 ## Integration
 
-**DANN:** A integração é facilitada pela sua natureza de treinamento de ponta a ponta, com a GRL como componente chave. A perda total é $L_{total} = L_{classificação} - \lambda L_{domínio}$. Implementações estão disponíveis em PyTorch/TensorFlow. **CORAL:** Implementado adicionando um termo de perda (Perda CORAL) à função de perda padrão do modelo, onde $L_{CORAL}$ é a distância quadrática de Frobenius entre as matrizes de covariância das características de origem e alvo. $L_{total} = L_{classificação} + \lambda L_{CORAL}$. **ADA (Geral):** Implementado com uma função de perda de três vias (ou mais), otimizando os componentes em um jogo adversarial (ex: ADDA).
+**DANN:** Integration is facilitated by its end-to-end training nature, with the GRL as a key component. The total loss is $L_{total} = L_{classification} - \lambda L_{domain}$. Implementations are available in PyTorch/TensorFlow. **CORAL:** Implemented by adding a loss term (CORAL Loss) to the model's standard loss function, where $L_{CORAL}$ is the squared Frobenius distance between the covariance matrices of the source and target features. $L_{total} = L_{classification} + \lambda L_{CORAL}$. **ADA (General):** Implemented with a three-way (or more) loss function, optimizing the components in an adversarial game (e.g., ADDA).
 
 ## URL
 

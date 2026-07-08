@@ -2,23 +2,23 @@
 
 ## Description
 
-AlphaFold é um sistema de inteligência artificial desenvolvido pelo Google DeepMind e Isomorphic Labs que resolveu o 'problema do dobramento de proteínas', prevendo a estrutura 3D de proteínas a partir de sua sequência de aminoácidos com precisão notável. O AlphaFold 3 expandiu essa capacidade para prever a estrutura conjunta e as interações de complexos biomoleculares, incluindo proteínas, DNA, RNA, ligantes e anticorpos, revolucionando a proteômica estrutural e a descoberta de medicamentos.
+AlphaFold is an artificial intelligence system developed by Google DeepMind and Isomorphic Labs that solved the 'protein folding problem' by predicting the 3D structure of proteins from their amino acid sequence with remarkable accuracy. AlphaFold 3 expanded this capability to predict the joint structure and interactions of biomolecular complexes, including proteins, DNA, RNA, ligands, and antibodies, revolutionizing structural proteomics and drug discovery.
 
 ## Statistics
 
-Mais de 200 milhões de estruturas de proteínas previstas (cobrindo quase todo o proteoma catalogado). Mais de 2 milhões de pesquisadores em mais de 190 países utilizam o AlphaFold Protein Structure Database (AlphaFold DB). Estima-se que tenha economizado até 1 bilhão de anos de pesquisa. O AlphaFold 3 demonstrou uma precisão 50% superior na previsão de interações proteína-ligante em comparação com métodos anteriores.
+More than 200 million predicted protein structures (covering almost the entire catalogued proteome). More than 2 million researchers in over 190 countries use the AlphaFold Protein Structure Database (AlphaFold DB). It is estimated to have saved up to 1 billion years of research. AlphaFold 3 demonstrated 50% greater accuracy in predicting protein-ligand interactions compared to previous methods.
 
 ## Features
 
-Previsão de Estrutura 3D de Proteínas (AlphaFold 2). Previsão de Estrutura Conjunta de Complexos Biomoleculares (AlphaFold 3). Modelagem de Interações Proteína-Proteína (PPI), Proteína-Ácido Nucleico (DNA/RNA) e Proteína-Ligante. Alta precisão na previsão de estruturas, medida pelo score de confiança (pLDDT). Código-fonte e pesos do modelo AlphaFold 3 disponíveis para uso acadêmico.
+3D Protein Structure Prediction (AlphaFold 2). Joint Structure Prediction of Biomolecular Complexes (AlphaFold 3). Modeling of Protein-Protein Interactions (PPI), Protein-Nucleic Acid (DNA/RNA), and Protein-Ligand interactions. High accuracy in structure prediction, measured by the confidence score (pLDDT). AlphaFold 3 source code and model weights available for academic use.
 
 ## Use Cases
 
-Aceleração da Descoberta de Medicamentos e Alvos Terapêuticos. Engenharia de Enzimas para Biocatálise e Reciclagem de Plásticos. Compreensão de Mecanismos de Doenças (e.g., Parkinson, Câncer) através da estrutura de proteínas defeituosas. Design de Vacinas e Anticorpos. Otimização de Culturas Agrícolas e Combate a Patógenos.
+Acceleration of Drug Discovery and Therapeutic Targets. Enzyme Engineering for Biocatalysis and Plastic Recycling. Understanding Disease Mechanisms (e.g., Parkinson's, Cancer) through the structure of defective proteins. Vaccine and Antibody Design. Optimization of Agricultural Crops and Pathogen Control.
 
 ## Integration
 
-O AlphaFold DB oferece uma API pública para acesso programático às mais de 200 milhões de estruturas previstas. O código-fonte do AlphaFold 2 e 3 (para uso acadêmico) está disponível no GitHub, permitindo a execução local via Docker ou scripts Python. Ferramentas como o AlphaPulldown facilitam a previsão de interações proteína-proteína (PPI) usando o AlphaFold-Multimer. A integração com o AlphaFold Server (AlphaFold 3) é feita via interface web para uso comercial e acadêmico.
+AlphaFold DB offers a public API for programmatic access to the more than 200 million predicted structures. The source code for AlphaFold 2 and 3 (for academic use) is available on GitHub, allowing local execution via Docker or Python scripts. Tools such as AlphaPulldown facilitate the prediction of protein-protein interactions (PPI) using AlphaFold-Multimer. Integration with the AlphaFold Server (AlphaFold 3) is done via a web interface for commercial and academic use.
 
 ## URL
 

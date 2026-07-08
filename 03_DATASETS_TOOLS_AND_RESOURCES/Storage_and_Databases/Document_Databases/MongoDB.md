@@ -2,48 +2,48 @@
 
 ## Description
 
-O MongoDB é a plataforma de banco de dados de documentos de propósito geral líder mundial, conhecida por sua flexibilidade de esquema e escalabilidade horizontal. Ele utiliza um modelo de dados BSON (JSON binário) que permite a representação de estruturas de dados complexas e aninhadas. Sua principal proposta de valor reside em sua capacidade de lidar com grandes volumes de dados em constante mudança e em sua arquitetura distribuída, que facilita a construção de aplicações modernas e de alto desempenho. O serviço MongoDB Atlas oferece uma solução de banco de dados como serviço (DBaaS) totalmente gerenciada.
+MongoDB is the world's leading general-purpose document database platform, known for its schema flexibility and horizontal scalability. It uses a BSON (binary JSON) data model that enables the representation of complex, nested data structures. Its core value proposition lies in its ability to handle large volumes of constantly changing data and in its distributed architecture, which makes it easy to build modern, high-performance applications. The MongoDB Atlas service offers a fully managed database-as-a-service (DBaaS) solution.
 
 ## Statistics
 
-Líder de mercado em popularidade de bancos de dados NoSQL (DB-Engines Ranking, 2024); Receita anual próxima a $1.6 bilhão (FY2024); Mais de 47.000 clientes de Atlas; Adoção massiva, sendo o NoSQL mais popular no Stack Overflow Survey 2024. O desempenho é otimizado para operações de leitura e escrita de alto volume.
+Market leader in NoSQL database popularity (DB-Engines Ranking, 2024); Annual revenue near $1.6 billion (FY2024); More than 47,000 Atlas customers; Massive adoption, being the most popular NoSQL in the Stack Overflow Survey 2024. Performance is optimized for high-volume read and write operations.
 
 ## Features
 
-Modelo de Documento Flexível (BSON); Escalabilidade Horizontal (Sharding); Alta Disponibilidade (Replica Sets); Linguagem de Consulta Unificada (MongoDB Query Language - MQL); Suporte a Transações ACID Multi-documento; Funções de Agregação Avançadas; Pesquisa de Texto Completo Integrada; Análise em Tempo Real (Atlas Data Lake); Banco de Dados Vetorial Integrado.
+Flexible Document Model (BSON); Horizontal Scalability (Sharding); High Availability (Replica Sets); Unified Query Language (MongoDB Query Language - MQL); Multi-document ACID Transaction Support; Advanced Aggregation Functions; Integrated Full-Text Search; Real-Time Analytics (Atlas Data Lake); Integrated Vector Database.
 
 ## Use Cases
 
-Sistemas de Gerenciamento de Conteúdo (CMS); Catálogos de Produtos e E-commerce; Plataformas de Análise de Dados e IoT; Aplicações Móveis e em Tempo Real; Perfis de Usuário e Personalização; Microsserviços e Arquiteturas Modernas.
+Content Management Systems (CMS); Product Catalogs and E-commerce; Data Analytics and IoT Platforms; Mobile and Real-Time Applications; User Profiles and Personalization; Microservices and Modern Architectures.
 
 ## Integration
 
-A integração é tipicamente feita através de drivers oficiais em diversas linguagens.
+Integration is typically done through official drivers in a variety of languages.
 
-**Exemplo de Conexão e Inserção em Python (PyMongo):**
+**Python Connection and Insertion Example (PyMongo):**
 ```python
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-# Substitua a string de conexão
+# Replace the connection string
 uri = "mongodb+srv://<user>:<password>@<cluster_url>/?retryWrites=true&w=majority"
 
-# Crie um novo cliente e conecte-se ao servidor
+# Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
 
-# Envie um ping para confirmar uma conexão bem-sucedida
+# Send a ping to confirm a successful connection
 try:
     client.admin.command('ping')
-    print("Pinged sua implantação. Você se conectou com sucesso ao MongoDB!")
+    print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
 
-# Exemplo de inserção
+# Insertion example
 db = client.mydatabase
 collection = db.mycollection
-post = {"author": "Manus", "text": "Meu primeiro post!", "tags": ["mongodb", "python"]}
+post = {"author": "Manus", "text": "My first post!", "tags": ["mongodb", "python"]}
 post_id = collection.insert_one(post).inserted_id
-print(f"Documento inserido com ID: {post_id}")
+print(f"Document inserted with ID: {post_id}")
 ```
 
 ## URL

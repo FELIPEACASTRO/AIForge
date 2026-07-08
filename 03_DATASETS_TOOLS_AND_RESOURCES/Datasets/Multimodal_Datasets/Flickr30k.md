@@ -1,42 +1,42 @@
 # Flickr30k
 
 ## Description
-O Flickr30k é um dataset de referência (benchmark) amplamente utilizado para tarefas de descrição de imagens baseada em sentenças (Image Captioning) e recuperação de texto-imagem (Text-Image Retrieval). Ele consiste em 31.783 imagens coloridas obtidas do Flickr, cada uma pareada com cinco legendas (captions) distintas, escritas por humanos. Uma versão estendida, o **Flickr30k Entities**, aumenta a utilidade do dataset ao adicionar anotações de caixas delimitadoras (bounding boxes) e cadeias de correferência para as entidades mencionadas nas legendas, permitindo o alinhamento entre regiões da imagem e frases nas descrições. É um dos datasets mais importantes para o desenvolvimento de modelos multimodais.
+Flickr30k is a widely used benchmark dataset for sentence-based image description (Image Captioning) and text-image retrieval (Text-Image Retrieval) tasks. It consists of 31,783 color images obtained from Flickr, each paired with five distinct captions written by humans. An extended version, **Flickr30k Entities**, increases the usefulness of the dataset by adding bounding box annotations and coreference chains for the entities mentioned in the captions, enabling alignment between image regions and phrases in the descriptions. It is one of the most important datasets for the development of multimodal models.
 
 ## Statistics
-*   **Imagens:** 31.783 imagens coloridas.
-*   **Legendas (Captions):** 158.915 legendas em Inglês (5 por imagem).
-*   **Versão Estendida (Flickr30k Entities):** Inclui 244.000 cadeias de correferência e 276.000 caixas delimitadoras.
-*   **Versões Recentes (2024):** O dataset continua sendo usado como base para novas extensões, como o **Flickr30K-CFQ** (2024) e o **FM30K** (2024, com legendas em Português do Brasil), indicando sua relevância contínua.
+*   **Images:** 31,783 color images.
+*   **Captions:** 158,915 English captions (5 per image).
+*   **Extended Version (Flickr30k Entities):** Includes 244,000 coreference chains and 276,000 bounding boxes.
+*   **Recent Versions (2024):** The dataset continues to be used as a basis for new extensions, such as **Flickr30K-CFQ** (2024) and **FM30K** (2024, with captions in Brazilian Portuguese), indicating its continued relevance.
 
 ## Features
-*   **Multimodalidade:** Combina dados visuais (imagens) e textuais (legendas).
-*   **Diversidade:** Imagens capturam pessoas engajadas em atividades cotidianas, garantindo uma ampla variedade de cenas e conceitos.
-*   **Múltiplas Legendas:** Cada imagem possui 5 legendas independentes, o que permite uma avaliação mais robusta dos modelos de *image captioning*.
-*   **Extensão de Entidades:** A versão Flickr30k Entities adiciona 244 mil cadeias de correferência e 276 mil caixas delimitadoras anotadas manualmente, ligando entidades textuais a regiões visuais.
+*   **Multimodality:** Combines visual data (images) and textual data (captions).
+*   **Diversity:** Images capture people engaged in everyday activities, ensuring a wide variety of scenes and concepts.
+*   **Multiple Captions:** Each image has 5 independent captions, which allows for a more robust evaluation of *image captioning* models.
+*   **Entities Extension:** The Flickr30k Entities version adds 244 thousand coreference chains and 276 thousand manually annotated bounding boxes, linking textual entities to visual regions.
 
 ## Use Cases
-*   **Image Captioning:** Geração automática de descrições textuais para imagens.
-*   **Text-Image Retrieval:** Busca de imagens a partir de uma descrição textual e vice-versa.
-*   **Grounding de Entidades Visuais:** Alinhamento de frases nas legendas com regiões específicas da imagem (especialmente com a versão Flickr30k Entities).
-*   **Modelos Multimodais:** Treinamento e avaliação de modelos que integram visão computacional e processamento de linguagem natural (CV+NLP).
-*   **Tradução Multimodal:** Utilizado como base para datasets multilíngues, como o Multi30K e o FM30K (Português do Brasil).
+*   **Image Captioning:** Automatic generation of textual descriptions for images.
+*   **Text-Image Retrieval:** Searching for images from a textual description and vice versa.
+*   **Visual Entity Grounding:** Alignment of phrases in captions with specific regions of the image (especially with the Flickr30k Entities version).
+*   **Multimodal Models:** Training and evaluation of models that integrate computer vision and natural language processing (CV+NLP).
+*   **Multimodal Translation:** Used as a basis for multilingual datasets, such as Multi30K and FM30K (Brazilian Portuguese).
 
 ## Integration
-O dataset original pode ser obtido através da página oficial da Universidade de Illinois, que fornece links para as imagens e as legendas. Para a versão publicamente distribuível (links de imagem + legendas), o processo envolve o download de arquivos de anotação e a obtenção das imagens diretamente do Flickr (sujeito aos Termos de Uso do Flickr).
+The original dataset can be obtained through the official University of Illinois page, which provides links to the images and captions. For the publicly distributable version (image links + captions), the process involves downloading annotation files and obtaining the images directly from Flickr (subject to Flickr's Terms of Use).
 
-**Integração via Hugging Face (Recomendada):**
-A maneira mais moderna e simples de integrar o dataset é através da biblioteca `datasets` do Hugging Face, que já gerencia as anotações e a estrutura de dados:
+**Integration via Hugging Face (Recommended):**
+The most modern and simplest way to integrate the dataset is through the Hugging Face `datasets` library, which already manages the annotations and data structure:
 ```python
 from datasets import load_dataset
 
-# Para a versão base
+# For the base version
 dataset = load_dataset("nlphuji/flickr30k")
 
-# Para a versão com legendas em Português do Brasil (FM30K)
+# For the version with Brazilian Portuguese captions (FM30K)
 # dataset = load_dataset("FrameNetBrasil/FM30K")
 ```
-**Observação:** O usuário deve garantir que possui as imagens do Flickr para uso não comercial, pois os arquivos de anotação geralmente contêm apenas os links ou IDs das imagens. Plataformas como Kaggle frequentemente fornecem versões pré-empacotadas do dataset, mas a fonte oficial deve ser consultada para os termos de uso.
+**Note:** The user must ensure they have the Flickr images for non-commercial use, since the annotation files generally contain only the links or IDs of the images. Platforms such as Kaggle often provide pre-packaged versions of the dataset, but the official source should be consulted for the terms of use.
 
 ## URL
 [https://shannon.cs.illinois.edu/DenotationGraph/data/index.html](https://shannon.cs.illinois.edu/DenotationGraph/data/index.html)

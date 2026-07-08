@@ -1,23 +1,23 @@
-# 11_UNIVERSITY_ORGS - Organizações GitHub de Universidades e Research Labs
+# 11_UNIVERSITY_ORGS - University and Research Lab GitHub Organizations
 
-Este diretório contém organizações GitHub de universidades e laboratórios de pesquisa líderes em IA, validadas e filtradas para incluir apenas recursos únicos não presentes anteriormente no `AIForge`.
+This directory contains GitHub organizations from leading AI universities and research laboratories, validated and filtered to include only unique resources not previously present in `AIForge`.
 
-## 📁 Conteúdo
+## 📁 Contents
 
 ### UNIVERSITY_RESEARCH_ORGS_2025.md
-Lista completa de 36 organizações GitHub únicas, categorizadas por tipo.
+Complete list of 36 unique GitHub organizations, categorized by type.
 
-## 📊 Estatísticas
+## 📊 Statistics
 
-- **Total de Organizações Validadas:** 71
-- **Organizações Únicas:** 36
-- **Taxa de Unicidade:** 50.7%
-- **Total de Repositórios Públicos:** 2.000+
+- **Total Validated Organizations:** 71
+- **Unique Organizations:** 36
+- **Uniqueness Rate:** 50.7%
+- **Total Public Repositories:** 2,000+
 
-## 🏛️ Distribuição por Tipo
+## 🏛️ Distribution by Type
 
-### University (28 organizações)
-Organizações oficiais de universidades de prestígio mundial:
+### University (28 organizations)
+Official organizations of world-class prestigious universities:
 - Imperial College London (707 repos)
 - University College London (331 repos)
 - THUNLP - Tsinghua NLP (259 repos)
@@ -29,8 +29,8 @@ Organizações oficiais de universidades de prestígio mundial:
 - PKU Yuan Group (41 repos)
 - CMU Perceptual Computing Lab (37 repos)
 
-### Research (8 organizações)
-Laboratórios e institutos de pesquisa independentes:
+### Research (8 organizations)
+Independent research laboratories and institutes:
 - eth-cscs (136 repos) - Swiss National Supercomputing Centre
 - LAION AI (108 repos) - Large-scale AI Open Network
 - mila-iqia (102 repos) - Montreal Institute for Learning Algorithms
@@ -40,16 +40,16 @@ Laboratórios e institutos de pesquisa independentes:
 - ETH AIT (19 repos)
 - MPI-IS (9 repos) - Max Planck Institute
 
-## 🎯 Destaques por Universidade
+## 🎯 Highlights by University
 
-### Top Universidades Americanas
+### Top American Universities
 - **MIT:** mit-csail, mit-han-lab, mit-acl, mit-drl, MIT-SPARK
 - **Stanford:** stanfordnlp, StanfordVL, stanford-crfm, stanford-futuredata, StanfordASL
 - **Berkeley:** rail-berkeley, BVLC, BerkeleyAutomation, berkeley-deep-learning
 - **CMU:** cmusatyalab, neulab, CMU-Perceptual-Computing-Lab
 - **Harvard:** harvardnlp, HarvardEconCS
 
-### Top Universidades Asiáticas
+### Top Asian Universities
 - **Tsinghua:** THUDM, thuml, thunlp, TsinghuaAI, Tsinghua-MARS-Lab
 - **Peking University:** PKU-TANGENT, PKU-YuanGroup, pkulab
 - **NUS:** nus-cs, nusmods
@@ -57,7 +57,7 @@ Laboratórios e institutos de pesquisa independentes:
 - **KAIST:** kaist-ai
 - **Seoul National:** snu-ai
 
-### Top Universidades Europeias
+### Top European Universities
 - **Oxford:** oxford-vgg, oxford-cs-deepnlp-2017, OxfordIHTM
 - **Cambridge:** cambridge-mlg, ucam-cl
 - **Imperial College:** ImperialCollegeLondon
@@ -65,7 +65,7 @@ Laboratórios e institutos de pesquisa independentes:
 - **ETH Zurich:** eth-ait, eth-cscs
 - **EPFL:** epfl-ml
 
-## 🔬 Áreas de Pesquisa Cobertas
+## 🔬 Research Areas Covered
 
 **Natural Language Processing:**
 - stanfordnlp, harvardnlp, thunlp, neulab
@@ -85,39 +85,39 @@ Laboratórios e institutos de pesquisa independentes:
 **AI Infrastructure:**
 - eth-cscs, VectorInstitute, AI Singapore
 
-## 🌍 Distribuição Geográfica
+## 🌍 Geographic Distribution
 
-- **América do Norte:** 15 organizações (42%)
-- **Ásia:** 12 organizações (33%)
-- **Europa:** 9 organizações (25%)
+- **North America:** 15 organizations (42%)
+- **Asia:** 12 organizations (33%)
+- **Europe:** 9 organizations (25%)
 
-## 📈 Impacto
+## 📈 Impact
 
-Estas organizações representam:
-- Centenas de papers de conferências top-tier (NeurIPS, ICML, ICLR, CVPR)
-- Milhares de repositórios open-source
-- Dezenas de modelos estado-da-arte
-- Centenas de datasets públicos
-- Milhares de pesquisadores e estudantes
+These organizations represent:
+- Hundreds of top-tier conference papers (NeurIPS, ICML, ICLR, CVPR)
+- Thousands of open-source repositories
+- Dozens of state-of-the-art models
+- Hundreds of public datasets
+- Thousands of researchers and students
 
-## 🔗 Conexões com Indústria
+## 🔗 Industry Connections
 
-Muitas destas organizações têm colaborações ativas com:
+Many of these organizations have active collaborations with:
 - OpenAI, Anthropic, Google DeepMind
 - Meta AI, Microsoft Research
 - NVIDIA, Apple, Amazon
 
-## 📚 Recursos Educacionais
+## 📚 Educational Resources
 
-Várias organizações oferecem:
-- Cursos online gratuitos (MIT OCW, Stanford Online)
-- Tutoriais e workshops
-- Datasets e benchmarks públicos
-- Modelos pré-treinados
+Several organizations offer:
+- Free online courses (MIT OCW, Stanford Online)
+- Tutorials and workshops
+- Public datasets and benchmarks
+- Pre-trained models
 
-## 🎓 Programas de Pós-Graduação
+## 🎓 Graduate Programs
 
-As universidades listadas oferecem programas de PhD e mestrado em:
+The listed universities offer PhD and master's programs in:
 - Artificial Intelligence
 - Machine Learning
 - Computer Vision
@@ -125,42 +125,42 @@ As universidades listadas oferecem programas de PhD e mestrado em:
 - Robotics
 - Data Science
 
-## 🔍 Como Usar Este Recurso
+## 🔍 How to Use This Resource
 
-**Para Pesquisadores:**
-- Explore repositórios de grupos de pesquisa relevantes
-- Encontre implementações de papers recentes
-- Acesse datasets e benchmarks
+**For Researchers:**
+- Explore repositories from relevant research groups
+- Find implementations of recent papers
+- Access datasets and benchmarks
 
-**Para Estudantes:**
-- Identifique programas de pós-graduação
-- Encontre materiais de estudo
-- Explore oportunidades de pesquisa
+**For Students:**
+- Identify graduate programs
+- Find study materials
+- Explore research opportunities
 
-**Para Desenvolvedores:**
-- Acesse código open-source de qualidade
-- Encontre modelos pré-treinados
-- Aprenda com implementações de referência
+**For Developers:**
+- Access high-quality open-source code
+- Find pre-trained models
+- Learn from reference implementations
 
-**Para Empresas:**
-- Identifique potenciais colaborações
-- Encontre talentos para recrutamento
-- Acesse pesquisa de ponta
+**For Companies:**
+- Identify potential collaborations
+- Find talent for recruitment
+- Access cutting-edge research
 
-## 📅 Data de Atualização
+## 📅 Update Date
 
-**Última Atualização:** 30 de Outubro de 2025
+**Last Updated:** October 30, 2025
 
-## 👤 Mantido por
+## 👤 Maintained by
 
-**IA** - Análise e validação automatizada
+**AI** - Automated analysis and validation
 
-## 🔗 Links Úteis
+## 🔗 Useful Links
 
-- [Repositório Principal](../)
-- [Recursos avançados e projetos aplicados](../20_AI_Project_Showcases/)
-- [Repositórios SOTA e projetos aplicados](../20_AI_Project_Showcases/)
+- [Main Repository](../)
+- [Advanced resources and applied projects](../20_AI_Project_Showcases/)
+- [SOTA repositories and applied projects](../20_AI_Project_Showcases/)
 
 ---
 
-**Nota:** Todas as organizações foram validadas quanto à existência e atividade. Os números de repositórios são aproximados e podem variar.
+**Note:** All organizations have been validated for existence and activity. Repository counts are approximate and may vary.

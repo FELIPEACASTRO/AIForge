@@ -2,23 +2,23 @@
 
 ## Description
 
-Flagger é um operador Kubernetes de entrega progressiva que automatiza o processo de lançamento para aplicações em execução no Kubernetes. Reduz o risco de introduzir uma nova versão de software em produção, mudando gradualmente o tráfego para a nova versão enquanto mede métricas e executa testes de conformidade. É um projeto graduado da Cloud Native Computing Foundation (CNCF) e parte da família de ferramentas GitOps do Flux. Sua proposta de valor única reside na sua natureza de operador Kubernetes que se integra perfeitamente com o ecossistema Flux/GitOps, focando na automação da análise de métricas para a promoção ou rollback.
+Flagger is a Kubernetes progressive-delivery operator that automates the release process for applications running on Kubernetes. It reduces the risk of introducing a new software version into production by gradually shifting traffic to the new version while measuring metrics and running conformance tests. It is a graduated project of the Cloud Native Computing Foundation (CNCF) and part of the Flux family of GitOps tools. Its unique value proposition lies in its nature as a Kubernetes operator that integrates seamlessly with the Flux/GitOps ecosystem, focusing on automating metric analysis for promotion or rollback.
 
 ## Statistics
 
-Estrelas no GitHub: 5.2k. Status CNCF: Projeto Graduado (parte do Flux). Estratégias de Implantação: Canary, A/B Testing, Blue/Green.
+GitHub stars: 5.2k. CNCF status: Graduated Project (part of Flux). Deployment strategies: Canary, A/B Testing, Blue/Green.
 
 ## Features
 
-Estratégias de implantação: Canary releases, A/B testing, Blue/Green mirroring. Análise de lançamento: Consulta Prometheus, InfluxDB, Datadog, New Relic, CloudWatch, Stackdriver ou Graphite. Roteamento de tráfego: Integração com service meshes (Istio, Linkerd, Kuma) e ingress controllers (NGINX, Contour, Knative, Gateway API). Alertas: Suporte para Slack, MS Teams, Discord e Rocket. Compatibilidade GitOps: Projetado para ser usado em pipelines GitOps com ferramentas como Flux CD.
+Deployment strategies: Canary releases, A/B testing, Blue/Green mirroring. Release analysis: Queries Prometheus, InfluxDB, Datadog, New Relic, CloudWatch, Stackdriver, or Graphite. Traffic routing: Integration with service meshes (Istio, Linkerd, Kuma) and ingress controllers (NGINX, Contour, Knative, Gateway API). Alerts: Support for Slack, MS Teams, Discord, and Rocket. GitOps compatibility: Designed to be used in GitOps pipelines with tools such as Flux CD.
 
 ## Use Cases
 
-Redução do risco de lançamentos de software em produção. Automação de testes de conformidade e análise de métricas durante a implantação. Implementação de estratégias de entrega progressiva (Canary, A/B Testing, Blue/Green) em ambientes Kubernetes com foco em GitOps.
+Reducing the risk of software releases in production. Automating conformance tests and metric analysis during deployment. Implementing progressive-delivery strategies (Canary, A/B Testing, Blue/Green) in Kubernetes environments with a GitOps focus.
 
 ## Integration
 
-A Análise Canary é configurada através de um Custom Resource Definition (CRD) onde o Flagger monitora uma nova versão do Deployment. Ele então cria um recurso Canary que define o roteamento de tráfego e as verificações de métricas. Para o Prometheus, uma consulta PromQL é usada para definir o critério de sucesso, por exemplo: 'sum(rate(http_requests_total{job=\"podinfo-canary\"}[1m])) / sum(rate(http_requests_total{job=\"podinfo-primary\"}[1m])) > 1.05' para comparação da taxa de erro. O Flagger atua como um loop de controle que executa a análise e o roteamento de tráfego.
+Canary Analysis is configured through a Custom Resource Definition (CRD) where Flagger monitors a new version of the Deployment. It then creates a Canary resource that defines traffic routing and metric checks. For Prometheus, a PromQL query is used to define the success criterion, for example: 'sum(rate(http_requests_total{job=\"podinfo-canary\"}[1m])) / sum(rate(http_requests_total{job=\"podinfo-primary\"}[1m])) > 1.05' for error-rate comparison. Flagger acts as a control loop that performs the analysis and traffic routing.
 
 ## URL
 

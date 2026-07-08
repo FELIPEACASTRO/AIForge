@@ -1,34 +1,34 @@
 # Yahoo Finance Data
 
 ## Description
-O Yahoo Finance Data é uma fonte de dados financeiros e de mercado amplamente utilizada, fornecendo informações históricas e em tempo real sobre ações, índices, moedas, commodities e outros ativos financeiros globais. Embora o Yahoo não ofereça uma API oficial e estável para uso público e gratuito, a comunidade de código aberto desenvolveu bibliotecas robustas, como `yfinance` (Python), que fazem a raspagem (scraping) dos dados do site, permitindo o acesso a um vasto repositório de séries temporais financeiras. É a principal fonte de dados para a maioria dos projetos de análise de mercado e aprendizado de máquina em finanças.
+Yahoo Finance Data is a widely used source of financial and market data, providing historical and real-time information on stocks, indices, currencies, commodities, and other global financial assets. Although Yahoo does not offer an official and stable API for public and free use, the open-source community has developed robust libraries, such as `yfinance` (Python), which scrape data from the site, allowing access to a vast repository of financial time series. It is the primary data source for most market analysis and machine learning projects in finance.
 
 ## Statistics
-Amostras (Exemplo AAPL, Diário, Máximo): 165 pontos de dados. Período de tempo (Exemplo AAPL): 1984-12-01 a 2025-11-07. Estrutura de dados: Séries temporais financeiras (7 colunas principais por ativo). Versões: Acesso contínuo e em tempo real, sem versões estáticas. Cobertura: Milhares de ações, índices, moedas e commodities globais.
+Samples (Example AAPL, Daily, Maximum): 165 data points. Time period (Example AAPL): 1984-12-01 to 2025-11-07. Data structure: Financial time series (7 main columns per asset). Versions: Continuous and real-time access, with no static versions. Coverage: Thousands of global stocks, indices, currencies, and commodities.
 
 ## Features
-Dados de preços históricos (Open, High, Low, Close, Volume, Fechamento Ajustado), Dividendos e Splits. Cotações em tempo real (via API), Informações fundamentais (balanços, demonstrações de resultados), Notícias e análises de mercado. Suporte a diferentes granularidades (minuto, dia, semana, mês). Cobertura de milhares de ações, índices, moedas e commodities globais.
+Historical price data (Open, High, Low, Close, Volume, Adjusted Close), Dividends and Splits. Real-time quotes (via API), Fundamental information (balance sheets, income statements), Market news and analysis. Support for different granularities (minute, day, week, month). Coverage of thousands of global stocks, indices, currencies, and commodities.
 
 ## Use Cases
-Modelagem e previsão de preços de ações (Machine Learning e Deep Learning). Análise técnica e fundamentalista de ativos financeiros. Backtesting de estratégias de negociação. Pesquisa acadêmica em finanças e economia. Criação de dashboards e visualizações de mercado.
+Stock price modeling and forecasting (Machine Learning and Deep Learning). Technical and fundamental analysis of financial assets. Backtesting of trading strategies. Academic research in finance and economics. Creation of dashboards and market visualizations.
 
 ## Integration
-O acesso mais comum é feito através de bibliotecas de terceiros como `yfinance` (Python), que 'raspam' os dados do site do Yahoo Finance.
+The most common access is through third-party libraries such as `yfinance` (Python), which 'scrape' data from the Yahoo Finance site.
 
-**Instalação (Python):**
+**Installation (Python):**
 ```bash
 pip install yfinance
 ```
 
-**Uso (Python):**
+**Usage (Python):**
 ```python
 import yfinance as yf
-# Baixa dados históricos da Apple (AAPL)
+# Download historical Apple (AAPL) data
 data = yf.download('AAPL', start='2023-01-01', end='2024-01-01')
 print(data.head())
 ```
 
-Alternativamente, o acesso pode ser feito via APIs REST não oficiais ou a API do Manus Hub. O acesso direto via download de CSV no site é limitado e pode exigir uma assinatura premium.
+Alternatively, access can be done via unofficial REST APIs or the Manus Hub API. Direct access via CSV download on the site is limited and may require a premium subscription.
 
 ## URL
 [https://finance.yahoo.com/](https://finance.yahoo.com/)

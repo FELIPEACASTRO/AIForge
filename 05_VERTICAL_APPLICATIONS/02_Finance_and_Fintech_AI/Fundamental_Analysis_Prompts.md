@@ -1,94 +1,94 @@
 # Fundamental Analysis Prompts
 
 ## Description
-**Prompts de Análise Fundamentalista** são instruções estruturadas e detalhadas fornecidas a Modelos de Linguagem Grande (LLMs) com o objetivo de realizar uma avaliação aprofundada da saúde financeira, desempenho operacional e valor intrínseco de uma empresa ou ativo. Diferentemente de prompts genéricos, eles exigem que a IA adote uma **persona especializada** (ex: analista de ações, contador, gestor de portfólio) e processe dados financeiros específicos (como relatórios 10-K, demonstrações de resultados, balanços patrimoniais e notícias de mercado) para calcular métricas, identificar tendências, realizar comparações setoriais e formular conclusões de investimento. A eficácia desses prompts reside na sua capacidade de mitigar a tendência da IA a "alucinar" dados, exigindo fontes verificáveis e um raciocínio lógico e transparente, transformando o LLM de um gerador de texto em um assistente de análise quantitativa e qualitativa [1] [2]. A subcategoria mais apropriada é **Finance**.
+**Fundamental Analysis Prompts** are structured, detailed instructions provided to Large Language Models (LLMs) with the goal of performing an in-depth assessment of the financial health, operational performance, and intrinsic value of a company or asset. Unlike generic prompts, they require the AI to adopt a **specialized persona** (e.g., equity analyst, accountant, portfolio manager) and to process specific financial data (such as 10-K reports, income statements, balance sheets, and market news) to calculate metrics, identify trends, perform sector comparisons, and formulate investment conclusions. The effectiveness of these prompts lies in their ability to mitigate the AI's tendency to "hallucinate" data by requiring verifiable sources and transparent, logical reasoning, transforming the LLM from a text generator into a quantitative and qualitative analysis assistant [1] [2]. The most appropriate subcategory is **Finance**.
 
 ## Examples
 ```
-**Exemplo 1: Análise de Liquidez e Solvência**
+**Example 1: Liquidity and Solvency Analysis**
 ```
-**Role:** Atue como um analista de crédito sênior.
-**Task:** Analise a liquidez e solvência da "Empresa X" com base nos dados do Balanço Patrimonial de 2023 e 2024.
-1. Calcule o Índice de Liquidez Corrente e o Índice de Endividamento Total para ambos os anos.
-2. Identifique a variação percentual YoY em cada índice.
-3. Compare os resultados com a média do setor (Índice de Liquidez Corrente: 1.5x; Endividamento Total: 0.6x).
-**Output:** Apresente os cálculos em uma tabela e forneça um parecer de 4 frases sobre a saúde financeira da empresa.
-```
-
-**Exemplo 2: Avaliação de Rentabilidade e Eficiência**
-```
-**Role:** Você é um gestor de portfólio focado em valor.
-**Task:** Avalie a rentabilidade e a eficiência operacional da "Empresa Y" no último trimestre (Q3 2024).
-1. Calcule a Margem Bruta, Margem Operacional e Retorno sobre o Patrimônio Líquido (ROE).
-2. Explique as principais variações (acima de 5%) nos custos operacionais em relação ao trimestre anterior.
-3. Determine se a empresa está gerando valor para os acionistas.
-**Output:** Responda em formato de relatório executivo, destacando as métricas-chave em negrito e citando as fontes de dados.
+**Role:** Act as a senior credit analyst.
+**Task:** Analyze the liquidity and solvency of "Company X" based on the Balance Sheet data for 2023 and 2024.
+1. Calculate the Current Ratio and the Total Debt Ratio for both years.
+2. Identify the YoY percentage change in each ratio.
+3. Compare the results with the sector average (Current Ratio: 1.5x; Total Debt: 0.6x).
+**Output:** Present the calculations in a table and provide a 4-sentence opinion on the company's financial health.
 ```
 
-**Exemplo 3: Análise de Fluxo de Caixa e Investimento**
+**Example 2: Profitability and Efficiency Assessment**
 ```
-**Role:** Analista de Fusões e Aquisições (M&A).
-**Task:** Analise o Fluxo de Caixa Livre (FCF) da "Empresa Z" nos últimos 5 anos.
-1. Calcule o FCF e o FCF por Ação.
-2. Avalie a sustentabilidade dos gastos de capital (CAPEX) em relação à depreciação.
-3. Projete o FCF para o próximo ano, assumindo um crescimento de receita de 8% e margens estáveis.
-**Output:** Apresente os dados históricos em uma lista e a projeção em um parágrafo, com uma nota sobre a qualidade do FCF.
-```
-
-**Exemplo 4: Análise Qualitativa de Vantagem Competitiva**
-```
-**Role:** Estrategista de mercado.
-**Task:** Realize uma análise qualitativa da vantagem competitiva (Moat) da "Empresa Alpha" no setor de SaaS.
-1. Aplique o framework das Cinco Forças de Porter para avaliar a atratividade do setor.
-2. Identifique e descreva o tipo de Moat (ex: Efeitos de Rede, Economias de Escala, Ativos Intangíveis).
-3. Conclua se o Moat é durável e defensável.
-**Output:** Estruture a resposta com títulos e subtítulos claros para cada seção da análise.
+**Role:** You are a value-focused portfolio manager.
+**Task:** Assess the profitability and operational efficiency of "Company Y" in the last quarter (Q3 2024).
+1. Calculate the Gross Margin, Operating Margin, and Return on Equity (ROE).
+2. Explain the main variations (above 5%) in operating costs compared to the previous quarter.
+3. Determine whether the company is generating value for shareholders.
+**Output:** Respond in the form of an executive report, highlighting the key metrics in bold and citing the data sources.
 ```
 
-**Exemplo 5: Análise de Relatório de Earnings Call**
+**Example 3: Cash Flow and Investment Analysis**
 ```
-**Role:** Analista de Relações com Investidores.
-**Task:** Revise a transcrição da última teleconferência de resultados (Earnings Call) da "Empresa Beta".
-1. Extraia e liste todas as menções a "crescimento de margem" e "desafios regulatórios".
-2. Resuma o tom geral do CEO (otimista, cauteloso, neutro).
-3. Identifique 3 perguntas-chave feitas pelos analistas e as respostas da gestão.
-**Output:** Use bullet points para as listas e um parágrafo para o resumo do tom.
+**Role:** Mergers and Acquisitions (M&A) Analyst.
+**Task:** Analyze the Free Cash Flow (FCF) of "Company Z" over the last 5 years.
+1. Calculate the FCF and FCF per Share.
+2. Assess the sustainability of capital expenditures (CAPEX) relative to depreciation.
+3. Project the FCF for the coming year, assuming 8% revenue growth and stable margins.
+**Output:** Present the historical data in a list and the projection in a paragraph, with a note on the quality of the FCF.
 ```
 
-**Exemplo 6: Análise de Cenário e Sensibilidade**
+**Example 4: Qualitative Competitive Advantage Analysis**
 ```
-**Role:** Consultor de risco financeiro.
-**Task:** Realize uma análise de sensibilidade para o Lucro por Ação (LPA) da "Empresa Gama".
-1. Calcule o LPA atual.
-2. Modele o LPA em três cenários: (A) Aumento de 10% no custo da matéria-prima, (B) Queda de 5% no volume de vendas, (C) Combinação de (A) e (B).
-3. Apresente o impacto percentual no LPA para cada cenário.
-**Output:** Tabela comparativa dos cenários e uma conclusão sobre a resiliência do LPA.
+**Role:** Market strategist.
+**Task:** Perform a qualitative analysis of the competitive advantage (Moat) of "Company Alpha" in the SaaS sector.
+1. Apply Porter's Five Forces framework to assess the sector's attractiveness.
+2. Identify and describe the type of Moat (e.g., Network Effects, Economies of Scale, Intangible Assets).
+3. Conclude whether the Moat is durable and defensible.
+**Output:** Structure the response with clear headings and subheadings for each section of the analysis.
+```
+
+**Example 5: Earnings Call Report Analysis**
+```
+**Role:** Investor Relations Analyst.
+**Task:** Review the transcript of "Company Beta"'s latest Earnings Call.
+1. Extract and list all mentions of "margin growth" and "regulatory challenges".
+2. Summarize the CEO's overall tone (optimistic, cautious, neutral).
+3. Identify 3 key questions asked by analysts and management's answers.
+**Output:** Use bullet points for the lists and a paragraph for the tone summary.
+```
+
+**Example 6: Scenario and Sensitivity Analysis**
+```
+**Role:** Financial risk consultant.
+**Task:** Perform a sensitivity analysis for the Earnings Per Share (EPS) of "Company Gamma".
+1. Calculate the current EPS.
+2. Model the EPS under three scenarios: (A) 10% increase in raw material cost, (B) 5% drop in sales volume, (C) Combination of (A) and (B).
+3. Present the percentage impact on EPS for each scenario.
+**Output:** Comparative table of the scenarios and a conclusion on the resilience of the EPS.
 ```
 ```
 
 ## Best Practices
-**1. Defina o Papel e o Contexto (Role and Context):** Comece o prompt instruindo a IA a agir como um analista financeiro, de crédito ou de ações, especificando o setor e o mercado (ex: "Aja como um analista de ações especializado em tecnologia de semicondutores").
-**2. Estrutura de Prompt Detalhada (Detailed Prompt Structure):** Utilize a estrutura **Role (Papel), Task (Tarefa), Output (Saída)**. A tarefa deve ser dividida em sub-tarefas claras (ex: "1. Analisar o crescimento da receita YoY. 2. Calcular o índice Dívida/EBITDA. 3. Comparar com a média do setor").
-**3. Forneça Dados de Entrada (Provide Input Data):** Sempre que possível, inclua os dados brutos ou o link para a fonte (ex: "Com base nos seguintes dados do 10-K de 2023: [dados/link]"). A IA não deve "adivinhar" os números.
-**4. Exija Raciocínio em Cadeia (Chain-of-Thought):** Peça à IA para mostrar os passos de cálculo e o raciocínio por trás da conclusão (ex: "Explique o processo de cálculo do Fluxo de Caixa Livre antes de apresentar o resultado final").
-**5. Validação e Auditoria (Validation and Auditability):** Peça referências e notas de rodapé para cada dado ou afirmação (ex: "Para cada métrica financeira, cite a seção e a página do relatório de onde o dado foi extraído").
-**6. Especificidade na Saída (Output Specificity):** Defina o formato de saída (tabela, bullet points, parágrafo), o nível de detalhe e o tom (ex: "Apresente os resultados em uma tabela Markdown, com um resumo executivo de 3 parágrafos no final").
+**1. Define the Role and Context:** Begin the prompt by instructing the AI to act as a financial, credit, or equity analyst, specifying the sector and market (e.g., "Act as an equity analyst specialized in semiconductor technology").
+**2. Detailed Prompt Structure:** Use the **Role, Task, Output** structure. The task should be broken into clear sub-tasks (e.g., "1. Analyze YoY revenue growth. 2. Calculate the Debt/EBITDA ratio. 3. Compare with the sector average").
+**3. Provide Input Data:** Whenever possible, include the raw data or the link to the source (e.g., "Based on the following data from the 2023 10-K: [data/link]"). The AI should not "guess" the numbers.
+**4. Require Chain-of-Thought Reasoning:** Ask the AI to show the calculation steps and the reasoning behind the conclusion (e.g., "Explain the process of calculating Free Cash Flow before presenting the final result").
+**5. Validation and Auditability:** Request references and footnotes for each data point or claim (e.g., "For each financial metric, cite the section and page of the report from which the data was taken").
+**6. Output Specificity:** Define the output format (table, bullet points, paragraph), the level of detail, and the tone (e.g., "Present the results in a Markdown table, with a 3-paragraph executive summary at the end").
 
 ## Use Cases
-**1. Due Diligence e Avaliação de Empresas (Due Diligence and Company Valuation):** Automatizar a extração de métricas-chave (P/L, EV/EBITDA, Margens) de relatórios financeiros para acelerar o processo de *due diligence* em fusões e aquisições (M&A) ou investimentos de capital de risco.
-**2. Análise de Relatórios de Resultados (Earnings Report Analysis):** Processar transcrições de teleconferências de resultados (*earnings calls*) para resumir o sentimento da gestão, identificar riscos e oportunidades, e extrair as principais perguntas dos analistas.
-**3. Comparação Setorial (Sector Comparison):** Realizar análises comparativas de múltiplos e índices financeiros entre empresas concorrentes em um setor específico, identificando *outliers* e líderes de mercado.
-**4. Modelagem de Cenários e Testes de Estresse (Scenario Modeling and Stress Testing):** Criar prompts para simular o impacto de variáveis macroeconômicas (ex: aumento da taxa de juros, inflação) ou microeconômicas (ex: perda de um cliente chave) nas demonstrações financeiras de uma empresa.
-**5. Geração de Relatórios e Memos (Report and Memo Generation):** Gerar rascunhos de relatórios de pesquisa de ações, memos de investimento ou seções de relatórios anuais, economizando tempo do analista na redação inicial.
-**6. Análise de ESG (Environmental, Social, and Governance):** Extrair e analisar dados não financeiros de relatórios de sustentabilidade para avaliar o impacto de fatores ESG no risco e valor de longo prazo da empresa.
+**1. Due Diligence and Company Valuation:** Automate the extraction of key metrics (P/E, EV/EBITDA, Margins) from financial reports to speed up the *due diligence* process in mergers and acquisitions (M&A) or venture capital investments.
+**2. Earnings Report Analysis:** Process *earnings call* transcripts to summarize management sentiment, identify risks and opportunities, and extract analysts' key questions.
+**3. Sector Comparison:** Perform comparative analyses of multiples and financial ratios among competing companies in a specific sector, identifying *outliers* and market leaders.
+**4. Scenario Modeling and Stress Testing:** Create prompts to simulate the impact of macroeconomic variables (e.g., interest rate increase, inflation) or microeconomic variables (e.g., loss of a key customer) on a company's financial statements.
+**5. Report and Memo Generation:** Generate drafts of equity research reports, investment memos, or sections of annual reports, saving analyst time on the initial drafting.
+**6. ESG Analysis (Environmental, Social, and Governance):** Extract and analyze non-financial data from sustainability reports to assess the impact of ESG factors on the company's long-term risk and value.
 
 ## Pitfalls
-**1. Alucinação de Dados Financeiros (Financial Data Hallucination):** O maior risco é a IA inventar números, índices ou datas de relatórios que parecem autênticos, mas são falsos. Isso é especialmente perigoso em finanças, onde a precisão é crítica [3].
-**2. Falha em Raciocínio Matemático Complexo (Failure in Complex Math):** LLMs são modelos de linguagem, não calculadoras. Eles podem cometer erros em cálculos complexos, como o cálculo de Fluxo de Caixa Descontado (DCF) ou a agregação de dados de múltiplas fontes [4].
-**3. Dependência Excessiva de Dados de Treinamento (Over-reliance on Training Data):** A IA pode basear a análise em dados desatualizados ou no conhecimento geral, ignorando informações críticas e recentes que não foram fornecidas no prompt (ex: um evento regulatório recente ou um relatório trimestral novo) [5].
-**4. Viés e Generalização (Bias and Generalization):** A IA pode aplicar vieses implícitos em seus dados de treinamento, ou generalizar demais a partir de um único ponto de dados, falhando em considerar as nuances específicas do setor ou da empresa.
-**5. Ambiguidade na Linguagem Financeira (Ambiguity in Financial Language):** Termos como "receita" ou "lucro" podem ter diferentes definições contábeis (ex: IFRS vs. GAAP). A falta de especificação no prompt pode levar a cálculos incorretos ou comparações inválidas.
-**6. Ignorar a Fonte de Dados (Ignoring Data Source):** Não especificar a fonte de dados (ex: "Use apenas dados auditados do 10-K") pode levar a IA a misturar dados de fontes não confiáveis (ex: artigos de notícias, fóruns) com dados oficiais.
+**1. Financial Data Hallucination:** The biggest risk is the AI inventing numbers, ratios, or report dates that look authentic but are false. This is especially dangerous in finance, where accuracy is critical [3].
+**2. Failure in Complex Math:** LLMs are language models, not calculators. They can make mistakes in complex calculations, such as Discounted Cash Flow (DCF) or the aggregation of data from multiple sources [4].
+**3. Over-reliance on Training Data:** The AI may base its analysis on outdated data or general knowledge, ignoring critical, recent information that was not provided in the prompt (e.g., a recent regulatory event or a new quarterly report) [5].
+**4. Bias and Generalization:** The AI may apply implicit biases from its training data, or overgeneralize from a single data point, failing to consider the specific nuances of the sector or company.
+**5. Ambiguity in Financial Language:** Terms like "revenue" or "profit" can have different accounting definitions (e.g., IFRS vs. GAAP). Lack of specification in the prompt can lead to incorrect calculations or invalid comparisons.
+**6. Ignoring the Data Source:** Failing to specify the data source (e.g., "Use only audited data from the 10-K") can lead the AI to mix data from unreliable sources (e.g., news articles, forums) with official data.
 
 ## URL
 [https://www.ai-street.co/p/effective-prompts-for-investment-research](https://www.ai-street.co/p/effective-prompts-for-investment-research)

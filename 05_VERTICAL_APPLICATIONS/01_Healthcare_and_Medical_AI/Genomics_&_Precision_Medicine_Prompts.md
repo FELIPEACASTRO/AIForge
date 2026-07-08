@@ -1,68 +1,68 @@
 # Genomics & Precision Medicine Prompts
 
 ## Description
-**Prompts de Genômica e Medicina de Precisão** referem-se a instruções especializadas e estruturadas projetadas para interagir com Grandes Modelos de Linguagem (LLMs) e modelos de IA multimodais no contexto da análise de dados genômicos, transcriptômicos, proteômicos e multi-ômicos, com o objetivo de avançar a medicina personalizada. Essa técnica de prompt engineering é crucial para tarefas que exigem um alto grau de precisão e conhecimento de domínio, como a interpretação de variantes genéticas, o design de experimentos de edição gênica (ex: CRISPR), a previsão de risco de doenças, a recomendação de terapias personalizadas e a comunicação de resultados genéticos complexos a pacientes. A eficácia desses prompts depende da capacidade de integrar dados biológicos complexos, literatura científica e diretrizes clínicas, muitas vezes utilizando técnicas avançadas como Geração Aumentada por Recuperação (RAG) e atribuição de papéis (role-playing) especializados ao modelo. O foco é transformar dados brutos de sequenciamento em insights clínicos acionáveis e protocolos de pesquisa automatizados.
+**Genomics and Precision Medicine Prompts** refer to specialized, structured instructions designed to interact with Large Language Models (LLMs) and multimodal AI models in the context of analyzing genomic, transcriptomic, proteomic, and multi-omics data, with the goal of advancing personalized medicine. This prompt engineering technique is crucial for tasks that require a high degree of precision and domain knowledge, such as interpreting genetic variants, designing gene-editing experiments (e.g., CRISPR), predicting disease risk, recommending personalized therapies, and communicating complex genetic results to patients. The effectiveness of these prompts depends on the ability to integrate complex biological data, scientific literature, and clinical guidelines, often using advanced techniques such as Retrieval-Augmented Generation (RAG) and specialized role-playing assigned to the model. The focus is on transforming raw sequencing data into actionable clinical insights and automated research protocols.
 
 ## Examples
 ```
-**1. Interpretação de Variantes Genéticas (ACMG/AMP):**
+**1. Genetic Variant Interpretation (ACMG/AMP):**
 ```
-Você é um bioinformata especializado em classificação de variantes genéticas. Analise a seguinte variante no gene BRCA1: c.5266dupC (p.Gln1756Profs*10).
-1. Classifique a variante de acordo com as diretrizes ACMG/AMP (ex: Patogênica, Provavelmente Patogênica, VUS, etc.).
-2. Justifique a classificação citando as evidências PVS1, PS1-4, PM1-6, PP1-5, BA1, BS1-4, BP1-6 relevantes.
-3. Descreva o fenótipo clínico associado e as implicações para o rastreamento de câncer.
-```
-
-**2. Design de Experimento CRISPR Automatizado:**
-```
-Assuma o papel de um engenheiro de genoma utilizando o sistema CRISPR-Cas12a.
-Objetivo: Nocaute (knockout) do gene TGFβR1 em células de câncer de pulmão A549.
-Tarefa: Gerar um protocolo completo.
-1. Sugira 3 sequências de gRNA de alta eficácia e baixa atividade off-target, citando a ferramenta de predição utilizada.
-2. Recomende o método de entrega (transfecção/transdução) mais adequado para a linhagem celular A549.
-3. Descreva o protocolo de validação (ex: Western Blot, sequenciamento) e os primers de PCR necessários.
+You are a bioinformatician specializing in genetic variant classification. Analyze the following variant in the BRCA1 gene: c.5266dupC (p.Gln1756Profs*10).
+1. Classify the variant according to the ACMG/AMP guidelines (e.g., Pathogenic, Likely Pathogenic, VUS, etc.).
+2. Justify the classification by citing the relevant PVS1, PS1-4, PM1-6, PP1-5, BA1, BS1-4, BP1-6 evidence.
+3. Describe the associated clinical phenotype and the implications for cancer screening.
 ```
 
-**3. Previsão de Resposta a Medicamentos (Farmacogenômica):**
+**2. Automated CRISPR Experiment Design:**
 ```
-Paciente: 65 anos, diagnóstico de câncer de cólon.
-Genótipo: Variante *2/*3 no gene CYP2D6.
-Medicamento: Irinotecano (metabolizado pela UGT1A1).
-Prompt: Com base no genótipo CYP2D6 e no medicamento Irinotecano, avalie o risco de toxicidade e a eficácia.
-1. Qual é o status de metabolizador do paciente para CYP2D6?
-2. O Irinotecano é afetado por esta variante? Se não, qual gene é o principal determinante de toxicidade (UGT1A1)?
-3. Forneça uma recomendação de ajuste de dose ou medicamento alternativo, citando as diretrizes CPIC.
-```
-
-**4. Geração de Relatório Clínico para Paciente:**
-```
-Você é um conselheiro genético.
-Resultado: Mutação patogênica no gene MLH1, confirmando Síndrome de Lynch.
-Público: Paciente leigo, nível de ansiedade alto.
-Instrução: Crie um texto de 3 parágrafos que explique o resultado de forma clara, empática e não alarmante.
-1. O que é a Síndrome de Lynch e o gene MLH1.
-2. Quais são os riscos de câncer associados.
-3. Quais são os próximos passos e opções de rastreamento (ex: colonoscopia anual).
+Assume the role of a genome engineer using the CRISPR-Cas12a system.
+Objective: Knockout of the TGFβR1 gene in A549 lung cancer cells.
+Task: Generate a complete protocol.
+1. Suggest 3 high-efficacy gRNA sequences with low off-target activity, citing the prediction tool used.
+2. Recommend the most suitable delivery method (transfection/transduction) for the A549 cell line.
+3. Describe the validation protocol (e.g., Western Blot, sequencing) and the required PCR primers.
 ```
 
-**5. Análise de Dados Multi-Ômicos:**
+**3. Drug Response Prediction (Pharmacogenomics):**
 ```
-Dados de entrada: Lista de 50 genes diferencialmente expressos (RNA-Seq) e 10 variantes somáticas (WES) em um tumor.
-Prompt: Integre os dados de expressão e variantes para identificar as vias de sinalização mais impactadas.
-1. Liste as 3 principais vias de sinalização (ex: KEGG, Reactome) que contêm tanto genes diferencialmente expressos quanto genes com variantes.
-2. Sugira um alvo terapêutico (gene/proteína) que esteja no cruzamento dessas vias.
-3. Explique a lógica biológica da sua sugestão.
+Patient: 65 years old, diagnosed with colon cancer.
+Genotype: *2/*3 variant in the CYP2D6 gene.
+Medication: Irinotecan (metabolized by UGT1A1).
+Prompt: Based on the CYP2D6 genotype and the drug Irinotecan, assess the risk of toxicity and efficacy.
+1. What is the patient's metabolizer status for CYP2D6?
+2. Is Irinotecan affected by this variant? If not, which gene is the main determinant of toxicity (UGT1A1)?
+3. Provide a dose adjustment recommendation or an alternative drug, citing the CPIC guidelines.
+```
+
+**4. Clinical Report Generation for the Patient:**
+```
+You are a genetic counselor.
+Result: Pathogenic mutation in the MLH1 gene, confirming Lynch Syndrome.
+Audience: Lay patient, high anxiety level.
+Instruction: Create a 3-paragraph text that explains the result in a clear, empathetic, and non-alarming way.
+1. What Lynch Syndrome and the MLH1 gene are.
+2. What the associated cancer risks are.
+3. What the next steps and screening options are (e.g., annual colonoscopy).
+```
+
+**5. Multi-Omics Data Analysis:**
+```
+Input data: List of 50 differentially expressed genes (RNA-Seq) and 10 somatic variants (WES) in a tumor.
+Prompt: Integrate the expression and variant data to identify the most impacted signaling pathways.
+1. List the top 3 signaling pathways (e.g., KEGG, Reactome) that contain both differentially expressed genes and genes with variants.
+2. Suggest a therapeutic target (gene/protein) located at the intersection of these pathways.
+3. Explain the biological rationale for your suggestion.
 ```
 ```
 
 ## Best Practices
-**1. Fornecer Contexto Genômico Detalhado:** Inclua o máximo de dados genômicos brutos (sequências, variantes VCF, dados de expressão) ou resumos estruturados (genes, mutações, fenótipos) diretamente no prompt. Quanto mais específico o contexto biológico, mais precisa será a resposta. **2. Definir o Papel (Role-Playing) e a Tarefa:** Comece o prompt atribuindo um papel especializado ao modelo (ex: "Você é um bioinformata especializado em oncogenômica" ou "Você é um conselheiro genético"). Em seguida, defina claramente a tarefa (ex: "Analisar a patogenicidade desta variante" ou "Gerar um protocolo de edição gênica"). **3. Utilizar RAG (Retrieval-Augmented Generation):** Para tarefas críticas, como aconselhamento genético ou design experimental, integre a técnica RAG. Isso envolve fornecer ao LLM documentos de referência (diretrizes clínicas, artigos científicos, protocolos de laboratório) para que ele baseie suas respostas em informações verificadas. **4. Especificar o Formato de Saída:** Peça a saída em um formato estruturado, como JSON, tabela Markdown ou um formato de relatório clínico específico, para facilitar a análise e a integração com outros sistemas. **5. Iteração e Refinamento:** A genômica é complexa. Use a saída do primeiro prompt como entrada para um segundo prompt, refinando a pergunta ou solicitando uma validação cruzada. Por exemplo, peça a análise de uma variante e, em seguida, peça a revisão dessa análise com base em um novo artigo.
+**1. Provide Detailed Genomic Context:** Include as much raw genomic data (sequences, VCF variants, expression data) or structured summaries (genes, mutations, phenotypes) directly in the prompt as possible. The more specific the biological context, the more accurate the response will be. **2. Define the Role (Role-Playing) and the Task:** Begin the prompt by assigning a specialized role to the model (e.g., "You are a bioinformatician specializing in oncogenomics" or "You are a genetic counselor"). Then clearly define the task (e.g., "Analyze the pathogenicity of this variant" or "Generate a gene-editing protocol"). **3. Use RAG (Retrieval-Augmented Generation):** For critical tasks, such as genetic counseling or experimental design, integrate the RAG technique. This involves providing the LLM with reference documents (clinical guidelines, scientific articles, laboratory protocols) so that it bases its responses on verified information. **4. Specify the Output Format:** Request the output in a structured format, such as JSON, a Markdown table, or a specific clinical report format, to facilitate analysis and integration with other systems. **5. Iteration and Refinement:** Genomics is complex. Use the output of the first prompt as input for a second prompt, refining the question or requesting cross-validation. For example, request the analysis of a variant and then request a review of that analysis based on a new article.
 
 ## Use Cases
-**1. Diagnóstico e Interpretação de Doenças Raras:** Análise rápida de painéis de sequenciamento para identificar variantes patogênicas e sugerir diagnósticos diferenciais. **2. Aconselhamento Genético Automatizado:** Geração de resumos de resultados e respostas a perguntas frequentes para pacientes, liberando o tempo dos conselheiros genéticos para casos mais complexos. **3. Otimização de Protocolos de Laboratório:** Design automatizado de primers, sondas e guias de CRISPR, reduzindo o tempo de planejamento experimental (como demonstrado pelo CRISPR-GPT [1]). **4. Farmacogenômica e Seleção de Dose:** Previsão da resposta individual a medicamentos com base no perfil genético do paciente, minimizando efeitos adversos e otimizando a eficácia. **5. Descoberta de Alvos Terapêuticos:** Integração de dados multi-ômicos (genômica, transcriptômica, proteômica) para identificar novos genes ou vias de sinalização para o desenvolvimento de medicamentos. **6. Análise de Risco Poligênico (PRS):** Interpretação de escores de risco poligênico para doenças comuns (ex: diabetes, doenças cardíacas) e tradução em recomendações de estilo de vida ou rastreamento.
+**1. Diagnosis and Interpretation of Rare Diseases:** Rapid analysis of sequencing panels to identify pathogenic variants and suggest differential diagnoses. **2. Automated Genetic Counseling:** Generation of result summaries and answers to frequently asked questions for patients, freeing up genetic counselors' time for more complex cases. **3. Laboratory Protocol Optimization:** Automated design of primers, probes, and CRISPR guides, reducing experimental planning time (as demonstrated by CRISPR-GPT [1]). **4. Pharmacogenomics and Dose Selection:** Prediction of individual drug response based on the patient's genetic profile, minimizing adverse effects and optimizing efficacy. **5. Therapeutic Target Discovery:** Integration of multi-omics data (genomics, transcriptomics, proteomics) to identify new genes or signaling pathways for drug development. **6. Polygenic Risk Score (PRS) Analysis:** Interpretation of polygenic risk scores for common diseases (e.g., diabetes, heart disease) and translation into lifestyle or screening recommendations.
 
 ## Pitfalls
-**1. Alucinações e Imprecisão Clínica:** O maior risco é o LLM gerar informações clinicamente incorretas ou alucinar referências e dados genéticos. **Mitigação:** Sempre use RAG com fontes verificadas (ex: ClinVar, HGMD, diretrizes CPIC) e exija citações de artigos ou bases de dados. **2. Falta de Contexto Biológico:** Prompts muito curtos ou genéricos (ex: "O que este gene faz?") falham em fornecer o contexto necessário (ex: tipo de célula, tecido, condição da doença). **Mitigação:** Seja hiper-específico sobre o sistema biológico e o tipo de dado de entrada. **3. Viés e Desigualdade:** Os modelos de IA são treinados predominantemente em dados de populações de ascendência europeia. Isso pode levar a interpretações imprecisas ou enviesadas para variantes em populações sub-representadas. **Mitigação:** Inclua no prompt a etnia ou ancestralidade do paciente, se relevante, e peça ao modelo para considerar as limitações dos dados de referência. **4. Exposição de Dados Sensíveis (PHI):** A entrada de dados de pacientes (PHI - Protected Health Information) diretamente no prompt viola as regulamentações de privacidade (ex: HIPAA, LGPD). **Mitigação:** Sempre anonimize completamente os dados de entrada, usando IDs de variantes, sequências ou resumos de fenótipos, e nunca nomes, datas de nascimento ou números de prontuário. **5. Confusão entre Causa e Correlação:** O LLM pode confundir uma associação estatística (correlação) com uma relação causal biológica. **Mitigação:** Peça ao modelo para distinguir claramente entre evidências de associação e mecanismos biológicos comprovados.
+**1. Hallucinations and Clinical Inaccuracy:** The greatest risk is the LLM generating clinically incorrect information or hallucinating references and genetic data. **Mitigation:** Always use RAG with verified sources (e.g., ClinVar, HGMD, CPIC guidelines) and require citations of articles or databases. **2. Lack of Biological Context:** Prompts that are too short or generic (e.g., "What does this gene do?") fail to provide the necessary context (e.g., cell type, tissue, disease condition). **Mitigation:** Be hyper-specific about the biological system and the type of input data. **3. Bias and Inequality:** AI models are predominantly trained on data from populations of European ancestry. This can lead to inaccurate or biased interpretations for variants in underrepresented populations. **Mitigation:** Include the patient's ethnicity or ancestry in the prompt, if relevant, and ask the model to consider the limitations of the reference data. **4. Exposure of Sensitive Data (PHI):** Entering patient data (PHI - Protected Health Information) directly into the prompt violates privacy regulations (e.g., HIPAA, LGPD). **Mitigation:** Always fully anonymize the input data, using variant IDs, sequences, or phenotype summaries, and never names, dates of birth, or medical record numbers. **5. Confusion Between Causation and Correlation:** The LLM may confuse a statistical association (correlation) with a biological causal relationship. **Mitigation:** Ask the model to clearly distinguish between association evidence and proven biological mechanisms.
 
 ## URL
 [https://www.nature.com/articles/s41551-025-01463-z](https://www.nature.com/articles/s41551-025-01463-z)

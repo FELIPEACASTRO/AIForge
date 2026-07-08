@@ -1,43 +1,43 @@
 # ImageNet (Image Classification)
 
 ## Description
-O ImageNet é um vasto banco de dados visual projetado para uso em pesquisa de software de reconhecimento de objetos visuais. É um esforço de pesquisa contínuo para fornecer dados de imagem para o treinamento de modelos de reconhecimento de objetos em larga escala. A versão mais utilizada é o subconjunto **ImageNet Large Scale Visual Recognition Challenge (ILSVRC)** 2012-2017, que se tornou o padrão de fato para benchmarking em visão computacional. O ImageNet é organizado de acordo com a hierarquia do WordNet, onde cada nó (synset) é ilustrado por centenas de milhares de imagens. O impacto do ImageNet foi fundamental para o avanço do Deep Learning, especialmente após a vitória do AlexNet no ILSVRC 2012. Pesquisas recentes (2023-2025) continuam a usar o ImageNet como base, mas também exploram variações como o **ImageNet-D** (CVPR 2024), que utiliza modelos generativos para criar imagens sintéticas e testar a robustez de redes neurais contra distribuições de dados mais desafiadoras.
+ImageNet is a vast visual database designed for use in visual object recognition software research. It is an ongoing research effort to provide image data for training large-scale object recognition models. The most widely used version is the **ImageNet Large Scale Visual Recognition Challenge (ILSVRC)** 2012-2017 subset, which has become the de facto standard for benchmarking in computer vision. ImageNet is organized according to the WordNet hierarchy, where each node (synset) is illustrated by hundreds of thousands of images. ImageNet's impact was fundamental to the advancement of Deep Learning, especially after AlexNet's victory in ILSVRC 2012. Recent research (2023-2025) continues to use ImageNet as a foundation, but also explores variations such as **ImageNet-D** (CVPR 2024), which uses generative models to create synthetic images and test the robustness of neural networks against more challenging data distributions.
 
 ## Statistics
-- **Tamanho Total (Original):** 14.197.122 imagens.
-- **Synsets (Categorias):** 21.841 synsets indexados (nós da hierarquia WordNet).
-- **Versão Mais Utilizada (ILSVRC 2012/ImageNet-1K):**
-    - **Classes:** 1.000 classes de objetos.
-    - **Imagens de Treinamento:** 1.281.167 imagens.
-    - **Imagens de Validação:** 50.000 imagens.
-    - **Imagens de Teste:** 100.000 imagens.
-- **Variações Recentes (2024):** ImageNet-D (para robustez), ImageNet-BG (para variações de fundo).
+- **Total Size (Original):** 14,197,122 images.
+- **Synsets (Categories):** 21,841 indexed synsets (nodes of the WordNet hierarchy).
+- **Most Widely Used Version (ILSVRC 2012/ImageNet-1K):**
+    - **Classes:** 1,000 object classes.
+    - **Training Images:** 1,281,167 images.
+    - **Validation Images:** 50,000 images.
+    - **Test Images:** 100,000 images.
+- **Recent Variations (2024):** ImageNet-D (for robustness), ImageNet-BG (for background variations).
 
 ## Features
-- **Escala e Diversidade:** Contém milhões de imagens e dezenas de milhares de categorias (synsets).
-- **Hierarquia WordNet:** Organizado em uma estrutura hierárquica que permite o treinamento em diferentes níveis de granularidade.
-- **ILSVRC-2012 (ImageNet-1K):** Subconjunto mais popular com 1000 classes e mais de 1,2 milhões de imagens de treinamento.
-- **Benchmarking de Robustez:** O surgimento de variações como o ImageNet-D (2024) e ImageNet-C/P/A/R/Sketch/Adversarial demonstra o uso contínuo do ImageNet como base para avaliar a robustez e generalização de modelos de Visão Computacional.
-- **Imagens Anotadas:** Imagens anotadas manualmente para classificação e localização de objetos.
+- **Scale and Diversity:** Contains millions of images and tens of thousands of categories (synsets).
+- **WordNet Hierarchy:** Organized in a hierarchical structure that allows training at different levels of granularity.
+- **ILSVRC-2012 (ImageNet-1K):** The most popular subset, with 1,000 classes and more than 1.2 million training images.
+- **Robustness Benchmarking:** The emergence of variations such as ImageNet-D (2024) and ImageNet-C/P/A/R/Sketch/Adversarial demonstrates the continued use of ImageNet as a foundation for evaluating the robustness and generalization of Computer Vision models.
+- **Annotated Images:** Manually annotated images for object classification and localization.
 
 ## Use Cases
-- **Treinamento de Modelos de Classificação:** O caso de uso primário, sendo o dataset de referência para treinar e avaliar modelos de classificação de imagens (e.g., ResNet, VGG, EfficientNet).
-- **Transfer Learning:** Uso de modelos pré-treinados no ImageNet como *backbones* para tarefas em outros domínios (e.g., detecção de objetos, segmentação semântica, classificação médica) através de *fine-tuning*.
-- **Benchmarking de Robustez:** Avaliação da capacidade de modelos de manterem o desempenho sob diferentes tipos de corrupção, distorção ou variações de domínio (e.g., usando ImageNet-C, ImageNet-D).
-- **Pesquisa em Visão Computacional:** Desenvolvimento de novas arquiteturas de redes neurais e métodos de treinamento.
-- **Modelos de Texto para Imagem (2025):** Pesquisas recentes exploram o uso do ImageNet para treinar modelos de geração de imagem a partir de texto, apesar de seu tamanho relativamente pequeno para essa tarefa.
+- **Training Classification Models:** The primary use case, being the reference dataset for training and evaluating image classification models (e.g., ResNet, VGG, EfficientNet).
+- **Transfer Learning:** Using models pre-trained on ImageNet as *backbones* for tasks in other domains (e.g., object detection, semantic segmentation, medical classification) through *fine-tuning*.
+- **Robustness Benchmarking:** Evaluating the ability of models to maintain performance under different types of corruption, distortion, or domain variation (e.g., using ImageNet-C, ImageNet-D).
+- **Computer Vision Research:** Development of new neural network architectures and training methods.
+- **Text-to-Image Models (2025):** Recent research explores the use of ImageNet to train text-to-image generation models, despite its relatively small size for this task.
 
 ## Integration
-O subconjunto mais comum, o ImageNet ILSVRC 2012 (ImageNet-1K), está disponível para download no **Kaggle** (após aceitar os termos de uso e licença). Para o acesso ao dataset completo e outros subconjuntos, é necessário fazer login ou solicitar acesso no site oficial, concordando com os termos de uso que restringem o uso a **fins de pesquisa e educação não-comerciais**.
+The most common subset, ImageNet ILSVRC 2012 (ImageNet-1K), is available for download on **Kaggle** (after accepting the terms of use and license). To access the full dataset and other subsets, it is necessary to log in or request access on the official website, agreeing to the terms of use that restrict use to **non-commercial research and education purposes**.
 
-**Exemplo de Uso (PyTorch):**
-A biblioteca `torchvision` fornece uma classe `torchvision.datasets.ImageNet` para fácil integração, mas o usuário deve primeiro baixar e organizar os dados localmente.
+**Usage Example (PyTorch):**
+The `torchvision` library provides a `torchvision.datasets.ImageNet` class for easy integration, but the user must first download and organize the data locally.
 
 ```python
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 
-# O diretório deve conter as pastas 'train' e 'val' com as imagens
+# The directory must contain the 'train' and 'val' folders with the images
 traindir = '/path/to/imagenet/train'
 valdir = '/path/to/imagenet/val'
 

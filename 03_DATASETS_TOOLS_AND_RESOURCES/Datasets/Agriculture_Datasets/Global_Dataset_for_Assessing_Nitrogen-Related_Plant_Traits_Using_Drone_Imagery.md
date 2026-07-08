@@ -2,23 +2,23 @@
 
 ## Description
 
-Conjunto de dados resultante de uma revisão sistemática de 41 artigos científicos, focando na avaliação de traços de plantas relacionados ao nitrogênio e biomassa usando imagens de drones. O dataset consolida 11.189 observações de 11 espécies de culturas principais em 13 países, correlacionando índices de vegetação (VIs) com 14 traços de plantas. É uma fonte fundamental para o desenvolvimento de modelos de fenotipagem de alto rendimento e precisão na agricultura.
+A dataset resulting from a systematic review of 41 scientific articles, focusing on the assessment of nitrogen- and biomass-related plant traits using drone imagery. The dataset consolidates 11,189 observations from 11 major crop species across 13 countries, correlating vegetation indices (VIs) with 14 plant traits. It is a fundamental resource for the development of high-throughput phenotyping models and precision agriculture.
 
 ## Statistics
 
-11.189 observações, 11 espécies de culturas principais (incluindo trigo, algodão e arroz), 13 países, 41 artigos revisados. O arquivo principal `Dataset.xlsx` tem 617.45 kB.
+11,189 observations, 11 major crop species (including wheat, cotton, and rice), 13 countries, 41 reviewed articles. The main file `Dataset.xlsx` is 617.45 kB.
 
 ## Features
 
-14 traços de plantas, incluindo biomassa (t ha-1), concentração/conteúdo/acúmulo de N na planta e folha, índice de nutrição de N (NNI), rendimento (t ha-1) e taxa de N aplicada (kg ha-1). Os dados são derivados de imagens multiespectrais de VANTs (drones), com foco em Índices de Vegetação (VIs) em diferentes estágios fenológicos. Inclui código em R e Jupyter Notebook para análise.
+14 plant traits, including biomass (t ha-1), N concentration/content/accumulation in the plant and leaf, N nutrition index (NNI), yield (t ha-1), and applied N rate (kg ha-1). The data is derived from multispectral UAV (drone) imagery, focusing on Vegetation Indices (VIs) at different phenological stages. Includes R and Jupyter Notebook code for analysis.
 
 ## Use Cases
 
-Desenvolvimento e validação de modelos de aprendizado de máquina para estimativa de biomassa e status nutricional de N em culturas. Fenotipagem de alto rendimento. Avaliação de práticas de manejo de N e tomada de decisões em tempo real na agricultura de precisão. Pesquisa em sensoriamento remoto e índices de vegetação.
+Development and validation of machine learning models for estimating biomass and N nutritional status in crops. High-throughput phenotyping. Assessment of N management practices and real-time decision-making in precision agriculture. Remote sensing and vegetation index research.
 
 ## Integration
 
-O dataset está disponível no repositório figshare e pode ser baixado como um arquivo Excel (`Dataset.xlsx`) e um documento de resumo (`Summary of the database.docx`). O acesso é feito via DOI e o uso é incentivado com atribuição. Códigos de exemplo em R e Jupyter Notebook para reprodução de figuras estão incluídos.
+The dataset is available on the figshare repository and can be downloaded as an Excel file (`Dataset.xlsx`) and a summary document (`Summary of the database.docx`). Access is provided via DOI, and use is encouraged with attribution. Example R and Jupyter Notebook code for reproducing figures is included.
 
 ## URL
 

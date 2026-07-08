@@ -1,61 +1,61 @@
 # Budgeting Prompts
 
 ## Description
-**Budgeting Prompts** (Prompts de Orçamentação) são comandos de engenharia de prompt estruturados e detalhados, fornecidos a modelos de Linguagem Grande (LLMs) ou ferramentas de Inteligência Artificial (IA) especializadas, com o objetivo de auxiliar no planejamento, análise, otimização e gestão de orçamentos, tanto no âmbito pessoal quanto no corporativo. Essa técnica transforma a IA em um assistente financeiro virtual, capaz de processar dados brutos (como listas de despesas, rendas e objetivos), aplicar regras financeiras estabelecidas (como a regra 50/30/20), identificar padrões de gastos, sugerir cortes de custos e criar planos financeiros detalhados e personalizados. A eficácia do *Budgeting Prompt* reside na clareza e na riqueza de contexto fornecido, permitindo que a IA gere saídas acionáveis, como planilhas, checklists e relatórios comparativos.
+**Budgeting Prompts** are structured and detailed prompt engineering commands provided to Large Language Models (LLMs) or specialized Artificial Intelligence (AI) tools with the goal of assisting in the planning, analysis, optimization, and management of budgets, both personal and corporate. This technique turns AI into a virtual financial assistant, capable of processing raw data (such as lists of expenses, incomes, and objectives), applying established financial rules (such as the 50/30/20 rule), identifying spending patterns, suggesting cost cuts, and creating detailed and personalized financial plans. The effectiveness of a *Budgeting Prompt* lies in the clarity and richness of the context provided, allowing the AI to generate actionable outputs, such as spreadsheets, checklists, and comparative reports.
 
 ## Examples
 ```
-1.  **Orçamento Pessoal com Regra 50/30/20:**
-    "Minha renda líquida mensal é de R$ 7.500. Desejo seguir a regra 50/30/20 (50% Essenciais, 30% Desejos, 20% Investimentos). Crie um modelo de orçamento mensal em formato de tabela, mostrando os valores ideais para cada categoria e fornecendo três exemplos de despesas típicas para cada uma delas."
+1.  **Personal Budget with the 50/30/20 Rule:**
+    "My monthly net income is R$ 7,500. I want to follow the 50/30/20 rule (50% Essentials, 30% Wants, 20% Investments). Create a monthly budget template in table format, showing the ideal values for each category and providing three examples of typical expenses for each of them."
 
-2.  **Otimização de Gastos:**
-    "Atue como um consultor financeiro. Analise a seguinte lista de despesas mensais: [Insira lista de despesas com valores]. Identifique as três áreas com maior potencial de corte de gastos sem comprometer meu bem-estar e sugira um plano de ação para economizar R$ 500 por mês, apresentando o resultado em um formato de checklist."
+2.  **Spending Optimization:**
+    "Act as a financial advisor. Analyze the following list of monthly expenses: [Insert list of expenses with values]. Identify the three areas with the greatest potential for spending cuts without compromising my well-being, and suggest an action plan to save R$ 500 per month, presenting the result in checklist format."
 
-3.  **Planejamento de Despesas Sazonais:**
-    "Todo início de ano tenho despesas sazonais: IPVA (R$ 2.500), Matrícula Escolar (R$ 3.200) e Seguro do Carro (R$ 1.800). Crie um planejamento financeiro mensal para diluir o custo total dessas despesas ao longo dos 12 meses, indicando o valor exato que devo reservar mensalmente para cada item."
+3.  **Planning for Seasonal Expenses:**
+    "Every start of the year I have seasonal expenses: vehicle tax/IPVA (R$ 2,500), School Enrollment (R$ 3,200), and Car Insurance (R$ 1,800). Create a monthly financial plan to spread the total cost of these expenses over the 12 months, indicating the exact amount I should set aside monthly for each item."
 
-4.  **Criação de Rastreador de Orçamento (Tracker):**
-    "Crie um template de rastreador de orçamento simples para [Excel/Google Sheets]. O template deve incluir colunas para Data, Categoria (Renda, Moradia, Alimentação, Transporte, Lazer, Investimentos), Descrição, Valor e Saldo. Inclua também a fórmula para calcular o saldo acumulado."
+4.  **Creating a Budget Tracker:**
+    "Create a simple budget tracker template for [Excel/Google Sheets]. The template should include columns for Date, Category (Income, Housing, Food, Transportation, Leisure, Investments), Description, Value, and Balance. Also include the formula to calculate the running balance."
 
-5.  **Proposta de Orçamento de Projeto (Empresarial):**
-    "Com base no 'Plano de Projeto Alpha' e nos 'Relatórios de Despesas do Q3', elabore uma proposta de orçamento detalhada para a equipe de desenvolvimento enxuta (lean team). A proposta deve incluir custos de software, salários (3 desenvolvedores juniores, 1 sênior), e uma reserva de contingência de 15%."
+5.  **Project Budget Proposal (Corporate):**
+    "Based on the 'Alpha Project Plan' and the 'Q3 Expense Reports', prepare a detailed budget proposal for the lean development team. The proposal should include software costs, salaries (3 junior developers, 1 senior), and a 15% contingency reserve."
 
-6.  **Comparação de Estratégias de Orçamento:**
-    "Compare as abordagens de orçamentação *Zero-Based Budgeting* (Orçamento Base Zero) e *Incremental Budgeting* (Orçamento Incremental) para uma startup de SaaS. Descreva os prós e contras de cada método e recomende qual seria mais adequado para uma empresa em fase de alto crescimento, justificando a escolha."
+6.  **Comparing Budgeting Strategies:**
+    "Compare the *Zero-Based Budgeting* and *Incremental Budgeting* approaches for a SaaS startup. Describe the pros and cons of each method and recommend which would be most suitable for a company in a high-growth phase, justifying the choice."
 
-7.  **Análise de Viabilidade de Meta Financeira:**
-    "Meu objetivo é economizar R$ 50.000 em 3 anos para dar entrada em um imóvel. Minha renda mensal é de R$ 6.000 e minhas despesas fixas somam R$ 3.500. Calcule o valor mensal necessário para atingir essa meta e sugira ajustes no meu orçamento atual para viabilizar a economia, assumindo um retorno de investimento conservador de 0,5% ao mês."
+7.  **Feasibility Analysis of a Financial Goal:**
+    "My goal is to save R$ 50,000 in 3 years for a down payment on a property. My monthly income is R$ 6,000 and my fixed expenses total R$ 3,500. Calculate the monthly amount needed to reach this goal and suggest adjustments to my current budget to make the savings feasible, assuming a conservative investment return of 0.5% per month."
 ```
 
 ## Best Practices
-As melhores práticas para a criação de *Budgeting Prompts* maximizam a precisão e a utilidade da resposta da IA:
+The best practices for creating *Budgeting Prompts* maximize the accuracy and usefulness of the AI's response:
 
-*   **Fornecimento de Contexto Detalhado:** Sempre inclua dados específicos como renda líquida, despesas fixas, objetivos de economia e o período de tempo (mensal, anual). Quanto mais dados e contexto (ex: "sou estudante", "sou expatriado", "tenho dívidas de cartão"), mais personalizada será a saída.
-*   **Definição de Regras e Métodos:** Especifique o método de orçamentação desejado (ex: 50/30/20, Orçamento Base Zero) ou as restrições que a IA deve seguir.
-*   **Role-Playing (Definição de Papel):** Inicie o prompt definindo o papel da IA (ex: "Atue como meu consultor financeiro", "Você é um analista de custos sênior"), o que tende a refinar o tom e a profundidade da análise.
-*   **Especificação do Formato de Saída:** Peça explicitamente o formato desejado (ex: "em formato de tabela", "como um checklist", "com fórmulas para Google Sheets") para garantir uma saída estruturada e fácil de usar.
-*   **Utilização de Dados Externos (em ferramentas avançadas):** Em plataformas que permitem a integração de documentos, referencie arquivos específicos (ex: "analise o 'Relatório Financeiro Q1'") para que a IA possa realizar análises baseadas em dados reais e internos.
+*   **Providing Detailed Context:** Always include specific data such as net income, fixed expenses, savings goals, and the time period (monthly, annual). The more data and context (e.g., "I'm a student", "I'm an expat", "I have credit card debt"), the more personalized the output will be.
+*   **Defining Rules and Methods:** Specify the desired budgeting method (e.g., 50/30/20, Zero-Based Budgeting) or the constraints the AI should follow.
+*   **Role-Playing (Role Definition):** Begin the prompt by defining the AI's role (e.g., "Act as my financial advisor", "You are a senior cost analyst"), which tends to refine the tone and depth of the analysis.
+*   **Specifying the Output Format:** Explicitly request the desired format (e.g., "in table format", "as a checklist", "with formulas for Google Sheets") to ensure a structured and easy-to-use output.
+*   **Using External Data (in advanced tools):** On platforms that allow document integration, reference specific files (e.g., "analyze the 'Q1 Financial Report'") so the AI can perform analyses based on real, internal data.
 
 ## Use Cases
-A técnica de *Budgeting Prompts* é aplicável em diversas situações financeiras:
+The *Budgeting Prompts* technique is applicable in a variety of financial situations:
 
-| Categoria | Caso de Uso | Descrição |
+| Category | Use Case | Description |
 | :--- | :--- | :--- |
-| **Finanças Pessoais** | Criação de Orçamento Mensal | Elaborar planos de gastos baseados em renda e metas (ex: regra 50/30/20). |
-| **Planejamento de Metas** | Viabilidade de Objetivos | Calcular quanto é preciso economizar mensalmente para atingir metas de longo prazo (ex: entrada de imóvel, viagem). |
-| **Otimização de Despesas** | Análise de Padrões de Gastos | Identificar e sugerir cortes em áreas de consumo excessivo. |
-| **Finanças Empresariais** | Propostas de Orçamento | Gerar orçamentos para projetos, departamentos ou equipes específicas. |
-| **Conformidade e Fiscal** | Resumo de Regulamentações | Obter resumos de atualizações fiscais e criar checklists de conformidade orçamentária. |
-| **Criação de Ferramentas** | Geração de Templates | Criar templates de planilhas financeiras (trackers) com fórmulas prontas para uso. |
+| **Personal Finance** | Creating a Monthly Budget | Develop spending plans based on income and goals (e.g., the 50/30/20 rule). |
+| **Goal Planning** | Objective Feasibility | Calculate how much needs to be saved monthly to reach long-term goals (e.g., property down payment, travel). |
+| **Expense Optimization** | Spending Pattern Analysis | Identify and suggest cuts in areas of excessive consumption. |
+| **Corporate Finance** | Budget Proposals | Generate budgets for specific projects, departments, or teams. |
+| **Compliance and Tax** | Regulation Summaries | Obtain summaries of tax updates and create budget compliance checklists. |
+| **Tool Creation** | Template Generation | Create financial spreadsheet templates (trackers) with ready-to-use formulas. |
 
 ## Pitfalls
-Existem armadilhas comuns que podem comprometer a eficácia dos *Budgeting Prompts*:
+There are common pitfalls that can compromise the effectiveness of *Budgeting Prompts*:
 
-*   **Falta de Especificidade:** Prompts vagos ou genéricos (ex: "Crie um orçamento") resultarão em respostas igualmente genéricas e pouco úteis. A IA precisa de números e objetivos claros.
-*   **Viés e Imprecisão dos Dados de Entrada:** Se os dados de renda ou despesas fornecidos estiverem incorretos ou incompletos, a análise da IA será falha (*Garbage In, Garbage Out*).
-*   **Confiança Excessiva (Over-reliance):** A IA é uma ferramenta de apoio e não substitui a expertise de um planejador financeiro certificado. Decisões financeiras complexas e de alto risco exigem validação humana.
-*   **Risco de Segurança de Dados:** **Nunca** se deve incluir informações pessoais sensíveis, como CPF, senhas, números de cartão de crédito ou dados bancários completos, nos prompts. A maioria dos LLMs não é projetada para lidar com dados PII (Informações de Identificação Pessoal) de forma segura.
-*   **Ignorar a Revisão:** É crucial revisar e ajustar o orçamento gerado pela IA para garantir que ele reflita a realidade e as prioridades pessoais ou empresariais.
+*   **Lack of Specificity:** Vague or generic prompts (e.g., "Create a budget") will result in equally generic and unhelpful responses. The AI needs clear numbers and objectives.
+*   **Bias and Inaccuracy of Input Data:** If the income or expense data provided is incorrect or incomplete, the AI's analysis will be flawed (*Garbage In, Garbage Out*).
+*   **Over-reliance:** AI is a support tool and does not replace the expertise of a certified financial planner. Complex, high-risk financial decisions require human validation.
+*   **Data Security Risk:** You should **never** include sensitive personal information, such as national ID numbers, passwords, credit card numbers, or full banking data, in prompts. Most LLMs are not designed to handle PII (Personally Identifiable Information) securely.
+*   **Skipping Review:** It is crucial to review and adjust the budget generated by the AI to ensure it reflects the reality and priorities of the individual or business.
 
 ## URL
 [https://www.infomoney.com.br/minhas-financas/prompts-para-planejamento-orcamento-ia/](https://www.infomoney.com.br/minhas-financas/prompts-para-planejamento-orcamento-ia/)

@@ -1,77 +1,77 @@
-# Prompts de Chamada para Ação (Call-to-Action Prompts)
+# Call-to-Action Prompts
 
 ## Description
-A técnica de **Prompts de Chamada para Ação (CTA Prompts)** em Engenharia de Prompt consiste em incluir uma instrução final, clara e concisa, que orienta o Modelo de Linguagem Grande (LLM) sobre a **ação específica** que deve ser executada após o processamento de todo o contexto e as instruções anteriores. Diferentemente dos CTAs de marketing, que buscam a ação do usuário, o CTA Prompt busca a **ação do próprio LLM**, servindo como um comando de execução ou um gatilho de finalização. Essa técnica é crucial para garantir que o LLM não apenas compreenda a tarefa, mas também a execute no formato e escopo desejados, minimizando a divagação ou a produção de texto introdutório desnecessário. É a parte do prompt que diz ao modelo: "Agora, faça isso." Sua eficácia reside em sua capacidade de focar a atenção do modelo no resultado final desejado, especialmente em prompts longos e complexos. O CTA Prompt atua como o ponto focal que transforma a descrição da tarefa em um comando de execução.
+The **Call-to-Action Prompts (CTA Prompts)** technique in Prompt Engineering consists of including a final, clear, and concise instruction that directs the Large Language Model (LLM) on the **specific action** it should perform after processing all the preceding context and instructions. Unlike marketing CTAs, which seek action from the user, the CTA Prompt seeks **action from the LLM itself**, serving as an execution command or a finalization trigger. This technique is crucial for ensuring that the LLM not only understands the task but also executes it in the desired format and scope, minimizing rambling or the production of unnecessary introductory text. It is the part of the prompt that tells the model: "Now, do this." Its effectiveness lies in its ability to focus the model's attention on the desired final result, especially in long and complex prompts. The CTA Prompt acts as the focal point that transforms the task description into an execution command.
 
 ## Examples
 ```
-1. **Geração de Código:**
+1. **Code Generation:**
 ```
-[CONTEXTO: Descrição da funcionalidade e requisitos técnicos...]
-[FORMATO: O código deve ser em Python, seguindo o PEP 8.]
-### AÇÃO FINAL ###
-Gere o código completo da função `calculate_fibonacci(n)` e inclua um exemplo de uso.
-```
-
-2. **Resumo Executivo:**
-```
-[CONTEXTO: O texto a seguir é um relatório de 5.000 palavras sobre tendências de mercado.]
-[RESTRICÃO: O resumo deve ter no máximo 250 palavras e focar apenas nas implicações financeiras.]
-### AÇÃO FINAL ###
-Resuma o relatório em um parágrafo conciso, formatado como um e-mail para o CEO.
+[CONTEXT: Description of the functionality and technical requirements...]
+[FORMAT: The code must be in Python, following PEP 8.]
+### FINAL ACTION ###
+Generate the complete code for the `calculate_fibonacci(n)` function and include a usage example.
 ```
 
-3. **Criação de Tabela:**
+2. **Executive Summary:**
 ```
-[PERSONA: Você é um analista de dados sênior.]
-[DADOS: [Lista de 5 produtos, seus preços e margens de lucro]]
-[FORMATO: Use Markdown para a tabela.]
-### AÇÃO FINAL ###
-Liste os 5 produtos em uma tabela, ordenados pela margem de lucro decrescente.
-```
-
-4. **Brainstorming Estruturado:**
-```
-[TAREFA: Desenvolver 10 ideias de títulos para um artigo de blog sobre "Engenharia de Prompt para Iniciantes".]
-[REQUISITOS: Os títulos devem ser cativantes e incluir um número.]
-### AÇÃO FINAL ###
-Gere a lista de 10 títulos e, em seguida, escolha o melhor e justifique sua escolha em uma frase.
+[CONTEXT: The following text is a 5,000-word report on market trends.]
+[CONSTRAINT: The summary must be no more than 250 words and focus only on the financial implications.]
+### FINAL ACTION ###
+Summarize the report in one concise paragraph, formatted as an email to the CEO.
 ```
 
-5. **Instrução Condicional:**
+3. **Table Creation:**
 ```
-[CONTEXTO: Analise o seguinte feedback do cliente: "O produto é bom, mas o preço é muito alto."]
-[PERSONA: Você é um gerente de atendimento ao cliente.]
-[FORMATO: Resposta em tom empático e profissional.]
-### AÇÃO FINAL ###
-Se o feedback for negativo, gere uma resposta pedindo desculpas e oferecendo um cupom de 10%. Caso contrário, apenas agradeça.
-```
-
-6. **Revisão e Edição:**
-```
-[TEXTO A REVISAR: [Parágrafo com erros gramaticais e de pontuação]]
-[REQUISITOS: Mantenha o tom formal e corrija apenas a gramática e a pontuação.]
-### AÇÃO FINAL ###
-Reescreva o parágrafo corrigido.
+[PERSONA: You are a senior data analyst.]
+[DATA: [List of 5 products, their prices, and profit margins]]
+[FORMAT: Use Markdown for the table.]
+### FINAL ACTION ###
+List the 5 products in a table, sorted by profit margin in descending order.
 ```
 
-7. **Criação de Roteiro:**
+4. **Structured Brainstorming:**
 ```
-[TEMA: Vídeo curto para TikTok sobre os benefícios do café.]
-[ESTRUTURA: 30 segundos, 3 cenas, com gancho nos primeiros 3 segundos.]
-### AÇÃO FINAL ###
-Escreva o roteiro completo, incluindo a descrição da cena e o diálogo.
+[TASK: Develop 10 title ideas for a blog article on "Prompt Engineering for Beginners".]
+[REQUIREMENTS: The titles must be catchy and include a number.]
+### FINAL ACTION ###
+Generate the list of 10 titles and then choose the best one and justify your choice in one sentence.
+```
+
+5. **Conditional Instruction:**
+```
+[CONTEXT: Analyze the following customer feedback: "The product is good, but the price is too high."]
+[PERSONA: You are a customer service manager.]
+[FORMAT: Response in an empathetic and professional tone.]
+### FINAL ACTION ###
+If the feedback is negative, generate a response apologizing and offering a 10% coupon. Otherwise, simply say thank you.
+```
+
+6. **Review and Editing:**
+```
+[TEXT TO REVIEW: [Paragraph with grammar and punctuation errors]]
+[REQUIREMENTS: Keep the formal tone and correct only the grammar and punctuation.]
+### FINAL ACTION ###
+Rewrite the corrected paragraph.
+```
+
+7. **Script Creation:**
+```
+[TOPIC: Short video for TikTok about the benefits of coffee.]
+[STRUCTURE: 30 seconds, 3 scenes, with a hook in the first 3 seconds.]
+### FINAL ACTION ###
+Write the complete script, including the scene description and the dialogue.
 ```
 ```
 
 ## Best Practices
-**Clareza e Especificidade:** A CTA deve ser a instrução mais clara e específica do prompt. Use verbos de ação fortes (e.g., "Gere", "Resuma", "Liste", "Execute"). **Posicionamento:** Coloque a CTA no final do prompt, após todo o contexto, persona e restrições. Isso garante que o LLM a processe como a instrução final de execução. **Formato de Saída:** Combine a CTA com uma instrução de formato de saída (e.g., "Gere a tabela em formato Markdown", "Responda em JSON"). **Isolamento:** Use marcadores visuais (como `### AÇÃO FINAL ###` ou tags XML) para isolar a CTA do restante do prompt, garantindo que o LLM a identifique como o comando de execução. **Teste e Iteração:** Se a saída não for a esperada, refine a CTA antes de alterar o contexto ou a persona.
+**Clarity and Specificity:** The CTA should be the clearest and most specific instruction in the prompt. Use strong action verbs (e.g., "Generate", "Summarize", "List", "Execute"). **Positioning:** Place the CTA at the end of the prompt, after all context, persona, and constraints. This ensures the LLM processes it as the final execution instruction. **Output Format:** Combine the CTA with an output format instruction (e.g., "Generate the table in Markdown format", "Respond in JSON"). **Isolation:** Use visual markers (such as `### FINAL ACTION ###` or XML tags) to isolate the CTA from the rest of the prompt, ensuring the LLM identifies it as the execution command. **Test and Iterate:** If the output is not as expected, refine the CTA before changing the context or persona.
 
 ## Use Cases
-**Automatização de Tarefas:** Ideal para prompts que visam a execução de uma tarefa específica, como gerar código, criar um resumo ou traduzir um texto. **Estruturação de Saída:** Essencial para garantir que o LLM produza o resultado em um formato específico (e.g., JSON, XML, Markdown, tabela), facilitando o processamento posterior por outras ferramentas ou scripts. **Encadeamento de Prompts (Chain Prompting):** Atua como o comando final em uma etapa de um processo de encadeamento, garantindo que a saída seja o *input* exato necessário para a próxima etapa. **Minimização de Divagação:** Usado em prompts longos para evitar que o LLM comece a resposta com introduções ou explicações desnecessárias, indo direto ao ponto da execução. **Criação de Conteúdo Direcionado:** Garante que a peça de conteúdo final (e.g., e-mail, título, postagem em rede social) contenha o elemento de ação desejado.
+**Task Automation:** Ideal for prompts aimed at executing a specific task, such as generating code, creating a summary, or translating a text. **Output Structuring:** Essential for ensuring the LLM produces the result in a specific format (e.g., JSON, XML, Markdown, table), facilitating subsequent processing by other tools or scripts. **Chain Prompting:** Acts as the final command in a step of a chaining process, ensuring the output is the exact *input* needed for the next step. **Minimizing Rambling:** Used in long prompts to prevent the LLM from beginning the response with unnecessary introductions or explanations, getting straight to the point of execution. **Targeted Content Creation:** Ensures the final piece of content (e.g., email, title, social media post) contains the desired action element.
 
 ## Pitfalls
-**CTA Vaga ou Ambígua:** Usar CTAs como "Continue" ou "O que mais?" não fornece direção suficiente, levando a respostas genéricas. **Posicionamento Incorreto:** Colocar a CTA no início ou no meio do prompt pode fazer com que o LLM a execute prematuramente, ignorando o contexto subsequente. **Sobrecarga de Ações:** Incluir múltiplas ações não relacionadas na CTA (e.g., "Gere o código, escreva um poema e me diga o que você comeu no café da manhã") confunde o modelo. **Ausência de Formato:** Não especificar o formato de saída (e.g., lista, tabela, JSON) junto com a CTA pode resultar em uma resposta que executa a ação, mas em um formato difícil de usar. **Confundir CTA de Marketing com CTA de Prompt:** Usar linguagem de marketing (e.g., "Clique aqui para saber mais") em vez de comandos de execução (e.g., "Gere o resultado") dentro do prompt.
+**Vague or Ambiguous CTA:** Using CTAs like "Continue" or "What else?" does not provide enough direction, leading to generic responses. **Incorrect Positioning:** Placing the CTA at the beginning or middle of the prompt can cause the LLM to execute it prematurely, ignoring the subsequent context. **Action Overload:** Including multiple unrelated actions in the CTA (e.g., "Generate the code, write a poem, and tell me what you had for breakfast") confuses the model. **Absence of Format:** Not specifying the output format (e.g., list, table, JSON) along with the CTA can result in a response that executes the action but in a format that is difficult to use. **Confusing a Marketing CTA with a Prompt CTA:** Using marketing language (e.g., "Click here to learn more") instead of execution commands (e.g., "Generate the result") within the prompt.
 
 ## URL
 [https://www.reddit.com/r/PromptEngineering/comments/1ius9pt/my_favorite_prompting_technique_whats_yours/?tl=pt-br](https://www.reddit.com/r/PromptEngineering/comments/1ius9pt/my_favorite_prompting_technique_whats_yours/?tl=pt-br)

@@ -2,23 +2,23 @@
 
 ## Description
 
-Modelo de aprendizado auto-supervisionado (SSL) que integra o aprendizado de ensemble de *snapshot* (instantâneo) no processo de pré-treinamento do Masked Autoencoder (MAE). Utiliza um agendador de cosseno cíclico para capturar diversas representações do modelo em um único ciclo de treinamento, otimizando a eficiência computacional e melhorando o desempenho.
+A self-supervised learning (SSL) model that integrates *snapshot* ensemble learning into the pre-training process of the Masked Autoencoder (MAE). It uses a cyclic cosine scheduler to capture diverse model representations within a single training cycle, optimizing computational efficiency and improving performance.
 
 ## Statistics
 
-Supera consistentemente o MAE vanilla, ViT-S e ResNet-34 em todas as métricas de desempenho nos casos de uso testados. Reduz a carga computacional associada ao aprendizado de ensemble, produzindo múltiplos modelos pré-treinados a partir de uma única fase de pré-treinamento.
+Consistently outperforms vanilla MAE, ViT-S, and ResNet-34 across all performance metrics in the tested use cases. Reduces the computational burden associated with ensemble learning, producing multiple pre-trained models from a single pre-training phase.
 
 ## Features
 
-Integração de *snapshot ensemble learning* no MAE; Uso de agendador de cosseno cíclico; Otimização da eficiência computacional; Geração de múltiplos modelos pré-treinados diversos; Robustez no pré-treinamento com dados não rotulados.
+Integration of *snapshot ensemble learning* into MAE; Use of a cyclic cosine scheduler; Optimization of computational efficiency; Generation of multiple diverse pre-trained models; Robustness in pre-training with unlabeled data.
 
 ## Use Cases
 
-Classificação multi-rótulo de doenças torácicas pediátricas; Diagnóstico de doenças cardiovasculares.
+Multi-label classification of pediatric thoracic diseases; Diagnosis of cardiovascular diseases.
 
 ## Integration
 
-Implementação direta e eficaz para melhorar o pré-treinamento baseado em SSL em imagens médicas. (O artigo fornece a base teórica para implementação, mas o repositório oficial não foi encontrado na pesquisa).
+A direct and effective implementation to improve SSL-based pre-training in medical imaging. (The paper provides the theoretical basis for implementation, but the official repository was not found in the search.)
 
 ## URL
 

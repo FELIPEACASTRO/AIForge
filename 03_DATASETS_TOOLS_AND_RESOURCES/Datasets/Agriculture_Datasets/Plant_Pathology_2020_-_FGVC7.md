@@ -2,23 +2,23 @@
 
 ## Description
 
-Conjunto de dados de imagens de folhas de macieira (apple leaves) utilizado na competição Kaggle Fine-Grained Visual Categorization 7 (FGVC7) em 2020. O objetivo é classificar as imagens em quatro categorias de saúde/doença: folha saudável, ferrugem da macieira (apple rust), sarna da macieira (apple scab) e múltiplas doenças (combinations). O dataset é um recurso fundamental para o desenvolvimento de modelos de Visão Computacional (CNNs, Vision Transformers) para diagnóstico de doenças em plantas.
+A dataset of apple leaf images used in the Kaggle Fine-Grained Visual Categorization 7 (FGVC7) competition in 2020. The goal is to classify the images into four health/disease categories: healthy leaf, apple rust, apple scab, and multiple diseases (combinations). The dataset is a fundamental resource for developing Computer Vision models (CNNs, Vision Transformers) for plant disease diagnosis.
 
 ## Statistics
 
-Tamanho: 823.79 MB. Contém 3645 arquivos (imagens JPG e arquivos CSV de metadados). As classes de destino são: 'healthy', 'rust', 'scab' e 'combinations'. O conjunto de treinamento possui 3645 imagens, e o conjunto de teste possui 1821 imagens (no dataset original da competição).
+Size: 823.79 MB. Contains 3645 files (JPG images and CSV metadata files). The target classes are: 'healthy', 'rust', 'scab', and 'combinations'. The training set has 3645 images, and the test set has 1821 images (in the original competition dataset).
 
 ## Features
 
-Imagens RGB de alta resolução de folhas de macieira. As técnicas de feature engineering mais recentes (2023-2025) envolvem o uso de modelos de Deep Learning pré-treinados (como ResNet, EfficientNet, Vision Transformers - ViT) para extração automática de características (feature extraction), além de técnicas de aumento de dados (data augmentation) como rotação, zoom, e ajustes de cor para melhorar a robustez do modelo.
+High-resolution RGB images of apple leaves. The most recent feature engineering techniques (2023-2025) involve using pre-trained Deep Learning models (such as ResNet, EfficientNet, Vision Transformers - ViT) for automatic feature extraction, in addition to data augmentation techniques such as rotation, zoom, and color adjustments to improve model robustness.
 
 ## Use Cases
 
-Diagnóstico automatizado de doenças em plantas por meio de imagens. Desenvolvimento de sistemas de alerta precoce para agricultores. Aplicações em agricultura de precisão para monitoramento da saúde das culturas. Pesquisa em Visão Computacional e Deep Learning para classificação fina (Fine-Grained Visual Categorization).
+Automated plant disease diagnosis through images. Development of early warning systems for farmers. Applications in precision agriculture for monitoring crop health. Research in Computer Vision and Deep Learning for Fine-Grained Visual Categorization.
 
 ## Integration
 
-O dataset pode ser acessado diretamente via API do Kaggle (requer autenticação) ou baixado da página da competição. A integração em projetos de código geralmente envolve bibliotecas como TensorFlow ou PyTorch. Exemplo de código para download via Kaggle CLI:\n\n```bash\nkaggle competitions download -c plant-pathology-2020-fgvc7\nunzip plant-pathology-2020-fgvc7.zip\n```\n\nEm Python, a integração para treinamento de modelos utiliza DataLoaders para carregar as imagens e os rótulos do arquivo `train.csv`.
+The dataset can be accessed directly via the Kaggle API (requires authentication) or downloaded from the competition page. Integration into code projects generally involves libraries such as TensorFlow or PyTorch. Example code for downloading via the Kaggle CLI:\n\n```bash\nkaggle competitions download -c plant-pathology-2020-fgvc7\nunzip plant-pathology-2020-fgvc7.zip\n```\n\nIn Python, the integration for model training uses DataLoaders to load the images and labels from the `train.csv` file.
 
 ## URL
 

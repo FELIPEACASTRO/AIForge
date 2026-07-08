@@ -2,69 +2,69 @@
 
 ## Description
 
-A Rede de Adaptação de Características de Domínio de Múltiplas Fontes (MDFAN) é uma arquitetura de aprendizado profundo proposta para resolver o problema da baixa precisão no reconhecimento de doenças em imagens agrícolas de campo, causada pela mudança de domínio (domain shift) entre os dados de treinamento e os dados de aplicação real. O MDFAN emprega uma estratégia de alinhamento em duas etapas: primeiro, alinha a distribuição de cada par de domínio-fonte-alvo em múltiplos espaços de características específicos, utilizando extração de múltiplas representações e alinhamento de subdomínios; segundo, alinha as saídas do classificador aproveitando os limites de decisão dentro de domínios específicos. Esta abordagem é robusta a variações de condições de iluminação e permite a adaptação não supervisionada de múltiplas fontes (MUDA).
+The Multi-Source Domain Feature Adaptation Network (MDFAN) is a deep learning architecture proposed to address the problem of low accuracy in disease recognition in field agricultural images, caused by domain shift between the training data and the real-world application data. MDFAN employs a two-stage alignment strategy: first, it aligns the distribution of each source-target domain pair across multiple task-specific feature spaces, using multi-representation extraction and subdomain alignment; second, it aligns the classifier outputs by leveraging the decision boundaries within specific domains. This approach is robust to variations in lighting conditions and enables multi-source unsupervised domain adaptation (MUDA).
 
 ## Statistics
 
-Acurácia Média de Classificação: **92,11%** com dois domínios-fonte e **93,02%** com três domínios-fonte. O desempenho superou todos os outros métodos testados no estudo. O artigo foi publicado em 2024 e possui 1 citação (até a última verificação).
+Average Classification Accuracy: **92.11%** with two source domains and **93.02%** with three source domains. The performance outperformed all other methods tested in the study. The paper was published in 2024 and has 1 citation (as of the last check).
 
 ## Features
 
-Adaptação de Domínio Não Supervisionada de Múltiplas Fontes (MUDA); Estratégia de alinhamento em duas etapas (características e saídas do classificador); Robustez a mudanças nas condições de iluminação; Extração de múltiplas representações; Alinhamento de subdomínios.
+Multi-Source Unsupervised Domain Adaptation (MUDA); Two-stage alignment strategy (features and classifier outputs); Robustness to changes in lighting conditions; Multi-representation extraction; Subdomain alignment.
 
 ## Use Cases
 
-Reconhecimento de doenças da batata em ambientes de campo, especificamente para cinco tipos distintos de doenças. Aplica-se a cenários onde a transferência de conhecimento entre diferentes regiões, estações ou condições de iluminação é necessária.
+Potato disease recognition in field environments, specifically for five distinct disease types. It applies to scenarios where knowledge transfer between different regions, seasons, or lighting conditions is required.
 
 ## Integration
 
-O MDFAN é uma rede de aprendizado profundo e, embora o código de implementação específico não tenha sido encontrado em repositórios públicos como o GitHub, a técnica é baseada em arquiteturas de redes neurais convolucionais (CNNs) e pode ser implementada usando frameworks populares como PyTorch ou TensorFlow. A integração envolveria a adaptação do código-fonte para a estratégia de alinhamento de duas etapas e a aplicação em um novo conjunto de dados de campo (domínio-alvo) para a tarefa de reconhecimento de doenças.
+MDFAN is a deep learning network, and although the specific implementation code was not found in public repositories such as GitHub, the technique is based on convolutional neural network (CNN) architectures and can be implemented using popular frameworks such as PyTorch or TensorFlow. Integration would involve adapting the source code for the two-stage alignment strategy and applying it to a new field dataset (target domain) for the disease recognition task.
 
-**Exemplo de Estrutura de Código (Conceitual em PyTorch):**
+**Example Code Structure (Conceptual in PyTorch):**
 
 ```python
 import torch
 import torch.nn as nn
 import torch.optim as optim
 
-# 1. Definir o Extrator de Características (Feature Extractor)
+# 1. Define the Feature Extractor
 class FeatureExtractor(nn.Module):
-    # ... (Implementação baseada em ResNet ou EfficientNet)
+    # ... (Implementation based on ResNet or EfficientNet)
     pass
 
-# 2. Definir o Classificador (Classifier)
+# 2. Define the Classifier
 class Classifier(nn.Module):
-    # ... (Camadas densas para classificação)
+    # ... (Dense layers for classification)
     pass
 
-# 3. Definir o Módulo de Alinhamento de Domínio (Domain Alignment Module)
+# 3. Define the Domain Alignment Module
 class DomainAlignment(nn.Module):
-    # ... (Implementação do alinhamento de duas etapas do MDFAN)
+    # ... (Implementation of the MDFAN two-stage alignment)
     pass
 
-# 4. Função de Treinamento (Conceptual)
+# 4. Training Function (Conceptual)
 def train_mdfan(source_data_list, target_data_unlabeled):
-    # Inicialização de modelos e otimizadores
+    # Initialization of models and optimizers
     extractor = FeatureExtractor()
     classifier = Classifier()
     aligner = DomainAlignment()
     
-    # Otimizador e função de perda
+    # Optimizer and loss function
     optimizer = optim.Adam(list(extractor.parameters()) + list(classifier.parameters()) + list(aligner.parameters()))
     
     for epoch in range(num_epochs):
-        # 1. Passo de Alinhamento de Características (Feature Alignment)
-        # Calcular perdas de alinhamento de subdomínios
+        # 1. Feature Alignment step
+        # Compute subdomain alignment losses
         
-        # 2. Passo de Alinhamento de Saída do Classificador (Classifier Output Alignment)
-        # Calcular perdas de discrepância de preditor
+        # 2. Classifier Output Alignment step
+        # Compute predictor discrepancy losses
         
-        # 3. Passo de Classificação (Classification)
-        # Calcular perda de classificação no domínio-fonte
+        # 3. Classification step
+        # Compute classification loss on the source domain
         
-        # Otimização
+        # Optimization
         optimizer.zero_grad()
-        # Perda total = Perda de Classificação + Perda de Alinhamento
+        # Total loss = Classification Loss + Alignment Loss
         # total_loss.backward()
         optimizer.step()
 ```

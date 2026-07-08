@@ -1,45 +1,45 @@
 # LibriSpeech ASR Corpus
 
 ## Description
-O LibriSpeech é um corpus de grande escala (aproximadamente 1000 horas) de fala em inglês lida, projetado especificamente para o treinamento e avaliação de sistemas de Reconhecimento Automático de Fala (ASR). O dataset é derivado de audiolivros lidos do projeto LibriVox, que estão em domínio público. O corpus foi cuidadosamente segmentado e alinhado para fornecer transcrições precisas para cada segmento de áudio. É um dos benchmarks mais utilizados na pesquisa de ASR devido ao seu tamanho e à sua divisão em subconjuntos "limpos" (clean) e "outros" (other), que representam diferentes níveis de dificuldade de ruído e qualidade de gravação. Uma extensão notável é o Multilingual LibriSpeech (MLS), que expande o conceito para 8 idiomas, incluindo o português.
+LibriSpeech is a large-scale corpus (approximately 1000 hours) of read English speech, designed specifically for training and evaluating Automatic Speech Recognition (ASR) systems. The dataset is derived from read audiobooks from the LibriVox project, which are in the public domain. The corpus was carefully segmented and aligned to provide accurate transcriptions for each audio segment. It is one of the most widely used benchmarks in ASR research due to its size and its division into "clean" and "other" subsets, which represent different levels of noise difficulty and recording quality. A notable extension is Multilingual LibriSpeech (MLS), which expands the concept to 8 languages, including Portuguese.
 
 ## Statistics
-- **Tamanho Total da Fala:** Aproximadamente 1000 horas.
-- **Tamanho Total do Arquivo:** Cerca de 60 GB (apenas áudio e transcrições).
-- **Divisões Principais:**
-    - `train-clean-100`: 100 horas (treinamento, limpo)
-    - `train-clean-360`: 360 horas (treinamento, limpo)
-    - `train-other-500`: 500 horas (treinamento, outros)
-    - `dev-clean`: ~5 horas (desenvolvimento, limpo)
-    - `dev-other`: ~5 horas (desenvolvimento, outros)
-    - `test-clean`: ~5 horas (teste, limpo)
-    - `test-other`: ~5 horas (teste, outros)
-- **Versão Original:** Lançado em 2015. A versão mais recente é a original, mas o dataset continua sendo um benchmark padrão, com extensões como o Multilingual LibriSpeech (MLS) e o LibriSpeech-Long (Google DeepMind, 2024).
+- **Total Speech Size:** Approximately 1000 hours.
+- **Total File Size:** About 60 GB (audio and transcriptions only).
+- **Main Splits:**
+    - `train-clean-100`: 100 hours (training, clean)
+    - `train-clean-360`: 360 hours (training, clean)
+    - `train-other-500`: 500 hours (training, other)
+    - `dev-clean`: ~5 hours (development, clean)
+    - `dev-other`: ~5 hours (development, other)
+    - `test-clean`: ~5 hours (test, clean)
+    - `test-other`: ~5 hours (test, other)
+- **Original Version:** Released in 2015. The most recent version is the original, but the dataset remains a standard benchmark, with extensions such as Multilingual LibriSpeech (MLS) and LibriSpeech-Long (Google DeepMind, 2024).
 
 ## Features
-- **Grande Escala:** Aproximadamente 1000 horas de fala.
-- **Domínio Público:** Derivado de audiolivros do LibriVox, sob licença CC BY 4.0.
-- **Divisão de Dificuldade:** Subconjuntos de treinamento e teste divididos em "clean" (limpo, mais fácil) e "other" (outros, mais desafiador, com mais ruído ou variações de gravação).
-- **Taxa de Amostragem:** Áudio em 16kHz.
-- **Alinhamento Preciso:** Segmentos de fala cuidadosamente alinhados com suas transcrições.
-- **Extensões:** Existem variações como o LibriSpeech-PC (com pontuação e capitalização restauradas) e o Multilingual LibriSpeech (MLS) com suporte a múltiplos idiomas.
+- **Large Scale:** Approximately 1000 hours of speech.
+- **Public Domain:** Derived from LibriVox audiobooks, under the CC BY 4.0 license.
+- **Difficulty Split:** Training and test subsets divided into "clean" (easier) and "other" (more challenging, with more noise or recording variations).
+- **Sampling Rate:** Audio at 16kHz.
+- **Precise Alignment:** Speech segments carefully aligned with their transcriptions.
+- **Extensions:** Variations exist such as LibriSpeech-PC (with restored punctuation and capitalization) and Multilingual LibriSpeech (MLS) with support for multiple languages.
 
 ## Use Cases
-- **Reconhecimento Automático de Fala (ASR):** Treinamento e avaliação de modelos de ASR de última geração.
-- **Processamento de Fala:** Pesquisa em segmentação, alinhamento e síntese de fala.
-- **Transfer Learning:** Uso como dataset de pré-treinamento para modelos de ASR em outros idiomas ou domínios.
-- **Avaliação de Modelos:** Serve como um benchmark padrão para comparar o desempenho de diferentes arquiteturas de modelos de fala (ex: RNNs, Transformers, Conformer).
+- **Automatic Speech Recognition (ASR):** Training and evaluation of state-of-the-art ASR models.
+- **Speech Processing:** Research in speech segmentation, alignment, and synthesis.
+- **Transfer Learning:** Use as a pre-training dataset for ASR models in other languages or domains.
+- **Model Evaluation:** Serves as a standard benchmark for comparing the performance of different speech model architectures (e.g., RNNs, Transformers, Conformer).
 
 ## Integration
-O dataset LibriSpeech pode ser baixado diretamente do site oficial do OpenSLR (SLR12) em vários arquivos `.tar.gz`, cada um correspondendo a uma divisão específica (treinamento, desenvolvimento, teste).
+The LibriSpeech dataset can be downloaded directly from the official OpenSLR site (SLR12) in several `.tar.gz` files, each corresponding to a specific split (training, development, test).
 
-**Download Direto (OpenSLR):**
-O usuário deve baixar os arquivos de interesse (ex: `train-clean-100.tar.gz`, `test-clean.tar.gz`) e descompactá-los.
+**Direct Download (OpenSLR):**
+The user should download the files of interest (e.g., `train-clean-100.tar.gz`, `test-clean.tar.gz`) and extract them.
 
-**Integração com Bibliotecas:**
-Muitas bibliotecas de aprendizado de máquina e processamento de áudio, como o **Torchaudio** (PyTorch), oferecem APIs para download e carregamento simplificado do LibriSpeech.
+**Integration with Libraries:**
+Many machine learning and audio processing libraries, such as **Torchaudio** (PyTorch), offer APIs for simplified downloading and loading of LibriSpeech.
 
-*Exemplo com Torchaudio (Python):*
+*Example with Torchaudio (Python):*
 ```python
 import torchaudio
 
@@ -51,7 +51,7 @@ dataset = torchaudio.datasets.LIBRISPEECH(
 )
 # O dataset pode ser iterado para obter (waveform, sample_rate, transcript, speaker_id, chapter_id, utterance_id)
 ```
-O dataset também está disponível no **Hugging Face Datasets** (`openslr/librispeech_asr`), facilitando o uso em pipelines de modelos de linguagem.
+The dataset is also available on **Hugging Face Datasets** (`openslr/librispeech_asr`), making it easy to use in language model pipelines.
 
 ## URL
 [https://www.openslr.org/12](https://www.openslr.org/12)

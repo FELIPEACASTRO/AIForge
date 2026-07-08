@@ -1,33 +1,33 @@
 # Biodiversity Datasets (GBIF)
 
 ## Description
-O Global Biodiversity Information Facility (GBIF) é uma rede internacional e uma infraestrutura de dados financiada por governos mundiais, com o objetivo de fornecer acesso livre e aberto a dados de ocorrência de biodiversidade. Ele agrega dados de milhares de instituições em todo o mundo, tornando-os disponíveis para pesquisa, política e tomada de decisões. O GBIF atua como um hub de dados primários de biodiversidade, incluindo registros de ocorrência, listas de verificação e dados de eventos de amostragem, provenientes de coleções de museus, ciência cidadã e outras fontes [1].
+The Global Biodiversity Information Facility (GBIF) is an international network and data infrastructure funded by governments worldwide, aiming to provide free and open access to biodiversity occurrence data. It aggregates data from thousands of institutions around the world, making them available for research, policy, and decision-making. GBIF acts as a hub for primary biodiversity data, including occurrence records, checklists, and sampling event data, sourced from museum collections, citizen science, and other sources [1].
 
 ## Statistics
-**Registros de Ocorrência:** Mais de **3.1 bilhões** de registros de ocorrência de espécies (dado de Setembro de 2025) [3].
-**Datasets:** Mais de **118.713** datasets publicados [1].
-**Instituições Publicadoras:** Mais de **2.588** instituições publicadoras [1].
-**Uso Científico (2023):** Mais de **1.700** artigos científicos publicados em 2023 utilizaram dados mediados pelo GBIF [4].
-**Tendência (2024):** O total de registros de ocorrência ultrapassou **3 bilhões** em 2024 [5].
+**Occurrence Records:** More than **3.1 billion** species occurrence records (as of September 2025) [3].
+**Datasets:** More than **118,713** published datasets [1].
+**Publishing Institutions:** More than **2,588** publishing institutions [1].
+**Scientific Use (2023):** More than **1,700** scientific articles published in 2023 used GBIF-mediated data [4].
+**Trend (2024):** The total number of occurrence records surpassed **3 billion** in 2024 [5].
 
 ## Features
-**Dados Primários de Biodiversidade:** Inclui registros de ocorrência (onde e quando uma espécie foi observada), listas de verificação taxonômicas e dados de eventos de amostragem.
-**Acesso Aberto (Open Access):** Todos os dados são disponibilizados sob licenças abertas, facilitando o uso irrestrito para pesquisa e política.
-**Padronização:** Os dados são padronizados para o formato **Darwin Core Archive (DwC-A)**, garantindo interoperabilidade.
-**API Robusta:** Oferece uma API completa para acesso programático aos dados, permitindo a integração com ferramentas e sistemas externos [2].
-**Monitoramento de Uso:** Possui um sistema de rastreamento de literatura que identificou mais de **10.000 usos** em artigos revisados por pares até Julho de 2024 [1].
+**Primary Biodiversity Data:** Includes occurrence records (where and when a species was observed), taxonomic checklists, and sampling event data.
+**Open Access:** All data are made available under open licenses, facilitating unrestricted use for research and policy.
+**Standardization:** The data are standardized to the **Darwin Core Archive (DwC-A)** format, ensuring interoperability.
+**Robust API:** Offers a complete API for programmatic access to the data, enabling integration with external tools and systems [2].
+**Usage Monitoring:** Has a literature tracking system that identified more than **10,000 uses** in peer-reviewed articles through July 2024 [1].
 
 ## Use Cases
-**Pesquisa Ecológica e Biológica:** Estudo da distribuição de espécies, modelagem de nicho ecológico, análise de padrões de biodiversidade em escalas taxonômicas, temporais e espaciais [1].
-**Conservação e Política:** Monitoramento do estado da biodiversidade e progresso em direção a metas internacionais, como as da Convenção sobre Diversidade Biológica (CBD). O GBIF é uma fonte de dados chave para indicadores como o Índice de Status de Espécies [1].
-**Mudanças Climáticas:** Avaliação dos impactos das mudanças climáticas na distribuição geográfica das espécies.
-**Saúde Humana e Agricultura:** Aplicações relacionadas à distribuição de vetores de doenças e espécies de interesse agrícola [1].
+**Ecological and Biological Research:** Study of species distribution, ecological niche modeling, analysis of biodiversity patterns at taxonomic, temporal, and spatial scales [1].
+**Conservation and Policy:** Monitoring the state of biodiversity and progress toward international targets, such as those of the Convention on Biological Diversity (CBD). GBIF is a key data source for indicators such as the Species Status Index [1].
+**Climate Change:** Assessment of the impacts of climate change on the geographic distribution of species.
+**Human Health and Agriculture:** Applications related to the distribution of disease vectors and species of agricultural interest [1].
 
 ## Integration
-O acesso aos dados do GBIF pode ser feito de duas maneiras principais [2]:
-1.  **GBIF.org (Download Direto):** Através da interface web, os usuários podem pesquisar, filtrar e baixar dados em três formatos principais: **Simple CSV** (seleção de termos comuns), **Darwin Core Archive (DwC-A)** (inclui dados originais e interpretação do GBIF) e **Species list** (lista distinta de nomes).
-2.  **Acesso Programático (API):** O GBIF oferece uma API RESTful completa para downloads de ocorrência e acesso a metadados. Bibliotecas como **`rgbif`** (para R) e **`pygbif`** (para Python) facilitam a integração e o download de grandes volumes de dados diretamente em ambientes de análise. O GBIF também lançou uma API experimental de **SQL Downloads** para consultas mais complexas [2].
-*   **Termos de Uso:** Os usuários devem concordar com o **Acordo de Usuário de Dados** do GBIF, que exige a citação correta dos dados utilizados [2].
+Access to GBIF data can be achieved in two main ways [2]:
+1.  **GBIF.org (Direct Download):** Through the web interface, users can search, filter, and download data in three main formats: **Simple CSV** (selection of common terms), **Darwin Core Archive (DwC-A)** (includes original data and GBIF interpretation), and **Species list** (distinct list of names).
+2.  **Programmatic Access (API):** GBIF offers a complete RESTful API for occurrence downloads and metadata access. Libraries such as **`rgbif`** (for R) and **`pygbif`** (for Python) facilitate integration and the download of large volumes of data directly into analysis environments. GBIF has also launched an experimental **SQL Downloads** API for more complex queries [2].
+*   **Terms of Use:** Users must agree to the GBIF **Data User Agreement**, which requires proper citation of the data used [2].
 
 ## URL
 [https://www.gbif.org/](https://www.gbif.org/)

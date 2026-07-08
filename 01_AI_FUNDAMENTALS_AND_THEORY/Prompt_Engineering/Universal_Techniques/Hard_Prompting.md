@@ -1,91 +1,91 @@
 # Hard Prompting
 
 ## Description
-Hard Prompting, ou 'Prompting Explícito', refere-se à técnica fundamental de engenharia de prompt onde as instruções são fornecidas ao modelo de linguagem (LLM) como texto explícito, legível por humanos e em linguagem natural. Diferentemente do Soft Prompting, que utiliza vetores de embedding otimizados e inacessíveis ao usuário, o Hard Prompting é totalmente transparente e editável. A eficácia desta técnica depende diretamente da clareza, especificidade e criatividade do usuário, sendo a base para todas as técnicas avançadas de prompting, como Chain-of-Thought (CoT), Few-Shot Prompting e Role Prompting. É a abordagem preferencial para prototipagem rápida, tarefas de propósito geral e cenários onde a interpretabilidade e o controle manual sobre a entrada são cruciais.
+Hard Prompting, or 'Explicit Prompting', refers to the fundamental prompt engineering technique where instructions are provided to the language model (LLM) as explicit, human-readable text in natural language. Unlike Soft Prompting, which uses optimized embedding vectors that are inaccessible to the user, Hard Prompting is fully transparent and editable. The effectiveness of this technique depends directly on the clarity, specificity, and creativity of the user, being the foundation for all advanced prompting techniques, such as Chain-of-Thought (CoT), Few-Shot Prompting, and Role Prompting. It is the preferred approach for rapid prototyping, general-purpose tasks, and scenarios where interpretability and manual control over the input are crucial.
 
 ## Examples
 ```
-1. **Role Prompting (Definição de Papel):**
+1. **Role Prompting (Role Definition):**
 
-   `Aja como um analista de marketing sênior. Sua tarefa é analisar o seguinte relatório de vendas trimestrais e identificar as três principais oportunidades de crescimento para o próximo trimestre. Apresente sua análise em formato de lista com marcadores.`
+   `Act as a senior marketing analyst. Your task is to analyze the following quarterly sales report and identify the three main growth opportunities for the next quarter. Present your analysis as a bulleted list.`
 
-2. **Few-Shot Prompting (Aprendizado com Exemplos):**
+2. **Few-Shot Prompting (Learning from Examples):**
 
-   `Classifique os seguintes sentimentos como Positivo, Negativo ou Neutro. Aqui estão três exemplos:
+   `Classify the following sentiments as Positive, Negative, or Neutral. Here are three examples:
 
-   Entrada: 'O serviço foi lento, mas a comida estava ótima.'
-   Saída: Neutro
+   Input: 'The service was slow, but the food was great.'
+   Output: Neutral
 
-   Entrada: 'Experiência terrível, nunca mais voltarei.'
-   Saída: Negativo
+   Input: 'Terrible experience, I will never come back.'
+   Output: Negative
 
-   Entrada: 'Adorei o novo design do site, muito intuitivo.'
-   Saída: Positivo
+   Input: 'I loved the new website design, very intuitive.'
+   Output: Positive
 
-   Entrada: 'A entrega atrasou 10 minutos, mas o produto veio intacto.'
-   Saída: ?`
+   Input: 'The delivery was 10 minutes late, but the product arrived intact.'
+   Output: ?`
 
-3. **Chain-of-Thought (Cadeia de Pensamento):**
+3. **Chain-of-Thought:**
 
-   `O custo de produção de um widget é R$ 50. O preço de venda é R$ 80. Se uma empresa vende 1000 widgets, qual é o lucro total? Pense passo a passo antes de dar a resposta final.`
+   `The production cost of a widget is R$ 50. The selling price is R$ 80. If a company sells 1000 widgets, what is the total profit? Think step by step before giving the final answer.`
 
-4. **Restrição de Formato (JSON):**
+4. **Format Constraint (JSON):**
 
-   `Extraia o nome, o cargo e o e-mail de contato do texto abaixo. Retorne o resultado estritamente no formato JSON, seguindo o esquema {\"nome\": \"\", \"cargo\": \"\", \"email\": \"\"}.`
+   `Extract the name, job title, and contact email from the text below. Return the result strictly in JSON format, following the schema {\"name\": \"\", \"title\": \"\", \"email\": \"\"}.`
 
-5. **Geração de Código:**
+5. **Code Generation:**
 
-   `Escreva uma função em Python chamada 'fibonacci' que receba um número inteiro 'n' e retorne o n-ésimo número da sequência de Fibonacci. Inclua comentários explicando a lógica.`
+   `Write a Python function named 'fibonacci' that takes an integer 'n' and returns the n-th number of the Fibonacci sequence. Include comments explaining the logic.`
 
-6. **Instrução de Edição e Revisão:**
+6. **Editing and Revision Instruction:**
 
-   `Revise o parágrafo a seguir para clareza, concisão e tom profissional. Corrija quaisquer erros gramaticais e sugira uma frase de abertura mais forte. [Parágrafo a ser revisado]`
+   `Revise the following paragraph for clarity, conciseness, and a professional tone. Correct any grammatical errors and suggest a stronger opening sentence. [Paragraph to be revised]`
 
-7. **Prompt Criativo com Restrições:**
+7. **Creative Prompt with Constraints:**
 
-   `Escreva um microconto de ficção científica (máximo 100 palavras) sobre um robô que descobre a chuva pela primeira vez. O conto deve ter um tom melancólico e terminar com a palavra 'silêncio'.`
+   `Write a science fiction flash-fiction piece (maximum 100 words) about a robot that discovers rain for the first time. The story should have a melancholic tone and end with the word 'silence'.`
 
-8. **Instrução de Resumo e Análise:**
+8. **Summary and Analysis Instruction:**
 
-   `Leia o artigo abaixo e forneça um resumo de 5 pontos-chave. Em seguida, analise o público-alvo provável do artigo e o principal argumento do autor.`
+   `Read the article below and provide a summary of 5 key points. Then, analyze the article's likely target audience and the author's main argument.`
 
-9. **Prompt de Tradução com Contexto:**
+9. **Translation Prompt with Context:**
 
-   `Traduza a seguinte frase do Português para o Inglês, mantendo um tom formal e de negócios: 'A implementação do novo protocolo de segurança é imperativa para a conformidade regulatória.'`
+   `Translate the following sentence from Portuguese to English, maintaining a formal, business tone: 'A implementação do novo protocolo de segurança é imperativa para a conformidade regulatória.'`
 
-10. **Instrução de Categorização:**
+10. **Categorization Instruction:**
 
-    `Classifique o seguinte livro em uma das categorias: Ficção, Não-Ficção, Biografia, Poesia. Justifique sua escolha em uma frase. [Título e breve sinopse do livro]`
+    `Classify the following book into one of the categories: Fiction, Non-Fiction, Biography, Poetry. Justify your choice in one sentence. [Book title and brief synopsis]`
 ```
 
 ## Best Practices
-O Hard Prompting é a base da interação com LLMs. As melhores práticas envolvem:
+Hard Prompting is the foundation of interaction with LLMs. Best practices involve:
 
-*   **Seja Explícito e Específico:** Defina claramente a tarefa, o formato de saída e quaisquer restrições. Evite ambiguidades.
-*   **Defina um Papel (Role Prompting):** Atribuir uma persona (ex: 'Aja como um historiador') melhora a qualidade e o foco da resposta.
-*   **Use Exemplos (Few-Shot):** Para tarefas complexas ou que exigem um formato específico, fornecer 1 a 3 exemplos de entrada/saída aumenta drasticamente a precisão.
-*   **Instrua o Raciocínio (CoT):** Peça ao modelo para 'pensar passo a passo' ou 'explicar seu raciocínio' antes de dar a resposta final, o que melhora a lógica e a precisão.
-*   **Isole a Tarefa:** Coloque as instruções principais e o contexto em seções separadas ou use delimitadores (como aspas triplas) para evitar confusão.
-*   **Itere e Refine:** Otimize o prompt por tentativa e erro, ajustando a fraseologia até obter o resultado desejado.
+*   **Be Explicit and Specific:** Clearly define the task, the output format, and any constraints. Avoid ambiguities.
+*   **Define a Role (Role Prompting):** Assigning a persona (e.g., 'Act as a historian') improves the quality and focus of the response.
+*   **Use Examples (Few-Shot):** For complex tasks or those requiring a specific format, providing 1 to 3 input/output examples drastically increases accuracy.
+*   **Instruct Reasoning (CoT):** Ask the model to 'think step by step' or 'explain its reasoning' before giving the final answer, which improves logic and accuracy.
+*   **Isolate the Task:** Place the main instructions and context in separate sections or use delimiters (such as triple quotes) to avoid confusion.
+*   **Iterate and Refine:** Optimize the prompt through trial and error, adjusting the phrasing until you get the desired result.
 
 ## Use Cases
-O Hard Prompting é aplicável a praticamente todos os casos de uso de LLMs, sendo ideal para:
+Hard Prompting is applicable to virtually all LLM use cases, being ideal for:
 
-*   **Geração de Conteúdo:** Criação de artigos, e-mails, posts de blog e roteiros.
-*   **Resumo e Extração de Informação:** Condensar documentos longos e extrair dados estruturados.
-*   **Tradução e Localização:** Tradução de textos com requisitos de tom e contexto específicos.
-*   **Geração de Código:** Escrever funções, scripts e snippets de código para tarefas específicas.
-*   **Resolução de Problemas Lógicos:** Utilizando técnicas como Chain-of-Thought para resolver problemas matemáticos ou de raciocínio.
-*   **Prototipagem Rápida:** Testar rapidamente ideias e funcionalidades sem a necessidade de fine-tuning do modelo.
+*   **Content Generation:** Creating articles, emails, blog posts, and scripts.
+*   **Summarization and Information Extraction:** Condensing long documents and extracting structured data.
+*   **Translation and Localization:** Translating texts with specific tone and context requirements.
+*   **Code Generation:** Writing functions, scripts, and code snippets for specific tasks.
+*   **Logical Problem Solving:** Using techniques such as Chain-of-Thought to solve mathematical or reasoning problems.
+*   **Rapid Prototyping:** Quickly testing ideas and features without the need to fine-tune the model.
 
 ## Pitfalls
-Embora seja versátil, o Hard Prompting apresenta armadilhas comuns:
+Although it is versatile, Hard Prompting presents common pitfalls:
 
-*   **Dependência da Habilidade Humana:** A qualidade da saída é limitada pela clareza e criatividade do prompt humano. Prompts mal escritos resultam em saídas ruins ('Garbage In, Garbage Out').
-*   **Ineficiência para Tarefas de Alta Precisão:** Para tarefas altamente especializadas (como análise de sentimento sutil ou detecção de anomalias), o Hard Prompting pode ser menos preciso do que o Soft Prompting otimizado.
-*   **Prompts Excessivamente Longos:** Tentar incluir muito contexto ou muitas regras em um único prompt pode levar o modelo a se confundir ou a ignorar partes das instruções.
-*   **Ambiguidade:** O uso de linguagem vaga ou termos com múltiplos significados pode levar a interpretações incorretas pelo modelo.
-*   **Custo de Iteração:** Otimizar prompts complexos requer muitas tentativas e erros manuais, o que pode ser demorado e caro em termos de tokens.
+*   **Dependence on Human Skill:** The quality of the output is limited by the clarity and creativity of the human prompt. Poorly written prompts result in poor outputs ('Garbage In, Garbage Out').
+*   **Inefficiency for High-Precision Tasks:** For highly specialized tasks (such as subtle sentiment analysis or anomaly detection), Hard Prompting can be less accurate than optimized Soft Prompting.
+*   **Overly Long Prompts:** Trying to include too much context or too many rules in a single prompt can cause the model to become confused or ignore parts of the instructions.
+*   **Ambiguity:** The use of vague language or terms with multiple meanings can lead to incorrect interpretations by the model.
+*   **Iteration Cost:** Optimizing complex prompts requires much manual trial and error, which can be time-consuming and expensive in terms of tokens.
 
 ## URL
 [https://futureagi.com/blogs/hard-prompt-vs-soft-prompt-2025](https://futureagi.com/blogs/hard-prompt-vs-soft-prompt-2025)

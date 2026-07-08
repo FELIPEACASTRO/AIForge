@@ -1,0 +1,33 @@
+# Dashboard Design Prompts
+
+## Description
+Dashboard Design Prompts are detailed instructions provided to AI models (such as UI/UX generators or LLMs) to create layouts, wireframes, or design specifications for data dashboards. The goal is to accelerate the planning and prototyping phase, ensuring that the design is strategic and user-focused. The technique is based on providing a structured "micro-brief" that details the purpose of the application, the type of screen, the key features, the visual tone, and, optionally, the emotional goal of the dashboard. This allows the AI to quickly generate high-fidelity prototypes with functional relevance.
+
+## Examples
+```
+**1. E-commerce Sales Dashboard (Web):** "For a B2C e-commerce system called 'VendaCerta', design a high-level web dashboard for the Sales Manager. The dashboard should prioritize the visualization of **daily performance KPIs**, including: **Total Revenue**, **Conversion Rate**, **Average Order Value (AOV)**, and a **sales funnel chart** (Visits -> Cart -> Purchase). The layout should be **modular**, with the main KPIs highlighted at the top (large cards) and the sales funnel in a central section. Use a **corporate and trustworthy** color palette (blue and green) and a visual tone **focused on results and efficiency**."
+
+**2. Patient Monitoring Dashboard (Tablet):** "For a hospital healthcare application called 'CuraRápida', create a tablet-optimized dashboard for the Nursing team. The dashboard should show the **monitoring status of 5 critical patients** simultaneously. For each patient, display: **Heart Rate (in real time)**, **Oxygen Saturation**, **Next Medication Dose**, and a clear **visual alert** for deviations in vital parameters. The layout should be a **grid**, with patient cards that change color (green/yellow/red) according to criticality. The visual tone should be **clinical, clean, and of high urgency/clarity**."
+
+**3. Social Media Analytics Dashboard (Web):** "For a digital marketing analytics tool called 'Viralize', generate a web dashboard for the Social Media Analyst. The focus should be on **comparing performance across 3 platforms** (Instagram, TikTok, LinkedIn). Include: **Follower Growth (line chart)**, **Engagement Rate per Platform (bar chart)**, and a **word cloud** of the most recent comments. The layout should be **vertical and informative**, with well-defined sections for each metric. Use **vibrant and modern** colors and a visual tone **that is analytical and trend-oriented**."
+
+**4. Personal Finance Dashboard (Mobile):** "For a personal financial management application called 'BolsaLeve', design a mobile dashboard for the end user. The goal is to promote **budget control and motivation to save**. Display: **Current Balance (highlighted)**, **Pie Chart of Spending Distribution (by category)**, and a ring-shaped **progress meter** for the monthly savings goal. The layout should be **minimalist and friendly**, with easy navigation to add transactions. Use a **soft and motivational** color palette (shades of yellow and light gray) and a visual tone **that is supportive and non-judgmental**."
+
+**5. IoT Residential Energy Dashboard (Mobile):** "For a smart home system called 'EcoLar', create a mobile dashboard for the homeowner. The dashboard should focus on **energy efficiency and cost savings**. Include: **Real-Time Energy Consumption (meter)**, **Weekly Consumption Comparison (area chart)**, and a **'Suggested Savings' card** based on usage patterns. The layout should be **dark (dark mode)** to save battery and highlight the data. Use **technological and cool** colors (electric blue and cyan) and a visual tone **of control and intelligence**."
+
+**6. Customer Support Performance Dashboard (Web):** "For a Help Desk software called 'AtendeBem', design a web dashboard for the Support Supervisor. The focus is on **service quality and speed**. Display: **Average Response Time (ART)**, **First Contact Resolution Rate (FCR)**, and a **scatter plot** showing customer satisfaction (CSAT) versus resolution time. The layout should be **dense but organized**, with prominent date filters. Use **neutral colors with red/green alerts** for metrics that are off target. The visual tone should be **objective and performance-management-oriented**."
+
+**7. Educational Progress Dashboard (Web):** "For an e-learning platform called 'SaberMais', create a web dashboard for the student. The goal is to **keep the student engaged and aware of their progress**. Include: **Course Completion Percentage (progress meter)**, **'Time Spent per Week' Bar Chart**, and a **'Next Steps' section** with the module to be started. The layout should be **clean and encouraging**, with gamification elements (badges or points). Use **bright and stimulating** colors (orange and purple) and a visual tone **of encouragement and achievement**."
+```
+
+## Best Practices
+**Be a Strategist:** Think about the business goal and the end user before writing the prompt. **Be Specific:** Include suggestions for UI structure (e.g., card layout, ring tracker) and specific elements (e.g., hydration bar, mood selector). **Use Emotional Tone Cues:** Words like "calming", "fun", "minimalist" help the AI define the style. **Name the Application:** Even if it is fictional, giving it a name helps the AI create a cohesive visual identity. **Think Like a Product Owner:** The prompt should be a summary of what the product needs to do.
+
+## Use Cases
+**Rapid Prototyping:** Generate initial wireframes in seconds for concept validation. **Layout Exploration:** Test different arrangements of elements (modular, column, grid) to optimize information density. **BI (Business Intelligence) Design:** Create layouts for tools like Tableau or Power BI, focusing on metric hierarchy. **Mobile Application Dashboards:** Design summary screens for activity, health, or personal finance. **Re-design:** Generate new layout ideas for existing dashboards that need a UX update.
+
+## Pitfalls
+**Generic Prompts:** Asking only "Design a dashboard" results in layouts with no soul, strategy, or flow. **Focusing Only on Aesthetics:** Ignoring the **function** and key **metrics**, resulting in a beautiful but useless dashboard. **Information Overload:** Trying to include too many metrics, which leads to a cluttered and confusing design. The prompt should focus on the **priorities**. **Lack of Context:** Failing to specify the target audience or the purpose of the dashboard.
+
+## URL
+[https://medium.com/@msjuliabraimova/the-10-ai-prompts-i-use-to-instantly-generate-ui-ideas-with-before-after-screens-2c0053ba0111](https://medium.com/@msjuliabraimova/the-10-ai-prompts-i-use-to-instantly-generate-ui-ideas-with-before-after-screens-2c0053ba0111)

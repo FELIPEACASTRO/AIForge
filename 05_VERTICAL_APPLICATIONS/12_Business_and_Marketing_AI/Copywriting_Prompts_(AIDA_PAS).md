@@ -1,89 +1,89 @@
 # Copywriting Prompts (AIDA, PAS)
 
 ## Description
-**Copywriting Prompts (AIDA, PAS)** é uma técnica de Prompt Engineering que utiliza frameworks clássicos de escrita persuasiva para estruturar a saída de modelos de linguagem (LLMs) como o ChatGPT, Gemini ou Claude. O objetivo é guiar a IA para produzir conteúdo que siga uma sequência lógica e psicológica comprovada, maximizando a conversão e o engajamento.
+**Copywriting Prompts (AIDA, PAS)** is a Prompt Engineering technique that uses classic persuasive writing frameworks to structure the output of language models (LLMs) such as ChatGPT, Gemini, or Claude. The goal is to guide the AI to produce content that follows a proven logical and psychological sequence, maximizing conversion and engagement.
 
-**AIDA (Atenção, Interesse, Desejo, Ação):** É o modelo mais tradicional, focado na jornada do consumidor.
-1.  **Atenção (Attention):** Capturar o olhar do leitor (geralmente com uma manchete ou gancho forte).
-2.  **Interesse (Interest):** Manter o leitor engajado, apresentando fatos relevantes e benefícios.
-3.  **Desejo (Desire):** Criar uma conexão emocional, fazendo o leitor querer o produto/serviço.
-4.  **Ação (Action):** Instruir o leitor sobre o próximo passo (Call to Action - CTA).
+**AIDA (Attention, Interest, Desire, Action):** It is the most traditional model, focused on the consumer journey.
+1.  **Attention:** Capture the reader's attention (usually with a headline or a strong hook).
+2.  **Interest:** Keep the reader engaged by presenting relevant facts and benefits.
+3.  **Desire:** Create an emotional connection, making the reader want the product/service.
+4.  **Action:** Instruct the reader on the next step (Call to Action - CTA).
 
-**PAS (Problema, Agitação, Solução):** É um modelo mais direto, focado em resolver uma dor específica.
-1.  **Problema (Problem):** Identificar e declarar claramente a dor ou o desafio do público-alvo.
-2.  **Agitação (Agitate):** Aumentar a intensidade da dor, descrevendo as consequências negativas de não resolver o problema.
-3.  **Solução (Solution):** Apresentar o produto ou serviço como a solução ideal e imediata para a dor.
+**PAS (Problem, Agitate, Solution):** It is a more direct model, focused on solving a specific pain point.
+1.  **Problem:** Identify and clearly state the target audience's pain or challenge.
+2.  **Agitate:** Increase the intensity of the pain by describing the negative consequences of not solving the problem.
+3.  **Solution:** Present the product or service as the ideal and immediate solution to the pain.
 
-Ao incorporar AIDA ou PAS no prompt, o usuário está fornecendo uma **estrutura cognitiva** para a IA, transformando um pedido genérico em uma instrução de alto nível para a criação de copy persuasiva e orientada a resultados.
+By incorporating AIDA or PAS into the prompt, the user is providing a **cognitive structure** for the AI, transforming a generic request into a high-level instruction for creating persuasive, results-oriented copy.
 
 ## Examples
 ```
-**Exemplo 1: AIDA para Lançamento de Produto (E-mail)**
+**Example 1: AIDA for Product Launch (Email)**
 
 ```
-**Aja como um copywriter sênior.** Crie um e-mail de lançamento usando o framework AIDA para o nosso novo curso online: "Mestres do Prompt: Engenharia de Prompts para Negócios". O público-alvo são empreendedores digitais sobrecarregados.
+**Act as a senior copywriter.** Create a launch email using the AIDA framework for our new online course: "Prompt Masters: Prompt Engineering for Business". The target audience is overwhelmed digital entrepreneurs.
 
-**Atenção:** Manchete que destaque a frustração de prompts ruins.
-**Interesse:** Apresente a Engenharia de Prompts como a nova habilidade essencial.
-**Desejo:** Liste 3 benefícios de economizar 10 horas por semana com prompts otimizados.
-**Ação:** CTA para se inscrever na lista de espera com 20% de desconto.
+**Attention:** Headline that highlights the frustration of bad prompts.
+**Interest:** Present Prompt Engineering as the new essential skill.
+**Desire:** List 3 benefits of saving 10 hours per week with optimized prompts.
+**Action:** CTA to sign up for the waitlist with a 20% discount.
 ```
 
-**Exemplo 2: PAS para Anúncio de Facebook (Dor Crônica)**
+**Example 2: PAS for a Facebook Ad (Chronic Pain)**
 
 ```
-**Estrutura:** PAS (Problema, Agitação, Solução).
-**Produto:** Cadeira ergonômica "AuraFlex".
-**Público:** Profissionais que trabalham 8+ horas por dia em casa.
-**Tom:** Empático e urgente.
+**Structure:** PAS (Problem, Agitate, Solution).
+**Product:** "AuraFlex" ergonomic chair.
+**Audience:** Professionals who work 8+ hours a day from home.
+**Tone:** Empathetic and urgent.
 
-**Problema:** Qual é a dor mais comum e ignorada do trabalho remoto?
-**Agitação:** Descreva o custo a longo prazo dessa dor (médicos, perda de produtividade).
-**Solução:** Apresente a AuraFlex como o investimento em saúde e produtividade. O texto final deve ter no máximo 150 palavras.
+**Problem:** What is the most common and ignored pain of remote work?
+**Agitate:** Describe the long-term cost of this pain (doctors, loss of productivity).
+**Solution:** Present AuraFlex as the investment in health and productivity. The final text should be no more than 150 words.
 ```
 
-**Exemplo 3: AIDA para Landing Page (Geração de Leads)**
+**Example 3: AIDA for a Landing Page (Lead Generation)**
 
 ```
-**Objetivo:** Gerar leads para um e-book gratuito sobre "Finanças Pessoais para Geração Z".
+**Objective:** Generate leads for a free e-book about "Personal Finance for Generation Z".
 **Framework:** AIDA.
-**Atenção:** Título que chame a atenção sobre a falta de educação financeira.
-**Interesse:** Parágrafo sobre como a Geração Z pode começar a investir com pouco.
-**Desejo:** 3 bullet points sobre o que o leitor aprenderá no e-book (ex: cortar dívidas, investir em cripto, aposentadoria precoce).
-**Ação:** Botão CTA: "Baixe o E-book Gratuito Agora".
+**Attention:** Title that draws attention to the lack of financial education.
+**Interest:** Paragraph about how Generation Z can start investing with little.
+**Desire:** 3 bullet points about what the reader will learn in the e-book (e.g., cut debt, invest in crypto, early retirement).
+**Action:** CTA button: "Download the Free E-book Now".
 ```
 
-**Exemplo 4: PAS para Postagem no LinkedIn (B2B)**
+**Example 4: PAS for a LinkedIn Post (B2B)**
 
 ```
-**Aja como um consultor de TI.** Crie uma postagem no LinkedIn usando o framework PAS para promover nosso serviço de migração para a Nuvem.
+**Act as an IT consultant.** Create a LinkedIn post using the PAS framework to promote our Cloud migration service.
 
-**Problema:** O custo oculto de manter servidores legados.
-**Agitação:** O risco de segurança e a lentidão que afetam a competitividade.
-**Solução:** Nossa migração de Nuvem em 7 dias, com garantia de 99,9% de uptime.
-**Instrução Adicional:** Use uma linguagem formal e inclua a hashtag #CloudMigration.
+**Problem:** The hidden cost of maintaining legacy servers.
+**Agitate:** The security risk and slowness that affect competitiveness.
+**Solution:** Our Cloud migration in 7 days, with a 99.9% uptime guarantee.
+**Additional Instruction:** Use formal language and include the hashtag #CloudMigration.
 ```
 
-**Exemplo 5: AIDA Segmentado (Headline e CTA)**
+**Example 5: Segmented AIDA (Headline and CTA)**
 
 ```
-**Tarefa:** Gerar apenas a seção "Atenção" e "Ação" do framework AIDA.
-**Produto:** Software de automação de marketing para pequenas empresas.
-**Público:** Donos de pequenos negócios sem tempo para marketing.
+**Task:** Generate only the "Attention" and "Action" sections of the AIDA framework.
+**Product:** Marketing automation software for small businesses.
+**Audience:** Small business owners with no time for marketing.
 
-**Atenção (5 opções de Headline):** Foco em "tempo" e "automação".
-**Ação (3 opções de CTA):** Foco em "teste gratuito" e "facilidade".
+**Attention (5 Headline options):** Focus on "time" and "automation".
+**Action (3 CTA options):** Focus on "free trial" and "ease".
 ```
 ```
 
 ## Best Practices
-**1. Forneça Contexto Detalhado (O "Briefing" do Prompt):** O prompt deve ser um briefing completo. Inclua a persona do público-alvo, o tom de voz (ex: urgente, empático, autoritário), o produto/serviço, e o objetivo final (ex: clique, venda, inscrição). **2. Segmente o Framework:** Em vez de pedir o texto inteiro de uma vez, peça à IA para gerar cada etapa do framework (Atenção, Interesse, Desejo, Ação ou Problema, Agitação, Solução) separadamente. Isso permite refinar cada parte antes de uni-las. **3. Use a Estrutura de "Stacking":** Combine o framework de copywriting (AIDA/PAS) com outras técnicas de prompt engineering, como a Persona (ex: "Aja como um copywriter sênior..."), ou o Chain-of-Thought (ex: "Primeiro, identifique a dor. Segundo, agite-a. Terceiro, apresente a solução."). **4. Iteração Humana (Human-in-the-Loop):** O texto gerado pela IA é um rascunho de alta qualidade. Sempre revise, edite e injete a voz humana e a prova social específica do seu negócio. A IA acelera, mas o toque final é seu. **5. Especifique o Formato de Saída:** Peça o output no formato ideal para o seu canal (ex: "Gere um tweet com 280 caracteres", "Gere um script de vídeo de 30 segundos", "Gere um parágrafo para landing page").
+**1. Provide Detailed Context (The Prompt "Briefing"):** The prompt should be a complete briefing. Include the target audience persona, the tone of voice (e.g., urgent, empathetic, authoritative), the product/service, and the final objective (e.g., click, sale, sign-up). **2. Segment the Framework:** Instead of asking for the entire text at once, ask the AI to generate each stage of the framework (Attention, Interest, Desire, Action or Problem, Agitate, Solution) separately. This allows you to refine each part before combining them. **3. Use the "Stacking" Structure:** Combine the copywriting framework (AIDA/PAS) with other prompt engineering techniques, such as the Persona (e.g., "Act as a senior copywriter..."), or Chain-of-Thought (e.g., "First, identify the pain. Second, agitate it. Third, present the solution."). **4. Human Iteration (Human-in-the-Loop):** The text generated by the AI is a high-quality draft. Always review, edit, and inject the human voice and the specific social proof of your business. The AI accelerates, but the final touch is yours. **5. Specify the Output Format:** Ask for the output in the ideal format for your channel (e.g., "Generate a 280-character tweet", "Generate a 30-second video script", "Generate a paragraph for a landing page").
 
 ## Use Cases
-**1. Criação de Anúncios de Alta Conversão:** Geração rápida de múltiplas variações de anúncios (Google Ads, Facebook Ads) que seguem a estrutura AIDA ou PAS, permitindo testes A/B eficientes. **2. Rascunho de Landing Pages:** Estruturação de páginas de destino, onde o AIDA é ideal para a sequência de convencimento e o PAS é excelente para ofertas de produtos que resolvem uma dor específica (SaaS, produtos de saúde). **3. Sequências de E-mail Marketing:** Criação de e-mails que guiam o lead através da jornada (AIDA) ou que focam em reengajamento ao agitar um problema não resolvido (PAS). **4. Roteiros de Vídeo Curto (TikTok, Reels):** O PAS é particularmente eficaz para vídeos curtos, onde o "Problema" e a "Agitação" ocorrem nos primeiros segundos para prender a atenção, e a "Solução" é o produto ou serviço. **5. Otimização de Títulos e Descrições de Produtos (E-commerce):** Uso do AIDA para criar títulos que chamam a atenção e descrições que geram desejo, especialmente em plataformas com limite de caracteres. **6. Geração de Conteúdo B2B (LinkedIn, Artigos):** O PAS é a estrutura preferida para conteúdo B2B, pois foca em problemas de negócios (Problema), demonstra o custo da inação (Agitação) e apresenta a solução corporativa (Solução).
+**1. Creation of High-Conversion Ads:** Rapid generation of multiple ad variations (Google Ads, Facebook Ads) that follow the AIDA or PAS structure, enabling efficient A/B testing. **2. Landing Page Drafting:** Structuring landing pages, where AIDA is ideal for the persuasion sequence and PAS is excellent for product offers that solve a specific pain point (SaaS, health products). **3. Email Marketing Sequences:** Creation of emails that guide the lead through the journey (AIDA) or that focus on re-engagement by agitating an unresolved problem (PAS). **4. Short Video Scripts (TikTok, Reels):** PAS is particularly effective for short videos, where the "Problem" and "Agitation" occur in the first few seconds to capture attention, and the "Solution" is the product or service. **5. Optimization of Product Titles and Descriptions (E-commerce):** Use of AIDA to create titles that grab attention and descriptions that generate desire, especially on platforms with character limits. **6. B2B Content Generation (LinkedIn, Articles):** PAS is the preferred structure for B2B content, as it focuses on business problems (Problem), demonstrates the cost of inaction (Agitation), and presents the corporate solution (Solution).
 
 ## Pitfalls
-**1. Confundir o Framework com o Output Final:** O erro mais comum é tratar o output da IA como a cópia final. A IA gera um rascunho estruturado; o copywriter humano deve sempre revisar, editar e injetar a voz da marca e a prova social real. **2. Prompts Genéricos:** Pedir apenas "Crie um AIDA para meu produto" resultará em um texto genérico e ineficaz. É crucial fornecer detalhes sobre o público, o tom, o produto e o objetivo de cada etapa do framework. **3. Agitação Insuficiente (no PAS):** No modelo PAS, a Agitação é a parte mais importante. Se o prompt não instruir a IA a aprofundar a dor e as consequências, a Solução não terá o impacto necessário. **4. Falta de Clareza na Ação (no AIDA):** O CTA (Ação) deve ser claro e único. Se o prompt resultar em múltiplos CTAs ou um CTA vago (ex: "Saiba mais"), a taxa de conversão será baixa. **5. Ignorar a Iteração:** O primeiro resultado raramente é o melhor. Falhar em refinar o prompt (ex: "Reescreva a seção Desejo com um tom mais luxuoso") é desperdiçar o potencial da IA. **6. Confiança Excessiva em Dados Antigos:** A IA pode basear o "Problema" ou "Interesse" em dados desatualizados. Sempre verifique a relevância e a precisão das informações factuais geradas.
+**1. Confusing the Framework with the Final Output:** The most common mistake is treating the AI's output as the final copy. The AI generates a structured draft; the human copywriter must always review, edit, and inject the brand voice and real social proof. **2. Generic Prompts:** Asking only "Create an AIDA for my product" will result in generic and ineffective text. It is crucial to provide details about the audience, the tone, the product, and the objective of each stage of the framework. **3. Insufficient Agitation (in PAS):** In the PAS model, Agitation is the most important part. If the prompt does not instruct the AI to deepen the pain and its consequences, the Solution will not have the necessary impact. **4. Lack of Clarity in the Action (in AIDA):** The CTA (Action) must be clear and singular. If the prompt results in multiple CTAs or a vague CTA (e.g., "Learn more"), the conversion rate will be low. **5. Ignoring Iteration:** The first result is rarely the best. Failing to refine the prompt (e.g., "Rewrite the Desire section with a more luxurious tone") is wasting the AI's potential. **6. Overreliance on Outdated Data:** The AI may base the "Problem" or "Interest" on outdated data. Always verify the relevance and accuracy of the factual information generated.
 
 ## URL
 [https://www.aidocmaker.com/blog/from-aida-to-pas-a-practical-guide-to-nailing-classic-copywriting-formulas-with-an-ai-word-generator](https://www.aidocmaker.com/blog/from-aida-to-pas-a-practical-guide-to-nailing-classic-copywriting-formulas-with-an-ai-word-generator)

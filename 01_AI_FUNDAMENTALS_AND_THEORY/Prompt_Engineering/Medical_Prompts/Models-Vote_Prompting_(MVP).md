@@ -2,38 +2,38 @@
 
 ## Description
 
-O **Models-Vote Prompting (MVP)** é uma técnica avançada de *prompt engineering* baseada em **ensemble** e **Few-Shot Learning (FSL)**, projetada especificamente para melhorar a precisão na **Identificação e Classificação de Doenças Raras** a partir de notas clínicas (EHRs). A metodologia central envolve submeter a mesma tarefa a múltiplos Modelos de Linguagem Grande (LLMs) e, em seguida, realizar uma **votação por maioria** sobre as respostas geradas para determinar o diagnóstico final. Esta abordagem é particularmente eficaz em cenários de FSL, onde a escassez de dados de treinamento para doenças raras é um desafio significativo. O MVP também incorpora o uso de formatos de saída estruturados, como **JSON**, para facilitar a avaliação automatizada e a integração com sistemas clínicos.
+**Models-Vote Prompting (MVP)** is an advanced *prompt engineering* technique based on **ensemble** and **Few-Shot Learning (FSL)**, designed specifically to improve accuracy in the **Identification and Classification of Rare Diseases** from clinical notes (EHRs). The core methodology involves submitting the same task to multiple Large Language Models (LLMs) and then performing a **majority vote** over the generated responses to determine the final diagnosis. This approach is particularly effective in FSL scenarios, where the scarcity of training data for rare diseases is a significant challenge. MVP also incorporates the use of structured output formats, such as **JSON**, to facilitate automated evaluation and integration with clinical systems.
 
 ## Statistics
 
-O MVP demonstrou consistentemente o melhor desempenho geral em tarefas de Identificação e Classificação de Doenças Raras, superando modelos individuais e o Self-Consistency Prompting (SC).
+MVP consistently demonstrated the best overall performance in Rare Disease Identification and Classification tasks, outperforming individual models and Self-Consistency Prompting (SC).
 
-**Melhores Métricas (F-score) em Contexto de 64 palavras:**
-- **Identificação de Doença Rara (F-score):** MVP alcançou **0.69**, superando o melhor modelo individual (Llama 2: 0.58) e o SC (Llama 2 + SC: 0.49).
-- **Classificação de Doença Rara (F-score):** MVP alcançou **0.69**, superando o melhor modelo individual (Vicuna: 0.67) e empatando com o SC (Llama 2 + SC: 0.70).
+**Best Metrics (F-score) in a 64-word Context:**
+- **Rare Disease Identification (F-score):** MVP achieved **0.69**, outperforming the best individual model (Llama 2: 0.58) and SC (Llama 2 + SC: 0.49).
+- **Rare Disease Classification (F-score):** MVP achieved **0.69**, outperforming the best individual model (Vicuna: 0.67) and tying with SC (Llama 2 + SC: 0.70).
 
-**Modelos LLM Utilizados no Ensemble:** Llama 2, MedAlpaca, Stable Platypus 2, e Vicuna.
-**Citação:** Oniani, D. et al. (2024). *Large Language Models Vote: Prompting for Rare Disease Identification*. arXiv:2308.12890v3.
+**LLM Models Used in the Ensemble:** Llama 2, MedAlpaca, Stable Platypus 2, and Vicuna.
+**Citation:** Oniani, D. et al. (2024). *Large Language Models Vote: Prompting for Rare Disease Identification*. arXiv:2308.12890v3.
 
 ## Features
 
-- **Ensemble Prompting:** Utiliza um conjunto de modelos (e.g., Llama 2, MedAlpaca, Vicuna) para aumentar a robustez e reduzir o viés de um único modelo.
-- **Votação por Maioria:** A decisão final é baseada no consenso dos modelos, superando o desempenho de qualquer modelo individual.
-- **Few-Shot Learning (FSL):** Otimizado para tarefas com dados limitados, como o diagnóstico de doenças raras.
-- **CoT-Augmented:** Pode ser combinado com técnicas como Chain-of-Thought (CoT) para melhorar o raciocínio e a explicabilidade.
-- **JSON-Augmented:** Utiliza JSON para garantir um formato de saída analisável e facilitar a avaliação automatizada.
+- **Ensemble Prompting:** Uses a set of models (e.g., Llama 2, MedAlpaca, Vicuna) to increase robustness and reduce the bias of a single model.
+- **Majority Vote:** The final decision is based on the consensus of the models, outperforming the performance of any individual model.
+- **Few-Shot Learning (FSL):** Optimized for tasks with limited data, such as the diagnosis of rare diseases.
+- **CoT-Augmented:** Can be combined with techniques like Chain-of-Thought (CoT) to improve reasoning and explainability.
+- **JSON-Augmented:** Uses JSON to ensure a parseable output format and facilitate automated evaluation.
 
 ## Use Cases
 
-- **Diagnóstico Diferencial:** Auxiliar médicos na triagem e diagnóstico diferencial de pacientes com sintomas atípicos que sugerem doenças raras.
-- **Análise de EHRs:** Extração e classificação de menções de doenças raras a partir de grandes volumes de notas clínicas não estruturadas.
-- **Pesquisa em FSL:** Aplicação em qualquer domínio médico ou biológico onde a anotação de dados é cara e a disponibilidade de exemplos é limitada.
+- **Differential Diagnosis:** Assist physicians in the triage and differential diagnosis of patients with atypical symptoms suggesting rare diseases.
+- **EHR Analysis:** Extraction and classification of rare disease mentions from large volumes of unstructured clinical notes.
+- **FSL Research:** Application in any medical or biological domain where data annotation is expensive and the availability of examples is limited.
 
 ## Integration
 
-O MVP utiliza um template de prompt que combina a descrição da tarefa, um exemplo de Chain-of-Thought (CoT) para instrução *in-context* e a pergunta real baseada na nota clínica. A saída é estruturada em JSON para facilitar a votação e a análise.
+MVP uses a prompt template that combines the task description, a Chain-of-Thought (CoT) example for *in-context* instruction, and the actual question based on the clinical note. The output is structured in JSON to facilitate voting and analysis.
 
-**Exemplo de Estrutura de Saída JSON Sugerida:**
+**Example of Suggested JSON Output Structure:**
 ```json
 {
   "disease_identified": [
@@ -45,12 +45,12 @@ O MVP utiliza um template de prompt que combina a descrição da tarefa, um exem
   "task_disease": "None"
 }
 ```
-**Guia de Integração:**
-1.  Defina um conjunto de LLMs (e.g., 4 modelos).
-2.  Crie um prompt CoT-Augmented com o formato de saída JSON desejado.
-3.  Submeta a nota clínica ao prompt em todos os LLMs.
-4.  Colete as saídas JSON e realize uma votação por maioria no campo `"task_disease"` ou nos elementos da lista `"disease_identified"`.
-5.  A doença com mais votos é o diagnóstico final do ensemble.
+**Integration Guide:**
+1.  Define a set of LLMs (e.g., 4 models).
+2.  Create a CoT-Augmented prompt with the desired JSON output format.
+3.  Submit the clinical note to the prompt across all LLMs.
+4.  Collect the JSON outputs and perform a majority vote on the `"task_disease"` field or on the elements of the `"disease_identified"` list.
+5.  The disease with the most votes is the final diagnosis of the ensemble.
 
 ## URL
 

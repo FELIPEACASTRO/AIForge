@@ -1,82 +1,82 @@
 # Named Entity Recognition Prompts
 
 ## Description
-Prompts de Reconhecimento de Entidades Nomeadas (REN) são técnicas de Engenharia de Prompt focadas em guiar Modelos de Linguagem de Grande Escala (LLMs) para identificar e classificar entidades nomeadas (como pessoas, organizações, locais, datas, etc.) em um texto não estruturado. Ao invés de depender de modelos de Machine Learning (ML) tradicionais treinados com grandes volumes de dados rotulados, a abordagem de prompt utiliza a capacidade de raciocínio e compreensão de contexto dos LLMs para realizar a tarefa de REN, muitas vezes especificando o formato de saída desejado (e.g., JSON, XML ou notação BIO). Esta técnica aproveita a capacidade de raciocínio e o conhecimento inerente dos LLMs para realizar tarefas de extração de informação com alta precisão e flexibilidade, sendo uma alternativa poderosa aos modelos de REN tradicionais.
+Named Entity Recognition (NER) Prompts are Prompt Engineering techniques focused on guiding Large Language Models (LLMs) to identify and classify named entities (such as people, organizations, locations, dates, etc.) in unstructured text. Instead of relying on traditional Machine Learning (ML) models trained on large volumes of labeled data, the prompt-based approach leverages the reasoning and context-comprehension capabilities of LLMs to perform the NER task, often specifying the desired output format (e.g., JSON, XML, or BIO notation). This technique takes advantage of the reasoning ability and inherent knowledge of LLMs to perform information extraction tasks with high accuracy and flexibility, making it a powerful alternative to traditional NER models.
 
 ## Examples
 ```
-1. **Zero-Shot Simples (Extração Geral)**
+1. **Simple Zero-Shot (General Extraction)**
    ```
-   Instrução: Extraia todas as entidades nomeadas (PESSOA, ORGANIZAÇÃO, LOCAL) do texto a seguir e liste-as no formato: [Entidade]: [Tipo].
-   Texto: "A Dra. Ana Silva, da Universidade de São Paulo (USP), apresentou sua pesquisa em Berlim na semana passada."
-   ```
-
-2. **Few-Shot para Domínio Financeiro**
-   ```
-   Instrução: Você é um analista financeiro. Extraia as entidades (EMPRESA, VALOR, MOEDA, DATA) do texto.
-   Exemplo 1: "A Petrobras (EMPRESA) anunciou um lucro de 10 bilhões (VALOR) de reais (MOEDA) no terceiro trimestre de 2023 (DATA)."
-   Exemplo 2: "A Apple (EMPRESA) atingiu um valor de mercado de 3 trilhões (VALOR) de dólares (MOEDA) em janeiro de 2024 (DATA)."
-   Texto: "O Banco do Brasil reportou um crescimento de 5% em seu balanço de 2024, totalizando 15,5 bilhões de reais."
+   Instruction: Extract all named entities (PERSON, ORGANIZATION, LOCATION) from the following text and list them in the format: [Entity]: [Type].
+   Text: "Dr. Ana Silva, from the University of São Paulo (USP), presented her research in Berlin last week."
    ```
 
-3. **Extração Estruturada (JSON)**
+2. **Few-Shot for the Financial Domain**
    ```
-   Instrução: Extraia as entidades (PRODUTO, QUANTIDADE, UNIDADE) da lista de compras e retorne a saída estritamente no formato JSON, seguindo o esquema: [{"entidade": "...", "tipo": "...", "valor": "..."}].
-   Texto: "Comprar 3 quilos de arroz, 1 dúzia de ovos e 500 gramas de queijo mussarela."
+   Instruction: You are a financial analyst. Extract the entities (COMPANY, VALUE, CURRENCY, DATE) from the text.
+   Example 1: "Petrobras (COMPANY) announced a profit of 10 billion (VALUE) reais (CURRENCY) in the third quarter of 2023 (DATE)."
+   Example 2: "Apple (COMPANY) reached a market value of 3 trillion (VALUE) dollars (CURRENCY) in January 2024 (DATE)."
+   Text: "Banco do Brasil reported 5% growth in its 2024 balance sheet, totaling 15.5 billion reais."
    ```
 
-4. **Simulação de Function Calling (System Prompt)**
+3. **Structured Extraction (JSON)**
+   ```
+   Instruction: Extract the entities (PRODUCT, QUANTITY, UNIT) from the shopping list and return the output strictly in JSON format, following the schema: [{"entidade": "...", "tipo": "...", "valor": "..."}].
+   Text: "Buy 3 kilos of rice, 1 dozen eggs, and 500 grams of mozzarella cheese."
+   ```
+
+4. **Function Calling Simulation (System Prompt)**
    ```
    System Prompt:
-   Você é um assistente de extração de dados. Sua única função é chamar a ferramenta `extract_clinical_entities` com os argumentos corretos.
-   Ferramenta: `extract_clinical_entities(doenca: str, sintoma: str, medicamento: str)`
+   You are a data extraction assistant. Your only function is to call the `extract_clinical_entities` tool with the correct arguments.
+   Tool: `extract_clinical_entities(doenca: str, sintoma: str, medicamento: str)`
    
    User Prompt:
-   "O paciente João foi diagnosticado com pneumonia e está tomando Amoxicilina para tratar a febre e a tosse persistente."
+   "Patient João was diagnosed with pneumonia and is taking Amoxicillin to treat the fever and persistent cough."
    ```
 
-5. **Prompt de Domínio Específico (Jurídico)**
+5. **Domain-Specific Prompt (Legal)**
    ```
-   Instrução: Identifique e classifique as entidades (PARTE, TRIBUNAL, LEI, DATA) no trecho legal a seguir. Seja preciso.
-   Texto: "A decisão foi proferida pelo Supremo Tribunal Federal (STF) em 15 de maio de 2024, em favor da Requerente Maria da Penha, com base no Artigo 5º da Constituição Federal."
-   ```
-
-6. **Chain-of-Thought (CoT) para Desambiguação**
-   ```
-   Instrução: Analise o texto e extraia as entidades (PESSOA, LOCAL). Antes de fornecer a resposta final, use o raciocínio CoT para justificar a classificação de entidades ambíguas.
-   Texto: "Paris, a capital da França, é um nome comum. Paris Hilton, por outro lado, é uma celebridade."
+   Instruction: Identify and classify the entities (PARTY, COURT, LAW, DATE) in the following legal excerpt. Be precise.
+   Text: "The decision was handed down by the Supremo Tribunal Federal (STF) on May 15, 2024, in favor of the Claimant Maria da Penha, based on Article 5 of the Federal Constitution."
    ```
 
-7. **Extração com Notação BIO**
+6. **Chain-of-Thought (CoT) for Disambiguation**
    ```
-   Instrução: Realize o Reconhecimento de Entidades Nomeadas (REN) no texto e use a notação BIO (B-TIPO, I-TIPO, O) para marcar cada token.
-   Texto: "Steve Jobs fundou a Apple em Cupertino."
-   Saída Esperada: "Steve [B-PESSOA] Jobs [I-PESSOA] fundou [O] a [O] Apple [B-ORGANIZAÇÃO] em [O] Cupertino [B-LOCAL] ."
+   Instruction: Analyze the text and extract the entities (PERSON, LOCATION). Before providing the final answer, use CoT reasoning to justify the classification of ambiguous entities.
+   Text: "Paris, the capital of France, is a common name. Paris Hilton, on the other hand, is a celebrity."
+   ```
+
+7. **Extraction with BIO Notation**
+   ```
+   Instruction: Perform Named Entity Recognition (NER) on the text and use BIO notation (B-TYPE, I-TYPE, O) to tag each token.
+   Text: "Steve Jobs founded Apple in Cupertino."
+   Expected Output: "Steve [B-PERSON] Jobs [I-PERSON] founded [O] Apple [B-ORGANIZATION] in [O] Cupertino [B-LOCATION] ."
    ```
 ```
 
 ## Best Practices
-1. **Determinismo (Temperatura e Seed):** Use `temperature=0.0` e defina um `seed` (se suportado pela API) para obter resultados mais determinísticos e reprodutíveis, cruciais para tarefas de extração de dados.
-2. **Instruções Claras e Papel:** Defina um papel claro para o LLM (ex: "Você é um assistente de IA especialista em REN") e use instruções explícitas sobre a tarefa, o formato de saída e as categorias de entidades a serem extraídas.
-3. **Few-Shot Learning:** Forneça exemplos de entrada e saída (Few-Shot Prompting) para demonstrar o formato e o tipo de entidades esperadas, melhorando a precisão e a aderência ao esquema.
-4. **Funções/Tools (JSON Schema):** Utilize a funcionalidade de chamada de função (Function Calling) ou forneça um JSON Schema detalhado para forçar o modelo a retornar a saída em um formato JSON válido e estruturado, ideal para integração em pipelines de dados.
-5. **Prompts de Domínio:** Adapte os prompts para o domínio específico (ex: médico, financeiro, culinário) para melhorar a precisão na identificação de entidades contextuais.
-6. **Chain-of-Thought (CoT):** Peça ao modelo para "pensar em voz alta" ou justificar suas extrações antes de fornecer a saída final, o que pode aumentar a precisão em casos complexos.
-7. **Prompt Chaining:** Divida a tarefa de REN em etapas menores (ex: 1. Identificar o limite da entidade, 2. Classificar a entidade) para melhorar a performance.
+1. **Determinism (Temperature and Seed):** Use `temperature=0.0` and set a `seed` (if supported by the API) to obtain more deterministic and reproducible results, which are crucial for data extraction tasks.
+2. **Clear Instructions and Role:** Define a clear role for the LLM (e.g., "You are an AI assistant specialized in NER") and use explicit instructions about the task, the output format, and the entity categories to be extracted.
+3. **Few-Shot Learning:** Provide input and output examples (Few-Shot Prompting) to demonstrate the expected format and entity types, improving accuracy and adherence to the schema.
+4. **Functions/Tools (JSON Schema):** Use the function calling capability (Function Calling) or provide a detailed JSON Schema to force the model to return output in a valid, structured JSON format, ideal for integration into data pipelines.
+5. **Domain Prompts:** Adapt prompts to the specific domain (e.g., medical, financial, culinary) to improve accuracy in identifying contextual entities.
+6. **Chain-of-Thought (CoT):** Ask the model to "think out loud" or justify its extractions before providing the final output, which can increase accuracy in complex cases.
+7. **Prompt Chaining:** Break the NER task into smaller steps (e.g., 1. Identify the entity boundary, 2. Classify the entity) to improve performance.
 
 ## Use Cases
-1. **Extração de Dados de Documentos:** Automatizar a extração de informações-chave (nomes de partes, datas, valores) de contratos, faturas, relatórios financeiros e documentos legais.
-2. **Análise de Mídias Sociais:** Identificar menções a marcas, produtos, pessoas e locais em grandes volumes de texto de redes sociais para monitoramento de marca e análise de sentimento.
-3. **Biomedicina e Saúde:** Extrair nomes de doenças, medicamentos, sintomas e procedimentos de prontuários médicos e artigos científicos.
-4. **Notícias e Jornalismo:** Resumir e categorizar artigos de notícias, identificando rapidamente os principais atores (pessoas, organizações) e locais.
-5. **E-commerce e Catálogos:** Extrair atributos de produtos (marca, modelo, cor, tamanho) de descrições de texto para enriquecimento de catálogo.
+1. **Document Data Extraction:** Automate the extraction of key information (party names, dates, amounts) from contracts, invoices, financial reports, and legal documents.
+2. **Social Media Analysis:** Identify mentions of brands, products, people, and locations across large volumes of social media text for brand monitoring and sentiment analysis.
+3. **Biomedicine and Healthcare:** Extract the names of diseases, medications, symptoms, and procedures from medical records and scientific articles.
+4. **News and Journalism:** Summarize and categorize news articles, quickly identifying the main actors (people, organizations) and locations.
+5. **E-commerce and Catalogs:** Extract product attributes (brand, model, color, size) from text descriptions to enrich catalogs.
 
 ## Pitfalls
-1. **Alucinações e Imprecisão:** LLMs podem "alucinar" entidades ou classificá-las incorretamente, especialmente em domínios de nicho ou com prompts ambíguos.
-2. **Inconsistência de Formato:** Sem um JSON Schema rigoroso ou Function Calling, o modelo pode falhar em retornar o formato de saída exato solicitado, dificultando o processamento downstream.
-3. **Custo e Latência:** O uso de LLMs para REN pode ser mais caro e lento do que modelos de ML tradicionais otimizados, especialmente para grandes volumes de dados.
-4. **Dependência de Contexto:** A precisão pode cair se o texto de entrada for muito longo e as informações contextuais necessárias para a classificação da entidade estiverem fora da janela de contexto do modelo.
-5. **Vieses do Modelo:** O modelo pode refletir vieses presentes em seus dados de treinamento, levando a classificações tendenciosas ou incompletas.
+1. **Hallucinations and Inaccuracy:** LLMs can "hallucinate" entities or classify them incorrectly, especially in niche domains or with ambiguous prompts.
+2. **Format Inconsistency:** Without a strict JSON Schema or Function Calling, the model may fail to return the exact requested output format, hindering downstream processing.
+3. **Cost and Latency:** Using LLMs for NER can be more expensive and slower than optimized traditional ML models, especially for large volumes of data.
+4. **Context Dependency:** Accuracy can drop if the input text is very long and the contextual information needed for entity classification falls outside the model's context window.
+5. **Model Biases:** The model may reflect biases present in its training data, leading to biased or incomplete classifications.
 
 ## URL
 [https://dswithmac.com/posts/prompt-eng-ner/](https://dswithmac.com/posts/prompt-eng-ner/)

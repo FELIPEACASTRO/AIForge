@@ -2,39 +2,39 @@
 
 ## Description
 
-O AGLPF (APSIM Guided LSTM Phenology Framework) é uma estrutura de aprendizado contínuo baseada em aprendizado profundo guiado por física, desenvolvida para simular dinamicamente as mudanças na fenologia do milho. Ele combina a interpretabilidade de modelos baseados em processos (PBMs), como o APSIM, com a capacidade de extração de padrões de modelos de inteligência artificial (AIMs), especificamente uma rede LSTM (Long Short-Term Memory) com mecanismo de atenção. O framework é projetado para superar as limitações de ambos os tipos de modelos, permitindo uma simulação contínua e aprimoramento progressivo com novos dados. Inicialmente treinado com dados de saída do PBM, o AGLPF é capaz de se autoajustar com dados reais de fenologia incremental, melhorando continuamente sua precisão ao longo do tempo.
+The AGLPF (APSIM Guided LSTM Phenology Framework) is a continual learning framework based on physics-guided deep learning, developed to dynamically simulate changes in maize phenology. It combines the interpretability of process-based models (PBMs), such as APSIM, with the pattern-extraction capability of artificial intelligence models (AIMs), specifically an LSTM (Long Short-Term Memory) network with an attention mechanism. The framework is designed to overcome the limitations of both types of models, enabling continuous simulation and progressive improvement with new data. Initially trained on PBM output data, AGLPF is able to self-tune with real incremental phenology data, continuously improving its accuracy over time.
 
 ## Statistics
 
-- **Precisão Inicial (Treinamento com APSIM):** Erro Quadrático Médio da Raiz (RMSE) médio de 0,8 dias para a fase vegetativa e de floração, 1,4 dias para a fase de enchimento de grãos e 2,0 dias para o ciclo de crescimento completo.
-- **Melhoria com Aprendizado Contínuo:** O RMSE do ciclo de crescimento completo diminuiu de 27,8 dias para **5,5 dias** após o autoajuste com dados reais de fenologia incremental (0 a 12 anos).
-- **Vantagem do Autoajuste:** O método de autoajuste superou o método de treinamento do zero em todas as fases fenológicas.
-- **Citações:** Citado por 2 (em 2025, conforme o snippet inicial).
-- **Publicação:** Agricultural and Forest Meteorology, Volume 373, 1 de Junho de 2025, 110562.
+- **Initial Accuracy (Training with APSIM):** Average Root Mean Square Error (RMSE) of 0.8 days for the vegetative and flowering phases, 1.4 days for the grain-filling phase, and 2.0 days for the complete growth cycle.
+- **Improvement with Continual Learning:** The RMSE of the complete growth cycle decreased from 27.8 days to **5.5 days** after self-tuning with real incremental phenology data (0 to 12 years).
+- **Self-Tuning Advantage:** The self-tuning method outperformed the training-from-scratch method across all phenological phases.
+- **Citations:** Cited by 2 (in 2025, according to the initial snippet).
+- **Publication:** Agricultural and Forest Meteorology, Volume 373, 1 June 2025, 110562.
 
 ## Features
 
-- **Aprendizado Contínuo (Continual Learning):** Capacidade de se autoajustar e melhorar o desempenho com a incorporação incremental de novos dados de fenologia real, sem esquecer o conhecimento prévio.
-- **Aprendizado Profundo Guiado por Física (Physics-Guided Deep Learning):** Integração de conhecimento de modelos baseados em processos (APSIM) para garantir simulações interpretáveis e temporalmente contínuas.
-- **Modelo Híbrido (Hybrid Model):** Combinação de PBM (APSIM) e AIM (LSTM com Atenção) para sinergia de interpretabilidade e poder preditivo.
-- **Simulação Dinâmica de Fenologia:** Capacidade de simular dinamicamente as fases de crescimento da cultura (vegetativa, floração, enchimento de grãos).
-- **Fácil Atualização e Interpretabilidade:** Estrutura projetada para ser facilmente atualizada com novos insights e fornecer saídas interpretáveis.
+- **Continual Learning:** Ability to self-tune and improve performance through the incremental incorporation of new real phenology data, without forgetting prior knowledge.
+- **Physics-Guided Deep Learning:** Integration of knowledge from process-based models (APSIM) to ensure interpretable and temporally continuous simulations.
+- **Hybrid Model:** Combination of PBM (APSIM) and AIM (LSTM with Attention) for synergy between interpretability and predictive power.
+- **Dynamic Phenology Simulation:** Ability to dynamically simulate the crop's growth phases (vegetative, flowering, grain filling).
+- **Easy Updating and Interpretability:** Framework designed to be easily updated with new insights and to provide interpretable outputs.
 
 ## Use Cases
 
-- **Simulação Dinâmica de Fenologia de Culturas:** Aplicação primária na simulação das mudanças nas fases de crescimento do milho (maize) em grandes regiões, como o Cinturão de Milho Chinês.
-- **Monitoramento Agrícola em Tempo Real:** Potencial para uso em sistemas de monitoramento em tempo real, onde a precisão do modelo pode ser continuamente aprimorada com a chegada de novos dados de campo.
-- **Previsão de Colheita e Gestão de Riscos:** Melhoria na precisão da previsão de datas de colheita e avaliação de riscos relacionados ao clima e manejo, devido à maior precisão e interpretabilidade do modelo.
-- **Adaptação a Mudanças Ambientais:** A capacidade de aprendizado contínuo permite que o modelo se adapte a variações sazonais e mudanças climáticas ao longo do tempo.
+- **Dynamic Simulation of Crop Phenology:** Primary application in simulating changes in the growth phases of maize across large regions, such as the Chinese Maize Belt.
+- **Real-Time Agricultural Monitoring:** Potential for use in real-time monitoring systems, where model accuracy can be continuously improved as new field data arrives.
+- **Harvest Forecasting and Risk Management:** Improved accuracy in forecasting harvest dates and assessing risks related to climate and management, thanks to the model's higher accuracy and interpretability.
+- **Adaptation to Environmental Change:** The continual learning capability allows the model to adapt to seasonal variations and climate change over time.
 
 ## Integration
 
-O artigo descreve o AGLPF como uma estrutura conceitual e metodológica. A implementação envolve:
-1. **PBM (APSIM):** Geração de um conjunto de dados de fenologia inicial.
-2. **AIM (LSTM com Atenção):** Treinamento inicial do modelo de Aprendizado Profundo com o conjunto de dados do APSIM.
-3. **Autoajuste (Self-Tuning):** Utilização de dados reais de fenologia incremental para refinar o modelo via aprendizado contínuo.
+The paper describes AGLPF as a conceptual and methodological framework. Implementation involves:
+1. **PBM (APSIM):** Generation of an initial phenology dataset.
+2. **AIM (LSTM with Attention):** Initial training of the deep learning model with the APSIM dataset.
+3. **Self-Tuning:** Use of real incremental phenology data to refine the model via continual learning.
 
-Embora o código fonte específico não esteja disponível no resumo, a integração requer a utilização de bibliotecas de aprendizado profundo (como PyTorch ou TensorFlow) para implementar a rede LSTM com atenção e a integração com um modelo de simulação de culturas (como o APSIM) para a geração de dados e a orientação física. O conceito de "Physics-Guided Deep Learning" sugere a inclusão de restrições ou variáveis do modelo físico na função de perda do modelo de aprendizado profundo.
+Although the specific source code is not available in the abstract, integration requires the use of deep learning libraries (such as PyTorch or TensorFlow) to implement the LSTM network with attention, and integration with a crop simulation model (such as APSIM) for data generation and physical guidance. The concept of "Physics-Guided Deep Learning" suggests the inclusion of constraints or variables from the physical model in the loss function of the deep learning model.
 
 ## URL
 

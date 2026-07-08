@@ -2,23 +2,23 @@
 
 ## Description
 
-MONAI é um framework de código aberto baseado em PyTorch, parte do Ecossistema PyTorch, dedicado ao aprendizado profundo em imagens médicas. Seu objetivo é fomentar uma comunidade de pesquisa acadêmica, industrial e clínica, criando fluxos de trabalho de treinamento de ponta a ponta e fornecendo uma maneira otimizada e padronizada para criar e avaliar modelos de deep learning em saúde. | Project InnerEye é um software de código aberto (OSS) da Microsoft Health Futures, baseado em PyTorch, para IA em imagens médicas. Lançado sob licença MIT, visa aumentar a produtividade na pesquisa e desenvolvimento de IA de imagens médicas e facilitar a implantação usando o Microsoft Azure (sujeito a aprovações regulatórias). O projeto é composto por três ferramentas principais: InnerEye-DeepLearning, InnerEye-Gateway e InnerEye-Inference.
+MONAI is an open-source framework based on PyTorch, part of the PyTorch Ecosystem, dedicated to deep learning in medical imaging. Its goal is to foster a community of academic, industrial, and clinical research, creating end-to-end training workflows and providing an optimized and standardized way to build and evaluate deep learning models in healthcare. | Project InnerEye is open-source software (OSS) from Microsoft Health Futures, based on PyTorch, for AI in medical imaging. Released under the MIT license, it aims to increase productivity in medical imaging AI research and development and to facilitate deployment using Microsoft Azure (subject to regulatory approvals). The project comprises three main tools: InnerEye-DeepLearning, InnerEye-Gateway, and InnerEye-Inference.
 
 ## Statistics
 
-MONAI: Mais de 7.4k estrelas no GitHub. Suporta as versões atuais do Python e PyTorch (mais três versões anteriores). | InnerEye: Projeto de pesquisa revisado por pares. Utiliza o Azure Machine Learning para treinamento em escala.
+MONAI: More than 7.4k stars on GitHub. Supports the current Python and PyTorch versions (plus three previous versions). | InnerEye: A peer-reviewed research project. Uses Azure Machine Learning for training at scale.
 
 ## Features
 
-MONAI: Pré-processamento flexível para dados de imagens médicas multidimensionais; APIs composicionais e portáteis; implementações específicas de domínio (redes, perdas, métricas de avaliação); suporte a paralelismo de dados multi-GPU e multi-nó. | InnerEye: InnerEye-DeepLearning (Treina modelos em escala no Azure); InnerEye-Gateway (Gerencia a desidentificação e transferência segura de imagens); InnerEye-Inference (Executa inferência em modelos ML).
+MONAI: Flexible pre-processing for multidimensional medical imaging data; composable and portable APIs; domain-specific implementations (networks, losses, evaluation metrics); support for multi-GPU and multi-node data parallelism. | InnerEye: InnerEye-DeepLearning (Trains models at scale on Azure); InnerEye-Gateway (Manages de-identification and secure transfer of images); InnerEye-Inference (Runs inference on ML models).
 
 ## Use Cases
 
-MONAI: Criação e avaliação de modelos de deep learning para segmentação, classificação e registro em imagens médicas. Aceleração da pesquisa e colaboração clínica. | InnerEye: Planejamento de radioterapia com varreduras de TC. Pesquisa médica com imagens de RM, OCT e raios-X. Aceleração do desenvolvimento e implantação de modelos de IA de imagens médicas por empresas.
+MONAI: Building and evaluating deep learning models for segmentation, classification, and registration in medical imaging. Accelerating research and clinical collaboration. | InnerEye: Radiotherapy planning with CT scans. Medical research with MRI, OCT, and X-ray images. Accelerating the development and deployment of medical imaging AI models by companies.
 
 ## Integration
 
-MONAI: Instalação via pip: `pip install monai`. Baseado em PyTorch. Exemplos e tutoriais disponíveis no repositório GitHub. | InnerEye: O uso é facilitado pela integração com o Azure Machine Learning para treinamento e implantação em larga escala. O suporte é fornecido via GitHub Issues.
+MONAI: Installation via pip: `pip install monai`. Based on PyTorch. Examples and tutorials available in the GitHub repository. | InnerEye: Use is facilitated by integration with Azure Machine Learning for large-scale training and deployment. Support is provided via GitHub Issues.
 
 ## URL
 

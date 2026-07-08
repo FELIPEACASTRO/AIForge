@@ -2,39 +2,39 @@
 
 ## Description
 
-O **Registry of Open Data on AWS** (Registro de Dados Abertos na AWS) é um catálogo centralizado que facilita a descoberta e o acesso a **datasets públicos de alto valor e otimizados para a nuvem** que estão disponíveis por meio de recursos da AWS, como o Amazon S3. Sua proposta de valor única reside na **otimização para a nuvem**, com dados armazenados em formatos que permitem a análise direta (ex: Parquet, Zarr), e no **AWS Open Data Sponsorship Program**, que cobre os custos de armazenamento e transferência de dados (egress) para os provedores, tornando o acesso gratuito ao público. Recentemente, todos os datasets do Registry se tornaram **descobertos no AWS Data Exchange**, unificando a busca por dados abertos, gratuitos e comerciais.
+The **Registry of Open Data on AWS** is a centralized catalog that facilitates the discovery and access of **high-value, cloud-optimized public datasets** that are available through AWS resources such as Amazon S3. Its unique value proposition lies in **cloud optimization**, with data stored in formats that enable direct analysis (e.g., Parquet, Zarr), and in the **AWS Open Data Sponsorship Program**, which covers storage and data transfer (egress) costs for providers, making access free to the public. Recently, all Registry datasets became **discoverable in AWS Data Exchange**, unifying the search for open, free, and commercial data.
 
 ## Statistics
 
-*   **Volume de Dados:** Mais de **300 Petabytes (PB)** de dados de alto valor e otimizados para a nuvem são disponibilizados através do programa.
-*   **Número de Datasets:** O catálogo lista **mais de 800 datasets** (a página principal indica "atualmente 818 datasets correspondentes").
-*   **Provedores:** Inclui dados de organizações como NASA, NOAA, NIH, Allen Institute for AI (AI2), e Common Crawl.
+*   **Data Volume:** More than **300 Petabytes (PB)** of high-value, cloud-optimized data are made available through the program.
+*   **Number of Datasets:** The catalog lists **more than 800 datasets** (the main page indicates "currently 818 matching datasets").
+*   **Providers:** Includes data from organizations such as NASA, NOAA, NIH, Allen Institute for AI (AI2), and Common Crawl.
 
 ## Features
 
-*   **Descoberta Centralizada:** Interface de busca e navegação para encontrar datasets por palavra-chave, categoria (ex: genômica, clima, transporte) e provedor.
-*   **Acesso Direto ao S3:** Os dados são acessíveis diretamente de buckets públicos do Amazon S3, permitindo o uso de serviços de análise da AWS (como Amazon Athena, Amazon EMR, Amazon SageMaker) sem a necessidade de mover os dados.
-*   **Exemplos de Uso:** Fornece tutoriais e exemplos de uso (Usage Examples), incluindo notebooks do SageMaker Studio Lab, para acelerar o início dos projetos.
-*   **Metadados Ricos:** Cada dataset possui uma página de detalhes com metadados, descrição, tags e informações de licenciamento.
+*   **Centralized Discovery:** Search and browse interface to find datasets by keyword, category (e.g., genomics, climate, transportation), and provider.
+*   **Direct S3 Access:** The data is accessible directly from public Amazon S3 buckets, enabling the use of AWS analytics services (such as Amazon Athena, Amazon EMR, Amazon SageMaker) without the need to move the data.
+*   **Usage Examples:** Provides tutorials and Usage Examples, including SageMaker Studio Lab notebooks, to accelerate project kickoff.
+*   **Rich Metadata:** Each dataset has a details page with metadata, description, tags, and licensing information.
 
 ## Use Cases
 
-*   **Pesquisa Científica:** Análise de dados genômicos (The Cancer Genome Atlas - TCGA), dados climáticos (NOAA), e dados de sensoriamento remoto (Landsat, Sentinel).
-*   **Aprendizado de Máquina (Machine Learning):** Treinamento de modelos de ML em grande escala, utilizando datasets como Common Crawl (para NLP) ou datasets de imagens de satélite.
-*   **Análise de Dados em Nuvem:** Execução de consultas complexas e processamento de Big Data usando serviços da AWS, como o Amazon Athena para consultar dados em S3.
-*   **Desenvolvimento de Aplicações:** Criação de aplicações que consomem dados públicos em tempo real ou quase real, como aplicativos de previsão do tempo ou monitoramento ambiental.
+*   **Scientific Research:** Analysis of genomic data (The Cancer Genome Atlas - TCGA), climate data (NOAA), and remote sensing data (Landsat, Sentinel).
+*   **Machine Learning:** Large-scale training of ML models, using datasets such as Common Crawl (for NLP) or satellite imagery datasets.
+*   **Cloud Data Analysis:** Running complex queries and Big Data processing using AWS services, such as Amazon Athena to query data in S3.
+*   **Application Development:** Building applications that consume public data in real time or near real time, such as weather forecasting or environmental monitoring apps.
 
 ## Integration
 
-A integração primária é feita através do acesso direto aos buckets públicos do Amazon S3, utilizando ferramentas nativas da AWS ou SDKs.
+Primary integration is done through direct access to public Amazon S3 buckets, using native AWS tools or SDKs.
 
-**A. Acesso via AWS CLI (Interface de Linha de Comando):**
+**A. Access via AWS CLI (Command Line Interface):**
 ```bash
 # Listar o conteúdo do bucket Common Crawl
 aws s3 ls s3://commoncrawl/
 ```
 
-**B. Acesso via Python (Boto3 - SDK da AWS):**
+**B. Access via Python (Boto3 - AWS SDK):**
 ```python
 import boto3
 
@@ -51,8 +51,8 @@ except Exception as e:
     print(f"Erro ao acessar o S3: {e}")
 ```
 
-**C. Consulta via Amazon Athena (SQL):**
-Para consultar dados estruturados (ex: Parquet) diretamente no S3 (requer configuração prévia):
+**C. Query via Amazon Athena (SQL):**
+To query structured data (e.g., Parquet) directly in S3 (requires prior configuration):
 ```sql
 -- Exemplo conceitual de consulta a um dataset público
 SELECT col1, COUNT(*)

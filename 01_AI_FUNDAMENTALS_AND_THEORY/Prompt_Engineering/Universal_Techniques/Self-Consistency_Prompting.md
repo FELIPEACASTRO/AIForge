@@ -1,110 +1,110 @@
-# Self-Consistency (Autoconsistência)
+# Self-Consistency
 
 ## Description
-A Autoconsistência (Self-Consistency - SC) é uma técnica avançada de Engenharia de Prompt que aprimora a capacidade de raciocínio de Grandes Modelos de Linguagem (LLMs), especialmente em tarefas complexas de raciocínio aritmético e de senso comum. Proposta como uma estratégia de decodificação que substitui a decodificação gulosa (greedy decoding) ingênua, a SC funciona gerando múltiplas e diversas 'cadeias de pensamento' (Chain-of-Thought - CoT) para uma única pergunta. Em vez de aceitar a primeira resposta gerada, a técnica agrega os resultados de todos os caminhos de raciocínio amostrados e seleciona a resposta final por meio de um voto majoritário (ou outra métrica de consistência). Isso capitaliza a ideia de que, embora um problema complexo possa ter vários caminhos de raciocínio válidos, todos eles devem levar a uma única resposta correta, aumentando significativamente a precisão e a robustez da solução. A variante mais avançada, Autoconsistência Universal (Universal Self-Consistency - USC), utiliza o próprio LLM para atuar como um juiz, selecionando a resposta mais consistente entre os candidatos.
+Self-Consistency (SC) is an advanced Prompt Engineering technique that enhances the reasoning capability of Large Language Models (LLMs), especially in complex arithmetic and common-sense reasoning tasks. Proposed as a decoding strategy that replaces naive greedy decoding, SC works by generating multiple and diverse 'Chain-of-Thought' (CoT) reasoning paths for a single question. Instead of accepting the first generated answer, the technique aggregates the results of all sampled reasoning paths and selects the final answer through a majority vote (or another consistency metric). This capitalizes on the idea that, although a complex problem may have several valid reasoning paths, they should all lead to a single correct answer, significantly increasing the accuracy and robustness of the solution. The most advanced variant, Universal Self-Consistency (USC), uses the LLM itself to act as a judge, selecting the most consistent answer among the candidates.
 
 ## Examples
 ```
-## Exemplos de Prompts (Self-Consistency)
+## Prompt Examples (Self-Consistency)
 
-**Instrução Geral:** Para aplicar a Autoconsistência, o prompt deve ser enviado ao LLM *N* vezes (onde N é o número de amostras desejado, tipicamente 5 a 10), e a resposta final é determinada pelo voto majoritário entre as *N* respostas.
+**General Instruction:** To apply Self-Consistency, the prompt must be sent to the LLM *N* times (where N is the desired number of samples, typically 5 to 10), and the final answer is determined by the majority vote among the *N* answers.
 
-### Exemplo 1: Raciocínio Aritmético (GSM8K)
+### Example 1: Arithmetic Reasoning (GSM8K)
 
-**Prompt (a ser repetido N vezes):**
-
-```
-Q: O João tem 15 maçãs. Ele come 3 e dá metade das restantes para a Maria. Quantas maçãs a Maria recebeu?
-
-Vamos pensar passo a passo:
-
-[Espaço para o LLM gerar o raciocínio e a resposta final. O prompt deve ser projetado para forçar o raciocínio CoT.]
-```
-
-**Processo:**
-1. Enviar o prompt 10 vezes.
-2. Coletar as 10 respostas finais (ex: 7, 6, 6, 6, 7, 6, 6, 7, 6, 6).
-3. A resposta final é 6 (voto majoritário).
-
-### Exemplo 2: Raciocínio de Senso Comum (StrategyQA)
-
-**Prompt (a ser repetido N vezes):**
+**Prompt (to be repeated N times):**
 
 ```
-Q: É possível que um adulto durma mais de 12 horas por dia regularmente sem ter uma condição médica?
+Q: John has 15 apples. He eats 3 and gives half of the remaining ones to Maria. How many apples did Maria receive?
 
-Vamos pensar passo a passo:
+Let's think step by step:
 
-[Espaço para o LLM gerar o raciocínio e a resposta final (Sim/Não).] 
+[Space for the LLM to generate the reasoning and the final answer. The prompt should be designed to force CoT reasoning.]
 ```
 
-**Processo:**
-1. Enviar o prompt 5 vezes.
-2. Coletar as 5 respostas finais (ex: Não, Sim, Não, Não, Não).
-3. A resposta final é Não.
+**Process:**
+1. Send the prompt 10 times.
+2. Collect the 10 final answers (e.g.: 7, 6, 6, 6, 7, 6, 6, 7, 6, 6).
+3. The final answer is 6 (majority vote).
 
-### Exemplo 3: Universal Self-Consistency (USC) - Etapa de Julgamento
+### Example 2: Common-Sense Reasoning (StrategyQA)
 
-**Prompt de Julgamento (enviado a um LLM 'Juiz' após gerar N respostas):**
-
-```
-Você é um juiz de consistência. Analise as seguintes N respostas para a pergunta 'Qual é a capital do Butão?' e selecione a mais consistente e correta. Justifique sua escolha.
-
-Respostas Candidatas:
-1. Thimphu, pois é o centro político e econômico.
-2. Paro, devido ao seu aeroporto internacional.
-3. Thimphu, a maior cidade e capital oficial.
-
-Resposta Final e Justificativa:
-```
-
-### Exemplo 4: Tarefa de Classificação Complexa
-
-**Prompt (a ser repetido N vezes):**
+**Prompt (to be repeated N times):**
 
 ```
-Q: Classifique o seguinte texto como 'Notícia', 'Opinião' ou 'Publicidade', e justifique sua escolha:
+Q: Is it possible for an adult to regularly sleep more than 12 hours a day without having a medical condition?
 
-[TEXTO: 'O novo smartphone X é o mais rápido do mercado, com uma câmera que redefine a fotografia móvel. Disponível agora por um preço imbatível.']
+Let's think step by step:
 
-Vamos pensar passo a passo:
-
-[Espaço para o LLM gerar o raciocínio e a classificação final.]
+[Space for the LLM to generate the reasoning and the final answer (Yes/No).] 
 ```
 
-### Exemplo 5: Resolução de Quebra-Cabeças Lógicos
+**Process:**
+1. Send the prompt 5 times.
+2. Collect the 5 final answers (e.g.: No, Yes, No, No, No).
+3. The final answer is No.
 
-**Prompt (a ser repetido N vezes):**
+### Example 3: Universal Self-Consistency (USC) - Judgment Stage
+
+**Judgment Prompt (sent to a 'Judge' LLM after generating N answers):**
 
 ```
-Q: Se o código para 'SOL' é 191512 e o código para 'LUA' é 122101, qual é o código para 'MAR'?
+You are a consistency judge. Analyze the following N answers to the question 'What is the capital of Bhutan?' and select the most consistent and correct one. Justify your choice.
 
-Vamos pensar passo a passo:
+Candidate Answers:
+1. Thimphu, as it is the political and economic center.
+2. Paro, due to its international airport.
+3. Thimphu, the largest city and official capital.
 
-[Espaço para o LLM gerar o raciocínio e o código final.]
+Final Answer and Justification:
+```
+
+### Example 4: Complex Classification Task
+
+**Prompt (to be repeated N times):**
+
+```
+Q: Classify the following text as 'News', 'Opinion' or 'Advertisement', and justify your choice:
+
+[TEXT: 'The new smartphone X is the fastest on the market, with a camera that redefines mobile photography. Available now at an unbeatable price.']
+
+Let's think step by step:
+
+[Space for the LLM to generate the reasoning and the final classification.]
+```
+
+### Example 5: Solving Logic Puzzles
+
+**Prompt (to be repeated N times):**
+
+```
+Q: If the code for 'SOL' is 191512 and the code for 'LUA' is 122101, what is the code for 'MAR'?
+
+Let's think step by step:
+
+[Space for the LLM to generate the reasoning and the final code.]
 ```
 ```
 
 ## Best Practices
-1. **Aumente a Diversidade:** Use um parâmetro de temperatura (temperature) mais alto (ex: 0.7 a 1.0) ao gerar os caminhos de raciocínio para garantir que as amostras sejam diversas.
-2. **Amostragem Suficiente:** O número de amostras (N) deve ser grande o suficiente (tipicamente N=5 a N=10) para que o voto majoritário seja estatisticamente significativo.
-3. **CoT é Fundamental:** A Autoconsistência deve ser combinada com o Chain-of-Thought (CoT) para forçar o LLM a gerar os passos de raciocínio que levam à resposta.
-4. **Foco na Resposta Final:** A votação deve ser aplicada apenas à resposta final extraída de cada caminho de raciocínio, e não ao raciocínio em si.
-5. **Use USC para Maior Precisão:** Para tarefas críticas, utilize a Autoconsistência Universal (USC), onde um segundo LLM é usado para julgar e selecionar a melhor resposta, em vez de um simples voto majoritário.
+1. **Increase Diversity:** Use a higher temperature parameter (e.g.: 0.7 to 1.0) when generating the reasoning paths to ensure that the samples are diverse.
+2. **Sufficient Sampling:** The number of samples (N) should be large enough (typically N=5 to N=10) for the majority vote to be statistically significant.
+3. **CoT is Fundamental:** Self-Consistency must be combined with Chain-of-Thought (CoT) to force the LLM to generate the reasoning steps that lead to the answer.
+4. **Focus on the Final Answer:** Voting should be applied only to the final answer extracted from each reasoning path, and not to the reasoning itself.
+5. **Use USC for Greater Accuracy:** For critical tasks, use Universal Self-Consistency (USC), where a second LLM is used to judge and select the best answer, instead of a simple majority vote.
 
 ## Use Cases
-1. **Raciocínio Aritmético e Matemático:** Resolução de problemas de palavras complexos (como o benchmark GSM8K).
-2. **Raciocínio de Senso Comum:** Respostas a perguntas que exigem inferência e conhecimento do mundo (como o benchmark StrategyQA).
-3. **Verificação de Fatos e Dados:** Aumentar a confiança em respostas factuais, especialmente em domínios com alta ambiguidade.
-4. **Classificação e Análise de Sentimento:** Melhorar a precisão em tarefas de classificação complexas, onde o contexto pode levar a diferentes interpretações.
-5. **Aplicações de Agentes de IA:** Como um mecanismo de verificação de robustez para a tomada de decisões em agentes autônomos.
+1. **Arithmetic and Mathematical Reasoning:** Solving complex word problems (such as the GSM8K benchmark).
+2. **Common-Sense Reasoning:** Answering questions that require inference and world knowledge (such as the StrategyQA benchmark).
+3. **Fact and Data Verification:** Increasing confidence in factual answers, especially in domains with high ambiguity.
+4. **Classification and Sentiment Analysis:** Improving accuracy in complex classification tasks, where context can lead to different interpretations.
+5. **AI Agent Applications:** As a robustness verification mechanism for decision-making in autonomous agents.
 
 ## Pitfalls
-1. **Custo Computacional Elevado:** Requer N vezes mais chamadas à API do LLM, aumentando significativamente o custo e o tempo de latência.
-2. **Dependência do CoT:** A eficácia da SC está intrinsecamente ligada à qualidade dos caminhos de raciocínio gerados pelo CoT. Se o CoT falhar, a SC também falhará.
-3. **Voto Majoritário Falho:** Em casos de respostas muito dispersas, o voto majoritário pode não ser claro ou pode convergir para uma resposta incorreta se a maioria dos caminhos de raciocínio tiver o mesmo erro sutil.
-4. **Dificuldade de Implementação:** Requer uma etapa de pós-processamento para extrair a resposta final de cada saída e realizar a votação, o que é mais complexo do que a decodificação gulosa simples.
-5. **Não Adequado para Tarefas Criativas:** Não é recomendado para tarefas que valorizam a diversidade de saída (ex: geração de poesia, brainstorming), pois seu objetivo é convergir para uma única resposta correta.
+1. **High Computational Cost:** Requires N times more LLM API calls, significantly increasing cost and latency.
+2. **Dependence on CoT:** The effectiveness of SC is intrinsically linked to the quality of the reasoning paths generated by CoT. If CoT fails, SC will also fail.
+3. **Flawed Majority Vote:** In cases of highly dispersed answers, the majority vote may not be clear or may converge to an incorrect answer if the majority of reasoning paths share the same subtle error.
+4. **Implementation Difficulty:** Requires a post-processing step to extract the final answer from each output and perform the voting, which is more complex than simple greedy decoding.
+5. **Not Suitable for Creative Tasks:** Not recommended for tasks that value output diversity (e.g.: poetry generation, brainstorming), since its goal is to converge to a single correct answer.
 
 ## URL
 [https://arxiv.org/abs/2203.11171](https://arxiv.org/abs/2203.11171)

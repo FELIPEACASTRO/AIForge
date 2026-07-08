@@ -1,19 +1,19 @@
 # UCF101 (Action Recognition)
 
 ## Description
-O UCF101 é um conjunto de dados para reconhecimento de ações em vídeos realistas, coletados do YouTube, contendo 101 categorias de ações. É uma extensão do dataset UCF50. Com 13.320 vídeos, oferece grande diversidade de ações e apresenta variações significativas em movimento de câmera, aparência e pose de objetos, escala, ponto de vista, fundo desordenado e condições de iluminação, tornando-o um dos datasets mais desafiadores para o reconhecimento de ações. O objetivo é incentivar a pesquisa em categorias de ações mais realistas, ao contrário de datasets encenados.
+UCF101 is a dataset for action recognition in realistic videos, collected from YouTube, containing 101 action categories. It is an extension of the UCF50 dataset. With 13,320 videos, it offers great diversity of actions and presents significant variations in camera motion, object appearance and pose, scale, viewpoint, cluttered background, and lighting conditions, making it one of the most challenging datasets for action recognition. The goal is to encourage research into more realistic action categories, unlike staged datasets.
 
 ## Statistics
-13.320 vídeos, 101 categorias de ações, agrupados em 25 grupos (cada grupo com 4-7 vídeos).
+13,320 videos, 101 action categories, grouped into 25 groups (each group with 4-7 videos).
 
 ## Features
-As 101 categorias de ações são divididas em cinco tipos principais: 1) Interação Humano-Objeto, 2) Somente Movimento Corporal, 3) Interação Humano-Humano, 4) Tocar Instrumentos Musicais, 5) Esportes.
+The 101 action categories are divided into five main types: 1) Human-Object Interaction, 2) Body-Motion Only, 3) Human-Human Interaction, 4) Playing Musical Instruments, 5) Sports.
 
 ## Use Cases
-Pesquisa e desenvolvimento de algoritmos de Reconhecimento de Ações em Vídeos (Action Recognition), especialmente em cenários realistas e desafiadores.
+Research and development of Action Recognition algorithms in videos, especially in realistic and challenging scenarios.
 
 ## Integration
-O dataset completo pode ser baixado diretamente do site oficial da UCF. Divisões de Treinamento/Teste (Train/Test Splits) e anotações revisadas também estão disponíveis para download. O uso do dataset requer a citação do artigo técnico: Khurram Soomro, Amir Roshan Zamir and Mubarak Shah, "UCF101: A Dataset of 101 Human Action Classes From Videos in The Wild," CRCV-TR-12-01, November, 2012.
+The complete dataset can be downloaded directly from the official UCF website. Train/Test Splits and revised annotations are also available for download. Using the dataset requires citing the technical paper: Khurram Soomro, Amir Roshan Zamir and Mubarak Shah, "UCF101: A Dataset of 101 Human Action Classes From Videos in The Wild," CRCV-TR-12-01, November, 2012.
 
 ## URL
 [https://www.crcv.ucf.edu/data/UCF101.php](https://www.crcv.ucf.edu/data/UCF101.php)

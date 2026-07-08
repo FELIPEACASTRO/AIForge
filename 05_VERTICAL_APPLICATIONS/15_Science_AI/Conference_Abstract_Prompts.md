@@ -1,99 +1,99 @@
 # Conference Abstract Prompts
 
 ## Description
-A técnica de **"Conference Abstract Prompts"** (Prompts para Resumos de Conferências) refere-se ao uso de modelos de linguagem de grande escala (LLMs), como o GPT-4, para auxiliar na criação, estruturação e refinamento de resumos e propostas para conferências acadêmicas, simpósios e workshops. O objetivo principal é acelerar o processo de redação, garantir a conformidade com as diretrizes da conferência e maximizar as chances de aceitação. Envolve a formulação de prompts detalhados que guiam a IA a gerar um texto conciso, claro e persuasivo, cobrindo os elementos essenciais de um resumo: problema de pesquisa, metodologia, resultados e conclusões/implicações. É uma técnica crucial para pesquisadores que buscam otimizar o tempo e aumentar a qualidade de suas submissões.
+The **"Conference Abstract Prompts"** technique refers to the use of large language models (LLMs), such as GPT-4, to assist in creating, structuring, and refining abstracts and proposals for academic conferences, symposia, and workshops. The main goal is to accelerate the writing process, ensure compliance with the conference guidelines, and maximize the chances of acceptance. It involves formulating detailed prompts that guide the AI to generate a concise, clear, and persuasive text, covering the essential elements of an abstract: research problem, methodology, results, and conclusions/implications. It is a crucial technique for researchers seeking to optimize their time and improve the quality of their submissions.
 
 ## Examples
 ```
-1. **Prompt de Geração Base (Estruturado)**
+1. **Base Generation Prompt (Structured)**
 ```
-Aja como um pesquisador sênior com experiência em submissão de artigos para conferências de alto impacto.
+Act as a senior researcher with experience submitting papers to high-impact conferences.
 
-**Tarefa:** Crie um resumo de conferência (abstract) com foco na Conferência [Nome da Conferência, ex: NeurIPS 2024].
-**Público-Alvo:** Pesquisadores em [Área de Pesquisa, ex: Aprendizado de Máquina e Visão Computacional].
-**Limite de Palavras:** 300 palavras.
-**Estrutura Obrigatória:** Introdução (Problema e Lacuna), Metodologia (Abordagem e Dados), Resultados Chave (Quantitativos e Qualitativos) e Conclusão (Implicações e Contribuição Original).
+**Task:** Create a conference abstract focused on the Conference [Conference Name, e.g., NeurIPS 2024].
+**Target Audience:** Researchers in [Research Area, e.g., Machine Learning and Computer Vision].
+**Word Limit:** 300 words.
+**Required Structure:** Introduction (Problem and Gap), Methodology (Approach and Data), Key Results (Quantitative and Qualitative), and Conclusion (Implications and Original Contribution).
 
-**Dados de Entrada:**
-- **Título Provisório:** [Título do seu trabalho]
-- **Problema de Pesquisa:** [Descrição concisa do problema]
-- **Metodologia:** [Descrição da sua abordagem, ex: Rede Neural Convolucional com atenção espacial]
-- **Resultados Principais:** [Ex: Aumento de 5% na precisão em relação ao estado da arte, com redução de 10% na latência]
-- **Implicações:** [Ex: Abre caminho para a implementação em dispositivos de borda]
-```
-
-2. **Prompt de Revisão (Concisão e Clareza)**
-```
-**Tarefa:** Revise o resumo abaixo para máxima concisão e clareza, mantendo a integridade científica.
-**Restrição:** O resumo final NÃO deve exceder 250 palavras.
-**Foco:** Elimine jargões desnecessários e frases passivas.
-**Resumo a ser Revisado:** [Cole o resumo completo aqui]
+**Input Data:**
+- **Provisional Title:** [Title of your work]
+- **Research Problem:** [Concise description of the problem]
+- **Methodology:** [Description of your approach, e.g., Convolutional Neural Network with spatial attention]
+- **Main Results:** [E.g., 5% increase in accuracy over the state of the art, with a 10% reduction in latency]
+- **Implications:** [E.g., Paves the way for implementation on edge devices]
 ```
 
-3. **Prompt de Adaptação (Público/Formato)**
+2. **Revision Prompt (Conciseness and Clarity)**
 ```
-**Tarefa:** Adapte o resumo científico fornecido para um formato de proposta de workshop (tutorial).
-**Público-Alvo:** Desenvolvedores e engenheiros de software (público menos acadêmico).
-**Foco:** Transforme a seção de "Resultados Chave" em "O que o participante aprenderá" e a "Metodologia" em "Estrutura do Tutorial".
-**Resumo Original:** [Cole o resumo científico aqui]
-```
-
-4. **Prompt de Título (Otimização para SEO e Impacto)**
-```
-**Tarefa:** Gere 5 opções de títulos para o resumo, otimizando-os para impacto e relevância na busca por palavras-chave.
-**Palavras-Chave Obrigatórias:** [Ex: "Visão Computacional", "Aprendizado por Reforço", "Sustentabilidade"]
-**Tom:** Escolha entre (a) Formal e Informativo ou (b) Chamativo e Inovador.
-**Conteúdo do Resumo:** [Cole o resumo completo aqui]
+**Task:** Revise the abstract below for maximum conciseness and clarity, while maintaining scientific integrity.
+**Constraint:** The final abstract must NOT exceed 250 words.
+**Focus:** Eliminate unnecessary jargon and passive sentences.
+**Abstract to be Revised:** [Paste the full abstract here]
 ```
 
-5. **Prompt de Crítica (Avaliação de Aceitação)**
+3. **Adaptation Prompt (Audience/Format)**
 ```
-Aja como um revisor de programa (Program Committee Member) da conferência [Nome da Conferência].
-**Tarefa:** Avalie o resumo abaixo com base nos seguintes critérios (em uma escala de 1 a 5, onde 5 é excelente):
-1. Originalidade e Contribuição.
-2. Clareza e Organização.
-3. Rigor Metodológico (Implícito).
-4. Relevância para a Conferência.
-**Forneça:** Uma pontuação geral e um parágrafo de feedback construtivo.
-**Resumo a ser Avaliado:** [Cole o resumo completo aqui]
+**Task:** Adapt the provided scientific abstract into a workshop proposal (tutorial) format.
+**Target Audience:** Software developers and engineers (less academic audience).
+**Focus:** Transform the "Key Results" section into "What the participant will learn" and the "Methodology" into "Tutorial Structure".
+**Original Abstract:** [Paste the scientific abstract here]
 ```
 
-6. **Prompt de Detalhamento Metodológico**
+4. **Title Prompt (Optimization for SEO and Impact)**
 ```
-**Tarefa:** Expanda a seção de Metodologia do resumo fornecido, detalhando os passos de pré-processamento de dados e a arquitetura exata do modelo.
-**Objetivo:** Criar um parágrafo de 100 palavras que possa ser usado como anexo ou corpo de texto para a submissão completa.
-**Metodologia Atual (Resumo):** [Cole a seção de metodologia do resumo]
-**Detalhes Adicionais:** [Ex: Usamos o dataset COCO, com aumento de dados por rotação e espelhamento. A arquitetura é ResNet-50 pré-treinada no ImageNet.]
+**Task:** Generate 5 title options for the abstract, optimizing them for impact and relevance in keyword searches.
+**Required Keywords:** [E.g., "Computer Vision", "Reinforcement Learning", "Sustainability"]
+**Tone:** Choose between (a) Formal and Informative or (b) Catchy and Innovative.
+**Abstract Content:** [Paste the full abstract here]
 ```
 
-7. **Prompt de Implicações e Contribuição**
+5. **Critique Prompt (Acceptance Assessment)**
 ```
-**Tarefa:** Reescreva a seção de Conclusão/Implicações do resumo para enfatizar a **contribuição teórica** e o **impacto prático** do trabalho.
-**Foco:** Responda explicitamente à pergunta: "Por que este trabalho é importante para o campo?"
-**Conclusão Atual:** [Cole a seção de conclusão do resumo]
+Act as a Program Committee Member of the conference [Conference Name].
+**Task:** Evaluate the abstract below based on the following criteria (on a scale of 1 to 5, where 5 is excellent):
+1. Originality and Contribution.
+2. Clarity and Organization.
+3. Methodological Rigor (Implicit).
+4. Relevance to the Conference.
+**Provide:** An overall score and a paragraph of constructive feedback.
+**Abstract to be Evaluated:** [Paste the full abstract here]
+```
+
+6. **Methodological Detailing Prompt**
+```
+**Task:** Expand the Methodology section of the provided abstract, detailing the data preprocessing steps and the exact model architecture.
+**Objective:** Create a 100-word paragraph that can be used as an appendix or body text for the full submission.
+**Current Methodology (Abstract):** [Paste the methodology section of the abstract]
+**Additional Details:** [E.g., We used the COCO dataset, with data augmentation via rotation and mirroring. The architecture is ResNet-50 pre-trained on ImageNet.]
+```
+
+7. **Implications and Contribution Prompt**
+```
+**Task:** Rewrite the Conclusion/Implications section of the abstract to emphasize the **theoretical contribution** and the **practical impact** of the work.
+**Focus:** Explicitly answer the question: "Why is this work important for the field?"
+**Current Conclusion:** [Paste the conclusion section of the abstract]
 ```
 ```
 
 ## Best Practices
-1. **Defina o Público e o Contexto:** O prompt deve especificar a conferência, o público-alvo e as diretrizes de submissão (limite de palavras, formato).
-2. **Estrutura Clara:** Inclua no prompt os quatro componentes essenciais: Introdução (problema/lacuna), Metodologia, Resultados Chave e Conclusão (implicações/contribuição).
-3. **Foco na Contribuição:** Peça à IA para destacar a originalidade e a relevância do trabalho para o campo.
-4. **Iteração e Refinamento:** Use prompts de acompanhamento para revisar o tom, a clareza e a concisão (ex: "Revise este resumo para um tom mais formal e reduza para 250 palavras").
-5. **Uso de Dados:** Forneça à IA os dados e achados mais importantes para que ela os integre de forma precisa no resumo.
+1. **Define the Audience and Context:** The prompt should specify the conference, the target audience, and the submission guidelines (word limit, format).
+2. **Clear Structure:** Include in the prompt the four essential components: Introduction (problem/gap), Methodology, Key Results, and Conclusion (implications/contribution).
+3. **Focus on Contribution:** Ask the AI to highlight the originality and relevance of the work to the field.
+4. **Iteration and Refinement:** Use follow-up prompts to revise the tone, clarity, and conciseness (e.g., "Revise this abstract for a more formal tone and reduce it to 250 words").
+5. **Use of Data:** Provide the AI with the most important data and findings so that it integrates them accurately into the abstract.
 
 ## Use Cases
-1. **Geração de Rascunhos Iniciais:** Criar rapidamente uma primeira versão do resumo a partir de notas de pesquisa.
-2. **Adaptação de Conteúdo:** Ajustar um resumo existente para diferentes conferências com requisitos de formato ou público distintos.
-3. **Revisão de Clareza e Concisão:** Usar a IA para identificar e corrigir ambiguidades ou excesso de palavras.
-4. **Brainstorming de Títulos:** Gerar títulos atraentes e informativos para o resumo.
-5. **Elaboração de Palavras-Chave:** Sugerir palavras-chave relevantes para indexação e busca.
+1. **Initial Draft Generation:** Quickly create a first version of the abstract from research notes.
+2. **Content Adaptation:** Adjust an existing abstract for different conferences with distinct format or audience requirements.
+3. **Clarity and Conciseness Review:** Use the AI to identify and correct ambiguities or wordiness.
+4. **Title Brainstorming:** Generate attractive and informative titles for the abstract.
+5. **Keyword Development:** Suggest relevant keywords for indexing and searching.
 
 ## Pitfalls
-1. **Violação de Diretrizes:** A IA pode ignorar limites estritos de palavras ou requisitos de formatação se não forem explicitamente detalhados no prompt.
-2. **Generalização Excessiva:** O resumo gerado pode ser muito genérico se o prompt não fornecer detalhes suficientes sobre os achados específicos da pesquisa.
-3. **Falta de Voz Autoral:** O texto pode soar impessoal ou robótico, exigindo revisão humana para injetar a voz e o entusiasmo do pesquisador.
-4. **Imprecisão de Dados:** A IA pode "alucinar" ou interpretar mal dados complexos se eles não forem fornecidos de forma clara e estruturada.
-5. **Dependência Excessiva:** Confiar cegamente no resumo gerado pela IA sem uma revisão crítica e aprofundada.
+1. **Guideline Violation:** The AI may ignore strict word limits or formatting requirements if they are not explicitly detailed in the prompt.
+2. **Over-Generalization:** The generated abstract may be too generic if the prompt does not provide enough detail about the specific research findings.
+3. **Lack of Authorial Voice:** The text may sound impersonal or robotic, requiring human revision to inject the researcher's voice and enthusiasm.
+4. **Data Inaccuracy:** The AI may "hallucinate" or misinterpret complex data if it is not provided clearly and in a structured way.
+5. **Over-Reliance:** Blindly trusting the AI-generated abstract without a critical, in-depth review.
 
 ## URL
 [https://www.aiforwork.co/prompt-articles/chatgpt-prompt-professor-education-create-a-conference-abstracts-document](https://www.aiforwork.co/prompt-articles/chatgpt-prompt-professor-education-create-a-conference-abstracts-document)

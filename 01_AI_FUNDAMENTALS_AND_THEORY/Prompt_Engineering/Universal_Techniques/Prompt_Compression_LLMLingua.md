@@ -1,60 +1,60 @@
 # Prompt Compression (LLMLingua)
 
 ## Description
-**LLMLingua** é uma técnica de compressão de prompt de "grosso a fino" (coarse-to-fine) desenvolvida pela Microsoft Research para acelerar a inferência de Large Language Models (LLMs) e reduzir custos, especialmente em cenários com prompts longos, como Chain-of-Thought (CoT) e In-Context Learning (ICL) [1].
+**LLMLingua** is a coarse-to-fine prompt compression technique developed by Microsoft Research to accelerate the inference of Large Language Models (LLMs) and reduce costs, especially in scenarios with long prompts, such as Chain-of-Thought (CoT) and In-Context Learning (ICL) [1].
 
-A técnica se baseia na premissa de que a linguagem natural é inerentemente redundante e que os LLMs podem inferir a partir de prompts comprimidos, mesmo que sejam difíceis de entender para humanos. O método utiliza um Small Language Model (SLM) auxiliar (como GPT2-small ou LLaMA-7B) para calcular a perplexidade (PPL) e identificar *tokens* e sentenças redundantes no prompt.
+The technique is based on the premise that natural language is inherently redundant and that LLMs can infer from compressed prompts, even if they are difficult for humans to understand. The method uses an auxiliary Small Language Model (SLM) (such as GPT2-small or LLaMA-7B) to calculate perplexity (PPL) and identify redundant *tokens* and sentences in the prompt.
 
-O processo de compressão envolve três componentes principais [2]:
-1.  **Controlador de Orçamento (Budget Controller):** Define a taxa de compressão alvo e aloca o "orçamento" de *tokens* para diferentes partes do prompt, preservando a integridade semântica.
-2.  **Compressão Iterativa Nível-Token:** Remove *tokens* redundantes de forma iterativa, modelando a interdependência entre o conteúdo comprimido.
-3.  **Alinhamento de Distribuição:** Utiliza *instruction tuning* para alinhar o SLM auxiliar com a distribuição de linguagem do LLM alvo (caixa-preta), garantindo que a compressão seja eficaz para o modelo final.
+The compression process involves three main components [2]:
+1.  **Budget Controller:** Defines the target compression rate and allocates the token "budget" to different parts of the prompt, preserving semantic integrity.
+2.  **Iterative Token-Level Compression:** Removes redundant *tokens* iteratively, modeling the interdependence between the compressed content.
+3.  **Distribution Alignment:** Uses *instruction tuning* to align the auxiliary SLM with the language distribution of the target (black-box) LLM, ensuring that the compression is effective for the final model.
 
-A LLMLingua demonstrou ser capaz de alcançar até **20x de compressão** com pouca perda de desempenho em tarefas como raciocínio e ICL, resultando em uma aceleração de 1.7x a 5.7x na latência de ponta a ponta [3].
+LLMLingua has demonstrated the ability to achieve up to **20x compression** with little performance loss on tasks such as reasoning and ICL, resulting in a 1.7x to 5.7x speedup in end-to-end latency [3].
 
 ## Examples
 ```
-**Exemplo 1: Compressão de Contexto RAG (Recuperação Aumentada)**
-*   **Prompt Original (Entrada para LLMLingua):** "Contexto: [10.000 tokens de documentos recuperados sobre a fusão da Empresa X e Y]. Pergunta: Qual foi o principal motivo estratégico para a fusão, de acordo com o documento?"
-*   **Prompt Comprimido (Saída para LLM):** "Contexto: [500 tokens comprimidos]. Pergunta: Principal motivo estratégico para a fusão?"
+**Example 1: RAG Context Compression (Retrieval-Augmented)**
+*   **Original Prompt (Input to LLMLingua):** "Context: [10,000 tokens of retrieved documents about the merger of Company X and Y]. Question: What was the main strategic reason for the merger, according to the document?"
+*   **Compressed Prompt (Output to LLM):** "Context: [500 compressed tokens]. Question: Main strategic reason for the merger?"
 
-**Exemplo 2: Compressão de Exemplos ICL (In-Context Learning)**
-*   **Prompt Original (Entrada para LLMLingua):** "Exemplo 1: [Problema de matemática complexo e solução detalhada com CoT]. Exemplo 2: [Outro problema e solução]. Pergunta: Resolva o seguinte problema: [Novo problema]."
-*   **Prompt Comprimido (Saída para LLM):** "Exemplo 1: [CoT comprimido]. Exemplo 2: [CoT comprimido]. Pergunta: Resolva: [Novo problema]."
+**Example 2: ICL Example Compression (In-Context Learning)**
+*   **Original Prompt (Input to LLMLingua):** "Example 1: [Complex math problem and detailed solution with CoT]. Example 2: [Another problem and solution]. Question: Solve the following problem: [New problem]."
+*   **Compressed Prompt (Output to LLM):** "Example 1: [Compressed CoT]. Example 2: [Compressed CoT]. Question: Solve: [New problem]."
 
-**Exemplo 3: Compressão de Diálogo Longo (Chatbot)**
-*   **Prompt Original (Entrada para LLMLingua):** "Histórico de Conversa: [50 turnos de conversa]. Usuário: Quero saber a política de devolução para itens eletrônicos comprados há mais de 30 dias."
-*   **Prompt Comprimido (Saída para LLM):** "Histórico: [Essência comprimida dos 50 turnos]. Usuário: Política de devolução eletrônicos > 30 dias."
+**Example 3: Long Dialogue Compression (Chatbot)**
+*   **Original Prompt (Input to LLMLingua):** "Conversation History: [50 conversation turns]. User: I want to know the return policy for electronic items purchased more than 30 days ago."
+*   **Compressed Prompt (Output to LLM):** "History: [Compressed essence of the 50 turns]. User: Return policy for electronics > 30 days."
 
-**Exemplo 4: Compressão de Resumo de Reunião**
-*   **Prompt Original (Entrada para LLMLingua):** "Transcrição da Reunião: [20.000 tokens de transcrição]. Instrução: Gere um resumo executivo com as 3 principais decisões e os responsáveis."
-*   **Prompt Comprimido (Saída para LLM):** "Transcrição: [1.000 tokens de transcrição comprimida]. Instrução: Resumo executivo: 3 decisões, responsáveis."
+**Example 4: Meeting Summary Compression**
+*   **Original Prompt (Input to LLMLingua):** "Meeting Transcript: [20,000 tokens of transcript]. Instruction: Generate an executive summary with the top 3 decisions and the people responsible."
+*   **Compressed Prompt (Output to LLM):** "Transcript: [1,000 tokens of compressed transcript]. Instruction: Executive summary: 3 decisions, people responsible."
 
-**Exemplo 5: Compressão de Instruções Detalhadas**
-*   **Prompt Original (Entrada para LLMLingua):** "Instruções: Você é um especialista em Python. Responda de forma concisa, use apenas a biblioteca Pandas e o formato de saída deve ser JSON. A tarefa é: [Descrição da tarefa]."
-*   **Prompt Comprimido (Saída para LLM):** "Instruções: Especialista Python. Resposta concisa. Use Pandas. Saída JSON. Tarefa: [Descrição da tarefa]."
+**Example 5: Detailed Instruction Compression**
+*   **Original Prompt (Input to LLMLingua):** "Instructions: You are a Python expert. Respond concisely, use only the Pandas library, and the output format must be JSON. The task is: [Task description]."
+*   **Compressed Prompt (Output to LLM):** "Instructions: Python expert. Concise response. Use Pandas. JSON output. Task: [Task description]."
 ```
 
 ## Best Practices
-**1. Priorize a Informação Chave:** Utilize a LLMLingua para comprimir a parte do prompt que contém informações contextuais (como exemplos de ICL ou documentos RAG) e mantenha a instrução principal e a pergunta intactas.
-**2. Use um Modelo Pequeno Otimizado:** A eficácia da LLMLingua depende de um modelo pequeno (como GPT2-small ou LLaMA-7B) para calcular a perplexidade e identificar a redundância. Certifique-se de que o modelo auxiliar esteja alinhado com o LLM alvo.
-**3. Monitore a Taxa de Compressão:** Comece com taxas de compressão mais baixas (por exemplo, 5x) e aumente gradualmente, monitorando a métrica de desempenho (como EM ou precisão) para encontrar o ponto ideal de equilíbrio entre custo/velocidade e qualidade.
-**4. Aproveite a Recuperabilidade:** Em cenários críticos, use um LLM poderoso (como GPT-4) para descompactar o prompt comprimido, garantindo que nenhuma informação essencial tenha sido perdida.
-**5. Integração RAG:** Integre a LLMLingua em *frameworks* RAG (como LlamaIndex ou LangChain) para comprimir os documentos recuperados antes de passá-los para o LLM, otimizando o custo e a latência.
+**1. Prioritize Key Information:** Use LLMLingua to compress the part of the prompt that contains contextual information (such as ICL examples or RAG documents) and keep the main instruction and the question intact.
+**2. Use an Optimized Small Model:** The effectiveness of LLMLingua depends on a small model (such as GPT2-small or LLaMA-7B) to calculate perplexity and identify redundancy. Make sure the auxiliary model is aligned with the target LLM.
+**3. Monitor the Compression Rate:** Start with lower compression rates (for example, 5x) and increase gradually, monitoring the performance metric (such as EM or accuracy) to find the ideal balance point between cost/speed and quality.
+**4. Leverage Recoverability:** In critical scenarios, use a powerful LLM (such as GPT-4) to decompress the compressed prompt, ensuring that no essential information has been lost.
+**5. RAG Integration:** Integrate LLMLingua into RAG *frameworks* (such as LlamaIndex or LangChain) to compress the retrieved documents before passing them to the LLM, optimizing cost and latency.
 
 ## Use Cases
-**1. Otimização de Custo e Latência em APIs:** Redução drástica do número de *tokens* de entrada enviados para LLMs de caixa-preta (como GPT-4 ou Claude) via API, resultando em economia de custos e menor latência de resposta.
-**2. Frameworks RAG (Retrieval-Augmented Generation):** Compressão de documentos e trechos recuperados antes de serem inseridos no prompt do LLM, permitindo a inclusão de mais contexto relevante e melhorando a densidade de informação.
-**3. Aceleração de In-Context Learning (ICL):** Compressão de exemplos de ICL longos e detalhados (incluindo cadeias de pensamento - CoT) para manter a capacidade de raciocínio do LLM com um prompt menor.
-**4. Compressão de KV Cache:** Utilização da técnica para comprimir o *Key-Value Cache* durante a inferência, o que melhora a velocidade de decodificação e permite contextos mais longos.
-**5. Resumo de Contextos Longos:** Aplicação em cenários de contexto muito longo, como transcrições de reuniões, históricos de conversas ou documentos extensos, para extrair a essência e facilitar o resumo ou a resposta a perguntas.
+**1. Cost and Latency Optimization in APIs:** Drastic reduction of the number of input *tokens* sent to black-box LLMs (such as GPT-4 or Claude) via API, resulting in cost savings and lower response latency.
+**2. RAG Frameworks (Retrieval-Augmented Generation):** Compression of retrieved documents and excerpts before they are inserted into the LLM prompt, allowing the inclusion of more relevant context and improving information density.
+**3. In-Context Learning (ICL) Acceleration:** Compression of long, detailed ICL examples (including chains of thought - CoT) to maintain the LLM's reasoning capability with a smaller prompt.
+**4. KV Cache Compression:** Use of the technique to compress the *Key-Value Cache* during inference, which improves decoding speed and allows longer contexts.
+**5. Long Context Summarization:** Application in very long context scenarios, such as meeting transcripts, conversation histories, or lengthy documents, to extract the essence and facilitate summarization or question answering.
 
 ## Pitfalls
-**1. Perda de Informação Crítica:** A compressão excessiva (taxas muito altas, como 20x sem validação) pode remover *tokens* ou sentenças que, embora pareçam redundantes, são cruciais para a precisão da resposta do LLM, especialmente em tarefas de raciocínio complexo (CoT).
-**2. Desalinhamento do SLM:** Se o Small Language Model (SLM) auxiliar não estiver bem alinhado com o LLM alvo (caixa-preta), a compressão pode ser ineficaz ou prejudicial, pois o SLM pode não identificar corretamente a redundância do ponto de vista do LLM.
-**3. Latência da Compressão:** Embora a LLMLingua reduza a latência de inferência do LLM, o processo de compressão em si introduz uma latência adicional. Em prompts muito curtos, o tempo gasto na compressão pode anular o ganho de velocidade na inferência.
-**4. Dificuldade de Depuração:** O prompt comprimido é quase ilegível para humanos. Isso torna a depuração e a otimização do prompt muito mais difíceis, pois o pesquisador não consegue inspecionar facilmente o que o LLM está realmente recebendo.
-**5. Custo Adicional do SLM:** A execução do SLM auxiliar para realizar a compressão adiciona um custo computacional (e potencialmente financeiro, se for um serviço pago) que deve ser considerado no cálculo do custo-benefício total.
+**1. Loss of Critical Information:** Excessive compression (very high rates, such as 20x without validation) can remove *tokens* or sentences that, although they appear redundant, are crucial to the accuracy of the LLM's response, especially in complex reasoning tasks (CoT).
+**2. SLM Misalignment:** If the auxiliary Small Language Model (SLM) is not well aligned with the target (black-box) LLM, the compression can be ineffective or harmful, since the SLM may not correctly identify redundancy from the LLM's point of view.
+**3. Compression Latency:** Although LLMLingua reduces the LLM's inference latency, the compression process itself introduces additional latency. On very short prompts, the time spent on compression can offset the speed gain in inference.
+**4. Debugging Difficulty:** The compressed prompt is nearly illegible to humans. This makes debugging and optimizing the prompt much more difficult, since the researcher cannot easily inspect what the LLM is actually receiving.
+**5. Additional SLM Cost:** Running the auxiliary SLM to perform the compression adds a computational cost (and potentially a financial one, if it is a paid service) that must be considered in the overall cost-benefit calculation.
 
 ## URL
 [https://arxiv.org/abs/2310.05736](https://arxiv.org/abs/2310.05736)

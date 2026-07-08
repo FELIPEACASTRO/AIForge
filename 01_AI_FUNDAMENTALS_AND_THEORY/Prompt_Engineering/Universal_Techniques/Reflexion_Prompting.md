@@ -1,72 +1,72 @@
 # Reflexion
 
 ## Description
-A técnica **Reflexion** é um *framework* inovador que aprimora a capacidade de Agentes de Linguagem (LLM Agents) de resolver tarefas complexas através de um processo de **auto-reflexão** e **reforço verbal**. Em vez de ajustar os pesos do modelo (como no aprendizado por reforço tradicional), o Reflexion utiliza o próprio LLM para gerar *feedback linguístico* sobre suas tentativas anteriores, transformando esse feedback em uma memória dinâmica e um guia para a próxima iteração.
+The **Reflexion** technique is an innovative *framework* that enhances the ability of Language Agents (LLM Agents) to solve complex tasks through a process of **self-reflection** and **verbal reinforcement**. Instead of adjusting the model's weights (as in traditional reinforcement learning), Reflexion uses the LLM itself to generate *linguistic feedback* on its previous attempts, transforming that feedback into a dynamic memory and a guide for the next iteration.
 
-O processo é tipicamente iterativo e envolve:
-1. **Tentativa de Ação:** O agente tenta resolver a tarefa (e.g., gerar código, responder a uma pergunta complexa, planejar uma sequência de ações).
-2. **Observação e Avaliação:** O agente recebe um resultado (e.g., um erro de compilação, uma resposta incorreta, um *feedback* do ambiente).
-3. **Reflexão:** O agente usa o *feedback* e o histórico da tentativa para gerar uma **reflexão** crítica. Esta reflexão é uma análise textual que identifica as falhas, os pontos de melhoria e as novas estratégias a serem adotadas.
-4. **Nova Tentativa:** A reflexão gerada é adicionada à memória de contexto do agente e usada para guiar a próxima tentativa de ação, resultando em um desempenho progressivamente melhorado.
+The process is typically iterative and involves:
+1. **Action Attempt:** The agent attempts to solve the task (e.g., generate code, answer a complex question, plan a sequence of actions).
+2. **Observation and Evaluation:** The agent receives a result (e.g., a compilation error, an incorrect answer, feedback from the environment).
+3. **Reflection:** The agent uses the *feedback* and the history of the attempt to generate a critical **reflection**. This reflection is a textual analysis that identifies the failures, the areas for improvement, and the new strategies to be adopted.
+4. **New Attempt:** The generated reflection is added to the agent's context memory and used to guide the next action attempt, resulting in progressively improved performance.
 
-O Reflexion pode ser aplicado em conjunto com outras técnicas, como o ReAct (Reasoning and Acting), para criar agentes mais robustos e autônomos.
+Reflexion can be applied together with other techniques, such as ReAct (Reasoning and Acting), to create more robust and autonomous agents.
 
 ## Examples
 ```
-1.  **Exemplo 1: Geração de Código (Tentativa Inicial)**
-    *   **Prompt (Usuário):** "Gere uma função em Python que calcule o n-ésimo número de Fibonacci de forma recursiva e otimizada com memoização."
-    *   **Resposta do LLM (Tentativa 1):** (Código com erro de lógica ou sem memoização)
-    *   **Prompt (Reflexão):** "A tentativa anterior falhou ao incluir a memoização, resultando em complexidade de tempo O(2^n). Analise o código, identifique onde a memoização deve ser aplicada (e.g., usando um dicionário ou `functools.lru_cache`) e gere uma nova função que atenda ao requisito de otimização."
+1.  **Example 1: Code Generation (Initial Attempt)**
+    *   **Prompt (User):** "Generate a Python function that computes the n-th Fibonacci number recursively and optimized with memoization."
+    *   **LLM Response (Attempt 1):** (Code with a logic error or without memoization)
+    *   **Prompt (Reflection):** "The previous attempt failed to include memoization, resulting in O(2^n) time complexity. Analyze the code, identify where memoization should be applied (e.g., using a dictionary or `functools.lru_cache`), and generate a new function that meets the optimization requirement."
 
-2.  **Exemplo 2: Resolução de Problemas (Tentativa Inicial)**
-    *   **Prompt (Usuário):** "Um trem viaja a 60 km/h. Se ele percorrer 300 km, quanto tempo levará? Apresente o raciocínio passo a passo."
-    *   **Resposta do LLM (Tentativa 1):** (Raciocínio correto, mas erro de cálculo final, e.g., 300/60 = 6 horas)
-    *   **Prompt (Reflexão):** "A sua resposta anterior continha um erro de cálculo: 300 dividido por 60 é 5, não 6. Revise o passo a passo do raciocínio, corrija o cálculo e forneça a resposta final correta. A reflexão deve ser: 'O erro foi na divisão final. 300/60 = 5. A resposta correta é 5 horas.'"
+2.  **Example 2: Problem Solving (Initial Attempt)**
+    *   **Prompt (User):** "A train travels at 60 km/h. If it covers 300 km, how long will it take? Show the step-by-step reasoning."
+    *   **LLM Response (Attempt 1):** (Correct reasoning, but a final calculation error, e.g., 300/60 = 6 hours)
+    *   **Prompt (Reflection):** "Your previous answer contained a calculation error: 300 divided by 60 is 5, not 6. Review the step-by-step reasoning, correct the calculation, and provide the correct final answer. The reflection should be: 'The error was in the final division. 300/60 = 5. The correct answer is 5 hours.'"
 
-3.  **Exemplo 3: Interação com Ambiente (Agente de API)**
-    *   **Prompt (Usuário):** "Busque o preço atual do Bitcoin na API da CoinGecko e converta para Reais (BRL)."
-    *   **Resposta do LLM (Tentativa 1):** (Falha na chamada da API devido a um parâmetro incorreto, e.g., `moeda=Real` em vez de `moeda=brl`)
-    *   **Prompt (Reflexão):** "A chamada de API na tentativa anterior retornou um erro 400 (Bad Request) com a mensagem 'Parâmetro de moeda inválido'. O parâmetro 'Real' não é aceito. Consulte a documentação da API e ajuste o parâmetro para o código ISO correto da moeda brasileira (BRL). Repita a chamada e forneça o resultado."
+3.  **Example 3: Environment Interaction (API Agent)**
+    *   **Prompt (User):** "Fetch the current price of Bitcoin from the CoinGecko API and convert it to Brazilian Reais (BRL)."
+    *   **LLM Response (Attempt 1):** (Failure in the API call due to an incorrect parameter, e.g., `moeda=Real` instead of `moeda=brl`)
+    *   **Prompt (Reflection):** "The API call in the previous attempt returned a 400 error (Bad Request) with the message 'Invalid currency parameter'. The 'Real' parameter is not accepted. Consult the API documentation and adjust the parameter to the correct ISO code for the Brazilian currency (BRL). Repeat the call and provide the result."
 
-4.  **Exemplo 4: Escrita Criativa e Estilística**
-    *   **Prompt (Usuário):** "Escreva um parágrafo de abertura para um conto de ficção científica no estilo de H.P. Lovecraft."
-    *   **Resposta do LLM (Tentativa 1):** (Parágrafo genérico, sem o vocabulário ou a atmosfera cósmica de Lovecraft)
-    *   **Prompt (Reflexão):** "O parágrafo gerado é muito direto e carece da adjetivação densa e do tom de horror cósmico de Lovecraft. Reflita sobre o uso de palavras como 'indescritível', 'eldritch', 'abissal' e 'insanidade'. Reescreva o parágrafo, focando em evocar uma sensação de pavor e mistério inominável."
+4.  **Example 4: Creative and Stylistic Writing**
+    *   **Prompt (User):** "Write an opening paragraph for a science fiction short story in the style of H.P. Lovecraft."
+    *   **LLM Response (Attempt 1):** (Generic paragraph, without Lovecraft's vocabulary or cosmic atmosphere)
+    *   **Prompt (Reflection):** "The generated paragraph is too direct and lacks Lovecraft's dense adjectives and tone of cosmic horror. Reflect on the use of words like 'indescribable', 'eldritch', 'abyssal', and 'insanity'. Rewrite the paragraph, focusing on evoking a sense of dread and unnameable mystery."
 
-5.  **Exemplo 5: Otimização de Prompt (Meta-Reflexão)**
-    *   **Prompt (Usuário):** "Crie um prompt de engenharia para um LLM que o instrua a atuar como um especialista em segurança cibernética e analisar um trecho de código em busca de vulnerabilidades XSS."
-    *   **Resposta do LLM (Tentativa 1):** (Prompt simples, sem definir persona, formato de saída ou etapas de análise)
-    *   **Prompt (Reflexão):** "O prompt de engenharia criado é ineficaz porque não estabelece uma persona clara nem um formato de saída estruturado. Reflita sobre as melhores práticas de engenharia de prompt (e.g., CoT, persona, formato JSON) e reescreva o prompt para ser mais robusto. O novo prompt deve incluir: 1) A persona de 'Especialista em Segurança Nível 5', 2) A instrução para usar o raciocínio 'Chain-of-Thought' e 3) A exigência de saída em formato Markdown com uma tabela de vulnerabilidades."
+5.  **Example 5: Prompt Optimization (Meta-Reflection)**
+    *   **Prompt (User):** "Create an engineered prompt for an LLM that instructs it to act as a cybersecurity expert and analyze a code snippet for XSS vulnerabilities."
+    *   **LLM Response (Attempt 1):** (Simple prompt, without defining persona, output format, or analysis steps)
+    *   **Prompt (Reflection):** "The engineered prompt created is ineffective because it establishes neither a clear persona nor a structured output format. Reflect on prompt engineering best practices (e.g., CoT, persona, JSON format) and rewrite the prompt to be more robust. The new prompt should include: 1) The persona of 'Level 5 Security Expert', 2) The instruction to use 'Chain-of-Thought' reasoning, and 3) The requirement for output in Markdown format with a vulnerability table."
 
-6.  **Exemplo 6: Refinando um Argumento (Debate)**
-    *   **Prompt (Usuário):** "Escreva um argumento de 200 palavras a favor da implementação de uma semana de trabalho de 4 dias."
-    *   **Resposta do LLM (Tentativa 1):** (Argumento focado apenas em bem-estar, ignorando produtividade e custos)
-    *   **Prompt (Reflexão):** "O argumento anterior é fraco porque não aborda as preocupações econômicas e de produtividade. Reflita sobre como integrar dados sobre o aumento da eficiência e a redução de custos operacionais (e.g., energia, escritório) para fortalecer a tese. Reescreva o argumento para ser mais equilibrado e persuasivo para um público corporativo."
+6.  **Example 6: Refining an Argument (Debate)**
+    *   **Prompt (User):** "Write a 200-word argument in favor of implementing a 4-day work week."
+    *   **LLM Response (Attempt 1):** (Argument focused only on well-being, ignoring productivity and costs)
+    *   **Prompt (Reflection):** "The previous argument is weak because it does not address economic and productivity concerns. Reflect on how to integrate data on increased efficiency and reduced operational costs (e.g., energy, office space) to strengthen the thesis. Rewrite the argument to be more balanced and persuasive for a corporate audience."
 
-7.  **Exemplo 7: Correção de Dados (Factual)**
-    *   **Prompt (Usuário):** "Liste os 5 maiores rios do mundo em ordem de comprimento."
-    *   **Resposta do LLM (Tentativa 1):** (Lista incorreta, colocando o Rio Nilo em primeiro lugar, quando o Amazonas é geralmente aceito como o mais longo)
-    *   **Prompt (Reflexão):** "A lista anterior está desatualizada ou incorreta. Fontes modernas de pesquisa geográfica indicam que o Rio Amazonas é o mais longo do mundo, superando o Nilo. Revise a lista com base nas medições mais aceitas e corrija a ordem. A reflexão deve ser: 'A informação factual sobre o Rio Amazonas e Nilo foi revisada. O Amazonas é o mais longo. A lista será corrigida.'"
+7.  **Example 7: Data Correction (Factual)**
+    *   **Prompt (User):** "List the 5 longest rivers in the world in order of length."
+    *   **LLM Response (Attempt 1):** (Incorrect list, placing the Nile River first, when the Amazon is generally accepted as the longest)
+    *   **Prompt (Reflection):** "The previous list is outdated or incorrect. Modern geographic research sources indicate that the Amazon River is the longest in the world, surpassing the Nile. Review the list based on the most accepted measurements and correct the order. The reflection should be: 'The factual information about the Amazon and Nile Rivers has been reviewed. The Amazon is the longest. The list will be corrected.'"
 ```
 
 ## Best Practices
-*   **Instrução Clara para a Reflexão:** O prompt de reflexão deve ser específico, solicitando ao modelo que identifique a causa raiz da falha, sugira uma correção e formule uma nova estratégia.
-*   **Memória Dinâmica:** Mantenha um histórico conciso das tentativas e das reflexões anteriores no contexto do prompt para a nova tentativa. A reflexão deve ser a parte mais relevante da memória.
-*   **Iteração Controlada:** Limite o número de iterações para evitar loops infinitos ou consumo excessivo de recursos. Três a cinco iterações costumam ser suficientes.
-*   **Combinação com ReAct:** Use o Reflexion para aprimorar o componente de "Raciocínio" (Reasoning) do ReAct, permitindo que o agente aprenda com suas interações com o ambiente.
-*   **Foco na Causa do Erro:** Oriente o modelo a refletir sobre o *porquê* a tentativa falhou, e não apenas *o que* falhou.
+*   **Clear Instruction for the Reflection:** The reflection prompt should be specific, asking the model to identify the root cause of the failure, suggest a correction, and formulate a new strategy.
+*   **Dynamic Memory:** Keep a concise history of previous attempts and reflections in the prompt context for the new attempt. The reflection should be the most relevant part of the memory.
+*   **Controlled Iteration:** Limit the number of iterations to avoid infinite loops or excessive resource consumption. Three to five iterations are usually sufficient.
+*   **Combination with ReAct:** Use Reflexion to enhance the "Reasoning" component of ReAct, allowing the agent to learn from its interactions with the environment.
+*   **Focus on the Cause of the Error:** Guide the model to reflect on *why* the attempt failed, and not just *what* failed.
 
 ## Use Cases
-*   **Geração de Código:** Agentes que tentam escrever código, recebem erros de compilação ou falhas em testes unitários, refletem sobre o erro e corrigem o código.
-*   **Resolução de Problemas Complexos (e.g., Matemática, Lógica):** O agente tenta resolver um problema, avalia a resposta, identifica um erro de raciocínio e refina a cadeia de pensamento.
-*   **Navegação e Interação em Ambientes Virtuais:** Agentes que interagem com APIs ou ambientes de jogos, recebem *feedback* do ambiente (e.g., "ação inválida"), refletem sobre a estratégia e ajustam o plano de ação.
-*   **Criação de Conteúdo Iterativo:** Refinar um artigo, roteiro ou peça criativa com base em critérios de avaliação internos ou externos.
+*   **Code Generation:** Agents that attempt to write code, receive compilation errors or unit test failures, reflect on the error, and correct the code.
+*   **Solving Complex Problems (e.g., Mathematics, Logic):** The agent attempts to solve a problem, evaluates the answer, identifies a reasoning error, and refines the chain of thought.
+*   **Navigation and Interaction in Virtual Environments:** Agents that interact with APIs or game environments, receive *feedback* from the environment (e.g., "invalid action"), reflect on the strategy, and adjust the action plan.
+*   **Iterative Content Creation:** Refining an article, script, or creative piece based on internal or external evaluation criteria.
 
 ## Pitfalls
-*   **Reflexões Superficiais:** O modelo pode gerar reflexões genéricas ou superficiais que não levam a melhorias reais na próxima tentativa.
-*   **Acúmulo de Contexto (Context Window Bloat):** O histórico de tentativas e reflexões pode rapidamente exceder o limite de contexto do LLM, exigindo estratégias de sumarização ou poda de memória.
-*   **Loops de Reflexão:** Em casos raros, o agente pode entrar em um ciclo onde a reflexão não consegue quebrar o padrão de erro, levando a tentativas repetitivas e infrutíferas.
-*   **Custo Computacional:** O processo iterativo e a necessidade de múltiplas chamadas ao LLM (tentativa + reflexão + nova tentativa) aumentam significativamente o custo e o tempo de resposta.
+*   **Superficial Reflections:** The model may generate generic or superficial reflections that do not lead to real improvements in the next attempt.
+*   **Context Accumulation (Context Window Bloat):** The history of attempts and reflections can quickly exceed the LLM's context limit, requiring summarization or memory pruning strategies.
+*   **Reflection Loops:** In rare cases, the agent may enter a cycle where the reflection fails to break the error pattern, leading to repetitive and fruitless attempts.
+*   **Computational Cost:** The iterative process and the need for multiple LLM calls (attempt + reflection + new attempt) significantly increase cost and response time.
 
 ## URL
 [https://arxiv.org/abs/2303.11366](https://arxiv.org/abs/2303.11366)

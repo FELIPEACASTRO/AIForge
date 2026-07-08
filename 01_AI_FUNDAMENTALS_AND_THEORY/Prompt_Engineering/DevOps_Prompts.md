@@ -1,58 +1,58 @@
 # DevOps Prompts
 
 ## Description
-Prompt Engineering para DevOps é a prática de projetar e refinar prompts de forma estratégica para maximizar a utilidade de modelos de Linguagem Grande (LLMs) em tarefas de desenvolvimento, implantação e operações. Envolve a criação de instruções claras, contextuais e estruturadas para automatizar tarefas repetitivas, otimizar pipelines de CI/CD, gerar código e scripts de infraestrutura (IaC), depurar logs complexos e fortalecer a segurança. A aplicação correta do Prompt Engineering em DevOps visa aumentar a produtividade, reduzir o tempo de inatividade e garantir a entrega contínua de software de alta qualidade e escalável. É uma competência crucial para engenheiros DevOps que buscam integrar a Inteligência Artificial em seus fluxos de trabalho diários.
+Prompt Engineering for DevOps is the practice of strategically designing and refining prompts to maximize the usefulness of Large Language Models (LLMs) in development, deployment, and operations tasks. It involves creating clear, contextual, and structured instructions to automate repetitive tasks, optimize CI/CD pipelines, generate code and infrastructure scripts (IaC), debug complex logs, and strengthen security. The correct application of Prompt Engineering in DevOps aims to increase productivity, reduce downtime, and ensure the continuous delivery of high-quality, scalable software. It is a crucial competency for DevOps engineers seeking to integrate Artificial Intelligence into their daily workflows.
 
 ## Examples
 ```
-**1. Geração de Script de Monitoramento (Shell):**
-"Atue como um Engenheiro de Sistemas Linux. Crie um script Shell que monitore o uso de CPU, memória e disco (`top`, `df`, `free`) em um servidor Ubuntu 22.04. O script deve compilar as métricas em um formato de relatório simples e enviá-lo por e-mail para `alerta@empresa.com` se o uso de CPU exceder 80%."
+**1. Monitoring Script Generation (Shell):**
+"Act as a Linux Systems Engineer. Create a Shell script that monitors CPU, memory, and disk usage (`top`, `df`, `free`) on an Ubuntu 22.04 server. The script must compile the metrics into a simple report format and email it to `alerta@empresa.com` if CPU usage exceeds 80%."
 
-**2. Criação de IaC (Terraform):**
-"Gere um script Terraform para a AWS. O script deve provisionar um grupo de auto-escalonamento para servidores web, um Application Load Balancer (ALB) e um Security Group que permita apenas tráfego HTTP/HTTPS. O escalonamento deve ser baseado no uso de CPU e o código deve ser modular."
+**2. IaC Creation (Terraform):**
+"Generate a Terraform script for AWS. The script must provision an auto-scaling group for web servers, an Application Load Balancer (ALB), and a Security Group that allows only HTTP/HTTPS traffic. Scaling should be based on CPU usage and the code must be modular."
 
-**3. Otimização de Pipeline CI/CD (GitLab CI):**
-"Analise o seguinte arquivo `.gitlab-ci.yml` (fornecido no prompt). Sugira otimizações para reduzir o tempo de construção em 30%, focando na paralelização de testes e no cache de dependências. Apresente as sugestões como um novo arquivo YAML completo."
+**3. CI/CD Pipeline Optimization (GitLab CI):**
+"Analyze the following `.gitlab-ci.yml` file (provided in the prompt). Suggest optimizations to reduce build time by 30%, focusing on test parallelization and dependency caching. Present the suggestions as a complete new YAML file."
 
-**4. Debugging de Logs (Kubernetes):**
-"Desenvolva um prompt para um LLM que analise os logs de erro do Kubernetes (fornecidos no prompt) de um pod que está falhando ao iniciar. O prompt deve solicitar a causa raiz mais provável e uma solução passo a passo para mitigar o erro, formatando a saída em JSON."
+**4. Log Debugging (Kubernetes):**
+"Develop a prompt for an LLM that analyzes the Kubernetes error logs (provided in the prompt) of a pod that is failing to start. The prompt should request the most likely root cause and a step-by-step solution to mitigate the error, formatting the output as JSON."
 
-**5. Análise de Segurança (Nginx):**
-"Atue como um Engenheiro de Segurança DevOps. Analise o seguinte arquivo de configuração do Nginx (fornecido no prompt). Sugira melhorias de segurança para mitigar ataques OWASP Top 10, como `clickjacking` e `XSS`, formatando a saída como um checklist de ações a serem tomadas."
+**5. Security Analysis (Nginx):**
+"Act as a DevOps Security Engineer. Analyze the following Nginx configuration file (provided in the prompt). Suggest security improvements to mitigate OWASP Top 10 attacks, such as `clickjacking` and `XSS`, formatting the output as a checklist of actions to be taken."
 
-**6. Automação de Tarefas Manuais (Python):**
-"Gere um script Python usando a biblioteca `boto3` para automatizar a rotação de chaves de acesso de um usuário IAM na AWS. O script deve criar uma nova chave, atualizar a chave em um sistema de gerenciamento de segredos (ex: AWS Secrets Manager) e revogar a chave antiga após 24 horas."
+**6. Manual Task Automation (Python):**
+"Generate a Python script using the `boto3` library to automate the rotation of access keys for an IAM user in AWS. The script must create a new key, update the key in a secrets management system (e.g., AWS Secrets Manager), and revoke the old key after 24 hours."
 
-**7. Geração de Testes de Unidade (Jest):**
-"Crie 5 casos de teste de unidade usando Jest para a seguinte função JavaScript (fornecida no prompt) que valida endereços de e-mail. Os testes devem cobrir casos de sucesso, falha, e-mails vazios e formatos inválidos."
+**7. Unit Test Generation (Jest):**
+"Create 5 unit test cases using Jest for the following JavaScript function (provided in the prompt) that validates email addresses. The tests should cover success cases, failure cases, empty emails, and invalid formats."
 ```
 
 ## Best Practices
-**1. Definição de Papel e Contexto:** Sempre comece o prompt definindo o papel da IA (ex: "Atue como um Engenheiro de Segurança DevOps") e forneça o máximo de contexto possível sobre o ambiente, tecnologia e objetivo.
-**2. Estrutura de Saída Explícita:** Especifique o formato de saída desejado (ex: "Gere o código em um bloco Markdown YAML", "Responda em formato JSON com os campos 'causa_raiz' e 'solução'").
-**3. Iteração e Refinamento:** Comece com prompts simples e adicione complexidade gradualmente. Use a saída anterior da IA como entrada para o próximo prompt para refinar o resultado.
-**4. Validação Rigorosa:** Nunca implemente código, scripts ou configurações geradas pela IA em ambientes de produção sem uma revisão e validação humana completa.
-**5. Inclusão de Restrições de Segurança:** Peça explicitamente à IA para seguir as melhores práticas de segurança (ex: "Garanta que o script não contenha credenciais em texto simples e siga o princípio do menor privilégio").
+**1. Role and Context Definition:** Always start the prompt by defining the AI's role (e.g., "Act as a DevOps Security Engineer") and provide as much context as possible about the environment, technology, and objective.
+**2. Explicit Output Structure:** Specify the desired output format (e.g., "Generate the code in a YAML Markdown block", "Respond in JSON format with the fields 'root_cause' and 'solution'").
+**3. Iteration and Refinement:** Start with simple prompts and add complexity gradually. Use the AI's previous output as input for the next prompt to refine the result.
+**4. Rigorous Validation:** Never deploy AI-generated code, scripts, or configurations to production environments without a complete human review and validation.
+**5. Inclusion of Security Constraints:** Explicitly ask the AI to follow security best practices (e.g., "Ensure the script does not contain plaintext credentials and follows the principle of least privilege").
 
 ## Use Cases
-**1. Otimização de Pipeline CI/CD:** Sugerir melhorias em arquivos YAML de pipeline (ex: Jenkins, GitLab CI, GitHub Actions) para reduzir o tempo de construção e aumentar a eficiência.
-**2. Geração de Infraestrutura como Código (IaC):** Criar ou modificar templates Terraform, CloudFormation ou Ansible Playbooks para provisionamento e gerenciamento de infraestrutura.
-**3. Debugging e Análise de Logs:** Analisar logs de erro complexos (ex: Kubernetes, logs de aplicação) para identificar a causa raiz de falhas e sugerir correções.
-**4. Geração de Código e Scripts:** Criar trechos de código, scripts Shell, Python ou PowerShell para automação de tarefas operacionais e rotinas de manutenção.
-**5. Segurança e Conformidade:** Identificar vulnerabilidades em configurações (ex: Nginx, Dockerfile) e gerar políticas de segurança ou scripts de auditoria.
-**6. Documentação Técnica:** Gerar documentação detalhada a partir de código-fonte, logs de implantação ou diagramas de arquitetura.
-**7. Monitoramento e Alerta:** Criar consultas e regras de alerta para ferramentas de monitoramento (ex: Prometheus, Grafana) com base em padrões de log ou métricas.
-**8. Otimização de Custos em Nuvem:** Analisar relatórios de uso de recursos em nuvem e sugerir otimizações para reduzir custos.
-**9. Resposta a Incidentes:** Analisar a linha do tempo de um incidente e sugerir etapas de mitigação e planos de ação pós-mortem.
-**10. Geração de Casos de Teste:** Criar casos de teste de unidade, integração ou carga para garantir a qualidade do software.
+**1. CI/CD Pipeline Optimization:** Suggest improvements to pipeline YAML files (e.g., Jenkins, GitLab CI, GitHub Actions) to reduce build time and increase efficiency.
+**2. Infrastructure as Code (IaC) Generation:** Create or modify Terraform templates, CloudFormation, or Ansible Playbooks for infrastructure provisioning and management.
+**3. Debugging and Log Analysis:** Analyze complex error logs (e.g., Kubernetes, application logs) to identify the root cause of failures and suggest fixes.
+**4. Code and Script Generation:** Create code snippets, Shell, Python, or PowerShell scripts to automate operational tasks and maintenance routines.
+**5. Security and Compliance:** Identify vulnerabilities in configurations (e.g., Nginx, Dockerfile) and generate security policies or audit scripts.
+**6. Technical Documentation:** Generate detailed documentation from source code, deployment logs, or architecture diagrams.
+**7. Monitoring and Alerting:** Create queries and alert rules for monitoring tools (e.g., Prometheus, Grafana) based on log patterns or metrics.
+**8. Cloud Cost Optimization:** Analyze cloud resource usage reports and suggest optimizations to reduce costs.
+**9. Incident Response:** Analyze an incident timeline and suggest mitigation steps and post-mortem action plans.
+**10. Test Case Generation:** Create unit, integration, or load test cases to ensure software quality.
 
 ## Pitfalls
-**1. Prompt Injection e Vazamento de Dados:** Expor logs, configurações ou segredos sensíveis no prompt para depuração, o que pode levar a vazamento de dados. Além disso, a vulnerabilidade a ataques de *Prompt Injection* pode levar à execução de código não autorizado.
-**2. Confiança Excessiva (Prompt and Pray):** Implementar cegamente a saída da IA (código, scripts, configurações) sem validação ou revisão humana, o que é crítico em ambientes de produção.
-**3. Vaguedade e Ambiguidade:** Prompts mal definidos que levam a saídas inconsistentes, irrelevantes ou incorretas, exigindo retrabalho.
-**4. Alucinações:** A IA pode gerar código ou informações factualmente incorretas que parecem plausíveis, mas não funcionam no ambiente real, causando falhas na implantação.
-**5. Sobrecarga de Tarefas:** Tentar resolver muitos problemas ou solicitar muitas tarefas em um único prompt, o que diminui a precisão e a qualidade da resposta da IA.
-**6. Código Inseguro:** A IA pode gerar código com vulnerabilidades de segurança se não for explicitamente instruída a seguir as melhores práticas de segurança (ex: permissões excessivas, senhas em texto simples).
+**1. Prompt Injection and Data Leakage:** Exposing sensitive logs, configurations, or secrets in the prompt for debugging, which can lead to data leakage. In addition, vulnerability to *Prompt Injection* attacks can lead to the execution of unauthorized code.
+**2. Excessive Trust (Prompt and Pray):** Blindly deploying the AI's output (code, scripts, configurations) without human validation or review, which is critical in production environments.
+**3. Vagueness and Ambiguity:** Poorly defined prompts that lead to inconsistent, irrelevant, or incorrect outputs, requiring rework.
+**4. Hallucinations:** The AI may generate factually incorrect code or information that seems plausible but does not work in the real environment, causing deployment failures.
+**5. Task Overload:** Trying to solve too many problems or requesting too many tasks in a single prompt, which reduces the accuracy and quality of the AI's response.
+**6. Insecure Code:** The AI may generate code with security vulnerabilities if not explicitly instructed to follow security best practices (e.g., excessive permissions, plaintext passwords).
 
 ## URL
 [https://marutitech.com/what-is-prompt-engineering-devops/](https://marutitech.com/what-is-prompt-engineering-devops/)

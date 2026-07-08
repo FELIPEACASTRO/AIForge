@@ -1,67 +1,69 @@
 # KPI Definition Prompts
 
 ## Description
-**KPI Definition Prompts** (Prompts de Definição de Indicadores-Chave de Performance) são uma técnica de Engenharia de Prompt que utiliza Modelos de Linguagem Grande (LLMs) para gerar, refinar ou validar Indicadores-Chave de Performance (KPIs) de forma mais **inteligente, adaptativa e preditiva**. \n\nEm vez de apenas pedir uma lista genérica de métricas, o prompt de definição de KPI é estruturado para fornecer o máximo de contexto estratégico (objetivos de negócio, OKRs, dados históricos, documentos de estratégia) para que a IA possa sugerir métricas que estejam profundamente alinhadas com os resultados desejados. A tendência mais recente (2024-2025) aponta para o uso de IA para criar **Smart KPIs** (KPIs Inteligentes) que são mais preditivos e ajudam a descobrir fontes de valor e diferenciação que métricas tradicionais poderiam ignorar. Essa técnica é fundamental para aprimorar a medição de desempenho e a tomada de decisões estratégicas em um ambiente de negócios cada vez mais orientado por dados.
+**KPI Definition Prompts** are a Prompt Engineering technique that uses Large Language Models (LLMs) to generate, refine, or validate Key Performance Indicators (KPIs) in a more **intelligent, adaptive, and predictive** way. \n\n
+
+Instead of merely asking for a generic list of metrics, the KPI definition prompt is structured to provide as much strategic context as possible (business objectives, OKRs, historical data, strategy documents) so that the AI can suggest metrics that are deeply aligned with the desired outcomes. The most recent trend (2024-2025) points to the use of AI to create **Smart KPIs** that are more predictive and help uncover sources of value and differentiation that traditional metrics might overlook. This technique is fundamental for enhancing performance measurement and strategic decision-making in an increasingly data-driven business environment.
 
 ## Examples
 ```
-**1. Definição de KPIs SMART a partir de OKR:**
+**1. Defining SMART KPIs from an OKR:**
 \`\`\`
-Aja como um Consultor de Estratégia de Produto. Nosso OKR para o próximo trimestre é: "Aumentar o Engajamento do Usuário e Reduzir o Churn em 15%".
-Gere 5 KPIs SMART (Específicos, Mensuráveis, Alcançáveis, Relevantes, Temporais) para a equipe de Produto que se alinhem diretamente a este OKR. Para cada KPI, forneça a métrica, a meta e a justificativa.
-\`\`\`
-
-**2. Revisão de KPIs com Base em Dados Históricos:**
-\`\`\`
-Analise o "Relatório de Desempenho de Marketing do 3º Trimestre" (dados anexados) e identifique os 3 KPIs atuais que são menos preditivos de sucesso de vendas.
-Sugira 3 novos KPIs "Smart" que incorporem a análise de comportamento do usuário (ex: tempo gasto em páginas de preço) e justifique como eles oferecem uma visão mais inteligente e preditiva do funil de vendas.
+Act as a Product Strategy Consultant. Our OKR for the next quarter is: "Increase User Engagement and Reduce Churn by 15%".
+Generate 5 SMART KPIs (Specific, Measurable, Achievable, Relevant, Time-bound) for the Product team that align directly with this OKR. For each KPI, provide the metric, the target, and the justification.
 \`\`\`
 
-**3. Criação de KPIs para uma Nova Iniciativa:**
+**2. Reviewing KPIs Based on Historical Data:**
 \`\`\`
-Estamos lançando um novo programa de treinamento interno focado em "Liderança Adaptativa".
-Defina 4 KPIs para medir o sucesso e o impacto deste programa no primeiro semestre. Os KPIs devem cobrir: 1) Engajamento no Treinamento, 2) Aplicação Prática das Habilidades e 3) Impacto no Desempenho da Equipe.
-\`\`\`
-
-**4. Adaptação de KPIs para um Novo Setor:**
-\`\`\`
-Nossa empresa está expandindo para o setor de SaaS B2B.
-Gere uma lista de 7 KPIs essenciais para monitorar a saúde financeira e operacional de um produto SaaS B2B nos primeiros 12 meses. Inclua métricas como CAC, LTV, Churn e MRR, e defina um benchmark de "bom" desempenho para cada uma.
+Analyze the "Q3 Marketing Performance Report" (data attached) and identify the 3 current KPIs that are least predictive of sales success.
+Suggest 3 new "Smart" KPIs that incorporate user behavior analysis (e.g., time spent on pricing pages) and justify how they offer a smarter and more predictive view of the sales funnel.
 \`\`\`
 
-**5. Validação de KPIs Existentes:**
+**3. Creating KPIs for a New Initiative:**
 \`\`\`
-Nossos KPIs atuais para o Sucesso do Cliente são: 1) Taxa de Resposta do Suporte e 2) NPS.
-Avalie a suficiência desses KPIs para medir a retenção de clientes a longo prazo. Sugira um KPI adicional que incorpore a frequência de uso do produto e aponte uma falha crítica na nossa abordagem atual.
+We are launching a new internal training program focused on "Adaptive Leadership".
+Define 4 KPIs to measure the success and impact of this program in the first half of the year. The KPIs should cover: 1) Training Engagement, 2) Practical Application of Skills, and 3) Impact on Team Performance.
 \`\`\`
 
-**6. Definição de KPIs para um Cargo Específico:**
+**4. Adapting KPIs for a New Sector:**
 \`\`\`
-Crie um conjunto de 5 KPIs de desempenho para um "Gerente de Conteúdo" que trabalha com SEO e Geração de Leads.
-Os KPIs devem ser acionáveis e refletir a contribuição direta do gerente para as metas de receita da empresa.
+Our company is expanding into the B2B SaaS sector.
+Generate a list of 7 essential KPIs to monitor the financial and operational health of a B2B SaaS product in the first 12 months. Include metrics such as CAC, LTV, Churn, and MRR, and define a benchmark for "good" performance for each one.
+\`\`\`
+
+**5. Validating Existing KPIs:**
+\`\`\`
+Our current KPIs for Customer Success are: 1) Support Response Rate and 2) NPS.
+Evaluate the sufficiency of these KPIs for measuring long-term customer retention. Suggest an additional KPI that incorporates product usage frequency and point out a critical flaw in our current approach.
+\`\`\`
+
+**6. Defining KPIs for a Specific Role:**
+\`\`\`
+Create a set of 5 performance KPIs for a "Content Manager" who works with SEO and Lead Generation.
+The KPIs should be actionable and reflect the manager's direct contribution to the company's revenue goals.
 \`\`\`
 ```
 
 ## Best Practices
-**1. Fornecer Contexto Estratégico Detalhado:** Sempre inclua o objetivo de negócio (ex: OKR, meta trimestral), o público-alvo, o setor e o período de tempo. A IA é mais eficaz quando entende o "porquê" por trás do KPI.
-**2. Exigir o Formato SMART:** Peça explicitamente que os KPIs sugeridos sigam o formato **S**pecific (Específico), **M**easurable (Mensurável), **A**chievable (Alcançável), **R**elevant (Relevante) e **T**ime-bound (Temporal).
-**3. Integrar Fontes de Dados:** Se possível, referencie documentos, relatórios ou dados (mesmo que hipotéticos) no prompt. Prompts que utilizam a capacidade de contexto da IA (como "analise o 'Relatório Q2' e sugira...") são mais poderosos.
-**4. Focar em KPIs Preditivos e Adaptativos:** Em vez de apenas métricas de vaidade (vanity metrics), peça à IA para sugerir métricas que ajudem a **prever** resultados futuros ou que se **adaptem** a mudanças no ambiente de negócios (Smart KPIs).
-**5. Pedir a Lógica da Sugestão:** Solicite que a IA justifique por que cada KPI sugerido é o mais relevante para o objetivo, garantindo que a saída não seja apenas uma lista, mas uma recomendação estratégica.
+**1. Provide Detailed Strategic Context:** Always include the business objective (e.g., OKR, quarterly target), the target audience, the sector, and the time period. The AI is most effective when it understands the "why" behind the KPI.
+**2. Require the SMART Format:** Explicitly ask that the suggested KPIs follow the **S**pecific, **M**easurable, **A**chievable, **R**elevant, and **T**ime-bound format.
+**3. Integrate Data Sources:** If possible, reference documents, reports, or data (even if hypothetical) in the prompt. Prompts that use the AI's context capacity (such as "analyze the 'Q2 Report' and suggest...") are more powerful.
+**4. Focus on Predictive and Adaptive KPIs:** Instead of just vanity metrics, ask the AI to suggest metrics that help **predict** future outcomes or that **adapt** to changes in the business environment (Smart KPIs).
+**5. Ask for the Logic Behind the Suggestion:** Request that the AI justify why each suggested KPI is the most relevant to the objective, ensuring that the output is not just a list, but a strategic recommendation.
 
 ## Use Cases
-**1. Alinhamento Estratégico:** Garantir que os KPIs de equipes ou departamentos estejam diretamente ligados aos Objetivos e Resultados-Chave (OKRs) da empresa.
-**2. Otimização de Métricas:** Revisar e refinar conjuntos de KPIs existentes para torná-los mais preditivos, acionáveis e menos suscetíveis a métricas de vaidade.
-**3. Lançamento de Produtos/Iniciativas:** Gerar um conjunto inicial de métricas de sucesso para novos produtos, campanhas de marketing ou projetos internos.
-**4. Análise Preditiva:** Criar KPIs que utilizam dados comportamentais ou contextuais para prever tendências futuras, em vez de apenas relatar o desempenho passado.
-**5. Definição de Desempenho de Cargos:** Estabelecer métricas de desempenho claras e justas para funções específicas (ex: Gerente de Produto, Especialista em SEO, Analista de Sucesso do Cliente).
+**1. Strategic Alignment:** Ensure that team or department KPIs are directly linked to the company's Objectives and Key Results (OKRs).
+**2. Metrics Optimization:** Review and refine existing KPI sets to make them more predictive, actionable, and less susceptible to vanity metrics.
+**3. Product/Initiative Launches:** Generate an initial set of success metrics for new products, marketing campaigns, or internal projects.
+**4. Predictive Analysis:** Create KPIs that use behavioral or contextual data to predict future trends, rather than just reporting past performance.
+**5. Defining Role Performance:** Establish clear and fair performance metrics for specific roles (e.g., Product Manager, SEO Specialist, Customer Success Analyst).
 
 ## Pitfalls
-**1. Confiança em KPIs Genéricos:** Pedir à IA para "definir KPIs de marketing" sem fornecer contexto resulta em métricas de vaidade (ex: curtidas, visualizações) que não se conectam a resultados de negócio.
-**2. Falta de Contexto de Dados:** Não integrar ou referenciar dados (mesmo que por meio de descrições textuais) impede a IA de sugerir KPIs verdadeiramente **adaptativos** ou de identificar métricas subvalorizadas (como o exemplo da Wayfair).
-**3. Ignorar a Estrutura SMART:** Se o prompt não exigir o formato SMART, a IA pode retornar métricas que são vagas ou impossíveis de medir, tornando-as inúteis para a gestão de desempenho.
-**4. Não Reexaminar Suposições:** O maior erro é usar a IA apenas para listar métricas, em vez de desafiar as métricas existentes. A IA deve ser usada para questionar se os KPIs atuais estão medindo o que realmente importa.
-**5. Não Definir a Persona da IA:** Não atribuir uma persona (ex: "Aja como um Analista de Dados Sênior" ou "Consultor de Estratégia") pode levar a respostas superficiais e menos especializadas.
+**1. Reliance on Generic KPIs:** Asking the AI to "define marketing KPIs" without providing context results in vanity metrics (e.g., likes, views) that do not connect to business outcomes.
+**2. Lack of Data Context:** Not integrating or referencing data (even through textual descriptions) prevents the AI from suggesting truly **adaptive** KPIs or identifying undervalued metrics (like the Wayfair example).
+**3. Ignoring the SMART Structure:** If the prompt does not require the SMART format, the AI may return metrics that are vague or impossible to measure, making them useless for performance management.
+**4. Not Re-examining Assumptions:** The biggest mistake is using AI only to list metrics, rather than to challenge existing metrics. AI should be used to question whether the current KPIs are measuring what really matters.
+**5. Not Defining the AI's Persona:** Not assigning a persona (e.g., "Act as a Senior Data Analyst" or "Strategy Consultant") can lead to superficial and less specialized responses.
 
 ## URL
 [https://sloanreview.mit.edu/projects/the-future-of-strategic-measurement-enhancing-kpis-with-ai/](https://sloanreview.mit.edu/projects/the-future-of-strategic-measurement-enhancing-kpis-with-ai/)

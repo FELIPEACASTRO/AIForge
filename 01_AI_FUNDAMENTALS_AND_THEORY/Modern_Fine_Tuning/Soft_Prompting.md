@@ -1,41 +1,41 @@
 # Soft Prompting
 
 ## Description
-Soft Prompting, ou "Prompting Suave", é uma técnica avançada de Engenharia de Prompt que se diferencia do Hard Prompting (prompts em linguagem natural) por não ser legível por humanos. Em vez de usar texto, o Soft Prompting utiliza **vetores de *embedding* contínuos e treináveis** que são concatenados à entrada do modelo de linguagem grande (LLM) antes do processamento. Esses vetores são otimizados por meio de um processo de ajuste fino (*fine-tuning*) leve, como o **Prompt Tuning** ou **Prefix Tuning**, para codificar o conhecimento da tarefa diretamente no espaço latente do modelo. O objetivo é guiar o comportamento do LLM para uma tarefa específica (como classificação ou sumarização) com alta precisão, sem a necessidade de ajustar todos os milhões de parâmetros do modelo base. É uma forma de adaptação de modelo que oferece um equilíbrio entre o ajuste fino completo (que é caro) e o prompting tradicional (que pode ser menos preciso para tarefas complexas). Sua principal característica é a **opacidade** e a **otimização automatizada** para desempenho em tarefas especializadas.
+Soft Prompting is an advanced Prompt Engineering technique that differs from Hard Prompting (natural-language prompts) by not being human-readable. Instead of using text, Soft Prompting uses **continuous, trainable *embedding* vectors** that are concatenated to the input of the large language model (LLM) before processing. These vectors are optimized through a lightweight *fine-tuning* process, such as **Prompt Tuning** or **Prefix Tuning**, to encode task knowledge directly into the model's latent space. The goal is to steer the LLM's behavior toward a specific task (such as classification or summarization) with high precision, without needing to adjust all of the base model's millions of parameters. It is a form of model adaptation that offers a balance between full fine-tuning (which is expensive) and traditional prompting (which can be less precise for complex tasks). Its main characteristics are **opacity** and **automated optimization** for performance on specialized tasks.
 
 ## Examples
 ```
-O Soft Prompting não é expresso em linguagem natural, mas sim como um conjunto de vetores numéricos (embeddings). Portanto, os exemplos abaixo são **conceituais**, ilustrando a intenção da otimização, e não o prompt em si.
+Soft Prompting is not expressed in natural language, but rather as a set of numerical vectors (embeddings). Therefore, the examples below are **conceptual**, illustrating the intent of the optimization, not the prompt itself.
 
-1.  **Classificação de Sentimento:**
-    *   **Intenção:** Otimizar o modelo para distinguir entre sarcasmo e ironia em avaliações de produtos.
-    *   **Representação Conceitual:** `[Soft Prompt Otimizado para Sarcasmo] + "O produto é 'ótimo', demorou apenas 3 meses para chegar."`
+1.  **Sentiment Classification:**
+    *   **Intent:** Optimize the model to distinguish between sarcasm and irony in product reviews.
+    *   **Conceptual Representation:** `[Soft Prompt Optimized for Sarcasm] + "The product is 'great', it only took 3 months to arrive."`
 
-2.  **Sumarização Extrativa:**
-    *   **Intenção:** Otimizar o modelo para priorizar a extração de datas e nomes de entidades em relatórios financeiros longos.
-    *   **Representação Conceitual:** `[Soft Prompt Focado em Entidades Financeiras] + "Sumarize o relatório anual da empresa X."`
+2.  **Extractive Summarization:**
+    *   **Intent:** Optimize the model to prioritize the extraction of dates and entity names in long financial reports.
+    *   **Conceptual Representation:** `[Soft Prompt Focused on Financial Entities] + "Summarize company X's annual report."`
 
-3.  **Tradução Específica de Domínio:**
-    *   **Intenção:** Otimizar a tradução de termos médicos complexos (e.g., de inglês para português) com alta fidelidade terminológica.
-    *   **Representação Conceitual:** `[Soft Prompt de Tradução Médica] + "Translate 'myocardial infarction' to Portuguese."`
+3.  **Domain-Specific Translation:**
+    *   **Intent:** Optimize the translation of complex medical terms (e.g., from English to Portuguese) with high terminological fidelity.
+    *   **Conceptual Representation:** `[Soft Prompt for Medical Translation] + "Translate 'myocardial infarction' to Portuguese."`
 
-4.  **Geração de Código:**
-    *   **Intenção:** Otimizar o modelo para gerar código Python seguindo estritamente o padrão de estilo PEP 8.
-    *   **Representação Conceitual:** `[Soft Prompt de Conformidade PEP 8] + "Write a Python function to calculate the factorial of a number."`
+4.  **Code Generation:**
+    *   **Intent:** Optimize the model to generate Python code strictly following the PEP 8 style standard.
+    *   **Conceptual Representation:** `[Soft Prompt for PEP 8 Compliance] + "Write a Python function to calculate the factorial of a number."`
 
-5.  **Resposta a Perguntas (QA):**
-    *   **Intenção:** Otimizar o modelo para ser mais cauteloso e citar fontes internas ao responder perguntas sobre regulamentações legais.
-    *   **Representação Conceitual:** `[Soft Prompt de Cautela Legal e Citação] + "Quais são os requisitos de conformidade para o GDPR?"`
+5.  **Question Answering (QA):**
+    *   **Intent:** Optimize the model to be more cautious and cite internal sources when answering questions about legal regulations.
+    *   **Conceptual Representation:** `[Soft Prompt for Legal Caution and Citation] + "What are the compliance requirements for GDPR?"`
 ```
 
 ## Best Practices
-**1. Integração com Prompting Rígido (Hard Prompting):** Combine a precisão do Soft Prompting (para tarefas específicas) com a interpretabilidade e o controle do Hard Prompting (para instruções gerais e restrições de formato). **2. Otimização Contínua:** O Soft Prompt deve ser tratado como um hiperparâmetro que requer otimização contínua e revalidação à medida que o modelo base ou a distribuição dos dados da tarefa mudam. **3. Foco em Tarefas de Alta Precisão:** Reserve o Soft Prompting para tarefas onde a precisão e a otimização de recursos são críticas, como classificação de texto em larga escala ou análise de sentimentos sutil. **4. Validação Cruzada Rigorosa:** Devido à sua natureza não interpretável, é crucial validar o desempenho do Soft Prompt em um conjunto de dados de teste robusto para garantir que a otimização não tenha levado a um *overfitting* (sobreajuste) excessivo.
+**1. Integration with Hard Prompting:** Combine the precision of Soft Prompting (for specific tasks) with the interpretability and control of Hard Prompting (for general instructions and format constraints). **2. Continuous Optimization:** The Soft Prompt should be treated as a hyperparameter that requires continuous optimization and revalidation as the base model or the task's data distribution changes. **3. Focus on High-Precision Tasks:** Reserve Soft Prompting for tasks where precision and resource optimization are critical, such as large-scale text classification or subtle sentiment analysis. **4. Rigorous Cross-Validation:** Due to its non-interpretable nature, it is crucial to validate the Soft Prompt's performance on a robust test dataset to ensure that the optimization has not led to excessive *overfitting*.
 
 ## Use Cases
-**1. Adaptação Rápida a Novas Tarefas (Prompt Tuning):** É o principal caso de uso, permitindo que LLMs sejam rapidamente adaptados a novas tarefas de *downstream* (como classificação de 100 categorias de texto) com um custo computacional muito menor do que o ajuste fino completo. **2. Otimização de Recursos em Produção:** Em ambientes de produção com restrições de latência e memória, o Soft Prompting permite que um único modelo base seja adaptado a múltiplas tarefas sem a necessidade de implantar várias instâncias de modelos totalmente ajustados. **3. Tarefas de Alta Precisão e Nuance:** Usado em tarefas onde a linguagem natural (Hard Prompt) não consegue capturar a nuance necessária, como a detecção de *hate speech* sutil ou a identificação de entidades em textos altamente técnicos. **4. Preservação do Conhecimento Geral:** Ao ajustar apenas os vetores de prompt e não os pesos do modelo, o Soft Prompting ajuda a preservar o conhecimento geral e as capacidades do modelo base, evitando o fenômeno de "catastrophic forgetting" (esquecimento catastrófico) comum no ajuste fino completo.
+**1. Rapid Adaptation to New Tasks (Prompt Tuning):** This is the primary use case, allowing LLMs to be quickly adapted to new *downstream* tasks (such as classifying 100 text categories) at a much lower computational cost than full fine-tuning. **2. Resource Optimization in Production:** In production environments with latency and memory constraints, Soft Prompting allows a single base model to be adapted to multiple tasks without needing to deploy several fully-tuned model instances. **3. High-Precision and Nuanced Tasks:** Used in tasks where natural language (Hard Prompt) cannot capture the required nuance, such as detecting subtle *hate speech* or identifying entities in highly technical texts. **4. Preservation of General Knowledge:** By tuning only the prompt vectors and not the model weights, Soft Prompting helps preserve the general knowledge and capabilities of the base model, avoiding the "catastrophic forgetting" phenomenon common in full fine-tuning.
 
 ## Pitfalls
-**1. Falta de Interpretabilidade (Opacidade):** A natureza não legível por humanos dos vetores de embedding torna impossível inspecionar ou depurar o prompt diretamente, dificultando a compreensão de por que o modelo falhou. **2. Risco de Overfitting:** O Soft Prompt é ajustado para um conjunto de dados de treinamento específico. Se o conjunto de dados for pequeno ou não representativo, o prompt pode se tornar excessivamente ajustado (*overfitted*), falhando em generalizar para novos dados. **3. Dependência do Modelo Base:** O Soft Prompt é intrinsecamente ligado ao modelo de linguagem para o qual foi treinado. Ele não pode ser transferido para um modelo diferente (mesmo que seja da mesma família) sem um novo processo de ajuste. **4. Necessidade de Infraestrutura de Treinamento:** Ao contrário do Hard Prompting, que requer apenas um editor de texto, o Soft Prompting exige um pipeline de treinamento (hardware, dados rotulados, código de otimização) para gerar os vetores de embedding.
+**1. Lack of Interpretability (Opacity):** The non-human-readable nature of the embedding vectors makes it impossible to inspect or debug the prompt directly, hindering understanding of why the model failed. **2. Risk of Overfitting:** The Soft Prompt is tuned to a specific training dataset. If the dataset is small or unrepresentative, the prompt may become *overfitted*, failing to generalize to new data. **3. Base Model Dependence:** The Soft Prompt is intrinsically tied to the language model it was trained for. It cannot be transferred to a different model (even one from the same family) without a new tuning process. **4. Need for Training Infrastructure:** Unlike Hard Prompting, which only requires a text editor, Soft Prompting demands a training pipeline (hardware, labeled data, optimization code) to generate the embedding vectors.
 
 ## URL
 [https://futureagi.com/blogs/hard-prompt-vs-soft-prompt-2025](https://futureagi.com/blogs/hard-prompt-vs-soft-prompt-2025)

@@ -1,49 +1,49 @@
 # Market Research Prompts
 
 ## Description
-**Prompts de Pesquisa de Mercado** são instruções estruturadas e detalhadas fornecidas a modelos de Linguagem Grande (LLMs) para automatizar, acelerar e aprofundar diversas etapas do processo de pesquisa de mercado. Eles transformam a IA em um assistente de pesquisa, capaz de analisar grandes volumes de dados textuais (como avaliações de clientes, relatórios de tendências, sites de concorrentes e notícias do setor) para gerar insights sobre segmentação de público, análise competitiva, tendências de mercado, precificação e testes de mensagens. A eficácia desses prompts reside na sua capacidade de simular o raciocínio de um analista, exigindo que a IA assuma um **papel** (ex: "Aja como um analista de mercado sênior"), defina um **objetivo** claro e utilize **dados de entrada** específicos para produzir um **resultado estruturado e acionável**.
+**Market Research Prompts** are structured, detailed instructions given to Large Language Models (LLMs) to automate, accelerate, and deepen various stages of the market research process. They turn the AI into a research assistant, capable of analyzing large volumes of textual data (such as customer reviews, trend reports, competitor websites, and industry news) to generate insights on audience segmentation, competitive analysis, market trends, pricing, and message testing. The effectiveness of these prompts lies in their ability to simulate an analyst's reasoning, requiring the AI to assume a **role** (e.g., "Act as a senior market analyst"), define a clear **objective**, and use specific **input data** to produce a **structured, actionable result**.
 
 ## Examples
 ```
-**1. Análise de Concorrentes (SWOT)**
-*Prompt:* "Aja como um analista de mercado sênior. Realize uma análise SWOT detalhada sobre a [Empresa Concorrente X] no mercado de [Indústria Y]. Concentre-se em seus pontos fortes e fracos em relação à inovação de produtos e presença digital. Apresente os resultados em uma tabela de quatro quadrantes e, em seguida, sugira uma estratégia de diferenciação para a nossa empresa, [Nossa Empresa Z]."
+**1. Competitor Analysis (SWOT)**
+*Prompt:* "Act as a senior market analyst. Perform a detailed SWOT analysis of [Competitor Company X] in the [Industry Y] market. Focus on its strengths and weaknesses regarding product innovation and digital presence. Present the results in a four-quadrant table and then suggest a differentiation strategy for our company, [Our Company Z]."
 
-**2. Segmentação de Público-Alvo (Persona)**
-*Prompt:* "Com base em avaliações de clientes e discussões online sobre [Produto/Serviço], crie três personas de cliente ideais. Para cada persona, inclua: Nome, Demografia, Principais Dores (Pain Points), Objetivos (Goals) e uma Citação que resuma sua mentalidade. O formato deve ser um perfil detalhado para cada persona."
+**2. Target Audience Segmentation (Persona)**
+*Prompt:* "Based on customer reviews and online discussions about [Product/Service], create three ideal customer personas. For each persona, include: Name, Demographics, Main Pain Points, Goals, and a Quote that summarizes their mindset. The format should be a detailed profile for each persona."
 
-**3. Identificação de Tendências de Mercado**
-*Prompt:* "Analise as notícias do setor, relatórios de investimento e lançamentos de produtos dos últimos 12 meses na [Indústria]. Identifique as 5 principais tendências emergentes e classifique-as por potencial de impacto. Para cada tendência, explique o que a está impulsionando e como ela pode afetar [Nosso Produto/Serviço] nos próximos 2 anos."
+**3. Market Trend Identification**
+*Prompt:* "Analyze the industry news, investment reports, and product launches from the last 12 months in [Industry]. Identify the top 5 emerging trends and rank them by potential impact. For each trend, explain what is driving it and how it may affect [Our Product/Service] over the next 2 years."
 
-**4. Análise de Precificação Competitiva**
-*Prompt:* "Compare a estrutura de preços dos [3 principais concorrentes] para [Tipo de Produto/Serviço]. Crie uma tabela comparativa que inclua: Modelo de Preço (ex: Assinatura, Freemium), Preço do Nível Básico, Preço do Nível Premium e os principais recursos incluídos em cada nível. Com base nisso, identifique uma lacuna de preço ou valor que possamos explorar."
+**4. Competitive Pricing Analysis**
+*Prompt:* "Compare the pricing structure of the [top 3 competitors] for [Type of Product/Service]. Create a comparison table that includes: Pricing Model (e.g., Subscription, Freemium), Basic Tier Price, Premium Tier Price, and the main features included in each tier. Based on this, identify a price or value gap we can exploit."
 
-**5. Teste de Mensagem e Proposta de Valor**
-*Prompt:* "Avalie a seguinte Proposta de Valor: '[Insira a Proposta de Valor]'. Aja como um cliente cético do [Público-Alvo]. Identifique se a mensagem é clara, persuasiva e se aborda uma dor real. Sugira 3 variações da mensagem que aumentem a clareza e o apelo emocional."
+**5. Message and Value Proposition Testing**
+*Prompt:* "Evaluate the following Value Proposition: '[Insert Value Proposition]'. Act as a skeptical customer from [Target Audience]. Determine whether the message is clear, persuasive, and whether it addresses a real pain point. Suggest 3 variations of the message that increase clarity and emotional appeal."
 
-**6. Estimativa de Mercado (TAM, SAM, SOM)**
-*Prompt:* "Estime o Mercado Total Endereçável (TAM), o Mercado Disponível Atendível (SAM) e o Mercado Obtível Atendível (SOM) para [Produto/Serviço] na [Região Geográfica]. Use dados de crescimento da indústria e taxas de adoção. Apresente os resultados em um resumo executivo com as premissas utilizadas para cada estimativa."
+**6. Market Sizing (TAM, SAM, SOM)**
+*Prompt:* "Estimate the Total Addressable Market (TAM), the Serviceable Available Market (SAM), and the Serviceable Obtainable Market (SOM) for [Product/Service] in the [Geographic Region]. Use industry growth data and adoption rates. Present the results in an executive summary with the assumptions used for each estimate."
 ```
 
 ## Best Practices
-**1. Contextualização Detalhada:** Sempre forneça o máximo de contexto possível (indústria, público-alvo, produto, concorrentes, objetivos da pesquisa). A IA não pode inferir o que você não explicitou.
-**2. Definição Clara do Output:** Especifique o formato de saída desejado (tabela, lista, resumo, análise SWOT, etc.) e o nível de detalhe.
-**3. Validação Cruzada (Cross-Validation):** Nunca confie cegamente nos dados gerados pela IA. Use-os como ponto de partida e valide as informações com dados primários (entrevistas, pesquisas) e secundários (relatórios de mercado confiáveis).
-**4. Iteração e Refinamento:** Comece com prompts amplos e, em seguida, use prompts de acompanhamento para aprofundar em áreas específicas (ex: "Agora, analise o ponto fraco X em mais detalhes").
-**5. Foco em Ação (Actionability):** Peça à IA para não apenas analisar, mas também sugerir implicações e próximas etapas. Ex: "Com base nesta análise, quais são as 3 principais recomendações estratégicas?"
+**1. Detailed Contextualization:** Always provide as much context as possible (industry, target audience, product, competitors, research objectives). The AI cannot infer what you have not made explicit.
+**2. Clear Output Definition:** Specify the desired output format (table, list, summary, SWOT analysis, etc.) and the level of detail.
+**3. Cross-Validation:** Never blindly trust the data generated by the AI. Use it as a starting point and validate the information with primary data (interviews, surveys) and secondary data (reliable market reports).
+**4. Iteration and Refinement:** Start with broad prompts and then use follow-up prompts to dig deeper into specific areas (e.g., "Now, analyze weakness X in more detail").
+**5. Focus on Actionability:** Ask the AI not only to analyze, but also to suggest implications and next steps. E.g., "Based on this analysis, what are the top 3 strategic recommendations?"
 
 ## Use Cases
-**1. Análise Competitiva Rápida:** Gerar análises SWOT, identificar lacunas de mercado e comparar estratégias de precificação e posicionamento de concorrentes em minutos.
-**2. Desenvolvimento de Personas:** Criar perfis detalhados de clientes ideais e não ideais com base em dados de comportamento e sentimentos online.
-**3. Previsão e Identificação de Tendências:** Rastrear e resumir as principais mudanças regulatórias, tecnológicas e de consumo em um setor específico.
-**4. Teste de Mensagens e Copywriting:** Avaliar a clareza, o apelo emocional e a eficácia de diferentes propostas de valor, slogans e CTAs (Call-to-Actions) antes de um lançamento.
-**5. Estudo de Viabilidade:** Obter estimativas iniciais de Mercado Total Endereçável (TAM) e segmentação para novos produtos ou expansão geográfica.
+**1. Rapid Competitive Analysis:** Generate SWOT analyses, identify market gaps, and compare competitors' pricing and positioning strategies in minutes.
+**2. Persona Development:** Create detailed profiles of ideal and non-ideal customers based on behavioral data and online sentiment.
+**3. Trend Forecasting and Identification:** Track and summarize the main regulatory, technological, and consumer changes in a specific sector.
+**4. Message and Copywriting Testing:** Evaluate the clarity, emotional appeal, and effectiveness of different value propositions, slogans, and CTAs (Call-to-Actions) before a launch.
+**5. Feasibility Study:** Obtain initial Total Addressable Market (TAM) estimates and segmentation for new products or geographic expansion.
 
 ## Pitfalls
-**1. Confiança Excessiva em Dados de Treinamento:** A IA é treinada em dados históricos e pode não ter acesso a dados de mercado em tempo real ou muito específicos. Isso pode levar a insights desatualizados ou genéricos.
-**2. Viés de Confirmação (Confirmation Bias):** Prompts mal formulados podem levar a IA a apenas confirmar as crenças existentes do pesquisador, em vez de desafiá-las.
-**3. Falta de Contexto Específico:** Não fornecer detalhes suficientes sobre o nicho de mercado, o público-alvo ou os objetivos da pesquisa resulta em respostas superficiais e inutilizáveis.
-**4. Generalização de Dados Qualitativos:** A IA pode resumir avaliações de clientes, mas não pode substituir a profundidade e o *insight* humano de uma entrevista qualitativa bem conduzida.
-**5. Alucinações e Fatos Inventados:** A IA pode "alucinar" dados estatísticos, nomes de concorrentes ou tendências. A validação cruzada é crucial para evitar a tomada de decisões baseada em informações falsas.
+**1. Overreliance on Training Data:** The AI is trained on historical data and may not have access to real-time or very specific market data. This can lead to outdated or generic insights.
+**2. Confirmation Bias:** Poorly formulated prompts can lead the AI to merely confirm the researcher's existing beliefs, rather than challenge them.
+**3. Lack of Specific Context:** Failing to provide sufficient detail about the market niche, target audience, or research objectives results in superficial and unusable responses.
+**4. Generalization of Qualitative Data:** The AI can summarize customer reviews, but it cannot replace the depth and human *insight* of a well-conducted qualitative interview.
+**5. Hallucinations and Invented Facts:** The AI may "hallucinate" statistical data, competitor names, or trends. Cross-validation is crucial to avoid making decisions based on false information.
 
 ## URL
 [https://team-gpt.com/blog/chatgpt-prompts-for-market-research](https://team-gpt.com/blog/chatgpt-prompts-for-market-research)

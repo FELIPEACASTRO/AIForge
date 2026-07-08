@@ -1,59 +1,59 @@
 # Code Review Prompts
 
 ## Description
-**Code Review Prompts** (Prompts de Revisão de Código) são instruções estruturadas e detalhadas fornecidas a um Large Language Model (LLM) para que ele execute uma análise crítica e construtiva de um trecho de código. O objetivo é automatizar ou auxiliar o processo de revisão de Pull Requests (PRs) ou commits, identificando problemas de qualidade, bugs, vulnerabilidades de segurança, ineficiências de desempenho e inconsistências de estilo [1] [2]. Essa técnica transforma o LLM de um simples gerador de texto em um assistente de engenharia de software, capaz de aplicar regras de negócio e padrões de codificação específicos, desde que o prompt forneça o contexto e as restrições necessárias [2]. A eficácia reside na capacidade de especificar o **papel** do LLM (ex: "Engenheiro Sênior de Segurança"), o **foco** da revisão (ex: "apenas performance") e o **formato** de saída desejado [1].
+**Code Review Prompts** are structured and detailed instructions provided to a Large Language Model (LLM) so that it performs a critical and constructive analysis of a code snippet. The goal is to automate or assist the process of reviewing Pull Requests (PRs) or commits, identifying quality problems, bugs, security vulnerabilities, performance inefficiencies, and style inconsistencies [1] [2]. This technique transforms the LLM from a simple text generator into a software engineering assistant, capable of applying specific business rules and coding standards, as long as the prompt provides the necessary context and constraints [2]. The effectiveness lies in the ability to specify the LLM's **role** (e.g., "Senior Security Engineer"), the **focus** of the review (e.g., "performance only"), and the desired output **format** [1].
 
 ## Examples
 ```
-**1. Revisão de Segurança (OWASP Top 10):**
+**1. Security Review (OWASP Top 10):**
 
 ```
-Você é um Engenheiro Sênior de Segurança. Analise o código a seguir (linguagem: Python, framework: Django) estritamente sob a ótica das vulnerabilidades do OWASP Top 10. Para cada vulnerabilidade encontrada, forneça: a linha exata, uma explicação do risco e o código de correção sugerido. Se não houver vulnerabilidades, responda apenas 'Nenhuma vulnerabilidade de segurança crítica encontrada.'
+You are a Senior Security Engineer. Analyze the following code (language: Python, framework: Django) strictly from the perspective of the OWASP Top 10 vulnerabilities. For each vulnerability found, provide: the exact line, an explanation of the risk, and the suggested fix code. If there are no vulnerabilities, respond only with 'No critical security vulnerabilities found.'
 
-[CÓDIGO AQUI]
+[CODE HERE]
 ```
 
-**2. Revisão de Performance e Algoritmo:**
+**2. Performance and Algorithm Review:**
 
 ```
-Atue como um especialista em otimização de performance. Revise a função [NOME DA FUNÇÃO] em [LINGUAGEM] para identificar gargalos de desempenho e ineficiências algorítmicas (complexidade O(n)). Sugira refatorações que melhorem a eficiência, justificando a nova complexidade. O foco é reduzir o uso de CPU e memória.
+Act as a performance optimization specialist. Review the function [FUNCTION NAME] in [LANGUAGE] to identify performance bottlenecks and algorithmic inefficiencies (O(n) complexity). Suggest refactorings that improve efficiency, justifying the new complexity. The focus is to reduce CPU and memory usage.
 
-[CÓDIGO AQUI]
+[CODE HERE]
 ```
 
-**3. Revisão de Estilo e Padrões de Código (Clean Code):**
+**3. Style and Code Standards Review (Clean Code):**
 
 ```
-Você é o revisor de código responsável por manter a consistência do nosso codebase. Avalie o código em relação aos princípios de Clean Code e ao padrão de nomenclatura CamelCase. Verifique: 1. Nomes de variáveis e funções são claros? 2. A função faz apenas uma coisa (Princípio da Responsabilidade Única)? 3. Há comentários desnecessários ou código morto? Retorne as sugestões em formato de lista numerada.
+You are the code reviewer responsible for maintaining the consistency of our codebase. Evaluate the code against Clean Code principles and the CamelCase naming standard. Check: 1. Are variable and function names clear? 2. Does the function do only one thing (Single Responsibility Principle)? 3. Are there unnecessary comments or dead code? Return the suggestions in a numbered list format.
 
-[CÓDIGO AQUI]
+[CODE HERE]
 ```
 
-**4. Revisão de Testes Unitários (Test Coverage):**
+**4. Unit Test Review (Test Coverage):**
 
 ```
-O código a seguir é um novo módulo em [LINGUAGEM]. Revise os testes unitários fornecidos. Identifique quaisquer casos de borda (edge cases) que não foram cobertos e escreva os testes unitários adicionais necessários para atingir 100% de cobertura de linha. Use o framework [NOME DO FRAMEWORK DE TESTE].
+The following code is a new module in [LANGUAGE]. Review the provided unit tests. Identify any edge cases that were not covered and write the additional unit tests needed to reach 100% line coverage. Use the [TEST FRAMEWORK NAME] framework.
 
-[CÓDIGO AQUI]
+[CODE HERE]
 ```
 
-**5. Revisão de Arquitetura e Manutenibilidade:**
+**5. Architecture and Maintainability Review:**
 
 ```
-Analise o código como um Arquiteto de Software. O objetivo desta revisão é garantir a manutenibilidade e a modularidade. O código adere ao padrão de projeto [NOME DO PADRÃO, ex: MVC]? Há alto acoplamento ou baixa coesão? Sugira refatorações para desacoplar componentes, se necessário.
+Analyze the code as a Software Architect. The goal of this review is to ensure maintainability and modularity. Does the code adhere to the [PATTERN NAME, e.g., MVC] design pattern? Is there high coupling or low cohesion? Suggest refactorings to decouple components, if necessary.
 
-[CÓDIGO AQUI]
+[CODE HERE]
 ```
 ```
 
 ## Best Practices
-**Seja Específico e Contextual:** O prompt deve incluir o máximo de contexto possível, como o objetivo da mudança, o framework/linguagem, e as regras de estilo da equipe. Use a arquitetura **HITL (Human-in-the-Loop)**, onde a IA gera um rascunho de revisão e o revisor humano aprova, edita ou rejeita as sugestões, fornecendo um loop de feedback contínuo [2]. **Force o Formato de Saída:** Peça à LLM para retornar a revisão em um formato estruturado (como JSON ou Markdown com seções claras) para facilitar a análise e a integração em pipelines de CI/CD [2]. **Restrição de Escopo e Risco:** Para grandes bases de código, inclua apenas o diff e o contexto imediato (cabeçalho do arquivo, imports). Use tokens de risco (`HIGH_RISK`) para arquivos sensíveis (ex: criptografia, SQL) para que a LLM aplique heurísticas mais rigorosas [2]. **Verificação de Conformidade:** Incorpore listas de verificação obrigatórias (ex: "Nenhum segredo hard-coded", "Uso de `try-catch-finally`") diretamente no prompt para garantir a conformidade regulatória e de segurança [2].
+**Be Specific and Contextual:** The prompt should include as much context as possible, such as the goal of the change, the framework/language, and the team's style rules. Use the **HITL (Human-in-the-Loop)** architecture, where the AI generates a review draft and the human reviewer approves, edits, or rejects the suggestions, providing a continuous feedback loop [2]. **Force the Output Format:** Ask the LLM to return the review in a structured format (such as JSON or Markdown with clear sections) to facilitate analysis and integration into CI/CD pipelines [2]. **Scope and Risk Constraint:** For large code bases, include only the diff and the immediate context (file header, imports). Use risk tokens (`HIGH_RISK`) for sensitive files (e.g., cryptography, SQL) so that the LLM applies stricter heuristics [2]. **Compliance Verification:** Incorporate mandatory checklists (e.g., "No hard-coded secrets", "Use of `try-catch-finally`") directly into the prompt to ensure regulatory and security compliance [2].
 
 ## Use Cases
-**Aceleração do Ciclo de Revisão:** Redução do tempo de espera por revisões, permitindo que a LLM trie e pré-aprove mudanças de baixo risco (ex: documentação) e sinalize apenas PRs de alto risco para revisão humana [2]. **Garantia de Consistência:** Aplicação uniforme de regras de estilo, padrões de nomenclatura e heurísticas de segurança em toda a base de código, superando a inconsistência entre revisores humanos [2]. **Mentoria Instantânea e Onboarding:** Fornecimento de feedback educacional instantâneo para desenvolvedores juniores, explicando o "porquê" por trás das sugestões de refatoração, acelerando a transferência de conhecimento [2]. **Detecção de Vulnerabilidades:** Combinação de análise estática com raciocínio de LLM para identificar vulnerabilidades de segurança (SQLi, XSS) e violações de conformidade (ex: GDPR) que linters tradicionais podem perder [2]. **Codificação de Conhecimento Tribal:** Incorporação de padrões internos e conhecimento tácito da equipe (ex: "sempre usar `await` em `fetch` neste repositório") no prompt da LLM, preservando a expertise mesmo com a saída de engenheiros sêniores [2].
+**Review Cycle Acceleration:** Reduction of waiting time for reviews, allowing the LLM to triage and pre-approve low-risk changes (e.g., documentation) and flag only high-risk PRs for human review [2]. **Consistency Assurance:** Uniform application of style rules, naming standards, and security heuristics across the entire code base, overcoming inconsistency between human reviewers [2]. **Instant Mentorship and Onboarding:** Providing instant educational feedback for junior developers, explaining the "why" behind refactoring suggestions, accelerating knowledge transfer [2]. **Vulnerability Detection:** Combining static analysis with LLM reasoning to identify security vulnerabilities (SQLi, XSS) and compliance violations (e.g., GDPR) that traditional linters may miss [2]. **Codifying Tribal Knowledge:** Incorporating internal standards and the team's tacit knowledge (e.g., "always use `await` in `fetch` in this repository") into the LLM's prompt, preserving expertise even as senior engineers leave [2].
 
 ## Pitfalls
-**Falsos Positivos/Negativos:** A LLM pode sinalizar código inofensivo ou, pior, ignorar um bug crítico (alucinação), levando à **fadiga de alerta** e à desconfiança do revisor humano [2]. **Cegueira de Contexto:** O modelo pode sugerir mudanças que quebram contratos de domínio ou regras de negócio porque o prompt continha apenas o diff, e não o grafo de chamadas completo ou a configuração de tempo de execução [2]. **Vazamento de Segurança e Privacidade:** Enviar código sensível (ex: chaves de API) para LLMs hospedadas por terceiros pode violar a conformidade (GDPR, HIPAA) se não houver um Acordo de Processamento de Dados (DPA) adequado [2]. **Erosão de Habilidade:** A dependência excessiva da IA pode levar à **erosão das habilidades** de revisão e depuração dos desenvolvedores, especialmente os juniores, que param de aprender a ler erros de compilador e a pensar criticamente sobre o código [2]. **Viés e Estilo Obsoleto:** O modelo pode impor um estilo de codificação herdado de seu treinamento ou de um prompt desatualizado, causando atrito com as convenções em evolução da equipe [2].
+**False Positives/Negatives:** The LLM may flag harmless code or, worse, ignore a critical bug (hallucination), leading to **alert fatigue** and distrust from the human reviewer [2]. **Context Blindness:** The model may suggest changes that break domain contracts or business rules because the prompt contained only the diff, and not the complete call graph or runtime configuration [2]. **Security and Privacy Leakage:** Sending sensitive code (e.g., API keys) to third-party hosted LLMs may violate compliance (GDPR, HIPAA) if there is no adequate Data Processing Agreement (DPA) [2]. **Skill Erosion:** Excessive dependence on AI can lead to the **erosion of the skills** of developers in reviewing and debugging, especially juniors, who stop learning to read compiler errors and to think critically about code [2]. **Bias and Obsolete Style:** The model may impose a coding style inherited from its training or from an outdated prompt, causing friction with the team's evolving conventions [2].
 
 ## URL
 [https://dev.to/dixitgurv/ai-assisted-code-review-opportunities-and-pitfalls-llp](https://dev.to/dixitgurv/ai-assisted-code-review-opportunities-and-pitfalls-llp)

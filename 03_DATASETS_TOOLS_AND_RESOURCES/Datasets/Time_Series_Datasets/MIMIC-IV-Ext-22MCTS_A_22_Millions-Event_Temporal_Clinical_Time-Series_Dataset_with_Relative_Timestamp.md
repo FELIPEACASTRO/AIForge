@@ -2,47 +2,47 @@
 
 ## Description
 
-O MIMIC-IV-Ext-22MCTS é um conjunto de dados de eventos clínicos temporais em série temporal, com informações temporais concretas. É derivado do **MIMIC-IV-Note**, que contém notas clínicas desidentificadas. Este dataset foi criado para facilitar a modelagem de eventos clínicos temporais, extraindo eventos clínicos como pequenos trechos de texto e seus respectivos *timestamps* relativos a partir de sumários de alta, utilizando técnicas de recuperação contextual e o modelo Llama-3.1-8B. O *timestamp* é dado em horas, sendo negativo para eventos históricos (antes da admissão) e positivo para eventos durante ou após a admissão. O dataset também inclui uma coluna `Time_bin` que discretiza o tempo em 9 categorias predefinidas. É um recurso valioso para pré-treinamento e tarefas de aprendizado semi-supervisionado ou com supervisão fraca.
+MIMIC-IV-Ext-22MCTS is a temporal clinical event time-series dataset with concrete temporal information. It is derived from **MIMIC-IV-Note**, which contains de-identified clinical notes. This dataset was created to facilitate the modeling of temporal clinical events, extracting clinical events as short text spans and their respective *timestamps* relative to discharge summaries, using contextual retrieval techniques and the Llama-3.1-8B model. The *timestamp* is given in hours, being negative for historical events (before admission) and positive for events during or after admission. The dataset also includes a `Time_bin` column that discretizes time into 9 predefined categories. It is a valuable resource for pre-training and semi-supervised or weakly-supervised learning tasks.
 
 ## Statistics
 
-**Total de Sumários de Alta:** 267.284
-**Total de Registros (Pares Evento-Timestamp):** 22.588.586
-**Eventos por Sumário (Mín/Máx):** 1 / 244
-**Eventos por Sumário (Média):** 84
-**Distribuição Temporal dos Eventos:**
-- Antes da admissão (Histórico): 36.99%
-- Durante a admissão: 51.19%
-- Após a alta (Futuro): 11.80%
-**Tokens por Evento (Média):** 3
-**Tokens por Evento (Máx):** 299
-**Publicação:** Setembro de 2025 (Versão 1.0.0)
+**Total Discharge Summaries:** 267,284
+**Total Records (Event-Timestamp Pairs):** 22,588,586
+**Events per Summary (Min/Max):** 1 / 244
+**Events per Summary (Average):** 84
+**Temporal Distribution of Events:**
+- Before admission (Historical): 36.99%
+- During admission: 51.19%
+- After discharge (Future): 11.80%
+**Tokens per Event (Average):** 3
+**Tokens per Event (Max):** 299
+**Publication:** September 2025 (Version 1.0.0)
 
 ## Features
 
-**Dados de Eventos Clínicos Temporais:** Consiste em eventos clínicos extraídos de sumários de alta, cada um associado a um *timestamp* relativo.
-**Timestamp Relativo:** O tempo é medido em horas, relativo ao momento da admissão.
-**Discretização Temporal (`Time_bin`):** O tempo contínuo é mapeado em 9 categorias discretas (Bins), facilitando a modelagem temporal.
-**Fonte:** Derivado do dataset MIMIC-IV-Note, garantindo a base em dados clínicos reais e desidentificados.
-**Aplicações de *Fine-tuning*:** Utilizado para *fine-tuning* de modelos como BERT e GPT-2 para tarefas de P&R e correspondência de ensaios clínicos.
+**Temporal Clinical Event Data:** Consists of clinical events extracted from discharge summaries, each associated with a relative *timestamp*.
+**Relative Timestamp:** Time is measured in hours, relative to the moment of admission.
+**Temporal Discretization (`Time_bin`):** Continuous time is mapped into 9 discrete categories (Bins), facilitating temporal modeling.
+**Source:** Derived from the MIMIC-IV-Note dataset, ensuring grounding in real and de-identified clinical data.
+***Fine-tuning* Applications:** Used for *fine-tuning* models such as BERT and GPT-2 for Q&A tasks and clinical trial matching.
 
 ## Use Cases
 
-**Pré-treinamento de Modelos de Linguagem (LLMs):** Ideal para pré-treinar modelos como GPT-2 para gerar saídas mais orientadas clinicamente.
-**Modelagem de Eventos Clínicos Temporais:** Utilizado para desenvolver e testar modelos que preveem a sequência e o tempo de eventos clínicos.
-**Correspondência de Ensaios Clínicos:** *Fine-tuning* de modelos (ex: BERT) para melhorar a correspondência de pacientes com critérios de ensaios clínicos.
-**Previsão de Risco Clínico:** Embora com limitações para avaliação de alto risco devido à falta de rótulos de verdade fundamental (*Ground Truth*), é útil para tarefas de modelagem preditiva e aprendizado semi-supervisionado.
+**Pre-training of Language Models (LLMs):** Ideal for pre-training models such as GPT-2 to generate more clinically oriented outputs.
+**Temporal Clinical Event Modeling:** Used to develop and test models that predict the sequence and timing of clinical events.
+**Clinical Trial Matching:** *Fine-tuning* models (e.g., BERT) to improve the matching of patients with clinical trial criteria.
+**Clinical Risk Prediction:** Although with limitations for high-risk assessment due to the lack of *Ground Truth* labels, it is useful for predictive modeling and semi-supervised learning tasks.
 
 ## Integration
 
-O dataset está disponível no PhysioNet e requer **acesso credenciado** (Credentialed Access) para download, seguindo as políticas de uso do PhysioNet.
-O acesso geralmente envolve a conclusão de um curso de treinamento em proteção de dados humanos e a assinatura de um Acordo de Uso de Dados (DUA).
-**Estrutura da Tabela:**
-- `Hadm_id`: Identificador único para cada sumário de alta.
-- `Event`: O evento clínico em formato de texto.
-- `Time`: O *timestamp* do evento em horas (contínuo).
-- `Time_bin`: A categoria discreta do *timestamp* (0 a 8).
-O código relacionado para *fine-tuning* de modelos (como BERT) para explorar a relação causal entre eventos clínicos está **disponível publicamente** (embora o URL específico não tenha sido fornecido na página de resumo).
+The dataset is available on PhysioNet and requires **Credentialed Access** for download, following PhysioNet's usage policies.
+Access generally involves completing a training course on human data protection and signing a Data Use Agreement (DUA).
+**Table Structure:**
+- `Hadm_id`: Unique identifier for each discharge summary.
+- `Event`: The clinical event in text format.
+- `Time`: The event *timestamp* in hours (continuous).
+- `Time_bin`: The discrete category of the *timestamp* (0 to 8).
+The related code for *fine-tuning* models (such as BERT) to explore the causal relationship between clinical events is **publicly available** (although the specific URL was not provided on the summary page).
 
 ## URL
 

@@ -1,32 +1,32 @@
 # Pew Research Center Survey Datasets
 
 ## Description
-O Pew Research Center é um *think tank* não partidário que informa o público sobre as questões, atitudes e tendências que moldam o mundo. Os **Survey Datasets** (Conjuntos de Dados de Pesquisa) do Pew Research Center são coleções de microdados em nível de caso, provenientes de suas pesquisas de opinião pública e estudos demográficos. Estes dados abrangem uma vasta gama de tópicos, incluindo política, religião, tendências sociais, internet e tecnologia, e questões globais. Os dados são disponibilizados ao público para análise secundária após um período de tempo, permitindo que pesquisadores, acadêmicos e o público em geral realizem suas próprias análises. O acesso é gratuito, mas requer um registro de conta no site.
+The Pew Research Center is a nonpartisan *think tank* that informs the public about the issues, attitudes, and trends shaping the world. The Pew Research Center's **Survey Datasets** are collections of case-level microdata drawn from its public opinion surveys and demographic studies. This data covers a wide range of topics, including politics, religion, social trends, internet and technology, and global affairs. The data is made available to the public for secondary analysis after a period of time, allowing researchers, academics, and the general public to conduct their own analyses. Access is free but requires registering an account on the site.
 
 ## Statistics
-**Número de Datasets:** Mais de 1000 conjuntos de dados disponíveis para download (em Novembro de 2025).
-**Formato:** Arquivos SPSS (.sav) dentro de um arquivo compactado (.zip).
-**Versões:** Os dados são lançados continuamente, refletindo as pesquisas mais recentes. Por exemplo, o "Spring 2024 Survey Data" foi lançado em 2025.
-**Tamanho/Amostras:** Variável por pesquisa. Por exemplo, o *American Trends Panel* é uma amostra representativa nacional de adultos dos EUA, com o número de amostras (casos) variando por onda de pesquisa (tipicamente milhares de respondentes). O *Religious Landscape Survey* de 2023-24 inclui mais de 35.000 americanos.
+**Number of Datasets:** More than 1,000 datasets available for download (as of November 2025).
+**Format:** SPSS (.sav) files within a compressed (.zip) file.
+**Versions:** The data is released continuously, reflecting the most recent surveys. For example, the "Spring 2024 Survey Data" was released in 2025.
+**Size/Samples:** Varies by survey. For example, the *American Trends Panel* is a nationally representative sample of U.S. adults, with the number of samples (cases) varying by survey wave (typically thousands of respondents). The 2023-24 *Religious Landscape Survey* includes more than 35,000 Americans.
 
 ## Features
-Os conjuntos de dados são fornecidos como arquivos **SPSS (.sav)**, que são amplamente utilizados em ciências sociais. Cada download é um arquivo compactado (.zip) que inclui:
-1.  **Dataset (.sav):** O arquivo de microdados em nível de caso.
-2.  **Questionário Completo:** O instrumento de pesquisa original.
-3.  **Codebook:** Um manual que detalha as variáveis, seus valores e a metodologia de amostragem.
-Os arquivos de dados incluem **variáveis de peso** (*weight variables*) que devem ser usadas na análise para garantir a representatividade da amostra. Os dados cobrem pesquisas nos EUA (como o *American Trends Panel*) e estudos globais.
+The datasets are provided as **SPSS (.sav)** files, which are widely used in the social sciences. Each download is a compressed (.zip) file that includes:
+1.  **Dataset (.sav):** The case-level microdata file.
+2.  **Complete Questionnaire:** The original survey instrument.
+3.  **Codebook:** A manual detailing the variables, their values, and the sampling methodology.
+The data files include **weight variables** that must be used in the analysis to ensure the representativeness of the sample. The data covers U.S. surveys (such as the *American Trends Panel*) and global studies.
 
 ## Use Cases
-**Pesquisa Acadêmica:** Análise de tendências sociais, políticas e religiosas em longo prazo.
-**Jornalismo de Dados:** Criação de reportagens e visualizações baseadas em dados de opinião pública.
-**Ciência de Dados e IA:** Utilização de dados de pesquisa para treinar modelos de processamento de linguagem natural (NLP) em tarefas de análise de sentimento ou classificação de tópicos, ou para estudos de viés e representatividade em IA.
-**Políticas Públicas:** Informar o debate e a formulação de políticas com base nas atitudes e crenças do público.
+**Academic Research:** Analysis of long-term social, political, and religious trends.
+**Data Journalism:** Creation of reports and visualizations based on public opinion data.
+**Data Science and AI:** Use of survey data to train natural language processing (NLP) models for sentiment analysis or topic classification tasks, or for studies of bias and representativeness in AI.
+**Public Policy:** Informing debate and policymaking based on the attitudes and beliefs of the public.
 
 ## Integration
-1.  **Acesso:** Os dados são acessíveis através da seção "Datasets" no site do Pew Research Center.
-2.  **Registro:** É necessário **criar uma conta gratuita** no site para poder baixar os arquivos.
-3.  **Download:** Após o login, o usuário pode baixar o arquivo compactado (.zip) que contém o dataset (.sav), o questionário e o codebook.
-4.  **Uso:** O arquivo `.sav` é nativo do software estatístico **SPSS**, mas pode ser lido por outros softwares de análise estatística como **R** (usando pacotes como `haven` ou o pacote `Pew Research Methods R package` oficial), **Python** (usando bibliotecas como `pandas` com `pyreadstat`), ou **Stata**. O Codebook é essencial para a correta interpretação das variáveis e aplicação das variáveis de peso.
+1.  **Access:** The data is accessible through the "Datasets" section on the Pew Research Center website.
+2.  **Registration:** You must **create a free account** on the site in order to download the files.
+3.  **Download:** After logging in, the user can download the compressed (.zip) file containing the dataset (.sav), the questionnaire, and the codebook.
+4.  **Use:** The `.sav` file is native to the **SPSS** statistical software, but it can be read by other statistical analysis software such as **R** (using packages like `haven` or the official `Pew Research Methods R package`), **Python** (using libraries such as `pandas` with `pyreadstat`), or **Stata**. The Codebook is essential for the correct interpretation of the variables and the application of the weight variables.
 
 ## URL
 [https://www.pewresearch.org/datasets/](https://www.pewresearch.org/datasets/)

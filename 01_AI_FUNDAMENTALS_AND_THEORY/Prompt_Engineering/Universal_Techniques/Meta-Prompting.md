@@ -1,102 +1,102 @@
 # Meta-Prompting
 
 ## Description
-**Meta-Prompting** é uma técnica avançada de Engenharia de Prompt que se concentra nos aspectos estruturais e sintáticos das tarefas, em vez de detalhes específicos do conteúdo. Em sua definição formal, um Meta Prompt é um prompt estruturado, agnóstico a exemplos, que fornece um andaime para capturar a estrutura de raciocínio de uma categoria de tarefas, focando no *como* o problema deve ser resolvido, e não no *o quê* [1]. Em um contexto prático, a técnica envolve o uso de um Modelo de Linguagem Grande (LLM), geralmente um mais capaz (o Meta-LLM), para gerar, refinar ou otimizar prompts para outro LLM (o LLM alvo), garantindo que o prompt final seja mais eficaz e force uma saída de alta qualidade e estrutura consistente [2]. As principais características incluem ser orientado à estrutura, focado na sintaxe, usar exemplos abstratos e ter uma abordagem categórica, o que o torna mais eficiente em termos de tokens e mais justo para comparação de modelos do que o Few-Shot Prompting [3].
+**Meta-Prompting** is an advanced Prompt Engineering technique that focuses on the structural and syntactic aspects of tasks, rather than content-specific details. In its formal definition, a Meta Prompt is a structured, example-agnostic prompt that provides a scaffold for capturing the reasoning structure of a category of tasks, focusing on *how* the problem should be solved, not on *what* [1]. In a practical context, the technique involves using a Large Language Model (LLM), usually a more capable one (the Meta-LLM), to generate, refine, or optimize prompts for another LLM (the target LLM), ensuring that the final prompt is more effective and forces a high-quality output with a consistent structure [2]. Its main characteristics include being structure-oriented, syntax-focused, using abstract examples, and having a categorical approach, which makes it more token-efficient and fairer for model comparison than Few-Shot Prompting [3].
 
 ## Examples
 ```
-**Exemplo 1: Otimização de Prompt (Geral)**
+**Example 1: Prompt Optimization (General)**
 
-**Meta-Prompt (Input para o Meta-LLM):**
+**Meta-Prompt (Input for the Meta-LLM):**
 ```
 """
-Você é um Engenheiro de Prompt de nível sênior. Sua tarefa é analisar o 'PROMPT INICIAL' abaixo e reescrevê-lo para maximizar a qualidade e a criatividade da resposta de um LLM.
+You are a senior-level Prompt Engineer. Your task is to analyze the 'INITIAL PROMPT' below and rewrite it to maximize the quality and creativity of an LLM's response.
 
-Instruções para a reescrita:
-1. Adicione uma persona detalhada (ex: 'escritor de ficção científica premiado').
-2. Defina o formato de saída (ex: 'um conto de 500 palavras').
-3. Inclua restrições de estilo (ex: 'tom melancólico, com reviravolta no final').
-4. O prompt final deve ser autocontido e não deve conter estas instruções.
+Instructions for the rewrite:
+1. Add a detailed persona (e.g., 'award-winning science fiction writer').
+2. Define the output format (e.g., 'a 500-word short story').
+3. Include style constraints (e.g., 'melancholic tone, with a twist at the end').
+4. The final prompt must be self-contained and must not contain these instructions.
 
-PROMPT INICIAL:
-"Escreva sobre um robô que se sente sozinho."
+INITIAL PROMPT:
+"Write about a robot that feels lonely."
 
-Retorne apenas o prompt otimizado.
-"""
-```
-
-**Exemplo 2: Estrutura de Saída (JSON Schema)**
-
-**Meta-Prompt (Input para o Meta-LLM):**
-```
-"""
-Crie um prompt para um LLM que garanta que a saída seja uma lista de tarefas (to-do list) para um projeto de desenvolvimento de software, estritamente no formato JSON.
-
-O prompt deve incluir:
-1. A instrução para usar o formato JSON.
-2. O esquema JSON obrigatório: um array de objetos, onde cada objeto tem as chaves 'id' (integer), 'tarefa' (string), 'prioridade' (string: 'Alta', 'Média', 'Baixa') e 'status' (string: 'Pendente', 'Em Progresso', 'Concluído').
-3. A tarefa a ser processada: "Planejar o lançamento de um novo aplicativo de produtividade."
-
-Retorne apenas o prompt final, incluindo o esquema JSON como parte das instruções.
+Return only the optimized prompt.
 """
 ```
 
-**Exemplo 3: Decomposição de Tarefas (Chain-of-Thought Forçado)**
+**Example 2: Output Structure (JSON Schema)**
 
-**Meta-Prompt (Input para o Meta-LLM):**
+**Meta-Prompt (Input for the Meta-LLM):**
 ```
 """
-Crie um prompt que instrua o LLM a resolver o seguinte problema de lógica, utilizando obrigatoriamente a técnica de Chain-of-Thought (CoT) antes de fornecer a resposta final.
+Create a prompt for an LLM that ensures the output is a to-do list for a software development project, strictly in JSON format.
 
-Problema: "Se um trem viaja a 60 km/h e percorre 300 km, e um segundo trem viaja a 90 km/h e percorre 450 km, qual trem chegou primeiro se ambos partiram ao mesmo tempo?"
+The prompt should include:
+1. The instruction to use the JSON format.
+2. The mandatory JSON schema: an array of objects, where each object has the keys 'id' (integer), 'task' (string), 'priority' (string: 'High', 'Medium', 'Low'), and 'status' (string: 'Pending', 'In Progress', 'Done').
+3. The task to be processed: "Plan the launch of a new productivity app."
 
-O prompt deve ter duas seções claras: 'Passos de Raciocínio' e 'Resposta Final'.
-"""
-```
-
-**Exemplo 4: Criação de Persona e Restrições de Linguagem**
-
-**Meta-Prompt (Input para o Meta-LLM):**
-```
-"""
-Gere um prompt para um LLM que o instrua a atuar como um 'Consultor de Segurança Cibernética Sênior'.
-
-O prompt deve impor as seguintes restrições:
-1. O tom deve ser extremamente formal e técnico.
-2. O vocabulário deve ser especializado em segurança da informação (ex: 'criptografia', 'vetor de ataque', 'zero-day').
-3. A tarefa é: "Explicar os riscos de segurança de uma rede Wi-Fi pública."
-
-Retorne apenas o prompt de persona e tarefa.
+Return only the final prompt, including the JSON schema as part of the instructions.
 """
 ```
 
-**Exemplo 5: Meta-Prompting para Geração de Prompt Multilíngue**
+**Example 3: Task Decomposition (Forced Chain-of-Thought)**
 
-**Meta-Prompt (Input para o Meta-LLM):**
+**Meta-Prompt (Input for the Meta-LLM):**
 ```
 """
-Traduza e otimize o 'PROMPT INICIAL' em inglês para o português.
+Create a prompt that instructs the LLM to solve the following logic problem, mandatorily using the Chain-of-Thought (CoT) technique before providing the final answer.
 
-Otimização obrigatória:
-1. O prompt em português deve instruir o LLM a formatar a resposta final em uma tabela Markdown.
-2. A tabela deve ter colunas para 'Conceito' e 'Definição'.
+Problem: "If a train travels at 60 km/h and covers 300 km, and a second train travels at 90 km/h and covers 450 km, which train arrived first if both departed at the same time?"
 
-PROMPT INICIAL:
+The prompt should have two clear sections: 'Reasoning Steps' and 'Final Answer'.
+"""
+```
+
+**Example 4: Persona Creation and Language Constraints**
+
+**Meta-Prompt (Input for the Meta-LLM):**
+```
+"""
+Generate a prompt for an LLM that instructs it to act as a 'Senior Cybersecurity Consultant'.
+
+The prompt should impose the following constraints:
+1. The tone should be extremely formal and technical.
+2. The vocabulary should be specialized in information security (e.g., 'cryptography', 'attack vector', 'zero-day').
+3. The task is: "Explain the security risks of a public Wi-Fi network."
+
+Return only the persona and task prompt.
+"""
+```
+
+**Example 5: Meta-Prompting for Multilingual Prompt Generation**
+
+**Meta-Prompt (Input for the Meta-LLM):**
+```
+"""
+Translate and optimize the 'INITIAL PROMPT' from English into Portuguese.
+
+Mandatory optimization:
+1. The Portuguese prompt should instruct the LLM to format the final response in a Markdown table.
+2. The table should have columns for 'Concept' and 'Definition'.
+
+INITIAL PROMPT:
 "Explain the concept of quantum entanglement in simple terms."
 
-Retorne apenas o prompt otimizado em português.
+Return only the optimized prompt in Portuguese.
 """
 ```
 ```
 
 ## Best Practices
-**Foco na Estrutura e Sintaxe**: Priorize a definição de formato, persona e restrições de saída (JSON, tabelas, CoT) no Meta-Prompt, em vez de apenas o conteúdo. **Utilize um Meta-LLM Superior**: Sempre que possível, use um modelo de linguagem mais avançado e capaz (o Meta-LLM) para gerar ou refinar prompts para modelos menos potentes, garantindo maior qualidade e complexidade no prompt final. **Clareza e Especificidade**: O Meta-Prompt deve ser extremamente claro sobre o objetivo da otimização e as restrições que o prompt gerado deve impor ao LLM alvo. **Decomposição de Tarefas**: Use o Meta-Prompting para forçar a decomposição de problemas complexos em etapas de raciocínio claras (como o Chain-of-Thought), melhorando a precisão da resposta.
+**Focus on Structure and Syntax**: Prioritize defining the format, persona, and output constraints (JSON, tables, CoT) in the Meta-Prompt, rather than just the content. **Use a Superior Meta-LLM**: Whenever possible, use a more advanced and capable language model (the Meta-LLM) to generate or refine prompts for less powerful models, ensuring higher quality and complexity in the final prompt. **Clarity and Specificity**: The Meta-Prompt should be extremely clear about the optimization objective and the constraints that the generated prompt should impose on the target LLM. **Task Decomposition**: Use Meta-Prompting to force the decomposition of complex problems into clear reasoning steps (such as Chain-of-Thought), improving the accuracy of the response.
 
 ## Use Cases
-**Otimização de Prompt**: Geração de prompts mais eficazes e detalhados a partir de prompts simples ou vagos. **Padronização de Saída**: Forçar o LLM alvo a produzir respostas em formatos estritos e consistentes, como JSON, XML ou tabelas Markdown, essencial para integração com sistemas de software. **Decomposição de Problemas Complexos**: Estruturar o prompt para obrigar o LLM a seguir um processo de raciocínio passo a passo (Chain-of-Thought), melhorando a precisão em tarefas de lógica, matemática e codificação. **Criação de Prompts para Múltiplos Modelos**: Gerar prompts otimizados para diferentes modelos de LLM (ex: um prompt para um modelo rápido e outro para um modelo mais lento, mas mais preciso). **Refinamento de Persona e Estilo**: Definir e impor persona, tom e vocabulário específicos para a resposta do LLM alvo.
+**Prompt Optimization**: Generating more effective and detailed prompts from simple or vague ones. **Output Standardization**: Forcing the target LLM to produce responses in strict and consistent formats, such as JSON, XML, or Markdown tables, essential for integration with software systems. **Decomposition of Complex Problems**: Structuring the prompt to require the LLM to follow a step-by-step reasoning process (Chain-of-Thought), improving accuracy in logic, mathematics, and coding tasks. **Creating Prompts for Multiple Models**: Generating optimized prompts for different LLM models (e.g., one prompt for a fast model and another for a slower but more accurate model). **Persona and Style Refinement**: Defining and imposing a specific persona, tone, and vocabulary for the target LLM's response.
 
 ## Pitfalls
-**Meta-Prompt Vago**: Se o Meta-Prompt não for específico sobre o objetivo da otimização ou as restrições de saída, o prompt gerado pode não ser significativamente melhor do que o original. **Custo e Latência Elevados**: O uso de um LLM mais capaz (Meta-LLM) para gerar o prompt aumenta o custo e a latência da chamada total, pois são necessárias duas chamadas de API (uma para gerar o prompt e outra para executá-lo). **Dependência do Meta-LLM**: A qualidade do prompt final é altamente dependente da capacidade e do desempenho do LLM usado para gerar o Meta-Prompt. **Conhecimento Inato Presumido**: A técnica assume que o LLM alvo possui o conhecimento inato necessário para a tarefa; o desempenho pode deteriorar em tarefas muito únicas ou novas, assemelhando-se ao Zero-Shot Prompting [3].
+**Vague Meta-Prompt**: If the Meta-Prompt is not specific about the optimization objective or the output constraints, the generated prompt may not be significantly better than the original. **High Cost and Latency**: Using a more capable LLM (Meta-LLM) to generate the prompt increases the cost and latency of the overall call, since two API calls are required (one to generate the prompt and another to execute it). **Dependence on the Meta-LLM**: The quality of the final prompt is highly dependent on the capability and performance of the LLM used to generate the Meta-Prompt. **Presumed Innate Knowledge**: The technique assumes that the target LLM possesses the innate knowledge required for the task; performance may deteriorate on very unique or novel tasks, resembling Zero-Shot Prompting [3].
 
 ## URL
 [https://arxiv.org/html/2311.11482v7](https://arxiv.org/html/2311.11482v7)

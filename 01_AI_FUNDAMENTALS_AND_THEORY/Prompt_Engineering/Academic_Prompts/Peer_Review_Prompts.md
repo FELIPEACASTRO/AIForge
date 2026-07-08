@@ -1,99 +1,99 @@
 # Peer Review Prompts
 
 ## Description
-A técnica **Peer Review Prompts** (Prompts de Revisão por Pares) consiste em instruir um Large Language Model (LLM) a assumir o papel de um revisor ou crítico especializado para analisar um artefato (texto, código, design, etc.) e fornecer feedback estruturado, construtivo e acionável. Em vez de apenas pedir uma "revisão", o prompt define explicitamente a **persona do revisor**, os **critérios de avaliação** (checklist), o **formato de saída** desejado (e.g., pontos fortes, pontos fracos, sugestões de melhoria) e o **foco da análise** (e.g., coesão, segurança, usabilidade). Isso transforma o LLM de um gerador de conteúdo para um assistente de avaliação crítica, permitindo que o usuário desenvolva seu próprio julgamento retórico ao comparar o feedback da IA com o de revisores humanos. É uma técnica fundamental para aprimorar a qualidade de textos, códigos e designs, utilizando a IA como um par de olhos experiente e metódico.
+The **Peer Review Prompts** technique consists of instructing a Large Language Model (LLM) to take on the role of a specialized reviewer or critic to analyze an artifact (text, code, design, etc.) and provide structured, constructive, and actionable feedback. Instead of simply asking for a "review", the prompt explicitly defines the **reviewer's persona**, the **evaluation criteria** (checklist), the desired **output format** (e.g., strengths, weaknesses, improvement suggestions), and the **focus of the analysis** (e.g., cohesion, security, usability). This transforms the LLM from a content generator into a critical evaluation assistant, allowing the user to develop their own rhetorical judgment by comparing the AI's feedback with that of human reviewers. It is a fundamental technique for improving the quality of texts, code, and designs, using the AI as an experienced and methodical extra pair of eyes.
 
 ## Examples
 ```
-**Exemplo 1: Revisão de Ensaio Acadêmico**
+**Example 1: Academic Essay Review**
 ```
-**Persona:** Você é um Professor de Retórica e Composição com 20 anos de experiência.
-**Tarefa:** Revise o ensaio do aluno abaixo e forneça feedback construtivo.
+**Persona:** You are a Professor of Rhetoric and Composition with 20 years of experience.
+**Task:** Review the student essay below and provide constructive feedback.
 **Checklist:**
-1.  **Tese:** A tese é clara, específica e defensável?
-2.  **Evidência:** Cada ponto principal é suportado por evidências sólidas e citadas corretamente?
-3.  **Coerência:** A transição entre os parágrafos é suave e a estrutura lógica é clara?
-**Formato de Saída:**
-1.  **Resumo da Avaliação:** (Nota geral e ponto principal de melhoria)
-2.  **Comentários Específicos:** (3-5 observações numeradas, citando a linha ou seção do texto)
-3.  **Sugestão de Revisão:** (Uma ação acionável para a próxima etapa)
+1.  **Thesis:** Is the thesis clear, specific, and defensible?
+2.  **Evidence:** Is each main point supported by solid evidence that is correctly cited?
+3.  **Coherence:** Are the transitions between paragraphs smooth and is the logical structure clear?
+**Output Format:**
+1.  **Evaluation Summary:** (Overall grade and main point for improvement)
+2.  **Specific Comments:** (3-5 numbered observations, citing the line or section of the text)
+3.  **Revision Suggestion:** (One actionable step for the next stage)
 
-[COLE O ENSAIO AQUI]
+[PASTE THE ESSAY HERE]
 ```
 
-**Exemplo 2: Revisão de Código (Python)**
+**Example 2: Code Review (Python)**
 ```
-**Persona:** Você é um Engenheiro de Software Sênior especializado em Python e segurança.
-**Tarefa:** Analise o trecho de código Python para segurança, performance e aderência ao PEP 8.
+**Persona:** You are a Senior Software Engineer specialized in Python and security.
+**Task:** Analyze the Python code snippet for security, performance, and PEP 8 compliance.
 **Checklist:**
-1.  **Segurança:** Existem vulnerabilidades como injeção de SQL, exposição de segredos ou uso inseguro de bibliotecas?
-2.  **Performance:** Há loops ineficientes, consultas desnecessárias ou oportunidades de otimização de complexidade O(n)?
-3.  **Estilo (PEP 8):** O código segue as convenções de nomenclatura e formatação do PEP 8?
-**Formato de Saída:**
-1.  **Pontos Críticos (Bloqueadores):** (Erros de segurança ou bugs)
-2.  **Sugestões de Refatoração:** (Melhorias de performance e clareza)
-3.  **Comentários de Estilo:** (Ajustes de formatação com base no PEP 8)
+1.  **Security:** Are there vulnerabilities such as SQL injection, exposure of secrets, or insecure use of libraries?
+2.  **Performance:** Are there inefficient loops, unnecessary queries, or opportunities for O(n) complexity optimization?
+3.  **Style (PEP 8):** Does the code follow PEP 8 naming and formatting conventions?
+**Output Format:**
+1.  **Critical Issues (Blockers):** (Security errors or bugs)
+2.  **Refactoring Suggestions:** (Performance and clarity improvements)
+3.  **Style Comments:** (Formatting adjustments based on PEP 8)
 
-[COLE O CÓDIGO PYTHON AQUI]
+[PASTE THE PYTHON CODE HERE]
 ```
 
-**Exemplo 3: Crítica de Design UX/UI**
+**Example 3: UX/UI Design Critique**
 ```
-**Persona:** Você é um Especialista em UX/UI focado em acessibilidade e usabilidade móvel.
-**Tarefa:** Revise o wireframe (descrito abaixo) para a tela de checkout de um aplicativo de e-commerce.
+**Persona:** You are a UX/UI Specialist focused on accessibility and mobile usability.
+**Task:** Review the wireframe (described below) for the checkout screen of an e-commerce application.
 **Checklist:**
-1.  **Usabilidade:** O fluxo de checkout é intuitivo e minimiza a carga cognitiva?
-2.  **Acessibilidade (WCAG):** O contraste de cores é adequado e os elementos de toque são grandes o suficiente?
-3.  **Consistência:** O design segue padrões de interface conhecidos e consistentes com o restante do aplicativo?
-**Formato de Saída:**
-1.  **Problemas de Usabilidade (Prioridade Alta):** (Descreva o problema e o impacto no usuário)
-2.  **Melhorias de Acessibilidade:** (Sugestões específicas com base em WCAG)
-3.  **Elogios:** (O que funciona bem no design)
+1.  **Usability:** Is the checkout flow intuitive and does it minimize cognitive load?
+2.  **Accessibility (WCAG):** Is the color contrast adequate and are the touch elements large enough?
+3.  **Consistency:** Does the design follow known interface patterns that are consistent with the rest of the application?
+**Output Format:**
+1.  **Usability Issues (High Priority):** (Describe the problem and the impact on the user)
+2.  **Accessibility Improvements:** (Specific suggestions based on WCAG)
+3.  **Praise:** (What works well in the design)
 
-[DESCRIÇÃO DO WIREFRAME AQUI]
+[WIREFRAME DESCRIPTION HERE]
 ```
 
-**Exemplo 4: Revisão de Documentação Técnica**
+**Example 4: Technical Documentation Review**
 ```
-**Persona:** Você é um Editor Técnico com foco em clareza e precisão para um público de desenvolvedores juniores.
-**Tarefa:** Revise o seguinte trecho de documentação da API.
+**Persona:** You are a Technical Editor focused on clarity and accuracy for an audience of junior developers.
+**Task:** Review the following API documentation excerpt.
 **Checklist:**
-1.  **Precisão Técnica:** Os exemplos de código e as descrições dos parâmetros estão 100% corretos e atualizados?
-2.  **Clareza e Simplicidade:** A linguagem é direta e evita jargões desnecessários? O público júnior entenderá?
-3.  **Estrutura:** O uso de títulos, listas e blocos de código está formatado corretamente para facilitar a leitura?
-**Formato de Saída:**
-1.  **Pontos Fortes:** (Onde a documentação é excelente)
-2.  **Revisões Necessárias:** (Sugestões de reescrita para clareza, com a frase original e a sugestão)
-3.  **Verificação de Fatos:** (Quaisquer afirmações técnicas que precisam de dupla checagem)
+1.  **Technical Accuracy:** Are the code examples and parameter descriptions 100% correct and up to date?
+2.  **Clarity and Simplicity:** Is the language direct and does it avoid unnecessary jargon? Will the junior audience understand it?
+3.  **Structure:** Are headings, lists, and code blocks formatted correctly to make reading easier?
+**Output Format:**
+1.  **Strengths:** (Where the documentation excels)
+2.  **Required Revisions:** (Rewrite suggestions for clarity, with the original sentence and the suggestion)
+3.  **Fact Check:** (Any technical claims that need double-checking)
 
-[COLE O TRECHO DA DOCUMENTAÇÃO AQUI]
+[PASTE THE DOCUMENTATION EXCERPT HERE]
 ```
 
-**Exemplo 5: Revisão de Prompt (Metaprompting)**
+**Example 5: Prompt Review (Metaprompting)**
 ```
-**Persona:** Você é um Engenheiro de Prompt Sênior.
-**Tarefa:** Analise o prompt abaixo para clareza, especificidade e potencial risco de "prompt injection" ou ambiguidade.
+**Persona:** You are a Senior Prompt Engineer.
+**Task:** Analyze the prompt below for clarity, specificity, and potential risk of "prompt injection" or ambiguity.
 **Checklist:**
-1.  **Clareza da Intenção:** O objetivo do prompt é inequívoco?
-2.  **Especificidade do Formato:** O formato de saída é claramente definido e restritivo?
-3.  **Risco de Injeção:** Há alguma parte do prompt que possa ser explorada por um usuário mal-intencionado para desviar a IA?
-**Formato de Saída:**
-1.  **Diagnóstico:** (Avaliação geral: Bom, Precisa de Ajustes, Ruim)
-2.  **Melhorias Sugeridas:** (Como tornar o prompt mais robusto e específico)
-3.  **Alerta de Risco:** (Se houver risco de injeção, descreva como mitigá-lo)
+1.  **Clarity of Intent:** Is the prompt's objective unambiguous?
+2.  **Format Specificity:** Is the output format clearly defined and restrictive?
+3.  **Injection Risk:** Is there any part of the prompt that could be exploited by a malicious user to divert the AI?
+**Output Format:**
+1.  **Diagnosis:** (Overall assessment: Good, Needs Adjustments, Poor)
+2.  **Suggested Improvements:** (How to make the prompt more robust and specific)
+3.  **Risk Alert:** (If there is an injection risk, describe how to mitigate it)
 
-[COLE O PROMPT A SER REVISADO AQUI]
+[PASTE THE PROMPT TO BE REVIEWED HERE]
 ```
 ```
 
 ## Best Practices
-1. **Definir a Persona e o Papel:** Comece o prompt instruindo o LLM a assumir um papel específico (e.g., "Você é um Engenheiro de Software Sênior", "Você é um Revisor Cego de uma Revista Acadêmica de Alto Impacto", "Você é um Designer UX/UI focado em acessibilidade"). 2. **Fornecer Critérios Claros (Checklist):** Inclua uma lista numerada ou com marcadores dos pontos exatos que o LLM deve verificar. Isso garante que a revisão seja focada e abrangente. 3. **Estrutura de Saída (Output Structure):** Especifique o formato exato da resposta (e.g., "Use os seguintes cabeçalhos: [1. Resumo Geral], [2. Pontos Fortes], [3. Pontos Fracos/Áreas de Melhoria], [4. Sugestões Acionáveis]"). 4. **Análise em Partes:** Para documentos longos (artigos, grandes blocos de código), peça ao LLM para revisar seção por seção ou parágrafo por parágrafo para manter a precisão e evitar a perda de contexto. 5. **Incentivar a Justificativa:** Peça ao LLM para justificar cada crítica ou sugestão, citando a parte do texto ou código que levou à observação.
+1. **Define the Persona and Role:** Start the prompt by instructing the LLM to take on a specific role (e.g., "You are a Senior Software Engineer", "You are a Blind Reviewer for a High-Impact Academic Journal", "You are a UX/UI Designer focused on accessibility"). 2. **Provide Clear Criteria (Checklist):** Include a numbered or bulleted list of the exact points the LLM should check. This ensures the review is focused and comprehensive. 3. **Output Structure:** Specify the exact format of the response (e.g., "Use the following headings: [1. General Summary], [2. Strengths], [3. Weaknesses/Areas for Improvement], [4. Actionable Suggestions]"). 4. **Analysis in Parts:** For long documents (articles, large blocks of code), ask the LLM to review section by section or paragraph by paragraph to maintain accuracy and avoid losing context. 5. **Encourage Justification:** Ask the LLM to justify each critique or suggestion, citing the part of the text or code that led to the observation.
 
 ## Use Cases
-1. **Revisão Acadêmica e de Escrita:** Avaliação de ensaios, teses e artigos de pesquisa quanto à clareza da tese, estrutura lógica, uso de evidências, tom e estilo de citação. 2. **Revisão de Código (Code Review):** Análise de trechos de código para identificar bugs, vulnerabilidades de segurança, aderência a padrões de codificação (PEP 8, etc.), complexidade e oportunidades de refatoração. 3. **Crítica de Design (Design Critique):** Avaliação de wireframes, mockups ou protótipos de design UX/UI quanto à usabilidade, acessibilidade, consistência visual e alinhamento com os objetivos do usuário. 4. **Revisão de Documentação Técnica:** Verificação de manuais, FAQs ou documentação de API quanto à precisão técnica, clareza e adequação ao público-alvo. 5. **Desenvolvimento de Prompts (Metaprompting):** Usar o LLM para revisar e refinar outros prompts, avaliando sua clareza, especificidade e potencial para injeção de prompt.
+1. **Academic and Writing Review:** Evaluating essays, theses, and research papers for thesis clarity, logical structure, use of evidence, tone, and citation style. 2. **Code Review:** Analyzing code snippets to identify bugs, security vulnerabilities, adherence to coding standards (PEP 8, etc.), complexity, and refactoring opportunities. 3. **Design Critique:** Evaluating wireframes, mockups, or UX/UI design prototypes for usability, accessibility, visual consistency, and alignment with user goals. 4. **Technical Documentation Review:** Checking manuals, FAQs, or API documentation for technical accuracy, clarity, and suitability for the target audience. 5. **Prompt Development (Metaprompting):** Using the LLM to review and refine other prompts, evaluating their clarity, specificity, and potential for prompt injection.
 
 ## Pitfalls
-1. **Revisão Superficial:** Sem um checklist detalhado, o LLM pode fornecer feedback genérico e inútil. 2. **Foco Excessivo na Forma:** O LLM pode se concentrar demais em aspectos gramaticais ou estilísticos, ignorando falhas conceituais ou lógicas profundas. 3. **Vieses da IA:** O LLM pode introduzir vieses (e.g., favorecer o Inglês Padrão Branco, ou estilos de codificação populares) ou enfraquecer a análise crítica humana. 4. **Injeção de Prompt Oculta:** Em contextos de revisão de documentos de terceiros (como em revistas acadêmicas), pode haver texto adversário oculto no documento para manipular o feedback do LLM. 5. **Confiança Excessiva:** O usuário pode aceitar o feedback da IA sem aplicar seu próprio julgamento crítico, perdendo a oportunidade de aprendizado e revisão aprofundada.
+1. **Superficial Review:** Without a detailed checklist, the LLM may provide generic and useless feedback. 2. **Excessive Focus on Form:** The LLM may focus too much on grammatical or stylistic aspects, ignoring deep conceptual or logical flaws. 3. **AI Biases:** The LLM may introduce biases (e.g., favoring Standard White English, or popular coding styles) or weaken human critical analysis. 4. **Hidden Prompt Injection:** In contexts involving the review of third-party documents (such as in academic journals), there may be hidden adversarial text in the document to manipulate the LLM's feedback. 5. **Overconfidence:** The user may accept the AI's feedback without applying their own critical judgment, missing the opportunity for learning and in-depth revision.
 
 ## URL
 [https://wac.colostate.edu/repository/collections/textgened/rhetorical-engagements/using-llms-as-peer-reviewers-for-revising-essays/](https://wac.colostate.edu/repository/collections/textgened/rhetorical-engagements/using-llms-as-peer-reviewers-for-revising-essays/)

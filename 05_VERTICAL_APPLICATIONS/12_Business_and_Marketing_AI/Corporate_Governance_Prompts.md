@@ -1,39 +1,39 @@
 # Corporate Governance Prompts
 
 ## Description
-Prompts de Governança Corporativa são instruções estruturadas e específicas fornecidas a Large Language Models (LLMs) para auxiliar em tarefas relacionadas à **estrutura de gestão, conformidade regulatória, ética, responsabilidade e transparência** de uma organização. Eles são projetados para otimizar processos de tomada de decisão do conselho, análise de risco, elaboração de políticas, relatórios de ESG (Ambiental, Social e Governança) e comunicação com stakeholders. A eficácia desses prompts reside na sua capacidade de integrar dados internos (como documentos de due diligence, atas de reunião e políticas) com conhecimento regulatório externo e melhores práticas de mercado.
+Corporate Governance Prompts are structured and specific instructions provided to Large Language Models (LLMs) to assist with tasks related to an organization's **management structure, regulatory compliance, ethics, accountability, and transparency**. They are designed to optimize board decision-making processes, risk analysis, policy drafting, ESG (Environmental, Social, and Governance) reporting, and stakeholder communication. The effectiveness of these prompts lies in their ability to integrate internal data (such as due diligence documents, meeting minutes, and policies) with external regulatory knowledge and market best practices.
 
 ## Examples
 ```
-1.  **Análise de Conformidade Regulatória:** "Atue como um analista de conformidade sênior. Revise a seção [Nome da Seção] da nossa política de privacidade interna e compare-a com os requisitos da [Nome da Regulamentação, ex: LGPD ou GDPR]. Identifique quaisquer lacunas de conformidade e sugira alterações específicas na redação da política."
-2.  **Elaboração de Política:** "Crie um esboço de política de uso ético de IA para o conselho de administração. A política deve abordar transparência, mitigação de vieses, responsabilidade e o processo de aprovação para novos projetos de IA. Use um tom formal e diretivo."
-3.  **Relatório ESG:** "Com base nos dados de consumo de energia do último trimestre e nas metas de sustentabilidade da empresa, gere um resumo executivo para o relatório ESG. O resumo deve destacar o progresso em relação à meta de redução de carbono e incluir uma seção sobre a governança de dados de sustentabilidade."
-4.  **Análise de Risco e Cenários:** "Simule um cenário de crise de reputação decorrente de uma falha de segurança de dados. Desenvolva um plano de resposta passo a passo para o comitê de crise, incluindo comunicação inicial com a mídia, notificação aos reguladores e ações internas de mitigação."
-5.  **Otimização de Reuniões do Conselho:** "Condense as atas da última reunião do conselho (anexadas) em uma lista de tarefas acionáveis. Para cada tarefa, identifique o responsável (ex: CEO, CFO, Comitê de Auditoria) e o prazo sugerido. Destaque as três decisões mais críticas tomadas."
-6.  **Due Diligence em M&A:** "Gere uma lista de verificação abrangente de due diligence de governança corporativa para a aquisição de uma empresa de tecnologia na [Região/País]. A lista deve cobrir a estrutura do conselho, remuneração executiva, histórico de litígios e conformidade com a Lei Sarbanes-Oxley (SOX)."
-7.  **Comunicação com Acionistas:** "Elabore uma minuta de comunicado aos acionistas explicando a recente mudança na estrutura de remuneração executiva. O comunicado deve ser transparente, justificar a mudança com base no desempenho e alinhar-se com as melhores práticas de governança."
+1.  **Regulatory Compliance Analysis:** "Act as a senior compliance analyst. Review the [Section Name] section of our internal privacy policy and compare it with the requirements of [Regulation Name, e.g., LGPD or GDPR]. Identify any compliance gaps and suggest specific changes to the policy's wording."
+2.  **Policy Drafting:** "Create a draft ethical AI use policy for the board of directors. The policy should address transparency, bias mitigation, accountability, and the approval process for new AI projects. Use a formal and directive tone."
+3.  **ESG Report:** "Based on the last quarter's energy consumption data and the company's sustainability goals, generate an executive summary for the ESG report. The summary should highlight progress toward the carbon reduction target and include a section on sustainability data governance."
+4.  **Risk and Scenario Analysis:** "Simulate a reputation crisis scenario resulting from a data security breach. Develop a step-by-step response plan for the crisis committee, including initial communication with the media, notification to regulators, and internal mitigation actions."
+5.  **Board Meeting Optimization:** "Condense the minutes of the last board meeting (attached) into a list of actionable tasks. For each task, identify the responsible party (e.g., CEO, CFO, Audit Committee) and the suggested deadline. Highlight the three most critical decisions made."
+6.  **M&A Due Diligence:** "Generate a comprehensive corporate governance due diligence checklist for the acquisition of a technology company in [Region/Country]. The list should cover board structure, executive compensation, litigation history, and compliance with the Sarbanes-Oxley Act (SOX)."
+7.  **Shareholder Communication:** "Draft a communication to shareholders explaining the recent change in the executive compensation structure. The communication should be transparent, justify the change based on performance, and align with governance best practices."
 ```
 
 ## Best Practices
-*   **Contextualização Detalhada:** Sempre forneça o papel (persona) que a IA deve assumir (ex: "Analista de Risco", "Secretário do Conselho") e o contexto específico da empresa (setor, tamanho, jurisdição regulatória).
-*   **Integração de Dados:** Anexe ou referencie documentos internos críticos (políticas, atas, dados financeiros) para garantir que a resposta da IA seja relevante e baseada em fatos internos.
-*   **Estrutura de Saída Clara:** Especifique o formato de saída desejado (ex: "Gere uma tabela comparativa", "Crie um resumo executivo de 500 palavras") para facilitar a revisão e o uso pelo conselho ou equipe de governança.
-*   **Validação Humana Obrigatória:** Devido à natureza crítica e regulatória do tema, toda saída da IA deve ser revisada, validada e aprovada por especialistas humanos (advogados, compliance officers, membros do conselho) antes de ser implementada.
-*   **Governança de Prompt (Prompt Governance):** Mantenha um repositório de prompts de governança aprovados e testados para garantir consistência e evitar a geração de informações conflitantes ou não conformes.
+*   **Detailed Contextualization:** Always provide the role (persona) the AI should assume (e.g., "Risk Analyst", "Board Secretary") and the company's specific context (sector, size, regulatory jurisdiction).
+*   **Data Integration:** Attach or reference critical internal documents (policies, minutes, financial data) to ensure that the AI's response is relevant and based on internal facts.
+*   **Clear Output Structure:** Specify the desired output format (e.g., "Generate a comparative table", "Create a 500-word executive summary") to facilitate review and use by the board or governance team.
+*   **Mandatory Human Validation:** Due to the critical and regulatory nature of the topic, all AI output must be reviewed, validated, and approved by human experts (lawyers, compliance officers, board members) before being implemented.
+*   **Prompt Governance:** Maintain a repository of approved and tested governance prompts to ensure consistency and avoid generating conflicting or non-compliant information.
 
 ## Use Cases
-*   **Suporte à Decisão do Conselho:** Geração de resumos de informações complexas para facilitar a tomada de decisão em reuniões do conselho.
-*   **Gestão de Riscos e Conformidade:** Criação de checklists de auditoria, análise de lacunas regulatórias e simulação de cenários de crise.
-*   **Elaboração e Revisão de Documentos:** Redação de rascunhos de políticas internas (ex: ética, uso de IA), estatutos sociais e códigos de conduta.
-*   **Relatórios e Transparência:** Auxílio na compilação de dados e redação de seções para relatórios anuais, relatórios ESG e comunicados ao mercado.
-*   **Treinamento e Onboarding:** Desenvolvimento de módulos de treinamento interativos sobre conformidade e governança para novos membros do conselho e executivos.
+*   **Board Decision Support:** Generation of summaries of complex information to facilitate decision-making in board meetings.
+*   **Risk and Compliance Management:** Creation of audit checklists, regulatory gap analysis, and crisis scenario simulation.
+*   **Document Drafting and Review:** Drafting of internal policies (e.g., ethics, AI use), corporate bylaws, and codes of conduct.
+*   **Reporting and Transparency:** Assistance in compiling data and drafting sections for annual reports, ESG reports, and market communications.
+*   **Training and Onboarding:** Development of interactive training modules on compliance and governance for new board members and executives.
 
 ## Pitfalls
-*   **Alucinações Regulatórias:** A IA pode inventar leis, regulamentos ou precedentes legais. **Sempre** verifique as referências regulatórias citadas.
-*   **Vazamento de Informações Confidenciais:** Nunca insira dados altamente sensíveis ou não anonimizados em modelos de IA públicos. Use modelos internos ou com garantias de segurança de dados.
-*   **Viés e Falta de Contexto:** A IA pode replicar vieses presentes nos dados de treinamento ou falhar ao aplicar o contexto específico da cultura e jurisdição da empresa.
-*   **Dependência Excessiva:** Tratar a saída da IA como verdade final, ignorando a necessidade de revisão e julgamento humano especializado.
-*   **Prompts Vagos:** Prompts genéricos levam a respostas genéricas e inúteis. A precisão é crucial em governança.
+*   **Regulatory Hallucinations:** The AI may invent laws, regulations, or legal precedents. **Always** verify the regulatory references cited.
+*   **Leakage of Confidential Information:** Never enter highly sensitive or non-anonymized data into public AI models. Use internal models or ones with data security guarantees.
+*   **Bias and Lack of Context:** The AI may replicate biases present in the training data or fail to apply the specific context of the company's culture and jurisdiction.
+*   **Overdependence:** Treating the AI's output as final truth, ignoring the need for review and specialized human judgment.
+*   **Vague Prompts:** Generic prompts lead to generic and useless answers. Precision is crucial in governance.
 
 ## URL
 [https://clickup.com/p/ai-prompts/corporate-governance](https://clickup.com/p/ai-prompts/corporate-governance)

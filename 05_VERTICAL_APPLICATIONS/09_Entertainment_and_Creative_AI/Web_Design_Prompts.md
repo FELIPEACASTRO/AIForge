@@ -1,61 +1,61 @@
 # Web Design Prompts
 
 ## Description
-**Prompts de Design Web** são instruções estruturadas e detalhadas fornecidas a modelos de Inteligência Artificial (IA) generativa (como LLMs ou modelos de imagem) para auxiliar ou automatizar tarefas no processo de design e desenvolvimento web. Essa técnica de *Prompt Engineering* no contexto de design web abrange desde a geração de ideias conceituais, wireframes e layouts visuais (UI/UX) até a criação de código front-end, conteúdo otimizado para SEO e elementos de branding. O objetivo principal é acelerar o ciclo de design, permitindo que designers e desenvolvedores iterem rapidamente em conceitos e se concentrem em aspectos mais complexos e estratégicos do projeto. A eficácia reside na capacidade de traduzir requisitos de negócios e princípios de design em comandos claros e acionáveis para a IA.
+**Web Design Prompts** are structured, detailed instructions provided to generative Artificial Intelligence (AI) models (such as LLMs or image models) to assist or automate tasks in the web design and development process. This *Prompt Engineering* technique in the context of web design covers everything from generating conceptual ideas, wireframes, and visual layouts (UI/UX) to creating front-end code, SEO-optimized content, and branding elements. The main goal is to accelerate the design cycle, allowing designers and developers to iterate quickly on concepts and focus on more complex, strategic aspects of the project. Its effectiveness lies in the ability to translate business requirements and design principles into clear, actionable commands for the AI.
 
 ## Examples
 ```
-**1. Geração de Wireframe (Estrutura):**
+**1. Wireframe Generation (Structure):**
 \`\`\`
-Crie um wireframe em HTML/CSS para a página inicial de um SaaS de gestão de projetos. O público-alvo são gerentes de equipe. O layout deve ser limpo, focado em um CTA proeminente "Teste Grátis" no topo e incluir seções para: 1) Prova Social (Logos de Clientes), 2) Lista de Recursos Principais (com ícones), e 3) Tabela de Preços (3 planos). O design deve ser responsivo e mobile-first.
-\`\`\`
-
-**2. Design Visual (Geração de Imagem/Conceito):**
-\`\`\`
-Design de página de destino (landing page) para um produto de café especial, estilo visual minimalista e orgânico, com paleta de cores terrosas (marrom, bege, verde escuro). Foco em fotografia de alta qualidade do produto e tipografia serifada elegante. O layout deve ter uma dobra superior (hero section) com um grande título e um botão "Compre Agora". Renderização fotorrealista, 16:9, --ar 16:9
+Create a wireframe in HTML/CSS for the homepage of a project management SaaS. The target audience is team managers. The layout should be clean, focused on a prominent "Free Trial" CTA at the top, and include sections for: 1) Social Proof (Customer Logos), 2) List of Key Features (with icons), and 3) Pricing Table (3 plans). The design should be responsive and mobile-first.
 \`\`\`
 
-**3. Otimização de Conteúdo e SEO:**
+**2. Visual Design (Image/Concept Generation):**
 \`\`\`
-Atue como um especialista em SEO e UX Writer. Gere 5 opções de meta description (máx. 160 caracteres) e 5 opções de título H1 para uma página de produto que vende "Tênis de Corrida Sustentáveis". O foco deve ser em sustentabilidade, conforto e o termo-chave "tênis de corrida sustentáveis".
-\`\`\`
-
-**4. Refinamento de Componente (CSS):**
-\`\`\`
-Gere o código CSS para um botão de Call-to-Action (CTA) que chame a atenção. O botão deve ter um gradiente animado sutil de azul (#007bff) para ciano (#00bcd4), bordas arredondadas (12px), e uma sombra suave que se expande ao passar o mouse (hover effect).
+Landing page design for a specialty coffee product, minimalist and organic visual style, with an earthy color palette (brown, beige, dark green). Focus on high-quality product photography and elegant serif typography. The layout should have a hero section above the fold with a large title and a "Buy Now" button. Photorealistic rendering, 16:9, --ar 16:9
 \`\`\`
 
-**5. Criação de Persona e Jornada do Usuário:**
+**3. Content and SEO Optimization:**
 \`\`\`
-Crie uma persona detalhada para um site de notícias financeiras. Inclua nome, idade, ocupação, objetivos (goals), frustrações (pain points) e um breve cenário de uso (user story) de como essa persona interagiria com o site para encontrar informações sobre investimentos em criptomoedas.
+Act as an SEO expert and UX Writer. Generate 5 meta description options (max. 160 characters) and 5 H1 title options for a product page selling "Sustainable Running Shoes". The focus should be on sustainability, comfort, and the key term "sustainable running shoes".
 \`\`\`
 
-**6. Geração de Estrutura de Navegação:**
+**4. Component Refinement (CSS):**
 \`\`\`
-Sugira a estrutura de navegação (sitemap) de nível 1 e 2 para um site de uma universidade. O site deve atender a três públicos principais: 1) Futuros Alunos, 2) Alunos Atuais e 3) Professores/Funcionários. A navegação deve ser clara e intuitiva.
+Generate the CSS code for an eye-catching Call-to-Action (CTA) button. The button should have a subtle animated gradient from blue (#007bff) to cyan (#00bcd4), rounded borders (12px), and a soft shadow that expands on hover (hover effect).
+\`\`\`
+
+**5. Persona and User Journey Creation:**
+\`\`\`
+Create a detailed persona for a financial news website. Include name, age, occupation, goals, pain points, and a brief user story of how this persona would interact with the site to find information about cryptocurrency investments.
+\`\`\`
+
+**6. Navigation Structure Generation:**
+\`\`\`
+Suggest the level 1 and 2 navigation structure (sitemap) for a university website. The site should serve three main audiences: 1) Prospective Students, 2) Current Students, and 3) Faculty/Staff. The navigation should be clear and intuitive.
 \`\`\`
 ```
 
 ## Best Practices
-**1. Seja Específico e Contextualizado:** Sempre inclua o **objetivo** do design (vender, informar, capturar leads), o **público-alvo** e o **tom de voz** desejado.
-**2. Defina o Formato de Saída:** Especifique se você deseja código (HTML/CSS/JS), um esboço de layout (wireframe), um design visual (imagem) ou apenas a estrutura de conteúdo.
-**3. Use Restrições e Estilos:** Inclua restrições de design (paleta de cores, tipografia, acessibilidade) e referências de estilo (minimalista, futurista, retrô, flat design).
-**4. Itere e Refine:** Comece com um prompt amplo e use prompts de refinamento (por exemplo, "Mude a cor principal para #1A73E8" ou "Aumente o espaço em branco na seção de depoimentos").
-**5. Integre SEO e UX:** Peça explicitamente para otimizar elementos para SEO (meta tags, alt text, estrutura de cabeçalhos) e para a experiência do usuário (CTAs claros, navegação intuitiva, responsividade).
+**1. Be Specific and Contextual:** Always include the **goal** of the design (sell, inform, capture leads), the **target audience**, and the desired **tone of voice**.
+**2. Define the Output Format:** Specify whether you want code (HTML/CSS/JS), a layout sketch (wireframe), a visual design (image), or just the content structure.
+**3. Use Constraints and Styles:** Include design constraints (color palette, typography, accessibility) and style references (minimalist, futuristic, retro, flat design).
+**4. Iterate and Refine:** Start with a broad prompt and use refinement prompts (for example, "Change the main color to #1A73E8" or "Increase the whitespace in the testimonials section").
+**5. Integrate SEO and UX:** Explicitly ask to optimize elements for SEO (meta tags, alt text, heading structure) and for the user experience (clear CTAs, intuitive navigation, responsiveness).
 
 ## Use Cases
-**1. Prototipagem Rápida (Wireframing):** Gerar rapidamente a estrutura de layout (HTML/CSS) para testar diferentes fluxos de usuário e hierarquias de conteúdo.
-**2. Geração de Conceitos Visuais (Moodboards):** Criar imagens conceituais de alta fidelidade para apresentar a paleta de cores, estilo e atmosfera de um projeto antes de iniciar o desenvolvimento.
-**3. Otimização de Conteúdo Web:** Gerar títulos, meta descriptions, alt texts e microcópias (textos de botões, mensagens de erro) otimizados para SEO e conversão.
-**4. Criação de Componentes de UI:** Gerar código para componentes específicos (formulários, carrosséis, menus de navegação) com base em requisitos de design e frameworks específicos (ex: Bootstrap, Tailwind CSS).
-**5. Definição de Estratégia de UX:** Criar personas de usuário, jornadas do cliente e mapas de site (sitemaps) para alinhar o design com os objetivos de negócio e as necessidades do usuário.
+**1. Rapid Prototyping (Wireframing):** Quickly generate layout structure (HTML/CSS) to test different user flows and content hierarchies.
+**2. Visual Concept Generation (Moodboards):** Create high-fidelity conceptual images to present a project's color palette, style, and atmosphere before starting development.
+**3. Web Content Optimization:** Generate titles, meta descriptions, alt texts, and microcopy (button text, error messages) optimized for SEO and conversion.
+**4. UI Component Creation:** Generate code for specific components (forms, carousels, navigation menus) based on design requirements and specific frameworks (e.g., Bootstrap, Tailwind CSS).
+**5. UX Strategy Definition:** Create user personas, customer journeys, and sitemaps to align the design with business goals and user needs.
 
 ## Pitfalls
-**1. Prompts Vagos ou Genéricos:** Pedir apenas "Crie um site legal" resulta em saídas irrelevantes. A falta de contexto (público, objetivo, estilo) é o erro mais comum.
-**2. Confiar Demais no Primeiro Resultado:** A IA é uma ferramenta de rascunho. O output inicial raramente é o produto final. A falha em iterar e refinar o prompt leva a designs medíocres.
-**3. Ignorar a Acessibilidade:** Não incluir requisitos de acessibilidade (WCAG) no prompt pode gerar designs visualmente agradáveis, mas inutilizáveis para pessoas com deficiência.
-**4. Misturar Requisitos de Forma e Função:** Tentar gerar o código e o conceito visual em um único prompt complexo pode sobrecarregar o modelo. É melhor separar a geração de conceito visual (imagem) da geração de código (texto).
-**5. Falha em Especificar a Tecnologia:** Não indicar a tecnologia de saída (ex: "Gere em React e Tailwind CSS" vs. "Gere em HTML e CSS puro") pode resultar em código inútil.
+**1. Vague or Generic Prompts:** Simply asking "Create a cool website" results in irrelevant outputs. The lack of context (audience, goal, style) is the most common mistake.
+**2. Relying Too Much on the First Result:** The AI is a drafting tool. The initial output is rarely the final product. Failing to iterate and refine the prompt leads to mediocre designs.
+**3. Ignoring Accessibility:** Not including accessibility requirements (WCAG) in the prompt can generate designs that are visually pleasing but unusable for people with disabilities.
+**4. Mixing Form and Function Requirements:** Trying to generate both the code and the visual concept in a single complex prompt can overload the model. It is better to separate visual concept generation (image) from code generation (text).
+**5. Failing to Specify the Technology:** Not indicating the output technology (e.g., "Generate in React and Tailwind CSS" vs. "Generate in plain HTML and CSS") can result in useless code.
 
 ## URL
 [https://www.websitebuilderexpert.com/building-websites/ai-prompts/](https://www.websitebuilderexpert.com/building-websites/ai-prompts/)

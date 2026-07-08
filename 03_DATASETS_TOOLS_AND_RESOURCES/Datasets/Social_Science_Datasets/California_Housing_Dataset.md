@@ -1,60 +1,60 @@
 # California Housing Dataset
 
 ## Description
-O **California Housing Dataset** é um conjunto de dados clássico de regressão amplamente utilizado em aprendizado de máquina para prever o valor médio de casas em distritos da Califórnia. Os dados foram coletados durante o censo de 1990 nos EUA. O objetivo é prever o valor mediano das casas (em unidades de $100.000) com base em oito características geográficas e socioeconômicas. Embora os dados sejam de 1990, eles continuam sendo um recurso fundamental para o ensino e teste de algoritmos de regressão, sendo frequentemente referenciado em pesquisas e tutoriais recentes (2023-2025) como um benchmark.
+The **California Housing Dataset** is a classic regression dataset widely used in machine learning to predict the median house value in California districts. The data was collected during the 1990 U.S. Census. The goal is to predict the median house value (in units of $100,000) based on eight geographic and socioeconomic features. Although the data is from 1990, it remains a fundamental resource for teaching and testing regression algorithms, and is frequently referenced in recent research and tutorials (2023-2025) as a benchmark.
 
 ## Statistics
-- **Total de Amostras (n_samples):** 20.640
-- **Dimensionalidade (n_features):** 8
-- **Tamanho:** Aproximadamente 1.5 MB (em formato CSV)
-- **Versões:** O dataset é estático (baseado no censo de 1990), mas é constantemente atualizado e reempacotado em novas versões de bibliotecas como scikit-learn (e.g., versão 1.7.2).
-- **Variável Alvo (Target):** Valor Mediano da Casa (real 0.15 - 5.0, em unidades de $100.000).
+- **Total Samples (n_samples):** 20,640
+- **Dimensionality (n_features):** 8
+- **Size:** Approximately 1.5 MB (in CSV format)
+- **Versions:** The dataset is static (based on the 1990 census), but is constantly updated and repackaged in new versions of libraries such as scikit-learn (e.g., version 1.7.2).
+- **Target Variable (Target):** Median House Value (real 0.15 - 5.0, in units of $100,000).
 
 ## Features
-O dataset contém 8 atributos preditores (features) para cada bloco censitário:
-1. **MedInc**: Renda mediana no bloco (em dezenas de milhares de dólares).
-2. **HouseAge**: Idade mediana da casa no bloco.
-3. **AveRooms**: Número médio de cômodos por domicílio.
-4. **AveBedrms**: Número médio de quartos por domicílio.
-5. **Population**: População do bloco.
-6. **AveOccup**: Ocupação média do domicílio.
-7. **Latitude**: Posição de latitude do bloco.
-8. **Longitude**: Posição de longitude do bloco.
-A variável alvo é o **Valor Mediano da Casa** (Median House Value), expressa em unidades de $100.000.
+The dataset contains 8 predictor attributes (features) for each census block:
+1. **MedInc**: Median income in the block (in tens of thousands of dollars).
+2. **HouseAge**: Median house age in the block.
+3. **AveRooms**: Average number of rooms per household.
+4. **AveBedrms**: Average number of bedrooms per household.
+5. **Population**: Block population.
+6. **AveOccup**: Average household occupancy.
+7. **Latitude**: Latitude position of the block.
+8. **Longitude**: Longitude position of the block.
+The target variable is the **Median House Value**, expressed in units of $100,000.
 
 ## Use Cases
-- **Regressão Preditiva:** É o caso de uso primário, focado na previsão do valor mediano da casa.
-- **Análise Exploratória de Dados (EDA):** Utilizado para praticar técnicas de visualização e compreensão de dados.
-- **Comparação de Modelos:** Serve como um benchmark padrão para comparar o desempenho de diferentes algoritmos de regressão (e.g., Regressão Linear, Random Forests, Gradient Boosting).
-- **Engenharia de Features:** Usado para demonstrar e testar a criação de novas features a partir das existentes (e.g., taxa de quartos por população).
-- **Tutoriais e Ensino:** Amplamente empregado em cursos e tutoriais de Machine Learning devido à sua facilidade de acesso e estrutura limpa.
+- **Predictive Regression:** This is the primary use case, focused on predicting the median house value.
+- **Exploratory Data Analysis (EDA):** Used to practice data visualization and understanding techniques.
+- **Model Comparison:** Serves as a standard benchmark for comparing the performance of different regression algorithms (e.g., Linear Regression, Random Forests, Gradient Boosting).
+- **Feature Engineering:** Used to demonstrate and test the creation of new features from existing ones (e.g., rooms-per-population ratio).
+- **Tutorials and Teaching:** Widely used in Machine Learning courses and tutorials due to its ease of access and clean structure.
 
 ## Integration
-O dataset é mais comumente acessado através da biblioteca **scikit-learn** em Python, o que facilita sua integração em projetos de aprendizado de máquina.
+The dataset is most commonly accessed through the **scikit-learn** library in Python, which facilitates its integration into machine learning projects.
 
-**Instruções de Uso (Python/scikit-learn):**
-1. **Instalação da Biblioteca:** Certifique-se de que o scikit-learn esteja instalado: `pip install scikit-learn`
-2. **Carregamento do Dataset:** Use a função `fetch_california_housing` para baixar e carregar o dataset diretamente.
+**Usage Instructions (Python/scikit-learn):**
+1. **Library Installation:** Make sure scikit-learn is installed: `pip install scikit-learn`
+2. **Loading the Dataset:** Use the `fetch_california_housing` function to download and load the dataset directly.
 
 ```python
 from sklearn.datasets import fetch_california_housing
 import pandas as pd
 
-# Carrega o dataset
+# Load the dataset
 housing = fetch_california_housing(as_frame=True)
 
-# Cria um DataFrame para visualização
+# Create a DataFrame for visualization
 df = housing.frame
 
-# Exibe as primeiras linhas
+# Display the first rows
 print(df.head())
 
-# Variáveis X (features) e y (target)
+# X (features) and y (target) variables
 X = housing.data
 y = housing.target
 ```
 
-O dataset também está disponível em plataformas como Kaggle e Hugging Face, geralmente em formato CSV.
+The dataset is also available on platforms such as Kaggle and Hugging Face, usually in CSV format.
 
 ## URL
 [https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)

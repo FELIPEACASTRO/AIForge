@@ -2,23 +2,23 @@
 
 ## Description
 
-AgriLLM é um Large Language Model (LLM) focado em agricultura, projetado para automatizar a resolução de consultas de agricultores. Ele utiliza o potencial dos modelos Transformer para decifrar linguagem natural e fornecer informações contextualmente relevantes, aliviando a carga sobre os call centers tradicionais e preenchendo lacunas de informação. O modelo foi treinado usando um subconjunto de um vasto conjunto de dados de 4 milhões de consultas reais de agricultores na Índia.
+AgriLLM is a Large Language Model (LLM) focused on agriculture, designed to automate the resolution of farmers' queries. It leverages the potential of Transformer models to decipher natural language and provide contextually relevant information, easing the burden on traditional call centers and filling information gaps. The model was trained using a subset of a vast dataset of 4 million real farmer queries in India.
 
 ## Statistics
 
-Publicado em 2024 (arXiv:2407.04721). Aceito no 3rd Workshop on NLP for Positive Impact @ EMNLP e no Undergraduate Consortium at KDD 2024 (KDD-UC). Treinado em aproximadamente 4 milhões de consultas reais de agricultores do estado de Tamil Nadu, Índia. Citado por 10 (em 2024).
+Published in 2024 (arXiv:2407.04721). Accepted at the 3rd Workshop on NLP for Positive Impact @ EMNLP and at the Undergraduate Consortium at KDD 2024 (KDD-UC). Trained on approximately 4 million real farmer queries from the state of Tamil Nadu, India. Cited by 10 (as of 2024).
 
 ## Features
 
-Capacidade de decifrar linguagem natural e entender o contexto de consultas agrícolas. Automação da resolução de consultas para agricultores. Foco em países em desenvolvimento e pequenos agricultores. Baseado na arquitetura Transformer.
+Ability to decipher natural language and understand the context of agricultural queries. Automation of query resolution for farmers. Focus on developing countries and smallholder farmers. Based on the Transformer architecture.
 
 ## Use Cases
 
-Resolução automatizada de dúvidas e consultas de agricultores. Fornecimento de informações agrícolas imediatas e contextualmente relevantes. Apoio a iniciativas como linhas de ajuda (Farmers Helpline) em países em desenvolvimento. Educação e compartilhamento de conhecimento em agricultura.
+Automated resolution of farmers' questions and queries. Provision of immediate and contextually relevant agricultural information. Support for initiatives such as helplines (Farmers Helpline) in developing countries. Education and knowledge sharing in agriculture.
 
 ## Integration
 
-O artigo de pesquisa não fornece um exemplo de código de integração direto, mas o modelo é baseado em LLMs (Transformers), sugerindo que a integração seria via APIs ou bibliotecas de LLM (como Hugging Face Transformers) após o treinamento ou ajuste fino. O código e os pesos do modelo não foram disponibilizados publicamente no momento da publicação do artigo. URL do GitHub para mais detalhes: Não disponível.
+The research paper does not provide a direct integration code example, but the model is based on LLMs (Transformers), suggesting that integration would be via LLM APIs or libraries (such as Hugging Face Transformers) after training or fine-tuning. The model's code and weights were not made publicly available at the time of the paper's publication. GitHub URL for more details: Not available.
 
 ## URL
 

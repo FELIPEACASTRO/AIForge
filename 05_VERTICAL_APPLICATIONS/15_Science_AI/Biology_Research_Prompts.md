@@ -1,49 +1,49 @@
 # Biology Research Prompts
 
 ## Description
-**Prompts de Pesquisa em Biologia** referem-se à prática de elaborar instruções detalhadas e contextualmente ricas para **Grandes Modelos de Linguagem (LLMs)**, como GPT-4 ou Gemini, com o objetivo de otimizar a pesquisa e a análise de dados no campo da Biologia e Ciências da Vida [1] [2]. Essa técnica é crucial para transformar LLMs de ferramentas de propósito geral em assistentes especializados capazes de lidar com a complexidade e a terminologia específica de áreas como **Genômica, Proteômica, Biologia Estrutural e Descoberta de Medicamentos** [3]. A engenharia de prompt eficaz em Biologia envolve a definição clara do papel do modelo, a inclusão de dados biológicos de entrada (sequências de DNA/proteínas, artigos científicos) e a especificação de um formato de saída estruturado para facilitar a análise e a validação dos resultados. O objetivo principal é mitigar a tendência dos LLMs a "alucinar" (gerar informações factualmente incorretas) e garantir que as respostas sejam cientificamente precisas e relevantes para o contexto biológico fornecido [2].
+**Biology Research Prompts** refers to the practice of crafting detailed, contextually rich instructions for **Large Language Models (LLMs)**, such as GPT-4 or Gemini, with the goal of optimizing research and data analysis in the field of Biology and Life Sciences [1] [2]. This technique is crucial for transforming LLMs from general-purpose tools into specialized assistants capable of handling the complexity and specific terminology of areas such as **Genomics, Proteomics, Structural Biology, and Drug Discovery** [3]. Effective prompt engineering in Biology involves clearly defining the model's role, including input biological data (DNA/protein sequences, scientific articles), and specifying a structured output format to facilitate the analysis and validation of results. The main goal is to mitigate the tendency of LLMs to "hallucinate" (generate factually incorrect information) and ensure that the responses are scientifically accurate and relevant to the biological context provided [2].
 
 ## Examples
 ```
-1. **Análise de Sequência de Proteína (Proteômica):**
+1. **Protein Sequence Analysis (Proteomics):**
 ```
-Atue como um bioinformata. Analise a seguinte sequência de aminoácidos: [SEQUÊNCIA DE AMINOÁCIDOS]. Preveja sua estrutura secundária, possíveis domínios funcionais (usando a notação Pfam) e sugira três potenciais interações proteína-proteína relevantes em humanos. Apresente a resposta em uma tabela Markdown.
-```
-
-2. **Revisão de Literatura e Extração de Dados (Farmacologia):**
-```
-Extraia os seguintes dados do artigo científico fornecido: [TEXTO DO ARTIGO]. 1. Nome do composto principal estudado. 2. Concentração inibitória (IC50) contra a linhagem celular [NOME DA LINHAGEM]. 3. Mecanismo de ação molecular proposto. 4. Efeitos colaterais mais comuns. Responda estritamente no formato JSON com as chaves 'composto', 'ic50', 'mecanismo', 'efeitos_colaterais'.
+Act as a bioinformatician. Analyze the following amino acid sequence: [AMINO ACID SEQUENCE]. Predict its secondary structure, possible functional domains (using Pfam notation), and suggest three potential protein-protein interactions relevant in humans. Present the response in a Markdown table.
 ```
 
-3. **Geração de Hipóteses (Genômica):**
+2. **Literature Review and Data Extraction (Pharmacology):**
 ```
-Considere o gene humano [NOME DO GENE] e a doença [NOME DA DOENÇA]. Com base na função conhecida do gene e nas vias metabólicas associadas, formule três hipóteses de pesquisa testáveis sobre como uma mutação de perda de função neste gene poderia levar ao fenótipo da doença. Estruture cada hipótese com: Título, Racional e Método Experimental Sugerido.
-```
-
-4. **Tradução de Código Biológico (Genética):**
-```
-Traduza a seguinte sequência de DNA (5' para 3') em todas as três possíveis fases de leitura. Identifique o quadro de leitura aberto (ORF) mais longo e a sequência de proteína correspondente. A sequência de DNA é: [SEQUÊNCIA DE DNA].
+Extract the following data from the provided scientific article: [ARTICLE TEXT]. 1. Name of the main compound studied. 2. Inhibitory concentration (IC50) against the cell line [CELL LINE NAME]. 3. Proposed molecular mechanism of action. 4. Most common side effects. Respond strictly in JSON format with the keys 'compound', 'ic50', 'mechanism', 'side_effects'.
 ```
 
-5. **Simulação de Experimento e Resolução de Problemas (Biologia Molecular):**
+3. **Hypothesis Generation (Genomics):**
 ```
-Você é um pesquisador de bancada. Descreva o protocolo passo a passo para realizar uma PCR em tempo real (qPCR) para quantificar a expressão do mRNA do gene [NOME DO GENE] em amostras de tecido hepático. Inclua a lista de reagentes, as condições de ciclagem e como calcular o valor de Ct.
+Consider the human gene [GENE NAME] and the disease [DISEASE NAME]. Based on the known function of the gene and the associated metabolic pathways, formulate three testable research hypotheses about how a loss-of-function mutation in this gene could lead to the disease phenotype. Structure each hypothesis with: Title, Rationale, and Suggested Experimental Method.
 ```
 
-6. **Análise de Dados Estruturados (Ecologia):**
+4. **Biological Code Translation (Genetics):**
 ```
-Analise a tabela de dados de diversidade de espécies fornecida: [TABELA DE DADOS]. Calcule o Índice de Shannon-Wiener (H) e o Índice de Uniformidade de Pielou (J) para cada local de amostragem. Interprete os resultados e sugira a principal causa biológica para a diferença de diversidade entre o Local A e o Local B.
+Translate the following DNA sequence (5' to 3') in all three possible reading frames. Identify the longest open reading frame (ORF) and the corresponding protein sequence. The DNA sequence is: [DNA SEQUENCE].
+```
+
+5. **Experiment Simulation and Problem Solving (Molecular Biology):**
+```
+You are a bench researcher. Describe the step-by-step protocol for performing a real-time PCR (qPCR) to quantify the mRNA expression of the gene [GENE NAME] in liver tissue samples. Include the list of reagents, the cycling conditions, and how to calculate the Ct value.
+```
+
+6. **Structured Data Analysis (Ecology):**
+```
+Analyze the provided species diversity data table: [DATA TABLE]. Calculate the Shannon-Wiener Index (H) and Pielou's Evenness Index (J) for each sampling site. Interpret the results and suggest the main biological cause for the diversity difference between Site A and Site B.
 ```
 ```
 
 ## Best Practices
-**Especificidade e Contextualização:** Sempre defina o papel do LLM (ex: "Atue como um bioinformata experiente") e forneça o máximo de contexto biológico possível (ex: espécie, via metabólica, tipo de dado). **Uso de Dados de Entrada:** Para tarefas de extração ou análise, inclua o texto ou dados brutos (sequências, artigos, relatórios) diretamente no prompt (ou use a funcionalidade de upload de arquivo, se disponível). **Formato de Saída Estruturado:** Peça o resultado em um formato fácil de processar, como JSON, Markdown (tabelas), ou CSV, para facilitar a análise subsequente. **Validação Cruzada:** Sempre valide os resultados gerados pelo LLM com bases de dados biológicas confiáveis (ex: UniProt, PDB) ou literatura científica revisada por pares, especialmente para predições e sínteses críticas. **Prompt Iterativo:** Comece com um prompt simples e refine-o em várias etapas, adicionando restrições e detalhes até obter a precisão desejada (Processo Iterativo).
+**Specificity and Contextualization:** Always define the LLM's role (e.g., "Act as an experienced bioinformatician") and provide as much biological context as possible (e.g., species, metabolic pathway, data type). **Use of Input Data:** For extraction or analysis tasks, include the text or raw data (sequences, articles, reports) directly in the prompt (or use the file upload feature, if available). **Structured Output Format:** Request the result in an easy-to-process format, such as JSON, Markdown (tables), or CSV, to facilitate subsequent analysis. **Cross-Validation:** Always validate the results generated by the LLM against reliable biological databases (e.g., UniProt, PDB) or peer-reviewed scientific literature, especially for critical predictions and syntheses. **Iterative Prompting:** Start with a simple prompt and refine it in several steps, adding constraints and details until you achieve the desired accuracy (Iterative Process).
 
 ## Use Cases
-**Descoberta de Medicamentos:** Acelerar a identificação de alvos terapêuticos, prever a toxicidade de compostos e otimizar a estrutura de moléculas candidatas. **Análise de Genômica e Proteômica:** Previsão de estrutura de proteínas, identificação de variantes genéticas patogênicas e anotação funcional de genes desconhecidos. **Revisão Sistemática de Literatura:** Extração rápida de dados específicos (ex: IC50, doses, resultados de ensaios clínicos) de grandes volumes de artigos científicos. **Design Experimental:** Geração de protocolos de laboratório detalhados, otimização de condições de reação e sugestão de controles experimentais. **Educação e Treinamento:** Criação de cenários de estudo de caso complexos e simulação de discussões científicas para estudantes e pesquisadores juniores. **Bioinformática:** Auxílio na depuração de scripts de análise de dados e na tradução de pseudocódigo para linguagens de programação como Python ou R.
+**Drug Discovery:** Accelerate the identification of therapeutic targets, predict the toxicity of compounds, and optimize the structure of candidate molecules. **Genomics and Proteomics Analysis:** Protein structure prediction, identification of pathogenic genetic variants, and functional annotation of unknown genes. **Systematic Literature Review:** Rapid extraction of specific data (e.g., IC50, doses, clinical trial results) from large volumes of scientific articles. **Experimental Design:** Generation of detailed laboratory protocols, optimization of reaction conditions, and suggestion of experimental controls. **Education and Training:** Creation of complex case study scenarios and simulation of scientific discussions for students and junior researchers. **Bioinformatics:** Assistance in debugging data analysis scripts and translating pseudocode into programming languages such as Python or R.
 
 ## Pitfalls
-**Alucinação Factual:** O LLM pode gerar informações que parecem plausíveis, mas são cientificamente incorretas ou inexistentes (o maior risco). **Viés de Treinamento:** O modelo pode favorecer informações de fontes mais comuns ou em inglês, ignorando descobertas críticas em outras línguas ou de periódicos menos populares. **Falta de Contexto Biológico:** Prompts genéricos levam a respostas superficiais ou irrelevantes. A ausência de detalhes cruciais (ex: organismo, condição experimental) é um erro comum. **Limitação de Token:** A incapacidade de processar grandes volumes de dados brutos (sequências genômicas inteiras, múltiplos artigos) em um único prompt devido aos limites de token do modelo. **Interpretação de Dados Complexos:** LLMs não são ferramentas de análise estatística e podem interpretar mal dados numéricos complexos ou gráficos sem o contexto adequado. **Confiança Excessiva:** A aceitação cega da saída do LLM sem a devida verificação e validação científica.
+**Factual Hallucination:** The LLM may generate information that seems plausible but is scientifically incorrect or nonexistent (the biggest risk). **Training Bias:** The model may favor information from more common sources or in English, ignoring critical findings in other languages or from less popular journals. **Lack of Biological Context:** Generic prompts lead to superficial or irrelevant responses. The absence of crucial details (e.g., organism, experimental condition) is a common mistake. **Token Limitation:** The inability to process large volumes of raw data (entire genomic sequences, multiple articles) in a single prompt due to the model's token limits. **Complex Data Interpretation:** LLMs are not statistical analysis tools and may misinterpret complex numerical data or graphs without the proper context. **Over-Reliance:** Blindly accepting the LLM's output without proper scientific verification and validation.
 
 ## URL
 [https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/](https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/)

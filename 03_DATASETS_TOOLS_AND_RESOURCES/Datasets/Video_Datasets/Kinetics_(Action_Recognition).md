@@ -1,19 +1,19 @@
 # Kinetics (Action Recognition)
 
 ## Description
-O Kinetics é uma coleção de datasets de larga escala e alta qualidade, projetados para o reconhecimento de ações humanas em vídeos. O dataset consiste em links de URLs para clipes de vídeo do YouTube, abrangendo interações humano-objeto (como tocar instrumentos) e interações humano-humano (como apertar as mãos). Cada clipe tem aproximadamente 10 segundos de duração e é anotado com uma única classe de ação. A versão mais recente e abrangente é a Kinetics-700-2020.
+Kinetics is a collection of large-scale, high-quality datasets designed for the recognition of human actions in videos. The dataset consists of URL links to YouTube video clips, covering human-object interactions (such as playing instruments) and human-human interactions (such as shaking hands). Each clip is approximately 10 seconds long and is annotated with a single action class. The most recent and comprehensive version is Kinetics-700-2020.
 
 ## Statistics
-O dataset Kinetics possui múltiplas versões: Kinetics-400 (400 classes), Kinetics-600 (600 classes) e Kinetics-700-2020 (700 classes). A versão Kinetics-700-2020 é a mais atualizada e contém aproximadamente 635.000 clipes de vídeo no total. O tamanho total do dataset (vídeos) é de cerca de 710 GB. As divisões de dados (CVDF split) são: Treino (534.073 vídeos), Teste (64.260 vídeos) e Validação (33.914 vídeos).
+The Kinetics dataset has multiple versions: Kinetics-400 (400 classes), Kinetics-600 (600 classes), and Kinetics-700-2020 (700 classes). The Kinetics-700-2020 version is the most up-to-date and contains approximately 635,000 video clips in total. The total size of the dataset (videos) is about 710 GB. The data splits (CVDF split) are: Train (534,073 videos), Test (64,260 videos), and Validation (33,914 videos).
 
 ## Features
-Larga escala com 700 classes de ações humanas. Alta qualidade de anotação, com cada clipe anotado por humanos. Foco em ações humanas dinâmicas e interações. Os vídeos são curtos (cerca de 10s) e extraídos do YouTube. O dataset é frequentemente usado como benchmark para modelos de reconhecimento de ação.
+Large scale with 700 human action classes. High annotation quality, with each clip annotated by humans. Focus on dynamic human actions and interactions. The videos are short (about 10s) and extracted from YouTube. The dataset is frequently used as a benchmark for action recognition models.
 
 ## Use Cases
-Treinamento e avaliação de modelos de reconhecimento de ação em vídeo (Action Recognition). Pesquisa em visão computacional e aprendizado profundo para análise de vídeo. Transferência de aprendizado (pre-training) para tarefas de vídeo mais específicas. Desenvolvimento de sistemas de vigilância e análise de comportamento.
+Training and evaluation of video action recognition models (Action Recognition). Research in computer vision and deep learning for video analysis. Transfer learning (pre-training) for more specific video tasks. Development of surveillance and behavior analysis systems.
 
 ## Integration
-O dataset consiste em URLs do YouTube. Devido à volatilidade dos links, a CVDF (Computer Vision Foundation) hospeda os vídeos no AWS S3. A integração é tipicamente feita através de scripts de download (disponíveis no GitHub oficial) que baixam os vídeos a partir das URLs ou dos arquivos tar.gz hospedados. Ferramentas como o FiftyOne também oferecem métodos simplificados para carregar e gerenciar o dataset (ex: `foz.load_zoo_dataset(\"kinetics-700-2020\")`). É necessário ter o `ffmpeg` instalado para trabalhar com os arquivos de vídeo.
+The dataset consists of YouTube URLs. Due to the volatility of the links, the CVDF (Computer Vision Foundation) hosts the videos on AWS S3. Integration is typically done through download scripts (available on the official GitHub) that download the videos from the URLs or from the hosted tar.gz files. Tools such as FiftyOne also offer simplified methods to load and manage the dataset (e.g., `foz.load_zoo_dataset(\"kinetics-700-2020\")`). It is necessary to have `ffmpeg` installed to work with the video files.
 
 ## URL
 [https://deepmind.google/research/open-source/kinetics](https://deepmind.google/research/open-source/kinetics)

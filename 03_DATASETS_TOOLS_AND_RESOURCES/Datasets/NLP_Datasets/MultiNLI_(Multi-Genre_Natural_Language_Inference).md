@@ -1,47 +1,47 @@
 # MultiNLI (Multi-Genre Natural Language Inference)
 
 ## Description
-O **Multi-Genre Natural Language Inference (MultiNLI)** é um corpus de grande escala, crowdsourced, composto por 433 mil pares de frases anotadas com informações de inferência textual (entailment). Ele foi modelado a partir do corpus SNLI, mas se diferencia por abranger uma variedade de **dez gêneros** de texto falado e escrito (como Ficção, Cartas, Discurso Telefônico, Relatório 9/11, etc.). O principal objetivo do MultiNLI é permitir uma avaliação de generalização distinta e mais robusta, conhecida como avaliação **cross-genre**, onde os modelos são testados em um gênero diferente daquele em que foram treinados. O corpus é um recurso fundamental para o desenvolvimento e avaliação de modelos de compreensão de linguagem natural (NLU) e serviu como base para a tarefa compartilhada do RepEval 2017 Workshop [1] [2].
+The **Multi-Genre Natural Language Inference (MultiNLI)** is a large-scale, crowdsourced corpus composed of 433 thousand sentence pairs annotated with textual inference (entailment) information. It was modeled after the SNLI corpus but differs in that it spans a variety of **ten genres** of spoken and written text (such as Fiction, Letters, Telephone Speech, 9/11 Report, etc.). The main goal of MultiNLI is to enable a distinct and more robust generalization evaluation, known as **cross-genre** evaluation, where models are tested on a genre different from the one they were trained on. The corpus is a fundamental resource for the development and evaluation of natural language understanding (NLU) models and served as the basis for the shared task of the RepEval 2017 Workshop [1] [2].
 
 ## Statistics
-- **Tamanho do Dataset**: 433.000 (433k) pares de frases anotadas.
-- **Tamanho do Arquivo**: 227 MB (ZIP).
-- **Versão Principal**: 1.0 (Versão 0.9 também existe, mas difere apenas nos campos `pairID` e `promptID`).
-- **Divisão (Aproximada)**:
-    - Treinamento: ~392.7k pares
-    - Desenvolvimento (Matched): ~9.8k pares
-    - Desenvolvimento (Mismatched): ~9.8k pares
-    - Teste (Matched): ~9.8k pares (disponível via Kaggle/GLUE)
-    - Teste (Mismatched): ~9.8k pares (disponível via Kaggle/GLUE)
+- **Dataset Size**: 433,000 (433k) annotated sentence pairs.
+- **File Size**: 227 MB (ZIP).
+- **Main Version**: 1.0 (Version 0.9 also exists, but differs only in the `pairID` and `promptID` fields).
+- **Split (Approximate)**:
+    - Training: ~392.7k pairs
+    - Development (Matched): ~9.8k pairs
+    - Development (Mismatched): ~9.8k pairs
+    - Test (Matched): ~9.8k pairs (available via Kaggle/GLUE)
+    - Test (Mismatched): ~9.8k pairs (available via Kaggle/GLUE)
 
 ## Features
-- **Multi-Gênero**: Inclui 10 gêneros distintos de texto, o que o torna mais desafiador e representativo da linguagem real do que o SNLI.
-- **Inferência Textual**: Cada par de frases (Premissa e Hipótese) é rotulado com uma das três relações: **entailment** (implicação), **contradiction** (contradição) ou **neutral** (neutro).
-- **Avaliação Cross-Genre**: O conjunto de desenvolvimento e teste é dividido em duas partes: *Matched* (o mesmo gênero do conjunto de treinamento) e *Mismatched* (gêneros não vistos no treinamento), permitindo uma avaliação da capacidade de generalização do modelo.
-- **Formato**: Distribuído em arquivos ZIP contendo os dados nos formatos JSON Lines (.jsonl) e texto separado por tabulação (.txt).
-- **Licença**: A licença é detalhada no artigo de descrição dos dados [1].
+- **Multi-Genre**: Includes 10 distinct text genres, which makes it more challenging and representative of real language than SNLI.
+- **Textual Inference**: Each sentence pair (Premise and Hypothesis) is labeled with one of three relations: **entailment**, **contradiction**, or **neutral**.
+- **Cross-Genre Evaluation**: The development and test sets are divided into two parts: *Matched* (the same genre as the training set) and *Mismatched* (genres not seen during training), allowing an evaluation of the model's generalization capability.
+- **Format**: Distributed in ZIP files containing the data in JSON Lines (.jsonl) and tab-separated text (.txt) formats.
+- **License**: The license is detailed in the data description paper [1].
 
 ## Use Cases
-- **Treinamento de Modelos NLU**: Principalmente para treinar e ajustar modelos de Inferência de Linguagem Natural (NLI), como BERT, RoBERTa e LLMs.
-- **Avaliação de Generalização**: Utilizado para testar a capacidade de um modelo de generalizar o entendimento de inferência textual para novos domínios (gêneros) de texto.
-- **Pesquisa em NLU**: Serve como um benchmark fundamental para a pesquisa em Compreensão de Linguagem Natural, especialmente em tarefas de raciocínio e inferência.
-- **Transfer Learning**: Usado como um dataset de pré-treinamento ou *fine-tuning* em tarefas relacionadas à semântica e ao raciocínio textual.
+- **Training NLU Models**: Primarily to train and fine-tune Natural Language Inference (NLI) models, such as BERT, RoBERTa, and LLMs.
+- **Generalization Evaluation**: Used to test a model's ability to generalize its understanding of textual inference to new domains (genres) of text.
+- **NLU Research**: Serves as a fundamental benchmark for research in Natural Language Understanding, especially in reasoning and inference tasks.
+- **Transfer Learning**: Used as a pre-training or *fine-tuning* dataset for tasks related to semantics and textual reasoning.
 
 ## Integration
-O dataset MultiNLI (versão 1.0) pode ser baixado diretamente do site oficial da NYU.
-1. **Download**: Baixe o arquivo ZIP (227MB) através do link fornecido na seção URL.
-2. **Descompactação**: O arquivo contém os dados nos formatos `.jsonl` e `.txt`.
-3. **Uso**: Para a maioria das aplicações modernas, o dataset é facilmente acessível através de bibliotecas como **Hugging Face Datasets** ou **TensorFlow Datasets (TFDS)**, que gerenciam o download, a divisão e o pré-processamento automaticamente.
+The MultiNLI dataset (version 1.0) can be downloaded directly from the official NYU website.
+1. **Download**: Download the ZIP file (227MB) through the link provided in the URL section.
+2. **Extraction**: The file contains the data in `.jsonl` and `.txt` formats.
+3. **Usage**: For most modern applications, the dataset is easily accessible through libraries such as **Hugging Face Datasets** or **TensorFlow Datasets (TFDS)**, which handle the download, splitting, and pre-processing automatically.
 
-**Exemplo de Integração (Hugging Face Datasets):**
+**Integration Example (Hugging Face Datasets):**
 ```python
 from datasets import load_dataset
 
-# Carrega o dataset MultiNLI
-# O 'mismatch' é a parte mais desafiadora para avaliação de generalização
+# Load the MultiNLI dataset
+# The 'mismatch' is the most challenging part for generalization evaluation
 dataset = load_dataset("multi_nli", split="validation_mismatched")
 
-# Exibe um exemplo
+# Display an example
 print(dataset[0])
 ```
 

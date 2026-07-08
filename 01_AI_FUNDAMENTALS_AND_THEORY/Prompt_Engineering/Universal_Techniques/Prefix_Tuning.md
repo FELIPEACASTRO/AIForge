@@ -2,51 +2,51 @@
 
 ## Description
 
-**Prefix Tuning** é uma técnica de *Parameter-Efficient Fine-Tuning* (PEFT) que se enquadra no campo da Engenharia de Prompt (Prompt Engineering) treinável. Seu objetivo é adaptar **Large Language Models (LLMs)** para tarefas específicas de Geração de Linguagem Natural (NLG) de forma eficiente, sem a necessidade de atualizar todos os parâmetros do modelo base. Em vez de ajustar os pesos internos do modelo (como no *Fine-Tuning* tradicional), o Prefix Tuning otimiza um pequeno conjunto de **vetores contínuos e treináveis**, conhecidos como "prefixo". Este prefixo é concatenado à entrada (tokenizada) e atua como um *soft prompt* que guia o comportamento do modelo para a tarefa desejada. O modelo base permanece **congelado**, preservando seu conhecimento pré-treinado e permitindo que um único modelo seja reutilizado para múltiplas tarefas, simplesmente trocando o prefixo.
+**Prefix Tuning** is a *Parameter-Efficient Fine-Tuning* (PEFT) technique that falls within the field of trainable Prompt Engineering. Its goal is to adapt **Large Language Models (LLMs)** for specific Natural Language Generation (NLG) tasks efficiently, without the need to update all of the base model's parameters. Instead of adjusting the model's internal weights (as in traditional *Fine-Tuning*), Prefix Tuning optimizes a small set of **continuous, trainable vectors**, known as the "prefix." This prefix is concatenated to the (tokenized) input and acts as a *soft prompt* that guides the model's behavior toward the desired task. The base model remains **frozen**, preserving its pre-trained knowledge and allowing a single model to be reused for multiple tasks simply by swapping the prefix.
 
 ## Statistics
 
-*   **Eficiência de Parâmetros:** O Prefix Tuning é extremamente eficiente, atualizando e armazenando apenas cerca de **0,1%** dos parâmetros totais do modelo por tarefa.
-*   **Desempenho:** Demonstra desempenho **comparável** ao *Fine-Tuning* completo, mas com uma fração muito menor de parâmetros treináveis.
-*   **Métrica de Exemplo (ROUGE-L):** Em tarefas de geração (como *table-to-text*), o Prefix Tuning pode alcançar um ROUGE-L de **36,05** usando apenas 2% dos parâmetros específicos da tarefa, em comparação com **37,25** do *Fine-Tuning* completo.
-*   **Citações:** O artigo original de 2021, "Prefix-Tuning: Optimizing Continuous Prompts for Generation" (Li & Liang), possui mais de **5800 citações**, indicando sua influência fundamental na área de PEFT.
-*   **Desenvolvimentos Recentes (2025):** Variações como **Prefix-Tuning+** (2025) buscam modernizar a técnica, superando o desempenho dos métodos Prefix Tuning existentes em diversos benchmarks.
+*   **Parameter Efficiency:** Prefix Tuning is extremely efficient, updating and storing only about **0.1%** of the model's total parameters per task.
+*   **Performance:** It demonstrates performance **comparable** to full *Fine-Tuning*, but with a much smaller fraction of trainable parameters.
+*   **Example Metric (ROUGE-L):** On generation tasks (such as *table-to-text*), Prefix Tuning can achieve a ROUGE-L of **36.05** using only 2% of the task-specific parameters, compared to **37.25** for full *Fine-Tuning*.
+*   **Citations:** The original 2021 paper, "Prefix-Tuning: Optimizing Continuous Prompts for Generation" (Li & Liang), has more than **5800 citations**, indicating its foundational influence in the field of PEFT.
+*   **Recent Developments (2025):** Variations such as **Prefix-Tuning+** (2025) seek to modernize the technique, surpassing the performance of existing Prefix Tuning methods across various benchmarks.
 
 ## Features
 
-*   **Adaptação Leve:** Adapta LLMs para novas tarefas com um custo computacional e de armazenamento significativamente menor do que o *Fine-Tuning*.
-*   **Parâmetros Congelados:** Mantém os pesos do modelo base congelados, evitando o *catastrophic forgetting* e preservando o conhecimento geral do modelo.
-*   **Prefixos Contínuos:** O prefixo é uma sequência de *embeddings* (vetores) otimizados via backpropagation, não sendo prompts de texto legíveis por humanos.
-*   **Modularidade:** Permite o treinamento de múltiplos prefixos para diferentes tarefas, que podem ser trocados rapidamente para adaptar o mesmo modelo base a diversos casos de uso (*multi-task deployment*).
-*   **Generalização:** Demonstra desempenho robusto em cenários de poucos dados (*low-data scenarios*).
+*   **Lightweight Adaptation:** Adapts LLMs to new tasks with significantly lower computational and storage cost than *Fine-Tuning*.
+*   **Frozen Parameters:** Keeps the base model's weights frozen, avoiding *catastrophic forgetting* and preserving the model's general knowledge.
+*   **Continuous Prefixes:** The prefix is a sequence of *embeddings* (vectors) optimized via backpropagation, not human-readable text prompts.
+*   **Modularity:** Allows training multiple prefixes for different tasks, which can be quickly swapped to adapt the same base model to diverse use cases (*multi-task deployment*).
+*   **Generalization:** Demonstrates robust performance in *low-data scenarios*.
 
 ## Use Cases
 
-*   **Geração de Linguagem Natural (NLG):** Tarefas como sumarização de texto, geração de código, e conversão de tabelas para texto.
-*   **Chatbots e Assistentes:** Adaptação rápida de um LLM base para diferentes personas ou domínios de conversação.
-*   **Implantação Multi-Tarefa:** Ideal para ambientes onde um único LLM precisa servir a muitas aplicações distintas, pois apenas os pequenos prefixos precisam ser carregados e trocados.
-*   **Otimização de Código:** O **Variational Prefix Tuning (VPT)** (2025) é um exemplo de aplicação para aprimorar a geração de código diversa e precisa.
-*   **Modelos Multi-Modais:** Pesquisas recentes (2024) exploram a eficácia do Prefix Tuning em Large Multi-modal Models (LMMs).
+*   **Natural Language Generation (NLG):** Tasks such as text summarization, code generation, and table-to-text conversion.
+*   **Chatbots and Assistants:** Rapid adaptation of a base LLM for different personas or conversational domains.
+*   **Multi-Task Deployment:** Ideal for environments where a single LLM needs to serve many distinct applications, since only the small prefixes need to be loaded and swapped.
+*   **Code Optimization:** **Variational Prefix Tuning (VPT)** (2025) is an example of an application for enhancing diverse and accurate code generation.
+*   **Multi-Modal Models:** Recent research (2024) explores the effectiveness of Prefix Tuning in Large Multi-modal Models (LMMs).
 
 ## Integration
 
-O Prefix Tuning não utiliza prompts de texto tradicionais. A "integração" ocorre no nível do código, onde o prefixo treinado é injetado na camada de atenção do modelo.
+Prefix Tuning does not use traditional text prompts. "Integration" occurs at the code level, where the trained prefix is injected into the model's attention layer.
 
-**Melhores Práticas e Implementação:**
-1.  **Escolha da Biblioteca PEFT:** Utilize bibliotecas como **Hugging Face PEFT** para implementar o Prefix Tuning de forma simplificada.
-2.  **Inicialização:** O prefixo (vetores) pode ser inicializado aleatoriamente ou a partir de um ponto de partida predeterminado.
-3.  **Treinamento:** O treinamento é focado **apenas** nos vetores do prefixo, usando um conjunto de dados específico para a tarefa (ex: dados de sumarização).
-4.  **Uso:** Após o treinamento, o prefixo é salvo e carregado junto com o modelo base congelado. Para cada nova inferência, o prefixo é pré-pendido à entrada do usuário.
+**Best Practices and Implementation:**
+1.  **Choice of PEFT Library:** Use libraries such as **Hugging Face PEFT** to implement Prefix Tuning in a simplified way.
+2.  **Initialization:** The prefix (vectors) can be initialized randomly or from a predetermined starting point.
+3.  **Training:** Training focuses **only** on the prefix vectors, using a dataset specific to the task (e.g., summarization data).
+4.  **Usage:** After training, the prefix is saved and loaded together with the frozen base model. For each new inference, the prefix is prepended to the user's input.
 
-**Exemplo Conceitual (Fluxo de Dados):**
+**Conceptual Example (Data Flow):**
 ```
-# O prefixo treinado é uma matriz de embeddings (P)
-# A entrada do usuário é convertida em embeddings (E)
+# The trained prefix is a matrix of embeddings (P)
+# The user input is converted into embeddings (E)
 
-Entrada do Modelo = [P; E] 
+Model Input = [P; E] 
 
-# O modelo processa a sequência combinada [P, E] para gerar a saída.
-# O prefixo P atua como um "guia" contínuo para a tarefa.
+# The model processes the combined sequence [P, E] to generate the output.
+# The prefix P acts as a continuous "guide" for the task.
 ```
 
 ## URL

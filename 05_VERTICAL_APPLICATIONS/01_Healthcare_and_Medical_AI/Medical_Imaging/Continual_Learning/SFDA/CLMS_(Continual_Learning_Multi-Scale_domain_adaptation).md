@@ -2,38 +2,38 @@
 
 ## Description
 
-**CLMS (Continual Learning Multi-Scale domain adaptation)** é uma estrutura de ponta para a adaptação de modelos de Deep Learning em novos domínios clínicos de imagens médicas, mesmo quando os dados originais de treinamento (fonte) não estão disponíveis (Source-Free Domain Adaptation - SFDA). O CLMS integra reconstrução multi-escala, aprendizagem contínua (CL) e alinhamento de estilo para superar desafios como a propagação de erros, o desalinhamento de características visuais e estruturais, e o esquecimento catastrófico do conhecimento prévio. O objetivo é garantir a implantação segura e confiável de modelos de IA em diversos ambientes de saúde.
+**CLMS (Continual Learning Multi-Scale domain adaptation)** is a cutting-edge framework for adapting Deep Learning models to new clinical domains in medical imaging, even when the original training (source) data is not available (Source-Free Domain Adaptation - SFDA). CLMS integrates multi-scale reconstruction, continual learning (CL), and style alignment to overcome challenges such as error propagation, visual and structural feature misalignment, and catastrophic forgetting of prior knowledge. The goal is to ensure the safe and reliable deployment of AI models across diverse healthcare environments.
 
 ## Statistics
 
-- **Segmentação de Ressonância Magnética da Próstata:** Melhoria de **10,87%** no coeficiente Dice (em comparação com o estado da arte).
-- **Segmentação de Pólipos em Colonoscopia:** Melhoria de **17,73%** no coeficiente Dice.
-- **Classificação de Doença Plus em Imagens de Retina:** Melhoria de **11,19%** na AUC (Area Under the Curve).
-- **Preservação de Conhecimento:** Preservou o conhecimento da fonte para todas as tarefas, evitando o esquecimento catastrófico.
-- **Citações:** Citado por 8 (em dezembro de 2024, conforme snippet).
-- **Publicação:** *Medical Image Analysis* (2025).
+- **Prostate MRI Segmentation:** **10.87%** improvement in the Dice coefficient (compared to the state of the art).
+- **Colonoscopy Polyp Segmentation:** **17.73%** improvement in the Dice coefficient.
+- **Plus Disease Classification in Retinal Images:** **11.19%** improvement in AUC (Area Under the Curve).
+- **Knowledge Preservation:** Preserved source knowledge for all tasks, avoiding catastrophic forgetting.
+- **Citations:** Cited by 8 (as of December 2024, per the snippet).
+- **Publication:** *Medical Image Analysis* (2025).
 
 ## Features
 
-- **Adaptação de Domínio Livre de Fonte (SFDA):** Adapta modelos a novos domínios de destino não rotulados sem acesso aos dados de origem originais.
-- **Aprendizagem Contínua (CL):** Preserva o conhecimento da fonte e evita o esquecimento catastrófico ao integrar novos dados de domínio de destino.
-- **Reconstrução Multi-Escala:** Aborda o desalinhamento de características visuais e estruturais entre domínios.
-- **Alinhamento de Estilo:** Ajuda a reduzir as discrepâncias de dados entre diferentes locais clínicos.
-- **Solução End-to-End:** Estrutura completa para transferência e adaptação robusta de conhecimento.
+- **Source-Free Domain Adaptation (SFDA):** Adapts models to new unlabeled target domains without access to the original source data.
+- **Continual Learning (CL):** Preserves source knowledge and avoids catastrophic forgetting when integrating new target-domain data.
+- **Multi-Scale Reconstruction:** Addresses the visual and structural feature misalignment between domains.
+- **Style Alignment:** Helps reduce data discrepancies between different clinical sites.
+- **End-to-End Solution:** Complete framework for robust knowledge transfer and adaptation.
 
 ## Use Cases
 
-- **Implantação de Modelos em Novos Hospitais/Clínicas:** Adaptação de modelos de IA treinados em um local para uso em outro, onde as características dos dados (equipamento, população) são diferentes.
-- **Segmentação Robusta de Imagens Médicas:** Aplicação em tarefas críticas como segmentação de tumores, órgãos ou lesões em diferentes modalidades de imagem (MRI, Colonoscopia, Retinografia).
-- **Diagnóstico Adaptativo:** Criação de sistemas de diagnóstico que podem evoluir e se adaptar a novas populações de pacientes ou novos protocolos de imagem sem a necessidade de retreinar o modelo do zero com os dados originais.
+- **Model Deployment in New Hospitals/Clinics:** Adapting AI models trained at one site for use at another, where the data characteristics (equipment, population) are different.
+- **Robust Medical Image Segmentation:** Application in critical tasks such as segmentation of tumors, organs, or lesions across different imaging modalities (MRI, Colonoscopy, Retinography).
+- **Adaptive Diagnosis:** Creation of diagnostic systems that can evolve and adapt to new patient populations or new imaging protocols without the need to retrain the model from scratch with the original data.
 
 ## Integration
 
-O CLMS é um *framework* de pesquisa e, embora o código exato não tenha sido extraído, a implementação é baseada em técnicas de Deep Learning e requer:
-1.  Um modelo pré-treinado no domínio de origem (Source Domain).
-2.  Um conjunto de dados não rotulados do novo domínio de destino (Target Domain).
-3.  Implementação do módulo de reconstrução multi-escala, da estratégia de aprendizagem contínua (para evitar o esquecimento) e do componente de alinhamento de estilo.
-O artigo sugere que a implementação é feita em Python, utilizando bibliotecas padrão de Deep Learning (como PyTorch ou TensorFlow), e é um método de adaptação de domínio. O código-fonte geralmente é disponibilizado em repositórios do GitHub associados aos autores.
+CLMS is a research *framework*, and although the exact code was not extracted, the implementation is based on Deep Learning techniques and requires:
+1.  A model pre-trained on the source domain (Source Domain).
+2.  An unlabeled dataset from the new target domain (Target Domain).
+3.  Implementation of the multi-scale reconstruction module, the continual learning strategy (to avoid forgetting), and the style alignment component.
+The paper suggests that the implementation is done in Python, using standard Deep Learning libraries (such as PyTorch or TensorFlow), and it is a domain adaptation method. The source code is generally made available in GitHub repositories associated with the authors.
 
 ## URL
 

@@ -2,37 +2,37 @@
 
 ## Description
 
-AgriTransformer é uma arquitetura de *deep learning* baseada em *Transformer* que utiliza um mecanismo de **co-atenção (cross-modal attention)** para integrar dados multimodais (dados tabulares de manejo agrícola e índices de vegetação de imagens de satélite) para aprimorar a previsão de rendimento de culturas. O mecanismo de co-atenção permite que o modelo aprenda as interdependências dinâmicas entre as diferentes modalidades de dados, superando modelos que tratam as modalidades separadamente ou as concatenam de forma simples. O modelo foi desenvolvido para capturar as complexas interações não lineares entre as condições ambientais, práticas de manejo e respostas fisiológicas das plantas.
+AgriTransformer is a *deep learning* architecture based on the *Transformer* that uses a **co-attention (cross-modal attention)** mechanism to integrate multimodal data (tabular agricultural management data and vegetation indices from satellite imagery) in order to improve crop yield prediction. The co-attention mechanism allows the model to learn the dynamic interdependencies between the different data modalities, outperforming models that treat the modalities separately or simply concatenate them. The model was developed to capture the complex nonlinear interactions between environmental conditions, management practices, and the physiological responses of plants.
 
 ## Statistics
 
-- **Melhor Desempenho:** Variantes com co-atenção.
-- **Métricas:** MSE = 2.598 (Média), R² = 0.919 (Média).
-- **Comparação:** Supera significativamente a Regressão Linear (R² = 0.704) e Redes Neurais Densas (R² = 0.884).
-- **Dataset:** Telangana Crop Health Challenge (Índia).
-- **Citações:** 3 (até a data de publicação do artigo em 2025).
+- **Best Performance:** Variants with co-attention.
+- **Metrics:** MSE = 2.598 (Mean), R² = 0.919 (Mean).
+- **Comparison:** Significantly outperforms Linear Regression (R² = 0.704) and Dense Neural Networks (R² = 0.884).
+- **Dataset:** Telangana Crop Health Challenge (India).
+- **Citations:** 3 (as of the article's publication date in 2025).
 
 ## Features
 
-- **Mecanismo de Co-Atenção (Cross-Modal Attention):** Permite a fusão eficiente de dados heterogêneos (tabulares e espectrais), aprendendo como as características de uma modalidade influenciam a outra.
-- **Arquitetura Baseada em Transformer:** Utiliza a força dos *Transformers* para modelar dependências complexas e de longo alcance nos dados.
-- **Entradas Multimodais:** Processa simultaneamente dados tabulares (tipo de cultura, irrigação, manejo) e índices de vegetação (NDVI, EVI, NDWI, GNDVI, SAVI, MSAVI) derivados de imagens de satélite Sentinel-2.
-- **Modularidade:** Design modular que facilita a adaptabilidade e transferibilidade para diferentes tipos de culturas e regiões geográficas.
+- **Co-Attention Mechanism (Cross-Modal Attention):** Enables the efficient fusion of heterogeneous data (tabular and spectral), learning how the features of one modality influence the other.
+- **Transformer-Based Architecture:** Leverages the strength of *Transformers* to model complex, long-range dependencies in the data.
+- **Multimodal Inputs:** Simultaneously processes tabular data (crop type, irrigation, management) and vegetation indices (NDVI, EVI, NDWI, GNDVI, SAVI, MSAVI) derived from Sentinel-2 satellite imagery.
+- **Modularity:** Modular design that facilitates adaptability and transferability to different crop types and geographic regions.
 
 ## Use Cases
 
-- **Previsão de Rendimento de Culturas:** Estimação precisa da produção agrícola em nível de campo, crucial para a segurança alimentar e planejamento logístico.
-- **Agricultura de Precisão:** Suporte à tomada de decisões em tempo real sobre irrigação, fertilização e manejo de culturas.
-- **Modelagem de Interações Complexas:** Identificação e quantificação da influência de fatores de manejo (irrigação, tipo de cultura) sobre as condições de saúde da vegetação (VIs).
-- **Monitoramento Agrícola:** Fornece uma base robusta para o monitoramento da saúde e desenvolvimento das culturas ao longo da estação de crescimento.
+- **Crop Yield Prediction:** Accurate estimation of agricultural production at the field level, crucial for food security and logistics planning.
+- **Precision Agriculture:** Support for real-time decision-making on irrigation, fertilization, and crop management.
+- **Modeling Complex Interactions:** Identification and quantification of the influence of management factors (irrigation, crop type) on vegetation health conditions (VIs).
+- **Agricultural Monitoring:** Provides a robust foundation for monitoring crop health and development throughout the growing season.
 
 ## Integration
 
-O modelo foi implementado usando as *frameworks* **TensorFlow** e **Keras** (Python), com o **Google Earth Engine** sendo utilizado para a obtenção das imagens multiespectrais de satélite. A integração envolve:
-1.  **Pré-processamento de Dados:** Normalização de dados tabulares e cálculo de Índices de Vegetação (VIs) a partir de imagens Sentinel-2.
-2.  **Arquitetura:** Construção das camadas de *Embedding* para dados tabulares e VIs, seguidas pelo módulo de Co-Atenção.
-3.  **Treinamento:** Otimizador Adam, *learning rate* inicial de 0.001, função de perda MSE.
-*Não foi encontrado um repositório GitHub público com o código de implementação no momento da pesquisa, mas o artigo detalha a arquitetura para replicação.*
+The model was implemented using the **TensorFlow** and **Keras** (Python) *frameworks*, with **Google Earth Engine** being used to obtain the multispectral satellite imagery. The integration involves:
+1.  **Data Preprocessing:** Normalization of tabular data and calculation of Vegetation Indices (VIs) from Sentinel-2 imagery.
+2.  **Architecture:** Construction of the *Embedding* layers for tabular data and VIs, followed by the Co-Attention module.
+3.  **Training:** Adam optimizer, initial *learning rate* of 0.001, MSE loss function.
+*No public GitHub repository with the implementation code was found at the time of research, but the article details the architecture for replication.*
 
 ## URL
 

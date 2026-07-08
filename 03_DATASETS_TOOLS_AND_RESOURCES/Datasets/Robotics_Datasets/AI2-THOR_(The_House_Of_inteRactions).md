@@ -1,38 +1,38 @@
 # AI2-THOR (The House Of inteRactions)
 
 ## Description
-AI2-THOR (The House Of inteRactions) é um framework e ambiente de simulação 3D fotorrealista, desenvolvido pelo Allen Institute for AI (AI2), para pesquisa em Inteligência Artificial Visual e Embarcada (Embodied AI). Ele fornece um ambiente interativo onde agentes de IA podem navegar e interagir com objetos em cenas internas (cozinhas, quartos, banheiros, salas de estar) para realizar tarefas complexas. O ambiente é construído com Unity 3D, o que possibilita simulação física para objetos e cenas, incluindo estados visuais de objetos (abrir/fechar, ligar/desligar, quente/frio). O projeto evoluiu para incluir ambientes mais complexos como o ProcTHOR, que utiliza geração procedural para criar um número massivo de ambientes.
+AI2-THOR (The House Of inteRactions) is a photorealistic 3D simulation framework and environment developed by the Allen Institute for AI (AI2) for research in Visual and Embodied AI. It provides an interactive environment where AI agents can navigate and interact with objects in indoor scenes (kitchens, bedrooms, bathrooms, living rooms) to perform complex tasks. The environment is built with Unity 3D, which enables physical simulation for objects and scenes, including visual object states (open/closed, on/off, hot/cold). The project has evolved to include more complex environments such as ProcTHOR, which uses procedural generation to create a massive number of environments.
 
 ## Statistics
-- **iTHOR:** 120 salas (cozinhas, quartos, banheiros, salas de estar), mais de 2000 objetos únicos.
-- **RoboTHOR:** 89 apartamentos com mais de 600 objetos, com contrapartes físicas e simuladas para 14 apartamentos.
-- **ProcTHOR (Versão mais recente):** 10.000 casas geradas proceduralmente, oferecendo um volume massivo de dados para treinamento.
-- **Tamanho do Binário:** O ambiente 3D (Unity) é baixado na primeira execução e tem aproximadamente 500MB.
-- **Versões:** A documentação mais recente disponível publicamente é para a versão 2.1.0, mas o projeto é ativamente mantido no GitHub, com atualizações e novos *frameworks* como ProcTHOR (anunciado em 2022).
+- **iTHOR:** 120 rooms (kitchens, bedrooms, bathrooms, living rooms), more than 2000 unique objects.
+- **RoboTHOR:** 89 apartments with more than 600 objects, with physical and simulated counterparts for 14 apartments.
+- **ProcTHOR (most recent version):** 10,000 procedurally generated houses, offering a massive volume of data for training.
+- **Binary size:** The 3D environment (Unity) is downloaded on first run and is approximately 500MB.
+- **Versions:** The most recent publicly available documentation is for version 2.1.0, but the project is actively maintained on GitHub, with updates and new *frameworks* such as ProcTHOR (announced in 2022).
 
 ## Features
-- **Simulação Fotorrealista:** Cenas 3D de alta qualidade baseadas em Unity 3D.
-- **Interação Física:** Suporte a simulação física para objetos, permitindo que agentes interajam com eles (empurrar, pegar, abrir, etc.).
-- **Estados de Objetos:** Objetos com estados visuais mutáveis (e.g., torradeira ligada/desligada, porta aberta/fechada).
-- **Múltiplos Agentes:** Suporte para múltiplos agentes na mesma cena e diferentes tipos de agentes (humanoides, drones).
-- **Sub-ambientes:** Inclui iTHOR (navegação e interação), RoboTHOR (transferência simulação-para-real com robôs LoCoBot) e ManipulaTHOR (manipulação de objetos com braço robótico).
-- **Escalabilidade (ProcTHOR):** A versão mais recente, ProcTHOR, permite a geração procedural de 10.000 casas, oferecendo um volume massivo de dados para treinamento de modelos de IA Embarcada.
+- **Photorealistic Simulation:** High-quality 3D scenes based on Unity 3D.
+- **Physical Interaction:** Support for physical simulation of objects, allowing agents to interact with them (push, pick up, open, etc.).
+- **Object States:** Objects with mutable visual states (e.g., toaster on/off, door open/closed).
+- **Multiple Agents:** Support for multiple agents in the same scene and different types of agents (humanoids, drones).
+- **Sub-environments:** Includes iTHOR (navigation and interaction), RoboTHOR (sim-to-real transfer with LoCoBot robots), and ManipulaTHOR (object manipulation with a robotic arm).
+- **Scalability (ProcTHOR):** The most recent version, ProcTHOR, enables procedural generation of 10,000 houses, offering a massive volume of data for training Embodied AI models.
 
 ## Use Cases
-- **Inteligência Artificial Embarcada (Embodied AI):** Treinamento e avaliação de agentes que precisam interagir com o mundo físico.
-- **Navegação Visual:** Desenvolvimento de modelos para navegação em ambientes internos complexos.
-- **Manipulação de Objetos:** Pesquisa em tarefas de manipulação fina e planejamento de longo prazo com braços robóticos (ManipulaTHOR).
-- **Transferência Simulação-para-Real (Sim2Real):** Uso do RoboTHOR para testar a generalização de modelos treinados em simulação para robôs físicos (LoCoBot).
-- **Aprendizado por Reforço (RL):** Plataforma para o desenvolvimento de agentes de RL em tarefas que exigem raciocínio e interação complexa.
-- **Resolução de Tarefas Multietapas:** Criação de agentes capazes de seguir instruções de linguagem natural para completar sequências de ações (e.g., cozinhar, arrumar um quarto).
+- **Embodied AI:** Training and evaluation of agents that need to interact with the physical world.
+- **Visual Navigation:** Development of models for navigation in complex indoor environments.
+- **Object Manipulation:** Research into fine manipulation tasks and long-horizon planning with robotic arms (ManipulaTHOR).
+- **Sim-to-Real Transfer (Sim2Real):** Use of RoboTHOR to test the generalization of models trained in simulation to physical robots (LoCoBot).
+- **Reinforcement Learning (RL):** Platform for developing RL agents on tasks that require reasoning and complex interaction.
+- **Multi-step Task Solving:** Creation of agents capable of following natural language instructions to complete sequences of actions (e.g., cooking, tidying up a room).
 
 ## Integration
-O AI2-THOR é instalado como uma biblioteca Python via `pip`.
-1. **Instalação:** Recomenda-se um ambiente virtual Python (3.5+).
+AI2-THOR is installed as a Python library via `pip`.
+1. **Installation:** A Python virtual environment (3.5+) is recommended.
    ```bash
    pip install ai2thor
    ```
-2. **Uso Básico (Python):** O ambiente 3D é baixado automaticamente (aprox. 500MB) na primeira execução.
+2. **Basic Usage (Python):** The 3D environment is downloaded automatically (approx. 500MB) on first run.
    ```python
    import ai2thor.controller
    
@@ -46,8 +46,8 @@ O AI2-THOR é instalado como uma biblioteca Python via `pip`.
    # Para a simulação
    controller.stop()
    ```
-3. **Documentação:** A documentação oficial fornece detalhes sobre as ações disponíveis (`MoveAhead`, `RotateLeft`, `PickupObject`, etc.) e a estrutura de metadados retornada.
-4. **Requisitos:** Requer um servidor X com OpenGL (para usuários Linux) e uma placa gráfica com suporte a DX9 (shader model 3.0) ou DX11. O uso de renderização *headless* é suportado para clusters de computação.
+3. **Documentation:** The official documentation provides details about the available actions (`MoveAhead`, `RotateLeft`, `PickupObject`, etc.) and the structure of the returned metadata.
+4. **Requirements:** Requires an X server with OpenGL (for Linux users) and a graphics card supporting DX9 (shader model 3.0) or DX11. *Headless* rendering is supported for compute clusters.
 
 ## URL
 [https://ai2thor.allenai.org/](https://ai2thor.allenai.org/)

@@ -2,59 +2,59 @@
 
 ## Description
 
-O ONNX Runtime (ORT) é um motor de inferência e treinamento de aprendizado de máquina de alto desempenho e código aberto, projetado para acelerar a execução de modelos ONNX (Open Neural Network Exchange) em diversas plataformas de hardware e software. Sua proposta de valor única reside na **interoperabilidade e otimização de desempenho**, permitindo que modelos treinados em qualquer framework (como PyTorch, TensorFlow, Keras, scikit-learn) sejam exportados para o formato ONNX e executados de forma eficiente em ambientes de produção, desde a nuvem (Azure, AWS, GCP) até dispositivos de borda e móveis (iOS, Android, Web). O ORT aplica otimizações de grafo e utiliza provedores de execução (Execution Providers - EPs) específicos de hardware para maximizar a velocidade de inferência e treinamento, reduzindo a latência e aumentando a taxa de transferência.
+ONNX Runtime (ORT) is a high-performance, open-source machine learning inference and training engine, designed to accelerate the execution of ONNX (Open Neural Network Exchange) models across diverse hardware and software platforms. Its unique value proposition lies in **interoperability and performance optimization**, allowing models trained in any framework (such as PyTorch, TensorFlow, Keras, scikit-learn) to be exported to the ONNX format and executed efficiently in production environments, from the cloud (Azure, AWS, GCP) to edge and mobile devices (iOS, Android, Web). ORT applies graph optimizations and uses hardware-specific Execution Providers (EPs) to maximize inference and training speed, reducing latency and increasing throughput.
 
 ## Statistics
 
-**Aceleração de Desempenho:** Relatos de ganhos de desempenho de inferência de até **9x** em comparação com frameworks nativos em cenários específicos, como em serviços de modelo com alta taxa de transferência.
-**Otimização de Latência:** Projetado para minimizar a latência de inferência, crucial para aplicações em tempo real.
-**Uso em Produção:** Utilizado em produtos da Microsoft, incluindo Windows, Office, Azure Cognitive Services e Bing, demonstrando escalabilidade e confiabilidade de nível de produção.
-**Flexibilidade de Hardware:** Suporta mais de 10 Provedores de Execução (EPs) diferentes para otimizar o desempenho em uma ampla gama de hardware.
+**Performance Acceleration:** Reports of inference performance gains of up to **9x** compared to native frameworks in specific scenarios, such as in high-throughput model serving.
+**Latency Optimization:** Designed to minimize inference latency, crucial for real-time applications.
+**Production Use:** Used in Microsoft products, including Windows, Office, Azure Cognitive Services, and Bing, demonstrating production-grade scalability and reliability.
+**Hardware Flexibility:** Supports more than 10 different Execution Providers (EPs) to optimize performance across a wide range of hardware.
 
 ## Features
 
-**Aceleração Multi-Plataforma:** Suporte para Windows, Linux, macOS, iOS, Android e Web.
-**Ampla Compatibilidade de Hardware:** Otimizado para CPU, GPU (CUDA, TensorRT, OpenVINO, ROCm), e NPUs (Qualcomm QNN).
-**Provedores de Execução (EPs):** Interface flexível para integrar bibliotecas específicas de hardware, como TensorRT, OpenVINO, DirectML, e Core ML, para aceleração máxima.
-**Otimização de Grafo:** Aplica transformações e fusões de nós para melhorar a eficiência do modelo antes da execução.
-**Suporte a Treinamento:** Capacidade de treinamento de modelos grandes e treinamento no dispositivo (on-device training) para personalização e privacidade.
-**Suporte a Linguagens:** APIs disponíveis para Python, C++, C#, Java e JavaScript.
+**Cross-Platform Acceleration:** Support for Windows, Linux, macOS, iOS, Android, and Web.
+**Broad Hardware Compatibility:** Optimized for CPU, GPU (CUDA, TensorRT, OpenVINO, ROCm), and NPUs (Qualcomm QNN).
+**Execution Providers (EPs):** Flexible interface to integrate hardware-specific libraries, such as TensorRT, OpenVINO, DirectML, and Core ML, for maximum acceleration.
+**Graph Optimization:** Applies node transformations and fusions to improve model efficiency before execution.
+**Training Support:** Capability for training large models and on-device training for personalization and privacy.
+**Language Support:** APIs available for Python, C++, C#, Java, and JavaScript.
 
 ## Use Cases
 
-**Serviços de Inferência em Nuvem:** Aceleração de modelos de visão computacional, processamento de linguagem natural (NLP) e modelos de recomendação em plataformas como Azure Machine Learning.
-**Aplicações de Borda (Edge Computing):** Implantação de modelos de IA em dispositivos de baixa potência e latência, como câmeras inteligentes e gateways de IoT.
-**Aplicações Móveis:** Integração de recursos de IA em aplicativos iOS e Android (ONNX Runtime Mobile) para experiências personalizadas e processamento no dispositivo.
-**Integração em Aplicações Desktop:** Uso em produtos como o Microsoft Office e Windows para recursos de IA integrados, como reconhecimento de imagem e processamento de texto.
-**Modelos de Linguagem Grande (LLMs):** Otimização da inferência de LLMs e modelos de IA Generativa para reduzir custos e latência.
+**Cloud Inference Services:** Acceleration of computer vision, natural language processing (NLP), and recommendation models on platforms such as Azure Machine Learning.
+**Edge Computing Applications:** Deployment of AI models on low-power, low-latency devices, such as smart cameras and IoT gateways.
+**Mobile Applications:** Integration of AI features into iOS and Android applications (ONNX Runtime Mobile) for personalized experiences and on-device processing.
+**Desktop Application Integration:** Use in products such as Microsoft Office and Windows for built-in AI features, such as image recognition and text processing.
+**Large Language Models (LLMs):** Optimization of LLM and Generative AI model inference to reduce costs and latency.
 
 ## Integration
 
-A integração com o ONNX Runtime é direta, exigindo a instalação do pacote e o carregamento do modelo ONNX para a criação de uma `InferenceSession`. O exemplo a seguir demonstra a inferência básica em Python:
+Integration with ONNX Runtime is straightforward, requiring installation of the package and loading of the ONNX model to create an `InferenceSession`. The following example demonstrates basic inference in Python:
 
 ```python
 import onnxruntime as ort
 import numpy as np
 
-# 1. Carregar o modelo ONNX
-model_path = "caminho/para/seu/modelo.onnx"
+# 1. Load the ONNX model
+model_path = "path/to/your/model.onnx"
 session = ort.InferenceSession(model_path)
 
-# 2. Preparar os dados de entrada (exemplo com um tensor float32)
+# 2. Prepare the input data (example with a float32 tensor)
 input_name = session.get_inputs()[0].name
 input_shape = session.get_inputs()[0].shape
-# Cria um tensor de entrada simulado
+# Create a simulated input tensor
 input_data = np.random.rand(*input_shape).astype(np.float32)
 
-# 3. Executar a inferência
-# O segundo argumento é um dicionário {nome_da_entrada: dados_da_entrada}
+# 3. Run the inference
+# The second argument is a dictionary {input_name: input_data}
 outputs = session.run(None, {input_name: input_data})
 
-# 4. Processar a saída
-print("Saída da Inferência:", outputs[0])
+# 4. Process the output
+print("Inference Output:", outputs[0])
 ```
 
-Para C++, a integração envolve a utilização da API C++ (um *wrapper* da API C) para criar um ambiente, uma sessão e executar o modelo. Exemplos detalhados estão disponíveis no repositório `microsoft/onnxruntime-inference-examples`.
+For C++, integration involves using the C++ API (a *wrapper* of the C API) to create an environment, a session, and run the model. Detailed examples are available in the `microsoft/onnxruntime-inference-examples` repository.
 
 ## URL
 

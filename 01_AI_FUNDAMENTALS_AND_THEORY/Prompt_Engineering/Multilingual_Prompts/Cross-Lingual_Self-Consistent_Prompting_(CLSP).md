@@ -2,52 +2,52 @@
 
 ## Description
 
-**Cross-Lingual Self-Consistent Prompting (CLSP)** é uma técnica avançada de engenharia de prompt que utiliza um processo de verificação sofisticado para garantir a consistência semântica e a adequação cultural das respostas de Modelos de Linguagem de Grande Escala (LLMs) em múltiplas línguas. O sistema gera múltiplas respostas em diferentes idiomas e as cruza para garantir o alinhamento semântico, muitas vezes utilizando a tradução reversa (back-translation) como um mecanismo de verificação. É crucial para tarefas que exigem alta fidelidade de significado e contexto cultural em ambientes multilíngues.
+**Cross-Lingual Self-Consistent Prompting (CLSP)** is an advanced prompt engineering technique that uses a sophisticated verification process to ensure the semantic consistency and cultural appropriateness of Large Language Model (LLM) responses across multiple languages. The system generates multiple responses in different languages and cross-checks them to ensure semantic alignment, often using back-translation as a verification mechanism. It is crucial for tasks that require high fidelity of meaning and cultural context in multilingual environments.
 
 ## Statistics
 
-- **Melhoria de Desempenho:** Estudos (como o artigo de L. Qin et al., 2023) demonstram que o CLSP pode melhorar significativamente o desempenho em tarefas de raciocínio Chain-of-Thought (CoT) de zero-shot em ambientes multilíngues, superando métodos tradicionais de tradução e prompting direto.
-- **Aplicações de PNL:** Particularmente eficaz em tarefas de PNL que exigem raciocínio complexo e alinhamento de intenção, como tradução de provérbios, raciocínio lógico e sumarização de notícias em diferentes idiomas.
-- **Citação Primária:** O conceito de CLSP está intimamente ligado ao trabalho de "Improving Zero-shot Chain-of-Thought Reasoning across Languages via Cross-lingual Self-Consistent Prompting" (Qin et al., 2023).
+- **Performance Improvement:** Studies (such as the paper by L. Qin et al., 2023) demonstrate that CLSP can significantly improve performance in zero-shot Chain-of-Thought (CoT) reasoning tasks in multilingual environments, outperforming traditional translation and direct prompting methods.
+- **NLP Applications:** Particularly effective in NLP tasks that require complex reasoning and intent alignment, such as proverb translation, logical reasoning, and news summarization across different languages.
+- **Primary Citation:** The CLSP concept is closely tied to the work "Improving Zero-shot Chain-of-Thought Reasoning across Languages via Cross-lingual Self-Consistent Prompting" (Qin et al., 2023).
 
 ## Features
 
-- **Verificação de Consistência Semântica:** Garante que o significado da resposta seja mantido em todas as línguas geradas.
-- **Validação de Contexto Cultural:** Ajuda a identificar e corrigir desalinhamentos culturais ou nuances linguísticas.
-- **Geração de Múltiplas Respostas:** Utiliza a diversidade de respostas em diferentes idiomas para refinar a saída final.
-- **Melhoria na Tradução:** Contribui para traduções mais matizadas e contextualmente conscientes.
-- **Adaptabilidade:** Permite que os LLMs se adaptem a diferentes estruturas linguísticas e padrões interculturais.
+- **Semantic Consistency Verification:** Ensures that the meaning of the response is maintained across all generated languages.
+- **Cultural Context Validation:** Helps identify and correct cultural misalignments or linguistic nuances.
+- **Multiple Response Generation:** Uses the diversity of responses in different languages to refine the final output.
+- **Translation Improvement:** Contributes to more nuanced and contextually aware translations.
+- **Adaptability:** Allows LLMs to adapt to different linguistic structures and cross-cultural patterns.
 
 ## Use Cases
 
-- **Marketing Global:** Manter a consistência da mensagem da marca em campanhas internacionais.
-- **Suporte ao Cliente Multilíngue:** Garantir que os chatbots de serviço ao cliente mantenham o contexto e a personalidade ao alternar entre idiomas.
-- **Tradução de Alta Fidelidade:** Produzir traduções que consideram o contexto cultural e situacional, indo além da tradução literal.
-- **Sistemas de Informação:** Garantir a precisão e o alinhamento de informações regulatórias ou técnicas em documentos multilíngues.
+- **Global Marketing:** Maintain brand message consistency across international campaigns.
+- **Multilingual Customer Support:** Ensure that customer service chatbots maintain context and personality when switching between languages.
+- **High-Fidelity Translation:** Produce translations that consider cultural and situational context, going beyond literal translation.
+- **Information Systems:** Ensure the accuracy and alignment of regulatory or technical information in multilingual documents.
 
 ## Integration
 
-**Melhores Práticas:**
-1.  **Instrução de Geração e Verificação:** Peça ao modelo para gerar a resposta na língua-alvo e, em seguida, peça para traduzir a resposta de volta para a língua original para verificar a consistência.
-2.  **Uso de CoT Multilíngue:** Combine CLSP com Chain-of-Thought (CoT) para forçar o modelo a raciocinar na língua de origem e, em seguida, aplicar o raciocínio de forma consistente nas línguas-alvo.
-3.  **Especificação de Contexto Cultural:** Inclua instruções explícitas sobre o público-alvo e o contexto cultural para refinar a validação.
+**Best Practices:**
+1.  **Generation and Verification Instruction:** Ask the model to generate the response in the target language and then ask it to translate the response back to the original language to verify consistency.
+2.  **Use of Multilingual CoT:** Combine CLSP with Chain-of-Thought (CoT) to force the model to reason in the source language and then apply the reasoning consistently across the target languages.
+3.  **Cultural Context Specification:** Include explicit instructions about the target audience and cultural context to refine the validation.
 
-**Exemplo de Prompt (Adaptação para CLSP):**
+**Example Prompt (Adaptation for CLSP):**
 
 ```
-Instrução: Você é um especialista em marketing. Crie um slogan de 5 palavras para um novo café orgânico.
-Língua de Origem: Inglês
-Línguas-Alvo para Geração: Português, Espanhol, Francês
+Instruction: You are a marketing expert. Create a 5-word slogan for a new organic coffee.
+Source Language: English
+Target Languages for Generation: Portuguese, Spanish, French
 
-Passos de CLSP:
-1. Geração em Inglês: "Pure taste, pure energy, pure life."
-2. Geração em Português: "Sabor puro, energia pura, vida pura."
-3. Geração em Espanhol: "Sabor puro, energía pura, vida pura."
-4. Geração em Francês: "Goût pur, énergie pure, vie pure."
-5. Verificação de Consistência (Tradução Reversa): Traduza as versões em Português, Espanhol e Francês de volta para o Inglês para garantir que o significado e o impacto emocional sejam mantidos.
+CLSP Steps:
+1. English Generation: "Pure taste, pure energy, pure life."
+2. Portuguese Generation: "Sabor puro, energia pura, vida pura."
+3. Spanish Generation: "Sabor puro, energía pura, vida pura."
+4. French Generation: "Goût pur, énergie pure, vie pure."
+5. Consistency Verification (Back-Translation): Translate the Portuguese, Spanish, and French versions back into English to ensure that the meaning and emotional impact are maintained.
 
-Melhor Prática de Prompting:
-"Gere um slogan de 5 palavras para um café orgânico. Em seguida, traduza-o para Português, Espanhol e Francês. Por fim, traduza as três versões de volta para o Inglês e avalie a consistência semântica e o impacto emocional de cada uma, justificando a melhor tradução para cada mercado."
+Best Prompting Practice:
+"Generate a 5-word slogan for an organic coffee. Then translate it into Portuguese, Spanish, and French. Finally, translate the three versions back into English and evaluate the semantic consistency and emotional impact of each, justifying the best translation for each market."
 ```
 
 ## URL

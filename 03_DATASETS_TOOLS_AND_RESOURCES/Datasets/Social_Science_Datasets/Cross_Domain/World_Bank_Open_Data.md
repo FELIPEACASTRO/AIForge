@@ -1,34 +1,34 @@
 # World Bank Open Data
 
 ## Description
-O **World Bank Open Data** é uma plataforma abrangente que oferece acesso livre e aberto a dados de desenvolvimento global. Ele agrega uma vasta coleção de séries temporais, indicadores e microdados de mais de 45 bases de dados, incluindo os Indicadores de Desenvolvimento Mundial (WDI), Estatísticas de Dívida Internacional e dados sobre Mudanças Climáticas. O objetivo é fornecer informações cruciais para a formulação de políticas, pesquisa e análise de desenvolvimento em países ao redor do mundo. A plataforma é a fonte oficial de estatísticas de desenvolvimento do Banco Mundial.
+**World Bank Open Data** is a comprehensive platform that provides free and open access to global development data. It aggregates a vast collection of time series, indicators, and microdata from more than 45 databases, including the World Development Indicators (WDI), International Debt Statistics, and Climate Change data. The goal is to provide crucial information for policymaking, research, and development analysis in countries around the world. The platform is the World Bank's official source of development statistics.
 
 ## Statistics
-- **Total de Datasets:** Mais de 7.370 conjuntos de dados disponíveis no Data Catalog.
-- **Indicadores de Séries Temporais:** Aproximadamente 16.000 indicadores de séries temporais acessíveis via API.
-- **Bases de Dados:** Agrega dados de mais de 45 bases de dados principais (ex: WDI, IDS, Doing Business).
-- **Cobertura Geográfica:** Mais de 200 países e economias.
-- **Atualização:** Os dados são atualizados continuamente, com a plataforma principal indicando atualizações recentes em novembro de 2025.
+- **Total Datasets:** More than 7,370 datasets available in the Data Catalog.
+- **Time Series Indicators:** Approximately 16,000 time series indicators accessible via API.
+- **Databases:** Aggregates data from more than 45 main databases (e.g., WDI, IDS, Doing Business).
+- **Geographic Coverage:** More than 200 countries and economies.
+- **Updates:** The data is continuously updated, with the main platform indicating recent updates in November 2025.
 
 ## Features
-- **Vasta Cobertura Temática:** Inclui dados sobre Economia, Finanças, Saúde, Educação, Meio Ambiente, Pobreza, Gênero, e muito mais.
-- **Séries Temporais Extensas:** Muitos indicadores possuem séries históricas que remontam a mais de 50 anos.
-- **Dados Geográficos Detalhados:** Oferece dados para mais de 200 países e economias, além de agregações regionais e de nível de renda.
-- **Acesso Programático (API):** Possui uma API V2 robusta e sem necessidade de autenticação para acesso programático a cerca de 16.000 indicadores.
-- **Múltiplos Formatos de Download:** Permite o download de dados em formatos como CSV, Excel e XML, além do acesso via API.
+- **Vast Thematic Coverage:** Includes data on Economy, Finance, Health, Education, Environment, Poverty, Gender, and much more.
+- **Extensive Time Series:** Many indicators have historical series dating back more than 50 years.
+- **Detailed Geographic Data:** Offers data for more than 200 countries and economies, in addition to regional and income-level aggregations.
+- **Programmatic Access (API):** Has a robust V2 API with no authentication required for programmatic access to around 16,000 indicators.
+- **Multiple Download Formats:** Allows data downloads in formats such as CSV, Excel, and XML, in addition to API access.
 
 ## Use Cases
-- **Modelagem Preditiva de Desenvolvimento:** Uso de séries temporais para prever tendências econômicas, sociais e ambientais (ex: previsão de crescimento do PIB, taxas de pobreza).
-- **Análise de Impacto de Políticas:** Avaliação do efeito de intervenções governamentais ou projetos de desenvolvimento usando indicadores antes e depois.
-- **Machine Learning para Classificação de Risco:** Utilização de indicadores financeiros e de governança para classificar o risco de crédito ou a estabilidade econômica de países.
-- **Pesquisa em IA para Desenvolvimento:** Criação de modelos de aprendizado de máquina para monitoramento em tempo real da pobreza (ex: projeto SWIFT do Banco Mundial) e mapeamento de alta resolução de áreas urbanas.
-- **Estudos de Mudanças Climáticas:** Análise da correlação entre indicadores econômicos e ambientais, como emissões de CO2 e crescimento do PIB.
+- **Predictive Development Modeling:** Use of time series to forecast economic, social, and environmental trends (e.g., GDP growth forecasting, poverty rates).
+- **Policy Impact Analysis:** Evaluation of the effect of government interventions or development projects using before-and-after indicators.
+- **Machine Learning for Risk Classification:** Use of financial and governance indicators to classify credit risk or the economic stability of countries.
+- **AI for Development Research:** Building machine learning models for real-time poverty monitoring (e.g., the World Bank's SWIFT project) and high-resolution mapping of urban areas.
+- **Climate Change Studies:** Analysis of the correlation between economic and environmental indicators, such as CO2 emissions and GDP growth.
 
 ## Integration
-O acesso aos dados pode ser feito de várias maneiras:
-1.  **Download Direto:** Através do [Data Catalog](https://datacatalog.worldbank.org/) ou das páginas de indicadores e países no site principal, com opções de download em massa (CSV, Excel).
-2.  **API (Recomendado para IA/ML):** A API V2 de Indicadores (Base URL: `https://api.worldbank.org/v2/`) permite acesso programático a todos os indicadores. Não requer chave de API. Bibliotecas de terceiros como `wbstats` (R) e `wbgapi` (Python) facilitam a integração.
-3.  **DataBank:** Ferramenta de análise e visualização que permite selecionar, fatiar e exportar conjuntos de dados específicos.
+Data can be accessed in several ways:
+1.  **Direct Download:** Through the [Data Catalog](https://datacatalog.worldbank.org/) or the indicator and country pages on the main site, with bulk download options (CSV, Excel).
+2.  **API (Recommended for AI/ML):** The V2 Indicators API (Base URL: `https://api.worldbank.org/v2/`) allows programmatic access to all indicators. It does not require an API key. Third-party libraries such as `wbstats` (R) and `wbgapi` (Python) facilitate integration.
+3.  **DataBank:** An analysis and visualization tool that allows selecting, slicing, and exporting specific datasets.
 
 ## URL
 [https://data.worldbank.org/](https://data.worldbank.org/)

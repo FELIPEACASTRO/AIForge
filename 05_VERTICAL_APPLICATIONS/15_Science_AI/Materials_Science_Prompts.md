@@ -1,51 +1,51 @@
 # Materials Science Prompts
 
 ## Description
-**Prompts de Ciência de Materiais** referem-se à aplicação da **Engenharia de Prompt** (Prompt Engineering) para interagir com Grandes Modelos de Linguagem (LLMs) no contexto da pesquisa, descoberta e design de novos materiais. Esta técnica é fundamental para superar a limitação de que os LLMs não são, por natureza, modelos de domínio científico. O objetivo é guiar o LLM a extrair, sintetizar, classificar e gerar informações precisas e relevantes a partir de vastos corpos de literatura científica e bases de dados de materiais.
+**Materials Science Prompts** refer to the application of **Prompt Engineering** to interact with Large Language Models (LLMs) in the context of research, discovery, and design of new materials. This technique is fundamental for overcoming the limitation that LLMs are not, by nature, scientific domain models. The goal is to guide the LLM to extract, synthesize, classify, and generate precise and relevant information from vast bodies of scientific literature and materials databases.
 
-A principal função desses prompts é atuar como uma ponte entre o conhecimento linguístico geral do LLM e o conhecimento técnico especializado da Ciência de Materiais. Isso é feito através da injeção de contexto de domínio, definição de persona (ex: "Atue como um químico de materiais"), e especificação rigorosa do formato de saída. Pesquisas recentes (2024-2025) demonstram que a engenharia de prompt, muitas vezes combinada com o ajuste fino (fine-tuning) em dados específicos de materiais, pode aumentar drasticamente a precisão na classificação de materiais, extração de parâmetros de síntese e até mesmo na geração de hipóteses para a descoberta de novos compostos [1] [2].
+The main function of these prompts is to act as a bridge between the LLM's general linguistic knowledge and the specialized technical knowledge of Materials Science. This is done by injecting domain context, defining a persona (e.g., "Act as a materials chemist"), and rigorously specifying the output format. Recent research (2024-2025) demonstrates that prompt engineering, often combined with fine-tuning on materials-specific data, can dramatically increase accuracy in materials classification, synthesis parameter extraction, and even in generating hypotheses for the discovery of new compounds [1] [2].
 
-A técnica permite que pesquisadores acelerem tarefas como:
-*   **Extração de Dados Estruturados:** Transformar textos não estruturados de artigos científicos em dados tabulares para treinamento de modelos de Machine Learning (ML) [2].
-*   **Previsão e Classificação de Propriedades:** Usar o conhecimento do LLM para prever a viabilidade ou as propriedades de um material sob certas condições [1].
-*   **Geração de Hipóteses:** Sugerir novas composições ou rotas de síntese para materiais com propriedades específicas [3].
+The technique allows researchers to accelerate tasks such as:
+*   **Structured Data Extraction:** Transforming unstructured texts from scientific articles into tabular data for training Machine Learning (ML) models [2].
+*   **Property Prediction and Classification:** Using the LLM's knowledge to predict the feasibility or properties of a material under certain conditions [1].
+*   **Hypothesis Generation:** Suggesting new compositions or synthesis routes for materials with specific properties [3].
 
 ## Examples
 ```
-**1. Extração de Dados Estruturados (Síntese):**
-`"Atue como um químico de materiais. Analise o seguinte resumo de artigo e extraia os parâmetros de síntese do material 'LiFePO4'. Retorne a 'Temperatura de Reação', 'Tempo de Reação', 'Precursores' e 'Atmosfera' em formato JSON."`
+**1. Structured Data Extraction (Synthesis):**
+`"Act as a materials chemist. Analyze the following article abstract and extract the synthesis parameters of the material 'LiFePO4'. Return the 'Reaction Temperature', 'Reaction Time', 'Precursors', and 'Atmosphere' in JSON format."`
 
-**2. Classificação de Materiais (Zero-Shot):**
-`"Com base em suas propriedades eletrônicas e estrutura cristalina, classifique o material 'BaTiO3' como 'Condutor', 'Semicondutor' ou 'Isolante'. Justifique sua resposta em um parágrafo conciso."`
+**2. Materials Classification (Zero-Shot):**
+`"Based on its electronic properties and crystal structure, classify the material 'BaTiO3' as 'Conductor', 'Semiconductor', or 'Insulator'. Justify your answer in a concise paragraph."`
 
-**3. Geração de Hipóteses (Design de Materiais):**
-`"Eu preciso de um material com alta condutividade iônica (acima de 10^-3 S/cm) para aplicação em eletrólitos sólidos de baterias de estado sólido. Sugira 3 famílias de materiais (ex: Perovskitas, NASICONs, LISICONs) e, para cada uma, proponha uma composição específica e uma rota de síntese inicial. Use o formato de lista numerada."`
+**3. Hypothesis Generation (Materials Design):**
+`"I need a material with high ionic conductivity (above 10^-3 S/cm) for application in solid electrolytes of solid-state batteries. Suggest 3 material families (e.g., Perovskites, NASICONs, LISICONs) and, for each one, propose a specific composition and an initial synthesis route. Use a numbered list format."`
 
-**4. Análise de Mecanismos de Falha:**
-`"Descreva o mecanismo de corrosão sob tensão (SCC) em ligas de alumínio da série 7xxx. Quais são os principais fatores microestruturais que influenciam a suscetibilidade ao SCC? Responda em Português Brasileiro, focando na didática para um estudante de graduação."`
+**4. Failure Mechanism Analysis:**
+`"Describe the stress corrosion cracking (SCC) mechanism in 7xxx series aluminum alloys. What are the main microstructural factors that influence susceptibility to SCC? Respond in Brazilian Portuguese, focusing on being instructive for an undergraduate student."`
 
-**5. Revisão de Literatura e Comparação:**
-`"Crie uma tabela comparativa entre o Silício (Si) e o Arsenieto de Gálio (GaAs) para aplicação em células solares. As colunas devem ser: 'Gap de Energia (eV)', 'Mobilidade de Elétrons (cm²/Vs)', 'Absorção de Luz' e 'Custo Relativo'. Cite a fonte para os valores de Gap de Energia."`
+**5. Literature Review and Comparison:**
+`"Create a comparative table between Silicon (Si) and Gallium Arsenide (GaAs) for application in solar cells. The columns should be: 'Energy Gap (eV)', 'Electron Mobility (cm²/Vs)', 'Light Absorption', and 'Relative Cost'. Cite the source for the Energy Gap values."`
 
-**6. Otimização de Processo:**
-`"Para a deposição de filmes finos de óxido de zinco (ZnO) via 'Sputtering por RF', quais parâmetros (Potência de RF, Pressão de Trabalho, Temperatura do Substrato) devo priorizar para maximizar a orientação cristalográfica (002)? Sugira um intervalo de valores para cada parâmetro."`
+**6. Process Optimization:**
+`"For the deposition of thin films of zinc oxide (ZnO) via 'RF Sputtering', which parameters (RF Power, Working Pressure, Substrate Temperature) should I prioritize to maximize the (002) crystallographic orientation? Suggest a value range for each parameter."`
 ```
 
 ## Best Practices
-**1. Especificidade e Contexto de Domínio:** Sempre inclua o máximo de detalhes científicos possível. Especifique o material, a estrutura (cristalina, amorfa), as condições de processamento (temperatura, pressão, atmosfera) e as propriedades desejadas (mecânicas, elétricas, ópticas). Use termos técnicos precisos (ex: "perovskita de haleto", "vidro metálico a granel").
-**2. Estrutura de Saída Definida:** Peça explicitamente para o LLM formatar a saída em um formato estruturado, como JSON, tabela Markdown ou CSV. Isso facilita a extração e o uso posterior dos dados (ex: "Retorne os resultados em uma tabela com colunas: Material, Propriedade, Valor, Unidade").
-**3. Cadeia de Raciocínio (Chain-of-Thought):** Para tarefas complexas como a previsão de síntese ou a análise de mecanismos de falha, instrua o modelo a detalhar seu processo de raciocínio passo a passo antes de fornecer a resposta final. Isso ajuda a identificar alucinações e a validar a lógica científica.
-**4. Referência a Fontes Confiáveis:** Se o LLM tiver acesso a ferramentas de busca ou bases de dados, instrua-o a citar as fontes de onde extraiu a informação, especialmente para dados quantitativos ou descobertas recentes.
-**5. Iteração e Refinamento:** Comece com um prompt amplo e refine-o com base nas deficiências da resposta inicial. Por exemplo, se a resposta for muito genérica, adicione restrições de material ou de aplicação.
+**1. Specificity and Domain Context:** Always include as much scientific detail as possible. Specify the material, the structure (crystalline, amorphous), the processing conditions (temperature, pressure, atmosphere), and the desired properties (mechanical, electrical, optical). Use precise technical terms (e.g., "halide perovskite", "bulk metallic glass").
+**2. Defined Output Structure:** Explicitly ask the LLM to format the output in a structured format, such as JSON, Markdown table, or CSV. This facilitates the extraction and later use of the data (e.g., "Return the results in a table with columns: Material, Property, Value, Unit").
+**3. Chain-of-Thought:** For complex tasks such as synthesis prediction or failure mechanism analysis, instruct the model to detail its reasoning process step by step before providing the final answer. This helps identify hallucinations and validate the scientific logic.
+**4. Reference to Reliable Sources:** If the LLM has access to search tools or databases, instruct it to cite the sources from which it extracted the information, especially for quantitative data or recent discoveries.
+**5. Iteration and Refinement:** Start with a broad prompt and refine it based on the shortcomings of the initial response. For example, if the response is too generic, add material or application constraints.
 
 ## Use Cases
 nan
 
 ## Pitfalls
-**1. Alucinações de Dados Quantitativos:** LLMs podem gerar valores numéricos, composições químicas ou parâmetros de síntese que parecem plausíveis, mas são factualmente incorretos ou inexistentes na literatura. **Contramedida:** Sempre solicite a citação da fonte ou a verificação cruzada com bases de dados confiáveis.
-**2. Falta de Conhecimento de Domínio Específico:** O LLM pode falhar em tarefas que exigem um raciocínio físico-químico profundo ou a interpretação de diagramas de fase complexos. **Contramedida:** Use prompts de "Chain-of-Thought" para forçar o raciocínio e forneça o máximo de contexto e restrições de domínio no prompt.
-**3. Viés de Treinamento (Bias):** O modelo pode favorecer materiais ou rotas de síntese mais comuns na literatura, ignorando abordagens inovadoras ou menos publicadas. **Contramedida:** Peça explicitamente por "abordagens não convencionais" ou "materiais emergentes" para mitigar o viés.
-**4. Ambiguidade na Terminologia:** Termos como "alta resistência" ou "bom isolante" são subjetivos. **Contramedida:** Substitua a linguagem vaga por critérios quantitativos e unidades de medida (ex: "resistência à tração > 500 MPa").
+**1. Hallucination of Quantitative Data:** LLMs may generate numerical values, chemical compositions, or synthesis parameters that seem plausible but are factually incorrect or nonexistent in the literature. **Countermeasure:** Always request source citation or cross-verification with reliable databases.
+**2. Lack of Specific Domain Knowledge:** The LLM may fail at tasks requiring deep physical-chemical reasoning or the interpretation of complex phase diagrams. **Countermeasure:** Use "Chain-of-Thought" prompts to force reasoning and provide as much context and domain constraints as possible in the prompt.
+**3. Training Bias:** The model may favor materials or synthesis routes that are more common in the literature, ignoring innovative or less-published approaches. **Countermeasure:** Explicitly ask for "unconventional approaches" or "emerging materials" to mitigate the bias.
+**4. Terminology Ambiguity:** Terms such as "high strength" or "good insulator" are subjective. **Countermeasure:** Replace vague language with quantitative criteria and units of measure (e.g., "tensile strength > 500 MPa").
 
 ## URL
 [https://www.nature.com/articles/s41524-025-01554-0](https://www.nature.com/articles/s41524-025-01554-0)

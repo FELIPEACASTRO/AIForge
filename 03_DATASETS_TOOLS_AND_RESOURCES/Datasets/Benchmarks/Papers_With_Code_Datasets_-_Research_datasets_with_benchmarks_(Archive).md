@@ -2,37 +2,37 @@
 
 ## Description
 
-O Papers With Code (PWC) foi uma plataforma centralizada e orientada pela comunidade que catalogava artigos de pesquisa em Machine Learning (ML), seus códigos de implementação, conjuntos de dados associados e tabelas de resultados de benchmarks. Sua proposta de valor única residia em conectar diretamente a pesquisa acadêmica (papers) com a implementação prática (code), permitindo que pesquisadores e praticantes encontrassem rapidamente o estado da arte (State-of-the-Art - SOTA) para tarefas específicas de ML. A plataforma foi descontinuada e seu conteúdo foi arquivado e parcialmente migrado para o Hugging Face, que agora é o principal ponto de acesso para o seu acervo de dados. O foco principal da plataforma eram os **Datasets de Pesquisa com Benchmarks**, que permitiam a comparação direta do desempenho de modelos em tarefas específicas.
+Papers With Code (PWC) was a centralized, community-driven platform that catalogued Machine Learning (ML) research papers, their implementation code, associated datasets, and benchmark results tables. Its unique value proposition lay in directly connecting academic research (papers) with practical implementation (code), allowing researchers and practitioners to quickly find the State-of-the-Art (SOTA) for specific ML tasks. The platform was discontinued and its content was archived and partially migrated to Hugging Face, which is now the main access point for its data holdings. The platform's main focus was **Research Datasets with Benchmarks**, which allowed direct comparison of model performance on specific tasks.
 
 ## Statistics
 
-- **Status Atual**: Descontinuado (Sunsetted) em agosto de 2025, com o conteúdo arquivado e migrado para o Hugging Face.
-- **Volume de Dados (Histórico)**: Em seu auge, a plataforma indexava mais de **5.600** conjuntos de dados de Machine Learning [1], mais de **950** tarefas únicas de ML, mais de **500** tabelas de avaliação SOTA e mais de **8.500** artigos com código [2].
-- **Acervo no Hugging Face**: O arquivo público (`pwc-archive`) contém o *snapshot* final dos dados, incluindo mais de **300.000** links entre artigos e código.
-- **Adoção**: Foi uma das principais referências para pesquisa em ML, sendo citada em diversos artigos acadêmicos para coleta de dados e análise de tendências [3].
+- **Current Status**: Sunsetted in August 2025, with content archived and migrated to Hugging Face.
+- **Data Volume (Historical)**: At its peak, the platform indexed more than **5,600** Machine Learning datasets [1], more than **950** unique ML tasks, more than **500** SOTA evaluation tables, and more than **8,500** papers with code [2].
+- **Holdings on Hugging Face**: The public archive (`pwc-archive`) contains the final *snapshot* of the data, including more than **300,000** links between papers and code.
+- **Adoption**: It was one of the main references for ML research, being cited in numerous academic papers for data collection and trend analysis [3].
 
 ## Features
 
-- **Conexão Paper-Code-Dataset**: Ligação direta entre artigos científicos, seus códigos e os datasets utilizados, facilitando a reprodutibilidade da pesquisa.
-- **Tabelas de Benchmarks SOTA**: Organização de resultados de modelos em tabelas de classificação (Leaderboards) para diversas tarefas de ML, permitindo a identificação rápida do desempenho SOTA.
-- **Taxonomia de Tarefas de ML**: Estrutura hierárquica de tarefas, sub-tarefas e áreas de ML (como Visão Computacional, Processamento de Linguagem Natural, etc.) para navegação e descoberta.
-- **Dados Abertos (Data Dumps)**: O conjunto de dados completo do PWC foi disponibilizado publicamente no GitHub e arquivado no Hugging Face, permitindo o uso offline e a análise em larga escala.
-- **API de Acesso (Descontinuada)**: Existia um cliente Python para a API de leitura/escrita, que agora é mantido pela comunidade para o acesso aos dados arquivados.
+- **Paper-Code-Dataset Connection**: A direct link between scientific papers, their code, and the datasets used, facilitating research reproducibility.
+- **SOTA Benchmark Tables**: Organization of model results into leaderboards for various ML tasks, allowing quick identification of SOTA performance.
+- **ML Task Taxonomy**: A hierarchical structure of tasks, sub-tasks, and ML areas (such as Computer Vision, Natural Language Processing, etc.) for navigation and discovery.
+- **Open Data (Data Dumps)**: The complete PWC dataset was made publicly available on GitHub and archived on Hugging Face, allowing offline use and large-scale analysis.
+- **Access API (Discontinued)**: A Python client existed for the read/write API, which is now maintained by the community for access to the archived data.
 
 ## Use Cases
 
-- **Pesquisa Acadêmica e Reprodutibilidade**: Encontrar rapidamente o código e os dados associados a um artigo de pesquisa, permitindo a reprodução de resultados e a validação de metodologias.
-- **Análise de Estado da Arte (SOTA)**: Identificar o modelo de melhor desempenho para uma tarefa específica de Machine Learning (e.g., segmentação de imagem, tradução automática) através das tabelas de benchmarks.
-- **Descoberta de Datasets**: Explorar e filtrar conjuntos de dados de ML por modalidade (visão, texto, áudio) ou por tarefa, sendo um recurso valioso para iniciar novos projetos.
-- **Desenvolvimento de Agentes de IA**: Utilizar o acervo de dados (via Hugging Face ou GitHub) para treinar e avaliar modelos de linguagem grandes (LLMs) e agentes de IA com conhecimento sobre a taxonomia de tarefas e resultados de pesquisa em ML.
+- **Academic Research and Reproducibility**: Quickly find the code and data associated with a research paper, allowing the reproduction of results and validation of methodologies.
+- **State-of-the-Art (SOTA) Analysis**: Identify the best-performing model for a specific Machine Learning task (e.g., image segmentation, machine translation) through the benchmark tables.
+- **Dataset Discovery**: Explore and filter ML datasets by modality (vision, text, audio) or by task, a valuable resource for starting new projects.
+- **AI Agent Development**: Use the data holdings (via Hugging Face or GitHub) to train and evaluate large language models (LLMs) and AI agents with knowledge of the ML task taxonomy and research results.
 
 ## Integration
 
-A integração com o acervo de dados do Papers With Code é feita primariamente através do seu arquivo público no GitHub ou, de forma mais estruturada, através do **Hugging Face Datasets Hub**, que hospeda o `pwc-archive`.
+Integration with the Papers With Code data holdings is done primarily through its public archive on GitHub or, in a more structured way, through the **Hugging Face Datasets Hub**, which hosts the `pwc-archive`.
 
-**1. Acesso ao Arquivo de Dados no Hugging Face (Recomendado)**
+**1. Accessing the Data Archive on Hugging Face (Recommended)**
 
-O Hugging Face hospeda o arquivo de dados do PWC, que pode ser acessado usando a biblioteca `datasets` do Python.
+Hugging Face hosts the PWC data archive, which can be accessed using the Python `datasets` library.
 
 ```python
 from datasets import load_dataset
@@ -48,15 +48,15 @@ print(dataset['train'][0])
 # Ex: pwc-archive/all-papers-with-abstracts
 ```
 
-**2. Acesso Direto ao Arquivo de Dados (GitHub)**
+**2. Direct Access to the Data Archive (GitHub)**
 
-O repositório `paperswithcode-data` no GitHub contém o *data dump* completo, que pode ser clonado e processado localmente.
+The `paperswithcode-data` repository on GitHub contains the complete *data dump*, which can be cloned and processed locally.
 
 ```bash
 git clone https://github.com/paperswithcode/paperswithcode-data.git
 ```
 
-Os dados estão em formato JSON e podem ser lidos com Python:
+The data is in JSON format and can be read with Python:
 
 ```python
 import json

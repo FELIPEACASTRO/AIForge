@@ -1,19 +1,19 @@
 # Global Forest Watch (GFW)
 
 ## Description
-O Global Forest Watch (GFW) é uma plataforma online de monitoramento florestal que fornece dados e ferramentas para quase em tempo real o monitoramento de florestas em todo o mundo. É uma iniciativa do World Resources Institute (WRI) e parceiros. O GFW utiliza dados de satélite de alta resolução, como os do laboratório GLAD (Global Land Analysis and Discovery) da Universidade de Maryland (UMD), para fornecer informações sobre perda e ganho de cobertura florestal, alertas de desmatamento e incêndios, e dados sobre os vetores de perda florestal. A plataforma promove a transparência e apoia a aplicação da lei, o planejamento do uso da terra e a gestão sustentável dos recursos florestais.
+Global Forest Watch (GFW) is an online forest monitoring platform that provides data and tools for near-real-time monitoring of forests worldwide. It is an initiative of the World Resources Institute (WRI) and partners. GFW uses high-resolution satellite data, such as that from the University of Maryland's (UMD) GLAD (Global Land Analysis and Discovery) laboratory, to provide information on forest cover loss and gain, deforestation and fire alerts, and data on the drivers of forest loss. The platform promotes transparency and supports law enforcement, land use planning, and the sustainable management of forest resources.
 
 ## Statistics
-O principal conjunto de dados, Perda de Cobertura Arbórea (Tree Cover Loss) da UMD, abrange o período de 2001 a 2024 (dados mais recentes). Resolução espacial de 30 metros. A plataforma GFW agrega mais de 65 conjuntos de dados globais e locais. Os dados são atualizados anualmente (perda de cobertura arbórea) e em tempo quase real (alertas de desmatamento, como RADD e GLAD).
+The primary dataset, UMD's Tree Cover Loss, covers the period from 2001 to 2024 (most recent data). Spatial resolution of 30 meters. The GFW platform aggregates more than 65 global and local datasets. The data are updated annually (tree cover loss) and in near real time (deforestation alerts, such as RADD and GLAD).
 
 ## Features
-Monitoramento global de florestas em tempo quase real; Dados de Perda e Ganho de Cobertura Arbórea (Tree Cover Loss and Gain); Alertas de Desmatamento Integrados (Integrated Deforestation Alerts) de múltiplas fontes de satélite; Dados sobre os Vetores de Perda de Cobertura Arbórea (Drivers of Tree Cover Loss); Dados de Cobertura Florestal Primária Tropical Úmida; Mapas interativos e painéis de controle por país.
+Near-real-time global forest monitoring; Tree Cover Loss and Gain data; Integrated Deforestation Alerts from multiple satellite sources; Data on the Drivers of Tree Cover Loss; Tropical Humid Primary Forest cover data; Interactive maps and country dashboards.
 
 ## Use Cases
-Monitoramento de desmatamento e degradação florestal; Aplicação da lei e combate a crimes ambientais; Planejamento e gestão do uso da terra; Avaliação de riscos da cadeia de suprimentos (commodities); Pesquisa científica sobre mudanças climáticas e biodiversidade; Apoio a políticas de conservação e restauração florestal.
+Monitoring of deforestation and forest degradation; Law enforcement and combating environmental crimes; Land use planning and management; Supply chain risk assessment (commodities); Scientific research on climate change and biodiversity; Support for forest conservation and restoration policies.
 
 ## Integration
-Os dados podem ser acessados e baixados diretamente através do Portal de Dados Abertos do GFW (data.globalforestwatch.org) em formatos como Shapefile, CSV e GeoTIFF. Para acesso programático e integração em aplicações, o GFW oferece uma API de Dados (GFW Data API) que permite a consulta e o download de dados em massa, suportando formatos JSON e CSV. A documentação da API está disponível em data-api.globalforestwatch.org.
+Data can be accessed and downloaded directly through the GFW Open Data Portal (data.globalforestwatch.org) in formats such as Shapefile, CSV, and GeoTIFF. For programmatic access and integration into applications, GFW offers a Data API (GFW Data API) that allows querying and bulk downloading of data, supporting JSON and CSV formats. The API documentation is available at data-api.globalforestwatch.org.
 
 ## URL
 [https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)

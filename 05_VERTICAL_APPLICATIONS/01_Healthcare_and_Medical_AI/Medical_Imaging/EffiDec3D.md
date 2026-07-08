@@ -2,33 +2,33 @@
 
 ## Description
 
-EffiDec3D é um decodificador 3D otimizado para a **segmentação de imagens médicas 3D de alto desempenho e eficiente**. Foi proposto para resolver o alto custo computacional (alto número de #FLOPs e #Params) de redes 3D profundas existentes, como SwinUNETR e 3D UX-Net, que limitam seu uso em ambientes de tempo real e com recursos limitados. O modelo emprega uma estratégia de **redução de canais** em todos os estágios do decodificador e **remove camadas de alta resolução** quando sua contribuição para a qualidade da segmentação é mínima. Esta abordagem estabelece um novo padrão para a segmentação eficiente de imagens médicas 3D, mantendo um desempenho comparável aos modelos originais, mas com uma fração dos recursos computacionais.
+EffiDec3D is a 3D decoder optimized for **high-performance and efficient 3D medical image segmentation**. It was proposed to address the high computational cost (high #FLOPs and #Params) of existing deep 3D networks, such as SwinUNETR and 3D UX-Net, which limit their use in real-time and resource-constrained environments. The model employs a **channel-reduction** strategy across all decoder stages and **removes high-resolution layers** when their contribution to segmentation quality is minimal. This approach sets a new standard for efficient 3D medical image segmentation, maintaining performance comparable to the original models but with a fraction of the computational resources.
 
 ## Statistics
 
-- **Redução de Parâmetros (#Params):** 96,4% de redução em comparação com o decodificador do 3D UX-Net original.
-- **Redução de Operações de Ponto Flutuante (#FLOPs):** 93,0% de redução em comparação com o decodificador do 3D UX-Net original.
-- **Desempenho:** Mantém um nível de desempenho comparável aos modelos originais (SwinUNETR, 3D UX-Net) em 12 tarefas diferentes de imagens médicas.
-- **Publicação:** Apresentado na **CVPR 2025** (Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition).
+- **Parameter Reduction (#Params):** 96.4% reduction compared to the original 3D UX-Net decoder.
+- **Floating-Point Operations Reduction (#FLOPs):** 93.0% reduction compared to the original 3D UX-Net decoder.
+- **Performance:** Maintains a performance level comparable to the original models (SwinUNETR, 3D UX-Net) across 12 different medical imaging tasks.
+- **Publication:** Presented at **CVPR 2025** (Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition).
 
 ## Features
 
-- **Decodificador 3D Otimizado:** Focado na eficiência computacional.
-- **Estratégia de Redução de Canais:** Define o número mínimo de canais necessários para uma representação precisa dos recursos.
-- **Remoção de Camadas de Alta Resolução:** Elimina camadas com contribuição mínima para a qualidade da segmentação.
-- **Compatibilidade:** Pode ser integrado com codificadores existentes (e.g., SwinUNETR, 3D UX-Net).
-- **Segmentação Volumétrica:** Especializado em dados de imagem médica 3D.
+- **Optimized 3D Decoder:** Focused on computational efficiency.
+- **Channel-Reduction Strategy:** Defines the minimum number of channels required for an accurate feature representation.
+- **High-Resolution Layer Removal:** Eliminates layers with minimal contribution to segmentation quality.
+- **Compatibility:** Can be integrated with existing encoders (e.g., SwinUNETR, 3D UX-Net).
+- **Volumetric Segmentation:** Specialized in 3D medical image data.
 
 ## Use Cases
 
-- **Segmentação de Imagens Médicas 3D:** Aplicação primária em tarefas de segmentação volumétrica, como a identificação de órgãos e anomalias em exames de ressonância magnética (MRI) e tomografia computadorizada (CT).
-- **Ambientes com Recursos Limitados:** Ideal para implantação em dispositivos de borda ou em sistemas que exigem processamento em tempo real devido à sua alta eficiência computacional.
-- **Pesquisa em Eficiência de DL:** Serve como um *benchmark* para o desenvolvimento de arquiteturas de decodificadores mais eficientes em redes neurais convolucionais 3D.
+- **3D Medical Image Segmentation:** Primary application in volumetric segmentation tasks, such as identifying organs and anomalies in magnetic resonance imaging (MRI) and computed tomography (CT) scans.
+- **Resource-Constrained Environments:** Ideal for deployment on edge devices or in systems that require real-time processing due to its high computational efficiency.
+- **Research on DL Efficiency:** Serves as a *benchmark* for developing more efficient decoder architectures in 3D convolutional neural networks.
 
 ## Integration
 
-A implementação oficial em PyTorch está disponível no GitHub. O código inclui scripts de treinamento para datasets como BTCV e MSD (Task01-10), indicando que a integração se dá através da utilização da arquitetura EffiDec3D em um pipeline de treinamento PyTorch, substituindo o decodificador original de modelos como SwinUNETR ou 3D UX-Net.
-**Link para o Repositório:** [https://github.com/SLDGroup/EffiDec3D](https://github.com/SLDGroup/EffiDec3D)
+The official PyTorch implementation is available on GitHub. The code includes training scripts for datasets such as BTCV and MSD (Task01-10), indicating that integration is achieved by using the EffiDec3D architecture within a PyTorch training pipeline, replacing the original decoder of models such as SwinUNETR or 3D UX-Net.
+**Repository Link:** [https://github.com/SLDGroup/EffiDec3D](https://github.com/SLDGroup/EffiDec3D)
 
 ## URL
 

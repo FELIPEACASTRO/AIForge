@@ -1,114 +1,114 @@
 # Citation & Bibliography Prompts
 
 ## Description
-A técnica de **Prompts de Citação e Bibliografia** (Citation & Bibliography Prompts) é uma estratégia de Engenharia de Prompt focada em instruir Modelos de Linguagem Grande (LLMs) a gerar referências bibliográficas e citações no corpo do texto com alta precisão e em formatos específicos (como APA, MLA, Chicago, ABNT). O princípio central é a aplicação do método **RTCF (Role, Task, Context, Format)**, onde o usuário fornece ao LLM um papel especializado (ex: bibliotecário), a tarefa clara (ex: gerar citação), o **Contexto** completo (dados da fonte como autor, título, ano, DOI) e o **Formato** de saída exato (ex: APA 7ª Edição, entrada de lista de referências). Ao fornecer o contexto completo e estruturado, o usuário mitiga a tendência do LLM de "alucinar" dados de fontes, garantindo a acurácia e a conformidade com as normas acadêmicas. É uma técnica essencial para a produção de conteúdo acadêmico e técnico confiável.
+The **Citation & Bibliography Prompts** technique is a Prompt Engineering strategy focused on instructing Large Language Models (LLMs) to generate bibliographic references and in-text citations with high accuracy and in specific formats (such as APA, MLA, Chicago, ABNT). The core principle is the application of the **RTCF (Role, Task, Context, Format)** method, where the user provides the LLM with a specialized role (e.g., librarian), a clear task (e.g., generate a citation), the complete **Context** (source data such as author, title, year, DOI), and the exact output **Format** (e.g., APA 7th Edition, reference list entry). By providing complete, structured context, the user mitigates the LLM's tendency to "hallucinate" source data, ensuring accuracy and compliance with academic standards. It is an essential technique for producing reliable academic and technical content.
 
 ## Examples
 ```
-**1. Citação de Artigo de Periódico (APA 7ª Edição - Zero-Shot)**
+**1. Journal Article Citation (APA 7th Edition - Zero-Shot)**
 ```
-**Papel:** Atue como um bibliotecário especializado em APA 7ª Edição.
-**Tarefa:** Gere a entrada completa da lista de referências para o artigo de periódico a seguir.
-**Contexto:**
-- Autores: Smith, J. A., & Jones, B. C.
-- Ano de Publicação: 2024
-- Título do Artigo: The Future of Prompt Engineering in LLMs
-- Título do Periódico: Journal of AI Research
+**Role:** Act as a librarian specialized in APA 7th Edition.
+**Task:** Generate the complete reference list entry for the following journal article.
+**Context:**
+- Authors: Smith, J. A., & Jones, B. C.
+- Publication Year: 2024
+- Article Title: The Future of Prompt Engineering in LLMs
+- Journal Title: Journal of AI Research
 - Volume: 15
-- Número: 2
-- Páginas: 112-130
+- Issue: 2
+- Pages: 112-130
 - DOI: 10.1000/jair.2024.15.2.112
-**Formato:** Forneça apenas a citação formatada.
+**Format:** Provide only the formatted citation.
 ```
 
-**2. Citação de Livro (MLA 9ª Edição - Zero-Shot)**
+**2. Book Citation (MLA 9th Edition - Zero-Shot)**
 ```
-**Papel:** Você é um assistente de pesquisa acadêmica.
-**Tarefa:** Crie uma entrada de "Works Cited" (Referências) para o livro abaixo.
-**Contexto:**
-- Autor: Johnson, Emily
-- Título do Livro: The Algorithmic Muse
-- Editora: Tech Press
-- Ano de Publicação: 2023
-- Cidade de Publicação: New York
-**Formato:** Formate em MLA 9ª Edição.
-```
-
-**3. Citação no Corpo do Texto (ABNT NBR 6023 - Citação Direta)**
-```
-**Papel:** Atue como um editor de textos acadêmicos brasileiro.
-**Tarefa:** Gere a citação direta (com aspas e página) no corpo do texto para a frase a seguir, usando o sistema autor-data.
-**Frase:** "A inteligência artificial transformará a educação superior."
-**Contexto:**
-- Autor: Silva, M. R.
-- Ano: 2025
-- Página: 45
-**Formato:** ABNT NBR 6023 (Sobrenome, Ano, p. X).
+**Role:** You are an academic research assistant.
+**Task:** Create a "Works Cited" entry for the book below.
+**Context:**
+- Author: Johnson, Emily
+- Book Title: The Algorithmic Muse
+- Publisher: Tech Press
+- Publication Year: 2023
+- City of Publication: New York
+**Format:** Format in MLA 9th Edition.
 ```
 
-**4. Citação de Website (Chicago 17ª Edição - Notas e Bibliografia)**
+**3. In-Text Citation (ABNT NBR 6023 - Direct Quotation)**
 ```
-**Papel:** Você é um especialista em estilo Chicago.
-**Tarefa:** Gere a nota de rodapé e a entrada de bibliografia para a página web.
-**Contexto:**
-- Autor: The Prompting Guide Team
-- Título da Página: Advanced Prompting Techniques
-- Nome do Site: PromptingGuide.ai
-- Data de Publicação: 15 de Outubro de 2023
+**Role:** Act as a Brazilian academic text editor.
+**Task:** Generate the direct quotation (with quotation marks and page) in the body of the text for the following sentence, using the author-date system.
+**Sentence:** "Artificial intelligence will transform higher education."
+**Context:**
+- Author: Silva, M. R.
+- Year: 2025
+- Page: 45
+**Format:** ABNT NBR 6023 (Last name, Year, p. X).
+```
+
+**4. Website Citation (Chicago 17th Edition - Notes and Bibliography)**
+```
+**Role:** You are a Chicago style specialist.
+**Task:** Generate the footnote and the bibliography entry for the web page.
+**Context:**
+- Author: The Prompting Guide Team
+- Page Title: Advanced Prompting Techniques
+- Site Name: PromptingGuide.ai
+- Publication Date: October 15, 2023
 - URL: https://www.promptingguide.ai/techniques/advanced
-- Data de Acesso: 8 de Novembro de 2025
-**Formato:** Gere a nota de rodapé completa e a entrada de bibliografia separadamente.
+- Access Date: November 8, 2025
+**Format:** Generate the complete footnote and the bibliography entry separately.
 ```
 
-**5. Geração de BibTeX para Artigo (Formato Técnico)**
+**5. BibTeX Generation for an Article (Technical Format)**
 ```
-**Papel:** Atue como um gerador de metadados para LaTeX.
-**Tarefa:** Converta os dados da fonte em uma entrada BibTeX formatada como @article.
-**Contexto:**
-- Autor: Chen, H., & Li, W.
-- Título: Large Language Models as Citation Generators
-- Periódico: AI Review
-- Ano: 2024
+**Role:** Act as a metadata generator for LaTeX.
+**Task:** Convert the source data into a BibTeX entry formatted as @article.
+**Context:**
+- Author: Chen, H., & Li, W.
+- Title: Large Language Models as Citation Generators
+- Journal: AI Review
+- Year: 2024
 - Volume: 8
-- Páginas: 50-65
-**Formato:** Gere o código BibTeX completo.
+- Pages: 50-65
+**Format:** Generate the complete BibTeX code.
 ```
 
-**6. Few-Shot para Estilo Personalizado**
+**6. Few-Shot for a Custom Style**
 ```
-**Papel:** Você é um formatador de referências.
-**Tarefa:** Formate a fonte de Contexto no Estilo X.
-**Exemplo (Few-Shot):**
-- Fonte Exemplo: Autor: Adams, S. | Título: The Guide | Ano: 2020
-- Saída Exemplo: ADAMS, S. (2020). The Guide.
-**Contexto:**
-- Autor: Baker, L.
-- Título: Prompting for Success
-- Ano: 2025
-**Formato:** Formate a fonte de Contexto no mesmo Estilo X do Exemplo.
+**Role:** You are a reference formatter.
+**Task:** Format the Context source in Style X.
+**Example (Few-Shot):**
+- Example Source: Author: Adams, S. | Title: The Guide | Year: 2020
+- Example Output: ADAMS, S. (2020). The Guide.
+**Context:**
+- Author: Baker, L.
+- Title: Prompting for Success
+- Year: 2025
+**Format:** Format the Context source in the same Style X as the Example.
 ```
 ```
 
 ## Best Practices
-**1. Forneça Contexto Completo e Estruturado (RTCF):** Use o framework **Role, Task, Context, Format** (Papel, Tarefa, Contexto, Formato). O Contexto é o mais crítico; forneça todos os metadados da fonte (autor, título, ano, editora, DOI, URL) de forma clara e organizada, em vez de apenas um link.
-**2. Especifique o Estilo e a Edição:** Seja explícito sobre o estilo de citação (ex: APA, MLA, ABNT) e a edição (ex: 7ª Edição, 9ª Edição).
-**3. Use Few-Shot Prompting para Formatos Complexos:** Para estilos menos comuns ou formatos de fonte complexos (ex: patentes, relatórios governamentais), inclua um ou dois exemplos de citações corretas no estilo desejado antes de solicitar a nova citação.
-**4. Defina o Tipo de Saída:** Especifique se você precisa da **entrada da lista de referências** (bibliografia completa) ou apenas da **citação no corpo do texto** (citação parentética ou narrativa).
-**5. Validação Cruzada:** Sempre verifique a saída do LLM com um gerador de citação tradicional (como Citation Machine ou Scribbr) ou com o manual de estilo oficial, especialmente para trabalhos acadêmicos críticos.
+**1. Provide Complete and Structured Context (RTCF):** Use the **Role, Task, Context, Format** framework. Context is the most critical; provide all source metadata (author, title, year, publisher, DOI, URL) in a clear and organized way, rather than just a link.
+**2. Specify the Style and Edition:** Be explicit about the citation style (e.g., APA, MLA, ABNT) and the edition (e.g., 7th Edition, 9th Edition).
+**3. Use Few-Shot Prompting for Complex Formats:** For less common styles or complex source formats (e.g., patents, government reports), include one or two examples of correct citations in the desired style before requesting the new citation.
+**4. Define the Output Type:** Specify whether you need the **reference list entry** (complete bibliography) or only the **in-text citation** (parenthetical or narrative citation).
+**5. Cross-Validation:** Always check the LLM's output against a traditional citation generator (such as Citation Machine or Scribbr) or against the official style manual, especially for critical academic work.
 
 ## Use Cases
-**1. Produção Acadêmica:** Geração rápida e precisa de listas de referências (bibliografias) e citações no corpo do texto para artigos, teses, dissertações e trabalhos escolares em qualquer estilo (APA, MLA, Chicago, ABNT, Vancouver).
-**2. Revisão e Padronização:** Conversão de listas de referências de um estilo para outro (ex: de MLA para APA) ou padronização de metadados de fontes coletadas.
-**3. Pesquisa e Desenvolvimento (P&D):** Criação de entradas BibTeX ou RIS para gerenciadores de referências (como Zotero ou Mendeley), facilitando a organização de grandes volumes de literatura.
-**4. Jornalismo e Conteúdo Técnico:** Garantir que todas as fontes em um artigo de notícias ou manual técnico sejam referenciadas de forma consistente e profissional.
-**5. Educação:** Ferramenta de aprendizado para estudantes entenderem a estrutura e os requisitos de diferentes estilos de citação, usando o LLM como um verificador de formato.
+**1. Academic Production:** Fast and accurate generation of reference lists (bibliographies) and in-text citations for articles, theses, dissertations, and school assignments in any style (APA, MLA, Chicago, ABNT, Vancouver).
+**2. Review and Standardization:** Converting reference lists from one style to another (e.g., from MLA to APA) or standardizing the metadata of collected sources.
+**3. Research and Development (R&D):** Creating BibTeX or RIS entries for reference managers (such as Zotero or Mendeley), facilitating the organization of large volumes of literature.
+**4. Journalism and Technical Content:** Ensuring that all sources in a news article or technical manual are referenced consistently and professionally.
+**5. Education:** A learning tool for students to understand the structure and requirements of different citation styles, using the LLM as a format checker.
 
 ## Pitfalls
-**1. Confiar em Links:** O erro mais comum é fornecer apenas uma URL e esperar que o LLM extraia todos os metadados corretamente. O LLM pode "alucinar" o autor, a data ou o título.
-**2. Falta de Especificidade no Formato:** Solicitar apenas "uma citação APA" sem especificar a edição (ex: 6ª vs. 7ª) ou o tipo de entrada (referência vs. in-text) leva a resultados inconsistentes.
-**3. Ignorar o Contexto:** Não fornecer metadados cruciais (como DOI, número da edição, ou nome da editora) força o LLM a adivinhar, aumentando a taxa de erro.
-**4. Prompting de Zero-Shot para Estilos Raros:** Para estilos de citação menos comuns ou formatos de fonte muito específicos (ex: normas de uma universidade), o LLM pode falhar sem um exemplo (Few-Shot) para guiar a formatação.
-**5. Não Citar a IA:** Esquecer de citar o próprio LLM (como ChatGPT ou Gemini) quando ele é usado para gerar ou analisar conteúdo, o que é uma exigência crescente em muitas diretrizes acadêmicas.
+**1. Relying on Links:** The most common mistake is providing only a URL and expecting the LLM to extract all metadata correctly. The LLM may "hallucinate" the author, date, or title.
+**2. Lack of Specificity in the Format:** Requesting only "an APA citation" without specifying the edition (e.g., 6th vs. 7th) or the entry type (reference vs. in-text) leads to inconsistent results.
+**3. Ignoring Context:** Failing to provide crucial metadata (such as DOI, edition number, or publisher name) forces the LLM to guess, increasing the error rate.
+**4. Zero-Shot Prompting for Rare Styles:** For less common citation styles or very specific source formats (e.g., a university's guidelines), the LLM may fail without an example (Few-Shot) to guide the formatting.
+**5. Not Citing the AI:** Forgetting to cite the LLM itself (such as ChatGPT or Gemini) when it is used to generate or analyze content, which is a growing requirement in many academic guidelines.
 
 ## URL
 [https://www.getpassionfruit.com/blog/blog-ai-prompt-engineering-citations](https://www.getpassionfruit.com/blog/blog-ai-prompt-engineering-citations)

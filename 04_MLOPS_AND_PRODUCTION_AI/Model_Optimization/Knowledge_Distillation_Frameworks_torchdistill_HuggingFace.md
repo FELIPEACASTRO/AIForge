@@ -2,27 +2,27 @@
 
 ## Description
 
-A **Destilação de Conhecimento** (Knowledge Distillation - KD) é uma técnica de compressão de modelo em aprendizado de máquina que visa transferir o conhecimento de um modelo grande e complexo (o "professor") para um modelo menor e mais eficiente (o "aluno"). A proposta de valor única reside na capacidade de reter a maior parte do desempenho do modelo professor, mas com uma redução significativa no tamanho do modelo e na latência de inferência. Isso permite a implantação de modelos de alto desempenho em ambientes com recursos limitados, como dispositivos móveis ou navegadores. Os **Frameworks de Destilação de Modelo** são bibliotecas e ferramentas que facilitam a implementação, experimentação e gerenciamento do processo de KD.
+**Knowledge Distillation (KD)** is a model compression technique in machine learning that aims to transfer the knowledge from a large, complex model (the "teacher") to a smaller, more efficient model (the "student"). Its unique value proposition lies in the ability to retain most of the teacher model's performance, but with a significant reduction in model size and inference latency. This enables the deployment of high-performance models in resource-constrained environments, such as mobile devices or browsers. **Model Distillation Frameworks** are libraries and tools that facilitate the implementation, experimentation, and management of the KD process.
 
 ## Statistics
 
-**Compressão de Modelo (DistilBERT):** O modelo DistilBERT é **40% menor** em termos de parâmetros e **60% mais rápido** em inferência do que o modelo BERT original. **Retenção de Desempenho:** O DistilBERT mantém aproximadamente **97% da precisão** do BERT em benchmarks de Processamento de Linguagem Natural (NLP) como o GLUE. **Eficiência:** A destilação de conhecimento é crucial para reduzir o custo computacional e a latência, tornando os modelos de Deep Learning viáveis para implantação em larga escala e em tempo real. **Adoção:** O conceito de KD é amplamente adotado em pesquisa e produção, com mais de 10.000 citações para o artigo original do DistilBERT.
+**Model Compression (DistilBERT):** The DistilBERT model is **40% smaller** in terms of parameters and **60% faster** in inference than the original BERT model. **Performance Retention:** DistilBERT retains approximately **97% of the accuracy** of BERT on Natural Language Processing (NLP) benchmarks such as GLUE. **Efficiency:** Knowledge distillation is crucial for reducing computational cost and latency, making Deep Learning models viable for large-scale, real-time deployment. **Adoption:** The KD concept is widely adopted in research and production, with more than 10,000 citations for the original DistilBERT paper.
 
 ## Features
 
-**Métodos de Destilação:** Suporte a diversas técnicas de KD, incluindo destilação baseada em logits (soft targets), destilação de recursos intermediários (feature-based) e destilação mútua ou online. **Arquitetura Modular:** Permite a fácil substituição de modelos (professor e aluno), funções de perda e otimizadores. **Configuração Declarativa:** Frameworks como o `torchdistill` permitem definir experimentos complexos de KD usando arquivos de configuração YAML, eliminando a necessidade de codificação extensiva. **Otimização de Modelos:** Foco na compressão e aceleração de modelos para implantação em produção. **Integração com Ecossistemas:** Forte integração com ecossistemas de Deep Learning populares como PyTorch e Hugging Face.
+**Distillation Methods:** Support for various KD techniques, including logits-based distillation (soft targets), intermediate feature-based distillation, and mutual or online distillation. **Modular Architecture:** Allows easy replacement of models (teacher and student), loss functions, and optimizers. **Declarative Configuration:** Frameworks such as `torchdistill` allow defining complex KD experiments using YAML configuration files, eliminating the need for extensive coding. **Model Optimization:** Focus on compression and acceleration of models for production deployment. **Ecosystem Integration:** Strong integration with popular Deep Learning ecosystems such as PyTorch and Hugging Face.
 
 ## Use Cases
 
-**Implantação em Dispositivos Edge:** Redução do tamanho do modelo para que possa ser executado em dispositivos com recursos limitados, como smartphones, câmeras de segurança e IoT. **Aceleração de Inferência:** Diminuição da latência de inferência em servidores, o que é crítico para aplicações em tempo real, como assistentes de voz e sistemas de recomendação. **Modelos de Linguagem Grandes (LLMs):** Criação de versões menores e mais rápidas de LLMs (e.g., Distil-Whisper, DistilBERT) para reduzir custos operacionais e permitir o ajuste fino (fine-tuning) em hardware menos potente. **Visão Computacional:** Compressão de modelos de classificação de imagens, detecção de objetos e segmentação semântica para uso em sistemas de vigilância ou veículos autônomos.
+**Edge Device Deployment:** Reduction of model size so that it can run on resource-constrained devices, such as smartphones, security cameras, and IoT. **Inference Acceleration:** Reduction of inference latency on servers, which is critical for real-time applications, such as voice assistants and recommendation systems. **Large Language Models (LLMs):** Creation of smaller, faster versions of LLMs (e.g., Distil-Whisper, DistilBERT) to reduce operational costs and enable fine-tuning on less powerful hardware. **Computer Vision:** Compression of image classification, object detection, and semantic segmentation models for use in surveillance systems or autonomous vehicles.
 
 ## Integration
 
-**Integração com Frameworks (Exemplo: `torchdistill`):**
-O framework `torchdistill` permite a configuração de experimentos de KD via arquivos YAML, definindo modelos, datasets e a função de perda de destilação.
+**Framework Integration (Example: `torchdistill`):**
+The `torchdistill` framework allows the configuration of KD experiments via YAML files, defining models, datasets, and the distillation loss function.
 
 ```yaml
-# Exemplo de configuração YAML para torchdistill
+# Example YAML configuration for torchdistill
 models:
   teacher_model:
     key: 'resnet50'
@@ -44,19 +44,19 @@ knowledge_distillation:
       alpha: 0.7
 ```
 
-**Integração com Bibliotecas (Exemplo: Hugging Face `DistilBERT`):**
-Modelos destilados como o DistilBERT são diretamente acessíveis através da biblioteca `transformers` do Hugging Face, permitindo o uso imediato para inferência.
+**Library Integration (Example: Hugging Face `DistilBERT`):**
+Distilled models such as DistilBERT are directly accessible through Hugging Face's `transformers` library, allowing immediate use for inference.
 
 ```python
 from transformers import pipeline
 
-# Uso do modelo DistilBERT para classificação de texto
+# Use of the DistilBERT model for text classification
 classifier = pipeline(
     task="text-classification",
     model="distilbert-base-uncased-finetuned-sst-2-english"
 )
 
-result = classifier("Eu amo usar Hugging Face Transformers!")
+result = classifier("I love using Hugging Face Transformers!")
 print(result)
 # Output: [{'label': 'POSITIVE', 'score': 0.9998}]
 ```

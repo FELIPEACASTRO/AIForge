@@ -2,68 +2,68 @@
 
 ## Description
 
-**Estratégias de Fine-tuning Eficiente (PEFT) para Análise de Imagem Médica: A Oportunidade Perdida**
+**Parameter-Efficient Fine-Tuning (PEFT) Strategies for Medical Image Analysis: The Missed Opportunity**
 
-Este recurso é uma análise abrangente e um *benchmark* de 17 algoritmos distintos de Fine-tuning Eficiente de Parâmetros (PEFT) aplicados a modelos de fundação (Foundation Models) para tarefas de análise de imagem médica. O estudo aborda a lacuna de conhecimento e a subutilização das técnicas PEFT, que são amplamente adotadas em Visão Computacional e Processamento de Linguagem Natural (NLP), no domínio médico.
+This resource is a comprehensive analysis and *benchmark* of 17 distinct Parameter-Efficient Fine-Tuning (PEFT) algorithms applied to Foundation Models for medical image analysis tasks. The study addresses the knowledge gap and the underutilization of PEFT techniques, which are widely adopted in Computer Vision and Natural Language Processing (NLP), within the medical domain.
 
-A pesquisa demonstra que o PEFT é uma estratégia altamente eficaz, especialmente em regimes de dados limitados, que são comuns na área de imagens médicas. O uso de PEFT permite a adaptação de modelos pré-treinados massivos, como Vision Transformers (ViT) e redes convolucionais, a tarefas médicas específicas (como classificação e segmentação) com um custo computacional e de armazenamento significativamente reduzido, treinando apenas uma pequena fração dos parâmetros do modelo.
+The research demonstrates that PEFT is a highly effective strategy, especially in limited-data regimes, which are common in the field of medical imaging. Using PEFT allows massive pre-trained models, such as Vision Transformers (ViT) and convolutional networks, to be adapted to specific medical tasks (such as classification and segmentation) at a significantly reduced computational and storage cost, training only a small fraction of the model's parameters.
 
 ## Statistics
 
-- **Publicação:** Aceito como Apresentação Oral no MIDL 2024 (Medical Imaging with Deep Learning).
-- **Avaliação:** Mais de 700 experimentos controlados.
-- **Ganho de Desempenho:** Ganhos de desempenho de até **22%** em tarefas discriminativas e generativas, especialmente em regimes de dados limitados, em comparação com o fine-tuning completo.
-- **Eficiência:** Redução drástica no número de parâmetros treináveis, mantendo ou superando o desempenho do fine-tuning completo (Full Fine-Tuning - FFT).
-- **Citações:** 76 citações (em abril de 2024, segundo ResearchGate).
-- **Conjuntos de Dados:** Avaliado em seis conjuntos de dados médicos de diferentes tamanhos, modalidades e complexidades.
+- **Publication:** Accepted as an Oral Presentation at MIDL 2024 (Medical Imaging with Deep Learning).
+- **Evaluation:** More than 700 controlled experiments.
+- **Performance Gain:** Performance gains of up to **22%** on discriminative and generative tasks, especially in limited-data regimes, compared to full fine-tuning.
+- **Efficiency:** Drastic reduction in the number of trainable parameters, while matching or exceeding the performance of Full Fine-Tuning (FFT).
+- **Citations:** 76 citations (as of April 2024, according to ResearchGate).
+- **Datasets:** Evaluated on six medical datasets of different sizes, modalities, and complexities.
 
 ## Features
 
-- **Avaliação Abrangente:** Avalia 17 algoritmos PEFT (incluindo LoRA, Adapter, Prompt Tuning, etc.).
-- **Ampla Aplicação:** Testado em redes baseadas em transformadores (ViT) e convolucionais.
-- **Regime de Dados Limitados:** Demonstra eficácia superior em cenários com poucos dados, cruciais para a medicina.
-- **Transferência de Conhecimento:** Facilita a transferência de conhecimento de modelos de fundação pré-treinados para tarefas médicas específicas.
-- **Benchmark Estruturado:** Fornece um *benchmark* robusto e recomendações para a comunidade de IA médica.
+- **Comprehensive Evaluation:** Assesses 17 PEFT algorithms (including LoRA, Adapter, Prompt Tuning, etc.).
+- **Broad Application:** Tested on transformer-based (ViT) and convolutional networks.
+- **Limited-Data Regime:** Demonstrates superior effectiveness in low-data scenarios, which are crucial for medicine.
+- **Knowledge Transfer:** Facilitates the transfer of knowledge from pre-trained foundation models to specific medical tasks.
+- **Structured Benchmark:** Provides a robust *benchmark* and recommendations for the medical AI community.
 
 ## Use Cases
 
-- **Classificação de Imagens Médicas:** Adaptação de modelos de fundação para classificar doenças em radiografias, tomografias e ressonâncias magnéticas com conjuntos de dados limitados.
-- **Segmentação Volumétrica:** Utilização de PEFT para segmentar estruturas anatômicas ou patologias em volumes 3D (como em tomografias).
-- **Geração de Imagens Médicas:** Fine-tuning de modelos de difusão (como Stable Diffusion) para gerar imagens médicas sintéticas de alta fidelidade para aumento de dados ou treinamento.
-- **Diagnóstico Auxiliado por IA:** Criação rápida de modelos de diagnóstico especializados a partir de modelos pré-treinados genéricos, reduzindo o tempo e o custo de desenvolvimento.
+- **Medical Image Classification:** Adapting foundation models to classify diseases in radiographs, CT scans, and MRIs with limited datasets.
+- **Volumetric Segmentation:** Using PEFT to segment anatomical structures or pathologies in 3D volumes (such as in CT scans).
+- **Medical Image Generation:** Fine-tuning diffusion models (such as Stable Diffusion) to generate high-fidelity synthetic medical images for data augmentation or training.
+- **AI-Assisted Diagnosis:** Rapid creation of specialized diagnostic models from generic pre-trained models, reducing development time and cost.
 
 ## Integration
 
-O estudo é um *benchmark* e não fornece um código de integração unificado. No entanto, o código de implementação e os *scripts* de avaliação para os 17 algoritmos PEFT e os seis conjuntos de dados médicos estão disponíveis no repositório oficial do GitHub, permitindo que pesquisadores e desenvolvedores incorporem as técnicas PEFT em seus próprios *workflows*.
+The study is a *benchmark* and does not provide a unified integration code. However, the implementation code and evaluation *scripts* for the 17 PEFT algorithms and the six medical datasets are available in the official GitHub repository, allowing researchers and developers to incorporate PEFT techniques into their own *workflows*.
 
-**Exemplo de Integração (Conceitual - LoRA):**
-A técnica LoRA (Low-Rank Adaptation), um dos PEFTs avaliados, pode ser integrada em um modelo de fundação médica (como um ViT pré-treinado) da seguinte forma conceitual:
+**Integration Example (Conceptual - LoRA):**
+The LoRA (Low-Rank Adaptation) technique, one of the evaluated PEFTs, can be integrated into a medical foundation model (such as a pre-trained ViT) in the following conceptual way:
 
 ```python
-# Exemplo conceitual de uso de LoRA (usando a biblioteca PEFT do Hugging Face)
+# Conceptual example of using LoRA (using the Hugging Face PEFT library)
 from peft import LoraConfig, get_peft_model
 from transformers import ViTForImageClassification
 
-# 1. Carregar o modelo de fundação pré-treinado
+# 1. Load the pre-trained foundation model
 model = ViTForImageClassification.from_pretrained("google/vit-base-patch16-224")
 
-# 2. Definir a configuração LoRA
+# 2. Define the LoRA configuration
 config = LoraConfig(
-    r=8, # Rank da matriz de atualização
-    lora_alpha=16, # Escala de aprendizado
-    target_modules=["query", "value"], # Módulos do modelo para aplicar LoRA
+    r=8, # Rank of the update matrix
+    lora_alpha=16, # Learning scale
+    target_modules=["query", "value"], # Model modules to apply LoRA
     lora_dropout=0.05,
     bias="none",
 )
 
-# 3. Aplicar o PEFT ao modelo
+# 3. Apply PEFT to the model
 peft_model = get_peft_model(model, config)
 
-# 4. Treinar apenas os parâmetros LoRA (a maioria dos parâmetros originais é congelada)
+# 4. Train only the LoRA parameters (most of the original parameters are frozen)
 # peft_model.train()
 ```
 
-O repositório do GitHub associado ao artigo contém os detalhes exatos de implementação para cada PEFT e tarefa.
+The GitHub repository associated with the paper contains the exact implementation details for each PEFT and task.
 
 ## URL
 

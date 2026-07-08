@@ -2,36 +2,36 @@
 
 ## Description
 
-O Postman é a plataforma líder mundial para desenvolvimento e colaboração de APIs, oferecendo um conjunto completo de ferramentas para cada estágio do ciclo de vida da API. Sua proposta de valor única reside em ser uma solução "API-first" completa, que vai além de um simples cliente REST, permitindo a gestão de especificações, documentação, testes automatizados, monitoramento e colaboração em escala. É a ferramenta de escolha para equipes que buscam uma abordagem unificada e escalável para o desenvolvimento de APIs.
+Postman is the world's leading platform for API development and collaboration, offering a complete set of tools for every stage of the API lifecycle. Its unique value proposition lies in being a complete "API-first" solution that goes beyond a simple REST client, enabling the management of specifications, documentation, automated testing, monitoring, and collaboration at scale. It is the tool of choice for teams seeking a unified and scalable approach to API development.
 
 ## Statistics
 
-* **Adoção:** Mais de 30 milhões de desenvolvedores e 500.000 empresas, incluindo 98% das empresas da Fortune 500, utilizam o Postman.
-* **Tendência API-First:** O Postman é um dos principais impulsionadores da abordagem API-First, com 82% das organizações adotando algum nível dessa abordagem.
-* **Relatório Anual:** Publica o "State of the API Report", uma das principais referências sobre tendências e uso de APIs no mundo.
+* **Adoption:** More than 30 million developers and 500,000 companies, including 98% of the Fortune 500, use Postman.
+* **API-First Trend:** Postman is one of the main drivers of the API-First approach, with 82% of organizations adopting some level of this approach.
+* **Annual Report:** Publishes the "State of the API Report," one of the leading references on API trends and usage worldwide.
 
 ## Features
 
-* **Workspace Colaborativo:** Permite que equipes trabalhem juntas em coleções de APIs, ambientes e documentação.
-* **Coleções de APIs:** Agrupamento lógico de requisições e testes, que podem ser compartilhados e executados em lote.
-* **Testes Automatizados:** Criação de scripts de teste (em JavaScript) para validar respostas de APIs, integrados a pipelines de CI/CD.
-* **Monitoramento de APIs:** Monitoramento contínuo da performance e disponibilidade das APIs em diferentes regiões.
-* **Documentação Automática:** Geração de documentação interativa a partir das coleções.
-* **Mock Servers:** Simulação de endpoints de API para desenvolvimento e testes paralelos.
-* **Suporte a Múltiplos Protocolos:** Suporte a REST, SOAP, GraphQL, gRPC e WebSockets.
+* **Collaborative Workspace:** Enables teams to work together on API collections, environments, and documentation.
+* **API Collections:** Logical grouping of requests and tests, which can be shared and run in batches.
+* **Automated Testing:** Creation of test scripts (in JavaScript) to validate API responses, integrated into CI/CD pipelines.
+* **API Monitoring:** Continuous monitoring of API performance and availability across different regions.
+* **Automatic Documentation:** Generation of interactive documentation from collections.
+* **Mock Servers:** Simulation of API endpoints for parallel development and testing.
+* **Multi-Protocol Support:** Support for REST, SOAP, GraphQL, gRPC, and WebSockets.
 
 ## Use Cases
 
-* **Desenvolvimento e Debugging de APIs:** Envio rápido de requisições e inspeção de respostas para acelerar o desenvolvimento.
-* **Testes de Regressão e Funcionais:** Criação de suítes de testes robustas para garantir a qualidade da API antes do deploy.
-* **Onboarding de Desenvolvedores:** Compartilhamento de coleções de APIs para que novos membros da equipe ou parceiros possam começar a usar a API rapidamente.
-* **Governança de APIs:** Aplicação de padrões e diretrizes de design de APIs em toda a organização.
+* **API Development and Debugging:** Quickly send requests and inspect responses to accelerate development.
+* **Regression and Functional Testing:** Creation of robust test suites to ensure API quality before deployment.
+* **Developer Onboarding:** Sharing API collections so that new team members or partners can start using the API quickly.
+* **API Governance:** Applying API design standards and guidelines across the organization.
 
 ## Integration
 
-O Postman facilita a integração com diversas ferramentas e linguagens, sendo capaz de gerar snippets de código para a requisição atual em mais de 20 linguagens e frameworks.
+Postman makes it easy to integrate with a variety of tools and languages, being able to generate code snippets for the current request in more than 20 languages and frameworks.
 
-**Exemplo de Integração (Python - `requests`):**
+**Integration Example (Python - `requests`):**
 
 ```python
 import requests
@@ -40,11 +40,11 @@ import json
 url = "https://api.exemplo.com/dados"
 
 payload = json.dumps({
-  "chave": "valor"
+  "key": "value"
 })
 headers = {
   'Content-Type': 'application/json',
-  'Authorization': 'Bearer SEU_TOKEN'
+  'Authorization': 'Bearer YOUR_TOKEN'
 }
 
 response = requests.request("POST", url, headers=headers, data=payload)
@@ -52,7 +52,7 @@ response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)
 ```
 
-**Integração com CI/CD:** Utiliza o Newman (executor de linha de comando do Postman) para rodar coleções de testes em ambientes de integração contínua (Jenkins, GitLab CI, GitHub Actions).
+**CI/CD Integration:** Uses Newman (Postman's command-line runner) to run test collections in continuous integration environments (Jenkins, GitLab CI, GitHub Actions).
 
 ## URL
 

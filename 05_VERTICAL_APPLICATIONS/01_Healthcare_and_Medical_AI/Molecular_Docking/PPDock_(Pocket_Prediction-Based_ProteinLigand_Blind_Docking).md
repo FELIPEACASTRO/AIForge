@@ -2,60 +2,60 @@
 
 ## Description
 
-**PPDock** (Pocket Prediction-Based Protein–Ligand Blind Docking) é um modelo de *docking* cego de proteína-ligante baseado em Redes Neurais Gráficas (GNNs), proposto em 2025. Ele aborda a limitação dos métodos tradicionais de *docking* que exigem a pré-definição do sítio de ligação (bolsão). O PPDock opera em duas etapas principais: primeiro, ele prevê o sítio de ligação (bolsão) na proteína, e em seguida, realiza o *docking* do ligante dentro da região prevista. A arquitetura utiliza uma combinação de Redes Neurais Gráficas Euclidianas (EGNNs) para capturar as relações espaciais e estruturais complexas entre a proteína e o ligante, resultando em maior precisão e eficiência, especialmente em cenários de *docking* cego.
+**PPDock** (Pocket Prediction-Based Protein–Ligand Blind Docking) is a protein–ligand blind *docking* model based on Graph Neural Networks (GNNs), proposed in 2025. It addresses the limitation of traditional *docking* methods that require the binding site (pocket) to be predefined. PPDock operates in two main stages: first, it predicts the binding site (pocket) on the protein, and then it performs the *docking* of the ligand within the predicted region. The architecture uses a combination of Euclidean Graph Neural Networks (EGNNs) to capture the complex spatial and structural relationships between the protein and the ligand, resulting in greater accuracy and efficiency, especially in blind *docking* scenarios.
 
 ## Statistics
 
-- **Ano de Publicação:** 2025
-- **Métrica Chave:** Ligand RMSD (Root Mean Square Deviation) e Centroid Distance.
-- **Desempenho:** Alcançou uma taxa de Ligand RMSD < 2 Å de **45.2%** no conjunto de teste original de 363 complexos, superando significativamente os métodos de *docking* cego baseados em aprendizado de máquina de última geração.
-- **Arquitetura:** EGNN (Rede Neural Gráfica Euclidiana) e GNN.
-- **Citações:** 5 (em novembro de 2025, indicando ser um trabalho muito recente).
-- **Dataset de Treinamento/Teste:** PDBbind.
+- **Publication Year:** 2025
+- **Key Metric:** Ligand RMSD (Root Mean Square Deviation) and Centroid Distance.
+- **Performance:** Achieved a Ligand RMSD < 2 Å rate of **45.2%** on the original test set of 363 complexes, significantly outperforming state-of-the-art machine learning-based blind *docking* methods.
+- **Architecture:** EGNN (Euclidean Graph Neural Network) and GNN.
+- **Citations:** 5 (as of November 2025, indicating a very recent work).
+- **Training/Test Dataset:** PDBbind.
 
 ## Features
 
-- **Docking Cego Baseado em Predição de Bolsão:** Não requer conhecimento prévio do sítio de ligação da proteína.
-- **Arquitetura EGNN:** Utiliza Redes Neurais Gráficas Euclidianas (EGNNs) para modelar as interações 3D entre proteína e ligante, preservando a invariância de rotação e translação.
-- **Alta Precisão:** Supera métodos de *docking* cego de última geração em conjuntos de dados de referência.
-- **Eficiência Computacional:** Oferece um equilíbrio entre precisão e velocidade, crucial para triagem virtual em larga escala.
+- **Pocket Prediction-Based Blind Docking:** Requires no prior knowledge of the protein binding site.
+- **EGNN Architecture:** Uses Euclidean Graph Neural Networks (EGNNs) to model the 3D interactions between protein and ligand, preserving rotation and translation invariance.
+- **High Accuracy:** Outperforms state-of-the-art blind *docking* methods on benchmark datasets.
+- **Computational Efficiency:** Offers a balance between accuracy and speed, crucial for large-scale virtual screening.
 
 ## Use Cases
 
-- **Triagem Virtual (Virtual Screening):** Identificação rápida e precisa de novos candidatos a medicamentos, prevendo a pose de ligação de milhões de moléculas a um alvo proteico.
-- **Otimização de Chumbo (Lead Optimization):** Refinamento de compostos promissores, prevendo as poses de ligação mais estáveis e a afinidade.
-- **Docking Cego:** Aplicação em casos onde o sítio de ligação da proteína é desconhecido ou difícil de determinar experimentalmente.
-- **Previsão de Afinidade de Ligação Droga-Alvo (DTA):** Embora focado em *docking*, a pose prevista é crucial para a estimativa precisa da afinidade.
+- **Virtual Screening:** Fast and accurate identification of new drug candidates by predicting the binding pose of millions of molecules to a protein target.
+- **Lead Optimization:** Refinement of promising compounds by predicting the most stable binding poses and affinity.
+- **Blind Docking:** Application in cases where the protein binding site is unknown or difficult to determine experimentally.
+- **Drug-Target Affinity (DTA) Prediction:** Although focused on *docking*, the predicted pose is crucial for accurately estimating affinity.
 
 ## Integration
 
-O modelo PPDock é implementado em Python e requer bibliotecas de GNN, como PyTorch Geometric (PyG). O repositório GitHub fornece pesos de modelo pré-treinados para as duas partes (Predição de Bolsão e Docking).
+The PPDock model is implemented in Python and requires GNN libraries such as PyTorch Geometric (PyG). The GitHub repository provides pre-trained model weights for both parts (Pocket Prediction and Docking).
 
-**Exemplo de Uso (Conceitual):**
+**Usage Example (Conceptual):**
 ```python
-# Instalação (assumindo ambiente Python/PyTorch)
+# Installation (assuming a Python/PyTorch environment)
 # pip install torch_geometric
 # git clone https://github.com/JieDuTQS/PPDock
 # cd PPDock
 
-# Carregar pesos do modelo (disponíveis no repositório)
+# Load model weights (available in the repository)
 # model_pocket = load_model('pocket_prediction_weights.pth')
 # model_dock = load_model('docking_weights.pth')
 
-# 1. Preparação dos dados (estrutura da proteína e ligante)
+# 1. Data preparation (protein and ligand structure)
 # protein_graph = preprocess_protein('protein.pdb')
 # ligand_graph = preprocess_ligand('ligand.mol2')
 
-# 2. Predição do Bolsão
+# 2. Pocket Prediction
 # pocket_coords = model_pocket.predict(protein_graph)
 
-# 3. Docking Cego
+# 3. Blind Docking
 # docked_pose = model_dock.dock(protein_graph, ligand_graph, pocket_coords)
 
-# 4. Avaliação da Pose
+# 4. Pose Evaluation
 # rmsd = calculate_rmsd(docked_pose, true_pose)
 ```
-O repositório GitHub (`JieDuTQS/PPDock`) é a fonte primária para o código e instruções de integração.
+The GitHub repository (`JieDuTQS/PPDock`) is the primary source for the code and integration instructions.
 
 ## URL
 

@@ -1,35 +1,35 @@
 # VizWiz-VQA (Visual Question Answering)
 
 ## Description
-O VizWiz-VQA é um dataset de Questionamento Visual de Perguntas (VQA) único, pois é o primeiro a ser construído a partir de perguntas visuais reais feitas por pessoas cegas e com baixa visão. As imagens e perguntas foram coletadas através de um aplicativo móvel, onde os usuários tiravam uma foto e gravavam uma pergunta falada sobre ela. O dataset é crucial para o desenvolvimento de tecnologias assistivas, pois reflete os desafios visuais cotidianos enfrentados por essa população. A versão mais recente (a partir de janeiro de 2023) substituiu respostas como "inadequado" por "não respondível" para maior clareza e possui um conjunto de dados maior e mais limpo. O dataset suporta tarefas de VQA, incluindo a previsão da resposta correta e a previsão da capacidade de resposta da pergunta.
+VizWiz-VQA is a unique Visual Question Answering (VQA) dataset, as it is the first to be built from real visual questions asked by blind and low-vision people. The images and questions were collected through a mobile application, where users took a photo and recorded a spoken question about it. The dataset is crucial for the development of assistive technologies, as it reflects the everyday visual challenges faced by this population. The most recent version (as of January 2023) replaced answers such as "unsuitable" with "unanswerable" for greater clarity and features a larger and cleaner dataset. The dataset supports VQA tasks, including predicting the correct answer and predicting the answerability of the question.
 
 ## Statistics
-- **Versão Atualizada (Jan/2023):**
-  - **Treinamento:** 20.523 pares imagem/pergunta e 205.230 pares resposta/confiança.
-  - **Validação:** 4.319 pares imagem/pergunta e 43.190 pares resposta/confiança.
-  - **Teste:** 8.000 pares imagem/pergunta.
-- **Total de Amostras:** 32.842 pares imagem/pergunta.
-- **Versões:** A versão de Jan/2023 é a mais recente, substituindo a versão anterior de Dez/2019. A principal mudança foi a substituição de "unsuitable" por "unanswerable" e a expansão do conjunto de treinamento e validação.
+- **Updated Version (Jan/2023):**
+  - **Training:** 20,523 image/question pairs and 205,230 answer/confidence pairs.
+  - **Validation:** 4,319 image/question pairs and 43,190 answer/confidence pairs.
+  - **Test:** 8,000 image/question pairs.
+- **Total Samples:** 32,842 image/question pairs.
+- **Versions:** The Jan/2023 version is the most recent, replacing the previous Dec/2019 version. The main change was the replacement of "unsuitable" with "unanswerable" and the expansion of the training and validation sets.
 
 ## Features
-- **Origem Real:** Imagens e perguntas coletadas de pessoas cegas e com baixa visão em situações cotidianas.
-- **Formato Multimodal:** Combina imagens e perguntas em linguagem natural (originalmente faladas).
-- **Anotação Detalhada:** Cada pergunta visual possui 10 respostas crowdsourced, permitindo uma avaliação robusta.
-- **Desafio de Resposta:** Inclui a tarefa de prever se uma pergunta visual pode ser respondida, abordando a qualidade da imagem e a clareza da pergunta.
-- **Versão Atualizada:** A versão de 2023 possui um esquema de anotação aprimorado e um conjunto de dados maior e mais limpo.
+- **Real Origin:** Images and questions collected from blind and low-vision people in everyday situations.
+- **Multimodal Format:** Combines images and natural-language questions (originally spoken).
+- **Detailed Annotation:** Each visual question has 10 crowdsourced answers, allowing for a robust evaluation.
+- **Answerability Challenge:** Includes the task of predicting whether a visual question can be answered, addressing image quality and question clarity.
+- **Updated Version:** The 2023 version features an improved annotation scheme and a larger, cleaner dataset.
 
 ## Use Cases
-- **Tecnologias Assistivas:** Desenvolvimento de sistemas de VQA que podem ajudar pessoas cegas e com baixa visão a obter informações sobre o mundo ao seu redor.
-- **Pesquisa em VQA:** Treinamento e avaliação de modelos de VQA em um cenário de dados do mundo real, com imagens de baixa qualidade e perguntas complexas.
-- **Análise de Qualidade de Imagem:** Estudo da relação entre a qualidade da imagem (muitas vezes ruim devido à deficiência visual do usuário) e a capacidade de resposta das perguntas.
-- **Privacidade Visual:** O dataset VizWiz-Priv, um subconjunto relacionado, é usado para reconhecer a presença e o propósito de informações visuais privadas.
+- **Assistive Technologies:** Development of VQA systems that can help blind and low-vision people obtain information about the world around them.
+- **VQA Research:** Training and evaluation of VQA models in a real-world data scenario, with low-quality images and complex questions.
+- **Image Quality Analysis:** Study of the relationship between image quality (often poor due to the user's visual impairment) and the answerability of questions.
+- **Visual Privacy:** The VizWiz-Priv dataset, a related subset, is used to recognize the presence and purpose of private visual information.
 
 ## Integration
-O dataset VizWiz-VQA pode ser baixado diretamente do site oficial (vizwiz.org).
-1. **Download dos Arquivos:** Baixe os conjuntos de imagens (treinamento, validação e teste) e os arquivos de anotações JSON (treinamento, validação e teste) através dos links fornecidos na seção "Dataset" da página VQA.
-2. **Estrutura dos Arquivos:** Os arquivos JSON contêm os detalhes de cada pergunta visual, incluindo a imagem, a pergunta, o tipo de resposta e as 10 respostas crowdsourced com seus níveis de confiança.
-3. **Código de Exemplo:** O site fornece código de exemplo e APIs para demonstrar como analisar os arquivos JSON e avaliar os métodos em relação ao gabarito.
-4. **Submissão para Desafios:** Para participar dos desafios, os resultados devem ser submetidos ao servidor de avaliação EvalAI, seguindo as instruções específicas para as partições `test-dev`, `test-challenge` e `test-standard`.
+The VizWiz-VQA dataset can be downloaded directly from the official website (vizwiz.org).
+1. **Downloading the Files:** Download the image sets (training, validation, and test) and the JSON annotation files (training, validation, and test) through the links provided in the "Dataset" section of the VQA page.
+2. **File Structure:** The JSON files contain the details of each visual question, including the image, the question, the answer type, and the 10 crowdsourced answers with their confidence levels.
+3. **Sample Code:** The website provides sample code and APIs to demonstrate how to parse the JSON files and evaluate methods against the ground truth.
+4. **Submission for Challenges:** To participate in the challenges, results must be submitted to the EvalAI evaluation server, following the specific instructions for the `test-dev`, `test-challenge`, and `test-standard` partitions.
 
 ## URL
 [https://vizwiz.org/tasks-and-datasets/vqa/](https://vizwiz.org/tasks-and-datasets/vqa/)

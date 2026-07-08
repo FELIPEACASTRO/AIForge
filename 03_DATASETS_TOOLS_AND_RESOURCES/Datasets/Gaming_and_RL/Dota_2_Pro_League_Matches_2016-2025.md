@@ -1,43 +1,43 @@
 # Dota 2 Pro League Matches 2016-2025
 
 ## Description
-Este é um dataset abrangente de partidas da Liga Profissional de Dota 2, cobrindo o período de 2016 a 2025. O conjunto de dados é atualizado semanalmente e é derivado da API do OpenDota. Ele é ideal para pesquisadores e entusiastas de ciência de dados interessados em análise de esportes eletrônicos (esports), aprendizado de máquina para previsão de resultados de partidas e análise de comportamento de jogadores e equipes profissionais. O dataset é composto por 12 arquivos CSV principais por mês/ano, além de pastas de constantes e imagens.
+This is a comprehensive dataset of Dota 2 Professional League matches, covering the period from 2016 to 2025. The dataset is updated weekly and is derived from the OpenDota API. It is ideal for data science researchers and enthusiasts interested in esports analytics, machine learning for match outcome prediction, and analysis of the behavior of professional players and teams. The dataset consists of 12 main CSV files per month/year, in addition to constants and image folders.
 
 ## Statistics
-*   **Tamanho Total:** 43.75 GB
-*   **Número de Arquivos:** 1567
-*   **Número de Colunas:** 5237 (em todos os arquivos)
-*   **Cobertura:** Partidas da Liga Profissional de Dota 2 de 2016 a novembro de 2025.
-*   **Frequência de Atualização:** Semanal.
+*   **Total Size:** 43.75 GB
+*   **Number of Files:** 1567
+*   **Number of Columns:** 5237 (across all files)
+*   **Coverage:** Dota 2 Professional League matches from 2016 to November 2025.
+*   **Update Frequency:** Weekly.
 
 ## Features
-O dataset é composto por 12 arquivos CSV principais que fornecem dados detalhados sobre as partidas:
-*   **main\_metadata.csv**: Metadados principais da partida.
-*   **players.csv**: Detalhes sobre os heróis e ações dos jogadores.
-*   **picks\_bans.csv**: Informações sobre a fase de seleção e banimento de heróis.
-*   **objectives.csv**: Marcos e objetivos alcançados na partida (e.g., FIRSTBLOOD, BARRACKS down).
-*   **teamfights.csv**: Detalhes sobre as lutas de equipe.
-*   **radiant\_gold\_adv.csv** e **radiant\_exp\_adv.csv**: Vantagem de ouro e experiência por minuto para a equipe Radiant.
-*   **chat.csv** e **all\_word\_counts.csv**: Dados de chat e contagem de tokens.
-*   **cosmetics.csv**, **draft\_timings.csv** e **teams.csv**: Informações adicionais sobre cosméticos, tempos de draft e equipes.
-Inclui também pastas de `Constants` (IDs e estatísticas de habilidades, heróis e itens) e `Images`.
+The dataset consists of 12 main CSV files that provide detailed data about the matches:
+*   **main\_metadata.csv**: Main match metadata.
+*   **players.csv**: Details about the heroes and actions of the players.
+*   **picks\_bans.csv**: Information about the hero picking and banning phase.
+*   **objectives.csv**: Milestones and objectives achieved in the match (e.g., FIRSTBLOOD, BARRACKS down).
+*   **teamfights.csv**: Details about the team fights.
+*   **radiant\_gold\_adv.csv** and **radiant\_exp\_adv.csv**: Gold and experience advantage per minute for the Radiant team.
+*   **chat.csv** and **all\_word\_counts.csv**: Chat data and token counts.
+*   **cosmetics.csv**, **draft\_timings.csv**, and **teams.csv**: Additional information about cosmetics, draft timings, and teams.
+It also includes `Constants` folders (IDs and statistics of abilities, heroes, and items) and `Images`.
 
 ## Use Cases
-*   **Previsão de Resultados de Partidas:** Utilização de dados de draft, vantagens de ouro/experiência e estatísticas de jogadores para prever o vencedor de partidas.
-*   **Análise de Estratégia de Esports:** Estudo de padrões de seleção e banimento de heróis (picks/bans), análise de lutas de equipe e impacto de objetivos no resultado.
-*   **Modelagem de Comportamento de Jogadores:** Análise de desempenho individual e de equipe ao longo do tempo.
-*   **Desenvolvimento de Agentes de IA:** Uso dos dados como base para treinar modelos de aprendizado de máquina e reforço para jogar Dota 2.
+*   **Match Outcome Prediction:** Use of draft data, gold/experience advantages, and player statistics to predict the winner of matches.
+*   **Esports Strategy Analysis:** Study of hero picking and banning patterns (picks/bans), analysis of team fights, and the impact of objectives on the outcome.
+*   **Player Behavior Modeling:** Analysis of individual and team performance over time.
+*   **AI Agent Development:** Use of the data as a basis for training machine learning and reinforcement learning models to play Dota 2.
 
 ## Integration
-O dataset está hospedado no Kaggle e pode ser baixado diretamente através da interface web do Kaggle. Para usuários de Python, a integração pode ser feita usando a API do Kaggle, que permite o download programático do conjunto de dados.
+The dataset is hosted on Kaggle and can be downloaded directly through the Kaggle web interface. For Python users, integration can be done using the Kaggle API, which allows programmatic download of the dataset.
 
-**Passos para download via API do Kaggle:**
-1.  Instale a biblioteca Kaggle: `pip install kaggle`
-2.  Configure suas credenciais da API do Kaggle.
-3.  Baixe o dataset usando o comando: `kaggle datasets download -d bwandowando/dota-2-pro-league-matches-2023`
-4.  Descompacte o arquivo baixado para acessar os dados CSV.
+**Steps to download via the Kaggle API:**
+1.  Install the Kaggle library: `pip install kaggle`
+2.  Configure your Kaggle API credentials.
+3.  Download the dataset using the command: `kaggle datasets download -d bwandowando/dota-2-pro-league-matches-2023`
+4.  Unzip the downloaded file to access the CSV data.
 
-A fonte primária dos dados é a API do OpenDota. A documentação detalhada dos campos pode ser encontrada na documentação do OpenDota.
+The primary source of the data is the OpenDota API. Detailed documentation of the fields can be found in the OpenDota documentation.
 
 ## URL
 [https://www.kaggle.com/datasets/bwandowando/dota-2-pro-league-matches-2023](https://www.kaggle.com/datasets/bwandowando/dota-2-pro-league-matches-2023)

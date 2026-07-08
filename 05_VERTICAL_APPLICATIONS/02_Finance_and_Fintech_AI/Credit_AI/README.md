@@ -1,20 +1,16 @@
 # 💳 Credit AI - Artificial Intelligence for Credit Solutions
 
-**[EN]** The Ultimate Collection of AI Resources for Credit Scoring, Risk Assessment, Loan Default Prediction, and Credit Decision Automation.
-
-**[PT]** A Coleção Definitiva de Recursos de IA para Credit Scoring, Avaliação de Risco, Previsão de Inadimplência e Automação de Decisões de Crédito.
+The Ultimate Collection of AI Resources for Credit Scoring, Risk Assessment, Loan Default Prediction, and Credit Decision Automation.
 
 ---
 
-## 📊 Overview / Visão Geral
+## 📊 Overview
 
-**[EN]** This comprehensive collection contains **190+ curated resources** covering all aspects of AI applications in credit and lending, from academic research to production-ready platforms.
+This comprehensive collection contains **190+ curated resources** covering all aspects of AI applications in credit and lending, from academic research to production-ready platforms.
 
-**[PT]** Esta coleção abrangente contém **190+ recursos curados** cobrindo todos os aspectos de aplicações de IA em crédito e empréstimos, desde pesquisa acadêmica até plataformas prontas para produção.
+### Statistics
 
-### Statistics / Estatísticas
-
-| Category / Categoria | Count / Quantidade |
+| Category | Count |
 |---|---|
 | 📁 GitHub Repositories | 20+ |
 | 🏢 Commercial Platforms | 50+ |
@@ -28,7 +24,7 @@
 
 ---
 
-## 🗂️ Directory Structure / Estrutura de Diretórios
+## 🗂️ Directory Structure
 
 ```
 04_APPLY/Finance/Credit_AI/
@@ -44,27 +40,23 @@
 
 ---
 
-## 🎯 Key Use Cases / Casos de Uso Principais
+## 🎯 Key Use Cases
 
-**[EN]** AI for credit is applied across multiple lending scenarios:
+AI for credit is applied across multiple lending scenarios:
 
-**[PT]** IA para crédito é aplicada em múltiplos cenários de empréstimo:
-
-1. **Consumer Lending** - Personal loans / Empréstimos pessoais
-2. **Small Business Lending (SME)** - Business credit / Crédito empresarial
-3. **Buy Now Pay Later (BNPL)** - Installment payments / Pagamentos parcelados
-4. **Mortgage Lending** - Home loans / Financiamento imobiliário
-5. **Credit Card Issuance** - Card approval / Aprovação de cartões
-6. **Collections & Recovery** - Debt management / Gestão de dívidas
-7. **Portfolio Risk Management** - Risk monitoring / Monitoramento de risco
+1. **Consumer Lending** - Personal loans
+2. **Small Business Lending (SME)** - Business credit
+3. **Buy Now Pay Later (BNPL)** - Installment payments
+4. **Mortgage Lending** - Home loans
+5. **Credit Card Issuance** - Card approval
+6. **Collections & Recovery** - Debt management
+7. **Portfolio Risk Management** - Risk monitoring
 
 ---
 
-## 🔥 Top 10 Essential Resources / Top 10 Recursos Essenciais
+## 🔥 Top 10 Essential Resources
 
-**[EN]** Start here if you're new to AI for credit:
-
-**[PT]** Comece aqui se você é novo em IA para crédito:
+Start here if you're new to AI for credit:
 
 1. **XGBoost / LightGBM** - Best performing ML algorithms (75% of winning solutions)
 2. **ScoringPy** - Complete Python library for credit scorecards
@@ -79,9 +71,9 @@
 
 ---
 
-## 🚀 Quick Start / Início Rápido
+## 🚀 Quick Start
 
-### For Developers / Para Desenvolvedores
+### For Developers
 
 ```bash
 # Install essential libraries
@@ -94,14 +86,14 @@ wget http://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/ger
 git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 ```
 
-### For Researchers / Para Pesquisadores
+### For Researchers
 
 1. Start with **German Credit Dataset** (UCI)
 2. Read **ArXiv Paper 2506.19383** (Explainable AI for Credit Risk)
 3. Explore **Kaggle AmEx Default Prediction** competition
 4. Study **ensemble methods** (XGBoost + LightGBM + Random Forest)
 
-### For Business / Para Negócios
+### For Business
 
 1. Evaluate **Zest AI** or **Upstart** platforms
 2. Review **ROI case studies** (18-32% approval rate increase)
@@ -110,11 +102,9 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## 📈 Trends 2025 / Tendências 2025
+## 📈 Trends 2025
 
-**[EN]** Key trends shaping the future of credit AI:
-
-**[PT]** Principais tendências moldando o futuro da IA de crédito:
+Key trends shaping the future of credit AI:
 
 1. **Alternative Data Dominance** - Beyond traditional credit scores
 2. **Explainable AI Mandatory** - Regulatory compliance (FCRA, GDPR)
@@ -129,7 +119,7 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## 🛣️ Implementation Roadmap / Roadmap de Implementação
+## 🛣️ Implementation Roadmap
 
 ### Phase 1: Foundations (1-2 weeks)
 - Learn credit scoring fundamentals
@@ -163,21 +153,21 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## 📚 Learning Path / Caminho de Aprendizado
+## 📚 Learning Path
 
-### Beginner / Iniciante
+### Beginner
 1. Credit scoring fundamentals
 2. Logistic Regression for credit
 3. German Credit dataset tutorial
 4. Basic feature engineering
 
-### Intermediate / Intermediário
+### Intermediate
 1. XGBoost/LightGBM implementation
 2. WoE binning and IV
 3. Model evaluation metrics
 4. SHAP explainability
 
-### Advanced / Avançado
+### Advanced
 1. Ensemble methods
 2. Alternative data sources
 3. Real-time APIs
@@ -186,11 +176,9 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## ⚖️ Regulatory Considerations / Considerações Regulatórias
+## ⚖️ Regulatory Considerations
 
-**[EN]** AI credit models must comply with:
-
-**[PT]** Modelos de IA de crédito devem estar em conformidade com:
+AI credit models must comply with:
 
 - **FCRA (USA)** - Fair Credit Reporting Act
 - **ECOA (USA)** - Equal Credit Opportunity Act
@@ -198,7 +186,7 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 - **Basel III** - Banking regulations
 - **Local regulations** - Country-specific requirements
 
-**Key Requirements / Requisitos-Chave:**
+**Key Requirements:**
 - ✅ Model explainability (SHAP, LIME)
 - ✅ Bias detection and mitigation
 - ✅ Adverse action reasons
@@ -207,13 +195,11 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## 🤝 Contributing / Contribuindo
+## 🤝 Contributing
 
-**[EN]** We welcome contributions! Please see [CONTRIBUTING.md](../../../CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please see [CONTRIBUTING.md](../../../CONTRIBUTING.md) for guidelines.
 
-**[PT]** Contribuições são bem-vindas! Consulte [CONTRIBUTING.md](../../../CONTRIBUTING.md) para diretrizes.
-
-**Contribution Ideas / Ideias de Contribuição:**
+**Contribution Ideas:**
 - Add new credit AI repositories
 - Share case studies and results
 - Contribute tutorials and guides
@@ -222,7 +208,7 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## 📖 Additional Resources / Recursos Adicionais
+## 📖 Additional Resources
 
 - [AIForge Main README](../../../README.md)
 - [Navigation Guide](../../../NAVIGATION_GUIDE.md)
@@ -231,9 +217,9 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-## 📊 Coverage / Cobertura
+## 📊 Coverage
 
-**Areas 100% Covered / Áreas 100% Cobertas:**
+**Areas 100% Covered:**
 
 ✅ Credit Scoring  
 ✅ Credit Risk Assessment  
@@ -246,6 +232,6 @@ git clone https://github.com/maixbach/credit-risk-analysis-using-ML.git
 
 ---
 
-**Last Updated / Última Atualização:** November 8, 2025  
-**Maintained by / Mantido por:** AIForge Community  
-**License / Licença:** MIT
+**Last Updated:** November 8, 2025  
+**Maintained by:** AIForge Community  
+**License:** MIT

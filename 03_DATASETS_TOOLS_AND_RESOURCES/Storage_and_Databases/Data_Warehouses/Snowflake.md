@@ -2,50 +2,50 @@
 
 ## Description
 
-O Snowflake é a **AI Data Cloud** (Nuvem de Dados de IA), uma plataforma de dados nativa da nuvem, totalmente gerenciada e com arquitetura única de **separação de armazenamento e computação**. Sua proposta de valor reside na **mobilização de dados** com escala quase ilimitada, permitindo que milhares de organizações armazenem, gerenciem, analisem e compartilhem dados em um único local, sem a complexidade de gerenciamento de infraestrutura. Ele se destaca por sua capacidade de oferecer uma experiência **multi-cloud** e **multi-região** consistente.
+Snowflake is the **AI Data Cloud**, a cloud-native, fully managed data platform with a unique architecture that **separates storage and compute**. Its value proposition lies in **data mobilization** at near-unlimited scale, enabling thousands of organizations to store, manage, analyze, and share data in a single location, without the complexity of infrastructure management. It stands out for its ability to deliver a consistent **multi-cloud** and **multi-region** experience.
 
 ## Statistics
 
-* **Adoção de Mercado:** Lidera o mercado de Data Warehouse em nuvem, com estimativas de **~35% de participação** e mais de 8.000 clientes globais.
-* **Receita:** Receita anualizada (ARR) de aproximadamente **US$ 3,8 bilhões** (2024).
-* **Métricas de Desempenho:** Otimizado para **latência de consulta** e **utilização de recursos** (CPU, memória, armazenamento) através de seu modelo de computação elástica.
-* **Custo:** Modelo de precificação baseado em **uso de computação** (créditos) e **armazenamento**, com foco em FinOps e observabilidade.
+* **Market Adoption:** Leads the cloud Data Warehouse market, with estimates of **~35% share** and more than 8,000 global customers.
+* **Revenue:** Annualized revenue (ARR) of approximately **US$3.8 billion** (2024).
+* **Performance Metrics:** Optimized for **query latency** and **resource utilization** (CPU, memory, storage) through its elastic compute model.
+* **Cost:** Pricing model based on **compute usage** (credits) and **storage**, with a focus on FinOps and observability.
 
 ## Features
 
-* **Arquitetura de Camada Única:** Separação de armazenamento e computação para escalabilidade e elasticidade independentes.
-* **Multi-Cloud:** Suporte nativo para AWS, Azure e GCP, permitindo a escolha da nuvem sem migração de dados.
-* **Data Sharing (Data Exchange):** Compartilhamento seguro e em tempo real de dados com outros usuários do Snowflake (e até mesmo com não-usuários) sem cópias de dados.
-* **Snowpark:** Permite que engenheiros de dados, cientistas de dados e desenvolvedores escrevam código em linguagens como Python, Java e Scala para executar pipelines de dados, modelos de ML e aplicativos diretamente no Snowflake.
-* **Serverless e Elasticidade:** Dimensionamento automático e instantâneo da computação (warehouses virtuais) para atender à demanda de consulta.
-* **Governança e Segurança:** Recursos avançados de governança, controle de acesso, rastreabilidade e conformidade.
+* **Single-Layer Architecture:** Separation of storage and compute for independent scalability and elasticity.
+* **Multi-Cloud:** Native support for AWS, Azure, and GCP, allowing you to choose the cloud without data migration.
+* **Data Sharing (Data Exchange):** Secure, real-time data sharing with other Snowflake users (and even non-users) without copying data.
+* **Snowpark:** Enables data engineers, data scientists, and developers to write code in languages such as Python, Java, and Scala to run data pipelines, ML models, and applications directly within Snowflake.
+* **Serverless and Elasticity:** Automatic, instant scaling of compute (virtual warehouses) to meet query demand.
+* **Governance and Security:** Advanced governance, access control, traceability, and compliance capabilities.
 
 ## Use Cases
 
-* **Data Lakehouse:** Unificação de dados estruturados e semi-estruturados para análise.
-* **Data Sharing e Colaboração:** Compartilhamento de dados entre empresas e parceiros de negócios em tempo real.
-* **Data Science e Machine Learning:** Uso do Snowpark para construir e executar modelos de ML e pipelines de dados diretamente na plataforma.
-* **Análise de Log e Dados de Eventos:** Processamento e análise de grandes volumes de dados de log e eventos para observabilidade e insights operacionais.
+* **Data Lakehouse:** Unification of structured and semi-structured data for analytics.
+* **Data Sharing and Collaboration:** Real-time data sharing between companies and business partners.
+* **Data Science and Machine Learning:** Using Snowpark to build and run ML models and data pipelines directly on the platform.
+* **Log and Event Data Analytics:** Processing and analyzing large volumes of log and event data for observability and operational insights.
 
 ## Integration
 
-A integração com Python é feita através do `snowflake-connector-python` ou do Snowpark.
+Integration with Python is done through the `snowflake-connector-python` connector or through Snowpark.
 
-**Exemplo de Conexão Python (via `snowflake-connector-python`):**
+**Python Connection Example (via `snowflake-connector-python`):**
 ```python
 import snowflake.connector
 
-# Estabelecer a conexão
+# Establish the connection
 conn = snowflake.connector.connect(
-    user='<seu_usuario>',
-    password='<sua_senha>',
-    account='<sua_conta>',
-    warehouse='<seu_warehouse>',
-    database='<seu_banco_de_dados>',
-    schema='<seu_esquema>'
+    user='<your_user>',
+    password='<your_password>',
+    account='<your_account>',
+    warehouse='<your_warehouse>',
+    database='<your_database>',
+    schema='<your_schema>'
 )
 
-# Executar uma consulta
+# Run a query
 try:
     cur = conn.cursor()
     cur.execute("SELECT col1, col2 FROM test_table WHERE col1 = %s", (123,))

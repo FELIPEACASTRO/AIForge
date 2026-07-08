@@ -1,38 +1,38 @@
 # CMIP6 (Coupled Model Intercomparison Project Phase 6)
 
 ## Description
-O **Coupled Model Intercomparison Project Phase 6 (CMIP6)** é um projeto internacional do World Climate Research Programme (WCRP) que fornece um conjunto coordenado de simulações de modelos climáticos globais (GCMs) para entender as mudanças climáticas passadas, presentes e futuras. É a principal fonte de dados para as avaliações do Painel Intergovernamental sobre Mudanças Climáticas (IPCC), incluindo o Sexto Relatório de Avaliação (AR6). O CMIP6 introduziu um design experimental mais complexo, incluindo os experimentos **DECK** (Diagnosis, Evaluation, and Characterization of Klima) e um conjunto de **MIPs** (Model Intercomparison Projects) endossados, que exploram diferentes aspectos do sistema climático e cenários socioeconômicos compartilhados (SSPs). Os dados são essenciais para a comunidade científica global que estuda o clima e seus impactos.
+The **Coupled Model Intercomparison Project Phase 6 (CMIP6)** is an international project of the World Climate Research Programme (WCRP) that provides a coordinated set of global climate model (GCM) simulations to understand past, present, and future climate change. It is the primary source of data for the assessments of the Intergovernmental Panel on Climate Change (IPCC), including the Sixth Assessment Report (AR6). CMIP6 introduced a more complex experimental design, including the **DECK** experiments (Diagnosis, Evaluation, and Characterization of Klima) and a set of endorsed **MIPs** (Model Intercomparison Projects), which explore different aspects of the climate system and Shared Socioeconomic Pathways (SSPs). The data are essential for the global scientific community studying climate and its impacts.
 
 ## Statistics
-- **Tamanho Total:** Aproximadamente **24.5 PB** (Petabytes) de dados.
-- **Contagem de Datasets:** Mais de **6.4 milhões** de datasets individuais.
-- **Versões/Modelos:** **322** experimentos de **132** modelos CMIP6 registrados.
-- **Atualizações:** O projeto está em andamento, com dados sendo continuamente publicados e atualizados nos nós do ESGF. Versões recentes (2023-2025) de datasets derivados (e.g., downscaled) continuam a ser lançadas.
+- **Total Size:** Approximately **24.5 PB** (Petabytes) of data.
+- **Dataset Count:** More than **6.4 million** individual datasets.
+- **Versions/Models:** **322** experiments from **132** registered CMIP6 models.
+- **Updates:** The project is ongoing, with data being continuously published and updated on the ESGF nodes. Recent versions (2023-2025) of derived datasets (e.g., downscaled) continue to be released.
 
 ## Features
-- **Ampla Cobertura:** Inclui 322 experimentos de 132 modelos climáticos globais (GCMs) registrados, provenientes de 48 instituições científicas em 26 países.
-- **Estrutura de Dados:** Os dados de saída são armazenados em arquivos **netCDF**, com uma variável por arquivo, em conformidade com as convenções CF (Climate and Forecast) e padronizados por "vocabulários controlados" (CVs).
-- **Cenários Futuros:** Utiliza os **Shared Socio-economic Pathways (SSPs)** para projetar o clima futuro sob diferentes cenários de emissões de gases de efeito estufa e desenvolvimento socioeconômico.
-- **Resolução Aprimorada:** Modelos CMIP6 frequentemente apresentam resoluções espaciais e temporais mais altas em comparação com as fases anteriores (CMIP5).
-- **Dados de Forçamento:** Inclui dados de forçamento padrão (e.g., concentrações de gases de efeito estufa, aerossóis) para garantir a comparabilidade entre os modelos.
+- **Broad Coverage:** Includes 322 experiments from 132 registered global climate models (GCMs), originating from 48 scientific institutions in 26 countries.
+- **Data Structure:** Output data are stored in **netCDF** files, with one variable per file, in compliance with the CF (Climate and Forecast) conventions and standardized by "controlled vocabularies" (CVs).
+- **Future Scenarios:** Uses the **Shared Socio-economic Pathways (SSPs)** to project future climate under different scenarios of greenhouse gas emissions and socioeconomic development.
+- **Improved Resolution:** CMIP6 models frequently feature higher spatial and temporal resolutions compared to previous phases (CMIP5).
+- **Forcing Data:** Includes standard forcing data (e.g., greenhouse gas concentrations, aerosols) to ensure comparability between models.
 
 ## Use Cases
-- **Avaliação de Impactos Climáticos:** Principalmente para fornecer projeções climáticas para o IPCC e estudos de impacto em escala global e regional.
-- **Downscaling e Regionalização:** Criação de datasets de alta resolução (e.g., 1 km) para estudos regionais de variáveis como temperatura e precipitação.
-- **Modelagem de Recursos Hídricos:** Previsão de vazão de rios e avaliação de secas sob cenários futuros (SSPs).
-- **Aplicações em Machine Learning (ML):** Uso dos dados CMIP6 como entrada para modelos de ML (e.g., Random Forest, Deep Learning) para aprimorar a previsão de variáveis climáticas e seus impactos em setores como a agricultura.
-- **Estudos de Extremos Climáticos:** Projeção de mudanças na frequência e intensidade de eventos climáticos extremos.
-- **Análise de Sensibilidade Climática:** Investigação da resposta do sistema climático a diferentes forçantes (e.g., aerossóis, gases de efeito estufa).
+- **Climate Impact Assessment:** Primarily to provide climate projections for the IPCC and impact studies at global and regional scales.
+- **Downscaling and Regionalization:** Creation of high-resolution datasets (e.g., 1 km) for regional studies of variables such as temperature and precipitation.
+- **Water Resources Modeling:** Prediction of river discharge and drought assessment under future scenarios (SSPs).
+- **Machine Learning (ML) Applications:** Use of CMIP6 data as input for ML models (e.g., Random Forest, Deep Learning) to improve the prediction of climate variables and their impacts in sectors such as agriculture.
+- **Climate Extremes Studies:** Projection of changes in the frequency and intensity of extreme climate events.
+- **Climate Sensitivity Analysis:** Investigation of the climate system's response to different forcings (e.g., aerosols, greenhouse gases).
 
 ## Integration
-O acesso aos dados do CMIP6 é gerenciado pela **Earth System Grid Federation (ESGF)**, uma rede distribuída de nós de dados globais (e.g., LLNL/EUA, DKRZ/Alemanha, CEDA/Reino Unido, IPSL/França). O acesso é facilitado pela interface web **Metagrid** (substituindo o CoG).
+Access to CMIP6 data is managed by the **Earth System Grid Federation (ESGF)**, a distributed network of global data nodes (e.g., LLNL/USA, DKRZ/Germany, CEDA/United Kingdom, IPSL/France). Access is facilitated by the **Metagrid** web interface (replacing CoG).
 
-**Métodos de Download:**
-1.  **Wget Script:** Scripts de download em lote podem ser gerados diretamente na interface Metagrid.
-2.  **Globus Transfer:** Método recomendado para downloads de grandes volumes de dados, oferecendo melhor desempenho. Requer uma conta ESGF e autenticação via Globus Auth (suporta Google, GitHub e contas institucionais).
-3.  **API RESTful:** Usuários avançados podem utilizar a API RESTful de Pesquisa do ESGF para acesso programático.
+**Download Methods:**
+1.  **Wget Script:** Batch download scripts can be generated directly in the Metagrid interface.
+2.  **Globus Transfer:** Recommended method for downloading large volumes of data, offering better performance. Requires an ESGF account and authentication via Globus Auth (supports Google, GitHub, and institutional accounts).
+3.  **RESTful API:** Advanced users can use the ESGF Search RESTful API for programmatic access.
 
-**Requisito:** É necessário criar uma conta ESGF (utilizando Globus Auth) para downloads em lote e transferências Globus. Os usuários devem aderir aos Termos de Uso do CMIP6, que exigem citação e reconhecimento adequados dos dados.
+**Requirement:** It is necessary to create an ESGF account (using Globus Auth) for batch downloads and Globus transfers. Users must adhere to the CMIP6 Terms of Use, which require proper citation and acknowledgment of the data.
 
 ## URL
 [https://wcrp-cmip.org/](https://wcrp-cmip.org/)

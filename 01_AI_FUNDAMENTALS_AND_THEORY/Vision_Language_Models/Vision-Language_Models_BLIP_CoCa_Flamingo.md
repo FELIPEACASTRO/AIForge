@@ -2,23 +2,23 @@
 
 ## Description
 
-Pesquisa abrangente sobre os modelos de Linguagem-Visão (VLMs) BLIP, CoCa e Flamingo, detalhando suas propostas de valor únicas, arquiteturas, métricas de desempenho, casos de uso e métodos de integração. O BLIP se destaca pela unificação de tarefas de compreensão e geração e pelo método CapFilt para dados ruidosos. O CoCa inova ao unificar os paradigmas de encoder-decoder, dual-encoder e single-encoder através de perdas contrastivas e de legendagem. O Flamingo é notável por seu desempenho de última geração em aprendizado few-shot, utilizando uma arquitetura de fusão de modelos congelados com atenção cruzada.
+Comprehensive research on the Vision-Language Models (VLMs) BLIP, CoCa, and Flamingo, detailing their unique value propositions, architectures, performance metrics, use cases, and integration methods. BLIP stands out for unifying understanding and generation tasks and for its CapFilt method for noisy data. CoCa innovates by unifying the encoder-decoder, dual-encoder, and single-encoder paradigms through contrastive and captioning losses. Flamingo is notable for its state-of-the-art performance in few-shot learning, using a fusion architecture of frozen models with cross-attention.
 
 ## Statistics
 
-BLIP: SOTA em Image-Text Retrieval (+2.7% recall@1), Image Captioning (+2.8% CIDEr), VQA (+1.6% VQA score). CoCa: SOTA em múltiplas tarefas, 91.0% top-1 accuracy no ImageNet, 86.3% zero-shot accuracy no ImageNet. Flamingo: 80B parâmetros, SOTA em 16 tarefas few-shot multimodais.
+BLIP: SOTA in Image-Text Retrieval (+2.7% recall@1), Image Captioning (+2.8% CIDEr), VQA (+1.6% VQA score). CoCa: SOTA across multiple tasks, 91.0% top-1 accuracy on ImageNet, 86.3% zero-shot accuracy on ImageNet. Flamingo: 80B parameters, SOTA on 16 multimodal few-shot tasks.
 
 ## Features
 
-BLIP: Arquitetura MED, CapFilt, Objetivos de Pré-treinamento Unificados. CoCa: Arquitetura Unificada (Contrastiva + Captioning), Encoder-Decoder Desacoplado, Representações Duplas. Flamingo: Aprendizado Few-Shot, Arquitetura de Fusão Congelada, Mecanismo de Atenção Cruzada (Gated Cross-Attention).
+BLIP: MED architecture, CapFilt, Unified Pre-training Objectives. CoCa: Unified Architecture (Contrastive + Captioning), Decoupled Encoder-Decoder, Dual Representations. Flamingo: Few-Shot Learning, Frozen Fusion Architecture, Cross-Attention Mechanism (Gated Cross-Attention).
 
 ## Use Cases
 
-BLIP: Recuperação de Imagem-Texto, Legenda de Imagem, VQA. CoCa: Classificação de Imagens, Reconhecimento de Vídeo, Recuperação Cross-Modal, Legenda de Imagens. Flamingo: Diálogo Multimodal, Aprendizado Few-Shot, Legenda de Vídeos.
+BLIP: Image-Text Retrieval, Image Captioning, VQA. CoCa: Image Classification, Video Recognition, Cross-Modal Retrieval, Image Captioning. Flamingo: Multimodal Dialogue, Few-Shot Learning, Video Captioning.
 
 ## Integration
 
-BLIP: Integração oficial via LAVIS e Hugging Face Transformers. CoCa: Implementações de código aberto via PyTorch (lucidrains/CoCa-pytorch). Flamingo: Implementação de código aberto via OpenFlamingo. Exemplos de código em Python fornecidos para cada modelo.
+BLIP: Official integration via LAVIS and Hugging Face Transformers. CoCa: Open-source implementations via PyTorch (lucidrains/CoCa-pytorch). Flamingo: Open-source implementation via OpenFlamingo. Python code examples provided for each model.
 
 ## URL
 

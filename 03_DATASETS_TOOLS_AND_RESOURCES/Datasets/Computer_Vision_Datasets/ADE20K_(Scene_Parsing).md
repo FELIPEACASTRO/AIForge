@@ -1,19 +1,19 @@
 # ADE20K (Scene Parsing)
 
 ## Description
-O ADE20K é um dataset de grande escala para análise de cenas (Scene Parsing), que envolve a segmentação e rotulagem de cada pixel em uma imagem com a categoria de objeto ou 'stuff' correspondente. Ele é um benchmark fundamental para o desenvolvimento e avaliação de modelos de segmentação semântica e de instâncias. O dataset é derivado das bases de dados SUN e Places, e suas anotações detalhadas incluem objetos e partes de objetos, permitindo uma compreensão hierárquica e fina da cena.
+ADE20K is a large-scale dataset for Scene Parsing, which involves segmenting and labeling every pixel in an image with the corresponding object or 'stuff' category. It is a fundamental benchmark for developing and evaluating semantic and instance segmentation models. The dataset is derived from the SUN and Places databases, and its detailed annotations include objects and object parts, enabling a hierarchical and fine-grained understanding of the scene.
 
 ## Statistics
-Conjunto de Treinamento: 25.574 imagens. Conjunto de Validação: 2.000 imagens. Conjunto de Teste: Imagens a serem liberadas posteriormente. Conjunto de Consistência: 64 imagens. O dataset contém 150 categorias de objetos/coisas (classes semânticas). As imagens são totalmente anotadas com segmentação de objetos e, em muitos casos, segmentação de partes.
+Training Set: 25,574 images. Validation Set: 2,000 images. Test Set: Images to be released later. Consistency Set: 64 images. The dataset contains 150 object/stuff categories (semantic classes). The images are fully annotated with object segmentation and, in many cases, part segmentation.
 
 ## Features
-Segmentação Semântica e de Instâncias. Anotação Hierárquica: Inclui segmentação de objetos e suas partes (ex: 'porta' e 'maçaneta'). Ampla Variedade de Cenas: Imagens cobrem diversas categorias de cenas, incluindo ambientes internos e externos. Benchmark Padrão: Amplamente utilizado para treinar e avaliar modelos de análise de cena.
+Semantic and Instance Segmentation. Hierarchical Annotation: Includes segmentation of objects and their parts (e.g., 'door' and 'handle'). Wide Variety of Scenes: Images cover diverse scene categories, including indoor and outdoor environments. Standard Benchmark: Widely used for training and evaluating scene parsing models.
 
 ## Use Cases
-Treinamento e avaliação de modelos de Segmentação Semântica e de Instâncias. Pesquisa em Análise de Cena (Scene Parsing). Desenvolvimento de sistemas de visão computacional para robótica e veículos autônomos (reconhecimento de ambiente). Análise de percepção urbana e paisagística.
+Training and evaluation of Semantic and Instance Segmentation models. Research in Scene Parsing. Development of computer vision systems for robotics and autonomous vehicles (environment recognition). Analysis of urban and landscape perception.
 
 ## Integration
-O dataset completo e as anotações podem ser baixados mediante registro e aceitação dos termos de uso no site oficial. O acesso é fornecido para fins de pesquisa não comercial e educacionais. O site também fornece um link para o repositório GitHub do MIT CSAIL Vision para ferramentas e tutoriais sobre como acessar e explorar o dataset.
+The complete dataset and annotations can be downloaded upon registration and acceptance of the terms of use on the official site. Access is provided for non-commercial research and educational purposes. The site also provides a link to the MIT CSAIL Vision GitHub repository for tools and tutorials on how to access and explore the dataset.
 
 ## URL
 [https://ade20k.csail.mit.edu/](https://ade20k.csail.mit.edu/)

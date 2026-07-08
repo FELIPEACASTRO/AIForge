@@ -2,63 +2,63 @@
 
 ## Description
 
-Curriculum Learning (CL) é uma estratégia de treinamento progressivo em Machine Learning que imita o processo de aprendizado humano, começando com exemplos mais fáceis e gradualmente introduzindo dados mais difíceis. Seu principal objetivo é melhorar a velocidade de convergência e a precisão final do modelo, especialmente em tarefas complexas ou com dados ruidosos. A CL é amplamente aplicada em Visão Computacional, Processamento de Linguagem Natural (PLN) e Aprendizado por Reforço (RL), demonstrando consistentemente ganhos de desempenho e estabilidade de treinamento. A estratégia envolve duas funções principais: uma função de pontuação (scoring function) para medir a dificuldade da amostra e uma função de ritmo (pacing function) para determinar a ordem e a taxa de introdução de novos exemplos.
+Curriculum Learning (CL) is a progressive training strategy in Machine Learning that mimics the human learning process, starting with easier examples and gradually introducing more difficult data. Its main goal is to improve the model's convergence speed and final accuracy, especially on complex tasks or with noisy data. CL is widely applied in Computer Vision, Natural Language Processing (NLP), and Reinforcement Learning (RL), consistently demonstrating performance gains and training stability. The strategy involves two main functions: a scoring function to measure sample difficulty and a pacing function to determine the order and rate at which new examples are introduced.
 
 ## Statistics
 
-**Melhoria na Convergência:** Estudos demonstram que a CL pode levar a uma taxa de convergência mais rápida (aceleração do treinamento) em comparação com o treinamento direto em todo o conjunto de dados [1] [9]. **Ganho de Precisão:** A CL tem sido associada a um ganho na precisão final (accuracy) e melhor desempenho de generalização, pois ajuda o modelo a evitar mínimos locais ruins [1] [9]. **Estabilidade:** A aplicação de CL, especialmente em Aprendizado por Reforço, pode aumentar a estabilidade do treinamento e reduzir a variância [10]. **Impacto da Dificuldade:** O ganho de desempenho obtido com a CL é diretamente proporcional ao comprimento do currículo (o número de etapas de dificuldade) [9].
+**Convergence Improvement:** Studies show that CL can lead to a faster convergence rate (training acceleration) compared to training directly on the entire dataset [1] [9]. **Accuracy Gain:** CL has been associated with a gain in final accuracy and better generalization performance, as it helps the model avoid bad local minima [1] [9]. **Stability:** Applying CL, especially in Reinforcement Learning, can increase training stability and reduce variance [10]. **Impact of Difficulty:** The performance gain obtained with CL is directly proportional to the length of the curriculum (the number of difficulty steps) [9].
 
 ## Features
 
-**Estratégia de Treinamento Progressivo:** Ordena os dados de treinamento de exemplos "fáceis" para "difíceis" [1] [2]. **Função de Pontuação (Scoring Function):** Define a dificuldade de cada amostra de dados. Pode ser baseada em heurísticas (por exemplo, tamanho da imagem, complexidade da frase) ou métodos automáticos (por exemplo, perda do modelo, incerteza) [2] [3]. **Função de Ritmo (Pacing Function):** Controla a taxa na qual a dificuldade do currículo aumenta. Pode ser fixa (por exemplo, linear, exponencial) ou adaptativa (por exemplo, baseada no desempenho do modelo) [2]. **Tipos de Currículo:** Inclui Currículo por Transferência (começa com uma tarefa mais fácil e transfere o conhecimento para uma mais difícil) e Currículo por Amostra (ordena as amostras de dados) [4]. **Melhora na Generalização:** Ajuda o modelo a evitar mínimos locais ruins e a alcançar um mínimo global melhor, resultando em melhor desempenho de generalização [1].
+**Progressive Training Strategy:** Orders the training data from "easy" to "difficult" examples [1] [2]. **Scoring Function:** Defines the difficulty of each data sample. It can be based on heuristics (e.g., image size, sentence complexity) or automatic methods (e.g., model loss, uncertainty) [2] [3]. **Pacing Function:** Controls the rate at which the curriculum difficulty increases. It can be fixed (e.g., linear, exponential) or adaptive (e.g., based on the model's performance) [2]. **Curriculum Types:** Includes Transfer Curriculum (starts with an easier task and transfers the knowledge to a more difficult one) and Sample Curriculum (orders the data samples) [4]. **Generalization Improvement:** Helps the model avoid bad local minima and reach a better global minimum, resulting in better generalization performance [1].
 
 ## Use Cases
 
-**Processamento de Linguagem Natural (PLN):** Treinamento de modelos de linguagem em tarefas como tradução automática, começando com frases curtas e simples e progredindo para frases mais longas e complexas [1] [11]. **Visão Computacional:** Treinamento de Redes Neurais Convolucionais (CNNs) para classificação de imagens, começando com imagens de alta qualidade e fácil distinção e progredindo para imagens ruidosas ou com baixa resolução [1] [7]. **Aprendizado por Reforço (RL):** Treinamento de agentes em ambientes simulados, começando com tarefas mais fáceis (por exemplo, objetivos mais próximos, menos obstáculos) e aumentando gradualmente a complexidade do ambiente ou da tarefa [1] [6]. **Reconhecimento de Fala:** Melhoria da robustez de modelos de reconhecimento de fala, começando com amostras de áudio limpas e progredindo para amostras com ruído de fundo [1].
+**Natural Language Processing (NLP):** Training language models on tasks such as machine translation, starting with short, simple sentences and progressing to longer, more complex ones [1] [11]. **Computer Vision:** Training Convolutional Neural Networks (CNNs) for image classification, starting with high-quality, easily distinguishable images and progressing to noisy or low-resolution images [1] [7]. **Reinforcement Learning (RL):** Training agents in simulated environments, starting with easier tasks (e.g., closer goals, fewer obstacles) and gradually increasing the complexity of the environment or task [1] [6]. **Speech Recognition:** Improving the robustness of speech recognition models, starting with clean audio samples and progressing to samples with background noise [1].
 
 ## Integration
 
-A implementação do Curriculum Learning geralmente envolve a criação de um *data loader* personalizado que aplica a lógica de pontuação e ritmo. Em frameworks como PyTorch ou Keras, isso é feito ajustando o conjunto de dados ou o *sampler* em cada época ou passo de treinamento.
+Implementing Curriculum Learning generally involves creating a custom *data loader* that applies the scoring and pacing logic. In frameworks like PyTorch or Keras, this is done by adjusting the dataset or the *sampler* at each epoch or training step.
 
-**Exemplo de Integração (Conceitual em Python/PyTorch):**
+**Integration Example (Conceptual in Python/PyTorch):**
 
 ```python
 import torch
 from torch.utils.data import Dataset, DataLoader, Subset
 
-class CurriculoDataset(Dataset):
-    # ... (Implementação do Dataset) ...
+class CurriculumDataset(Dataset):
+    # ... (Dataset implementation) ...
 
-    def calcular_dificuldade(self, indice):
-        # Lógica para pontuar a dificuldade (por exemplo, baseada no tamanho ou ruído)
-        return dificuldade
+    def compute_difficulty(self, index):
+        # Logic to score difficulty (e.g., based on size or noise)
+        return difficulty
 
-def obter_curriculo_sampler(dataset, epoca, total_epocas):
-    # 1. Calcular as pontuações de dificuldade para todas as amostras
-    pontuacoes = [dataset.calcular_dificuldade(i) for i in range(len(dataset))]
+def get_curriculum_sampler(dataset, epoch, total_epochs):
+    # 1. Compute the difficulty scores for all samples
+    scores = [dataset.compute_difficulty(i) for i in range(len(dataset))]
     
-    # 2. Determinar o limite de dificuldade para a época atual (Função de Ritmo)
-    # Exemplo: Aumentar linearmente o percentual de dados usados
-    percentual_dados = epoca / total_epocas
-    limite_dificuldade = sorted(pontuacoes)[int(len(pontuacoes) * percentual_dados)]
+    # 2. Determine the difficulty threshold for the current epoch (Pacing Function)
+    # Example: Linearly increase the percentage of data used
+    data_fraction = epoch / total_epochs
+    difficulty_threshold = sorted(scores)[int(len(scores) * data_fraction)]
     
-    # 3. Selecionar os índices que atendem ao currículo
-    indices_selecionados = [i for i, p in enumerate(pontuacoes) if p <= limite_dificuldade]
+    # 3. Select the indices that meet the curriculum
+    selected_indices = [i for i, p in enumerate(scores) if p <= difficulty_threshold]
     
-    # 4. Criar um Subset ou Sampler com os dados selecionados
-    return Subset(dataset, indices_selecionados)
+    # 4. Create a Subset or Sampler with the selected data
+    return Subset(dataset, selected_indices)
 
-# Uso no loop de treinamento
-# for epoca in range(total_epocas):
-#     subset = obter_curriculo_sampler(dataset_completo, epoca, total_epocas)
+# Usage in the training loop
+# for epoch in range(total_epochs):
+#     subset = get_curriculum_sampler(full_dataset, epoch, total_epochs)
 #     dataloader = DataLoader(subset, batch_size=...)
-#     # ... (Treinar o modelo) ...
+#     # ... (Train the model) ...
 ```
 
-**Bibliotecas e Repositórios:**
-*   **CurML:** Uma biblioteca e kit de ferramentas para Curriculum Learning [5].
-*   **Syllabus:** Um framework modular para Aprendizado por Reforço que facilita a integração de CL em pipelines de RL existentes [6].
-*   **Implementações em GitHub:** Vários repositórios demonstram implementações em Keras e PyTorch, muitas vezes replicando resultados de artigos de pesquisa [7] [8].
+**Libraries and Repositories:**
+*   **CurML:** A library and toolkit for Curriculum Learning [5].
+*   **Syllabus:** A modular framework for Reinforcement Learning that facilitates integrating CL into existing RL pipelines [6].
+*   **GitHub Implementations:** Several repositories demonstrate implementations in Keras and PyTorch, often replicating results from research papers [7] [8].
 
 ## URL
 

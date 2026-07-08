@@ -1,43 +1,43 @@
 # Crisis Management Prompts
 
 ## Description
-**Prompts de Gerenciamento de Crises** são comandos estruturados e direcionados por IA, projetados para auxiliar organizações, especialmente Pequenas e Médias Empresas (PMEs), a antecipar, planejar e responder a diversas crises de forma eficaz. Eles capitalizam as capacidades generativas de Modelos de Linguagem Grande (LLMs) para rapidamente rascunhar planos de comunicação, identificar riscos potenciais, definir funções e delinear estratégias de recuperação. O uso desses prompts garante uma resposta coordenada, baseada em dados e ágil durante situações de alta pressão, minimizando danos à reputação e operacionais. Eles transformam a reação caótica em uma resposta estratégica e estruturada.
+**Crisis Management Prompts** are structured, AI-driven commands designed to help organizations, especially Small and Medium Enterprises (SMEs), anticipate, plan for, and respond to a variety of crises effectively. They leverage the generative capabilities of Large Language Models (LLMs) to quickly draft communication plans, identify potential risks, define roles, and outline recovery strategies. Using these prompts ensures a coordinated, data-driven, and agile response during high-pressure situations, minimizing reputational and operational damage. They turn chaotic reaction into a strategic, structured response.
 
 ## Examples
 ```
-1. **Identificação de Cenários:** "Liste 10 cenários de crise potenciais que poderiam impactar [sua indústria, ex: setor de alimentos] nos próximos 12 meses e categorize-os em uma tabela por severidade (Baixa, Média, Alta) e probabilidade (Rara, Possível, Provável)."
-2. **Plano de Comunicação:** "Crie um plano de comunicação de 24 horas para *stakeholders* internos e externos durante um cenário de [violação de dados de clientes], incluindo canais (e-mail, redes sociais, *press release*) e a mensagem principal para cada grupo."
-3. **Funções e Responsabilidades:** "Projete uma força-tarefa de gerenciamento de crises para um [incêndio em depósito], definindo as funções de Líder de Crise, Chefe de Comunicação e Chefe de Operações, e as 3 principais responsabilidades de cada um."
-4. **Plano de Recuperação:** "Esboce um plano de recuperação e continuidade de negócios em 3 etapas (Imediata, Curto Prazo, Longo Prazo) pós-crise para uma [interrupção da cadeia de suprimentos crítica], focando na restauração da produção e na comunicação com fornecedores."
-5. **Revisão e Melhoria:** "Resuma as 3 principais lições aprendidas com o último evento de crise de [natureza da crise, ex: erro de produto] e sugira três melhorias de processo específicas para prevenção futura, com métricas de sucesso."
-6. **Avaliação de Impacto Imediato:** "Com base no incidente de [descrição detalhada do incidente], gere uma lista de verificação de impacto imediato (legal, financeiro, reputacional) para a nossa empresa [nome da empresa] nas primeiras 4 horas."
-7. **Rascunho de Declaração de Mídia Social:** "Crie um rascunho de 280 caracteres para o Twitter/X, com um tom [empático e urgente], abordando o incidente de [acidente de trabalho] e indicando que [estamos investigando e daremos uma atualização em 2 horas]."
-8. **Análise de Sentimento de Crise:** "Simule a reação inicial do público ao nosso comunicado de imprensa sobre [tópico da crise] e sugira 3 perguntas difíceis que a mídia provavelmente fará, juntamente com rascunhos de respostas aprovadas."
-9. **Criação de FAQ Interno:** "Desenvolva um documento de Perguntas Frequentes (FAQ) para a equipe de atendimento ao cliente, com 10 perguntas e respostas aprovadas sobre [falha de serviço], garantindo consistência na mensagem e um tom de desculpas."
-10. **Plano de Reconstrução de Reputação:** "Crie um plano de 6 meses para reconstruir a reputação da marca após uma crise de [fraude financeira], focando em [investidores e clientes] e usando [relatórios de transparência e campanhas de responsabilidade social] como canais."
+1. **Scenario Identification:** "List 10 potential crisis scenarios that could impact [your industry, e.g., the food sector] over the next 12 months and categorize them in a table by severity (Low, Medium, High) and probability (Rare, Possible, Likely)."
+2. **Communication Plan:** "Create a 24-hour communication plan for internal and external *stakeholders* during a [customer data breach] scenario, including channels (email, social media, *press release*) and the key message for each group."
+3. **Roles and Responsibilities:** "Design a crisis management task force for a [warehouse fire], defining the roles of Crisis Leader, Head of Communications, and Head of Operations, and the top 3 responsibilities of each."
+4. **Recovery Plan:** "Outline a 3-stage business recovery and continuity plan (Immediate, Short Term, Long Term) after a crisis for a [critical supply chain disruption], focusing on restoring production and communicating with suppliers."
+5. **Review and Improvement:** "Summarize the top 3 lessons learned from the last crisis event of [nature of the crisis, e.g., product defect] and suggest three specific process improvements for future prevention, with success metrics."
+6. **Immediate Impact Assessment:** "Based on the incident of [detailed description of the incident], generate an immediate impact checklist (legal, financial, reputational) for our company [company name] within the first 4 hours."
+7. **Social Media Statement Draft:** "Create a 280-character draft for Twitter/X, with an [empathetic and urgent] tone, addressing the incident of [workplace accident] and indicating that [we are investigating and will provide an update in 2 hours]."
+8. **Crisis Sentiment Analysis:** "Simulate the initial public reaction to our press release about [crisis topic] and suggest 3 tough questions the media is likely to ask, along with drafts of approved responses."
+9. **Internal FAQ Creation:** "Develop a Frequently Asked Questions (FAQ) document for the customer service team, with 10 approved questions and answers about [service failure], ensuring message consistency and an apologetic tone."
+10. **Reputation Rebuilding Plan:** "Create a 6-month plan to rebuild the brand's reputation after a [financial fraud] crisis, focusing on [investors and customers] and using [transparency reports and social responsibility campaigns] as channels."
 ```
 
 ## Best Practices
-1. **Antecipação Proativa:** Utilize prompts para mapear cenários de crise por severidade e probabilidade, priorizando a preparação e a alocação de recursos.
-2. **Comunicação Estruturada:** Garanta que os prompts gerem planos de comunicação claros, consistentes e com o tom adequado (empático, urgente, calmo) para manter a transparência e a confiança dos *stakeholders*.
-3. **Clareza de Funções:** Defina papéis e responsabilidades específicos (Líder de Crise, Comunicação, Operações) no prompt para eliminar o caos e garantir a responsabilização durante a emergência.
-4. **Foco na Continuidade:** Inclua etapas de recuperação e continuidade de negócios nos prompts para minimizar o tempo de inatividade e restaurar a confiança após o incidente.
-5. **Aprendizado Contínuo:** Use prompts para analisar crises passadas e identificar melhorias de processo, transformando desafios em oportunidades de aprendizado e prevenção futura.
-6. **Validação Humana:** Sempre revise e valide a saída da IA com especialistas humanos, especialmente em questões legais, éticas ou de alta sensibilidade.
+1. **Proactive Anticipation:** Use prompts to map crisis scenarios by severity and probability, prioritizing preparation and resource allocation.
+2. **Structured Communication:** Ensure prompts generate clear, consistent communication plans with the appropriate tone (empathetic, urgent, calm) to maintain transparency and *stakeholder* trust.
+3. **Role Clarity:** Define specific roles and responsibilities (Crisis Leader, Communications, Operations) in the prompt to eliminate chaos and ensure accountability during the emergency.
+4. **Focus on Continuity:** Include recovery and business continuity steps in the prompts to minimize downtime and restore trust after the incident.
+5. **Continuous Learning:** Use prompts to analyze past crises and identify process improvements, turning challenges into opportunities for learning and future prevention.
+6. **Human Validation:** Always review and validate the AI output with human experts, especially on legal, ethical, or highly sensitive matters.
 
 ## Use Cases
-1. **PMEs (Pequenas e Médias Empresas):** Planejar respostas, identificar pontos fracos e desenvolver estratégias de recuperação sem a necessidade de um grande departamento de risco dedicado.
-2. **Comunicação de Crise:** Geração rápida de rascunhos de comunicados de imprensa, posts em mídias sociais e mensagens internas para garantir agilidade e consistência.
-3. **Treinamento e Simulação:** Simular cenários de crise e testar a prontidão da equipe, avaliando a eficácia dos planos de resposta existentes.
-4. **Análise de Risco:** Mapear e categorizar riscos específicos da indústria, como interrupções na cadeia de suprimentos, ataques cibernéticos ou crises de reputação.
-5. **Continuidade de Negócios:** Criação de planos de recuperação passo a passo para incidentes graves, minimizando o tempo de inatividade e garantindo a resiliência operacional.
+1. **SMEs (Small and Medium Enterprises):** Plan responses, identify weaknesses, and develop recovery strategies without the need for a large dedicated risk department.
+2. **Crisis Communication:** Rapid generation of drafts for press releases, social media posts, and internal messages to ensure agility and consistency.
+3. **Training and Simulation:** Simulate crisis scenarios and test team readiness, assessing the effectiveness of existing response plans.
+4. **Risk Analysis:** Map and categorize industry-specific risks, such as supply chain disruptions, cyberattacks, or reputational crises.
+5. **Business Continuity:** Create step-by-step recovery plans for serious incidents, minimizing downtime and ensuring operational resilience.
 
 ## Pitfalls
-1. **Confiança Excessiva na IA:** Confiar cegamente na saída da IA sem verificação humana, especialmente em questões legais, éticas ou de segurança.
-2. **Falta de Especificidade:** Usar prompts genéricos que não consideram as nuances específicas da organização, indústria ou crise. A falta de contexto leva a respostas irrelevantes.
-3. **Viés e Imprecisão:** A IA pode gerar informações imprecisas, enviesadas ou desatualizadas, o que é perigoso em comunicações de crise onde a precisão é fundamental.
-4. **Exposição de Dados Sensíveis:** Inserir detalhes confidenciais da crise no prompt, expondo a empresa a riscos de segurança e privacidade, pois os dados podem ser usados para treinamento do modelo.
-5. **Tom Inadequado:** A IA pode falhar em capturar o tom empático e humano necessário para uma comunicação de crise eficaz, resultando em mensagens frias ou robóticas.
+1. **Over-Reliance on AI:** Blindly trusting the AI output without human verification, especially on legal, ethical, or safety matters.
+2. **Lack of Specificity:** Using generic prompts that do not account for the specific nuances of the organization, industry, or crisis. Lack of context leads to irrelevant responses.
+3. **Bias and Inaccuracy:** AI may generate inaccurate, biased, or outdated information, which is dangerous in crisis communications where accuracy is critical.
+4. **Sensitive Data Exposure:** Entering confidential crisis details into the prompt, exposing the company to security and privacy risks, since the data may be used to train the model.
+5. **Inappropriate Tone:** AI may fail to capture the empathetic, human tone needed for effective crisis communication, resulting in cold or robotic messages.
 
 ## URL
 [https://stratpilot.ai/5-best-ai-prompts-for-crisis-management/](https://stratpilot.ai/5-best-ai-prompts-for-crisis-management/)

@@ -2,32 +2,32 @@
 
 ## Description
 
-O AgERA5 é um conjunto de dados meteorológicos de superfície diários, derivado do reanálise ERA5 do ECMWF, especificamente adaptado para aplicações em agricultura e estudos agroecológicos. Ele fornece variáveis agrometeorológicas essenciais, como temperatura, precipitação e umidade, em uma resolução espacial de 0.1° x 0.1°, com cobertura global. O conjunto de dados é corrigido para uma topografia mais fina, tornando-o mais preciso para modelagem agrícola.
+AgERA5 is a daily surface meteorological dataset, derived from the ECMWF ERA5 reanalysis, specifically tailored for applications in agriculture and agroecological studies. It provides essential agrometeorological variables, such as temperature, precipitation and humidity, at a spatial resolution of 0.1° x 0.1°, with global coverage. The dataset is corrected for finer topography, making it more accurate for agricultural modeling.
 
 ## Statistics
 
-**Cobertura Temporal:** De 1979 até o presente (atualização diária).
-**Resolução Temporal:** Diária.
-**Resolução Espacial:** 0.1° x 0.1° (aproximadamente 10 km).
-**Cobertura Geográfica:** Global.
-**Tamanho:** Variável, dependendo da seleção de tempo e área. Contém 19 variáveis agrometeorológicas.
+**Temporal Coverage:** From 1979 to present (daily updates).
+**Temporal Resolution:** Daily.
+**Spatial Resolution:** 0.1° x 0.1° (approximately 10 km).
+**Geographic Coverage:** Global.
+**Size:** Variable, depending on the time and area selection. Contains 19 agrometeorological variables.
 
 ## Features
 
-Dados meteorológicos diários de superfície (velocidade do vento a 10m, temperatura e umidade do ponto de orvalho a 2m, umidade relativa a 2m, temperatura a 2m, precipitação, radiação solar, etc.). Resolução espacial de 0.1° x 0.1° (aproximadamente 10 km). Correção para topografia fina. Disponível em formato NetCDF-4.
+Daily surface meteorological data (10m wind speed, 2m dew point temperature and humidity, 2m relative humidity, 2m temperature, precipitation, solar radiation, etc.). Spatial resolution of 0.1° x 0.1° (approximately 10 km). Correction for fine topography. Available in NetCDF-4 format.
 
 ## Use Cases
 
-**Modelagem de Culturas:** Fornece dados de entrada essenciais para modelos de crescimento e rendimento de culturas (ex: DSSAT, APSIM).
-**Monitoramento de Secas:** Utilizado para calcular índices de seca e monitorar o estresse hídrico na agricultura.
-**Avaliação de Impacto Climático:** Análise de como as mudanças climáticas afetam a produtividade agrícola.
-**Previsão Agrometeorológica:** Base para serviços de aconselhamento agrícola e previsões de curto e longo prazo.
+**Crop Modeling:** Provides essential input data for crop growth and yield models (e.g., DSSAT, APSIM).
+**Drought Monitoring:** Used to compute drought indices and monitor water stress in agriculture.
+**Climate Impact Assessment:** Analysis of how climate change affects agricultural productivity.
+**Agrometeorological Forecasting:** Basis for agricultural advisory services and short- and long-term forecasts.
 
 ## Integration
 
-O AgERA5 está disponível através do Climate Data Store (CDS) do Copernicus. O acesso é feito por meio de um formulário de download interativo na web ou programaticamente usando a API do CDS (Python). Bibliotecas como `ag5Tools` (R) também facilitam o download e a extração.
+AgERA5 is available through the Copernicus Climate Data Store (CDS). Access is provided via an interactive web download form or programmatically using the CDS API (Python). Libraries such as `ag5Tools` (R) also facilitate download and extraction.
 
-Exemplo de acesso via API CDS (Python):
+Example of access via the CDS API (Python):
 ```python
 import cdsapi
 

@@ -1,99 +1,99 @@
 # CSIRO Image2Biomass Prediction - Advanced Solution
 
-**Objetivo**: Alcançar TOP 1 na competição CSIRO Biomass Kaggle (Prize: $50,000)
+**Objective**: Reach TOP 1 in the CSIRO Biomass Kaggle competition (Prize: $50,000)
 
-**Status Atual**: Implementação completa com todas as técnicas avançadas descobertas
+**Current Status**: Complete implementation with all advanced techniques discovered
 
-**Score Esperado**: 0.78+ (TOP 1) | Probabilidade: 80%
+**Expected Score**: 0.78+ (TOP 1) | Probability: 80%
 
 ---
 
-## 📊 Visão Geral da Competição
+## 📊 Competition Overview
 
-A competição **CSIRO Image2Biomass** desafia participantes a prever 5 métricas de biomassa de culturas a partir de imagens aéreas:
+The **CSIRO Image2Biomass** competition challenges participants to predict 5 crop biomass metrics from aerial imagery:
 
-- **Fresh_Weight**: Peso fresco da planta
-- **Dry_Weight**: Peso seco da planta
-- **Height**: Altura da planta
-- **Canopy_Size_1**: Tamanho do dossel (medida 1)
-- **Canopy_Size_2**: Tamanho do dossel (medida 2)
+- **Fresh_Weight**: Fresh plant weight
+- **Dry_Weight**: Dry plant weight
+- **Height**: Plant height
+- **Canopy_Size_1**: Canopy size (measurement 1)
+- **Canopy_Size_2**: Canopy size (measurement 2)
 
-### 🎯 Desafio Crítico: Domain Shift
+### 🎯 Critical Challenge: Domain Shift
 
-**Problema Devastador Identificado:**
-- **Training Set**: Localizações em NSW, VIC, QLD, SA
-- **Test Set**: **NOVAS LOCALIZAÇÕES** (domain shift)
-- **Impacto**: 90% dos competidores têm gap CV-LB de 0.15-0.30
+**Devastating Problem Identified:**
+- **Training Set**: Locations in NSW, VIC, QLD, SA
+- **Test Set**: **NEW LOCATIONS** (domain shift)
+- **Impact**: 90% of competitors have a CV-LB gap of 0.15-0.30
 
-**Nossa Solução:**
-- GroupKFold por `State` + `Sampling_Date` para simular novas localizações
+**Our Solution:**
+- GroupKFold by `State` + `Sampling_Date` to simulate new locations
 - Domain Adaptation (MMD Loss + Adversarial Training)
-- Modelos especializados em generalização (DINOv2, AgriNet)
+- Models specialized in generalization (DINOv2, AgriNet)
 
 ---
 
-## 🏆 Estratégia Vencedora
+## 🏆 Winning Strategy
 
-### Roadmap de 12 Semanas: 0.63 → 0.78+
+### 12-Week Roadmap: 0.63 → 0.78+
 
-| Fase | Técnica | Score Esperado | Semanas |
+| Phase | Technique | Expected Score | Weeks |
 |------|---------|----------------|---------|
-| **Fase 1** | Validação correta (GroupKFold) | 0.63 | 1-2 |
-| **Fase 2** | DINOv2-Base + Huber Loss | 0.66 | 3-4 |
-| **Fase 3** | AgriNet + Domain Adaptation | 0.69 | 5-6 |
-| **Fase 4** | Ensemble (5+ modelos) | 0.71 | 7-8 |
-| **Fase 5** | Stacking com CatBoost | 0.74 | 9-10 |
-| **Fase 6** | Fine-tuning + Otimização | 0.78+ | 11-12 |
+| **Phase 1** | Correct validation (GroupKFold) | 0.63 | 1-2 |
+| **Phase 2** | DINOv2-Base + Huber Loss | 0.66 | 3-4 |
+| **Phase 3** | AgriNet + Domain Adaptation | 0.69 | 5-6 |
+| **Phase 4** | Ensemble (5+ models) | 0.71 | 7-8 |
+| **Phase 5** | Stacking with CatBoost | 0.74 | 9-10 |
+| **Phase 6** | Fine-tuning + Optimization | 0.78+ | 11-12 |
 
-### 🔑 Descobertas Críticas
+### 🔑 Critical Findings
 
-1. **Validação**: GroupKFold por `State` + `Sampling_Date` (não usar KFold simples!)
-2. **Modelos**: DINOv2 (self-supervised) > EfficientNet para generalização
-3. **Loss**: Huber Loss > MSE (robusto a outliers)
+1. **Validation**: GroupKFold by `State` + `Sampling_Date` (do not use simple KFold!)
+2. **Models**: DINOv2 (self-supervised) > EfficientNet for generalization
+3. **Loss**: Huber Loss > MSE (robust to outliers)
 4. **Optimizer**: RAdam + Lookahead > Adam
 5. **Domain Adaptation**: MMD Loss + Adversarial Training
-6. **Ensemble**: Stacking com CatBoost > Simple Average
+6. **Ensemble**: Stacking with CatBoost > Simple Average
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Instalação
+### 1. Installation
 
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone https://github.com/FELIPEACASTRO/AIForge.git
 cd AIForge/03_PROJECTS/CSIRO_Biomass
 
-# Instalar dependências
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Preparar Dados
+### 2. Prepare Data
 
 ```bash
-# Baixar dados do Kaggle (requer Kaggle API configurada)
+# Download data from Kaggle (requires Kaggle API configured)
 kaggle competitions download -c csiro-biomass
 unzip csiro-biomass.zip -d /content/csiro_data/
 ```
 
-### 3. Treinar Modelo (Google Colab Pro)
+### 3. Train Model (Google Colab Pro)
 
 ```python
-# Copiar script de treinamento para o Colab
+# Copy training script to Colab
 !cp src/training/train_dinov2_advanced.py /content/
 
-# Executar treinamento
+# Run training
 !python /content/train_dinov2_advanced.py
 ```
 
-### 4. Gerar Submissão (Kaggle Notebook)
+### 4. Generate Submission (Kaggle Notebook)
 
 ```python
-# Copiar script de inferência
+# Copy inference script
 !cp src/inference/kaggle_inference.py /kaggle/working/
 
-# Gerar submissão
+# Generate submission
 !python /kaggle/working/kaggle_inference.py \
     --checkpoint_dir /kaggle/input/csiro-checkpoints \
     --output submission.csv \
@@ -103,48 +103,48 @@ unzip csiro-biomass.zip -d /content/csiro_data/
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 CSIRO_Biomass/
-├── README.md                          # Este arquivo
-├── requirements.txt                   # Dependências Python
-├── setup.py                          # Setup do pacote
+├── README.md                          # This file
+├── requirements.txt                   # Python dependencies
+├── setup.py                          # Package setup
 │
-├── src/                              # Código fonte
+├── src/                              # Source code
 │   ├── losses/
 │   │   └── custom_losses.py          # Huber, Quantile, R2, MMD Loss
 │   ├── optimizers/
 │   │   └── advanced_optimizers.py    # RAdam, Lookahead
 │   ├── training/
-│   │   ├── train_dinov2_advanced.py  # Script de treinamento completo
+│   │   ├── train_dinov2_advanced.py  # Complete training script
 │   │   └── domain_adaptation.py      # Domain Adaptation
 │   ├── inference/
-│   │   ├── kaggle_inference.py       # Inferência para Kaggle
-│   │   └── ensemble_stacking.py      # Ensemble e Stacking
+│   │   ├── kaggle_inference.py       # Inference for Kaggle
+│   │   └── ensemble_stacking.py      # Ensemble and Stacking
 │   └── utils/
-│       └── metrics.py                # Métricas customizadas
+│       └── metrics.py                # Custom metrics
 │
 ├── notebooks/                        # Jupyter Notebooks
 │   ├── exploratory/
-│   │   └── EDA.ipynb                 # Análise exploratória
+│   │   └── EDA.ipynb                 # Exploratory analysis
 │   ├── training/
-│   │   └── train_colab.ipynb         # Notebook de treinamento
+│   │   └── train_colab.ipynb         # Training notebook
 │   └── inference/
-│       └── kaggle_submission.ipynb   # Notebook de submissão
+│       └── kaggle_submission.ipynb   # Submission notebook
 │
-├── configs/                          # Arquivos de configuração
+├── configs/                          # Configuration files
 │   ├── training/
-│   │   └── dinov2_config.yaml        # Config DINOv2
+│   │   └── dinov2_config.yaml        # DINOv2 config
 │   └── inference/
-│       └── ensemble_config.yaml      # Config Ensemble
+│       └── ensemble_config.yaml      # Ensemble config
 │
-├── docs/                             # Documentação
-│   ├── GUIA_FASE1_COMPLETO.md        # Guia Fase 1
-│   ├── RELATORIO_DEVASTADOR_CSIRO.md # Análise da competição
-│   └── RELATORIO_TRIPLE_CHECK.md     # Descobertas AIForge
+├── docs/                             # Documentation
+│   ├── GUIA_FASE1_COMPLETO.md        # Phase 1 guide
+│   ├── RELATORIO_DEVASTADOR_CSIRO.md # Competition analysis
+│   └── RELATORIO_TRIPLE_CHECK.md     # AIForge findings
 │
-└── tests/                            # Testes automatizados
+└── tests/                            # Automated tests
     ├── test_losses.py
     ├── test_models.py
     └── test_inference.py
@@ -152,9 +152,9 @@ CSIRO_Biomass/
 
 ---
 
-## 🧠 Arquitetura do Modelo
+## 🧠 Model Architecture
 
-### DINOv2-Base (Modelo Principal)
+### DINOv2-Base (Main Model)
 
 ```
 Input: RGB Image (224x224)
@@ -170,11 +170,11 @@ Linear(256 → 5)
 Output: [Fresh_Weight, Dry_Weight, Height, Canopy_Size_1, Canopy_Size_2]
 ```
 
-**Por que DINOv2?**
-- Self-supervised learning em 142M imagens
-- Excelente generalização para novos domínios
-- State-of-the-art em tarefas de visão computacional
-- Supera modelos supervisionados em domain shift
+**Why DINOv2?**
+- Self-supervised learning on 142M images
+- Excellent generalization to new domains
+- State-of-the-art in computer vision tasks
+- Outperforms supervised models under domain shift
 
 ### Domain Adaptation
 
@@ -187,27 +187,27 @@ Feature Extractor (DINOv2)
          ↑ [Gradient Reversal Layer]
 ```
 
-**Objetivo**: Aprender features invariantes ao domínio (localização)
+**Objective**: Learn domain-invariant features (location)
 
 ---
 
-## 🔬 Técnicas Avançadas Implementadas
+## 🔬 Advanced Techniques Implemented
 
 ### 1. Loss Functions
 
-- **Huber Loss**: Robusto a outliers (δ=1.0)
-- **Multi-Task Loss**: Uncertainty weighting para 5 targets
-- **MMD Loss**: Domain adaptation (kernel Gaussian)
+- **Huber Loss**: Robust to outliers (δ=1.0)
+- **Multi-Task Loss**: Uncertainty weighting for 5 targets
+- **MMD Loss**: Domain adaptation (Gaussian kernel)
 
 ### 2. Optimizers
 
-- **RAdam**: Rectified Adam com warm-up adaptativo
+- **RAdam**: Rectified Adam with adaptive warm-up
 - **Lookahead**: k=5 steps forward, 1 step back (α=0.5)
 
 ### 3. Validation Strategy
 
-- **GroupKFold**: 5 folds por `State` + `Sampling_Date`
-- **Objetivo**: Simular domain shift do test set
+- **GroupKFold**: 5 folds by `State` + `Sampling_Date`
+- **Objective**: Simulate the test set's domain shift
 
 ### 4. Data Augmentation
 
@@ -222,17 +222,17 @@ Feature Extractor (DINOv2)
 
 ### 6. Ensemble
 
-- **Simple Average**: Média de 5 folds
-- **Weighted Average**: Pesos otimizados por R²
+- **Simple Average**: Mean of 5 folds
+- **Weighted Average**: Weights optimized by R²
 - **Stacking**: CatBoost meta-learner
 
 ---
 
-## 📈 Resultados Esperados
+## 📈 Expected Results
 
 ### Baseline (EfficientNet-B3)
 - **CV R²**: 0.6836
-- **LB Score**: ~0.63 (estimado)
+- **LB Score**: ~0.63 (estimated)
 
 ### DINOv2-Base + Huber + RAdam
 - **CV R²**: 0.70-0.72
@@ -252,11 +252,11 @@ Feature Extractor (DINOv2)
 
 ---
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
 ### Hardware
-- **Google Colab Pro**: A100 40GB GPU (recomendado)
-- **Kaggle Notebooks**: P100 16GB GPU (mínimo)
+- **Google Colab Pro**: A100 40GB GPU (recommended)
+- **Kaggle Notebooks**: P100 16GB GPU (minimum)
 
 ### Software
 ```
@@ -269,85 +269,85 @@ pandas >= 2.0.0
 numpy >= 1.24.0
 Pillow >= 10.0.0
 tqdm >= 4.65.0
-catboost >= 1.2.0 (para stacking)
+catboost >= 1.2.0 (for stacking)
 ```
 
 ---
 
-## 📚 Documentação Adicional
+## 📚 Additional Documentation
 
-- **[SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**: Guia passo a passo de setup e execução
-- **[SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**: Setup, execução e validação operacional
+- **[SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**: Step-by-step setup and execution guide
+- **[SETUP_GUIDE.md](docs/SETUP_GUIDE.md)**: Setup, execution and operational validation
 
 ---
 
-## 🤝 Contribuições
+## 🤝 Contributions
 
-Este projeto é parte do repositório **AIForge** para competições Kaggle.
+This project is part of the **AIForge** repository for Kaggle competitions.
 
-**Autor**: Felipe Castro  
+**Author**: Felipe Castro  
 **GitHub**: [FELIPEACASTRO/AIForge](https://github.com/FELIPEACASTRO/AIForge)  
-**Competição**: [CSIRO Image2Biomass](https://www.kaggle.com/competitions/csiro-biomass)
+**Competition**: [CSIRO Image2Biomass](https://www.kaggle.com/competitions/csiro-biomass)
 
 ---
 
-## 📝 Licença
+## 📝 License
 
-MIT License - Veja [LICENSE](../../../LICENSE) para detalhes.
-
----
-
-## 🎯 Próximos Passos
-
-### Fase 1: Validação Correta (Semanas 1-2)
-- [x] Implementar GroupKFold por State + Sampling_Date
-- [x] Treinar DINOv2-Base com Huber Loss
-- [ ] Fazer primeira submissão no Kaggle
-- [ ] Verificar alinhamento CV-LB
-
-### Fase 2: Domain Adaptation (Semanas 3-4)
-- [x] Implementar MMD Loss
-- [x] Implementar Adversarial Training
-- [ ] Treinar com Domain Adaptation
-- [ ] Avaliar melhoria no LB
-
-### Fase 3: Ensemble (Semanas 5-6)
-- [ ] Treinar múltiplos modelos (DINOv2, AgriNet, ConvNeXt)
-- [ ] Implementar ensemble ponderado
-- [ ] Otimizar pesos do ensemble
-
-### Fase 4: Stacking (Semanas 7-8)
-- [x] Implementar CatBoost meta-learner
-- [ ] Gerar out-of-fold predictions
-- [ ] Treinar stacking ensemble
-
-### Fase 5: Fine-tuning (Semanas 9-12)
-- [ ] Hyperparameter tuning com Optuna
-- [ ] Testar diferentes augmentations
-- [ ] Otimizar TTA strategy
-- [ ] **Submissão Final → TOP 1** 🏆
+MIT License - See [LICENSE](../../../LICENSE) for details.
 
 ---
 
-## 💡 Dicas Importantes
+## 🎯 Next Steps
 
-1. **Sempre use GroupKFold** - Nunca use KFold simples!
-2. **Monitore CV-LB gap** - Deve ser < 0.05 com validação correta
-3. **Domain Adaptation é crucial** - Test set tem novas localizações
-4. **Ensemble é obrigatório** - Single model não alcança TOP 1
-5. **Paciência no treinamento** - 50+ epochs para convergência
+### Phase 1: Correct Validation (Weeks 1-2)
+- [x] Implement GroupKFold by State + Sampling_Date
+- [x] Train DINOv2-Base with Huber Loss
+- [ ] Make first submission on Kaggle
+- [ ] Verify CV-LB alignment
+
+### Phase 2: Domain Adaptation (Weeks 3-4)
+- [x] Implement MMD Loss
+- [x] Implement Adversarial Training
+- [ ] Train with Domain Adaptation
+- [ ] Evaluate improvement on the LB
+
+### Phase 3: Ensemble (Weeks 5-6)
+- [ ] Train multiple models (DINOv2, AgriNet, ConvNeXt)
+- [ ] Implement weighted ensemble
+- [ ] Optimize ensemble weights
+
+### Phase 4: Stacking (Weeks 7-8)
+- [x] Implement CatBoost meta-learner
+- [ ] Generate out-of-fold predictions
+- [ ] Train stacking ensemble
+
+### Phase 5: Fine-tuning (Weeks 9-12)
+- [ ] Hyperparameter tuning with Optuna
+- [ ] Test different augmentations
+- [ ] Optimize TTA strategy
+- [ ] **Final Submission → TOP 1** 🏆
 
 ---
 
-## 📞 Suporte
+## 💡 Important Tips
 
-Para dúvidas ou problemas:
-1. Abra uma [Issue no GitHub](https://github.com/FELIPEACASTRO/AIForge/issues)
-2. Consulte a [documentação](docs/)
-3. Revise os [exemplos de código](code_examples/)
+1. **Always use GroupKFold** - Never use simple KFold!
+2. **Monitor the CV-LB gap** - Should be < 0.05 with correct validation
+3. **Domain Adaptation is crucial** - Test set has new locations
+4. **Ensemble is mandatory** - A single model does not reach TOP 1
+5. **Be patient during training** - 50+ epochs for convergence
 
 ---
 
-**Boa sorte na competição! 🚀**
+## 📞 Support
+
+For questions or issues:
+1. Open an [Issue on GitHub](https://github.com/FELIPEACASTRO/AIForge/issues)
+2. Consult the [documentation](docs/)
+3. Review the [code examples](code_examples/)
+
+---
+
+**Good luck in the competition! 🚀**
 
 **Target: TOP 1 (Score 0.78+) | Prize: $50,000**
