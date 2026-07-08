@@ -1,25 +1,25 @@
-# ToT-Net, Abordagem Multimodal e Meta-Learning para Estrutura de Vegetação 3D, SWE-MAML, crop-maml
+# ToT-Net, Multimodal Approach and Meta-Learning for 3D Vegetation Structure, SWE-MAML, crop-maml
 
 ## Description
 
-Pesquisa abrangente sobre Meta-Learning para Tarefas Agrícolas, com foco em artigos e implementações de 2023 a 2025. Foram identificados e detalhados quatro recursos principais, incluindo modelos de detecção de doenças de culturas, estimativa de biomassa e um repositório de código para mapeamento de culturas.
+Comprehensive research on Meta-Learning for Agricultural Tasks, focusing on papers and implementations from 2023 to 2025. Four main resources were identified and detailed, including crop disease detection models, biomass estimation, and a code repository for crop mapping.
 
 ## Statistics
 
-Métricas de desempenho detalhadas para a abordagem de Estrutura de Vegetação 3D (R² de 0.82) e SWE-MAML (precisão de 75.71% em few-shot).
+Detailed performance metrics for the 3D Vegetation Structure approach (R² of 0.82) and SWE-MAML (75.71% accuracy in few-shot).
 
 ## Features
 
-Meta-aprendizado em nível de tarefa (ToT-Net); Meta-aprendizado para ensemble de modelos multimodais (Estrutura de Vegetação 3D); Meta-aprendizado agnóstico ao modelo (SWE-MAML, crop-maml); Aprendizado de poucas amostras (Few-Shot Learning).
+Task-level meta-learning (ToT-Net); Meta-learning for an ensemble of multimodal models (3D Vegetation Structure); Model-agnostic meta-learning (SWE-MAML, crop-maml); Few-Shot Learning.
 
 ## Use Cases
 
-Detecção de doenças de culturas em tempo real; Estimativa aprimorada da estrutura de vegetação 3D; Mapeamento de culturas com escassez de dados.
+Real-time crop disease detection; Improved 3D vegetation structure estimation; Crop mapping with data scarcity.
 
 ## Integration
 
-Exemplo de integração para o repositório crop-maml (MAML em PyTorch) incluído.
+Integration example for the crop-maml repository (MAML in PyTorch) included.
 
 ## URL
 
-Múltiplas URLs de artigos e repositórios GitHub incluídas.
+Multiple URLs of papers and GitHub repositories included.

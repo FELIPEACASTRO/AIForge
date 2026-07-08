@@ -1,19 +1,19 @@
 # COCO (Common Objects in Context)
 
 ## Description
-O COCO (Common Objects in Context) é um dos maiores e mais influentes datasets de visão computacional. Foi projetado para avançar a pesquisa em detecção de objetos, segmentação semântica e de instâncias, reconhecimento em contexto e legendagem de imagens. O dataset é conhecido por suas anotações detalhadas e complexas, incluindo segmentação precisa de instâncias (máscaras de pixel) para cada objeto, além de anotações de "stuff" (coisas sem forma definida, como grama ou céu) e keypoints para pessoas. A versão mais utilizada para competições é a COCO 2017.
+COCO (Common Objects in Context) is one of the largest and most influential computer vision datasets. It was designed to advance research in object detection, semantic and instance segmentation, recognition in context, and image captioning. The dataset is known for its detailed and complex annotations, including precise instance segmentation (pixel masks) for each object, as well as "stuff" annotations (formless things, such as grass or sky) and keypoints for people. The most widely used version for competitions is COCO 2017.
 
 ## Statistics
-**Imagens:** 330K no total (>200K rotuladas). **Instâncias de Objetos:** 1.5 milhão. **Categorias:** 80 categorias de objetos e 91 categorias de "stuff". **Anotações:** 5 legendas por imagem e 250.000 pessoas com keypoints. **Versão 2017 (mais usada):** Imagens de Treinamento (118K/18GB), Validação (5K/1GB), Teste (41K/6GB), Não Rotuladas (123K/19GB). Anotações de Treinamento/Validação (241MB).
+**Images:** 330K in total (>200K labeled). **Object Instances:** 1.5 million. **Categories:** 80 object categories and 91 "stuff" categories. **Annotations:** 5 captions per image and 250,000 people with keypoints. **2017 Version (most used):** Training Images (118K/18GB), Validation (5K/1GB), Test (41K/6GB), Unlabeled (123K/19GB). Training/Validation Annotations (241MB).
 
 ## Features
-Detecção de objetos em grande escala; Segmentação de instâncias (máscaras de pixel); Segmentação de "stuff" (panoptic); Reconhecimento em contexto; Detecção de keypoints para pessoas; Legendas de imagens (5 por imagem).
+Large-scale object detection; Instance segmentation (pixel masks); "Stuff" segmentation (panoptic); Recognition in context; Keypoint detection for people; Image captions (5 per image).
 
 ## Use Cases
-Treinamento e avaliação de modelos de detecção de objetos (por exemplo, YOLO, Faster R-CNN); Segmentação de imagens (semântica e de instâncias); Geração de legendas de imagens (Image Captioning); Detecção de pose humana (Keypoint Detection); Pesquisa em Visão Computacional e Inteligência Artificial.
+Training and evaluation of object detection models (for example, YOLO, Faster R-CNN); Image segmentation (semantic and instance); Image Captioning; Human Pose Detection (Keypoint Detection); Research in Computer Vision and Artificial Intelligence.
 
 ## Integration
-O dataset pode ser baixado diretamente através de links HTTP para os arquivos ZIP das imagens e anotações (versões 2014 e 2017). A forma mais recomendada para download eficiente e manipulação das anotações é através da **COCO API** (disponível no GitHub: https://github.com/cocodataset/cocoapi). A API fornece ferramentas para carregar, analisar e visualizar as anotações, além de facilitar a avaliação de modelos. É sugerido o uso de ferramentas como `gsutil` para evitar o download de grandes arquivos ZIP.
+The dataset can be downloaded directly through HTTP links to the ZIP files of the images and annotations (2014 and 2017 versions). The most recommended way for efficient download and manipulation of the annotations is through the **COCO API** (available on GitHub: https://github.com/cocodataset/cocoapi). The API provides tools to load, analyze, and visualize the annotations, as well as facilitating model evaluation. The use of tools such as `gsutil` is suggested to avoid downloading large ZIP files.
 
 ## URL
 [https://cocodataset.org/](https://cocodataset.org/)

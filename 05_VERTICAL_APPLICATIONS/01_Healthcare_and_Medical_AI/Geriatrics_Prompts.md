@@ -1,63 +1,63 @@
 # Geriatrics Prompts
 
 ## Description
-**Geriatrics Prompts** refere-se à aplicação especializada da Engenharia de Prompts (Prompt Engineering) no domínio da Geriatria e cuidados com a saúde do idoso. Não é uma técnica de prompt em si, mas uma **categoria de aplicação** que visa otimizar a interação com Grandes Modelos de Linguagem (LLMs) para abordar as complexidades únicas do envelhecimento. O foco é na criação de prompts que considerem fatores como polifarmácia, fragilidade, comorbidades múltiplas, declínio cognitivo e a necessidade de comunicação adaptada. A meta é utilizar a IA como uma ferramenta de suporte à decisão clínica, educação de profissionais e pacientes, e na personalização de planos de cuidado, como demonstrado pelo desenvolvimento de modelos específicos como o *Geriatric Care LLaMA*.
+**Geriatrics Prompts** refers to the specialized application of Prompt Engineering in the domain of Geriatrics and elderly healthcare. It is not a prompting technique in itself, but an **application category** aimed at optimizing interaction with Large Language Models (LLMs) to address the unique complexities of aging. The focus is on creating prompts that account for factors such as polypharmacy, frailty, multiple comorbidities, cognitive decline, and the need for adapted communication. The goal is to use AI as a tool for clinical decision support, education of professionals and patients, and the personalization of care plans, as demonstrated by the development of specific models such as the *Geriatric Care LLaMA*.
 
 ## Examples
 ```
-## 1. Suporte à Decisão Clínica (Polifarmácia)
+## 1. Clinical Decision Support (Polypharmacy)
 **Prompt:**
-"Você é um farmacêutico clínico especializado em geriatria. Analise a seguinte lista de medicamentos para um paciente de 82 anos com insuficiência cardíaca (IC) e doença de Parkinson: [Medicamento A, Dose], [Medicamento B, Dose], [Medicamento C, Dose], [Medicamento D, Dose]. Identifique potenciais interações medicamentosas perigosas, avalie se algum medicamento está na lista BEERS e sugira uma alternativa mais segura para o medicamento de maior risco, justificando a escolha com base em evidências."
+"You are a clinical pharmacist specializing in geriatrics. Analyze the following list of medications for an 82-year-old patient with heart failure (HF) and Parkinson's disease: [Medication A, Dose], [Medication B, Dose], [Medication C, Dose], [Medication D, Dose]. Identify potentially dangerous drug interactions, assess whether any medication is on the BEERS list, and suggest a safer alternative for the highest-risk medication, justifying the choice based on evidence."
 
-## 2. Educação e Treinamento (Simulação de Caso)
+## 2. Education and Training (Case Simulation)
 **Prompt:**
-"Crie um cenário de simulação de alta fidelidade para um residente de anestesiologia. O paciente é um homem de 78 anos, frágil (índice de fragilidade 5/9), submetido a uma cirurgia de fratura de fêmur. O cenário deve começar no intraoperatório, com uma queda súbita da pressão arterial (PA) e um quadro de delirium emergente. Inclua os sinais vitais iniciais, o histórico médico relevante (incluindo polifarmácia) e as três primeiras perguntas que o residente deve fazer para estabilizar o paciente e gerenciar o delirium."
+"Create a high-fidelity simulation scenario for an anesthesiology resident. The patient is a 78-year-old man, frail (frailty index 5/9), undergoing surgery for a femur fracture. The scenario should begin intraoperatively, with a sudden drop in blood pressure (BP) and an emerging picture of delirium. Include the initial vital signs, the relevant medical history (including polypharmacy), and the first three questions the resident should ask to stabilize the patient and manage the delirium."
 
-## 3. Comunicação Adaptada (Simplificação de Informação)
+## 3. Adapted Communication (Information Simplification)
 **Prompt:**
-"Simplifique o seguinte trecho de um relatório médico sobre 'Fibrilação Atrial' para um paciente de 90 anos com baixa alfabetização em saúde. O texto simplificado deve ter um tom tranquilizador, usar frases curtas, evitar jargões médicos e explicar o que é a condição e por que o medicamento [Nome do Anticoagulante] é importante. O nível de leitura deve ser equivalente ao da 4ª série."
+"Simplify the following excerpt from a medical report on 'Atrial Fibrillation' for a 90-year-old patient with low health literacy. The simplified text should have a reassuring tone, use short sentences, avoid medical jargon, and explain what the condition is and why the medication [Anticoagulant Name] is important. The reading level should be equivalent to the 4th grade."
 
-## 4. Pesquisa e Desenvolvimento (Inferência Causal)
+## 4. Research and Development (Causal Inference)
 **Prompt:**
-"Com base no seu conhecimento sobre o modelo Geriatric Care LLaMA, formule um prompt causal para investigar a relação entre 'uso de benzodiazepínicos' e 'risco de quedas' em pacientes geriátricos com demência leve. O prompt deve solicitar a identificação de variáveis de confusão (ex: comorbidades, dose, tempo de uso) e sugerir um protocolo de intervenção para mitigar o risco, estruturado em etapas."
+"Based on your knowledge of the Geriatric Care LLaMA model, formulate a causal prompt to investigate the relationship between 'benzodiazepine use' and 'fall risk' in geriatric patients with mild dementia. The prompt should request the identification of confounding variables (e.g., comorbidities, dose, duration of use) and suggest an intervention protocol to mitigate the risk, structured in steps."
 
-## 5. Plano de Cuidados Personalizado
+## 5. Personalized Care Plan
 **Prompt:**
-"Elabore um plano de cuidados domiciliares de 7 dias para uma paciente de 88 anos que recebeu alta após um episódio de pneumonia. O plano deve focar em: 1) Prevenção de quedas (com 3 ações concretas), 2) Nutrição (com 2 sugestões de refeições ricas em proteínas) e 3) Gerenciamento da medicação (com um cronograma simplificado). O tom deve ser encorajador e dirigido ao cuidador principal."
+"Draft a 7-day home care plan for an 88-year-old patient who was discharged after an episode of pneumonia. The plan should focus on: 1) Fall prevention (with 3 concrete actions), 2) Nutrition (with 2 protein-rich meal suggestions), and 3) Medication management (with a simplified schedule). The tone should be encouraging and directed at the primary caregiver."
 
-## 6. Geração de Conteúdo Educacional para Cuidadores
+## 6. Educational Content Generation for Caregivers
 **Prompt:**
-"Crie um guia rápido (máximo 500 palavras) para cuidadores sobre como identificar os sinais precoces de desidratação em idosos. O guia deve incluir uma lista de verificação de 5 sinais de alerta e 3 dicas práticas para incentivar a ingestão de líquidos, formatado para ser impresso em uma fonte grande e legível."
+"Create a quick guide (maximum 500 words) for caregivers on how to identify the early signs of dehydration in the elderly. The guide should include a checklist of 5 warning signs and 3 practical tips to encourage fluid intake, formatted to be printed in a large, legible font."
 
-## 7. Assistência Administrativa (Nota de Progresso)
+## 7. Administrative Assistance (Progress Note)
 **Prompt:**
-"Gere uma nota de progresso SOAP (Subjetivo, Objetivo, Avaliação, Plano) para um paciente de 95 anos em uma casa de repouso.
-- **Subjetivo:** Queixa de dor 4/10 na perna esquerda, relata 'sono ruim' na noite passada.
-- **Objetivo:** Sinais vitais estáveis. Edema 1+/4+ na perna esquerda. Deambulando com auxílio de andador, mas com marcha instável.
-- **Avaliação:** Piora da dor crônica na perna esquerda, risco de queda elevado.
-- **Plano:** Solicite a nota de progresso completa, focando na necessidade de reavaliação da medicação para dor e fisioterapia imediata para estabilização da marcha."
+"Generate a SOAP progress note (Subjective, Objective, Assessment, Plan) for a 95-year-old patient in a nursing home.
+- **Subjective:** Complaint of 4/10 pain in the left leg, reports 'poor sleep' last night.
+- **Objective:** Stable vital signs. 1+/4+ edema in the left leg. Ambulating with the aid of a walker, but with an unstable gait.
+- **Assessment:** Worsening of chronic pain in the left leg, elevated fall risk.
+- **Plan:** Request the complete progress note, focusing on the need to reassess pain medication and immediate physical therapy for gait stabilization."
 ```
 
 ## Best Practices
-1. **Especificidade Geriátrica:** Incluir explicitamente no prompt as condições específicas do paciente idoso (ex: "Paciente com 85 anos, frágil, com histórico de IC e polifarmácia").
-2. **Foco no Suporte, Não na Substituição:** Estruturar prompts para que a IA atue como um "assistente" que gera rascunhos, análises ou sugestões, mantendo a supervisão e o julgamento clínico humano como etapa final.
-3. **Ênfase na Usabilidade:** Ao gerar conteúdo para idosos, instruir a IA a usar linguagem simples, frases curtas e formatação clara (ex: "Use uma linguagem de nível de leitura da 4ª série e evite jargões médicos").
-4. **Consideração Ética e de Privacidade:** Incluir instruções de segurança e privacidade no prompt, lembrando a IA sobre a confidencialidade dos dados do paciente (embora a entrada de dados reais deva ser evitada).
-5. **Validação de Fontes:** Sempre que possível, pedir à IA para citar as diretrizes clínicas ou fontes de evidência que embasam suas recomendações, especialmente em contextos de tratamento.
+1. **Geriatric Specificity:** Explicitly include the elderly patient's specific conditions in the prompt (e.g., "85-year-old patient, frail, with a history of HF and polypharmacy").
+2. **Focus on Support, Not Replacement:** Structure prompts so that the AI acts as an "assistant" that generates drafts, analyses, or suggestions, keeping human clinical oversight and judgment as the final step.
+3. **Emphasis on Usability:** When generating content for the elderly, instruct the AI to use simple language, short sentences, and clear formatting (e.g., "Use a 4th-grade reading-level language and avoid medical jargon").
+4. **Ethical and Privacy Considerations:** Include safety and privacy instructions in the prompt, reminding the AI about the confidentiality of patient data (although entering real data should be avoided).
+5. **Source Validation:** Whenever possible, ask the AI to cite the clinical guidelines or evidence sources that support its recommendations, especially in treatment contexts.
 
 ## Use Cases
-1. **Suporte à Decisão Clínica:** Geração de diagnósticos diferenciais, planos de cuidado personalizados e recomendações de tratamento que considerem a polifarmácia e as interações medicamentosas em pacientes idosos.
-2. **Educação e Treinamento:** Criação de cenários de simulação de alta fidelidade (ex: anestesia geriátrica) e módulos de aprendizado adaptativo para profissionais de saúde, focados em síndromes geriátricas (delirium, quedas, fragilidade).
-3. **Comunicação Adaptada:** Simplificação de informações médicas complexas em linguagem acessível para pacientes idosos e seus cuidadores, incluindo a geração de materiais educativos e lembretes de saúde.
-4. **Pesquisa e Desenvolvimento:** Utilização de prompts causais para explorar relações de causa e efeito em grandes conjuntos de dados clínicos, identificando fatores de risco e otimizando a gestão de doenças crônicas.
-5. **Assistência Administrativa:** Geração de relatórios de alta, notas de progresso e documentação clínica que atendam aos requisitos regulatórios, liberando tempo dos profissionais para o cuidado direto.
+1. **Clinical Decision Support:** Generation of differential diagnoses, personalized care plans, and treatment recommendations that account for polypharmacy and drug interactions in elderly patients.
+2. **Education and Training:** Creation of high-fidelity simulation scenarios (e.g., geriatric anesthesia) and adaptive learning modules for healthcare professionals, focused on geriatric syndromes (delirium, falls, frailty).
+3. **Adapted Communication:** Simplification of complex medical information into accessible language for elderly patients and their caregivers, including the generation of educational materials and health reminders.
+4. **Research and Development:** Use of causal prompts to explore cause-and-effect relationships in large clinical datasets, identifying risk factors and optimizing chronic disease management.
+5. **Administrative Assistance:** Generation of discharge reports, progress notes, and clinical documentation that meet regulatory requirements, freeing up professionals' time for direct care.
 
 ## Pitfalls
-1. **Substituição do Julgamento Clínico:** Confiar cegamente nas saídas da IA sem a devida validação por um profissional de saúde, ignorando nuances clínicas e a complexidade do paciente idoso.
-2. **Ignorar a Usabilidade:** Gerar conteúdo para idosos que é muito complexo, técnico ou mal formatado, levando à baixa aceitação e confusão.
-3. **Violação de Privacidade:** Inserir informações de saúde protegidas (PHI) em LLMs públicos ou não seguros.
-4. **Generalização Excessiva:** Usar prompts genéricos que não consideram a fragilidade, as comorbidades e a heterogeneidade da população idosa, resultando em recomendações inadequadas.
-5. **"Alucinações" Clínicas:** A IA gerar informações médicas falsas ou desatualizadas, o que é particularmente perigoso em um campo sensível como a geriatria.
+1. **Replacement of Clinical Judgment:** Blindly trusting AI outputs without proper validation by a healthcare professional, ignoring clinical nuances and the complexity of the elderly patient.
+2. **Ignoring Usability:** Generating content for the elderly that is too complex, technical, or poorly formatted, leading to low acceptance and confusion.
+3. **Privacy Violation:** Entering protected health information (PHI) into public or non-secure LLMs.
+4. **Over-Generalization:** Using generic prompts that do not account for the frailty, comorbidities, and heterogeneity of the elderly population, resulting in inappropriate recommendations.
+5. **Clinical "Hallucinations":** The AI generating false or outdated medical information, which is particularly dangerous in a sensitive field such as geriatrics.
 
 ## URL
 [https://www.mdpi.com/2227-7390/13/15/2460](https://www.mdpi.com/2227-7390/13/15/2460)

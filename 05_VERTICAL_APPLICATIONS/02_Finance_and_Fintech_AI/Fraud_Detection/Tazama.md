@@ -2,59 +2,59 @@
 
 ## Description
 
-**Tazama** é a primeira plataforma de software de código aberto para monitoramento financeiro e detecção de fraudes em tempo real, gerenciada pela Linux Foundation Charities e financiada pela Fundação Gates. Sua proposta de valor única reside em oferecer uma solução **global, escalável e econômica** para o monitoramento de transações em tempo real, focando especialmente em **mercados emergentes** onde a fraude é prevalente devido à falta de ferramentas digitais seguras. O projeto visa promover a inclusão financeira, garantindo que os Provedores de Serviços Financeiros (FSPs) possam executar transações com segurança e rapidez, reduzindo o risco de fraudes e golpes. O nome "Tazama" vem do Swahili e significa "dar uma olhada", refletindo sua função de monitorar eventos em tempo real [1] [2]. O projeto foi lançado em fevereiro de 2024, com a versão 2.0 sendo a mais recente [3].
+**Tazama** is the first open-source software platform for real-time financial monitoring and fraud detection, managed by Linux Foundation Charities and funded by the Gates Foundation. Its unique value proposition lies in offering a **global, scalable, and cost-effective** solution for real-time transaction monitoring, focusing especially on **emerging markets** where fraud is prevalent due to the lack of secure digital tools. The project aims to promote financial inclusion, ensuring that Financial Service Providers (FSPs) can execute transactions securely and quickly, reducing the risk of fraud and scams. The name "Tazama" comes from Swahili and means "to take a look", reflecting its function of monitoring events in real time [1] [2]. The project launched in February 2024, with version 2.0 being the most recent [3].
 
 ## Statistics
 
-*   **Lançamento:** Fevereiro de 2024 (Versão 2.0) [3].
-*   **Gerenciamento:** Linux Foundation Charities [1].
-*   **Financiamento:** Fundação Gates [1].
-*   **Foco:** Mercados emergentes, promovendo a inclusão financeira [2].
-*   **Tecnologias Chave:** Docker, NATS, ArangoDB [6].
-*   **Status do Repositório (GitHub - Full-Stack-Docker-Tazama):** 11 estrelas, 8 forks (em 08/11/2025) [6].
-*   **Último Lançamento:** v2.2.0 (14 de agosto de 2025) [6].
+*   **Launch:** February 2024 (Version 2.0) [3].
+*   **Management:** Linux Foundation Charities [1].
+*   **Funding:** Gates Foundation [1].
+*   **Focus:** Emerging markets, promoting financial inclusion [2].
+*   **Key Technologies:** Docker, NATS, ArangoDB [6].
+*   **Repository Status (GitHub - Full-Stack-Docker-Tazama):** 11 stars, 8 forks (as of 08/11/2025) [6].
+*   **Latest Release:** v2.2.0 (August 14, 2025) [6].
 
 ## Features
 
-*   **Monitoramento de Transações em Tempo Real:** Capacidade de monitorar cada transação à medida que ocorre, permitindo a detecção e prevenção imediata de fraudes.
-*   **Prevenção de Fraudes e Golpes:** Software de última geração projetado para prevenir a "infecção" por fraudes e golpes, especialmente em sistemas de pagamento digital.
-*   **Conformidade e AML:** Ajuda a aprimorar a conformidade regulatória e oferece recursos para detecção de lavagem de dinheiro (AML), conforme demonstrado em implementações bem-sucedidas [4].
-*   **Arquitetura Baseada em Microsserviços:** Utiliza uma arquitetura desacoplada e baseada em microsserviços, o que a torna altamente escalável e adaptável a diferentes ambientes.
-*   **Regras de Detecção Configuráveis:** Embora o código-fonte seja aberto, os "processadores de regras" privados (que contêm a lógica de detecção para evitar engenharia reversa por fraudadores) são implantados a partir do DockerHub com uma configuração genérica para acesso público, ou com acesso restrito para membros para uma configuração multi-tipologia completa [5].
-*   **Tecnologias Modernas:** Construído com tecnologias como Docker, NATS (para mensagens em tempo real) e ArangoDB (para banco de dados) [6].
+*   **Real-Time Transaction Monitoring:** Ability to monitor each transaction as it occurs, enabling immediate fraud detection and prevention.
+*   **Fraud and Scam Prevention:** State-of-the-art software designed to prevent "infection" by fraud and scams, especially in digital payment systems.
+*   **Compliance and AML:** Helps improve regulatory compliance and provides features for anti-money laundering (AML) detection, as demonstrated in successful implementations [4].
+*   **Microservices-Based Architecture:** Uses a decoupled, microservices-based architecture, which makes it highly scalable and adaptable to different environments.
+*   **Configurable Detection Rules:** Although the source code is open, the private "rule processors" (which contain the detection logic to prevent reverse engineering by fraudsters) are deployed from DockerHub with a generic configuration for public access, or with restricted member access for a full multi-typology configuration [5].
+*   **Modern Technologies:** Built with technologies such as Docker, NATS (for real-time messaging) and ArangoDB (for the database) [6].
 
 ## Use Cases
 
-*   **Monitoramento de Transações Financeiras Digitais:** O principal caso de uso é o monitoramento em tempo real de transações em sistemas de pagamento digital, como transferências e pagamentos móveis, para identificar e bloquear atividades fraudulentas antes que sejam concluídas [2].
-*   **Prevenção de Lavagem de Dinheiro (AML):** O sistema é projetado para ajudar os Provedores de Serviços Financeiros (FSPs) a cumprir os requisitos de AML, detectando padrões de transação suspeitos que possam indicar lavagem de dinheiro [4].
-*   **Apoio à Inclusão Financeira:** Ao fornecer uma solução de detecção de fraude de baixo custo e código aberto, o Tazama permite que FSPs em mercados emergentes ofereçam serviços financeiros digitais mais seguros, incentivando a adoção e a inclusão de populações não bancarizadas [2].
-*   **Detecção de Fraudes Específicas:** O sistema é capaz de monitorar e reagir a vários tipos de fraudes e golpes, com a lógica de detecção contida em seus processadores de regras [5].
+*   **Monitoring Digital Financial Transactions:** The main use case is real-time monitoring of transactions in digital payment systems, such as transfers and mobile payments, to identify and block fraudulent activity before it is completed [2].
+*   **Anti-Money Laundering (AML) Prevention:** The system is designed to help Financial Service Providers (FSPs) meet AML requirements by detecting suspicious transaction patterns that may indicate money laundering [4].
+*   **Support for Financial Inclusion:** By providing a low-cost, open-source fraud-detection solution, Tazama enables FSPs in emerging markets to offer safer digital financial services, encouraging the adoption and inclusion of unbanked populations [2].
+*   **Detection of Specific Frauds:** The system can monitor and react to various types of fraud and scams, with the detection logic contained in its rule processors [5].
 
 ## Integration
 
-A integração do Tazama é facilitada por sua arquitetura baseada em Docker e na comunicação via NATS (serviço de mensagens em tempo real). A implantação de pilha completa para demonstração e teste é feita usando `docker-compose`.
+Tazama's integration is facilitated by its Docker-based architecture and communication via NATS (a real-time messaging service). Full-stack deployment for demonstration and testing is done using `docker-compose`.
 
-**Método de Integração (Exemplo de Configuração de Variáveis de Ambiente):**
+**Integration Method (Example of Environment Variable Configuration):**
 
-A integração com o Serviço de Monitoramento de Transações (TMS) e outros componentes é configurada por meio de variáveis de ambiente, como visto no arquivo `ui.env` do repositório de demonstração [6]:
+Integration with the Transaction Monitoring Service (TMS) and other components is configured through environment variables, as seen in the `ui.env` file of the demo repository [6]:
 
 ```javascript
-// Exemplo de variáveis de ambiente para a interface de usuário (UI) de demonstração
+// Example environment variables for the demo user interface (UI)
 NEXT_PUBLIC_URL="http://localhost:3001"
-NEXT_PUBLIC_TMS_SERVER_URL="http://localhost:5000" // URL do serviço TMS
-NEXT_PUBLIC_CMS_NATS_HOSTING="nats://nats:4222" // Conexão com o servidor NATS
-NEXT_PUBLIC_ADMIN_SERVICE_HOSTING="http://localhost:5100" // URL do serviço Admin
-NEXT_PUBLIC_ARANGO_DB_HOSTING="http://localhost:18529" // URL do banco de dados ArangoDB
-NEXT_PUBLIC_EVENT_TYPES="['pacs.008.001.10', 'pacs.002.001.12', 'pain.001.001.11', 'pain.013.001.09']" // Tipos de eventos/transações monitorados
+NEXT_PUBLIC_TMS_SERVER_URL="http://localhost:5000" // TMS service URL
+NEXT_PUBLIC_CMS_NATS_HOSTING="nats://nats:4222" // Connection to the NATS server
+NEXT_PUBLIC_ADMIN_SERVICE_HOSTING="http://localhost:5100" // Admin service URL
+NEXT_PUBLIC_ARANGO_DB_HOSTING="http://localhost:18529" // ArangoDB database URL
+NEXT_PUBLIC_EVENT_TYPES="['pacs.008.001.10', 'pacs.002.001.12', 'pain.001.001.11', 'pain.013.001.09']" // Monitored event/transaction types
 ```
 
-**Implantação com Docker Compose:**
+**Deployment with Docker Compose:**
 
-Para iniciar uma instância de demonstração, o repositório `Full-Stack-Docker-Tazama` fornece scripts (`start.sh` para Unix ou `start.bat` para Windows) que utilizam arquivos `docker-compose` para orquestrar os microsserviços (TMS, Admin, NATS, ArangoDB, etc.) [6].
+To start a demo instance, the `Full-Stack-Docker-Tazama` repository provides scripts (`start.sh` for Unix or `start.bat` for Windows) that use `docker-compose` files to orchestrate the microservices (TMS, Admin, NATS, ArangoDB, etc.) [6].
 
-**Integração de Eventos:**
+**Event Integration:**
 
-Os eventos de transação são enviados para o sistema Tazama, que os processa em tempo real usando o NATS para comunicação entre os microsserviços. Os tipos de eventos monitorados incluem padrões de mensagens financeiras como `pacs.008.001.10` e `pain.001.001.11` [6].
+Transaction events are sent to the Tazama system, which processes them in real time using NATS for communication between the microservices. The monitored event types include financial message standards such as `pacs.008.001.10` and `pain.001.001.11` [6].
 
 ## URL
 

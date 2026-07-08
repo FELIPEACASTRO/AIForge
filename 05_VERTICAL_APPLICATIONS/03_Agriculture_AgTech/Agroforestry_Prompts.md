@@ -1,39 +1,39 @@
 # Agroforestry Prompts
 
 ## Description
-"Agroforestry Prompts" são instruções de engenharia de prompt (prompt engineering) especificamente formuladas para interagir com Modelos de Linguagem Grande (LLMs) e sistemas de Inteligência Artificial (IA) com o objetivo de obter informações, análises, recomendações e planos de ação relacionados a Sistemas Agroflorestais (SAFs). Os SAFs são sistemas de uso da terra que integram árvores com culturas agrícolas e/ou pecuária de forma espacial e temporal, buscando benefícios ecológicos e econômicos. Os prompts são projetados para lidar com a complexidade estrutural e a diversidade de espécies inerentes aos SAFs, solicitando análises de dados multimodais (sensoriamento remoto, dados de solo, clima) e a geração de conhecimento prático.
+"Agroforestry Prompts" are prompt engineering instructions specifically formulated to interact with Large Language Models (LLMs) and Artificial Intelligence (AI) systems with the goal of obtaining information, analyses, recommendations, and action plans related to Agroforestry Systems (AFS). AFS are land-use systems that integrate trees with agricultural crops and/or livestock in a spatial and temporal manner, seeking ecological and economic benefits. The prompts are designed to handle the structural complexity and species diversity inherent to AFS, requesting multimodal data analysis (remote sensing, soil data, climate) and the generation of practical knowledge.
 
 ## Examples
 ```
-1. **Planejamento de SAF:** "Desenvolva um plano de implementação de um Sistema Agroflorestal sucessional para uma área de 5 hectares no bioma [Nome do Bioma, ex: Mata Atlântica]. O foco principal é a produção de [Cultura Principal, ex: cacau] e [Espécie de Árvore, ex: ingá]. Inclua a lista de espécies pioneiras, secundárias e clímax, o espaçamento recomendado e um cronograma de manejo para os primeiros 5 anos."
-2. **Análise de Dados:** "Analise os seguintes dados de sensoriamento remoto (NDVI e temperatura de superfície) da minha área agroflorestal (anexar dados ou descrever o período) e identifique áreas com estresse hídrico ou nutricional. Sugira intervenções de manejo específicas para as coordenadas [X, Y]."
-3. **Otimização de Espécies:** "Para um SAF com culturas de [Culturas, ex: café e banana] e árvores de sombra de [Espécies de Sombra, ex: eritrina], qual é o arranjo espacial ideal para maximizar a interceptação de luz pela cultura principal sem comprometer o crescimento das árvores? Apresente a resposta em um formato de tabela comparativa."
-4. **Manejo de Pragas e Doenças:** "Com base nos sintomas de [Sintoma, ex: amarelecimento das folhas e presença de cochonilhas] na cultura de [Cultura, ex: mandioca] dentro do meu SAF, forneça um protocolo de Manejo Integrado de Pragas (MIP) que utilize apenas métodos biológicos e naturais, sem o uso de agroquímicos."
-5. **Recomendação de Colheita:** "Considerando a previsão climática para os próximos 30 dias na região de [Nome da Região] e o estágio de maturação da cultura de [Cultura, ex: açaí], qual é a janela de colheita ideal para maximizar o rendimento e a qualidade do produto? Justifique a resposta com base em dados de umidade e temperatura."
-6. **Cálculo de Sequestro de Carbono:** "Calcule o potencial de sequestro de carbono acima do solo (em toneladas de CO2 equivalente por hectare/ano) para um SAF maduro com densidade de [Número] árvores/hectare, composto pelas espécies [Espécies, ex: mogno, ipê e seringueira]. Cite a metodologia de cálculo utilizada."
-7. **Integração com Pecuária (Silvipastoril):** "Desenhe um sistema silvipastoril para uma fazenda de gado de corte em [Região]. Recomende espécies forrageiras e arbóreas que ofereçam sombra e forragem suplementar, e detalhe a taxa de lotação animal sustentável para o sistema."
+1. **AFS Planning:** "Develop an implementation plan for a successional Agroforestry System for a 5-hectare area in the [Biome Name, e.g., Atlantic Forest] biome. The main focus is the production of [Main Crop, e.g., cacao] and [Tree Species, e.g., inga]. Include the list of pioneer, secondary, and climax species, the recommended spacing, and a management schedule for the first 5 years."
+2. **Data Analysis:** "Analyze the following remote sensing data (NDVI and surface temperature) from my agroforestry area (attach data or describe the period) and identify areas with water or nutritional stress. Suggest specific management interventions for coordinates [X, Y]."
+3. **Species Optimization:** "For an AFS with crops of [Crops, e.g., coffee and banana] and shade trees of [Shade Species, e.g., erythrina], what is the ideal spatial arrangement to maximize light interception by the main crop without compromising tree growth? Present the answer in a comparative table format."
+4. **Pest and Disease Management:** "Based on the symptoms of [Symptom, e.g., yellowing leaves and presence of mealybugs] in the [Crop, e.g., cassava] crop within my AFS, provide an Integrated Pest Management (IPM) protocol that uses only biological and natural methods, without the use of agrochemicals."
+5. **Harvest Recommendation:** "Considering the climate forecast for the next 30 days in the [Region Name] region and the maturation stage of the [Crop, e.g., açaí] crop, what is the ideal harvest window to maximize product yield and quality? Justify the answer based on humidity and temperature data."
+6. **Carbon Sequestration Calculation:** "Calculate the above-ground carbon sequestration potential (in tonnes of CO2 equivalent per hectare/year) for a mature AFS with a density of [Number] trees/hectare, composed of the species [Species, e.g., mahogany, ipe, and rubber tree]. Cite the calculation methodology used."
+7. **Integration with Livestock (Silvopastoral):** "Design a silvopastoral system for a beef cattle farm in [Region]. Recommend forage and tree species that provide shade and supplementary forage, and detail the sustainable animal stocking rate for the system."
 ```
 
 ## Best Practices
-* **Especificidade Contextual:** Incluir o máximo de detalhes sobre o contexto (bioma, tipo de solo, clima, culturas e espécies arbóreas existentes, objetivos do agricultor) para que o LLM possa fornecer recomendações hiper-localizadas e relevantes.
-* **Solicitação de Dados Estruturados:** Pedir a saída em formatos estruturados (tabelas, listas, JSON) para facilitar a análise e a integração com outras ferramentas de gestão agrícola.
-* **Foco Multimodal:** Em prompts avançados, referenciar a necessidade de análise de dados multimodais (imagens de satélite, dados de sensores de solo, modelos climáticos) para simular a capacidade de sistemas de IA mais complexos.
-* **Ênfase em Sustentabilidade:** Direcionar o LLM para soluções que priorizem princípios agroecológicos, como biodiversidade, ciclagem de nutrientes e controle biológico de pragas.
-* **Validação e Iteração:** Tratar a saída do LLM como uma recomendação inicial e usar prompts de acompanhamento para refinar a análise, questionar suposições e validar a viabilidade das sugestões.
+* **Contextual Specificity:** Include as much detail as possible about the context (biome, soil type, climate, existing crops and tree species, farmer's objectives) so that the LLM can provide hyper-localized and relevant recommendations.
+* **Requesting Structured Data:** Request output in structured formats (tables, lists, JSON) to facilitate analysis and integration with other agricultural management tools.
+* **Multimodal Focus:** In advanced prompts, reference the need for multimodal data analysis (satellite images, soil sensor data, climate models) to simulate the capability of more complex AI systems.
+* **Emphasis on Sustainability:** Direct the LLM toward solutions that prioritize agroecological principles, such as biodiversity, nutrient cycling, and biological pest control.
+* **Validation and Iteration:** Treat the LLM's output as an initial recommendation and use follow-up prompts to refine the analysis, question assumptions, and validate the feasibility of the suggestions.
 
 ## Use Cases
-* **Planejamento e Design de SAFs:** Geração de layouts, seleção de espécies e cronogramas de plantio otimizados para diferentes condições edafoclimáticas e objetivos de produção.
-* **Diagnóstico e Monitoramento:** Identificação precoce de estresse em plantas, doenças ou deficiências nutricionais através da análise de dados de sensoriamento remoto e sensores de campo.
-* **Tomada de Decisão de Manejo:** Obtenção de recomendações sobre poda, irrigação, adubação e controle de pragas em tempo real.
-* **Educação e Extensão Rural:** Criação de materiais didáticos, guias de melhores práticas e respostas a perguntas frequentes para agricultores e técnicos.
-* **Pesquisa e Modelagem:** Geração de hipóteses, simulação de cenários de mudança climática e cálculo de serviços ecossistêmicos (ex: sequestro de carbono).
+* **AFS Planning and Design:** Generation of layouts, species selection, and optimized planting schedules for different soil-climate conditions and production objectives.
+* **Diagnosis and Monitoring:** Early identification of plant stress, diseases, or nutritional deficiencies through the analysis of remote sensing and field sensor data.
+* **Management Decision-Making:** Obtaining recommendations on pruning, irrigation, fertilization, and pest control in real time.
+* **Education and Rural Extension:** Creation of educational materials, best-practice guides, and answers to frequently asked questions for farmers and technicians.
+* **Research and Modeling:** Generation of hypotheses, simulation of climate change scenarios, and calculation of ecosystem services (e.g., carbon sequestration).
 
 ## Pitfalls
-* **Simplificação Excessiva:** O LLM pode simplificar a complexidade inerente aos SAFs (interações entre espécies, microclimas), levando a recomendações genéricas ou inadequadas.
-* **Viés de Dados:** A qualidade e o viés dos dados de treinamento do LLM podem resultar em recomendações que favorecem práticas de agricultura convencional em detrimento de abordagens agroecológicas.
-* **Falta de Contexto Local:** Sem dados de entrada precisos sobre o local (solo, microclima), as sugestões podem ser impraticáveis ou ineficazes.
-* **Alucinações Técnicas:** O LLM pode gerar nomes de espécies, métodos de manejo ou dados científicos que parecem plausíveis, mas são factualmente incorretos ou inexistentes.
-* **Dependência de Dados Multimodais:** A eficácia dos prompts mais avançados depende da capacidade do LLM de processar e interpretar dados não textuais (imagens, mapas), o que nem sempre é garantido em modelos de acesso público.
+* **Oversimplification:** The LLM may simplify the complexity inherent to AFS (interactions between species, microclimates), leading to generic or inadequate recommendations.
+* **Data Bias:** The quality and bias of the LLM's training data may result in recommendations that favor conventional agriculture practices over agroecological approaches.
+* **Lack of Local Context:** Without accurate input data about the site (soil, microclimate), the suggestions may be impractical or ineffective.
+* **Technical Hallucinations:** The LLM may generate species names, management methods, or scientific data that seem plausible but are factually incorrect or nonexistent.
+* **Dependence on Multimodal Data:** The effectiveness of more advanced prompts depends on the LLM's ability to process and interpret non-textual data (images, maps), which is not always guaranteed in publicly accessible models.
 
 ## URL
 [https://www.researchgate.net/publication/393576880_Artificial_Intelligence_for_Agroforestry_A_Review](https://www.researchgate.net/publication/393576880_Artificial_Intelligence_for_Agroforestry_A_Review)

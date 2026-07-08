@@ -1,41 +1,41 @@
 # Time Series Forecasting Prompts
 
 ## Description
-A técnica de *Time Series Forecasting Prompts* refere-se à engenharia de instruções estruturadas para Large Language Models (LLMs) com o objetivo de realizar tarefas complexas de análise e previsão de séries temporais. Ao invés de depender exclusivamente de modelos estatísticos ou de aprendizado de máquina tradicionais (como ARIMA, Prophet ou redes neurais especializadas), esta abordagem utiliza a capacidade de raciocínio e compreensão de contexto dos LLMs para identificar padrões, tendências, sazonalidade e anomalias nos dados de séries temporais. O sucesso reside na formatação cuidadosa dos dados de entrada (muitas vezes como sequências de texto ou "patches") e na definição clara da tarefa, das restrições e do formato de saída desejado.
+The *Time Series Forecasting Prompts* technique refers to the engineering of structured instructions for Large Language Models (LLMs) with the goal of performing complex time series analysis and forecasting tasks. Instead of relying exclusively on traditional statistical or machine learning models (such as ARIMA, Prophet, or specialized neural networks), this approach leverages the reasoning and context-comprehension capabilities of LLMs to identify patterns, trends, seasonality, and anomalies in time series data. Success lies in careful formatting of the input data (often as text sequences or "patches") and in a clear definition of the task, the constraints, and the desired output format.
 
 ## Examples
 ```
-### 1. Previsão Zero-Shot com Contexto
+### 1. Zero-Shot Forecasting with Context
 
-**Objetivo:** Obter uma previsão de linha de base rápida para vendas trimestrais.
+**Objective:** Obtain a quick baseline forecast for quarterly sales.
 
 ```
 ## System
-Você é um especialista em análise de séries temporais focado no setor de varejo.
-Sua tarefa é identificar padrões, tendências e sazonalidade para prever com precisão.
+You are an expert in time series analysis focused on the retail sector.
+Your task is to identify patterns, trends, and seasonality to forecast accurately.
 
 ## User
-Analise esta série temporal de vendas trimestrais: [120, 150, 130, 180, 140, 170, 150, 200, 160, 190, 170, 220]
-- **Conjunto de dados:** Vendas trimestrais de uma loja de eletrônicos.
-- **Frequência:** Trimestral
-- **Features:** Apenas o valor das vendas.
-- **Horizonte:** 4 trimestres à frente.
+Analyze this quarterly sales time series: [120, 150, 130, 180, 140, 170, 150, 200, 160, 190, 170, 220]
+- **Dataset:** Quarterly sales of an electronics store.
+- **Frequency:** Quarterly
+- **Features:** Sales value only.
+- **Horizon:** 4 quarters ahead.
 
 ## Task
-1. Preveja os próximos 4 trimestres.
-2. Aponte os principais padrões sazonais ou de tendência observados.
+1. Forecast the next 4 quarters.
+2. Point out the main seasonal or trend patterns observed.
 
 ## Constraints
-- **Saída:** Lista em Markdown com as previsões (0 casas decimais).
-- Adicione uma explicação de até 40 palavras sobre os fatores direcionadores.
+- **Output:** Markdown list with the forecasts (0 decimal places).
+- Add an explanation of up to 40 words about the driving factors.
 
 ## Evaluation Hook
-Termine com: "Confiança: X/10. Premissas: [...]".
+End with: "Confidence: X/10. Assumptions: [...]".
 ```
 
 ### 2. Patch-Based Prompting (PatchInstruct)
 
-**Objetivo:** Prever a temperatura horária usando segmentos de dados recentes.
+**Objective:** Forecast the hourly temperature using recent data segments.
 
 ```
 ## System
@@ -65,116 +65,116 @@ Patches:
 Add: "Confidence: X/10. Assumptions: [...]".
 ```
 
-### 3. Teste de Estacionariedade e Transformação
+### 3. Stationarity Testing and Transformation
 
-**Objetivo:** Verificar se uma série de preços de ações é estacionária e obter código para transformá-la se não for.
+**Objective:** Verify whether a stock price series is stationary and obtain code to transform it if it is not.
 
 ```
 ## System
-Você é um analista de séries temporais quantitativo.
+You are a quantitative time series analyst.
 
 ## User
-- **Conjunto de dados:** Preço diário de fechamento da ação XYZ por 5 anos.
-- **Frequência:** Diária
-- **Tendência suspeita:** Não linear com volatilidade variável.
-- **Contexto de negócio:** Análise de risco financeiro.
+- **Dataset:** Daily closing price of stock XYZ over 5 years.
+- **Frequency:** Daily
+- **Suspected trend:** Non-linear with varying volatility.
+- **Business context:** Financial risk analysis.
 
 ## Task
-1. Explique como testar a estacionariedade usando:
+1. Explain how to test for stationarity using:
    - Augmented Dickey-Fuller (ADF)
    - KPSS
-   - Inspeção visual de gráficos
-2. Se não for estacionária, sugira as transformações apropriadas (diferenciação, log, etc.).
-3. Forneça código Python (usando `statsmodels` e `pandas`) para realizar os testes e as transformações.
+   - Visual inspection of plots
+2. If it is not stationary, suggest the appropriate transformations (differencing, log, etc.).
+3. Provide Python code (using `statsmodels` and `pandas`) to perform the tests and transformations.
 
 ## Constraints
-- Mantenha a explicação com no máximo 120 palavras.
-- O código deve estar pronto para copiar e colar.
+- Keep the explanation to a maximum of 120 words.
+- The code must be ready to copy and paste.
 
 ## Evaluation Hook
-Termine com: "Confiança: X/10. Premissas: [...]".
+End with: "Confidence: X/10. Assumptions: [...]".
 ```
 
-### 4. Análise de Autocorrelação (ACF/PACF)
+### 4. Autocorrelation Analysis (ACF/PACF)
 
-**Objetivo:** Identificar lags significativos em dados de tráfego de rede para engenharia de features.
+**Objective:** Identify significant lags in network traffic data for feature engineering.
 
 ```
 ## System
-Você é um especialista em séries temporais para monitoramento de redes.
+You are a time series expert for network monitoring.
 
 ## User
-- **Conjunto de dados:** Volume de tráfego de rede (em GB) medido a cada 5 minutos.
-- **Tamanho:** 2016 observações (1 semana).
-- **Frequência:** 5 minutos.
-- **Amostra bruta:** [1.2, 1.3, 1.2, 1.5, ...]
+- **Dataset:** Network traffic volume (in GB) measured every 5 minutes.
+- **Size:** 2016 observations (1 week).
+- **Frequency:** 5 minutes.
+- **Raw sample:** [1.2, 1.3, 1.2, 1.5, ...]
 
 ## Task
-1. Forneça código Python para gerar gráficos ACF e PACF.
-2. Explique como interpretar os gráficos para identificar:
-   - Lags de Autoregressão (AR)
-   - Componentes de Média Móvel (MA)
-   - Padrões sazonais
-3. Recomende features de lag com base nos lags significativos.
-4. Mostre o código Python para criar essas features, tratando valores ausentes.
+1. Provide Python code to generate ACF and PACF plots.
+2. Explain how to interpret the plots to identify:
+   - Autoregression (AR) lags
+   - Moving Average (MA) components
+   - Seasonal patterns
+3. Recommend lag features based on the significant lags.
+4. Show the Python code to create these features, handling missing values.
 
 ## Constraints
-- Saída: Explicação de até 150 palavras + snippets de Python.
-- Use `statsmodels` e `pandas`.
+- Output: Explanation of up to 150 words + Python snippets.
+- Use `statsmodels` and `pandas`.
 
 ## Evaluation Hook
-Termine com: "Confiança: X/10. Lags principais sinalizados: [listar lags]".
+End with: "Confidence: X/10. Main lags flagged: [list lags]".
 ```
 
-### 5. Detecção de Anomalias
+### 5. Anomaly Detection
 
-**Objetivo:** Identificar leituras anômalas em sensores de uma máquina industrial.
+**Objective:** Identify anomalous readings in the sensors of an industrial machine.
 
 ```
 ## System
-Você é um especialista em detecção de anomalias em dados de séries temporais de sensores IoT.
+You are an expert in anomaly detection in IoT sensor time series data.
 
 ## User
-- **Série temporal:** [20.1, 20.2, 20.0, 19.9, 20.1, 35.5, 20.3, ...]
-- **Contexto:** Leitura de temperatura de um motor que opera continuamente.
-- **Limites esperados:** 15°C a 30°C.
+- **Time series:** [20.1, 20.2, 20.0, 19.9, 20.1, 35.5, 20.3, ...]
+- **Context:** Temperature reading of a motor operating continuously.
+- **Expected limits:** 15°C to 30°C.
 
 ## Task
-1. Identifique quaisquer pontos de dados que pareçam ser anomalias.
-2. Para cada anomalia, forneça:
-   - O valor anômalo.
-   - O índice (ou timestamp) da anomalia.
-   - Uma breve explicação do porquê é considerada uma anomalia (e.g., "pico repentino", "fora dos limites esperados").
-3. Sugira uma estratégia para tratar/remover as anomalias antes da modelagem.
+1. Identify any data points that appear to be anomalies.
+2. For each anomaly, provide:
+   - The anomalous value.
+   - The index (or timestamp) of the anomaly.
+   - A brief explanation of why it is considered an anomaly (e.g., "sudden spike", "outside expected limits").
+3. Suggest a strategy to handle/remove the anomalies before modeling.
 
 ## Constraints
-- Formate a saída como uma tabela Markdown.
+- Format the output as a Markdown table.
 
 ## Evaluation Hook
-Termine com: "Confiança na detecção: X/10. Premissas: [e.g., 'Anomalias são pontos únicos e não mudanças de regime']".
+End with: "Detection confidence: X/10. Assumptions: [e.g., 'Anomalies are single points and not regime changes']".
 ```
 ```
 
 ## Best Practices
-1. **Patch-Based Prompting (PatchInstruct):** Dividir a série temporal em "patches" (segmentos) sobrepostos e alimentá-los ao LLM. Isso reduz o uso de tokens, preserva a interpretabilidade e permite que o modelo detecte padrões temporais de curto prazo de forma eficiente.
-2. **Zero-Shot com Contexto:** Fornecer ao LLM uma descrição clara do conjunto de dados (domínio, frequência, horizonte de previsão) para que ele possa estabelecer uma linha de base de previsão sem treinamento adicional.
-3. **Neighbor-Augmented Prompting:** Incluir séries temporais "vizinhas" ou correlacionadas no prompt para ajudar o LLM a identificar estruturas e padrões compartilhados, refinando a previsão para a série alvo.
-4. **Estrutura de Prompt Detalhada:** Utilizar seções claras como `## System`, `## User`, `## Task`, `## Constraints` e `## Evaluation Hook` para guiar o modelo de forma precisa.
-5. **Inclusão de Código:** Solicitar ao LLM que gere código Python (por exemplo, com `statsmodels` e `pandas`) para tarefas como teste de estacionariedade (ADF/KPSS), análise de autocorrelação (ACF/PACF) e decomposição sazonal (STL).
+1. **Patch-Based Prompting (PatchInstruct):** Divide the time series into overlapping "patches" (segments) and feed them to the LLM. This reduces token usage, preserves interpretability, and allows the model to detect short-term temporal patterns efficiently.
+2. **Zero-Shot with Context:** Provide the LLM with a clear description of the dataset (domain, frequency, forecast horizon) so that it can establish a forecasting baseline without additional training.
+3. **Neighbor-Augmented Prompting:** Include "neighboring" or correlated time series in the prompt to help the LLM identify shared structures and patterns, refining the forecast for the target series.
+4. **Detailed Prompt Structure:** Use clear sections such as `## System`, `## User`, `## Task`, `## Constraints`, and `## Evaluation Hook` to guide the model precisely.
+5. **Code Inclusion:** Ask the LLM to generate Python code (for example, with `statsmodels` and `pandas`) for tasks such as stationarity testing (ADF/KPSS), autocorrelation analysis (ACF/PACF), and seasonal decomposition (STL).
 
 ## Use Cases
-1. **Previsão de Linha de Base Rápida:** Geração de previsões iniciais (zero-shot) para estabelecer um ponto de comparação.
-2. **Análise Exploratória de Dados (EDA):** Identificação de estacionariedade, tendências, sazonalidade e anomalias.
-3. **Engenharia de Features:** Geração de código para criar *features* de *lag*, janelas móveis e componentes cíclicos.
-4. **Decomposição de Séries:** Separação da série em componentes de tendência, sazonalidade e resíduo para *insights* de negócios.
-5. **Previsão em Domínios Específicos:** Aplicação em meteorologia, tráfego, vendas, finanças e outros domínios com dados sequenciais.
+1. **Quick Baseline Forecasting:** Generation of initial (zero-shot) forecasts to establish a benchmark.
+2. **Exploratory Data Analysis (EDA):** Identification of stationarity, trends, seasonality, and anomalies.
+3. **Feature Engineering:** Generation of code to create *lag* features, moving windows, and cyclical components.
+4. **Series Decomposition:** Separation of the series into trend, seasonality, and residual components for business *insights*.
+5. **Domain-Specific Forecasting:** Application in meteorology, traffic, sales, finance, and other domains with sequential data.
 
 ## Pitfalls
-1. **Limitação de Contexto (Token Limit):** Tentar alimentar séries temporais muito longas diretamente no prompt, excedendo o limite de tokens e resultando em truncamento ou perda de informação.
-2. **Alucinações e Falta de Rigor Estatístico:** LLMs podem gerar previsões plausíveis, mas estatisticamente incorretas ou sem aderência a testes de hipóteses formais (como estacionariedade).
-3. **Formato de Dados Inadequado:** Não formatar os dados de forma estruturada (e.g., como *patches* ou listas claras), forçando o LLM a processar dados brutos de forma ineficiente.
-4. **Ignorar a Estrutura Temporal:** Tratar a série temporal como um conjunto de dados comum, sem instruir o LLM sobre a dependência temporal, a frequência e o horizonte de previsão.
-5. **Confiança Excessiva:** Confiar cegamente na previsão do LLM sem uma validação rigorosa com métricas de erro (MAE, RMSE) e testes de *backtesting*.
+1. **Context Limitation (Token Limit):** Attempting to feed very long time series directly into the prompt, exceeding the token limit and resulting in truncation or loss of information.
+2. **Hallucinations and Lack of Statistical Rigor:** LLMs may generate plausible but statistically incorrect forecasts, or ones without adherence to formal hypothesis tests (such as stationarity).
+3. **Inadequate Data Format:** Failing to format the data in a structured way (e.g., as *patches* or clear lists), forcing the LLM to process raw data inefficiently.
+4. **Ignoring the Temporal Structure:** Treating the time series as an ordinary dataset, without instructing the LLM about the temporal dependency, frequency, and forecast horizon.
+5. **Overconfidence:** Blindly trusting the LLM's forecast without rigorous validation using error metrics (MAE, RMSE) and *backtesting* tests.
 
 ## URL
 [https://towardsdatascience.com/prompt-engineering-for-time-series-analysis-with-large-language-models/](https://towardsdatascience.com/prompt-engineering-for-time-series-analysis-with-large-language-models/)

@@ -2,44 +2,44 @@
 
 ## Description
 
-O MetaScleraSeg é um framework de meta-learning projetado para a segmentação generalizada da esclera (a parte branca do olho). Ele aborda o desafio da falta de generalização em modelos de deep learning tradicionais para novos domínios de dados (como diferentes etnias, qualidades de imagem ou conjuntos de dados). O framework utiliza uma estratégia de meta-amostragem para simular variações de domínio e um modelo base UNet 3+ invariante a estilo, otimizado através de uma estratégia de otimização de dois níveis (bilevel optimization) para aprender conhecimento transferível entre domínios. Foi publicado em 2023.
+MetaScleraSeg is a meta-learning framework designed for generalized segmentation of the sclera (the white part of the eye). It addresses the challenge of the lack of generalization in traditional deep learning models to new data domains (such as different ethnicities, image qualities, or datasets). The framework uses a meta-sampling strategy to simulate domain variations and a style-invariant UNet 3+ base model, optimized through a bilevel optimization strategy to learn transferable knowledge across domains. It was published in 2023.
 
 ## Statistics
 
-- **Publicação:** Neural Computing and Applications (2023).
-- **Citações:** 11 (em agosto de 2023, conforme arXiv).
-- **Desempenho:** Demonstrou superioridade em comparação com modelos de linha de base (baselines) em protocolos de generalização de domínio (cross-dataset, cross-ethnicity, cross-quality).
-- **Métrica Típica:** O F1-score (ou Dice Score) para segmentação de esclera em datasets como SBVPI geralmente atinge valores acima de 96% para métodos de ponta. O MetaScleraSeg supera estes baselines em cenários de domínio não visto.
+- **Publication:** Neural Computing and Applications (2023).
+- **Citations:** 11 (as of August 2023, according to arXiv).
+- **Performance:** Demonstrated superiority compared to baseline models in domain generalization protocols (cross-dataset, cross-ethnicity, cross-quality).
+- **Typical Metric:** The F1-score (or Dice Score) for sclera segmentation on datasets such as SBVPI generally reaches values above 96% for state-of-the-art methods. MetaScleraSeg outperforms these baselines in unseen-domain scenarios.
 
 ## Features
 
-- **Meta-Sampling:** Estratégia para simular variações de domínio (domain shifts) em cenários do mundo real.
-- **Modelo Base Invariante a Estilo:** Utiliza uma arquitetura UNet 3+ modificada para garantir que o modelo se concentre em características essenciais, ignorando variações de estilo.
-- **Otimização de Dois Níveis:** Emprega uma estratégia de meta-otimização para atualizar o modelo base, permitindo que ele generalize bem para domínios de destino não vistos.
-- **Generalização Robusta:** Projetado para funcionar em protocolos de validação cruzada (cross-dataset, cross-ethnicity e cross-quality).
+- **Meta-Sampling:** Strategy to simulate domain variations (domain shifts) in real-world scenarios.
+- **Style-Invariant Base Model:** Uses a modified UNet 3+ architecture to ensure the model focuses on essential features, ignoring style variations.
+- **Bilevel Optimization:** Employs a meta-optimization strategy to update the base model, enabling it to generalize well to unseen target domains.
+- **Robust Generalization:** Designed to work across cross-validation protocols (cross-dataset, cross-ethnicity, and cross-quality).
 
 ## Use Cases
 
-- **Biometria Ocular:** Segmentação precisa da esclera para sistemas de reconhecimento de identidade.
-- **Diagnóstico Ocular Generalizado:** Criação de modelos de IA que podem ser implantados em diferentes clínicas ou regiões geográficas, lidando com variações de equipamento e população (etnia).
-- **Aprendizado Few-Shot:** Aplicação em cenários onde novos domínios de dados médicos têm poucas amostras rotuladas.
+- **Ocular Biometrics:** Precise sclera segmentation for identity recognition systems.
+- **Generalized Ocular Diagnosis:** Creation of AI models that can be deployed across different clinics or geographic regions, handling variations in equipment and population (ethnicity).
+- **Few-Shot Learning:** Application in scenarios where new medical data domains have few labeled samples.
 
 ## Integration
 
-O código oficial do projeto está disponível no GitHub, implementado em PyTorch.
-**Exemplo de Execução (Teste):**
+The official project code is available on GitHub, implemented in PyTorch.
+**Execution Example (Test):**
 ```bash
-# Clonar o repositório
+# Clone the repository
 git clone https://github.com/lhqqq/MetaScleraSeg.git
 cd MetaScleraSeg
 
-# Instalar dependências (assumindo ambiente Python e PyTorch configurados)
-# pip install -r requirements.txt (se houver)
+# Install dependencies (assuming Python and PyTorch environment configured)
+# pip install -r requirements.txt (if available)
 
-# Executar o script de teste (requer o dataset e modelos pré-treinados)
+# Run the test script (requires the dataset and pre-trained models)
 python test.py
 ```
-**Observação:** O dataset (CDSS) e os modelos pré-treinados são fornecidos via Baidu Drive, conforme o README do repositório.
+**Note:** The dataset (CDSS) and pre-trained models are provided via Baidu Drive, as described in the repository's README.
 
 ## URL
 

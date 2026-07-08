@@ -1,49 +1,49 @@
 # Data Transformation Prompts
 
 ## Description
-Prompts de Transformação de Dados são instruções de Engenharia de Prompt projetadas para guiar Modelos de Linguagem Grande (LLMs) na conversão, limpeza, normalização e reestruturação de dados de um formato ou estado para outro. Essa técnica é fundamental para tarefas de pré-processamento de dados, onde a entrada (muitas vezes desestruturada, inconsistente ou em um formato específico) precisa ser convertida em uma saída estruturada e utilizável (como JSON, CSV, SQL, ou um formato de esquema específico). A eficácia reside em definir claramente o formato de entrada, o formato de saída desejado e as regras de manipulação ou limpeza a serem aplicadas. É amplamente utilizada em fluxos de trabalho de Engenharia de Dados e Análise de Dados para automatizar tarefas repetitivas e garantir a qualidade e a consistência dos dados.
+Data Transformation Prompts are Prompt Engineering instructions designed to guide Large Language Models (LLMs) in the conversion, cleaning, normalization, and restructuring of data from one format or state to another. This technique is fundamental for data preprocessing tasks, where the input (often unstructured, inconsistent, or in a specific format) needs to be converted into a structured and usable output (such as JSON, CSV, SQL, or a specific schema format). Its effectiveness lies in clearly defining the input format, the desired output format, and the manipulation or cleaning rules to be applied. It is widely used in Data Engineering and Data Analysis workflows to automate repetitive tasks and ensure data quality and consistency.
 
 ## Examples
 ```
-**1. Conversão de Formato (CSV para JSON):**
+**1. Format Conversion (CSV to JSON):**
 ```
-Aja como um conversor de dados. Sua tarefa é converter o texto CSV fornecido abaixo em um array de objetos JSON. Use os cabeçalhos do CSV como chaves do JSON.
+Act as a data converter. Your task is to convert the CSV text provided below into an array of JSON objects. Use the CSV headers as JSON keys.
 
-CSV de Entrada:
-Nome,Idade,Cidade
-Alice,30,Nova York
-Bob,25,Londres
+Input CSV:
+Name,Age,City
+Alice,30,New York
+Bob,25,London
 Charlie,35,Paris
 ```
 
-**2. Normalização de Dados (Padronização de Endereços):**
+**2. Data Normalization (Address Standardization):**
 ```
-Você é um agente de limpeza de dados. Padronize a coluna 'Endereço' na lista fornecida para o formato 'Rua [Nome], Nº [Número], [Cidade], [Estado/País]'. Corrija abreviações e erros de digitação comuns.
+You are a data cleaning agent. Standardize the 'Address' column in the provided list to the format 'Street [Name], No. [Number], [City], [State/Country]'. Correct common abbreviations and typos.
 
-Dados de Entrada:
+Input Data:
 - R. das Flores, 123, SP
 - Av. Paulista 456, São Paulo
 - 789 Oak St, NY, USA
 ```
 
-**3. Extração e Reestruturação (Texto Não Estruturado para Tabela Markdown):**
+**3. Extraction and Restructuring (Unstructured Text to Markdown Table):**
 ```
-Extraia as seguintes informações do texto abaixo: Nome do Produto, Preço e Disponibilidade. Apresente o resultado em uma tabela Markdown.
+Extract the following information from the text below: Product Name, Price, and Availability. Present the result in a Markdown table.
 
-Texto de Entrada:
-O novo Smartphone X, lançado em 2024, está disponível por R$ 4.500,00. O estoque é limitado. O Fone Y custa R$ 500 e está esgotado.
-```
-
-**4. Geração de Código SQL a partir de Requisitos:**
-```
-Com base no seguinte esquema de banco de dados (Tabela: Pedidos, Colunas: id_pedido, id_cliente, valor, data_pedido), escreva uma consulta SQL que retorne o 'id_cliente' e o 'valor' total de pedidos feitos no último mês.
+Input Text:
+The new Smartphone X, released in 2024, is available for R$ 4,500.00. Stock is limited. The Y Headphones cost R$ 500 and are out of stock.
 ```
 
-**5. Limpeza de Texto (Remoção de Caracteres Especiais e Duplicatas):**
+**4. SQL Code Generation from Requirements:**
 ```
-Limpe a lista de nomes de clientes a seguir. Remova quaisquer caracteres não alfanuméricos (exceto espaços) e elimine nomes duplicados. Retorne a lista limpa, um nome por linha.
+Based on the following database schema (Table: Orders, Columns: order_id, customer_id, amount, order_date), write a SQL query that returns the 'customer_id' and the total 'amount' of orders placed in the last month.
+```
 
-Lista de Clientes:
+**5. Text Cleaning (Removal of Special Characters and Duplicates):**
+```
+Clean the following list of customer names. Remove any non-alphanumeric characters (except spaces) and eliminate duplicate names. Return the cleaned list, one name per line.
+
+Customer List:
 João Silva!
 Maria Souza
 João Silva!
@@ -51,31 +51,31 @@ Pedro_Alves
 Maria Souza
 ```
 
-**6. Transformação de Unidades:**
+**6. Unit Transformation:**
 ```
-Converta todos os valores de temperatura na lista a seguir de Celsius para Fahrenheit. Retorne apenas os novos valores.
+Convert all temperature values in the following list from Celsius to Fahrenheit. Return only the new values.
 
-Temperaturas em Celsius:
+Temperatures in Celsius:
 10, 25, 0, 37.5
 ```
 
-**7. Filtragem e Agregação de Dados:**
+**7. Data Filtering and Aggregation:**
 ```
-Analise a lista de transações e filtre apenas as transações com 'status' = 'concluído'. Em seguida, calcule a soma total do 'valor' dessas transações.
+Analyze the list of transactions and filter only the transactions with 'status' = 'completed'. Then, calculate the total sum of the 'amount' of those transactions.
 
-Transações (Formato JSON):
-[{"id": 1, "status": "pendente", "valor": 100}, {"id": 2, "status": "concluído", "valor": 250}, {"id": 3, "status": "concluído", "valor": 150}]
+Transactions (JSON Format):
+[{"id": 1, "status": "pending", "amount": 100}, {"id": 2, "status": "completed", "amount": 250}, {"id": 3, "status": "completed", "amount": 150}]
 ```
 ```
 
 ## Best Practices
-**1. Definição Clara de Formato:** Sempre especifique o formato de saída desejado (e.g., "Retorne o resultado estritamente em formato JSON", "Converta para CSV com vírgulas como delimitador"). Use a notação de formato de saída (como JSON Schema) quando possível. **2. Fornecer Exemplos (Few-Shot):** Para transformações complexas ou ambíguas, inclua 1-2 exemplos de pares de entrada/saída para demonstrar o padrão de transformação esperado. **3. Instruções de Limpeza Explícitas:** Ao limpar dados, liste explicitamente as regras de limpeza (e.g., "Remova duplicatas", "Padronize datas para AAAA-MM-DD", "Substitua valores nulos por 'N/A'"). **4. Processamento em Lotes (Chunking):** Para grandes volumes de dados, divida a entrada em partes menores e use o prompt de transformação em cada parte, combinando os resultados posteriormente. Isso evita o estouro do limite de contexto do LLM. **5. Validação e Verificação:** Peça ao LLM para incluir uma etapa de validação ou um resumo das transformações realizadas, ou use ferramentas externas para validar o formato de saída (e.g., um validador JSON).
+**1. Clear Format Definition:** Always specify the desired output format (e.g., "Return the result strictly in JSON format", "Convert to CSV with commas as the delimiter"). Use output format notation (such as JSON Schema) when possible. **2. Provide Examples (Few-Shot):** For complex or ambiguous transformations, include 1-2 examples of input/output pairs to demonstrate the expected transformation pattern. **3. Explicit Cleaning Instructions:** When cleaning data, explicitly list the cleaning rules (e.g., "Remove duplicates", "Standardize dates to YYYY-MM-DD", "Replace null values with 'N/A'"). **4. Batch Processing (Chunking):** For large volumes of data, split the input into smaller parts and apply the transformation prompt to each part, combining the results afterward. This avoids overflowing the LLM's context limit. **5. Validation and Verification:** Ask the LLM to include a validation step or a summary of the transformations performed, or use external tools to validate the output format (e.g., a JSON validator).
 
 ## Use Cases
-**1. Engenharia de Dados (ETL/ELT):** Automatizar a conversão de dados brutos de logs ou sistemas legados (e.g., XML, texto plano) para formatos estruturados (e.g., JSON, Parquet) prontos para ingestão em data warehouses. **2. Limpeza e Pré-processamento de Dados:** Normalizar, padronizar e limpar conjuntos de dados para análise, corrigindo inconsistências, removendo duplicatas e tratando valores ausentes. **3. Geração de Código:** Criar scripts de transformação (Python, SQL, R) a partir de descrições em linguagem natural, acelerando o desenvolvimento de pipelines de dados. **4. Integração de Sistemas:** Converter formatos de mensagens entre diferentes APIs ou serviços (e.g., de um formato de resposta de API para um esquema de banco de dados interno). **5. Análise de Sentimento e Classificação:** Transformar texto não estruturado (e.g., avaliações de clientes) em dados categóricos ou numéricos (e.g., pontuação de sentimento, categoria do produto) para análise estatística.
+**1. Data Engineering (ETL/ELT):** Automate the conversion of raw data from logs or legacy systems (e.g., XML, plain text) into structured formats (e.g., JSON, Parquet) ready for ingestion into data warehouses. **2. Data Cleaning and Preprocessing:** Normalize, standardize, and clean datasets for analysis, correcting inconsistencies, removing duplicates, and handling missing values. **3. Code Generation:** Create transformation scripts (Python, SQL, R) from natural language descriptions, accelerating the development of data pipelines. **4. Systems Integration:** Convert message formats between different APIs or services (e.g., from an API response format to an internal database schema). **5. Sentiment Analysis and Classification:** Transform unstructured text (e.g., customer reviews) into categorical or numerical data (e.g., sentiment score, product category) for statistical analysis.
 
 ## Pitfalls
-**1. Ambiguidade de Formato:** Não especificar o formato de saída com clareza pode levar o LLM a retornar texto não estruturado ou um formato JSON/CSV inválido. **2. Limite de Contexto (Context Window):** Tentar transformar grandes conjuntos de dados de uma só vez pode exceder o limite de tokens do LLM, resultando em truncamento ou falha na transformação. **3. Erros de Tipagem de Dados:** O LLM pode interpretar incorretamente o tipo de dado (e.g., tratar um número como string) se as instruções de tipagem não forem explícitas. **4. Transformação Excessivamente Complexa:** Pedir ao LLM para realizar múltiplas transformações complexas (limpeza, conversão, agregação) em uma única etapa aumenta a chance de erros. É melhor usar o **Prompt Chaining** (encadeamento de prompts). **5. Alucinações em Limpeza:** Em vez de corrigir erros de dados, o LLM pode "alucinar" dados inexistentes ou fazer suposições incorretas se as regras de limpeza não forem estritas.
+**1. Format Ambiguity:** Failing to clearly specify the output format can lead the LLM to return unstructured text or an invalid JSON/CSV format. **2. Context Window:** Attempting to transform large datasets all at once may exceed the LLM's token limit, resulting in truncation or transformation failure. **3. Data Typing Errors:** The LLM may misinterpret the data type (e.g., treating a number as a string) if typing instructions are not explicit. **4. Overly Complex Transformation:** Asking the LLM to perform multiple complex transformations (cleaning, conversion, aggregation) in a single step increases the chance of errors. It is better to use **Prompt Chaining**. **5. Hallucinations in Cleaning:** Instead of correcting data errors, the LLM may "hallucinate" nonexistent data or make incorrect assumptions if the cleaning rules are not strict.
 
 ## URL
 [https://stratpilot.ai/10-powerful-ai-prompts-for-data-transformation/](https://stratpilot.ai/10-powerful-ai-prompts-for-data-transformation/)

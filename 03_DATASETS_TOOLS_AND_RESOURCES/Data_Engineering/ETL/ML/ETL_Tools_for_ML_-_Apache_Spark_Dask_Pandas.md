@@ -2,140 +2,140 @@
 
 ## Description
 
-**Apache Spark** é um motor de análise unificado e de código aberto para processamento de dados em larga escala, com módulos integrados para SQL, streaming, aprendizado de máquina (MLlib) e processamento de grafos (GraphX). Sua proposta de valor única reside na sua capacidade de processamento em memória, que o torna significativamente mais rápido que o Hadoop MapReduce para cargas de trabalho iterativas e interativas. Ele é projetado para ser um motor de análise multi-linguagem (Scala, Java, Python, R, SQL) que pode ser executado em máquinas de nó único ou em clusters, tornando-o uma plataforma robusta e escalável para engenharia de dados, ciência de dados e ML em escala massiva.
+**Apache Spark** is a unified, open-source analytics engine for large-scale data processing, with integrated modules for SQL, streaming, machine learning (MLlib), and graph processing (GraphX). Its unique value proposition lies in its in-memory processing capability, which makes it significantly faster than Hadoop MapReduce for iterative and interactive workloads. It is designed to be a multi-language analytics engine (Scala, Java, Python, R, SQL) that can run on single-node machines or on clusters, making it a robust and scalable platform for data engineering, data science, and ML at massive scale.
 
-**Dask** é uma biblioteca Python de código aberto para computação paralela e distribuída. Sua proposta de valor única é a capacidade de escalar o ecossistema Python existente (como NumPy, Pandas e Scikit-learn) para conjuntos de dados maiores que a memória RAM, sem a necessidade de reescrever o código. Ele faz isso dividindo grandes estruturas de dados (como DataFrames ou Arrays) em coleções de blocos menores, que podem ser processados em paralelo em um único laptop ou em um cluster distribuído. É a solução ideal para cientistas de dados que desejam escalar seu código Python familiar.
+**Dask** is an open-source Python library for parallel and distributed computing. Its unique value proposition is the ability to scale the existing Python ecosystem (such as NumPy, Pandas, and Scikit-learn) to datasets larger than RAM, without the need to rewrite code. It does this by dividing large data structures (such as DataFrames or Arrays) into collections of smaller blocks, which can be processed in parallel on a single laptop or on a distributed cluster. It is the ideal solution for data scientists who want to scale their familiar Python code.
 
-**Pandas** é uma biblioteca Python de código aberto que fornece estruturas de dados de alto desempenho e fáceis de usar e ferramentas de análise de dados. Sua proposta de valor única é a introdução do `DataFrame`, uma estrutura de dados bidimensional rotulada com colunas de tipos potencialmente diferentes, que é o padrão de fato para manipulação e análise de dados em Python. Ele é otimizado para análise de dados em um único nó (in-memory) e é a base para a maioria dos fluxos de trabalho de ciência de dados em Python, permitindo a limpeza, transformação, exploração e manipulação rápida de dados.
+**Pandas** is an open-source Python library that provides high-performance, easy-to-use data structures and data analysis tools. Its unique value proposition is the introduction of the `DataFrame`, a two-dimensional labeled data structure with columns of potentially different types, which is the de facto standard for data manipulation and analysis in Python. It is optimized for single-node (in-memory) data analysis and is the foundation for most data science workflows in Python, enabling the rapid cleaning, transformation, exploration, and manipulation of data.
 
 ## Statistics
 
 **Apache Spark:**
-*   **Velocidade:** Até 100x mais rápido que o Hadoop MapReduce para processamento em memória.
-*   **Ecossistema:** Mais de 80% das empresas Fortune 500 usam Spark.
-*   **Linguagens:** Suporte nativo para Scala, Java, Python, R e SQL.
-*   **Comunidade:** Um dos projetos de código aberto mais ativos na área de Big Data.
+*   **Speed:** Up to 100x faster than Hadoop MapReduce for in-memory processing.
+*   **Ecosystem:** More than 80% of Fortune 500 companies use Spark.
+*   **Languages:** Native support for Scala, Java, Python, R, and SQL.
+*   **Community:** One of the most active open-source projects in the Big Data space.
 
 **Dask:**
-*   **Escalabilidade:** Permite processar DataFrames e Arrays que excedem a memória RAM de um único nó.
-*   **Integração:** Projetado para ser 100% compatível com as APIs do NumPy e Pandas.
-*   **Flexibilidade:** Pode ser executado em laptops, clusters HPC, e nuvens (AWS, GCP, Azure).
+*   **Scalability:** Enables processing DataFrames and Arrays that exceed the RAM of a single node.
+*   **Integration:** Designed to be 100% compatible with the NumPy and Pandas APIs.
+*   **Flexibility:** Can run on laptops, HPC clusters, and clouds (AWS, GCP, Azure).
 
 **Pandas:**
-*   **Padrão da Indústria:** A biblioteca de fato para manipulação de dados em Python.
-*   **Performance:** Altamente otimizado para operações em memória, com base em NumPy.
-*   **Comunidade:** Vasta documentação, tutoriais e uma comunidade de usuários massiva.
-*   **Limitação:** Projetado para dados que cabem na memória de um único computador.
+*   **Industry Standard:** The de facto library for data manipulation in Python.
+*   **Performance:** Highly optimized for in-memory operations, based on NumPy.
+*   **Community:** Extensive documentation, tutorials, and a massive user community.
+*   **Limitation:** Designed for data that fits in the memory of a single computer.
 
 ## Features
 
 **Apache Spark:**
-*   **Processamento em Memória:** Utiliza cache em memória para acelerar cargas de trabalho iterativas.
-*   **APIs Unificadas:** Suporta Spark SQL, Spark Streaming, MLlib (Machine Learning) e GraphX (Processamento de Grafos).
-*   **Suporte Multi-Linguagem:** APIs em Scala, Java, Python (PySpark), R e SQL.
-*   **Conectividade Ampla:** Pode ser executado em Hadoop YARN, Apache Mesos, Kubernetes ou de forma autônoma.
+*   **In-Memory Processing:** Uses in-memory caching to accelerate iterative workloads.
+*   **Unified APIs:** Supports Spark SQL, Spark Streaming, MLlib (Machine Learning), and GraphX (Graph Processing).
+*   **Multi-Language Support:** APIs in Scala, Java, Python (PySpark), R, and SQL.
+*   **Broad Connectivity:** Can run on Hadoop YARN, Apache Mesos, Kubernetes, or standalone.
 
 **Dask:**
-*   **Paralelização de Bibliotecas Python:** Estende NumPy, Pandas e Scikit-learn para computação paralela.
-*   **Estruturas de Dados Paralelas:** Oferece `Dask Array`, `Dask DataFrame` e `Dask Bag` para lidar com dados maiores que a memória.
-*   **Agendador Dinâmico de Tarefas:** Otimiza a execução de gráficos de tarefas complexos em paralelo.
-*   **Dashboard de Monitoramento:** Fornece métricas de desempenho detalhadas em tempo real.
+*   **Parallelization of Python Libraries:** Extends NumPy, Pandas, and Scikit-learn for parallel computing.
+*   **Parallel Data Structures:** Offers `Dask Array`, `Dask DataFrame`, and `Dask Bag` to handle data larger than memory.
+*   **Dynamic Task Scheduler:** Optimizes the execution of complex task graphs in parallel.
+*   **Monitoring Dashboard:** Provides detailed real-time performance metrics.
 
 **Pandas:**
-*   **Estrutura de Dados DataFrame:** Estrutura de dados tabular rotulada e poderosa.
-*   **Manipulação de Dados:** Funções ricas para indexação, fatiamento, agrupamento, junção e remodelação de dados.
-*   **Limpeza de Dados:** Ferramentas robustas para lidar com dados ausentes (`NaN`), valores duplicados e transformações de tipo.
-*   **Análise Estatística:** Funcionalidades para calcular estatísticas descritivas e aplicar funções arbitrárias.
+*   **DataFrame Data Structure:** A powerful, labeled tabular data structure.
+*   **Data Manipulation:** Rich functions for indexing, slicing, grouping, joining, and reshaping data.
+*   **Data Cleaning:** Robust tools for handling missing data (`NaN`), duplicate values, and type transformations.
+*   **Statistical Analysis:** Functionality to compute descriptive statistics and apply arbitrary functions.
 
 ## Use Cases
 
 **Apache Spark:**
-*   **Processamento de Logs em Tempo Real:** Análise de logs de websites e servidores para detecção de fraudes e monitoramento.
-*   **Análise Genômica:** Processamento de grandes volumes de dados de sequenciamento de DNA.
-*   **Sistemas de Recomendação:** Treinamento de modelos de filtragem colaborativa em grandes conjuntos de dados de usuários e itens (usando MLlib).
-*   **ETL em Larga Escala:** Transformação e carregamento de petabytes de dados em data warehouses.
+*   **Real-Time Log Processing:** Analysis of website and server logs for fraud detection and monitoring.
+*   **Genomic Analysis:** Processing large volumes of DNA sequencing data.
+*   **Recommendation Systems:** Training collaborative filtering models on large user and item datasets (using MLlib).
+*   **Large-Scale ETL:** Transformation and loading of petabytes of data into data warehouses.
 
 **Dask:**
-*   **Escalando o Pandas:** Execução de operações de Pandas em conjuntos de dados maiores que a memória RAM de um único computador.
-*   **Computação Científica:** Paralelização de cálculos complexos em Arrays NumPy (Dask Array) para simulações climáticas e astrofísicas.
-*   **Processamento de Imagens Grandes:** Manipulação de imagens médicas ou de satélite de alta resolução.
-*   **Treinamento de ML Distribuído:** Uso de Dask-ML para paralelizar o treinamento de modelos Scikit-learn.
+*   **Scaling Pandas:** Running Pandas operations on datasets larger than the RAM of a single computer.
+*   **Scientific Computing:** Parallelization of complex calculations on NumPy Arrays (Dask Array) for climate and astrophysics simulations.
+*   **Large Image Processing:** Handling high-resolution medical or satellite images.
+*   **Distributed ML Training:** Using Dask-ML to parallelize the training of Scikit-learn models.
 
 **Pandas:**
-*   **Análise Exploratória de Dados (EDA):** Limpeza, resumo e visualização inicial de conjuntos de dados.
-*   **Preparação de Dados para ML:** Engenharia de features, tratamento de valores ausentes e normalização de dados para modelos.
-*   **Análise Financeira:** Processamento de séries temporais e cálculo de métricas estatísticas.
-*   **Relatórios e BI:** Geração de relatórios e painéis a partir de dados estruturados.
+*   **Exploratory Data Analysis (EDA):** Cleaning, summarizing, and initial visualization of datasets.
+*   **Data Preparation for ML:** Feature engineering, handling missing values, and data normalization for models.
+*   **Financial Analysis:** Processing time series and calculating statistical metrics.
+*   **Reporting and BI:** Generating reports and dashboards from structured data.
 
 ## Integration
 
 **Apache Spark:**
-A integração com Python é feita via **PySpark**. O código a seguir demonstra a leitura de um arquivo CSV e a execução de uma operação de MLlib (exemplo conceitual):
+Integration with Python is done via **PySpark**. The following code demonstrates reading a CSV file and running an MLlib operation (conceptual example):
 
 ```python
 from pyspark.sql import SparkSession
 from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.regression import LinearRegression
 
-# 1. Inicializar a Spark Session
+# 1. Initialize the Spark Session
 spark = SparkSession.builder.appName("SparkML_Example").getOrCreate()
 
-# 2. Carregar Dados
-data = spark.read.csv("caminho/para/dados.csv", header=True, inferSchema=True)
+# 2. Load Data
+data = spark.read.csv("path/to/data.csv", header=True, inferSchema=True)
 
-# 3. Preparação de Features (ETL)
+# 3. Feature Preparation (ETL)
 assembler = VectorAssembler(inputCols=["feature1", "feature2"], outputCol="features")
 data = assembler.transform(data)
 
-# 4. Treinamento do Modelo
+# 4. Model Training
 lr = LinearRegression(featuresCol="features", labelCol="target")
 model = lr.fit(data)
 
-# 5. Parar a Spark Session
+# 5. Stop the Spark Session
 spark.stop()
 ```
 
 **Dask:**
-A integração é nativa com o ecossistema Python. O código a seguir demonstra a criação de um `Dask DataFrame` e a execução de uma operação paralela:
+Integration is native to the Python ecosystem. The following code demonstrates creating a `Dask DataFrame` and running a parallel operation:
 
 ```python
 import dask.dataframe as dd
 from dask.distributed import Client
 
-# 1. Inicializar o Cliente Dask (opcional, mas recomendado para clusters)
+# 1. Initialize the Dask Client (optional, but recommended for clusters)
 client = Client(n_workers=4)
 
-# 2. Criar um Dask DataFrame a partir de múltiplos arquivos CSV
-ddf = dd.read_csv('caminho/para/arquivos/*.csv')
+# 2. Create a Dask DataFrame from multiple CSV files
+ddf = dd.read_csv('path/to/files/*.csv')
 
-# 3. Executar uma operação paralela (ex: calcular a média de uma coluna)
-media_coluna = ddf['coluna_numerica'].mean().compute()
+# 3. Run a parallel operation (e.g.: calculate the mean of a column)
+column_mean = ddf['numeric_column'].mean().compute()
 
-# 4. Fechar o Cliente
+# 4. Close the Client
 client.close()
 ```
 
 **Pandas:**
-A integração é o padrão para a maioria das bibliotecas Python de ML (Scikit-learn, TensorFlow, PyTorch). O código a seguir demonstra a leitura de dados e a limpeza básica:
+Integration is the standard for most Python ML libraries (Scikit-learn, TensorFlow, PyTorch). The following code demonstrates reading data and basic cleaning:
 
 ```python
 import pandas as pd
 import numpy as np
 
-# 1. Ler Dados
-df = pd.read_csv('caminho/para/dados.csv')
+# 1. Read Data
+df = pd.read_csv('path/to/data.csv')
 
-# 2. Limpeza de Dados (ETL)
-# Preencher valores ausentes com a média
-df['idade'].fillna(df['idade'].mean(), inplace=True)
+# 2. Data Cleaning (ETL)
+# Fill missing values with the mean
+df['age'].fillna(df['age'].mean(), inplace=True)
 
-# Remover duplicatas
+# Remove duplicates
 df.drop_duplicates(inplace=True)
 
-# 3. Preparação para ML (ex: One-Hot Encoding)
-df_encoded = pd.get_dummies(df, columns=['categoria'])
+# 3. Preparation for ML (e.g.: One-Hot Encoding)
+df_encoded = pd.get_dummies(df, columns=['category'])
 
-# O DataFrame 'df_encoded' está pronto para ser usado em um modelo de ML.
+# The 'df_encoded' DataFrame is ready to be used in an ML model.
 ```
 
 ## URL

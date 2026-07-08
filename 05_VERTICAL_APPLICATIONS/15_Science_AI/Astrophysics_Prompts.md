@@ -1,53 +1,53 @@
 # Astrophysics Prompts
 
 ## Description
-O uso de Large Language Models (LLMs) em astrofísica e ciência espacial envolve a criação de prompts especializados para aproveitar as capacidades dos modelos em tarefas como análise de dados, modelagem teórica, geração de conteúdo educacional e comunicação científica. Esta técnica faz parte do campo mais amplo da "Astrocomputação" na era dos LLMs. Prompts eficazes frequentemente atribuem uma persona específica (por exemplo, "astrofísico experiente") para guiar o detalhe e o estilo da resposta, e utilizam técnicas avançadas como Chain-of-Thought (CoT) ou Few-Shot Learning para lidar com o raciocínio científico complexo e a interpretação de dados. O objetivo é transformar vastos conjuntos de dados astronômicos e teorias complexas em *insights* acionáveis ou explicações acessíveis. O sucesso depende da precisão do prompt em definir o contexto, o papel do modelo e o formato de saída esperado.
+The use of Large Language Models (LLMs) in astrophysics and space science involves creating specialized prompts to leverage the models' capabilities for tasks such as data analysis, theoretical modeling, educational content generation, and scientific communication. This technique is part of the broader field of "Astrocomputing" in the era of LLMs. Effective prompts frequently assign a specific persona (for example, "experienced astrophysicist") to guide the level of detail and the style of the response, and they use advanced techniques such as Chain-of-Thought (CoT) or Few-Shot Learning to handle complex scientific reasoning and data interpretation. The goal is to transform vast astronomical datasets and complex theories into actionable *insights* or accessible explanations. Success depends on the prompt's precision in defining the context, the model's role, and the expected output format.
 
 ## Examples
 ```
-**1. Análise de Dados e Interpretação de FITS:**
-`Aja como um cientista de dados astronômicos. Analise o cabeçalho FITS a seguir e resuma os principais parâmetros observacionais (e.g., telescópio, data, exposição, objeto). Em seguida, sugira três potenciais vieses de observação. [INSERIR DADOS DO CABEÇALHO FITS]`
+**1. Data Analysis and FITS Interpretation:**
+`Act as an astronomical data scientist. Analyze the following FITS header and summarize the main observational parameters (e.g., telescope, date, exposure, object). Then, suggest three potential observational biases. [INSERT FITS HEADER DATA]`
 
-**2. Modelagem Teórica e Simulação:**
-`Aja como um astrofísico teórico. Explique o processo de nucleossíntese estelar em estrelas de baixa massa (como o Sol). Em seguida, forneça o código Python para simular a curva de luminosidade de uma supernova Tipo Ia, utilizando a biblioteca Astropy.`
+**2. Theoretical Modeling and Simulation:**
+`Act as a theoretical astrophysicist. Explain the process of stellar nucleosynthesis in low-mass stars (such as the Sun). Then, provide the Python code to simulate the luminosity curve of a Type Ia supernova, using the Astropy library.`
 
-**3. Geração de Conteúdo Educacional:**
-`Aja como um educador de ciências espaciais. Crie um prompt para um gerador de imagens que visualize a acreção de matéria em torno de um buraco negro de massa estelar, com um disco de acreção visível em raios-X. O tom deve ser didático e visualmente impactante.`
+**3. Educational Content Generation:**
+`Act as a space science educator. Create a prompt for an image generator that visualizes the accretion of matter around a stellar-mass black hole, with an X-ray-visible accretion disk. The tone should be didactic and visually impactful.`
 
-**4. Revisão e Síntese de Literatura:**
-`Aja como um revisor de literatura. Sintetize os principais argumentos e descobertas dos últimos 5 anos sobre a controvérsia da Constante de Hubble, citando as fontes primárias (se possível) e destacando a diferença entre os métodos de medição de distância. Use o formato de resumo executivo.`
+**4. Literature Review and Synthesis:**
+`Act as a literature reviewer. Synthesize the main arguments and findings from the last 5 years on the Hubble Constant controversy, citing the primary sources (if possible) and highlighting the difference between distance measurement methods. Use an executive summary format.`
 
-**5. Resolução de Problemas de Astrofísica:**
-`Aja como um astrofísico experiente. Calcule a distância de um aglomerado globular cuja magnitude aparente média das estrelas RR Lyrae é m=18.5, sabendo que a magnitude absoluta média é M=0.6. Mostre o cálculo passo a passo (Chain-of-Thought) e expresse o resultado em parsecs e anos-luz.`
+**5. Astrophysics Problem Solving:**
+`Act as an experienced astrophysicist. Calculate the distance of a globular cluster whose average apparent magnitude of its RR Lyrae stars is m=18.5, given that the average absolute magnitude is M=0.6. Show the calculation step by step (Chain-of-Thought) and express the result in parsecs and light-years.`
 
-**6. Prompt para Pesquisa de Exoplanetas:**
-`Aja como um pesquisador de exoplanetas. Dada a massa de uma estrela (0.8 M☉) e o período orbital de um exoplaneta (15 dias), calcule o raio orbital do exoplaneta em Unidades Astronômicas (UA). Assuma uma órbita circular e use a Terceira Lei de Kepler. Explique a relevância desse raio para a zona habitável.`
+**6. Prompt for Exoplanet Research:**
+`Act as an exoplanet researcher. Given the mass of a star (0.8 M☉) and the orbital period of an exoplanet (15 days), calculate the exoplanet's orbital radius in Astronomical Units (AU). Assume a circular orbit and use Kepler's Third Law. Explain the relevance of this radius to the habitable zone.`
 
-**7. Criação de Roteiro para Divulgação Científica:**
-`Aja como um roteirista de documentários científicos. Crie um roteiro de 3 minutos para um vídeo sobre a formação da Via Láctea, focando na teoria do Big Bang e na matéria escura. O roteiro deve ser envolvente, acessível ao público leigo e incluir sugestões de imagens de arquivo (e.g., Hubble, JWST).`
+**7. Creating a Script for Science Communication:**
+`Act as a science documentary screenwriter. Create a 3-minute script for a video about the formation of the Milky Way, focusing on the Big Bang theory and dark matter. The script should be engaging, accessible to a lay audience, and include suggestions for archive footage (e.g., Hubble, JWST).`
 ```
 
 ## Best Practices
-**1. Atribuição de Papel (Role Assignment):** Sempre comece o prompt atribuindo um papel específico e experiente ao LLM, como "Aja como um astrofísico especializado em buracos negros" ou "Aja como um cientista de dados astronômicos". Isso direciona o tom, o nível de detalhe e a precisão técnica da resposta.
-**2. Contextualização de Dados:** Ao analisar dados (como FITS, CSV ou tabelas), inclua um trecho representativo dos dados ou o cabeçalho, e especifique o formato de saída desejado (e.g., JSON, Python Pandas DataFrame).
-**3. Uso de Técnicas Avançadas:** Para problemas complexos de raciocínio científico ou modelagem, utilize técnicas como **Chain-of-Thought (CoT)**, pedindo ao LLM para "pensar passo a passo" antes de dar a resposta final, ou **Few-Shot Learning**, fornecendo exemplos de problemas e soluções.
-**4. Especificidade e Limitação:** Seja o mais específico possível sobre o fenômeno, a teoria ou o objeto astronômico. Limite o escopo da resposta para evitar generalizações imprecisas.
-**5. Verificação Cruzada:** Sempre trate a saída do LLM como um ponto de partida ou uma hipótese. A complexidade e a natureza crítica dos dados astrofísicos exigem **verificação cruzada** com fontes primárias, simulações e softwares científicos dedicados.
+**1. Role Assignment:** Always begin the prompt by assigning a specific, experienced role to the LLM, such as "Act as an astrophysicist specialized in black holes" or "Act as an astronomical data scientist." This guides the tone, level of detail, and technical accuracy of the response.
+**2. Data Contextualization:** When analyzing data (such as FITS, CSV, or tables), include a representative excerpt of the data or the header, and specify the desired output format (e.g., JSON, Python Pandas DataFrame).
+**3. Use of Advanced Techniques:** For complex scientific reasoning or modeling problems, use techniques such as **Chain-of-Thought (CoT)**, asking the LLM to "think step by step" before giving the final answer, or **Few-Shot Learning**, providing examples of problems and solutions.
+**4. Specificity and Limitation:** Be as specific as possible about the phenomenon, theory, or astronomical object. Limit the scope of the response to avoid imprecise generalizations.
+**5. Cross-Verification:** Always treat the LLM's output as a starting point or a hypothesis. The complexity and critical nature of astrophysical data require **cross-verification** with primary sources, simulations, and dedicated scientific software.
 
 ## Use Cases
-**1. Análise Preliminar de Dados:** Auxiliar astrofísicos na interpretação rápida de cabeçalhos FITS, logs de observação ou resultados de simulações, identificando parâmetros-chave e potenciais anomalias.
-**2. Geração de Hipóteses:** Utilizar o LLM para explorar rapidamente as implicações de novas descobertas ou dados, gerando hipóteses testáveis para a pesquisa.
-**3. Educação e Divulgação Científica:** Criar materiais didáticos, resumos de artigos complexos ou roteiros de vídeos, traduzindo conceitos astrofísicos complexos para uma linguagem acessível a diferentes públicos.
-**4. Revisão de Código e Documentação:** Gerar documentação para códigos de simulação (e.g., Fortran, Python) ou revisar trechos de código para otimização e correção de *bugs* em rotinas de análise de dados.
-**5. Síntese de Literatura:** Realizar a mineração e síntese de grandes volumes de artigos científicos (se o LLM tiver acesso a essa base de dados), identificando tendências e lacunas na pesquisa atual.
-**6. Modelagem Conceitual:** Auxiliar na formulação de modelos conceituais para fenômenos astrofísicos, como a evolução de galáxias ou a dinâmica de sistemas estelares, antes de iniciar simulações computacionais intensivas.
+**1. Preliminary Data Analysis:** Assist astrophysicists in the rapid interpretation of FITS headers, observation logs, or simulation results, identifying key parameters and potential anomalies.
+**2. Hypothesis Generation:** Use the LLM to quickly explore the implications of new discoveries or data, generating testable hypotheses for research.
+**3. Education and Science Communication:** Create educational materials, summaries of complex articles, or video scripts, translating complex astrophysical concepts into language accessible to different audiences.
+**4. Code Review and Documentation:** Generate documentation for simulation code (e.g., Fortran, Python) or review code snippets for optimization and *bug* fixing in data analysis routines.
+**5. Literature Synthesis:** Perform the mining and synthesis of large volumes of scientific articles (if the LLM has access to such a database), identifying trends and gaps in current research.
+**6. Conceptual Modeling:** Assist in formulating conceptual models for astrophysical phenomena, such as galaxy evolution or the dynamics of stellar systems, before starting computationally intensive simulations.
 
 ## Pitfalls
-**1. Alucinações Científicas:** O LLM pode gerar informações factualmente incorretas ou teorias obsoletas. **Armadilha:** Confiar cegamente na saída sem verificação cruzada.
-**2. Falta de Contexto de Dados:** Fornecer dados brutos sem especificar o formato, as unidades ou o contexto observacional. **Armadilha:** O LLM pode interpretar mal os valores ou aplicar fórmulas incorretas.
-**3. Prompts Vagos:** Pedir "fale sobre buracos negros" sem um objetivo claro. **Armadilha:** Receber uma resposta genérica e inútil para pesquisa ou educação especializada.
-**4. Limitações de Cálculo:** Embora LLMs possam realizar cálculos, eles não são calculadoras. **Armadilha:** Usar o LLM para cálculos complexos que exigem alta precisão e que são melhor executados por software científico (e.g., NumPy, Astropy).
-**5. Confusão de Unidades:** A astrofísica lida com unidades complexas (parsecs, anos-luz, magnitudes, etc.). **Armadilha:** Não especificar as unidades de entrada e saída, levando a erros de ordem de magnitude.
+**1. Scientific Hallucinations:** The LLM may generate factually incorrect information or obsolete theories. **Pitfall:** Blindly trusting the output without cross-verification.
+**2. Lack of Data Context:** Providing raw data without specifying the format, units, or observational context. **Pitfall:** The LLM may misinterpret the values or apply incorrect formulas.
+**3. Vague Prompts:** Asking "tell me about black holes" without a clear objective. **Pitfall:** Receiving a generic, useless response for specialized research or education.
+**4. Calculation Limitations:** Although LLMs can perform calculations, they are not calculators. **Pitfall:** Using the LLM for complex calculations that require high precision and are better performed by scientific software (e.g., NumPy, Astropy).
+**5. Unit Confusion:** Astrophysics deals with complex units (parsecs, light-years, magnitudes, etc.). **Pitfall:** Failing to specify input and output units, leading to order-of-magnitude errors.
 
 ## URL
 [https://www.nature.com/articles/s41597-025-04613-9](https://www.nature.com/articles/s41597-025-04613-9)

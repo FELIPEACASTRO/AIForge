@@ -1,49 +1,49 @@
 # Microservices Prompts
 
 ## Description
-"Microservices Prompts" refere-se à aplicação da Engenharia de Prompt para otimizar e acelerar o ciclo de vida de desenvolvimento de microsserviços. A técnica aproveita a capacidade de Large Language Models (LLMs) de atuar como "especialistas de domínio" (ex: Arquiteto de Software, Desenvolvedor Sênior) para gerar código, configurações, testes, documentação e análises de alta qualidade, específicos para o ambiente de microsserviços (ex: Spring Boot, Kafka, Kubernetes). O foco está em fornecer prompts altamente estruturados e contextuais que incluem requisitos funcionais e não-funcionais (como segurança, desempenho e resiliência) para garantir que o código gerado seja robusto e aderente às melhores práticas de arquitetura distribuída.
+"Microservices Prompts" refers to the application of Prompt Engineering to optimize and accelerate the microservices development lifecycle. The technique leverages the ability of Large Language Models (LLMs) to act as "domain experts" (e.g., Software Architect, Senior Developer) to generate high-quality code, configurations, tests, documentation, and analyses specific to the microservices environment (e.g., Spring Boot, Kafka, Kubernetes). The focus is on providing highly structured and contextual prompts that include functional and non-functional requirements (such as security, performance, and resilience) to ensure that the generated code is robust and adheres to distributed architecture best practices.
 
 ## Examples
 ```
-**1. Geração de Boilerplate Completo:**
+**1. Complete Boilerplate Generation:**
 ```
-Atue como um Desenvolvedor Sênior Spring Boot. Gere um boilerplate exaustivo para uma aplicação RESTful API Spring Boot, pronta para implantação empresarial. Inclua: 1. Um endpoint `/api/v1/products` para operações CRUD na entidade `Product` (id: Long, name: String, description: String, price: BigDecimal, stock: Integer). 2. Arquitetura: pacotes controller, service, repository, model, config e util. 3. Versões: Spring Boot 3.2.x, Java 21, Maven 3.9.x. 4. Banco de Dados: PostgreSQL com Spring Data JPA. 5. Documentação: Integração Swagger/OpenAPI. 6. Melhores Práticas: Aderência a SOLID, uso de DTOs com validação, e arquitetura em camadas.
-```
-
-**2. Otimização de Consulta SQL:**
-```
-Analise a seguinte consulta PostgreSQL e sugira otimizações. Assuma que a tabela `orders` e `customers` são grandes. `SELECT * FROM orders WHERE customer_id IN (SELECT id FROM customers WHERE city = 'New York');` Explique os problemas de desempenho e forneça uma consulta otimizada usando `JOIN`. Discuta o papel do comando `EXPLAIN` para identificar gargalos.
+Act as a Senior Spring Boot Developer. Generate an exhaustive boilerplate for a RESTful API Spring Boot application, ready for enterprise deployment. Include: 1. An `/api/v1/products` endpoint for CRUD operations on the `Product` entity (id: Long, name: String, description: String, price: BigDecimal, stock: Integer). 2. Architecture: controller, service, repository, model, config, and util packages. 3. Versions: Spring Boot 3.2.x, Java 21, Maven 3.9.x. 4. Database: PostgreSQL with Spring Data JPA. 5. Documentation: Swagger/OpenAPI integration. 6. Best Practices: SOLID adherence, use of DTOs with validation, and layered architecture.
 ```
 
-**3. Implementação de Segurança (JWT/RBAC):**
+**2. SQL Query Optimization:**
 ```
-Gere uma configuração de segurança Spring Security para uma REST API Spring Boot que usa autenticação baseada em JWT e controle de acesso baseado em função (RBAC). Defina as funções `ADMIN` e `USER`. Proteja endpoints como `/api/admin/**` para `ADMIN` e `/api/user/**` para `USER`. Inclua um filtro JWT básico e a implementação `UserDetailsService`.
-```
-
-**4. Geração de Testes de Unidade (Mockito/JUnit):**
-```
-Gere uma classe de teste de unidade JUnit 5 para um `UserService` Spring Boot com um método `registerUser(User user)` que salva um usuário e `findByUsername(String username)` que recupera um usuário. O `UserService` depende de uma interface `UserRepository`. Use `@ExtendWith(MockitoExtension.class)` e `@BeforeEach` para configurar um `mock UserRepository`. Escreva um método de teste que verifique se o salvamento é chamado no repositório simulado com o objeto de usuário correto.
+Analyze the following PostgreSQL query and suggest optimizations. Assume the `orders` and `customers` tables are large. `SELECT * FROM orders WHERE customer_id IN (SELECT id FROM customers WHERE city = 'New York');` Explain the performance problems and provide an optimized query using `JOIN`. Discuss the role of the `EXPLAIN` command in identifying bottlenecks.
 ```
 
-**5. Refatoração e Análise de Código:**
+**3. Security Implementation (JWT/RBAC):**
 ```
-Atue como um Arquiteto de Software Sênior. Revise a classe de serviço Spring Boot fornecida, responsável pelo gerenciamento de usuários. [Insira o código da classe de serviço Java aqui]. Identifique quaisquer 'code smells' (ex: método longo, código duplicado), gargalos de desempenho ou áreas para melhoria estrutural (ex: aderência a SOLID). Sugira estratégias de refatoração concretas e explique seu raciocínio passo a passo.
+Generate a Spring Security configuration for a Spring Boot REST API that uses JWT-based authentication and role-based access control (RBAC). Define the `ADMIN` and `USER` roles. Protect endpoints such as `/api/admin/**` for `ADMIN` and `/api/user/**` for `USER`. Include a basic JWT filter and the `UserDetailsService` implementation.
 ```
 
-**6. Resiliência e Comunicação Inter-Serviços:**
+**4. Unit Test Generation (Mockito/JUnit):**
 ```
-Atue como um Arquiteto de Microsserviços. Para um microsserviço Spring Boot que faz chamadas REST síncronas para outro serviço interno (ex: um `OrderService` chamando um `PaymentService`), sugira padrões para melhorar a resiliência e o desempenho. Concentre-se no padrão Circuit Breaker (ex: usando Resilience4j) e balanceamento de carga do lado do cliente (ex: usando Spring Cloud LoadBalancer). Forneça um snippet de código Java conceitual.
+Generate a JUnit 5 unit test class for a Spring Boot `UserService` with a `registerUser(User user)` method that saves a user and `findByUsername(String username)` that retrieves a user. The `UserService` depends on a `UserRepository` interface. Use `@ExtendWith(MockitoExtension.class)` and `@BeforeEach` to configure a `mock UserRepository`. Write a test method that verifies that save is called on the mocked repository with the correct user object.
+```
+
+**5. Code Refactoring and Analysis:**
+```
+Act as a Senior Software Architect. Review the provided Spring Boot service class, responsible for user management. [Insert the Java service class code here]. Identify any 'code smells' (e.g., long method, duplicated code), performance bottlenecks, or areas for structural improvement (e.g., SOLID adherence). Suggest concrete refactoring strategies and explain your reasoning step by step.
+```
+
+**6. Resilience and Inter-Service Communication:**
+```
+Act as a Microservices Architect. For a Spring Boot microservice that makes synchronous REST calls to another internal service (e.g., an `OrderService` calling a `PaymentService`), suggest patterns to improve resilience and performance. Focus on the Circuit Breaker pattern (e.g., using Resilience4j) and client-side load balancing (e.g., using Spring Cloud LoadBalancer). Provide a conceptual Java code snippet.
 ```
 ```
 
 ## Best Practices
-**Definição de Papel (Role-Playing):** Começar o prompt com "Atue como um [Especialista de Domínio]" (ex: Arquiteto, Desenvolvedor Sênior, Debugger) para direcionar o tom e o conhecimento do LLM. **Especificação de Contexto e Versão:** Incluir a tecnologia, framework e versões específicas (ex: Spring Boot 3.2.x, Java 21, PostgreSQL) para garantir a relevância do código e das configurações geradas. **Estrutura de Saída Detalhada:** Usar listas numeradas ou bullets para detalhar os requisitos de saída (ex: Arquitetura, Logging, Documentação) para garantir que o LLM cubra todos os aspectos. **Foco em Não-Funcionais:** Incluir requisitos não-funcionais (ex: SOLID, desempenho, segurança, resiliência) para elevar a qualidade do código gerado além da funcionalidade básica. **Integração de Ferramentas:** Mencionar ferramentas e bibliotecas específicas (ex: HikariCP, Resilience4j, JUnit 5, Mockito) para obter código de integração pronto para uso.
+**Role-Playing Definition:** Begin the prompt with "Act as a [Domain Expert]" (e.g., Architect, Senior Developer, Debugger) to steer the tone and knowledge of the LLM. **Context and Version Specification:** Include the specific technology, framework, and versions (e.g., Spring Boot 3.2.x, Java 21, PostgreSQL) to ensure the relevance of the generated code and configurations. **Detailed Output Structure:** Use numbered lists or bullets to detail the output requirements (e.g., Architecture, Logging, Documentation) to ensure the LLM covers all aspects. **Focus on Non-Functionals:** Include non-functional requirements (e.g., SOLID, performance, security, resilience) to elevate the quality of the generated code beyond basic functionality. **Tool Integration:** Mention specific tools and libraries (e.g., HikariCP, Resilience4j, JUnit 5, Mockito) to obtain ready-to-use integration code.
 
 ## Use Cases
-**Geração Rápida de Boilerplate:** Criar a estrutura inicial de um novo microsserviço em minutos. **Otimização de Desempenho:** Analisar e otimizar consultas de banco de dados, configurações de JVM e estratégias de cache. **Geração de Testes:** Criar testes de unidade e integração complexos, incluindo mocks e configurações específicas. **Segurança e Validação:** Gerar configurações de segurança (JWT, RBAC) e DTOs com validação de entrada robusta. **Refatoração e Análise de Código:** Identificar "code smells" e sugerir melhorias estruturais em código existente. **Documentação Automatizada:** Gerar Javadoc ou anotações OpenAPI/Swagger para APIs.
+**Rapid Boilerplate Generation:** Create the initial structure of a new microservice in minutes. **Performance Optimization:** Analyze and optimize database queries, JVM configurations, and caching strategies. **Test Generation:** Create complex unit and integration tests, including mocks and specific configurations. **Security and Validation:** Generate security configurations (JWT, RBAC) and DTOs with robust input validation. **Code Refactoring and Analysis:** Identify "code smells" and suggest structural improvements in existing code. **Automated Documentation:** Generate Javadoc or OpenAPI/Swagger annotations for APIs.
 
 ## Pitfalls
-**Falta de Contexto:** Prompts muito genéricos levam a código que não se encaixa na arquitetura ou padrões da empresa. **Ignorar Requisitos Não-Funcionais:** Focar apenas na funcionalidade pode resultar em código com problemas de segurança, desempenho ou manutenibilidade. **Dependência Excessiva:** Confiar cegamente no código gerado sem revisão humana, o que pode introduzir bugs sutis ou vulnerabilidades. **Injeção de Prompt (Prompt Injection):** Risco de vulnerabilidade em microsserviços que usam LLMs para geração de conteúdo voltado para o usuário (ex: descrições de produtos), exigindo validação de entrada e guardrails. **Manutenção de Prompts:** Prompts complexos se tornam um ativo de código que precisa de controle de versão e refinamento, assim como o código-fonte.
+**Lack of Context:** Overly generic prompts lead to code that does not fit the company's architecture or standards. **Ignoring Non-Functional Requirements:** Focusing only on functionality can result in code with security, performance, or maintainability problems. **Over-Reliance:** Blindly trusting the generated code without human review, which can introduce subtle bugs or vulnerabilities. **Prompt Injection:** Risk of vulnerability in microservices that use LLMs to generate user-facing content (e.g., product descriptions), requiring input validation and guardrails. **Prompt Maintenance:** Complex prompts become a code asset that needs version control and refinement, just like source code.
 
 ## URL
 [https://medium.com/@prashantjadhav/strategic-ai-prompt-engineering-for-spring-boot-microservices-46bcae26bc79](https://medium.com/@prashantjadhav/strategic-ai-prompt-engineering-for-spring-boot-microservices-46bcae26bc79)

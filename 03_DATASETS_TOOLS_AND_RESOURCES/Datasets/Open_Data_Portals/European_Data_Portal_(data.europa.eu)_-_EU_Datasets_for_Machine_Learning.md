@@ -2,35 +2,35 @@
 
 ## Description
 
-O **European Data Portal (data.europa.eu)** é o ponto de acesso oficial e centralizado aos dados abertos publicados pelas instituições, agências e outros órgãos da União Europeia, bem como por portais de dados nacionais, regionais e locais de 35 países. Sua proposta de valor única reside em facilitar a descoberta e o reuso de dados abertos para inovação, incluindo aplicações de Machine Learning (ML) e Inteligência Artificial (IA). O portal visa fomentar uma comunidade de dados, promover a alfabetização em dados através da **data.europa academy** e fornecer ferramentas para a exploração, padronização e publicação de dados. Ele substituiu o EU Open Data Portal, consolidando o acesso a uma vasta coleção de recursos de dados.
+The **European Data Portal (data.europa.eu)** is the official, centralized access point to open data published by the institutions, agencies, and other bodies of the European Union, as well as by national, regional, and local data portals of 35 countries. Its unique value proposition lies in facilitating the discovery and reuse of open data for innovation, including Machine Learning (ML) and Artificial Intelligence (AI) applications. The portal aims to foster a data community, promote data literacy through the **data.europa academy**, and provide tools for exploring, standardizing, and publishing data. It replaced the EU Open Data Portal, consolidating access to a vast collection of data resources.
 
 ## Statistics
 
-O portal consolida o acesso a uma vasta coleção de dados abertos, com as seguintes métricas chave (em Novembro de 2025):
-*   **Conjuntos de Dados (Datasets):** 1.973.135
-*   **Catálogos (Catalogues):** 203
-*   **Países (Countries):** 35
-*   **Recursos relacionados a "machine learning":** Mais de 6.800 (incluindo 6.443 conjuntos de dados).
-*   **Publicações:** 688
+The portal consolidates access to a vast collection of open data, with the following key metrics (as of November 2025):
+*   **Datasets:** 1,973,135
+*   **Catalogues:** 203
+*   **Countries:** 35
+*   **Resources related to "machine learning":** More than 6,800 (including 6,443 datasets).
+*   **Publications:** 688
 
 ## Features
 
-Acesso programático via API de busca e SPARQL; Ferramentas de exploração, padronização e publicação de dados; data.europa academy com cursos gratuitos para alfabetização em dados; Publicação de relatórios de Maturidade de Dados Abertos (Open Data Maturity); Filtros avançados para pesquisa de conjuntos de dados por tema, origem, formato e qualidade de metadados.
+Programmatic access via search API and SPARQL; tools for exploring, standardizing, and publishing data; data.europa academy with free courses for data literacy; publication of Open Data Maturity reports; advanced filters for searching datasets by theme, source, format, and metadata quality.
 
 ## Use Cases
 
-Os conjuntos de dados da UE disponíveis no portal são utilizados em diversas aplicações de Machine Learning e Inteligência Artificial, incluindo:
-*   **Detecção de Notícias Falsas (Fake News Shield):** Uso de ML para verificar a credibilidade de fontes de notícias e detectar desinformação.
-*   **Monitoramento Ambiental e Desmatamento (Digital Dryads):** Análise de imagens aéreas e de satélite multiespectral para identificar e proteger florestas contra desmatamento ilegal, uma tarefa que se beneficia de modelos de visão computacional.
-*   **Avaliações de Biodiversidade:** Aplicação de algoritmos de Machine Learning (como `randomForest` em R) em dados de inventário florestal para aprimorar as avaliações de biodiversidade na Europa Central.
-*   **Sistemas de Coaching e Otimização:** Uso de dados de feedback de usuários para melhorar a eficácia de sistemas de coaching, como no projeto SAAM Sleep Coaching, utilizando aprendizado por preferência.
+The EU datasets available on the portal are used in various Machine Learning and Artificial Intelligence applications, including:
+*   **Fake News Detection (Fake News Shield):** Using ML to verify the credibility of news sources and detect disinformation.
+*   **Environmental and Deforestation Monitoring (Digital Dryads):** Analysis of aerial and multispectral satellite imagery to identify and protect forests against illegal deforestation, a task that benefits from computer vision models.
+*   **Biodiversity Assessments:** Applying Machine Learning algorithms (such as `randomForest` in R) to forest inventory data to improve biodiversity assessments in Central Europe.
+*   **Coaching and Optimization Systems:** Using user feedback data to improve the effectiveness of coaching systems, such as in the SAAM Sleep Coaching project, using preference learning.
 
 ## Integration
 
-O portal oferece acesso programático aos seus dados e metadados através de uma API de busca baseada em HTTP GET, que retorna resultados em formato JSON.
+The portal offers programmatic access to its data and metadata through an HTTP GET-based search API, which returns results in JSON format.
 
-**Exemplo de Integração (Python com `requests`):**
-A busca por recursos relacionados a "machine learning" pode ser realizada diretamente na API de busca do portal.
+**Integration Example (Python with `requests`):**
+Searching for resources related to "machine learning" can be performed directly on the portal's search API.
 
 ```python
 import requests

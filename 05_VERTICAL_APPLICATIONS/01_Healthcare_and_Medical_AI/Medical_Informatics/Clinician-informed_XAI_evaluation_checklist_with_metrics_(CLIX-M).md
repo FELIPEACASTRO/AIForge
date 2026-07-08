@@ -2,23 +2,23 @@
 
 ## Description
 
-Uma lista de verificação de 14 itens informada por clínicos, incluindo atributos clínicos, de máquina e de decisão, desenvolvida para padronizar a avaliação e o relato de Inteligência Artificial Explicável (XAI) em Sistemas de Suporte à Decisão Clínica (CDSS) baseados em IA. Publicada em 2025, visa aumentar a confiança, reduzir riscos e promover a adoção de IA na medicina. É um passo inicial para a padronização e o relato transparente de métodos XAI para determinar o verdadeiro potencial clínico da XAI aplicada.
+A 14-item clinician-informed checklist, including clinical, machine, and decision attributes, developed to standardize the evaluation and reporting of Explainable Artificial Intelligence (XAI) in AI-based Clinical Decision Support Systems (CDSS). Published in 2025, it aims to increase trust, reduce risks, and promote the adoption of AI in medicine. It is an initial step toward the standardization and transparent reporting of XAI methods to determine the true clinical potential of applied XAI.
 
 ## Statistics
 
-**Publicação:** 14 de Junho de 2025. **Periódico:** npj Digital Medicine. **Acessos:** 4042 (na data da consulta). **Citações:** 2 (na data da consulta). **Impacto:** Reconhecido como um primeiro passo crucial para a padronização da avaliação de XAI em ambientes clínicos.
+**Publication:** June 14, 2025. **Journal:** npj Digital Medicine. **Accesses:** 4042 (as of the consultation date). **Citations:** 2 (as of the consultation date). **Impact:** Recognized as a crucial first step toward the standardization of XAI evaluation in clinical settings.
 
 ## Features
 
-**4 Categorias Principais:** Propósito, Atributos Clínicos, Atributos de Decisão e Atributos de Modelo. **14 Itens de Avaliação:** Inclui itens como Relevância do Domínio, Coerência, Ação, Correção, Confiança, Consistência, Robustez da IA, Validade Causal, Raciocínio Narrativo, Viés e Justiça, Solução de Problemas do Modelo e Limitações da XAI. **Métricas Sugeridas:** Utiliza escalas Likert para atributos clínicos e métricas quantitativas como mIoU, taxa de acerto, bootstrapping e correlação de Spearman para atributos de decisão e modelo.
+**4 Main Categories:** Purpose, Clinical Attributes, Decision Attributes, and Model Attributes. **14 Evaluation Items:** Includes items such as Domain Relevance, Coherence, Actionability, Correctness, Confidence, Consistency, AI Robustness, Causal Validity, Narrative Reasoning, Bias and Fairness, Model Troubleshooting, and XAI Limitations. **Suggested Metrics:** Uses Likert scales for clinical attributes and quantitative metrics such as mIoU, hit rate, bootstrapping, and Spearman correlation for decision and model attributes.
 
 ## Use Cases
 
-**Avaliação de CDSS:** Usado para avaliar a componente XAI em Sistemas de Suporte à Decisão Clínica (CDSS) baseados em IA. **Padronização de Relatórios:** Guia para autores e revisores de manuscritos de IA em informática em saúde para garantir o relato transparente e completo dos métodos XAI. **Desenvolvimento de IA:** Ajuda os desenvolvedores a incorporar atributos clínicos e de decisão relevantes desde o início do desenvolvimento do modelo. **Regulamentação:** Serve como base para reguladores e formuladores de políticas na avaliação da segurança e eficácia de sistemas XAI.
+**CDSS Evaluation:** Used to evaluate the XAI component in AI-based Clinical Decision Support Systems (CDSS). **Reporting Standardization:** A guide for authors and reviewers of AI manuscripts in health informatics to ensure transparent and complete reporting of XAI methods. **AI Development:** Helps developers incorporate relevant clinical and decision attributes from the outset of model development. **Regulation:** Serves as a basis for regulators and policymakers in assessing the safety and effectiveness of XAI systems.
 
 ## Integration
 
-O CLIX-M é uma ferramenta de avaliação e relato, não um modelo de software. Sua integração ocorre no processo de desenvolvimento e avaliação de CDSS baseados em IA, orientando autores, revisores, desenvolvedores e reguladores sobre o que deve ser avaliado e relatado em manuscritos e aplicações de IA. **Exemplos de Aplicação:** O checklist é usado para guiar o desenvolvimento e a avaliação da componente XAI em CDSS, garantindo que as explicações sejam clinicamente relevantes e acionáveis.
+CLIX-M is an evaluation and reporting tool, not a software model. Its integration occurs in the development and evaluation process of AI-based CDSS, guiding authors, reviewers, developers, and regulators on what should be evaluated and reported in AI manuscripts and applications. **Application Examples:** The checklist is used to guide the development and evaluation of the XAI component in CDSS, ensuring that explanations are clinically relevant and actionable.
 
 ## URL
 

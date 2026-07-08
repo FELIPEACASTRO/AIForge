@@ -1,96 +1,96 @@
 # Marketing Strategy Prompts
 
 ## Description
-Prompts de Estratégia de Marketing são instruções estruturadas e detalhadas fornecidas a modelos de linguagem avançados (LLMs) para auxiliar na formulação, planejamento e execução de táticas de marketing. Eles transformam a IA de uma simples geradora de conteúdo em uma parceira estratégica, permitindo que profissionais de marketing criem personas detalhadas, desenvolvam planos de lançamento de produtos, analisem a concorrência, definam metas SMART e estruturem campanhas multicanais. A eficácia desses prompts reside na sua capacidade de fornecer contexto profundo, definir o papel da IA e especificar o formato de saída, garantindo que o resultado seja acionável e alinhado aos objetivos de negócio [1] [3].
+Marketing Strategy Prompts are structured, detailed instructions given to advanced language models (LLMs) to assist in the formulation, planning, and execution of marketing tactics. They transform the AI from a simple content generator into a strategic partner, allowing marketers to create detailed personas, develop product launch plans, analyze the competition, set SMART goals, and structure multichannel campaigns. The effectiveness of these prompts lies in their ability to provide deep context, define the AI's role, and specify the output format, ensuring that the result is actionable and aligned with business objectives [1] [3].
 
 ## Examples
 ```
-**1. Criação de Persona Detalhada (Comportamento e Dor):**
+**1. Detailed Persona Creation (Behavior and Pain):**
 ```
-Aja como um Analista de Mercado Sênior. Crie uma persona de cliente ideal (ICP) para o nosso novo software de gestão de projetos B2B.
+Act as a Senior Market Analyst. Create an ideal customer persona (ICP) for our new B2B project management software.
 
-**Contexto:** Nosso software é focado em pequenas e médias empresas (PMEs) de tecnologia que usam metodologias ágeis.
-**Estrutura de Saída:** Nome, Idade, Cargo, Empresa, Metas, Desafios (Dores), Objeções de Compra, e o principal Canal de Comunicação que devemos usar para alcançá-lo.
-```
-
-**2. Plano de Lançamento de Produto (Framework 5 Ps):**
-```
-Aja como um Estrategista de Lançamento de Produto. Desenvolva um plano de marketing para o lançamento de um novo produto (um fone de ouvido com cancelamento de ruído premium).
-
-**Produto:** Fone de ouvido "Aura Pro" (Preço: R$ 1.500,00).
-**Público:** Profissionais remotos (30-45 anos) que valorizam produtividade e qualidade de áudio.
-**Requisito:** Use o framework dos 5 Ps do Marketing (Produto, Preço, Praça, Promoção, Pessoas) e crie uma tabela com 3 ações concretas para cada P na fase de "Pré-Lançamento".
+**Context:** Our software is focused on small and medium-sized tech companies (SMEs) that use agile methodologies.
+**Output Structure:** Name, Age, Job Title, Company, Goals, Challenges (Pains), Purchase Objections, and the main Communication Channel we should use to reach them.
 ```
 
-**3. Análise Competitiva e Proposta de Valor Única (UVP):**
+**2. Product Launch Plan (5 Ps Framework):**
 ```
-Aja como um Consultor de Branding. Analise nossos dois principais concorrentes e sugira uma Proposta de Valor Única (UVP) que nos diferencie.
+Act as a Product Launch Strategist. Develop a marketing plan for the launch of a new product (a premium noise-cancelling headphone).
 
-**Nosso Produto:** Plataforma de e-learning focada em habilidades de IA.
-**Concorrente A:** Coursera (Foco em certificações universitárias).
-**Concorrente B:** Udemy (Foco em grande volume de cursos de baixo custo).
-**Saída:** Tabela de Análise (Pontos Fortes/Fracos de A e B) e 3 opções de UVP, cada uma com um slogan de 5 palavras.
-```
-
-**4. Estratégia de Conteúdo para SEO (Cluster de Tópicos):**
-```
-Aja como um Especialista em SEO. Crie um cluster de tópicos para o nosso blog focado em "Marketing de Conteúdo para SaaS".
-
-**Tópico Principal (Pilar):** Estratégias de Marketing de Conteúdo para Empresas SaaS.
-**Requisito:** Gere 5 subtópicos (clusters) e, para cada um, liste 3 títulos de artigos (conteúdo de apoio) com alto potencial de busca (long-tail keywords).
+**Product:** "Aura Pro" headphones (Price: R$ 1,500.00).
+**Audience:** Remote professionals (30-45 years old) who value productivity and audio quality.
+**Requirement:** Use the 5 Ps of Marketing framework (Product, Price, Place, Promotion, People) and create a table with 3 concrete actions for each P in the "Pre-Launch" phase.
 ```
 
-**5. Otimização de Campanha de Anúncios (Modelo AIDA):**
+**3. Competitive Analysis and Unique Value Proposition (UVP):**
 ```
-Aja como um Copywriter de Alta Conversão. Reescreva o seguinte texto de anúncio do Facebook para otimizar cada frase para o modelo AIDA (Atenção, Interesse, Desejo, Ação).
+Act as a Branding Consultant. Analyze our two main competitors and suggest a Unique Value Proposition (UVP) that differentiates us.
 
-**Texto Original:** "Nosso novo curso de Python está com 50% de desconto. Inscreva-se agora e aprenda a programar em 30 dias. Vagas limitadas!"
-**Saída:** Apresente o texto reescrito, destacando qual parte corresponde a cada estágio do AIDA.
+**Our Product:** E-learning platform focused on AI skills.
+**Competitor A:** Coursera (Focus on university certifications).
+**Competitor B:** Udemy (Focus on a large volume of low-cost courses).
+**Output:** Analysis Table (Strengths/Weaknesses of A and B) and 3 UVP options, each with a 5-word slogan.
 ```
 
-**6. Definição de Metas SMART para Campanha:**
+**4. SEO Content Strategy (Topic Cluster):**
 ```
-Aja como um Gerente de Projetos. Ajude-me a definir metas SMART para a nossa próxima campanha de e-mail marketing.
+Act as an SEO Specialist. Create a topic cluster for our blog focused on "Content Marketing for SaaS".
 
-**Objetivo Geral:** Aumentar o engajamento dos leads inativos.
-**Requisito:** Crie 3 metas SMART (Específicas, Mensuráveis, Alcançáveis, Relevantes, Temporais) para esta campanha, com métricas e prazos definidos (ex: "Aumentar a taxa de abertura de 10% para 15% em 4 semanas").
+**Main Topic (Pillar):** Content Marketing Strategies for SaaS Companies.
+**Requirement:** Generate 5 subtopics (clusters) and, for each one, list 3 article titles (supporting content) with high search potential (long-tail keywords).
+```
+
+**5. Ad Campaign Optimization (AIDA Model):**
+```
+Act as a High-Conversion Copywriter. Rewrite the following Facebook ad copy to optimize each sentence for the AIDA model (Attention, Interest, Desire, Action).
+
+**Original Text:** "Our new Python course is 50% off. Sign up now and learn to code in 30 days. Limited spots!"
+**Output:** Present the rewritten text, highlighting which part corresponds to each stage of AIDA.
+```
+
+**6. SMART Goal Definition for Campaign:**
+```
+Act as a Project Manager. Help me define SMART goals for our next email marketing campaign.
+
+**Overall Objective:** Increase engagement of inactive leads.
+**Requirement:** Create 3 SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) for this campaign, with defined metrics and deadlines (e.g., "Increase the open rate from 10% to 15% in 4 weeks").
 ```
 ```
 
 ## Best Practices
-**1. Seja Específico e Contextualizado (O Princípio do "Quem, O Quê, Porquê"):** Sempre defina o **papel** da IA (ex: "Aja como um Estrategista de Marketing B2B"), o **objetivo** (ex: "Aumentar a taxa de conversão em 15%"), o **público-alvo** (ex: "Pequenos empresários no setor de tecnologia"), e o **formato de saída** desejado (ex: "Apresente o plano em uma tabela com 5 etapas"). A falta de contexto é a principal causa de resultados genéricos [1] [2].
+**1. Be Specific and Contextualized (The "Who, What, Why" Principle):** Always define the AI's **role** (e.g., "Act as a B2B Marketing Strategist"), the **objective** (e.g., "Increase the conversion rate by 15%"), the **target audience** (e.g., "Small business owners in the tech sector"), and the desired **output format** (e.g., "Present the plan in a table with 5 steps"). Lack of context is the main cause of generic results [1] [2].
 
-**2. Utilize Instruções Personalizadas (Custom Instructions):** Para ferramentas como o ChatGPT, use o recurso de "Instruções Personalizadas" para fornecer informações permanentes sobre sua empresa, tom de voz, público e restrições de marca. Isso economiza tempo e garante consistência em todos os prompts de estratégia [1].
+**2. Use Custom Instructions:** For tools like ChatGPT, use the "Custom Instructions" feature to provide permanent information about your company, tone of voice, audience, and brand constraints. This saves time and ensures consistency across all strategy prompts [1].
 
-**3. Adote a Abordagem "Few-Shot" para Qualidade:** Em vez de apenas dar a tarefa ("Zero-Shot"), forneça um ou dois exemplos de um resultado de alta qualidade que você espera ("Few-Shot"). Isso calibra o modelo para o seu padrão de excelência e estilo [1].
+**3. Adopt the "Few-Shot" Approach for Quality:** Instead of just giving the task ("Zero-Shot"), provide one or two examples of a high-quality result you expect ("Few-Shot"). This calibrates the model to your standard of excellence and style [1].
 
-**4. Itere e Refine (Refine e Pergunte):** O primeiro resultado raramente é o final. Peça à IA para refinar o plano, mudar o tom, ou focar em um aspecto específico. Use perguntas de acompanhamento como: "Como este plano se alinha com o modelo AIDA?" ou "Quais são as métricas SMART para a Etapa 3?" [1].
+**4. Iterate and Refine (Refine and Ask):** The first result is rarely the final one. Ask the AI to refine the plan, change the tone, or focus on a specific aspect. Use follow-up questions such as: "How does this plan align with the AIDA model?" or "What are the SMART metrics for Step 3?" [1].
 
-**5. Valide os Dados e a Estratégia:** A IA pode "alucinar" dados ou sugerir estratégias desatualizadas. Sempre use a IA como um ponto de partida ou um colaborador, mas a validação final da estratégia e dos dados (como volumes de pesquisa ou preços) deve ser feita por um profissional [1].
+**5. Validate the Data and the Strategy:** The AI may "hallucinate" data or suggest outdated strategies. Always use the AI as a starting point or a collaborator, but the final validation of the strategy and data (such as search volumes or prices) should be done by a professional [1].
 
 ## Use Cases
-**1. Planejamento Estratégico:** Criação de planos de marketing de 30/60/90 dias, definição de metas SMART, e estruturação de funis de vendas (AIDA, TOFU/MOFU/BOFU).
+**1. Strategic Planning:** Creating 30/60/90-day marketing plans, defining SMART goals, and structuring sales funnels (AIDA, TOFU/MOFU/BOFU).
 
-**2. Análise de Mercado e Público:** Geração de personas de cliente ideal (ICP), análise SWOT da marca, e pesquisa de tendências de mercado e palavras-chave (SEO).
+**2. Market and Audience Analysis:** Generating ideal customer personas (ICP), brand SWOT analysis, and researching market trends and keywords (SEO).
 
-**3. Criação de Conteúdo Estratégico:** Desenvolvimento de calendários editoriais, criação de clusters de tópicos para blogs, e geração de títulos e metadescrições otimizadas para SEO.
+**3. Strategic Content Creation:** Developing editorial calendars, creating topic clusters for blogs, and generating SEO-optimized titles and meta descriptions.
 
-**4. Otimização de Campanhas Pagas (PPC):** Criação de cópias de anúncios (copy) para Google Ads e Facebook Ads, sugestão de segmentação de público e refinamento da Proposta de Valor Única (UVP) para diferentes canais [1].
+**4. Paid Campaign Optimization (PPC):** Creating ad copy for Google Ads and Facebook Ads, suggesting audience targeting, and refining the Unique Value Proposition (UVP) for different channels [1].
 
-**5. Automação de Comunicação:** Geração de sequências de e-mail marketing (boas-vindas, nutrição, abandono de carrinho) e roteiros para vídeos curtos (TikTok, Reels) alinhados à estratégia de marca [1].
+**5. Communication Automation:** Generating email marketing sequences (welcome, nurturing, cart abandonment) and scripts for short-form videos (TikTok, Reels) aligned with the brand strategy [1].
 
-**6. E-commerce:** Criação de descrições de produtos em massa, otimizadas para conversão e SEO, e sugestão de categorias de produtos com base em tendências de busca [1].
+**6. E-commerce:** Creating product descriptions at scale, optimized for conversion and SEO, and suggesting product categories based on search trends [1].
 
 ## Pitfalls
-**1. A Armadilha da Vaguidão (The Vagueness Trap):** Prompts genéricos como "Crie um plano de marketing" resultam em respostas igualmente genéricas e inúteis. A falta de especificidade sobre o público, o produto e o objetivo anula o valor da IA [1] [2].
+**1. The Vagueness Trap:** Generic prompts like "Create a marketing plan" result in equally generic and useless responses. The lack of specificity about the audience, product, and objective nullifies the value of the AI [1] [2].
 
-**2. Excesso de Confiança e Alucinação (Over-Reliance and Hallucination):** Confiar cegamente na saída da IA sem verificação. A IA pode inventar dados, estatísticas ou fontes (alucinação), o que é perigoso em contextos estratégicos e de dados [1].
+**2. Over-Reliance and Hallucination:** Blindly trusting the AI's output without verification. The AI can invent data, statistics, or sources (hallucination), which is dangerous in strategic and data contexts [1].
 
-**3. Vácuo de Contexto (The Context Vacuum):** Não fornecer à IA o contexto da marca, o tom de voz, as restrições legais ou o histórico de campanhas anteriores. Isso leva a conteúdo que não se alinha com a identidade da marca [1].
+**3. The Context Vacuum:** Failing to provide the AI with the brand context, tone of voice, legal constraints, or the history of previous campaigns. This leads to content that does not align with the brand identity [1].
 
-**4. Sobrecarga de Informação (Information Overload):** Tentar incluir muitos requisitos não relacionados em um único prompt. É mais eficaz quebrar a estratégia em prompts menores e iterativos (ex: primeiro a persona, depois o plano de conteúdo, depois o copy) [1].
+**4. Information Overload:** Trying to include too many unrelated requirements in a single prompt. It is more effective to break the strategy into smaller, iterative prompts (e.g., first the persona, then the content plan, then the copy) [1].
 
-**5. Viés Algorítmico:** A IA pode perpetuar ou amplificar vieses presentes nos dados de treinamento, resultando em estratégias de segmentação ou mensagens que excluem ou ofendem inadvertidamente partes do público-alvo [3].
+**5. Algorithmic Bias:** The AI can perpetuate or amplify biases present in the training data, resulting in targeting strategies or messages that inadvertently exclude or offend parts of the target audience [3].
 
 ## URL
 [https://www.smartinsights.com/managing-digital-marketing/marketing-innovation/the-best-prompts-for-using-chatgpt-for-digital-marketing/](https://www.smartinsights.com/managing-digital-marketing/marketing-innovation/the-best-prompts-for-using-chatgpt-for-digital-marketing/)

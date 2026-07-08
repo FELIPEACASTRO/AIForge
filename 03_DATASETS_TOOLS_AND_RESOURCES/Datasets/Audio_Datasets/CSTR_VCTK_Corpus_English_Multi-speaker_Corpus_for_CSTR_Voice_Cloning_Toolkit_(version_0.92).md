@@ -1,38 +1,38 @@
 # CSTR VCTK Corpus: English Multi-speaker Corpus for CSTR Voice Cloning Toolkit (version 0.92)
 
 ## Description
-O **CSTR VCTK Corpus** (Centre for Speech Technology Voice Cloning Toolkit) é um conjunto de dados de fala multilíngue em inglês, projetado primariamente para pesquisa em **síntese de fala (Text-to-Speech - TTS)**, especialmente para sistemas de síntese adaptativa de falante. A versão mais comum (v0.92) inclui dados de fala proferidos por **110 falantes nativos de inglês** com uma variedade de sotaques regionais. Cada falante lê cerca de 400 frases, selecionadas de um jornal (The Herald, Glasgow), além da "Rainbow Passage" e um parágrafo de eliciação de sotaque. O corpus é amplamente utilizado para treinar modelos de TTS baseados em HMM (Hidden Markov Model) e, mais recentemente, sistemas de síntese de fala multi-falante baseados em Redes Neurais Profundas (DNNs) e modelagem de forma de onda neural, como o WaveNet. O corpus é notável por sua alta qualidade de gravação, realizada em uma câmara hemi-anecoica da Universidade de Edimburgo, usando microfones de alta fidelidade (DPA 4035 e Sennheiser MKH 800), com taxa de amostragem de 96kHz e 24 bits, posteriormente convertidos para 48kHz e 16 bits.
+The **CSTR VCTK Corpus** (Centre for Speech Technology Voice Cloning Toolkit) is an English multi-speaker speech dataset, designed primarily for research in **speech synthesis (Text-to-Speech - TTS)**, especially for speaker-adaptive synthesis systems. The most common version (v0.92) includes speech data uttered by **110 native English speakers** with a variety of regional accents. Each speaker reads about 400 sentences, selected from a newspaper (The Herald, Glasgow), plus the "Rainbow Passage" and an accent-elicitation paragraph. The corpus is widely used to train HMM-based (Hidden Markov Model) TTS models and, more recently, multi-speaker speech synthesis systems based on Deep Neural Networks (DNNs) and neural waveform modeling, such as WaveNet. The corpus is notable for its high recording quality, carried out in a hemi-anechoic chamber at the University of Edinburgh, using high-fidelity microphones (DPA 4035 and Sennheiser MKH 800), with a sampling rate of 96kHz and 24 bits, subsequently converted to 48kHz and 16 bits.
 
 ## Statistics
-- **Tamanho Total:** 10.94 GB (arquivo principal).
-- **Falantes:** 110 falantes nativos de inglês (109 com transcrições completas, `p315` perdeu o arquivo de texto).
-- **Amostras:** Cada falante lê aproximadamente 400 frases. O total de clipes de áudio é de cerca de 44.000.
-- **Duração Total:** Aproximadamente 44 horas de fala.
-- **Taxa de Amostragem:** 48 kHz (originalmente gravado em 96 kHz).
-- **Versão Principal:** 0.92 (disponível desde 2019-11-13).
+- **Total Size:** 10.94 GB (main file).
+- **Speakers:** 110 native English speakers (109 with complete transcriptions, `p315` lost the text file).
+- **Samples:** Each speaker reads approximately 400 sentences. The total number of audio clips is about 44,000.
+- **Total Duration:** Approximately 44 hours of speech.
+- **Sampling Rate:** 48 kHz (originally recorded at 96 kHz).
+- **Main Version:** 0.92 (available since 2019-11-13).
 
 ## Features
-- **Multi-falante e Multi-sotaque:** Contém 110 falantes nativos de inglês com diversos sotaques regionais, tornando-o ideal para modelos de TTS adaptativos e multi-falantes.
-- **Alta Qualidade de Gravação:** Gravado em câmara hemi-anecoica com microfones profissionais (DPA 4035 e Sennheiser MKH 800) a 96kHz/24 bits, posteriormente downsampled para 48kHz/16 bits.
-- **Conteúdo Variado:** As frases incluem textos de jornal, a "Rainbow Passage" (para análise fonética) e um parágrafo de eliciação de sotaque.
-- **Foco em Síntese de Fala:** Originalmente destinado a sistemas de TTS baseados em HMM e, atualmente, crucial para o desenvolvimento de modelos neurais de TTS (como VITS e WaveNet).
+- **Multi-speaker and Multi-accent:** Contains 110 native English speakers with diverse regional accents, making it ideal for adaptive and multi-speaker TTS models.
+- **High Recording Quality:** Recorded in a hemi-anechoic chamber with professional microphones (DPA 4035 and Sennheiser MKH 800) at 96kHz/24 bits, subsequently downsampled to 48kHz/16 bits.
+- **Varied Content:** The sentences include newspaper texts, the "Rainbow Passage" (for phonetic analysis), and an accent-elicitation paragraph.
+- **Focus on Speech Synthesis:** Originally intended for HMM-based TTS systems and, currently, crucial for the development of neural TTS models (such as VITS and WaveNet).
 
 ## Use Cases
-- **Síntese de Fala (Text-to-Speech - TTS):** Treinamento de modelos de TTS de alta qualidade, incluindo sistemas neurais como WaveNet, Tacotron e VITS.
-- **Clonagem de Voz:** Desenvolvimento de sistemas de clonagem de voz e síntese adaptativa de falante.
-- **Reconhecimento de Fala:** Embora não seja o foco principal, pode ser usado para treinamento e avaliação de modelos de reconhecimento de fala multi-falante.
-- **Análise de Sotaque:** Pesquisa em variação fonética e sotaques regionais do inglês.
-- **Aprimoramento de Fala:** Utilizado como base para a criação de datasets derivados para aprimoramento de fala (ex: VCTK-RVA para atributos de voz).
+- **Speech Synthesis (Text-to-Speech - TTS):** Training high-quality TTS models, including neural systems such as WaveNet, Tacotron, and VITS.
+- **Voice Cloning:** Development of voice cloning systems and speaker-adaptive synthesis.
+- **Speech Recognition:** Although not the main focus, it can be used for training and evaluating multi-speaker speech recognition models.
+- **Accent Analysis:** Research in phonetic variation and regional English accents.
+- **Speech Enhancement:** Used as a basis for creating derived datasets for speech enhancement (e.g., VCTK-RVA for voice attributes).
 
 ## Integration
-O dataset VCTK (versão 0.92) está disponível para download no repositório Edinburgh DataShare. O download principal é um arquivo de **10.94 GB** que contém os arquivos de áudio e texto.
+The VCTK dataset (version 0.92) is available for download in the Edinburgh DataShare repository. The main download is a **10.94 GB** file that contains the audio and text files.
 
-**Passos para Integração:**
-1. **Acesso:** Navegue até a página do recurso no Edinburgh DataShare (URL principal fornecida).
-2. **Download:** Clique no link de download do "Main file including audio and text files (10.94Gb)".
-3. **Estrutura:** O corpus geralmente é organizado em pastas para cada falante (`p225`, `p226`, etc.), contendo os arquivos de áudio (`.wav`) e os arquivos de transcrição correspondentes (`.txt`).
-4. **Uso:** Para uso em projetos de aprendizado de máquina, é comum utilizar bibliotecas como `torchaudio` ou `tensorflow_datasets` que podem oferecer wrappers para o VCTK, ou processar manualmente os arquivos de áudio e texto para criar pares de treinamento. Por exemplo, o `tensorflow_datasets` oferece uma versão do VCTK pronta para uso.
-5. **Citação:** É obrigatório citar o trabalho original ao utilizar o corpus.
+**Integration Steps:**
+1. **Access:** Navigate to the resource page on Edinburgh DataShare (main URL provided).
+2. **Download:** Click the download link for the "Main file including audio and text files (10.94Gb)".
+3. **Structure:** The corpus is generally organized into folders for each speaker (`p225`, `p226`, etc.), containing the audio files (`.wav`) and the corresponding transcription files (`.txt`).
+4. **Usage:** For use in machine learning projects, it is common to use libraries such as `torchaudio` or `tensorflow_datasets` which may offer wrappers for VCTK, or to manually process the audio and text files to create training pairs. For example, `tensorflow_datasets` offers a ready-to-use version of VCTK.
+5. **Citation:** It is mandatory to cite the original work when using the corpus.
 
 ## URL
 [https://datashare.ed.ac.uk/handle/10283/3443](https://datashare.ed.ac.uk/handle/10283/3443)

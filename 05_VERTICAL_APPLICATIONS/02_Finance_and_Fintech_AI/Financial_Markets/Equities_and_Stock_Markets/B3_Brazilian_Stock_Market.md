@@ -1,4 +1,4 @@
-# B3 — Brazilian Stock Market (Ações na Bolsa Brasileira)
+# B3 — Brazilian Stock Market
 
 > Reference for cash equities (ações) on **B3 S.A. – Brasil, Bolsa, Balcão**, the sole securities exchange in Brazil: instruments, tickers, indices, trading mechanics, taxation, regulation, and the ML/quant + data stack for Brazilian equities.
 
@@ -8,7 +8,7 @@ B3 (Brasil, Bolsa, Balcão) is Brazil's vertically integrated financial-market i
 
 B3 was formed by the merger of **BM&FBOVESPA** with **Cetip S.A. – Mercados Organizados**, consummated on **29 March 2017**; the corporate name was changed to *B3 S.A. – Brasil, Bolsa, Balcão* later in 2017 ([B3 History (RI)](https://ri.b3.com.br/en/b3/history/)). The lineage: **Bovespa** (Bolsa de Valores de São Paulo, founded **23 August 1890**) and **BM&F** (the mercantile & futures exchange) combined on **8 May 2008** to create BM&FBOVESPA; the 2017 Cetip deal added OTC, depository, registry and financing infrastructure (e.g., auto/real-estate liens), turning the group into a full market-infrastructure company and, at the time, the fifth-largest exchange in the world by market value ([Wikipedia: B3](https://en.wikipedia.org/wiki/B3_(stock_exchange))).
 
-## Corporate governance / listing segments (segmentos de listagem)
+## Corporate governance / listing segments
 
 B3 maintains special listing tiers with progressively stricter governance, created to lower investors' risk perception (reduce information asymmetry) and improve liquidity/valuation ([B3 — Segmentos de listagem](https://www.b3.com.br/pt_br/produtos-e-servicos/solucoes-para-emissores/segmentos-de-listagem/)).
 
@@ -54,7 +54,7 @@ At the close of **2025**, **Itaú (ITUB4)** overtook **Petrobras** as the most v
 - **Standard lot (lote padrão)** = **100 shares** for most equities ([Modalmais](https://ajuda.modalmais.com.br/hc/pt-br/articles/13654333371667-Lote-padr%C3%A3o-dos-principais-ativos)).
 - **Fractional market (mercado fracionário)** lets you trade **1–99 shares**; access it by appending **F** to the ticker — e.g., **VALE3F**, **PETR4F** ([B3 — Bora Investir: ação fracionada](https://borainvestir.b3.com.br/glossario/acao-fracionada/), [InfoMoney — mercado fracionário](https://www.infomoney.com.br/guias/mercado-fracionario-de-acoes/)). The fractional book typically has wider spreads and thinner liquidity than the lote-padrão book.
 
-## Trading hours and auctions (horário de pregão)
+## Trading hours and auctions
 
 Per B3's official equities schedule (Brasília time / BRT, "mercado à vista e fracionário") ([B3 — horário de negociação: ações](https://www.b3.com.br/pt_br/solucoes/plataformas/puma-trading-system/para-participantes-e-traders/horario-de-negociacao/acoes/)):
 
@@ -69,7 +69,7 @@ Per B3's official equities schedule (Brasília time / BRT, "mercado à vista e f
 
 After-market rules: trading is restricted to assets that (i) belong to a main theoretical portfolio — **Ibovespa, IBrX-50, IBrX-100 or IFIX**, (ii) were actually traded in the regular session that day, and (iii) are cash-market; prices may not move more than **±2%** from the regular-session close, with a per-CPF cap. Schedules shift with daylight saving and B3 calendar changes, so always confirm the current page before automating. Matching runs on B3's **PUMA Trading System** engine.
 
-## Main indices (índices)
+## Main indices
 
 The benchmark is the **Ibovespa (IBOV)**. B3 publishes roughly 70 indices ([XP — além do Ibovespa](https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/alem-do-ibovespa-bolsa-brasileira-indices/)).
 
@@ -102,7 +102,7 @@ Most BDRs on B3 are *não patrocinados Nível I*, where the foreign issuer is no
 - **Settlement (liquidação):** cash equities currently settle at **D+2** via B3's integrated clearinghouse / central depository (CSD); short selling uses B3's securities-lending facility (aluguel de ações / BTB). B3 has announced a project to migrate the equities cycle to **D+1 in February 2028** ([B3 — ciclo D+2](https://clientes.b3.com.br/en/w/ciclo-de-liquidacao-d-2), [Bora Investir — projeto D+1](https://borainvestir.b3.com.br/noticias/mercado/b3-anuncia-projeto-para-reducao-do-ciclo-de-liquidacao-de-acoes-para-d1/)).
 - **Brokers / home brokers (corretoras):** retail access via XP, Clear, Rico, BTG Pactual, NuInvest, Inter, C6, Itaú, Bradesco, Ágora, Modalmais, among others. Orders route through the broker's home broker / API into B3's PUMA book.
 
-## Taxation of stocks in Brazil (tributação)
+## Taxation of stocks in Brazil
 
 For **individuals (pessoa física)** on cash equities ([B3 — Bora Investir: IR renda variável](https://borainvestir.b3.com.br/noticias/imposto-de-renda/renda-variavel-imposto-de-renda/comprou-ou-vendeu-acoes-veja-como-declarar-swing-trade-day-trade-e-proventos-no-imposto-de-renda/), [XP — day trade no IR](https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/day-trade-no-imposto-de-renda/)):
 

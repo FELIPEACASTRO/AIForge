@@ -1,60 +1,60 @@
 # Research Proposal Prompts
 
 ## Description
-Os **Research Proposal Prompts** são instruções de engenharia de prompt projetadas para auxiliar pesquisadores, acadêmicos e estudantes na elaboração de propostas de pesquisa, teses, dissertações e pedidos de financiamento (grants). Eles transformam o Large Language Model (LLM) em um assistente de pesquisa e revisor, capaz de gerar ideias de tópicos, estruturar a metodologia, refinar a linguagem, simular a avaliação de revisores e garantir o alinhamento com os critérios de editais e agências de fomento. O foco principal é aprimorar a clareza, a coerência e a persuasão do documento final, cobrindo desde a formulação da pergunta de pesquisa até a justificativa do orçamento.
+**Research Proposal Prompts** are prompt engineering instructions designed to assist researchers, academics, and students in preparing research proposals, theses, dissertations, and funding requests (grants). They transform the Large Language Model (LLM) into a research assistant and reviewer, capable of generating topic ideas, structuring the methodology, refining language, simulating reviewer evaluation, and ensuring alignment with the criteria of calls and funding agencies. The main focus is to enhance the clarity, coherence, and persuasiveness of the final document, covering everything from the formulation of the research question to the budget justification.
 
 ## Examples
 ```
-**1. Geração de Tópicos e Justificativa (Topic Generation and Justification)**
-`"Aja como um especialista em [Área de Pesquisa, ex: Neurociência Computacional]. Gere 5 ideias de tópicos de pesquisa inovadores para um projeto de doutorado, cada um com: 1) Uma pergunta de pesquisa clara, 2) Uma justificativa de por que é relevante em 2025, e 3) Um desafio metodológico principal."`
+**1. Topic Generation and Justification**
+`"Act as a specialist in [Research Area, e.g., Computational Neuroscience]. Generate 5 innovative research topic ideas for a doctoral project, each with: 1) A clear research question, 2) A justification of why it is relevant in 2025, and 3) A main methodological challenge."`
 
-**2. Definição de Escopo e Metodologia (Scope and Methodology Definition)**
-`"Defina o escopo e esboce a metodologia para uma proposta de pesquisa sobre [Tópico, ex: O impacto da IA generativa na produtividade acadêmica]. A metodologia deve incluir: 1) O tipo de pesquisa (quantitativa/qualitativa), 2) As ferramentas/softwares a serem utilizados, e 3) As etapas para garantir a ética e eliminar vieses."`
+**2. Scope and Methodology Definition**
+`"Define the scope and outline the methodology for a research proposal on [Topic, e.g., The impact of generative AI on academic productivity]. The methodology must include: 1) The type of research (quantitative/qualitative), 2) The tools/software to be used, and 3) The steps to ensure ethics and eliminate biases."`
 
-**3. Simulação de Avaliação de Revisor (Reviewer Evaluation Simulation)**
-`"Aja como um revisor cético da [Agência de Fomento, ex: FAPESP]. Avalie o rascunho da minha proposta (texto anexado) com base nos critérios de 'Mérito Científico' e 'Viabilidade Técnica'. Identifique as 3 maiores fraquezas e sugira como fortalecer a argumentação."`
+**3. Reviewer Evaluation Simulation**
+`"Act as a skeptical reviewer from [Funding Agency, e.g., FAPESP]. Evaluate my proposal draft (text attached) based on the criteria of 'Scientific Merit' and 'Technical Feasibility'. Identify the 3 biggest weaknesses and suggest how to strengthen the argument."`
 
-**4. Refinamento da Linguagem e Concisão (Language Refinement and Conciseness)**
-`"Revise o seguinte parágrafo da minha seção de 'Resultados Esperados' para torná-lo mais conciso e persuasivo, mantendo a precisão técnica. O público-alvo é um comitê multidisciplinar. [Insira o Parágrafo]." `
+**4. Language Refinement and Conciseness**
+`"Revise the following paragraph from my 'Expected Results' section to make it more concise and persuasive, while maintaining technical accuracy. The target audience is a multidisciplinary committee. [Insert the Paragraph]." `
 
-**5. Elaboração de Orçamento e Recursos (Budget and Resource Elaboration)**
-`"Com base na metodologia descrita (anexada), liste os recursos necessários (hardware, software, pessoal) e sugira uma justificativa de orçamento para cada item, focando na necessidade e no custo-benefício para um projeto de 2 anos."`
+**5. Budget and Resource Elaboration**
+`"Based on the methodology described (attached), list the necessary resources (hardware, software, personnel) and suggest a budget justification for each item, focusing on the need and the cost-benefit for a 2-year project."`
 
-**6. Análise de Lacunas na Literatura (Literature Gap Analysis)**
-`"Analise o resumo da literatura (texto anexado) e identifique as lacunas de pesquisa que meu projeto pretende preencher. Formule uma declaração de problema clara e concisa (máximo 100 palavras) que posicione meu trabalho como essencial."`
+**6. Literature Gap Analysis**
+`"Analyze the literature summary (text attached) and identify the research gaps that my project intends to fill. Formulate a clear and concise problem statement (maximum 100 words) that positions my work as essential."`
 
-**7. Escrita de Resumo/Abstract (Abstract Writing)**
-`"Gere um resumo (abstract) de 250 palavras para minha proposta de pesquisa. Use as seguintes informações: 1) Objetivo principal, 2) Metodologia resumida, 3) Principais resultados esperados e 4) Implicações/Impacto."`
+**7. Abstract Writing**
+`"Generate a 250-word abstract for my research proposal. Use the following information: 1) Main objective, 2) Summarized methodology, 3) Main expected results, and 4) Implications/Impact."`
 ```
 
 ## Best Practices
-**1. Fornecer Contexto Completo e Estrutura:** Inclua o máximo de detalhes possível sobre o tema, objetivos, público-alvo (revisores, comitê de bolsa) e o formato exigido (BAA, edital, etc.). Use prompts de "cadeia de pensamento" (Chain-of-Thought) para que a IA estruture a resposta em seções lógicas.
+**1. Provide Complete Context and Structure:** Include as many details as possible about the topic, objectives, target audience (reviewers, grant committee), and the required format (BAA, call for proposals, etc.). Use "Chain-of-Thought" prompts so that the AI structures the response into logical sections.
 
-**2. Simulação de Revisor (Role-Playing):** A melhor prática é instruir a IA a assumir o papel de um revisor cético ou especialista da área. Peça para ela avaliar o rascunho da proposta com base em critérios específicos (mérito científico, viabilidade, impacto, alinhamento com o edital).
+**2. Reviewer Simulation (Role-Playing):** The best practice is to instruct the AI to assume the role of a skeptical reviewer or specialist in the field. Ask it to evaluate the proposal draft based on specific criteria (scientific merit, feasibility, impact, alignment with the call for proposals).
 
-**3. Refinamento Iterativo:** Use a IA para refinar a proposta em etapas. Comece com o tópico, depois a metodologia, o orçamento e, por fim, a revisão. Cada saída da IA deve ser um insumo para o próximo prompt.
+**3. Iterative Refinement:** Use the AI to refine the proposal in stages. Start with the topic, then the methodology, the budget, and finally the review. Each AI output should be an input for the next prompt.
 
-**4. Foco na Clareza e Concisão:** Peça à IA para simplificar a linguagem técnica, garantir a clareza dos objetivos e resumir seções longas, pois propostas de pesquisa muitas vezes têm limites de palavras rigorosos.
+**4. Focus on Clarity and Conciseness:** Ask the AI to simplify technical language, ensure the clarity of objectives, and summarize long sections, since research proposals often have strict word limits.
 
 ## Use Cases
-**1. Propostas Acadêmicas:** Elaboração de projetos de pesquisa para mestrado, doutorado e pós-doutorado.
+**1. Academic Proposals:** Preparation of research projects for master's, doctoral, and postdoctoral studies.
 
-**2. Pedidos de Financiamento (Grants):** Redação e refinamento de propostas para agências de fomento (ex: CNPq, FAPESP, NSF, NIH), garantindo o alinhamento com os editais (BAAs - Broad Agency Announcements).
+**2. Funding Requests (Grants):** Writing and refining proposals for funding agencies (e.g., CNPq, FAPESP, NSF, NIH), ensuring alignment with the calls for proposals (BAAs - Broad Agency Announcements).
 
-**3. Planejamento de Tese/Dissertação:** Auxílio na estruturação de capítulos, definição de metodologias e análise de lacunas na literatura para o desenvolvimento de trabalhos de conclusão.
+**3. Thesis/Dissertation Planning:** Assistance in structuring chapters, defining methodologies, and analyzing literature gaps for the development of final papers.
 
-**4. Propostas de Projetos Internos:** Criação de documentos para justificar a alocação de recursos em projetos de P&D dentro de empresas ou instituições.
+**4. Internal Project Proposals:** Creation of documents to justify the allocation of resources in R&D projects within companies or institutions.
 
-**5. Revisão e Autoavaliação:** Uso da IA para simular a avaliação de pares e identificar falhas lógicas, metodológicas ou de alinhamento antes da submissão formal.
+**5. Review and Self-Assessment:** Use of the AI to simulate peer review and identify logical, methodological, or alignment flaws before formal submission.
 
 ## Pitfalls
-**1. Confiança Excessiva na Geração de Conteúdo:** O maior erro é usar o texto gerado pela IA diretamente. A IA pode 'alucinar' referências, metodologias inviáveis ou dados falsos. **Sempre** verifique a precisão científica e a viabilidade.
+**1. Overreliance on Content Generation:** The biggest mistake is using AI-generated text directly. The AI may 'hallucinate' references, unfeasible methodologies, or false data. **Always** verify scientific accuracy and feasibility.
 
-**2. Falta de Especificidade no Contexto:** Prompts vagos levam a propostas genéricas. É crucial fornecer o máximo de contexto específico (área, subárea, critérios do edital, público-alvo) para obter uma saída relevante.
+**2. Lack of Specificity in Context:** Vague prompts lead to generic proposals. It is crucial to provide as much specific context as possible (area, subarea, call criteria, target audience) to obtain a relevant output.
 
-**3. Ignorar a Voz do Pesquisador:** A proposta deve refletir a voz, a experiência e o conhecimento único do pesquisador. A IA deve ser usada para refinar e estruturar, não para substituir a autoria.
+**3. Ignoring the Researcher's Voice:** The proposal must reflect the unique voice, experience, and knowledge of the researcher. The AI should be used to refine and structure, not to replace authorship.
 
-**4. Não Utilizar a Simulação de Revisor:** Deixar de usar a IA para simular a avaliação de um revisor é perder uma das maiores vantagens dessa técnica. A simulação ajuda a identificar pontos fracos antes da submissão.
+**4. Not Using Reviewer Simulation:** Failing to use the AI to simulate a reviewer's evaluation is missing one of the greatest advantages of this technique. The simulation helps identify weak points before submission.
 
 ## URL
 [https://stanfordh4d.substack.com/p/tt4d-using-llms-for-research-proposals](https://stanfordh4d.substack.com/p/tt4d-using-llms-for-research-proposals)

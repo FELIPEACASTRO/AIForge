@@ -2,23 +2,23 @@
 
 ## Description
 
-O Linformer, Performer e Reformer são arquiteturas de Transformer eficientes projetadas para superar a limitação de complexidade quadrática (O(n²)) do mecanismo de auto-atenção padrão, permitindo o processamento de sequências de dados significativamente mais longas com maior eficiência de tempo e memória. O **Linformer** alcança a complexidade linear (O(n)) ao aproximar a auto-atenção por uma matriz de baixo posto. O **Performer** também atinge a complexidade linear (O(n)) através do algoritmo FAVOR+ (Fast Attention Via Positive Orthogonal Random Features), que fornece uma estimativa imparcial da atenção softmax. Já o **Reformer** utiliza Locality-Sensitive Hashing (LSH) para reduzir a complexidade para O(n log n) e Camadas Residuais Reversíveis para otimizar drasticamente o uso de memória, permitindo janelas de contexto de até 1 milhão de palavras. Todos são cruciais para aplicações de modelagem de sequências longas em NLP, genômica e visão computacional.
+Linformer, Performer, and Reformer are efficient Transformer architectures designed to overcome the quadratic complexity (O(n²)) limitation of the standard self-attention mechanism, enabling the processing of significantly longer data sequences with greater time and memory efficiency. **Linformer** achieves linear complexity (O(n)) by approximating self-attention with a low-rank matrix. **Performer** also achieves linear complexity (O(n)) through the FAVOR+ algorithm (Fast Attention Via Positive Orthogonal Random Features), which provides an unbiased estimate of softmax attention. **Reformer**, meanwhile, uses Locality-Sensitive Hashing (LSH) to reduce complexity to O(n log n) and Reversible Residual Layers to dramatically optimize memory usage, enabling context windows of up to 1 million words. All are crucial for long-sequence modeling applications in NLP, genomics, and computer vision.
 
 ## Statistics
 
-Linformer: Complexidade O(n) em tempo e espaço. Performer: Complexidade O(n) em tempo e espaço. Reformer: Complexidade O(n log n) na atenção, Janela de Contexto de até 1 milhão de palavras, Uso de Memória de 16 GB em um único acelerador.
+Linformer: O(n) complexity in time and space. Performer: O(n) complexity in time and space. Reformer: O(n log n) complexity in attention, context window of up to 1 million words, memory usage of 16 GB on a single accelerator.
 
 ## Features
 
-Linformer: Atenção Linear (O(n)), Aproximação por Matriz de Baixo Posto, Eficiência de Memória e Tempo. Performer: Atenção Linear (O(n)), Algoritmo FAVOR+, Atenção Baseada em Kernel, Compatibilidade com Pré-treinamento. Reformer: Atenção LSH (O(n log n)), Camadas Residuais Reversíveis, Chunking, Eficiência Extrema para Sequências Longas.
+Linformer: Linear Attention (O(n)), Low-Rank Matrix Approximation, Memory and Time Efficiency. Performer: Linear Attention (O(n)), FAVOR+ Algorithm, Kernel-Based Attention, Compatibility with Pre-training. Reformer: LSH Attention (O(n log n)), Reversible Residual Layers, Chunking, Extreme Efficiency for Long Sequences.
 
 ## Use Cases
 
-Modelagem de Sequências Longas (NLP, Genômica); Classificação de Texto (Linformer); Geração de Imagens e Vídeos (Reformer); Aplicações em Vision Transformers (Linformer); Compreensão de Contexto em Larga Escala.
+Long-Sequence Modeling (NLP, Genomics); Text Classification (Linformer); Image and Video Generation (Reformer); Applications in Vision Transformers (Linformer); Large-Scale Context Understanding.
 
 ## Integration
 
-Linformer e Performer são integrados principalmente via bibliotecas PyTorch de terceiros (ex: lucidrains). O Reformer possui integração oficial e nativa na biblioteca Hugging Face Transformers, facilitando o uso de modelos pré-treinados. Todos oferecem exemplos de código conceitual em Python/PyTorch para implementação de seus mecanismos de atenção e arquiteturas.
+Linformer and Performer are integrated primarily via third-party PyTorch libraries (e.g., lucidrains). Reformer has official, native integration in the Hugging Face Transformers library, making it easy to use pre-trained models. All provide conceptual code examples in Python/PyTorch for implementing their attention mechanisms and architectures.
 
 ## URL
 

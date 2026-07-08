@@ -1,93 +1,93 @@
 # Drug Discovery Prompts
 
 ## Description
-A Engenharia de Prompt para Descoberta de Medicamentos (Drug Discovery Prompts) é a arte e a ciência de criar instruções otimizadas para Modelos de Linguagem Grandes (LLMs) e Modelos Multimodais (MLLMs) com o objetivo de acelerar e aprimorar as etapas do ciclo de desenvolvimento de fármacos. Esta técnica permite que pesquisadores e químicos medicinais utilizem a capacidade de processamento de linguagem natural dos LLMs para tarefas complexas, como a **triagem virtual**, **otimização de moléculas**, **previsão de propriedades ADMET** (Absorção, Distribuição, Metabolismo, Excreção e Toxicidade) e a **análise de vastas quantidades de literatura científica** [1] [2].
+Prompt Engineering for Drug Discovery (Drug Discovery Prompts) is the art and science of creating optimized instructions for Large Language Models (LLMs) and Multimodal Models (MLLMs) with the goal of accelerating and improving the stages of the drug development cycle. This technique allows researchers and medicinal chemists to use the natural language processing capabilities of LLMs for complex tasks, such as **virtual screening**, **molecule optimization**, **ADMET property prediction** (Absorption, Distribution, Metabolism, Excretion, and Toxicity), and the **analysis of vast amounts of scientific literature** [1] [2].
 
-Ao invés de depender apenas de modelos de aprendizado de máquina (ML) treinados especificamente, o Prompt Engineering adapta modelos de propósito geral para o domínio científico, atuando como um "avaliador, colaborador e cientista" no processo de P&D [3].
+Instead of relying solely on specifically trained machine learning (ML) models, Prompt Engineering adapts general-purpose models to the scientific domain, acting as an "evaluator, collaborator, and scientist" in the R&D process [3].
 
-## Referências
-[1] Certara. Best Practices for AI Prompt Engineering in Life Sciences in 2025. Disponível em: [https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/](https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/)
+## References
+[1] Certara. Best Practices for AI Prompt Engineering in Life Sciences in 2025. Available at: [https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/](https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/)
 [2] Othman, Z. K. et al. Advancing drug discovery and development through GPT models: a review on challenges, innovations and future prospects. *Intelligence-Based Medicine*, 2025.
 [3] Zhang, H. et al. The evolving role of large language models in scientific innovation: Evaluator, collaborator, and scientist. *arXiv preprint arXiv:2507.11810*, 2025.
 
 ## Examples
 ```
-A seguir, 5 exemplos de prompts concretos e acionáveis, focados em diferentes etapas da descoberta de medicamentos:
+Below are 5 concrete and actionable prompt examples, focused on different stages of drug discovery:
 
-1.  **Previsão de Propriedades ADMET (ADMET Prediction)**
+1.  **ADMET Property Prediction (ADMET Prediction)**
     \`\`\`
-    Atue como um químico medicinal sênior. Sua tarefa é prever as propriedades ADMET para a molécula com a string SMILES: C1=CC=C(C=C1)C(C(=O)O)N.
+    Act as a senior medicinal chemist. Your task is to predict the ADMET properties for the molecule with the SMILES string: C1=CC=C(C=C1)C(C(=O)O)N.
     
-    Forneça a resposta em formato JSON com as seguintes chaves:
+    Provide the response in JSON format with the following keys:
     - 'Molecule_SMILES'
-    - 'Toxicity_Prediction' (ex: 'Baixa', 'Média', 'Alta')
-    - 'Solubility_Prediction' (ex: 'Alta', 'Baixa')
-    - 'LogP_Value' (Valor numérico)
-    - 'Rationale' (Breve explicação do porquê das previsões)
+    - 'Toxicity_Prediction' (e.g., 'Low', 'Medium', 'High')
+    - 'Solubility_Prediction' (e.g., 'High', 'Low')
+    - 'LogP_Value' (Numeric value)
+    - 'Rationale' (Brief explanation of the reasoning behind the predictions)
     \`\`\`
 
-2.  **Geração de Moléculas *De Novo***
+2.  **De Novo Molecule Generation**
     \`\`\`
-    Gere 5 strings SMILES para moléculas que atuam como inibidores seletivos do receptor de [Proteína Alvo, ex: EGFR].
+    Generate 5 SMILES strings for molecules that act as selective inhibitors of the [Target Protein, e.g., EGFR] receptor.
     
-    **Restrições:**
-    - Peso molecular entre 350 e 450 Da.
-    - LogP inferior a 3.5.
-    - Deve conter um anel de piridina.
+    **Constraints:**
+    - Molecular weight between 350 and 450 Da.
+    - LogP below 3.5.
+    - Must contain a pyridine ring.
     
-    Liste as 5 moléculas em um formato de lista numerada, sem texto adicional.
+    List the 5 molecules in a numbered list format, with no additional text.
     \`\`\`
 
-3.  **Análise de Literatura Científica (Extração de Dados)**
+3.  **Scientific Literature Analysis (Data Extraction)**
     \`\`\`
-    Você é um assistente de pesquisa. Analise o seguinte resumo de artigo científico: [TEXTO DO RESUMO AQUI].
+    You are a research assistant. Analyze the following scientific article abstract: [ABSTRACT TEXT HERE].
     
-    **Tarefa:** Extraia todas as interações droga-droga mencionadas e liste-as em formato de tabela Markdown com as colunas 'Droga 1', 'Droga 2' e 'Efeito Observado' (ex: 'Potencialização', 'Inibição'). Se não houver interações, responda "Nenhuma interação droga-droga encontrada".
+    **Task:** Extract all drug-drug interactions mentioned and list them in a Markdown table format with the columns 'Drug 1', 'Drug 2', and 'Observed Effect' (e.g., 'Potentiation', 'Inhibition'). If there are no interactions, respond "No drug-drug interactions found".
     \`\`\`
 
-4.  **Otimização de *Leads* (Melhoria de Biodisponibilidade)**
+4.  **Lead Optimization (Bioavailability Improvement)**
     \`\`\`
-    A molécula candidata com a string SMILES: [SMILES STRING AQUI] demonstrou baixa biodisponibilidade oral (F% < 10) em estudos pré-clínicos.
+    The candidate molecule with the SMILES string: [SMILES STRING HERE] demonstrated low oral bioavailability (F% < 10) in preclinical studies.
     
-    **Tarefa:** Sugira três modificações estruturais distintas para aumentar a biodisponibilidade, focando em melhorar a solubilidade e a permeabilidade.
+    **Task:** Suggest three distinct structural modifications to increase bioavailability, focusing on improving solubility and permeability.
     
-    Para cada sugestão, forneça:
-    1. O racional químico para a modificação.
-    2. A nova string SMILES da molécula modificada.
+    For each suggestion, provide:
+    1. The chemical rationale for the modification.
+    2. The new SMILES string of the modified molecule.
     \`\`\`
 
-5.  **Validação de Alvo e Mecanismo de Ação**
+5.  **Target Validation and Mechanism of Action**
     \`\`\`
-    Explique o papel da proteína [Nome da Proteína, ex: JAK2] na patogênese da doença [Nome da Doença, ex: Mielofibrose].
+    Explain the role of the protein [Protein Name, e.g., JAK2] in the pathogenesis of the disease [Disease Name, e.g., Myelofibrosis].
     
-    **Instruções:**
-    - Use uma linguagem acessível, mas cientificamente precisa.
-    - Mencione o mecanismo de ação e as vias de sinalização envolvidas.
-    - Responda em 3 parágrafos concisos.
+    **Instructions:**
+    - Use accessible but scientifically precise language.
+    - Mention the mechanism of action and the signaling pathways involved.
+    - Respond in 3 concise paragraphs.
     \`\`\`
 ```
 
 ## Best Practices
-As melhores práticas para "Drug Discovery Prompts" se baseiam na clareza, especificidade e na incorporação de conhecimento de domínio [1]:
+The best practices for "Drug Discovery Prompts" are based on clarity, specificity, and the incorporation of domain knowledge [1]:
 
-*   **Definir a Persona e o Contexto:** Comece o prompt instruindo o LLM a assumir um papel específico (ex: "Atue como um químico medicinal sênior" ou "Você é um especialista em bioinformática").
-*   **Estrutura do Prompt (CDTF):** Utilize os quatro componentes essenciais: **Contexto** (o papel e o objetivo), **Dados** (a string SMILES, o texto do artigo), **Tarefa** (a ação a ser executada) e **Formato** (JSON, tabela Markdown, lista numerada) [1].
-*   **One-Shot/Few-Shot Prompting:** Fornecer um ou mais exemplos de entrada e saída desejada é crucial para tarefas técnicas, como a geração de SMILES ou a classificação de toxicidade.
-*   **Restrição de Alucinação:** Inclua instruções explícitas para mitigar a "alucinação" (geração de informações falsas). Ex: "Use apenas informações de artigos revisados por pares publicados após 2023. Se a informação não estiver disponível, responda 'Não sei'."
-*   **Uso de Formatos Estruturados:** Sempre que possível, solicite a saída em formatos estruturados (JSON, CSV, Tabela Markdown) para facilitar a análise e o processamento posterior.
+*   **Define the Persona and Context:** Begin the prompt by instructing the LLM to assume a specific role (e.g., "Act as a senior medicinal chemist" or "You are a bioinformatics expert").
+*   **Prompt Structure (CDTF):** Use the four essential components: **Context** (the role and objective), **Data** (the SMILES string, the article text), **Task** (the action to be performed), and **Format** (JSON, Markdown table, numbered list) [1].
+*   **One-Shot/Few-Shot Prompting:** Providing one or more examples of the desired input and output is crucial for technical tasks, such as SMILES generation or toxicity classification.
+*   **Hallucination Constraint:** Include explicit instructions to mitigate "hallucination" (generation of false information). E.g.: "Use only information from peer-reviewed articles published after 2023. If the information is not available, respond 'I don't know'."
+*   **Use of Structured Formats:** Whenever possible, request the output in structured formats (JSON, CSV, Markdown Table) to facilitate subsequent analysis and processing.
 
 ## Use Cases
-*   **Previsão de Propriedades (ADMET):** Prever rapidamente a toxicidade, solubilidade, permeabilidade e outras propriedades farmacocinéticas de milhares de moléculas candidatas.
-*   **Geração *De Novo* de Moléculas:** Criar novas estruturas moleculares com base em um perfil de propriedades alvo (Target Product Profile - TPP) e restrições químicas específicas.
-*   **Revisão e Síntese de Literatura:** Extrair informações específicas (ex: doses, resultados de ensaios clínicos, interações medicamentosas) de artigos científicos e patentes de forma automatizada.
-*   **Otimização de *Leads*:** Sugerir modificações químicas para melhorar uma propriedade indesejada (ex: aumentar a potência, reduzir a toxicidade) de um composto líder.
-*   **Síntese Retrossintética:** Propor rotas de síntese química viáveis para uma molécula alvo.
+*   **Property Prediction (ADMET):** Quickly predict the toxicity, solubility, permeability, and other pharmacokinetic properties of thousands of candidate molecules.
+*   **De Novo Molecule Generation:** Create new molecular structures based on a target property profile (Target Product Profile - TPP) and specific chemical constraints.
+*   **Literature Review and Synthesis:** Extract specific information (e.g., doses, clinical trial results, drug interactions) from scientific articles and patents in an automated way.
+*   **Lead Optimization:** Suggest chemical modifications to improve an undesirable property (e.g., increase potency, reduce toxicity) of a lead compound.
+*   **Retrosynthetic Analysis:** Propose viable chemical synthesis routes for a target molecule.
 
 ## Pitfalls
-*   **Alucinação de Dados Científicos:** O risco mais grave. O LLM pode gerar strings SMILES inválidas, dados de toxicidade incorretos ou citar artigos inexistentes. **Solução:** Restrição rigorosa e verificação cruzada com bases de dados confiáveis.
-*   **Falta de Especificidade Química:** Prompts vagos resultam em sugestões quimicamente irrelevantes ou inviáveis. **Solução:** Usar termos técnicos precisos (ex: "inibidor seletivo", "grupo funcional hidroxila", "LogP").
-*   **Dependência Excessiva do LLM:** O LLM é uma ferramenta de auxílio, não um químico. Confiar cegamente nas sugestões sem validação experimental ou computacional pode levar a becos sem saída.
-*   **Limitação de Contexto:** A capacidade de processar longas strings SMILES ou grandes conjuntos de dados pode ser limitada pelo tamanho da janela de contexto do modelo. **Solução:** Dividir tarefas complexas em subtarefas menores (Chain-of-Thought ou uso de agentes).
+*   **Hallucination of Scientific Data:** The most serious risk. The LLM may generate invalid SMILES strings, incorrect toxicity data, or cite nonexistent articles. **Solution:** Rigorous constraints and cross-verification against reliable databases.
+*   **Lack of Chemical Specificity:** Vague prompts result in chemically irrelevant or unfeasible suggestions. **Solution:** Use precise technical terms (e.g., "selective inhibitor", "hydroxyl functional group", "LogP").
+*   **Over-Reliance on the LLM:** The LLM is an assistance tool, not a chemist. Blindly trusting the suggestions without experimental or computational validation can lead to dead ends.
+*   **Context Limitation:** The ability to process long SMILES strings or large datasets may be limited by the model's context window size. **Solution:** Break complex tasks into smaller subtasks (Chain-of-Thought or the use of agents).
 
 ## URL
 [https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/](https://www.certara.com/blog/best-practices-for-ai-prompt-engineering-in-life-sciences/)

@@ -2,44 +2,44 @@
 
 ## Description
 
-Temporal Graph Networks (TGNs) são uma estrutura genérica e eficiente para aprendizado profundo em grafos dinâmicos, representados como sequências de eventos temporizados. O TGN aborda a limitação das Redes Neurais Gráficas (GNNs) tradicionais, que não conseguem modelar efetivamente a natureza evolutiva de muitos sistemas do mundo real (como redes sociais, transações financeiras e interações biológicas). Sua proposta de valor única reside na combinação de **módulos de memória** e **operadores baseados em grafos** para gerar embeddings temporais de nós que capturam o estado de cada nó em qualquer ponto no tempo, permitindo que o modelo se adapte e preveja mudanças na estrutura e nas características do grafo ao longo do tempo. O TGN generaliza vários modelos anteriores de aprendizado de grafos dinâmicos, como JODIE e DyRep, como instâncias específicas de sua estrutura.
+Temporal Graph Networks (TGNs) are a generic and efficient framework for deep learning on dynamic graphs, represented as sequences of timed events. TGN addresses the limitation of traditional Graph Neural Networks (GNNs), which cannot effectively model the evolving nature of many real-world systems (such as social networks, financial transactions, and biological interactions). Its unique value proposition lies in combining **memory modules** and **graph-based operators** to generate temporal node embeddings that capture the state of each node at any point in time, allowing the model to adapt to and predict changes in the graph's structure and features over time. TGN generalizes several previous dynamic graph learning models, such as JODIE and DyRep, as specific instances of its framework.
 
 ## Statistics
 
-**Desempenho de Estado da Arte (SOTA):** O TGN alcançou desempenho SOTA em várias tarefas de previsão transdutiva e indutiva em grafos dinâmicos no momento de sua publicação. **Eficiência:** Demonstrou ser mais eficiente computacionalmente do que modelos anteriores como JODIE e DyRep. **Citações:** O artigo original (`arXiv:2006.10637`) possui mais de 1.100 citações (em 2024), indicando sua ampla adoção e influência na pesquisa de aprendizado de grafos dinâmicos. **Implementação:** O repositório GitHub oficial possui mais de 1.100 estrelas e 220 forks, refletindo sua popularidade na comunidade de pesquisa. **Linguagem:** Implementado 100% em Python, utilizando a biblioteca PyTorch.
+**State-of-the-Art (SOTA) Performance:** TGN achieved SOTA performance on several transductive and inductive prediction tasks on dynamic graphs at the time of its publication. **Efficiency:** It was shown to be more computationally efficient than previous models like JODIE and DyRep. **Citations:** The original paper (`arXiv:2006.10637`) has over 1,100 citations (as of 2024), indicating its wide adoption and influence in dynamic graph learning research. **Implementation:** The official GitHub repository has over 1,100 stars and 220 forks, reflecting its popularity in the research community. **Language:** Implemented 100% in Python, using the PyTorch library.
 
 ## Features
 
-**Módulos de Memória:** Armazenam e atualizam um estado de memória para cada nó, permitindo que o modelo retenha informações sobre o histórico de interações do nó. A memória é atualizada após cada evento temporal (interação). **Função de Agregação de Mensagens:** Agrega mensagens de vizinhos temporais para formar uma nova mensagem para o nó de destino. O TGN suporta diferentes agregadores, como agregação de atenção (TGN-attn) e agregação de soma. **Módulo de Incorporação Temporal:** Codifica a diferença de tempo entre o evento atual e o último evento armazenado na memória, permitindo que o modelo capture a importância da recência. **Generalização:** A estrutura TGN é flexível e pode ser configurada para replicar o comportamento de modelos anteriores de grafos dinâmicos, como JODIE e DyRep, por meio de diferentes configurações de seus componentes. **Eficiência Computacional:** Projetado para ser mais eficiente computacionalmente do que as abordagens anteriores, especialmente em tarefas transdutivas e indutivas.
+**Memory Modules:** Store and update a memory state for each node, allowing the model to retain information about the node's interaction history. The memory is updated after each temporal event (interaction). **Message Aggregation Function:** Aggregates messages from temporal neighbors to form a new message for the target node. TGN supports different aggregators, such as attention aggregation (TGN-attn) and sum aggregation. **Temporal Embedding Module:** Encodes the time difference between the current event and the last event stored in memory, allowing the model to capture the importance of recency. **Generalization:** The TGN framework is flexible and can be configured to replicate the behavior of previous dynamic graph models, such as JODIE and DyRep, through different configurations of its components. **Computational Efficiency:** Designed to be more computationally efficient than previous approaches, especially on transductive and inductive tasks.
 
 ## Use Cases
 
-**Previsão de Link (Link Prediction):** Prever a formação de novas arestas (interações) em um grafo dinâmico, como prever futuras conexões em redes sociais ou transações em redes financeiras. **Classificação de Nós (Node Classification):** Classificar o tipo ou o estado de um nó em um determinado momento, como identificar usuários maliciosos em uma rede social ou classificar o tipo de entidade em uma rede de conhecimento em evolução. **Detecção de Anomalias em Grafos (Graph Anomaly Detection):** Identificar eventos ou nós incomuns que se desviam do comportamento normal do grafo, como detecção de fraude em transações financeiras ou identificação de ataques em redes de comunicação. **Sistemas de Recomendação:** Modelar as interações temporais entre usuários e itens para fornecer recomendações mais precisas e sensíveis ao tempo. **Modelagem de Sistemas Físicos:** Prever a dinâmica de longo prazo de sistemas físicos complexos, como em simulações de física.
+**Link Prediction:** Predict the formation of new edges (interactions) in a dynamic graph, such as predicting future connections in social networks or transactions in financial networks. **Node Classification:** Classify the type or state of a node at a given moment, such as identifying malicious users in a social network or classifying the entity type in an evolving knowledge graph. **Graph Anomaly Detection:** Identify unusual events or nodes that deviate from the graph's normal behavior, such as fraud detection in financial transactions or identifying attacks in communication networks. **Recommendation Systems:** Model the temporal interactions between users and items to provide more accurate and time-sensitive recommendations. **Physical Systems Modeling:** Predict the long-term dynamics of complex physical systems, such as in physics simulations.
 
 ## Integration
 
-A implementação mais popular e mantida do TGN está disponível no **PyTorch Geometric (PyG)**, uma biblioteca líder para GNNs em PyTorch. A classe `torch_geometric.nn.models.TGN` fornece uma implementação pronta para uso.
+The most popular and maintained implementation of TGN is available in **PyTorch Geometric (PyG)**, a leading library for GNNs in PyTorch. The `torch_geometric.nn.models.TGN` class provides a ready-to-use implementation.
 
-**Exemplo de Integração (PyTorch Geometric):**
+**Integration Example (PyTorch Geometric):**
 
 ```python
 import torch
 from torch_geometric.nn import TGN
 from torch_geometric.datasets import TGNExample
 
-# 1. Carregar um conjunto de dados de grafo dinâmico de exemplo
+# 1. Load an example dynamic graph dataset
 dataset = TGNExample(name='wikipedia')
 data = dataset[0]
 
-# 2. Inicializar o modelo TGN
-# Parâmetros chave:
-# - num_nodes: Número total de nós
-# - raw_msg_dim: Dimensão da característica da mensagem (geralmente a dimensão da característica da aresta)
-# - memory_dim: Dimensão do estado de memória de cada nó
-# - time_dim: Dimensão da incorporação temporal
-# - num_layers: Número de camadas de atenção do grafo
-# - use_memory: Se deve usar o módulo de memória
-# - aggregator: Tipo de agregador de mensagens ('last', 'mean', 'attn')
+# 2. Initialize the TGN model
+# Key parameters:
+# - num_nodes: Total number of nodes
+# - raw_msg_dim: Dimension of the message feature (usually the edge feature dimension)
+# - memory_dim: Dimension of each node's memory state
+# - time_dim: Dimension of the temporal embedding
+# - num_layers: Number of graph attention layers
+# - use_memory: Whether to use the memory module
+# - aggregator: Type of message aggregator ('last', 'mean', 'attn')
 
 tgn = TGN(
     num_nodes=data.num_nodes,
@@ -51,28 +51,28 @@ tgn = TGN(
     aggregator='attn'
 )
 
-# 3. Exemplo de uso (Previsão de Link)
-# O TGN é normalmente usado em um loop de treinamento que processa eventos em lotes.
+# 3. Usage example (Link Prediction)
+# TGN is typically used in a training loop that processes events in batches.
 
-# Simulação de um lote de eventos (interações)
+# Simulation of a batch of events (interactions)
 src = data.src[:100]
 dst = data.dst[:100]
 t = data.t[:100]
 msg = data.msg[:100]
 
-# 4. Obter embeddings de nós temporais
-# O TGN retorna os embeddings de nós *antes* e *depois* da atualização da memória.
-# O módulo de memória é atualizado internamente.
+# 4. Obtain temporal node embeddings
+# TGN returns the node embeddings *before* and *after* the memory update.
+# The memory module is updated internally.
 z, last_update = tgn(src, dst, t, msg)
 
-# z contém os embeddings de nós para src e dst.
-# last_update contém o tempo da última atualização para cada nó.
+# z contains the node embeddings for src and dst.
+# last_update contains the time of the last update for each node.
 
-# 5. Resetar o estado da memória (necessário antes de um novo epoch ou teste)
+# 5. Reset the memory state (required before a new epoch or test)
 # tgn.memory.reset_state()
 ```
 
-**Dependências:**
+**Dependencies:**
 *   `torch`
 *   `torch-geometric` (PyG)
 *   `pandas`

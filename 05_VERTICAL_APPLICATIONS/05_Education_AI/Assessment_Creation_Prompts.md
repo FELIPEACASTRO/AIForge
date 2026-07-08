@@ -1,71 +1,71 @@
 # Assessment Creation Prompts
 
 ## Description
-**Assessment Creation Prompts** (Prompts para Criação de Avaliações) são instruções estruturadas e detalhadas fornecidas a modelos de Linguagem Grande (LLMs) para gerar, modificar ou refinar materiais de avaliação, como testes, questionários, tarefas e rubricas. O objetivo principal é otimizar o tempo de educadores e criadores de conteúdo, permitindo que a IA atue como um assistente na elaboração de itens de avaliação que sejam válidos, confiáveis e alinhados aos objetivos de aprendizagem específicos. A eficácia desses prompts reside na sua capacidade de especificar o formato da questão, o nível de dificuldade, o contexto do conteúdo e, idealmente, a inclusão de respostas e justificativas.
+**Assessment Creation Prompts** are structured and detailed instructions provided to Large Language Models (LLMs) to generate, modify, or refine assessment materials such as tests, quizzes, assignments, and rubrics. The main goal is to save time for educators and content creators, enabling AI to act as an assistant in crafting assessment items that are valid, reliable, and aligned with specific learning objectives. The effectiveness of these prompts lies in their ability to specify the question format, difficulty level, content context, and, ideally, the inclusion of answers and justifications.
 
 ## Examples
 ```
-1.  **Criação de Banco de Questões de Múltipla Escolha:**
+1.  **Creating a Multiple-Choice Question Bank:**
     ```
-    Aja como um professor universitário de [Área: Ciência da Computação].
-    Crie 10 questões de múltipla escolha sobre o tópico "[Tópico: Estruturas de Dados - Listas Encadeadas]".
-    As questões devem ser de nível de dificuldade [Nível: Intermediário/Avançado] e testar a [Habilidade: Aplicação e Análise].
-    Para cada questão, forneça 4 alternativas, sendo uma correta. Inclua a resposta correta e uma breve justificativa para a resposta.
-    Formato de saída: Questão, Alternativas (A, B, C, D), Resposta Correta, Justificativa.
+    Act as a university professor of [Field: Computer Science].
+    Create 10 multiple-choice questions on the topic "[Topic: Data Structures - Linked Lists]".
+    The questions should be at a [Level: Intermediate/Advanced] difficulty level and test [Skill: Application and Analysis].
+    For each question, provide 4 options, one of which is correct. Include the correct answer and a brief justification for the answer.
+    Output format: Question, Options (A, B, C, D), Correct Answer, Justification.
     ```
-2.  **Geração de Estudo de Caso para Avaliação Dissertativa:**
+2.  **Generating a Case Study for Essay Assessment:**
     ```
-    Aja como um consultor de RH sênior.
-    Crie um estudo de caso detalhado para uma avaliação dissertativa sobre "[Tema: Liderança em Crises]".
-    O estudo de caso deve incluir: 1) Um cenário de crise empresarial (máximo 300 palavras); 2) O papel do aluno (ex: CEO, Gerente de Comunicação); 3) Uma pergunta de avaliação que exija uma resposta de 500 palavras, focada em [Foco: Estratégia de Comunicação e Tomada de Decisão Ética].
+    Act as a senior HR consultant.
+    Create a detailed case study for an essay assessment on "[Topic: Leadership in Crises]".
+    The case study should include: 1) A business crisis scenario (maximum 300 words); 2) The student's role (e.g., CEO, Communications Manager); 3) An assessment question that requires a 500-word response, focused on [Focus: Communication Strategy and Ethical Decision-Making].
     ```
-3.  **Variação de Nível de Dificuldade (Taxonomia de Bloom):**
+3.  **Difficulty Level Variation (Bloom's Taxonomy):**
     ```
-    Pegue a seguinte questão de múltipla escolha: "[Questão Original]".
-    Reescreva esta questão para que ela avalie a [Nível da Taxonomia de Bloom: Avaliação/Criação], em vez de apenas [Nível Original: Conhecimento/Compreensão].
-    Mantenha o tópico central e o formato de múltipla escolha, mas crie um novo cenário ou exija uma análise mais profunda.
+    Take the following multiple-choice question: "[Original Question]".
+    Rewrite this question so that it assesses [Bloom's Taxonomy Level: Evaluation/Creation], instead of merely [Original Level: Knowledge/Comprehension].
+    Keep the central topic and the multiple-choice format, but create a new scenario or require deeper analysis.
     ```
-4.  **Criação de Distratores para Questão Existente:**
+4.  **Creating Distractors for an Existing Question:**
     ```
-    A questão de múltipla escolha é: "Qual é a principal função do protocolo HTTP em uma comunicação web?" (Resposta Correta: C).
-    As alternativas atuais são: A, B, C (Correta), D.
-    Minha alternativa D é fraca. Gere uma nova alternativa D que seja um distrator plausível, mas incorreto, que se relacione com [Conceito Relacionado: Segurança de Rede] para confundir o aluno que não domina o tema.
+    The multiple-choice question is: "What is the main function of the HTTP protocol in web communication?" (Correct Answer: C).
+    The current options are: A, B, C (Correct), D.
+    My option D is weak. Generate a new option D that is a plausible but incorrect distractor, related to [Related Concept: Network Security], to confuse the student who does not master the topic.
     ```
-5.  **Elaboração de Rubrica de Avaliação:**
+5.  **Developing an Assessment Rubric:**
     ```
-    Aja como um especialista em avaliação educacional.
-    Crie uma rubrica analítica de 4 níveis (Exemplar, Proficiente, Em Desenvolvimento, Insuficiente) para avaliar um projeto de [Tipo de Projeto: Design Thinking].
-    A rubrica deve ter 4 critérios principais: [Critérios: 1. Definição do Problema, 2. Geração de Ideias, 3. Prototipagem, 4. Apresentação].
-    Descreva detalhadamente o que constitui cada nível para cada critério.
+    Act as an educational assessment specialist.
+    Create a 4-level analytic rubric (Exemplary, Proficient, Developing, Insufficient) to evaluate a [Project Type: Design Thinking] project.
+    The rubric should have 4 main criteria: [Criteria: 1. Problem Definition, 2. Idea Generation, 3. Prototyping, 4. Presentation].
+    Describe in detail what constitutes each level for each criterion.
     ```
-6.  **Simulação de Prova Específica:**
+6.  **Simulating a Specific Exam:**
     ```
-    Crie um simulado de 15 questões de múltipla escolha sobre "[Tema: História do Brasil - Período Regencial]".
-    O estilo das questões deve imitar fielmente o padrão de formulação e a complexidade da [Banca Examinadora: ENEM].
-    Inclua a fonte de cada questão (ex: Texto 1, Imagem 1) e forneça a resposta correta com a resolução comentada.
+    Create a mock exam of 15 multiple-choice questions on "[Topic: History of Brazil - Regency Period]".
+    The style of the questions should faithfully mimic the formulation standard and complexity of the [Examining Board: ENEM].
+    Include the source of each question (e.g., Text 1, Image 1) and provide the correct answer with a commented solution.
     ```
 ```
 
 ## Best Practices
-*   **Contextualização Completa:** Sempre forneça o contexto de aprendizagem (objetivos do curso, material de referência, público-alvo) antes de solicitar a criação da avaliação.
-*   **Definição de Papel (Role Prompting):** Atribua à IA um papel específico (ex: "Especialista em Avaliação", "Elaborador de Provas Certificadas") para refinar o tom e a qualidade das questões.
-*   **Especificação de Formato e Saída:** Exija um formato de saída claro (ex: JSON, Markdown, CSV) e o tipo de questão (múltipla escolha, dissertativa, etc.).
-*   **Controle de Dificuldade:** Use a Taxonomia de Bloom ou termos como "nível de aplicação", "nível de análise" ou "nível de criação" para controlar a profundidade cognitiva da avaliação.
-*   **Revisão Crítica:** Nunca use o conteúdo gerado sem uma revisão humana minuciosa para verificar a precisão factual, a validade dos distratores e o alinhamento pedagógico.
+*   **Complete Contextualization:** Always provide the learning context (course objectives, reference material, target audience) before requesting the creation of the assessment.
+*   **Role Prompting:** Assign the AI a specific role (e.g., "Assessment Specialist", "Certified Exam Author") to refine the tone and quality of the questions.
+*   **Format and Output Specification:** Require a clear output format (e.g., JSON, Markdown, CSV) and the question type (multiple choice, essay, etc.).
+*   **Difficulty Control:** Use Bloom's Taxonomy or terms such as "application level", "analysis level", or "creation level" to control the cognitive depth of the assessment.
+*   **Critical Review:** Never use generated content without thorough human review to verify factual accuracy, the validity of distractors, and pedagogical alignment.
 
 ## Use Cases
-*   **Educação Formal:** Criação rápida de testes, quizzes e exames para escolas, universidades e cursos técnicos.
-*   **Treinamento Corporativo:** Desenvolvimento de avaliações de proficiência e questionários de feedback para módulos de treinamento e desenvolvimento de funcionários.
-*   **Certificações:** Geração de bancos de questões para exames de certificação profissional em diversas áreas (TI, Finanças, Saúde).
-*   **Autoavaliação:** Criação de testes práticos para estudantes que desejam simular exames e testar seus conhecimentos.
-*   **Pesquisa de Mercado/Opinião:** Elaboração de questionários e enquetes estruturadas para coleta de dados.
+*   **Formal Education:** Rapid creation of tests, quizzes, and exams for schools, universities, and technical courses.
+*   **Corporate Training:** Development of proficiency assessments and feedback questionnaires for employee training and development modules.
+*   **Certifications:** Generation of question banks for professional certification exams in various fields (IT, Finance, Healthcare).
+*   **Self-Assessment:** Creation of practice tests for students who want to simulate exams and test their knowledge.
+*   **Market/Opinion Research:** Development of structured questionnaires and surveys for data collection.
 
 ## Pitfalls
-*   **Vagueza na Instrução:** Solicitar apenas "Crie um teste sobre X" resulta em questões superficiais que testam apenas a memorização.
-*   **Alucinação Factual:** A IA pode gerar questões ou respostas incorretas, exigindo verificação humana obrigatória.
-*   **Questões de Baixa Ordem:** Tendência da IA em gerar questões que se concentram nos níveis mais baixos da Taxonomia de Bloom (lembrar, entender), a menos que explicitamente instruída a ir além.
-*   **Viés Involuntário:** O conteúdo gerado pode refletir vieses presentes nos dados de treinamento da IA, o que pode afetar a justiça e a validade da avaliação.
-*   **Falta de Contexto Específico:** Sem o material de origem (texto, aula), a IA pode criar questões genéricas ou irrelevantes para o conteúdo exato ensinado.
+*   **Vagueness in Instructions:** Requesting only "Create a test about X" results in superficial questions that only test memorization.
+*   **Factual Hallucination:** The AI may generate incorrect questions or answers, requiring mandatory human verification.
+*   **Low-Order Questions:** The AI tends to generate questions that focus on the lowest levels of Bloom's Taxonomy (remember, understand), unless explicitly instructed to go beyond.
+*   **Unintended Bias:** The generated content may reflect biases present in the AI's training data, which can affect the fairness and validity of the assessment.
+*   **Lack of Specific Context:** Without the source material (text, lesson), the AI may create questions that are generic or irrelevant to the exact content taught.
 
 ## URL
 [https://cetli.upenn.edu/resources/generative-ai/using-ai-to-create-assessments/](https://cetli.upenn.edu/resources/generative-ai/using-ai-to-create-assessments/)

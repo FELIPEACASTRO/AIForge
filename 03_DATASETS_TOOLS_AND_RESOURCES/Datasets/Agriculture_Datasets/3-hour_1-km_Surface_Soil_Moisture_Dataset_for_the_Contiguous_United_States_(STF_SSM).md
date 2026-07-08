@@ -2,45 +2,45 @@
 
 ## Description
 
-Conjunto de dados de umidade do solo superficial (SSM) espacialmente contínuo (seamless) de 3 horas e 1 km para os Estados Unidos Contíguos (CONUS), desenvolvido usando um método de fusão espaço-temporal baseado em pares de imagens virtuais. O dataset, chamado STF_SSM, combina as vantagens do produto SMAP L4 SSM (alta resolução temporal de 3 horas, mas 9 km de resolução espacial) e do dataset Crop-CASMA (alta resolução espacial de 1 km, mas resolução temporal diária e com lacunas espaciais). O resultado é um dataset de longa série temporal (2015-2023) com alta resolução espacial e temporal, crucial para o monitoramento de secas e a validação de modelos de superfície terrestre. O dataset foi publicado em 2025, tornando-o um recurso de pesquisa muito recente.
+A spatially seamless surface soil moisture (SSM) dataset at 3-hour, 1-km resolution for the Contiguous United States (CONUS), developed using a spatio-temporal fusion method based on virtual image pairs. The dataset, named STF_SSM, combines the advantages of the SMAP L4 SSM product (high temporal resolution of 3 hours, but 9-km spatial resolution) and the Crop-CASMA dataset (high spatial resolution of 1 km, but daily temporal resolution and with spatial gaps). The result is a long time-series dataset (2015-2023) with high spatial and temporal resolution, crucial for drought monitoring and the validation of land-surface models. The dataset was published in 2025, making it a very recent research resource.
 
 ## Statistics
 
-- **Período de Cobertura:** 2015-2023.
-- **Resolução:** 1 km (espacial) e 3 horas (temporal).
-- **Validação:** Coeficiente de Correlação (CC) médio de 0.716 na escala diária e 0.689 na escala de 3 horas, em comparação com dados in-situ.
-- **Erro:** Raiz do Erro Quadrático Médio não enviesado (ubRMSE) de 0.057 m³/m³ (diário) e 0.062 m³/m³ (3 horas).
-- **Volume:** O dataset é composto por múltiplos arquivos de dados (Child Items) por ano, indicando um grande volume de dados geoespaciais.
+- **Coverage Period:** 2015-2023.
+- **Resolution:** 1 km (spatial) and 3 hours (temporal).
+- **Validation:** Average Correlation Coefficient (CC) of 0.716 at the daily scale and 0.689 at the 3-hour scale, compared to in-situ data.
+- **Error:** Unbiased Root Mean Square Error (ubRMSE) of 0.057 m³/m³ (daily) and 0.062 m³/m³ (3-hour).
+- **Volume:** The dataset is composed of multiple data files (Child Items) per year, indicating a large volume of geospatial data.
 
 ## Features
 
-- **Resolução Espacial:** 1 km (alta resolução).
-- **Resolução Temporal:** 3 horas (alta resolução temporal, intra-diária).
-- **Cobertura:** Estados Unidos Contíguos (CONUS).
-- **Período:** 1º de abril de 2015 a 31 de dezembro de 2023.
-- **Método:** Fusão espaço-temporal (Spatio-Temporal Fusion - STF) de dados SMAP L4 e Crop-CASMA.
-- **Características:** Espacialmente contínuo (seamless), preenchendo lacunas de dados.
+- **Spatial Resolution:** 1 km (high resolution).
+- **Temporal Resolution:** 3 hours (high temporal, intra-daily resolution).
+- **Coverage:** Contiguous United States (CONUS).
+- **Period:** April 1, 2015 to December 31, 2023.
+- **Method:** Spatio-Temporal Fusion (STF) of SMAP L4 and Crop-CASMA data.
+- **Characteristics:** Spatially seamless, filling data gaps.
 
 ## Use Cases
 
-- **Monitoramento de Secas:** Fornece insights sobre as rápidas mudanças na umidade do solo, essencial para a detecção e monitoramento de secas e períodos úmidos.
-- **Modelagem de Superfície Terrestre:** Fonte de dados crítica para a calibração e validação de modelos hidrológicos e de superfície terrestre.
-- **Agricultura de Precisão:** A alta resolução espacial (1 km) é valiosa para aplicações em agricultura de precisão, como otimização de irrigação e estimativa de produtividade.
-- **Estudos de Ecossistemas:** Permite a análise das respostas dos ecossistemas às variações rápidas da umidade do solo.
-- **Previsão do Tempo:** Aprimoramento da previsão do tempo e de eventos extremos (inundações).
+- **Drought Monitoring:** Provides insights into rapid changes in soil moisture, essential for detecting and monitoring droughts and wet periods.
+- **Land-Surface Modeling:** A critical data source for the calibration and validation of hydrological and land-surface models.
+- **Precision Agriculture:** The high spatial resolution (1 km) is valuable for precision agriculture applications, such as irrigation optimization and yield estimation.
+- **Ecosystem Studies:** Enables the analysis of ecosystem responses to rapid variations in soil moisture.
+- **Weather Forecasting:** Improvement of weather forecasting and extreme-event (flood) prediction.
 
 ## Integration
 
-O dataset STF_SSM está disponível para download através do catálogo ScienceBase do USGS. Os dados são organizados em "Child Items" por ano. O acesso primário é via DOI e a página do ScienceBase.
+The STF_SSM dataset is available for download through the USGS ScienceBase catalog. The data is organized into "Child Items" by year. Primary access is via DOI and the ScienceBase page.
 
 **DOI:** `https://doi.org/10.5066/P13CCN69`
 
-**Acesso via ScienceBase:**
-1. Navegar para a página do ScienceBase.
-2. Clicar nos links dos "Child Items" para baixar os arquivos de dados individuais (geralmente em formato NetCDF ou similar, comum para dados geoespaciais).
-3. O código de geração do dataset (método STF) também está disponível para referência e reprodução em: `https://doi.org/10.6084/m9.figshare.28188011` (Yang et al., 2025b).
+**Access via ScienceBase:**
+1. Navigate to the ScienceBase page.
+2. Click the "Child Items" links to download the individual data files (usually in NetCDF or similar format, common for geospatial data).
+3. The dataset generation code (STF method) is also available for reference and reproduction at: `https://doi.org/10.6084/m9.figshare.28188011` (Yang et al., 2025b).
 
-*Nota: O acesso direto aos arquivos de dados requer a navegação na página do ScienceBase para os links de download específicos de cada ano.*
+*Note: Direct access to the data files requires navigating the ScienceBase page for the specific download links of each year.*
 
 ## URL
 

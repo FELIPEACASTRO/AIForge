@@ -1,51 +1,51 @@
 # Common Voice (Mozilla)
 
 ## Description
-O **Common Voice** é um projeto da Mozilla Foundation que visa construir o maior e mais diversificado corpus de voz aberto do mundo. O dataset é composto por clipes de voz gravados por voluntários, que leem frases doadas, e é projetado para mitigar o viés em sistemas de Inteligência Artificial (IA) e democratizar a tecnologia de fala. A partir da versão 23.0, os datasets são distribuídos exclusivamente através do **Mozilla Data Collective** [1]. O dataset é ideal para o treinamento de modelos de Reconhecimento Automático de Fala (ASR), Síntese de Fala (TTS) e outras aplicações de Processamento de Linguagem Natural (PLN) [2].
+**Common Voice** is a project by the Mozilla Foundation that aims to build the largest and most diverse open voice corpus in the world. The dataset is composed of voice clips recorded by volunteers, who read donated sentences, and is designed to mitigate bias in Artificial Intelligence (AI) systems and democratize speech technology. As of version 23.0, the datasets are distributed exclusively through the **Mozilla Data Collective** [1]. The dataset is ideal for training Automatic Speech Recognition (ASR), Speech Synthesis (TTS), and other Natural Language Processing (NLP) applications [2].
 
 ## Statistics
-- **Versão Mais Recente (2025)**: Common Voice 23.0 (lançada em Setembro de 2025) [3].
-- **Horas Totais Gravadas**: **35.921** horas [3].
-- **Horas Validadas**: **24.600** horas [3].
-- **Número de Idiomas**: **286** idiomas (na versão 23.0) [3].
-- **Tamanho do Arquivo (Exemplo)**: O download completo da versão 23.0 é de aproximadamente **3.51 GB** (para o segmento Single Word Target) [2].
-- **Amostras**: Milhões de clipes de voz.
+- **Most Recent Version (2025)**: Common Voice 23.0 (released in September 2025) [3].
+- **Total Hours Recorded**: **35,921** hours [3].
+- **Validated Hours**: **24,600** hours [3].
+- **Number of Languages**: **286** languages (in version 23.0) [3].
+- **File Size (Example)**: The full download of version 23.0 is approximately **3.51 GB** (for the Single Word Target segment) [2].
+- **Samples**: Millions of voice clips.
 
 ## Features
-- **Multilinguismo Massivo**: Suporta mais de 137 idiomas, com a versão 23.0 expandindo para 286 idiomas [1] [3].
-- **Dados de Fala e Texto**: Cada entrada consiste em um clipe de áudio (MP3) e o texto correspondente.
-- **Metadados Demográficos**: Inclui metadados demográficos opcionais (idade, sexo, sotaque) para auxiliar no treinamento de modelos mais precisos e menos enviesados.
-- **Licença Aberta**: Distribuído sob a licença **CC0** (Creative Commons Zero), permitindo o uso irrestrito e gratuito para qualquer finalidade.
-- **Dados Validados**: Os dados são validados por outros voluntários, garantindo a qualidade do corpus.
-- **Tipos de Fala**: Inclui fala roteirizada (Scripted Speech) e, mais recentemente, fala espontânea (Spontaneous Speech) [2].
+- **Massive Multilingualism**: Supports more than 137 languages, with version 23.0 expanding to 286 languages [1] [3].
+- **Speech and Text Data**: Each entry consists of an audio clip (MP3) and the corresponding text.
+- **Demographic Metadata**: Includes optional demographic metadata (age, sex, accent) to aid in training more accurate and less biased models.
+- **Open License**: Distributed under the **CC0** license (Creative Commons Zero), allowing unrestricted and free use for any purpose.
+- **Validated Data**: The data is validated by other volunteers, ensuring the quality of the corpus.
+- **Speech Types**: Includes scripted speech and, more recently, spontaneous speech [2].
 
 ## Use Cases
-- **Reconhecimento Automático de Fala (ASR)**: Treinamento de modelos de ASR para transcrição de voz em texto.
-- **Síntese de Fala (TTS)**: Criação de vozes sintéticas (embora o dataset seja primariamente para ASR, os dados de texto e áudio são úteis).
-- **Processamento de Linguagem Natural (PLN)**: Pesquisa e desenvolvimento em áreas como identificação de sotaque, detecção de emoção e análise de diversidade linguística.
-- **Democratização da IA**: Desenvolvimento de tecnologias de voz para idiomas com poucos recursos, combatendo o viés linguístico em sistemas comerciais [1].
+- **Automatic Speech Recognition (ASR)**: Training ASR models for voice-to-text transcription.
+- **Speech Synthesis (TTS)**: Creation of synthetic voices (although the dataset is primarily for ASR, the text and audio data are useful).
+- **Natural Language Processing (NLP)**: Research and development in areas such as accent identification, emotion detection, and linguistic diversity analysis.
+- **AI Democratization**: Development of voice technologies for low-resource languages, combating linguistic bias in commercial systems [1].
 
 ## Integration
-O dataset Common Voice é distribuído como um arquivo `.tar.gz` por idioma. O download é feito através do **Mozilla Data Collective** [1].
+The Common Voice dataset is distributed as a `.tar.gz` file per language. The download is done through the **Mozilla Data Collective** [1].
 
-**Passos para Download:**
-1.  Acesse o **Mozilla Data Collective** (URL principal).
-2.  Procure por "Common Voice" e selecione o dataset desejado (ex: "Common Voice Scripted Speech 23.0").
-3.  O download é geralmente iniciado após o fornecimento de um endereço de e-mail e a aceitação dos termos de uso, que incluem o compromisso de não tentar identificar os falantes.
-4.  Para downloads de arquivos grandes, é recomendável usar ferramentas de linha de comando como `curl` com a opção `-C` para retomar downloads interrompidos [2].
+**Download Steps:**
+1.  Access the **Mozilla Data Collective** (main URL).
+2.  Search for "Common Voice" and select the desired dataset (e.g., "Common Voice Scripted Speech 23.0").
+3.  The download is usually initiated after providing an email address and accepting the terms of use, which include the commitment not to attempt to identify the speakers.
+4.  For large file downloads, it is recommended to use command-line tools such as `curl` with the `-C` option to resume interrupted downloads [2].
 
-**Estrutura do Arquivo:**
-Cada arquivo `.tar.gz` contém:
--   `clips/`: Arquivos `.mp3` dos clipes de áudio.
--   Arquivos `.tsv` (tab-separated values) para diferentes partições: `train.tsv`, `dev.tsv`, `test.tsv`, `validated.tsv`, `invalidated.tsv`, `other.tsv`.
--   Cada linha do `.tsv` contém o `client_id` (anonimizado), o caminho do arquivo, a transcrição (`text`), e metadados demográficos [2].
+**File Structure:**
+Each `.tar.gz` file contains:
+-   `clips/`: `.mp3` files of the audio clips.
+-   `.tsv` (tab-separated values) files for different partitions: `train.tsv`, `dev.tsv`, `test.tsv`, `validated.tsv`, `invalidated.tsv`, `other.tsv`.
+-   Each line of the `.tsv` contains the `client_id` (anonymized), the file path, the transcription (`text`), and demographic metadata [2].
 
-**Uso com Bibliotecas:**
-O dataset é amplamente suportado por bibliotecas de PLN, como o **Hugging Face Datasets**, onde pode ser carregado diretamente:
+**Usage with Libraries:**
+The dataset is widely supported by NLP libraries, such as **Hugging Face Datasets**, where it can be loaded directly:
 ```python
 from datasets import load_dataset
 
-# Exemplo para a versão 13.0 (versões mais recentes podem exigir o download manual)
+# Example for version 13.0 (newer versions may require manual download)
 common_voice = load_dataset("mozilla-foundation/common_voice_13_0", "pt")
 ```
 

@@ -2,23 +2,23 @@
 
 ## Description
 
-O LesionLocator é um framework inovador de aprendizado profundo para segmentação e rastreamento longitudinal de lesões (tumores) em imagens médicas 3D de corpo inteiro. Ele é notável por sua capacidade de **segmentação universal de tumores zero-shot** (sem treinamento específico para novos tipos de lesão), utilizando *prompts* espaciais densos (como pontos ou caixas) para identificar e rastrear lesões ao longo de exames de acompanhamento (4D). O modelo foi treinado em um extenso conjunto de dados de 23.262 exames médicos anotados, além de dados longitudinais sintéticos, o que lhe confere uma alta generalização. O framework estabelece um novo *benchmark* em segmentação universal e rastreamento longitudinal automatizado de lesões.
+LesionLocator is an innovative deep learning framework for segmentation and longitudinal tracking of lesions (tumors) in whole-body 3D medical images. It is notable for its capability of **zero-shot universal tumor segmentation** (without specific training for new lesion types), using dense spatial *prompts* (such as points or boxes) to identify and track lesions across follow-up (4D) exams. The model was trained on an extensive dataset of 23,262 annotated medical scans, in addition to synthetic longitudinal data, which gives it high generalization. The framework establishes a new *benchmark* in universal segmentation and automated longitudinal lesion tracking.
 
 ## Statistics
 
-Modelo treinado em um extenso dataset de 23.262 exames médicos anotados e dados longitudinais sintéticos. O dataset de treinamento abrange 47 datasets diversos, com diferentes modalidades de imagem e alvos anatômicos. O modelo alcança desempenho de nível humano em segmentação de lesões.
+Model trained on an extensive dataset of 23,262 annotated medical scans and synthetic longitudinal data. The training dataset spans 47 diverse datasets, with different imaging modalities and anatomical targets. The model achieves human-level performance in lesion segmentation.
 
 ## Features
 
-Segmentação Universal Zero-Shot de Lesões; Rastreamento Longitudinal 4D de Lesões; Utiliza *prompts* espaciais densos (ponto ou caixa); Arquitetura de aprendizado profundo generalizável; Alto desempenho em segmentação (supera modelos existentes em quase 10 pontos Dice); Solução de código aberto (modelo e dataset sintético 4D).
+Zero-Shot Universal Lesion Segmentation; 4D Longitudinal Lesion Tracking; Uses dense spatial *prompts* (point or box); Generalizable deep learning architecture; High segmentation performance (outperforms existing models by almost 10 Dice points); Open-source solution (model and 4D synthetic dataset).
 
 ## Use Cases
 
-Segmentação e rastreamento automatizado de tumores em exames de acompanhamento (longitudinais); Auxílio ao diagnóstico e monitoramento de diversas lesões tumorais em imagens médicas 3D de corpo inteiro; Pesquisa e desenvolvimento de novas abordagens de IA em oncologia e radiologia.
+Automated segmentation and tracking of tumors in follow-up (longitudinal) exams; Support for diagnosis and monitoring of various tumoral lesions in whole-body 3D medical images; Research and development of new AI approaches in oncology and radiology.
 
 ## Integration
 
-O código e o *checkpoint* do modelo pré-treinado estão disponíveis no GitHub e Zenodo. O modelo é projetado para ser o primeiro de acesso aberto para segmentação universal de lesões e rastreamento longitudinal automatizado. O uso envolve a aplicação do modelo pré-treinado em novas imagens médicas 3D, fornecendo *prompts* espaciais (ponto ou caixa) para a lesão de interesse. O framework é compatível com o rastreamento de lesões em exames de acompanhamento.
+The code and the pre-trained model *checkpoint* are available on GitHub and Zenodo. The model is designed to be the first open-access one for universal lesion segmentation and automated longitudinal tracking. Usage involves applying the pre-trained model to new 3D medical images, providing spatial *prompts* (point or box) for the lesion of interest. The framework is compatible with lesion tracking across follow-up exams.
 
 ## URL
 

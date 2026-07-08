@@ -1,60 +1,60 @@
 # Pitch Deck Prompts
 
 ## Description
-**Pitch Deck Prompts** são uma forma especializada de engenharia de prompt projetada para alavancar Modelos de Linguagem Grande (LLMs) e IA generativa para auxiliar na criação, refinamento e estruturação de *pitch decks* prontos para investidores. Em vez de gerar a apresentação inteira, esses prompts se concentram em gerar conteúdo de alta qualidade para slides específicos (como Problema, Solução, Tamanho de Mercado, Equipe, Pedido de Investimento) ou refinar o conteúdo existente para clareza, concisão e apelo ao investidor. A técnica depende de fornecer à IA um contexto detalhado sobre a *startup*, seu mercado e sua situação financeira, frequentemente usando uma abordagem estruturada e multi-etapas, onde a IA atua como um copiloto ou consultor estratégico [1]. O objetivo é traduzir a visão técnica e de produto do fundador em uma narrativa financeira e de mercado convincente.
+**Pitch Deck Prompts** are a specialized form of prompt engineering designed to leverage Large Language Models (LLMs) and generative AI to assist in the creation, refinement, and structuring of investor-ready *pitch decks*. Rather than generating the entire presentation, these prompts focus on producing high-quality content for specific slides (such as Problem, Solution, Market Size, Team, Investment Ask) or refining existing content for clarity, conciseness, and investor appeal. The technique relies on providing the AI with detailed context about the *startup*, its market, and its financial situation, often using a structured, multi-step approach where the AI acts as a copilot or strategic consultant [1]. The goal is to translate the founder's technical and product vision into a compelling financial and market narrative.
 
 ## Examples
 ```
-1. **Configuração de Papel e Contexto (Slide Problema):**
+1. **Role and Context Setup (Problem Slide):**
 ```
-Aja como um Analista de Capital de Risco experiente, especializado em B2B SaaS. Minha startup, [Nome da Startup], está levantando uma rodada Seed de $1.5M. Nosso produto é [breve descrição do produto]. Gere um Slide de Problema conciso e convincente para o nosso pitch deck, focando nos pontos de dor de [Cliente Alvo] e na falha do mercado atual em resolvê-los.
+Act as an experienced Venture Capital Analyst, specialized in B2B SaaS. My startup, [Startup Name], is raising a $1.5M Seed round. Our product is [brief product description]. Generate a concise and compelling Problem Slide for our pitch deck, focusing on the pain points of [Target Customer] and the current market's failure to solve them.
 ```
-2. **Solução e Fosso Competitivo (Slide Solução):**
+2. **Solution and Competitive Moat (Solution Slide):**
 ```
-Com base no Slide de Problema que você acabou de gerar, crie agora o Slide de Solução. A solução deve ser apresentada como a resposta inevitável ao problema. Inclua explicitamente nosso fosso competitivo: [Mencione tecnologia proprietária, efeito de rede ou dados exclusivos].
+Based on the Problem Slide you just generated, now create the Solution Slide. The solution should be presented as the inevitable answer to the problem. Explicitly include our competitive moat: [Mention proprietary technology, network effect, or exclusive data].
 ```
-3. **Dimensionamento de Mercado (TAM/SAM/SOM):**
+3. **Market Sizing (TAM/SAM/SOM):**
 ```
-Gere o conteúdo do slide de Análise de Mercado. Nosso TAM é de [X] em [Região]. Segmentamos [Segmento Específico]. Forneça um cálculo claro, de cima para baixo e de baixo para cima, para nosso SAM e SOM, e sugira uma estratégia convincente de 'cunha de mercado'.
+Generate the content for the Market Analysis slide. Our TAM is [X] in [Region]. We segment [Specific Segment]. Provide a clear, top-down and bottom-up calculation for our SAM and SOM, and suggest a compelling 'market wedge' strategy.
 ```
-4. **Métricas de Tração e Unidade Econômica (Slide Tração):**
+4. **Traction Metrics and Unit Economics (Traction Slide):**
 ```
-Elabore o conteúdo do Slide de Tração. Concentre-se apenas em métricas de usuários pagos: [Número de Usuários Pagos], [Receita Recorrente Mensal - MRR], [Taxa de Churn de Clientes] e [Razão LTV/CAC]. Apresente esses dados de forma a demonstrar crescimento exponencial e forte economia unitária.
+Draft the content for the Traction Slide. Focus only on paid-user metrics: [Number of Paid Users], [Monthly Recurring Revenue - MRR], [Customer Churn Rate], and [LTV/CAC Ratio]. Present this data in a way that demonstrates exponential growth and strong unit economics.
 ```
-5. **O Pedido e Uso dos Fundos (Slide Ask):**
+5. **The Ask and Use of Funds (Ask Slide):**
 ```
-Estamos pedindo $1.5M. Detalhe o slide 'Uso dos Fundos', alocando o capital em três categorias principais (ex: Desenvolvimento de Produto, Vendas e Marketing, Operações) com porcentagens específicas. A narrativa deve justificar como este financiamento leva ao próximo marco principal (Série A).
+We are asking for $1.5M. Detail the 'Use of Funds' slide, allocating the capital across three main categories (e.g., Product Development, Sales and Marketing, Operations) with specific percentages. The narrative should justify how this funding leads to the next major milestone (Series A).
 ```
-6. **Refinamento de Linguagem:**
+6. **Language Refinement:**
 ```
-Revise os slides de Problema e Solução. Torne a linguagem mais concisa e impactante, reduzindo a contagem de palavras em 30%. Garanta que o tom seja confiante e se dirija diretamente à perspectiva do investidor.
+Revise the Problem and Solution slides. Make the language more concise and impactful, reducing the word count by 30%. Ensure the tone is confident and speaks directly to the investor's perspective.
 ```
-7. **Slide de Equipe Focado em Expertise:**
+7. **Expertise-Focused Team Slide:**
 ```
-Gere o conteúdo do Slide de Equipe. Destaque a expertise única dos nossos três co-fundadores: [Fundador 1 - Expertise], [Fundador 2 - Expertise], [Fundador 3 - Expertise]. O foco deve ser em por que esta equipe específica está unicamente qualificada para executar esta visão.
+Generate the content for the Team Slide. Highlight the unique expertise of our three co-founders: [Founder 1 - Expertise], [Founder 2 - Expertise], [Founder 3 - Expertise]. The focus should be on why this specific team is uniquely qualified to execute this vision.
 ```
 ```
 
 ## Best Practices
-1. **Prompting Estruturado e Multi-Etapas:** Utilize uma sequência de prompts, dedicando um ou mais prompts a cada slide essencial (Problema, Solução, Mercado, Finanças, etc.) para garantir profundidade e foco.
-2. **Contexto Detalhado e Persona:** O prompt deve incluir dados específicos, o público-alvo (ex: VCs de Seed-stage), a fase de investimento e, crucialmente, instruir a IA a agir como um "Analista de Capital de Risco" ou "Fundador Experiente" para refinar o tom.
-3. **Foco em Métricas de Investidor:** Peça à IA para focar em métricas que importam para investidores (ex: LTV/CAC, retenção, crescimento de receita) e evitar métricas de vaidade.
-4. **Refinamento Iterativo:** Use prompts de acompanhamento para refinar a saída da IA, solicitando clareza, concisão ou uma abordagem diferente (ex: "Torne este slide mais conciso e destaque o fosso competitivo").
-5. **Mantenha o Foco no Negócio:** Instrua a IA a manter o conteúdo dos slides principais focado no negócio e na estratégia, movendo detalhes técnicos excessivos para um apêndice.
+1. **Structured, Multi-Step Prompting:** Use a sequence of prompts, dedicating one or more prompts to each essential slide (Problem, Solution, Market, Finance, etc.) to ensure depth and focus.
+2. **Detailed Context and Persona:** The prompt should include specific data, the target audience (e.g., Seed-stage VCs), the investment stage, and, crucially, instruct the AI to act as a "Venture Capital Analyst" or "Experienced Founder" to refine the tone.
+3. **Focus on Investor Metrics:** Ask the AI to focus on metrics that matter to investors (e.g., LTV/CAC, retention, revenue growth) and avoid vanity metrics.
+4. **Iterative Refinement:** Use follow-up prompts to refine the AI's output, requesting clarity, conciseness, or a different approach (e.g., "Make this slide more concise and highlight the competitive moat").
+5. **Keep the Focus on the Business:** Instruct the AI to keep the content of the main slides focused on the business and strategy, moving excessive technical details to an appendix.
 
 ## Use Cases
-1. **Geração de Conteúdo:** Criação de texto persuasivo para slides individuais (ex: declaração de problema, descrição da solução, biografias da equipe).
-2. **Estrutura e Fluxo:** Definição da sequência e conteúdo ideais para um *deck* de 10-12 slides com base na fase e setor da empresa.
-3. **Refinamento de Linguagem:** Tradução de jargão técnico para uma linguagem clara e amigável ao investidor.
-4. **Análise Competitiva:** Geração de pontos-chave de discussão para o slide "Concorrência", destacando a vantagem competitiva única.
-5. **Narrativa Financeira:** Elaboração da narrativa em torno das projeções financeiras e do slide "Pedido de Investimento" (*Ask*).
+1. **Content Generation:** Creating persuasive text for individual slides (e.g., problem statement, solution description, team biographies).
+2. **Structure and Flow:** Defining the ideal sequence and content for a 10-12 slide *deck* based on the company's stage and sector.
+3. **Language Refinement:** Translating technical jargon into clear, investor-friendly language.
+4. **Competitive Analysis:** Generating key talking points for the "Competition" slide, highlighting the unique competitive advantage.
+5. **Financial Narrative:** Crafting the narrative around financial projections and the "Investment Ask" slide (*Ask*).
 
 ## Pitfalls
-1. **Detalhe Técnico Excessivo:** O conteúdo gerado pela IA pode ser muito técnico. O prompt deve pedir explicitamente para manter os slides principais focados no negócio e mover as especificações para o apêndice [2].
-2. **Conteúdo Genérico ("AI Slop"):** Confiar apenas na IA sem fornecer dados proprietários e específicos resulta em conteúdo genérico e pouco convincente, que não se destaca para investidores.
-3. **Métricas de Vaidade:** A IA pode focar em "tração de vaidade" (ex: usuários gratuitos) se não for instruída a priorizar métricas de usuários pagos, retenção e receita [2].
-4. **Modelo de Negócio Obscuro:** A IA pode falhar em articular claramente o modelo de receita, preços e premissas de margem se o prompt for vago ou não incluir dados financeiros específicos.
-5. **Ignorar IA Responsável/Conformidade:** Para *startups* de IA, a falha em abordar a IA responsável e a conformidade no *pitch* é vista como um *red flag* por muitos VCs [2].
+1. **Excessive Technical Detail:** The AI-generated content can be too technical. The prompt should explicitly ask to keep the main slides business-focused and move the specifications to the appendix [2].
+2. **Generic Content ("AI Slop"):** Relying solely on the AI without providing proprietary and specific data results in generic and unconvincing content that does not stand out to investors.
+3. **Vanity Metrics:** The AI may focus on "vanity traction" (e.g., free users) if it is not instructed to prioritize paid-user, retention, and revenue metrics [2].
+4. **Obscure Business Model:** The AI may fail to clearly articulate the revenue model, pricing, and margin assumptions if the prompt is vague or does not include specific financial data.
+5. **Ignoring Responsible AI/Compliance:** For AI *startups*, the failure to address responsible AI and compliance in the *pitch* is seen as a *red flag* by many VCs [2].
 
 ## URL
 [https://medium.com/@stunspot/one-sane-prompt-for-pitch-deck-creation-7f97905d69e3](https://medium.com/@stunspot/one-sane-prompt-for-pitch-deck-creation-7f97905d69e3)

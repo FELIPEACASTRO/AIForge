@@ -2,40 +2,40 @@
 
 ## Description
 
-**PathoNet** é um dataset de propósito geral para patologia digital, focado em imagens de histopatologia. Foi publicado em julho de 2023 e consiste em imagens extraídas do portal de dados **TCGA (The Cancer Genome Atlas)**. O dataset é composto por imagens de 12 classes de tecidos diferentes, sendo uma fonte valiosa para o desenvolvimento e avaliação de modelos de *Deep Learning* em patologia computacional. As imagens são patches de 256x256 pixels, extraídos de Whole Slide Images (WSI), e passaram por um processo de limpeza automatizado para remover conteúdo excessivo branco e imagens borradas. A divisão em conjuntos de Treinamento, Validação e Teste é feita considerando os casos (WSI) para evitar a mistura de imagens do mesmo caso em partições diferentes.
+**PathoNet** is a general-purpose dataset for digital pathology, focused on histopathology images. It was published in July 2023 and consists of images extracted from the **TCGA (The Cancer Genome Atlas)** data portal. The dataset is composed of images from 12 different tissue classes, making it a valuable resource for the development and evaluation of *Deep Learning* models in computational pathology. The images are 256x256 pixel patches extracted from Whole Slide Images (WSI), and they went through an automated cleaning process to remove excessive white content and blurred images. The split into Training, Validation, and Test sets is done by considering cases (WSI) to avoid mixing images from the same case across different partitions.
 
 ## Statistics
 
-**Total de Imagens:** 4.462.156 imagens JPG.
-**Resolução:** 256x256 pixels.
-**Classes:** 12 classes de tecidos.
-**Fonte:** TCGA (The Cancer Genome Atlas).
-**Tamanho Total do Arquivo:** 131.6 GB (dividido em múltiplos arquivos .zip).
-**Divisão de Dados (Exemplo - Bexiga):** Treinamento (308.677), Validação (38.927), Teste (39.166).
+**Total Images:** 4,462,156 JPG images.
+**Resolution:** 256x256 pixels.
+**Classes:** 12 tissue classes.
+**Source:** TCGA (The Cancer Genome Atlas).
+**Total File Size:** 131.6 GB (split into multiple .zip files).
+**Data Split (Example - Bladder):** Training (308,677), Validation (38,927), Test (39,166).
 
 ## Features
 
-Dataset de propósito geral para patologia digital. Imagens de histopatologia (patches de 256x256 pixels). 12 classes de tecidos (Bexiga, Cérebro, Mama, Brônquios e Pulmão, Cólon, Corpo do Útero, Rim, Fígado e Ductos Biliares Intra-hepáticos, Próstata, Pele, Estômago, Glândula Tireoide). Extraído de Whole Slide Images (WSI) do TCGA. Divisão de dados baseada em casos para evitar vazamento de dados. Processo de limpeza automatizado.
+General-purpose dataset for digital pathology. Histopathology images (256x256 pixel patches). 12 tissue classes (Bladder, Brain, Breast, Bronchus and Lung, Colon, Corpus Uteri, Kidney, Liver and Intrahepatic Bile Ducts, Prostate, Skin, Stomach, Thyroid Gland). Extracted from Whole Slide Images (WSI) of TCGA. Case-based data split to avoid data leakage. Automated cleaning process.
 
 ## Use Cases
 
-Treinamento e avaliação de modelos de Deep Learning para classificação de tecidos em patologia digital. Desenvolvimento de modelos de segmentação e detecção de objetos em imagens de histopatologia. Pesquisa em patologia computacional, especialmente para tarefas de classificação multi-classe de câncer baseada em tecidos. Estudos de Transfer Learning em patologia.
+Training and evaluation of Deep Learning models for tissue classification in digital pathology. Development of segmentation and object detection models on histopathology images. Research in computational pathology, especially for multi-class tissue-based cancer classification tasks. Transfer Learning studies in pathology.
 
 ## Integration
 
-O dataset está disponível para download no Zenodo, dividido em arquivos `.zip` por partição (Treinamento, Validação, Teste) e por classe para o conjunto de treinamento. O download pode ser realizado diretamente pela interface web do Zenodo.
+The dataset is available for download on Zenodo, split into `.zip` files by partition (Training, Validation, Test) and by class for the training set. The download can be performed directly through the Zenodo web interface.
 
-**Exemplo de Download (Shell/cURL):**
-Devido ao tamanho total de 131.6 GB, o download deve ser feito em partes. O arquivo `test.zip` (13.3 GB) pode ser baixado via `cURL` ou `wget` usando o link de download direto fornecido na página do Zenodo.
+**Download Example (Shell/cURL):**
+Due to the total size of 131.6 GB, the download should be done in parts. The `test.zip` file (13.3 GB) can be downloaded via `cURL` or `wget` using the direct download link provided on the Zenodo page.
 
 ```bash
-# Exemplo de download do arquivo de teste
+# Example of downloading the test file
 wget https://zenodo.org/record/8116751/files/test.zip
-# Exemplo de download de uma classe de treinamento (Bexiga)
+# Example of downloading a training class (Bladder)
 wget https://zenodo.org/record/8116751/files/train_bladder.zip
 ```
 
-**Nota:** A URL de download direto pode mudar, sendo a página do Zenodo a fonte primária para obter os links mais recentes. Não há um script de integração Python padrão fornecido, mas o download e a manipulação dos arquivos `.zip` podem ser facilmente integrados em um pipeline de ML usando bibliotecas como `zipfile` e `Pillow` no Python.
+**Note:** The direct download URL may change, with the Zenodo page being the primary source for obtaining the most recent links. There is no standard Python integration script provided, but the download and handling of the `.zip` files can be easily integrated into an ML pipeline using libraries such as `zipfile` and `Pillow` in Python.
 
 ## URL
 

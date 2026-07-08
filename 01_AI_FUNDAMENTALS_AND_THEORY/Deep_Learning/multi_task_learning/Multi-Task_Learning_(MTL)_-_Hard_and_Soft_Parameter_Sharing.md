@@ -2,40 +2,40 @@
 
 ## Description
 
-O Aprendizado Multi-Tarefa (MTL) é uma abordagem de aprendizado de máquina que treina um único modelo em múltiplas tarefas relacionadas simultaneamente. Ele atua como uma forma de transferência indutiva e regularização implícita, forçando o modelo a aprender uma representação compartilhada que generaliza melhor e reduz o risco de overfitting. Os dois métodos principais de compartilhamento de parâmetros são o **Compartilhamento de Parâmetros Rígido** (Hard Parameter Sharing), onde as camadas ocultas são totalmente compartilhadas, e o **Compartilhamento de Parâmetros Suave** (Soft Parameter Sharing), onde cada tarefa tem seu próprio modelo, mas a distância entre seus parâmetros é regularizada para incentivar a similaridade. O compartilhamento rígido é o mais comum e eficaz para tarefas intimamente relacionadas, enquanto o suave oferece maior flexibilidade para tarefas mais sutilmente relacionadas.
+Multi-Task Learning (MTL) is a machine learning approach that trains a single model on multiple related tasks simultaneously. It acts as a form of inductive transfer and implicit regularization, forcing the model to learn a shared representation that generalizes better and reduces the risk of overfitting. The two main parameter-sharing methods are **Hard Parameter Sharing**, where the hidden layers are fully shared, and **Soft Parameter Sharing**, where each task has its own model but the distance between their parameters is regularized to encourage similarity. Hard sharing is the most common and effective for closely related tasks, while soft sharing offers greater flexibility for more loosely related tasks.
 
 ## Statistics
 
-**Redução de Overfitting:** O risco de overfitting nos parâmetros compartilhados é uma ordem de magnitude $N$ (número de tarefas) menor do que nos parâmetros específicos da tarefa. **Ganhos de Desempenho:** Melhorias típicas de 1% a 5% ou mais em métricas de tarefas principais em comparação com modelos de tarefa única (STL). **Eficiência:** O compartilhamento rígido reduz drasticamente o número total de parâmetros do modelo.
+**Overfitting Reduction:** The risk of overfitting on the shared parameters is an order of magnitude $N$ (number of tasks) smaller than on the task-specific parameters. **Performance Gains:** Typical improvements of 1% to 5% or more on primary task metrics compared to single-task learning (STL) models. **Efficiency:** Hard sharing drastically reduces the total number of model parameters.
 
 ## Features
 
-**Compartilhamento de Parâmetros Rígido:** Camadas ocultas compartilhadas, camadas de saída específicas da tarefa. Redução drástica do risco de overfitting ($\mathcal{O}(1/N)$). **Compartilhamento de Parâmetros Suave:** Modelos separados por tarefa com regularização na distância dos parâmetros (e.g., norma $L_2$, norma de traço). Maior flexibilidade e robustez contra transferência negativa. **Benefícios Gerais do MTL:** Aumento implícito de dados, foco de atenção em recursos relevantes, viés indutivo para melhor generalização.
+**Hard Parameter Sharing:** Shared hidden layers, task-specific output layers. Drastic reduction of overfitting risk ($\mathcal{O}(1/N)$). **Soft Parameter Sharing:** Separate per-task models with regularization on the distance between parameters (e.g., $L_2$ norm, trace norm). Greater flexibility and robustness against negative transfer. **General MTL Benefits:** Implicit data augmentation, attention focus on relevant features, inductive bias for better generalization.
 
 ## Use Cases
 
-**Processamento de Linguagem Natural (NLP):** Modelos que realizam simultaneamente marcação de parte da fala (POS tagging), reconhecimento de entidade nomeada (NER) e análise sintática. **Visão Computacional:** Previsão conjunta de segmentação semântica e estimativa de profundidade a partir de uma única imagem. **Sistemas de Recomendação:** Previsão simultânea da probabilidade de clique e do tempo de permanência do usuário em um item. **Carros Autônomos:** Previsão da direção do volante usando tarefas auxiliares como previsão de características da estrada (e.g., marcações de faixa). **Medicina e Bioinformática:** Previsão simultânea de múltiplos sintomas ou a atividade de múltiplos compostos em descoberta de medicamentos.
+**Natural Language Processing (NLP):** Models that simultaneously perform part-of-speech (POS) tagging, named entity recognition (NER), and syntactic parsing. **Computer Vision:** Joint prediction of semantic segmentation and depth estimation from a single image. **Recommendation Systems:** Simultaneous prediction of click probability and the user's dwell time on an item. **Autonomous Cars:** Predicting steering direction using auxiliary tasks such as road feature prediction (e.g., lane markings). **Medicine and Bioinformatics:** Simultaneous prediction of multiple symptoms or the activity of multiple compounds in drug discovery.
 
 ## Integration
 
-A integração é tipicamente realizada em frameworks de Deep Learning como PyTorch ou TensorFlow/Keras. O **Compartilhamento Rígido** é implementado definindo camadas ocultas comuns seguidas por cabeças de saída (output heads) separadas para cada tarefa. A otimização é feita minimizando uma perda total combinada, geralmente uma soma ponderada das perdas individuais de cada tarefa. O **Compartilhamento Suave** é implementado adicionando um termo de regularização à função de perda total que penaliza a diferença entre os parâmetros dos modelos específicos da tarefa.
+Integration is typically carried out in Deep Learning frameworks such as PyTorch or TensorFlow/Keras. **Hard Sharing** is implemented by defining common hidden layers followed by separate output heads for each task. Optimization is done by minimizing a combined total loss, usually a weighted sum of the individual losses of each task. **Soft Sharing** is implemented by adding a regularization term to the total loss function that penalizes the difference between the parameters of the task-specific models.
 
 ```python
 import torch
 import torch.nn as nn
 
-# Exemplo de Compartilhamento Rígido (PyTorch)
+# Hard Sharing Example (PyTorch)
 class HardSharingMTLModel(nn.Module):
     def __init__(self, input_size, shared_hidden_size, task_a_output_size, task_b_output_size):
         super().__init__()
-        # Camadas Compartilhadas
+        # Shared Layers
         self.shared_layers = nn.Sequential(
             nn.Linear(input_size, shared_hidden_size),
             nn.ReLU(),
             nn.Linear(shared_hidden_size, shared_hidden_size),
             nn.ReLU()
         )
-        # Cabeças Específicas da Tarefa
+        # Task-Specific Heads
         self.task_a_head = nn.Linear(shared_hidden_size, task_a_output_size)
         self.task_b_head = nn.Linear(shared_hidden_size, task_b_output_size)
 
@@ -45,7 +45,7 @@ class HardSharingMTLModel(nn.Module):
         output_b = self.task_b_head(shared_representation)
         return output_a, output_b
 
-# Otimização da Perda Combinada:
+# Combined Loss Optimization:
 # total_loss = weight_a * loss_a + weight_b * loss_b
 ```
 

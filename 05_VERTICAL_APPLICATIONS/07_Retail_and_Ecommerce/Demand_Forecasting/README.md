@@ -1,10 +1,4 @@
-# 🛒 AI Retail Demand Forecasting | Previsão de Demanda no Varejo com IA
-
-[English](#english) | [Português](#português)
-
----
-
-## English
+# 🛒 AI Retail Demand Forecasting
 
 ### Overview
 
@@ -39,7 +33,7 @@ This comprehensive collection features **30+ cutting-edge resources** for AI-pow
 - **RMSE:** Low
 - **MAE:** Low
 
-**Source:** Arquivos de Análise
+**Source:** Analysis Files
 
 ---
 
@@ -58,7 +52,7 @@ This comprehensive collection features **30+ cutting-edge resources** for AI-pow
 - **R² Score:** 0.945
 - **Outperforms:** Single-method approaches
 
-**Source:** Arquivos de Análise
+**Source:** Analysis Files
 
 ---
 
@@ -76,7 +70,7 @@ This comprehensive collection features **30+ cutting-edge resources** for AI-pow
 - **R² Score:** 0.85-0.92
 - **Best for:** Seasonal products
 
-**Source:** Arquivos de Análise
+**Source:** Analysis Files
 
 ---
 
@@ -84,10 +78,10 @@ This comprehensive collection features **30+ cutting-edge resources** for AI-pow
 
 | Metric | Value | Source |
 |---|---|---|
-| **Supply Chain Error Reduction** | 30-50% | Arquivos |
-| **Lost Sales Reduction** | 65% | Arquivos |
-| **Cost Reduction** | 25-40% | Arquivos |
-| **ROI Timeline** | 6-12 months | Arquivos |
+| **Supply Chain Error Reduction** | 30-50% | Files |
+| **Lost Sales Reduction** | 65% | Files |
+| **Cost Reduction** | 25-40% | Files |
+| **ROI Timeline** | 6-12 months | Files |
 
 ---
 
@@ -216,23 +210,6 @@ This comprehensive collection features **30+ cutting-edge resources** for AI-pow
 
 ---
 
-## Português
-
-### Visão Geral
-
-Esta coleção abrangente apresenta **30+ recursos de ponta** para previsão de demanda no varejo com IA, incluindo XGBoost (R²=0,953), Híbrido CNN-LSTM-XGBoost, e técnicas comprovadas que entregam **30-50% de redução de erros na cadeia de suprimentos** e **65% de redução de vendas perdidas**.
-
-### Estatísticas Principais
-
-- **30+ Recursos** (modelos, técnicas, estudos de caso)
-- **XGBoost R²:** 0,953 (MELHOR modelo)
-- **Redução de erros na cadeia de suprimentos:** 30-50%
-- **Redução de vendas perdidas:** 65%
-- **Redução de custos:** 25-40%
-- **ROI:** Positivo em 6-12 meses
-
----
-
 **Last Updated:** November 2025  
-**Sources:** Arquivos de Análise, XGBoost, TensorFlow  
+**Sources:** Analysis Files, XGBoost, TensorFlow  
 **Total Resources:** 30+

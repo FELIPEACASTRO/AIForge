@@ -2,37 +2,37 @@
 
 ## Description
 
-O RicEns-Net é um modelo de Deep Ensemble (Conjunto Profundo) inovador, projetado para aprimorar a precisão da previsão de produtividade agrícola. Ele utiliza técnicas de fusão de dados multimodais para integrar diversas fontes de informação, como dados de sensoriamento remoto óptico e de radar de abertura sintética (SAR) dos satélites Sentinel 1, 2 e 3, e medições meteorológicas, incluindo temperatura da superfície e precipitação. O modelo foi desenvolvido a partir de dados do Open Science Challenge 2023 da Ernst & Young (EY). Uma etapa de engenharia de dados reduziu mais de 100 preditores potenciais para um conjunto otimizado de 15 características de 5 modalidades distintas, mitigando a "maldição da dimensionalidade" e melhorando o desempenho. Sua arquitetura combina múltiplos algoritmos de aprendizado de máquina em um framework de conjunto profundo para maximizar a precisão preditiva.
+RicEns-Net is an innovative Deep Ensemble model designed to improve the accuracy of agricultural yield prediction. It uses multimodal data fusion techniques to integrate diverse sources of information, such as optical remote sensing data and synthetic aperture radar (SAR) data from the Sentinel 1, 2, and 3 satellites, as well as meteorological measurements including surface temperature and precipitation. The model was developed from data of Ernst & Young's (EY) Open Science Challenge 2023. A data engineering step reduced more than 100 potential predictors to an optimized set of 15 features from 5 distinct modalities, mitigating the "curse of dimensionality" and improving performance. Its architecture combines multiple machine learning algorithms within a deep ensemble framework to maximize predictive accuracy.
 
 ## Statistics
 
-- **Erro Absoluto Médio (MAE):** 341 kg/Ha.
-- **Melhoria de Desempenho:** Excede significativamente o desempenho dos modelos de última geração anteriores, incluindo os desenvolvidos no desafio EY. O MAE de 341 kg/Ha corresponde a aproximadamente 5-6% do rendimento médio mais baixo na região estudada.
-- **Publicação:** Submetido em 9 de fevereiro de 2025.
-- **Citações:** 10 (em 2025, conforme o snippet inicial).
-- **Dados de Treinamento:** Dados do Open Science Challenge 2023 da Ernst & Young (EY).
+- **Mean Absolute Error (MAE):** 341 kg/Ha.
+- **Performance Improvement:** Significantly exceeds the performance of previous state-of-the-art models, including those developed in the EY challenge. The MAE of 341 kg/Ha corresponds to approximately 5-6% of the lowest average yield in the studied region.
+- **Publication:** Submitted on February 9, 2025.
+- **Citations:** 10 (in 2025, according to the initial snippet).
+- **Training Data:** Data from Ernst & Young's (EY) Open Science Challenge 2023.
 
 ## Features
 
-- **Fusão de Dados Multimodais:** Integração de dados SAR (Sentinel 1), ópticos (Sentinel 2 e 3) e meteorológicos (temperatura e precipitação).
-- **Deep Ensemble Learning:** Combinação de múltiplos algoritmos de aprendizado de máquina em uma arquitetura de conjunto profundo.
-- **Engenharia de Características Otimizada:** Seleção de 15 características mais informativas a partir de mais de 100 preditores potenciais.
-- **Alta Precisão:** Desempenho superior aos modelos de última geração anteriores.
+- **Multimodal Data Fusion:** Integration of SAR (Sentinel 1), optical (Sentinel 2 and 3), and meteorological (temperature and precipitation) data.
+- **Deep Ensemble Learning:** Combination of multiple machine learning algorithms in a deep ensemble architecture.
+- **Optimized Feature Engineering:** Selection of the 15 most informative features from more than 100 potential predictors.
+- **High Accuracy:** Performance superior to previous state-of-the-art models.
 
 ## Use Cases
 
-- **Previsão de Produtividade Agrícola:** Previsão precisa do rendimento de culturas, com foco inicial em culturas de arroz (implícito pelo nome RicEns-Net, embora o resumo seja genérico).
-- **Agricultura de Precisão:** Apoio à tomada de decisão para agricultores e gestores agrícolas, otimizando o uso de recursos (fertilizantes, irrigação).
-- **Avaliação de Risco:** Uso por seguradoras e instituições financeiras para avaliar o risco de colheitas em diferentes regiões.
-- **Monitoramento Regional:** Aplicação em grandes áreas geográficas, utilizando dados de satélite para monitoramento e previsão em escala regional.
+- **Agricultural Yield Prediction:** Accurate crop yield prediction, with an initial focus on rice crops (implied by the name RicEns-Net, although the abstract is generic).
+- **Precision Agriculture:** Decision-making support for farmers and agricultural managers, optimizing the use of resources (fertilizers, irrigation).
+- **Risk Assessment:** Use by insurers and financial institutions to assess crop risk across different regions.
+- **Regional Monitoring:** Application over large geographic areas, using satellite data for monitoring and prediction at a regional scale.
 
 ## Integration
 
-O artigo é uma pesquisa acadêmica e não fornece um guia de integração de código pronto para uso. No entanto, a metodologia sugere a implementação em um framework de aprendizado de máquina (como PyTorch ou TensorFlow) que suporte:
-1.  **Pré-processamento de Dados:** Normalização e alinhamento de dados multimodais (SAR, óptico, meteorológico).
-2.  **Seleção de Características:** Uso de técnicas como *feature importance* para reduzir o conjunto de preditores.
-3.  **Arquitetura de Ensemble:** Implementação de uma estrutura de conjunto profundo onde as previsões de modelos base (como CNNs, LSTMs ou modelos tradicionais de ML) são combinadas por um meta-aprendiz.
-O código-fonte e o conjunto de dados podem estar disponíveis no repositório associado ao artigo (não explicitamente listado no resumo).
+The article is academic research and does not provide a ready-to-use code integration guide. However, the methodology suggests implementation in a machine learning framework (such as PyTorch or TensorFlow) that supports:
+1.  **Data Preprocessing:** Normalization and alignment of multimodal data (SAR, optical, meteorological).
+2.  **Feature Selection:** Use of techniques such as *feature importance* to reduce the set of predictors.
+3.  **Ensemble Architecture:** Implementation of a deep ensemble structure where the predictions of base models (such as CNNs, LSTMs, or traditional ML models) are combined by a meta-learner.
+The source code and dataset may be available in the repository associated with the article (not explicitly listed in the abstract).
 
 ## URL
 

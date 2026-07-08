@@ -2,60 +2,60 @@
 
 ## Description
 
-Metaflow é um framework de código aberto para infraestrutura de Machine Learning (ML) e Ciência de Dados, originalmente desenvolvido na Netflix. Ele se destaca por ser uma **biblioteca Python amigável** que oferece uma API unificada para todo o *stack* de infraestrutura necessário para desenvolver, implantar e operar aplicações intensivas em dados, desde o protótipo até a produção. Sua proposta de valor única reside em permitir que cientistas de dados e engenheiros transitem de forma fluida entre o desenvolvimento local (em notebooks ou *laptops*) e a execução em escala na nuvem (AWS, Azure, GCP, Kubernetes), com **versionamento automático** e **alta disponibilidade** em produção, sem a necessidade de reescrever o código. O Metaflow é projetado para simplificar a complexidade do MLOps, focando na produtividade e na capacidade de testar e validar projetos em escala antes de um investimento total em infraestrutura.
+Metaflow is an open-source framework for Machine Learning (ML) and Data Science infrastructure, originally developed at Netflix. It stands out for being a **friendly Python library** that offers a unified API for the entire infrastructure *stack* needed to develop, deploy, and operate data-intensive applications, from prototype to production. Its unique value proposition lies in enabling data scientists and engineers to transition seamlessly between local development (in notebooks or *laptops*) and large-scale execution in the cloud (AWS, Azure, GCP, Kubernetes), with **automatic versioning** and **high availability** in production, without the need to rewrite code. Metaflow is designed to simplify the complexity of MLOps, focusing on productivity and the ability to test and validate projects at scale before making a full investment in infrastructure.
 
 ## Statistics
 
-*   **Origem**: Desenvolvido e utilizado internamente na Netflix para gerenciar milhares de fluxos de ML e milhões de execuções.
-*   **Licença**: Código aberto sob a Licença Apache 2.0.
-*   **Adoção**: Utilizado por empresas como Outerbounds (a empresa por trás do Metaflow), CNN, e outras que buscam padronizar seus fluxos de trabalho de ML.
-*   **Escalabilidade Comprovada**: Projetado para lidar com dezenas de milhares de fluxos e milhões de execuções em produção, demonstrando robustez e capacidade de escala.
+*   **Origin**: Developed and used internally at Netflix to manage thousands of ML flows and millions of runs.
+*   **License**: Open source under the Apache 2.0 License.
+*   **Adoption**: Used by companies such as Outerbounds (the company behind Metaflow), CNN, and others seeking to standardize their ML workflows.
+*   **Proven Scalability**: Designed to handle tens of thousands of flows and millions of runs in production, demonstrating robustness and scaling capability.
 
 ## Features
 
-*   **API Unificada**: Uma única biblioteca Python para gerenciar modelagem, *deployment*, versionamento, orquestração, computação e dados.
-*   **Transição Suave**: Permite o desenvolvimento local e a execução em escala na nuvem (AWS, Azure, GCP, Kubernetes) sem alterações no código.
-*   **Versionamento Automático**: Rastreia automaticamente todos os fluxos, experimentos e artefatos de dados.
-*   **Escalabilidade na Nuvem**: Integração nativa com AWS Batch, AWS Step Functions, Kubernetes, Argo Workflows e Apache Airflow para computação e agendamento em larga escala.
-*   **Isolamento de Dependências**: Usa `conda` ou `docker` para garantir que as dependências do código sejam reproduzíveis em todos os ambientes.
-*   **Visualização de Resultados**: Mecanismo integrado de *Cards* para criar e visualizar relatórios com imagens e texto.
+*   **Unified API**: A single Python library to manage modeling, *deployment*, versioning, orchestration, compute, and data.
+*   **Smooth Transition**: Enables local development and large-scale execution in the cloud (AWS, Azure, GCP, Kubernetes) without code changes.
+*   **Automatic Versioning**: Automatically tracks all flows, experiments, and data artifacts.
+*   **Cloud Scalability**: Native integration with AWS Batch, AWS Step Functions, Kubernetes, Argo Workflows, and Apache Airflow for large-scale compute and scheduling.
+*   **Dependency Isolation**: Uses `conda` or `docker` to ensure that code dependencies are reproducible across all environments.
+*   **Results Visualization**: Built-in *Cards* mechanism to create and view reports with images and text.
 
 ## Use Cases
 
-*   **Treinamento de Modelos em Larga Escala**: Executar o treinamento de modelos de *Deep Learning* e *Machine Learning* que exigem grandes volumes de dados e recursos computacionais, aproveitando a integração com Kubernetes e AWS Batch.
-*   **Pipelines de Dados e ML Reproduzíveis**: Criar fluxos de trabalho que garantem a rastreabilidade e a reprodutibilidade de experimentos, desde a ingestão de dados até a *deployment* do modelo, graças ao versionamento automático de artefatos.
-*   **Análise Estatística e Relatórios**: Utilizado para carregar metadados, calcular estatísticas específicas de domínio (como estatísticas de gênero de filmes na Netflix) e gerar relatórios visuais (Cards) para *stakeholders*.
-*   **Desenvolvimento Iterativo de ML**: Suportar a jornada do protótipo à produção, permitindo que cientistas de dados desenvolvam rapidamente em um *notebook* e, em seguida, escalem para a nuvem com um comando simples (`--run-id`).
-*   **Sistemas de Recomendação**: Na Netflix, o Metaflow é usado para construir e gerenciar os complexos *pipelines* de dados e modelos que alimentam seus sistemas de recomendação.
+*   **Large-Scale Model Training**: Run the training of *Deep Learning* and *Machine Learning* models that require large volumes of data and computational resources, leveraging integration with Kubernetes and AWS Batch.
+*   **Reproducible Data and ML Pipelines**: Create workflows that ensure the traceability and reproducibility of experiments, from data ingestion to model *deployment*, thanks to the automatic versioning of artifacts.
+*   **Statistical Analysis and Reporting**: Used to load metadata, compute domain-specific statistics (such as movie genre statistics at Netflix), and generate visual reports (Cards) for *stakeholders*.
+*   **Iterative ML Development**: Support the journey from prototype to production, allowing data scientists to develop rapidly in a *notebook* and then scale to the cloud with a simple command (`--run-id`).
+*   **Recommendation Systems**: At Netflix, Metaflow is used to build and manage the complex data and model *pipelines* that power its recommendation systems.
 
 ## Integration
 
-O Metaflow se integra perfeitamente com os principais serviços de nuvem e orquestradores de fluxo de trabalho. A integração é tipicamente feita através de **decoradores Python** que abstraem a complexidade da infraestrutura.
+Metaflow integrates seamlessly with the leading cloud services and workflow orchestrators. Integration is typically done through **Python decorators** that abstract the complexity of the infrastructure.
 
-**Exemplo de Integração com Kubernetes para Escala:**
+**Example of Integration with Kubernetes for Scale:**
 
 ```python
 from metaflow import FlowSpec, step, kubernetes
 
 class ScalingFlow(FlowSpec):
-    @kubernetes(memory=64000, cpu=16) # Solicita 64GB de RAM e 16 vCPUs no Kubernetes
+    @kubernetes(memory=64000, cpu=16) # Requests 64GB of RAM and 16 vCPUs on Kubernetes
     @step
     def start(self):
-        # Lógica de processamento intensivo que será executada em um pod K8s
+        # Intensive processing logic that will run in a K8s pod
         self.data = self.process_large_dataset()
         self.next(self.end)
 
     @step
     def end(self):
-        print("Processamento concluído com sucesso.")
+        print("Processing completed successfully.")
 
 if __name__ == '__main__':
     ScalingFlow()
 ```
 
-**Exemplo de Integração com S3 para Armazenamento de Dados:**
+**Example of Integration with S3 for Data Storage:**
 
-O Metaflow gerencia automaticamente o armazenamento de artefatos no S3 (ou outro *backend* de nuvem) e fornece um cliente S3 amigável:
+Metaflow automatically manages artifact storage in S3 (or another cloud *backend*) and provides a friendly S3 client:
 
 ```python
 from metaflow import FlowSpec, step, S3
@@ -63,12 +63,12 @@ from metaflow import FlowSpec, step, S3
 class DataFlow(FlowSpec):
     @step
     def start(self):
-        # O cliente S3 do Metaflow simplifica o acesso a dados
+        # Metaflow's S3 client simplifies data access
         with S3(run=self) as s3:
-            # Baixa um arquivo do S3
+            # Download a file from S3
             s3.get("s3://my-bucket/input.csv", "local_input.csv")
-            # Faz o upload de um artefato
-            s3.put("s3://my-bucket/output.txt", "conteúdo do arquivo")
+            # Upload an artifact
+            s3.put("s3://my-bucket/output.txt", "file content")
         self.next(self.end)
 
     @step
@@ -76,15 +76,15 @@ class DataFlow(FlowSpec):
         pass
 ```
 
-**Agendamento com Airflow:**
+**Scheduling with Airflow:**
 
-Para agendar um fluxo Metaflow com Apache Airflow, basta gerar o DAG correspondente a partir do fluxo Python:
+To schedule a Metaflow flow with Apache Airflow, simply generate the corresponding DAG from the Python flow:
 
 ```bash
 python my_metaflow_flow.py --datastore=s3 airflow create
 ```
 
-Este comando gera um arquivo `my_metaflow_flow_airflow_dag.py` que pode ser implantado no Airflow.
+This command generates a file `my_metaflow_flow_airflow_dag.py` that can be deployed to Airflow.
 
 ## URL
 

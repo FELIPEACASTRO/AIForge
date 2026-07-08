@@ -1,57 +1,57 @@
 # Affiliate Marketing Prompts
 
 ## Description
-Prompts de Marketing de Afiliados são instruções estruturadas e detalhadas fornecidas a modelos de linguagem grande (LLMs) como ChatGPT, Gemini ou Claude para gerar conteúdo e estratégias que apoiem a promoção de produtos ou serviços de terceiros em troca de uma comissão. Eles são projetados para automatizar e otimizar tarefas cruciais no funil de afiliados, como pesquisa de nicho, análise de tendências de mercado, criação de conteúdo persuasivo (reviews, posts de mídia social, e-mails), otimização de conversão (CTAs) e geração de ideias de palavras-chave de alto valor. A eficácia desta técnica reside na capacidade do usuário de refinar a saída da IA com informações específicas sobre o produto, as dores do público-alvo e os objetivos de SEO/conversão, transformando a IA em um assistente de marketing de afiliados altamente produtivo.
+Affiliate Marketing Prompts are structured, detailed instructions provided to large language models (LLMs) such as ChatGPT, Gemini or Claude to generate content and strategies that support the promotion of third-party products or services in exchange for a commission. They are designed to automate and optimize crucial tasks in the affiliate funnel, such as niche research, market trend analysis, persuasive content creation (reviews, social media posts, emails), conversion optimization (CTAs) and high-value keyword idea generation. The effectiveness of this technique lies in the user's ability to refine the AI output with specific information about the product, the target audience's pain points and the SEO/conversion goals, turning the AI into a highly productive affiliate marketing assistant.
 
 ## Examples
 ```
-**1. Pesquisa de Programa de Afiliados e Análise de Nicho**
-`Aja como um consultor de marketing de afiliados. Liste os 5 principais programas de afiliados para o nicho de "software de produtividade para pequenas empresas", incluindo a taxa de comissão, o cookie de rastreamento e o público-alvo ideal. Em seguida, identifique as 3 tendências de mercado mais quentes neste nicho para 2025.`
+**1. Affiliate Program Research and Niche Analysis**
+`Act as an affiliate marketing consultant. List the top 5 affiliate programs for the "productivity software for small businesses" niche, including the commission rate, the tracking cookie and the ideal target audience. Then, identify the 3 hottest market trends in this niche for 2025.`
 
-**2. Criação de Roteiro de Review de Produto (SEO)**
-`Crie um roteiro de artigo de review de 2.000 palavras para o produto "Mochila de Viagem XYZ" (link de afiliado: [SEU LINK]). O público-alvo são viajantes solo com orçamento limitado. O roteiro deve incluir: Título otimizado para SEO (com a palavra-chave "melhor mochila de viagem barata"), uma introdução com gancho, uma seção de prós e contras, uma comparação com o concorrente "Mochila ABC" e 3 variações de Call-to-Action (CTA) persuasivas.`
+**2. Product Review Script Creation (SEO)**
+`Create a 2,000-word review article script for the product "XYZ Travel Backpack" (affiliate link: [YOUR LINK]). The target audience is budget-conscious solo travelers. The script should include: an SEO-optimized title (with the keyword "best cheap travel backpack"), an introduction with a hook, a pros and cons section, a comparison with the competitor "ABC Backpack" and 3 variations of a persuasive Call-to-Action (CTA).`
 
-**3. Geração de Ideias de Conteúdo para Mídias Sociais**
-`Gere 5 ideias de posts curtos para Instagram Reels e TikTok promovendo um produto de "suplemento pré-treino vegano". Cada ideia deve incluir um gancho de 3 segundos, o formato (ex: "Antes e Depois", "Mito vs. Fato") e uma legenda com hashtags relevantes. O tom deve ser motivacional e energético.`
+**3. Social Media Content Idea Generation**
+`Generate 5 short post ideas for Instagram Reels and TikTok promoting a "vegan pre-workout supplement" product. Each idea should include a 3-second hook, the format (e.g., "Before and After", "Myth vs. Fact") and a caption with relevant hashtags. The tone should be motivational and energetic.`
 
-**4. Otimização de Conversão (CTA e Títulos)**
-`Analise o seguinte título de artigo: "Como Usar o Software de Finanças Pessoais X". Sugira 5 novos títulos mais focados em benefícios e otimizados para a taxa de cliques (CTR). Além disso, forneça 3 variações de Call-to-Action (CTA) para o final do artigo, com foco na urgência e escassez.`
+**4. Conversion Optimization (CTA and Titles)**
+`Analyze the following article title: "How to Use Personal Finance Software X". Suggest 5 new titles that are more benefit-focused and optimized for click-through rate (CTR). In addition, provide 3 variations of a Call-to-Action (CTA) for the end of the article, focusing on urgency and scarcity.`
 
-**5. Rascunho de E-mail de Sequência de Vendas**
-`Escreva o primeiro e-mail de uma sequência de 3 e-mails para uma lista de leads que baixaram um e-book sobre "Dieta Keto". O objetivo é promover o produto de afiliado "Curso de Receitas Keto Avançadas". O e-mail deve ter um assunto que gere abertura, abordar a dor de "falta de variedade na dieta" e apresentar o curso como a solução, com um link de afiliado claro.`
+**5. Sales Sequence Email Draft**
+`Write the first email of a 3-email sequence for a list of leads who downloaded an e-book about the "Keto Diet". The goal is to promote the affiliate product "Advanced Keto Recipes Course". The email should have a subject line that drives opens, address the pain point of "lack of variety in the diet" and present the course as the solution, with a clear affiliate link.`
 
-**6. Análise de Concorrência e Lacunas de Conteúdo**
-`Liste os 5 artigos mais bem classificados no Google para a palavra-chave "melhor VPN para streaming". Analise o conteúdo deles e identifique 3 "lacunas de conteúdo" (tópicos não abordados ou abordados superficialmente) que eu possa usar para criar um artigo superior e mais completo.`
+**6. Competitive Analysis and Content Gaps**
+`List the 5 top-ranking articles on Google for the keyword "best VPN for streaming". Analyze their content and identify 3 "content gaps" (topics not covered or covered superficially) that I can use to create a superior and more complete article.`
 
-**7. Criação de Lead Magnet**
-`Sugira 3 tópicos de e-book ou checklist que possam ser usados como "lead magnet" para um site de afiliados no nicho de "jardinagem urbana". O objetivo é capturar e-mails para promover ferramentas de jardinagem. Para o tópico escolhido, crie um esboço de 5 capítulos.`
+**7. Lead Magnet Creation**
+`Suggest 3 e-book or checklist topics that could be used as a "lead magnet" for an affiliate site in the "urban gardening" niche. The goal is to capture emails to promote gardening tools. For the chosen topic, create a 5-chapter outline.`
 ```
 
 ## Best Practices
-**Melhores Práticas (Best Practices):**
-*   **Contextualização Detalhada:** Sempre inclua o máximo de detalhes possível no prompt: o produto exato, o público-alvo, o nicho, o tom de voz desejado e o objetivo (ex: clique, venda, captura de lead).
-*   **Definição de Persona:** Peça à IA para assumir uma persona (ex: "Aja como um especialista em SEO com 10 anos de experiência") para obter respostas mais focadas e de alta qualidade.
-*   **Iteração e Refinamento:** Use a saída inicial da IA como rascunho. Peça refinamentos específicos (ex: "Torne o CTA mais urgente", "Adicione um parágrafo sobre a garantia do produto").
-*   **Foco em SEO:** Inclua palavras-chave de cauda longa e instrua a IA a otimizar o conteúdo para mecanismos de busca, focando na intenção de busca do usuário.
-*   **Transparência e Conformidade:** Sempre inclua uma instrução para que o conteúdo gerado inclua uma divulgação clara de afiliação, conforme exigido pelas regulamentações (ex: FTC).
+**Best Practices:**
+*   **Detailed Contextualization:** Always include as much detail as possible in the prompt: the exact product, the target audience, the niche, the desired tone of voice and the goal (e.g., click, sale, lead capture).
+*   **Persona Definition:** Ask the AI to take on a persona (e.g., "Act as an SEO expert with 10 years of experience") to get more focused, high-quality responses.
+*   **Iteration and Refinement:** Use the AI's initial output as a draft. Ask for specific refinements (e.g., "Make the CTA more urgent", "Add a paragraph about the product's warranty").
+*   **SEO Focus:** Include long-tail keywords and instruct the AI to optimize the content for search engines, focusing on the user's search intent.
+*   **Transparency and Compliance:** Always include an instruction for the generated content to include a clear affiliate disclosure, as required by regulations (e.g., FTC).
 
 ## Use Cases
-**Casos de Uso (Use Cases):**
-*   **Seleção de Programas:** Identificar programas de afiliados lucrativos e analisar suas estruturas de comissão e termos.
-*   **Estratégia de Conteúdo:** Gerar ideias de blog posts, vídeos e podcasts, e criar roteiros detalhados otimizados para SEO.
-*   **Marketing por E-mail:** Desenvolver sequências de e-mail de vendas, newsletters e campanhas de lançamento de produtos de afiliados.
-*   **Otimização de Conversão (CRO):** Criar variações de Call-to-Action (CTA), títulos e subtítulos para aumentar a taxa de cliques e vendas.
-*   **Análise de Mercado:** Identificar tendências de nicho, analisar a concorrência e encontrar lacunas de conteúdo para explorar.
-*   **Criação de Lead Magnets:** Desenhar e-books, checklists e quizzes para capturar leads e construir listas de e-mail para promoções futuras.
-*   **Mídias Sociais:** Gerar ideias de posts, scripts de vídeos curtos e legendas envolventes para plataformas como Instagram, TikTok e Pinterest.
+**Use Cases:**
+*   **Program Selection:** Identify profitable affiliate programs and analyze their commission structures and terms.
+*   **Content Strategy:** Generate ideas for blog posts, videos and podcasts, and create detailed SEO-optimized scripts.
+*   **Email Marketing:** Develop sales email sequences, newsletters and affiliate product launch campaigns.
+*   **Conversion Optimization (CRO):** Create variations of Call-to-Action (CTA), titles and subtitles to increase click-through rate and sales.
+*   **Market Analysis:** Identify niche trends, analyze the competition and find content gaps to exploit.
+*   **Lead Magnet Creation:** Design e-books, checklists and quizzes to capture leads and build email lists for future promotions.
+*   **Social Media:** Generate post ideas, short video scripts and engaging captions for platforms such as Instagram, TikTok and Pinterest.
 
 ## Pitfalls
-**Armadilhas Comuns (Pitfalls):**
-*   **Conteúdo Genérico e Sem Valor:** Depender demais da saída inicial da IA sem adicionar insights, experiência ou personalidade própria. O conteúdo gerado soa robótico e não converte.
-*   **Falta de Transparência:** Não incluir a divulgação de afiliação, o que pode levar a problemas legais e quebra de confiança com o público.
-*   **Ignorar a Intenção de Busca:** Gerar conteúdo que não corresponde ao que o usuário realmente procura (ex: um review quando o usuário quer um tutorial), resultando em baixo tráfego e alta taxa de rejeição.
-*   **Prompts Vagos:** Usar prompts curtos e ambíguos (ex: "Escreva um post sobre o produto X") que resultam em respostas de baixa qualidade e irrelevantes.
-*   **Foco Exclusivo na Venda:** Criar conteúdo que apenas empurra o produto, em vez de fornecer valor real, educação ou entretenimento para o público. O marketing de afiliados de sucesso é baseado na confiança.
+**Pitfalls:**
+*   **Generic, Low-Value Content:** Relying too heavily on the AI's initial output without adding your own insights, experience or personality. The generated content sounds robotic and does not convert.
+*   **Lack of Transparency:** Failing to include the affiliate disclosure, which can lead to legal problems and a breach of trust with the audience.
+*   **Ignoring Search Intent:** Generating content that does not match what the user is actually looking for (e.g., a review when the user wants a tutorial), resulting in low traffic and a high bounce rate.
+*   **Vague Prompts:** Using short, ambiguous prompts (e.g., "Write a post about product X") that result in low-quality, irrelevant responses.
+*   **Sole Focus on the Sale:** Creating content that only pushes the product, instead of providing real value, education or entertainment for the audience. Successful affiliate marketing is based on trust.
 
 ## URL
 [https://www.bizway.io/blog/chatgpt-prompts-for-affiliate-marketing](https://www.bizway.io/blog/chatgpt-prompts-for-affiliate-marketing)

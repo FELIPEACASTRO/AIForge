@@ -1,42 +1,42 @@
-# Prompting para Tutoria Personalizada (Role-Based + CoT)
+# Prompting for Personalized Tutoring (Role-Based + CoT)
 
 ## Description
 
-A Engenharia de Prompt para Tutoria Personalizada combina a atribuição de um **Papel Específico (Role-Based)** ao modelo de linguagem (LLM) com a técnica de **Cadeia de Pensamento (Chain-of-Thought - CoT)** para criar experiências de aprendizado mais eficazes e didáticas. O Role-Based garante que o LLM adote uma persona pedagógica consistente (ex: "Tutor Socrático" ou "Professor de MBA"), controlando o tom, o estilo e o nível de conhecimento de domínio. O CoT, por sua vez, força o modelo a detalhar seu raciocínio passo a passo, o que é crucial para simular o processo de pensamento humano e permitir que o estudante acompanhe a lógica da resposta, identifique erros conceituais e desenvolva o pensamento crítico. Esta abordagem é considerada uma das melhores práticas mais recentes no domínio educacional, conforme evidenciado por revisões sistemáticas de 2025 [1].
+Prompt Engineering for Personalized Tutoring combines assigning a **Specific Role (Role-Based)** to the language model (LLM) with the **Chain-of-Thought (CoT)** technique to create more effective and didactic learning experiences. Role-Based prompting ensures that the LLM adopts a consistent pedagogical persona (e.g., "Socratic Tutor" or "MBA Professor"), controlling the tone, style, and level of domain knowledge. CoT, in turn, forces the model to detail its reasoning step by step, which is crucial for simulating the human thought process and allowing the student to follow the logic of the answer, identify conceptual errors, and develop critical thinking. This approach is considered one of the most recent best practices in the educational domain, as evidenced by systematic reviews from 2025 [1].
 
 ## Statistics
 
-A eficácia da engenharia de prompt na educação é confirmada por uma revisão sistemática de 2025 [1], que identificou a importância de métricas de sucesso como o **"Template Stickiness"** (aderência do resultado ao formato predefinido no prompt) e o alinhamento com os objetivos pedagógicos. O estudo analisou 33 artigos, destacando a personificação (Role-Based) e o controle de contexto como temas centrais para o desenvolvimento de currículos de Ensino Superior. O artigo de Lee & Palmer (2025) é uma fonte de alta relevância, com 84 citações no momento da publicação.
+The effectiveness of prompt engineering in education is confirmed by a 2025 systematic review [1], which identified the importance of success metrics such as **"Template Stickiness"** (adherence of the result to the format predefined in the prompt) and alignment with pedagogical objectives. The study analyzed 33 articles, highlighting personification (Role-Based) and context control as central themes for the development of Higher Education curricula. The article by Lee & Palmer (2025) is a highly relevant source, with 84 citations at the time of publication.
 
 ## Features
 
-**Role-Based Prompting:** Define a persona e o estilo de interação do tutor de IA, garantindo consistência pedagógica e controle de contexto (**Context Control**). **Chain-of-Thought (CoT):** Habilita o raciocínio complexo e a resolução de problemas em múltiplos passos, simulando o processo de pensamento para maior transparência e didática. **Feedback Loops:** Essencial para aprimorar a interação, permitindo que o aluno solicite dicas, pistas ou sugestões incrementais em vez de respostas diretas. **Input Semantics & Output Customization:** Foco na clareza da entrada e na personalização da saída para atender aos objetivos de aprendizado.
+**Role-Based Prompting:** Defines the persona and interaction style of the AI tutor, ensuring pedagogical consistency and context control (**Context Control**). **Chain-of-Thought (CoT):** Enables complex reasoning and multi-step problem solving, simulating the thought process for greater transparency and didactic value. **Feedback Loops:** Essential for improving the interaction, allowing the student to request hints, clues, or incremental suggestions instead of direct answers. **Input Semantics & Output Customization:** Focus on input clarity and output customization to meet learning objectives.
 
 ## Use Cases
 
-**Tutoria 24/7 e Aprendizagem Personalizada:** Criação de tutores de IA que se adaptam ao ritmo e estilo de aprendizado do aluno. **Design Curricular e de Avaliação:** Auxílio na criação de planos de aula, atividades e questões de avaliação (ex: *design* de avaliações e *field trips*). **Análise de Aprendizado (Learning Analytics):** Uso de prompts para extrair dados de desempenho e identificar alunos em risco. **Fluxos de Trabalho Criativos:** Geração de conteúdo criativo (ex: poesia, cenários) para engajamento em sala de aula. **Assistência Administrativa:** Criação de prompts para tarefas de gestão educacional.
+**24/7 Tutoring and Personalized Learning:** Creation of AI tutors that adapt to the student's pace and learning style. **Curriculum and Assessment Design:** Assistance in creating lesson plans, activities, and assessment questions (e.g., assessment *design* and *field trips*). **Learning Analytics:** Use of prompts to extract performance data and identify at-risk students. **Creative Workflows:** Generation of creative content (e.g., poetry, scenarios) for classroom engagement. **Administrative Assistance:** Creation of prompts for educational management tasks.
 
 ## Integration
 
-**Exemplo de Prompt para Tutoria Personalizada (Role-Based + CoT):**
+**Example Prompt for Personalized Tutoring (Role-Based + CoT):**
 
 ```
-**[PAPEL]** Você é um Tutor Socrático especializado em Física Quântica para alunos de graduação. Seu objetivo é guiar o aluno a descobrir a resposta por conta própria, usando apenas perguntas, dicas e sugestões incrementais. NUNCA dê a resposta direta.
+**[ROLE]** You are a Socratic Tutor specialized in Quantum Physics for undergraduate students. Your goal is to guide the student to discover the answer on their own, using only questions, hints, and incremental suggestions. NEVER give the direct answer.
 
-**[CONTEXTO]** O aluno está estudando o princípio da incerteza de Heisenberg.
+**[CONTEXT]** The student is studying Heisenberg's uncertainty principle.
 
-**[TAREFA]** Eu quero que você me ajude a entender a relação entre a posição e o momento de uma partícula.
+**[TASK]** I want you to help me understand the relationship between the position and momentum of a particle.
 
-**[ESTRATÉGIA CoT]** Antes de responder, pense em qual seria a próxima pergunta socrática mais eficaz para o aluno, baseada no conhecimento prévio necessário para a compreensão do princípio.
+**[CoT STRATEGY]** Before answering, think about what the next most effective Socratic question for the student would be, based on the prior knowledge needed to understand the principle.
 
-**[INÍCIO DA INTERAÇÃO]** Qual é a definição fundamental de uma "onda" e de uma "partícula" na mecânica clássica?
+**[START OF INTERACTION]** What is the fundamental definition of a "wave" and a "particle" in classical mechanics?
 ```
 
-**Melhores Práticas:**
-1.  **Defina o Papel (Role):** Seja o mais específico possível (ex: "Tutor de História do Brasil do Século XIX" em vez de apenas "Professor").
-2.  **Use CoT para Raciocínio:** Inclua a instrução "Pense passo a passo" ou "Explique seu raciocínio antes de dar a resposta final" para tarefas de resolução de problemas.
-3.  **Controle o Contexto:** Forneça o nível de ensino, o tópico e o objetivo de aprendizado.
-4.  **Implemente o Feedback Loop:** Peça ao LLM para guiar o aluno com dicas, em vez de soluções prontas, simulando uma interação pedagógica real.
+**Best Practices:**
+1.  **Define the Role:** Be as specific as possible (e.g., "Tutor of 19th-Century Brazilian History" instead of just "Teacher").
+2.  **Use CoT for Reasoning:** Include the instruction "Think step by step" or "Explain your reasoning before giving the final answer" for problem-solving tasks.
+3.  **Control the Context:** Provide the grade level, the topic, and the learning objective.
+4.  **Implement the Feedback Loop:** Ask the LLM to guide the student with hints, rather than ready-made solutions, simulating a real pedagogical interaction.
 
 ## URL
 

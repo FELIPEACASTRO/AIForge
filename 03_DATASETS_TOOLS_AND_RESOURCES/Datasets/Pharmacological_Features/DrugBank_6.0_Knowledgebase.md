@@ -2,23 +2,23 @@
 
 ## Description
 
-O DrugBank 6.0 é uma base de conhecimento abrangente e de acesso aberto que combina informações detalhadas sobre medicamentos e alvos medicamentosos (como proteínas e genes). A versão 6.0, lançada em 2024, expandiu significativamente o número de medicamentos aprovados pela FDA e as entradas de interações medicamentosas (DDIs), tornando-se um recurso fundamental para a pesquisa em farmacologia e informática médica. Inclui dados sobre propriedades químicas, farmacológicas, farmacocinéticas e farmacodinâmicas dos medicamentos.
+DrugBank 6.0 is a comprehensive, open-access knowledgebase that combines detailed information about drugs and drug targets (such as proteins and genes). Version 6.0, released in 2024, significantly expanded the number of FDA-approved drugs and drug-drug interaction (DDI) entries, making it a fundamental resource for research in pharmacology and medical informatics. It includes data on the chemical, pharmacological, pharmacokinetic, and pharmacodynamic properties of drugs.
 
 ## Statistics
 
-Total de 15.468 medicamentos de pequenas moléculas, 4.308 medicamentos biotecnológicos e 4.772 medicamentos aprovados. A versão 6.0 adicionou 2.550 novas entradas de enzima-medicamento, 1.560 de transportador-medicamento e 550 de carreador-medicamento. Mais de 30 milhões de visualizações/ano.
+A total of 15,468 small-molecule drugs, 4,308 biotech drugs, and 4,772 approved drugs. Version 6.0 added 2,550 new enzyme-drug entries, 1,560 transporter-drug entries, and 550 carrier-drug entries. More than 30 million views per year.
 
 ## Features
 
-Propriedades químicas e estruturais (SMILES, InChI), dados farmacológicos (mecanismo de ação, metabolismo), interações medicamentosas (DDIs), alvos medicamentosos (enzimas, transportadores, carreadores) e informações clínicas. A versão 6.0 aumentou em 72% o número de medicamentos aprovados pela FDA e em 300% os dados de DDI.
+Chemical and structural properties (SMILES, InChI), pharmacological data (mechanism of action, metabolism), drug-drug interactions (DDIs), drug targets (enzymes, transporters, carriers), and clinical information. Version 6.0 increased the number of FDA-approved drugs by 72% and DDI data by 300%.
 
 ## Use Cases
 
-Previsão de interações medicamentosas (DDIs), identificação de novos alvos medicamentosos, reposicionamento de medicamentos, modelagem de propriedades ADMET (Absorção, Distribuição, Metabolismo, Excreção e Toxicidade) e desenvolvimento de sistemas de suporte à decisão clínica.
+Prediction of drug-drug interactions (DDIs), identification of new drug targets, drug repurposing, ADMET property modeling (Absorption, Distribution, Metabolism, Excretion, and Toxicity), and development of clinical decision support systems.
 
 ## Integration
 
-Acesso via interface web (DrugBank Online) e API para integração programática. O banco de dados completo pode ser baixado para fins de pesquisa e desenvolvimento de software, mediante licença. A API Clinical oferece um verificador robusto de interações medicamentosas e recursos avançados de pesquisa. Exemplo de acesso via API (conceitual):
+Access via web interface (DrugBank Online) and API for programmatic integration. The complete database can be downloaded for research and software development purposes under a license. The Clinical API offers a robust drug-drug interaction checker and advanced search features. Example of API access (conceptual):
 ```python
 import requests
 

@@ -2,30 +2,30 @@
 
 ## Description
 
-O Framework CRIT (Contexto, Papel, Entrevista, Tarefa) é uma metodologia de engenharia de prompt desenvolvida por Geoff Woods para transformar Modelos de Linguagem Grande (LLMs) em um 'Conselheiro de Diretoria' ou parceiro de pensamento estratégico. Ele se diferencia por incluir uma etapa de 'Entrevista', onde a IA é instruída a fazer perguntas de clarificação ao usuário antes de gerar a resposta final. Isso garante que a IA compreenda profundamente o contexto e os pontos cegos do líder, elevando a qualidade da tomada de decisão estratégica. Outros frameworks relevantes para estratégia de negócios incluem RISE (Papel, Entrada, Passos, Expectativa), RTF (Papel, Tarefa, Formato), BAB (Antes, Depois, Ponte) e CARE (Contexto, Ação, Resultado, Exemplo).
+The CRIT Framework (Context, Role, Interview, Task) is a prompt engineering methodology developed by Geoff Woods to transform Large Language Models (LLMs) into a 'Board Advisor' or strategic thought partner. It stands out by including an 'Interview' step, where the AI is instructed to ask clarifying questions of the user before generating the final response. This ensures that the AI deeply understands the leader's context and blind spots, elevating the quality of strategic decision-making. Other frameworks relevant to business strategy include RISE (Role, Input, Steps, Expectation), RTF (Role, Task, Format), BAB (Before, After, Bridge), and CARE (Context, Action, Result, Example).
 
 ## Statistics
 
-Pesquisas indicam que ferramentas de IA como o ChatGPT podem aumentar a produtividade da força de trabalho em uma média de 14%, com alguns relatórios empresariais apontando ganhos de até 400% quando prompts estruturados são utilizados. O CRIT foi criado após a percepção de que a IA poderia atuar como um parceiro de pensamento ativo, e não apenas um assistente passivo, sendo ideal para executivos que preparam revisões de diretoria e sessões de planejamento estratégico.
+Research indicates that AI tools such as ChatGPT can increase workforce productivity by an average of 14%, with some corporate reports pointing to gains of up to 400% when structured prompts are used. CRIT was created after the realization that AI could act as an active thought partner, and not just a passive assistant, making it ideal for executives preparing board reviews and strategic planning sessions.
 
 ## Features
 
-Transforma a IA em um parceiro de pensamento ativo; Inclui uma etapa de 'Entrevista' para descoberta de pontos cegos e clarificação; Ideal para stress-testing de estratégias e preparação para reuniões de alto risco; Garante resultados consistentes, acionáveis e alinhados com as necessidades de liderança; Permite a simulação de cenários de conselho ou investidores.
+Transforms AI into an active thought partner; Includes an 'Interview' step for blind spot discovery and clarification; Ideal for stress-testing strategies and preparing for high-stakes meetings; Ensures consistent, actionable results aligned with leadership needs; Enables the simulation of board or investor scenarios.
 
 ## Use Cases
 
-Preparação para reuniões de diretoria (Board Reviews); Planejamento estratégico de alto nível; Stress-testing de apresentações e planos de negócios; Descoberta de pontos cegos em estratégias; Comunicação de iniciativas de mudança (usando a lógica BAB); Análise de decisão e síntese de pesquisa (usando a lógica RISE).
+Preparation for Board Reviews; High-level strategic planning; Stress-testing presentations and business plans; Discovery of blind spots in strategies; Communication of change initiatives (using BAB logic); Decision analysis and research synthesis (using RISE logic).
 
 ## Integration
 
-O framework CRIT segue a estrutura: 
-1. **Contexto (Context):** Forneça informações detalhadas sobre a situação, stakeholders e objetivos. 
-2. **Papel (Role):** Atribua à IA uma perspectiva específica (ex: 'membro do conselho', 'estrategista de mercado'). 
-3. **Entrevista (Interview):** Peça à IA para fazer perguntas de clarificação antes de responder (ex: 'Antes de responder, faça-me 3 perguntas para garantir que você tenha todos os detalhes necessários.'). 
-4. **Tarefa (Task):** Defina claramente o resultado desejado (ex: 'Com base nas minhas respostas, crie um resumo executivo de uma página com 3 riscos principais e 3 recomendações de mitigação.'). 
+The CRIT framework follows this structure: 
+1. **Context:** Provide detailed information about the situation, stakeholders, and objectives. 
+2. **Role:** Assign the AI a specific perspective (e.g., 'board member', 'market strategist'). 
+3. **Interview:** Ask the AI to pose clarifying questions before responding (e.g., 'Before answering, ask me 3 questions to ensure you have all the necessary details.'). 
+4. **Task:** Clearly define the desired outcome (e.g., 'Based on my answers, create a one-page executive summary with 3 key risks and 3 mitigation recommendations.'). 
 
-**Exemplo de Prompt CRIT:** 
-'Contexto: Estamos lançando um novo produto SaaS B2B focado em pequenas e médias empresas. O orçamento de marketing é de R$500.000 para o primeiro trimestre. Papel: Atue como um investidor de capital de risco cético. Entrevista: Faça-me 5 perguntas críticas sobre o plano de lançamento que um investidor faria. Tarefa: Após minhas respostas, forneça uma análise de risco e um plano de contingência de 3 pontos.'
+**Example CRIT Prompt:** 
+'Context: We are launching a new B2B SaaS product focused on small and medium-sized businesses. The marketing budget is R$500,000 for the first quarter. Role: Act as a skeptical venture capital investor. Interview: Ask me 5 critical questions about the launch plan that an investor would ask. Task: After my answers, provide a risk analysis and a 3-point contingency plan.'
 
 ## URL
 

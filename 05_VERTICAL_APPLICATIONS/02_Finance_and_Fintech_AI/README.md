@@ -25,7 +25,7 @@ Finance is one of AI's highest-stakes, most data-rich verticals. This vertical i
 | [Credit_AI](./Credit_AI/) · [Credit_Scoring](./Credit_Scoring/) | Credit risk & scoring |
 | [Fraud_Detection](./Fraud_Detection/) | Financial fraud detection |
 | [Risk_Management](./Risk_Management/) | Risk modeling resources |
-| [Payment_e_Transaction](./Payment_e_Transaction/) | Payments & transactions |
+| [Payment_and_Transaction](./Payment_and_Transaction/) | Payments & transactions |
 | [General_Fintech_AI](./General_Fintech_AI/) | Broad fintech AI resources |
 | [Tutorial](./Tutorial/) · [ai-projects](./ai-projects/) · [GitHub_Repository](./GitHub_Repository/) | Tutorials, projects, repos |
 

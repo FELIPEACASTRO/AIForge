@@ -2,23 +2,23 @@
 
 ## Description
 
-Dataset global de longo prazo (1981–2021) e alta resolução (4 km) do Índice de Saúde da Vegetação (VHI) aprimorado, integrando dados de clima, vegetação e umidade do solo. Foi desenvolvido para melhorar a detecção de seca na vegetação, alcançando uma eficiência de detecção de seca global de até 85%.
+Long-term (1981–2021), high-resolution (4 km) global dataset of the improved Vegetation Health Index (VHI), integrating climate, vegetation, and soil moisture data. It was developed to improve vegetation drought detection, achieving a global drought detection efficiency of up to 85%.
 
 ## Statistics
 
-Período: 1981–2021. Resolução: 4 km. Cobertura: Global (exceto Antártida, ~50°S a 70°N). Formato: GeoTIFF (4-km). Tamanho: O dataset anual não excede 12 GB (cerca de 3 GB compactado). Dados anuais e mensais disponíveis. Consiste em 41 arquivos 'VHIopt_year.tif' e um arquivo de parâmetro 'a_opt'.
+Period: 1981–2021. Resolution: 4 km. Coverage: Global (except Antarctica, ~50°S to 70°N). Format: GeoTIFF (4-km). Size: The annual dataset does not exceed 12 GB (about 3 GB compressed). Annual and monthly data available. Consists of 41 'VHIopt_year.tif' files and one 'a_opt' parameter file.
 
 ## Features
 
-Índice de Saúde da Vegetação (VHI) aprimorado, que combina o Índice de Condição da Vegetação (VCI) e o Índice de Condição de Temperatura (TCI). Integra informações de clima, vegetação e umidade do solo. O aprimoramento visa maior sensibilidade a secas leves e maior precisão na extensão da seca.
+Improved Vegetation Health Index (VHI), which combines the Vegetation Condition Index (VCI) and the Temperature Condition Index (TCI). Integrates climate, vegetation, and soil moisture information. The improvement aims at greater sensitivity to mild droughts and greater accuracy in drought extent.
 
 ## Use Cases
 
-Monitoramento de seca de longo prazo, avaliação do impacto da seca nos setores agrícola, florestal, ecológico e ambiental. Análise de seca e pesquisas relacionadas em escala sazonal.
+Long-term drought monitoring, assessment of drought impact on the agricultural, forestry, ecological, and environmental sectors. Drought analysis and related research at a seasonal scale.
 
 ## Integration
 
-O dataset VHIopt está disponível em formato GeoTIFF 4-km no repositório figshare. O acesso é feito através do DOI: 10.6084/m9.figshare.19811854.v5. O arquivo de parâmetro 'a_opt' também é fornecido para cálculo do VHI em diferentes escalas.
+The VHIopt dataset is available in 4-km GeoTIFF format in the figshare repository. Access is through the DOI: 10.6084/m9.figshare.19811854.v5. The 'a_opt' parameter file is also provided for calculating VHI at different scales.
 
 ## URL
 

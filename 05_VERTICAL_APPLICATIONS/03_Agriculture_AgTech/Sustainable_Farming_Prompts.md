@@ -1,37 +1,37 @@
 # Sustainable Farming Prompts
 
 ## Description
-A Engenharia de Prompt para Agricultura Sustentável (Sustainable Farming Prompts) é uma técnica especializada que utiliza modelos de linguagem avançados (LLMs) para gerar conselhos, planos e análises detalhadas sobre práticas agrícolas ecologicamente corretas e economicamente viáveis. O objetivo é otimizar a produção de alimentos, preservar os recursos naturais e garantir a saúde do ecossistema agrícola. Esses prompts são estruturados para solicitar informações específicas sobre manejo do solo, rotação de culturas, controle biológico de pragas, conservação de água, biodiversidade e integração de energias renováveis, servindo como um assistente de planejamento e tomada de decisão para agricultores e entusiastas da agricultura sustentável.
+Prompt engineering for sustainable agriculture (Sustainable Farming Prompts) is a specialized technique that uses advanced language models (LLMs) to generate detailed advice, plans, and analyses on ecologically sound and economically viable farming practices. The goal is to optimize food production, preserve natural resources, and ensure the health of the agricultural ecosystem. These prompts are structured to request specific information about soil management, crop rotation, biological pest control, water conservation, biodiversity, and integration of renewable energy, serving as a planning and decision-making assistant for farmers and sustainable agriculture enthusiasts.
 
 ## Examples
 ```
-1. **Manejo de Solo:** "Atue como um especialista em agroecologia. Minha fazenda tem solo argiloso e estou cultivando milho e feijão. Sugira um plano de rotação de culturas de três anos que inclua culturas de cobertura para melhorar a fertilidade do solo e reduzir a erosão. Inclua o nome das culturas de cobertura e o período ideal de plantio."
-2. **Controle de Pragas:** "Desenvolva um plano de Manejo Integrado de Pragas (MIP) para uma plantação orgânica de tomates. Identifique as três pragas mais comuns na minha região (clima subtropical) e liste métodos de controle biológico e armadilhas naturais, evitando o uso de pesticidas químicos."
-3. **Conservação de Água:** "Minha fazenda está em uma região semiárida. Quais são as três técnicas de irrigação mais eficientes em termos de conservação de água para o cultivo de alface e brócolis? Forneça um guia passo a passo para a implementação de um sistema de irrigação por gotejamento de baixo custo."
-4. **Biodiversidade:** "Liste cinco plantas companheiras que atraem insetos benéficos (como joaninhas e vespas parasitoides) para uma horta de pimentões. Explique o benefício específico de cada planta e sugira o melhor local para plantá-las."
-5. **Planejamento de Transição:** "Sou um agricultor convencional e desejo fazer a transição para a agricultura orgânica em cinco anos. Crie um cronograma anual com as principais etapas, incluindo certificação, alteração de insumos e treinamento. Foco na saúde do solo no primeiro ano."
-6. **Energia Renovável:** "Avalie a viabilidade de instalar painéis solares para alimentar uma bomba de irrigação em uma fazenda de 5 hectares. Quais são os fatores-chave a considerar (custo inicial, economia de longo prazo, manutenção) e quais incentivos governamentais estão disponíveis no Brasil para energia solar rural?"
-7. **Comercialização (CSA):** "Crie um plano de marketing para um programa de Agricultura Apoiada pela Comunidade (CSA) focado em produtos orgânicos e sazonais. Sugira três atividades de engajamento para os membros e duas parcerias potenciais com empresas locais."
+1. **Soil Management:** "Act as an agroecology expert. My farm has clay soil and I am growing corn and beans. Suggest a three-year crop rotation plan that includes cover crops to improve soil fertility and reduce erosion. Include the names of the cover crops and the ideal planting period."
+2. **Pest Control:** "Develop an Integrated Pest Management (IPM) plan for an organic tomato crop. Identify the three most common pests in my region (subtropical climate) and list biological control methods and natural traps, avoiding the use of chemical pesticides."
+3. **Water Conservation:** "My farm is in a semi-arid region. What are the three most water-efficient irrigation techniques for growing lettuce and broccoli? Provide a step-by-step guide for implementing a low-cost drip irrigation system."
+4. **Biodiversity:** "List five companion plants that attract beneficial insects (such as ladybugs and parasitoid wasps) to a bell pepper garden. Explain the specific benefit of each plant and suggest the best location to plant them."
+5. **Transition Planning:** "I am a conventional farmer and I want to transition to organic farming over five years. Create an annual timeline with the main steps, including certification, changing inputs, and training. Focus on soil health in the first year."
+6. **Renewable Energy:** "Assess the feasibility of installing solar panels to power an irrigation pump on a 5-hectare farm. What are the key factors to consider (initial cost, long-term savings, maintenance) and what government incentives are available in Brazil for rural solar energy?"
+7. **Marketing (CSA):** "Create a marketing plan for a Community Supported Agriculture (CSA) program focused on organic and seasonal produce. Suggest three engagement activities for members and two potential partnerships with local businesses."
 ```
 
 ## Best Practices
-* **Contextualização Detalhada:** Sempre inclua o máximo de detalhes sobre sua fazenda (tipo de solo, clima, culturas atuais, tamanho da área, objetivos de sustentabilidade) para obter respostas mais precisas e aplicáveis.
-* **Especificidade da Saída:** Peça formatos de saída claros, como "Crie uma tabela com...", "Forneça um guia passo a passo...", ou "Liste os 5 principais...".
-* **Foco em Agroecologia:** Estruture os prompts para priorizar soluções baseadas em princípios agroecológicos (ex: controle biológico, adubação verde, rotação), em vez de soluções de alta tecnologia que podem ser inacessíveis.
-* **Iteração e Refinamento:** Use a resposta inicial como base para perguntas de acompanhamento, refinando o plano ou a sugestão (ex: "Agora, ajuste este plano para considerar a escassez de água no verão").
+* **Detailed Context:** Always include as much detail as possible about your farm (soil type, climate, current crops, area size, sustainability goals) to obtain more accurate and applicable answers.
+* **Output Specificity:** Ask for clear output formats, such as "Create a table with...", "Provide a step-by-step guide...", or "List the top 5...".
+* **Focus on Agroecology:** Structure prompts to prioritize solutions based on agroecological principles (e.g., biological control, green manure, rotation) rather than high-tech solutions that may be inaccessible.
+* **Iteration and Refinement:** Use the initial answer as a basis for follow-up questions, refining the plan or suggestion (e.g., "Now, adjust this plan to account for water scarcity in the summer").
 
 ## Use Cases
-* **Desenvolvimento de Planos:** Criação de planos de rotação de culturas, planos de manejo de pragas e planos de transição para orgânico.
-* **Otimização de Recursos:** Obtenção de conselhos sobre técnicas de conservação de água e otimização do uso de fertilizantes orgânicos.
-* **Educação e Treinamento:** Geração de material didático sobre princípios de agricultura sustentável para novos agricultores ou membros da comunidade.
-* **Análise de Viabilidade:** Avaliação de opções de energia renovável ou de novas culturas adaptadas a mudanças climáticas.
-* **Marketing e Engajamento:** Desenvolvimento de estratégias para programas de CSA e comunicação com o consumidor sobre práticas sustentáveis.
+* **Plan Development:** Creation of crop rotation plans, pest management plans, and transition plans to organic farming.
+* **Resource Optimization:** Obtaining advice on water conservation techniques and optimizing the use of organic fertilizers.
+* **Education and Training:** Generation of educational material on sustainable agriculture principles for new farmers or community members.
+* **Feasibility Analysis:** Evaluation of renewable energy options or new crops adapted to climate change.
+* **Marketing and Engagement:** Development of strategies for CSA programs and communication with consumers about sustainable practices.
 
 ## Pitfalls
-* **Generalização Excessiva:** Fazer perguntas muito amplas (ex: "O que é agricultura sustentável?") resultará em respostas genéricas e pouco úteis para a aplicação prática.
-* **Confiança Cega:** A IA pode fornecer informações incorretas ou desatualizadas. **Sempre verifique** as sugestões de IA com agrônomos locais ou fontes científicas confiáveis antes da implementação.
-* **Ignorar o Contexto Local:** Não especificar o clima, o tipo de solo e as pragas locais levará a recomendações inadequadas para a sua realidade.
-* **Foco Apenas em Tecnologia:** A agricultura sustentável é mais sobre princípios biológicos e ecológicos do que apenas tecnologia. Evite prompts que busquem apenas soluções de alta tecnologia, negligenciando o conhecimento tradicional e agroecológico.
+* **Overgeneralization:** Asking overly broad questions (e.g., "What is sustainable agriculture?") will result in generic answers that are of little use for practical application.
+* **Blind Trust:** The AI may provide incorrect or outdated information. **Always verify** AI suggestions with local agronomists or reliable scientific sources before implementation.
+* **Ignoring Local Context:** Failing to specify the climate, soil type, and local pests will lead to recommendations that are inappropriate for your reality.
+* **Focusing Only on Technology:** Sustainable agriculture is more about biological and ecological principles than technology alone. Avoid prompts that seek only high-tech solutions while neglecting traditional and agroecological knowledge.
 
 ## URL
 [https://promptsty.com/prompts-for-sustainable-agriculture/](https://promptsty.com/prompts-for-sustainable-agriculture/)

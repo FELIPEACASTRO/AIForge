@@ -2,23 +2,23 @@
 
 ## Description
 
-Solução de 1º lugar para a competição RSNA 2024 Lumbar Spine Degenerative Classification, focada na classificação degenerativa da coluna lombar a partir de imagens médicas. A abordagem de **2 estágios** é a proposta de valor única: o primeiro estágio foca na localização precisa de coordenadas (`test_label_coordinates.csv`) usando modelos 3D e 2D ConvNeXt e Efficientnet-v2-l, e o segundo estágio realiza a previsão da gravidade usando **Multiple Instance Learning (MIL)** com bi-LSTM e atenção. A solução demonstrou que modelos menores (ConvNeXt-small) e arquiteturas convolucionais superaram modelos maiores e Vision Transformers.
+1st place solution for the RSNA 2024 Lumbar Spine Degenerative Classification competition, focused on the degenerative classification of the lumbar spine from medical images. The **2-stage** approach is the unique value proposition: the first stage focuses on the precise localization of coordinates (`test_label_coordinates.csv`) using 3D and 2D ConvNeXt and Efficientnet-v2-l models, and the second stage performs the severity prediction using **Multiple Instance Learning (MIL)** with bi-LSTM and attention. The solution demonstrated that smaller models (ConvNeXt-small) and convolutional architectures outperformed larger models and Vision Transformers.
 
 ## Statistics
 
-**Abordagem:** 2 estágios (Localização de Coordenadas + Previsão de Gravidade). **Modelos:** 3 tipos de modelos (previsão de `instance_number`, previsão de coordenadas e previsão de gravidade). **Arquiteturas:** 3D ConvNeXt, 2D ConvNeXt-base, Efficientnet-v2-l, ConvNeXt-small e Efficientnet-v2-s com MIL. **Perdas:** L1 Loss e Cross Entropy Loss. **Aumento de Dados:** Deslocamento aleatório de coordenadas e `instance_number`, ShiftScaleRotate, RandomBrightnessContrast.
+**Approach:** 2 stages (Coordinate Localization + Severity Prediction). **Models:** 3 types of models (`instance_number` prediction, coordinate prediction, and severity prediction). **Architectures:** 3D ConvNeXt, 2D ConvNeXt-base, Efficientnet-v2-l, ConvNeXt-small, and Efficientnet-v2-s with MIL. **Losses:** L1 Loss and Cross Entropy Loss. **Data Augmentation:** Random shifting of coordinates and `instance_number`, ShiftScaleRotate, RandomBrightnessContrast.
 
 ## Features
 
-1. **Localização Precisa:** Uso de modelos 3D e 2D para prever o `instance_number` e as coordenadas (x, y, z) das vértebras, essencial para o corte e foco na área de interesse. 2. **Classificação de Gravidade com MIL:** O segundo estágio utiliza uma abordagem Multiple Instance Learning (MIL) com bi-LSTM e atenção para a classificação final da gravidade. 3. **Robustez:** Uso de ensemble de previsões de coordenadas e aumento de dados (como o deslocamento de `instance_number`) para aumentar a robustez do modelo. 4. **Otimização de Arquitetura:** Descoberta de que modelos menores (ConvNeXt-small) e arquiteturas convolucionais foram mais eficazes.
+1. **Precise Localization:** Use of 3D and 2D models to predict the `instance_number` and the (x, y, z) coordinates of the vertebrae, essential for cropping and focusing on the area of interest. 2. **Severity Classification with MIL:** The second stage uses a Multiple Instance Learning (MIL) approach with bi-LSTM and attention for the final severity classification. 3. **Robustness:** Use of an ensemble of coordinate predictions and data augmentation (such as `instance_number` shifting) to increase model robustness. 4. **Architecture Optimization:** Discovery that smaller models (ConvNeXt-small) and convolutional architectures were more effective.
 
 ## Use Cases
 
-1. **Diagnóstico Médico Assistido por IA:** Classificação automatizada da gravidade da doença degenerativa da coluna lombar a partir de exames de ressonância magnética. 2. **Análise de Imagens Médicas:** Aplicação de técnicas de localização e classificação em imagens 3D (DICOM) para identificar e avaliar patologias. 3. **Desenvolvimento de Modelos de Visão Computacional:** Demonstração de uma pipeline eficaz de 2 estágios para tarefas complexas de visão computacional em dados médicos.
+1. **AI-Assisted Medical Diagnosis:** Automated classification of the severity of lumbar spine degenerative disease from MRI scans. 2. **Medical Image Analysis:** Application of localization and classification techniques on 3D (DICOM) images to identify and assess pathologies. 3. **Computer Vision Model Development:** Demonstration of an effective 2-stage pipeline for complex computer vision tasks on medical data.
 
 ## Integration
 
-A solução utiliza PyTorch e módulos personalizados. O componente chave de MIL é implementado com a seguinte estrutura em Python/PyTorch:
+The solution uses PyTorch and custom modules. The key MIL component is implemented with the following structure in Python/PyTorch:
 ```python
 class LSTMMIL(nn.Module):
     def __init__(self, input_dim):
@@ -41,7 +41,7 @@ class LSTMMIL(nn.Module):
         weighted_instances = torch.bmm(attn_weights.unsqueeze(1), bags_lstm).squeeze(1)
         return weighted_instances, aux_attn_scores
 ```
-O código de treinamento está no Google Colab, e o código de inferência está em um notebook Kaggle separado.
+The training code is on Google Colab, and the inference code is in a separate Kaggle notebook.
 
 ## URL
 

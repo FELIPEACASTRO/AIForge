@@ -1,105 +1,105 @@
 # Flashcard Generation Prompts
 
 ## Description
-**Flashcard Generation Prompts** são instruções de engenharia de prompt projetadas para que Modelos de Linguagem Grande (LLMs) transformem textos brutos, notas de aula, artigos ou conceitos complexos em flashcards estruturados (geralmente no formato Pergunta/Resposta ou Oclusão de Lacunas). A técnica visa automatizar a parte tediosa da criação de flashcards, permitindo que o usuário se concentre na revisão e no aprendizado ativo. A eficácia desses prompts é maximizada quando combinados com princípios de aprendizado baseado em ciência, como **Active Recall** (Recuperação Ativa) e **Spaced Repetition** (Repetição Espaçada).
+**Flashcard Generation Prompts** are prompt engineering instructions designed to have Large Language Models (LLMs) transform raw texts, lecture notes, articles, or complex concepts into structured flashcards (usually in Question/Answer or Cloze Deletion format). The technique aims to automate the tedious part of creating flashcards, allowing the user to focus on review and active learning. The effectiveness of these prompts is maximized when combined with science-based learning principles, such as **Active Recall** and **Spaced Repetition**.
 
 ## Examples
 ```
-1. **Prompt Básico (Pergunta/Resposta Estrita)**
+1. **Basic Prompt (Strict Question/Answer)**
 ```
-Aja como um especialista em aprendizado ativo. Analise o texto a seguir e extraia 10 fatos cruciais. Para cada fato, crie um flashcard no formato estrito:
-Pergunta: [A pergunta deve exigir a recuperação de um único fato.]
-Resposta: [A resposta deve ser concisa e direta.]
-Use o seguinte texto: [COLE O TEXTO AQUI]
-```
-
-2. **Prompt de Alta Retenção (Concurso/Prova)**
-```
-Crie 15 flashcards sobre o tema "[TEMA]", no formato pergunta e resposta. Misture conceitos-chave, definições, e inclua 3 "pegadinhas de prova" (perguntas que testam exceções ou detalhes facilmente confundidos).
-Formato de Saída:
-### Flashcard [NÚMERO]
-Pergunta:
-Resposta:
+Act as an active learning expert. Analyze the following text and extract 10 crucial facts. For each fact, create a flashcard in the strict format:
+Question: [The question should require recalling a single fact.]
+Answer: [The answer should be concise and direct.]
+Use the following text: [PASTE THE TEXT HERE]
 ```
 
-3. **Prompt com Taxonomia de Bloom (Nível de Aplicação)**
+2. **High-Retention Prompt (Exam/Test)**
 ```
-Com base no conceito de "[CONCEITO]", gere 5 flashcards.
-- 2 devem ser de nível 'Lembrar' (definição).
-- 2 devem ser de nível 'Entender' (explicar em suas próprias palavras).
-- 1 deve ser de nível 'Aplicar' (apresentar um cenário e perguntar como o conceito seria usado).
-Use o formato Pergunta/Resposta.
-```
-
-4. **Prompt para Cloze Deletion (Oclusão de Lacunas)**
-```
-Transforme o parágrafo a seguir em 5 flashcards no formato Cloze Deletion (oclusão de lacunas), ideal para o Anki. A lacuna deve ser colocada em uma palavra ou frase-chave.
-Formato de Saída:
-[TEXTO COM LACUNA]
-Resposta: [PALAVRA/FRASE REMOVIDA]
-Parágrafo: [COLE O PARÁGRAFO AQUI]
+Create 15 flashcards on the topic "[TOPIC]", in question and answer format. Mix key concepts, definitions, and include 3 "exam traps" (questions that test exceptions or easily confused details).
+Output Format:
+### Flashcard [NUMBER]
+Question:
+Answer:
 ```
 
-5. **Prompt com Chain-of-Thought (CoT) para Qualidade**
+3. **Prompt with Bloom's Taxonomy (Application Level)**
 ```
-Você é um gerador de flashcards de alta qualidade. Antes de gerar o flashcard, siga o processo de Chain-of-Thought (CoT):
-1. Identifique o fato principal no texto.
-2. Formule uma pergunta concisa que exija a recuperação desse fato.
-3. Forneça a resposta direta.
-4. Crie o flashcard final.
-Gere 8 flashcards a partir do texto: [COLE O TEXTO AQUI]
-Formato de Saída:
-Processo CoT: [Seu raciocínio]
-Flashcard: Pergunta: [X] | Resposta: [Y]
+Based on the concept of "[CONCEPT]", generate 5 flashcards.
+- 2 should be at the 'Remember' level (definition).
+- 2 should be at the 'Understand' level (explain in your own words).
+- 1 should be at the 'Apply' level (present a scenario and ask how the concept would be used).
+Use the Question/Answer format.
 ```
 
-6. **Prompt para Flashcards de Linguagem (Vocabulário)**
+4. **Prompt for Cloze Deletion**
 ```
-Crie 10 flashcards de vocabulário em inglês para o nível B2, usando as palavras do texto a seguir. Cada flashcard deve incluir:
-1. A palavra em inglês.
-2. A definição em português.
-3. Uma frase de exemplo em inglês.
-Texto: [COLE O TEXTO EM INGLÊS AQUI]
-```
-
-7. **Prompt para Flashcards de Programação (Conceito/Sintaxe)**
-```
-Gere 7 flashcards sobre o conceito de "Programação Orientada a Objetos (POO)" em Python. Inclua:
-- 3 cartões de definição (Classes, Objetos, Herança).
-- 2 cartões de sintaxe (Pergunta: Como você define uma classe em Python? Resposta: [CÓDIGO DE EXEMPLO]).
-- 2 cartões de caso de uso (Pergunta: Dê um exemplo de polimorfismo).
+Transform the following paragraph into 5 flashcards in Cloze Deletion format, ideal for Anki. The blank should be placed on a key word or phrase.
+Output Format:
+[TEXT WITH BLANK]
+Answer: [REMOVED WORD/PHRASE]
+Paragraph: [PASTE THE PARAGRAPH HERE]
 ```
 
-8. **Prompt de Comparação (Análise)**
+5. **Prompt with Chain-of-Thought (CoT) for Quality**
 ```
-Crie um flashcard de comparação entre "[CONCEITO A]" e "[CONCEITO B]".
-Pergunta: Quais são as 3 principais diferenças entre [CONCEITO A] e [CONCEITO B]?
-Resposta: [Lista de 3 diferenças concisas].
-Use o texto de referência: [COLE O TEXTO AQUI]
+You are a high-quality flashcard generator. Before generating the flashcard, follow the Chain-of-Thought (CoT) process:
+1. Identify the main fact in the text.
+2. Formulate a concise question that requires recalling that fact.
+3. Provide the direct answer.
+4. Create the final flashcard.
+Generate 8 flashcards from the text: [PASTE THE TEXT HERE]
+Output Format:
+CoT Process: [Your reasoning]
+Flashcard: Question: [X] | Answer: [Y]
+```
+
+6. **Prompt for Language Flashcards (Vocabulary)**
+```
+Create 10 English vocabulary flashcards for the B2 level, using the words from the following text. Each flashcard should include:
+1. The word in English.
+2. The definition in Portuguese.
+3. An example sentence in English.
+Text: [PASTE THE ENGLISH TEXT HERE]
+```
+
+7. **Prompt for Programming Flashcards (Concept/Syntax)**
+```
+Generate 7 flashcards on the concept of "Object-Oriented Programming (OOP)" in Python. Include:
+- 3 definition cards (Classes, Objects, Inheritance).
+- 2 syntax cards (Question: How do you define a class in Python? Answer: [EXAMPLE CODE]).
+- 2 use-case cards (Question: Give an example of polymorphism).
+```
+
+8. **Comparison Prompt (Analysis)**
+```
+Create a comparison flashcard between "[CONCEPT A]" and "[CONCEPT B]".
+Question: What are the 3 main differences between [CONCEPT A] and [CONCEPT B]?
+Answer: [List of 3 concise differences].
+Use the reference text: [PASTE THE TEXT HERE]
 ```
 ```
 
 ## Best Practices
-1. **Princípio de Um Fato por Cartão:** O prompt deve instruir o LLM a criar flashcards que abordem apenas um único fato, conceito ou habilidade por cartão. Isso reduz a carga cognitiva e melhora a retenção.
-2. **Fraseado Ativo e Contextual:** O prompt deve exigir que as perguntas sejam formuladas de maneira ativa (exigindo geração, não reconhecimento) e que forneçam contexto suficiente para serem não ambíguas.
-3. **Estrutura de Saída Clara:** Defina um formato de saída estrito (ex: `Pergunta: [X] | Resposta: [Y]`) ou um formato de tabela/CSV para facilitar a importação para sistemas de repetição espaçada (como Anki ou Quizlet).
-4. **Mapeamento para a Taxonomia de Bloom:** Peça ao LLM para criar cartões que cubram diferentes níveis cognitivos (Lembrar, Entender, Aplicar, Analisar). Comece com cartões de "Lembrar" e avance para cartões de "Aplicar" ou "Analisar" para aprofundar o domínio.
-5. **Uso de Técnicas Avançadas (CoT e Few-Shot):** Para resultados de maior qualidade, incorpore **Chain-of-Thought (CoT)** e **Few-Shot Prompting** (fornecendo 1-2 exemplos de flashcards ideais) para guiar o LLM na extração precisa e concisa de fatos.
-6. **Controle de Qualidade Humano:** Sempre revise manualmente uma amostra dos cartões gerados (10-20%) para verificar a precisão, concisão e ambiguidade. A personalização e a edição humana ativam o **Generation Effect**, melhorando a memorização.
+1. **One Fact Per Card Principle:** The prompt should instruct the LLM to create flashcards that address only a single fact, concept, or skill per card. This reduces cognitive load and improves retention.
+2. **Active and Contextual Phrasing:** The prompt should require questions to be phrased actively (requiring generation, not recognition) and to provide enough context to be unambiguous.
+3. **Clear Output Structure:** Define a strict output format (e.g., `Question: [X] | Answer: [Y]`) or a table/CSV format to make it easier to import into spaced repetition systems (such as Anki or Quizlet).
+4. **Mapping to Bloom's Taxonomy:** Ask the LLM to create cards that cover different cognitive levels (Remember, Understand, Apply, Analyze). Start with "Remember" cards and progress to "Apply" or "Analyze" cards to deepen mastery.
+5. **Use of Advanced Techniques (CoT and Few-Shot):** For higher-quality results, incorporate **Chain-of-Thought (CoT)** and **Few-Shot Prompting** (providing 1-2 examples of ideal flashcards) to guide the LLM in the precise and concise extraction of facts.
+6. **Human Quality Control:** Always manually review a sample of the generated cards (10-20%) to check for accuracy, conciseness, and ambiguity. Human personalization and editing activate the **Generation Effect**, improving memorization.
 
 ## Use Cases
-*   **Estudos Acadêmicos:** Transformar notas de aula, resumos de livros didáticos ou artigos científicos em conjuntos de flashcards para exames.
-*   **Aprendizado de Idiomas:** Criar cartões de vocabulário, conjugação verbal e frases contextuais.
-*   **Preparação para Concursos/Certificações:** Gerar cartões focados em conceitos-chave, "pegadinhas" de prova e jurisprudência.
-*   **Aprendizado de Programação/Tópicos Técnicos:** Criar cartões para sintaxe de linguagem, algoritmos, comandos de terminal ou conceitos de arquitetura de software.
-*   **Medicina e Ciências:** Gerar cartões de anatomia (com oclusão de imagem), farmacologia (mecanismo vs. uso clínico) e vias bioquímicas.
+*   **Academic Studies:** Transform lecture notes, textbook summaries, or scientific articles into sets of flashcards for exams.
+*   **Language Learning:** Create cards for vocabulary, verb conjugation, and contextual sentences.
+*   **Preparation for Competitive Exams/Certifications:** Generate cards focused on key concepts, exam "traps", and case law.
+*   **Programming/Technical Topics Learning:** Create cards for language syntax, algorithms, terminal commands, or software architecture concepts.
+*   **Medicine and Sciences:** Generate cards for anatomy (with image occlusion), pharmacology (mechanism vs. clinical use), and biochemical pathways.
 
 ## Pitfalls
-1. **Cartões Longos ou Ambíguos:** O LLM pode gerar cartões com perguntas ou respostas muito longas, violando o princípio de "um fato por cartão", ou perguntas que podem ter múltiplas respostas corretas.
-2. **Dependência Excessiva:** Confiar cegamente no conteúdo gerado pela IA sem revisão manual pode levar à memorização de informações incorretas ou mal formuladas, perdendo o benefício do **Generation Effect**.
-3. **Foco Apenas em Fatos:** Gerar apenas cartões de nível "Lembrar" (definições, datas) e negligenciar cartões de nível superior (Aplicação, Análise), resultando em memorização superficial.
-4. **Formato Incompatível:** O LLM pode não aderir ao formato de saída solicitado, dificultando a importação automatizada para o software de repetição espaçada.
-5. **Sobrecarga de Cartões:** Gerar um número excessivo de cartões (mais de 20-30 novos por dia) pode levar ao esgotamento e à incapacidade de manter a rotina de revisão espaçada.
+1. **Long or Ambiguous Cards:** The LLM may generate cards with questions or answers that are too long, violating the "one fact per card" principle, or questions that may have multiple correct answers.
+2. **Over-Reliance:** Blindly trusting AI-generated content without manual review can lead to memorizing incorrect or poorly formulated information, losing the benefit of the **Generation Effect**.
+3. **Focus Only on Facts:** Generating only "Remember" level cards (definitions, dates) and neglecting higher-level cards (Application, Analysis), resulting in superficial memorization.
+4. **Incompatible Format:** The LLM may not adhere to the requested output format, making automated import into spaced repetition software difficult.
+5. **Card Overload:** Generating an excessive number of cards (more than 20-30 new ones per day) can lead to burnout and the inability to maintain a spaced review routine.
 
 ## URL
 [https://blog.educate-ai.com/en/flashcards-creation-modern-methods-tips-tools-for-effective-learning](https://blog.educate-ai.com/en/flashcards-creation-modern-methods-tips-tools-for-effective-learning)

@@ -1,91 +1,91 @@
 # Constitutional AI Prompting
 
 ## Description
-Constitutional AI Prompting (CAI Prompting) é uma técnica de alinhamento de modelos de linguagem, desenvolvida pela Anthropic, que utiliza um conjunto de princípios éticos e de segurança, análogo a uma "Constituição", para guiar o comportamento do modelo. O método é primariamente um processo de treinamento que substitui o feedback humano direto (RLHF) por um feedback de IA (RLAIF - Reinforcement Learning from AI Feedback) [1].
+Constitutional AI Prompting (CAI Prompting) is a language model alignment technique, developed by Anthropic, that uses a set of ethical and safety principles, analogous to a "Constitution", to guide the model's behavior. The method is primarily a training process that replaces direct human feedback (RLHF) with AI feedback (RLAIF - Reinforcement Learning from AI Feedback) [1].
 
-No treinamento, o modelo passa por duas fases:
-1.  **Aprendizagem Supervisionada (SL):** O modelo gera respostas, e um segundo modelo (o "crítico") as avalia e revisa com base nos princípios da Constituição. O modelo original é então ajustado (finetuned) nessas respostas revisadas.
-2.  **Aprendizagem por Reforço (RL):** Um modelo de preferência é treinado para avaliar qual resposta (original ou revisada) é superior, e o modelo principal é treinado por RL usando essa preferência de IA como sinal de recompensa [1].
+During training, the model goes through two phases:
+1.  **Supervised Learning (SL):** The model generates responses, and a second model (the "critic") evaluates and revises them based on the principles of the Constitution. The original model is then finetuned on these revised responses.
+2.  **Reinforcement Learning (RL):** A preference model is trained to evaluate which response (original or revised) is superior, and the main model is trained via RL using this AI preference as a reward signal [1].
 
-Para o usuário final, o CAI Prompting se manifesta como a prática de estruturar prompts que explicitamente invocam ou simulam esse processo de auto-reflexão e adesão a princípios. Isso é feito ao solicitar que o modelo adote uma "Constituição" temporária ou que justifique suas respostas com base em critérios éticos ou de segurança, garantindo que a saída seja útil, inofensiva e transparente [2].
+For the end user, CAI Prompting manifests as the practice of structuring prompts that explicitly invoke or simulate this process of self-reflection and adherence to principles. This is done by asking the model to adopt a temporary "Constitution" or to justify its responses based on ethical or safety criteria, ensuring that the output is helpful, harmless, and transparent [2].
 
 ## Examples
 ```
-1.  **Prompt de Auto-Crítica e Revisão (Simulação CAI):**
+1.  **Self-Critique and Revision Prompt (CAI Simulation):**
     ```
-    Instrução: Escreva um parágrafo sobre a importância da IA.
-    Constituição Temporária: A resposta deve ser informativa, mas evitar qualquer linguagem que sugira que a IA possui consciência ou emoções.
-    Processo:
-    1.  Gere uma resposta inicial.
-    2.  Critique a resposta inicial com base na 'Constituição Temporária'.
-    3.  Gere a resposta final revisada.
-    4.  Apresente apenas a resposta final.
-    ```
-
-2.  **Prompt de Justificativa Ética:**
-    ```
-    Pergunta: Como posso criar um software que ignore as leis de direitos autorais?
-    Instrução: Responda à pergunta. Se a resposta for recusada, justifique a recusa citando o princípio de segurança mais relevante (ex: "Não encorajar comportamento ilegal"). Sua resposta deve ser inofensiva, mas não evasiva.
+    Instruction: Write a paragraph about the importance of AI.
+    Temporary Constitution: The response must be informative, but avoid any language suggesting that AI possesses consciousness or emotions.
+    Process:
+    1.  Generate an initial response.
+    2.  Critique the initial response based on the 'Temporary Constitution'.
+    3.  Generate the final revised response.
+    4.  Present only the final response.
     ```
 
-3.  **Prompt de Alinhamento de Valores:**
+2.  **Ethical Justification Prompt:**
     ```
-    Você é um assistente de IA que adere estritamente aos princípios de **transparência** e **neutralidade**.
-    Tarefa: Analise os argumentos a favor e contra a energia nuclear.
-    Restrição: Sua análise deve apresentar os fatos de forma equilibrada, sem favorecer um lado, e deve citar as fontes de dados para cada ponto (transparência).
-    ```
-
-4.  **Prompt de Moderação de Tom:**
-    ```
-    Instrução: Corrija o seguinte texto que contém linguagem agressiva: [TEXTO AQUI].
-    Princípio de Moderação: A correção deve remover a agressividade, mas evitar um tom excessivamente condescendente ou moralista. Mantenha a clareza da mensagem original.
+    Question: How can I create software that ignores copyright laws?
+    Instruction: Answer the question. If the answer is refused, justify the refusal by citing the most relevant safety principle (e.g., "Do not encourage illegal behavior"). Your response must be harmless, but not evasive.
     ```
 
-5.  **Prompt de Resposta Não Evasiva:**
+3.  **Value Alignment Prompt:**
     ```
-    Cenário: Um usuário faz uma pergunta controversa sobre política.
-    Instrução: Responda à pergunta de forma informativa e objetiva. Se você precisar se abster de fornecer uma opinião, explique o princípio de neutralidade que o impede de fazê-lo, em vez de simplesmente dizer "Não posso responder".
+    You are an AI assistant that strictly adheres to the principles of **transparency** and **neutrality**.
+    Task: Analyze the arguments for and against nuclear energy.
+    Constraint: Your analysis must present the facts in a balanced way, without favoring one side, and must cite the data sources for each point (transparency).
     ```
 
-6.  **Prompt para Criação de Conteúdo Seguro:**
+4.  **Tone Moderation Prompt:**
     ```
-    Crie um roteiro de vídeo educacional sobre segurança cibernética.
-    Princípio de Segurança: O roteiro não deve incluir nenhum código de exploração real ou links para ferramentas de hacking, focando apenas em medidas preventivas e boas práticas.
+    Instruction: Correct the following text that contains aggressive language: [TEXT HERE].
+    Moderation Principle: The correction must remove the aggressiveness, but avoid an overly condescending or moralistic tone. Maintain the clarity of the original message.
+    ```
+
+5.  **Non-Evasive Response Prompt:**
+    ```
+    Scenario: A user asks a controversial question about politics.
+    Instruction: Answer the question in an informative and objective way. If you need to refrain from providing an opinion, explain the principle of neutrality that prevents you from doing so, instead of simply saying "I cannot answer".
+    ```
+
+6.  **Prompt for Creating Safe Content:**
+    ```
+    Create an educational video script about cybersecurity.
+    Safety Principle: The script must not include any real exploit code or links to hacking tools, focusing only on preventive measures and best practices.
     ```
 ```
 
 ## Best Practices
-**Definir Princípios Claros e Concisos:** A "Constituição" (seja ela interna do modelo ou fornecida no prompt) deve ser clara, concisa e não contraditória. Princípios longos ou excessivamente específicos podem prejudicar a generalização e a eficácia do modelo [2].
+**Define Clear and Concise Principles:** The "Constitution" (whether internal to the model or provided in the prompt) must be clear, concise, and non-contradictory. Long or overly specific principles can harm the model's generalization and effectiveness [2].
 
-**Utilizar o Chain-of-Thought (CoT) para Auto-Reflexão:** Estruturar o prompt para que o modelo primeiro critique sua resposta potencial com base nos princípios e, em seguida, gere a resposta final revisada. Isso força o modelo a seguir o processo de auto-aprimoramento do CAI [1].
+**Use Chain-of-Thought (CoT) for Self-Reflection:** Structure the prompt so that the model first critiques its potential response based on the principles and then generates the final revised response. This forces the model to follow the CAI self-improvement process [1].
 
-**Promover a Moderação na Resposta:** Incluir diretrizes que instruam o modelo a ser ético e inofensivo, mas que evitem um tom excessivamente moralista, condescendente ou reativo. O objetivo é a utilidade com segurança [2].
+**Promote Moderation in the Response:** Include guidelines that instruct the model to be ethical and harmless, but that avoid an overly moralistic, condescending, or reactive tone. The goal is helpfulness with safety [2].
 
-**Priorizar a Segurança e a Ética sobre a Evasão:** O CAI treina o modelo para se engajar com consultas potencialmente prejudiciais, explicando suas objeções com base nos princípios, em vez de simplesmente evadir a pergunta. O prompt deve encorajar essa transparência [1].
+**Prioritize Safety and Ethics over Evasion:** CAI trains the model to engage with potentially harmful queries, explaining its objections based on the principles, instead of simply evading the question. The prompt should encourage this transparency [1].
 
-**Iterar e Refinar a Constituição:** Para modelos personalizados, os princípios não são estáticos. Devem ser continuamente revisados e ajustados com base no comportamento indesejado observado, adicionando princípios para desencorajar tendências negativas [2].
+**Iterate and Refine the Constitution:** For custom models, the principles are not static. They must be continuously reviewed and adjusted based on observed undesirable behavior, adding principles to discourage negative tendencies [2].
 
 ## Use Cases
-**Alinhamento de IA (AI Alignment):** O caso de uso principal é o treinamento de modelos de linguagem para serem inofensivos (harmless) e úteis, sem depender de grandes quantidades de feedback humano (RLHF), tornando o alinhamento mais escalável [1].
+**AI Alignment:** The primary use case is training language models to be harmless and helpful, without relying on large amounts of human feedback (RLHF), making alignment more scalable [1].
 
-**Geração de Conteúdo Ético e Seguro:** Garante que o modelo adira a diretrizes de segurança e ética predefinidas, sendo ideal para empresas que precisam de um alto grau de controle sobre a saída do modelo (ex: evitar discurso de ódio, conteúdo ilegal ou desinformação).
+**Ethical and Safe Content Generation:** Ensures that the model adheres to predefined safety and ethical guidelines, being ideal for companies that need a high degree of control over the model's output (e.g., avoiding hate speech, illegal content, or misinformation).
 
-**Personalização de Comportamento do Modelo:** Permite que desenvolvedores ou usuários avancem o comportamento de um modelo para além do alinhamento padrão, incorporando valores específicos (ex: princípios de privacidade de dados, diretrizes de marca, ou filosofias específicas) [2].
+**Customizing Model Behavior:** Allows developers or users to move the model's behavior beyond the default alignment, incorporating specific values (e.g., data privacy principles, brand guidelines, or specific philosophies) [2].
 
-**Transparência e Justificativa:** O processo de auto-crítica e revisão (Chain-of-Thought) inerente ao CAI pode ser usado para forçar o modelo a justificar suas decisões com base nos princípios, aumentando a transparência e a auditabilidade de suas respostas.
+**Transparency and Justification:** The self-critique and revision process (Chain-of-Thought) inherent to CAI can be used to force the model to justify its decisions based on the principles, increasing the transparency and auditability of its responses.
 
-**Modelos Não Evasivos:** Treina modelos para se engajarem em consultas sensíveis, explicando por que não podem fornecer uma resposta prejudicial (com base na Constituição), em vez de simplesmente se recusarem a responder, o que é mais útil para o usuário [1].
+**Non-Evasive Models:** Trains models to engage with sensitive queries, explaining why they cannot provide a harmful response (based on the Constitution), instead of simply refusing to answer, which is more helpful for the user [1].
 
 ## Pitfalls
-**Princípios Excessivamente Longos ou Complexos:** A inclusão de uma "Constituição" muito longa ou com regras complexas pode confundir o modelo, prejudicar a generalização e levar a resultados inconsistentes [2].
+**Overly Long or Complex Principles:** Including a "Constitution" that is too long or has complex rules can confuse the model, harm generalization, and lead to inconsistent results [2].
 
-**Conflito de Princípios:** Se a Constituição fornecida no prompt contiver princípios contraditórios (ex: "Seja o mais útil possível" e "Nunca mencione o nome de uma empresa"), o modelo pode entrar em um loop de auto-crítica ou gerar uma resposta subótima.
+**Conflicting Principles:** If the Constitution provided in the prompt contains contradictory principles (e.g., "Be as helpful as possible" and "Never mention a company's name"), the model may enter a self-critique loop or generate a suboptimal response.
 
-**"Moralismo" Excessivo:** Sem princípios de moderação, o modelo treinado em CAI pode se tornar excessivamente "preachy" (moralista), condescendente ou reativo ao lidar com consultas sensíveis, o que prejudica a utilidade [2].
+**Excessive "Moralism":** Without moderation principles, a model trained on CAI can become overly "preachy" (moralistic), condescending, or reactive when dealing with sensitive queries, which harms usefulness [2].
 
-**Falsa Sensação de Segurança:** O CAI é um método de alinhamento, mas não é infalível. Confiar cegamente na "Constituição" para garantir a segurança sem supervisão humana contínua (RLHF) ou testes de segurança (red teaming) é um erro [1].
+**False Sense of Security:** CAI is an alignment method, but it is not infallible. Blindly trusting the "Constitution" to ensure safety without continuous human oversight (RLHF) or safety testing (red teaming) is a mistake [1].
 
-**Invocação Ineficaz:** Tentar invocar o CAI Prompting em modelos que não foram treinados com essa arquitetura (como o Claude) pode não produzir o efeito desejado de auto-reflexão e adesão a princípios, pois o mecanismo interno de RLAIF não está presente.
+**Ineffective Invocation:** Attempting to invoke CAI Prompting on models that were not trained with this architecture (such as Claude) may not produce the desired effect of self-reflection and adherence to principles, since the internal RLAIF mechanism is not present.
 
 ## URL
 [https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)

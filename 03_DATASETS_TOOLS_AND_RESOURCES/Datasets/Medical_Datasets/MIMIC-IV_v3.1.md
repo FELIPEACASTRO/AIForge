@@ -2,23 +2,23 @@
 
 ## Description
 
-O Medical Information Mart for Intensive Care IV (MIMIC-IV) é um banco de dados desidentificado e de acesso livre, derivado de registros eletrônicos de saúde (EHR) do Beth Israel Deaconess Medical Center. A versão 3.1 é a mais recente, publicada em 2024, e é amplamente utilizada para pesquisa em informática médica e IA, fornecendo dados ricos e complexos de pacientes de UTI e emergência. É a principal fonte de dados para o desenvolvimento de modelos de IA em cuidados críticos.
+The Medical Information Mart for Intensive Care IV (MIMIC-IV) is a de-identified, freely accessible database derived from electronic health records (EHR) of the Beth Israel Deaconess Medical Center. Version 3.1 is the most recent, published in 2024, and is widely used for research in medical informatics and AI, providing rich and complex data from ICU and emergency patients. It is the primary data source for the development of AI models in critical care.
 
 ## Statistics
 
-Pacientes Únicos: 364.627; Hospitalizações: 546.028; Estadias em UTI: 94.458 (para mais de 65.000 pacientes); Publicação: Outubro de 2024 (v3.1). Estrutura organizada em módulos `hosp` (dados hospitalares gerais) e `icu` (dados de UTI).
+Unique Patients: 364,627; Hospitalizations: 546,028; ICU Stays: 94,458 (for more than 65,000 patients); Publication: October 2024 (v3.1). Structure organized into `hosp` (general hospital data) and `icu` (ICU data) modules.
 
 ## Features
 
-Inclui dados demográficos, comorbidades, diagnósticos (ICD), procedimentos, prescrições, administração de medicamentos, resultados de microbiologia, e, crucialmente para este tópico, **sinais vitais** (`chartevents`) e **resultados laboratoriais** (`labevents`). Os sinais vitais incluem frequência cardíaca, pressão arterial, saturação de oxigênio, frequência respiratória e temperatura.
+Includes demographic data, comorbidities, diagnoses (ICD), procedures, prescriptions, medication administration, microbiology results, and, crucially for this topic, **vital signs** (`chartevents`) and **laboratory results** (`labevents`). The vital signs include heart rate, blood pressure, oxygen saturation, respiratory rate, and temperature.
 
 ## Use Cases
 
-Previsão de mortalidade hospitalar, detecção precoce de sepse, modelagem de progressão de doenças crônicas, desenvolvimento de modelos de risco personalizados, e pesquisa sobre engenharia de features de séries temporais clínicas.
+Hospital mortality prediction, early sepsis detection, modeling of chronic disease progression, development of personalized risk models, and research on feature engineering of clinical time series.
 
 ## Integration
 
-Acesso via PhysioNet (após credenciamento e assinatura de acordo de uso de dados). Os dados são fornecidos em formato tabular (CSV) e podem ser carregados em bancos de dados como PostgreSQL ou BigQuery (MIMIC-IV v3.1 está disponível no BigQuery).
+Access via PhysioNet (after credentialing and signing a data use agreement). The data are provided in tabular format (CSV) and can be loaded into databases such as PostgreSQL or BigQuery (MIMIC-IV v3.1 is available on BigQuery).
 
 ## URL
 

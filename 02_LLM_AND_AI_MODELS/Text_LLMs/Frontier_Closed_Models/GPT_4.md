@@ -2,23 +2,23 @@
 
 ## Description
 
-O GPT-4 é um modelo multimodal grande (aceitando entradas de imagem e texto, emitindo saídas de texto) que representa o mais recente marco no esforço da OpenAI para escalar o aprendizado profundo. Sua proposta de valor única reside em sua confiabilidade, criatividade e capacidade de lidar com instruções muito mais matizadas do que o GPT-3.5.
+GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that represents the latest milestone in OpenAI's effort to scale up deep learning. Its unique value proposition lies in its reliability, creativity, and ability to handle much more nuanced instructions than GPT-3.5.
 
 ## Statistics
 
-Desempenho em Exames: Passou no exame simulado da ordem dos advogados com uma pontuação em torno dos 10% melhores (GPT-3.5 estava nos 10% inferiores). MMLU (Multilingual Massive Multitask Language Understanding): Supera o desempenho em inglês do GPT-3.5 e de outros LLMs em 24 das 26 línguas testadas. Tamanho do Modelo (Estimativa não oficial): Estima-se que tenha 1.5 trilhão de parâmetros, em comparação com 175 bilhões do GPT-3.5.
+Exam Performance: Passed a simulated bar exam with a score around the top 10% (GPT-3.5 was in the bottom 10%). MMLU (Multilingual Massive Multitask Language Understanding): Outperforms the English-language performance of GPT-3.5 and other LLMs in 24 of the 26 languages tested. Model Size (unofficial estimate): Estimated to have 1.5 trillion parameters, compared to 175 billion for GPT-3.5.
 
 ## Features
 
-Multimodalidade: Aceita entradas de texto e imagem (Visão). Confiabilidade e Steerability (Direcionabilidade): Melhorias significativas em factualidade e capacidade de direcionar o comportamento da IA através de mensagens de \"sistema\". Criatividade: Mais criativo e capaz de lidar com instruções complexas e nuanceadas. Contexto: Capacidade de processar um contexto maior (até 32k tokens em algumas versões).
+Multimodality: Accepts text and image inputs (Vision). Reliability and Steerability: Significant improvements in factuality and the ability to steer the AI's behavior through "system" messages. Creativity: More creative and capable of handling complex, nuanced instructions. Context: Ability to process a larger context (up to 32k tokens in some versions).
 
 ## Use Cases
 
-Resolução de problemas complexos em domínios profissionais (ex: direito, medicina). Criação de conteúdo multimodal (ex: descrição de imagens). Tutoria Socrática e agentes de IA personalizados (via Steerability). Programação e otimização de código.
+Solving complex problems in professional domains (e.g., law, medicine). Multimodal content creation (e.g., image description). Socratic tutoring and personalized AI agents (via Steerability). Programming and code optimization.
 
 ## Integration
 
-Disponível via API e ChatGPT Plus. Suporta mensagens de sistema para personalizar o estilo e a tarefa da IA. Exemplo de Integração (Python - via `openai` SDK): ```python\nfrom openai import OpenAI\nclient = OpenAI()\nresponse = client.chat.completions.create(\n    model=\"gpt-4\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n        {\"role\": \"user\", \"content\": \"Explain the concept of instruction tuning in one sentence.\"}\n    ]\n)\nprint(response.choices[0].message.content)\n```
+Available via API and ChatGPT Plus. Supports system messages to customize the AI's style and task. Integration Example (Python - via `openai` SDK): ```python\nfrom openai import OpenAI\nclient = OpenAI()\nresponse = client.chat.completions.create(\n    model=\"gpt-4\",\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n        {\"role\": \"user\", \"content\": \"Explain the concept of instruction tuning in one sentence.\"}\n    ]\n)\nprint(response.choices[0].message.content)\n```
 
 ## URL
 

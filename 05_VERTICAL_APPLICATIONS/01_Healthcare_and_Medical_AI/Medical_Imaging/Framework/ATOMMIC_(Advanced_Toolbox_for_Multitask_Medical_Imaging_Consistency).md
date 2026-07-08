@@ -2,38 +2,38 @@
 
 ## Description
 
-**ATOMMIC (Advanced Toolbox for Multitask Medical Imaging Consistency)** é um *framework* de código aberto e modular baseado em PyTorch Lightning, projetado para facilitar a pesquisa e aplicação de métodos de Inteligência Artificial em **Ressonância Magnética (RM)**. Ele suporta múltiplas tarefas, incluindo **reconstrução acelerada de RM (REC)**, **segmentação de RM (SEG)**, **imagem de RM quantitativa (qMRI)** e, crucialmente, **Aprendizado Multi-Tarefa (MTL)** para realizar tarefas simultaneamente, como reconstrução e segmentação conjuntas. O framework visa padronizar fluxos de trabalho, garantir a interoperabilidade de dados e permitir a avaliação de modelos de *Deep Learning* em diversos conjuntos de dados e esquemas de subamostragem. O MTL é um componente central, permitindo que o modelo melhore o desempenho em tarefas conjuntas ao aprender representações compartilhadas. Além disso, o MTL tem sido aplicado com sucesso em modelos multimodais para a **previsão simultânea de múltiplas doenças crônicas** (como diabetes, doenças cardíacas, AVC e hipertensão) a partir de registros médicos eletrônicos, demonstrando sua eficácia na avaliação de risco clínico.
+**ATOMMIC (Advanced Toolbox for Multitask Medical Imaging Consistency)** is an open-source, modular *framework* based on PyTorch Lightning, designed to facilitate the research and application of Artificial Intelligence methods in **Magnetic Resonance Imaging (MRI)**. It supports multiple tasks, including **accelerated MRI reconstruction (REC)**, **MRI segmentation (SEG)**, **quantitative MRI imaging (qMRI)**, and, crucially, **Multi-Task Learning (MTL)** to perform tasks simultaneously, such as joint reconstruction and segmentation. The framework aims to standardize workflows, ensure data interoperability, and enable the evaluation of *Deep Learning* models across diverse datasets and subsampling schemes. MTL is a core component, allowing the model to improve performance on joint tasks by learning shared representations. In addition, MTL has been successfully applied in multimodal models for the **simultaneous prediction of multiple chronic diseases** (such as diabetes, heart disease, stroke, and hypertension) from electronic health records, demonstrating its effectiveness in clinical risk assessment.
 
 ## Statistics
 
-- **Ano de Publicação:** 2024 (Artigo: Computer Methods and Programs in Biomedicine, Volume 256, Novembro de 2024).
-- **Citações:** 1 (no artigo original do ScienceDirect, em Nov 2025).
-- **Modelos Suportados:** Mais de 25 modelos de *Deep Learning* de última geração.
-- **Datasets Suportados:** Suporte nativo para datasets públicos como CC359, fastMRI, BraTS 2023, ISLES 2022 e SKM-TEA.
-- **Desempenho MTL:** Demonstra melhoria no desempenho de tarefas conjuntas (e.g., reconstrução e segmentação) em comparação com modelos de tarefa única.
-- **Métricas de Avaliação:** Utiliza métricas padrão da área como SSIM, PSNR, NMSE (para reconstrução) e DICE, F1, IOU, HD95 (para segmentação).
+- **Year of Publication:** 2024 (Article: Computer Methods and Programs in Biomedicine, Volume 256, November 2024).
+- **Citations:** 1 (on the original ScienceDirect article, as of Nov 2025).
+- **Supported Models:** More than 25 state-of-the-art *Deep Learning* models.
+- **Supported Datasets:** Native support for public datasets such as CC359, fastMRI, BraTS 2023, ISLES 2022, and SKM-TEA.
+- **MTL Performance:** Demonstrates improved performance on joint tasks (e.g., reconstruction and segmentation) compared to single-task models.
+- **Evaluation Metrics:** Uses standard field metrics such as SSIM, PSNR, NMSE (for reconstruction) and DICE, F1, IOU, HD95 (for segmentation).
 
 ## Features
 
-- **Modularidade e Extensibilidade:** Projetado para fácil adição de novas tarefas, modelos e conjuntos de dados.
-- **Suporte a Múltiplas Tarefas de RM:** Inclui coleções para REC, SEG, qMRI e MTL.
-- **Mais de 25 Modelos SOTA:** Implementa modelos de última geração como CIRIM, VarNet, UNet, e modelos específicos para MTL (e.g., SERANet, MTLRS).
-- **Treinamento de Alto Desempenho:** Utiliza PyTorch Lightning para treinamento multi-GPU, precisão mista e otimização de hiperparâmetros.
-- **Interoperabilidade de Dados:** Suporta dados de valor complexo e real, com extensas transformações de pré-processamento.
-- **Integração com HuggingFace:** Modelos pré-treinados e *checkpoints* podem ser carregados e baixados diretamente do HuggingFace.
+- **Modularity and Extensibility:** Designed for the easy addition of new tasks, models, and datasets.
+- **Support for Multiple MRI Tasks:** Includes collections for REC, SEG, qMRI, and MTL.
+- **More than 25 SOTA Models:** Implements state-of-the-art models such as CIRIM, VarNet, UNet, and models specific to MTL (e.g., SERANet, MTLRS).
+- **High-Performance Training:** Uses PyTorch Lightning for multi-GPU training, mixed precision, and hyperparameter optimization.
+- **Data Interoperability:** Supports complex-valued and real-valued data, with extensive pre-processing transformations.
+- **HuggingFace Integration:** Pre-trained models and *checkpoints* can be loaded and downloaded directly from HuggingFace.
 
 ## Use Cases
 
-- **Reconstrução Acelerada de RM:** Redução do tempo de aquisição de imagens de RM.
-- **Segmentação de Imagens Médicas:** Segmentação de estruturas anatômicas e lesões em exames de RM (e.g., tumores cerebrais no BraTS).
-- **Imagem de RM Quantitativa:** Estimação de mapas de parâmetros quantitativos.
-- **MTL em Imagem Médica:** Realização simultânea de reconstrução e segmentação para consistência e melhoria de desempenho.
-- **Previsão de Doenças Crônicas:** Aplicação de MTL em redes multimodais (MAND) para prever simultaneamente os riscos de **diabetes mellitus, doenças cardíacas, AVC e hipertensão** a partir de registros médicos eletrônicos.
-- **Diagnóstico e Prognóstico em Oncologia:** Uso de MTL com CNNs e Vision Transformers para melhorar a previsão de resultados em pacientes com câncer de cabeça e pescoço.
+- **Accelerated MRI Reconstruction:** Reducing MRI acquisition time.
+- **Medical Image Segmentation:** Segmentation of anatomical structures and lesions in MRI scans (e.g., brain tumors in BraTS).
+- **Quantitative MRI Imaging:** Estimation of quantitative parameter maps.
+- **MTL in Medical Imaging:** Simultaneous reconstruction and segmentation for consistency and improved performance.
+- **Chronic Disease Prediction:** Application of MTL in multimodal networks (MAND) to simultaneously predict the risks of **diabetes mellitus, heart disease, stroke, and hypertension** from electronic health records.
+- **Diagnosis and Prognosis in Oncology:** Use of MTL with CNNs and Vision Transformers to improve outcome prediction in patients with head and neck cancer.
 
 ## Integration
 
-A instalação é recomendada via Conda e Pip:
+Installation is recommended via Conda and Pip:
 
 ```shell
 conda create -n atommic python=3.10
@@ -41,17 +41,17 @@ conda activate atommic
 pip install atommic
 ```
 
-Para uso em pesquisa, o treinamento e teste são realizados através de um arquivo de configuração `.yaml` (utilizando Hydra e OmegaConf) e um comando simples:
+For research use, training and testing are performed through a `.yaml` configuration file (using Hydra and OmegaConf) and a simple command:
 
 ```shell
 atommic run -c path-to-config-file.yaml
 ```
 
-**Exemplo de Configuração (Conceitual para MTL):**
-O arquivo `.yaml` define o *pipeline* completo, incluindo a tarefa (`MTL`), o modelo (e.g., `MTLRS`), o conjunto de dados (e.g., `SKM-TEA`), os parâmetros de subamostragem, transformações, otimizador e agendador.
+**Configuration Example (Conceptual for MTL):**
+The `.yaml` file defines the complete *pipeline*, including the task (`MTL`), the model (e.g., `MTLRS`), the dataset (e.g., `SKM-TEA`), the subsampling parameters, transformations, optimizer, and scheduler.
 
-**Integração com Docker:**
-Uma imagem Docker está disponível para facilitar a implantação em diferentes ambientes:
+**Docker Integration:**
+A Docker image is available to facilitate deployment across different environments:
 
 ```shell
 docker pull wdika/atommic

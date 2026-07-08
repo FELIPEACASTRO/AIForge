@@ -2,48 +2,48 @@
 
 ## Description
 
-O **Tree-of-Thoughts (ToT) Prompting** é uma técnica avançada de engenharia de prompt que generaliza o método Chain-of-Thought (CoT), permitindo que Large Language Models (LLMs) realizem um processo de tomada de decisão mais deliberado e estratégico. Em vez de seguir um único caminho linear de raciocínio (como no CoT), o ToT estrutura o processo de resolução de problemas como uma **árvore de busca**, onde cada nó representa um "pensamento" (uma unidade coerente de texto, como um passo intermediário). Isso permite que o LLM explore múltiplas vias de raciocínio em paralelo, avalie a promessa de cada caminho e faça escolhas globais, incluindo a capacidade de olhar à frente (*lookahead*) ou retroceder (*backtracking*) quando necessário. O ToT é particularmente eficaz em tarefas que exigem planejamento não trivial, busca e raciocínio complexo, onde as decisões iniciais são cruciais para o sucesso final [1] [2].
+**Tree-of-Thoughts (ToT) Prompting** is an advanced prompt engineering technique that generalizes the Chain-of-Thought (CoT) method, enabling Large Language Models (LLMs) to perform a more deliberate and strategic decision-making process. Instead of following a single linear reasoning path (as in CoT), ToT structures the problem-solving process as a **search tree**, where each node represents a "thought" (a coherent unit of text, such as an intermediate step). This allows the LLM to explore multiple reasoning paths in parallel, evaluate the promise of each path, and make global choices, including the ability to look ahead (*lookahead*) or backtrack (*backtracking*) when necessary. ToT is particularly effective in tasks that require non-trivial planning, search, and complex reasoning, where the initial decisions are crucial to the final success [1] [2].
 
 ## Statistics
 
-- **Aumento de Desempenho:** O ToT demonstrou um aumento significativo na capacidade de resolução de problemas em comparação com o Chain-of-Thought (CoT).
-- **Game of 24:** No desafio "Game of 24", o GPT-4 com CoT resolveu apenas **4%** das tarefas, enquanto o GPT-4 com ToT alcançou uma taxa de sucesso de **74%** [1].
-- **Outros Ganhos:** O ToT também mostrou melhorias substanciais em tarefas como **Escrita Criativa** e **Mini Crosswords**, que exigem planejamento e busca não triviais [1].
-- **Citação:** O artigo original "Tree of Thoughts: Deliberate Problem Solving with Large Language Models" (Yao et al., 2023) é uma referência fundamental na área, com alta taxa de citação desde sua publicação [1].
+- **Performance Increase:** ToT demonstrated a significant increase in problem-solving capability compared to Chain-of-Thought (CoT).
+- **Game of 24:** In the "Game of 24" challenge, GPT-4 with CoT solved only **4%** of the tasks, while GPT-4 with ToT achieved a success rate of **74%** [1].
+- **Other Gains:** ToT also showed substantial improvements in tasks such as **Creative Writing** and **Mini Crosswords**, which require non-trivial planning and search [1].
+- **Citation:** The original paper "Tree of Thoughts: Deliberate Problem Solving with Large Language Models" (Yao et al., 2023) is a fundamental reference in the field, with a high citation rate since its publication [1].
 
 ## Features
 
-- **Exploração de Múltiplos Caminhos:** Permite que o LLM gere e avalie diversas sequências de raciocínio (pensamentos) em paralelo, em vez de se limitar a uma única cadeia linear.
-- **Busca Estratégica:** Utiliza algoritmos de busca (como **Depth-First Search (DFS)**, **Breadth-First Search (BFS)** e **Beam Search**) para navegar na árvore de pensamentos, selecionando os caminhos mais promissores.
-- **Autoavaliação (Self-Evaluation):** O LLM avalia a qualidade e a progressão de cada "pensamento" em direção à solução final, usando raciocínio baseado em linguagem para guiar a busca.
-- **Decisão Deliberada:** Facilita a tomada de decisões estratégicas, permitindo que o modelo olhe à frente e retroceda, superando as limitações de decisão token-a-token do CoT [1] [2].
+- **Exploration of Multiple Paths:** Allows the LLM to generate and evaluate several reasoning sequences (thoughts) in parallel, instead of being limited to a single linear chain.
+- **Strategic Search:** Uses search algorithms (such as **Depth-First Search (DFS)**, **Breadth-First Search (BFS)** and **Beam Search**) to navigate the tree of thoughts, selecting the most promising paths.
+- **Self-Evaluation:** The LLM evaluates the quality and progression of each "thought" toward the final solution, using language-based reasoning to guide the search.
+- **Deliberate Decision:** Facilitates strategic decision-making, allowing the model to look ahead and backtrack, overcoming the token-by-token decision limitations of CoT [1] [2].
 
 ## Use Cases
 
-- **Resolução de Quebra-Cabeças e Jogos:** Especialmente eficaz em jogos que exigem planejamento e busca, como o **Game of 24** e **Sudoku** (em variações do framework) [1] [2].
-- **Escrita Criativa:** Geração de narrativas ou textos que exigem coerência e planejamento de longo prazo.
-- **Raciocínio Multi-Etapas:** Tarefas que envolvem múltiplas variáveis inter-relacionadas e onde a decisão em uma etapa afeta criticamente as etapas subsequentes.
-- **Planejamento Estratégico:** Simulação de processos de tomada de decisão que requerem olhar à frente e avaliar diferentes cenários (ex: planejamento de negócios, análise de mercado) [2].
+- **Puzzle and Game Solving:** Especially effective in games that require planning and search, such as the **Game of 24** and **Sudoku** (in framework variations) [1] [2].
+- **Creative Writing:** Generation of narratives or texts that require coherence and long-term planning.
+- **Multi-Step Reasoning:** Tasks that involve multiple interrelated variables and where the decision at one step critically affects subsequent steps.
+- **Strategic Planning:** Simulation of decision-making processes that require looking ahead and evaluating different scenarios (e.g.: business planning, market analysis) [2].
 
 ## Integration
 
-A implementação do ToT pode ser feita de duas formas principais: via código (integrando o LLM com algoritmos de busca) ou via prompt (instruindo o LLM a simular o processo de busca).
+ToT can be implemented in two main ways: via code (integrating the LLM with search algorithms) or via prompt (instructing the LLM to simulate the search process).
 
-**Exemplo de Prompt Simples (Simulação ToT):**
-Uma abordagem simplificada, proposta por Dave Hubert, instrui o LLM a simular um processo de deliberação em grupo para resolver problemas complexos [2]:
+**Simple Prompt Example (ToT Simulation):**
+A simplified approach, proposed by Dave Hubert, instructs the LLM to simulate a group deliberation process to solve complex problems [2]:
 ```
-Imagine que três especialistas diferentes estão respondendo a esta pergunta.
-Todos os especialistas escreverão 1 passo de seu raciocínio,
-e então compartilharão com o grupo.
-Em seguida, todos os especialistas prosseguirão para o próximo passo, e assim por diante.
-Se algum especialista perceber que está errado em algum momento, ele deve sair.
-A pergunta é... [Insira a pergunta complexa aqui]
+Imagine three different experts are answering this question.
+All experts will write down 1 step of their thinking,
+and then share it with the group.
+Then all experts will proceed to the next step, and so on.
+If any expert realizes they are wrong at any point, they should leave.
+The question is... [Insert the complex question here]
 ```
 
-**Melhores Práticas:**
-- **Usar para Problemas Complexos:** Aplique ToT em tarefas que exigem planejamento, estratégia e onde o CoT falha (ex: quebra-cabeças, raciocínio multi-etapas).
-- **Estruturação do Prompt:** Para implementações via código, o prompt deve ser estruturado para gerar **pensamentos coerentes** (não apenas tokens), **avaliar o estado** (heurística) e **selecionar o próximo passo** [1].
-- **Algoritmos de Busca:** A escolha do algoritmo (DFS, BFS, Beam Search) deve ser adaptada à natureza do problema. DFS é útil para explorar profundamente um caminho, enquanto BFS/Beam Search são melhores para manter a diversidade de opções [2].
+**Best Practices:**
+- **Use for Complex Problems:** Apply ToT to tasks that require planning, strategy, and where CoT fails (e.g.: puzzles, multi-step reasoning).
+- **Prompt Structuring:** For code-based implementations, the prompt should be structured to generate **coherent thoughts** (not just tokens), **evaluate the state** (heuristic) and **select the next step** [1].
+- **Search Algorithms:** The choice of algorithm (DFS, BFS, Beam Search) should be adapted to the nature of the problem. DFS is useful for deeply exploring a path, while BFS/Beam Search are better for maintaining a diversity of options [2].
 
 ## URL
 

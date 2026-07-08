@@ -1,59 +1,59 @@
 # Data Visualization Prompts
 
 ## Description
-**Data Visualization Prompts** (Prompts de Visualização de Dados) são instruções estruturadas e detalhadas fornecidas a modelos de Linguagem Grande (LLMs) ou ferramentas de Business Intelligence (BI) baseadas em IA para gerar gráficos, *dashboards* e outras representações visuais a partir de dados brutos ou análises [2]. A técnica de *prompt engineering* neste contexto visa superar a tendência da IA de gerar visualizações genéricas ou inadequadas, focando na **intenção** e no **contexto** da análise. Em vez de apenas solicitar "um gráfico de vendas", um prompt eficaz especifica o tipo de dado, o objetivo da comunicação, o tipo de gráfico ideal e até mesmo detalhes estéticos, como paleta de cores e anotações, transformando a IA em um co-piloto de *data storytelling* [1]. O uso de *Data Visualization Prompts* é crucial para garantir que o resultado visual seja preciso, didático e alinhado com os princípios de design de visualização de dados [2].
+**Data Visualization Prompts** are structured and detailed instructions provided to Large Language Models (LLMs) or AI-based Business Intelligence (BI) tools to generate charts, *dashboards*, and other visual representations from raw data or analyses [2]. The *prompt engineering* technique in this context aims to overcome the AI's tendency to generate generic or inadequate visualizations, focusing on the **intent** and the **context** of the analysis. Instead of simply requesting "a sales chart", an effective prompt specifies the data type, the communication objective, the ideal chart type, and even aesthetic details, such as color palette and annotations, turning the AI into a *data storytelling* co-pilot [1]. The use of *Data Visualization Prompts* is crucial to ensure that the visual result is accurate, instructive, and aligned with the principles of data visualization design [2].
 
 ## Examples
 ```
-Os exemplos a seguir demonstram a aplicação de prompts detalhados para visualização de dados, focando em diferentes objetivos e especificações técnicas:
+The following examples demonstrate the application of detailed prompts for data visualization, focusing on different objectives and technical specifications:
 
-1.  **Comparação Planejado vs. Real (Gráfico Bullet):**
-    > "Com base nos dados de despesas trimestrais fornecidos, crie um **Gráfico Bullet** para comparar o **Gasto Planejado** versus o **Gasto Real** para cada um dos quatro trimestres. O objetivo é destacar rapidamente o desempenho. Mantenha o design minimalista, use a cor azul para o gasto real e um cinza claro para o planejado. O eixo Y deve ter o sufixo 'R$' e exibir 10 *ticks* para melhor legibilidade."
+1.  **Planned vs. Actual Comparison (Bullet Chart):**
+    > "Based on the quarterly expense data provided, create a **Bullet Chart** to compare the **Planned Spend** versus the **Actual Spend** for each of the four quarters. The goal is to quickly highlight performance. Keep the design minimalist, use blue for the actual spend and a light gray for the planned. The Y-axis should have the 'R$' suffix and display 10 *ticks* for better readability."
 
-2.  **Análise de Tendência (Gráfico de Linha):**
-    > "Gere um **Gráfico de Linha** que mostre a **Receita Mensal** ao longo dos últimos 24 meses. O objetivo é identificar a tendência de crescimento. Adicione uma **linha de tendência** (regressão linear) e um **intervalo de confiança** de 95%. Adicione uma anotação em texto destacando o mês com o maior crescimento percentual."
+2.  **Trend Analysis (Line Chart):**
+    > "Generate a **Line Chart** that shows the **Monthly Revenue** over the last 24 months. The goal is to identify the growth trend. Add a **trend line** (linear regression) and a 95% **confidence interval**. Add a text annotation highlighting the month with the highest percentage growth."
 
-3.  **Composição de Mercado (Gráfico de Pizza/Rosca):**
-    > "Crie um **Gráfico de Rosca** (Donut Chart) para visualizar a **Composição de Mercado** dos nossos 5 principais produtos. O objetivo é mostrar a proporção de vendas de cada produto em relação ao total. Use uma paleta de cores *safe* para daltônicos e destaque a fatia do produto 'Alpha' com uma cor de alto contraste. Inclua os valores percentuais diretamente nas fatias."
+3.  **Market Composition (Pie/Donut Chart):**
+    > "Create a **Donut Chart** to visualize the **Market Composition** of our top 5 products. The goal is to show the proportion of sales of each product relative to the total. Use a colorblind-*safe* palette and highlight the slice for the 'Alpha' product with a high-contrast color. Include the percentage values directly on the slices."
 
-4.  **Layout de Dashboard (Estrutura):**
-    > "Proponha um **Layout de Dashboard** para monitoramento de *e-commerce*. A visualização deve incluir: 1) **KPIs de Sumário** (Vendas Totais, Taxa de Conversão) no topo; 2) **Gráfico de Linha** de Vendas Diárias no centro; 3) **Gráfico de Barras** de Vendas por Região na lateral. O layout deve ser otimizado para uma tela de 1920x1080."
+4.  **Dashboard Layout (Structure):**
+    > "Propose a **Dashboard Layout** for *e-commerce* monitoring. The visualization should include: 1) **Summary KPIs** (Total Sales, Conversion Rate) at the top; 2) **Line Chart** of Daily Sales in the center; 3) **Bar Chart** of Sales by Region on the side. The layout should be optimized for a 1920x1080 screen."
 
-5.  **Detecção de Anomalias (Gráfico de Dispersão):**
-    > "Utilize um **Gráfico de Dispersão** para plotar a **Duração da Chamada** (eixo X) versus a **Satisfação do Cliente** (eixo Y) para o último mês. O objetivo é identificar *outliers* (anomalias). Sinalize em vermelho qualquer ponto de dado onde a Duração da Chamada seja superior a 15 minutos E a Satisfação do Cliente seja inferior a 3 (em uma escala de 5). Forneça o código Python com a biblioteca `matplotlib`."
+5.  **Anomaly Detection (Scatter Plot):**
+    > "Use a **Scatter Plot** to plot **Call Duration** (X-axis) versus **Customer Satisfaction** (Y-axis) for the last month. The goal is to identify *outliers* (anomalies). Flag in red any data point where the Call Duration is greater than 15 minutes AND Customer Satisfaction is lower than 3 (on a scale of 5). Provide the Python code using the `matplotlib` library."
 
-6.  **Segmentação Interativa (Filtros):**
-    > "Para o conjunto de dados de *leads* (dados categóricos), sugira **opções de filtro chave** (ex: Região, Fonte do Lead, Tamanho da Empresa) e **segmentos** (ex: Clientes de Alto Valor vs. Clientes Padrão) para criar um visual interativo. O visual deve ser um **Gráfico de Barras** que compare a Taxa de Conversão por Fonte do Lead, permitindo a filtragem por Região."
+6.  **Interactive Segmentation (Filters):**
+    > "For the *leads* dataset (categorical data), suggest **key filter options** (e.g., Region, Lead Source, Company Size) and **segments** (e.g., High-Value Customers vs. Standard Customers) to create an interactive visual. The visual should be a **Bar Chart** comparing the Conversion Rate by Lead Source, allowing filtering by Region."
 ```
 
 ## Best Practices
-As melhores práticas para a criação de **Data Visualization Prompts** eficazes envolvem a clareza, a contextualização e a especificação técnica, garantindo que a IA compreenda o objetivo e o formato desejado [1] [2].
+The best practices for creating effective **Data Visualization Prompts** involve clarity, contextualization, and technical specification, ensuring that the AI understands the objective and the desired format [1] [2].
 
-1.  **Definir o Objetivo da Visualização:** Comece explicando o *porquê* da visualização. Qual é a principal mensagem ou *insight* que o gráfico deve comunicar? (Ex: "O gráfico deve destacar a diferença entre o orçamento planejado e o gasto real no último trimestre").
-2.  **Especificar o Tipo de Dados:** Informe à IA se os dados são **categóricos** (grupos, como nomes de produtos), **contínuos** (valores numéricos, como vendas ao longo do tempo) ou **temporais** (séries temporais). Isso ajuda a IA a selecionar o tipo de gráfico mais apropriado [1].
-3.  **Sugestão de Tipo de Gráfico:** Sempre que possível, sugira o tipo de visualização mais adequado para a mensagem (Ex: "Use um gráfico de linha para tendências", "Use um gráfico de barras empilhadas para composição").
-4.  **Detalhes de Estilo e Formato:** Inclua especificações de design para garantir a legibilidade e o profissionalismo. Isso inclui paleta de cores (Ex: "Use cores acessíveis e de alto contraste"), rótulos de eixos (Ex: "Adicione o sufixo 'R$' ao eixo Y"), e anotações (Ex: "Adicione anotações para picos e quedas") [2].
-5.  **Instruções de Saída:** Peça à IA para fornecer o código (Python, R, Vega-Lite) ou o formato de saída (JSON, CSV) para que a visualização possa ser reproduzida ou integrada em outras ferramentas.
+1.  **Define the Visualization Objective:** Start by explaining the *why* of the visualization. What is the main message or *insight* that the chart should communicate? (e.g., "The chart should highlight the difference between the planned budget and the actual spend in the last quarter").
+2.  **Specify the Data Type:** Inform the AI whether the data is **categorical** (groups, such as product names), **continuous** (numerical values, such as sales over time), or **temporal** (time series). This helps the AI select the most appropriate chart type [1].
+3.  **Chart Type Suggestion:** Whenever possible, suggest the most suitable visualization type for the message (e.g., "Use a line chart for trends", "Use a stacked bar chart for composition").
+4.  **Style and Format Details:** Include design specifications to ensure readability and professionalism. This includes color palette (e.g., "Use accessible, high-contrast colors"), axis labels (e.g., "Add the 'R$' suffix to the Y-axis"), and annotations (e.g., "Add annotations for peaks and drops") [2].
+5.  **Output Instructions:** Ask the AI to provide the code (Python, R, Vega-Lite) or the output format (JSON, CSV) so that the visualization can be reproduced or integrated into other tools.
 
 ## Use Cases
-A aplicação de *Data Visualization Prompts* abrange diversas áreas, otimizando o fluxo de trabalho de análise e comunicação de dados [2].
+The application of *Data Visualization Prompts* spans several areas, optimizing the data analysis and communication workflow [2].
 
-*   **Business Intelligence (BI) e Relatórios:** Criação rápida de *dashboards* e relatórios sofisticados, definindo o layout, os KPIs e os tipos de gráficos para cada métrica (Ex: Layout de dashboard de vendas com KPIs no topo e tendências no centro).
-*   **Análise Exploratória de Dados (EDA):** Geração rápida de visualizações específicas para explorar relações, distribuições e *outliers* em grandes conjuntos de dados (Ex: Gráfico de dispersão para correlacionar duas variáveis e detectar anomalias).
-*   **Design de Visualização:** Auxílio na escolha de paletas de cores acessíveis, fontes e estilos visuais que seguem as melhores práticas de design (Ex: Sugestão de paleta de cores *safe* para daltônicos).
-*   **Análise de Séries Temporais:** Criação de gráficos de linha com projeções e intervalos de confiança para prever tendências futuras (Ex: Gráfico de previsão de vendas para os próximos 6 meses).
-*   **Comunicação de Dados:** Geração de anotações e textos explicativos que transformam o gráfico em uma ferramenta de *storytelling*, destacando os pontos de inflexão e o contexto por trás dos dados (Ex: Anotação de pico de vendas devido a uma campanha de marketing).
-*   **Otimização de Gráficos:** Transformação de um tipo de gráfico menos eficaz em um mais adequado para a mensagem (Ex: Transformar um gráfico de barras em um gráfico *bullet* para comparação de metas).
+*   **Business Intelligence (BI) and Reporting:** Rapid creation of sophisticated *dashboards* and reports, defining the layout, the KPIs, and the chart types for each metric (e.g., Sales dashboard layout with KPIs at the top and trends in the center).
+*   **Exploratory Data Analysis (EDA):** Rapid generation of specific visualizations to explore relationships, distributions, and *outliers* in large datasets (e.g., Scatter plot to correlate two variables and detect anomalies).
+*   **Visualization Design:** Assistance in choosing accessible color palettes, fonts, and visual styles that follow design best practices (e.g., Suggestion of a colorblind-*safe* color palette).
+*   **Time Series Analysis:** Creation of line charts with projections and confidence intervals to forecast future trends (e.g., Sales forecast chart for the next 6 months).
+*   **Data Communication:** Generation of annotations and explanatory text that turn the chart into a *storytelling* tool, highlighting inflection points and the context behind the data (e.g., Annotation of a sales peak due to a marketing campaign).
+*   **Chart Optimization:** Transformation of a less effective chart type into one more suitable for the message (e.g., Turning a bar chart into a *bullet* chart for goal comparison).
 
 ## Pitfalls
-Os erros mais comuns ao usar *Data Visualization Prompts* geralmente resultam da falta de especificidade e da confiança excessiva na capacidade da IA de inferir o contexto [1] [2].
+The most common mistakes when using *Data Visualization Prompts* usually result from a lack of specificity and overreliance on the AI's ability to infer context [1] [2].
 
-*   **Instruções Ambíguas:** Pedir apenas "um gráfico bonito" ou "visualize os dados" sem especificar o tipo de visualização, o foco dos dados ou os aspectos comparativos. A IA pode gerar um gráfico tecnicamente correto, mas visualmente inútil.
-*   **Falta de Contexto:** Não informar o objetivo da visualização (o *insight* que se deseja comunicar) ou o público-alvo. Isso leva a gráficos que não contam a história correta ou são muito complexos para o leitor.
-*   **Ignorar Escala e Eixos:** A IA pode, por vezes, gerar gráficos que distorcem a realidade ao truncar o eixo Y ou usar escalas inadequadas, o que é uma falha grave em visualização de dados.
-*   **Excesso de Dados:** Tentar visualizar muitas variáveis ou categorias em um único gráfico, resultando em poluição visual e dificuldade de leitura.
-*   **Confiança Excessiva no Padrão:** Aceitar o primeiro resultado da IA sem verificar se o tipo de gráfico escolhido é o mais adequado para a mensagem (Ex: usar um gráfico de pizza para muitas categorias).
-*   **Não Fornecer o Tipo de Dados:** Não informar se os dados são categóricos, contínuos ou temporais, levando a escolhas de gráficos incorretas (Ex: usar um gráfico de dispersão para dados categóricos).
+*   **Ambiguous Instructions:** Requesting merely "a beautiful chart" or "visualize the data" without specifying the visualization type, the data focus, or the comparative aspects. The AI may generate a technically correct but visually useless chart.
+*   **Lack of Context:** Not informing the visualization objective (the *insight* to be communicated) or the target audience. This leads to charts that do not tell the correct story or are too complex for the reader.
+*   **Ignoring Scale and Axes:** The AI may sometimes generate charts that distort reality by truncating the Y-axis or using inappropriate scales, which is a serious flaw in data visualization.
+*   **Excess Data:** Attempting to visualize too many variables or categories in a single chart, resulting in visual clutter and difficulty in reading.
+*   **Overreliance on the Default:** Accepting the AI's first result without checking whether the chosen chart type is the most suitable for the message (e.g., using a pie chart for too many categories).
+*   **Not Providing the Data Type:** Not informing whether the data is categorical, continuous, or temporal, leading to incorrect chart choices (e.g., using a scatter plot for categorical data).
 
 ## URL
 [https://blacklabel.net/blog/dataviz-x-ai/how-to-write-better-prompts-to-improve-ai-chart-results/](https://blacklabel.net/blog/dataviz-x-ai/how-to-write-better-prompts-to-improve-ai-chart-results/)

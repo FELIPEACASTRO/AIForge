@@ -2,52 +2,52 @@
 
 ## Description
 
-O PI-CAI (Prostate Cancer Artificial Intelligence) é um desafio de grande escala que sucedeu o PROSTATEx, focado na detecção e diagnóstico de câncer de próstata clinicamente significativo (csPCa) usando ressonância magnética multiparamétrica (mpMRI). O dataset público para treinamento e desenvolvimento contém 1500 exames de mpMRI, incluindo dados de T2-weighted (T2W), DWI (Diffusion-Weighted Imaging) e mapas de Coeficiente de Difusão Aparente (ADC). Embora o dataset público não inclua Ktrans (Volume Transfer Constant) ou SUV (Standardized Uptake Value), ele é fundamental para a pesquisa em biomarcadores de imagem, pois o ADC é um dos três biomarcadores solicitados e o dataset é o mais recente e robusto em seu domínio. O desafio PI-CAI é um recurso essencial para o desenvolvimento de algoritmos de IA em radiologia.
+PI-CAI (Prostate Cancer Artificial Intelligence) is a large-scale challenge that succeeded PROSTATEx, focused on the detection and diagnosis of clinically significant prostate cancer (csPCa) using multiparametric magnetic resonance imaging (mpMRI). The public training and development dataset contains 1500 mpMRI exams, including T2-weighted (T2W) data, DWI (Diffusion-Weighted Imaging), and Apparent Diffusion Coefficient (ADC) maps. Although the public dataset does not include Ktrans (Volume Transfer Constant) or SUV (Standardized Uptake Value), it is fundamental for imaging biomarker research, since ADC is one of the three requested biomarkers and the dataset is the most recent and robust in its domain. The PI-CAI challenge is an essential resource for the development of AI algorithms in radiology.
 
 ## Statistics
 
-**Tamanho do Dataset Público:** 1500 exames de mpMRI. **Tamanho Total do Cohort:** Mais de 10.000 exames. **Origem:** Multi-centro (4 centros na Holanda e Noruega) e multi-vendor (Siemens e Philips). **Sequências:** T2W, DWI (high b-value), ADC. **Licença:** CC BY-NC 4.0. **Status:** Ativo e em uso para pesquisa de ponta (2023-2025).
+**Public Dataset Size:** 1500 mpMRI exams. **Total Cohort Size:** More than 10,000 exams. **Origin:** Multi-center (4 centers in the Netherlands and Norway) and multi-vendor (Siemens and Philips). **Sequences:** T2W, DWI (high b-value), ADC. **License:** CC BY-NC 4.0. **Status:** Active and in use for cutting-edge research (2023-2025).
 
 ## Features
 
-**Biomarcadores de Imagem Incluídos:** Coeficiente de Difusão Aparente (ADC). **Sequências de Imagem:** T2-weighted (T2W), DWI (high b-value). **Rótulos:** Anotações de csPCa (câncer de próstata clinicamente significativo) e informações clínicas básicas (idade do paciente, volume da próstata, PSA, densidade de PSA). **Características:** Dataset multi-centro e multi-vendor, com 1500 casos públicos para treinamento e desenvolvimento. O dataset total inclui mais de 10.000 exames. Não inclui Ktrans ou SUV no conjunto de dados de treinamento público para algoritmos de IA.
+**Included Imaging Biomarkers:** Apparent Diffusion Coefficient (ADC). **Imaging Sequences:** T2-weighted (T2W), DWI (high b-value). **Labels:** csPCa annotations (clinically significant prostate cancer) and basic clinical information (patient age, prostate volume, PSA, PSA density). **Characteristics:** Multi-center and multi-vendor dataset, with 1500 public cases for training and development. The total dataset includes more than 10,000 exams. Does not include Ktrans or SUV in the public training set for AI algorithms.
 
 ## Use Cases
 
-**Desenvolvimento de Algoritmos de IA:** Treinamento e validação de modelos de *Deep Learning* para detecção e diagnóstico de câncer de próstata clinicamente significativo (csPCa). **Radiômica:** Extração de features radiômicas de mapas ADC para predição de escore de Gleason e resposta ao tratamento. **Comparação Humano-Máquina:** Benchmarking do desempenho de algoritmos de IA contra radiologistas experientes. **Pesquisa em Biomarcadores:** Estudo da utilidade do ADC como biomarcador quantitativo em mpMRI.
+**AI Algorithm Development:** Training and validation of *Deep Learning* models for the detection and diagnosis of clinically significant prostate cancer (csPCa). **Radiomics:** Extraction of radiomic features from ADC maps for Gleason score prediction and treatment response. **Human-Machine Comparison:** Benchmarking the performance of AI algorithms against experienced radiologists. **Biomarker Research:** Study of the usefulness of ADC as a quantitative biomarker in mpMRI.
 
 ## Integration
 
-O dataset público de treinamento e desenvolvimento (1500 casos) está disponível via Zenodo e as anotações via GitHub.
+The public training and development dataset (1500 cases) is available via Zenodo and the annotations via GitHub.
 
-**Acesso ao Dataset:**
+**Dataset Access:**
 `zenodo.org/record/6624726` (DOI: 10.5281/zenodo.6624726)
 
-**Acesso às Anotações (Labels):**
+**Annotation (Labels) Access:**
 `github.com/DIAGNijmegen/picai_labels`
 
-**Exemplo de Extração de Features (Conceitual, usando PyRadiomics para ADC):**
-A extração de features radiômicas de imagens ADC (e Ktrans/SUV, se disponíveis em outros conjuntos de dados) pode ser realizada com a biblioteca PyRadiomics.
+**Feature Extraction Example (Conceptual, using PyRadiomics for ADC):**
+The extraction of radiomic features from ADC images (and Ktrans/SUV, if available in other datasets) can be performed with the PyRadiomics library.
 
 ```python
 from radiomics import featureextractor
 import SimpleITK as sitk
 
-# 1. Carregar a imagem ADC e a máscara de segmentação
-# image_path deve ser o caminho para o arquivo .mha do ADC
-# mask_path deve ser o caminho para o arquivo .mha da máscara de segmentação
-image = sitk.ReadImage("caminho/para/imagem_adc.mha")
-mask = sitk.ReadImage("caminho/para/mascara_segmentacao.mha")
+# 1. Load the ADC image and the segmentation mask
+# image_path should be the path to the ADC .mha file
+# mask_path should be the path to the segmentation mask .mha file
+image = sitk.ReadImage("path/to/adc_image.mha")
+mask = sitk.ReadImage("path/to/segmentation_mask.mha")
 
-# 2. Configurar o extrator de features
-# Um arquivo de parâmetros YAML pode ser usado para especificar quais features extrair
+# 2. Configure the feature extractor
+# A YAML parameter file can be used to specify which features to extract
 extractor = featureextractor.RadiomicsFeatureExtractor()
 
-# 3. Executar a extração
+# 3. Run the extraction
 result = extractor.execute(image, mask)
 
-# 4. Imprimir as features extraídas
-print("Extração de Features Radiômicas do ADC:")
+# 4. Print the extracted features
+print("ADC Radiomic Feature Extraction:")
 for key, val in result.items():
     print(f"\t{key}: {val}")
 ```

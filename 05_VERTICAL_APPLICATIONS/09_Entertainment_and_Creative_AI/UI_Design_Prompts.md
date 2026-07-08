@@ -1,53 +1,53 @@
 # UI Design Prompts
 
 ## Description
-Prompt engineering para Design de Interface do Usuário (UI) e Experiência do Usuário (UX) é a arte de criar comandos específicos e detalhados para modelos de Inteligência Artificial (IA) generativa (como LLMs e modelos de imagem) com o objetivo de auxiliar em todas as fases do processo de design. Isso inclui desde a pesquisa inicial e a criação de personas até a geração de wireframes, protótipos, cópia de UX e análise de fluxo. A técnica visa maximizar a utilidade e a precisão das saídas da IA, transformando-a em uma ferramenta de co-criação e otimização para designers. A eficácia reside em incorporar os princípios de design (como clareza, contexto e restrições) diretamente no prompt.
+Prompt engineering for User Interface (UI) and User Experience (UX) Design is the art of creating specific, detailed commands for generative Artificial Intelligence (AI) models (such as LLMs and image models) with the goal of assisting in every phase of the design process. This ranges from initial research and persona creation to generating wireframes, prototypes, UX copy, and flow analysis. The technique aims to maximize the usefulness and accuracy of AI outputs, turning it into a co-creation and optimization tool for designers. Its effectiveness lies in embedding design principles (such as clarity, context, and constraints) directly into the prompt.
 
 ## Examples
 ```
-**1. Geração de Componente Específico:**
-"Crie um componente de cartão de produto para um e-commerce de moda sustentável. O cartão deve incluir uma imagem principal, o nome do produto (fonte sans-serif, 16px), o preço em negrito, um selo de 'Eco-Friendly' e um botão de 'Adicionar ao Carrinho' com ícone de folha. O estilo deve ser minimalista e usar uma paleta de cores terrosas."
+**1. Specific Component Generation:**
+"Create a product card component for a sustainable fashion e-commerce site. The card should include a main image, the product name (sans-serif font, 16px), the price in bold, an 'Eco-Friendly' badge, and an 'Add to Cart' button with a leaf icon. The style should be minimalist and use an earthy color palette."
 
-**2. Análise de Fluxo e Otimização (Requer input de wireframe/descrição):**
-"Analise o seguinte fluxo de cadastro de usuário para um aplicativo de investimento. O fluxo tem 5 etapas. Sugira melhorias para reduzir o atrito e a taxa de abandono, focando na simplificação dos campos de entrada e na clareza da proposta de valor em cada etapa."
+**2. Flow Analysis and Optimization (Requires wireframe/description input):**
+"Analyze the following user registration flow for an investment app. The flow has 5 steps. Suggest improvements to reduce friction and abandonment rate, focusing on simplifying the input fields and clarifying the value proposition at each step."
 
-**3. Criação de Persona Detalhada:**
-"Crie 3 personas detalhadas para um aplicativo de entrega de comida gourmet. Considere fatores como idade, localização, hábitos de uso de tecnologia, principais frustrações com aplicativos atuais e objetivos ao usar o novo serviço. Foque em como aumentar a retenção de usuários."
+**3. Detailed Persona Creation:**
+"Create 3 detailed personas for a gourmet food delivery app. Consider factors such as age, location, technology usage habits, main frustrations with current apps, and goals when using the new service. Focus on how to increase user retention."
 
-**4. Geração de Cópia de UX (UX Writing):**
-"Escreva a cópia de UX para uma mensagem de erro que aparece quando o usuário tenta enviar um formulário sem preencher um campo obrigatório. A cópia deve ser amigável, útil e indicar claramente qual campo precisa de atenção. Use um tom de voz casual e encorajador."
+**4. UX Copy Generation (UX Writing):**
+"Write the UX copy for an error message that appears when the user tries to submit a form without filling in a required field. The copy should be friendly, helpful, and clearly indicate which field needs attention. Use a casual, encouraging tone of voice."
 
-**5. Brainstorming de Funcionalidades:**
-"Liste 10 funcionalidades inovadoras para um aplicativo de planejamento de viagens focado em 'viagens de última hora'. Para cada funcionalidade, descreva brevemente o problema que ela resolve e o elemento de UI necessário para implementá-la."
+**5. Feature Brainstorming:**
+"List 10 innovative features for a travel planning app focused on 'last-minute trips'. For each feature, briefly describe the problem it solves and the UI element needed to implement it."
 
-**6. Recomendação de Design System:**
-"Recomende uma paleta de cores e um par de fontes (uma para títulos, outra para corpo de texto) apropriados para um aplicativo B2B de gerenciamento de projetos. O design deve transmitir profissionalismo, confiança e eficiência. Justifique suas escolhas com base na psicologia das cores e na legibilidade."
+**6. Design System Recommendation:**
+"Recommend a color palette and a font pairing (one for headings, one for body text) appropriate for a B2B project management app. The design should convey professionalism, trust, and efficiency. Justify your choices based on color psychology and legibility."
 
-**7. Explicação de Conceitos para Stakeholders:**
-"Explique o conceito de 'Arquitetura da Informação' para um executivo não-técnico. Use o exemplo de um supermercado para ilustrar como a organização do conteúdo afeta a experiência do usuário e as vendas."
+**7. Explaining Concepts to Stakeholders:**
+"Explain the concept of 'Information Architecture' to a non-technical executive. Use the example of a supermarket to illustrate how content organization affects the user experience and sales."
 ```
 
 ## Best Practices
-**1. Clareza e Especificidade:** Seja o mais detalhado possível. Em vez de "Crie um botão", diga "Crie um botão primário de 'Comprar Agora' com cantos arredondados, cor de fundo azul (#007BFF), texto branco e um ícone de carrinho de compras à esquerda."
-**2. Forneça Contexto:** Inclua o máximo de informação sobre o projeto, público-alvo e a fase do design. Defina a persona da marca e o objetivo da tela.
-**3. Use Restrições (Constraints):** Defina limites claros. Especifique o sistema de design (ex: Material Design, iOS Human Interface Guidelines), a paleta de cores, ou o número de elementos.
-**4. Refinamento Iterativo:** Use a saída da IA como ponto de partida. Peça refinamentos como: "Agora, torne este design mais acessível para usuários com baixa visão, aumentando o contraste e o tamanho da fonte."
-**5. Adote uma Persona:** Peça à IA para agir como um especialista: "Aja como um Designer de UX Sênior da Google e avalie este fluxo de checkout."
+**1. Clarity and Specificity:** Be as detailed as possible. Instead of "Create a button," say "Create a primary 'Buy Now' button with rounded corners, a blue background color (#007BFF), white text, and a shopping cart icon on the left."
+**2. Provide Context:** Include as much information as possible about the project, target audience, and design phase. Define the brand persona and the goal of the screen.
+**3. Use Constraints:** Set clear limits. Specify the design system (e.g., Material Design, iOS Human Interface Guidelines), the color palette, or the number of elements.
+**4. Iterative Refinement:** Use the AI's output as a starting point. Ask for refinements such as: "Now, make this design more accessible for users with low vision by increasing the contrast and font size."
+**5. Adopt a Persona:** Ask the AI to act as an expert: "Act as a Senior UX Designer at Google and evaluate this checkout flow."
 
 ## Use Cases
-**1. Ideação e Brainstorming:** Geração rápida de conceitos de tela, fluxos de usuário alternativos e funcionalidades inovadoras no início de um projeto.
-**2. Otimização de Fluxos e Usabilidade:** Análise de wireframes ou descrições de fluxo para identificar pontos de atrito e sugerir melhorias de usabilidade e acessibilidade.
-**3. Criação de Conteúdo de UX (UX Writing):** Geração de microcópias, mensagens de erro, textos de onboarding e chamadas para ação (CTAs) que se alinham ao tom de voz da marca.
-**4. Prototipagem Rápida:** Criação de componentes de UI e layouts básicos que servem como ponto de partida para protótipos de baixa ou média fidelidade.
-**5. Pesquisa e Análise:** Geração de perguntas para entrevistas com usuários, criação de roteiros de testes de usabilidade e síntese de dados de pesquisa em personas e *user journeys*.
-**6. Design System e Estilo:** Sugestão de paletas de cores, tipografia e diretrizes de estilo que se encaixam na identidade visual e nos requisitos de acessibilidade do projeto.
+**1. Ideation and Brainstorming:** Rapid generation of screen concepts, alternative user flows, and innovative features at the start of a project.
+**2. Flow and Usability Optimization:** Analysis of wireframes or flow descriptions to identify friction points and suggest usability and accessibility improvements.
+**3. UX Content Creation (UX Writing):** Generation of microcopy, error messages, onboarding text, and calls to action (CTAs) that align with the brand's tone of voice.
+**4. Rapid Prototyping:** Creation of UI components and basic layouts that serve as a starting point for low- or medium-fidelity prototypes.
+**5. Research and Analysis:** Generation of questions for user interviews, creation of usability test scripts, and synthesis of research data into personas and *user journeys*.
+**6. Design System and Style:** Suggestion of color palettes, typography, and style guidelines that fit the project's visual identity and accessibility requirements.
 
 ## Pitfalls
-**1. Prompts Vagos ou Genéricos:** Solicitações como "Crie uma tela de login bonita" resultam em saídas genéricas e inutilizáveis. A falta de especificidade é o erro mais comum.
-**2. Ignorar o Contexto do Usuário:** Não fornecer informações sobre o público-alvo, a plataforma (iOS, Android, Web) ou o objetivo do produto leva a designs desalinhados com as necessidades reais.
-**3. Dependência Excessiva da Primeira Saída:** Tratar a IA como um designer final em vez de um assistente. O resultado da IA é um rascunho que *sempre* requer revisão, iteração e validação humana.
-**4. Falha em Definir Restrições Técnicas:** Não especificar o framework (ex: React, Vue) ou a biblioteca de componentes (ex: Tailwind, Bootstrap) pode gerar código ou sugestões de design que são difíceis de implementar.
-**5. Não Usar Iteração:** Enviar um prompt complexo de uma só vez em vez de dividir a tarefa em etapas menores e refinadas (ex: 1. Crie o layout. 2. Ajuste as cores. 3. Escreva a cópia).
+**1. Vague or Generic Prompts:** Requests like "Create a beautiful login screen" result in generic, unusable outputs. Lack of specificity is the most common mistake.
+**2. Ignoring User Context:** Failing to provide information about the target audience, the platform (iOS, Android, Web), or the product's goal leads to designs misaligned with real needs.
+**3. Overreliance on the First Output:** Treating the AI as a final designer instead of an assistant. The AI's result is a draft that *always* requires human review, iteration, and validation.
+**4. Failing to Define Technical Constraints:** Not specifying the framework (e.g., React, Vue) or the component library (e.g., Tailwind, Bootstrap) can generate code or design suggestions that are difficult to implement.
+**5. Not Using Iteration:** Sending a complex prompt all at once instead of dividing the task into smaller, refined steps (e.g., 1. Create the layout. 2. Adjust the colors. 3. Write the copy).
 
 ## URL
 [https://www.uxpin.com/studio/blog/prompt-engineering-for-designers/](https://www.uxpin.com/studio/blog/prompt-engineering-for-designers/)

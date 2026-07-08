@@ -1,102 +1,102 @@
 # Litigation Strategy Prompts
 
 ## Description
-A Engenharia de Prompt para Estratégia de Litígio (Litigation Strategy Prompts) é a aplicação da engenharia de prompt no domínio jurídico, focada em otimizar a interação com Modelos de Linguagem Grande (LLMs) para auxiliar em tarefas de litígio. O objetivo principal é transformar a IA em uma ferramenta de suporte estratégico, capaz de realizar análises de casos, pesquisa jurídica, revisão de documentos (eDiscovery) e elaboração de rascunhos de documentos processuais. A técnica enfatiza a **atribuição de um papel** específico à IA (ex: advogado sênior em PI), a exigência de **raciocínio estruturado** (como o formato IRAC: Issue, Rule, Application, Conclusion) para mitigar alucinações e a necessidade de fornecer **contexto amplo** sem induzir a resposta. O foco está na obtenção de resultados verificáveis e na manutenção do privilégio advogado-cliente e da confidencialidade dos dados.
+Prompt Engineering for Litigation Strategy (Litigation Strategy Prompts) is the application of prompt engineering in the legal domain, focused on optimizing interaction with Large Language Models (LLMs) to assist with litigation tasks. The primary goal is to turn the AI into a strategic support tool, capable of performing case analysis, legal research, document review (eDiscovery), and drafting procedural documents. The technique emphasizes **assigning a specific role** to the AI (e.g., senior IP attorney), requiring **structured reasoning** (such as the IRAC format: Issue, Rule, Application, Conclusion) to mitigate hallucinations, and the need to provide **broad context** without leading the answer. The focus is on obtaining verifiable results and maintaining attorney-client privilege and data confidentiality.
 
 ## Examples
 ```
-**Exemplo 1: Análise de Risco e Estratégia (IRAC)**
+**Example 1: Risk and Strategy Analysis (IRAC)**
 ```
-**Papel:** Você é um advogado de litígio sênior especializado em direito de propriedade intelectual.
-**Contexto:** [INSERIR FATOS DO CASO, DOCUMENTOS, JURISPRUDÊNCIA RELEVANTE].
-**Tarefa:** Analise o caso de [NOME DO CASO] e determine a probabilidade de sucesso em uma moção de liminar.
-**Instruções:**
-1. Apresente sua análise no formato IRAC (Issue, Rule, Application, Conclusion).
-2. Identifique os três argumentos mais fortes para a defesa e os três mais fortes para o autor.
-3. Conclua com uma recomendação estratégica (ex: acordo, litígio, moção específica).
-4. Cite as seções relevantes da lei de PI e precedentes.
-```
-
-**Exemplo 2: Resumo de Regulamento Complexo**
-```
-**Papel:** Você é o consultor geral de uma empresa de tecnologia de alto crescimento.
-**Tarefa:** Forneça uma análise abrangente e precisa sobre a Regulamentação de Cibersegurança [NOME DA REGULAMENTAÇÃO, ex: LGPD, GDPR, NY DFS 500].
-**Instruções:**
-1. Resuma as principais disposições e obrigações.
-2. Identifique os prazos de conformidade.
-3. Explique o escopo e a aplicabilidade.
-4. Discuta as implicações do não cumprimento.
-5. Mantenha um tom profissional e objetivo.
-6. Cite a seção específica da regulamentação para cada ponto.
+**Role:** You are a senior litigation attorney specializing in intellectual property law.
+**Context:** [INSERT CASE FACTS, DOCUMENTS, RELEVANT CASE LAW].
+**Task:** Analyze the case of [CASE NAME] and determine the likelihood of success on a preliminary injunction motion.
+**Instructions:**
+1. Present your analysis in the IRAC format (Issue, Rule, Application, Conclusion).
+2. Identify the three strongest arguments for the defense and the three strongest for the plaintiff.
+3. Conclude with a strategic recommendation (e.g., settlement, litigation, specific motion).
+4. Cite the relevant sections of IP law and precedents.
 ```
 
-**Exemplo 3: Revisão de Contrato para Treinamento de IA (Mitigação de Risco)**
+**Example 2: Summary of a Complex Regulation**
 ```
-**Documento:** [ANEXAR DPA/CONTRATO DE FORNECEDOR]
-**Tarefa:** Revise o DPA anexo e extraia todas as disposições relacionadas ao **treinamento de modelo de IA**.
-**Instruções de Saída:**
-1. Responda claramente: O fornecedor reserva o direito de usar dados do cliente para treinamento de IA?
-2. Existem limites (ex: anonimização, exclusão, restrições)?
-3. Cite precisamente o número da seção e o título (ex: Seção 4.2 – Uso de Dados).
-4. Escreva em linguagem simples, não jurídica, em um único parágrafo conciso.
-```
-
-**Exemplo 4: Refinamento de Prompt (Metaprompting)**
-```
-**Contexto:** [INSERIR SEU PROMPT ANTERIOR]
-**Tarefa:** Com base no meu prompt anterior, identifique as áreas-chave ou conceitos que posso ajustar ou refinar para melhorar a qualidade e a precisão da sua próxima resposta.
-**Instruções:**
-1. Destaque palavras, frases ou ideias que, se clarificadas ou alteradas, impactariam significativamente a direção ou profundidade da sua análise.
-2. Sugira "botões" ou "alavancas" que posso usar, como: aumentar o nível de detalhe, mudar o tom (mais técnico/formal), ou focar em um aspecto diferente do tópico.
+**Role:** You are the general counsel of a high-growth technology company.
+**Task:** Provide a comprehensive and accurate analysis of the Cybersecurity Regulation [REGULATION NAME, e.g., LGPD, GDPR, NY DFS 500].
+**Instructions:**
+1. Summarize the main provisions and obligations.
+2. Identify the compliance deadlines.
+3. Explain the scope and applicability.
+4. Discuss the implications of non-compliance.
+5. Maintain a professional and objective tone.
+6. Cite the specific section of the regulation for each point.
 ```
 
-**Exemplo 5: Elaboração de Contra-Argumento**
+**Example 3: Contract Review for AI Training (Risk Mitigation)**
 ```
-**Papel:** Você é um advogado de litígio cético.
-**Contexto:** [INSERIR O ARGUMENTO PRINCIPAL DA PARTE CONTRÁRIA].
-**Tarefa:** Desenvolva uma lista de 5 a 7 contra-argumentos jurídicos sólidos e bem fundamentados contra a tese apresentada.
-**Instruções:**
-1. Para cada contra-argumento, forneça uma breve justificativa e cite um precedente ou princípio legal que o suporte.
-2. Mantenha um tom persuasivo e agressivo.
+**Document:** [ATTACH DPA/VENDOR CONTRACT]
+**Task:** Review the attached DPA and extract all provisions related to **AI model training**.
+**Output Instructions:**
+1. Answer clearly: Does the vendor reserve the right to use customer data for AI training?
+2. Are there any limits (e.g., anonymization, deletion, restrictions)?
+3. Cite precisely the section number and title (e.g., Section 4.2 – Use of Data).
+4. Write in plain, non-legal language, in a single concise paragraph.
 ```
 
-**Exemplo 6: Estrutura de Super-Prompt (Template)**
+**Example 4: Prompt Refinement (Metaprompting)**
 ```
-**[TÓPICO/DOCUMENTO]:** [Descrição do documento ou tópico e o tipo de solicitação (ex: análise legal, revisão de contrato)].
-**[REQUISITOS DE PESQUISA E RACIOCÍNIO]:**
-1. Inclua leis, regulamentos e precedentes relevantes, com citações de parágrafos/seções.
-2. Analise cada seção separadamente e sinalize linguagem problemática com recomendações específicas.
-3. Forneça uma análise crítica de pontos fortes, fracos, riscos e oportunidades.
-4. Compartilhe uma lista de suposições e limitações na sua análise, bem como contra-argumentos e implicações de negócios.
-**[INSTRUÇÕES DE FORMATO DE RESPOSTA]:**
-1. Comece com um resumo executivo de 3 a 5 tópicos.
-2. Use cabeçalhos e sub-cabeçalhos claros.
-3. Coloque em negrito as principais descobertas e recomendações.
-4. Conclua com uma seção de "próximos passos" com recomendações acionáveis.
+**Context:** [INSERT YOUR PREVIOUS PROMPT]
+**Task:** Based on my previous prompt, identify the key areas or concepts I can adjust or refine to improve the quality and accuracy of your next response.
+**Instructions:**
+1. Highlight words, phrases, or ideas that, if clarified or altered, would significantly impact the direction or depth of your analysis.
+2. Suggest "knobs" or "levers" I can use, such as: increasing the level of detail, changing the tone (more technical/formal), or focusing on a different aspect of the topic.
+```
+
+**Example 5: Drafting a Counterargument**
+```
+**Role:** You are a skeptical litigation attorney.
+**Context:** [INSERT THE OPPOSING PARTY'S MAIN ARGUMENT].
+**Task:** Develop a list of 5 to 7 solid and well-founded legal counterarguments against the thesis presented.
+**Instructions:**
+1. For each counterargument, provide a brief justification and cite a precedent or legal principle that supports it.
+2. Maintain a persuasive and aggressive tone.
+```
+
+**Example 6: Super-Prompt Structure (Template)**
+```
+**[TOPIC/DOCUMENT]:** [Description of the document or topic and the type of request (e.g., legal analysis, contract review)].
+**[RESEARCH AND REASONING REQUIREMENTS]:**
+1. Include relevant laws, regulations, and precedents, with paragraph/section citations.
+2. Analyze each section separately and flag problematic language with specific recommendations.
+3. Provide a critical analysis of strengths, weaknesses, risks, and opportunities.
+4. Share a list of assumptions and limitations in your analysis, as well as counterarguments and business implications.
+**[RESPONSE FORMAT INSTRUCTIONS]:**
+1. Begin with an executive summary of 3 to 5 bullet points.
+2. Use clear headings and subheadings.
+3. Bold the main findings and recommendations.
+4. Conclude with a "next steps" section with actionable recommendations.
 ```
 ```
 
 ## Best Practices
-1. **Atribua um Papel à IA (Role-Playing):** Peça à IA para atuar como um especialista na área de prática relevante (ex: "Você é um advogado de defesa criminal com 20 anos de experiência").
-2. **Exija Raciocínio Estruturado (IRAC):** Solicite que a IA estruture sua análise no formato IRAC (Issue, Rule, Application, Conclusion) para facilitar a verificação do raciocínio.
-3. **Forneça Contexto Amplo, mas Não Induza a Resposta:** Dê o máximo de contexto e documentos de fundo, mas formule perguntas abertas para evitar vieses (não "lidere a testemunha").
-4. **Use a IA para Refinar o Próprio Prompt (Metaprompting):** Peça à IA para identificar áreas-chave ou conceitos no seu prompt que, se ajustados, melhorariam a qualidade da resposta.
-5. **Peça Perguntas Verificáveis:** Solicite saídas que possam ser facilmente verificadas, como citações precisas de seções de leis ou documentos, mesmo que as citações da IA precisem ser checadas.
-6. **Confie, mas Verifique (Trust but Verify):** Trate a saída da IA como o trabalho de um advogado júnior e sempre realize a revisão humana final.
+1. **Assign a Role to the AI (Role-Playing):** Ask the AI to act as an expert in the relevant practice area (e.g., "You are a criminal defense attorney with 20 years of experience").
+2. **Require Structured Reasoning (IRAC):** Request that the AI structure its analysis in the IRAC format (Issue, Rule, Application, Conclusion) to make it easier to verify the reasoning.
+3. **Provide Broad Context, but Do Not Lead the Answer:** Give as much context and background documents as possible, but frame open-ended questions to avoid biases (do not "lead the witness").
+4. **Use the AI to Refine the Prompt Itself (Metaprompting):** Ask the AI to identify key areas or concepts in your prompt that, if adjusted, would improve the quality of the response.
+5. **Ask for Verifiable Questions:** Request outputs that can be easily verified, such as precise citations to sections of laws or documents, even though the AI's citations need to be checked.
+6. **Trust but Verify:** Treat the AI's output as the work of a junior attorney and always perform the final human review.
 
 ## Use Cases
-1. **Análise de Risco Processual:** Avaliar os pontos fortes e fracos de um caso, identificando riscos e oportunidades.
-2. **Revisão de Documentos (eDiscovery):** Extrair cláusulas específicas, resumir DPAs (Data Processing Agreements) ou identificar informações sensíveis em grandes volumes de texto.
-3. **Pesquisa Jurídica:** Resumir regulamentos complexos (ex: NY DFS 500), encontrar precedentes relevantes e citar seções específicas.
-4. **Elaboração de Documentos:** Gerar rascunhos de memorandos, petições, ou seções de briefs, mantendo um tom profissional e objetivo.
-5. **Desenvolvimento de Estratégia:** Criar planos de projeto detalhados para litígios e desenvolver contra-argumentos.
+1. **Litigation Risk Analysis:** Assess the strengths and weaknesses of a case, identifying risks and opportunities.
+2. **Document Review (eDiscovery):** Extract specific clauses, summarize DPAs (Data Processing Agreements), or identify sensitive information in large volumes of text.
+3. **Legal Research:** Summarize complex regulations (e.g., NY DFS 500), find relevant precedents, and cite specific sections.
+4. **Document Drafting:** Generate drafts of memos, pleadings, or sections of briefs, maintaining a professional and objective tone.
+5. **Strategy Development:** Create detailed project plans for litigation and develop counterarguments.
 
 ## Pitfalls
-1. **Confidencialidade e Privacidade:** Usar ferramentas públicas (como ChatGPT ou Claude) com dados confidenciais. **Mitigação:** Usar contas empresariais, ferramentas com criptografia e redação de informações sensíveis (ex: renomear empresas para "Empresa 1").
-2. **Alucinações (Inacurácia):** A IA pode fornecer informações incorretas ou citações falsas. **Mitigação:** Sempre exigir revisão humana ("Trust but verify") e solicitar citações para verificação.
-3. **Vieses e Indução:** Fazer perguntas fechadas ou tendenciosas que podem enviesar a análise da IA. **Mitigação:** Usar perguntas abertas e fornecer contexto neutro.
-4. **Perda de Privilégio Advogado-Cliente:** O uso inadequado de ferramentas de IA pode comprometer o privilégio. **Mitigação:** Priorizar ferramentas que garantam a manutenção do privilégio.
-5. **Dependência Excessiva:** Confiar cegamente na saída da IA sem o devido julgamento profissional. **Mitigação:** Tratar a saída como um rascunho ou sugestão, não como um produto final.
+1. **Confidentiality and Privacy:** Using public tools (such as ChatGPT or Claude) with confidential data. **Mitigation:** Use enterprise accounts, tools with encryption, and redaction of sensitive information (e.g., renaming companies to "Company 1").
+2. **Hallucinations (Inaccuracy):** The AI may provide incorrect information or false citations. **Mitigation:** Always require human review ("Trust but verify") and request citations for verification.
+3. **Biases and Leading:** Asking closed or biased questions that can skew the AI's analysis. **Mitigation:** Use open-ended questions and provide neutral context.
+4. **Loss of Attorney-Client Privilege:** Improper use of AI tools can compromise privilege. **Mitigation:** Prioritize tools that guarantee the preservation of privilege.
+5. **Overreliance:** Blindly trusting the AI's output without proper professional judgment. **Mitigation:** Treat the output as a draft or suggestion, not as a final product.
 
 ## URL
 [https://www.lsuite.co/blog/mastering-ai-legal-prompts](https://www.lsuite.co/blog/mastering-ai-legal-prompts)

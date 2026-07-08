@@ -1,32 +1,32 @@
-# Prompts de Engenharia para Planejamento de Aulas (Lesson Planning Prompts)
+# Lesson Planning Prompts
 
 ## Description
 
-Técnicas de engenharia de prompt específicas para educadores, visando a criação eficiente e personalizada de planos de aula, materiais didáticos, avaliações e atividades de sala de aula utilizando ferramentas de IA generativa (como ChatGPT, Claude, Gemini, Perplexity). O foco é fornecer contexto detalhado (público-alvo, padrões curriculares, formato desejado) para otimizar a saída da IA. A eficácia reside na especificidade e contexto, seguindo a estrutura R-T-F-C-D (Role, Task, Format, Context, Differentiation).
+Prompt engineering techniques specific to educators, aimed at the efficient and personalized creation of lesson plans, teaching materials, assessments, and classroom activities using generative AI tools (such as ChatGPT, Claude, Gemini, Perplexity). The focus is on providing detailed context (target audience, curriculum standards, desired format) to optimize the AI's output. Effectiveness lies in specificity and context, following the R-T-F-C-D structure (Role, Task, Format, Context, Differentiation).
 
 ## Statistics
 
-**Adoção:** Aproximadamente 41% dos professores utilizam ferramentas de IA para planejamento de aulas e/ou geração de tarefas/folhas de exercícios. **Economia de Tempo:** Professores que usam IA semanalmente economizam, em média, 5,9 horas por semana. **Impacto Anual:** Estima-se que o uso regular de IA possa economizar o equivalente a seis semanas de trabalho por ano letivo. **Fontes:** Gallup-Walton Family Foundation poll (2025), AIPRM.
+**Adoption:** Approximately 41% of teachers use AI tools for lesson planning and/or generating assignments/worksheets. **Time Savings:** Teachers who use AI weekly save, on average, 5.9 hours per week. **Annual Impact:** It is estimated that regular use of AI can save the equivalent of six weeks of work per school year. **Sources:** Gallup-Walton Family Foundation poll (2025), AIPRM.
 
 ## Features
 
-Personalização Detalhada (nível de ensino, padrões curriculares, necessidades da sala de aula); Estrutura e Formato (solicitar modelos como "I Do, We Do, You Do", 5E Lesson Plan); Diferenciação e Acessibilidade (textos com complexidade variada, tarefas em níveis, tradução de instruções para ELL); Alinhamento Curricular (integração de objetivos de Cidadania Global, ODS); Geração de Conteúdo Específico (rubricas, questões de Taxonomia de Bloom, organizadores gráficos).
+Detailed Personalization (grade level, curriculum standards, classroom needs); Structure and Format (requesting models such as "I Do, We Do, You Do", 5E Lesson Plan); Differentiation and Accessibility (texts of varying complexity, tiered tasks, translation of instructions for ELL); Curriculum Alignment (integration of Global Citizenship objectives, SDGs); Specific Content Generation (rubrics, Bloom's Taxonomy questions, graphic organizers).
 
 ## Use Cases
 
-1. Criação Rápida de Planos de Aula: Gerar um plano de aula completo em minutos, alinhado a um padrão específico e com diferenciação embutida. 2. Desenvolvimento de Materiais Didáticos: Criar quizzes, listas de vocabulário, jogos matemáticos, roteiros de demonstrações científicas e folhas de exercícios. 3. Avaliação e Feedback: Gerar rubricas, avaliações formativas, bilhetes de saída e transformar testes de múltipla escolha em projetos. 4. Suporte Administrativo: Criação de planos de aula para professores substitutos e design de ementas (syllabi). 5. Aprimoramento da Instrução: Geração de ganchos de aula (lesson hooks), exemplos do mundo real e tópicos de debate.
+1. Rapid Lesson Plan Creation: Generate a complete lesson plan in minutes, aligned with a specific standard and with differentiation built in. 2. Teaching Material Development: Create quizzes, vocabulary lists, math games, science demonstration scripts, and worksheets. 3. Assessment and Feedback: Generate rubrics, formative assessments, exit tickets, and turn multiple-choice tests into projects. 4. Administrative Support: Creating lesson plans for substitute teachers and designing syllabi. 5. Instruction Enhancement: Generating lesson hooks, real-world examples, and debate topics.
 
 ## Integration
 
-**Melhores Práticas (Estrutura R-T-F-C-D):**
-1.  **Papel (Role):** Defina a persona da IA (Ex: "Você é um especialista em currículo do 5º ano").
-2.  **Tarefa (Task):** Descreva o objetivo (Ex: "Crie um plano de aula de 45 minutos").
-3.  **Formato (Format):** Especifique a estrutura de saída (Ex: "Use o formato 5E e inclua uma tabela").
-4.  **Contexto (Context):** Forneça detalhes cruciais (Ex: "O padrão é CCSS 5.NF.1 sobre adição de frações com denominadores diferentes").
-5.  **Diferenciação (Differentiation):** Inclua necessidades específicas (Ex: "Adicione andaimes para alunos com dificuldades e uma atividade de extensão").
+**Best Practices (R-T-F-C-D Structure):**
+1.  **Role:** Define the AI's persona (e.g., "You are a 5th-grade curriculum expert").
+2.  **Task:** Describe the objective (e.g., "Create a 45-minute lesson plan").
+3.  **Format:** Specify the output structure (e.g., "Use the 5E format and include a table").
+4.  **Context:** Provide crucial details (e.g., "The standard is CCSS 5.NF.1 on adding fractions with unlike denominators").
+5.  **Differentiation:** Include specific needs (e.g., "Add scaffolding for struggling students and an extension activity").
 
-**Exemplo de Prompt (Plano de Aula Diferenciado):**
-"Atue como um designer curricular de Ensino Médio. Crie um plano de aula de 50 minutos para a disciplina de História, alinhado ao padrão BNCC (código EF09HI01), sobre 'A Crise de 1929 e a Grande Depressão'. O plano deve seguir o modelo 'I Do, We Do, You Do'. Inclua uma atividade de 'I Do' (apresentação de slides), uma atividade de 'We Do' (análise de fonte primária em grupo) e uma atividade de 'You Do' (bilhete de saída). Adicione uma seção de diferenciação com um texto simplificado para alunos com dificuldades de leitura e uma questão de pensamento crítico de nível avançado para extensão."
+**Example Prompt (Differentiated Lesson Plan):**
+"Act as a High School curriculum designer. Create a 50-minute lesson plan for the History subject, aligned with the BNCC standard (code EF09HI01), on 'The Crisis of 1929 and the Great Depression'. The plan should follow the 'I Do, We Do, You Do' model. Include an 'I Do' activity (slide presentation), a 'We Do' activity (group primary source analysis), and a 'You Do' activity (exit ticket). Add a differentiation section with a simplified text for students with reading difficulties and an advanced-level critical thinking question for extension."
 
 ## URL
 

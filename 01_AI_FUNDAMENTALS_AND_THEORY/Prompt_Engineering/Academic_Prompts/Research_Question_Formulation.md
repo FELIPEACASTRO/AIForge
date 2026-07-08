@@ -1,56 +1,56 @@
-# Formulação de Perguntas de Pesquisa (Research Question Formulation)
+# Research Question Formulation
 
 ## Description
-A Formulação de Perguntas de Pesquisa, no contexto da Engenharia de Prompt, é a **técnica fundamental de estruturar e refinar consultas (prompts) para modelos de Linguagem Grande (LLMs) de forma a obter respostas que não apenas sejam corretas, mas que também avancem o conhecimento ou resolvam um problema específico, simulando o rigor de uma investigação científica ou de negócios.** É a arte de fazer as "perguntas certas" para a IA, transformando uma necessidade vaga em uma instrução específica, bem direcionada e rica em contexto. O foco é na **qualidade da entrada (input)**, reconhecendo que a precisão e a utilidade da saída (output) do LLM são diretamente proporcionais à clareza e profundidade da pergunta formulada. Esta técnica se alinha com a filosofia de que o foco principal não é a "engenharia de prompt" em si, mas sim a **formulação do problema** ou da pergunta de pesquisa.
+Research Question Formulation, in the context of Prompt Engineering, is the **fundamental technique of structuring and refining queries (prompts) for Large Language Models (LLMs) in order to obtain responses that are not only correct but also advance knowledge or solve a specific problem, simulating the rigor of a scientific or business investigation.** It is the art of asking the AI the "right questions", transforming a vague need into a specific, well-targeted, context-rich instruction. The focus is on the **quality of the input**, recognizing that the precision and usefulness of the LLM's output are directly proportional to the clarity and depth of the question posed. This technique aligns with the philosophy that the main focus is not "prompt engineering" itself, but rather **problem formulation** or the research question.
 
 ## Examples
 ```
-1. **Acadêmico (Refinamento de Tese):**
+1. **Academic (Thesis Refinement):**
 ```
-**Contexto:** Sou um pesquisador de doutorado em Ciência da Computação. Meu tópico inicial é "O Impacto da IA Generativa na Produtividade de Desenvolvedores de Software".
-**Instrução:** Refine este tópico em 3 perguntas de pesquisa distintas e testáveis, cada uma focada em um aspecto diferente (eficiência de código, satisfação do desenvolvedor e custo-benefício). Para cada pergunta, sugira uma metodologia de pesquisa (ex: estudo de caso, experimento controlado, survey).
-**Formato:** Lista numerada com a Pergunta de Pesquisa em negrito, seguida pela Metodologia Sugerida.
-```
-
-2. **Desenvolvimento de Produto (User Story):**
-```
-**Contexto:** Somos uma equipe de desenvolvimento de um aplicativo de gestão financeira. Identificamos que muitos usuários abandonam o cadastro na etapa de "Conexão Bancária".
-**Instrução:** Formule a principal Pergunta de Pesquisa que devemos responder para resolver este problema. Em seguida, crie uma User Story (História de Usuário) completa, seguindo o formato "Como um [Tipo de Usuário], eu quero [Objetivo], para que [Benefício]".
-**Restrição:** A User Story deve focar na redução da fricção e aumento da confiança.
+**Context:** I am a doctoral researcher in Computer Science. My initial topic is "The Impact of Generative AI on Software Developer Productivity".
+**Instruction:** Refine this topic into 3 distinct and testable research questions, each focused on a different aspect (code efficiency, developer satisfaction, and cost-benefit). For each question, suggest a research methodology (e.g., case study, controlled experiment, survey).
+**Format:** Numbered list with the Research Question in bold, followed by the Suggested Methodology.
 ```
 
-3. **Estratégia de Negócios (Análise de Mercado):**
+2. **Product Development (User Story):**
 ```
-**Contexto:** Nossa empresa de SaaS B2B está considerando expandir para o mercado europeu. O produto é uma ferramenta de automação de marketing para pequenas e médias empresas (PMEs).
-**Instrução:** Formule a Pergunta de Pesquisa Estratégica mais crítica que precisamos responder antes de alocar recursos significativos. Em seguida, liste 5 sub-perguntas táticas que a IA deve responder para apoiar a resposta à pergunta principal.
-```
-
-4. **Diagnóstico e Solução de Problemas (Troubleshooting - Meta-Prompting):**
-```
-**Instrução:** Estou enfrentando um problema persistente de latência em meu banco de dados PostgreSQL após a última atualização de software. Em vez de me dar uma solução direta, aja como um Engenheiro de Sistemas Sênior. Faça-me 5 perguntas de diagnóstico cruciais sobre meu ambiente e configuração (versão do S.O., tipo de hardware, logs de erro, etc.) que você precisaria para começar a formular uma hipótese de causa raiz.
+**Context:** We are a development team for a financial management application. We identified that many users abandon registration at the "Bank Connection" step.
+**Instruction:** Formulate the main Research Question we must answer to solve this problem. Then, create a complete User Story following the format "As a [User Type], I want [Goal], so that [Benefit]".
+**Constraint:** The User Story must focus on reducing friction and increasing trust.
 ```
 
-5. **Geração de Hipótese Científica:**
+3. **Business Strategy (Market Analysis):**
 ```
-**Contexto:** Observamos que a taxa de cliques (CTR) em nossos anúncios de mídia social é 30% maior em imagens que contêm a cor azul em comparação com outras cores.
-**Instrução:** Formule uma hipótese nula (H0) e uma hipótese alternativa (H1) testáveis para um experimento A/B que visa confirmar ou refutar essa observação.
-**Formato:** H0: [Hipótese Nula] e H1: [Hipótese Alternativa].
+**Context:** Our B2B SaaS company is considering expanding into the European market. The product is a marketing automation tool for small and medium-sized enterprises (SMEs).
+**Instruction:** Formulate the most critical Strategic Research Question we need to answer before allocating significant resources. Then, list 5 tactical sub-questions that the AI should answer to support answering the main question.
 ```
 
-6. **Reflexão e Auto-Correção (Prompt de Refinamento):**
+4. **Diagnosis and Troubleshooting (Meta-Prompting):**
 ```
-**Instrução:** Analise o prompt que acabei de usar: "Escreva um e-mail de marketing". Identifique as 3 principais deficiências deste prompt em termos de contexto, instrução e formato. Em seguida, reescreva o prompt para torná-lo um "prompt de pesquisa" avançado para a criação de um e-mail de marketing de alta conversão.
+**Instruction:** I am facing a persistent latency problem in my PostgreSQL database after the last software update. Instead of giving me a direct solution, act as a Senior Systems Engineer. Ask me 5 crucial diagnostic questions about my environment and configuration (OS version, hardware type, error logs, etc.) that you would need in order to start formulating a root cause hypothesis.
+```
+
+5. **Scientific Hypothesis Generation:**
+```
+**Context:** We observed that the click-through rate (CTR) on our social media ads is 30% higher on images containing the color blue compared to other colors.
+**Instruction:** Formulate a testable null hypothesis (H0) and alternative hypothesis (H1) for an A/B experiment aimed at confirming or refuting this observation.
+**Format:** H0: [Null Hypothesis] and H1: [Alternative Hypothesis].
+```
+
+6. **Reflection and Self-Correction (Refinement Prompt):**
+```
+**Instruction:** Analyze the prompt I just used: "Write a marketing email". Identify the 3 main deficiencies of this prompt in terms of context, instruction, and format. Then, rewrite the prompt to make it an advanced "research prompt" for creating a high-conversion marketing email.
 ```
 ```
 
 ## Best Practices
-**Seja Específico e Detalhado:** Forneça o máximo de contexto, restrições e intenção possível. A clareza na entrada é o fator mais crítico para a qualidade da saída. **Quebre a Pergunta:** Divida tarefas complexas em uma série de perguntas menores e sequenciais. **Peça o Raciocínio (Chain-of-Thought):** Solicite que a IA explique a lógica por trás de suas sugestões. Isso permite a verificação e o refinamento progressivo. **Defina o Formato:** Especifique o formato de saída desejado (tabela, lista, código, etc.) e o tom (formal, didático, técnico). **Iteração é Chave:** Use a resposta da IA para refinar e aprofundar a próxima pergunta, em um ciclo contínuo de investigação.
+**Be Specific and Detailed:** Provide as much context, constraints, and intent as possible. Clarity in the input is the most critical factor for output quality. **Break Down the Question:** Divide complex tasks into a series of smaller, sequential questions. **Ask for the Reasoning (Chain-of-Thought):** Request that the AI explain the logic behind its suggestions. This enables verification and progressive refinement. **Define the Format:** Specify the desired output format (table, list, code, etc.) and the tone (formal, didactic, technical). **Iteration is Key:** Use the AI's response to refine and deepen the next question, in a continuous cycle of investigation.
 
 ## Use Cases
-**Pesquisa Acadêmica:** Geração de hipóteses, refinamento de perguntas de pesquisa para teses e artigos, e planejamento de revisões sistemáticas de literatura. **Desenvolvimento de Produto/Software:** Definição de requisitos de usuário (User Stories), priorização de *features* em *roadmaps*, e análise de UI/UX. **Consultoria e Estratégia de Negócios:** Análise de cenários de mercado, formulação de estratégias de entrada em novos mercados, e identificação de riscos e oportunidades. **Resolução de Problemas Complexos (Troubleshooting):** Diagnóstico de problemas persistentes em sistemas, solicitando à IA que faça perguntas de diagnóstico para entender o contexto. **Criação de Conteúdo Didático:** Elaboração de planos de aula e criação de questões de múltipla escolha ou abertas com base em um texto.
+**Academic Research:** Generating hypotheses, refining research questions for theses and articles, and planning systematic literature reviews. **Product/Software Development:** Defining user requirements (User Stories), prioritizing *features* in *roadmaps*, and analyzing UI/UX. **Consulting and Business Strategy:** Analyzing market scenarios, formulating strategies for entering new markets, and identifying risks and opportunities. **Complex Problem Solving (Troubleshooting):** Diagnosing persistent problems in systems by asking the AI to pose diagnostic questions to understand the context. **Educational Content Creation:** Developing lesson plans and creating multiple-choice or open-ended questions based on a text.
 
 ## Pitfalls
-**Ambiguidade e Generalização Excessiva:** Usar prompts muito amplos ("Me ajude a melhorar meus processos") ou ambíguos que permitem múltiplas interpretações. **Falta de Contexto:** Não fornecer o cenário, o papel da IA ou os dados de entrada necessários para que a IA entenda a profundidade da questão. **Perguntas Múltiplas/Compostas:** Tentar resolver vários problemas em uma única consulta, resultando em respostas superficiais e incompletas. **Vieses Inconscientes:** Formular a pergunta de forma a induzir a IA a uma resposta pré-determinada, limitando a criatividade e a análise crítica. **Ignorar a Iteração:** Tratar o prompt como uma única interação em vez de um processo de refinamento progressivo.
+**Ambiguity and Over-Generalization:** Using prompts that are too broad ("Help me improve my processes") or ambiguous ones that allow multiple interpretations. **Lack of Context:** Failing to provide the scenario, the AI's role, or the input data needed for the AI to understand the depth of the question. **Multiple/Compound Questions:** Trying to solve several problems in a single query, resulting in superficial and incomplete answers. **Unconscious Biases:** Framing the question in a way that leads the AI toward a predetermined answer, limiting creativity and critical analysis. **Ignoring Iteration:** Treating the prompt as a single interaction rather than a progressive refinement process.
 
 ## URL
 [https://medium.com/@petrusje/engenharia-de-prompts-a-arte-de-fazer-perguntas-certas-para-ia-14f9e5c57045](https://medium.com/@petrusje/engenharia-de-prompts-a-arte-de-fazer-perguntas-certas-para-ia-14f9e5c57045)

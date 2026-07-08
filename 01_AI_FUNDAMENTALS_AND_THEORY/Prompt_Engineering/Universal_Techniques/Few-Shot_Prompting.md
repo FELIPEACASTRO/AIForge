@@ -1,127 +1,127 @@
 # Few-Shot Prompting
 
 ## Description
-O Few-Shot Prompting, ou Prompting de Poucos Disparos, é uma técnica fundamental de Engenharia de Prompt que explora o conceito de **Aprendizado no Contexto** (*In-Context Learning*) em Modelos de Linguagem Grande (LLMs). Diferentemente do Zero-Shot Prompting, onde apenas a instrução é fornecida, o Few-Shot Prompting envolve a inclusão de um pequeno número de exemplos de pares entrada-saída (os "shots") diretamente no prompt. Essas demonstrações servem para condicionar o modelo, mostrando o formato, o estilo e o tipo de resposta esperada para a tarefa. Esta técnica é particularmente eficaz para tarefas mais complexas ou específicas, onde o conhecimento pré-treinado do modelo não é suficiente, ou quando é necessário que a saída siga um formato ou estilo muito particular. A eficácia do Few-Shot Prompting foi observada pela primeira vez quando os modelos foram escalados para um tamanho suficiente, demonstrando a capacidade dos LLMs de aprender com exemplos fornecidos no contexto imediato da consulta.
+Few-Shot Prompting is a fundamental Prompt Engineering technique that leverages the concept of **In-Context Learning** in Large Language Models (LLMs). Unlike Zero-Shot Prompting, where only the instruction is provided, Few-Shot Prompting involves including a small number of input-output pair examples (the "shots") directly in the prompt. These demonstrations serve to condition the model, showing the format, style, and type of response expected for the task. This technique is particularly effective for more complex or specific tasks, where the model's pre-trained knowledge is not sufficient, or when the output needs to follow a very particular format or style. The effectiveness of Few-Shot Prompting was first observed when models were scaled to a sufficient size, demonstrating the ability of LLMs to learn from examples provided in the immediate context of the query.
 
 ## Examples
 ```
-**Exemplo 1: Classificação de Sentimento (3-Shot)**
+**Example 1: Sentiment Classification (3-Shot)**
 
-**Tarefa:** Classificar a opinião do cliente como "Positivo", "Negativo" ou "Neutro".
+**Task:** Classify the customer's opinion as "Positive", "Negative", or "Neutral".
 
 ```
-Comentário: O produto chegou com dois dias de atraso, mas a qualidade é excelente.
-Sentimento: Neutro
+Review: The product arrived two days late, but the quality is excellent.
+Sentiment: Neutral
 
-Comentário: A interface é confusa e o suporte técnico não responde.
-Sentimento: Negativo
+Review: The interface is confusing and technical support does not respond.
+Sentiment: Negative
 
-Comentário: A melhor compra que fiz este ano! Recomendo a todos.
-Sentimento: Positivo
+Review: The best purchase I made this year! I recommend it to everyone.
+Sentiment: Positive
 
-Comentário: O preço é justo e a entrega foi no prazo, mas o manual é muito vago.
-Sentimento:
+Review: The price is fair and delivery was on time, but the manual is very vague.
+Sentiment:
 ```
 
-**Saída Esperada:** Neutro
+**Expected Output:** Neutral
 
 ---
 
-**Exemplo 2: Extração de Entidade (3-Shot)**
+**Example 2: Entity Extraction (3-Shot)**
 
-**Tarefa:** Extrair o nome do cliente e o número do pedido de um texto de suporte, formatando a saída como JSON.
+**Task:** Extract the customer name and the order number from a support text, formatting the output as JSON.
 
 ```
-Texto: Olá, sou a Ana Silva e meu pedido 45678 não chegou.
-JSON: {"cliente": "Ana Silva", "pedido": "45678"}
+Text: Hello, I'm Ana Silva and my order 45678 has not arrived.
+JSON: {"customer": "Ana Silva", "order": "45678"}
 
-Texto: Gostaria de saber sobre o status do pedido 12345. Meu nome é João Pereira.
-JSON: {"cliente": "João Pereira", "pedido": "12345"}
+Text: I would like to know the status of order 12345. My name is João Pereira.
+JSON: {"customer": "João Pereira", "order": "12345"}
 
-Texto: O item que comprei, pedido 98765, veio errado. Falo em nome de Maria Souza.
-JSON: {"cliente": "Maria Souza", "pedido": "98765"}
+Text: The item I bought, order 98765, came wrong. I'm speaking on behalf of Maria Souza.
+JSON: {"customer": "Maria Souza", "order": "98765"}
 
-Texto: Por favor, verifiquem o pedido 54321. Meu nome é Carlos Eduardo.
+Text: Please check order 54321. My name is Carlos Eduardo.
 JSON:
 ```
 
-**Saída Esperada:** {"cliente": "Carlos Eduardo", "pedido": "54321"}
+**Expected Output:** {"customer": "Carlos Eduardo", "order": "54321"}
 
 ---
 
-**Exemplo 3: Tradução com Estilo (2-Shot)**
+**Example 3: Translation with Style (2-Shot)**
 
-**Tarefa:** Traduzir frases do Português para o Inglês, mantendo um tom **formal e corporativo**.
+**Task:** Translate sentences from Portuguese to English, maintaining a **formal and corporate** tone.
 
 ```
-Português: A reunião foi adiada para a próxima semana.
-Inglês: The meeting has been postponed until next week.
+Portuguese: A reunião foi adiada para a próxima semana.
+English: The meeting has been postponed until next week.
 
-Português: Por favor, envie o relatório de progresso até o final do dia.
-Inglês: Kindly submit the progress report by the close of business today.
+Portuguese: Por favor, envie o relatório de progresso até o final do dia.
+English: Kindly submit the progress report by the close of business today.
 
-Português: Precisamos de uma solução para otimizar nossos processos internos.
-Inglês:
+Portuguese: Precisamos de uma solução para otimizar nossos processos internos.
+English:
 ```
 
-**Saída Esperada:** We require a solution to optimize our internal processes.
+**Expected Output:** We require a solution to optimize our internal processes.
 
 ---
 
-**Exemplo 4: Geração de Código (2-Shot)**
+**Example 4: Code Generation (2-Shot)**
 
-**Tarefa:** Gerar uma função Python que calcule a área de formas geométricas, seguindo o padrão de documentação e nomenclatura.
+**Task:** Generate a Python function that computes the area of geometric shapes, following the documentation and naming pattern.
 
 ```
-# Exemplo 1: Área do Quadrado
-def calcular_area_quadrado(lado):
-    """Calcula a área de um quadrado."""
-    return lado * lado
+# Example 1: Area of the Square
+def calculate_square_area(side):
+    """Computes the area of a square."""
+    return side * side
 
-# Exemplo 2: Área do Círculo
-def calcular_area_circulo(raio):
-    """Calcula a área de um círculo."""
+# Example 2: Area of the Circle
+def calculate_circle_area(radius):
+    """Computes the area of a circle."""
     import math
-    return math.pi * raio**2
+    return math.pi * radius**2
 
-# Exemplo 3: Área do Triângulo
-def calcular_area_triangulo(base, altura):
-    """Calcula a área de um triângulo."""
+# Example 3: Area of the Triangle
+def calculate_triangle_area(base, height):
+    """Computes the area of a triangle."""
 ```
 
-**Saída Esperada:**
+**Expected Output:**
 ```python
-    return (base * altura) / 2
+    return (base * height) / 2
 ```
 
 ---
 
-**Exemplo 5: Sumarização com Formato Específico (3-Shot)**
+**Example 5: Summarization with a Specific Format (3-Shot)**
 
-**Tarefa:** Resumir um parágrafo em uma única frase que comece com "Em suma,".
+**Task:** Summarize a paragraph in a single sentence that starts with "In short,".
 
 ```
-Parágrafo: A inteligência artificial generativa está revolucionando a criação de conteúdo, permitindo que máquinas produzam textos, imagens e músicas com qualidade cada vez maior. Isso tem implicações profundas para indústrias criativas e para a automação de tarefas rotineiras.
-Resumo: Em suma, a IA generativa está transformando a criação de conteúdo e automatizando tarefas em diversas indústrias.
+Paragraph: Generative artificial intelligence is revolutionizing content creation, allowing machines to produce texts, images, and music of ever-increasing quality. This has profound implications for creative industries and for the automation of routine tasks.
+Summary: In short, generative AI is transforming content creation and automating tasks across various industries.
 
-Parágrafo: O aquecimento global é um desafio complexo que exige a cooperação internacional, a transição para energias renováveis e a adoção de políticas de sustentabilidade rigorosas em todos os setores da economia.
-Resumo: Em suma, o combate ao aquecimento global requer colaboração global e uma mudança urgente para práticas sustentáveis e energias limpas.
+Paragraph: Global warming is a complex challenge that requires international cooperation, the transition to renewable energy, and the adoption of strict sustainability policies across all sectors of the economy.
+Summary: In short, combating global warming requires global collaboration and an urgent shift toward sustainable practices and clean energy.
 
-Parágrafo: A técnica de Few-Shot Prompting permite que modelos de linguagem aprendam um novo padrão de tarefa a partir de poucos exemplos fornecidos no prompt, melhorando significativamente o desempenho em tarefas específicas sem a necessidade de um novo treinamento.
-Resumo:
+Paragraph: The Few-Shot Prompting technique allows language models to learn a new task pattern from a few examples provided in the prompt, significantly improving performance on specific tasks without the need for retraining.
+Summary:
 ```
 
-**Saída Esperada:** Em suma, o Few-Shot Prompting aprimora o desempenho de LLMs em tarefas específicas ao fornecer poucos exemplos de aprendizado no contexto.
+**Expected Output:** In short, Few-Shot Prompting enhances the performance of LLMs on specific tasks by providing a few in-context learning examples.
 ```
 
 ## Best Practices
-1. **Consistência e Clareza:** Mantenha a formatação, a estrutura e o estilo dos exemplos **uniformes** e **consistentes**. O modelo aprende o padrão a partir dos exemplos, e qualquer inconsistência pode levar a saídas imprevisíveis. 2. **Gerenciamento de Tokens:** Priorize exemplos **concisos** e **diretos** para evitar exceder o limite da janela de contexto (*token limit*). Para padrões repetitivos, é mais eficiente resumir a regra do que incluir muitos exemplos longos. 3. **Número Ideal de Exemplos:** O número de "shots" deve ser determinado empiricamente, geralmente variando entre **2 a 5 exemplos**. Tarefas mais complexas podem exigir mais, mas é crucial encontrar um equilíbrio para não desperdiçar tokens ou confundir o modelo. 4. **Alinhamento com a Tarefa:** Os exemplos fornecidos devem ser **altamente relevantes** e se alinhar de perto com o tipo de entrada e saída esperados para a consulta final. Incluir exemplos que representem cenários desafiadores ou "casos de borda" pode melhorar a robustez do modelo. 5. **Foco na Tarefa:** Mantenha os prompts **específicos para a tarefa**. Evitar misturar tipos de tarefas (como classificação e sumarização) no mesmo prompt, a menos que as tarefas sejam claramente separadas e definidas.
+1. **Consistency and Clarity:** Keep the formatting, structure, and style of the examples **uniform** and **consistent**. The model learns the pattern from the examples, and any inconsistency can lead to unpredictable outputs. 2. **Token Management:** Prioritize **concise** and **direct** examples to avoid exceeding the context window limit (*token limit*). For repetitive patterns, it is more efficient to summarize the rule than to include many long examples. 3. **Ideal Number of Examples:** The number of "shots" should be determined empirically, generally ranging between **2 to 5 examples**. More complex tasks may require more, but it is crucial to find a balance so as not to waste tokens or confuse the model. 4. **Alignment with the Task:** The examples provided should be **highly relevant** and closely aligned with the type of input and output expected for the final query. Including examples that represent challenging scenarios or "edge cases" can improve the model's robustness. 5. **Task Focus:** Keep the prompts **specific to the task**. Avoid mixing task types (such as classification and summarization) in the same prompt, unless the tasks are clearly separated and defined.
 
 ## Use Cases
-1. **Classificação de Texto:** Categorização de sentimentos (positivo/negativo), detecção de spam, ou classificação de tickets de suporte em categorias específicas. 2. **Sumarização e Extração de Informação:** Resumir textos longos em um formato específico (ex: uma única frase, ou um formato JSON), ou extrair entidades específicas de um texto. 3. **Tradução e Transcriação:** Tradução de frases em um estilo ou tom particular, ou tradução de termos técnicos que exigem um vocabulário específico. 4. **Geração de Código:** Fornecer exemplos de código para que o modelo gere novas funções ou scripts seguindo o mesmo padrão de sintaxe e estilo. 5. **Modelagem de Estilo e Tom:** Gerar conteúdo (marketing, escrita criativa) que imite um tom de voz específico (ex: formal, humorístico, técnico) ou um formato de documento (ex: e-mail, post de blog, tweet).
+1. **Text Classification:** Categorizing sentiments (positive/negative), spam detection, or classifying support tickets into specific categories. 2. **Summarization and Information Extraction:** Summarizing long texts into a specific format (e.g., a single sentence, or a JSON format), or extracting specific entities from a text. 3. **Translation and Transcreation:** Translating sentences in a particular style or tone, or translating technical terms that require a specific vocabulary. 4. **Code Generation:** Providing code examples so that the model generates new functions or scripts following the same syntax and style pattern. 5. **Style and Tone Modeling:** Generating content (marketing, creative writing) that mimics a specific tone of voice (e.g., formal, humorous, technical) or a document format (e.g., email, blog post, tweet).
 
 ## Pitfalls
-1. **Inconsistência de Formatação:** O erro mais comum é a variação na estrutura dos exemplos, o que impede o modelo de identificar o padrão de entrada-saída. 2. **Excesso ou Escassez de Exemplos:** Usar muitos exemplos pode levar ao estouro da janela de contexto e perda de informações, enquanto usar poucos pode resultar em desempenho subótimo. 3. **Mistura de Tarefas:** Tentar resolver tarefas fundamentalmente diferentes no mesmo prompt sem separação clara. 4. **Ignorar Limites de Token:** Não considerar o custo e o limite de tokens, especialmente em modelos com janelas de contexto menores. 5. **Confundir com Raciocínio Complexo:** O Few-Shot Prompting não é a solução ideal para tarefas que exigem **múltiplas etapas de raciocínio** (como problemas de matemática complexa ou lógica). Nesses casos, técnicas como o Chain-of-Thought Prompting (CoT) são mais apropriadas.
+1. **Formatting Inconsistency:** The most common mistake is variation in the structure of the examples, which prevents the model from identifying the input-output pattern. 2. **Excess or Shortage of Examples:** Using too many examples can lead to context window overflow and loss of information, while using too few can result in suboptimal performance. 3. **Mixing Tasks:** Trying to solve fundamentally different tasks in the same prompt without clear separation. 4. **Ignoring Token Limits:** Not considering the cost and token limit, especially in models with smaller context windows. 5. **Confusing with Complex Reasoning:** Few-Shot Prompting is not the ideal solution for tasks that require **multiple reasoning steps** (such as complex math or logic problems). In these cases, techniques such as Chain-of-Thought Prompting (CoT) are more appropriate.
 
 ## URL
 [https://www.promptingguide.ai/pt/techniques/fewshot](https://www.promptingguide.ai/pt/techniques/fewshot)

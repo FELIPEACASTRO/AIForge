@@ -2,39 +2,39 @@
 
 ## Description
 
-Neptune.ai é um **rastreador de experimentos (experiment tracker) e um repositório de metadados (metadata store) para MLOps**, projetado especificamente para o treinamento e depuração de **modelos de fundação (foundation models)** em grande escala. Sua proposta de valor única reside na capacidade de monitorar milhares de métricas por camada (per-layer metrics) — perdas, gradientes e ativações — em qualquer escala, com visualização sem atrasos e renderização 100% precisa, mesmo com milhões de pontos de dados. Foca em ser uma ferramenta dedicada e não-intrusiva, integrando-se facilmente com stacks de ML existentes, e oferece opções de hospedagem SaaS ou auto-hospedada (self-hosted) via Helm chart para Kubernetes.
+Neptune.ai is an **experiment tracker and metadata store for MLOps**, designed specifically for training and debugging **foundation models** at large scale. Its unique value proposition lies in the ability to monitor thousands of per-layer metrics — losses, gradients, and activations — at any scale, with lag-free visualization and 100% accurate rendering, even with millions of data points. It focuses on being a dedicated and non-intrusive tool, integrating easily with existing ML stacks, and offers SaaS or self-hosted deployment options via a Helm chart for Kubernetes.
 
 ## Statistics
 
-**Usuários:** Mais de **60.000 pesquisadores de IA** e **1.500 equipes comerciais e de pesquisa** utilizam a plataforma. **Projetos:** Mais de **30.000 projetos** rastreados. **Reconhecimento:** Incluído na lista "Top 100 AI Startups" da CB Insights em 2021 e 2022. **Avaliação:** Classificação de **4.8 de 5 estrelas** em avaliações de usuários (G2). **Financiamento:** Apoiado por **$18 milhões** em financiamento. **Escala de Dados:** Demonstrações públicas com mais de **100 milhões de pontos de dados** por execução.
+**Users:** More than **60,000 AI researchers** and **1,500 commercial and research teams** use the platform. **Projects:** More than **30,000 projects** tracked. **Recognition:** Included in CB Insights' "Top 100 AI Startups" list in 2021 and 2022. **Rating:** A rating of **4.8 out of 5 stars** in user reviews (G2). **Funding:** Backed by **$18 million** in funding. **Data Scale:** Public demonstrations with more than **100 million data points** per run.
 
 ## Features
 
-**Rastreamento de Experimentos Escalável:** Log, exibição, organização e comparação de experimentos de ML em um único lugar, otimizado para modelos de fundação e LLMs. **Repositório de Metadados Centralizado:** Armazenamento de metadados de MLOps, incluindo scripts, dados, parâmetros e métricas. **Depuração Profunda:** Facilita a identificação de problemas de treinamento (gradientes explosivos/evanescentes, falhas de convergência) isolando problemas em camadas específicas. **Forking de Runs:** Permite testar múltiplas configurações simultaneamente e ramificar a partir do melhor passo final, mantendo a linhagem completa do experimento. **Registro de Modelos (Model Registry):** Funcionalidade para versionar, armazenar e organizar metadados de modelos. **Visualização de Alto Desempenho:** Filtragem e pesquisa rápidas de dados, visualização e comparação de métricas, parâmetros e curvas de aprendizado em tempo real.
+**Scalable Experiment Tracking:** Log, display, organize, and compare ML experiments in a single place, optimized for foundation models and LLMs. **Centralized Metadata Store:** Storage of MLOps metadata, including scripts, data, parameters, and metrics. **Deep Debugging:** Facilitates the identification of training problems (exploding/vanishing gradients, convergence failures) by isolating issues in specific layers. **Forking of Runs:** Allows testing multiple configurations simultaneously and branching from the best final step, maintaining the complete experiment lineage. **Model Registry:** Functionality to version, store, and organize model metadata. **High-Performance Visualization:** Fast data filtering and searching, visualization, and comparison of metrics, parameters, and learning curves in real time.
 
 ## Use Cases
 
-**Treinamento de Modelos de Fundação:** Monitoramento e depuração de modelos de linguagem grandes (LLMs) e outros modelos de fundação em escala massiva (ex: OpenAI, Bioptimus). **Otimização de Hiperparâmetros:** Agrupamento, filtragem e classificação de milhares de experimentos para insights claros e tomada de decisão confiante. **Pesquisa e Desenvolvimento de IA:** Fornece um registro transparente e pesquisável do trabalho, essencial para ciência aplicada rigorosa (ex: KoBold Metals). **MLOps e Gerenciamento de Modelos:** Integração em pipelines de MLOps para gerenciamento estruturado e segurança aprimorada (ex: Veo Technologies, Cradle). **Empresas Notáveis:** OpenAI, Samsung, Roche, HP, Brainly, Ginkgo Bioworks, Cradle, KoBold Metals, InstaDeep, Bioptimus.
+**Foundation Model Training:** Monitoring and debugging large language models (LLMs) and other foundation models at massive scale (e.g., OpenAI, Bioptimus). **Hyperparameter Optimization:** Grouping, filtering, and ranking thousands of experiments for clear insights and confident decision-making. **AI Research and Development:** Provides a transparent and searchable record of the work, essential for rigorous applied science (e.g., KoBold Metals). **MLOps and Model Management:** Integration into MLOps pipelines for structured management and enhanced security (e.g., Veo Technologies, Cradle). **Notable Companies:** OpenAI, Samsung, Roche, HP, Brainly, Ginkgo Bioworks, Cradle, KoBold Metals, InstaDeep, Bioptimus.
 
 ## Integration
 
-Neptune.ai integra-se com várias bibliotecas de machine learning (PyTorch, TensorFlow, Keras, Scikit-learn, etc.) através de loggers ou callbacks. O uso principal envolve a inicialização de uma "run" e o log de configurações e métricas. A integração utiliza as bibliotecas `neptune-scale` para logging e `neptune-query` para consulta.
+Neptune.ai integrates with several machine learning libraries (PyTorch, TensorFlow, Keras, Scikit-learn, etc.) through loggers or callbacks. The primary usage involves initializing a "run" and logging configurations and metrics. The integration uses the `neptune-scale` library for logging and `neptune-query` for querying.
 
-**Exemplo de Integração (Python):**
+**Integration Example (Python):**
 
 ```python
-# 1. Instalação das bibliotecas
+# 1. Install the libraries
 # pip install neptune-scale neptune-query
 
-# 2. Conexão e Criação de uma Run (neptune-scale)
+# 2. Connect and Create a Run (neptune-scale)
 from neptune_scale import Run
 
 run = Run(
-    run_id="MY-PROJECT-123", # ID do projeto e da run
+    run_id="MY-PROJECT-123", # Project and run ID
     experiment_name="foundation-model-training"
 )
 
-# 3. Log de Hiperparâmetros e Processo de Treinamento
+# 3. Log Hyperparameters and the Training Process
 run.log_configs(
     {
         "params/learning_rate": 0.001,
@@ -42,9 +42,9 @@ run.log_configs(
     }
 )
 
-# Loop de treinamento
+# Training loop
 for step in range(100):
-    # Simulação de log de métricas
+    # Simulate metric logging
     accuracy = 0.87 + (step / 1000)
     loss = 0.14 - (step / 5000)
     
@@ -56,17 +56,17 @@ for step in range(100):
         step=step,
     )
 
-# 4. Consulta de Logs para Análise (neptune-query)
+# 4. Query Logs for Analysis (neptune-query)
 import neptune_query as nq
 
-# Buscar metadados como tabela (DataFrame)
+# Fetch metadata as a table (DataFrame)
 # table = nq.fetch_experiments_table(
 #     experiments=r"foundation-model-.*",
 #     attributes=r".*metric.*/val_.+",
 # )
 # print(table.head())
 
-# Finalizar a run
+# Stop the run
 run.stop()
 ```
 

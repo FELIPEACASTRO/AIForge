@@ -1,19 +1,19 @@
 # Credit Card Fraud Detection (MLG-ULB)
 
 ## Description
-Este conjunto de dados apresenta transações de cartão de crédito realizadas por titulares de cartões europeus em setembro de 2013. Ele contém 284.807 transações, das quais 492 são fraudes. O dataset é altamente desbalanceado, com a classe positiva (fraude) representando apenas 0,172% de todas as transações. Devido a questões de confidencialidade, as características (features) são transformadas usando Análise de Componentes Principais (PCA), exceto 'Time' (tempo decorrido desde a primeira transação) e 'Amount' (valor da transação).
+This dataset presents credit card transactions made by European cardholders in September 2013. It contains 284,807 transactions, of which 492 are fraudulent. The dataset is highly imbalanced, with the positive class (fraud) representing only 0.172% of all transactions. Due to confidentiality concerns, the features are transformed using Principal Component Analysis (PCA), except for 'Time' (time elapsed since the first transaction) and 'Amount' (transaction value).
 
 ## Statistics
-284.807 transações no total. 492 casos de fraude (0,172%). 31 colunas (features + label). Tamanho do arquivo: aproximadamente 150 MB. Versão clássica e mais citada, utilizada em inúmeros artigos de 2017 até 2025. Uma versão mais recente (2023) com mais de 550.000 registros também está disponível no Kaggle.
+284,807 transactions in total. 492 fraud cases (0.172%). 31 columns (features + label). File size: approximately 150 MB. Classic and most-cited version, used in numerous papers from 2017 to 2025. A more recent version (2023) with more than 550,000 records is also available on Kaggle.
 
 ## Features
-Características numéricas transformadas por PCA (V1-V28); 'Time' e 'Amount' originais. A variável de resposta é 'Class' (1 para fraude, 0 para legítima). É notável o alto desbalanceamento de classes.
+Numeric features transformed by PCA (V1-V28); original 'Time' and 'Amount'. The response variable is 'Class' (1 for fraud, 0 for legitimate). The high class imbalance is notable.
 
 ## Use Cases
-Desenvolvimento e avaliação de modelos de detecção de fraude, como Redes Neurais, Máquinas de Vetores de Suporte (SVM) e métodos de *ensemble* (e.g., XGBoost, Random Forest). Pesquisa sobre técnicas de tratamento de dados desbalanceados e aprendizado sensível ao custo. Análise de risco e segurança de transações financeiras.
+Development and evaluation of fraud detection models, such as Neural Networks, Support Vector Machines (SVM), and *ensemble* methods (e.g., XGBoost, Random Forest). Research on techniques for handling imbalanced data and cost-sensitive learning. Risk analysis and security of financial transactions.
 
 ## Integration
-O dataset pode ser baixado diretamente do Kaggle. Para uso em Python, é comum a utilização das bibliotecas `pandas` para carregamento e `scikit-learn` para pré-processamento e modelagem. Devido ao desbalanceamento, técnicas como *oversampling* (SMOTE) ou *undersampling* são frequentemente aplicadas. É necessário ter uma conta no Kaggle para baixar o arquivo `creditcard.csv`.
+The dataset can be downloaded directly from Kaggle. For use in Python, it is common to use the `pandas` library for loading and `scikit-learn` for preprocessing and modeling. Due to the imbalance, techniques such as *oversampling* (SMOTE) or *undersampling* are frequently applied. A Kaggle account is required to download the `creditcard.csv` file.
 
 ## URL
 [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)

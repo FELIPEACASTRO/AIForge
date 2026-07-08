@@ -2,41 +2,41 @@
 
 ## Description
 
-**Soft Prompting** (também conhecidos como *learned prompts*, *continuous prompts* ou *prompt embeddings*) é uma técnica de **Parameter-Efficient Fine-Tuning (PEFT)** que adapta Large Language Models (LLMs) pré-treinados para tarefas específicas sem a necessidade de treinar todos os seus parâmetros. Ao contrário dos **Hard Prompts** (prompts textuais discretos e criados manualmente), os Soft Prompts são **tensores aprendíveis** (vetores de *tokens virtuais*) que são concatenados com os *embeddings* de entrada do modelo e otimizados diretamente em um conjunto de dados de treinamento.
+**Soft Prompting** (also known as *learned prompts*, *continuous prompts* or *prompt embeddings*) is a **Parameter-Efficient Fine-Tuning (PEFT)** technique that adapts pre-trained Large Language Models (LLMs) to specific tasks without the need to train all of their parameters. Unlike **Hard Prompts** (discrete, manually created textual prompts), Soft Prompts are **learnable tensors** (vectors of *virtual tokens*) that are concatenated with the model's input *embeddings* and optimized directly on a training dataset.
 
-Essa abordagem permite que o modelo permaneça congelado, enquanto apenas um pequeno conjunto de parâmetros do prompt é treinado, resultando em uma adaptação significativamente mais eficiente em termos de tempo e custo computacional. O principal ponto negativo é que esses *tokens virtuais* não são legíveis por humanos.
+This approach allows the model to remain frozen, while only a small set of prompt parameters is trained, resulting in significantly more efficient adaptation in terms of time and computational cost. The main downside is that these *virtual tokens* are not human-readable.
 
 ## Statistics
 
-*   **Eficiência de Parâmetros:** Prefix Tuning demonstrou desempenho comparável ao *fine-tuning* completo, mas com **1000x menos parâmetros** treináveis.
-*   **Escalabilidade:** O desempenho do Prompt Tuning se **escala** com o aumento do tamanho do modelo, equiparando-se ao *fine-tuning* tradicional em modelos maiores.
-*   **Pesquisa Recente (2024):** O trabalho "Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models" (ICLR 2024) investigou o **Efeito de Baixa Norma (*Low-Norm Effect*)** em *soft-prompts* para Vision-Language Models (VLMs), sugerindo que a redução da norma de certos prompts aprendidos pode **melhorar o desempenho** dos VLMs.
+*   **Parameter Efficiency:** Prefix Tuning demonstrated performance comparable to full *fine-tuning*, but with **1000x fewer** trainable parameters.
+*   **Scalability:** The performance of Prompt Tuning **scales** with increasing model size, matching traditional *fine-tuning* on larger models.
+*   **Recent Research (2024):** The work "Nemesis: Normalizing the Soft-prompt Vectors of Vision-Language Models" (ICLR 2024) investigated the **Low-Norm Effect** in *soft-prompts* for Vision-Language Models (VLMs), suggesting that reducing the norm of certain learned prompts can **improve the performance** of VLMs.
 
 ## Features
 
-O Soft Prompting engloba várias sub-técnicas de PEFT, cada uma com variações na forma como os *embeddings* do prompt são inseridos e otimizados:
+Soft Prompting encompasses several PEFT sub-techniques, each with variations in how the prompt *embeddings* are inserted and optimized:
 
-1.  **Prompt Tuning:** Adiciona *tokens* de prompt aprendíveis apenas aos *embeddings* de entrada. Bom para classificação de texto e escalável com o tamanho do modelo.
-2.  **Prefix Tuning:** Insere parâmetros de prefixo otimizáveis em **todas** as camadas do modelo. Ideal para Geração de Linguagem Natural (NLG).
-3.  **P-Tuning:** Utiliza um codificador de prompt (como LSTM) e permite que os *tokens* de prompt sejam inseridos em **qualquer lugar** na sequência de entrada. Projetado para Compreensão de Linguagem Natural (NLU).
-4.  **Multitask Prompt Tuning (MPT):** Aprende um único prompt para múltiplos tipos de tarefas, permitindo *transfer learning* eficiente.
-5.  **Context-Aware Prompt Tuning (CPT):** Refina apenas *embeddings* de *tokens* de contexto específicos para aprimorar a classificação *few-shot*.
+1.  **Prompt Tuning:** Adds learnable prompt *tokens* only to the input *embeddings*. Good for text classification and scalable with model size.
+2.  **Prefix Tuning:** Inserts optimizable prefix parameters into **all** layers of the model. Ideal for Natural Language Generation (NLG).
+3.  **P-Tuning:** Uses a prompt encoder (such as LSTM) and allows the prompt *tokens* to be inserted **anywhere** in the input sequence. Designed for Natural Language Understanding (NLU).
+4.  **Multitask Prompt Tuning (MPT):** Learns a single prompt for multiple types of tasks, enabling efficient *transfer learning*.
+5.  **Context-Aware Prompt Tuning (CPT):** Refines only the *embeddings* of specific context *tokens* to improve *few-shot* classification.
 
 ## Use Cases
 
-*   **Adaptação de Modelos:** Adaptação eficiente de LLMs pré-treinados para uma ampla variedade de tarefas *downstream* (ex: classificação, geração, NLU) sem a necessidade de *fine-tuning* completo.
-*   **Ambientes de Baixa Quantidade de Dados:** Prefix Tuning é particularmente eficaz em cenários com poucos dados (*low-data settings*).
-*   **Transfer Learning:** Multitask Prompt Tuning permite o *transfer learning* de um único prompt aprendido para múltiplas tarefas.
-*   **Modelos Multimodais:** Pesquisas recentes aplicam Soft Prompting em Vision-Language Models (VLMs) como o CLIP para adaptação de tarefas.
+*   **Model Adaptation:** Efficient adaptation of pre-trained LLMs to a wide variety of *downstream* tasks (e.g.: classification, generation, NLU) without the need for full *fine-tuning*.
+*   **Low-Data Environments:** Prefix Tuning is particularly effective in *low-data settings*.
+*   **Transfer Learning:** Multitask Prompt Tuning enables *transfer learning* of a single learned prompt to multiple tasks.
+*   **Multimodal Models:** Recent research applies Soft Prompting in Vision-Language Models (VLMs) such as CLIP for task adaptation.
 
 ## Integration
 
-Como os Soft Prompts são tensores aprendíveis e não texto legível por humanos, não há "exemplos de prompt" no sentido tradicional de texto de entrada. A integração se dá através da implementação de uma das sub-técnicas (PEFT).
+Since Soft Prompts are learnable tensors and not human-readable text, there are no "prompt examples" in the traditional sense of input text. Integration occurs through the implementation of one of the sub-techniques (PEFT).
 
-**Melhores Práticas (PEFT):**
-*   **Escolha da Técnica:** A escolha da sub-técnica depende da tarefa: **Prompt Tuning** para classificação, **Prefix Tuning** para NLG e **P-Tuning** para NLU.
-*   **Implementação:** Utilizar bibliotecas como **🤗 PEFT (Parameter-Efficient Fine-Tuning)** da Hugging Face, que fornece implementações prontas.
-*   **Otimização:** A otimização é feita via *backpropagation* no conjunto de dados de treinamento, atualizando apenas os parâmetros do prompt enquanto o modelo base permanece congelado.
+**Best Practices (PEFT):**
+*   **Technique Choice:** The choice of sub-technique depends on the task: **Prompt Tuning** for classification, **Prefix Tuning** for NLG and **P-Tuning** for NLU.
+*   **Implementation:** Use libraries such as Hugging Face's **🤗 PEFT (Parameter-Efficient Fine-Tuning)**, which provides ready-made implementations.
+*   **Optimization:** Optimization is done via *backpropagation* on the training dataset, updating only the prompt parameters while the base model remains frozen.
 
 ## URL
 

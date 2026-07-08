@@ -2,33 +2,33 @@
 
 ## Description
 
-Os **Google Cloud Public Datasets** são um vasto repositório de conjuntos de dados públicos hospedados no **BigQuery**, o data warehouse sem servidor, altamente escalável e de baixo custo do Google Cloud. O valor único reside em permitir que usuários e cientistas de dados consultem petabytes de dados complexos (como genômica, dados climáticos, financeiros e de tráfego) usando SQL padrão, sem a necessidade de configurar infraestrutura, fazer upload de dados ou pagar pelo armazenamento. O programa é mantido pelo Google, que cobre os custos de armazenamento, e oferece acesso gratuito ao processamento do primeiro 1 TB de dados por mês, tornando-o uma ferramenta inestimável para pesquisa, análise e prototipagem de Machine Learning.
+The **Google Cloud Public Datasets** are a vast repository of public datasets hosted on **BigQuery**, Google Cloud's serverless, highly scalable, and low-cost data warehouse. The unique value lies in allowing users and data scientists to query petabytes of complex data (such as genomics, climate, financial, and traffic data) using standard SQL, without the need to set up infrastructure, upload data, or pay for storage. The program is maintained by Google, which covers storage costs, and offers free access to processing the first 1 TB of data per month, making it an invaluable tool for research, analysis, and Machine Learning prototyping.
 
 ## Statistics
 
-**Custo:** O Google paga pelo armazenamento. O processamento de consultas é gratuito até 1 TB por mês por usuário. **Tamanho:** O repositório contém petabytes de dados. Alguns datasets individuais, como o Common Crawl, podem ter mais de 170 TB. **Acessibilidade:** Acesso imediato a centenas de datasets públicos de alta qualidade. **Localização:** Os datasets são armazenados em locais multirregionais, como `US` ou `EU`.
+**Cost:** Google pays for storage. Query processing is free up to 1 TB per month per user. **Size:** The repository contains petabytes of data. Some individual datasets, such as Common Crawl, can exceed 170 TB. **Accessibility:** Immediate access to hundreds of high-quality public datasets. **Location:** Datasets are stored in multi-regional locations, such as `US` or `EU`.
 
 ## Features
 
-**Acesso via SQL:** Permite a consulta de petabytes de dados usando o SQL padrão (GoogleSQL ou Legacy SQL). **Infraestrutura Gerenciada:** Não requer configuração de infraestrutura, upload de dados ou gerenciamento de armazenamento. **Variedade de Dados:** Inclui dados de diversas áreas como ciência, finanças, saúde, clima e governo. **Integração Nativa:** Acesso direto via Google Cloud Console, ferramenta de linha de comando `bq` e APIs REST. **Modelo de Custo:** O Google paga pelo armazenamento; o usuário paga apenas pelas consultas (com 1 TB de processamento gratuito por mês).
+**SQL Access:** Allows querying petabytes of data using standard SQL (GoogleSQL or Legacy SQL). **Managed Infrastructure:** Requires no infrastructure setup, data upload, or storage management. **Data Variety:** Includes data from various areas such as science, finance, healthcare, climate, and government. **Native Integration:** Direct access via Google Cloud Console, the `bq` command-line tool, and REST APIs. **Cost Model:** Google pays for storage; the user pays only for queries (with 1 TB of free processing per month).
 
 ## Use Cases
 
-**Pesquisa Científica:** Análise de dados genômicos (como o NIH chest x-ray dataset) e dados climáticos (como o GSOD da NOAA) para descobertas científicas. **Análise Financeira:** Utilização de dados de mercado e transações para modelagem preditiva e backtesting. **Machine Learning:** Treinamento de modelos de ML em grande escala com datasets prontos, como o de revisão do Wikipedia ou o de tráfego de GitHub. **Educação e Prototipagem:** Permite que estudantes e desenvolvedores experimentem o BigQuery e o SQL em grandes volumes de dados sem custos iniciais de infraestrutura. **Análise de Mídia:** Consulta a dados de grandes volumes de texto, como o dataset de trigramas ou o de notícias.
+**Scientific Research:** Analysis of genomic data (such as the NIH chest x-ray dataset) and climate data (such as NOAA's GSOD) for scientific discoveries. **Financial Analysis:** Use of market and transaction data for predictive modeling and backtesting. **Machine Learning:** Training ML models at scale with ready-to-use datasets, such as the Wikipedia revision dataset or the GitHub traffic dataset. **Education and Prototyping:** Allows students and developers to experiment with BigQuery and SQL on large volumes of data without initial infrastructure costs. **Media Analysis:** Querying large volumes of text data, such as the trigram dataset or the news dataset.
 
 ## Integration
 
-O acesso e a integração são realizados através da API BigQuery, suportada por diversas bibliotecas de cliente. O método mais comum é via Python, utilizando a biblioteca `google-cloud-bigquery`.
+Access and integration are performed through the BigQuery API, supported by various client libraries. The most common method is via Python, using the `google-cloud-bigquery` library.
 
-**Exemplo de Integração em Python:**
+**Python Integration Example:**
 ```python
-# Instalação: pip install google-cloud-bigquery
+# Installation: pip install google-cloud-bigquery
 from google.cloud import bigquery
 
-# Inicializa o cliente BigQuery
+# Initialize the BigQuery client
 client = bigquery.Client()
 
-# Consulta SQL para o dataset de nomes dos EUA
+# SQL query for the US names dataset
 query = """
     SELECT
         name,
@@ -44,21 +44,21 @@ query = """
     LIMIT 10
 """
 
-query_job = client.query(query)  # Envia a requisição à API
+query_job = client.query(query)  # Send the request to the API
 
-print("Os 10 nomes mais populares no Texas (1910-2013):")
+print("The 10 most popular names in Texas (1910-2013):")
 for row in query_job:
-    print(f"Nome: {row['name']}, Nascimentos: {row['total_births']}")
+    print(f"Name: {row['name']}, Births: {row['total_births']}")
 ```
 
-**Acesso via Console:**
-1.  Navegue até o BigQuery no Google Cloud Console.
-2.  Clique em **+ ADD DATA** e selecione **Explore public datasets**.
-3.  Pesquise e adicione o dataset desejado ao seu projeto.
+**Access via Console:**
+1.  Navigate to BigQuery in the Google Cloud Console.
+2.  Click **+ ADD DATA** and select **Explore public datasets**.
+3.  Search for and add the desired dataset to your project.
 
-**Acesso via Linha de Comando (`bq`):**
+**Access via Command Line (`bq`):**
 ```bash
-# Executa uma consulta e salva o resultado em um arquivo CSV
+# Runs a query and saves the result to a CSV file
 bq query --use_legacy_sql=false --format=csv "SELECT word, word_count FROM \`bigquery-public-data.samples.shakespeare\` WHERE word = 'love'" > love_count.csv
 ```
 

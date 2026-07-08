@@ -2,53 +2,53 @@
 
 ## Description
 
-O DeepWeeds é um dataset de imagens multiclasse, público e anotado, projetado para o reconhecimento robusto de espécies de ervas daninhas em ambientes de pastagem na Austrália. Foi criado para abordar a necessidade de dados de campo realistas para o desenvolvimento de sistemas de controle robótico de ervas daninhas. O dataset é amplamente utilizado em pesquisas de aprendizado profundo (Deep Learning) para classificação de imagens na agricultura de precisão.
+DeepWeeds is a public, annotated multiclass image dataset designed for the robust recognition of weed species in rangeland environments in Australia. It was created to address the need for realistic field data for the development of robotic weed control systems. The dataset is widely used in deep learning research for image classification in precision agriculture.
 
 ## Statistics
 
-**Total de Imagens:** 17.509 imagens coloridas únicas.
-**Resolução da Imagem:** 256x256 pixels.
-**Divisão Padrão:**
-*   **Treinamento:** 60% (aproximadamente 10.505 imagens)
-*   **Validação:** 20% (aproximadamente 3.502 imagens)
-*   **Teste:** 20% (aproximadamente 3.502 imagens)
-**Classes:** 9 classes (8 espécies de ervas daninhas e 1 classe de fundo/outras plantas).
-**Balanceamento:** O dataset foi coletado com o objetivo de ter pelo menos 1.000 imagens por espécie e uma divisão equilibrada entre amostras positivas (ervas daninhas) e negativas (fundo/outras plantas) por local.
+**Total Images:** 17,509 unique color images.
+**Image Resolution:** 256x256 pixels.
+**Standard Split:**
+*   **Training:** 60% (approximately 10,505 images)
+*   **Validation:** 20% (approximately 3,502 images)
+*   **Test:** 20% (approximately 3,502 images)
+**Classes:** 9 classes (8 weed species and 1 background/other plants class).
+**Balancing:** The dataset was collected with the goal of having at least 1,000 images per species and a balanced split between positive samples (weeds) and negative samples (background/other plants) per site.
 
 ## Features
 
-**Tipo de Dado:** Imagens coloridas (RGB) de 256x256 pixels.
-**Classes:** 9 classes no total (8 espécies de ervas daninhas e 1 classe de "Outras" plantas/fundo).
-**Espécies de Ervas Daninhas:** Maçã-de-cheiro (_Ziziphus mauritiana_), Lantana (_Lantana camara_), Parkinsonia (_Parkinsonia aculeata_), Parthenium (_Parthenium hysterophorus_), Acácia-espinhosa (_Vachellia nilotica_), Cipó-de-seda (_Cryptostegia grandiflora_), Erva-de-siam (_Chromolaena odorata_) e Erva-de-cobra (_Stachytarpheta spp._).
-**Coleta:** Imagens coletadas _in situ_ (no local) em oito ambientes de pastagem no norte da Austrália, refletindo condições ambientais variáveis (iluminação, oclusão, fundo dinâmico).
-**Resolução:** Aproximadamente 4 pixels por mm.
+**Data Type:** Color (RGB) images of 256x256 pixels.
+**Classes:** 9 classes in total (8 weed species and 1 "Other" plants/background class).
+**Weed Species:** Chinee Apple (_Ziziphus mauritiana_), Lantana (_Lantana camara_), Parkinsonia (_Parkinsonia aculeata_), Parthenium (_Parthenium hysterophorus_), Prickly Acacia (_Vachellia nilotica_), Rubber Vine (_Cryptostegia grandiflora_), Siam Weed (_Chromolaena odorata_), and Snake Weed (_Stachytarpheta spp._).
+**Collection:** Images collected _in situ_ (on site) across eight rangeland environments in northern Australia, reflecting variable environmental conditions (lighting, occlusion, dynamic background).
+**Resolution:** Approximately 4 pixels per mm.
 
 ## Use Cases
 
-*   **Classificação de Espécies de Ervas Daninhas:** Treinamento e avaliação de modelos de Deep Learning (como CNNs, ResNet, Inception) para identificar automaticamente a espécie de erva daninha presente em uma imagem.
-*   **Agricultura de Precisão:** Desenvolvimento de sistemas de visão computacional para robôs ou drones agrícolas, permitindo a aplicação localizada e seletiva de herbicidas (controle de ervas daninhas específico por local).
-*   **Pesquisa em Visão Computacional:** Estudo de técnicas de _feature engineering_ e arquiteturas de rede neural para lidar com a variabilidade de fundo, oclusão e condições de iluminação em ambientes de campo.
-*   **Transfer Learning:** Utilização do dataset para ajustar modelos pré-treinados em grandes datasets (como ImageNet) para a tarefa específica de classificação de ervas daninhas.
+*   **Weed Species Classification:** Training and evaluation of Deep Learning models (such as CNNs, ResNet, Inception) to automatically identify the weed species present in an image.
+*   **Precision Agriculture:** Development of computer vision systems for agricultural robots or drones, enabling localized and selective herbicide application (site-specific weed control).
+*   **Computer Vision Research:** Study of _feature engineering_ techniques and neural network architectures to handle background variability, occlusion, and lighting conditions in field environments.
+*   **Transfer Learning:** Use of the dataset to fine-tune models pre-trained on large datasets (such as ImageNet) for the specific task of weed classification.
 
 ## Integration
 
-O dataset DeepWeeds está disponível em plataformas como Kaggle e TensorFlow Datasets (TFDS), facilitando o acesso e a integração.
+The DeepWeeds dataset is available on platforms such as Kaggle and TensorFlow Datasets (TFDS), facilitating access and integration.
 
-**Exemplo de Acesso via Kaggle API (Shell):**
+**Access Example via Kaggle API (Shell):**
 ```bash
-# Instalar a CLI do Kaggle (se necessário)
+# Install the Kaggle CLI (if needed)
 # pip install kaggle
 
-# Fazer o download do dataset (requer credenciais Kaggle configuradas)
+# Download the dataset (requires configured Kaggle credentials)
 kaggle datasets download -d imsparsh/deepweeds
 unzip deepweeds.zip
 ```
 
-**Exemplo de Carregamento em Python (TensorFlow Datasets):**
+**Loading Example in Python (TensorFlow Datasets):**
 ```python
 import tensorflow_datasets as tfds
 
-# Carregar o dataset
+# Load the dataset
 (ds_train, ds_test), ds_info = tfds.load(
     'deep_weeds',
     split=['train', 'test'],
@@ -57,13 +57,13 @@ import tensorflow_datasets as tfds
     with_info=True,
 )
 
-# Imprimir informações
+# Print information
 print(ds_info)
 
-# Exemplo de iteração
+# Iteration example
 for image, label in ds_train.take(1):
-    print(f"Formato da Imagem: {image.shape}")
-    print(f"Rótulo: {label.numpy()}")
+    print(f"Image Shape: {image.shape}")
+    print(f"Label: {label.numpy()}")
 ```
 
 ## URL

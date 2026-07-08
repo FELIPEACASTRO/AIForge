@@ -1,39 +1,39 @@
 # Risk Assessment Prompts
 
 ## Description
-Prompts de Avaliação de Risco são uma categoria de engenharia de prompt focada em instruir Modelos de Linguagem Grande (LLMs) a realizar tarefas sistemáticas de identificação, análise, priorização e mitigação de riscos em diversos domínios. Essa técnica é amplamente utilizada em contextos de negócios, finanças, segurança cibernética e compliance para automatizar e aprimorar o processo tradicional de avaliação de risco. O objetivo é alavancar a capacidade do LLM de processar grandes volumes de dados e cenários complexos para gerar relatórios de risco estruturados, listas de verificação de compliance e estratégias de mitigação proativas.
+Risk Assessment Prompts are a category of prompt engineering focused on instructing Large Language Models (LLMs) to perform systematic tasks of identifying, analyzing, prioritizing, and mitigating risks across various domains. This technique is widely used in business, finance, cybersecurity, and compliance contexts to automate and enhance the traditional risk assessment process. The goal is to leverage the LLM's ability to process large volumes of data and complex scenarios to generate structured risk reports, compliance checklists, and proactive mitigation strategies.
 
 ## Examples
 ```
-1. **Risco Cibernético:** 'Atue como um analista de segurança cibernética. Dada a nossa infraestrutura de TI (lista de sistemas e tecnologias), identifique e priorize as 5 principais vulnerabilidades de segurança. Para cada uma, sugira uma estratégia de mitigação imediata e de longo prazo.'
-2. **Risco Financeiro:** 'Analise o impacto potencial de um aumento de 3% na taxa de juros sobre o nosso fluxo de caixa e a rentabilidade do projeto X. Forneça uma análise de sensibilidade e três cenários de hedge.'
-3. **Risco de Compliance:** 'Crie uma lista de verificação de compliance para a nossa empresa de SaaS que opera na UE, focando especificamente no GDPR e na Lei de Mercados Digitais (DMA). Destaque as áreas de maior risco de não conformidade.'
-4. **Risco Operacional:** 'Para a nossa nova linha de produção automatizada, liste os 7 principais riscos operacionais, incluindo falhas técnicas e erros humanos. Desenvolva um plano de contingência de três etapas para o risco de maior impacto.'
-5. **Risco de Projeto:** 'Avalie o risco de atraso no projeto de lançamento do produto Y, considerando as dependências atuais (lista de dependências) e a alocação de recursos. Calcule a probabilidade de atraso e o impacto financeiro estimado.'
-6. **Risco de Terceiros:** 'Desenvolva uma matriz de avaliação de risco para a seleção de um novo fornecedor de logística. Os critérios devem incluir estabilidade financeira, histórico de interrupções na cadeia de suprimentos e práticas de segurança de dados.'
-7. **Risco de Reputação:** 'Simule a reação do público a uma falha de serviço em nossa plataforma de mídia social. Identifique os principais riscos de reputação e elabore um rascunho de comunicado de imprensa para gerenciamento de crise.'
+1. **Cyber Risk:** 'Act as a cybersecurity analyst. Given our IT infrastructure (list of systems and technologies), identify and prioritize the top 5 security vulnerabilities. For each one, suggest an immediate and a long-term mitigation strategy.'
+2. **Financial Risk:** 'Analyze the potential impact of a 3% increase in the interest rate on our cash flow and the profitability of project X. Provide a sensitivity analysis and three hedging scenarios.'
+3. **Compliance Risk:** 'Create a compliance checklist for our SaaS company operating in the EU, focusing specifically on the GDPR and the Digital Markets Act (DMA). Highlight the areas of highest non-compliance risk.'
+4. **Operational Risk:** 'For our new automated production line, list the top 7 operational risks, including technical failures and human errors. Develop a three-step contingency plan for the highest-impact risk.'
+5. **Project Risk:** 'Assess the risk of delay in the launch project of product Y, considering the current dependencies (list of dependencies) and resource allocation. Calculate the probability of delay and the estimated financial impact.'
+6. **Third-Party Risk:** 'Develop a risk assessment matrix for selecting a new logistics supplier. The criteria should include financial stability, history of supply chain disruptions, and data security practices.'
+7. **Reputational Risk:** 'Simulate the public's reaction to a service outage on our social media platform. Identify the main reputational risks and draft a press release for crisis management.'
 ```
 
 ## Best Practices
-1. **Contextualização Detalhada:** Sempre forneça ao LLM o máximo de contexto possível, incluindo o domínio de risco (financeiro, TI, etc.), o escopo da avaliação e quaisquer dados relevantes (ex: lista de ativos, regulamentos aplicáveis).
-2. **Definir a Persona:** Atribua uma persona especializada ao LLM (ex: 'Atue como um Gerente de Risco Certificado', 'Seja um Auditor de Compliance') para garantir que a resposta seja estruturada e utilize a terminologia apropriada.
-3. **Estrutura de Saída Clara:** Solicite a saída em um formato estruturado (ex: tabela, lista de verificação, matriz de risco) para facilitar a análise e a integração em fluxos de trabalho existentes.
-4. **Validação Humana:** Use o LLM como um assistente para gerar rascunhos e identificar riscos, mas a decisão final e a validação crítica devem ser sempre realizadas por um especialista humano.
-5. **Iteração e Refinamento:** Use prompts de acompanhamento para aprofundar a análise (ex: 'Agora, detalhe as métricas de monitoramento para o Risco X') ou para refinar a mitigação proposta.
+1. **Detailed Contextualization:** Always provide the LLM with as much context as possible, including the risk domain (financial, IT, etc.), the scope of the assessment, and any relevant data (e.g., asset list, applicable regulations).
+2. **Define the Persona:** Assign a specialized persona to the LLM (e.g., 'Act as a Certified Risk Manager', 'Be a Compliance Auditor') to ensure that the response is structured and uses the appropriate terminology.
+3. **Clear Output Structure:** Request the output in a structured format (e.g., table, checklist, risk matrix) to facilitate analysis and integration into existing workflows.
+4. **Human Validation:** Use the LLM as an assistant to generate drafts and identify risks, but the final decision and critical validation should always be performed by a human expert.
+5. **Iteration and Refinement:** Use follow-up prompts to deepen the analysis (e.g., 'Now, detail the monitoring metrics for Risk X') or to refine the proposed mitigation.
 
 ## Use Cases
-1. **Modelagem de Risco:** Geração de cenários de estresse e análise de sensibilidade para riscos financeiros e de mercado.
-2. **Compliance e Auditoria:** Criação de listas de verificação de conformidade regulatória e identificação de lacunas em políticas internas.
-3. **Segurança de Aplicações:** Análise de código e arquitetura para identificar vulnerabilidades de segurança (ex: injeção de prompt, vazamento de dados).
-4. **Gestão de Crises:** Simulação de crises (ex: desastres naturais, ataques cibernéticos) e desenvolvimento de planos de resposta e comunicação.
-5. **Due Diligence:** Avaliação rápida de riscos operacionais e estratégicos em fusões e aquisições.
+1. **Risk Modeling:** Generating stress scenarios and sensitivity analysis for financial and market risks.
+2. **Compliance and Auditing:** Creating regulatory compliance checklists and identifying gaps in internal policies.
+3. **Application Security:** Analyzing code and architecture to identify security vulnerabilities (e.g., prompt injection, data leakage).
+4. **Crisis Management:** Simulating crises (e.g., natural disasters, cyberattacks) and developing response and communication plans.
+5. **Due Diligence:** Rapid assessment of operational and strategic risks in mergers and acquisitions.
 
 ## Pitfalls
-1. **Vazamento de Dados (Data Leakage):** Inserir informações confidenciais ou proprietárias no prompt, expondo-as ao LLM e, potencialmente, a terceiros.
-2. **Alucinação e Imprecisão:** O LLM pode gerar riscos ou estratégias de mitigação plausíveis, mas factualmente incorretas ou inadequadas para o contexto específico, exigindo verificação.
-3. **Viés (Bias):** O modelo pode perpetuar vieses presentes nos dados de treinamento, resultando em avaliações de risco que discriminam ou ignoram certos grupos ou cenários.
-4. **Injeção de Prompt:** O risco de um usuário mal-intencionado manipular o prompt para fazer o LLM ignorar as instruções de segurança e compliance e gerar uma resposta perigosa.
-5. **Superestimação da Capacidade:** Confiar cegamente na saída do LLM sem validação, especialmente em áreas regulamentadas ou de alto impacto.
+1. **Data Leakage:** Entering confidential or proprietary information into the prompt, exposing it to the LLM and, potentially, to third parties.
+2. **Hallucination and Inaccuracy:** The LLM may generate plausible but factually incorrect risks or mitigation strategies that are inappropriate for the specific context, requiring verification.
+3. **Bias:** The model may perpetuate biases present in the training data, resulting in risk assessments that discriminate against or ignore certain groups or scenarios.
+4. **Prompt Injection:** The risk of a malicious user manipulating the prompt to make the LLM ignore the security and compliance instructions and generate a dangerous response.
+5. **Overestimation of Capability:** Blindly trusting the LLM's output without validation, especially in regulated or high-impact areas.
 
 ## URL
 [https://www.bizway.io/chatgpt-prompts/risk-assessment](https://www.bizway.io/chatgpt-prompts/risk-assessment)

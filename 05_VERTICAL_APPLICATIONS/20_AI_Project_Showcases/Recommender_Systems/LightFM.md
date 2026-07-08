@@ -2,30 +2,30 @@
 
 ## Description
 
-LightFM é uma biblioteca Python de código aberto que implementa um modelo de fatoração de matriz híbrido, combinando as abordagens de **Filtragem Colaborativa** e **Filtragem Baseada em Conteúdo**. Seu principal diferencial é a capacidade de incorporar metadados (recursos/features) de usuários e itens, permitindo a criação de sistemas de recomendação robustos que lidam eficazmente com o problema do 'cold-start' (usuários ou itens novos com poucas interações). A biblioteca é otimizada para desempenho, utilizando implementações em Cython.
+LightFM is an open-source Python library that implements a hybrid matrix factorization model, combining the **Collaborative Filtering** and **Content-Based Filtering** approaches. Its main differentiator is the ability to incorporate metadata (features) of users and items, enabling the creation of robust recommendation systems that effectively handle the 'cold-start' problem (new users or items with few interactions). The library is optimized for performance, using implementations in Cython.
 
 ## Statistics
 
-A LightFM é uma das bibliotecas de recomendação mais populares em Python, com mais de 4.000 estrelas no GitHub (em novembro de 2025). É amplamente utilizada em projetos de ciência de dados e produção devido à sua capacidade de lidar com grandes volumes de dados esparsos e feedback implícito (como cliques ou visualizações) e explícito (como avaliações).
+LightFM is one of the most popular recommendation libraries in Python, with more than 4,000 stars on GitHub (as of November 2025). It is widely used in data science and production projects due to its ability to handle large volumes of sparse data and both implicit feedback (such as clicks or views) and explicit feedback (such as ratings).
 
 ## Features
 
-1. **Recomendação Híbrida:** Combina Filtragem Colaborativa (aprendendo com interações) e Filtragem Baseada em Conteúdo (usando metadados de usuários/itens).
-2. **Suporte a Feedback Implícito e Explícito:** Pode ser treinada com dados de avaliações (explícito) ou interações binárias (implícito).
-3. **Solução para Cold-Start:** A inclusão de recursos de conteúdo permite gerar recomendações para novos usuários ou itens antes que haja dados de interação suficientes.
-4. **Algoritmos Integrados:** Implementa modelos populares como *Weighted Approximate-Rank Pairwise* (WARP) e *BPR* (Bayesian Personalized Ranking) para feedback implícito, e regressão logística para feedback explícito.
-5. **Otimização de Desempenho:** Utiliza Cython para otimizar o treinamento do modelo, tornando-o escalável para grandes conjuntos de dados.
+1. **Hybrid Recommendation:** Combines Collaborative Filtering (learning from interactions) and Content-Based Filtering (using user/item metadata).
+2. **Support for Implicit and Explicit Feedback:** Can be trained with rating data (explicit) or binary interactions (implicit).
+3. **Cold-Start Solution:** The inclusion of content features makes it possible to generate recommendations for new users or items before there is sufficient interaction data.
+4. **Built-in Algorithms:** Implements popular models such as *Weighted Approximate-Rank Pairwise* (WARP) and *BPR* (Bayesian Personalized Ranking) for implicit feedback, and logistic regression for explicit feedback.
+5. **Performance Optimization:** Uses Cython to optimize model training, making it scalable to large datasets.
 
 ## Use Cases
 
-1. **E-commerce e Varejo:** Recomendar produtos para clientes, sugerir itens relacionados ou personalizar a página inicial.
-2. **Mídia e Entretenimento:** Sugerir filmes, músicas, artigos ou vídeos com base no histórico de consumo e nas características do conteúdo.
-3. **Redes Sociais:** Recomendar conexões, grupos ou conteúdo a seguir.
-4. **Sistemas de Busca Personalizada:** Melhorar a relevância dos resultados de busca incorporando o perfil do usuário e as características dos itens.
+1. **E-commerce and Retail:** Recommending products to customers, suggesting related items, or personalizing the home page.
+2. **Media and Entertainment:** Suggesting movies, music, articles, or videos based on consumption history and content characteristics.
+3. **Social Networks:** Recommending connections, groups, or content to follow.
+4. **Personalized Search Systems:** Improving the relevance of search results by incorporating the user profile and item characteristics.
 
 ## Integration
 
-A integração é feita via Python, utilizando o `pip` para instalação e a API intuitiva da biblioteca. O exemplo a seguir demonstra a criação de um modelo híbrido simples:
+Integration is done via Python, using `pip` for installation and the library's intuitive API. The following example demonstrates the creation of a simple hybrid model:
 
 ```python
 import numpy as np
@@ -33,16 +33,16 @@ from lightfm import LightFM
 from lightfm.data import Dataset
 from lightfm.evaluation import auc_score
 
-# 1. Preparação dos Dados
-# Suponha que você tenha listas de (usuário, item, interação)
-# e listas de (usuário, recurso) e (item, recurso)
+# 1. Data Preparation
+# Suppose you have lists of (user, item, interaction)
+# and lists of (user, feature) and (item, feature)
 
-# Exemplo de dados de interação (feedback implícito)
+# Example interaction data (implicit feedback)
 interactions = [
     (1, 101, 1), (1, 102, 1), (2, 101, 1), (3, 103, 1), (4, 104, 1)
 ]
 
-# Exemplo de recursos de usuário e item
+# Example user and item features
 user_features = [
     (1, 'premium'), (2, 'standard'), (3, 'premium'), (4, 'standard')
 ]
@@ -50,22 +50,22 @@ item_features = [
     (101, 'categoria_A'), (102, 'categoria_B'), (103, 'categoria_A'), (104, 'categoria_C')
 ]
 
-# 2. Criação do Objeto Dataset
+# 2. Creation of the Dataset Object
 dataset = Dataset()
 dataset.fit(
-    (u for u, _, _ in interactions), # Usuários
-    (i for _, i, _ in interactions), # Itens
-    user_features=(f for u, f in user_features), # Recursos de usuário
-    item_features=(f for i, f in item_features)  # Recursos de item
+    (u for u, _, _ in interactions), # Users
+    (i for _, i, _ in interactions), # Items
+    user_features=(f for u, f in user_features), # User features
+    item_features=(f for i, f in item_features)  # Item features
 )
 
-# 3. Construção das Matrizes
+# 3. Building the Matrices
 (interactions_matrix, weights_matrix) = dataset.build_interactions(interactions)
 user_features_matrix = dataset.build_user_features(user_features)
 item_features_matrix = dataset.build_item_features(item_features)
 
-# 4. Treinamento do Modelo Híbrido
-# loss='warp' é ideal para feedback implícito
+# 4. Training the Hybrid Model
+# loss='warp' is ideal for implicit feedback
 model = LightFM(loss='warp')
 model.fit(
     interactions_matrix,
@@ -74,11 +74,11 @@ model.fit(
     epochs=30, num_threads=2
 )
 
-# 5. Avaliação (Exemplo)
+# 5. Evaluation (Example)
 # train_auc = auc_score(model, interactions_matrix, num_threads=2).mean()
-# print(f\"AUC do Treinamento: {train_auc:.4f}\")
+# print(f\"Training AUC: {train_auc:.4f}\")
 
-# 6. Geração de Recomendações (Exemplo para o usuário 1)
+# 6. Generating Recommendations (Example for user 1)
 user_id = 1
 user_x = dataset.get_user_representations(user_id)
 
@@ -91,7 +91,7 @@ scores = model.predict(
 
 top_items = np.argsort(-scores)
 
-print(f\"Recomendações para o Usuário {user_id}:\")
+print(f\"Recommendations for User {user_id}:\")
 for item_id in top_items[:3]:
     print(f\"- Item {dataset.mapping()[2][item_id]}\")
 ```

@@ -2,23 +2,23 @@
 
 ## Description
 
-Um modelo de fundação multimodal de lâmina inteira (whole-slide) para patologia, pré-treinado usando 335.645 imagens de lâminas inteiras (WSIs) através de aprendizado autossupervisionado visual e alinhamento visão-linguagem com relatórios de patologia correspondentes e 423.122 legendas sintéticas. Ele extrai representações de lâmina de propósito geral e gera relatórios de patologia sem a necessidade de fine-tuning ou rótulos clínicos.
+A multimodal whole-slide foundation model for pathology, pre-trained using 335,645 whole-slide images (WSIs) through visual self-supervised learning and vision-language alignment with corresponding pathology reports and 423,122 synthetic captions. It extracts general-purpose slide representations and generates pathology reports without the need for fine-tuning or clinical labels.
 
 ## Statistics
 
-Pré-treinado em 335.645 WSIs em 20 tipos de órgãos. Utiliza 423.122 legendas sintéticas de ROI (Região de Interesse) de grão fino e 183 mil relatórios de patologia para fine-tuning visão-linguagem. Codifica milhões de ROIs de alta resolução (8.192 × 8.192 pixels com ampliação de 20×).
+Pre-trained on 335,645 WSIs across 20 organ types. Uses 423,122 fine-grained synthetic ROI (Region of Interest) captions and 183 thousand pathology reports for vision-language fine-tuning. Encodes millions of high-resolution ROIs (8,192 × 8,192 pixels at 20× magnification).
 
 ## Features
 
-Alinhamento Multimodal (Imagem e Texto). Aprendizado de representação de lâmina inteira. Classificação zero-shot. Recuperação cross-modal (lâminas histológicas e relatórios clínicos). Geração de relatórios de patologia. Supera modelos de fundação de ROI e de lâmina em várias tarefas.
+Multimodal Alignment (Image and Text). Whole-slide representation learning. Zero-shot classification. Cross-modal retrieval (histological slides and clinical reports). Pathology report generation. Outperforms ROI and slide foundation models across various tasks.
 
 ## Use Cases
 
-Aprendizado de representação de lâmina de propósito geral, subtipagem de câncer, previsão de biomarcadores, prognóstico de resultados, recuperação de lâminas, recuperação de câncer raro, classificação zero-shot guiada por linguagem.
+General-purpose slide representation learning, cancer subtyping, biomarker prediction, outcome prognosis, slide retrieval, rare cancer retrieval, language-guided zero-shot classification.
 
 ## Integration
 
-O modelo é um modelo de fundação, sugerindo que suas features podem ser extraídas e usadas em tarefas subsequentes. O artigo menciona que ele pode ser aplicado 'pronto para uso' (off-the-shelf) para previsão de desfechos clínicos. Detalhes adicionais sobre a disponibilidade do código devem ser consultados na seção 'Code availability' do artigo.
+The model is a foundation model, suggesting that its features can be extracted and used in downstream tasks. The paper mentions that it can be applied 'off-the-shelf' for clinical outcome prediction. Additional details about code availability should be consulted in the 'Code availability' section of the paper.
 
 ## URL
 

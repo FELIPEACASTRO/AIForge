@@ -1,46 +1,46 @@
 # Investor Relations Prompts
 
 ## Description
-**Prompts de Relações com Investidores (IR)** são instruções estruturadas e detalhadas fornecidas a Modelos de Linguagem Grande (LLMs) para auxiliar profissionais de Relações com Investidores na criação, análise e gestão de comunicações com a comunidade financeira. Esses prompts são projetados para automatizar tarefas repetitivas, como resumir relatórios financeiros, gerar rascunhos de comunicados de imprensa, analisar o sentimento do mercado e preparar materiais para *earnings calls* e reuniões com investidores. O objetivo principal é aumentar a eficiência, garantir a consistência da mensagem e liberar a equipe de RI para se concentrar em interações estratégicas e de alto valor. A eficácia desses prompts reside na inclusão de dados específicos da empresa, requisitos de conformidade regulatória e o público-alvo da comunicação.
+**Investor Relations (IR) Prompts** are structured and detailed instructions provided to Large Language Models (LLMs) to assist Investor Relations professionals in creating, analyzing, and managing communications with the financial community. These prompts are designed to automate repetitive tasks, such as summarizing financial reports, generating press release drafts, analyzing market sentiment, and preparing materials for *earnings calls* and investor meetings. The main goal is to increase efficiency, ensure message consistency, and free the IR team to focus on strategic, high-value interactions. The effectiveness of these prompts lies in the inclusion of company-specific data, regulatory compliance requirements, and the target audience of the communication.
 
 ## Examples
 ```
-**1. Resumo de Resultados Trimestrais para Imprensa:**
-`"Aja como um especialista em comunicação de Relações com Investidores. Com base nos seguintes dados financeiros [INSERIR DADOS], gere um rascunho de comunicado de imprensa de 500 palavras para o nosso relatório de resultados do Q3. O comunicado deve focar em [MÉTRICAS CHAVE, e.g., crescimento de receita de 15% e margem EBITDA de 22%], manter um tom otimista, mas realista, e incluir uma citação do CEO sobre a estratégia para o próximo ano. Garanta que a linguagem seja compatível com a SEC (Securities and Exchange Commission)."`
+**1. Quarterly Earnings Summary for the Press:**
+`"Act as an Investor Relations communications expert. Based on the following financial data [INSERT DATA], generate a 500-word press release draft for our Q3 earnings report. The release should focus on [KEY METRICS, e.g., 15% revenue growth and 22% EBITDA margin], maintain an optimistic but realistic tone, and include a quote from the CEO about the strategy for the coming year. Ensure the language is compliant with the SEC (Securities and Exchange Commission)."`
 
-**2. Análise de Sentimento do Mercado:**
-`"Analise os seguintes relatórios de analistas [INSERIR TEXTOS/LINKS] e as menções no Twitter/X com a hashtag #NossaEmpresa nos últimos 7 dias. Identifique os três principais temas de preocupação dos investidores e os três principais pontos positivos. Apresente os resultados em uma tabela Markdown com uma pontuação de sentimento (de -5 a +5) para cada tema."`
+**2. Market Sentiment Analysis:**
+`"Analyze the following analyst reports [INSERT TEXTS/LINKS] and the mentions on Twitter/X with the hashtag #OurCompany over the last 7 days. Identify the three main themes of investor concern and the three main positive points. Present the results in a Markdown table with a sentiment score (from -5 to +5) for each theme."`
 
-**3. Rascunho de Q&A para Earnings Call:**
-`"Com base no nosso último relatório 10-Q e nas perguntas mais frequentes dos investidores no trimestre passado, gere 5 perguntas desafiadoras que provavelmente serão feitas durante a próxima *earnings call*. Para cada pergunta, forneça uma resposta concisa e aprovada pelo jurídico, focando em [TÓPICO SENSÍVEL, e.g., a desaceleração na China e o impacto da nova regulamentação]."`
+**3. Q&A Draft for Earnings Call:**
+`"Based on our latest 10-Q report and the most frequent investor questions from last quarter, generate 5 challenging questions that are likely to be asked during the next *earnings call*. For each question, provide a concise, legally approved answer, focusing on [SENSITIVE TOPIC, e.g., the slowdown in China and the impact of the new regulation]."`
 
-**4. E-mail de Atualização para Investidores de Varejo:**
-`"Escreva um e-mail de atualização trimestral para investidores de varejo. O e-mail deve ser acessível, evitar jargões excessivos e resumir o desempenho da empresa no Q4. Destaque a importância do nosso novo produto [NOME DO PRODUTO] e reitere nosso compromisso com a sustentabilidade (ESG). O tom deve ser caloroso e de agradecimento."`
+**4. Update Email for Retail Investors:**
+`"Write a quarterly update email for retail investors. The email should be accessible, avoid excessive jargon, and summarize the company's Q4 performance. Highlight the importance of our new product [PRODUCT NAME] and reiterate our commitment to sustainability (ESG). The tone should be warm and appreciative."`
 
-**5. Comparação com Concorrentes:**
-`"Compare a nossa empresa, [NOME DA EMPRESA], com os concorrentes [CONCORRENTE A] e [CONCORRENTE B] em termos de [MÉTRICAS, e.g., P/E Ratio, crescimento de receita YOY e *free cash flow*]. Use os dados mais recentes disponíveis publicamente. Crie um *slide deck* de 3 slides com gráficos de barras para visualização, incluindo uma breve análise das nossas vantagens competitivas."`
+**5. Comparison with Competitors:**
+`"Compare our company, [COMPANY NAME], with competitors [COMPETITOR A] and [COMPETITOR B] in terms of [METRICS, e.g., P/E Ratio, YOY revenue growth, and *free cash flow*]. Use the most recent publicly available data. Create a 3-slide *slide deck* with bar charts for visualization, including a brief analysis of our competitive advantages."`
 ```
 
 ## Best Practices
-**1. Contextualização e Especificidade:** Sempre forneça o máximo de contexto possível. Inclua dados financeiros específicos, o público-alvo (analistas, investidores de varejo, mídia) e o tom desejado (otimista, cauteloso, informativo).
-**2. Revisão Humana Obrigatória:** Nunca use a saída da IA para comunicações regulatórias ou públicas sem uma revisão e validação rigorosas por um profissional de Relações com Investidores (RI) e jurídico. A precisão e a conformidade são primordiais.
-**3. Proteção de Dados Sensíveis:** Evite inserir informações financeiras não públicas, estratégias confidenciais ou dados pessoais de investidores em modelos de IA de uso geral. Utilize soluções de IA *on-premise* ou com garantias de privacidade de dados.
-**4. Defina o Formato de Saída:** Peça explicitamente o formato desejado (e.g., "gere uma tabela em Markdown", "escreva um e-mail formal", "crie um resumo de 5 parágrafos").
-**5. Mantenha a Consistência da Voz:** Inclua instruções sobre a voz e o estilo da empresa (e.g., "Mantenha o tom formal e alinhado com a nossa política de comunicação corporativa").
+**1. Contextualization and Specificity:** Always provide as much context as possible. Include specific financial data, the target audience (analysts, retail investors, media), and the desired tone (optimistic, cautious, informative).
+**2. Mandatory Human Review:** Never use AI output for regulatory or public communications without rigorous review and validation by an Investor Relations (IR) professional and legal counsel. Accuracy and compliance are paramount.
+**3. Protection of Sensitive Data:** Avoid entering non-public financial information, confidential strategies, or personal investor data into general-purpose AI models. Use *on-premise* AI solutions or ones with data privacy guarantees.
+**4. Define the Output Format:** Explicitly request the desired format (e.g., "generate a table in Markdown", "write a formal email", "create a 5-paragraph summary").
+**5. Maintain Voice Consistency:** Include instructions about the company's voice and style (e.g., "Maintain a formal tone aligned with our corporate communication policy").
 
 ## Use Cases
-**1. Automação de Resumos e Análises:** Geração rápida de resumos de relatórios anuais, *earnings calls* e *press releases* para consumo interno ou externo.
-**2. Preparação para Reuniões com Investidores:** Criação de *scripts* de perguntas e respostas (Q&A), *talking points* e *pitch decks* personalizados para diferentes tipos de investidores (e.g., *hedge funds*, fundos de pensão, investidores de varejo).
-**3. Monitoramento e Análise de Sentimento:** Rastreamento e análise do sentimento do mercado, cobertura da mídia e relatórios de analistas para identificar preocupações emergentes e tendências de investimento.
-**4. Comunicação de Crise:** Rascunho de planos de comunicação de crise e mensagens-chave para gerenciar a percepção do investidor durante eventos negativos (e.g., recall de produtos, litígios, mudanças na liderança).
-**5. Conformidade e Governança:** Auxílio na redação de seções de relatórios regulatórios (com revisão humana), e na preparação de materiais sobre ESG (Ambiental, Social e Governança) para atender às crescentes demandas dos investidores.
+**1. Automation of Summaries and Analyses:** Rapid generation of summaries of annual reports, *earnings calls*, and *press releases* for internal or external consumption.
+**2. Preparation for Investor Meetings:** Creation of question-and-answer (Q&A) *scripts*, *talking points*, and personalized *pitch decks* for different types of investors (e.g., *hedge funds*, pension funds, retail investors).
+**3. Sentiment Monitoring and Analysis:** Tracking and analyzing market sentiment, media coverage, and analyst reports to identify emerging concerns and investment trends.
+**4. Crisis Communication:** Drafting crisis communication plans and key messages to manage investor perception during negative events (e.g., product recalls, litigation, leadership changes).
+**5. Compliance and Governance:** Assistance in drafting sections of regulatory reports (with human review) and in preparing ESG (Environmental, Social, and Governance) materials to meet growing investor demands.
 
 ## Pitfalls
-**1. Alucinações e Imprecisão de Dados:** A IA pode gerar informações factualmente incorretas ou inventar dados financeiros. Isso é catastrófico em RI, onde a precisão é legalmente exigida.
-**2. Violação de Confidencialidade (Data Leakage):** Usar modelos de IA públicos para processar dados não públicos (como resultados financeiros preliminares ou estratégias de fusão e aquisição) pode resultar em vazamento de informações sensíveis.
-**3. Falta de Nuance e Tom:** A IA pode não capturar a nuance e o tom exigidos em comunicações de RI, especialmente em situações de crise ou ao abordar tópicos sensíveis como governança corporativa.
-**4. Conformidade Regulatória (Compliance):** A IA não é um advogado. Confiar cegamente em seu conteúdo para relatórios regulatórios (como 8-K, 10-Q, 10-K) pode levar a erros de conformidade e penalidades severas da SEC ou de outros órgãos reguladores.
-**5. Viés e Repetição:** Se o modelo for treinado em dados enviesados, ele pode perpetuar uma visão excessivamente otimista ou pessimista, ou simplesmente repetir a linguagem de relatórios anteriores, perdendo a oportunidade de comunicação estratégica.
+**1. Hallucinations and Data Inaccuracy:** AI may generate factually incorrect information or fabricate financial data. This is catastrophic in IR, where accuracy is legally required.
+**2. Confidentiality Breach (Data Leakage):** Using public AI models to process non-public data (such as preliminary financial results or merger and acquisition strategies) can result in the leakage of sensitive information.
+**3. Lack of Nuance and Tone:** AI may fail to capture the nuance and tone required in IR communications, especially in crisis situations or when addressing sensitive topics such as corporate governance.
+**4. Regulatory Compliance:** AI is not a lawyer. Blindly trusting its content for regulatory reports (such as 8-K, 10-Q, 10-K) can lead to compliance errors and severe penalties from the SEC or other regulatory bodies.
+**5. Bias and Repetition:** If the model is trained on biased data, it may perpetuate an overly optimistic or pessimistic view, or simply repeat the language of previous reports, missing the opportunity for strategic communication.
 
 ## URL
 [https://promptdrive.ai/ai-prompts-investor-relations/](https://promptdrive.ai/ai-prompts-investor-relations/)

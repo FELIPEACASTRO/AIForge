@@ -1,41 +1,41 @@
 # OK-VQA (Outside Knowledge Visual Question Answering)
 
 ## Description
-O OK-VQA (Outside Knowledge Visual Question Answering) é um dataset de Perguntas e Respostas Visuais (VQA) que exige que os modelos utilizem **conhecimento externo** (fora do conteúdo da imagem) para responder às perguntas. Diferentemente dos datasets VQA tradicionais, onde as respostas podem ser inferidas apenas a partir da imagem, o OK-VQA contém mais de 14.000 perguntas de resposta aberta que foram manualmente filtradas para garantir a necessidade de conhecimento externo (por exemplo, da Wikipédia). O dataset foi projetado para impulsionar a pesquisa em modelos que podem integrar informações visuais e textuais de fontes de conhecimento externas. Uma versão aprimorada, o **OK-VQA v2.0**, foi lançada em 2023, corrigindo e removendo 41,4% e 10,6% do dataset original, respectivamente, para melhorar a qualidade. O dataset é frequentemente usado em conjunto com o A-OKVQA (Augmented OK-VQA), que fornece racionalizações para as respostas.
+OK-VQA (Outside Knowledge Visual Question Answering) is a Visual Question Answering (VQA) dataset that requires models to use **external knowledge** (beyond the content of the image) to answer the questions. Unlike traditional VQA datasets, where the answers can be inferred from the image alone, OK-VQA contains more than 14,000 open-ended questions that were manually filtered to ensure the need for external knowledge (for example, from Wikipedia). The dataset was designed to drive research on models that can integrate visual and textual information from external knowledge sources. An improved version, **OK-VQA v2.0**, was released in 2023, correcting and removing 41.4% and 10.6% of the original dataset, respectively, to improve quality. The dataset is often used together with A-OKVQA (Augmented OK-VQA), which provides rationales for the answers.
 
 ## Statistics
-- **Amostras:** 14.055 perguntas de resposta aberta.
-- **Respostas:** 5 respostas de referência (ground truth) por pergunta.
-- **Versões:**
-    - **v1.0 (2019):** Versão original.
-    - **v1.1 (2020):** Atualização com melhorias no método de *word stemming* nas respostas.
-    - **v2.0 (2023):** Versão aprimorada com correções e remoções para maior qualidade.
-- **Tamanho:** O tamanho dos arquivos de anotações (JSON) é pequeno (alguns MB). O dataset completo, incluindo as imagens COCO, é significativamente maior (as imagens COCO 2014 têm ~25 GB). A versão no Hugging Face (apenas anotações) tem cerca de **832 MB** (lmms-lab/OK-VQA).
+- **Samples:** 14,055 open-ended questions.
+- **Answers:** 5 ground truth reference answers per question.
+- **Versions:**
+    - **v1.0 (2019):** Original version.
+    - **v1.1 (2020):** Update with improvements to the *word stemming* method for answers.
+    - **v2.0 (2023):** Improved version with corrections and removals for higher quality.
+- **Size:** The size of the annotation files (JSON) is small (a few MB). The full dataset, including the COCO images, is significantly larger (the COCO 2014 images are ~25 GB). The version on Hugging Face (annotations only) is about **832 MB** (lmms-lab/OK-VQA).
 
 ## Features
-- **Requisito de Conhecimento Externo:** A característica principal é a necessidade de conhecimento fora da imagem para responder às perguntas.
-- **Perguntas de Resposta Aberta:** Mais de 14.000 perguntas que exigem respostas de formato livre.
-- **Múltiplas Respostas de Referência:** Cada pergunta possui 5 respostas de referência (ground truth) coletadas por humanos.
-- **Categorias de Conhecimento:** As perguntas são categorizadas em 10 tipos de conhecimento externo, como Pessoas e Vida Cotidiana, Ciência e Tecnologia, História, Geografia, Esportes e Recreação, etc.
-- **Baseado em COCO:** As imagens são provenientes do dataset COCO (Common Objects in Context).
+- **External Knowledge Requirement:** The main characteristic is the need for knowledge beyond the image to answer the questions.
+- **Open-Ended Questions:** More than 14,000 questions that require free-form answers.
+- **Multiple Reference Answers:** Each question has 5 ground truth reference answers collected by humans.
+- **Knowledge Categories:** The questions are categorized into 10 types of external knowledge, such as People and Everyday Life, Science and Technology, History, Geography, Sports and Recreation, etc.
+- **Based on COCO:** The images come from the COCO (Common Objects in Context) dataset.
 
 ## Use Cases
-- **Avaliação de Modelos VQA:** Serve como um benchmark desafiador para modelos de Perguntas e Respostas Visuais que precisam de raciocínio baseado em conhecimento.
-- **Pesquisa em Conhecimento Externo:** Desenvolvimento de métodos para integrar bases de conhecimento externas (como a Wikipédia) em modelos de Visão Computacional e Processamento de Linguagem Natural.
-- **Raciocínio Multimodal:** Treinamento de modelos para realizar raciocínio complexo que combina informações visuais e fatos do mundo real.
-- **Transferência de Conhecimento:** Estudo da capacidade dos modelos de transferir conhecimento de grandes modelos de linguagem para tarefas de VQA.
+- **VQA Model Evaluation:** Serves as a challenging benchmark for Visual Question Answering models that require knowledge-based reasoning.
+- **External Knowledge Research:** Development of methods to integrate external knowledge bases (such as Wikipedia) into Computer Vision and Natural Language Processing models.
+- **Multimodal Reasoning:** Training models to perform complex reasoning that combines visual information and real-world facts.
+- **Knowledge Transfer:** Study of the ability of models to transfer knowledge from large language models to VQA tasks.
 
 ## Integration
-O dataset OK-VQA pode ser baixado diretamente do site oficial do Allen AI, onde os arquivos de anotações (perguntas e respostas) são fornecidos em formato JSON. As imagens correspondentes são do dataset COCO.
+The OK-VQA dataset can be downloaded directly from the official Allen AI website, where the annotation files (questions and answers) are provided in JSON format. The corresponding images come from the COCO dataset.
 
-**Passos para Integração:**
-1.  **Baixar Anotações:** Baixar os arquivos JSON de anotações de treinamento e teste (v1.1 ou v2.0, se disponível) do site oficial.
-2.  **Obter Imagens:** As imagens não estão incluídas no download das anotações e devem ser obtidas do dataset **COCO 2014** (conjuntos de treinamento e validação).
-3.  **Processamento:** Usar as anotações JSON para mapear as perguntas e respostas às imagens correspondentes do COCO.
-4.  **Alternativa (Hugging Face):** O dataset também está disponível em plataformas como o Hugging Face, onde pode ser carregado diretamente usando a biblioteca `datasets` do Python:
+**Integration Steps:**
+1.  **Download Annotations:** Download the training and test annotation JSON files (v1.1 or v2.0, if available) from the official website.
+2.  **Obtain Images:** The images are not included in the annotation download and must be obtained from the **COCO 2014** dataset (training and validation sets).
+3.  **Processing:** Use the JSON annotations to map the questions and answers to the corresponding COCO images.
+4.  **Alternative (Hugging Face):** The dataset is also available on platforms such as Hugging Face, where it can be loaded directly using Python's `datasets` library:
     ```python
     from datasets import load_dataset
-    # Para a versão do Hugging Face (pode não incluir as imagens COCO)
+    # For the Hugging Face version (may not include the COCO images)
     dataset = load_dataset("lmms-lab/OK-VQA")
     ```
 

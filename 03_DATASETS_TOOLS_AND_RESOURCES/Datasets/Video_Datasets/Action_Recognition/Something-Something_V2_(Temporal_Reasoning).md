@@ -1,45 +1,45 @@
 # Something-Something V2 (Temporal Reasoning)
 
 ## Description
-O dataset **Something-Something (versão 2)** é uma coleção de **220.847 clipes de vídeo** rotulados de humanos realizando ações básicas e predefinidas com objetos do cotidiano. Ele foi projetado especificamente para treinar modelos de aprendizado de máquina em uma compreensão detalhada de gestos humanos e interações, exigindo **raciocínio temporal** para distinguir entre ações semelhantes, como "levantar algo completamente" versus "levantar algo e depois soltar". O dataset é crucial para o avanço da pesquisa em **reconhecimento de ação em vídeo** e **compreensão de bom senso visual**.
+The **Something-Something (version 2)** dataset is a collection of **220,847 labeled video clips** of humans performing basic, predefined actions with everyday objects. It was specifically designed to train machine learning models in a detailed understanding of human gestures and interactions, requiring **temporal reasoning** to distinguish between similar actions, such as "lifting something up completely" versus "lifting something up and then letting it drop down". The dataset is crucial for advancing research in **video action recognition** and **visual common sense understanding**.
 
 ## Statistics
-- **Tamanho Total:** 19.4 GB (vídeos).
-- **Amostras (Vídeos):** 220.847 clipes de vídeo.
-- **Categorias de Ação:** 174 classes.
-- **Atores de Crowdsourcing:** Mais de 1.300 únicos.
-- **Versão:** V2 (Versão 2), lançada em 2018, sendo a mais utilizada para benchmarks.
-- **Resolução:** 240px de altura.
+- **Total Size:** 19.4 GB (videos).
+- **Samples (Videos):** 220,847 video clips.
+- **Action Categories:** 174 classes.
+- **Crowdsourcing Actors:** More than 1,300 unique.
+- **Version:** V2 (Version 2), released in 2018, being the most used for benchmarks.
+- **Resolution:** 240px in height.
 
 ## Features
-- **Foco em Raciocínio Temporal:** As ações são definidas por frases-modelo (e.g., "Putting [something] onto [something]"), onde a ordem e a relação temporal entre os objetos e as ações são cruciais.
-- **Grande Escala:** Contém 220.847 vídeos curtos e aparados.
-- **Diversidade de Ações:** Abrange 174 categorias de ações distintas.
-- **Anotações Detalhadas:** Inclui anotações de objetos (318.572 anotações, 30.408 objetos únicos) para os conjuntos de treinamento e validação.
-- **Alta Qualidade:** Cada vídeo foi verificado por cinco atores de crowdsourcing diferentes para garantir a precisão do rótulo.
-- **Formato:** Vídeos em formato WebM (codec VP9) com altura de 240px.
+- **Focus on Temporal Reasoning:** Actions are defined by template phrases (e.g., "Putting [something] onto [something]"), where the order and temporal relationship between objects and actions are crucial.
+- **Large Scale:** Contains 220,847 short, trimmed videos.
+- **Action Diversity:** Covers 174 distinct action categories.
+- **Detailed Annotations:** Includes object annotations (318,572 annotations, 30,408 unique objects) for the training and validation sets.
+- **High Quality:** Each video was verified by five different crowdsourcing actors to ensure label accuracy.
+- **Format:** Videos in WebM format (VP9 codec) with a height of 240px.
 
 ## Use Cases
-- **Reconhecimento de Ação em Vídeo:** É o principal benchmark para modelos que buscam classificar ações em vídeos, especialmente aquelas que dependem de contexto e ordem temporal.
-- **Raciocínio Temporal:** Treinamento e avaliação de modelos de redes neurais (como a Temporal Relation Network - TRN) capazes de aprender e raciocinar sobre relações temporais entre quadros de vídeo.
-- **Visão Computacional e Robótica:** Desenvolvimento de sistemas que exigem uma compreensão fina de manipulações de objetos e gestos humanos para tarefas de imitação ou interação.
-- **Modelos de Linguagem de Vídeo (Video LLMs):** Utilizado em pesquisas recentes (2024-2025) para aprimorar a capacidade de raciocínio temporal e compreensão de vídeos longos em modelos multimodais.
+- **Video Action Recognition:** It is the primary benchmark for models that seek to classify actions in videos, especially those that depend on context and temporal order.
+- **Temporal Reasoning:** Training and evaluation of neural network models (such as the Temporal Relation Network - TRN) capable of learning and reasoning about temporal relationships between video frames.
+- **Computer Vision and Robotics:** Development of systems that require a fine understanding of object manipulations and human gestures for imitation or interaction tasks.
+- **Video Language Models (Video LLMs):** Used in recent research (2024-2025) to enhance temporal reasoning capabilities and long video understanding in multimodal models.
 
 ## Integration
-O dataset pode ser acessado através do site oficial da Qualcomm (TwentyBN), onde os vídeos são fornecidos em um grande arquivo TGZ, dividido em partes de 1 GB (tamanho total de 19.4 GB). As anotações (rótulos e divisões) são fornecidas em arquivos JSON separados.
+The dataset can be accessed through the official Qualcomm (TwentyBN) website, where the videos are provided in a large TGZ file, split into 1 GB parts (total size of 19.4 GB). The annotations (labels and splits) are provided in separate JSON files.
 
-**Instruções de Uso (Exemplo com Hugging Face):**
-Para uso em pesquisa e desenvolvimento, a versão V2 está disponível no Hugging Face Datasets, facilitando a integração com bibliotecas de aprendizado de máquina:
+**Usage Instructions (Example with Hugging Face):**
+For research and development use, version V2 is available on Hugging Face Datasets, facilitating integration with machine learning libraries:
 
 ```python
 from datasets import load_dataset
 
-# Carrega o dataset (apenas metadados, os vídeos precisam ser baixados separadamente)
+# Loads the dataset (metadata only, videos need to be downloaded separately)
 dataset = load_dataset("HuggingFaceM4/something_something_v2")
 
-# Para preparar o dataset para modelos de reconhecimento de ação,
-# é comum seguir as instruções de bibliotecas como o MMAction2.
-# O download dos vídeos deve ser feito a partir da fonte primária.
+# To prepare the dataset for action recognition models,
+# it is common to follow the instructions of libraries such as MMAction2.
+# Video download must be done from the primary source.
 ```
 
 ## URL

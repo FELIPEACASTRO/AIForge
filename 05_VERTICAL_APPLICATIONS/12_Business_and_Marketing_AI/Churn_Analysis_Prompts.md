@@ -1,95 +1,84 @@
 # Churn Analysis Prompts
 
 ## Description
-**Análise de Churn (Churn Analysis)** é uma técnica de engenharia de prompt focada em utilizar Modelos de Linguagem Grande (LLMs) para processar dados de clientes, identificar padrões de comportamento que levam ao cancelamento (churn) e gerar *insights* acionáveis para retenção. Em vez de apenas prever o churn, esses prompts são projetados para atuar como um **analista de dados virtual**, realizando tarefas como segmentação de clientes, análise de causa raiz, criação de modelos preditivos (conceitualmente) e desenvolvimento de estratégias de intervenção.
+**Churn Analysis** is a prompt engineering technique focused on leveraging Large Language Models (LLMs) to process customer data, identify behavioral patterns that lead to cancellation (churn), and generate actionable *insights* for retention. Instead of merely predicting churn, these prompts are designed to act as a **virtual data analyst**, performing tasks such as customer segmentation, root cause analysis, conceptual predictive model creation, and intervention strategy development.
 
-A eficácia dos *Churn Analysis Prompts* reside na sua capacidade de estruturar a entrada de dados (muitas vezes via *copy-paste* de amostras de dados ou descrição de *features* de um dataset) e exigir uma saída analítica e estratégica, transformando dados brutos em inteligência de negócios. Eles são cruciais para empresas de SaaS, telecomunicações e serviços por assinatura, onde a retenção de clientes é diretamente ligada à saúde financeira.
-
-**Churn Analysis (English)** is a prompt engineering technique focused on leveraging Large Language Models (LLMs) to process customer data, identify behavioral patterns that lead to cancellation (churn), and generate actionable insights for retention. Instead of merely predicting churn, these prompts are designed to act as a **virtual data analyst**, performing tasks such as customer segmentation, root cause analysis, conceptual predictive model creation, and intervention strategy development.
-
-The effectiveness of *Churn Analysis Prompts* lies in their ability to structure data input (often via copy-pasting data samples or describing dataset features) and demand an analytical and strategic output, transforming raw data into business intelligence. They are crucial for SaaS, telecommunications, and subscription service companies, where customer retention is directly linked to financial health.
+The effectiveness of *Churn Analysis Prompts* lies in their ability to structure data input (often via copy-pasting data samples or describing the *features* of a dataset) and demand an analytical and strategic output, transforming raw data into business intelligence. They are crucial for SaaS, telecommunications, and subscription service companies, where customer retention is directly linked to financial health.
 
 ## Examples
 ```
-**Exemplos de Prompts (Prompt Examples)**:
+**Prompt Examples**:
 
-1.  **Análise de Cohort e Fatores de Risco (Cohort Analysis and Risk Factors)**
+1.  **Cohort Analysis and Risk Factors**
     ```
-    **Papel:** Cientista de Dados Sênior.
-    **Tarefa:** Analise o churn dos últimos 6 meses por cohort de aquisição (mensal).
-    **Dados:** [Insira aqui um trecho de dados de churn em formato CSV ou Markdown, ou descreva as colunas: 'ID_Cliente', 'Data_Aquisicao', 'Meses_Ativo', 'Uso_Mensal_Horas', 'Tickets_Suporte', 'Churn_Status'].
-    **Saída:** Tabela Markdown com a taxa de churn por cohort e um resumo executivo de 150 palavras destacando os 3 principais fatores de risco e o cohort mais problemático.
-    ```
-
-2.  **Criação de Segmentos de Risco (Creation of Risk Segments)**
-    ```
-    **Contexto:** Somos uma plataforma SaaS B2B. O churn é definido como a não renovação após 12 meses.
-    **Tarefa:** Crie 3 segmentos de clientes de alto risco de churn (ex: 'Risco Extremo', 'Risco Moderado', 'Risco Latente') com base nas seguintes métricas: [Baixa Frequência de Login, Queda de 50% no Uso de Funcionalidades Chave, Abertura de 3+ Tickets de Suporte nos Últimos 30 Dias].
-    **Saída:** Para cada segmento, forneça uma descrição, o critério de pontuação de risco e 2 ações de retenção específicas.
+    **Role:** Senior Data Scientist.
+    **Task:** Analyze churn over the last 6 months by acquisition cohort (monthly).
+    **Data:** [Insert here a snippet of churn data in CSV or Markdown format, or describe the columns: 'Customer_ID', 'Acquisition_Date', 'Months_Active', 'Monthly_Usage_Hours', 'Support_Tickets', 'Churn_Status'].
+    **Output:** Markdown table with the churn rate per cohort and a 150-word executive summary highlighting the top 3 risk factors and the most problematic cohort.
     ```
 
-3.  **Análise de Sentimento de Feedback de Churn (Churn Feedback Sentiment Analysis)**
+2.  **Creation of Risk Segments**
     ```
-    **Tarefa:** Analise os seguintes 10 comentários de clientes que cancelaram e categorize o sentimento (Negativo, Neutro, Positivo) e o motivo principal (Preço, Funcionalidade, Suporte, Concorrência).
-    **Dados:** [Lista de 10 comentários de feedback de cancelamento].
-    **Saída:** Tabela com 'Comentário', 'Sentimento' e 'Motivo Principal'. Em seguida, sugira uma mudança de produto ou processo para mitigar o motivo mais frequente.
-    ```
-
-4.  **Simulação de Modelo Preditivo (Predictive Model Simulation)**
-    ```
-    **Papel:** Machine Learning Engineer.
-    **Tarefa:** Simule um modelo de classificação (ex: Random Forest) para prever o churn.
-    **Features:** [Idade do Cliente, Tempo de Contrato, Valor do Contrato (MRR), Número de Logins/Semana, Uso da Feature X, Uso da Feature Y].
-    **Saída:** Explique quais seriam as 3 features mais importantes para a previsão e por que, com base no conhecimento de mercado. Crie um prompt de acompanhamento para refinar a análise.
+    **Context:** We are a B2B SaaS platform. Churn is defined as non-renewal after 12 months.
+    **Task:** Create 3 high churn risk customer segments (e.g., 'Extreme Risk', 'Moderate Risk', 'Latent Risk') based on the following metrics: [Low Login Frequency, 50% Drop in Key Feature Usage, Opening 3+ Support Tickets in the Last 30 Days].
+    **Output:** For each segment, provide a description, the risk scoring criteria, and 2 specific retention actions.
     ```
 
-5.  **Criação de Playbook de Retenção (Retention Playbook Creation)**
+3.  **Churn Feedback Sentiment Analysis**
     ```
-    **Contexto:** O cliente 'ID 456' está no segmento 'Risco Extremo' (Queda de 70% no uso e 0 interações com o Suporte).
-    **Tarefa:** Crie um *playbook* de retenção de 3 etapas para o Customer Success Manager (CSM) usar.
-    **Etapas:** 1. Contato Inicial (Canal e Mensagem), 2. Oferta de Valor (Incentivo), 3. Acompanhamento (Próxima Ação).
-    **Saída:** Um script detalhado para a Etapa 1 (e-mail ou mensagem de chat) e a lógica por trás da Oferta de Valor.
+    **Task:** Analyze the following 10 comments from customers who canceled and categorize the sentiment (Negative, Neutral, Positive) and the main reason (Price, Feature, Support, Competition).
+    **Data:** [List of 10 cancellation feedback comments].
+    **Output:** Table with 'Comment', 'Sentiment', and 'Main Reason'. Then, suggest a product or process change to mitigate the most frequent reason.
     ```
 
-6.  **Análise de Churn Competitivo (Competitive Churn Analysis)**
+4.  **Predictive Model Simulation**
     ```
-    **Tarefa:** Analise o seguinte feedback de clientes que migraram para o concorrente 'X'.
-    **Feedback:** [Lista de 5 razões pelas quais os clientes foram para o concorrente X].
-    **Saída:** Identifique o principal diferencial do concorrente X percebido pelos clientes e sugira 3 pontos de melhoria no nosso produto/serviço para neutralizar essa vantagem.
+    **Role:** Machine Learning Engineer.
+    **Task:** Simulate a classification model (e.g., Random Forest) to predict churn.
+    **Features:** [Customer Age, Contract Length, Contract Value (MRR), Number of Logins/Week, Feature X Usage, Feature Y Usage].
+    **Output:** Explain which would be the 3 most important features for the prediction and why, based on market knowledge. Create a follow-up prompt to refine the analysis.
+    ```
+
+5.  **Retention Playbook Creation**
+    ```
+    **Context:** Customer 'ID 456' is in the 'Extreme Risk' segment (70% drop in usage and 0 interactions with Support).
+    **Task:** Create a 3-step retention *playbook* for the Customer Success Manager (CSM) to use.
+    **Steps:** 1. Initial Contact (Channel and Message), 2. Value Offer (Incentive), 3. Follow-up (Next Action).
+    **Output:** A detailed script for Step 1 (email or chat message) and the logic behind the Value Offer.
+    ```
+
+6.  **Competitive Churn Analysis**
+    ```
+    **Task:** Analyze the following feedback from customers who migrated to competitor 'X'.
+    **Feedback:** [List of 5 reasons why customers went to competitor X].
+    **Output:** Identify the main differentiator of competitor X as perceived by customers and suggest 3 improvement points in our product/service to neutralize this advantage.
     ```
 ```
 
 ## Best Practices
-**Melhores Práticas (Best Practices)**:
-1.  **Fornecer Contexto e Dados Estruturados**: Sempre inclua o máximo de dados relevantes (ex: CSV, JSON, ou descrição detalhada do dataset) e o contexto de negócios (ex: tipo de produto, período de análise, definição de churn).
-2.  **Definir o Papel (Role-Playing)**: Comece o prompt definindo o LLM como um "Cientista de Dados Sênior", "Analista de Sucesso do Cliente" ou "Especialista em Retenção" para garantir uma resposta com a perspectiva correta.
-3.  **Especificar a Saída (Output Structuring)**: Peça a saída em um formato específico (ex: tabela Markdown, JSON, resumo executivo de 150 palavras) para facilitar a análise e integração em relatórios.
-4.  **Análise de Causa Raiz (Root Cause Analysis)**: Não se limite a pedir a previsão; peça a análise dos **fatores preditivos** e a **justificativa** para a pontuação de risco de churn.
-5.  **Iteração e Refinamento**: Use a saída inicial para prompts de acompanhamento, como "Com base nos 3 principais fatores de risco, crie 5 ações de retenção personalizadas para o segmento 'Usuários de Baixa Atividade'".
-
-**Best Practices (English)**:
-1.  **Provide Context and Structured Data**: Always include as much relevant data as possible (e.g., CSV, JSON, or detailed dataset description) and the business context (e.g., product type, analysis period, churn definition).
-2.  **Define the Role (Role-Playing)**: Start the prompt by defining the LLM as a "Senior Data Scientist," "Customer Success Analyst," or "Retention Specialist" to ensure the response has the correct perspective.
+**Best Practices**:
+1.  **Provide Context and Structured Data**: Always include as much relevant data as possible (e.g., CSV, JSON, or a detailed description of the dataset) and the business context (e.g., product type, analysis period, churn definition).
+2.  **Define the Role (Role-Playing)**: Start the prompt by defining the LLM as a "Senior Data Scientist," "Customer Success Analyst," or "Retention Specialist" to ensure a response with the correct perspective.
 3.  **Specify the Output (Output Structuring)**: Ask for the output in a specific format (e.g., Markdown table, JSON, 150-word executive summary) to facilitate analysis and integration into reports.
 4.  **Root Cause Analysis**: Don't just ask for the prediction; ask for the analysis of the **predictive factors** and the **justification** for the churn risk score.
 5.  **Iteration and Refinement**: Use the initial output for follow-up prompts, such as "Based on the top 3 risk factors, create 5 personalized retention actions for the 'Low Activity Users' segment."
 
 ## Use Cases
-**Casos de Uso (Use Cases)**:
-1.  **Segmentação de Clientes em Risco**: Identificar grupos de clientes com alta probabilidade de cancelamento para campanhas de retenção direcionadas.
-2.  **Otimização de Recursos de Suporte**: Analisar tickets de suporte e interações para identificar padrões de insatisfação que precedem o churn, permitindo a intervenção proativa.
-3.  **Validação de Hipóteses de Produto**: Usar o LLM para analisar feedback de cancelamento e validar se a falta de uma funcionalidade específica ou um problema de usabilidade está impulsionando o churn.
-4.  **Criação de Conteúdo de Retenção**: Gerar rascunhos de e-mails, mensagens de chat ou ofertas personalizadas para clientes em risco, adaptadas ao seu perfil de uso e motivo de insatisfação.
-5.  **Relatórios Executivos Rápidos**: Transformar dados brutos ou resumos de modelos de Machine Learning em um resumo executivo claro e conciso para a liderança, economizando tempo do analista.
-6.  **Análise de Churn por Categoria**: Analisar o churn em diferentes linhas de produto ou serviços para entender onde o problema é mais agudo e por quê.
+**Use Cases**:
+1.  **Segmentation of At-Risk Customers**: Identify groups of customers with a high probability of cancellation for targeted retention campaigns.
+2.  **Support Resource Optimization**: Analyze support tickets and interactions to identify patterns of dissatisfaction that precede churn, enabling proactive intervention.
+3.  **Product Hypothesis Validation**: Use the LLM to analyze cancellation feedback and validate whether the lack of a specific feature or a usability issue is driving churn.
+4.  **Retention Content Creation**: Generate drafts of emails, chat messages, or personalized offers for at-risk customers, tailored to their usage profile and reason for dissatisfaction.
+5.  **Fast Executive Reports**: Transform raw data or Machine Learning model summaries into a clear and concise executive summary for leadership, saving the analyst's time.
+6.  **Churn Analysis by Category**: Analyze churn across different product lines or services to understand where the problem is most acute and why.
 
 ## Pitfalls
-**Armadilhas Comuns (Common Pitfalls)**:
-1.  **Injeção de Dados Brutos Excessivos**: Tentar inserir um arquivo CSV inteiro (milhares de linhas) diretamente no prompt. LLMs têm limites de contexto e podem falhar ou gerar resultados imprecisos. **Solução**: Fornecer amostras representativas ou apenas a descrição estatística dos dados.
-2.  **Falta de Definição de Churn**: Não definir claramente o que constitui "churn" para o negócio (ex: cancelamento imediato, não renovação, inatividade por 90 dias). Isso leva a análises vagas.
-3.  **Viés de Confirmação**: Pedir ao LLM para confirmar uma hipótese pré-existente (ex: "O preço é o principal motivo do churn, certo?"). O LLM pode apenas regurgitar a hipótese em vez de realizar uma análise objetiva.
-4.  **Ignorar o Papel do LLM**: Tratar o LLM como um software de estatística que executa código. O LLM é um **mecanismo de raciocínio e linguagem**. Ele deve ser usado para **interpretar** dados e **gerar estratégias**, não para cálculos estatísticos complexos que exigem ferramentas como Python/Pandas.
-5.  **Saída Não Estruturada**: Não especificar o formato de saída. Isso resulta em longos blocos de texto difíceis de digerir e usar em relatórios de negócios.
+**Common Pitfalls**:
+1.  **Excessive Raw Data Injection**: Trying to insert an entire CSV file (thousands of rows) directly into the prompt. LLMs have context limits and may fail or generate inaccurate results. **Solution**: Provide representative samples or just the statistical description of the data.
+2.  **Lack of Churn Definition**: Not clearly defining what constitutes "churn" for the business (e.g., immediate cancellation, non-renewal, inactivity for 90 days). This leads to vague analyses.
+3.  **Confirmation Bias**: Asking the LLM to confirm a pre-existing hypothesis (e.g., "Price is the main reason for churn, right?"). The LLM may just regurgitate the hypothesis instead of performing an objective analysis.
+4.  **Ignoring the LLM's Role**: Treating the LLM as statistical software that executes code. The LLM is a **reasoning and language engine**. It should be used to **interpret** data and **generate strategies**, not for complex statistical calculations that require tools like Python/Pandas.
+5.  **Unstructured Output**: Not specifying the output format. This results in long blocks of text that are difficult to digest and use in business reports.
 
 ## URL
 [https://pt.linkedin.com/pulse/guia-pr%C3%A1tico-de-engenharia-prompt-do-b%C3%A1sico-ao-adrianno-esnarriaga-polqf](https://pt.linkedin.com/pulse/guia-pr%C3%A1tico-de-engenharia-prompt-do-b%C3%A1sico-ao-adrianno-esnarriaga-polqf)

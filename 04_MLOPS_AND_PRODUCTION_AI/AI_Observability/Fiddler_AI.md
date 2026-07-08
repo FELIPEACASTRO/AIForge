@@ -2,41 +2,41 @@
 
 ## Description
 
-**Fiddler AI** é uma plataforma unificada de **Observabilidade de IA** (AI Observability) que se estende além do gerenciamento tradicional de desempenho de modelos de Machine Learning (ML). A plataforma fornece visibilidade e insights acionáveis para monitorar, analisar, explicar e proteger modelos de ML, LLMs (Large Language Models) e sistemas agenticos em produção. Sua proposta de valor única reside na capacidade de oferecer **transparência e confiança** em todo o ciclo de vida da IA, desde a avaliação até a produção, por meio de recursos avançados como detecção de desvio (drift), análise de causa raiz e explicabilidade (Explainable AI - XAI). A Fiddler permite que equipes de Data Science e MLOps operacionalizem modelos em escala, garantindo que o desempenho, a justiça e a conformidade sejam mantidos de forma contínua. A plataforma evoluiu de Model Performance Management (MPM) para uma solução completa de Observabilidade de IA, abrangendo a nova fronteira de sistemas de IA generativa e agenticos.
+**Fiddler AI** is a unified **AI Observability** platform that extends beyond traditional Machine Learning (ML) model performance management. The platform provides visibility and actionable insights to monitor, analyze, explain, and protect ML models, LLMs (Large Language Models), and agentic systems in production. Its unique value proposition lies in its ability to deliver **transparency and trust** across the entire AI lifecycle, from evaluation to production, through advanced capabilities such as drift detection, root cause analysis, and explainability (Explainable AI - XAI). Fiddler enables Data Science and MLOps teams to operationalize models at scale, ensuring that performance, fairness, and compliance are continuously maintained. The platform has evolved from Model Performance Management (MPM) into a complete AI Observability solution, covering the new frontier of generative and agentic AI systems.
 
 ## Statistics
 
-A Fiddler AI monitora uma ampla gama de métricas, que podem ser categorizadas em: **Métricas de Desempenho de ML:** *Accuracy, Precision, Recall, F1-score, AUC-ROC* (para classificação), *RMSE, MAE* (para regressão). **Métricas de Qualidade de Dados e Desvio:** *Data Drift* (desvio de dados), *Model Drift* (desvio de modelo), *Feature Importance Drift*. **Métricas de Negócios e Operacionais:** *Latência, Taxas de Erro, Throughput*. **Métricas de LLM e Agentic:** Mais de 80 métricas prontas para uso para **LLM Observability** e **Agentic Observability**, incluindo métricas de segurança, toxicidade, alucinação, e desempenho de *Guardrails* e *Trust Models*. Um caso de uso notável é a **Marinha dos EUA**, que reduziu em 97% o tempo necessário para atualizar o modelo de IA usando a plataforma Fiddler.
+Fiddler AI monitors a wide range of metrics, which can be categorized into: **ML Performance Metrics:** *Accuracy, Precision, Recall, F1-score, AUC-ROC* (for classification), *RMSE, MAE* (for regression). **Data Quality and Drift Metrics:** *Data Drift*, *Model Drift*, *Feature Importance Drift*. **Business and Operational Metrics:** *Latency, Error Rates, Throughput*. **LLM and Agentic Metrics:** More than 80 out-of-the-box metrics for **LLM Observability** and **Agentic Observability**, including safety, toxicity, and hallucination metrics, as well as the performance of *Guardrails* and *Trust Models*. A notable use case is the **U.S. Navy**, which reduced by 97% the time needed to update its AI model using the Fiddler platform.
 
 ## Features
 
-**Observabilidade Unificada de IA:** Monitoramento de modelos de ML, LLMs e sistemas agenticos em uma única plataforma. **Monitoramento de Modelos (Model Monitoring):** Detecção de desvio de dados (data drift), desvio de modelo (model drift), anomalias, latência e taxas de erro. **Explicabilidade de IA (Explainable AI - XAI):** Fornece insights sobre o "porquê" e o "como" das decisões do modelo, incluindo análise de causa raiz. **Guardrails e Trust Models:** Oferece mais de 80 métricas prontas para uso e suporte para métricas personalizadas para garantir a segurança e a conformidade da IA. **Analytics:** Conecta previsões de modelos com contexto de negócios para insights acionáveis. **Detecção de Viés (Bias Detection) e Fairness:** Ferramentas para mitigar viés e construir sistemas de IA responsáveis. **Suporte a Modelos Complexos:** Inclui monitoramento de modelos de Processamento de Linguagem Natural (NLP) e Visão Computacional (CV).
+**Unified AI Observability:** Monitoring of ML models, LLMs, and agentic systems on a single platform. **Model Monitoring:** Detection of data drift, model drift, anomalies, latency, and error rates. **Explainable AI (XAI):** Provides insights into the "why" and "how" of model decisions, including root cause analysis. **Guardrails and Trust Models:** Offers more than 80 out-of-the-box metrics and support for custom metrics to ensure AI safety and compliance. **Analytics:** Connects model predictions with business context for actionable insights. **Bias Detection and Fairness:** Tools to mitigate bias and build responsible AI systems. **Support for Complex Models:** Includes monitoring of Natural Language Processing (NLP) and Computer Vision (CV) models.
 
 ## Use Cases
 
-**Serviços Financeiros:** Garantir empréstimos e negociações transparentes e justos, mitigando o viés em modelos de risco de crédito. **Governo e Defesa:** Como a **Marinha dos EUA**, para gerenciar e atualizar modelos de IA em ambientes críticos com alta conformidade e segurança. **E-commerce e Varejo:** Otimizar a experiência do cliente e estender o valor vitalício do cliente (LTV) por meio de modelos de recomendação e precificação monitorados. **Saúde:** Melhorar os resultados dos pacientes com observabilidade de IA em modelos de diagnóstico e tratamento. **MLOps e Data Science:** Fornecer às equipes uma plataforma unificada para acelerar a operacionalização de modelos de ML em escala, desde a experimentação até a produção, garantindo que os modelos permaneçam confiáveis e em conformidade. **Sistemas Agenticos e LLMs:** Monitorar, analisar e proteger agentes de IA e aplicações de LLM, garantindo que as interações sejam seguras, precisas e dentro das políticas de uso.
+**Financial Services:** Ensuring transparent and fair lending and trading by mitigating bias in credit risk models. **Government and Defense:** Such as the **U.S. Navy**, to manage and update AI models in critical environments with high compliance and security. **E-commerce and Retail:** Optimizing the customer experience and extending customer lifetime value (LTV) through monitored recommendation and pricing models. **Healthcare:** Improving patient outcomes with AI observability in diagnostic and treatment models. **MLOps and Data Science:** Providing teams with a unified platform to accelerate the operationalization of ML models at scale, from experimentation to production, ensuring that models remain reliable and compliant. **Agentic Systems and LLMs:** Monitoring, analyzing, and protecting AI agents and LLM applications, ensuring that interactions are safe, accurate, and within usage policies.
 
 ## Integration
 
-A Fiddler AI oferece um **SDK Python** robusto para integração com ambientes de MLOps, como Jupyter Notebooks e pipelines automatizados. A integração é tipicamente realizada em duas etapas principais: **1. Onboarding do Modelo:** O modelo é registrado na plataforma Fiddler, definindo seu esquema (`ModelSpec`), tipo de tarefa (`ModelTask`) e fornecendo um *sample dataframe* para inferência de esquema. **2. Publicação de Dados de Inferência:** Dados de produção (inferência) são publicados na Fiddler em tempo real ou em lotes para monitoramento contínuo. A plataforma se integra nativamente com ecossistemas de ML populares, como **Amazon SageMaker**, **Google Vertex AI**, e **Databricks** (via MLflow).
+Fiddler AI offers a robust **Python SDK** for integration with MLOps environments, such as Jupyter Notebooks and automated pipelines. Integration is typically carried out in two main steps: **1. Model Onboarding:** The model is registered on the Fiddler platform, defining its schema (`ModelSpec`), task type (`ModelTask`), and providing a *sample dataframe* for schema inference. **2. Publishing Inference Data:** Production (inference) data is published to Fiddler in real time or in batches for continuous monitoring. The platform integrates natively with popular ML ecosystems, such as **Amazon SageMaker**, **Google Vertex AI**, and **Databricks** (via MLflow).
 
-**Exemplo de Código Python (Simplificado para Onboarding):**
+**Python Code Example (Simplified for Onboarding):**
 
 ```python
 import fiddler as fdl
 import pandas as pd
 
-# 1. Conectar ao ambiente Fiddler (credenciais e URL omitidas)
+# 1. Connect to the Fiddler environment (credentials and URL omitted)
 # client = fdl.FiddlerClient(url=FIDDLER_URL, org_id=ORG_ID, auth_token=AUTH_TOKEN)
 
 PROJECT_NAME = 'quickstart_example'
 MODEL_NAME = 'my_model'
 
-# Criar um projeto
+# Create a project
 # project = fdl.Project(name=PROJECT_NAME)
 # project.create()
 
-# Definir o ModelSpec (função de cada coluna)
+# Define the ModelSpec (role of each column)
 model_spec = fdl.ModelSpec(
     inputs=['CreditScore', 'Geography', 'Gender', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary'],
     outputs=['probability_churned'],
@@ -46,14 +46,14 @@ model_spec = fdl.ModelSpec(
     custom_features=[],
 )
 
-# Definir a tarefa do modelo (ex: Classificação Binária)
+# Define the model task (e.g., Binary Classification)
 model_task = fdl.ModelTask.BINARY_CLASSIFICATION
 task_params = fdl.ModelTaskParams(target_class_order=['no', 'yes'])
 
-# Criar um DataFrame de exemplo (sample_df)
+# Create a sample DataFrame (sample_df)
 # sample_df = pd.read_csv('path/to/sample_data.csv')
 
-# Onboard do modelo
+# Onboard the model
 # model = fdl.Model.from_data(
 #     name=MODEL_NAME,
 #     project_id=fdl.Project.from_name(PROJECT_NAME).id,

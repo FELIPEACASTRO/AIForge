@@ -1,76 +1,76 @@
 # User Journey Mapping Prompts
 
 ## Description
-**Prompts de Mapeamento da Jornada do Usuário (User Journey Mapping Prompts)** são uma categoria de técnicas de *Prompt Engineering* focadas em alavancar Modelos de Linguagem Grande (LLMs) para simular, analisar e otimizar a experiência de um cliente ou usuário com um produto ou serviço.
+**User Journey Mapping Prompts** are a category of *Prompt Engineering* techniques focused on leveraging Large Language Models (LLMs) to simulate, analyze, and optimize a customer's or user's experience with a product or service.
 
-Em vez de apenas gerar conteúdo, esses prompts instruem a IA a atuar como um especialista (ex: Consultor Omnichannel, Designer de Serviço, Cientista de Dados) para desconstruir a jornada em seus componentes essenciais: **estágios**, **pontos de contato (touchpoints)**, **ações**, **pensamentos**, **emoções** e **dores (pain points)**.
+Rather than simply generating content, these prompts instruct the AI to act as a specialist (e.g., Omnichannel Consultant, Service Designer, Data Scientist) to break the journey down into its essential components: **stages**, **touchpoints**, **actions**, **thoughts**, **emotions**, and **pain points**.
 
-O objetivo principal é transformar dados brutos ou descrições de cenários em um mapa estruturado e acionável, permitindo que equipes de UX, Produto e Marketing identifiquem lacunas, momentos de verdade e oportunidades de inovação. A técnica é particularmente poderosa para simular cenários complexos (ex: acessibilidade, comparação com concorrentes) e para gerar rapidamente a primeira versão de um mapa, que pode ser refinada por humanos.
+The main objective is to transform raw data or scenario descriptions into a structured, actionable map, allowing UX, Product, and Marketing teams to identify gaps, moments of truth, and opportunities for innovation. The technique is particularly powerful for simulating complex scenarios (e.g., accessibility, comparison with competitors) and for quickly generating the first version of a map, which can then be refined by humans.
 
 ## Examples
 ```
-**1. Blueprint da Jornada Completa (End-to-End):**
-`"Construa um mapa detalhado da jornada do cliente para [PRODUTO/SERVIÇO] focado na persona [DESCRIÇÃO DA PERSONA]. Divida a jornada em: Conscientização, Consideração, Compra, Onboarding, Uso e Retenção. Para cada estágio, liste: (a) objetivos do cliente, (b) pontos de contato, (c) emoções, (d) dores e (e) KPIs mensuráveis. Conclua com os três maiores 'momentos da verdade' e ações sugeridas para otimizá-los."`
+**1. End-to-End Journey Blueprint:**
+`"Build a detailed customer journey map for [PRODUCT/SERVICE] focused on the persona [PERSONA DESCRIPTION]. Divide the journey into: Awareness, Consideration, Purchase, Onboarding, Usage, and Retention. For each stage, list: (a) customer goals, (b) touchpoints, (c) emotions, (d) pain points, and (e) measurable KPIs. Conclude with the three biggest 'moments of truth' and suggested actions to optimize them."`
 
-**2. Cenário Específico da Persona (Deep-Dive):**
-`"Crie um cenário granular para a persona 'João, 35 anos, Gerente de Marketing' comprando [PRODUTO]. Descreva passo a passo o que ele pensa, sente e faz em cada ponto de contato, desde a primeira conscientização até um mês após a compra. Destaque os altos e baixos emocionais. Finalize com uma tabela resumindo os pontos de fricção e correções rápidas (quick-win fixes)." `
+**2. Persona-Specific Scenario (Deep-Dive):**
+`"Create a granular scenario for the persona 'John, 35, Marketing Manager' purchasing [PRODUCT]. Describe step by step what he thinks, feels, and does at each touchpoint, from the first moment of awareness to one month after purchase. Highlight the emotional highs and lows. Finish with a table summarizing the friction points and quick-win fixes."`
 
-**3. Auditoria Omnichannel de Pontos de Contato:**
-`"Assuma o papel de um consultor omnichannel. Liste todos os pontos de contato online e offline que um cliente encontra ao interagir com [MARCA] (site, app, redes sociais, e-mail, suporte por telefone). Para cada ponto de contato, especifique seu propósito primário, métrica de sucesso, problemas típicos e uma melhoria de Experiência do Cliente (CX) recomendada, ranqueada por impacto vs. esforço."`
+**3. Omnichannel Touchpoint Audit:**
+`"Assume the role of an omnichannel consultant. List all the online and offline touchpoints a customer encounters when interacting with [BRAND] (website, app, social media, email, phone support). For each touchpoint, specify its primary purpose, success metric, typical problems, and one recommended Customer Experience (CX) improvement, ranked by impact vs. effort."`
 
-**4. Visualização da Curva de Emoção:**
-`"Imagine que você é um designer de serviço traçando uma curva de emoção. Descreva, em sequência, a intensidade emocional do cliente (-5 a +5) em cada etapa ao assinar e usar [SERVIÇO DE ASSINATURA]. Forneça uma explicação narrativa para cada ponto de dados e recomende intervenções de design para achatar vales negativos e amplificar picos positivos."`
+**4. Emotion Curve Visualization:**
+`"Imagine you are a service designer tracing an emotion curve. Describe, in sequence, the customer's emotional intensity (-5 to +5) at each step of subscribing to and using [SUBSCRIPTION SERVICE]. Provide a narrative explanation for each data point and recommend design interventions to flatten negative valleys and amplify positive peaks."`
 
-**5. Ideação de Jornada Futura (Future-State):**
-`"Você está facilitando um sprint de design. Imagine uma jornada de 'estado futuro' de 12 meses para [MARCA] que elimina os três principais pontos de dor de hoje: [DOR 1], [DOR 2] e [DOR 3]. Descreva pontos de contato e tecnologias inovadoras (ex: chat de IA, suporte preditivo) introduzidas em cada estágio e explique como elas transformam a experiência do cliente. Forneça um roadmap de implementação priorizado por ROI."`
+**5. Future-State Journey Ideation:**
+`"You are facilitating a design sprint. Imagine a 12-month 'future-state' journey for [BRAND] that eliminates today's three main pain points: [PAIN 1], [PAIN 2], and [PAIN 3]. Describe innovative touchpoints and technologies (e.g., AI chat, predictive support) introduced at each stage and explain how they transform the customer experience. Provide an implementation roadmap prioritized by ROI."`
 
-**6. Otimização Orientada por Dados (Funil SaaS):**
-`"Atue como um cientista de dados otimizando nossa jornada de onboarding SaaS. Dados do funil: Inscrição [70%], Primeiro Momento de Valor [40%], Ativação [25%]. Identifique os dois estágios com maior queda. Hipotetize as causas raiz, projete três ideias de teste A/B para resolvê-las e defina as métricas de sucesso para cada teste."`
+**6. Data-Driven Optimization (SaaS Funnel):**
+`"Act as a data scientist optimizing our SaaS onboarding journey. Funnel data: Sign-up [70%], First Moment of Value [40%], Activation [25%]. Identify the two stages with the largest drop-off. Hypothesize the root causes, design three A/B test ideas to address them, and define the success metrics for each test."`
 
-**7. Revisão de Acessibilidade e Inclusão:**
-`"Avalie a jornada de um cliente com [NECESSIDADE DE ACESSIBILIDADE, ex: deficiência visual] usando nosso site de e-commerce. Detalhe as barreiras encontradas durante a descoberta do produto e o checkout. Recomende correções compatíveis com WCAG e melhorias de design inclusivo, indicando ganhos rápidos versus melhorias de longo prazo."`
+**7. Accessibility and Inclusion Review:**
+`"Evaluate the journey of a customer with [ACCESSIBILITY NEED, e.g., visual impairment] using our e-commerce site. Detail the barriers encountered during product discovery and checkout. Recommend WCAG-compliant fixes and inclusive design improvements, indicating quick wins versus long-term improvements."`
 ```
 
 ## Best Practices
-**1. Fornecer Contexto Detalhado:** Sempre comece o prompt definindo o problema, o produto/serviço e a persona alvo. Quanto mais contexto (como dados de funil, estágios atuais da jornada, ou dor de negócio), mais rica será a saída da IA.
+**1. Provide Detailed Context:** Always begin the prompt by defining the problem, the product/service, and the target persona. The more context (such as funnel data, current journey stages, or business pain), the richer the AI's output.
 
-**2. Especificar o Formato de Saída:** Peça explicitamente o formato desejado (ex: "Entregue o resultado em uma tabela Markdown com 5 colunas", "Use uma curva de emoção de -5 a +5", "Conclua com um playbook de ações").
+**2. Specify the Output Format:** Explicitly ask for the desired format (e.g., "Deliver the result in a Markdown table with 5 columns", "Use an emotion curve from -5 to +5", "Conclude with an action playbook").
 
-**3. Usar Frameworks Conhecidos:** Integre frameworks de design e negócios (como **Jobs-to-Be-Done**, **Omnichannel**, ou **WCAG** para acessibilidade) para guiar a IA a um resultado mais estruturado e profissional.
+**3. Use Known Frameworks:** Integrate design and business frameworks (such as **Jobs-to-Be-Done**, **Omnichannel**, or **WCAG** for accessibility) to guide the AI toward a more structured and professional result.
 
-**4. Focar em Pontos de Dor Específicos:** Em vez de mapear a jornada inteira, use prompts para focar em estágios críticos (ex: "Pós-Compra", "Onboarding SaaS") ou problemas específicos (ex: "Taxa de abandono no checkout").
+**4. Focus on Specific Pain Points:** Instead of mapping the entire journey, use prompts to focus on critical stages (e.g., "Post-Purchase", "SaaS Onboarding") or specific problems (e.g., "Checkout abandonment rate").
 
-**5. Solicitar Ações Otimizadas:** Não peça apenas o mapa; peça sugestões de otimização, como "três maiores 'momentos da verdade'", "melhorias ranqueadas por impacto vs. esforço" ou "ideias de teste A/B".
+**5. Request Optimized Actions:** Do not ask only for the map; ask for optimization suggestions, such as "the three biggest 'moments of truth'", "improvements ranked by impact vs. effort", or "A/B test ideas".
 
 ## Use Cases
-**1. Design de Produto e UX:**
-*   **Identificação de Lacunas:** Revelar pontos de fricção e momentos de frustração que levam ao abandono ou *churn*.
-*   **Priorização de Recursos:** Usar a análise de "impacto vs. esforço" da IA para decidir quais melhorias de UX desenvolver primeiro.
+**1. Product Design and UX:**
+*   **Gap Identification:** Reveal friction points and moments of frustration that lead to abandonment or *churn*.
+*   **Feature Prioritization:** Use the AI's "impact vs. effort" analysis to decide which UX improvements to develop first.
 
-**2. Marketing e Vendas:**
-*   **Criação de Conteúdo:** Mapear os pensamentos e emoções do cliente em cada estágio para criar mensagens de marketing mais ressonantes e direcionadas.
-*   **Otimização de Funil:** Usar prompts orientados por dados para identificar os estágios de maior queda no funil de vendas e sugerir testes A/B.
+**2. Marketing and Sales:**
+*   **Content Creation:** Map the customer's thoughts and emotions at each stage to create more resonant and targeted marketing messages.
+*   **Funnel Optimization:** Use data-driven prompts to identify the highest-drop-off stages in the sales funnel and suggest A/B tests.
 
-**3. Estratégia de Negócios e Inovação:**
-*   **Benchmarking Competitivo:** Comparar a jornada do cliente com a de concorrentes para identificar vantagens estratégicas e oportunidades de "saltar à frente" na experiência do cliente (CX).
-*   **Ideação de Estado Futuro:** Criar visões de longo prazo (12-18 meses) para a experiência do cliente, incorporando novas tecnologias (IA, AR/VR) e eliminando dores atuais.
+**3. Business Strategy and Innovation:**
+*   **Competitive Benchmarking:** Compare the customer journey with that of competitors to identify strategic advantages and opportunities to "leapfrog" in customer experience (CX).
+*   **Future-State Ideation:** Create long-term visions (12-18 months) for the customer experience, incorporating new technologies (AI, AR/VR) and eliminating current pain points.
 
-**4. Suporte ao Cliente e Retenção:**
-*   **Desenho do Pós-Compra:** Criar o playbook ideal para os primeiros 90 dias após a compra, focando em ativação, suporte proativo e redução do risco de *churn*.
-*   **Revisão de Acessibilidade:** Avaliar a jornada sob a perspectiva de usuários com necessidades específicas (ex: deficiência visual) para garantir conformidade e inclusão.
+**4. Customer Support and Retention:**
+*   **Post-Purchase Design:** Create the ideal playbook for the first 90 days after purchase, focusing on activation, proactive support, and reducing *churn* risk.
+*   **Accessibility Review:** Evaluate the journey from the perspective of users with specific needs (e.g., visual impairment) to ensure compliance and inclusion.
 
 ## Pitfalls
-**1. Falta de Contexto Específico:** O erro mais comum é usar prompts genéricos. A IA não pode mapear uma jornada útil sem detalhes sobre o **produto**, a **persona** e o **problema de negócio** que se tenta resolver.
+**1. Lack of Specific Context:** The most common mistake is using generic prompts. The AI cannot map a useful journey without details about the **product**, the **persona**, and the **business problem** being solved.
 
-**2. Confundir o Mapa com a Realidade:** O mapa gerado pela IA é uma **hipótese estruturada**, não a verdade absoluta. É um erro usá-lo sem validação por meio de pesquisa real com usuários (entrevistas, dados analíticos).
+**2. Confusing the Map with Reality:** The map generated by the AI is a **structured hypothesis**, not the absolute truth. It is a mistake to use it without validation through real user research (interviews, analytics data).
 
-**3. Ignorar a Voz do Cliente (VoC):** Não incluir dados qualitativos (citações de entrevistas, reclamações de suporte) no prompt resulta em um mapa estéril e baseado em suposições genéricas.
+**3. Ignoring the Voice of the Customer (VoC):** Not including qualitative data (interview quotes, support complaints) in the prompt results in a sterile map based on generic assumptions.
 
-**4. Foco Excessivo em Estágios Positivos:** A IA pode tender a otimizar demais os "altos" emocionais. O valor real do mapeamento está em identificar e resolver os "baixos" (pontos de dor e fricção).
+**4. Excessive Focus on Positive Stages:** The AI may tend to over-optimize the emotional "highs". The real value of mapping lies in identifying and resolving the "lows" (pain points and friction).
 
-**5. Não Especificar o Formato:** Pedir apenas "Crie um mapa da jornada" sem definir a estrutura (tabela, lista, formato de saída) pode levar a uma resposta desorganizada e difícil de usar.
+**5. Not Specifying the Format:** Asking only "Create a journey map" without defining the structure (table, list, output format) can lead to a disorganized and hard-to-use response.
 
-**6. Não Pedir Ações:** Um mapa sem ações de otimização é apenas um documento descritivo. O erro é não solicitar explicitamente que a IA sugira intervenções e prioridades.
+**6. Not Asking for Actions:** A map without optimization actions is just a descriptive document. The mistake is not explicitly requesting that the AI suggest interventions and priorities.
 
 ## URL
 [https://medium.com/@slakhyani20/10-chatgpt-prompts-for-customer-journey-mapping-14c667b1b451](https://medium.com/@slakhyani20/10-chatgpt-prompts-for-customer-journey-mapping-14c667b1b451)

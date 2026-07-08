@@ -2,57 +2,57 @@
 
 ## Description
 
-O **Segment Anything Medical (MedSAM)** é um modelo de fundação (foundation model) pioneiro, projetado para a **segmentação universal de imagens médicas**. Ele foi desenvolvido para preencher a lacuna de generalização dos modelos de segmentação tradicionais, que são tipicamente específicos para uma modalidade ou doença. MedSAM é treinado em um dataset massivo de **1.570.263 pares de imagem-máscara**, cobrindo 10 modalidades de imagem e mais de 30 tipos de câncer. Sua proposta de valor única reside na sua capacidade de oferecer segmentação precisa e eficiente em um amplo espectro de tarefas, demonstrando **melhor precisão e robustez** do que modelos especialistas e superando o SAM original em cenários médicos, especialmente em alvos com limites fracos ou baixo contraste [1] [2].
+**Segment Anything Medical (MedSAM)** is a pioneering foundation model designed for **universal medical image segmentation**. It was developed to bridge the generalization gap of traditional segmentation models, which are typically specific to a single modality or disease. MedSAM is trained on a massive dataset of **1,570,263 image-mask pairs**, covering 10 imaging modalities and more than 30 cancer types. Its unique value proposition lies in its ability to deliver accurate and efficient segmentation across a broad spectrum of tasks, demonstrating **better accuracy and robustness** than specialist models and outperforming the original SAM in medical scenarios, especially on targets with weak boundaries or low contrast [1] [2].
 
 ## Statistics
 
-**Dataset de Treinamento:** 1.570.263 pares de imagem-máscara. **Diversidade de Dados:** 10 modalidades de imagem (CT, MRI, Endoscopia, etc.) e mais de 30 tipos de câncer. **Avaliação:** 86 tarefas de validação interna e 60 tarefas de validação externa, demonstrando robustez e generalização superiores [1]. **Desempenho:** Consistente em superar o SAM original e atingir desempenho igual ou superior a modelos especialistas [1].
+**Training Dataset:** 1,570,263 image-mask pairs. **Data Diversity:** 10 imaging modalities (CT, MRI, Endoscopy, etc.) and more than 30 cancer types. **Evaluation:** 86 internal validation tasks and 60 external validation tasks, demonstrating superior robustness and generalization [1]. **Performance:** Consistently outperforms the original SAM and achieves performance equal to or better than specialist models [1].
 
 ## Features
 
-**Segmentação Universal:** Capacidade de segmentar estruturas anatômicas, lesões e regiões patológicas em diversas modalidades de imagem (CT, MRI, Endoscopia, etc.). **Promptable Segmentation:** Utiliza *prompts* (pontos, caixas delimitadoras) para segmentação interativa, oferecendo um equilíbrio entre automação e personalização. **Arquitetura SAM Refinada:** Baseado na arquitetura SAM (codificador de imagem, codificador de prompt e decodificador de máscara), mas fine-tuned para o domínio médico. **MedSAM2 (Extensão):** Versão aprimorada para **segmentação em imagens médicas 3D e vídeos**, permitindo delinear estruturas em varreduras volumétricas com um único clique [3].
+**Universal Segmentation:** Ability to segment anatomical structures, lesions, and pathological regions across diverse imaging modalities (CT, MRI, Endoscopy, etc.). **Promptable Segmentation:** Uses *prompts* (points, bounding boxes) for interactive segmentation, offering a balance between automation and customization. **Refined SAM Architecture:** Based on the SAM architecture (image encoder, prompt encoder, and mask decoder), but fine-tuned for the medical domain. **MedSAM2 (Extension):** An enhanced version for **segmentation in 3D medical images and videos**, allowing structures to be delineated in volumetric scans with a single click [3].
 
 ## Use Cases
 
-**Diagnóstico e Planejamento de Tratamento:** Segmentação precisa de órgãos, tumores e lesões para planejamento de radioterapia e cirurgia. **Monitoramento de Doenças:** Rastreamento consistente da progressão de doenças, como o crescimento de tumores, em exames sequenciais. **Pesquisa Médica:** Análise de grandes conjuntos de dados de imagens médicas para acelerar a descoberta e validação de novos biomarcadores. **Aplicações Clínicas Diversas:** Segmentação de estruturas em CT, MRI, e inspeção visual de órgãos internos via Endoscopia [1].
+**Diagnosis and Treatment Planning:** Precise segmentation of organs, tumors, and lesions for radiotherapy and surgery planning. **Disease Monitoring:** Consistent tracking of disease progression, such as tumor growth, across sequential exams. **Medical Research:** Analysis of large medical imaging datasets to accelerate the discovery and validation of new biomarkers. **Diverse Clinical Applications:** Segmentation of structures in CT, MRI, and visual inspection of internal organs via Endoscopy [1].
 
 ## Integration
 
-A integração é realizada tipicamente via PyTorch, seguindo a estrutura do repositório oficial. O modelo requer o download de um *checkpoint* pré-treinado.
+Integration is typically performed via PyTorch, following the structure of the official repository. The model requires downloading a pre-trained *checkpoint*.
 
-**Instalação (MedSAM):**
+**Installation (MedSAM):**
 ```bash
 git clone https://github.com/bowang-lab/MedSAM
 cd MedSAM
 pip install -e .
-# Baixar o checkpoint do modelo (medsam_vit_b.pth)
+# Download the model checkpoint (medsam_vit_b.pth)
 ```
 
-**Exemplo de Uso (Conceitual - Python/PyTorch):**
+**Usage Example (Conceptual - Python/PyTorch):**
 ```python
 import torch
 from medsam import SamPredictor, build_medsam
 import numpy as np
 
-# 1. Carregar o modelo e o predictor
+# 1. Load the model and the predictor
 medsam_checkpoint = "path/to/medsam_vit_b.pth"
 model = build_medsam(checkpoint=medsam_checkpoint)
 predictor = SamPredictor(model)
 
-# 2. Carregar e processar a imagem (image_data como numpy array)
+# 2. Load and process the image (image_data as a numpy array)
 # predictor.set_image(image_data)
 
-# 3. Definir o prompt (exemplo: um ponto central)
+# 3. Define the prompt (example: a central point)
 # input_point = np.array([[500, 375]])
-# input_label = np.array([1]) # 1 para foreground
+# input_label = np.array([1]) # 1 for foreground
 
-# 4. Prever a máscara
+# 4. Predict the mask
 # masks, scores, logits = predictor.predict(
 #     point_coords=input_point,
 #     point_labels=input_label,
 #     multimask_output=True,
 # )
-# A máscara (masks[0]) é o resultado da segmentação
+# The mask (masks[0]) is the segmentation result
 ```
 
 ## URL

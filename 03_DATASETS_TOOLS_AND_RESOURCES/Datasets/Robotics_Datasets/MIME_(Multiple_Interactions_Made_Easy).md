@@ -1,30 +1,30 @@
 # MIME (Multiple Interactions Made Easy)
 
 ## Description
-O MIME (Multiple Interactions Made Easy) é um dos maiores e mais diversos datasets de demonstrações robóticas disponíveis. Ele foi criado para impulsionar a pesquisa em aprendizado por imitação (Imitation Learning) em robótica, especialmente em tarefas de manipulação complexas e multi-tarefas. O dataset contém demonstrações de 20 tarefas robóticas distintas, que variam desde ações simples como empurrar até tarefas mais difíceis como empilhar objetos domésticos e abrir garrafas. Cada ponto de dado inclui demonstrações humanas (HD) e demonstrações robóticas (RD) coletadas com um robô Baxter. As demonstrações humanas são capturadas com um Kinect montado na cabeça (RGBD), enquanto as demonstrações robóticas incluem dados de um Kinect montado no alto (RGBD), dois sensores cinéticos suaves montados nos punhos (RGBD) e dados de ângulo de junta do Baxter. O dataset foi introduzido em 2018.
+MIME (Multiple Interactions Made Easy) is one of the largest and most diverse robotic demonstration datasets available. It was created to advance research in Imitation Learning in robotics, especially for complex and multi-task manipulation tasks. The dataset contains demonstrations of 20 distinct robotic tasks, ranging from simple actions such as pushing to more difficult tasks such as stacking household objects and opening bottles. Each data point includes human demonstrations (HD) and robotic demonstrations (RD) collected with a Baxter robot. The human demonstrations are captured with a head-mounted Kinect (RGBD), while the robotic demonstrations include data from an overhead-mounted Kinect (RGBD), two soft kinetic sensors mounted on the wrists (RGBD), and joint-angle data from the Baxter. The dataset was introduced in 2018.
 
 ## Statistics
-- **Amostras:** 8260 demonstrações humano-robô.
-- **Tarefas:** 20 tarefas robóticas distintas.
-- **Versão:** Versão única, introduzida no artigo CoRL 2018.
-- **Tamanho:** O tamanho total do dataset não foi explicitamente fornecido na página oficial ou no artigo, mas a natureza dos dados (vídeos RGBD e dados cinestésicos) sugere um tamanho considerável (provavelmente na ordem de centenas de GB ou TB).
+- **Samples:** 8260 human-robot demonstrations.
+- **Tasks:** 20 distinct robotic tasks.
+- **Version:** Single version, introduced in the CoRL 2018 paper.
+- **Size:** The total size of the dataset was not explicitly provided on the official page or in the paper, but the nature of the data (RGBD videos and kinesthetic data) suggests a considerable size (likely on the order of hundreds of GB or TB).
 
 ## Features
-- **Diversidade de Tarefas:** Contém demonstrações para 20 tarefas robóticas diferentes, abrangendo uma ampla gama de manipulações.
-- **Demonstrações Humanas e Robóticas:** Inclui tanto demonstrações de humanos realizando as tarefas quanto demonstrações do robô Baxter.
-- **Dados Multimodais:** Cada ponto de dado é rico em informações, incluindo dados RGBD de múltiplas câmeras (cabeça humana, visão superior do robô, punhos do robô) e dados cinestésicos (ângulos de junta do robô Baxter).
-- **Foco em Aprendizado por Imitação Multi-tarefa:** Projetado para permitir o treinamento de políticas de imitação que podem generalizar para múltiplas tarefas.
+- **Task Diversity:** Contains demonstrations for 20 different robotic tasks, spanning a wide range of manipulations.
+- **Human and Robotic Demonstrations:** Includes both demonstrations of humans performing the tasks and demonstrations by the Baxter robot.
+- **Multimodal Data:** Each data point is rich in information, including RGBD data from multiple cameras (human head, robot overhead view, robot wrists) and kinesthetic data (Baxter robot joint angles).
+- **Focus on Multi-task Imitation Learning:** Designed to enable the training of imitation policies that can generalize across multiple tasks.
 
 ## Use Cases
-- **Aprendizado por Imitação Multi-tarefa:** Treinamento de agentes robóticos para realizar uma ampla variedade de tarefas a partir de demonstrações.
-- **Aprendizado de Representação Visual:** Uso dos dados RGBD para aprender representações visuais robustas para manipulação robótica.
-- **Previsão de Trajetória:** Avaliação de modelos que preveem trajetórias robóticas com base em demonstrações.
-- **Aprendizado de Habilidades Robóticas:** Desenvolvimento de políticas de controle para robôs como o Baxter.
+- **Multi-task Imitation Learning:** Training robotic agents to perform a wide variety of tasks from demonstrations.
+- **Visual Representation Learning:** Use of RGBD data to learn robust visual representations for robotic manipulation.
+- **Trajectory Prediction:** Evaluation of models that predict robotic trajectories based on demonstrations.
+- **Robotic Skill Learning:** Development of control policies for robots such as the Baxter.
 
 ## Integration
-O dataset pode ser baixado através de um link do Dropbox fornecido na página oficial do projeto. O download pode ser feito do dataset completo ou por tarefa individual.
-**Link de Download Principal:** `https://www.dropbox.com/scl/fo/cgvsmxayv6qqw1ynvxrfr/AFnncxm2YUHp86AI1mm0rSI?rlkey=iqeeazs9bfnx283zt4a3vg4cc&e=1&dl=0`
-**Instruções de Uso:** O dataset é tipicamente usado para treinar modelos de aprendizado por imitação. Os dados cinestésicos (ângulos de junta) e os dados visuais (RGBD) são usados para mapear observações para ações do robô. O artigo original ("Multiple Interactions Made Easy (MIME): Large Scale Demonstrations Data for Imitation") deve ser consultado para detalhes sobre a estrutura dos dados e métodos de processamento.
+The dataset can be downloaded via a Dropbox link provided on the official project page. The download can be done for the complete dataset or by individual task.
+**Main Download Link:** `https://www.dropbox.com/scl/fo/cgvsmxayv6qqw1ynvxrfr/AFnncxm2YUHp86AI1mm0rSI?rlkey=iqeeazs9bfnx283zt4a3vg4cc&e=1&dl=0`
+**Usage Instructions:** The dataset is typically used to train imitation learning models. The kinesthetic data (joint angles) and the visual data (RGBD) are used to map observations to robot actions. The original paper ("Multiple Interactions Made Easy (MIME): Large Scale Demonstrations Data for Imitation") should be consulted for details on the data structure and processing methods.
 
 ## URL
 [https://sites.google.com/view/mimedataset](https://sites.google.com/view/mimedataset)

@@ -1,76 +1,76 @@
 # Ophthalmology Prompts
 
 ## Description
-A Engenharia de Prompt em Oftalmologia refere-se à arte e ciência de formular entradas (prompts) para Modelos de Linguagem Grande (LLMs) com o objetivo de otimizar a precisão, relevância e utilidade das respostas no contexto da saúde ocular. Esta técnica é crucial para alavancar o potencial da IA no auxílio ao diagnóstico, na educação de pacientes e na otimização de fluxos de trabalho clínico. As melhores práticas envolvem o uso de instruções específicas, a definição de papéis (Role-Playing), a aplicação de técnicas de raciocínio passo a passo (Chain-of-Thought) e a garantia de que o contexto de domínio oftalmológico seja explicitamente fornecido. A pesquisa recente (2023-2025) demonstra que a engenharia de prompt pode aumentar significativamente a precisão dos LLMs em tarefas clínicas, como a triagem de doenças oculares, mas exige atenção rigorosa à confidencialidade dos dados e ao equilíbrio entre precisão e usabilidade.
+Prompt Engineering in Ophthalmology refers to the art and science of formulating inputs (prompts) for Large Language Models (LLMs) with the goal of optimizing the accuracy, relevance, and usefulness of responses in the context of eye health. This technique is crucial for leveraging the potential of AI to support diagnosis, patient education, and the optimization of clinical workflows. Best practices involve the use of specific instructions, role definition (Role-Playing), the application of step-by-step reasoning techniques (Chain-of-Thought), and ensuring that the ophthalmological domain context is explicitly provided. Recent research (2023-2025) demonstrates that prompt engineering can significantly increase the accuracy of LLMs in clinical tasks, such as eye disease triage, but it requires rigorous attention to data confidentiality and to the balance between accuracy and usability.
 
 ## Examples
 ```
-1. **Diagnóstico Diferencial com CoT e Role-Playing:**
+1. **Differential Diagnosis with CoT and Role-Playing:**
 ```
-Aja como um oftalmologista especialista em retina. Um paciente de 65 anos, diabético tipo 2, apresenta perda de visão central progressiva no olho direito. O exame de fundo de olho revela microaneurismas e hemorragias em chama.
-1. Liste 3 diagnósticos diferenciais mais prováveis.
-2. Para cada diagnóstico, descreva o raciocínio clínico (Chain-of-Thought) que leva a essa conclusão.
-3. Apresente o resultado em uma tabela com as colunas: Diagnóstico, Raciocínio, Próximo Passo Diagnóstico.
-```
-
-2. **Geração de Material Educativo com Especificadores:**
-```
-Crie um folheto informativo de 200 palavras sobre "Glaucoma de Ângulo Aberto" para um paciente com nível de escolaridade fundamental.
-1. Use linguagem simples e evite jargões médicos.
-2. Inclua uma seção sobre a importância da adesão ao tratamento.
-3. Apresente o texto final formatado em parágrafos curtos.
+Act as an ophthalmologist specializing in the retina. A 65-year-old patient with type 2 diabetes presents with progressive central vision loss in the right eye. The fundus exam reveals microaneurysms and flame-shaped hemorrhages.
+1. List the 3 most likely differential diagnoses.
+2. For each diagnosis, describe the clinical reasoning (Chain-of-Thought) that leads to that conclusion.
+3. Present the result in a table with the columns: Diagnosis, Reasoning, Next Diagnostic Step.
 ```
 
-3. **Prompt Iterativo para Coleta de Histórico (Powerful Prompt):**
+2. **Generation of Educational Material with Specifiers:**
 ```
-Você é um assistente virtual de triagem oftalmológica. Eu sou o paciente. Eu tenho dor e vermelhidão no olho esquerdo.
-Continue me fazendo perguntas sobre meus sintomas, histórico médico e fatores de risco (apenas uma pergunta por vez) até que você tenha informações suficientes para sugerir se devo procurar atendimento de emergência ou agendar uma consulta de rotina.
-```
-
-4. **Criação de Questões de Múltipla Escolha (Treinamento):**
-```
-Gere 5 questões de múltipla escolha de nível de residência médica sobre a fisiopatologia da Retinopatia Diabética Proliferativa.
-1. Cada questão deve ter 4 opções e apenas 1 correta.
-2. Inclua a resposta correta e uma breve justificativa para cada questão.
+Create a 200-word informational leaflet on "Open-Angle Glaucoma" for a patient with a primary-school education level.
+1. Use simple language and avoid medical jargon.
+2. Include a section on the importance of treatment adherence.
+3. Present the final text formatted in short paragraphs.
 ```
 
-5. **Simulação de Cenário Cirúrgico (Role-Playing Avançado):**
+3. **Iterative Prompt for History Taking (Powerful Prompt):**
 ```
-Aja como um cirurgião oftalmologista experiente. Descreva o passo a passo da técnica de facoemulsificação para catarata em um paciente com câmara anterior rasa.
-1. Destaque os 3 pontos críticos de atenção.
-2. Use termos técnicos apropriados.
+You are a virtual ophthalmology triage assistant. I am the patient. I have pain and redness in my left eye.
+Keep asking me questions about my symptoms, medical history, and risk factors (only one question at a time) until you have enough information to suggest whether I should seek emergency care or schedule a routine appointment.
 ```
 
-6. **Otimização de Protocolo Clínico (Feedback Loop):**
+4. **Creation of Multiple-Choice Questions (Training):**
 ```
-Aqui está o nosso protocolo atual para acompanhamento de pacientes pós-operatórios de transplante de córnea: [INSERIR PROTOCOLO AQUI].
-1. Analise o protocolo e sugira 3 melhorias para otimizar o fluxo de trabalho e a segurança do paciente.
-2. Com base nas suas sugestões, reescreva a seção "Frequência de Consultas" do protocolo.
+Generate 5 medical-residency-level multiple-choice questions on the pathophysiology of Proliferative Diabetic Retinopathy.
+1. Each question must have 4 options and only 1 correct answer.
+2. Include the correct answer and a brief justification for each question.
+```
+
+5. **Surgical Scenario Simulation (Advanced Role-Playing):**
+```
+Act as an experienced ophthalmic surgeon. Describe the step-by-step phacoemulsification technique for cataract surgery in a patient with a shallow anterior chamber.
+1. Highlight the 3 critical points requiring attention.
+2. Use appropriate technical terms.
+```
+
+6. **Clinical Protocol Optimization (Feedback Loop):**
+```
+Here is our current protocol for follow-up of post-operative corneal transplant patients: [INSERT PROTOCOL HERE].
+1. Analyze the protocol and suggest 3 improvements to optimize workflow and patient safety.
+2. Based on your suggestions, rewrite the "Appointment Frequency" section of the protocol.
 ```
 ```
 
 ## Best Practices
-**Instruções Específicas:** Fornecer instruções detalhadas e contextuais (ex: "Resuma a epidemiologia, fisiopatologia, diagnóstico e tratamento de X").
-**Uso de Especificadores:** Definir o formato e o nível de detalhe/complexidade (ex: "Forneça um resumo breve/detalhado", "Explique em nível de consultor", "Apresente em tabela/tópicos").
-**Priming (Preparação do LLM):** Definir o papel e o formato de entrada/saída esperado (ex: "Eu vou fornecer X; eu quero que você me retorne Y").
-**Prompts de Incerteza:** Incluir a instrução "Se você não tiver certeza da resposta, diga que não sabe" para reduzir a chance de alucinações.
-**Chain-of-Thought (CoT):** Encorajar o LLM a pensar passo a passo, simulando o raciocínio clínico para aumentar a precisão e a transparência.
-**Role-Playing (Simulação de Papel):** Instruir o LLM a assumir o papel de um especialista em oftalmologia (ex: "Aja como um especialista em retina experiente.").
-**Contexto Específico de Domínio:** Garantir que o prompt inclua terminologia médica, sintomas do paciente e critérios de diagnóstico relevantes.
+**Specific Instructions:** Provide detailed and contextual instructions (e.g., "Summarize the epidemiology, pathophysiology, diagnosis, and treatment of X").
+**Use of Specifiers:** Define the format and the level of detail/complexity (e.g., "Provide a brief/detailed summary", "Explain at a consultant level", "Present in a table/bullet points").
+**Priming (Preparing the LLM):** Define the role and the expected input/output format (e.g., "I will provide X; I want you to return Y to me").
+**Uncertainty Prompts:** Include the instruction "If you are not sure of the answer, say that you do not know" to reduce the chance of hallucinations.
+**Chain-of-Thought (CoT):** Encourage the LLM to think step by step, simulating clinical reasoning to increase accuracy and transparency.
+**Role-Playing:** Instruct the LLM to take on the role of an ophthalmology specialist (e.g., "Act as an experienced retina specialist.").
+**Domain-Specific Context:** Ensure that the prompt includes relevant medical terminology, patient symptoms, and diagnostic criteria.
 
 ## Use Cases
-**Assistência ao Diagnóstico:** Auxiliar na triagem e diagnóstico diferencial de condições oftalmológicas (ex: Doença do Olho Seco, retinopatia diabética).
-**Educação do Paciente:** Geração de materiais educativos claros e adaptados ao nível de compreensão do paciente.
-**Geração de Perguntas de Múltipla Escolha:** Criação de questões de alta qualidade para treinamento e avaliação de residentes e estudantes.
-**Otimização de Fluxos de Trabalho Clínico:** Gerenciamento da carga cognitiva associada a *checklists* e auxílio na identificação de erros médicos.
-**Análise de Notas Clínicas:** Identificação precisa de componentes do exame oftalmológico a partir de notas de progresso.
+**Diagnostic Assistance:** Support the triage and differential diagnosis of ophthalmological conditions (e.g., Dry Eye Disease, diabetic retinopathy).
+**Patient Education:** Generation of clear educational materials adapted to the patient's level of understanding.
+**Generation of Multiple-Choice Questions:** Creation of high-quality questions for the training and assessment of residents and students.
+**Optimization of Clinical Workflows:** Management of the cognitive load associated with *checklists* and support in identifying medical errors.
+**Analysis of Clinical Notes:** Accurate identification of ophthalmological exam components from progress notes.
 
 ## Pitfalls
-**Confidencialidade de Dados:** **NUNCA** compartilhar dados confidenciais, mesmo desidentificados, com LLMs online.
-**Viés de Memória:** O LLM pode ser influenciado por conversas anteriores na mesma sessão. Recomenda-se iniciar uma nova sessão para conversas não relacionadas.
-**Alucinações:** A precisão pode ser comprometida se o prompt não for de alta qualidade, levando a respostas incorretas ou inventadas.
-**Omissão de Raciocínio:** Prompts que pedem ao LLM para omitir o raciocínio podem resultar em saídas de qualidade inferior.
-**Trade-off entre Precisão e Satisfação do Usuário:** Prompts mais complexos (como CoT) podem aumentar a precisão, mas também o tempo de resposta, afetando a satisfação do usuário.
+**Data Confidentiality:** **NEVER** share confidential data, even de-identified data, with online LLMs.
+**Memory Bias:** The LLM may be influenced by previous conversations within the same session. It is recommended to start a new session for unrelated conversations.
+**Hallucinations:** Accuracy can be compromised if the prompt is not high quality, leading to incorrect or fabricated responses.
+**Omission of Reasoning:** Prompts that ask the LLM to omit reasoning can result in lower-quality outputs.
+**Trade-off Between Accuracy and User Satisfaction:** More complex prompts (such as CoT) can increase accuracy but also response time, affecting user satisfaction.
 
 ## URL
 [https://www.nature.com/articles/s41433-023-02772-w](https://www.nature.com/articles/s41433-023-02772-w)

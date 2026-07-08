@@ -1,59 +1,59 @@
 # RoboNet
 
 ## Description
-O RoboNet é um banco de dados aberto e diversificado para o compartilhamento de experiências robóticas, focado em aprendizado em larga escala e multi-robô. Ele foi projetado para permitir que modelos de alta capacidade, como redes neurais profundas, generalizem de forma eficaz para uma ampla gama de ambientes do mundo real. O dataset é composto por interações robô-objeto capturadas de múltiplos pontos de vista e plataformas robóticas. O objetivo principal é pré-treinar modelos de aprendizado por reforço em um conjunto de dados diversificado e, em seguida, transferir o conhecimento para novos robôs e tarefas com muito menos dados específicos.
+RoboNet is an open and diverse database for sharing robotic experiences, focused on large-scale, multi-robot learning. It is designed to enable high-capacity models, such as deep neural networks, to generalize effectively across a wide range of real-world environments. The dataset consists of robot-object interactions captured from multiple viewpoints and robotic platforms. The main goal is to pre-train reinforcement learning models on a diverse dataset and then transfer the knowledge to new robots and tasks with far less task-specific data.
 
 ## Statistics
-- **Tamanho do Dataset (Completo):** Download de 36.20 GiB, tamanho em disco de 144.90 GiB (configuração 128x128).
-- **Amostras (Trajetórias):** Aproximadamente 162.417 trajetórias de treinamento (na versão completa).
-- **Quadros de Vídeo:** Mais de 15 milhões de quadros de vídeo de interações robô-objeto.
-- **Plataformas Robóticas:** 7 plataformas robóticas diferentes.
-- **Pontos de Vista:** 113 pontos de vista de câmera únicos.
-- **Versão (TFDS):** `4.0.1` (padrão).
-- **Resoluções Disponíveis (TFDS):** 64x64 e 128x128.
+- **Dataset Size (Full):** 36.20 GiB download, 144.90 GiB on disk (128x128 configuration).
+- **Samples (Trajectories):** Approximately 162,417 training trajectories (in the full version).
+- **Video Frames:** More than 15 million video frames of robot-object interactions.
+- **Robotic Platforms:** 7 different robotic platforms.
+- **Viewpoints:** 113 unique camera viewpoints.
+- **Version (TFDS):** `4.0.1` (default).
+- **Available Resolutions (TFDS):** 64x64 and 128x128.
 
 ## Features
-- **Aprendizado Multi-Robô em Larga Escala:** O dataset permite o treinamento de modelos generalizáveis para manipulação robótica baseada em visão em diversas plataformas.
-- **Diversidade de Plataformas:** Inclui dados de 7 plataformas robóticas diferentes, desde braços industriais Kuka até braços de baixo custo WidowX.
-- **Múltiplos Pontos de Vista:** As interações são capturadas de 113 pontos de vista de câmera únicos, aumentando a robustez visual dos modelos treinados.
-- **Dados de Ação e Estado:** Além dos quadros de vídeo, o dataset inclui ações (deltas de posição e rotação do efetor final, mais a junta da garra) e estados (espaço de ação de controle cartesiano do efetor final e junta da garra).
-- **Transferência de Conhecimento:** Demonstra a capacidade de pré-treinar em RoboNet e ajustar (fine-tuning) em dados de um robô específico (como Franka ou Kuka) para superar o treinamento específico do robô com 4x a 20x mais dados.
+- **Large-Scale Multi-Robot Learning:** The dataset enables training of generalizable models for vision-based robotic manipulation across multiple platforms.
+- **Platform Diversity:** Includes data from 7 different robotic platforms, ranging from Kuka industrial arms to low-cost WidowX arms.
+- **Multiple Viewpoints:** Interactions are captured from 113 unique camera viewpoints, increasing the visual robustness of the trained models.
+- **Action and State Data:** In addition to video frames, the dataset includes actions (end-effector position and rotation deltas, plus the gripper joint) and states (Cartesian control action space of the end-effector and gripper joint).
+- **Knowledge Transfer:** Demonstrates the ability to pre-train on RoboNet and fine-tune on data from a specific robot (such as Franka or Kuka) to outperform robot-specific training with 4x to 20x more data.
 
 ## Use Cases
-- **Pré-treinamento para Aprendizado por Reforço (RL):** Usado para pré-treinar modelos de RL em um conjunto de dados diversificado antes de ajustar para tarefas específicas.
-- **Previsão de Vídeo:** Treinamento de modelos de previsão de vídeo para antecipar interações robóticas.
-- **Modelos Inversos Supervisionados:** Treinamento de modelos para inferir ações a partir de observações visuais.
-- **Generalização de Habilidades:** Estudo da capacidade de generalizar controladores robóticos para novos objetos, tarefas, cenas, pontos de vista de câmera, garras ou até mesmo robôs inteiramente novos.
-- **Pesquisa em Visão Computacional para Robótica:** Fornece um benchmark para o desenvolvimento de algoritmos de visão para manipulação robótica.
+- **Pre-training for Reinforcement Learning (RL):** Used to pre-train RL models on a diverse dataset before fine-tuning for specific tasks.
+- **Video Prediction:** Training video prediction models to anticipate robotic interactions.
+- **Supervised Inverse Models:** Training models to infer actions from visual observations.
+- **Skill Generalization:** Studying the ability to generalize robotic controllers to new objects, tasks, scenes, camera viewpoints, grippers, or even entirely new robots.
+- **Computer Vision Research for Robotics:** Provides a benchmark for developing vision algorithms for robotic manipulation.
 
 ## Integration
-O dataset RoboNet pode ser acessado e utilizado de várias maneiras:
+The RoboNet dataset can be accessed and used in several ways:
 
-1.  **TensorFlow Datasets (TFDS):** A maneira mais fácil de usar o dataset, especialmente para modelos em TensorFlow.
-    *   **Instalação:** `pip install tensorflow-datasets`
-    *   **Uso:** O dataset pode ser carregado diretamente no código Python:
+1.  **TensorFlow Datasets (TFDS):** The easiest way to use the dataset, especially for models in TensorFlow.
+    *   **Installation:** `pip install tensorflow-datasets`
+    *   **Usage:** The dataset can be loaded directly in Python code:
         ```python
         import tensorflow_datasets as tfds
         ds = tfds.load('robonet/robonet_128', split='train', shuffle_files=True)
         ```
-    *   **Configurações:** Estão disponíveis diferentes configurações (e.g., `robonet_sample_64`, `robonet_128`) que variam em tamanho e resolução.
+    *   **Configurations:** Different configurations are available (e.g., `robonet_sample_64`, `robonet_128`) that vary in size and resolution.
 
-2.  **Download Direto (HDF5):** O dataset completo (36 GB) ou uma amostra (~100 MB) pode ser baixado diretamente usando a ferramenta `gdown` e descompactado.
-    *   **Instalação:** `pip install gdown`
-    *   **Download Completo (36 GB):**
+2.  **Direct Download (HDF5):** The full dataset (36 GB) or a sample (~100 MB) can be downloaded directly using the `gdown` tool and extracted.
+    *   **Installation:** `pip install gdown`
+    *   **Full Download (36 GB):**
         ```bash
         gdown https://drive.google.com/a/andrew.cmu.edu/uc?id=1BkqHzfRkfzgzCfc73NbNnPMK_rg3i1n9&export=download
         tar -xzvf robonet_v3.tar.gz
         ```
-    *   **Download Amostra (~100 MB):**
+    *   **Sample Download (~100 MB):**
         ```bash
         gdown https://drive.google.com/uc?id=1YX2TgT8IKSn9V4wGCwdzbRnS53yicV2P&export=download
         tar -xvzf robonet_sampler.tar.gz
         ```
 
-3.  **Código-Fonte e Utilitários:** O repositório oficial do GitHub fornece código para carregar, manipular e treinar modelos (como modelos inversos supervisionados e modelos de previsão de vídeo) no dataset.
-    *   **Repositório:** `git clone https://github.com/SudeepDasari/RoboNet.git`
-    *   **Instalação:** `pip install -r requirements.txt` e `python setup.py develop`
+3.  **Source Code and Utilities:** The official GitHub repository provides code to load, manipulate, and train models (such as supervised inverse models and video prediction models) on the dataset.
+    *   **Repository:** `git clone https://github.com/SudeepDasari/RoboNet.git`
+    *   **Installation:** `pip install -r requirements.txt` and `python setup.py develop`
 
 ## URL
 [https://www.robonet.wiki/](https://www.robonet.wiki/)

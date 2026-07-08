@@ -2,25 +2,25 @@
 
 ## Description
 
-O **DeepCGM (Deep learning Crop Growth Model)** é um modelo de crescimento de culturas baseado em aprendizado profundo que incorpora restrições guiadas por conhecimento para garantir simulações fisicamente plausíveis. Ele aborda as limitações dos modelos tradicionais baseados em processos (como o ORYZA2000), que sofrem com a simplificação e a dificuldade na estimação de parâmetros, e dos modelos de aprendizado de máquina clássicos, que são criticados por serem "caixas-pretas" e exigirem grandes volumes de dados. O DeepCGM utiliza uma arquitetura de conservação de massa e restrições fisiológicas da cultura para operar com dados esparsos de séries temporais.
+**DeepCGM (Deep learning Crop Growth Model)** is a deep-learning-based crop growth model that incorporates knowledge-guided constraints to ensure physically plausible simulations. It addresses the limitations of traditional process-based models (such as ORYZA2000), which suffer from oversimplification and difficulty in parameter estimation, and of classical machine learning models, which are criticized for being "black boxes" and requiring large volumes of data. DeepCGM uses a mass-conservation architecture and crop physiological constraints to operate with sparse time-series data.
 
 ## Statistics
 
-**Melhoria na Precisão:** Supera o modelo tradicional baseado em processos ORYZA2000, com a precisão geral (erro quadrático médio normalizado ponderado) em todas as variáveis melhorando em **8,3% (2019)** e **16,9% (2018)**. **Citações:** O artigo associado, "Knowledge-guided machine learning with multivariate sparse data for crop growth modelling" (J. Han et al., 2025), já possui **2 citações** (em 2025), indicando relevância recente na comunidade científica. **Publicação:** O trabalho foi publicado na revista *Field Crops Research* em 2025.
+**Accuracy Improvement:** Outperforms the traditional process-based ORYZA2000 model, with overall accuracy (weighted normalized root mean square error) across all variables improving by **8.3% (2019)** and **16.9% (2018)**. **Citations:** The associated paper, "Knowledge-guided machine learning with multivariate sparse data for crop growth modelling" (J. Han et al., 2025), already has **2 citations** (in 2025), indicating recent relevance in the scientific community. **Publication:** The work was published in the journal *Field Crops Research* in 2025.
 
 ## Features
 
-**Arquitetura de Conservação de Massa:** Adere aos princípios de crescimento da cultura, como a conservação de massa, para garantir previsões fisicamente realistas. **Restrições Guiadas por Conhecimento:** Inclui restrições de fisiologia da cultura e convergência do modelo, permitindo previsões precisas mesmo com dados esparsos. **Previsão Multivariável:** Simula múltiplas variáveis de crescimento da cultura (por exemplo, biomassa, área foliar) em uma única estrutura. **Código Aberto:** O código está disponível no GitHub, facilitando a pesquisa e a implementação.
+**Mass-Conservation Architecture:** Adheres to crop growth principles, such as mass conservation, to ensure physically realistic predictions. **Knowledge-Guided Constraints:** Includes crop physiology and model convergence constraints, enabling accurate predictions even with sparse data. **Multivariable Prediction:** Simulates multiple crop growth variables (e.g., biomass, leaf area) within a single framework. **Open Source:** The code is available on GitHub, facilitating research and implementation.
 
 ## Use Cases
 
-**Simulação de Crescimento de Culturas:** Simulação precisa e fisicamente plausível de variáveis de crescimento como Índice de Área Foliar (PAI), biomassa de órgãos individuais (folha, caule, grão) e biomassa total acima do solo (WAGT). **Modelagem com Dados Escassos:** Ideal para cenários agrícolas onde a coleta de dados de séries temporais é esparsa ou incompleta. **Substituição de Modelos Processuais:** Serve como uma alternativa mais precisa e robusta aos modelos de crescimento de culturas baseados em processos tradicionais, como o ORYZA2000.
+**Crop Growth Simulation:** Accurate and physically plausible simulation of growth variables such as Plant Area Index (PAI), individual organ biomass (leaf, stem, grain), and total aboveground biomass (WAGT). **Modeling with Sparse Data:** Ideal for agricultural scenarios where time-series data collection is sparse or incomplete. **Replacement of Process-Based Models:** Serves as a more accurate and robust alternative to traditional process-based crop growth models, such as ORYZA2000.
 
 ## Integration
 
-O modelo é implementado em Python e pode ser treinado usando o script `train.py` no repositório do GitHub. A instalação é feita via `conda` e `pip` a partir do arquivo `requirements.txt`.
+The model is implemented in Python and can be trained using the `train.py` script in the GitHub repository. Installation is done via `conda` and `pip` from the `requirements.txt` file.
 
-**Exemplo de Treinamento:**
+**Training Example:**
 ```shell
 git clone https://github.com/WUR-AI/DeepCGM.git
 cd DeepCGM
@@ -29,7 +29,7 @@ conda activate DeepCGM
 pip install -r ./requirements.txt
 python train.py --model DeepCGM --target spa --input_mask 1 --convergence_loss 1 --tra_year 2018
 ```
-O script permite especificar o tipo de modelo (`NaiveLSTM`, `MCLSTM`, `DeepCGM`), o rótulo de treinamento (`spa` para dados esparsos), e habilitar o uso de máscara de entrada e a perda de convergência.
+The script allows specifying the model type (`NaiveLSTM`, `MCLSTM`, `DeepCGM`), the training label (`spa` for sparse data), and enabling the use of the input mask and convergence loss.
 
 ## URL
 

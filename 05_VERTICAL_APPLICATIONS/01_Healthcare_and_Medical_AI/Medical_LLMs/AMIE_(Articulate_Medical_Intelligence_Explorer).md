@@ -2,42 +2,42 @@
 
 ## Description
 
-AMIE (Articulate Medical Intelligence Explorer) é um Grande Modelo de Linguagem (LLM) otimizado especificamente para o raciocínio diagnóstico clínico. Foi desenvolvido para gerar um Diagnóstico Diferencial (DDx) preciso, tanto de forma autônoma quanto como auxílio a clínicos. O modelo foi ajustado (fine-tuned) a partir do PaLM 2 (versão grande) usando uma mistura de tarefas médicas, incluindo resposta a perguntas, geração de diálogos clínicos e sumarização de notas de Registros Eletrônicos de Saúde (EHR). Sua otimização foca em contextos longos para aprimorar a capacidade de raciocínio de longo alcance e a compreensão contextual, essenciais para a complexidade dos casos médicos. O objetivo principal é melhorar a precisão diagnóstica em casos desafiadores e ampliar o acesso a expertise especializada.
+AMIE (Articulate Medical Intelligence Explorer) is a Large Language Model (LLM) optimized specifically for clinical diagnostic reasoning. It was developed to generate an accurate Differential Diagnosis (DDx), both autonomously and as an aid to clinicians. The model was fine-tuned from PaLM 2 (large version) using a mixture of medical tasks, including question answering, clinical dialogue generation, and summarization of Electronic Health Record (EHR) notes. Its optimization focuses on long contexts to enhance long-range reasoning capabilities and contextual understanding, which are essential for the complexity of medical cases. The primary goal is to improve diagnostic accuracy in challenging cases and to broaden access to specialized expertise.
 
 ## Statistics
 
-**Precisão Top-10 (Standalone):** 59,1% (vs. 33,6% para clínicos não assistidos; P=0,04). **Precisão Top-1:** 29%. **Assistência Clínica:** A pontuação de qualidade do DDx foi maior para clínicos assistidos por AMIE (precisão top-10 de 51,7%) em comparação com clínicos sem assistência (36,1%) e com busca tradicional (44,4%; P=0,03). **Base:** PaLM 2 (versão grande). **Citação:** McDuff et al. (2025). Towards accurate differential diagnosis with large language models. Nature. [1]
+**Top-10 Accuracy (Standalone):** 59.1% (vs. 33.6% for unassisted clinicians; P=0.04). **Top-1 Accuracy:** 29%. **Clinical Assistance:** The DDx quality score was higher for clinicians assisted by AMIE (top-10 accuracy of 51.7%) compared to clinicians without assistance (36.1%) and with traditional search (44.4%; P=0.03). **Base:** PaLM 2 (large version). **Citation:** McDuff et al. (2025). Towards accurate differential diagnosis with large language models. Nature. [1]
 
 ## Features
 
-Otimização para Raciocínio Clínico: Ajustado com tarefas médicas específicas (perguntas, diálogos, sumarização de EHR) para melhorar o raciocínio diagnóstico. Geração de DDx: Capacidade de gerar listas de Diagnóstico Diferencial (DDx) abrangentes e precisas. Desempenho Superior: Supera clínicos não assistidos e ferramentas de busca tradicionais na precisão do DDx. Assistência Clínica: Integrado em interfaces interativas para auxiliar médicos na formulação do DDx. Uso de Contexto Longo: Treinado para lidar com longos históricos clínicos e informações contextuais.
+Optimization for Clinical Reasoning: Fine-tuned with specific medical tasks (questions, dialogues, EHR summarization) to improve diagnostic reasoning. DDx Generation: Ability to generate comprehensive and accurate Differential Diagnosis (DDx) lists. Superior Performance: Outperforms unassisted clinicians and traditional search tools in DDx accuracy. Clinical Assistance: Integrated into interactive interfaces to assist physicians in formulating the DDx. Long-Context Use: Trained to handle long clinical histories and contextual information.
 
 ## Use Cases
 
-**Suporte à Decisão Clínica:** Auxiliar médicos na formulação de Diagnósticos Diferenciais (DDx) para casos complexos e desafiadores. **Educação Médica:** Treinamento de estudantes e residentes, fornecendo raciocínio diagnóstico estruturado. **Triagem e Consulta Remota:** Geração de hipóteses diagnósticas iniciais em ambientes de telemedicina ou triagem de emergência. **Pesquisa:** Avaliação e comparação de diferentes abordagens de raciocínio clínico.
+**Clinical Decision Support:** Assist physicians in formulating Differential Diagnoses (DDx) for complex and challenging cases. **Medical Education:** Training students and residents by providing structured diagnostic reasoning. **Triage and Remote Consultation:** Generation of initial diagnostic hypotheses in telemedicine settings or emergency triage. **Research:** Evaluation and comparison of different clinical reasoning approaches.
 
 ## Integration
 
-A técnica de prompt mais eficaz para o AMIE e LLMs similares é o **Prompt de Raciocínio Clínico Estruturado** (Structured Clinical Reasoning Prompt), que imita o processo de pensamento de um médico.
+The most effective prompting technique for AMIE and similar LLMs is the **Structured Clinical Reasoning Prompt**, which mimics a physician's thought process.
 
-**Exemplo de Prompt (Sintoma-para-Diagnóstico):**
+**Example Prompt (Symptom-to-Diagnosis):**
 
 ```
-Você é um especialista em diagnóstico médico. Sua tarefa é analisar o histórico do paciente e fornecer um Diagnóstico Diferencial (DDx) detalhado, seguido pelo diagnóstico mais provável.
+You are a medical diagnosis specialist. Your task is to analyze the patient's history and provide a detailed Differential Diagnosis (DDx), followed by the most likely diagnosis.
 
-**Passos de Raciocínio:**
-1. **Coleta de Dados:** Liste os sintomas, histórico médico relevante e achados de exames (se houver).
-2. **Análise de Padrões:** Identifique padrões e correlacione os achados com possíveis categorias de doenças.
-3. **DDx:** Gere uma lista de 3 a 5 diagnósticos diferenciais plausíveis, justificando brevemente cada um.
-4. **Diagnóstico Mais Provável:** Indique o diagnóstico mais provável e a justificativa para sua escolha.
+**Reasoning Steps:**
+1. **Data Collection:** List the symptoms, relevant medical history, and examination findings (if any).
+2. **Pattern Analysis:** Identify patterns and correlate the findings with possible disease categories.
+3. **DDx:** Generate a list of 3 to 5 plausible differential diagnoses, briefly justifying each one.
+4. **Most Likely Diagnosis:** Indicate the most likely diagnosis and the rationale for your choice.
 
-**Histórico do Paciente:**
-Paciente: Masculino, 50 anos.
-Sintomas: Fadiga, perda de peso inexplicada (5kg em 3 meses), micção frequente (poliúria) e sede excessiva (polidipsia).
-Histórico Médico: Sem histórico relevante, exceto hipertensão controlada.
+**Patient History:**
+Patient: Male, 50 years old.
+Symptoms: Fatigue, unexplained weight loss (5 kg in 3 months), frequent urination (polyuria), and excessive thirst (polydipsia).
+Medical History: No relevant history, except for controlled hypertension.
 ```
 
-**Guia de Integração:** O modelo AMIE foi integrado em uma interface interativa para medir seu impacto como assistente clínico, sugerindo que a integração ideal é via API em sistemas de Suporte à Decisão Clínica (CDSS) ou EHRs, utilizando prompts de múltiplas etapas (como CoT) para garantir a transparência do raciocínio.
+**Integration Guide:** The AMIE model was integrated into an interactive interface to measure its impact as a clinical assistant, suggesting that the ideal integration is via API in Clinical Decision Support Systems (CDSS) or EHRs, using multi-step prompts (such as CoT) to ensure transparency of reasoning.
 
 ## URL
 

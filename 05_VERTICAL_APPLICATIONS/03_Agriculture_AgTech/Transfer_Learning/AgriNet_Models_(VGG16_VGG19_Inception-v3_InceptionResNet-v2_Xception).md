@@ -2,56 +2,56 @@
 
 ## Description
 
-AgriNet é um conjunto de modelos pré-treinados em arquiteturas ImageNet (VGG16, VGG19, Inception-v3, InceptionResNet-v2 e Xception) que foram ajustados e treinados no conjunto de dados AgriNet. O AgriNet dataset é uma coleção massiva de 160.000 imagens agrícolas de mais de 19 localizações geográficas, abrangendo mais de 423 classes de espécies e doenças de plantas, pragas e ervas daninhas. O objetivo principal é fornecer modelos específicos de domínio para superar a limitação de dados e a ausência de modelos pré-treinados específicos para plantas, que são desafios comuns na automação agrícola. O trabalho demonstra a superioridade dos modelos AgriNet em comparação com os modelos base ImageNet em tarefas agrícolas.
+AgriNet is a set of models pre-trained on ImageNet architectures (VGG16, VGG19, Inception-v3, InceptionResNet-v2, and Xception) that were fine-tuned and trained on the AgriNet dataset. The AgriNet dataset is a massive collection of 160,000 agricultural images from more than 19 geographic locations, covering over 423 classes of plant species and diseases, pests, and weeds. The main goal is to provide domain-specific models to overcome the limitation of data and the absence of plant-specific pre-trained models, which are common challenges in agricultural automation. The work demonstrates the superiority of AgriNet models compared to the base ImageNet models on agricultural tasks.
 
 ## Statistics
 
-- **Precisão de Classificação:** AgriNet-VGG19 alcançou a maior precisão de 94% e o maior F1-score de 92% na classificação das 423 classes.
-- **Precisão Mínima:** Todos os modelos AgriNet tiveram uma precisão mínima de 87% (Inception-v3).
-- **Dataset:** AgriNet dataset com 160.000 imagens agrícolas e 423 classes.
-- **Citações:** O artigo original (arXiv:2207.03881) foi citado 48 vezes (em 2022, o número atual pode ser maior).
-- **Publicação:** Aceito pela Frontiers in Plant Science.
+- **Classification Accuracy:** AgriNet-VGG19 achieved the highest accuracy of 94% and the highest F1-score of 92% in classifying the 423 classes.
+- **Minimum Accuracy:** All AgriNet models had a minimum accuracy of 87% (Inception-v3).
+- **Dataset:** AgriNet dataset with 160,000 agricultural images and 423 classes.
+- **Citations:** The original paper (arXiv:2207.03881) was cited 48 times (in 2022; the current number may be higher).
+- **Publication:** Accepted by Frontiers in Plant Science.
 
 ## Features
 
-- **Modelos Pré-treinados Específicos de Domínio:** Conjunto de modelos ajustados para o domínio agrícola (AgriNet-VGG16, AgriNet-VGG19, etc.).
-- **Dataset Abrangente:** Utiliza o AgriNet dataset com 160k imagens e 423 classes.
-- **Transfer Learning:** Aplica o conceito de Transfer Learning para acelerar o treinamento e melhorar a precisão em tarefas de classificação agrícola.
-- **Ampla Cobertura de Classes:** Classificação de 423 classes de espécies de plantas, doenças, pragas e ervas daninhas.
+- **Domain-Specific Pre-trained Models:** Set of models fine-tuned for the agricultural domain (AgriNet-VGG16, AgriNet-VGG19, etc.).
+- **Comprehensive Dataset:** Uses the AgriNet dataset with 160k images and 423 classes.
+- **Transfer Learning:** Applies the concept of Transfer Learning to accelerate training and improve accuracy on agricultural classification tasks.
+- **Broad Class Coverage:** Classification of 423 classes of plant species, diseases, pests, and weeds.
 
 ## Use Cases
 
-- **Detecção de Doenças de Plantas:** Identificação precisa de várias doenças em diferentes culturas.
-- **Classificação de Espécies de Plantas:** Diferenciação de espécies de plantas em ambientes agrícolas.
-- **Detecção de Pragas e Ervas Daninhas:** Identificação de pragas e ervas daninhas para manejo de culturas.
-- **Automação Agrícola:** Fornecimento de modelos de visão computacional específicos de domínio para sistemas automatizados de monitoramento e diagnóstico.
+- **Plant Disease Detection:** Accurate identification of various diseases across different crops.
+- **Plant Species Classification:** Differentiation of plant species in agricultural environments.
+- **Pest and Weed Detection:** Identification of pests and weeds for crop management.
+- **Agricultural Automation:** Provision of domain-specific computer vision models for automated monitoring and diagnosis systems.
 
 ## Integration
 
 ```python
-# Exemplo de Integração Simulada para AgriNet (Python/PyTorch-like)
+# Example of Simulated Integration for AgriNet (Python/PyTorch-like)
 import torch
 import torch.nn as nn
 from torchvision import models
 from PIL import Image
 import torchvision.transforms as transforms
 
-# 1. Definição do Modelo AgriNet (Simulação de Fine-tuning)
+# 1. AgriNet Model Definition (Fine-tuning Simulation)
 def load_agri_net_model(num_classes=423, model_name='vgg19'):
     if model_name == 'vgg19':
         model = models.vgg19(weights=models.VGG19_Weights.IMAGENET1K_V1)
-        # Substituir a camada final para o número de classes do AgriNet
+        # Replace the final layer for the number of AgriNet classes
         num_ftrs = model.classifier[6].in_features
         model.classifier[6] = nn.Linear(num_ftrs, num_classes)
-    # ... (outras arquiteturas como resnet50)
+    # ... (other architectures such as resnet50)
     
-    # Na prática, você carregaria os pesos específicos do AgriNet aqui:
+    # In practice, you would load the AgriNet-specific weights here:
     # model.load_state_dict(torch.load('agri_net_vgg19_weights.pth'))
     
     model.eval()
     return model
 
-# 2. Pré-processamento da Imagem
+# 2. Image Preprocessing
 preprocess = transforms.Compose([
     transforms.Resize(256),
     transforms.CenterCrop(224),
@@ -59,7 +59,7 @@ preprocess = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
 
-# 3. Função de Inferência (Simulada)
+# 3. Inference Function (Simulated)
 def predict_plant_disease(image_path, model, class_names):
     img = Image.open(image_path).convert('RGB')
     img_tensor = preprocess(img).unsqueeze(0)
@@ -69,12 +69,12 @@ def predict_plant_disease(image_path, model, class_names):
     return class_names[predicted_idx.item()]
 
 if __name__ == '__main__':
-    simulated_classes = [f"Classe_{i}" for i in range(423)]
+    simulated_classes = [f"Class_{i}" for i in range(423)]
     agri_net_model = load_agri_net_model(num_classes=len(simulated_classes), model_name='vgg19')
-    print(f"Modelo AgriNet ({agri_net_model.__class__.__name__}) carregado com sucesso.")
-    # Para executar a predição, é necessário um arquivo de imagem de planta.
+    print(f"AgriNet Model ({agri_net_model.__class__.__name__}) loaded successfully.")
+    # To run the prediction, a plant image file is required.
 ```
-**Nota:** Este é um exemplo conceitual. A implementação real requer os pesos do modelo e a lista de classes exata, que devem ser obtidos no repositório oficial do artigo.
+**Note:** This is a conceptual example. The actual implementation requires the model weights and the exact list of classes, which must be obtained from the paper's official repository.
 
 ## URL
 

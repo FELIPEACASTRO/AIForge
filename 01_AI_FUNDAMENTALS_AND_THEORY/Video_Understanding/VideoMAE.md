@@ -2,23 +2,23 @@
 
 ## Description
 
-VideoMAE (Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training) é um framework de aprendizado auto-supervisionado que estende o conceito de Masked Autoencoders (MAE) para o domínio de vídeo. Sua proposta de valor única é demonstrar que MAEs são aprendizes eficientes em dados para pré-treinamento de vídeo, utilizando uma taxa de mascaramento extremamente alta (90%-95%) e uma estratégia de mascaramento de tubo (tube masking) para forçar o modelo a aprender a coerência espaço-temporal, superando a redundância inerente aos vídeos.
+VideoMAE (Masked Autoencoders are Data-Efficient Learners for Self-Supervised Video Pre-Training) is a self-supervised learning framework that extends the concept of Masked Autoencoders (MAE) to the video domain. Its unique value proposition is to demonstrate that MAEs are data-efficient learners for video pre-training, using an extremely high masking ratio (90%-95%) and a tube masking strategy to force the model to learn spatiotemporal coherence, overcoming the redundancy inherent in videos.
 
 ## Statistics
 
-O modelo base (VideoMAE-Base) atinge cerca de **80.9%** de precisão Top-1 e **94.7%** de precisão Top-5 no conjunto de testes Kinetics-400 (após fine-tuning). Versões mais recentes (VideoMAE V2 Huge) alcançam até **86.6%** de precisão Top-1 e **97.1%** de precisão Top-5 no Kinetics-400.
+The base model (VideoMAE-Base) reaches about **80.9%** Top-1 accuracy and **94.7%** Top-5 accuracy on the Kinetics-400 test set (after fine-tuning). More recent versions (VideoMAE V2 Huge) achieve up to **86.6%** Top-1 accuracy and **97.1%** Top-5 accuracy on Kinetics-400.
 
 ## Features
 
-Estratégia de Mascaramento de Tubo (Tube Masking); Alta Taxa de Mascaramento (90%-95%); Arquitetura de Transformer (ViT) com codificador e decodificador leve; Aprendizado auto-supervisionado eficiente em dados.
+Tube Masking Strategy; High Masking Ratio (90%-95%); Transformer (ViT) architecture with encoder and lightweight decoder; Data-efficient self-supervised learning.
 
 ## Use Cases
 
-Classificação de Ação em Vídeo (Kinetics-400); Detecção de Ação; Reconhecimento de Atividades Humanas (HAR) em robótica assistiva e vigilância; Backbone para diversas tarefas de compreensão de vídeo.
+Video Action Classification (Kinetics-400); Action Detection; Human Activity Recognition (HAR) in assistive robotics and surveillance; Backbone for various video understanding tasks.
 
 ## Integration
 
-O modelo é facilmente acessível e utilizável através da biblioteca Hugging Face Transformers.\n\n```python\nfrom transformers import VideoMAEFeatureExtractor, VideoMAEForVideoClassification\nimport torch\n\n# Carregar o extrator de características e o modelo pré-treinado\nfeature_extractor = VideoMAEFeatureExtractor.from_pretrained(\"MCG-NJU/videomae-base-finetuned-kinetics\")\nmodel = VideoMAEForVideoClassification.from_pretrained(\"MCG-NJU/videomae-base-finetuned-kinetics\")\n\n# Exemplo de uso (substituir 'video_data' pelos frames do seu vídeo)\n# inputs = feature_extractor(video_data, return_tensors=\"pt\")\n# with torch.no_grad():\n#     outputs = model(**inputs)\n# logits = outputs.logits\n# predicted_class_idx = logits.argmax(-1).item()\n# print(f\"Classe Prevista: {model.config.id2label[predicted_class_idx]}\")\n```
+The model is easily accessible and usable through the Hugging Face Transformers library.\n\n```python\nfrom transformers import VideoMAEFeatureExtractor, VideoMAEForVideoClassification\nimport torch\n\n# Load the feature extractor and the pre-trained model\nfeature_extractor = VideoMAEFeatureExtractor.from_pretrained(\"MCG-NJU/videomae-base-finetuned-kinetics\")\nmodel = VideoMAEForVideoClassification.from_pretrained(\"MCG-NJU/videomae-base-finetuned-kinetics\")\n\n# Usage example (replace 'video_data' with the frames of your video)\n# inputs = feature_extractor(video_data, return_tensors=\"pt\")\n# with torch.no_grad():\n#     outputs = model(**inputs)\n# logits = outputs.logits\n# predicted_class_idx = logits.argmax(-1).item()\n# print(f\"Predicted Class: {model.config.id2label[predicted_class_idx]}\")\n```
 
 ## URL
 

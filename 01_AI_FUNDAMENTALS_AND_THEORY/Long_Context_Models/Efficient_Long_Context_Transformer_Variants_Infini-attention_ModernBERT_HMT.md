@@ -1,48 +1,48 @@
-# Variantes de Transformer Eficientes e de Longo Contexto (Infini-attention, ModernBERT, HMT)
+# Efficient Long-Context Transformer Variants (Infini-attention, ModernBERT, HMT)
 
 ## Description
 
-As variantes de Transformer para 2024-2025 concentram-se em resolver as limitações de eficiência e contexto dos modelos originais. Três arquiteturas notáveis são a **Infini-attention**, o **ModernBERT** e o **Hierarchical Memory Transformer (HMT)**. A Infini-attention, proposta pelo Google, permite um contexto "infinito" ao combinar atenção local mascarada com uma memória compressiva de longo prazo, mantendo a complexidade computacional e de memória limitadas. O ModernBERT é uma modernização do BERT, focada em eficiência e contexto estendido (até 8k tokens), utilizando melhorias como *Rotary Positional Embeddings* (RoPE) e camadas GeGLU. O HMT imita a memória humana, usando um sistema hierárquico para preservar e recuperar informações relevantes em longas sequências, transformando o modelo em um modelo recorrente aumentado por memória. Essas inovações são cruciais para aplicações que exigem compreensão profunda de documentos extensos e manutenção de coerência em conversas longas.
+Transformer variants for 2024-2025 focus on solving the efficiency and context limitations of the original models. Three notable architectures are **Infini-attention**, **ModernBERT**, and the **Hierarchical Memory Transformer (HMT)**. Infini-attention, proposed by Google, enables an "infinite" context by combining masked local attention with a long-term compressive memory, keeping computational and memory complexity bounded. ModernBERT is a modernization of BERT, focused on efficiency and extended context (up to 8k tokens), using improvements such as *Rotary Positional Embeddings* (RoPE) and GeGLU layers. HMT mimics human memory, using a hierarchical system to preserve and retrieve relevant information across long sequences, turning the model into a memory-augmented recurrent model. These innovations are crucial for applications that require deep understanding of extensive documents and maintaining coherence in long conversations.
 
 ## Statistics
 
-**Infini-attention:** Complexidade de tempo $O(1)$ e complexidade de memória $O(1)$ em relação ao comprimento da sequência (após o primeiro segmento). Permite janelas de contexto de 1 milhão de tokens ou mais. **ModernBERT:** Treinado em 2 trilhões de tokens. Contexto de até 8k tokens. Desempenho 9 pontos percentuais superior aos modelos de contexto longo concorrentes em tarefas de recuperação com ColBERT. **HMT:** Demonstra melhoria consistente na qualidade de geração com contexto longo em várias arquiteturas de Transformer.
+**Infini-attention:** Time complexity $O(1)$ and memory complexity $O(1)$ with respect to sequence length (after the first segment). Enables context windows of 1 million tokens or more. **ModernBERT:** Trained on 2 trillion tokens. Context of up to 8k tokens. Performance 9 percentage points higher than competing long-context models on retrieval tasks with ColBERT. **HMT:** Demonstrates consistent improvement in long-context generation quality across various Transformer architectures.
 
 ## Features
 
-**Infini-attention:** Contexto infinito com complexidade de memória e tempo limitadas. Combina atenção local mascarada e atenção linear de longo prazo com memória compressiva. **ModernBERT:** Eficiência aprimorada, contexto estendido (até 8k tokens), desempenho superior em tarefas de *embedding* e recuperação de contexto longo (com ColBERT). Utiliza RoPE e GeGLU. **HMT:** Processamento de contexto longo através de memória hierárquica. Imita a memorização humana, usando recorrência aumentada por memória para preservar e recuperar tokens relevantes.
+**Infini-attention:** Infinite context with bounded memory and time complexity. Combines masked local attention and long-term linear attention with compressive memory. **ModernBERT:** Improved efficiency, extended context (up to 8k tokens), superior performance on *embedding* tasks and long-context retrieval (with ColBERT). Uses RoPE and GeGLU. **HMT:** Long-context processing through hierarchical memory. Mimics human memorization, using memory-augmented recurrence to preserve and retrieve relevant tokens.
 
 ## Use Cases
 
-**Infini-attention:** Análise de documentos ultra-longos (contratos, relatórios financeiros, código-fonte extenso), chatbots com memória de conversação ilimitada, e processamento de sequências de dados de séries temporais. **ModernBERT:** Tarefas de *embedding* de texto de alta qualidade, recuperação de informações em grandes bases de dados (*retrieval-augmented generation* - RAG) e compreensão de documentos com contexto estendido. **HMT:** Geração de texto coerente em narrativas longas, sumarização de livros ou artigos científicos, e tarefas de Perguntas e Respostas sobre documentos extensos.
+**Infini-attention:** Analysis of ultra-long documents (contracts, financial reports, extensive source code), chatbots with unlimited conversational memory, and processing of time-series data sequences. **ModernBERT:** High-quality text *embedding* tasks, information retrieval in large databases (*retrieval-augmented generation* - RAG), and understanding documents with extended context. **HMT:** Coherent text generation in long narratives, summarization of books or scientific articles, and Question Answering tasks over extensive documents.
 
 ## Integration
 
-A integração é facilitada principalmente através da biblioteca **Hugging Face Transformers**.
-**ModernBERT:** Modelos pré-treinados estão disponíveis no Hugging Face Hub (ex: `answerdotai/ModernBERT-base`).
+Integration is mainly facilitated through the **Hugging Face Transformers** library.
+**ModernBERT:** Pre-trained models are available on the Hugging Face Hub (e.g., `answerdotai/ModernBERT-base`).
 ```python
 from transformers import AutoTokenizer, AutoModel
 
 tokenizer = AutoTokenizer.from_pretrained("answerdotai/ModernBERT-base")
 model = AutoModel.from_pretrained("answerdotai/ModernBERT-base")
 
-inputs = tokenizer("Exemplo de texto para ModernBERT.", return_tensors="pt")
+inputs = tokenizer("Example text for ModernBERT.", return_tensors="pt")
 outputs = model(**inputs)
-# A saída contém os embeddings do último estado oculto
+# The output contains the embeddings of the last hidden state
 ```
-**Infini-attention e HMT:** Implementações em PyTorch estão disponíveis em repositórios do GitHub, que podem ser integradas em arquiteturas de modelos existentes.
-**Infini-attention (Exemplo de implementação PyTorch):**
+**Infini-attention and HMT:** PyTorch implementations are available in GitHub repositories, which can be integrated into existing model architectures.
+**Infini-attention (PyTorch implementation example):**
 ```python
-# Exemplo conceitual de uso da camada Infini-attention
+# Conceptual example of using the Infini-attention layer
 from infini_attention_pytorch import InfiniAttention
 
-# Inicializa a camada
+# Initialize the layer
 infini_attn = InfiniAttention(dim=512, heads=8)
 
-# Aplica a atenção a uma sequência de entrada
-output = infini_attn(x) # x é o tensor de entrada
+# Apply attention to an input sequence
+output = infini_attn(x) # x is the input tensor
 ```
-A adoção dessas variantes requer a substituição do mecanismo de atenção padrão pela nova arquitetura (Infini-attention) ou o uso de modelos pré-treinados (ModernBERT).
+Adopting these variants requires replacing the standard attention mechanism with the new architecture (Infini-attention) or using pre-trained models (ModernBERT).
 
 ## URL
 

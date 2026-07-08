@@ -2,44 +2,44 @@
 
 ## Description
 
-**MLflow** é uma plataforma de código aberto projetada para gerenciar o ciclo de vida completo do aprendizado de máquina (ML), desde a experimentação até a implantação. Sua proposta de valor única é fornecer uma **solução unificada** para MLOps, abrangendo Rastreamento de Experimentos, Empacotamento de Código, Gerenciamento de Modelos e Registro Centralizado de Modelos. Recentemente, expandiu-se para incluir suporte robusto para **aplicações de IA Generativa (GenAI)** e **LLMs (Large Language Models)**, oferecendo ferramentas para avaliação e rastreamento de LLMs, consolidando-se como a base para MLOps em escala.
+**MLflow** is an open-source platform designed to manage the complete machine learning (ML) lifecycle, from experimentation to deployment. Its unique value proposition is to provide a **unified solution** for MLOps, covering Experiment Tracking, Code Packaging, Model Management, and a Centralized Model Registry. It has recently expanded to include robust support for **Generative AI (GenAI) applications** and **LLMs (Large Language Models)**, offering tools for LLM evaluation and tracking, consolidating itself as the foundation for MLOps at scale.
 
 ## Statistics
 
-**Downloads Mensais:** Mais de 30 Milhões (Estatística de 2025); **Estrelas no GitHub:** Mais de 19.000; **Contribuidores:** Mais de 850 desenvolvedores; **Empresas Usuárias Notáveis:** BNP Paribas, Thales, Unilever France, Carmax, DoorDash, Walmart, Oracle.
+**Monthly Downloads:** More than 30 Million (2025 statistic); **GitHub Stars:** More than 19,000; **Contributors:** More than 850 developers; **Notable Enterprise Users:** BNP Paribas, Thales, Unilever France, Carmax, DoorDash, Walmart, Oracle.
 
 ## Features
 
-MLflow Tracking (API e UI para registrar parâmetros, métricas e artefatos); MLflow Projects (formato padrão para empacotar código de ciência de dados, garantindo reprodutibilidade); MLflow Models (convenção para empacotar modelos para implantação em diversas plataformas); MLflow Model Registry (repositório centralizado para gerenciar modelos, versões e estágios de transição); Rastreamento de Métricas do Sistema (registro de estatísticas de CPU, GPU, memória); Avaliação de LLM (API simples para avaliar LLMs com métricas personalizadas).
+MLflow Tracking (API and UI for logging parameters, metrics, and artifacts); MLflow Projects (standard format for packaging data science code, ensuring reproducibility); MLflow Models (convention for packaging models for deployment on various platforms); MLflow Model Registry (centralized repository for managing models, versions, and transition stages); System Metrics Tracking (logging of CPU, GPU, and memory statistics); LLM Evaluation (simple API for evaluating LLMs with custom metrics).
 
 ## Use Cases
 
-**Rastreamento de Experimentos:** Comparação e otimização de hiperparâmetros em centenas de execuções de modelos; **MLOps em Escala:** Gerenciamento do ciclo de vida de modelos em produção, desde o treinamento até a implantação e monitoramento; **Reprodutibilidade:** Garantia de que qualquer membro da equipe possa reproduzir os resultados de um experimento anterior; **Implantação Multi-Plataforma:** Empacotamento de um modelo para implantação em diversos ambientes (Docker, Azure ML, AWS SageMaker, Databricks); **Aplicações de LLM:** Avaliação e monitoramento do desempenho de modelos de linguagem.
+**Experiment Tracking:** Comparison and hyperparameter optimization across hundreds of model runs; **MLOps at Scale:** Management of the model lifecycle in production, from training to deployment and monitoring; **Reproducibility:** Ensuring that any team member can reproduce the results of a previous experiment; **Multi-Platform Deployment:** Packaging a model for deployment across various environments (Docker, Azure ML, AWS SageMaker, Databricks); **LLM Applications:** Evaluation and monitoring of language model performance.
 
 ## Integration
 
-A integração principal é feita através da API Python, compatível com a maioria dos frameworks de ML (Scikit-learn, TensorFlow, PyTorch).
+The primary integration is done through the Python API, compatible with most ML frameworks (Scikit-learn, TensorFlow, PyTorch).
 
-**Exemplo de Integração (Python - MLflow Tracking):**
+**Integration Example (Python - MLflow Tracking):**
 ```python
 import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
-# Inicia uma nova execução do MLflow
+# Start a new MLflow run
 with mlflow.start_run():
-    # Define e registra parâmetros
+    # Define and log parameters
     n_estimators = 100
     mlflow.log_param("n_estimators", n_estimators)
 
-    # Simulação de treinamento e métrica
-    mse = 0.55 # Valor simulado
+    # Training and metric simulation
+    mse = 0.55 # Simulated value
     
-    # Registra a métrica
+    # Log the metric
     mlflow.log_metric("mse", mse)
 
-    # Registra o modelo (descomentar para uso real)
+    # Log the model (uncomment for real use)
     # mlflow.sklearn.log_model(rf, "random_forest_model")
     
     print(f"MLflow Run ID: {mlflow.active_run().info.run_id}")

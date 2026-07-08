@@ -2,23 +2,89 @@
 
 ## Description
 
-Feast (Feature Store) é um sistema de dados operacional de código aberto projetado para gerenciar e servir recursos de Machine Learning (ML) em escala de produção. Ele atua como uma camada de acesso a dados unificada, reutilizando a infraestrutura de dados existente para garantir a consistência dos recursos entre os ambientes de treinamento (offline) e de serviço (online), eliminando o problema crítico de 'training-serving skew'. Sua proposta de valor única reside em fornecer correção ponto-a-ponto, garantindo que os modelos sejam treinados apenas com dados que estariam disponíveis no momento da inferência, e desacoplando o ML da infraestrutura de dados subjacente [1].
+Feast (Feature Store) is an open-source operational data system designed to manage and serve Machine Learning (ML) features at production scale. It acts as a unified data access layer, reusing existing data infrastructure to ensure feature consistency between training (offline) and serving (online) environments, eliminating the critical problem of 'training-serving skew'. Its unique value proposition lies in providing point-in-time correctness, ensuring that models are trained only with data that would have been available at inference time, and decoupling ML from the underlying data infrastructure [1].
 
 ## Statistics
 
-Feast é um projeto de código aberto ativo, inicialmente desenvolvido em colaboração entre Gojek e Google [2]. Embora métricas de uso específicas de produção (como latência ou taxa de transferência) dependam da infraestrutura subjacente (por exemplo, Redis, DynamoDB para a loja online), a arquitetura do Feast é otimizada para serviço de baixa latência (sub-milissegundo) para inferência em tempo real [3].
+Feast is an active open-source project, initially developed in collaboration between Gojek and Google [2]. Although specific production usage metrics (such as latency or throughput) depend on the underlying infrastructure (for example, Redis, DynamoDB for the online store), Feast's architecture is optimized for low-latency (sub-millisecond) serving for real-time inference [3].
 
 ## Features
 
-O Feast oferece um conjunto robusto de recursos para o ciclo de vida do recurso de ML:\n\n*   **SDK Python e CLI:** Ferramentas para definir, gerenciar e interagir programaticamente com recursos.\n*   **Armazenamento Offline e Online:** Gerencia um armazenamento offline (para dados históricos de treinamento em lote) e um armazenamento online de baixa latência (para serviço de inferência em tempo real).\n*   **Correção Ponto-a-Ponto:** Lógica de junção de dados testada em batalha para evitar vazamento de dados (data leakage) durante a criação do conjunto de dados de treinamento.\n*   **Reutilização e Descoberta de Recursos:** Catálogo centralizado para definição de recursos, promovendo a colaboração entre equipes.\n*   **Servidor de Recursos (Opcional):** Um serviço hospedado para leitura e gravação de dados de recursos, útil para linguagens que não são Python [1].
+Feast offers a robust set of features for the ML feature lifecycle:
+
+*   **Python SDK and CLI:** Tools to define, manage, and interact programmatically with features.
+*   **Offline and Online Storage:** Manages an offline store (for historical batch training data) and a low-latency online store (for real-time inference serving).
+*   **Point-in-Time Correctness:** Battle-tested data join logic to avoid data leakage during the creation of the training dataset.
+*   **Feature Reuse and Discovery:** Centralized catalog for feature definition, promoting collaboration between teams.
+*   **Feature Server (Optional):** A hosted service for reading and writing feature data, useful for non-Python languages [1].
 
 ## Use Cases
 
-O Feast é amplamente aplicável em diversos domínios de ML que exigem recursos consistentes e atualizados:\n\n*   **Mecanismos de Recomendação:** Personalização de recomendações online usando recursos históricos de usuário/item e servindo recursos em tempo real.\n*   **Scorecards de Risco:** Detecção de fraude online e pontuação de crédito, usando recursos que comparam padrões históricos de transação.\n*   **NLP/RAG:** Armazenamento e indexação de vetores de embeddings de texto para pesquisa de similaridade eficiente em sistemas de Geração Aumentada por Recuperação (RAG).\n*   **Previsão de Séries Temporais:** Gerenciamento de recursos temporais e criação de agregações baseadas em tempo para previsão de demanda e detecção de anomalias [4].
+Feast is broadly applicable across various ML domains that require consistent and up-to-date features:
+
+*   **Recommendation Engines:** Personalization of online recommendations using historical user/item features and serving features in real time.
+*   **Risk Scorecards:** Online fraud detection and credit scoring, using features that compare historical transaction patterns.
+*   **NLP/RAG:** Storage and indexing of text embedding vectors for efficient similarity search in Retrieval-Augmented Generation (RAG) systems.
+*   **Time Series Forecasting:** Management of temporal features and creation of time-based aggregations for demand forecasting and anomaly detection [4].
 
 ## Integration
 
-A integração com o Feast envolve a definição de recursos, a materialização de dados no armazenamento online e a recuperação de recursos para treinamento e inferência. O processo começa com a inicialização de um repositório de recursos e a definição de entidades e FeatureViews em um arquivo Python (por exemplo, `example_repo.py`).\n\n**Exemplo de Definição de Recurso (Python):**\n\n```python\nfrom feast import Entity, FeatureView, Field, FileSource, ValueType\nfrom feast.types import Float32, Int64\nfrom datetime import timedelta\n\n# 1. Definir Entidade\ndriver = Entity(name=\"driver\", description=\"ID do motorista\", value_type=ValueType.INT64)\n\n# 2. Definir Fonte de Dados\ndriver_stats_source = FileSource(\n    path=\"data/driver_stats.parquet\",\n    timestamp_field=\"event_timestamp\",\n)\n\n# 3. Definir FeatureView\ndriver_hourly_stats_fv = FeatureView(\n    name=\"driver_hourly_stats\",\n    entities=[driver],\n    ttl=timedelta(days=1),\n    schema=[\n        Field(name=\"conv_rate\", dtype=Float32),\n        Field(name=\"acc_rate\", dtype=Float32),\n        Field(name=\"avg_daily_trips\", dtype=Int64),\n    ],\n    source=driver_stats_source,\n)\n```\n\n**Exemplo de Recuperação de Recursos para Inferência (Python):**\n\n```python\nfrom feast import FeatureStore\n\n# Conectar ao Feature Store\nstore = FeatureStore(repo_path=\".\")\n\n# Recuperar recursos online para inferência em tempo real\nfeature_vector = store.get_online_features(\n    features=[\n        \"driver_hourly_stats:conv_rate\",\n        \"driver_hourly_stats:acc_rate\",\n        \"driver_hourly_stats:avg_daily_trips\",\n    ],\n    entity_rows=[\n        {\"driver_id\": 1001},\n        {\"driver_id\": 1002},\n    ],\n).to_dict()\n\nprint(feature_vector)\n# Saída esperada (exemplo): {'driver_id': [1001, 1002], 'conv_rate': [0.5, 0.8], ...}\n```
+Integration with Feast involves defining features, materializing data into the online store, and retrieving features for training and inference. The process begins with the initialization of a feature repository and the definition of entities and FeatureViews in a Python file (for example, `example_repo.py`).
+
+**Feature Definition Example (Python):**
+
+```python
+from feast import Entity, FeatureView, Field, FileSource, ValueType
+from feast.types import Float32, Int64
+from datetime import timedelta
+
+# 1. Define Entity
+driver = Entity(name="driver", description="Driver ID", value_type=ValueType.INT64)
+
+# 2. Define Data Source
+driver_stats_source = FileSource(
+    path="data/driver_stats.parquet",
+    timestamp_field="event_timestamp",
+)
+
+# 3. Define FeatureView
+driver_hourly_stats_fv = FeatureView(
+    name="driver_hourly_stats",
+    entities=[driver],
+    ttl=timedelta(days=1),
+    schema=[
+        Field(name="conv_rate", dtype=Float32),
+        Field(name="acc_rate", dtype=Float32),
+        Field(name="avg_daily_trips", dtype=Int64),
+    ],
+    source=driver_stats_source,
+)
+```
+
+**Feature Retrieval Example for Inference (Python):**
+
+```python
+from feast import FeatureStore
+
+# Connect to the Feature Store
+store = FeatureStore(repo_path=".")
+
+# Retrieve online features for real-time inference
+feature_vector = store.get_online_features(
+    features=[
+        "driver_hourly_stats:conv_rate",
+        "driver_hourly_stats:acc_rate",
+        "driver_hourly_stats:avg_daily_trips",
+    ],
+    entity_rows=[
+        {"driver_id": 1001},
+        {"driver_id": 1002},
+    ],
+).to_dict()
+
+print(feature_vector)
+# Expected output (example): {'driver_id': [1001, 1002], 'conv_rate': [0.5, 0.8], ...}
+```
 
 ## URL
 

@@ -1,47 +1,47 @@
 # SuperGLUE Benchmark
 
 ## Description
-O **SuperGLUE (Super General Language Understanding Evaluation)** é um benchmark de avaliação de modelos de Linguagem Natural (NLP) projetado para ser mais desafiador que seu antecessor, o GLUE. Ele foi criado para medir o progresso em sistemas de compreensão de linguagem de propósito geral, focando em tarefas que exigem raciocínio mais profundo, inferência e compreensão contextual. O benchmark é composto por um conjunto de tarefas de compreensão de linguagem mais difíceis, recursos aprimorados e um leaderboard público. O objetivo é fornecer uma métrica única que resuma o progresso em um conjunto diversificado de tarefas de NLP, especialmente após os modelos terem atingido o desempenho humano no benchmark GLUE original.
+**SuperGLUE (Super General Language Understanding Evaluation)** is a Natural Language Processing (NLP) model evaluation benchmark designed to be more challenging than its predecessor, GLUE. It was created to measure progress in general-purpose language understanding systems, focusing on tasks that require deeper reasoning, inference, and contextual understanding. The benchmark is composed of a set of more difficult language understanding tasks, improved resources, and a public leaderboard. The goal is to provide a single metric that summarizes progress across a diverse set of NLP tasks, especially after models reached human performance on the original GLUE benchmark.
 
 ## Statistics
-O SuperGLUE é um benchmark composto por 10 tarefas (8 principais e 2 de diagnóstico), cada uma com seu próprio conjunto de dados.
-*   **Tamanho Total do Download (TFDS):** Aproximadamente 733.32 KiB.
-*   **Tamanho Total do Dataset (TFDS):** Aproximadamente 2.15 MiB.
-*   **Versão:** A versão final do benchmark foi lançada em 2019, mas continua sendo um padrão de avaliação relevante, com modelos sendo submetidos e avaliados continuamente.
-*   **Amostras:** O número de amostras varia por tarefa. Por exemplo, o BoolQ possui mais de 15.000 exemplos de treinamento e desenvolvimento. O conjunto completo de tarefas totaliza dezenas de milhares de exemplos.
+SuperGLUE is a benchmark composed of 10 tasks (8 main and 2 diagnostic), each with its own dataset.
+*   **Total Download Size (TFDS):** Approximately 733.32 KiB.
+*   **Total Dataset Size (TFDS):** Approximately 2.15 MiB.
+*   **Version:** The final version of the benchmark was released in 2019, but it remains a relevant evaluation standard, with models being continuously submitted and evaluated.
+*   **Samples:** The number of samples varies by task. For example, BoolQ has more than 15,000 training and development examples. The complete set of tasks totals tens of thousands of examples.
 
 ## Features
-O SuperGLUE é composto por 8 tarefas principais de compreensão de linguagem e 2 tarefas de diagnóstico para análise de erros. As tarefas principais incluem:
-*   **BoolQ:** Resposta a perguntas de sim/não baseadas em um parágrafo.
-*   **CB (CommitmentBank):** Determinação da relação de inferência textual (entailment, contradição, neutro) entre duas sentenças.
-*   **COPA (Choice of Plausible Alternatives):** Escolha da alternativa mais plausível para um dado cenário (causa ou efeito).
-*   **MultiRC (Multi-Sentence Reading Comprehension):** Resposta a perguntas sobre um texto, onde a resposta pode ser uma ou mais sentenças.
-*   **ReCoRD (Reading Comprehension with Commonsense Reasoning):** Preenchimento de lacunas em um texto com base em raciocínio de senso comum.
-*   **RTE (Recognizing Textual Entailment):** Determinação se uma sentença implica logicamente outra.
-*   **WiC (Words in Context):** Determinação se uma palavra aparece com o mesmo sentido em duas sentenças diferentes.
-*   **WSC (Winograd Schema Challenge):** Resolução de ambiguidades de referência pronominal que exigem raciocínio de senso comum.
+SuperGLUE is composed of 8 main language understanding tasks and 2 diagnostic tasks for error analysis. The main tasks include:
+*   **BoolQ:** Answering yes/no questions based on a paragraph.
+*   **CB (CommitmentBank):** Determining the textual inference relationship (entailment, contradiction, neutral) between two sentences.
+*   **COPA (Choice of Plausible Alternatives):** Choosing the most plausible alternative for a given scenario (cause or effect).
+*   **MultiRC (Multi-Sentence Reading Comprehension):** Answering questions about a text, where the answer can be one or more sentences.
+*   **ReCoRD (Reading Comprehension with Commonsense Reasoning):** Filling in blanks in a text based on commonsense reasoning.
+*   **RTE (Recognizing Textual Entailment):** Determining whether one sentence logically entails another.
+*   **WiC (Words in Context):** Determining whether a word appears with the same meaning in two different sentences.
+*   **WSC (Winograd Schema Challenge):** Resolving pronominal reference ambiguities that require commonsense reasoning.
 
-As tarefas de diagnóstico são AX-b (Broadcoverage Diagnostics) e AX-g (WinoGender Schema Diagnostics). O benchmark é caracterizado por exigir modelos que demonstrem capacidades de inferência e raciocínio mais robustas.
+The diagnostic tasks are AX-b (Broadcoverage Diagnostics) and AX-g (WinoGender Schema Diagnostics). The benchmark is characterized by requiring models that demonstrate more robust inference and reasoning capabilities.
 
 ## Use Cases
-*   **Avaliação de Modelos de Linguagem:** É o principal caso de uso, servindo como um teste rigoroso para modelos de linguagem de propósito geral (LLMs) e modelos pré-treinados (como BERT, RoBERTa, T5, etc.).
-*   **Pesquisa em NLP:** Utilizado por pesquisadores para desenvolver e testar novas arquiteturas e técnicas de transferência de aprendizado em tarefas de compreensão de linguagem mais complexas.
-*   **Análise de Erros:** As tarefas de diagnóstico (AX-b e AX-g) são usadas para realizar análises qualitativas e de erros, ajudando a entender as deficiências dos modelos.
-*   **Comparação de Desempenho:** Serve como um leaderboard público para comparar o desempenho de diferentes sistemas de NLP em um conjunto padronizado de tarefas.
+*   **Language Model Evaluation:** This is the main use case, serving as a rigorous test for general-purpose language models (LLMs) and pre-trained models (such as BERT, RoBERTa, T5, etc.).
+*   **NLP Research:** Used by researchers to develop and test new architectures and transfer learning techniques on more complex language understanding tasks.
+*   **Error Analysis:** The diagnostic tasks (AX-b and AX-g) are used to perform qualitative and error analyses, helping to understand model shortcomings.
+*   **Performance Comparison:** Serves as a public leaderboard to compare the performance of different NLP systems on a standardized set of tasks.
 
 ## Integration
-O dataset SuperGLUE pode ser acessado e utilizado de várias maneiras:
-1.  **Página Oficial:** O dataset completo pode ser baixado diretamente da página de tarefas do SuperGLUE (URL: `https://super.gluebenchmark.com/tasks`).
-2.  **Script de Download:** O site oficial fornece um script de download (parte do toolkit `jiant`) para obter os dados.
-3.  **Hugging Face Datasets:** Para uso em projetos de NLP modernos, o dataset está disponível no Hugging Face Hub (ex: `Hyukkyu/superglue` ou `aps/super_glue`), permitindo o carregamento fácil via código Python:
+The SuperGLUE dataset can be accessed and used in several ways:
+1.  **Official Page:** The complete dataset can be downloaded directly from the SuperGLUE tasks page (URL: `https://super.gluebenchmark.com/tasks`).
+2.  **Download Script:** The official site provides a download script (part of the `jiant` toolkit) to obtain the data.
+3.  **Hugging Face Datasets:** For use in modern NLP projects, the dataset is available on the Hugging Face Hub (e.g., `Hyukkyu/superglue` or `aps/super_glue`), allowing easy loading via Python code:
     ```python
     from datasets import load_dataset
     # Para carregar uma tarefa específica, como BoolQ
     dataset = load_dataset("super_glue", "boolq")
     ```
-4.  **TensorFlow Datasets:** O dataset também está disponível no catálogo do TensorFlow Datasets.
+4.  **TensorFlow Datasets:** The dataset is also available in the TensorFlow Datasets catalog.
 
-A integração é facilitada por ferramentas e bibliotecas de NLP amplamente utilizadas. Recomenda-se o uso das versões hospedadas no Hugging Face ou TensorFlow para maior conveniência.
+Integration is facilitated by widely used NLP tools and libraries. Using the versions hosted on Hugging Face or TensorFlow is recommended for greater convenience.
 
 ## URL
 [https://super.gluebenchmark.com/](https://super.gluebenchmark.com/)

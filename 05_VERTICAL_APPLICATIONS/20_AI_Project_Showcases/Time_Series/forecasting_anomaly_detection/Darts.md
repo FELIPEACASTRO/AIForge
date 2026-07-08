@@ -2,23 +2,23 @@
 
 ## Description
 
-Darts é uma biblioteca Python de código aberto para previsão e detecção de anomalias em séries temporais, projetada para ser amigável e unificada. Ela oferece uma ampla gama de modelos, desde clássicos como ARIMA até redes neurais profundas (N-BEATS), todos com uma interface consistente de `fit()` e `predict()` similar ao scikit-learn. Sua proposta de valor única reside na facilidade de uso, suporte nativo a séries temporais multivariadas e a capacidade de treinar modelos globais em múltiplos conjuntos de dados.
+Darts is an open-source Python library for time series forecasting and anomaly detection, designed to be user-friendly and unified. It offers a wide range of models, from classics such as ARIMA to deep neural networks (N-BEATS), all with a consistent `fit()` and `predict()` interface similar to scikit-learn. Its unique value proposition lies in its ease of use, native support for multivariate time series, and the ability to train global models on multiple datasets.
 
 ## Statistics
 
-Suporta mais de 20 modelos de previsão (estatísticos e de Deep Learning). Possui suporte nativo para previsão probabilística e intervalos de confiança. Integração direta com modelos PyOD para detecção de anomalias. Implementado com PyTorch Lightning para modelos de Deep Learning, permitindo treinamento em GPU/TPU.
+Supports more than 20 forecasting models (statistical and Deep Learning). Provides native support for probabilistic forecasting and confidence intervals. Direct integration with PyOD models for anomaly detection. Implemented with PyTorch Lightning for Deep Learning models, enabling training on GPU/TPU.
 
 ## Features
 
-Interface unificada para modelos de previsão e detecção de anomalias; Suporte a séries temporais univariadas e multivariadas; Modelos globais treináveis em múltiplas séries; Previsão probabilística e intervalos de confiança (Conformal Prediction); Suporte a covariáveis passadas e futuras; Utilitários para backtesting e processamento de dados (escalonamento, preenchimento de valores ausentes).
+Unified interface for forecasting and anomaly detection models; Support for univariate and multivariate time series; Global models trainable on multiple series; Probabilistic forecasting and confidence intervals (Conformal Prediction); Support for past and future covariates; Utilities for backtesting and data processing (scaling, filling missing values).
 
 ## Use Cases
 
-Previsão de demanda e vendas; Monitoramento de infraestrutura e detecção de falhas (usando detecção de anomalias); Previsão de preços de ações e criptomoedas; Análise de séries temporais em IoT e sensores; Modelagem de séries temporais hierárquicas com reconciliação.
+Demand and sales forecasting; Infrastructure monitoring and fault detection (using anomaly detection); Forecasting stock and cryptocurrency prices; Time series analysis in IoT and sensors; Hierarchical time series modeling with reconciliation.
 
 ## Integration
 
-Instalação via `pip install darts`. Integração com PyOD para detecção de anomalias. Compatibilidade com backends como pandas, polars, numpy e xarray. Exemplo de uso de modelo estatístico:\n```python\nfrom darts import TimeSeries\nfrom darts.models import ExponentialSmoothing\n\n# Criação da série temporal\nseries = TimeSeries.from_values([10, 12, 15, 13, 18, 20])\n\n# Treinamento e previsão\nmodel = ExponentialSmoothing()\nmodel.fit(series)\nprediction = model.predict(len=3)\nprint(prediction.values())\n```
+Installation via `pip install darts`. Integration with PyOD for anomaly detection. Compatibility with backends such as pandas, polars, numpy, and xarray. Example of using a statistical model:\n```python\nfrom darts import TimeSeries\nfrom darts.models import ExponentialSmoothing\n\n# Creating the time series\nseries = TimeSeries.from_values([10, 12, 15, 13, 18, 20])\n\n# Training and forecasting\nmodel = ExponentialSmoothing()\nmodel.fit(series)\nprediction = model.predict(len=3)\nprint(prediction.values())\n```
 
 ## URL
 

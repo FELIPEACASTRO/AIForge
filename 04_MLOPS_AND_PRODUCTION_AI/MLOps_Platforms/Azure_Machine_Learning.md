@@ -2,76 +2,76 @@
 
 ## Description
 
-**Azure Machine Learning** é um serviço de nuvem de nível empresarial projetado para acelerar e gerenciar o ciclo de vida completo de projetos de Machine Learning (ML), desde o treinamento até a implantação e o gerenciamento de Operações de Machine Learning (MLOps). Sua proposta de valor única reside na sua **prontidão empresarial e segurança** (integração com Azure Virtual Networks, Key Vault e Container Registry), além de ser uma plataforma **aberta e interoperável** que suporta as principais estruturas de código aberto (PyTorch, TensorFlow, scikit-learn) e o ecossistema Azure mais amplo (Synapse Analytics, Azure Arc, Purview). A plataforma oferece ferramentas para todos os membros da equipe de ML, desde cientistas de dados que usam o Python SDK v2 até engenheiros que implementam pipelines de MLOps.
+**Azure Machine Learning** is an enterprise-grade cloud service designed to accelerate and manage the complete lifecycle of Machine Learning (ML) projects, from training to deployment and the management of Machine Learning Operations (MLOps). Its unique value proposition lies in its **enterprise readiness and security** (integration with Azure Virtual Networks, Key Vault, and Container Registry), as well as being an **open and interoperable** platform that supports the leading open-source frameworks (PyTorch, TensorFlow, scikit-learn) and the broader Azure ecosystem (Synapse Analytics, Azure Arc, Purview). The platform offers tools for every member of the ML team, from data scientists who use the Python SDK v2 to engineers who implement MLOps pipelines.
 
 ## Statistics
 
-*   **Market Share:** Detém aproximadamente 1.34% do mercado de plataformas de Data Science e Machine Learning, competindo com mais de 150 ferramentas especializadas.
-*   **Ecossistema Azure:** O Azure, como um todo, detém cerca de 20-24% do mercado global de infraestrutura em nuvem, sendo a segunda maior provedora.
-*   **Adoção Empresarial:** Estima-se que 85-95% das empresas da Fortune 500 utilizam serviços do Azure, indicando uma alta adoção da plataforma em ambientes corporativos.
-*   **Escalabilidade:** Suporta treinamento distribuído em múltiplos nós e GPUs de última geração, permitindo o dimensionamento de projetos de ML para qualquer tamanho necessário.
+*   **Market Share:** Holds approximately 1.34% of the Data Science and Machine Learning platform market, competing with more than 150 specialized tools.
+*   **Azure Ecosystem:** Azure as a whole holds around 20-24% of the global cloud infrastructure market, making it the second-largest provider.
+*   **Enterprise Adoption:** It is estimated that 85-95% of Fortune 500 companies use Azure services, indicating high adoption of the platform in corporate environments.
+*   **Scalability:** Supports distributed training across multiple nodes and cutting-edge GPUs, allowing ML projects to scale to any size required.
 
 ## Features
 
-*   **MLOps e Governança:** Ferramentas robustas para gerenciar o ciclo de vida do modelo, incluindo integração com Git e MLflow, agendamento de pipeline e integração com Azure Event Grid.
-*   **Suporte a LLMs e IA Generativa:** Inclui um **Catálogo de Modelos** com centenas de modelos (Azure OpenAI, Mistral, Meta, Cohere, etc.) e o **Prompt Flow** para simplificar o desenvolvimento, experimentação e implantação de aplicações de IA Generativa.
-*   **Automação e Otimização:** **Automated ML (AutoML)** para seleção automatizada de recursos e algoritmos, e otimização de hiperparâmetros.
-*   **Treinamento Distribuído:** Suporte para treinamento distribuído em múltiplos nós (PyTorch, TensorFlow, MPI) em clusters de computação e computação sem servidor.
-*   **Implantação Gerenciada:** **Managed Endpoints** para inferência em tempo real (online) e em lote (batch), com recursos como divisão de tráfego para testes A/B.
-*   **Ambiente de Desenvolvimento:** **Azure Machine Learning Studio** (UI), **Python SDK v2**, **Azure CLI v2** e **REST APIs** para diferentes perfis de usuário.
+*   **MLOps and Governance:** Robust tools for managing the model lifecycle, including Git and MLflow integration, pipeline scheduling, and integration with Azure Event Grid.
+*   **LLM and Generative AI Support:** Includes a **Model Catalog** with hundreds of models (Azure OpenAI, Mistral, Meta, Cohere, etc.) and **Prompt Flow** to simplify the development, experimentation, and deployment of Generative AI applications.
+*   **Automation and Optimization:** **Automated ML (AutoML)** for automated feature and algorithm selection, and hyperparameter optimization.
+*   **Distributed Training:** Support for distributed training across multiple nodes (PyTorch, TensorFlow, MPI) on compute clusters and serverless compute.
+*   **Managed Deployment:** **Managed Endpoints** for real-time (online) and batch inference, with features such as traffic splitting for A/B testing.
+*   **Development Environment:** **Azure Machine Learning Studio** (UI), **Python SDK v2**, **Azure CLI v2**, and **REST APIs** for different user profiles.
 
 ## Use Cases
 
-*   **MLOps Empresarial:** Gerenciamento do ciclo de vida de ML de ponta a ponta em um ambiente seguro e auditável, garantindo a reprodutibilidade e a conformidade.
-*   **IA Generativa e LLMs:** Construção e implantação de aplicações de IA Generativa usando modelos do Catálogo de Modelos e o Prompt Flow, como chatbots avançados e sistemas de resumo de documentos.
-*   **Manutenção Preditiva:** Previsão de falhas de equipamentos com base na análise de dados de sensores, otimizando a programação de manutenção.
-*   **Varejo e E-commerce:** Previsão de demanda, personalização de ofertas para clientes e gerenciamento dinâmico de estoque.
-*   **Finanças:** Detecção de fraudes em tempo real e otimização de estratégias de negociação e risco.
-*   **Saúde:** Desenvolvimento de modelos de diagnóstico e prognóstico com foco em segurança e conformidade regulatória.
+*   **Enterprise MLOps:** End-to-end management of the ML lifecycle in a secure and auditable environment, ensuring reproducibility and compliance.
+*   **Generative AI and LLMs:** Building and deploying Generative AI applications using models from the Model Catalog and Prompt Flow, such as advanced chatbots and document summarization systems.
+*   **Predictive Maintenance:** Predicting equipment failures based on sensor data analysis, optimizing maintenance scheduling.
+*   **Retail and E-commerce:** Demand forecasting, personalization of customer offers, and dynamic inventory management.
+*   **Finance:** Real-time fraud detection and optimization of trading and risk strategies.
+*   **Healthcare:** Development of diagnostic and prognostic models with a focus on security and regulatory compliance.
 
 ## Integration
 
-A integração primária é feita através do **Azure Machine Learning Python SDK v2**, que permite a criação, submissão e gerenciamento de trabalhos (jobs) de ML de forma programática.
+The primary integration is done through the **Azure Machine Learning Python SDK v2**, which allows the creation, submission, and management of ML jobs programmatically.
 
-**Exemplo de Integração (Python SDK v2 - Criação de Job):**
+**Integration Example (Python SDK v2 - Job Creation):**
 
 ```python
 from azure.ai.ml import MLClient, command
 from azure.identity import DefaultAzureCredential
 
-# 1. Configurar o cliente ML
+# 1. Configure the ML client
 ml_client = MLClient(
     DefaultAzureCredential(), 
-    subscription_id="<SUA_SUBSCRIPTION_ID>",
-    resource_group_name="<SEU_RESOURCE_GROUP>",
-    workspace_name="<SEU_WORKSPACE_NAME>"
+    subscription_id="<YOUR_SUBSCRIPTION_ID>",
+    resource_group_name="<YOUR_RESOURCE_GROUP>",
+    workspace_name="<YOUR_WORKSPACE_NAME>"
 )
 
-# 2. Definir o comando de treinamento (Job)
+# 2. Define the training command (Job)
 job = command(
-    code="./src",  # Pasta contendo o script de treinamento (ex: train.py)
+    code="./src",  # Folder containing the training script (e.g., train.py)
     command="python train.py --data ${{inputs.input_data}}",
     inputs={
         "input_data": {
             "type": "uri_folder",
-            "path": "azureml:diabetes-data:1" # Exemplo de um ativo de dados registrado
+            "path": "azureml:diabetes-data:1" # Example of a registered data asset
         }
     },
-    environment="azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest", # Ambiente Curado
-    compute="<SEU_COMPUTE_CLUSTER_NAME>", # Nome do seu cluster de computação
+    environment="azureml:AzureML-sklearn-1.0-ubuntu20.04-py38-cpu@latest", # Curated Environment
+    compute="<YOUR_COMPUTE_CLUSTER_NAME>", # Name of your compute cluster
     display_name="sklearn-training-job",
-    description="Treinamento de modelo Sklearn para diabetes"
+    description="Sklearn model training for diabetes"
 )
 
-# 3. Submeter o trabalho
+# 3. Submit the job
 returned_job = ml_client.jobs.create_or_update(job)
-print(f"Trabalho submetido. Link do Estúdio Azure ML: {returned_job.studio_url}")
+print(f"Job submitted. Azure ML Studio link: {returned_job.studio_url}")
 ```
 
-**Outras Integrações:**
-*   **MLflow:** Integração nativa para rastreamento de experimentos e registro de modelos.
-*   **Azure Services:** Integração profunda com Azure Synapse Analytics (processamento de dados Spark), Azure Arc (Kubernetes), Azure Key Vault (segurança) e Azure Purview (catálogo de dados).
-*   **CI/CD:** Facilidade de uso com ferramentas de CI/CD como GitHub Actions ou Azure DevOps para automação de MLOps.
+**Other Integrations:**
+*   **MLflow:** Native integration for experiment tracking and model registration.
+*   **Azure Services:** Deep integration with Azure Synapse Analytics (Spark data processing), Azure Arc (Kubernetes), Azure Key Vault (security), and Azure Purview (data catalog).
+*   **CI/CD:** Ease of use with CI/CD tools such as GitHub Actions or Azure DevOps for MLOps automation.
 
 ## URL
 

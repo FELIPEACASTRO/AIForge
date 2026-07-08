@@ -1,60 +1,60 @@
 # Funnel Analysis Prompts
 
 ## Description
-**Prompts de Análise de Funil** (*Funnel Analysis Prompts*) são uma técnica avançada de *Prompt Engineering* focada em instruir Modelos de Linguagem Grande (LLMs) a processar dados de funis de marketing, vendas, produto (AARRR) ou experiência do usuário (UX), a fim de identificar gargalos (*leakages*), calcular taxas de conversão e sugerir otimizações acionáveis. A técnica exige que o usuário forneça à IA o **contexto** (o que está sendo analisado), os **dados brutos** (métricas por estágio) e a **instrução** (o que a IA deve fazer com esses dados, geralmente atuando como um analista ou consultor). O objetivo é transformar dados quantitativos em *insights* qualitativos e estratégicos, permitindo que a IA simule um processo de consultoria analítica. Esta técnica é fundamental para a otimização de *growth* e *performance* em ambientes digitais.
+**Funnel Analysis Prompts** are an advanced *Prompt Engineering* technique focused on instructing Large Language Models (LLMs) to process data from marketing, sales, product (AARRR), or user experience (UX) funnels in order to identify bottlenecks (*leakages*), calculate conversion rates, and suggest actionable optimizations. The technique requires the user to provide the AI with the **context** (what is being analyzed), the **raw data** (metrics per stage), and the **instruction** (what the AI should do with that data, usually acting as an analyst or consultant). The goal is to transform quantitative data into qualitative and strategic *insights*, enabling the AI to simulate an analytical consulting process. This technique is fundamental for *growth* and *performance* optimization in digital environments.
 
 ## Examples
 ```
-**Exemplo 1: E-commerce (Funil de Compra)**
-**Ato:** Atue como um Analista de Otimização de Conversão (CRO) para um e-commerce de moda.
-**Contexto:** O funil de compra é: **Visita à Página Inicial -> Visualização de Produto -> Adição ao Carrinho -> Checkout -> Compra Concluída**.
-**Dados:** Nas últimas 4 semanas, tivemos 100.000 visitas, 40.000 visualizações de produto, 8.000 adições ao carrinho, 2.000 inícios de checkout e 500 compras concluídas. O AOV (Valor Médio do Pedido) é R$ 300.
-**Instrução:** Identifique o estágio com a maior taxa de abandono, calcule o potencial de receita incremental se a taxa de conversão desse estágio fosse aumentada em 10%, e sugira 3 táticas de CRO específicas para esse ponto de vazamento.
+**Example 1: E-commerce (Purchase Funnel)**
+**Role:** Act as a Conversion Rate Optimization (CRO) Analyst for a fashion e-commerce store.
+**Context:** The purchase funnel is: **Homepage Visit -> Product View -> Add to Cart -> Checkout -> Purchase Completed**.
+**Data:** Over the past 4 weeks, we had 100,000 visits, 40,000 product views, 8,000 add-to-cart actions, 2,000 checkout starts, and 500 completed purchases. The AOV (Average Order Value) is R$ 300.
+**Instruction:** Identify the stage with the highest abandonment rate, calculate the potential incremental revenue if that stage's conversion rate were increased by 10%, and suggest 3 specific CRO tactics for that leakage point.
 
-**Exemplo 2: SaaS (Funil de Ativação)**
-**Ato:** Atue como um Gerente de Produto focado em Ativação (Activation Manager) para um software SaaS B2B de gestão de projetos.
-**Contexto:** O funil de ativação é: **Cadastro -> Instalação do App -> Criação do Primeiro Projeto -> Convidar Membro da Equipe -> Uso Semanal**.
-**Dados:** Dos 5.000 novos cadastros no último mês, 3.500 instalaram o app, 1.500 criaram o primeiro projeto, 500 convidaram um membro e apenas 100 atingiram o uso semanal.
-**Instrução:** Analise a transição de "Instalação do App" para "Criação do Primeiro Projeto". Qual é a principal barreira percebida? Crie um *prompt* de e-mail de *onboarding* de 3 etapas para reduzir esse *drop-off*, focando no valor imediato (*Aha! Moment*).
+**Example 2: SaaS (Activation Funnel)**
+**Role:** Act as an Activation-focused Product Manager (Activation Manager) for a B2B SaaS project management software.
+**Context:** The activation funnel is: **Sign-up -> App Installation -> First Project Creation -> Invite Team Member -> Weekly Usage**.
+**Data:** Of the 5,000 new sign-ups last month, 3,500 installed the app, 1,500 created their first project, 500 invited a member, and only 100 reached weekly usage.
+**Instruction:** Analyze the transition from "App Installation" to "First Project Creation." What is the main perceived barrier? Create a 3-step *onboarding* email *prompt* to reduce this *drop-off*, focusing on immediate value (*Aha! Moment*).
 
-**Exemplo 3: Geração de Leads (Funil de Marketing)**
-**Ato:** Atue como um Especialista em Automação de Marketing para uma empresa de consultoria B2B.
-**Contexto:** O funil de leads é: **Visita ao Blog -> Download de Ebook (MQL) -> Solicitação de Demonstração (SQL) -> Reunião Agendada**.
-**Dados:** No último trimestre, 50.000 visitas ao blog geraram 5.000 downloads, 200 solicitações de demonstração e 50 reuniões agendadas.
-**Instrução:** Concentre-se na conversão de MQL para SQL. Analise a taxa de conversão e sugira 5 critérios de *lead scoring* (pontuação de leads) que, se implementados, poderiam melhorar a qualidade dos leads que chegam ao time de vendas.
+**Example 3: Lead Generation (Marketing Funnel)**
+**Role:** Act as a Marketing Automation Specialist for a B2B consulting company.
+**Context:** The lead funnel is: **Blog Visit -> Ebook Download (MQL) -> Demo Request (SQL) -> Meeting Scheduled**.
+**Data:** Last quarter, 50,000 blog visits generated 5,000 downloads, 200 demo requests, and 50 scheduled meetings.
+**Instruction:** Focus on the conversion from MQL to SQL. Analyze the conversion rate and suggest 5 *lead scoring* criteria that, if implemented, could improve the quality of the leads reaching the sales team.
 
-**Exemplo 4: Conteúdo e Engajamento (Funil de Mídia)**
-**Ato:** Atue como um Estrategista de Conteúdo para um canal de notícias online.
-**Contexto:** O funil de engajamento é: **Visualização de Artigo -> Rolagem de 50% -> Clique em Artigo Relacionado -> Inscrição na Newsletter**.
-**Dados:** Onde está o maior *drop-off*? Proponha uma alteração no *call-to-action* (CTA) da newsletter e um novo formato de conteúdo (ex: quiz, infográfico) para o estágio de "Clique em Artigo Relacionado" para aumentar a conversão para a newsletter.
+**Example 4: Content and Engagement (Media Funnel)**
+**Role:** Act as a Content Strategist for an online news channel.
+**Context:** The engagement funnel is: **Article View -> 50% Scroll -> Click on Related Article -> Newsletter Subscription**.
+**Data:** Where is the largest *drop-off*? Propose a change to the newsletter's *call-to-action* (CTA) and a new content format (e.g., quiz, infographic) for the "Click on Related Article" stage to increase conversion to the newsletter.
 
-**Exemplo 5: Análise de Retenção (Funil de Churn)**
-**Ato:** Atue como um Cientista de Dados de Cliente (Customer Data Scientist) para um serviço de streaming por assinatura.
-**Contexto:** O funil de *churn* (abandono) é: **Assinatura Ativa -> Uso Semanal -> Redução de Uso -> Cancelamento -> Reativação**.
-**Dados:** 10.000 usuários ativos. 500 reduziram o uso no último mês. Desses, 100 cancelaram. 10 reativaram.
-**Instrução:** Descreva o perfil dos 100 usuários que cancelaram (com base em dados fictícios de engajamento: assistiram menos de 2 horas/semana, não usaram a função de lista de favoritos). Com base nesse perfil, crie um *prompt* para um modelo de IA gerar 3 ofertas de retenção personalizadas e o momento ideal para enviá-las.
+**Example 5: Retention Analysis (Churn Funnel)**
+**Role:** Act as a Customer Data Scientist for a subscription streaming service.
+**Context:** The *churn* (attrition) funnel is: **Active Subscription -> Weekly Usage -> Reduced Usage -> Cancellation -> Reactivation**.
+**Data:** 10,000 active users. 500 reduced their usage last month. Of those, 100 cancelled. 10 reactivated.
+**Instruction:** Describe the profile of the 100 users who cancelled (based on fictional engagement data: watched less than 2 hours/week, did not use the favorites list feature). Based on this profile, create a *prompt* for an AI model to generate 3 personalized retention offers and the ideal timing to send them.
 
-**Exemplo 6: Funil de Produto (UX/UI)**
-**Ato:** Atue como um Designer de UX/UI.
-**Contexto:** O funil de uso de um recurso é: **Abertura do Recurso -> Interação com o Filtro -> Aplicação do Filtro -> Salvar Configuração**.
-**Dados:** 5.000 aberturas do recurso, 4.000 interações com o filtro, 1.500 aplicações do filtro, 500 salvamentos de configuração.
-**Instrução:** O *drop-off* entre "Interação com o Filtro" e "Aplicação do Filtro" é alto. Liste 3 hipóteses de usabilidade (UX) para esse vazamento e sugira um teste A/B de interface (UI) para validar a hipótese mais provável.
+**Example 6: Product Funnel (UX/UI)**
+**Role:** Act as a UX/UI Designer.
+**Context:** The feature usage funnel is: **Open Feature -> Interact with Filter -> Apply Filter -> Save Configuration**.
+**Data:** 5,000 feature opens, 4,000 filter interactions, 1,500 filter applications, 500 configuration saves.
+**Instruction:** The *drop-off* between "Interact with Filter" and "Apply Filter" is high. List 3 usability (UX) hypotheses for this leakage and suggest an interface (UI) A/B test to validate the most likely hypothesis.
 
-**Exemplo 7: Funil de Vendas Complexas (B2B)**
-**Ato:** Atue como um Consultor de Estratégia de Vendas.
-**Contexto:** O funil de vendas é: **Prospecção -> Qualificação -> Proposta -> Negociação -> Fechamento**.
-**Dados:** 100 prospecções, 50 qualificações, 20 propostas enviadas, 10 negociações, 5 fechamentos.
-**Instrução:** Analise a conversão de "Proposta" para "Negociação". Qual é a taxa de conversão? Crie um *template* de *prompt* para o time de vendas usar no CRM, solicitando à IA uma análise preditiva do risco de perda para cada proposta, com base em 3 variáveis de entrada (ex: tempo de resposta do cliente, número de *stakeholders* envolvidos, valor da proposta).
+**Example 7: Complex Sales Funnel (B2B)**
+**Role:** Act as a Sales Strategy Consultant.
+**Context:** The sales funnel is: **Prospecting -> Qualification -> Proposal -> Negotiation -> Closing**.
+**Data:** 100 prospects, 50 qualifications, 20 proposals sent, 10 negotiations, 5 closings.
+**Instruction:** Analyze the conversion from "Proposal" to "Negotiation." What is the conversion rate? Create a *prompt* *template* for the sales team to use in the CRM, asking the AI for a predictive analysis of the loss risk for each proposal, based on 3 input variables (e.g., customer response time, number of *stakeholders* involved, proposal value).
 ```
 
 ## Best Practices
-**1. Defina o Funil com Clareza:** Antes de tudo, mapeie os estágios do funil de forma lógica e sequencial (ex: AARRR - Aquisição, Ativação, Retenção, Receita, Referência). A clareza do funil é a base para a análise da IA. **2. Forneça Dados Estruturados e Contextualizados:** Apresente os dados de forma organizada (tabela, lista) e inclua o contexto de negócio (indústria, público-alvo, modelo de receita). **3. Atribua um "Ato" (Persona):** Peça à IA para atuar como um especialista específico (ex: "Atue como um Analista de CRO", "Atue como um Cientista de Dados"). Isso melhora a qualidade e o foco das respostas. **4. Solicite Ações e Hipóteses:** Não peça apenas a identificação do problema, mas também a sugestão de ações, testes A/B ou hipóteses de causa raiz. **5. Use a Análise para Cenários:** Peça à IA para calcular o impacto potencial de melhorias (ex: "Calcule o aumento de receita se a conversão do estágio X for de 5% para 7%").
+**1. Define the Funnel Clearly:** First and foremost, map the funnel stages in a logical and sequential way (e.g., AARRR - Acquisition, Activation, Retention, Revenue, Referral). Clarity of the funnel is the foundation for the AI's analysis. **2. Provide Structured and Contextualized Data:** Present the data in an organized way (table, list) and include the business context (industry, target audience, revenue model). **3. Assign a "Role" (Persona):** Ask the AI to act as a specific expert (e.g., "Act as a CRO Analyst," "Act as a Data Scientist"). This improves the quality and focus of the responses. **4. Request Actions and Hypotheses:** Do not just ask for the identification of the problem, but also for suggested actions, A/B tests, or root cause hypotheses. **5. Use the Analysis for Scenarios:** Ask the AI to calculate the potential impact of improvements (e.g., "Calculate the revenue increase if the conversion of stage X goes from 5% to 7%").
 
 ## Use Cases
-**1. Otimização de Conversão (CRO):** Identificar o ponto exato de maior abandono em um funil de e-commerce ou SaaS para focar esforços de otimização. **2. Análise de Ativação de Produto:** Entender por que novos usuários não estão completando o *onboarding* ou atingindo o *Aha! Moment* em aplicativos. **3. Estratégia de Retenção e *Churn*:** Analisar o funil de abandono para prever e prevenir o *churn* (cancelamento) de clientes, gerando ofertas de retenção personalizadas. **4. *Lead Scoring* e Qualificação:** Ajudar equipes de marketing e vendas a refinar critérios de pontuação de leads (MQL para SQL) com base em dados de conversão histórica. **5. Simulação de Cenários (*What-If*):** Calcular o impacto financeiro potencial de melhorias hipotéticas na taxa de conversão de um estágio específico. **6. Diagnóstico de UX/UI:** Aplicar a lógica de funil a fluxos de uso de recursos de software para identificar falhas de usabilidade.
+**1. Conversion Optimization (CRO):** Identify the exact point of greatest abandonment in an e-commerce or SaaS funnel to focus optimization efforts. **2. Product Activation Analysis:** Understand why new users are not completing *onboarding* or reaching the *Aha! Moment* in applications. **3. Retention and *Churn* Strategy:** Analyze the abandonment funnel to predict and prevent customer *churn* (cancellation), generating personalized retention offers. **4. *Lead Scoring* and Qualification:** Help marketing and sales teams refine lead scoring criteria (MQL to SQL) based on historical conversion data. **5. Scenario Simulation (*What-If*):** Calculate the potential financial impact of hypothetical improvements in the conversion rate of a specific stage. **6. UX/UI Diagnosis:** Apply funnel logic to software feature usage flows to identify usability flaws.
 
 ## Pitfalls
-**1. Dados Incompletos ou Viesados:** Fornecer à IA dados parciais, desatualizados ou com viés de atribuição (ex: atribuir todas as vendas ao último clique). A IA só pode analisar o que é fornecido. **2. Funil Mal Definido:** Não mapear claramente os estágios do funil de forma lógica e sequencial, resultando em análises confusas ou irrelevantes. **3. Falta de Contexto de Negócio:** Não informar à IA o modelo de negócio (SaaS, e-commerce, B2B), o público-alvo ou os objetivos específicos, levando a recomendações genéricas. **4. Ignorar a Qualidade dos Dados:** Não incluir na análise a validação da integridade dos dados (ex: duplicação de eventos, *bots*), o que pode distorcer as taxas de conversão. **5. Foco Excessivo em Métricas de Vaidade:** Pedir à IA para otimizar métricas de topo de funil (ex: visualizações) sem conectar o impacto nas métricas de fundo (ex: receita, LTV). **6. Recomendações Não Acionáveis:** Solicitar análises sem pedir explicitamente por *táticas* ou *hipóteses de teste* concretas, resultando em *insights* teóricos. **7. Não Segmentar a Análise:** Analisar o funil como um todo, sem segmentar por canal (orgânico vs. pago), dispositivo (mobile vs. desktop) ou coorte de usuários, perdendo a oportunidade de identificar vazamentos específicos. **8. Confundir Causa com Correlação:** Aceitar as conclusões da IA sem aplicar o próprio julgamento crítico, especialmente em análises de causa raiz, onde a correlação pode ser confundida com causalidade.
+**1. Incomplete or Biased Data:** Providing the AI with partial, outdated, or attribution-biased data (e.g., attributing all sales to the last click). The AI can only analyze what is provided. **2. Poorly Defined Funnel:** Not clearly mapping the funnel stages in a logical and sequential way, resulting in confusing or irrelevant analyses. **3. Lack of Business Context:** Not informing the AI of the business model (SaaS, e-commerce, B2B), the target audience, or the specific objectives, leading to generic recommendations. **4. Ignoring Data Quality:** Not including data integrity validation in the analysis (e.g., event duplication, *bots*), which can distort conversion rates. **5. Excessive Focus on Vanity Metrics:** Asking the AI to optimize top-of-funnel metrics (e.g., views) without connecting the impact on bottom-of-funnel metrics (e.g., revenue, LTV). **6. Non-Actionable Recommendations:** Requesting analyses without explicitly asking for concrete *tactics* or *test hypotheses*, resulting in theoretical *insights*. **7. Not Segmenting the Analysis:** Analyzing the funnel as a whole, without segmenting by channel (organic vs. paid), device (mobile vs. desktop), or user cohort, missing the opportunity to identify specific leakages. **8. Confusing Cause with Correlation:** Accepting the AI's conclusions without applying your own critical judgment, especially in root cause analyses, where correlation may be confused with causation.
 
 ## URL
 [https://founderpal.ai/prompts-examples/funnel-analysis](https://founderpal.ai/prompts-examples/funnel-analysis)

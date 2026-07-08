@@ -2,23 +2,23 @@
 
 ## Description
 
-DoctorAgent-RL é uma estrutura de aprendizado por reforço (RL) multiagente e colaborativa, projetada para revolucionar o diálogo clínico multi-turn. Ela modela consultas médicas como processos dinâmicos de tomada de decisão sob incerteza, permitindo que o agente médico otimize sua estratégia de questionamento para coleta adaptativa de informações. O objetivo é desenvolver estratégias de interação alinhadas com a lógica de raciocínio clínico, superando as limitações dos modelos estáticos de aprendizado supervisionado.
+DoctorAgent-RL is a multi-agent, collaborative reinforcement learning (RL) framework designed to revolutionize multi-turn clinical dialogue. It models medical consultations as dynamic decision-making processes under uncertainty, enabling the doctor agent to optimize its questioning strategy for adaptive information gathering. The goal is to develop interaction strategies aligned with clinical reasoning logic, overcoming the limitations of static supervised learning models.
 
 ## Statistics
 
-Precisão Diagnóstica Média: 58.9% (Tabela 5 do artigo). O modelo superou modelos existentes em capacidade de raciocínio multi-turn e desempenho diagnóstico final. O conjunto de dados MTMedDialog, com mais de 10.000 diálogos, foi construído para treinamento e avaliação.
+Average Diagnostic Accuracy: 58.9% (Table 5 of the paper). The model outperformed existing models in multi-turn reasoning capability and final diagnostic performance. The MTMedDialog dataset, with more than 10,000 dialogues, was built for training and evaluation.
 
 ## Features
 
-Colaboração Multiagente (Agente Médico e Agente Paciente); Otimização Dinâmica de Estratégia via RL (Group Relative Policy Optimization - GRPO); Design de Recompensa Abrangente para avaliação de consulta; Integração de Conhecimento Médico; Utiliza o dataset MTMedDialog.
+Multi-Agent Collaboration (Doctor Agent and Patient Agent); Dynamic Strategy Optimization via RL (Group Relative Policy Optimization - GRPO); Comprehensive Reward Design for consultation evaluation; Medical Knowledge Integration; Uses the MTMedDialog dataset.
 
 ## Use Cases
 
-Otimização de Consultas Médicas Multi-Turn; Melhoria da Precisão Diagnóstica em Ambientes de Diálogo; Redução do Risco de Diagnóstico Incorreto em Cenários de Pressão de Tempo; Alívio da Escassez de Mão de Obra Clínica.
+Optimization of Multi-Turn Medical Consultations; Improved Diagnostic Accuracy in Dialogue Settings; Reduced Risk of Misdiagnosis in Time-Pressured Scenarios; Alleviation of Clinical Workforce Shortages.
 
 ## Integration
 
-O código e os modelos estão disponíveis no GitHub e Huggingface. A integração envolve clonar o repositório, configurar o ambiente (seguindo o script setup_ragen.sh) e utilizar scripts de treinamento e avaliação em Bash. Exemplo de treinamento: `bash scripts_exp/doctor-agent-rl-dynamic.sh` (para Dynamic Turns + SFT Cold Start).
+The code and models are available on GitHub and Huggingface. Integration involves cloning the repository, setting up the environment (following the setup_ragen.sh script), and using Bash training and evaluation scripts. Training example: `bash scripts_exp/doctor-agent-rl-dynamic.sh` (for Dynamic Turns + SFT Cold Start).
 
 ## URL
 

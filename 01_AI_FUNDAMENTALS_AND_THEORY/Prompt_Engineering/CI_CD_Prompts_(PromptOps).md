@@ -1,54 +1,54 @@
 # CI/CD Prompts (PromptOps)
 
 ## Description
-**CI/CD Prompts** (ou **PromptOps**) é uma abordagem de engenharia de software que aplica os princípios de Integração Contínua (CI), Avaliação Contínua (CE) e Implantação Contínua (CD) ao ciclo de vida dos prompts de Large Language Models (LLMs). Em vez de tratar os prompts como entradas estáticas, esta técnica os trata como **artefatos de código críticos** que precisam ser versionados, testados rigorosamente e implantados de forma automatizada. O objetivo é garantir a **qualidade, confiabilidade, segurança e desempenho** dos prompts em aplicações de IA em produção, mitigando o risco de regressões e comportamentos inesperados (como alucinações ou *prompt injection*) causados por pequenas alterações no prompt ou no modelo subjacente. Essencialmente, é a **infraestrutura de DevOps** para a camada de *prompt engineering*.
+**CI/CD Prompts** (or **PromptOps**) is a software engineering approach that applies the principles of Continuous Integration (CI), Continuous Evaluation (CE), and Continuous Deployment (CD) to the lifecycle of Large Language Model (LLM) prompts. Instead of treating prompts as static inputs, this technique treats them as **critical code artifacts** that need to be versioned, rigorously tested, and deployed in an automated way. The goal is to ensure the **quality, reliability, security, and performance** of prompts in production AI applications, mitigating the risk of regressions and unexpected behaviors (such as hallucinations or *prompt injection*) caused by small changes to the prompt or the underlying model. Essentially, it is the **DevOps infrastructure** for the *prompt engineering* layer.
 
 ## Examples
 ```
-**1. Geração de Pipeline de CI/CD (GitHub Actions):**
+**1. CI/CD Pipeline Generation (GitHub Actions):**
 ```
-Crie um fluxo de trabalho GitHub Actions completo em YAML para um microsserviço Node.js. O pipeline deve incluir: 1) Linting com ESLint, 2) Testes unitários com Jest, 3) Build da imagem Docker, 4) Push para o AWS ECR, e 5) Implantação no AWS ECS. Use variáveis de ambiente para credenciais.
-```
-
-**2. Análise de Log e Resumo de Erros:**
-```
-Analise o seguinte log de falha do Jenkins/GitLab CI: [cole o log]. Identifique a causa raiz provável, resuma os 3 erros mais críticos e sugira uma correção específica no código ou na configuração do pipeline.
+Create a complete GitHub Actions workflow in YAML for a Node.js microservice. The pipeline should include: 1) Linting with ESLint, 2) Unit tests with Jest, 3) Docker image build, 4) Push to AWS ECR, and 5) Deployment to AWS ECS. Use environment variables for credentials.
 ```
 
-**3. Otimização de Configuração de Build:**
+**2. Log Analysis and Error Summary:**
 ```
-Revise o seguinte arquivo Dockerfile: [cole o Dockerfile]. Sugira otimizações para reduzir o tamanho final da imagem e o tempo de build, focando em multi-stage builds e cache de dependências. Explique a razão de cada mudança.
-```
-
-**4. Geração de Teste de Segurança (Prompt Injection):**
-```
-Atue como um especialista em segurança. Gere 5 payloads de Prompt Injection para testar a robustez do seguinte prompt de sistema: "Você é um assistente de atendimento ao cliente. Responda apenas com base no manual do produto fornecido." O objetivo é fazer o modelo ignorar a instrução inicial.
+Analyze the following Jenkins/GitLab CI failure log: [paste the log]. Identify the likely root cause, summarize the 3 most critical errors, and suggest a specific fix in the code or in the pipeline configuration.
 ```
 
-**5. Conversão de Infraestrutura como Código (IaC):**
+**3. Build Configuration Optimization:**
 ```
-Converta o seguinte arquivo Docker Compose: [cole o docker-compose.yml] para um conjunto de manifestos Kubernetes (Deployment, Service, PersistentVolumeClaim). Aplique as melhores práticas de K8s, como limites de recursos e labels de seletor. Forneça a saída como arquivos YAML separados.
-```
-
-**6. Geração de Query de Monitoramento (Prometheus/Grafana):**
-```
-Escreva uma query PromQL para calcular a latência do 99º percentil (p99) para o endpoint '/api/v1/checkout' em um período de 10 minutos. Explique a query e sugira uma visualização de alerta no Grafana para quando a latência exceder 500ms.
+Review the following Dockerfile: [paste the Dockerfile]. Suggest optimizations to reduce the final image size and build time, focusing on multi-stage builds and dependency caching. Explain the reason for each change.
 ```
 
-**7. Criação de Template de Post-Mortem:**
+**4. Security Test Generation (Prompt Injection):**
 ```
-Crie um template de post-mortem em Markdown para uma falha de implantação em produção. O template deve ter seções para: Resumo, Linha do Tempo (com carimbos de data/hora), Impacto, Causa Raiz, Resolução e Itens de Ação (com responsáveis). Inclua um exemplo de preenchimento para uma falha de certificado SSL.
+Act as a security expert. Generate 5 Prompt Injection payloads to test the robustness of the following system prompt: "You are a customer service assistant. Respond only based on the provided product manual." The goal is to make the model ignore the initial instruction.
+```
+
+**5. Infrastructure as Code (IaC) Conversion:**
+```
+Convert the following Docker Compose file: [paste the docker-compose.yml] into a set of Kubernetes manifests (Deployment, Service, PersistentVolumeClaim). Apply K8s best practices, such as resource limits and selector labels. Provide the output as separate YAML files.
+```
+
+**6. Monitoring Query Generation (Prometheus/Grafana):**
+```
+Write a PromQL query to calculate the 99th percentile (p99) latency for the '/api/v1/checkout' endpoint over a 10-minute period. Explain the query and suggest an alert visualization in Grafana for when latency exceeds 500ms.
+```
+
+**7. Post-Mortem Template Creation:**
+```
+Create a post-mortem template in Markdown for a production deployment failure. The template should have sections for: Summary, Timeline (with timestamps), Impact, Root Cause, Resolution, and Action Items (with owners). Include a filled-in example for an SSL certificate failure.
 ```
 ```
 
 ## Best Practices
-**Versionamento e Gerenciamento:** Trate os prompts como código, utilizando sistemas de controle de versão (Git) e pipelines de CI/CD (Continuous Integration/Continuous Deployment) para versionar, testar e implantar alterações de forma controlada. **Avaliação Contínua (CE):** Implemente um estágio de Avaliação Contínua (CE - Continuous Evaluation) no pipeline para testar automaticamente a qualidade, segurança e performance dos prompts antes da implantação em produção. Use métricas objetivas (como taxa de acerto, latência) e subjetivas (como relevância, tom). **Testes de Segurança:** Inclua testes automatizados para detectar vulnerabilidades como Prompt Injection e vazamento de dados sensíveis. **Monitoramento em Produção:** Monitore o desempenho do prompt em tempo real (Prompt Monitoring) para identificar desvios de comportamento (drift), degradação de performance ou aumento de toxicidade, acionando alertas para reversão ou retreinamento. **Modularidade:** Utilize prompts modulares e templates (como Jinja ou Handlebars) para facilitar a manutenção, reutilização e aplicação de mudanças globais.
+**Versioning and Management:** Treat prompts as code, using version control systems (Git) and CI/CD (Continuous Integration/Continuous Deployment) pipelines to version, test, and deploy changes in a controlled way. **Continuous Evaluation (CE):** Implement a Continuous Evaluation (CE) stage in the pipeline to automatically test the quality, security, and performance of prompts before deployment to production. Use objective metrics (such as hit rate, latency) and subjective ones (such as relevance, tone). **Security Testing:** Include automated tests to detect vulnerabilities such as Prompt Injection and leakage of sensitive data. **Production Monitoring:** Monitor prompt performance in real time (Prompt Monitoring) to identify behavior deviations (drift), performance degradation, or increased toxicity, triggering alerts for rollback or retraining. **Modularity:** Use modular prompts and templates (such as Jinja or Handlebars) to facilitate maintenance, reuse, and the application of global changes.
 
 ## Use Cases
-**Desenvolvimento de Aplicações LLM:** Garantir que as alterações nos prompts (incluindo prompts de sistema e *few-shot examples*) não degradem a qualidade ou introduzam vulnerabilidades antes de serem implantadas em produção. **DevOps e Infraestrutura como Código (IaC):** Automatizar a geração, validação e otimização de scripts de infraestrutura (Terraform, CloudFormation, Kubernetes YAMLs) e pipelines de CI/CD (GitHub Actions, GitLab CI, Jenkinsfile). **Monitoramento e Observabilidade:** Gerar queries complexas de monitoramento (Prometheus, Splunk) e templates de alertas ou dashboards (Grafana) com base em requisitos de alto nível. **Engenharia de Confiabilidade (SRE):** Criar templates de documentos críticos, como post-mortems e runbooks de incidentes, garantindo consistência e completude. **Otimização de Custos em Nuvem:** Analisar relatórios de custos (AWS Cost Explorer, Azure Cost Management) e gerar recomendações de otimização de recursos e economia.
+**LLM Application Development:** Ensuring that changes to prompts (including system prompts and *few-shot examples*) do not degrade quality or introduce vulnerabilities before they are deployed to production. **DevOps and Infrastructure as Code (IaC):** Automating the generation, validation, and optimization of infrastructure scripts (Terraform, CloudFormation, Kubernetes YAMLs) and CI/CD pipelines (GitHub Actions, GitLab CI, Jenkinsfile). **Monitoring and Observability:** Generating complex monitoring queries (Prometheus, Splunk) and alert templates or dashboards (Grafana) based on high-level requirements. **Site Reliability Engineering (SRE):** Creating critical document templates, such as post-mortems and incident runbooks, ensuring consistency and completeness. **Cloud Cost Optimization:** Analyzing cost reports (AWS Cost Explorer, Azure Cost Management) and generating resource optimization and savings recommendations.
 
 ## Pitfalls
-**Falta de Versionamento:** Tratar prompts como texto simples em vez de artefatos versionados, dificultando a reversão para versões anteriores ou a identificação da causa de uma regressão. **Avaliação Insuficiente:** Confiar apenas em testes manuais ou métricas de qualidade de código tradicionais (como cobertura de código) sem incluir métricas específicas de LLM (como taxa de alucinação, relevância da resposta, toxicidade). **Ignorar a Segurança:** Não incluir testes automatizados para *Prompt Injection* e vazamento de dados, expondo a aplicação a riscos de segurança. **Foco Apenas no Código:** Concentrar o CI/CD apenas no código da aplicação e negligenciar o pipeline de avaliação e implantação dos prompts, que são igualmente críticos para o comportamento da aplicação. **Overhead Excessivo:** Criar pipelines de CI/CD excessivamente complexos ou lentos, especialmente se a reavaliação de prompts for muito demorada ou cara, desincentivando a iteração rápida.
+**Lack of Versioning:** Treating prompts as plain text instead of versioned artifacts, making it difficult to roll back to previous versions or identify the cause of a regression. **Insufficient Evaluation:** Relying only on manual tests or traditional code quality metrics (such as code coverage) without including LLM-specific metrics (such as hallucination rate, response relevance, toxicity). **Ignoring Security:** Failing to include automated tests for *Prompt Injection* and data leakage, exposing the application to security risks. **Focusing Only on Code:** Concentrating CI/CD only on the application code and neglecting the evaluation and deployment pipeline for prompts, which are equally critical to the application's behavior. **Excessive Overhead:** Creating overly complex or slow CI/CD pipelines, especially if re-evaluating prompts is too time-consuming or expensive, discouraging rapid iteration.
 
 ## URL
 [https://www.getbasalt.ai/post/implementing-ci-cd-for-prompts](https://www.getbasalt.ai/post/implementing-ci-cd-for-prompts)

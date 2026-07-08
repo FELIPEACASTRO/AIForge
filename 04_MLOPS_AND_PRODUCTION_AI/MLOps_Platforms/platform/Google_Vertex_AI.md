@@ -2,35 +2,35 @@
 
 ## Description
 
-O Google Vertex AI é uma plataforma de desenvolvimento de IA unificada e totalmente gerenciada do Google Cloud, projetada para simplificar e acelerar o ciclo de vida de Machine Learning (ML) e IA Generativa (GenAI) de ponta a ponta. Sua proposta de valor única reside na unificação de todos os serviços de ML em uma única interface e API, permitindo que cientistas de dados e engenheiros de ML automatizem, padronizem e gerenciem projetos de ML com eficiência. A plataforma se destaca pela integração nativa com os modelos Gemini e pelo acesso a mais de 200 modelos de fundação (via Model Garden), aprimorando significativamente suas capacidades de GenAI de nível empresarial.
+Google Vertex AI is a unified and fully managed AI development platform from Google Cloud, designed to simplify and accelerate the end-to-end Machine Learning (ML) and Generative AI (GenAI) lifecycle. Its unique value proposition lies in the unification of all ML services in a single interface and API, allowing data scientists and ML engineers to automate, standardize, and manage ML projects efficiently. The platform stands out for its native integration with the Gemini models and for access to more than 200 foundation models (via Model Garden), significantly enhancing its enterprise-grade GenAI capabilities.
 
 ## Statistics
 
-**Redução de Tempo de Implantação:** Visa reduzir o tempo necessário para treinar e implantar modelos em produção em até 80% devido à unificação dos serviços. **Modelos de Fundação:** Oferece acesso a mais de 200 modelos de fundação no Model Garden, incluindo modelos do Google (Gemini, Imagen) e de terceiros/código aberto (Llama 3.2, Claude). **Métricas de Monitoramento:** Exporta métricas detalhadas para o Cloud Monitoring, como Utilização de CPU/Memória e Utilização de Memória do Acelerador (GPU/TPU).
+**Deployment Time Reduction:** Aims to reduce the time needed to train and deploy models to production by up to 80% due to the unification of services. **Foundation Models:** Offers access to more than 200 foundation models in the Model Garden, including models from Google (Gemini, Imagen) and third-party/open-source models (Llama 3.2, Claude). **Monitoring Metrics:** Exports detailed metrics to Cloud Monitoring, such as CPU/Memory Utilization and Accelerator Memory Utilization (GPU/TPU).
 
 ## Features
 
-**Plataforma Unificada:** Unifica todos os serviços de ML do Google Cloud em uma única interface e API. **IA Generativa:** Acesso nativo aos modelos Gemini e a mais de 200 modelos de fundação (incluindo terceiros e código aberto) via Model Garden, com ferramentas como Vertex AI Studio e Agent Builder. **MLOps Completo:** Conjunto robusto de ferramentas para o ciclo de vida de MLOps, incluindo Vertex AI Pipelines (orquestração), Model Registry (gerenciamento), Feature Store (serviço de recursos) e Vertex AI Evaluation (avaliação de modelos). **Desenvolvimento Flexível:** Suporta AutoML (treinamento sem código), Treinamento Personalizado (com frameworks preferidos) e Vertex AI Workbench/Colab Enterprise (notebooks integrados ao BigQuery).
+**Unified Platform:** Unifies all Google Cloud ML services in a single interface and API. **Generative AI:** Native access to the Gemini models and to more than 200 foundation models (including third-party and open-source) via Model Garden, with tools such as Vertex AI Studio and Agent Builder. **Complete MLOps:** A robust set of tools for the MLOps lifecycle, including Vertex AI Pipelines (orchestration), Model Registry (management), Feature Store (feature serving), and Vertex AI Evaluation (model evaluation). **Flexible Development:** Supports AutoML (no-code training), Custom Training (with preferred frameworks), and Vertex AI Workbench/Colab Enterprise (notebooks integrated with BigQuery).
 
 ## Use Cases
 
-**IA Generativa:** Criação de agentes de atendimento ao cliente (ex: LUXGEN), geração de conteúdo (texto, imagem, código) e sumarização de documentos. **ML Preditivo:** Análise de Sentimento em Escala, Previsão de Vendas (usando modelos ARIMA e LSTM) e Classificação de Imagens Personalizada. **MLOps e Governança:** Orquestração de pipelines de ML de ponta a ponta para reprodutibilidade e automação, e monitoramento de modelos em produção para desvio de dados (*data drift*) e enviesamento (*skew*).
+**Generative AI:** Creation of customer service agents (e.g., LUXGEN), content generation (text, image, code), and document summarization. **Predictive ML:** Sentiment Analysis at Scale, Sales Forecasting (using ARIMA and LSTM models), and Custom Image Classification. **MLOps and Governance:** Orchestration of end-to-end ML pipelines for reproducibility and automation, and monitoring of production models for *data drift* and *skew*.
 
 ## Integration
 
-A principal integração é realizada através do **Vertex AI SDK para Python** (`google-cloud-aiplatform`). O SDK permite a automação de tarefas como treinamento, implantação e previsão. A plataforma também se integra nativamente com outros serviços do Google Cloud, como o **BigQuery** (para armazenamento de dados e como *offline store* para o Feature Store) e o **Cloud Monitoring** (para métricas de desempenho).
+The main integration is carried out through the **Vertex AI SDK for Python** (`google-cloud-aiplatform`). The SDK enables the automation of tasks such as training, deployment, and prediction. The platform also integrates natively with other Google Cloud services, such as **BigQuery** (for data storage and as an *offline store* for the Feature Store) and **Cloud Monitoring** (for performance metrics).
 
-**Exemplo de Implantação de Modelo (Python SDK):**
+**Model Deployment Example (Python SDK):**
 ```python
 from google.cloud import aiplatform
 
-# Inicializar o cliente com projeto e região
+# Initialize the client with project and region
 aiplatform.init(project='YOUR_PROJECT_ID', location='YOUR_REGION')
 
-# Obter o modelo treinado
+# Get the trained model
 model = aiplatform.Model.list(filter='display_name="my-trained-model"')[0]
 
-# Criar e implantar o modelo em um endpoint
+# Create and deploy the model to an endpoint
 endpoint = aiplatform.Endpoint.create(display_name='my-model-endpoint')
 model.deploy(
     endpoint=endpoint,

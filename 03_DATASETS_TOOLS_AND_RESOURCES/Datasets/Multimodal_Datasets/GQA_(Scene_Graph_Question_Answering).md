@@ -1,35 +1,35 @@
 # GQA (Scene Graph Question Answering)
 
 ## Description
-O GQA (Scene Graph Question Answering) é um dataset inovador para **Raciocínio Visual no Mundo Real e Resposta a Perguntas Composicionais (VQA)**. Ele foi criado para superar as limitações de datasets VQA anteriores, que eram suscetíveis a vieses de linguagem e falta de composicionalidade semântica. O GQA utiliza **Grafos de Cena** detalhados para representar objetos, atributos e relações nas imagens, e **Programas Funcionais** para estruturar a lógica de raciocínio das perguntas. Isso permite um diagnóstico mais preciso do desempenho dos modelos e incentiva o desenvolvimento de sistemas de VQA mais robustos e interpretáveis.
+GQA (Scene Graph Question Answering) is an innovative dataset for **Real-World Visual Reasoning and Compositional Question Answering (VQA)**. It was created to overcome the limitations of earlier VQA datasets, which were susceptible to language biases and a lack of semantic compositionality. GQA uses detailed **Scene Graphs** to represent objects, attributes, and relationships in images, and **Functional Programs** to structure the reasoning logic of the questions. This enables a more precise diagnosis of model performance and encourages the development of more robust and interpretable VQA systems.
 
 ## Statistics
-- **Imagens:** 113K imagens.
-- **Perguntas:** Mais de 22 milhões de perguntas diversas de raciocínio.
-- **Versões e Tamanhos de Download (Dados Principais):**
+- **Images:** 113K images.
+- **Questions:** More than 22 million diverse reasoning questions.
+- **Versions and Download Sizes (Main Data):**
     - Scene Graphs (ver 1.1): 42.7MB
     - Questions (ver 1.2): 1.4GB
-    - Images (ver 1.1): 73.9GB (Total) ou 20.3GB (Arquivos de Imagem)
-- **Versão Balanceada:** 1.7M perguntas.
+    - Images (ver 1.1): 73.9GB (Total) or 20.3GB (Image Files)
+- **Balanced Version:** 1.7M questions.
 
 ## Features
-- **Raciocínio Composicional:** As perguntas exigem múltiplas habilidades de raciocínio, compreensão espacial e inferência em várias etapas.
-- **Grafos de Cena:** Cada imagem é associada a um grafo de cena detalhado (objetos, atributos e relações), baseado no Visual Genome, mas refinado.
-- **Programas Funcionais:** Cada pergunta é associada a uma representação estruturada de sua semântica, um programa funcional que especifica as etapas de raciocínio necessárias para respondê-la.
-- **Métricas Aprimoradas:** Inclui novas métricas para testar a consistência, validade e plausibilidade das respostas dos modelos, além da precisão.
-- **Dataset Balanceado:** Uma versão balanceada de 1.7M perguntas foi criada para mitigar vieses de linguagem.
+- **Compositional Reasoning:** The questions require multiple reasoning skills, spatial understanding, and multi-step inference.
+- **Scene Graphs:** Each image is associated with a detailed scene graph (objects, attributes, and relationships), based on Visual Genome but refined.
+- **Functional Programs:** Each question is associated with a structured representation of its semantics, a functional program that specifies the reasoning steps needed to answer it.
+- **Improved Metrics:** Includes new metrics to test the consistency, validity, and plausibility of model answers, in addition to accuracy.
+- **Balanced Dataset:** A balanced version of 1.7M questions was created to mitigate language biases.
 
 ## Use Cases
-- Desenvolvimento e avaliação de modelos de **Raciocínio Visual** e **VQA Composicional**.
-- Pesquisa em **Compreensão de Cena** e **Interpretabilidade de Modelos** (devido aos programas funcionais e grafos de cena).
-- Treinamento de modelos para serem mais robustos a viesos de linguagem e condicionais.
+- Development and evaluation of **Visual Reasoning** and **Compositional VQA** models.
+- Research in **Scene Understanding** and **Model Interpretability** (thanks to the functional programs and scene graphs).
+- Training models to be more robust to language and conditional biases.
 
 ## Integration
-O dataset pode ser baixado diretamente da página oficial da Stanford (consulte a URL principal). Os componentes principais são:
-1. **Scene Graphs:** Arquivo `scene_graphs.json` (ver 1.1 / 42.7MB).
-2. **Questions:** Arquivo `questions.json` (ver 1.2 / 1.4GB).
-3. **Images:** Arquivo `images.zip` (ver 1.1 / 20.3GB para arquivos de imagem).
-A página de download também oferece Spatial Features (32.1GB) e Object Features (21.4GB) separadamente. É necessário concordar com os termos de uso para realizar o download.
+The dataset can be downloaded directly from the official Stanford page (see the main URL). The main components are:
+1. **Scene Graphs:** `scene_graphs.json` file (ver 1.1 / 42.7MB).
+2. **Questions:** `questions.json` file (ver 1.2 / 1.4GB).
+3. **Images:** `images.zip` file (ver 1.1 / 20.3GB for image files).
+The download page also offers Spatial Features (32.1GB) and Object Features (21.4GB) separately. You must agree to the terms of use to perform the download.
 
 ## URL
 [https://cs.stanford.edu/people/dorarad/gqa/](https://cs.stanford.edu/people/dorarad/gqa/)

@@ -1,56 +1,56 @@
 # LJSpeech Dataset
 
 ## Description
-O **LJ Speech Dataset** é um corpus de domínio público amplamente utilizado para treinamento e avaliação de modelos de **Text-to-Speech (TTS)**. Consiste em 13.100 clipes de áudio curtos de uma única falante feminina lendo passagens de 7 livros de não-ficção em inglês. Cada clipe de áudio é acompanhado por uma transcrição correspondente, tanto na forma original quanto em uma versão normalizada onde números e abreviações são expandidos em palavras completas. Os textos foram publicados entre 1884 e 1964, e o áudio foi gravado em 2016-2017 como parte do projeto LibriVox. O dataset é conhecido por sua alta qualidade de gravação e consistência, sendo um padrão de referência na pesquisa de síntese de fala.
+The **LJ Speech Dataset** is a public domain corpus widely used for training and evaluating **Text-to-Speech (TTS)** models. It consists of 13,100 short audio clips of a single female speaker reading passages from 7 non-fiction books in English. Each audio clip is accompanied by a corresponding transcription, both in its original form and in a normalized version where numbers and abbreviations are expanded into full words. The texts were published between 1884 and 1964, and the audio was recorded in 2016-2017 as part of the LibriVox project. The dataset is known for its high recording quality and consistency, being a reference standard in speech synthesis research.
 
 ## Statistics
-*   **Versão Mais Recente:** 1.1
-*   **Tamanho do Download:** 2.6 GB
-*   **Total de Clipes:** 13.100
-*   **Duração Total:** 23 horas, 55 minutos e 17 segundos (23:55:17)
-*   **Duração Média do Clipe:** 6.57 segundos
-*   **Total de Palavras:** 225.715
-*   **Taxa de Amostragem:** 22050 Hz
-*   **Formato de Áudio:** WAV, mono, 16-bit PCM
+*   **Most Recent Version:** 1.1
+*   **Download Size:** 2.6 GB
+*   **Total Clips:** 13,100
+*   **Total Duration:** 23 hours, 55 minutes, and 17 seconds (23:55:17)
+*   **Average Clip Duration:** 6.57 seconds
+*   **Total Words:** 225,715
+*   **Sampling Rate:** 22050 Hz
+*   **Audio Format:** WAV, mono, 16-bit PCM
 
 ## Features
-*   **Domínio Público:** O dataset, incluindo textos, áudio e anotações, está em domínio público, sem restrições de uso.
-*   **Falante Única:** Contém gravações de uma única falante feminina, o que o torna ideal para modelos de TTS de falante única.
-*   **Transcrição Normalizada:** Inclui transcrições originais e normalizadas (com números e abreviações expandidos), facilitando o pré-processamento para modelos de TTS.
-*   **Alta Qualidade:** Áudio em formato WAV, mono, 16-bit PCM, com taxa de amostragem de 22050 Hz.
-*   **Segmentação:** Os clipes de áudio são curtos (1 a 10 segundos), segmentados automaticamente com alinhamento manual e garantia de qualidade (QA) para precisão.
+*   **Public Domain:** The dataset, including texts, audio, and annotations, is in the public domain, with no usage restrictions.
+*   **Single Speaker:** Contains recordings of a single female speaker, which makes it ideal for single-speaker TTS models.
+*   **Normalized Transcription:** Includes original and normalized transcriptions (with numbers and abbreviations expanded), facilitating preprocessing for TTS models.
+*   **High Quality:** Audio in WAV format, mono, 16-bit PCM, with a sampling rate of 22050 Hz.
+*   **Segmentation:** The audio clips are short (1 to 10 seconds), automatically segmented with manual alignment and quality assurance (QA) for accuracy.
 
 ## Use Cases
-*   **Síntese de Fala (Text-to-Speech - TTS):** É o principal caso de uso, servindo como um dataset de referência para treinar e avaliar modelos de TTS, como Tacotron, FastSpeech, Glow-TTS e VITS.
-*   **Clonagem de Voz (Voice Cloning):** Utilizado para criar modelos de clonagem de voz de falante única.
-*   **Pesquisa em Processamento de Áudio:** Usado para experimentos em pré-processamento de áudio, análise de espectrogramas e técnicas de normalização de texto.
-*   **Treinamento de Modelos de Linguagem de Fala (Speech Language Models):** Embora seja um dataset de TTS, é frequentemente usado em conjunto com outros datasets maiores (como LibriSpeech) para pré-treinamento de componentes de modelos de linguagem de fala.
+*   **Speech Synthesis (Text-to-Speech - TTS):** This is the main use case, serving as a reference dataset for training and evaluating TTS models, such as Tacotron, FastSpeech, Glow-TTS, and VITS.
+*   **Voice Cloning:** Used to create single-speaker voice cloning models.
+*   **Audio Processing Research:** Used for experiments in audio preprocessing, spectrogram analysis, and text normalization techniques.
+*   **Training Speech Language Models:** Although it is a TTS dataset, it is frequently used together with other larger datasets (such as LibriSpeech) for pre-training components of speech language models.
 
 ## Integration
-O dataset pode ser baixado diretamente do site do criador ou acessado através de plataformas como Hugging Face Datasets e Kaggle.
+The dataset can be downloaded directly from the creator's website or accessed through platforms such as Hugging Face Datasets and Kaggle.
 
-**Download Direto:**
-1.  Acesse a URL principal: [https://keithito.com/LJ-Speech-Dataset/](https://keithito.com/LJ-Speech-Dataset/)
-2.  Clique no link de download (2.6 GB).
+**Direct Download:**
+1.  Access the main URL: [https://keithito.com/LJ-Speech-Dataset/](https://keithito.com/LJ-Speech-Dataset/)
+2.  Click the download link (2.6 GB).
 
-**Uso com Python (Exemplo Hugging Face Datasets):**
-Para uso em projetos de aprendizado de máquina, a integração mais comum é via biblioteca `datasets` do Hugging Face:
+**Usage with Python (Hugging Face Datasets Example):**
+For use in machine learning projects, the most common integration is via the Hugging Face `datasets` library:
 
 ```python
 from datasets import load_dataset
 
-# Carrega a versão 1.1 do dataset
+# Loads version 1.1 of the dataset
 ljspeech_dataset = load_dataset("keithito/lj_speech")
 
-# O dataset é carregado como um objeto DatasetDict com as divisões 'train', 'validation' e 'test' (se aplicável)
-# A estrutura de dados inclui 'audio' (caminho do arquivo e array de áudio), 'text' (transcrição original) e 'normalized_text' (transcrição normalizada).
+# The dataset is loaded as a DatasetDict object with the 'train', 'validation', and 'test' splits (if applicable)
+# The data structure includes 'audio' (file path and audio array), 'text' (original transcription), and 'normalized_text' (normalized transcription).
 print(ljspeech_dataset)
 ```
 
-**Estrutura de Arquivos:**
-O dataset consiste em:
-*   Um arquivo `metadata.csv` (ou `transcripts.csv`) com três campos por linha: `ID` (nome do arquivo WAV), `Transcription` (transcrição original) e `Normalized Transcription` (transcrição normalizada).
-*   Uma pasta contendo 13.100 arquivos de áudio no formato `.wav`.
+**File Structure:**
+The dataset consists of:
+*   A `metadata.csv` file (or `transcripts.csv`) with three fields per line: `ID` (WAV file name), `Transcription` (original transcription), and `Normalized Transcription` (normalized transcription).
+*   A folder containing 13,100 audio files in `.wav` format.
 
 ## URL
 [https://keithito.com/LJ-Speech-Dataset/](https://keithito.com/LJ-Speech-Dataset/)

@@ -1,43 +1,43 @@
 # Full-Stack Development Prompts
 
 ## Description
-**Prompts de Desenvolvimento Full-Stack** são técnicas de engenharia de prompt focadas em alavancar Modelos de Linguagem Grande (LLMs) para auxiliar em todas as etapas do ciclo de vida do desenvolvimento de software, abrangendo tanto o frontend quanto o backend, além de infraestrutura e testes. O objetivo é transformar a IA em um co-piloto de desenvolvimento que pode gerar código, arquitetar soluções, criar testes, configurar ambientes de implantação (CI/CD, Docker) e depurar problemas, resultando em um aumento significativo na produtividade e na qualidade do código. A eficácia desses prompts reside na capacidade de fornecer contexto detalhado, especificações técnicas claras e restrições de segurança. Eles são essenciais para automatizar tarefas repetitivas e complexas, permitindo que o desenvolvedor se concentre em lógica de negócios de alto nível.
+**Full-Stack Development Prompts** are prompt engineering techniques focused on leveraging Large Language Models (LLMs) to assist in all stages of the software development lifecycle, covering both the frontend and the backend, as well as infrastructure and testing. The goal is to turn AI into a development co-pilot that can generate code, architect solutions, create tests, configure deployment environments (CI/CD, Docker), and debug problems, resulting in a significant increase in productivity and code quality. The effectiveness of these prompts lies in the ability to provide detailed context, clear technical specifications, and security constraints. They are essential for automating repetitive and complex tasks, allowing the developer to focus on high-level business logic.
 
 ## Examples
 ```
-**1. Geração de Estrutura de Projeto:**
-"Crie a estrutura de pastas completa para uma aplicação full-stack moderna. Frontend em Next.js (TypeScript) e Backend em FastAPI (Python). Inclua diretórios para componentes, serviços de API, modelos de banco de dados (PostgreSQL), testes unitários e configuração de ambiente. Apresente a saída em formato de árvore de diretórios Markdown."
+**1. Project Structure Generation:**
+"Create the complete folder structure for a modern full-stack application. Frontend in Next.js (TypeScript) and Backend in FastAPI (Python). Include directories for components, API services, database models (PostgreSQL), unit tests, and environment configuration. Present the output in a Markdown directory tree format."
 
-**2. Criação de Componente Frontend:**
-"Gere um componente React (TypeScript) para um formulário de login. O formulário deve ter validação de email e senha, estado de carregamento e exibição de erro. Utilize Tailwind CSS para o estilo e inclua um `handleSubmit` que simule uma chamada de API. O código deve ser modular e incluir comentários."
+**2. Frontend Component Creation:**
+"Generate a React (TypeScript) component for a login form. The form must have email and password validation, a loading state, and error display. Use Tailwind CSS for styling and include a `handleSubmit` that simulates an API call. The code must be modular and include comments."
 
-**3. Implementação de Endpoint Backend:**
-"Desenvolva um endpoint de API em Node.js (Express) para criação de usuário. O endpoint deve receber nome, email e senha. A senha deve ser hasheada com bcrypt. Use Mongoose para interagir com um banco de dados MongoDB. Inclua validação de entrada e tratamento de erros para email duplicado. Forneça o código completo do controlador e do modelo."
+**3. Backend Endpoint Implementation:**
+"Develop an API endpoint in Node.js (Express) for user creation. The endpoint must receive name, email, and password. The password must be hashed with bcrypt. Use Mongoose to interact with a MongoDB database. Include input validation and error handling for duplicate email. Provide the complete controller and model code."
 
-**4. Configuração de Infraestrutura (Docker):**
-"Crie um arquivo `docker-compose.yml` para um ambiente de desenvolvimento full-stack. Os serviços devem incluir: um frontend React, um backend Flask (Python) e um banco de dados PostgreSQL. Configure volumes persistentes para o banco de dados e mapeie as portas necessárias. Adicione um serviço de cache Redis."
+**4. Infrastructure Configuration (Docker):**
+"Create a `docker-compose.yml` file for a full-stack development environment. The services must include: a React frontend, a Flask (Python) backend, and a PostgreSQL database. Configure persistent volumes for the database and map the necessary ports. Add a Redis cache service."
 
-**5. Geração de Testes Unitários:**
-"Escreva testes unitários abrangentes usando Jest e React Testing Library para o componente de 'Carrinho de Compras'. Os testes devem cobrir: renderização inicial, adição e remoção de itens, cálculo total e o estado de carrinho vazio. Mocke as chamadas de API necessárias para buscar dados do produto."
+**5. Unit Test Generation:**
+"Write comprehensive unit tests using Jest and React Testing Library for the 'Shopping Cart' component. The tests must cover: initial rendering, adding and removing items, total calculation, and the empty cart state. Mock the necessary API calls to fetch product data."
 
-**6. Refatoração e Otimização de Código:**
-"Analise o seguinte trecho de código JavaScript e refatore-o para usar programação assíncrona com `async/await` e otimize o loop para melhor performance. Explique as mudanças e o ganho de eficiência: [INSERIR CÓDIGO AQUI]"
+**6. Code Refactoring and Optimization:**
+"Analyze the following JavaScript code snippet and refactor it to use asynchronous programming with `async/await` and optimize the loop for better performance. Explain the changes and the efficiency gain: [INSERT CODE HERE]"
 
-**7. Documentação Técnica:**
-"Gere a documentação técnica para o endpoint `/api/v1/orders` do backend. A documentação deve incluir: método HTTP, URL, parâmetros de requisição (com tipos e exemplos), estrutura de resposta de sucesso (200) e códigos de erro (400, 401, 500). Use o formato OpenAPI/Swagger."
+**7. Technical Documentation:**
+"Generate the technical documentation for the backend's `/api/v1/orders` endpoint. The documentation must include: HTTP method, URL, request parameters (with types and examples), success response structure (200), and error codes (400, 401, 500). Use the OpenAPI/Swagger format."
 
-**8. Debugging e Correção de Erros:**
-"O seguinte erro está ocorrendo no meu código Python/Django: `[INSERIR STACK TRACE AQUI]`. Analise o stack trace, identifique a causa raiz e forneça o trecho de código corrigido, explicando o porquê da correção."
+**8. Debugging and Error Correction:**
+"The following error is occurring in my Python/Django code: `[INSERT STACK TRACE HERE]`. Analyze the stack trace, identify the root cause, and provide the corrected code snippet, explaining the reason for the fix."
 ```
 
 ## Best Practices
-**1. Seja Específico e Contextual:** Sempre inclua a stack tecnológica (React, Node.js, Python, etc.), o propósito do código e o contexto do projeto (ex: "aplicação de e-commerce", "microserviço de autenticação"). **2. Defina o Formato de Saída:** Peça explicitamente o formato desejado (ex: "código em TypeScript", "estrutura de pastas em Markdown", "testes em Jest"). **3. Peça Explicações e Comentários:** Solicite que o código seja comentado e que a IA explique o raciocínio por trás das decisões de design ou segurança. **4. Itere e Refine:** Use o output inicial como base e peça refinamentos, como "Otimize este código para performance" ou "Adicione tratamento de erros para a API". **5. Inclua Restrições de Segurança:** Especifique requisitos de segurança (ex: "Use bcrypt para hashing de senhas", "Implemente proteção CSRF").
+**1. Be Specific and Contextual:** Always include the technology stack (React, Node.js, Python, etc.), the purpose of the code, and the project context (e.g., "e-commerce application", "authentication microservice"). **2. Define the Output Format:** Explicitly request the desired format (e.g., "code in TypeScript", "folder structure in Markdown", "tests in Jest"). **3. Ask for Explanations and Comments:** Request that the code be commented and that the AI explain the reasoning behind design or security decisions. **4. Iterate and Refine:** Use the initial output as a base and request refinements, such as "Optimize this code for performance" or "Add error handling for the API". **5. Include Security Constraints:** Specify security requirements (e.g., "Use bcrypt for password hashing", "Implement CSRF protection").
 
 ## Use Cases
 nan
 
 ## Pitfalls
-**1. Confiança Excessiva (Alucinações):** A IA pode gerar código que parece correto, mas contém erros lógicos ou de sintaxe sutil. **Sempre** verifique e teste o código gerado. **2. Falta de Contexto:** Prompts vagos levam a código genérico e inútil. A falta de especificação da stack, versão ou arquitetura resulta em retrabalho. **3. Ignorar Segurança:** A IA pode gerar código com vulnerabilidades de segurança (ex: injeção SQL, XSS) se não for explicitamente instruída a seguir as melhores práticas de segurança. **4. Dependência de Boilerplate:** Usar a IA apenas para código repetitivo sem entender os princípios subjacentes impede o aprendizado e a evolução do desenvolvedor. **5. Prompts Longos Demais:** Embora o contexto seja crucial, prompts excessivamente longos e complexos podem confundir a IA, levando a respostas incompletas ou fora do escopo. Mantenha o foco em uma tarefa por prompt.
+**1. Over-Reliance (Hallucinations):** The AI may generate code that appears correct but contains subtle logical or syntax errors. **Always** verify and test the generated code. **2. Lack of Context:** Vague prompts lead to generic and useless code. Failing to specify the stack, version, or architecture results in rework. **3. Ignoring Security:** The AI may generate code with security vulnerabilities (e.g., SQL injection, XSS) if not explicitly instructed to follow security best practices. **4. Boilerplate Dependence:** Using AI only for repetitive code without understanding the underlying principles prevents the developer's learning and growth. **5. Overly Long Prompts:** Although context is crucial, excessively long and complex prompts can confuse the AI, leading to incomplete or out-of-scope responses. Keep the focus on one task per prompt.
 
 ## URL
 [https://www.linkedin.com/pulse/ultimate-guide-ai-prompting-full-stack-development-2024-2025-patil-9n4zf](https://www.linkedin.com/pulse/ultimate-guide-ai-prompting-full-stack-development-2024-2025-patil-9n4zf)

@@ -1,95 +1,95 @@
 # Smart Contract Prompts
 
 ## Description
-**Smart Contract Prompts** são técnicas de Engenharia de Prompt focadas na utilização de Large Language Models (LLMs) para auxiliar no ciclo de vida de desenvolvimento de contratos inteligentes, desde a geração de código até a análise de segurança e detecção de vulnerabilidades.
+**Smart Contract Prompts** are Prompt Engineering techniques focused on using Large Language Models (LLMs) to assist in the smart contract development lifecycle, from code generation to security analysis and vulnerability detection.
 
-Esta técnica é crucial devido à natureza imutável dos contratos inteligentes em blockchains, onde erros de codificação podem resultar em perdas financeiras catastróficas. Os prompts são estruturados para guiar o LLM a gerar código Solidity seguro, otimizado e aderente a padrões, ou para atuar como um auditor de segurança, aplicando raciocínio estruturado (como o *agent-role chaining* e *Chain-of-Thought*) para identificar falhas.
+This technique is crucial due to the immutable nature of smart contracts on blockchains, where coding errors can result in catastrophic financial losses. The prompts are structured to guide the LLM to generate secure, optimized, and standards-compliant Solidity code, or to act as a security auditor, applying structured reasoning (such as *agent-role chaining* and *Chain-of-Thought*) to identify flaws.
 
-A eficácia dos Smart Contract Prompts reside na capacidade de fornecer contexto técnico profundo, requisitos de segurança explícitos e padrões de teste, transformando o LLM em uma ferramenta poderosa para a automação e garantia de qualidade no desenvolvimento Web3. Modelos de linguagem especializados, como o **Solidity-LLM**, são ajustados especificamente para essa finalidade.
+The effectiveness of Smart Contract Prompts lies in the ability to provide deep technical context, explicit security requirements, and testing standards, turning the LLM into a powerful tool for automation and quality assurance in Web3 development. Specialized language models, such as **Solidity-LLM**, are fine-tuned specifically for this purpose.
 
 ## Examples
 ```
-**1. Geração de Contrato ERC-20 Seguro (Geração de Código)**
+**1. Secure ERC-20 Contract Generation (Code Generation)**
 
 ```
-Crie um contrato inteligente ERC-20 em Solidity (versão 0.8.20+) chamado "ManuToken" com um suprimento total de 1.000.000 de tokens. O contrato deve:
-1. Implementar o padrão OpenZeppelin ERC20 e Ownable.
-2. Incluir uma função `mint(address to, uint256 amount)` restrita apenas ao proprietário.
-3. Implementar o `ReentrancyGuard` em todas as funções que manipulam Ether ou tokens externos (se aplicável).
-4. Gerar um teste unitário básico usando o framework Foundry (Forge) para verificar a cunhagem inicial e a transferência de tokens.
-5. Seguir o padrão Checks-Effects-Interactions (CEI).
+Create an ERC-20 smart contract in Solidity (version 0.8.20+) named "ManuToken" with a total supply of 1,000,000 tokens. The contract must:
+1. Implement the OpenZeppelin ERC20 and Ownable standards.
+2. Include a `mint(address to, uint256 amount)` function restricted to the owner only.
+3. Implement `ReentrancyGuard` on all functions that handle Ether or external tokens (if applicable).
+4. Generate a basic unit test using the Foundry (Forge) framework to verify the initial minting and token transfer.
+5. Follow the Checks-Effects-Interactions (CEI) pattern.
 ```
 
-**2. Análise de Vulnerabilidade (Detecção de Falhas)**
+**2. Vulnerability Analysis (Flaw Detection)**
 
 ```
-Você é um auditor de segurança sênior. Analise o seguinte código Solidity para vulnerabilidades de Reentrancy, Integer Overflow/Underflow e Time-Manipulation.
-Use o raciocínio Chain-of-Thought (CoT) para explicar passo a passo como você chegaria à conclusão.
-[INSERIR CÓDIGO VULNERÁVEL AQUI]
-Se uma vulnerabilidade for encontrada, forneça o código corrigido e um exemplo de exploit.
+You are a senior security auditor. Analyze the following Solidity code for Reentrancy, Integer Overflow/Underflow, and Time-Manipulation vulnerabilities.
+Use Chain-of-Thought (CoT) reasoning to explain step by step how you would reach the conclusion.
+[INSERT VULNERABLE CODE HERE]
+If a vulnerability is found, provide the corrected code and an exploit example.
 ```
 
-**3. Geração de Teste de Fuzzing (Garantia de Qualidade)**
+**3. Fuzzing Test Generation (Quality Assurance)**
 
 ```
-Para o contrato inteligente [NOME DO CONTRATO] com a função `deposit(uint256 amount)`, gere um teste de fuzzing usando o framework Foundry (Forge).
-O teste deve cobrir os seguintes cenários:
-1. Valores de `amount` positivos e negativos (se o tipo permitir).
-2. Tentativas de depósito com `amount` zero.
-3. Tentativas de depósito por um endereço sem permissão (se houver controle de acesso).
-4. Verifique se o saldo do usuário e o suprimento total são atualizados corretamente após o depósito.
+For the smart contract [CONTRACT NAME] with the `deposit(uint256 amount)` function, generate a fuzzing test using the Foundry (Forge) framework.
+The test must cover the following scenarios:
+1. Positive and negative `amount` values (if the type allows).
+2. Deposit attempts with a zero `amount`.
+3. Deposit attempts from an address without permission (if access control exists).
+4. Verify that the user balance and the total supply are updated correctly after the deposit.
 ```
 
-**4. Refatoração e Otimização de Gás (Otimização)**
+**4. Gas Refactoring and Optimization (Optimization)**
 
 ```
-Refatore o seguinte trecho de código Solidity para otimizar o consumo de gás, mantendo a funcionalidade original. Explique as otimizações realizadas.
-[INSERIR TRECHO DE CÓDIGO AQUI]
-Considere o uso de `calldata` em vez de `memory` para parâmetros de função externa e o armazenamento eficiente de variáveis de estado.
+Refactor the following Solidity code snippet to optimize gas consumption while maintaining the original functionality. Explain the optimizations performed.
+[INSERT CODE SNIPPET HERE]
+Consider using `calldata` instead of `memory` for external function parameters and the efficient storage of state variables.
 ```
 
-**5. Prompt Estruturado para Desenvolvimento Completo (Foundry)**
+**5. Structured Prompt for Complete Development (Foundry)**
 
 ```
 <system_context>
-Você é um assistente avançado especializado em desenvolvimento de contratos inteligentes Ethereum com o framework Foundry.
+You are an advanced assistant specialized in Ethereum smart contract development with the Foundry framework.
 </system_context>
 
 <behavior_guidelines>
-- Responda de forma clara e profissional.
-- Foque exclusivamente em soluções e ferramentas baseadas em Foundry.
-- Forneça exemplos de código completos e funcionais.
-- Priorize segurança e eficiência de gás.
+- Respond clearly and professionally.
+- Focus exclusively on Foundry-based solutions and tools.
+- Provide complete and functional code examples.
+- Prioritize security and gas efficiency.
 </behavior_guidelines>
 
 <user_prompt>
-Crie um contrato de cofre (Vault) compatível com ERC-4626. O cofre deve ter uma taxa de depósito de 0.5% e um mecanismo de distribuição de recompensas simples (apenas o proprietário pode chamar `distributeRewards()`). Inclua testes unitários e um teste de invariante para garantir que `totalSupply == sum of balances`.
+Create an ERC-4626-compatible Vault contract. The vault must have a 0.5% deposit fee and a simple rewards distribution mechanism (only the owner can call `distributeRewards()`). Include unit tests and an invariant test to ensure that `totalSupply == sum of balances`.
 </user_prompt>
 ```
 ```
 
 ## Best Practices
-**1. Contextualização Detalhada:** Forneça o máximo de detalhes possível sobre a funcionalidade, o padrão (ex: ERC-20, ERC-721, ERC-4626) e o ambiente de desenvolvimento (ex: Foundry, Hardhat).
-**2. Especificação de Segurança:** Inclua explicitamente requisitos de segurança, como "implementar ReentrancyGuard", "validar todas as entradas do usuário" e "seguir o padrão Checks-Effects-Interactions (CEI)".
-**3. Requisitos de Teste:** Exija a inclusão de testes abrangentes (unitários, fuzzing, invariantes) e especifique o framework de teste (ex: Forge).
-**4. Definição de Papéis (Role-Chaining):** Para análise de vulnerabilidades, defina papéis claros para o LLM (ex: "Você é um auditor de segurança sênior") e use prompts de raciocínio estruturado (Chain-of-Thought).
-**5. Convenções de Nomenclatura:** Peça para seguir as convenções de nomenclatura do Solidity (PascalCase para contratos, mixedCase para funções e variáveis).
+**1. Detailed Contextualization:** Provide as much detail as possible about the functionality, the standard (e.g., ERC-20, ERC-721, ERC-4626), and the development environment (e.g., Foundry, Hardhat).
+**2. Security Specification:** Explicitly include security requirements, such as "implement ReentrancyGuard", "validate all user inputs", and "follow the Checks-Effects-Interactions (CEI) pattern".
+**3. Testing Requirements:** Require the inclusion of comprehensive tests (unit, fuzzing, invariant) and specify the testing framework (e.g., Forge).
+**4. Role Definition (Role-Chaining):** For vulnerability analysis, define clear roles for the LLM (e.g., "You are a senior security auditor") and use structured reasoning prompts (Chain-of-Thought).
+**5. Naming Conventions:** Ask it to follow Solidity naming conventions (PascalCase for contracts, mixedCase for functions and variables).
 
 ## Use Cases
-**1. Geração Rápida de Protótipos:** Criar rapidamente contratos inteligentes baseados em padrões (ex: ERC-20, NFT) para testes e prova de conceito.
-**2. Detecção e Correção de Vulnerabilidades:** Utilizar o LLM como um assistente de auditoria para analisar código existente, identificar falhas de segurança (ex: reentrancy, race conditions) e sugerir correções.
-**3. Geração de Testes Automatizados:** Gerar suítes de testes abrangentes (unitários, de integração, fuzzing e invariantes) para garantir a robustez do código.
-**4. Otimização de Gás:** Refatorar funções para reduzir o custo de transação na blockchain, um fator crítico para a usabilidade e economia.
-**5. Documentação e Explicação de Código:** Gerar documentação NatSpec para funções e variáveis, ou pedir ao LLM para explicar a lógica de contratos complexos.
-**6. Tradução de Requisitos:** Converter especificações de negócios em linguagem natural diretamente em código Solidity funcional.
+**1. Rapid Prototype Generation:** Quickly create standards-based smart contracts (e.g., ERC-20, NFT) for testing and proof of concept.
+**2. Vulnerability Detection and Correction:** Use the LLM as an auditing assistant to analyze existing code, identify security flaws (e.g., reentrancy, race conditions), and suggest fixes.
+**3. Automated Test Generation:** Generate comprehensive test suites (unit, integration, fuzzing, and invariant) to ensure code robustness.
+**4. Gas Optimization:** Refactor functions to reduce transaction cost on the blockchain, a critical factor for usability and economics.
+**5. Documentation and Code Explanation:** Generate NatSpec documentation for functions and variables, or ask the LLM to explain the logic of complex contracts.
+**6. Requirements Translation:** Convert business specifications in natural language directly into functional Solidity code.
 
 ## Pitfalls
-**1. Confiança Cega (Blind Trust):** O maior erro é implantar o código gerado pelo LLM sem uma auditoria de segurança manual ou automatizada completa. LLMs podem gerar código funcional, mas com vulnerabilidades sutis.
-**2. Falta de Contexto:** Prompts vagos ou incompletos levam a contratos que não atendem aos requisitos de negócios ou que falham em considerar casos de borda críticos.
-**3. Ignorar Padrões de Teste:** Não exigir testes (unitários, fuzzing, invariantes) no prompt resulta em código não verificado e propenso a erros.
-**4. Não Especificar a Versão do Solidity:** A omissão da versão do compilador pode levar a problemas de compatibilidade ou a vulnerabilidades corrigidas em versões mais recentes.
-**5. Não Especificar o Framework:** Sem especificar o framework (Foundry, Hardhat), o LLM pode gerar código ou testes incompatíveis com o ambiente de desenvolvimento do usuário.
-**6. Ignorar MEV/Front-Running:** Não incluir requisitos para mitigar ataques de MEV (Maximal Extractable Value) e front-running em prompts para contratos DeFi.
+**1. Blind Trust:** The biggest mistake is deploying LLM-generated code without a complete manual or automated security audit. LLMs can generate functional code, but with subtle vulnerabilities.
+**2. Lack of Context:** Vague or incomplete prompts lead to contracts that do not meet business requirements or that fail to consider critical edge cases.
+**3. Ignoring Testing Standards:** Not requiring tests (unit, fuzzing, invariant) in the prompt results in unverified and error-prone code.
+**4. Not Specifying the Solidity Version:** Omitting the compiler version can lead to compatibility problems or to vulnerabilities that were fixed in newer versions.
+**5. Not Specifying the Framework:** Without specifying the framework (Foundry, Hardhat), the LLM may generate code or tests incompatible with the user's development environment.
+**6. Ignoring MEV/Front-Running:** Not including requirements to mitigate MEV (Maximal Extractable Value) and front-running attacks in prompts for DeFi contracts.
 
 ## URL
 [https://getfoundry.sh/introduction/prompting/](https://getfoundry.sh/introduction/prompting/)

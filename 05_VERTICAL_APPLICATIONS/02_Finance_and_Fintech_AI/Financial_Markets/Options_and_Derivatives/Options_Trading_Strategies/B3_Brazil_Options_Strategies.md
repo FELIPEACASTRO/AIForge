@@ -1,6 +1,6 @@
-# B3 (Brazil) Options Strategies — Estratégias de Opções na B3
+# B3 (Brazil) Options Strategies
 
-> A practical, Brazil-specific reference for trading options on **B3** (Brasil, Bolsa, Balcão) — instrument mechanics (ticker codes, American vs European style, expirations), the local strategy vocabulary (*financiamento*, *travas*, *borboleta*, *condor*, *put protetora*, *rolagem*), the brutal liquidity reality, **B3 clearing margin** (*margem de garantia*), and **Brazilian taxation** (*tributação*) of options. Education/research only — **not investment advice** (*não é recomendação de investimento*).
+> A practical, Brazil-specific reference for trading options on **B3** (Brasil, Bolsa, Balcão) — instrument mechanics (ticker codes, American vs European style, expirations), the local strategy vocabulary (*financiamento*, *travas*, *borboleta*, *condor*, *put protetora*, *rolagem*), the brutal liquidity reality, **B3 clearing margin** (*margem de garantia*), and **Brazilian taxation** (*tributação*) of options. Education/research only — **not investment advice**.
 
 ---
 
@@ -15,7 +15,7 @@ Brazilian options share global payoff math (covered elsewhere in this folder) bu
 
 ---
 
-## 2. Contract mechanics & ticker codes (nomenclatura)
+## 2. Contract mechanics & ticker codes
 
 | Item | Stock options (*opções sobre ações*) | Index options (*opções sobre Ibovespa*) |
 |---|---|---|
@@ -56,36 +56,36 @@ So **A–L = calls (Jan→Dec)**, **M–X = puts (Jan→Dec)**. The trailing num
 
 The global payoff theory is detailed in the sibling pages (Directional & Spreads; Volatility/Income/Neutral; Position Management). Here we map them to the **local name, structure, and the BR-specific risk** you must respect.
 
-| Estratégia (PT) | Global name | Estrutura (mesma série/vencimento salvo nota) | Quando usar | Risco principal (BR) |
+| Strategy (PT) | Global name | Structure (same series/expiry unless noted) | When to use | Main risk (BR) |
 |---|---|---|---|---|
-| **Financiamento / Lançamento coberto** | Covered call / buy-write | Long 100 ações + sell 1 call (geralmente OTM) | Renda sobre ação que você já tem; visão neutra-a-leve-alta | American calls → **exercício antecipado** perto de dividendos; upside capado |
-| **Trava de alta com call** (*bull call spread*) | Bull call spread (débito) | Buy call strike menor + sell call strike maior | Alta moderada, custo reduzido | Perda máx. = débito; precisa subir |
-| **Trava de alta com put** (*bull put spread*) | Bull put spread (crédito) | Sell put strike maior + buy put strike menor | Alta/lateral, vender prêmio com risco definido | Put liquidity fraca; risco = largura − crédito |
-| **Trava de baixa com put** (*bear put spread*) | Bear put spread (débito) | Buy put strike maior + sell put strike menor | Queda moderada | Perda máx. = débito |
-| **Trava de baixa com call** (*bear call spread*) | Bear call spread (crédito) | Sell call strike menor + buy call strike maior | Queda/lateral, vender prêmio com teto | Short call → assignment; risco = largura − crédito |
-| **Borboleta** (*butterfly*) | Long butterfly | Trava de alta + trava de baixa (1×2×1) | Aposta em preço **parado** num strike; baixo custo | Liquidez de 3 strikes; difícil montar/fechar fora do top |
-| **Condor / Iron Condor** | Condor / iron condor | 4 strikes (2 compradas, 2 vendidas) | Lateralização em faixa ampla | 4 pernas = 4× spread/custos; execução ruim em BR |
-| **Mesa / boleta de combinação** | Multi-leg combo order | Várias pernas em ordem única (estruturada) | Reduzir risco de execução perna-a-perna | Nem toda corretora suporta todas as combinações |
-| **Venda coberta** (*covered write*) | Covered short | Vender call **com a ação em carteira** | Renda; risco limitado pela ação | Custo de oportunidade; chamada antecipada |
-| **Venda descoberta** (*naked/uncovered*) | Naked short option | Vender call/put **sem o ativo** | Vender prêmio agressivo | **Risco ilimitado (call) / grande (put)** + **margem alta** |
-| **Put protetora** (*seguro de carteira*) | Protective put | Long ação + buy put OTM | Proteger ganho/posição contra queda | Prêmio = custo do "seguro"; **put illiquidity** |
-| **Rolagem** | Roll | Fechar a perna atual e abrir em novo strike/vencimento | Estender prazo, ajustar perdedora, evitar exercício | Pode "travar" prejuízo; custos × 2; *não* transforma trade ruim em bom |
+| **Financiamento / Lançamento coberto** | Covered call / buy-write | Long 100 shares + sell 1 call (usually OTM) | Income on a stock you already hold; neutral-to-mildly-bullish view | American calls → **early assignment** near dividends; capped upside |
+| **Trava de alta com call** (*bull call spread*) | Bull call spread (debit) | Buy lower-strike call + sell higher-strike call | Moderate rise, reduced cost | Max. loss = debit; needs to rise |
+| **Trava de alta com put** (*bull put spread*) | Bull put spread (credit) | Sell higher-strike put + buy lower-strike put | Rising/sideways, sell premium with defined risk | Weak put liquidity; risk = width − credit |
+| **Trava de baixa com put** (*bear put spread*) | Bear put spread (debit) | Buy higher-strike put + sell lower-strike put | Moderate decline | Max. loss = debit |
+| **Trava de baixa com call** (*bear call spread*) | Bear call spread (credit) | Sell lower-strike call + buy higher-strike call | Falling/sideways, sell premium with a cap | Short call → assignment; risk = width − credit |
+| **Borboleta** (*butterfly*) | Long butterfly | Bull spread + bear spread (1×2×1) | Bet on price **pinned** at a strike; low cost | Liquidity across 3 strikes; hard to build/close outside the top names |
+| **Condor / Iron Condor** | Condor / iron condor | 4 strikes (2 long, 2 short) | Sideways movement within a wide range | 4 legs = 4× spread/costs; poor execution in BR |
+| **Mesa / boleta de combinação** | Multi-leg combo order | Multiple legs in a single (structured) order | Reduce leg-by-leg execution risk | Not every broker supports all combinations |
+| **Venda coberta** (*covered write*) | Covered short | Sell a call **with the stock in your portfolio** | Income; risk limited by the stock | Opportunity cost; early assignment |
+| **Venda descoberta** (*naked/uncovered*) | Naked short option | Sell a call/put **without the underlying** | Aggressively sell premium | **Unlimited risk (call) / large (put)** + **high margin** |
+| **Put protetora** (*seguro de carteira*) | Protective put | Long stock + buy OTM put | Protect a gain/position against a decline | Premium = cost of the "insurance"; **put illiquidity** |
+| **Rolagem** | Roll | Close the current leg and open at a new strike/expiry | Extend the term, adjust a loser, avoid assignment | Can "lock in" a loss; costs × 2; does *not* turn a bad trade into a good one |
 
 Sources: [InfoMoney — 10 estratégias com opções](https://www.infomoney.com.br/mercados/perca-medo-dos-derivativos-10-estrategias-com-opcoes-para-ganhar-na-alta-baixa-ou-lateralizacao/), [Gorila — travas e borboletas](https://gorila.com.br/blog/estrategias-com-opcoes), [Nelogica — operações estruturadas](https://blog.nelogica.com.br/o-que-sao-operacoes-estruturadas-com-opcoes/), [Clear — eBooks de Renda Variável](https://www.clear.com.br/site/ebooks-renda-variavel).
 
 ### 3.1 Payoff / breakeven cheatsheet (per 1 contract = 100 shares)
 
-| Estrutura | Lucro máx. | Perda máx. | Breakeven (ponto de equilíbrio) |
+| Structure | Max. profit | Max. loss | Breakeven |
 |---|---|---|---|
-| Financiamento (S0, call K, prêmio c) | (K − S0) + c | S0 − c (até zero) | S0 − c |
-| Trava de alta com call (débito D, largura L) | L − D | D | K_compra + D |
-| Trava de alta com put (crédito C, largura L) | C | L − C | K_venda − C |
-| Trava de baixa com put (débito D, largura L) | L − D | D | K_compra − D |
-| Trava de baixa com call (crédito C, largura L) | C | L − C | K_venda + C |
-| Borboleta (débito D, asas em ±) | L − D (no strike central) | D | central ± (L − D) |
-| Put protetora (ação S0, put K, prêmio p) | ilimitado (− p) | S0 − K + p | S0 + p |
+| Financiamento (S0, call K, premium c) | (K − S0) + c | S0 − c (down to zero) | S0 − c |
+| Trava de alta com call (debit D, width L) | L − D | D | K_buy + D |
+| Trava de alta com put (credit C, width L) | C | L − C | K_sell − C |
+| Trava de baixa com put (debit D, width L) | L − D | D | K_buy − D |
+| Trava de baixa com call (credit C, width L) | C | L − C | K_sell + C |
+| Borboleta (debit D, wings at ±) | L − D (at the central strike) | D | central ± (L − D) |
+| Put protetora (stock S0, put K, premium p) | unlimited (− p) | S0 − K + p | S0 + p |
 
-L = largura entre strikes (× 100). Sinais simplificados; confirme na boleta da corretora.
+L = width between strikes (× 100). Signs simplified; confirm on your broker's ticket.
 
 ---
 
@@ -98,7 +98,7 @@ The single most popular structured options trade in Brazil is the **financiament
 
 ---
 
-## 5. Mesa de opções, vencimento, exercício, margem
+## 5. Options desk, expiry, exercise, and margin
 
 - **Mesa de opções / boleta de combinações** — Brazilian platforms let you send **multi-leg structured orders** ("operações estruturadas") as a single boleta (ticket) so legs fill together, reducing leg-risk. Support varies by broker/platform ([Nelogica — operações estruturadas](https://blog.nelogica.com.br/o-que-sao-operacoes-estruturadas-com-opcoes/)).
 - **Vencimento (expiry)** — for **stock/ETF options**, monthly = **3rd Friday** and weeklies (since Jan/2024) = **every Friday except the 3rd**. **Ibovespa index options follow a different calendar**: monthly = the **Wednesday closest to the 15th**, with weeklies on Wednesdays (since 2025, later expanded to all business days). ITM options are **auto-exercised** (*exercício automático*) by B3 per series rules — do not assume an OTM-looking option is safe near close ([B3 Edu](https://edu.b3.com.br/w/opcoes-acoes); [B3 — Opções sobre Ibovespa](https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/opcoes-sobre-ibovespa.htm)).
@@ -118,18 +118,18 @@ The single most popular structured options trade in Brazil is the **financiament
 
 ---
 
-## 7. Taxation 🇧🇷 (tributação de opções) — current rules
+## 7. Taxation 🇧🇷 — current rules
 
 Confirm with a contador; rules change and this is not tax advice.
 
 | Item | Rule | Note |
 |---|---|---|
-| **Swing trade** (operação comum) | **15%** sobre o lucro líquido | Apuração mensal |
-| **Day trade** | **20%** sobre o lucro líquido | Mesma série comprada e vendida no dia |
-| **IRRF "dedo-duro"** | **0,005%** retido na fonte sobre o **valor de venda** em operação comum/swing; **1%** sobre o **ganho** em **day trade** | Sinaliza a operação à Receita; é antecipação, compensável no DARF |
-| **Isenção de R$ 20 mil/mês** | **NÃO se aplica a opções** | A isenção é só p/ venda de **ações** no à vista; opções são sempre tributadas |
-| **Pagamento** | Via **DARF** (código **6015** de renda variável) até o **último dia útil do mês seguinte** | Você mesmo apura e paga |
-| **Compensação de prejuízo** | Swing ↔ swing (qualquer RV); **day trade só com day trade** | Carrega para meses seguintes |
+| **Swing trade** (regular operation) | **15%** on net profit | Assessed monthly |
+| **Day trade** | **20%** on net profit | Same series bought and sold within the day |
+| **IRRF "dedo-duro"** | **0.005%** withheld at source on the **sale value** in regular/swing operations; **1%** on the **gain** in **day trade** | Flags the operation to the Receita; it is a prepayment, offsettable on the DARF |
+| **R$ 20k/month exemption** | **Does NOT apply to options** | The exemption is only for selling **shares** in the cash market; options are always taxed |
+| **Payment** | Via **DARF** (code **6015** for variable income) by the **last business day of the following month** | You self-assess and pay |
+| **Loss offsetting** | Swing ↔ swing (any variable income); **day trade only with day trade** | Carries over to following months |
 
 Sources: [XP — day trade no IR](https://conteudos.xpi.com.br/aprenda-a-investir/relatorios/day-trade-no-imposto-de-renda/), [investimentos.com.br — declarar opções](https://investimentos.com.br/artigos/como-declarar-opcoes-no-imposto-de-renda/), [Nubank — DARF day trade](https://blog.nubank.com.br/como-emitir-darf-day-trade/), [B3 Bora Investir — declarar day trade](https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/day-trade/como-declarar-day-trade-no-imposto-de-renda-confira-com-o-bora/), [Receita Federal — Isenções (renda variável)](https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/pagamento/renda-variavel/bolsa-de-valores-1/isencoes).
 
@@ -173,7 +173,7 @@ Sources: [XP — day trade no IR](https://conteudos.xpi.com.br/aprenda-a-investi
 - American-style equity options carry **real early-assignment risk**, especially around *proventos*.
 - Costs (corretagem, emolumentos, slippage) and the 15%/20% tax materially reduce edge — model EV **after** costs.
 
-> **This page is research/education, not investment advice (não constitui recomendação de investimento).** Verify every fact against current **B3** and **CVM/Receita Federal** publications before trading.
+> **This page is research/education, not investment advice.** Verify every fact against current **B3** and **CVM/Receita Federal** publications before trading.
 
 ---
 

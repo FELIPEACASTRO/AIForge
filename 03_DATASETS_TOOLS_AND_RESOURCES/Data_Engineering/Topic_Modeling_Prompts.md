@@ -1,140 +1,140 @@
 # Topic Modeling Prompts
 
 ## Description
-**Prompts de Modelagem de Tópicos** referem-se à técnica de utilizar Large Language Models (LLMs) para realizar a tarefa de **Modelagem de Tópicos** (Topic Modeling), tradicionalmente feita por algoritmos estatísticos como LDA (Latent Dirichlet Allocation) ou modelos neurais como BERTopic. A abordagem baseada em prompts, popularizada por frameworks como o **TopicGPT** [1], reformula a modelagem de tópicos como uma série de tarefas de geração e classificação de linguagem natural.
+**Topic Modeling Prompts** refer to the technique of using Large Language Models (LLMs) to perform the task of **Topic Modeling**, traditionally done by statistical algorithms such as LDA (Latent Dirichlet Allocation) or neural models such as BERTopic. The prompt-based approach, popularized by frameworks such as **TopicGPT** [1], reframes topic modeling as a series of natural language generation and classification tasks.
 
-Em vez de inferir distribuições de palavras e documentos, o LLM é instruído a:
-1.  **Gerar Tópicos:** Analisar um *corpus* de documentos e criar rótulos de tópicos **generalizáveis** e descrições concisas.
-2.  **Refinar Tópicos:** Mesclar tópicos duplicados ou irrelevantes e organizar a hierarquia.
-3.  **Atribuir Tópicos:** Classificar novos documentos nos tópicos gerados, fornecendo uma **citação de suporte** (Grounding) para justificar a atribuição.
+Instead of inferring word and document distributions, the LLM is instructed to:
+1.  **Generate Topics:** Analyze a *corpus* of documents and create **generalizable** topic labels and concise descriptions.
+2.  **Refine Topics:** Merge duplicate or irrelevant topics and organize the hierarchy.
+3.  **Assign Topics:** Classify new documents into the generated topics, providing a **supporting quote** (Grounding) to justify the assignment.
 
-Essa técnica se destaca por gerar tópicos **mais coerentes e interpretáveis** por humanos (coerência semântica) do que os métodos tradicionais, além de permitir a modelagem **Zero-Shot** (sem a necessidade de treinamento em um *corpus* específico) [2]. A principal vantagem é a capacidade de aproveitar o vasto conhecimento de mundo do LLM para criar rótulos de tópicos de alta qualidade.
+This technique stands out by generating topics that are **more coherent and interpretable** by humans (semantic coherence) than traditional methods, in addition to enabling **Zero-Shot** modeling (without the need for training on a specific *corpus*) [2]. The main advantage is the ability to leverage the LLM's vast world knowledge to create high-quality topic labels.
 
 ## Examples
 ```
-**1. Geração de Tópicos de Alto Nível (Baseado em `generation_1.txt` [1])**
+**1. High-Level Topic Generation (Based on `generation_1.txt` [1])**
 
 \`\`\`
-Você receberá uma lista de documentos. Sua tarefa é identificar tópicos generalizáveis de alto nível que descrevam o conteúdo.
+You will receive a list of documents. Your task is to identify high-level generalizable topics that describe the content.
 
-[Instruções]
-1. Os rótulos dos tópicos devem ser o mais GENERALIZÁVEIS possível. Não devem ser específicos do documento.
-2. Cada novo tópico deve ter um número de nível (e.g., [1]), um rótulo curto e uma descrição do tópico.
-3. Os tópicos devem ser amplos o suficiente para acomodar futuros subtópicos.
-4. Se um tópico já existir na lista [Tópicos Existentes], retorne o tópico existente.
+[Instructions]
+1. The topic labels must be as GENERALIZABLE as possible. They must not be document-specific.
+2. Each new topic must have a level number (e.g., [1]), a short label, and a topic description.
+3. Topics must be broad enough to accommodate future subtopics.
+4. If a topic already exists in the [Existing Topics] list, return the existing topic.
 
-[Tópicos Existentes]
-{Tópicos}
+[Existing Topics]
+{Topics}
 
-[Documentos]
-{Lista de documentos de entrada}
+[Documents]
+{List of input documents}
 
-Sua resposta deve estar no formato:
-[Nível] Rótulo do Tópico: Descrição do Tópico
+Your response must be in the format:
+[Level] Topic Label: Topic Description
 \`\`\`
 
-**2. Geração de Subtópicos (Nível 2)**
+**2. Subtopic Generation (Level 2)**
 
 \`\`\`
-O tópico de alto nível é: [1] Tecnologia: Discussões sobre inovações e dispositivos digitais.
-Você receberá documentos que foram atribuídos a este tópico. Sua tarefa é gerar subtópicos mais específicos.
+The high-level topic is: [1] Technology: Discussions about digital innovations and devices.
+You will receive documents that were assigned to this topic. Your task is to generate more specific subtopics.
 
-[Instruções]
-1. Os novos subtópicos devem ser específicos, mas ainda generalizáveis dentro do escopo de [1] Tecnologia.
-2. Cada subtópico deve ter um número de nível (e.g., [1.1]), um rótulo curto e uma descrição.
+[Instructions]
+1. The new subtopics must be specific, but still generalizable within the scope of [1] Technology.
+2. Each subtopic must have a level number (e.g., [1.1]), a short label, and a description.
 
-[Documentos]
-{Lista de documentos de entrada atribuídos a [1] Tecnologia}
+[Documents]
+{List of input documents assigned to [1] Technology}
 
-Sua resposta deve estar no formato:
-[Nível] Rótulo do Subtópico: Descrição do Subtópico
+Your response must be in the format:
+[Level] Subtopic Label: Subtopic Description
 \`\`\`
 
-**3. Refinamento e Fusão de Tópicos (Baseado em `refinement.txt` [1])**
+**3. Topic Refinement and Merging (Based on `refinement.txt` [1])**
 
 \`\`\`
-Você receberá uma lista de tópicos que pertencem ao mesmo nível de uma hierarquia. Sua tarefa é fundir tópicos que são paráfrases ou duplicatas próximas.
+You will receive a list of topics that belong to the same level of a hierarchy. Your task is to merge topics that are paraphrases or near-duplicates.
 
-[Regras]
-1. Realize as seguintes operações quantas vezes forem necessárias:
-   - Fundir tópicos relevantes em um único tópico.
-   - Não faça nada e retorne "Nenhum" se nenhuma modificação for necessária.
-2. Ao fundir, o formato de saída deve conter o indicador de nível, o rótulo e a descrição atualizados, seguidos pelos tópicos originais.
+[Rules]
+1. Perform the following operations as many times as necessary:
+   - Merge relevant topics into a single topic.
+   - Do nothing and return "None" if no modification is necessary.
+2. When merging, the output format must contain the updated level indicator, label, and description, followed by the original topics.
 
-[Lista de Tópicos]
-[1] IA Generativa: Modelos que criam conteúdo.
-[2] Modelos de Criação de Conteúdo: Discussões sobre GPTs e DALL-E.
+[Topic List]
+[1] Generative AI: Models that create content.
+[2] Content Creation Models: Discussions about GPTs and DALL-E.
 
-[Sua Resposta]
-[1] Inteligência Artificial Generativa: Modelos e Aplicações de Criação de Conteúdo. Tópicos Originais: [1] IA Generativa, [2] Modelos de Criação de Conteúdo.
+[Your Response]
+[1] Generative Artificial Intelligence: Content Creation Models and Applications. Original Topics: [1] Generative AI, [2] Content Creation Models.
 \`\`\`
 
-**4. Atribuição de Tópicos com Grounding (Baseado em `assignment.txt` [1])**
+**4. Topic Assignment with Grounding (Based on `assignment.txt` [1])**
 
 \`\`\`
-Você receberá um documento e uma hierarquia de tópicos. Atribua o documento ao tópico mais relevante na hierarquia.
+You will receive a document and a topic hierarchy. Assign the document to the most relevant topic in the hierarchy.
 
-[Instruções]
-1. Os rótulos dos tópicos DEVEM estar presentes na hierarquia fornecida. Você NÃO DEVE criar novos tópicos.
-2. A citação de suporte DEVE ser retirada do documento. Você NÃO DEVE inventar citações.
+[Instructions]
+1. The topic labels MUST be present in the provided hierarchy. You MUST NOT create new topics.
+2. The supporting quote MUST be taken from the document. You MUST NOT invent quotes.
 
-[Hierarquia de Tópicos]
-[1] Finanças Pessoais: Orçamento, poupança e investimento.
-[2] Saúde e Bem-Estar: Exercícios, dieta e saúde mental.
+[Topic Hierarchy]
+[1] Personal Finance: Budgeting, saving, and investing.
+[2] Health and Wellness: Exercise, diet, and mental health.
 
-[Documento]
-"A melhor maneira de começar a investir é com um ETF de baixo custo, garantindo a diversificação e minimizando as taxas."
+[Document]
+"The best way to start investing is with a low-cost ETF, ensuring diversification and minimizing fees."
 
-Sua resposta deve estar no formato:
-[Nível] Rótulo do Tópico: Raciocínio da Atribuição (Citação de Suporte)
+Your response must be in the format:
+[Level] Topic Label: Assignment Reasoning (Supporting Quote)
 
-[Sua Resposta]
-[1] Finanças Pessoais: O documento discute estratégias de investimento ("A melhor maneira de começar a investir é com um ETF de baixo custo...").
+[Your Response]
+[1] Personal Finance: The document discusses investment strategies ("The best way to start investing is with a low-cost ETF...").
 \`\`\`
 
-**5. Prompt de Análise de Tópicos (Sumarização)**
+**5. Topic Analysis Prompt (Summarization)**
 
 \`\`\`
-Atue como um analista de dados. O tópico identificado para os documentos abaixo é: **[3] Feedback do Cliente sobre Usabilidade**.
-Sua tarefa é resumir as 5 principais preocupações e as 3 principais sugestões de melhoria mencionadas nos documentos.
+Act as a data analyst. The topic identified for the documents below is: **[3] Customer Feedback on Usability**.
+Your task is to summarize the top 5 concerns and the top 3 improvement suggestions mentioned in the documents.
 
-[Documentos]
-{Lista de 100 feedbacks de clientes}
+[Documents]
+{List of 100 customer feedback entries}
 
-[Formato de Saída]
-**Preocupações Principais:**
+[Output Format]
+**Main Concerns:**
 1. ...
 2. ...
 ...
-**Sugestões de Melhoria:**
+**Improvement Suggestions:**
 1. ...
 2. ...
 \`\`\`
 ```
 
 ## Best Practices
-**Clareza e Estrutura:** Use tags XML ou delimitadores claros (como `[Documento]`, `[Tópicos]`) para separar o texto de entrada das instruções. Isso ajuda o LLM a processar o contexto de forma mais eficiente [1].
-**Iteração e Refinamento:** Não espere o resultado final em uma única etapa. Utilize prompts sequenciais (como Geração -> Refinamento -> Atribuição) para construir e validar a hierarquia de tópicos, como visto no framework TopicGPT [1].
-**Generalização:** Ao gerar tópicos, instrua o modelo a criar rótulos **generalizáveis** e não específicos ao documento. Isso garante que os tópicos sejam úteis para classificar novos textos [1].
-**Validação com Citações:** Exija que o LLM justifique a atribuição de um tópico a um documento com uma **citação direta** do texto. Isso aumenta a rastreabilidade e a confiança no resultado (Grounding) [1].
-**Controle de Nível:** Defina explicitamente o nível de detalhe desejado (e.g., "apenas tópicos de alto nível" ou "subtópicos para [Tópico X]").
-**Uso de Modelos Híbridos:** Para otimizar custos e desempenho, use modelos mais potentes (como GPT-4 ou Claude Opus) para as etapas de **Geração** e **Refinamento** (que são menos frequentes) e modelos mais leves (como GPT-3.5 ou Gemini Flash) para a etapa de **Atribuição** (que é mais massiva) [1].
+**Clarity and Structure:** Use XML tags or clear delimiters (such as `[Document]`, `[Topics]`) to separate the input text from the instructions. This helps the LLM process the context more efficiently [1].
+**Iteration and Refinement:** Do not expect the final result in a single step. Use sequential prompts (such as Generation -> Refinement -> Assignment) to build and validate the topic hierarchy, as seen in the TopicGPT framework [1].
+**Generalization:** When generating topics, instruct the model to create **generalizable** labels rather than document-specific ones. This ensures the topics are useful for classifying new texts [1].
+**Validation with Quotes:** Require the LLM to justify the assignment of a topic to a document with a **direct quote** from the text. This increases traceability and confidence in the result (Grounding) [1].
+**Level Control:** Explicitly define the desired level of detail (e.g., "only high-level topics" or "subtopics for [Topic X]").
+**Use of Hybrid Models:** To optimize costs and performance, use more powerful models (such as GPT-4 or Claude Opus) for the **Generation** and **Refinement** steps (which are less frequent) and lighter models (such as GPT-3.5 or Gemini Flash) for the **Assignment** step (which is more massive) [1].
 
 ## Use Cases
-**Análise de Feedback do Cliente:** Identificar automaticamente os principais temas e problemas em avaliações de produtos, tickets de suporte ou comentários em mídias sociais.
-**Classificação de Documentos Jurídicos/Regulatórios:** Categorizar grandes volumes de textos legais em tópicos como "Direito Contratual", "Propriedade Intelectual" ou "Regulamentação Ambiental" com alta precisão semântica.
-**Pesquisa Acadêmica e Revisão de Literatura:** Analisar resumos de artigos científicos para identificar tendências emergentes, lacunas de pesquisa e a evolução de subcampos em uma área.
-**Análise de Notícias e Mídia:** Monitorar a cobertura de eventos e identificar os ângulos e narrativas dominantes em diferentes fontes de notícias.
-**Inteligência de Mercado:** Extrair tópicos de relatórios de concorrentes, patentes ou transcrições de chamadas de resultados para identificar estratégias e inovações de mercado.
-**Organização de Conteúdo:** Criar automaticamente tags, categorias ou índices hierárquicos para websites, bibliotecas digitais ou sistemas de gerenciamento de conhecimento.
+**Customer Feedback Analysis:** Automatically identify the main themes and issues in product reviews, support tickets, or social media comments.
+**Legal/Regulatory Document Classification:** Categorize large volumes of legal texts into topics such as "Contract Law", "Intellectual Property", or "Environmental Regulation" with high semantic accuracy.
+**Academic Research and Literature Review:** Analyze abstracts of scientific articles to identify emerging trends, research gaps, and the evolution of subfields in an area.
+**News and Media Analysis:** Monitor event coverage and identify the dominant angles and narratives across different news sources.
+**Market Intelligence:** Extract topics from competitor reports, patents, or earnings-call transcripts to identify market strategies and innovations.
+**Content Organization:** Automatically create tags, categories, or hierarchical indexes for websites, digital libraries, or knowledge management systems.
 
 ## Pitfalls
-**Dependência da Qualidade do LLM:** A qualidade dos tópicos gerados é diretamente proporcional à capacidade de raciocínio e ao contexto do LLM. Modelos mais fracos podem gerar tópicos incoerentes ou redundantes.
-**Custo e Latência:** A modelagem de tópicos com LLMs é significativamente mais cara e lenta do que os métodos tradicionais (LDA, BERTopic), especialmente para *corpora* muito grandes, pois cada documento ou lote requer uma chamada de API [1].
-**Alucinações na Atribuição:** O LLM pode "alucinar" a citação de suporte ou atribuir um tópico com base em inferências que não estão explicitamente no texto, violando o princípio de *grounding*. A instrução de "NÃO inventar citações" deve ser rigorosa.
-**Viés do Modelo:** Os tópicos gerados podem refletir os vieses presentes nos dados de treinamento do LLM, em vez de refletir apenas o conteúdo do *corpus* de entrada.
-**Instruções Ambíguas:** Prompts mal formulados ou com regras conflitantes podem levar a resultados inconsistentes, como tópicos muito específicos (document-specific) ou muito amplos (semântica vaga).
-**Limite de Contexto:** A modelagem de tópicos geralmente envolve a análise de um grande número de documentos. É necessário um mecanismo de agregação ou amostragem para lidar com o limite de contexto do LLM. O TopicGPT resolve isso em partes, mas é uma limitação inerente ao uso de LLMs [1].
+**Dependency on LLM Quality:** The quality of the generated topics is directly proportional to the LLM's reasoning capability and context. Weaker models may generate incoherent or redundant topics.
+**Cost and Latency:** Topic modeling with LLMs is significantly more expensive and slower than traditional methods (LDA, BERTopic), especially for very large *corpora*, since each document or batch requires an API call [1].
+**Hallucinations in Assignment:** The LLM may "hallucinate" the supporting quote or assign a topic based on inferences that are not explicitly in the text, violating the *grounding* principle. The instruction to "NOT invent quotes" must be strict.
+**Model Bias:** The generated topics may reflect the biases present in the LLM's training data, rather than reflecting only the content of the input *corpus*.
+**Ambiguous Instructions:** Poorly formulated prompts or those with conflicting rules can lead to inconsistent results, such as topics that are too specific (document-specific) or too broad (vague semantics).
+**Context Limit:** Topic modeling generally involves analyzing a large number of documents. An aggregation or sampling mechanism is necessary to handle the LLM's context limit. TopicGPT solves this in parts, but it is a limitation inherent to the use of LLMs [1].
 
 ## URL
 [https://arxiv.org/abs/2311.01449](https://arxiv.org/abs/2311.01449)

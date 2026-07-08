@@ -1,24 +1,24 @@
-# Múltiplos Recursos (Agri-GNN, HV-GNN, OpenAg, UAV/Random Forest)
+# Multiple Resources (Agri-GNN, HV-GNN, OpenAg, UAV/Random Forest)
 
 ## Description
 
-Pesquisa abrangente sobre a aplicação de Redes Neurais Gráficas (GNNs) em Sistemas Agrícolas, com foco em artigos e frameworks recentes (2023-2025). Foram identificados modelos específicos para previsão de produtividade e detecção de pragas, além de um framework de Inteligência Artificial Geral Agrícola (AGI) que utiliza GNNs para grafos de conhecimento neurais. Um recurso adicional de estimativa de biomassa usando Machine Learning (Random Forest) e sensoriamento remoto por UAV também foi incluído devido à relevância para o tema de Biomassa e Agropecuária.
+Comprehensive research on the application of Graph Neural Networks (GNNs) in Agricultural Systems, focusing on recent papers and frameworks (2023-2025). Specific models were identified for yield prediction and pest detection, in addition to an Agricultural Artificial General Intelligence (AGI) framework that uses GNNs for neural knowledge graphs. An additional resource for biomass estimation using Machine Learning (Random Forest) and UAV remote sensing was also included due to its relevance to the topic of Biomass and Agriculture.
 
 ## Statistics
 
-Agri-GNN: R² = 0.876 (Previsão de Produtividade em Iowa). HV-GNN: Precisão de 93.6625% (Detecção de Pragas em Café). UAV/Random Forest: R² = 0.76 (Estimativa de Biomassa Forrageira em Nebraska). OpenAg: Artigo de 2025 (v2 em Julho/2025).
+Agri-GNN: R² = 0.876 (Yield Prediction in Iowa). HV-GNN: Accuracy of 93.6625% (Pest Detection in Coffee). UAV/Random Forest: R² = 0.76 (Forage Biomass Estimation in Nebraska). OpenAg: 2025 article (v2 in July 2025).
 
 ## Features
 
-GNNs Genotípico-Topológicas (Agri-GNN); GNNs de Visão Híbrida (HV-GNN); Grafos de Conhecimento Neurais (OpenAg); Previsão de Produtividade (R²=0.876); Detecção de Pragas (Precisão 93.66%); Estimativa de Biomassa (R²=0.76).
+Genotypic-Topological GNNs (Agri-GNN); Hybrid Vision GNNs (HV-GNN); Neural Knowledge Graphs (OpenAg); Yield Prediction (R²=0.876); Pest Detection (Accuracy 93.66%); Biomass Estimation (R²=0.76).
 
 ## Use Cases
 
-Previsão otimizada da produtividade da colheita; Controle proativo de pragas e doenças em plantações; Suporte à decisão agrícola escalável e localmente relevante; Mapeamento espacial e temporal da biomassa forrageira.
+Optimized crop yield prediction; Proactive control of pests and diseases in crops; Scalable and locally relevant agricultural decision support; Spatial and temporal mapping of forage biomass.
 
 ## Integration
 
-Os modelos Agri-GNN e HV-GNN são baseados em arquiteturas GNN (GraphSAGE e Visão Híbrida, respectivamente) e requerem a construção de grafos a partir de dados agrícolas (parcelas, genótipos, imagens). O framework OpenAg utiliza GNNs para o seu 'neural agricultural knowledge graph'. A integração geralmente envolve bibliotecas de GNN como PyTorch Geometric.
+The Agri-GNN and HV-GNN models are based on GNN architectures (GraphSAGE and Hybrid Vision, respectively) and require the construction of graphs from agricultural data (plots, genotypes, images). The OpenAg framework uses GNNs for its 'neural agricultural knowledge graph'. Integration generally involves GNN libraries such as PyTorch Geometric.
 
 ## URL
 

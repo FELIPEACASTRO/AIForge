@@ -2,35 +2,35 @@
 
 ## Description
 
-**RoBERTa (Robustly optimized BERT pretraining approach):** Uma abordagem de pré-treinamento do BERT robustamente otimizada, que demonstrou que o BERT estava sub-treinado. Sua proposta de valor é a melhoria substancial de desempenho através da otimização dos hiperparâmetros de pré-treinamento, remoção da tarefa de Previsão da Próxima Sentença (NSP) e uso de mascaramento dinâmico.
+**RoBERTa (Robustly optimized BERT pretraining approach):** A robustly optimized BERT pretraining approach that demonstrated BERT was undertrained. Its value proposition is a substantial performance improvement through the optimization of pretraining hyperparameters, removal of the Next Sentence Prediction (NSP) task, and the use of dynamic masking.
 
-**ALBERT (A Lite BERT for Self-supervised Learning of Language Representations):** Uma versão "Lite" do BERT que foca na redução drástica do número de parâmetros. Sua proposta de valor é permitir o escalonamento para modelos muito maiores com menor custo de memória e tempo de treinamento, mantendo ou superando o desempenho do BERT através de técnicas de redução de parâmetros.
+**ALBERT (A Lite BERT for Self-supervised Learning of Language Representations):** A "Lite" version of BERT that focuses on drastically reducing the number of parameters. Its value proposition is to enable scaling to much larger models with lower memory cost and training time, while maintaining or surpassing BERT's performance through parameter-reduction techniques.
 
-**DeBERTa (Decoding-enhanced BERT with Disentangled Attention):** Uma nova arquitetura que aprimora o BERT e o RoBERTa. Sua proposta de valor é alcançar o estado da arte em várias tarefas de PNL através de um mecanismo de atenção desvinculada (disentangled attention) e um decodificador de máscara aprimorado (enhanced mask decoder).
+**DeBERTa (Decoding-enhanced BERT with Disentangled Attention):** A new architecture that improves upon BERT and RoBERTa. Its value proposition is to achieve state-of-the-art results on various NLP tasks through a disentangled attention mechanism and an enhanced mask decoder.
 
 ## Statistics
 
-**RoBERTa:** Lançamento em 2019. Treinado em 160GB de texto. Superou o BERT em GLUE e SQuAD.
+**RoBERTa:** Released in 2019. Trained on 160GB of text. Outperformed BERT on GLUE and SQuAD.
 
-**ALBERT:** Lançamento em 2019. Redução de até 89% de parâmetros (ALBERT-base com 12M). ALBERT-xxlarge alcançou o estado da arte em 12 tarefas de PNL, incluindo 89.4 no benchmark RACE.
+**ALBERT:** Released in 2019. Reduction of up to 89% of parameters (ALBERT-base with 12M). ALBERT-xxlarge achieved state-of-the-art results on 12 NLP tasks, including 89.4 on the RACE benchmark.
 
-**DeBERTa:** Lançamento em 2020 (Microsoft Research). Supera consistentemente o RoBERTa-Large, com melhorias de +0.9% em MNLI, +2.3% em SQuAD v2.0 e +3.6% em RACE. DeBERTa V3 estabeleceu novos benchmarks.
+**DeBERTa:** Released in 2020 (Microsoft Research). Consistently outperforms RoBERTa-Large, with improvements of +0.9% on MNLI, +2.3% on SQuAD v2.0, and +3.6% on RACE. DeBERTa V3 set new benchmarks.
 
 ## Features
 
-**RoBERTa:** Mascaramento Dinâmico, Remoção da Tarefa NSP, Treinamento com Lotes Maiores (até 8000), Tokenizador BPE de Nível de Byte.
+**RoBERTa:** Dynamic Masking, Removal of the NSP Task, Training with Larger Batches (up to 8000), Byte-Level BPE Tokenizer.
 
-**ALBERT:** Fatoração da Parametrização de Embedding, Compartilhamento de Parâmetros entre Camadas (redução de até 89% de parâmetros), Objetivo de Coerência de Sentença (SOP) em vez de NSP.
+**ALBERT:** Factorized Embedding Parameterization, Cross-Layer Parameter Sharing (up to 89% parameter reduction), Sentence Order Prediction (SOP) objective instead of NSP.
 
-**DeBERTa:** Atenção Desvinculada (separa conteúdo e posição), Decodificador de Máscara Aprimorado (EMD) para incorporar posições absolutas no decodificador.
+**DeBERTa:** Disentangled Attention (separates content and position), Enhanced Mask Decoder (EMD) to incorporate absolute positions into the decoder.
 
 ## Use Cases
 
-**RoBERTa:** Classificação de Texto (GLUE), Resposta a Perguntas (SQuAD), Extração de Recursos para tarefas de PNL.
+**RoBERTa:** Text Classification (GLUE), Question Answering (SQuAD), Feature Extraction for NLP tasks.
 
-**ALBERT:** Aplicações com restrições de memória (dispositivos móveis, edge computing), Resposta a Perguntas, Compreensão de Leitura (RACE).
+**ALBERT:** Applications with memory constraints (mobile devices, edge computing), Question Answering, Reading Comprehension (RACE).
 
-**DeBERTa:** Classificação de Texto (MNLI), Resposta a Perguntas (SQuAD), Compreensão de Leitura (RACE), tarefas de PNL que exigem compreensão contextual profunda.
+**DeBERTa:** Text Classification (MNLI), Question Answering (SQuAD), Reading Comprehension (RACE), NLP tasks that require deep contextual understanding.
 
 ## Integration
 
@@ -46,7 +46,7 @@ resultado = pipeline("Plants create <mask> through a process known as photosynth
 from transformers import AlbertTokenizer, AlbertModel
 tokenizer = AlbertTokenizer.from_pretrained('albert-base-v2')
 model = AlbertModel.from_pretrained('albert-base-v2')
-text = "O ALBERT é uma versão mais leve do BERT."
+text = "ALBERT is a lighter version of BERT."
 encoded_input = tokenizer(text, return_tensors='pt')
 output = model(**encoded_input)
 ```
@@ -56,7 +56,7 @@ output = model(**encoded_input)
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 tokenizer = AutoTokenizer.from_pretrained("microsoft/deberta-base")
 model = AutoModelForSequenceClassification.from_pretrained("microsoft/deberta-base")
-text = "DeBERTa é o novo estado da arte em PNL."
+text = "DeBERTa is the new state of the art in NLP."
 inputs = tokenizer(text, return_tensors="pt")
 ```
 

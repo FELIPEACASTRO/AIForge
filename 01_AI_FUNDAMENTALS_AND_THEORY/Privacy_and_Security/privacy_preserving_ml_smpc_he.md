@@ -1,0 +1,25 @@
+# Privacy-Preserving ML (SMPC and HE)
+
+## Description
+
+Privacy-Preserving Machine Learning (PPML) refers to the use of cryptographic and privacy techniques to enable the training and inference of ML models on confidential data without exposing the content of the underlying data. The two most prominent cryptographic techniques in this field are **Secure Multi-Party Computation (SMPC)** and **Homomorphic Encryption (HE)**. SMPC allows multiple parties to collaborate to compute a function over their joint inputs while keeping each input private. HE, on the other hand, allows arbitrary mathematical operations (such as addition and multiplication) to be performed directly on encrypted data, producing an encrypted result that, when decrypted, is the same as the result of the operation performed on unencrypted data. Together, these techniques address the challenge of using valuable data for ML while meeting strict privacy requirements and regulations such as GDPR.
+
+## Statistics
+
+The adoption of PPML is growing rapidly, driven by the need for regulatory compliance and data collaboration. Frameworks such as PySyft report millions of downloads, indicating an active developer community. The main performance metric for SMPC and HE is **computation latency** and **communication cost**, which are significantly higher than plaintext computation. For example, inference of a simple model using HE can take tens or hundreds of times longer than plaintext inference, although dedicated hardware and protocol optimizations are closing this gap.
+
+## Features
+
+### Secure Multi-Party Computation (SMPC)\n*   **Input Privacy:** Ensures that each party's inputs remain confidential.\n*   **Correctness:** Ensures that the result of the computation is correct, as if it were executed in plaintext.\n*   **Fault Tolerance:** Some protocols can tolerate a certain number of dishonest or failing parties.\n*   **Protocols:** Includes Garbled Circuits, Additive Secret Sharing, and HE-Based Protocols.\n\n### Homomorphic Encryption (HE)\n*   **Computation on Encrypted Data:** Enables ML operations (such as linear regression, simple neural networks) directly on encrypted data.\n*   **Partial/Full Homomorphism:** Partial HE (PHE) supports only one operation (e.g., addition only or multiplication only). Fully Homomorphic Encryption (FHE) supports an unlimited number of both operations, making it Turing-complete.\n*   **Bootstrapping:** A technique used in FHE to 'refresh' the ciphertext and reduce noise, enabling more operations.
+
+## Use Cases
+
+1.  **Healthcare and Medical Research:** Analysis of genomic data (GWAS) or electronic health records (EHRs) from multiple hospitals to train disease-risk models without sharing raw data.\n2.  **Financial Services:** Fraud and money-laundering detection through the analysis of transactions from multiple banks or institutions while maintaining customer privacy.\n3.  **Machine Learning as a Service (MaaS):** A service provider can host an ML model and perform inference on the client's encrypted data, ensuring that neither the provider sees the data nor the client sees the model.\n4.  **Competitive Analysis:** Companies can collaborate to compute market metrics (e.g., market share, average prices) from their internal data without revealing their proprietary information.
+
+## Integration
+
+The integration of SMPC and HE into ML workflows is facilitated by open-source libraries. The following example demonstrates the use of PySyft for SMPC, allowing two 'workers' (Alice and Bob) to train a model on their private data.\n\n```python\n# Integration Example with PySyft (SMPC)\nimport torch\nimport syft as sy\n\nhook = sy.TorchHook(torch)\n\n# Creation of virtual workers\nalice = sy.VirtualWorker(hook, id=\"alice\")\nbob = sy.VirtualWorker(hook, id=\"bob\")\n\n# Example data (shared between Alice and Bob)\nx = torch.tensor([1, 2, 3, 4, 5])\ny = torch.tensor([5, 4, 3, 2, 1])\n\n# Send data to the workers and encrypt it using SMPC\nx_ptr = x.share(alice, bob, crypto_provider=sy.VirtualWorker(hook, id=\"crypto\"))\ny_ptr = y.share(alice, bob, crypto_provider=sy.VirtualWorker(hook, id=\"crypto\"))\n\n# Perform computation (e.g., addition) on encrypted data\nz_ptr = x_ptr + y_ptr\n\n# Get the decrypted result back\nz = z_ptr.get()\n\nprint(f\"Result of the secure computation: {z}\") # Output: tensor([6, 6, 6, 6, 6])\n\n# HE Framework Example: Microsoft SEAL (C++ or Python wrappers such as PySEAL)\n# The logic involves encrypting data vectors, performing homomorphic operations\n# (e.g., matrix multiplication for ML inference), and decrypting the result.\n```\n\n**Key Frameworks:**\n*   **PySyft/SyMPC:** For Deep Learning with SMPC and HE (Python, PyTorch).\n*   **Microsoft SEAL:** High-performance HE library (C++, with Python wrappers).\n*   **MP-SPDZ:** Framework for benchmarking and implementing various MPC protocols (Python).\n*   **TenSEAL:** Python library based on SEAL for ML with HE.
+
+## URL
+
+https://openmined.org/ (PySyft), https://github.com/microsoft/SEAL (Microsoft SEAL)

@@ -1,36 +1,36 @@
 # DAVIS (Densely Annotated VIdeo Segmentation)
 
 ## Description
-O DAVIS (Densely Annotated VIdeo Segmentation) é um conjunto de dados e *benchmark* fundamental para o problema de **Segmentação de Objetos em Vídeo (Video Object Segmentation - VOS)**. A versão mais utilizada, DAVIS 2017, expandiu a versão original (DAVIS 2016) para incluir anotações de múltiplos objetos por sequência. O dataset é crucial para o desenvolvimento e avaliação de algoritmos de VOS, tanto em cenários semi-supervisionados (onde a máscara do objeto é fornecida no primeiro *frame*) quanto não-supervisionados (onde nenhum *input* humano é fornecido). O dataset é conhecido pela alta qualidade de suas anotações e pela diversidade de cenários de vídeo.
+DAVIS (Densely Annotated VIdeo Segmentation) is a fundamental dataset and *benchmark* for the problem of **Video Object Segmentation (VOS)**. The most widely used version, DAVIS 2017, expanded the original version (DAVIS 2016) to include multi-object annotations per sequence. The dataset is crucial for the development and evaluation of VOS algorithms, both in semi-supervised scenarios (where the object mask is provided in the first *frame*) and unsupervised scenarios (where no human *input* is provided). The dataset is known for the high quality of its annotations and the diversity of its video scenarios.
 
 ## Statistics
-- **DAVIS 2017:** 150 sequências de vídeo, totalizando 10.459 *frames* anotados e 376 instâncias de objetos.
-- **DAVIS 2016:** 50 sequências de vídeo, totalizando 3.455 *frames* anotados.
-- **Tamanho do Dataset (DAVIS 2017):** Aproximadamente 792.26 MiB (versão TFDS 480p) ou vários GBs para a versão Full-Resolution.
-- **Resolução:** Anotações oficiais em 480p, mas imagens em resolução total (até 4K) disponíveis.
-- **Versões:** DAVIS 2016, DAVIS 2017, e extensões como DAVIS-17 Moving. O desafio mais recente foi em 2020.
+- **DAVIS 2017:** 150 video sequences, totaling 10,459 annotated *frames* and 376 object instances.
+- **DAVIS 2016:** 50 video sequences, totaling 3,455 annotated *frames*.
+- **Dataset Size (DAVIS 2017):** Approximately 792.26 MiB (TFDS 480p version) or several GBs for the Full-Resolution version.
+- **Resolution:** Official annotations in 480p, but full-resolution images (up to 4K) are available.
+- **Versions:** DAVIS 2016, DAVIS 2017, and extensions such as DAVIS-17 Moving. The most recent challenge was in 2020.
 
 ## Features
-- **Análise Densa:** Anotações de segmentação de alta qualidade em nível de pixel para cada *frame* relevante.
-- **Múltiplas Versões:** Inclui DAVIS 2016 (objeto único) e DAVIS 2017 (múltiplos objetos).
-- **Resoluções Variadas:** Disponível em 480p para avaliação padrão e em resolução total (Full-Resolution, até 4K) para pesquisa.
-- **Modos de Avaliação:** Suporta avaliação para VOS semi-supervisionado (com máscara do primeiro *frame*) e não-supervisionado (sem *input* humano).
-- **Desafios Anuais:** Foi a base para desafios anuais (DAVIS Challenge) de 2017 a 2020, impulsionando o estado da arte.
+- **Dense Analysis:** High-quality pixel-level segmentation annotations for each relevant *frame*.
+- **Multiple Versions:** Includes DAVIS 2016 (single object) and DAVIS 2017 (multiple objects).
+- **Varied Resolutions:** Available in 480p for standard evaluation and in full resolution (Full-Resolution, up to 4K) for research.
+- **Evaluation Modes:** Supports evaluation for semi-supervised VOS (with a first-*frame* mask) and unsupervised VOS (without human *input*).
+- **Annual Challenges:** It was the basis for annual challenges (DAVIS Challenge) from 2017 to 2020, driving the state of the art.
 
 ## Use Cases
-- **Segmentação de Objetos em Vídeo (VOS):** Principal caso de uso para treinar e avaliar modelos de VOS.
-- **Rastreamento de Múltiplos Objetos (MOT):** O DAVIS 2017, com anotações de múltiplos objetos, é relevante para tarefas de rastreamento.
-- **Visão Computacional em Tempo Real:** Desenvolvimento de algoritmos eficientes que operam em sequências de vídeo.
-- **Pesquisa em Visão Computacional:** Utilizado como *benchmark* padrão para o estado da arte em segmentação de vídeo.
-- **Aplicações:** Robótica, veículos autônomos, vigilância e edição de vídeo avançada.
+- **Video Object Segmentation (VOS):** The primary use case for training and evaluating VOS models.
+- **Multiple Object Tracking (MOT):** DAVIS 2017, with multi-object annotations, is relevant for tracking tasks.
+- **Real-Time Computer Vision:** Development of efficient algorithms that operate on video sequences.
+- **Computer Vision Research:** Used as a standard *benchmark* for the state of the art in video segmentation.
+- **Applications:** Robotics, autonomous vehicles, surveillance, and advanced video editing.
 
 ## Integration
-O dataset e o código de avaliação estão disponíveis no site oficial. O uso geralmente envolve:
-1.  **Download:** Baixar os arquivos `TrainVal` e `Test-Dev/Test-Challenge` (imagens e anotações) do site oficial.
-2.  **Código de Avaliação:** Utilizar os repositórios Python ou MATLAB fornecidos para carregar o dataset e avaliar os resultados do modelo.
-3.  **Estrutura:** O dataset é organizado em sequências de vídeo, com subpastas para imagens (*JPEGImages*) e anotações (*Annotations*).
-4.  **Uso em Frameworks:** O dataset também está disponível em formatos prontos para uso em bibliotecas como TensorFlow Datasets (TFDS).
-**Link de Download:** O link direto para a seção de downloads do DAVIS 2017 é `https://davischallenge.org/davis2017/code.html`. É necessário aceitar os termos de uso.
+The dataset and the evaluation code are available on the official website. Usage generally involves:
+1.  **Download:** Downloading the `TrainVal` and `Test-Dev/Test-Challenge` files (images and annotations) from the official website.
+2.  **Evaluation Code:** Using the provided Python or MATLAB repositories to load the dataset and evaluate the model results.
+3.  **Structure:** The dataset is organized into video sequences, with subfolders for images (*JPEGImages*) and annotations (*Annotations*).
+4.  **Use in Frameworks:** The dataset is also available in ready-to-use formats for libraries such as TensorFlow Datasets (TFDS).
+**Download Link:** The direct link to the DAVIS 2017 downloads section is `https://davischallenge.org/davis2017/code.html`. Acceptance of the terms of use is required.
 
 ## URL
 [https://www.davischallenge.org/](https://www.davischallenge.org/)

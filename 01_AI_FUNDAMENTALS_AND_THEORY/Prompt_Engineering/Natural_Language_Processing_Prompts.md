@@ -1,69 +1,69 @@
 # Natural Language Processing Prompts
 
 ## Description
-Prompts de Processamento de Linguagem Natural (PLN) referem-se à arte e ciência de criar instruções de entrada (prompts) para modelos de linguagem grandes (LLMs) com o objetivo de realizar tarefas específicas de PLN. Em vez de treinar um modelo para cada tarefa (como classificação de texto, sumarização ou tradução), a engenharia de prompt permite que um único LLM seja adaptado para uma vasta gama de aplicações através de instruções textuais. Esta técnica é fundamental para extrair o máximo de valor dos LLMs, garantindo que a saída seja precisa, relevante e formatada conforme a necessidade. O foco principal é fornecer contexto, definir o papel do modelo, especificar o formato de saída e, para tarefas complexas, guiar o raciocínio do modelo (como no Chain-of-Thought).
+Natural Language Processing (NLP) Prompts refer to the art and science of crafting input instructions (prompts) for large language models (LLMs) with the goal of performing specific NLP tasks. Instead of training a model for each task (such as text classification, summarization, or translation), prompt engineering allows a single LLM to be adapted for a vast range of applications through textual instructions. This technique is fundamental to extracting the most value from LLMs, ensuring that the output is accurate, relevant, and formatted as needed. The main focus is on providing context, defining the model's role, specifying the output format, and, for complex tasks, guiding the model's reasoning (as in Chain-of-Thought).
 
 ## Examples
 ```
-**1. Classificação de Sentimento (Few-Shot):**
+**1. Sentiment Classification (Few-Shot):**
 ```
-Você é um classificador de sentimento. Classifique o texto como 'Positivo', 'Negativo' ou 'Neutro'.
+You are a sentiment classifier. Classify the text as 'Positive', 'Negative', or 'Neutral'.
 
-Exemplo 1:
-Texto: O serviço foi rápido e a comida estava excelente.
-Sentimento: Positivo
+Example 1:
+Text: The service was fast and the food was excellent.
+Sentiment: Positive
 
-Exemplo 2:
-Texto: Atrasou, mas o produto chegou intacto.
-Sentimento: Neutro
+Example 2:
+Text: It was late, but the product arrived intact.
+Sentiment: Neutral
 
-Texto: O atendimento foi péssimo e o problema não foi resolvido.
-Sentimento:
-```
-
-**2. Sumarização Extrativa (Com Restrição de Formato):**
-```
-Sumarize o texto abaixo em 3 frases, extraindo apenas as informações mais críticas. A saída deve ser uma lista numerada.
-
-[TEXTO LONGO AQUI]
+Text: The service was terrible and the problem was not resolved.
+Sentiment:
 ```
 
-**3. Extração de Entidades Nomeadas (NER) (Com Saída Estruturada):**
+**2. Extractive Summarization (With Format Constraint):**
 ```
-Extraia todas as entidades de 'Pessoa', 'Organização' e 'Local' do texto a seguir. A saída deve estar no formato JSON.
+Summarize the text below in 3 sentences, extracting only the most critical information. The output must be a numbered list.
 
-Texto: Maria Silva, CEO da TechCorp, viajou para Paris para a conferência de IA.
+[LONG TEXT HERE]
+```
+
+**3. Named Entity Recognition (NER) (With Structured Output):**
+```
+Extract all 'Person', 'Organization', and 'Location' entities from the following text. The output must be in JSON format.
+
+Text: Maria Silva, CEO of TechCorp, traveled to Paris for the AI conference.
 
 JSON:
 ```
 
-**4. Geração de Código a partir de Intenção (Com Contexto de Linguagem):**
+**4. Code Generation from Intent (With Language Context):**
 ```
-Você é um assistente de programação Python. Gere o código Python para a seguinte tarefa:
+You are a Python programming assistant. Generate the Python code for the following task:
 
-Tarefa: Criar uma função que recebe uma lista de números e retorna a média, ignorando valores nulos.
+Task: Create a function that takes a list of numbers and returns the average, ignoring null values.
 
-Código Python:
+Python Code:
 ```
 
-**5. Tradução com Adaptação de Estilo (Com Definição de Público):**
+**5. Translation with Style Adaptation (With Audience Definition):**
 ```
-Traduza o seguinte parágrafo do Português para o Inglês. O tom deve ser formal e o público-alvo são executivos de alto nível.
+Translate the following paragraph from Portuguese to English. The tone must be formal and the target audience is senior executives.
 
-Parágrafo: A implementação da nova política de governança de dados é crucial para a conformidade regulatória e para a mitigação de riscos operacionais.
+Paragraph: A implementação da nova política de governança de dados é crucial para a conformidade regulatória e para a mitigação de riscos operacionais.
 
-Tradução:
+Translation:
 ```
 ```
 
 ## Best Practices
-**1. Seja Específico e Contextualizado:** Defina claramente o papel do modelo (ex: "Você é um analista financeiro experiente"), o público-alvo e o formato de saída desejado (JSON, lista, parágrafo). **2. Use o Chain-of-Thought (CoT):** Para tarefas complexas de raciocínio (como análise de risco ou resolução de problemas), instrua o modelo a "pensar passo a passo" antes de fornecer a resposta final. **3. Forneça Exemplos (Few-Shot):** Inclua 1 a 3 exemplos de pares de entrada/saída para orientar o modelo sobre o estilo, tom e estrutura da resposta esperada. **4. Isole a Tarefa de PLN:** Se a tarefa puder ser resolvida com métodos tradicionais de PLN (como regex ou contagem), use-os. Caso contrário, quebre a tarefa complexa em subtarefas, usando o LLM apenas para as partes que exigem compreensão de linguagem natural. **5. Itere e Refine:** Comece com um prompt simples e adicione restrições, contexto e exemplos conforme necessário para melhorar a qualidade da saída. **6. Evite Negações:** Em vez de dizer "Não inclua a introdução", diga "Comece diretamente com a seção de resultados". Modelos tendem a processar melhor instruções positivas.
+**1. Be Specific and Contextual:** Clearly define the model's role (e.g., "You are an experienced financial analyst"), the target audience, and the desired output format (JSON, list, paragraph). **2. Use Chain-of-Thought (CoT):** For complex reasoning tasks (such as risk analysis or problem solving), instruct the model to "think step by step" before providing the final answer. **3. Provide Examples (Few-Shot):** Include 1 to 3 examples of input/output pairs to guide the model on the style, tone, and structure of the expected response. **4. Isolate the NLP Task:** If the task can be solved with traditional NLP methods (such as regex or counting), use them. Otherwise, break the complex task into subtasks, using the LLM only for the parts that require natural language understanding. **5. Iterate and Refine:** Start with a simple prompt and add constraints, context, and examples as needed to improve output quality. **6. Avoid Negations:** Instead of saying "Do not include the introduction," say "Start directly with the results section." Models tend to process positive instructions better.
 
 ## Use Cases
-**1. Análise de Sentimento e Classificação de Texto:** Classificar avaliações de clientes, e-mails de suporte ou notícias em categorias predefinidas (ex: positivo, negativo, spam, urgência). **2. Sumarização e Geração de Conteúdo:** Criar resumos de documentos longos (artigos, relatórios financeiros), gerar títulos ou descrições de produtos. **3. Extração de Informação (NER e Relações):** Identificar e extrair entidades nomeadas (pessoas, locais, datas, valores) e as relações entre elas em textos não estruturados (ex: contratos, prontuários médicos). **4. Tradução e Adaptação de Estilo:** Traduzir textos entre idiomas, adaptando o tom (formal/informal) ou o jargão para um público específico (ex: jurídico, técnico). **5. Geração de Código e Documentação:** Auxiliar desenvolvedores na criação de snippets de código, documentação técnica ou na explicação de funções complexas. **6. Chatbots e Assistentes Virtuais:** Melhorar a compreensão da intenção do usuário e a geração de respostas contextuais em sistemas de conversação.
+**1. Sentiment Analysis and Text Classification:** Classify customer reviews, support emails, or news into predefined categories (e.g., positive, negative, spam, urgency). **2. Summarization and Content Generation:** Create summaries of long documents (articles, financial reports), generate product titles or descriptions. **3. Information Extraction (NER and Relations):** Identify and extract named entities (people, locations, dates, values) and the relations between them in unstructured text (e.g., contracts, medical records). **4. Translation and Style Adaptation:** Translate texts between languages, adapting the tone (formal/informal) or jargon for a specific audience (e.g., legal, technical). **5. Code and Documentation Generation:** Assist developers in creating code snippets, technical documentation, or explaining complex functions. **6. Chatbots and Virtual Assistants:** Improve the understanding of user intent and the generation of contextual responses in conversational systems.
 
 ## Pitfalls
-**1. Prompts Vagos ou Ambíguos:** Não especificar o objetivo, o formato ou o público-alvo leva a respostas genéricas e de baixa qualidade. **2. Confiar em Role-Prompting Excessivo:** Atribuir um papel ("Você é um especialista...") sem fornecer contexto ou restrições claras pode não melhorar o desempenho e apenas aumentar o custo (mais tokens). **3. Usar LLMs para Tarefas Simples de Programação:** Tentar usar o LLM para tarefas que podem ser resolvidas de forma mais eficiente e confiável com código simples (ex: cálculos, regex, manipulação de strings) resulta em desperdício de recursos e maior latência. **4. Ignorar a Necessidade de Raciocínio:** Para tarefas que exigem múltiplas etapas de lógica, não incluir instruções como "pense passo a passo" (CoT) pode levar a erros de raciocínio ou "alucinações". **5. Falha em Validar a Saída:** Assumir que a saída do LLM está sempre correta, especialmente em tarefas de extração de dados ou fatos, sem um mecanismo de validação ou verificação. **6. Prompt Injection:** Não proteger o prompt contra entradas maliciosas que tentam desviar o modelo de sua tarefa original.
+**1. Vague or Ambiguous Prompts:** Failing to specify the goal, format, or target audience leads to generic, low-quality responses. **2. Relying on Excessive Role-Prompting:** Assigning a role ("You are an expert...") without providing clear context or constraints may not improve performance and only increases cost (more tokens). **3. Using LLMs for Simple Programming Tasks:** Trying to use the LLM for tasks that can be solved more efficiently and reliably with simple code (e.g., calculations, regex, string manipulation) results in wasted resources and higher latency. **4. Ignoring the Need for Reasoning:** For tasks that require multiple logical steps, failing to include instructions like "think step by step" (CoT) can lead to reasoning errors or "hallucinations." **5. Failing to Validate the Output:** Assuming that the LLM's output is always correct, especially in data or fact extraction tasks, without a validation or verification mechanism. **6. Prompt Injection:** Failing to protect the prompt against malicious inputs that attempt to divert the model from its original task.
 
 ## URL
 [https://www.promptingguide.ai/papers](https://www.promptingguide.ai/papers)

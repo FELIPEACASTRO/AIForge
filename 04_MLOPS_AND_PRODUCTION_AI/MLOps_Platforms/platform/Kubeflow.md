@@ -2,67 +2,67 @@
 
 ## Description
 
-O Kubeflow é uma **plataforma de Machine Learning (ML) de código aberto e nativa do Kubernetes**, dedicada a tornar as implantações de fluxos de trabalho de ML simples, portáteis e escaláveis. Sua proposta de valor única reside em fornecer uma **plataforma unificada e modular** para todo o ciclo de vida do ML (MLOps), desde a experimentação até a produção, aproveitando a orquestração, escalabilidade e portabilidade inerentes do Kubernetes. Ele permite que cientistas de dados e engenheiros de ML construam, treinem e implantem modelos em qualquer infraestrutura onde o Kubernetes possa ser executado (nuvem pública, nuvem privada, on-premises).
+Kubeflow is an **open-source, Kubernetes-native Machine Learning (ML) platform**, dedicated to making deployments of ML workflows simple, portable, and scalable. Its unique value proposition lies in providing a **unified and modular platform** for the entire ML lifecycle (MLOps), from experimentation to production, leveraging the orchestration, scalability, and portability inherent to Kubernetes. It allows data scientists and ML engineers to build, train, and deploy models on any infrastructure where Kubernetes can run (public cloud, private cloud, on-premises).
 
 ## Statistics
 
-*   **Adoção em Produção:** 44% dos usuários relataram estar executando o Kubeflow em produção (Pesquisa de Usuários de 2022).
-*   **Uso de Múltiplos Componentes:** 84% a 85% dos usuários utilizam mais de um componente do Kubeflow, indicando a adoção da plataforma completa e modular.
-*   **Componentes Mais Usados (Pesquisa de 2023):** Pipelines (90%), Notebooks (76%), e Katib (47%).
-*   **Comunidade:** Grande e ativa, com uso por empresas da Global 500.
+*   **Production Adoption:** 44% of users reported running Kubeflow in production (2022 User Survey).
+*   **Use of Multiple Components:** 84% to 85% of users use more than one Kubeflow component, indicating adoption of the complete, modular platform.
+*   **Most Used Components (2023 Survey):** Pipelines (90%), Notebooks (76%), and Katib (47%).
+*   **Community:** Large and active, with use by Global 500 companies.
 
 ## Features
 
-O Kubeflow é composto por vários componentes modulares que cobrem o ciclo de vida completo do ML:
-*   **Kubeflow Pipelines (KFP):** Criação e orquestração de fluxos de trabalho de ML portáteis e escaláveis, baseados em contêineres.
-*   **Notebooks:** Spawning e gerenciamento de instâncias de Jupyter Notebooks (e outros) no Kubernetes para experimentação e desenvolvimento.
-*   **Katib:** Serviço de ajuste de hiperparâmetros e busca neural (AutoML) para otimizar modelos.
-*   **Training Operators:** Treinamento distribuído de modelos de ML usando frameworks populares como TensorFlow, PyTorch, MXNet e XGBoost.
-*   **KFServing (KServe):** Implantação, serviço e gerenciamento de modelos de ML em escala, com recursos como auto-escalonamento, canary rollouts e A/B testing.
-*   **Metadata:** Rastreamento e gerenciamento de metadados de artefatos de ML (datasets, modelos, pipelines).
+Kubeflow is composed of several modular components that cover the complete ML lifecycle:
+*   **Kubeflow Pipelines (KFP):** Creation and orchestration of portable, scalable, container-based ML workflows.
+*   **Notebooks:** Spawning and management of Jupyter Notebook instances (and others) on Kubernetes for experimentation and development.
+*   **Katib:** Hyperparameter tuning and neural architecture search service (AutoML) to optimize models.
+*   **Training Operators:** Distributed training of ML models using popular frameworks such as TensorFlow, PyTorch, MXNet, and XGBoost.
+*   **KFServing (KServe):** Deployment, serving, and management of ML models at scale, with features such as auto-scaling, canary rollouts, and A/B testing.
+*   **Metadata:** Tracking and management of metadata for ML artifacts (datasets, models, pipelines).
 
 ## Use Cases
 
-*   **Criação de Plataformas MLOps:** Empresas usam o Kubeflow como a espinha dorsal para construir suas próprias plataformas internas de MLOps, padronizando o desenvolvimento e a implantação de ML.
-*   **Treinamento Distribuído:** Execução de tarefas de treinamento de modelos de grande escala que exigem múltiplos GPUs ou CPUs, como o treinamento de modelos de Linguagem Grande (LLMs) ou modelos de Visão Computacional.
-*   **Experimentação e Reprodução:** Uso de Notebooks e Pipelines para garantir que os experimentos de ML sejam reproduzíveis e possam ser facilmente movidos da fase de P&D para a produção.
-*   **Serviço de Modelo em Escala:** Implantação de modelos de ML como microsserviços escaláveis com o KServe, permitindo inferência de baixa latência e alta taxa de transferência.
-*   **Setores de Adoção:** Telecomunicações (Verizon), Transporte (Delta), Saúde, Finanças (Goldman Sachs).
+*   **Building MLOps Platforms:** Companies use Kubeflow as the backbone to build their own internal MLOps platforms, standardizing ML development and deployment.
+*   **Distributed Training:** Execution of large-scale model training tasks that require multiple GPUs or CPUs, such as training Large Language Models (LLMs) or Computer Vision models.
+*   **Experimentation and Reproduction:** Use of Notebooks and Pipelines to ensure that ML experiments are reproducible and can be easily moved from the R&D phase to production.
+*   **Model Serving at Scale:** Deployment of ML models as scalable microservices with KServe, enabling low-latency, high-throughput inference.
+*   **Adoption Sectors:** Telecommunications (Verizon), Transportation (Delta), Healthcare, Finance (Goldman Sachs).
 
 ## Integration
 
-A integração primária é feita através do **Kubeflow Pipelines SDK (KFP SDK)**, que permite definir fluxos de trabalho de ML em Python. O pipeline é então compilado para um arquivo YAML que é implantado no cluster Kubeflow.
+The primary integration is done through the **Kubeflow Pipelines SDK (KFP SDK)**, which allows ML workflows to be defined in Python. The pipeline is then compiled into a YAML file that is deployed to the Kubeflow cluster.
 
-**Exemplo de Código (Definindo um Componente de Pipeline Simples):**
+**Code Example (Defining a Simple Pipeline Component):**
 
 ```python
 from kfp.v2.dsl import component
 from kfp.v2 import dsl
 from kfp.v2.compiler import Compiler
 
-# 1. Definir um componente de pipeline
+# 1. Define a pipeline component
 @component(
     packages_to_install=['pandas'],
     base_image='python:3.9'
 )
 def load_data(data_path: str) -> str:
-    """Carrega dados de um caminho e retorna um resumo."""
+    """Loads data from a path and returns a summary."""
     import pandas as pd
     df = pd.read_csv(data_path)
-    summary = f"Dados carregados com {len(df)} linhas e {len(df.columns)} colunas."
+    summary = f"Data loaded with {len(df)} rows and {len(df.columns)} columns."
     print(summary)
     return summary
 
-# 2. Definir o pipeline completo
+# 2. Define the complete pipeline
 @dsl.pipeline(
     name='simple-kubeflow-pipeline',
-    description='Um pipeline simples para carregar dados.'
+    description='A simple pipeline to load data.'
 )
 def data_pipeline(data_file: str = 'gs://my-bucket/data.csv'):
-    # Usar o componente definido
+    # Use the defined component
     load_data_task = load_data(data_path=data_file)
     
-# 3. Compilar o pipeline para um arquivo YAML (para implantação no Kubeflow)
+# 3. Compile the pipeline into a YAML file (for deployment to Kubeflow)
 # Compiler().compile(pipeline_func=data_pipeline, package_path='data_pipeline.yaml')
 ```
 

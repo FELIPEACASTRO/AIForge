@@ -2,25 +2,25 @@
 
 ## Description
 
-**Normalizing Flows (NFs)** são uma classe de modelos generativos que constroem distribuições de probabilidade complexas a partir de uma distribuição base simples (geralmente Gaussiana) através de uma sequência de transformações invertíveis e diferenciáveis [1] [2]. Sua principal proposta de valor é permitir a **avaliação exata e eficiente da densidade de probabilidade (likelihood)** e a **amostragem/inferência exatas** de variáveis latentes, algo que modelos como VAEs e GANs não oferecem [3]. O espaço latente é bem-comportado e tem a mesma dimensionalidade do espaço de dados. O **RealNVP** [5] foi um dos primeiros a usar camadas de acoplamento afim para garantir a invertibilidade e o cálculo fácil do Jacobiano. O **Glow** [4] aprimorou o RealNVP com convoluções invertíveis 1x1 e Actnorm para melhorar a qualidade da imagem gerada. Os **Continuous Normalizing Flows (CNFs)** [6] modelam o fluxo como uma trajetória contínua no tempo usando Neural ODEs, oferecendo flexibilidade ilimitada de profundidade com eficiência de parâmetros.
+**Normalizing Flows (NFs)** are a class of generative models that build complex probability distributions from a simple base distribution (usually Gaussian) through a sequence of invertible and differentiable transformations [1] [2]. Their main value proposition is enabling **exact and efficient probability density (likelihood) evaluation** and **exact sampling/inference** of latent variables, something that models like VAEs and GANs do not offer [3]. The latent space is well-behaved and has the same dimensionality as the data space. **RealNVP** [5] was one of the first to use affine coupling layers to guarantee invertibility and easy computation of the Jacobian. **Glow** [4] improved on RealNVP with invertible 1x1 convolutions and Actnorm to enhance the quality of generated images. **Continuous Normalizing Flows (CNFs)** [6] model the flow as a continuous-time trajectory using Neural ODEs, offering unlimited depth flexibility with parameter efficiency.
 
 ## Statistics
 
-**Objetivo de Treinamento:** Maximização da Log-Likelihood Exata (NLL) para todos os modelos. **Paralelização:** Amostragem e Inferência Paralelizáveis (RealNVP, Glow); Amostragem Sequencial, Inferência Paralelizável (CNFs). **Desempenho (Imagens):** Glow alcançou a melhor Log-Likelihood em ImageNet e CelebA entre os modelos de fluxo iniciais. **Custo Computacional:** Variável, sendo o CNF dependente da precisão do ODE Solver, mas geralmente mais eficiente em termos de parâmetros que os modelos discretos. **Invertibilidade:** Garantida por construção em todos os modelos.
+**Training Objective:** Maximization of the Exact Log-Likelihood (NLL) for all models. **Parallelization:** Parallelizable Sampling and Inference (RealNVP, Glow); Sequential Sampling, Parallelizable Inference (CNFs). **Performance (Images):** Glow achieved the best Log-Likelihood on ImageNet and CelebA among early flow models. **Computational Cost:** Variable, with the CNF depending on the ODE Solver's precision, but generally more parameter-efficient than discrete models. **Invertibility:** Guaranteed by construction in all models.
 
 ## Features
 
-**Normalizing Flows (Geral):** Likelihood exata e tratável; Amostragem e inferência exatas e paralelizadas; Espaço latente significativo e manipulável. **RealNVP:** Uso de camadas de acoplamento afim (affine coupling layers); Arquitetura multi-escala para dados de alta dimensão. **Glow:** Introdução de Convoluções Invertíveis 1x1 para permutar canais; Uso de Actnorm (Activation Normalization); Melhoria na qualidade de geração de imagens. **CNFs:** Uso de Neural ODEs para definir transformações contínuas no tempo; Flexibilidade ilimitada de profundidade (tempo) sem aumento de custo de treinamento; Uso eficiente de parâmetros.
+**Normalizing Flows (General):** Exact and tractable likelihood; Exact and parallelized sampling and inference; Meaningful and manipulable latent space. **RealNVP:** Use of affine coupling layers; Multi-scale architecture for high-dimensional data. **Glow:** Introduction of invertible 1x1 convolutions to permute channels; Use of Actnorm (Activation Normalization); Improved image generation quality. **CNFs:** Use of Neural ODEs to define continuous-time transformations; Unlimited depth (time) flexibility without increased training cost; Efficient use of parameters.
 
 ## Use Cases
 
-**Geração de Imagens de Alta Fidelidade:** O Glow é notável por gerar rostos realistas e permitir manipulações semânticas no espaço latente (e.g., mudar a expressão facial) [4]. **Síntese de Voz e Áudio:** Usado em modelos como WaveGlow [7]. **Detecção de Anomalias e Outliers:** A capacidade de calcular a likelihood exata $p(x)$ é ideal para identificar pontos de dados com baixa probabilidade [1]. **Inferência Variacional:** CNFs podem ser usados para inferência variacional mais expressiva e precisa [6]. **Modelagem de Distribuições Físicas e Químicas:** Aplicações em física computacional para modelar distribuições de energia e amostragem eficiente em simulações de Monte Carlo [8]. **Compressão de Dados Lossless:** A modelagem de densidade explícita permite o uso para compressão de dados, onde a log-likelihood se relaciona diretamente com a taxa de bits [1].
+**High-Fidelity Image Generation:** Glow is notable for generating realistic faces and enabling semantic manipulations in the latent space (e.g., changing facial expression) [4]. **Voice and Audio Synthesis:** Used in models such as WaveGlow [7]. **Anomaly and Outlier Detection:** The ability to compute the exact likelihood $p(x)$ is ideal for identifying low-probability data points [1]. **Variational Inference:** CNFs can be used for more expressive and accurate variational inference [6]. **Modeling Physical and Chemical Distributions:** Applications in computational physics to model energy distributions and enable efficient sampling in Monte Carlo simulations [8]. **Lossless Data Compression:** Explicit density modeling allows use for data compression, where the log-likelihood relates directly to the bit rate [1].
 
 ## Integration
 
-A integração é tipicamente realizada usando bibliotecas de aprendizado profundo como PyTorch ou TensorFlow. Implementações prontas estão disponíveis em bibliotecas como `nflows` [11]. O treinamento se baseia na maximização da log-likelihood exata. CNFs requerem bibliotecas de solução de Equações Diferenciais Ordinárias (ODEs), como `torchdiffeq`, para resolver a integral do traço do Jacobiano.
+Integration is typically done using deep learning libraries such as PyTorch or TensorFlow. Ready-to-use implementations are available in libraries like `nflows` [11]. Training is based on maximizing the exact log-likelihood. CNFs require Ordinary Differential Equation (ODE) solver libraries, such as `torchdiffeq`, to solve the integral of the Jacobian trace.
 
-**Exemplo Conceitual (PyTorch - Glow-like Flow):**
+**Conceptual Example (PyTorch - Glow-like Flow):**
 ```python
 import torch
 import torch.nn as nn
@@ -28,20 +28,20 @@ from nflows.flows import Flow
 from nflows.distributions import StandardNormal
 from nflows.transforms import CompositeTransform, AffineCouplingTransform, ActNorm, OneByOneConvolution
 
-# 1. Definir a Distribuição Base (Base Distribution)
+# 1. Define the Base Distribution
 base_dist = StandardNormal(shape=[2])
 
-# 2. Definir as Transformações (Exemplo de um passo de Glow)
+# 2. Define the Transformations (Example of one Glow step)
 transform = CompositeTransform([
     ActNorm(2),
     OneByOneConvolution(2),
-    AffineCouplingTransform(...) # Camada de acoplamento afim
+    AffineCouplingTransform(...) # Affine coupling layer
 ])
 
-# 3. Construir o Flow
+# 3. Build the Flow
 flow = Flow(transform, base_dist)
 
-# 4. Treinamento (Maximizar a Log-Likelihood)
+# 4. Training (Maximize the Log-Likelihood)
 # loss = -flow.log_prob(data).mean()
 ```
 

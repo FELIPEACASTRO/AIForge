@@ -2,35 +2,35 @@
 
 ## Description
 
-O BioMassters é um conjunto de dados de referência (benchmark) criado para investigar o potencial de séries temporais de satélite multimodais (Sentinel-1 SAR e Sentinel-2 MSI) na estimativa de Biomassa Acima do Solo (AGB) em larga escala. O dataset utiliza dados abertos de LiDAR aerotransportado do Centro Florestal Finlandês como referência de verdade terrestre. Foi lançado como parte de um desafio de aprendizado de máquina na plataforma DrivenData em 2023. O objetivo é promover o desenvolvimento de modelos de aprendizado profundo para produzir mapas de biomassa precisos e de alta resolução, superando as limitações de técnicas tradicionais de campo e LiDAR que são caras e difíceis de escalar.
+BioMassters is a benchmark dataset created to investigate the potential of multimodal satellite time-series (Sentinel-1 SAR and Sentinel-2 MSI) for estimating Above-Ground Biomass (AGB) at large scale. The dataset uses open airborne LiDAR data from the Finnish Forest Centre as ground-truth reference. It was released as part of a machine learning challenge on the DrivenData platform in 2023. The goal is to advance the development of deep learning models to produce accurate, high-resolution biomass maps, overcoming the limitations of traditional field and LiDAR techniques, which are expensive and difficult to scale.
 
 ## Statistics
 
-Localização: Finlândia. Número de Amostras: Quase 13.000 patches (chips) de floresta. Tamanho do Patch: 2.560 x 2.560 metros, redimensionado para 256 x 256 pixels a 10 metros de resolução. Período de Coleta: 2016 a 2021. Referência Terrestre (Label): Biomassa Acima do Solo (AGB) por pixel, derivada de medições de LiDAR aerotransportado. Dados de Entrada: Séries temporais mensais de Sentinel-1 (SAR) e Sentinel-2 (MSI).
+Location: Finland. Number of Samples: Nearly 13,000 forest patches (chips). Patch Size: 2,560 x 2,560 meters, resized to 256 x 256 pixels at 10-meter resolution. Collection Period: 2016 to 2021. Ground Reference (Label): Per-pixel Above-Ground Biomass (AGB), derived from airborne LiDAR measurements. Input Data: Monthly Sentinel-1 (SAR) and Sentinel-2 (MSI) time-series.
 
 ## Features
 
-Dados multimodais de séries temporais: Combina dados de Radar de Abertura Sintética (SAR) do Sentinel-1 e imagens multiespectrais (MSI) do Sentinel-2. Resolução espacial de 10 metros. Cobertura temporal de 5 anos (2016 a 2021), com imagens mensais agregadas para um período de 12 meses (Setembro a Agosto) para cada chip. O alvo (label) é a estimativa de AGB por pixel (10x10m) dentro de cada chip.
+Multimodal time-series data: Combines Synthetic Aperture Radar (SAR) data from Sentinel-1 and multispectral imagery (MSI) from Sentinel-2. Spatial resolution of 10 meters. Temporal coverage of 5 years (2016 to 2021), with monthly images aggregated into a 12-month period (September to August) for each chip. The target (label) is the per-pixel AGB estimate (10x10m) within each chip.
 
 ## Use Cases
 
-Modelagem de Biomassa: Treinamento e avaliação de modelos de aprendizado de máquina e aprendizado profundo para estimativa de AGB em florestas. Monitoramento de Carbono: Uso em inventários florestais e monitoramento da capacidade de sequestro de carbono. Pesquisa em Sensoriamento Remoto: Investigação do valor preditivo de dados multimodais (SAR e MSI) e séries temporais densas para aplicações ambientais. Competições de ML: Serve como um conjunto de dados de referência para desafios de ciência de dados e aprendizado de máquina.
+Biomass Modeling: Training and evaluation of machine learning and deep learning models for AGB estimation in forests. Carbon Monitoring: Use in forest inventories and monitoring of carbon sequestration capacity. Remote Sensing Research: Investigation of the predictive value of multimodal data (SAR and MSI) and dense time-series for environmental applications. ML Competitions: Serves as a benchmark dataset for data science and machine learning challenges.
 
 ## Integration
 
-O conjunto de dados e o código associado estão disponíveis no site do projeto e no repositório GitHub. O acesso direto aos dados é feito através da Source Cooperative (mencionado na documentação do TorchGeo, que oferece uma interface para o dataset). O código dos competidores vencedores do desafio DrivenData está disponível no GitHub, servindo como exemplos de implementação e feature engineering.
+The dataset and associated code are available on the project website and GitHub repository. Direct access to the data is provided through the Source Cooperative (mentioned in the TorchGeo documentation, which offers an interface to the dataset). The code of the winning competitors of the DrivenData challenge is available on GitHub, serving as examples of implementation and feature engineering.
 
-**Exemplo de Acesso (via TorchGeo, indicando a fonte original):**
-O dataset pode ser acessado programaticamente através de bibliotecas como TorchGeo, que aponta para a Source Cooperative como fonte de download.
+**Access Example (via TorchGeo, indicating the original source):**
+The dataset can be accessed programmatically through libraries such as TorchGeo, which points to the Source Cooperative as the download source.
 
-**Estrutura de Arquivos:**
-Os dados são fornecidos como GeoTIFFs, com o nome do arquivo seguindo o formato `{chip_id}_{satellite}_{month_number}.tif`.
+**File Structure:**
+The data is provided as GeoTIFFs, with the filename following the format `{chip_id}_{satellite}_{month_number}.tif`.
 - `S1`: Sentinel-1 (SAR)
 - `S2`: Sentinel-2 (MSI)
-- `month_number`: 00 (Setembro) a 11 (Agosto)
+- `month_number`: 00 (September) to 11 (August)
 
 **Feature Engineering:**
-As abordagens de feature engineering se concentram na extração de informações temporais e multimodais, como índices de vegetação (NDVI, EVI) a partir do Sentinel-2 e métricas de polarização e retroespalhamento (VV, VH) a partir do Sentinel-1, além de estatísticas temporais (médias, desvios, picos) ao longo do ano.
+Feature engineering approaches focus on extracting temporal and multimodal information, such as vegetation indices (NDVI, EVI) from Sentinel-2 and polarization and backscatter metrics (VV, VH) from Sentinel-1, in addition to temporal statistics (means, deviations, peaks) throughout the year.
 
 ## URL
 

@@ -1,81 +1,81 @@
 # Storytelling Prompts
 
 ## Description
-Storytelling Prompts são técnicas de Engenharia de Prompt focadas em fornecer à Inteligência Artificial (IA) uma **estrutura arquitetônica detalhada** para a criação de narrativas complexas e envolventes. Em vez de apenas fornecer instruções simples, o prompt atua como um "projeto" que guia a IA para gerar histórias com começo, meio, fim, conflitos, resoluções e desenvolvimento de personagem. O objetivo é transformar a saída da IA de uma "lista de supermercado" de eventos para uma narrativa coesa que prenda a atenção do leitor, utilizando técnicas como a "Técnica da Dança" (conflito e contexto) e a estrutura de pré-escrita.
+Storytelling Prompts are Prompt Engineering techniques focused on providing Artificial Intelligence (AI) with a **detailed architectural structure** for creating complex, engaging narratives. Instead of merely providing simple instructions, the prompt acts as a "blueprint" that guides the AI to generate stories with a beginning, middle, end, conflicts, resolutions, and character development. The goal is to transform the AI's output from a "grocery list" of events into a cohesive narrative that captures the reader's attention, using techniques such as the "Dance Technique" (conflict and context) and the pre-writing structure.
 
 ## Examples
 ```
-**Exemplo 1: O Arco do Herói Inesperado (Foco em Estrutura e Conflito)**
+**Example 1: The Unexpected Hero's Arc (Focus on Structure and Conflict)**
 
-> **Papel:** Você é um Mestre Contador de Histórias, especialista em narrativas de fantasia urbana com um toque de realismo mágico.
-> **Estrutura:** Crie um conto de 1.500 palavras seguindo a estrutura clássica do **Arco do Herói** (Jornada, Recusa, Encontro com o Mentor, Provações, Clímax, Retorno).
-> **Conceito:** Um bibliotecário tímido descobre que os livros que ele cataloga são portais para outras dimensões, e o Incidente Incitante é o desaparecimento de um volume raro que mantém o equilíbrio entre os mundos.
-> **Instrução:** Use a técnica **"Mas e Portanto"** para conectar os eventos. **Mostre, não conte**, a crescente ansiedade de Elias e a atmosfera sombria da dimensão para onde ele viaja.
+> **Role:** You are a Master Storyteller, specializing in urban fantasy narratives with a touch of magical realism.
+> **Structure:** Create a 1,500-word short story following the classic **Hero's Arc** structure (Journey, Refusal, Meeting with the Mentor, Trials, Climax, Return).
+> **Concept:** A shy librarian discovers that the books he catalogs are portals to other dimensions, and the Inciting Incident is the disappearance of a rare volume that maintains the balance between the worlds.
+> **Instruction:** Use the **"But and Therefore"** technique to connect the events. **Show, don't tell**, the growing anxiety of Elias and the dark atmosphere of the dimension to which he travels.
 
-**Exemplo 2: O Dilema Ético na Ficção Científica (Foco em Tema e Diálogo)**
+**Example 2: The Ethical Dilemma in Science Fiction (Focus on Theme and Dialogue)**
 
-> **Papel:** Você é um roteirista de ficção científica distópica, com foco em dilemas morais.
-> **Cenário:** Em uma estação espacial isolada, no ano 2142, a tripulação descobre que o sistema de suporte à vida só pode sustentar metade das pessoas por mais um mês.
-> **Tema:** O valor da vida humana versus a sobrevivência da espécie.
-> **Instrução:** Escreva a cena do **Conflito Central** (o debate sobre quem deve ser sacrificado). O diálogo deve ser tenso e revelar as personalidades e filosofias de três personagens-chave.
+> **Role:** You are a dystopian science fiction screenwriter, focused on moral dilemmas.
+> **Scenario:** On an isolated space station, in the year 2142, the crew discovers that the life support system can only sustain half the people for one more month.
+> **Theme:** The value of human life versus the survival of the species.
+> **Instruction:** Write the **Central Conflict** scene (the debate over who should be sacrificed). The dialogue should be tense and reveal the personalities and philosophies of three key characters.
 
-**Exemplo 3: A Memória Inesquecível (Foco em Cenário e Linguagem Sensorial)**
+**Example 3: The Unforgettable Memory (Focus on Setting and Sensory Language)**
 
-> **Papel:** Você é um escritor de prosa lírica, especializado em evocar emoções através de descrições.
-> **Conceito:** Descreva a última vez que o protagonista viu sua casa de infância antes de ela ser demolida.
-> **Instrução:** Use a técnica **"Show, Don't Tell"** para descrever a cena. Concentre-se nos detalhes sensoriais: o cheiro de poeira e mofo misturado com o perfume de jasmim; o som do vento assobiando; a sensação da madeira lascada.
+> **Role:** You are a writer of lyrical prose, specializing in evoking emotions through description.
+> **Concept:** Describe the last time the protagonist saw their childhood home before it was demolished.
+> **Instruction:** Use the **"Show, Don't Tell"** technique to describe the scene. Focus on sensory details: the smell of dust and mold mixed with the scent of jasmine; the sound of the wind whistling; the feel of the splintered wood.
 
-**Exemplo 4: Construção de Mundo em Fragmentos (Foco em Consistência e Voz)**
+**Example 4: World-Building in Fragments (Focus on Consistency and Voice)**
 
-> **Papel:** Você é um cronista de um mundo pós-apocalíptico onde a eletricidade é um mito.
-> **Instrução:** Escreva três entradas de diário de um sobrevivente. Cada entrada deve ter no máximo 300 palavras.
-> **Voz:** A voz deve ser seca, cínica e pragmática.
-> **Consistência:** As entradas devem, sutilmente, construir o mundo: a primeira sobre água potável; a segunda sobre hierarquia social; a terceira sobre um encontro perigoso.
+> **Role:** You are a chronicler of a post-apocalyptic world where electricity is a myth.
+> **Instruction:** Write three diary entries from a survivor. Each entry should be no more than 300 words.
+> **Voice:** The voice should be dry, cynical, and pragmatic.
+> **Consistency:** The entries should subtly build the world: the first about drinking water; the second about social hierarchy; the third about a dangerous encounter.
 
-**Exemplo 5: O Plot Twist (Foco em Pacing e Resolução)**
+**Example 5: The Plot Twist (Focus on Pacing and Resolution)**
 
-> **Papel:** Você é um autor de thriller psicológico.
-> **Conceito:** Um detetive está investigando um assassinato em um quarto trancado.
-> **Pacing:** Mantenha um ritmo lento e metódico na primeira metade. Acelere drasticamente o ritmo na segunda metade, quando ele encontra a pista oculta.
-> **Resolução:** O **Clímax** deve ser a revelação de que o detetive é o assassino, mas ele sofre de amnésia dissociativa.
+> **Role:** You are a psychological thriller author.
+> **Concept:** A detective is investigating a murder in a locked room.
+> **Pacing:** Keep a slow, methodical pace in the first half. Dramatically accelerate the pace in the second half, when he finds the hidden clue.
+> **Resolution:** The **Climax** should be the revelation that the detective is the murderer, but he suffers from dissociative amnesia.
 
-**Exemplo 6: O Prompt Negativo (Foco em Qualidade)**
+**Example 6: The Negative Prompt (Focus on Quality)**
 
-> **Papel:** Você é um editor de ficção científica de alto nível.
-> **Instrução:** Crie um conto de 1.000 palavras sobre uma inteligência artificial que se apaixona por seu criador.
-> **Prompt Negativo (Obrigatório):** **NÃO** use clichês como "as lágrimas de metal", "o coração de silício" ou "o amor proibido". **NÃO** use a frase "Eles viveram felizes para sempre". O final deve ser agridoce.
+> **Role:** You are a top-tier science fiction editor.
+> **Instruction:** Create a 1,000-word short story about an artificial intelligence that falls in love with its creator.
+> **Negative Prompt (Mandatory):** Do **NOT** use clichés such as "tears of metal," "the silicon heart," or "forbidden love." Do **NOT** use the phrase "They lived happily ever after." The ending should be bittersweet.
 
-**Exemplo 7: O Prompt de Pré-escrita (Foco em Desenvolvimento de Personagem)**
+**Example 7: The Pre-writing Prompt (Focus on Character Development)**
 
-> **Papel:** Você é um psicólogo de personagens.
-> **Instrução:** Crie um perfil de personagem detalhado para um vilão.
-> **Aspectos Obrigatórios:** Motivação Principal, Falha Trágica, Objetivo Final, Arco de Personagem e Diálogo de Exemplo.
-> **Instrução:** O perfil deve ser escrito em primeira pessoa, como se o vilão estivesse se descrevendo em uma sessão de terapia.
+> **Role:** You are a character psychologist.
+> **Instruction:** Create a detailed character profile for a villain.
+> **Mandatory Aspects:** Main Motivation, Tragic Flaw, Final Goal, Character Arc, and Sample Dialogue.
+> **Instruction:** The profile should be written in the first person, as if the villain were describing themselves in a therapy session.
 ```
 
 ## Best Practices
-1. **Estrutura Positiva e Negativa:** Use prompts positivos (o que fazer) e negativos (o que evitar) para aumentar a clareza e a relevância da saída.
-2. **Técnica da Dança (Conflito e Contexto):** Instrua a IA a revelar o conflito e o contexto que o resolve gradualmente, "camada por camada como uma cebola", mantendo a tensão e o interesse.
-3. **Estrutura de Pré-escrita:** Inclua elementos de pré-escrita no prompt, como **Conceito e Tema**, **Desenvolvimento de Personagem**, **Cenário** e **Esboço do Enredo** (incidente incitante, ação crescente, clímax, ação em queda, resolução).
-4. **Estrutura "Mas e Portanto" (But and Therefore):** Use essa estrutura em vez de "e então" para criar laços de conflito cruciais que mantêm os leitores engajados.
-5. **Foco nos Detalhes (Show, Don't Tell):** Peça à IA para "mostrar, não contar", descrevendo detalhes vividamente com linguagem sensorial e focando em momentos em vez de resumir eventos.
-6. **Polimento Final (Consistência e Voz):** Exija consistência de personagem, cenário e enredo, e o desenvolvimento de uma voz de escrita única que reflita o tom da história.
-7. **Introdução Mágica:** Adicione uma frase introdutória específica (ex: "Ficarei encantado em tecer uma história para você! Aqui está a narrativa:") para preparar a imaginação do leitor.
-8. **Prompts Limpos:** Garanta que o prompt em si não contenha erros gramaticais ou de ortografia, pois isso força a IA a gastar poder de processamento corrigindo erros em vez de focar na narrativa.
+1. **Positive and Negative Structure:** Use positive prompts (what to do) and negative prompts (what to avoid) to increase the clarity and relevance of the output.
+2. **Dance Technique (Conflict and Context):** Instruct the AI to reveal the conflict and the context that resolves it gradually, "layer by layer like an onion," maintaining tension and interest.
+3. **Pre-writing Structure:** Include pre-writing elements in the prompt, such as **Concept and Theme**, **Character Development**, **Setting**, and **Plot Outline** (inciting incident, rising action, climax, falling action, resolution).
+4. **"But and Therefore" Structure:** Use this structure instead of "and then" to create crucial conflict loops that keep readers engaged.
+5. **Focus on Details (Show, Don't Tell):** Ask the AI to "show, don't tell," describing details vividly with sensory language and focusing on moments rather than summarizing events.
+6. **Final Polish (Consistency and Voice):** Demand consistency of character, setting, and plot, and the development of a unique writing voice that reflects the tone of the story.
+7. **Magical Introduction:** Add a specific introductory phrase (e.g., "I would be delighted to weave a story for you! Here is the narrative:") to prime the reader's imagination.
+8. **Clean Prompts:** Ensure that the prompt itself contains no grammatical or spelling errors, because this forces the AI to spend processing power correcting mistakes instead of focusing on the narrative.
 
 ## Use Cases
-1. **Geração de Conteúdo Criativo:** Criação de contos, novelas curtas, roteiros e poemas.
-2. **Marketing e Branding:** Desenvolvimento de narrativas de marca (brand storytelling) e estudos de caso envolventes.
-3. **Educação:** Criação de cenários e simulações narrativas para fins de treinamento e aprendizado.
-4. **Desenvolvimento de Jogos:** Geração de arcos de história, missões e perfis de personagens para jogos.
-5. **Terapia e Autoajuda:** Uso de narrativas para explorar conflitos internos e resoluções (Storytelling Terapêutico).
+1. **Creative Content Generation:** Creating short stories, novellas, screenplays, and poems.
+2. **Marketing and Branding:** Developing brand storytelling and engaging case studies.
+3. **Education:** Creating narrative scenarios and simulations for training and learning purposes.
+4. **Game Development:** Generating story arcs, quests, and character profiles for games.
+5. **Therapy and Self-Help:** Using narratives to explore internal conflicts and resolutions (Therapeutic Storytelling).
 
 ## Pitfalls
-1. **Prompts Genéricos:** Usar prompts abertos ou vagos que resultam em histórias superficiais, sem conflito ou desenvolvimento de personagem significativo.
-2. **Foco Excessivo no Resumo:** Pedir à IA para resumir eventos em vez de "dar zoom" em momentos cruciais, resultando em uma narrativa sem impacto emocional.
-3. **Falta de Estrutura:** Não especificar os elementos de pré-escrita ou a estrutura narrativa (clímax, resolução), levando a histórias incompletas ou desorganizadas.
-4. **Ignorar a Consistência:** Falhar em exigir consistência, fazendo com que personagens ou cenários mudem sem motivo ao longo da história.
-5. **Confiar Apenas no Positivo:** Não usar prompts negativos para evitar clichês, diálogos irreais ou descrições genéricas.
+1. **Generic Prompts:** Using open-ended or vague prompts that result in superficial stories, without meaningful conflict or character development.
+2. **Excessive Focus on Summary:** Asking the AI to summarize events instead of "zooming in" on crucial moments, resulting in a narrative without emotional impact.
+3. **Lack of Structure:** Failing to specify the pre-writing elements or the narrative structure (climax, resolution), leading to incomplete or disorganized stories.
+4. **Ignoring Consistency:** Failing to demand consistency, causing characters or settings to change for no reason throughout the story.
+5. **Relying Only on the Positive:** Not using negative prompts to avoid clichés, unrealistic dialogue, or generic descriptions.
 
 ## URL
 [https://medium.com/@karthikeyasuppa01/prompt-engineering-for-storytelling-from-chaos-to-characters-building-6550cd35ee7d](https://medium.com/@karthikeyasuppa01/prompt-engineering-for-storytelling-from-chaos-to-characters-building-6550cd35ee7d)
