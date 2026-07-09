@@ -9,6 +9,7 @@ The most complete map of **Kaggle competitive ML** in AIForge: a live index of c
 | [Competitions_Index.md](./Competitions_Index.md) | 216 competitions by category, with prize, team count, metric, deadline. | Kaggle public API |
 | [Top_Solution_Notebooks.md](./Top_Solution_Notebooks.md) | Top-voted **public notebooks** for 70 major competitions (best public solutions/EDA/baselines). | Kaggle public API |
 | [Winning_Solutions/](./Winning_Solutions/) | Curated **gold-medal write-ups & techniques** by category (CV, NLP/LLM, Tabular, Time-Series) + the Grandmaster Playbook. | Public research (Discussions, repos) |
+| [Biohub_Cell_Tracking/](./Biohub_Cell_Tracking/) | Full **playbook for the active "Biohub — Cell Tracking During Development" competition**: the decoded scoring metric, best 3D segmentation/tracking tools (Ultrack, Trackastra, Cellpose-SAM), pretraining datasets, local evaluation, and a top-of-leaderboard recipe. | Official repo + verified sources |
 
 ## Winning_Solutions/ breakdown
 
