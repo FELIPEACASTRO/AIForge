@@ -10,6 +10,15 @@
 | [Segmentation & Tracking Tools](./Segmentation_and_Tracking_Tools.md) | Best tools per pipeline stage: detection (**Cellpose-SAM**, **StarDist-3D**, **nnU-Net**) → linking (**Ultrack** — the host's own tool, **Trackastra** — CTC-2024 winner, **DeepCell**, **btrack**). |
 | [Datasets, Metrics & Notebooks](./Datasets_Metrics_and_Notebooks.md) | Local eval (**traccuracy**, **py-ctcmetrics**), pretraining data (**Zebrahub**, **Cell Tracking Challenge**, **BlastoSPIM**, **DynamicNuclearNet**), public notebooks, and the winning recipe. |
 
+### 📖 Field compendium (everything on the subject, beyond the competition)
+
+| Page | What's inside |
+|---|---|
+| [Segmentation Methods — Full Compendium](./Segmentation_Methods_Compendium.md) | All detectors: Cellpose / **Cellpose3** / **Cellpose-SAM** / **Omnipose**, **StarDist-3D**, **InstanSeg**, **EmbedSeg**, **SplineDist**, **nnU-Net**, **CellSAM**, restoration (CARE/N2V), ilastik, Celldetective. |
+| [Tracking Methods — Full Compendium](./Tracking_Methods_Compendium.md) | All trackers by paradigm: multi-hypothesis (**Ultrack**, Biological-Needs), classical LAP (**u-track**, **TrackMate**, trackpy, **LapTrack**, **btrack**), graph/flow (**EmbedTrack/KIT-GE**, **PyUAT**), DL/GNN/transformer (**Trackastra**, **GNN tracking**, **DeepCell**, **DeLTA**, **Cell-as-Point**, **ELEPHANT**), uncertainty & SAM2. |
+| [Frameworks, Platforms & Extra Datasets](./Frameworks_Platforms_and_Extra_Datasets.md) | **napari**, Fiji/ImageJ, **ilastik**, **inTRACKtive**, **BIII**; no-code training (**ZeroCostDL4Mic**, **BiaPy**, **DeepImageJ**, **BioImage Model Zoo**); OME-Zarr/zarr/dask; extra datasets (**LIVECell**, **EVICAN**, **IDR/OMERO**, CTC). |
+| [Surveys, Benchmarks & Key Papers](./Surveys_Benchmarks_and_Key_Papers.md) | Review articles (198-paper segmentation survey; CTC 10-years), the Cell Tracking Challenge benchmark, and the landmark methods papers with a suggested reading path. |
+
 ## ⚡ TL;DR — how to reach the best score
 
 1. **Edges dominate** (weight 1.0 vs 0.1 for divisions): nail **detection within 7 µm + temporal linking**.
