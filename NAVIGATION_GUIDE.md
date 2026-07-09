@@ -61,6 +61,10 @@ Find what you're looking for, fast.
 | Top public solution notebooks per competition | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Top_Solution_Notebooks.md` |
 | Curated winning solutions by category (CV/NLP/Tabular/TS) | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/` |
 | The Kaggle Grandmaster playbook (winning techniques) | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/Grandmaster_Playbook.md` |
+| Biohub Cell Tracking During Development playbook | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/` |
+| Biohub Kaggle API and CLI extraction plan | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Kaggle_API_CLI_Extraction_Plan_2026-07-08.md` |
+| Biohub exact competition direct country-evidence matrix | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Global_Direct_Competition_Country_Coverage/` |
+| Biohub cell tracking country-by-country bioimaging coverage | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Global_Country_Bioimaging_Coverage/` |
 | HuggingFace top models by task | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Top_Models_By_Task.md` |
 | HuggingFace leaderboards & arenas | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Leaderboards_and_Evaluation.md` |
 | HuggingFace ecosystem / libraries map | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Ecosystem_Map.md` |

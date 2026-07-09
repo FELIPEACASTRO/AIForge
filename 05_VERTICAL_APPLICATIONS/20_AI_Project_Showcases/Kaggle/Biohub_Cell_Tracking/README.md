@@ -18,6 +18,11 @@
 | [Tracking Methods — Full Compendium](./Tracking_Methods_Compendium.md) | All trackers by paradigm: multi-hypothesis (**Ultrack**, Biological-Needs), classical LAP (**u-track**, **TrackMate**, trackpy, **LapTrack**, **btrack**), graph/flow (**EmbedTrack/KIT-GE**, **PyUAT**), DL/GNN/transformer (**Trackastra**, **GNN tracking**, **DeepCell**, **DeLTA**, **Cell-as-Point**, **ELEPHANT**), uncertainty & SAM2. |
 | [Frameworks, Platforms & Extra Datasets](./Frameworks_Platforms_and_Extra_Datasets.md) | **napari**, Fiji/ImageJ, **ilastik**, **inTRACKtive**, **BIII**; no-code training (**ZeroCostDL4Mic**, **BiaPy**, **DeepImageJ**, **BioImage Model Zoo**); OME-Zarr/zarr/dask; extra datasets (**LIVECell**, **EVICAN**, **IDR/OMERO**, CTC). |
 | [Surveys, Benchmarks & Key Papers](./Surveys_Benchmarks_and_Key_Papers.md) | Review articles (198-paper segmentation survey; CTC 10-years), the Cell Tracking Challenge benchmark, and the landmark methods papers with a suggested reading path. |
+| [Official Source Map - 2026-07-08](./Official_Source_Map_2026-07-08.md) | Authoritative source index for Kaggle, Biohub/Royer Lab, official metric, data model, `tracksdata`, Ultrack, Trackastra, OME-Zarr, datasets, and benchmark context. |
+| [Current Competition Intelligence - 2026-07-08](./Current_Competition_Intelligence_2026-07-08.md) | Kaggle CLI snapshot: competition metadata, public leaderboard frontier, top notebooks by votes, recent notebook activity, and strategy signals. |
+| [Kaggle API and CLI Extraction Plan - 2026-07-08](./Kaggle_API_CLI_Extraction_Plan_2026-07-08.md) | Official Kaggle CLI/API audit: authentication handling, reproducible extraction commands, Python API method map, output-field limits, and country-evidence rules. |
+| [Global Country Bioimaging Coverage](./Global_Country_Bioimaging_Coverage/) | All-country search matrix for Biohub-related cell tracking, bioimage analysis, developmental microscopy, OME-Zarr/image data, and microscopy infrastructure. |
+| [Global Direct Competition Country Coverage](./Global_Direct_Competition_Country_Coverage/) | Strict all-country matrix for direct public evidence about the exact Biohub Kaggle competition; avoids country inference from names or handles. |
 
 ## ⚡ TL;DR — how to reach the best score
 

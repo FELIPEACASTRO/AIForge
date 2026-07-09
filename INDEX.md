@@ -1,6 +1,6 @@
 # AIForge — Complete Index
 
-Auto-generated sitemap of every directory (577 directories, 2214 documents, **English-only**). Topic-first entry: [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md). Machine sitemap: [sitemap.xml](./sitemap.xml). Latest releases: [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/).
+Auto-generated sitemap of every directory (583 directories, 2238 documents, **English-only**). Topic-first entry: [NAVIGATION_GUIDE.md](./NAVIGATION_GUIDE.md). Machine sitemap: [sitemap.xml](./sitemap.xml). Latest releases: [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/).
 
 ## [00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/)
 
@@ -551,6 +551,9 @@ Auto-generated sitemap of every directory (577 directories, 2214 documents, **En
     - [`image_generation/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/) — 1 doc
       - [`diffusion/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Generative_AI/image_generation/diffusion/) — 2 docs
   - [`Kaggle/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/) — 4 docs
+    - [`Biohub_Cell_Tracking/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/) — 11 docs
+      - [`Global_Country_Bioimaging_Coverage/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Global_Country_Bioimaging_Coverage/) — 9 docs
+      - [`Global_Direct_Competition_Country_Coverage/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Global_Direct_Competition_Country_Coverage/) — 5 docs
     - [`Winning_Solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/) — 6 docs
     - [`solutions/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/) — 1 doc
       - [`2024-2025/`](./05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/solutions/2024-2025/) — 2 docs
