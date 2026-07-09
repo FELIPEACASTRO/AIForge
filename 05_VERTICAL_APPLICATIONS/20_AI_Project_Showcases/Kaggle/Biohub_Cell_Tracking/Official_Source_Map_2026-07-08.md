@@ -128,6 +128,10 @@
 ## Repository Routing
 
 - Official Kaggle API/CLI extraction plan: [Kaggle API and CLI Extraction Plan](./Kaggle_API_CLI_Extraction_Plan_2026-07-08.md)
+- Expanded source atlas: [Deep Source Atlas](./Deep_Source_Atlas_2026-07-09.md)
+- Live Kaggle notebook/discussion radar: [Kaggle Notebook and Discussion Radar](./Kaggle_Notebook_Discussion_Radar_2026-07-09.md)
+- ML/AI model, feature, weight and calibration atlas: [ML and AI Model, Feature, Weight, and Calibration Atlas](./ML_AI_Model_Feature_Calibration_Atlas_2026-07-09.md)
+- Reproducibility roadmap: [Reproducibility and Model Roadmap](./Reproducibility_Model_Roadmap_2026-07-09.md)
 - Competition strategy and live Kaggle tracking: [Current Competition Intelligence](./Current_Competition_Intelligence_2026-07-08.md)
 - Direct country evidence for the exact competition: [Global Direct Competition Country Coverage](./Global_Direct_Competition_Country_Coverage/)
 - Country-by-country bioimaging routes: [Global Country Bioimaging Coverage](./Global_Country_Bioimaging_Coverage/)

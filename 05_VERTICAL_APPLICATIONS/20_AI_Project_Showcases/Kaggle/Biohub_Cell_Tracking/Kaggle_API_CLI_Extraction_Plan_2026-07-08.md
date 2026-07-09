@@ -62,7 +62,7 @@ Observed fields:
 | `deadline` | `2026-09-29T23:59:00` |
 | `category` | `Research` |
 | `reward` | `60,000 Usd` |
-| `teamCount` | `950` |
+| `teamCount` | `951` on 2026-07-09 recheck; `950` in the earlier 2026-07-08 snapshot |
 | `userHasEntered` | `true` |
 
 Important limitation: this command does not expose host country, participant country, team country, or notebook author country.
@@ -258,3 +258,11 @@ Before committing raw artifacts, review them for secrets, private user data, exc
 4. Compare notebook methods against the official metric and data model.
 5. Only then update the curated markdown summaries.
 6. Keep the country matrix strict: upgrade D1 to D2 only with explicit public country evidence tied to the exact competition.
+
+## Related Biohub Documents
+
+- [README](./README.md)
+- [Devastating Double Check - 2026-07-09](./Devastating_Double_Check_2026-07-09.md)
+- [Deep Source Atlas](./Deep_Source_Atlas_2026-07-09.md)
+- [Kaggle Notebook and Discussion Radar](./Kaggle_Notebook_Discussion_Radar_2026-07-09.md)
+- [ML and AI Model, Feature, Weight, and Calibration Atlas](./ML_AI_Model_Feature_Calibration_Atlas_2026-07-09.md)

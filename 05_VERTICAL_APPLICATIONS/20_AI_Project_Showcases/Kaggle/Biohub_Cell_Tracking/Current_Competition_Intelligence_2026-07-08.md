@@ -19,6 +19,8 @@ kaggle competitions list -s "Biohub Cell Tracking"
 | Team count | 950 |
 | Local account entered | True |
 
+2026-07-09 double-check update: a fresh read-only Kaggle CLI query observed `teamCount = 951`. Keep the 950 row above as the original 2026-07-08 snapshot value.
+
 ## Leaderboard Snapshot
 
 Command used:

@@ -58,7 +58,7 @@ score = adjusted_edge_jaccard  +  0.1 · division_jaccard
 ## Related
 
 - [Segmentation & Tracking Tools](./Segmentation_and_Tracking_Tools.md) · [Datasets, Metrics & Notebooks](./Datasets_Metrics_and_Notebooks.md) · [Playbook README](./README.md)
-- Parent: [`../`](../) (Kaggle) · Science context: [`../../../../15_Science_AI/`](../../../../15_Science_AI/)
+- Parent: [`../`](../) (Kaggle) · Science context: [`../../../15_Science_AI/`](../../../15_Science_AI/)
 
 **Sources:** [Kaggle competition](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development) · [Biohub Kaggle profile](https://www.kaggle.com/organizations/biohub) · [official repo](https://github.com/royerlab/kaggle-cell-tracking-competition) · [metrics.md](https://github.com/royerlab/kaggle-cell-tracking-competition/blob/main/metrics.md) · [Ultrack — Nature Methods 2025](https://www.nature.com/articles/s41592-025-02778-0)
 

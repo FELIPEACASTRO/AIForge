@@ -63,6 +63,11 @@ Find what you're looking for, fast.
 | The Kaggle Grandmaster playbook (winning techniques) | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Winning_Solutions/Grandmaster_Playbook.md` |
 | Biohub Cell Tracking During Development playbook | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/` |
 | Biohub Kaggle API and CLI extraction plan | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Kaggle_API_CLI_Extraction_Plan_2026-07-08.md` |
+| Biohub devastating double check | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Devastating_Double_Check_2026-07-09.md` |
+| Biohub deep source atlas | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Deep_Source_Atlas_2026-07-09.md` |
+| Biohub live Kaggle notebook and discussion radar | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Kaggle_Notebook_Discussion_Radar_2026-07-09.md` |
+| Biohub ML/AI models, weights, features and calibration | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/ML_AI_Model_Feature_Calibration_Atlas_2026-07-09.md` |
+| Biohub reproducibility and model roadmap | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Reproducibility_Model_Roadmap_2026-07-09.md` |
 | Biohub exact competition direct country-evidence matrix | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Global_Direct_Competition_Country_Coverage/` |
 | Biohub cell tracking country-by-country bioimaging coverage | `05_VERTICAL_APPLICATIONS/20_AI_Project_Showcases/Kaggle/Biohub_Cell_Tracking/Global_Country_Bioimaging_Coverage/` |
 | HuggingFace top models by task | `03_DATASETS_TOOLS_AND_RESOURCES/HuggingFace_Hub/Top_Models_By_Task.md` |
