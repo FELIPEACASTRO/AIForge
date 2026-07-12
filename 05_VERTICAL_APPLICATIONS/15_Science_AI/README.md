@@ -6,6 +6,7 @@
 
 | Item | Description |
 | --- | --- |
+| [**Solar Filament Segmentation/**](Solar_Filament_Segmentation/) | **Research compendium** (500+ live-verified sources) for solar H-alpha filament segmentation, fine/curvilinear segmentation, instance separation, domain data & metrics — anchored to the IEEE Big Data Cup 2026 (MAGFiLO). |
 | [Astrophysics Prompts](Astrophysics_Prompts.md) | Prompts for astrophysics and space-science data analysis, theoretical modeling, and science communication. |
 | [Bioinformatics Prompts](Bioinformatics_Prompts.md) | Prompts for genomics, sequence analysis, and bioinformatics pipeline design. |
 | [Biology Research Prompts](Biology_Research_Prompts.md) | Prompts for general biology research tasks and hypothesis exploration. |
