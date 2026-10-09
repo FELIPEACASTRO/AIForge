@@ -1,39 +1,54 @@
-# LLM Inference & Serving — 2026 Radar
+# 🛰️ Inference, Serving & AI Hardware — 2026
 
-The current (mid-2026) state of inference engines and where each wins.
+> The stack that actually runs the models: the newest serving runtimes, local engines, KV-cache infrastructure and the datacenter-to-desktop silicon underneath them, as they stand in autumn 2026.
 
-## Landscape
+**Refreshed:** 2026-10-09 · **Scope:** releases through October 2026
 
-Main frameworks in 2026: **vLLM, SGLang, TensorRT-LLM, LMDeploy, oMLX, Ollama, MLC LLM**.
+> ⚠️ Fast-moving field; entries reflect public reporting at refresh time. Confirm versions, licenses and benchmarks at the source links before relying on them. Throughput, FLOPS and bandwidth figures below are attributed to their source (vendor, release notes or press), not asserted as settled fact.
 
-| Engine | Sweet spot (2026) |
-|---|---|
-| **vLLM** | Cloud champion; best memory efficiency + hardware flexibility. HuggingFace Inference Endpoints now default to vLLM. |
-| **SGLang** | Dominates **agent** scenarios via **RadixAttention** (eliminates redundant compute on shared prefixes) — best for RAG pipelines and multi-turn agent loops. ~16,200 tok/s vs vLLM ~12,500 tok/s on smaller models (≈29% throughput edge in that test). |
-| **TensorRT-LLM** | Peak NVIDIA-optimized latency/throughput on H100-class hardware (FP8/FP4). |
-| **oMLX** | Rising in the **Mac / Apple Silicon** ecosystem. |
-| **Ollama / llama.cpp / MLC LLM** | Local & edge serving; GGUF quantization; phones/browsers (WebGPU). |
-| **TGI (HuggingFace)** | As of Dec 2025: **bug-fixes only**, no new features — superseded by vLLM/SGLang as defaults. |
+## Inference runtimes & local engines
 
-## Decision guide (2026)
+| Item | Date | What's new |
+|---|---|---|
+| [llama.cpp (rolling build b11527)](https://github.com/ggml-org/llama.cpp/releases) | 2026-10-09 | Broadest-coverage CPU/GPU inference engine; per the GitHub releases page, rolling builds continue daily (b11527 on Oct 9) with active multi-backend work across WebGPU, Vulkan, Metal, CUDA, SYCL, Hexagon and MUSA. Uses build-number versioning, not semver. |
+| [Ollama v0.40 — MLX default on Apple Silicon](https://github.com/ollama/ollama/releases) | 2026-10-08 | Local LLM runtime; per GitHub releases, v0.40.0 (Sep 25) made the MLX runtime the **default** for supported architectures on Apple Silicon (dual-stack with llama.cpp elsewhere), and v0.40.2 (Oct 8) adds background model upgrades. |
+| [vLLM v0.31.0](https://github.com/vllm-project/vllm/releases) | 2026-10-05 | Leading open-source LLM serving engine; per the GitHub releases (and PyPI), v0.31.0 adds a `vllm preload` CLI to keep quantized weights resident across restarts, MoonEP all2all + prefill context-parallelism for wide-EP MoE serving, and KV-offload back-pressure. v0.29.0 had made Model Runner V2 the default engine. |
+| [SGLang v0.5.21](https://github.com/sgl-project/sglang/releases) | 2026-10-02 | High-throughput serving runtime; per GitHub releases, v0.5.21 lets prefill/decode (PD) instances switch roles without restart, moves the radix prefix cache onto a Rust core by default, and adds Decisions/Score low-latency classifier APIs. Ships on a roughly biweekly cadence. |
+| [Apple MLX v0.32.3](https://github.com/ml-explore/mlx/releases) | 2026-09-29 | Apple's array framework for on-device inference; per GitHub releases, v0.32.3 adds "NAX" kernels targeting the M5 Neural Accelerators (fused attention, head-dim-256 prefill, M5 matmul tunings) plus CUDA-backend work. The NAX path is reported to require macOS 26.2. |
 
-- **Agents / RAG / repeated system prompts** → SGLang (RadixAttention prefix reuse).
-- **General cloud serving / memory-constrained / multi-hardware** → vLLM.
-- **Max NVIDIA performance** → TensorRT-LLM.
-- **Apple Silicon** → oMLX / MLX.
-- **Local desktop / edge** → Ollama, llama.cpp, MLC LLM.
+## Serving infrastructure & inference benchmarks
 
-## Techniques still central
+| Item | Date | What's new |
+|---|---|---|
+| [LMCache — shared KV-cache layer](https://blog.lmcache.ai/en/2026/04/03/lmcaches-new-architecture-boosts-moe-inference-performance-by-10x/) | 2026-04-03 | KV-cache offload/sharing layer integrated with vLLM, SGLang and NVIDIA Dynamo. Per the project's blog, the April 2026 architecture rework shares KV across DP ranks (claimed ~10x for MoE with offloading) and tiers GPU/CPU/NVMe/Redis with cross-restart persistence. Predates the June refresh but remains core 2026 serving infra. |
+| [NVIDIA Dynamo 1.0 — inference "operating system"](https://www.globenewswire.com/news-release/2026/03/16/3256759/0/en/nvidia-enters-production-with-dynamo-the-broadly-adopted-inference-operating-system-for-ai-factories.html) | 2026-03-16 | NVIDIA's open-source datacenter inference framework reached production 1.0 at GTC: KV-aware routing, disaggregated prefill/decode, KVBM memory tiering, NIXL GPU-to-GPU transport and Grove scaling. The vendor claims up to 7x throughput on Blackwell (DeepSeek-R1). Announced before the June refresh but current best-in-class serving stack. |
+| [InferenceMAX / InferenceX (SemiAnalysis)](https://newsletter.semianalysis.com/p/inferencemax-open-source-inference) | 2026-02 | Open-source benchmark that re-runs LLM inference across frameworks/chips nightly (throughput, latency, cost-per-million-tokens). Launched as InferenceMAX (Oct 2025), renamed InferenceX; per SemiAnalysis, v2 (Feb 2026) compared Blackwell vs AMD MI355X vs Hopper, with new models added through 2026 (e.g. MiniMax M3, June 2026). Core launch predates the refresh but continuously updated. |
 
-PagedAttention, continuous batching, speculative decoding (Medusa/EAGLE-3), FP8/FP4 quantization (AWQ/GPTQ/GGUF), KV-cache compression (GQA/MQA), disaggregated prefill/decode (Mooncake/DistServe).
+## AI hardware — accelerators, chips & rack-scale systems
 
-## Where to go deeper in AIForge
+| Item | Date | What's new |
+|---|---|---|
+| [Huawei Ascend 950 AI cluster](https://technode.com/2026/09/18/huawei-sets-commercial-launch-dates-for-ascend-950-ai-cluster-cloud-service/) | 2026-09-18 | As reported (TechNode): Huawei Cloud set commercial dates for its Ascend 950-based cluster service (China Sep 30, global Nov 30, 2026) — a 1,024-card UnifiedBus system reported at up to 1 EFLOPS FP8 / 2 EFLOPS FP4 and 256TB addressable memory, with the 950DT chip carrying ~144GB HiZQ 2.0 HBM @ 4TB/s. China-source reporting; exact per-variant specs vary across sources. |
+| [Cerebras Nexus rack / CS-6 (Hot Chips 2026)](https://www.tomshardware.com/tech-industry/artificial-intelligence/hot-chips-2026-cerebras-lays-out-the-future-of-wafer-scale-ai-nexus-system-architecture-triples-rack-scale-performance-cs-6-wafer-to-incorporate-stacked-dram) | 2026-08 | As reported (Tom's Hardware) from Hot Chips 2026 (Aug): Cerebras detailed the Nexus rack design (claimed ~3x rack-scale performance for CS-4/WSE-3) and a future CS-6 wafer adding stacked DRAM on-package. |
+| [AMD Instinct MI400 Series (MI455X / MI430X) + Helios](https://newsroom.amd.com/news/aai-2026-mi400-instinct-update/) | 2026-07-23 | Per the AMD newsroom (Advancing AI 2026): CDNA-5 MI455X (frontier AI, HBM4) and MI430X (sovereign/HPC, up to 288 TFLOPS FP64), with the Helios rack-scale system in full production. Detailed HBM4 capacity/bandwidth is not in the official release; earlier previews had cited 432GB HBM4 / ~40 PFLOPS MXFP4. |
+| [AMD + Cerebras disaggregated inference](https://www.datacenterdynamics.com/en/news/amd-partners-with-big-chip-co-cerebras-for-ultra-low-latency-and-high-throughput-ai-inference-system/) | 2026-07 | As reported (DatacenterDynamics): a July 2026 partnership pairing AMD Helios (high-throughput prefill / long context) with Cerebras wafer-scale engines (ultra-low-latency decode) for disaggregated inference, first via Cerebras Cloud in H2 2026. Secondary-source confirmed. |
+| [Groq 3 LPU / GroqCloud (status uncertain)](https://en.wikipedia.org/wiki/Groq) | 2026 | **Unverified specifics:** multiple secondary sources report Groq's LPU technology moved to NVIDIA (shown as a "Groq 3 LPU" decode co-processor in the Vera Rubin platform at GTC 2026) while GroqCloud pivoted to an independent inference neocloud. No primary NVIDIA/Groq release confirmed the reported deal — treat figures as unconfirmed pending a primary source. |
+| [NVIDIA GB300 NVL72 (Blackwell Ultra)](https://www.nvidia.com/en-us/data-center/gb300-nvl72/) | 2026 | Per NVIDIA's product page: the current flagship rack-scale AI system (72 Blackwell Ultra GPUs + 36 Grace CPUs, ~1.4 EFLOPS FP4 sparse, 130 TB/s NVLink, 800Gb/s ConnectX-8). Announced in 2025 but shipping in volume to hyperscalers (Azure, Oracle, CoreWeave) through 2026. |
+| [Intel Crescent Island (inference GPU)](https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-to-expand-ai-accelerator-portfolio-with-new-gpu.html) | 2026 | Per the Intel newsroom: an air-cooled, inference-optimized datacenter GPU on Xe3P with up to 160GB memory; customer sampling targeted for H2 2026, with architecture detailed at Hot Chips 2026 (Aug). Full FLOPS/bandwidth not yet disclosed. (Rack-scale "Jaguar Shores" is the longer-term follow-on.) |
+| [Google Ironwood TPU (TPU7x) GA](https://docs.cloud.google.com/tpu/docs/release-notes) | 2026-03-31 | Google's 7th-gen, inference-optimized TPU; per the official Cloud TPU release notes, TPU7x reached general availability Mar 31, 2026 (preview Nov 24, 2025), with AI-zone availability (Apr 27) and Compute Engine TPU GA (Jun 1). Successors TPU 8t/8i are previewed for ~2027. Predates the June refresh. |
+| [Microsoft Maia 200](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/) | 2026-01-26 | Per the official Microsoft blog: an in-house inference accelerator (TSMC 3nm, FP8/FP4, 216GB HBM3e @ 7TB/s, 272MB SRAM, ~750W) deployed in Azure US Central to serve models including GPT-5.2, with deeper architecture disclosed at Hot Chips 2026 (Aug). Predates the June refresh. |
+| [AWS Trainium3 (Trn3 UltraServers)](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/) | 2025-12-02 | Per the official AWS "What's New" page: AWS's first 3nm AI chip, with EC2 Trn3 UltraServers reaching GA at re:Invent (2.52 PFLOPS FP8, 144GB HBM3e per chip, up to 144 chips / 362 FP8 PFLOPS). GA Dec 2025 with production ramp in 2026; Trainium4 announced to add NVLink Fusion. |
+| [Qualcomm AI200 / AI250](https://nand-research.com/research-note-qualcomm-introduces-ai200-ai250-for-data-center-inference/) | 2025-10-27 | As reported (Nand Research): Qualcomm's entry into rack-scale datacenter inference — AI200 (768GB LPDDR per card, ships 2026) and AI250 (near-memory compute, claimed >10x effective bandwidth, 2027). AI200 is the 2026 product. Analyst-source confirmed; Qualcomm's own release slug not verified. |
+| [NVIDIA Rubin CPX / Vera Rubin NVL144](https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference) | 2025-09-09 | Per NVIDIA: a new GPU class for massive-context inference (million-token coding, long video) — up to 30 PFLOPS NVFP4, 128GB GDDR7, 3x faster attention vs GB300; a Vera Rubin NVL144 CPX rack is cited at 8 exaFLOPS. Announced Sep 9, 2025; the Rubin platform is reported in full production in 2026 with availability expected end of 2026. |
 
-- [`04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`](../04_MLOPS_AND_PRODUCTION_AI/LLM_Inference/)
-- [`04_MLOPS_AND_PRODUCTION_AI/Inference_Optimization`](../04_MLOPS_AND_PRODUCTION_AI/Inference_Optimization/)
+## Related
 
-## Sources
-- [Yotta Labs — Best LLM inference engines 2026](https://www.yottalabs.ai/post/best-llm-inference-engines-in-2026-vllm-tensorrt-llm-tgi-and-sglang-compared)
-- [StableLearn — 2026 LLM inference framework guide](https://stable-learn.com/en/llm-inference-framework-guide-2026/)
-- [Spheron — vLLM vs TensorRT-LLM vs SGLang H100 benchmarks](https://www.spheron.network/blog/vllm-vs-tensorrt-llm-vs-sglang-benchmarks/)
-- [Sesame Disk — llama.cpp vs vLLM vs SGLang vs Ollama 2026](https://sesamedisk.com/llamacpp-vs-vllm-vs-sglang-vs-ollama-2026/)
+- Radar index: [`00_FRONTIER_AI_2026/README.md`](./README.md)
+- Models being served: [`Frontier_LLMs_2026.md`](./Frontier_LLMs_2026.md) · [`Open_Source_LLMs_2026.md`](./Open_Source_LLMs_2026.md)
+- New efficiency architectures feeding these runtimes (linear attention, SSMs, sparse MoE): [`Research_Breakthroughs_2026.md`](./Research_Breakthroughs_2026.md)
+- Stable serving & inference pillars: [`04_MLOPS_AND_PRODUCTION_AI/LLM_Inference`](../04_MLOPS_AND_PRODUCTION_AI/LLM_Inference/) · [`04_MLOPS_AND_PRODUCTION_AI/Model_Serving`](../04_MLOPS_AND_PRODUCTION_AI/Model_Serving/) · [`04_MLOPS_AND_PRODUCTION_AI/Inference_Optimization`](../04_MLOPS_AND_PRODUCTION_AI/Inference_Optimization/)
+- Datacenter & edge silicon pillars: [`04_MLOPS_AND_PRODUCTION_AI/GPU_Infrastructure_and_Scheduling`](../04_MLOPS_AND_PRODUCTION_AI/GPU_Infrastructure_and_Scheduling/) · [`04_MLOPS_AND_PRODUCTION_AI/Edge_and_On_Device_Deployment`](../04_MLOPS_AND_PRODUCTION_AI/Edge_and_On_Device_Deployment/)
+
+**Sources:** vLLM (github.com/vllm-project/vllm releases), SGLang (github.com/sgl-project/sglang releases), Ollama (github.com/ollama/ollama releases), Apple MLX (github.com/ml-explore/mlx releases), llama.cpp (github.com/ggml-org/llama.cpp releases), LMCache (blog.lmcache.ai), NVIDIA (globenewswire Dynamo release, nvidianews Rubin CPX, nvidia.com GB300 NVL72), SemiAnalysis (newsletter.semianalysis.com InferenceMAX), AMD (newsroom.amd.com), DatacenterDynamics (AMD+Cerebras), Tom's Hardware (Cerebras Nexus/CS-6), TechNode (Huawei Ascend 950), Google (docs.cloud.google.com TPU release notes), Microsoft (blogs.microsoft.com Maia 200), AWS (aws.amazon.com Trn3 UltraServers), Nand Research (Qualcomm AI200/AI250), Intel (intel.com newsroom), Wikipedia (Groq, status uncertain) — each row links directly to the primary or earliest reporting verified at refresh time.
+
+**Keywords:** inference serving 2026, LLM serving engine, vLLM, SGLang, llama.cpp, Ollama, Apple MLX, local inference, Apple Silicon M5, NVIDIA Dynamo, LMCache, KV cache offload, disaggregated prefill decode, InferenceMAX, InferenceX, AI hardware 2026, AI accelerators, NVIDIA Blackwell, GB300 NVL72, NVIDIA Rubin CPX, Vera Rubin, AMD Instinct MI400, MI455X, Helios, Cerebras wafer-scale, Nexus, CS-6, Google Ironwood TPU, TPU7x, Microsoft Maia 200, AWS Trainium3, Qualcomm AI200, Intel Crescent Island, Huawei Ascend 950, Groq LPU, datacenter inference, on-device inference, October 2026.
