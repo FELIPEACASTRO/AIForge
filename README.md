@@ -23,7 +23,7 @@
 
 ## 🚀 Start Here: Frontier AI 2026
 
-**[00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/)** — a living *Innovation Radar* of the newest releases (GPT-5.5, Claude Opus 4.7 / Fable 5, DeepSeek V4, Qwen 3.7, Llama 4, Sora 2, Veo 3.1, GR00T N1.7, SGLang, AI-for-math) captured **June 2026**. This is the "what just shipped" layer; the 5 pillars below are the stable, organized core.
+**[00_FRONTIER_AI_2026](./00_FRONTIER_AI_2026/)** — a living *Innovation Radar* of the newest releases (OpenAI **GPT-6** Astra/Sol/Luna, Anthropic **Claude Opus/Sonnet/Haiku 5.5**, Google **Gemini 4 Argon**, xAI **Grok 4.7**, newest open-weight LLMs, AI coding agents, Sora/Veo/Kling, humanoids & world models, AI chips, ARC-AGI/FrontierMath) refreshed **October 2026**. This is the "what just shipped" layer; the 5 pillars below are the stable, organized core.
 
 ## Five Pillars
 
@@ -227,7 +227,7 @@ Data scientists, ML/AI engineers, researchers, students, and anyone who wants a 
 **How is AIForge organized?**
 Five pillars: (01) Fundamentals & Theory, (02) LLM & AI Models, (03) Datasets/Tools/Resources, (04) MLOps & Production AI, (05) Vertical Applications — plus (00) Frontier AI 2026 for the newest releases. Browse `INDEX.md` (full sitemap) or `NAVIGATION_GUIDE.md` (topic-first lookup).
 
-**Where do I find the latest AI models (GPT-5.5, Claude, DeepSeek, Llama 4)?**
+**Where do I find the latest AI models (GPT-6, Claude Opus 5.5, Gemini 4, DeepSeek, Grok 4.7)?**
 See [`00_FRONTIER_AI_2026`](./00_FRONTIER_AI_2026/).
 
 **Where are Kaggle winning solutions?**

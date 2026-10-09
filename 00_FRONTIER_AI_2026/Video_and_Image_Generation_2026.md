@@ -1,38 +1,47 @@
-# Video & Image Generation — 2026 Radar
+# 🎬 Video & Image Generation — 2026
 
-State of generative video/image as of **June 2026**. Native audio, 4K, and 60-second-plus durations are now table stakes, not differentiators.
+> The generative-media leading edge: the newest text/image-to-video and image generation + editing models as they stand in autumn 2026.
 
-## Video Models (latest)
+**Refreshed:** 2026-10-09 · **Scope:** releases through October 2026
 
-| Model | Org | Released | Notes |
-|---|---|---|---|
-| **Seedance 2.0** | ByteDance | 2026-02-12 | Top of Artificial Analysis leaderboard alongside HappyHorse-1.0. |
-| **HappyHorse-1.0** | Alibaba ATH | 2026-04 | Occupies a top-2 AA slot with Seedance 2.0. |
-| **Veo 3.1** | Google DeepMind | 2026 | 48kHz lip-synced speech generation in one pass (unique); budget tier ~$0.05/sec for 720p via Gemini API / AI Studio. |
-| **Kling 3.0** | Kuaishou | 2026 | Cheaper than Veo; four entries in the AA top 10. |
-| **Wan 2.7** | Alibaba | 2026 | Added 9-grid image input (open line). |
-| **Wan 3.0** | Alibaba | mid-2026 (roadmap) | Reported: 60B params, native 4K, 30-second continuous single-pass generation. |
-| **LTX-2.3** | Lightricks | 2026-03-05 | First open-source line shipping native 4K + audio + open weights together. |
-| **Sora 2** | OpenAI | (deprecated 2026-04-26, shutdown 2026-09-24) | Notable for physically-plausible dynamics (buoyancy, rigidity, complex motion). |
+> ⚠️ Fast-moving field; entries reflect public reporting at refresh time. Confirm versions, licenses and benchmarks at the source links before relying on them. Figures and claims below are attributed to their source, not asserted as settled fact.
 
-## Image / 3D (carry-over leaders, still current)
+## Video generation
 
-- **FLUX.1** (Black Forest Labs), **Stable Diffusion 3.5**, **Imagen 4** (Google), **GPT Image 1** (OpenAI), **Ideogram 2.0**, **Qwen-Image** (Alibaba), **SANA** (NVIDIA), **OmniGen2**
-- 3D/mesh: **Trellis** (Microsoft), **Hunyuan3D 2.0** (Tencent)
+| Item | Date | What's new |
+|---|---|---|
+| [Pika — Pika Audio, PikaStream 1.0 & new Studio](https://www.eesel.ai/blog/pika-ai-review) | 2026-08 | As reported (secondary; confirm on pika.art): on top of flagship Pika 2.5 video, Pika shipped in 2026 **Pika Audio** (Soundtrack/Music/SFX/Speech, ~Aug) to score silent clips, **PikaStream 1.0** real-time video chat for AI agents (~Aug, beta), and a rebuilt pika.art creative studio (~Sep). |
+| [ByteDance Seedance 2.5](https://technode.com/2026/07/31/bytedance-launches-seedance-2-5-video-generation-model/) | 2026-07-31 | As reported (TechNode): ByteDance Seed's newest video model generates a 30-second high-quality clip in a single run, with multi-turn extension and up to 30 images + 10 videos + 10 audio as references; available in Jimeng/Doubao Pro and via the Volcano Engine Ark API. Announced Jun 23 at Volcano Engine FORCE, launched Jul 31. |
+| [MiniMax Hailuo 3.0 (MiniMax H3)](https://huggingface.co/blog/ResterChed/minimax-h3-hailuo-3-0) | 2026-07-31 | As reported: third-gen Hailuo omni-modal video model (text/image/video/audio in; video + native stereo out), native 2K, 15s single generation (30s extend) and omni-reference input; unveiled at WAIC 2026, public Jul 31. Marketed as open-weight, but the weight release was still unconfirmed at launch. |
+| [xAI Grok Imagine Video 1.5](https://x.ai/news/grok-imagine-video-1-5) | 2026-06-16 | Per xAI's announcement: the current Grok video model (string `grok-imagine-video-1.5`, plus a Fast variant), GA Jun 16; a Jul 31 update added text-to-video, native 1080p, image/voice references and multi-reference scene control (up to 7 anchors). |
+| [Luma Ray 3.2](https://lumalabs.ai/news/introducing-ray-3-2) | 2026-06-09 | Per Luma's official news page: current Luma flagship with frame-by-frame direction — up to 16 keyframes per clip, performance-capture tracking up to 8 faces, native HDR + 16-bit EXR export, Reframe, and clips up to 20s at 1080p; full Ray control exposed via API for the first time. |
+| [Google Veo 3.1 (Standard / Fast / Lite)](https://ai.google.dev/gemini-api/docs/veo) | 2026-03-31 | Per Google's official docs: current Google video line in the Gemini API (`veo-3.1-generate-preview`, `-fast-`, `-lite-`) with reference images, first/last frame, scene extension and 4K/vertical output; the cheapest Lite tier (720p/1080p) was added Mar 31. Veo 3 is deprecated and no public Veo 4 exists yet. |
+| [Runway Gen-4.5](https://docs.dev.runwayml.com/api-details/api_changelog/) | 2026-02-10 | Per Runway's API changelog: newest Runway video model (successor to Gen-4 / Gen-4 Turbo) with native audio, multi-shot sequencing and first-frame image + text prompting; API availability Feb 10 (text-to-video and image-to-video). Runway also launched the "Runway Dev" platform (Jul 2026) hosting third-party models alongside its own. |
+| [Tencent HunyuanVideo 1.5](https://huggingface.co/tencent/HunyuanVideo-1.5) | 2025-11-20 | Per the model card: a leading open-source video model — lightweight 8.3B params runnable on consumer GPUs (~14GB VRAM with offload), text-to-video + image-to-video, 480p–720p base with super-res to 1080p, SSTA attention and glyph-aware bilingual text; weights on HF/GitHub (tech report arXiv:2511.18870). 2025 release, still the current open-weight reference. |
+| [OpenAI Sora 2 / Sora 2 Pro](https://openai.com/index/sora-is-here/) | 2025-09-30 | OpenAI's flagship video+audio model (released Sep 30, 2025): synchronized audio, longer clips, character "cameos" and improved physics; Sora 2 Pro still appears as a third-party model option (e.g., in Runway). Note: some secondary sources report the standalone Sora app/API was wound down in 2026 — current status could not be confirmed on OpenAI's own page; treat as uncertain. |
 
-## Themes
+## Image generation & editing
 
-- **Open-source caught up on quality+features** — LTX-2.3 and Wan lines deliver 4K + audio + open weights.
-- **Audio-native video** — single-pass lip-synced speech (Veo 3.1 at 48kHz) is the new bar.
-- **Leaderboard churn** — Chinese labs (ByteDance, Alibaba, Kuaishou) lead several Artificial Analysis slots.
+| Item | Date | What's new |
+|---|---|---|
+| [Google Nano Banana 2.1 (Gemini 3.6 Flash Image)](https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/) | 2026-10-06 | As reported (the-decoder; confirm on Google's Gemini API docs): latest Gemini-native image gen/edit model with better quality, text rendering and character consistency, up to 14 reference images (4 characters / 10 objects), Google Search grounding and 1K/2K/4K output — at roughly half the cost of Nano Banana 2 (reported ~3.36¢ per 1K image). |
+| [Black Forest Labs FLUX 3 Image](https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/) | 2026-10-01 | As reported (the-decoder; confirm specifics on bfl.ai): newest BFL image model on the multimodal FLUX 3 backbone — multi-step/targeted edits that leave the rest of the image untouched, bounding-box scene composition, up to 10 reference images and 4K output; commercial weights licensable, with an open-weight version promised "in coming weeks." |
+| [Midjourney V8.2](https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version) | 2026-07-24 | Per Midjourney's official docs: V8.2 is the current default image model (V8 alpha Mar 17, V8.1 Apr 14 / default Jun 10, V8.2 default ~Jul 24); V8.1 is described as Midjourney's fastest model (~4–5x faster standard jobs), and Midjourney also offers image-to-video (5–21s). Exact V8.2 date via secondary reporting. |
+| [ByteDance Seedream 5.0 Pro](https://finance.biggo.com/news/970b9042-b2b4-4d0e-aee0-e926785d936f) | 2026-07-08 | As reported (secondary sources only): ByteDance's new flagship text-to-image / editing model — deep-thinking prompt reasoning, real-time web search, point/lasso/sketch precision editing, layer separation to alpha PNGs, native 2K and multilingual on-image text; via Volcano Engine/BytePlus/fal/Doubao/Jimeng, reportedly ~$0.075/image. |
+| [Ideogram 4.0](https://en.wikipedia.org/wiki/Ideogram_(text-to-image_model)) | 2026-06-03 | As reported (Wikipedia summary of Ideogram's announcement): the latest Ideogram model and its first open-weight release (Apache 2.0; weights on Hugging Face/GitHub), noted for industry-leading text/typography rendering, native 2K and alpha-channel transparency. |
+| [Google Nano Banana Pro (Gemini 3 Pro Image)](https://blog.google/innovation-and-ai/products/nano-banana-pro/) | 2026-05-28 | Per Google's blog: top-tier Gemini 3 Pro image model with high-fidelity visuals, consistent branding/characters, advanced controls, up to 4K and Google Search grounding; introduced Nov 20, 2025, with enterprise GA (alongside Nano Banana 2 / Gemini 3.1 Flash Image) ~May 28, 2026. Still widely rated a best-quality image model. |
+| [Krea 2](https://www.krea.ai/docs/changelog) | 2026-05-12 | Per Krea's official changelog: Krea's own open-weight image model (Raw/base + Turbo distilled, plus Medium/Large), announced ~May 12; reported as the #1 image model from an independent lab (~#6 globally) on Artificial Analysis. Krea also aggregates third-party models (Nano Banana, GPT Image, Seedream). |
+| [OpenAI GPT Image 2 (ChatGPT Images 2.0)](https://en.wikipedia.org/wiki/GPT_Image) | 2026-04-21 | As reported (Wikipedia): OpenAI's image model (model id `gpt-image-2`), launched ~Apr 21 in API/ChatGPT — reasons before generating, up to 2K, up to 8 coherent images per prompt and strong multilingual text; topped LM Arena image categories at launch. Wikipedia also reports an unconfirmed "GPT Image 2.5" on Sep 8, 2026 (single source — treat as unverified). |
+| [Adobe Firefly Image Model 5](https://blog.adobe.com/en/publish/2026/03/19/adobe-firefly-expands-video-image-creation-with-new-ai-capabilities-custom-models) | 2026-03-19 | Per Adobe's blog: Adobe's most advanced, commercially-safe image model — native 4MP output without upscaling, photorealistic lighting/texture and conversational "Prompt to Edit"; beta at Adobe MAX Oct 2025, GA by Mar 2026. Firefly also orchestrates partner video models (Veo 3.1, Runway Gen-4.5) alongside its own Firefly Video Model inside Premiere Pro. |
 
-## Where to go deeper in AIForge
+## Related
 
-- [`02_LLM_AND_AI_MODELS/Diffusion_Models`](../02_LLM_AND_AI_MODELS/Diffusion_Models/)
-- [`02_LLM_AND_AI_MODELS/Video_Models`](../02_LLM_AND_AI_MODELS/Video_Models/)
+- Radar index: [`00_FRONTIER_AI_2026/README.md`](./README.md)
+- Multimodal foundation models powering media gen: [`Research_Breakthroughs_2026.md`](./Research_Breakthroughs_2026.md)
+- Stable diffusion / image pillar: [`02_LLM_AND_AI_MODELS/Diffusion_Models`](../02_LLM_AND_AI_MODELS/Diffusion_Models/)
+- Stable video pillar: [`02_LLM_AND_AI_MODELS/Video_Models`](../02_LLM_AND_AI_MODELS/Video_Models/)
+- Multimodal models pillar: [`02_LLM_AND_AI_MODELS/Multimodal_Models`](../02_LLM_AND_AI_MODELS/Multimodal_Models/)
 
-## Sources
-- [Pinggy — Best video generation AI models 2026](https://pinggy.io/blog/best_video_generation_ai_models/)
-- [WaveSpeed — AI video generation news 2026](https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/)
-- [DataCamp — Top video generation models](https://www.datacamp.com/blog/top-video-generation-models)
-- [OpenAI — Sora 2](https://openai.com/index/sora-2/)
+**Sources:** Google (ai.google.dev/gemini-api/docs/veo, blog.google Nano Banana Pro), the-decoder (Nano Banana 2.1, FLUX 3 Image), ByteDance/TechNode (Seedance 2.5), biggo.com (Seedream 5.0 Pro), MiniMax (huggingface.co MiniMax H3), xAI (x.ai/news Grok Imagine Video 1.5), Luma (lumalabs.ai Ray 3.2), Runway (docs.dev.runwayml.com changelog), Tencent (huggingface.co HunyuanVideo-1.5), OpenAI (openai.com Sora), Midjourney (docs.midjourney.com), Ideogram (en.wikipedia.org summary), Krea (krea.ai changelog), OpenAI GPT Image (en.wikipedia.org), Adobe (blog.adobe.com Firefly) — each row links directly to the primary or earliest reporting verified at refresh time; see the per-row links above.
+
+**Keywords:** video generation 2026, image generation 2026, text-to-video, image-to-video, AI image editing, Sora 2, Google Veo 3.1, Runway Gen-4.5, Luma Ray 3.2, Grok Imagine Video, ByteDance Seedance 2.5, MiniMax Hailuo 3.0, Pika, HunyuanVideo 1.5, Nano Banana 2.1, Nano Banana Pro, FLUX 3 Image, Midjourney V8.2, Seedream 5.0 Pro, Ideogram 4.0, Krea 2, GPT Image 2, Adobe Firefly 5, generative media, open-weight video models, October 2026.

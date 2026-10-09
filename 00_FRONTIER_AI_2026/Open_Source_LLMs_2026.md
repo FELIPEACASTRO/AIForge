@@ -1,34 +1,59 @@
-# Open-Source / Open-Weight LLMs — 2026 Radar
+# 🛰️ Open-Weight LLMs 2026 — Radar
 
-Newest open-weight models as of **June 2026**. 2026 is the year several open models reached genuine striking distance of closed frontier on real-world coding and reasoning.
+> The fastest-moving front in AI: open-weight models that, by late 2026, reach striking distance of closed frontier on coding, reasoning, and agentic work.
 
-## Latest Releases
+**Refreshed:** 2026-10-09 · **Scope:** releases through October 2026
 
-| Model | Org | Released | Highlights |
-|---|---|---|---|
-| **DeepSeek V4 Pro** | DeepSeek | 2026-04-24 | MIT license. SWE-bench Verified **80.6%**, 1M-token context. First open-weight model within striking distance of Opus 4.7 / GPT-5.5 on coding & reasoning; ~34× cheaper per output token than GPT-5.5. |
-| **Qwen 3.7 Max** | Alibaba | 2026-05 | GPQA Diamond 92.4. |
-| **Qwen 3.5** | Alibaba | 2026-02 | Native vision-language MoE, 397B total / 17B active, 201 languages, 1M-token context. |
-| **Llama 4 (Scout / Maverick / Behemoth)** | Meta | 2025-04 → 2026 | First natively-multimodal Llama, first Llama MoE. Scout: 17B active, up to ~10M-token context; Maverick: 17B active / 400B total; Behemoth: 288B active / ~2T total. |
-| **Mistral Large 3 / Small 4** | Mistral | 2026 | Both now under **Apache 2.0** — major shift from earlier restrictive licensing. |
-| **GLM-5.2** | Z.ai (Zhipu) | 2026-06 | Significant coding & agentic gains over GLM-5.1; integrated into Nous Research's Hermes Agent within days. |
-| **Kimi (K2 family)** | Moonshot | 2026 | Continues among the top open agentic/coding models. |
+> ⚠️ Fast-moving field: entries reflect public reporting at refresh time. Confirm versions, licenses, and benchmark figures at the source links before relying on them.
 
-## Why it matters
+## 🆕 New since the last refresh (June → October 2026)
 
-- **Open is now competitive on coding** — multiple open models match or beat 2025-era proprietary models on SWE-bench and GPQA.
-- **Permissive licensing wave** — MIT (DeepSeek V4) and Apache 2.0 (Mistral 3/4) lower adoption friction for commercial use.
-- **Long context standard** — 1M tokens is common; Llama 4 Scout pushes to ~10M.
-- **MoE everywhere** — sparse expert architectures dominate the new open releases.
+Newest first. All figures are as reported by the linked source or model card, not independently verified here.
 
-## Where to go deeper in AIForge
+| Item | Date | What's new |
+|---|---|---|
+| [Mistral Large 4](https://mistral.ai/news/mistral-large-4/) | 2026-10-06 | Announced open-weight: 1T total / 52B active natively-multimodal MoE. API preview is live now; per Mistral's announcement, weights are due end of Oct 2026 (the `Mistral-Large-4-1T-A52B` HF repo is marked upcoming, custom license expected). |
+| [DeepSeek-V4.1-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) | 2026-09 | Newest DeepSeek open release: MIT-licensed multimodal MoE, 552B backbone (~8B active prefill / 16B decode), 1M context. Per the model card: GPQA Diamond 90.9, Terminal-Bench 2.1 90.6, Codeforces 3471. |
+| [Zhipu / Z.ai GLM-5.3](https://huggingface.co/zai-org/GLM-5.3) | 2026-09 | 753B flagship with large agentic/coding gains over GLM-5.2. As reported: Terminal-Bench 2.1 88.2, FrontierSWE 78.1, HLE-with-tools 62.5. Open weights (GLM-5.2 on Sep 1 and GLM-5 on Aug 11 were also open). |
+| [Zhipu / Z.ai GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) | 2026-09 | 321B multimodal "Flash" variant of GLM-5.3, open weights on Hugging Face (a BF16 variant is also published). |
+| [DeepSeek-V4-Flash-Vision-Exp](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp) | 2026-09-01 | Experimental vision-enabled V4-Flash checkpoint, open weights (MIT) on Hugging Face. |
+| [Tencent Hunyuan Hy4-preview](https://huggingface.co/tencent/Hy4-preview) | 2026-08-28 | Newest Hunyuan open checkpoint: 780B preview MoE on Hugging Face (an FP8 variant is also posted); check the model card for license. |
+| [IBM Granite 4.2](https://huggingface.co/ibm-granite/granite-4.2-30b) | 2026-08-25 | Open enterprise reasoning family — 3B / 8B / 30B dense (Mamba-2 hybrid), 128K context, Apache 2.0, with toggleable chain-of-thought plus agentic RL for code/terminal. |
+| [Qwen3.8-2.4T-A95B (Qwen3.8-Max open weights)](https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B) | 2026-08 | Alibaba's first Max-class open checkpoint: 2.4T total / 95B active MoE, 262K native context (extensible to ~1M), custom `qwen3.8-max` license, text-only. |
+| [Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) | 2026-08 | Efficient Qwen3.8 MoE: 125B total / 6B active (~180B with n-gram + MTP), 262K→1M context, `qwen-community-1.0`, multimodal. Per the model card: GPQA 91.7, LiveCodeBench v6 91.9. |
+| [DeepSeek-V4-Pro-0813](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813) | 2026-08-13 | GA flagship V4-Pro MoE (reported ~1.6T total / ~49B active), 1M context, MIT open weights; reported frontier reasoning at roughly 1/6 the price of Western APIs. |
+| [NVIDIA Nemotron 3.5 Lightning (30B-A3B)](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16) | 2026-08-11 | Open 30B / 3B-active hybrid Mamba-2 + Attention + MoE for fast long-running agents, up to 1M context (256K on a single H100); weights + data + recipes under OpenMDW-1.1, ~670 tok/s as reported. |
+| [Meta Muse Glimmer 30B](https://www.infoq.com/news/2026/08/meta-muse-glimmer/) | 2026-08-10 | Meta's first open-weight model since Llama 4: ~30B dense multimodal agentic model under Apache 2.0, runs on one 24GB consumer GPU. As reported, it leads MCP Atlas (75.5); training data was not released. |
+| [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | 2026-08-01 | Open-weight V4-Flash MoE (reported 284B total / ~13B active), MIT, 1M context; the low-cost fast variant of the V4 line. |
+| [MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3) | 2026-07-23 | Newest MiniMax open LLM: 427B multimodal MoE (succeeding the 229B M2.7 line), published on HF/GitHub for private deployment and fine-tuning. |
+| [Moonshot Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | 2026-07 | Reported as the largest open-weight model to date: 2.8T total / 104B active MoE, 1M context, custom Kimi K3 license. Per the model card: GPQA 93.5, BrowseComp 91.2, FrontierSWE 81.2. |
+| [Tencent Hunyuan Hy3](https://huggingface.co/tencent/Hy3) | 2026-07 | 299B MoE (reported ~295B total / 21B active), Apache 2.0 final release that lifted the preview's EU/UK/Korea restrictions; open weights on HF/ModelScope. |
+| [Moonshot Kimi-K2.7-Code](https://huggingface.co/moonshotai/Kimi-K2.7-Code) | 2026-06-15 | Agentic coding MoE (~1T total / ~32B active) built on K2.6, 256K context, Modified MIT; reported ~30% fewer reasoning tokens. |
 
-- [`02_LLM_AND_AI_MODELS/Text_LLMs/Open_Source_LLMs`](../02_LLM_AND_AI_MODELS/Text_LLMs/Open_Source_LLMs/)
-- [`02_LLM_AND_AI_MODELS/MoE_Models`](../02_LLM_AND_AI_MODELS/MoE_Models/)
-- Fine-tuning these: [`01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning`](../01_AI_FUNDAMENTALS_AND_THEORY/Modern_Fine_Tuning/)
+## Still best-in-class (earlier 2026 and 2025)
 
-## Sources
-- [HuggingFace — Best open-source LLMs 2026](https://huggingface.co/blog/daya-shankar/open-source-llms)
-- [codersera — Open-source LLM landscape (May 2026)](https://codersera.com/blog/open-source-llms-landscape-2026/)
-- [computingforgeeks — Open-source LLM comparison 2026](https://computingforgeeks.com/open-source-llm-comparison/)
-- [llm-stats.com — Latest releases](https://llm-stats.com/llm-updates)
+Older than the refresh window, but still the leading open option in their niche. Newest first.
+
+| Item | Date | What's new |
+|---|---|---|
+| [NVIDIA Nemotron 3 Ultra (550B)](https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models) | 2026-06-04 | 550B / 55B-active hybrid Mamba-Transformer MoE open reasoning model; weights, recipes, and datasets under OpenMDW-1.1. Reported as the top-scoring US open model at launch. |
+| [Cohere Command A+](https://cohere.com/blog/command-a-plus) | 2026-05-20 | Cohere's first fully Apache-2.0 model: 218B total / 25B active MoE, 48 languages plus multimodal docs, native citations; per Cohere, runs on 2x H100 or a single Blackwell. |
+| [Google Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) | 2026-04-02 | Apache-2.0 open family (E2B, E4B, 26B MoE, 31B dense), up to 256K context, multimodal, 140+ languages; the current best Gemma and a strong edge/open option. |
+| [Microsoft Phi-4 family (reasoning / vision)](https://azure.microsoft.com/en-us/products/phi) | 2026-03 | MIT-licensed small open models; Phi-4-reasoning-vision-15B (Mar 2026) is the latest. No official Phi-5 as of Oct 2026 — Microsoft's newer MAI foundation models are closed. |
+| [OpenAI gpt-oss-120b / gpt-oss-20b](https://openai.com/index/introducing-gpt-oss/) | 2025-08 | Apache-2.0 open reasoning MoE (117B / 5.1B active and 21B / 3.6B active); still OpenAI's top open-weight line as of Oct 2026 — no confirmed 2026 successor despite SEO claims. |
+
+## Reading the radar
+
+- **Chinese labs set the open pace.** DeepSeek (V4 line), Qwen (3.8 Max/Flash), Moonshot (Kimi K3), Zhipu/Z.ai (GLM-5.3), Tencent (Hunyuan), and MiniMax (M3) account for most of the headline open releases this window.
+- **MoE dominates.** Almost every new flagship is a sparse mixture-of-experts; several (Granite, Nemotron) pair this with Mamba-2 hybrid attention for efficiency.
+- **Licensing splits.** MIT (DeepSeek), Apache 2.0 (Granite, Cohere, Gemma, Meta Muse, gpt-oss) sit alongside custom community licenses (Qwen Max, Kimi K3) — confirm terms per model card.
+- **Western open weights return.** Meta's Muse Glimmer (first open model since Llama 4) and Mistral Large 4's announced open-weight drop are the notable Western moves.
+
+## Related
+
+- Radar index: [`00_FRONTIER_AI_2026/README.md`](./README.md) · sibling pages: [Frontier_LLMs_2026.md](./Frontier_LLMs_2026.md) · [Reasoning_and_Agents_2026.md](./Reasoning_and_Agents_2026.md) · [Inference_and_Serving_2026.md](./Inference_and_Serving_2026.md)
+- Stable pillars: [`02_LLM_AND_AI_MODELS/Text_LLMs/Open_Source_LLMs`](../02_LLM_AND_AI_MODELS/Text_LLMs/Open_Source_LLMs/) · [`02_LLM_AND_AI_MODELS/MoE_Models`](../02_LLM_AND_AI_MODELS/MoE_Models/) · [`02_LLM_AND_AI_MODELS/Small_Language_Models`](../02_LLM_AND_AI_MODELS/Small_Language_Models/)
+
+**Sources:** per-row links above — Hugging Face model cards (deepseek-ai, Qwen, moonshotai, zai-org, MiniMaxAI, tencent, nvidia, ibm-granite), [Mistral AI news](https://mistral.ai/news/mistral-large-4/), [NVIDIA news](https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models), [Cohere blog](https://cohere.com/blog/command-a-plus), [Google blog (Gemma 4)](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/), [InfoQ (Meta Muse Glimmer)](https://www.infoq.com/news/2026/08/meta-muse-glimmer/), [Microsoft Azure (Phi)](https://azure.microsoft.com/en-us/products/phi), [OpenAI (gpt-oss)](https://openai.com/index/introducing-gpt-oss/).
+
+**Keywords:** open-weight LLMs 2026, open-source LLMs, DeepSeek V4, Qwen3.8 Max, Moonshot Kimi K3, GLM-5.3, MiniMax M3, Tencent Hunyuan, Mistral Large 4, Meta Muse Glimmer, NVIDIA Nemotron, IBM Granite 4.2, Cohere Command A+, Google Gemma 4, Microsoft Phi-4, OpenAI gpt-oss, MoE, Mamba hybrid, Apache 2.0, MIT license, 1M context, agentic coding, October 2026.

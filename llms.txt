@@ -17,7 +17,7 @@ License: MIT
 - [NAVIGATION_GUIDE](https://github.com/FELIPEACASTRO/AIForge/blob/master/NAVIGATION_GUIDE.md): Topic-first lookup ("I want X → exact path").
 
 ## Frontier AI 2026 (latest releases)
-- [Frontier AI 2026 radar](https://github.com/FELIPEACASTRO/AIForge/tree/master/00_FRONTIER_AI_2026): Newest models/research (GPT-5.5, Claude Opus 4.7, DeepSeek V4, Llama 4, Sora 2, Veo 3.1, GR00T N1.7, vLLM/SGLang), June 2026 snapshot, cited.
+- [Frontier AI 2026 radar](https://github.com/FELIPEACASTRO/AIForge/tree/master/00_FRONTIER_AI_2026): Newest models/research (OpenAI GPT-6 Astra/Sol/Luna, Claude Opus/Sonnet/Haiku 5.5, Gemini 4 Argon, Grok 4.7, newest open-weight LLMs, AI coding agents, Sora/Veo/Kling, humanoids & world models, AI chips, ARC-AGI/FrontierMath), October 2026 refresh, cited.
 
 ## Pillar 01 — AI Fundamentals & Theory
 - [01_AI_FUNDAMENTALS_AND_THEORY](https://github.com/FELIPEACASTRO/AIForge/tree/master/01_AI_FUNDAMENTALS_AND_THEORY): ML/DL theory, Deep Learning, Reinforcement Learning, Generative Models, Transformers, State Space Models, RAG, Agentic AI, AI Safety & Alignment, Modern Fine-Tuning (LoRA/DPO/GRPO), AI Evaluation, Causal Inference, Prompt Engineering, Explainable AI.
